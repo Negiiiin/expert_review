@@ -28,5 +28,118 @@
   "caption": "4.5mm reactive lymph node in the left supraclavicular fossa.",
   "sub_caption": "4.5mm reactive lymph node in the left supraclavicular fossa.",
   "image_context": "We report two cases of reactive supraclavicular lymphadenopathy following COVID-19 vaccination presenting at the same two-week wait neck lump clinic. A 47-year-old and a 55-year-old female, both otherwise fit and well, had received the COVID vaccination in their left arms three weeks previously. They both then developed a swollen left supraclavicular lymph node about three days later and were referred to the urgent neck lump clinic on the two-week wait cancer pathway to exclude malignancy. One of the patients reported that the lump had since reduced in size. Clinical and ultrasonographic examination confirmed the lumps as reactive lymph nodes (<xref rid=\"gr1_lrg\" ref-type=\"fig\">Fig. 1</xref>\n). No other neck lymphadenopathy was identified and both patients were reassured and discharged.\n). No other neck lymphadenopathy was identified and both patients were reassured and discharged.Fig. 14.5mm reactive lymph node in the left supraclavicular fossa.Fig. 1",
-  "relevant_image_context": "We report two cases of reactive supraclavicular lymphadenopathy following COVID-19 vaccination presenting at the same two-week wait neck lump clinic. A 47-year-old and a 55-year-old female, both otherwise fit and well, had received the COVID vaccination in their left arms three weeks previously. They both then developed a swollen left supraclavicular lymph node about three days later and were referred to the urgent neck lump clinic on the two-week wait cancer pathway to exclude malignancy. One of the patients reported that the lump had since reduced in size. Clinical and ultrasonographic examination confirmed the lumps as reactive lymph nodes (Fig. 1). No other neck lymphadenopathy was identified and both patients were reassured and discharged. Fig. 14.5mm reactive lymph node in the left supraclavicular fossa. Fig. 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "We report two cases of reactive supraclavicular lymphadenopathy following COVID-19 vaccination presenting at the same two-week wait neck lump clinic. A 47-year-old and a 55-year-old female, both otherwise fit and well, had received the COVID vaccination in their left arms three weeks previously. They both then developed a swollen left supraclavicular lymph node about three days later and were referred to the urgent neck lump clinic on the two-week wait cancer pathway to exclude malignancy. One of the patients reported that the lump had since reduced in size. Clinical and ultrasonographic examination confirmed the lumps as reactive lymph nodes (Fig. 1). No other neck lymphadenopathy was identified and both patients were reassured and discharged. Fig. 14.5mm reactive lymph node in the left supraclavicular fossa. Fig. 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_other_batch_85_9-PMC7883701-0-gr1_lrg.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_85_9-PMC7883701-0-gr1_lrg.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left supraclavicular lesion location",
+        "claim_text": "A lesion is located in the left supraclavicular region.",
+        "presence_question": "Does the model's response discuss left supraclavicular lesion location?",
+        "correctness_question": "Does the model's response correctly assert that A lesion is located in the left supraclavicular region?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lesion shape",
+        "claim_text": "The lesion in the left supraclavicular region has an oval shape.",
+        "presence_question": "Does the model's response discuss lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the left supraclavicular region has an oval shape?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "lesion margin",
+        "claim_text": "The lesion in the left supraclavicular region is well circumscribed.",
+        "presence_question": "Does the model's response discuss lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the left supraclavicular region is well circumscribed?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lesion echogenicity",
+        "claim_text": "The lesion in the left supraclavicular region is hypoechoic.",
+        "presence_question": "Does the model's response discuss lesion echogenicity?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the left supraclavicular region is hypoechoic?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "central linear echogenic area",
+        "claim_text": "A central linear echogenic area is present within the lesion in the left supraclavicular region.",
+        "presence_question": "Does the model's response discuss central linear echogenic area?",
+        "correctness_question": "Does the model's response correctly assert that A central linear echogenic area is present within the lesion in the left supraclavicular region?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesion cortex thickness",
+        "claim_text": "The lesion's cortex in the left supraclavicular region is not markedly thickened.",
+        "presence_question": "Does the model's response discuss lesion cortex thickness?",
+        "correctness_question": "Does the model's response correctly assert that The lesion's cortex in the left supraclavicular region is not markedly thickened?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "lesion cortex texture",
+        "claim_text": "The lesion's cortex in the left supraclavicular region is not heterogeneous.",
+        "presence_question": "Does the model's response discuss lesion cortex texture?",
+        "correctness_question": "Does the model's response correctly assert that The lesion's cortex in the left supraclavicular region is not heterogeneous?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "internal cystic or necrotic change",
+        "claim_text": "There is no internal cystic or necrotic change within the lesion in the left supraclavicular region.",
+        "presence_question": "Does the model's response discuss internal cystic or necrotic change?",
+        "correctness_question": "Does the model's response correctly assert that There is no internal cystic or necrotic change within the lesion in the left supraclavicular region?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "lesion calcification",
+        "claim_text": "No calcification is present in the lesion in the left supraclavicular region.",
+        "presence_question": "Does the model's response discuss lesion calcification?",
+        "correctness_question": "Does the model's response correctly assert that No calcification is present in the lesion in the left supraclavicular region?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "surrounding fluid collection",
+        "claim_text": "There is no surrounding fluid collection in the immediate field of the left supraclavicular lesion.",
+        "presence_question": "Does the model's response discuss surrounding fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that There is no surrounding fluid collection in the immediate field of the left supraclavicular lesion?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "preserved echogenic hilum",
+        "claim_text": "A preserved echogenic hilum is identified as a central linear echogenic area within a lymph node.",
+        "presence_question": "Does the model's response discuss preserved echogenic hilum?",
+        "correctness_question": "Does the model's response correctly state that a preserved echogenic hilum is identified as a central linear echogenic area within a lymph node?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "ultrasound features of reactive lymphadenopathy",
+        "claim_text": "Lymph nodes that are oval with well-defined borders and a preserved central echogenic hilum are typically associated with reactive (benign) lymphadenopathy.",
+        "presence_question": "Does the model's response discuss ultrasound features of reactive lymphadenopathy?",
+        "correctness_question": "Does the model's response correctly state that lymph nodes that are oval with well-defined borders and a preserved central echogenic hilum are typically associated with reactive (benign) lymphadenopathy?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "ultrasound features supporting reactive lymphadenopathy",
+        "claim_text": "The combination of an oval shape, well-circumscribed margins, and a central linear echogenic hilum on ultrasound supports reactive (benign) lymphadenopathy as the most consistent diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about ultrasound features supporting reactive lymphadenopathy?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of an oval shape, well-circumscribed margins, and a central linear echogenic hilum on ultrasound supports reactive (benign) lymphadenopathy as the most consistent diagnosis in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

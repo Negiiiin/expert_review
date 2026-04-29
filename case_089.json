@@ -27,5 +27,96 @@
   "caption": "Radiographs from Patient A. Abdominal CT scan with intravenous and oral contrast. (A) Axial abdominal CT scan demonstrating intraluminal gastric contrast (white arrow) and free intraperitoneal air (asterisk). (B) Axial abdominal CT scan demonstrating extravasation of oral contrast from the gastric lumen (white arrows) and free intraperitoneal air (asterisk). (C) Sagittal abdominal CT scan demonstrating free intraperitoneal air (asterisk). (D) Coronal abdominal CT scan demonstrating extravasation of oral contrast (white arrows) and free pelvic fluid (star).",
   "sub_caption": "(D) Coronal abdominal CT scan demonstrating extravasation of oral contrast (white arrows) and free pelvic fluid (star).",
   "image_context": "An 11-year-old female presented with abdominal pain of three days duration. Abdominal pain was associated with one episode of non-bilious non-bloody emesis. Due to worsening abdominal pain, she was taken to an outside hospital where laboratory studies were significant for elevated WBC of 18,000/UL with a neutrophil predominance and 25% bandemia. CT of the abdomen demonstrated pneumoperitoneum and ascites (<xref ref-type=\"fig\" rid=\"amjcaserep-17-694-g001\">Figure 1</xref>). The patient was transferred to our institution for definitive pediatric surgery care. Upon arrival at our hospital, she was noted to be in significant discomfort. Physical examination showed tachycardia and a tense and distended abdomen with both voluntary and involuntary guarding noted. She was taken emergently to the operating room where she underwent laparoscopic repair of a gastric perforation which measured 1×1 cm and was noted to be in the anterior distal stomach. The perforation was repaired using an omental patch. No biopsies were obtained since the gastric mucosa appeared normal. She was transferred to the PICU for close monitoring. She was transferred to the pediatric floor two days later. On post-operative day four, she was advanced to a clear liquid diet and later a regular diet. Stool ). The patient was transferred to our institution for definitive pediatric surgery care. Upon arrival at our hospital, she was noted to be in significant discomfort. Physical examination showed tachycardia and a tense and distended abdomen with both voluntary and involuntary guarding noted. She was taken emergently to the operating room where she underwent laparoscopic repair of a gastric perforation which measured 1×1 cm and was noted to be in the anterior distal stomach. The perforation was repaired using an omental patch. No biopsies were obtained since the gastric mucosa appeared normal. She was transferred to the PICU for close monitoring. She was transferred to the pediatric floor two days later. On post-operative day four, she was advanced to a clear liquid diet and later a regular diet. Stool Helicobacter pylori enzyme linked immunosorbent assay (EIA) and antibody (Ab) panel were negative. She was discharged home on omeprazole 40 mg daily. She had a repeat H. pylori screen done as an outpatient six weeks later, which was negative. She underwent an upper endoscopy five months later, which was normal. Histopathology of endoscopic biopsies were negative for any pathology. She was weaned off omeprazole after eight months without any issues. She is being followed at the gastroenterology clinic at our hospital. She did well initially but recently developed epigastric abdominal pain one year after omeprazole wean. She was restarted on omeprazole 40 mg. She underwent a repeat upper endoscopy, which was significant for nodular mucosa in the antrum but was otherwise normal. A CLO (campylobacter-like organism) test done from gastric biopsy was negative. Histopathology was negative of any pathologic diagnosis.",
-  "relevant_image_context": "An 11-year-old female presented with abdominal pain of three days duration. CT of the abdomen demonstrated pneumoperitoneum and ascites. The patient was transferred to our institution and underwent laparoscopic repair of a gastric perforation which measured 1×1 cm and was noted to be in the anterior distal stomach. The perforation was repaired using an omental patch."
+  "relevant_image_context": "An 11-year-old female presented with abdominal pain of three days duration. CT of the abdomen demonstrated pneumoperitoneum and ascites. The patient was transferred to our institution and underwent laparoscopic repair of a gastric perforation which measured 1×1 cm and was noted to be in the anterior distal stomach. The perforation was repaired using an omental patch.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_46_16-PMC5045918-0-amjcaserep-17-694-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_46_16-PMC5045918-0-amjcaserep-17-694-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "oral contrast extravasation in peritoneal cavity",
+        "claim_text": "There is extravasation of orally administered contrast into the peritoneal cavity.",
+        "presence_question": "Does the model's response discuss oral contrast extravasation in peritoneal cavity?",
+        "correctness_question": "Does the model's response correctly assert that There is extravasation of orally administered contrast into the peritoneal cavity.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "dependent fluid collection in pelvis",
+        "claim_text": "A dependent fluid collection is present in the pelvis.",
+        "presence_question": "Does the model's response discuss dependent fluid collection in pelvis?",
+        "correctness_question": "Does the model's response correctly assert that A dependent fluid collection is present in the pelvis.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "contrast extravasation into peritoneum",
+        "claim_text": "Extravasation of oral contrast into the peritoneal cavity indicates communication between the alimentary tract and the peritoneal space, representing an active leak.",
+        "presence_question": "Does the model's response discuss contrast extravasation into peritoneum?",
+        "correctness_question": "Does the model's response correctly state that Extravasation of oral contrast into the peritoneal cavity indicates communication between the alimentary tract and the peritoneal space, representing an active leak?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "CT with oral contrast",
+        "claim_text": "CT with oral contrast is used to evaluate for a persistent gastrointestinal leak.",
+        "presence_question": "Does the model's response discuss CT with oral contrast?",
+        "correctness_question": "Does the model's response correctly state that CT with oral contrast is used to evaluate for a persistent gastrointestinal leak?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "uncontained enteric leak with intra-abdominal contamination",
+        "claim_text": "An active, uncontained enteric leak with intra-abdominal contamination is typically treated with urgent surgical re-exploration and definitive repair to control the source and wash out the peritoneal cavity.",
+        "presence_question": "Does the model's response discuss uncontained enteric leak with intra-abdominal contamination?",
+        "correctness_question": "Does the model's response correctly state that An active, uncontained enteric leak with intra-abdominal contamination is typically treated with urgent surgical re-exploration and definitive repair to control the source and wash out the peritoneal cavity?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Contrast indicating enteric-peritoneal communication",
+        "claim_text": "The presence of extravasated orally administered contrast in the peritoneal cavity supports a communication between the alimentary tract and the peritoneal space (an active leak) in this case.",
+        "presence_question": "Does the model's response make an inferential link about Contrast indicating enteric-peritoneal communication?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of extravasated orally administered contrast in the peritoneal cavity supports a communication between the alimentary tract and the peritoneal space (an active leak) in this case.?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Imaging indicating uncontained enteric leak",
+        "claim_text": "Extravasated oral contrast within the peritoneal cavity together with a dependent pelvic fluid collection is consistent with an active, uncontained enteric leak in this case rather than a contained small leak or an isolated drainable collection.",
+        "presence_question": "Does the model's response make an inferential link about Imaging indicating uncontained enteric leak?",
+        "correctness_question": "Does the model's response correctly conclude that Extravasated oral contrast within the peritoneal cavity together with a dependent pelvic fluid collection is consistent with an active, uncontained enteric leak in this case rather than a contained small leak or an isolated drainable collection.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Imaging justifying urgent reoperation",
+        "claim_text": "Because the imaging demonstrates an active, uncontained enteric leak with intra-abdominal contamination, urgent return to the operating room for re-exploration and definitive repair is justified in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Imaging justifying urgent reoperation?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging demonstrates an active, uncontained enteric leak with intra-abdominal contamination, urgent return to the operating room for re-exploration and definitive repair is justified in this patient.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

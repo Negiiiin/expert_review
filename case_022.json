@@ -28,5 +28,144 @@
   "caption": "Coronal CT image depicting a large and heterogeneous median abdominal mass, extending from the anterosuperior aspect of the bladder towards the umbilicus.",
   "sub_caption": "Coronal CT image depicting a large and heterogeneous median abdominal mass, extending from the anterosuperior aspect of the bladder towards the umbilicus.",
   "image_context": "A 43-year-old man complained of haematuria and spastic abdominal pain for two years to a general practitioner. Ignoring the symptoms and attributing them to kidney stone disease until a severe lumbar pain attack that had lasted for about 24 hours when he decided to search for medical help. An ultrasonography of the abdomen detected a cystic abdominal mass. Later he was hospitalized in the “Second Surgery“ department of UMHAT „St. George“ Plovdiv, Bulgaria where a second abdominal ultrasonography confirmed a 13 cm large pelvic tumor. A contrast-enchanced CT revealed a tumor formation originating from the upper-anterior wall of the urinary bladder and growing cranio-medially to the abdominal cavity, right below the anterior abdominal wall. The shape of the formation was oval, elongated, and with sharp contours. The dimensions were: longitudinal - 129 mm, transverse - 67 mm, antero-posterior - 66 mm. [<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>]. The formation was with a cystic character, shell-like calcifications on the periphery were present, a calcium-dense structure in the interior was described and a solid nodular part, absorbing the contrast substance located in the region of the caudal pole. The density of the cyst fluid was about 25 HU, remaining unchanged to contrast. The surrounding adipose tissue was intact. As an additional finding a paravesical lymph node on the right with a size of 7.5 mm, a para-aortic lymph node −7.5 mm, several mesenteric lymph nodes with sizes up to 6 mm and pyelonehritis of the left kidney were described.]. The formation was with a cystic character, shell-like calcifications on the periphery were present, a calcium-dense structure in the interior was described and a solid nodular part, absorbing the contrast substance located in the region of the caudal pole. The density of the cyst fluid was about 25 HU, remaining unchanged to contrast. The surrounding adipose tissue was intact. As an additional finding a paravesical lymph node on the right with a size of 7.5 mm, a para-aortic lymph node −7.5 mm, several mesenteric lymph nodes with sizes up to 6 mm and pyelonehritis of the left kidney were described.Fig. 1Coronal CT image depicting a large and heterogeneous median abdominal mass, extending from the anterosuperior aspect of the bladder towards the umbilicus.Fig. 1",
-  "relevant_image_context": "A 43-year-old man complained of haematuria and spastic abdominal pain for two years to a general practitioner. Ignoring the symptoms and attributing them to kidney stone disease until a severe lumbar pain attack that had lasted for about 24 hours when he decided to search for medical help. An ultrasonography of the abdomen detected a cystic abdominal mass. Later he was hospitalized in the “Second Surgery“ department of UMHAT „St. George“ Plovdiv, Bulgaria where a second abdominal ultrasonography confirmed a 13 cm large pelvic tumor. A contrast-enhanced CT revealed a tumor formation originating from the upper-anterior wall of the urinary bladder and growing cranio-medially to the abdominal cavity, right below the anterior abdominal wall. The shape of the formation was oval, elongated, and with sharp contours. The dimensions were: longitudinal - 129 mm, transverse - 67 mm, antero-posterior - 66 mm. The formation was with a cystic character, shell-like calcifications on the periphery were present, a calcium-dense structure in the interior was described and a solid nodular part, absorbing the contrast substance located in the region of the caudal pole. The density of the cyst fluid was about 25 HU, remaining unchanged to contrast. The surrounding adipose tissue was intact. As an additional finding a paravesical lymph node on the right with a size of 7.5 mm, a para-aortic lymph node −7.5 mm, several mesenteric lymph nodes with sizes up to 6 mm and pyelonehritis of the left kidney were described. Fig. 1Coronal CT image depicting a large and heterogeneous median abdominal mass, extending from the anterosuperior aspect of the bladder towards the umbilicus."
+  "relevant_image_context": "A 43-year-old man complained of haematuria and spastic abdominal pain for two years to a general practitioner. Ignoring the symptoms and attributing them to kidney stone disease until a severe lumbar pain attack that had lasted for about 24 hours when he decided to search for medical help. An ultrasonography of the abdomen detected a cystic abdominal mass. Later he was hospitalized in the “Second Surgery“ department of UMHAT „St. George“ Plovdiv, Bulgaria where a second abdominal ultrasonography confirmed a 13 cm large pelvic tumor. A contrast-enhanced CT revealed a tumor formation originating from the upper-anterior wall of the urinary bladder and growing cranio-medially to the abdominal cavity, right below the anterior abdominal wall. The shape of the formation was oval, elongated, and with sharp contours. The dimensions were: longitudinal - 129 mm, transverse - 67 mm, antero-posterior - 66 mm. The formation was with a cystic character, shell-like calcifications on the periphery were present, a calcium-dense structure in the interior was described and a solid nodular part, absorbing the contrast substance located in the region of the caudal pole. The density of the cyst fluid was about 25 HU, remaining unchanged to contrast. The surrounding adipose tissue was intact. As an additional finding a paravesical lymph node on the right with a size of 7.5 mm, a para-aortic lymph node −7.5 mm, several mesenteric lymph nodes with sizes up to 6 mm and pyelonehritis of the left kidney were described. Fig. 1Coronal CT image depicting a large and heterogeneous median abdominal mass, extending from the anterosuperior aspect of the bladder towards the umbilicus.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_149_13-PMC11039325-0-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_149_13-PMC11039325-0-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "pelvic mass",
+        "claim_text": "A pelvic mass is present on coronal CT images.",
+        "presence_question": "Does the model's response discuss pelvic mass?",
+        "correctness_question": "Does the model's response correctly assert that A pelvic mass is present on coronal CT images?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "midline supravesical mass",
+        "claim_text": "The mass is located in the midline supravesical region.",
+        "presence_question": "Does the model's response discuss midline supravesical mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass is located in the midline supravesical region?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "anterosuperior bladder mass",
+        "claim_text": "The mass is located at the anterosuperior aspect of the bladder (bladder dome).",
+        "presence_question": "Does the model's response discuss anterosuperior bladder mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass is located at the anterosuperior aspect of the bladder (bladder dome)?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "extension toward umbilicus",
+        "claim_text": "The mass extends superiorly toward the umbilical region.",
+        "presence_question": "Does the model's response discuss extension toward umbilicus?",
+        "correctness_question": "Does the model's response correctly assert that The mass extends superiorly toward the umbilical region?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "cystic attenuation of mass",
+        "claim_text": "The mass demonstrates predominantly cystic attenuation on CT.",
+        "presence_question": "Does the model's response discuss cystic attenuation of the mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass demonstrates predominantly cystic attenuation on CT?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "inferior nodular solid component",
+        "claim_text": "A denser nodular solid component is present at the inferior (caudal) pole of the mass.",
+        "presence_question": "Does the model's response discuss inferior nodular solid component?",
+        "correctness_question": "Does the model's response correctly assert that A denser nodular solid component is present at the inferior (caudal) pole of the mass?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "enhancing solid component",
+        "claim_text": "The inferior pole solid component enhances with contrast on coronal CT images.",
+        "presence_question": "Does the model's response discuss enhancing solid component?",
+        "correctness_question": "Does the model's response correctly assert that The inferior pole solid component enhances with contrast on coronal CT images?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "peripheral curvilinear calcifications",
+        "claim_text": "The mass wall contains curvilinear peripheral calcifications on coronal CT images.",
+        "presence_question": "Does the model's response discuss peripheral curvilinear calcifications?",
+        "correctness_question": "Does the model's response correctly assert that The mass wall contains curvilinear peripheral calcifications on coronal CT images?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "paravesical lymph nodes",
+        "claim_text": "Lymph nodes are present in the paravesical region.",
+        "presence_question": "Does the model's response discuss paravesical lymph nodes?",
+        "correctness_question": "Does the model's response correctly assert that Lymph nodes are present in the paravesical region?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "para-aortic lymph nodes",
+        "claim_text": "Lymph nodes are present in the para-aortic region.",
+        "presence_question": "Does the model's response discuss para-aortic lymph nodes?",
+        "correctness_question": "Does the model's response correctly assert that Lymph nodes are present in the para-aortic region?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "small lymph nodes",
+        "claim_text": "The identified lymph nodes are small in size.",
+        "presence_question": "Does the model's response discuss small lymph nodes?",
+        "correctness_question": "Does the model's response correctly assert that The identified lymph nodes are small in size?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "urachus anatomy",
+        "claim_text": "The urachus is a midline supravesical structure continuous with the bladder dome (anterosuperior bladder wall) that extends toward the umbilicus.",
+        "presence_question": "Does the model's response discuss urachus anatomy?",
+        "correctness_question": "Does the model's response correctly state that The urachus is a midline supravesical structure continuous with the bladder dome (anterosuperior bladder wall) that extends toward the umbilicus?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "urachal neoplasm imaging",
+        "claim_text": "A midline supravesical mass contiguous with the bladder dome that has mixed cystic and enhancing solid mural components, peripheral wall calcification, and regional lymphadenopathy is typically associated with urachal neoplasm.",
+        "presence_question": "Does the model's response discuss urachal neoplasm imaging?",
+        "correctness_question": "Does the model's response correctly state that A midline supravesical mass contiguous with the bladder dome that has mixed cystic and enhancing solid mural components, peripheral wall calcification, and regional lymphadenopathy is typically associated with urachal neoplasm?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Anatomical consistency with urachal lesion",
+        "claim_text": "The mass arising from the anterosuperior bladder wall and extending toward the umbilicus is anatomically consistent with a lesion originating in the urachal region, making a urachal-region neoplasm likely in this case.",
+        "presence_question": "Does the model's response make an inferential link about anatomical consistency with urachal lesion?",
+        "correctness_question": "Does the model's response correctly conclude that The mass arising from the anterosuperior bladder wall and extending toward the umbilicus is anatomically consistent with a lesion originating in the urachal region, making a urachal-region neoplasm likely in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Imaging features supporting urachal neoplasm",
+        "claim_text": "The combination of a predominantly cystic midline supravesical mass with an enhancing solid mural nodule, peripheral wall calcifications, and regional lymph nodes supports the diagnosis of a urachal-region neoplasm and makes a urachal-region neoplasm likely in this case.",
+        "presence_question": "Does the model's response make an inferential link about imaging features supporting urachal neoplasm?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a predominantly cystic midline supravesical mass with an enhancing solid mural nodule, peripheral wall calcifications, and regional lymph nodes supports the diagnosis of a urachal-region neoplasm and makes a urachal-region neoplasm likely in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

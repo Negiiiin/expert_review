@@ -27,5 +27,113 @@
   "caption": "Visualization of the arcuate fasciculus by DTI.",
   "sub_caption": "Visualization of the arcuate fasciculus by DTI.",
   "image_context": "From the end of the 19th century to the present, the relationship between brain white matter fiber structure and language has been perpetually explored, and the technological advancements are streamlined daily. Among these advancements, diffusion-weighted magnetic resonance imaging, also known as DTI, allowed tracking of white matter fiber structure in vivo (Janssen et al., 2023). The post-processing techniques of such sequence are mainly divided into deterministic and probabilistic fiber tracking. In the deterministic fiber tracking technology, through neuroanatomy, a variety of white matter fiber structures are confirmed; thus, it has a high degree of reliability and restoration authenticity. For example, the arcuate bundle, which is the highlight of this review, is difficult to display via conventional MRI techniques, let alone the substructure, while DTI sequences can provide very clear morphological structures such as that in <xref rid=\"fnins-17-1307834-g002\" ref-type=\"fig\">Figure 2</xref>. After restoration of this brain structure noninvasively, as a clinician, a question is posed: how can it be used and researched? Thus far, we found that this technology can be utilized more in stroke and brain tumor. For brain tumors, it can be precisely positioned prior to surgery to significantly improve the quality of life of patients after surgery, and secondly, it can be used to predict neurological function recovery, such as language and cognition after surgery (. After restoration of this brain structure noninvasively, as a clinician, a question is posed: how can it be used and researched? Thus far, we found that this technology can be utilized more in stroke and brain tumor. For brain tumors, it can be precisely positioned prior to surgery to significantly improve the quality of life of patients after surgery, and secondly, it can be used to predict neurological function recovery, such as language and cognition after surgery (Mori and van Zijl, 2002; Yang et al., 2017; Zimmermann et al., 2020). For stroke, the highlight is on predicting the recovery of language ability and exploring new methods of diagnosis and treatment, such as neuromodulation therapy (Puig et al., 2017; Wang et al., 2020).",
-  "relevant_image_context": "From the end of the 19th century to the present, the relationship between brain white matter fiber structure and language has been perpetually explored, and the technological advancements are streamlined daily. Among these advancements, diffusion-weighted magnetic resonance imaging, also known as DTI, allowed tracking of white matter fiber structure in vivo (Janssen et al., 2023). The post-processing techniques of such sequence are mainly divided into deterministic and probabilistic fiber tracking. In the deterministic fiber tracking technology, through neuroanatomy, a variety of white matter fiber structures are confirmed; thus, it has a high degree of reliability and restoration authenticity. For example, the arcuate bundle, which is the highlight of this review, is difficult to display via conventional MRI techniques, let alone the substructure, while DTI sequences can provide very clear morphological structures such as that in Figure 2. After restoration of this brain structure noninvasively, as a clinician, a question is posed: how can it be used and researched? Thus far, we found that this technology can be utilized more in stroke and brain tumor. For brain tumors, it can be precisely positioned prior to surgery to significantly improve the quality of life of patients after surgery, and secondly, it can be used to predict neurological function recovery, such as language and cognition after surgery (. After restoration of this brain structure noninvasively, as a clinician, a question is posed: how can it be used and researched? Thus far, we found that this technology can be utilized more in stroke and brain tumor. For brain tumors, it can be precisely positioned prior to surgery to significantly improve the quality of life of patients after surgery, and secondly, it can be used to predict neurological function recovery, such as language and cognition after surgery (Mori and van Zijl, 2002; Yang et al., 2017; Zimmermann et al., 2020). For stroke, the highlight is on predicting the recovery of language ability and exploring new methods of diagnosis and treatment, such as neuromodulation therapy (Puig et al., 2017; Wang et al., 2020). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "From the end of the 19th century to the present, the relationship between brain white matter fiber structure and language has been perpetually explored, and the technological advancements are streamlined daily. Among these advancements, diffusion-weighted magnetic resonance imaging, also known as DTI, allowed tracking of white matter fiber structure in vivo (Janssen et al., 2023). The post-processing techniques of such sequence are mainly divided into deterministic and probabilistic fiber tracking. In the deterministic fiber tracking technology, through neuroanatomy, a variety of white matter fiber structures are confirmed; thus, it has a high degree of reliability and restoration authenticity. For example, the arcuate bundle, which is the highlight of this review, is difficult to display via conventional MRI techniques, let alone the substructure, while DTI sequences can provide very clear morphological structures such as that in Figure 2. After restoration of this brain structure noninvasively, as a clinician, a question is posed: how can it be used and researched? Thus far, we found that this technology can be utilized more in stroke and brain tumor. For brain tumors, it can be precisely positioned prior to surgery to significantly improve the quality of life of patients after surgery, and secondly, it can be used to predict neurological function recovery, such as language and cognition after surgery (. After restoration of this brain structure noninvasively, as a clinician, a question is posed: how can it be used and researched? Thus far, we found that this technology can be utilized more in stroke and brain tumor. For brain tumors, it can be precisely positioned prior to surgery to significantly improve the quality of life of patients after surgery, and secondly, it can be used to predict neurological function recovery, such as language and cognition after surgery (Mori and van Zijl, 2002; Yang et al., 2017; Zimmermann et al., 2020). For stroke, the highlight is on predicting the recovery of language ability and exploring new methods of diagnosis and treatment, such as neuromodulation therapy (Puig et al., 2017; Wang et al., 2020). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_160_99-PMC10684764-2-fnins-17-1307834-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_160_99-PMC10684764-2-fnins-17-1307834-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "tractography overlay on sagittal MRI",
+        "claim_text": "The image shows a diffusion tensor tractography reconstruction with colored streamlines overlaid on a sagittal MRI.",
+        "presence_question": "Does the model's response discuss tractography overlay on sagittal MRI?",
+        "correctness_question": "Does the model's response correctly assert that The image shows a diffusion tensor tractography reconstruction with colored streamlines overlaid on a sagittal MRI.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "prominent fiber bundle",
+        "claim_text": "A prominent bundle of fibers is present on the sagittal image.",
+        "presence_question": "Does the model's response discuss prominent fiber bundle?",
+        "correctness_question": "Does the model's response correctly assert that A prominent bundle of fibers is present on the sagittal image.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "posterior temporal fiber bundle",
+        "claim_text": "The prominent bundle of fibers is located in the posterior temporal region.",
+        "presence_question": "Does the model's response discuss posterior temporal fiber bundle?",
+        "correctness_question": "Does the model's response correctly assert that The prominent bundle of fibers is located in the posterior temporal region.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "extension to inferior frontal region",
+        "claim_text": "The prominent bundle of fibers extends to the inferior frontal region.",
+        "presence_question": "Does the model's response discuss extension to inferior frontal region?",
+        "correctness_question": "Does the model's response correctly assert that The prominent bundle of fibers extends to the inferior frontal region.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "arcuate-like tract shape",
+        "claim_text": "The tract has a curving, arcuate-like shape between posterior and anterior language-related areas.",
+        "presence_question": "Does the model's response discuss arcuate-like tract shape?",
+        "correctness_question": "Does the model's response correctly assert that The tract has a curving, arcuate-like shape between posterior and anterior language-related areas.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "isolated cortical lesion absence",
+        "claim_text": "No isolated cortical lesion is present in the cortex on the sagittal image.",
+        "presence_question": "Does the model's response discuss isolated cortical lesion absence?",
+        "correctness_question": "Does the model's response correctly assert that No isolated cortical lesion is present in the cortex on the sagittal image.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "white-matter fiber pathways",
+        "claim_text": "White-matter fiber pathways can be identified by diffusion tensor tractography.",
+        "presence_question": "Does the model's response discuss white-matter fiber pathways?",
+        "correctness_question": "Does the model's response correctly state that White-matter fiber pathways can be identified by diffusion tensor tractography?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "posterior temporal-frontal white-matter connection",
+        "claim_text": "Disruption of the white-matter connection between posterior temporal and frontal language areas is associated with impaired verbal repetition.",
+        "presence_question": "Does the model's response discuss posterior temporal-frontal white-matter connection?",
+        "correctness_question": "Does the model's response correctly state that Disruption of the white-matter connection between posterior temporal and frontal language areas is associated with impaired verbal repetition?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "arcuate-like tract",
+        "claim_text": "An arcuate-like tract characteristically connects posterior temporal and inferior frontal language regions.",
+        "presence_question": "Does the model's response discuss arcuate-like tract?",
+        "correctness_question": "Does the model's response correctly state that An arcuate-like tract characteristically connects posterior temporal and inferior frontal language regions?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "white-matter fiber depiction",
+        "claim_text": "The colored streamlines on the sagittal image support that white-matter fiber pathways are depicted in this case.",
+        "presence_question": "Does the model's response make an inferential link about white-matter fiber depiction?",
+        "correctness_question": "Does the model's response correctly conclude that The colored streamlines on the sagittal image support that white-matter fiber pathways are depicted in this case.?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "arcuate-like tract repetition link",
+        "claim_text": "The image is consistent with the conclusion that disruption of a curving arcuate-like white-matter tract extending from the posterior temporal region to the inferior frontal region would most likely produce an impaired verbal repetition deficit in this case.",
+        "presence_question": "Does the model's response make an inferential link about arcuate-like tract repetition link?",
+        "correctness_question": "Does the model's response correctly conclude that The image is consistent with the conclusion that disruption of a curving arcuate-like white-matter tract extending from the posterior temporal region to the inferior frontal region would most likely produce an impaired verbal repetition deficit in this case.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

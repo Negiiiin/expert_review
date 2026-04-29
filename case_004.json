@@ -29,5 +29,188 @@
   "caption": "CD209L is expressed in lung as well as renal epithelial\nand endothelial\ncells: PFA fixed human lung, renal, and temporal arteriole tissues\nwere subjected to immunofluorescence staining. Lung tissue stained\nwith anti-MUC1, anti-CD31, and anti-CD209L antibodies. (A) Type II\nalveoli epithelial cells of alveoli were positive for CD209L (red)\nand MUC1 (green). (B) Pulmonary arteriole endothelial cells were positive\nfor CD31 (green) and CD209L (red). (C) Endothelial cells of the temporal\narteriole were stained with CD209L (green) and CD31 (red). (D) Renal\nendothelial cells were positive for CD209L (red) and CD31 (green).\nWhite arrowhead points to the alveolar cell, AS = alveolar space,\nand white dotted line corresponds to alveolar septa. Image magnification,\nwhite bars = 50 μm.",
   "sub_caption": "(A) Type II alveoli epithelial cells of alveoli were positive for CD209L (red) and MUC1 (green). White arrowhead points to the alveolar cell, AS = alveolar space, and white dotted line corresponds to alveolar septa.",
   "image_context": "To investigate the potential involvement of CD209L and CD209 in\nCOVID-19, we first examined expression of CD209L in human tissues\nfrom SARS-CoV-2 target organs, which include lung endothelial and\nepithelial cells, renal vessels, tubules, glomeruli, and the temporal\nartery, via immunofluorescence staining. Lung tissue was costained\nwith antibodies against CD209L and MUC1, the latter serving as a marker\nfor type II alveolar cells,41,42 and was examined using\nlaser microscopy. Isotope-labeled antibody served as a control and\nshowed negligible staining of the lung tissue (S. Figure 1A). The specificity of CD209L antibody was validated\nin cell culture in HUVEC-TERT cells. Knockdown of CD209L eliminated\nthe immunoreactivity of CD209L antibody in Western blotting (S. Figure 1B). Our results showed prominent expression\nof CD209L in the MUC1 positive alveolar cells (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">Figure <xref rid=\"fig1\" ref-type=\"fig\">1</xref></xref>A). We also observed expression of CD209L\nin pulmonary capillaries (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">1</xref>A). We also observed expression of CD209L\nin pulmonary capillaries (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">Figure <xref rid=\"fig1\" ref-type=\"fig\">1</xref></xref>B), the endothelium of the small and medium sized temporal\nartery (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">1</xref>B), the endothelium of the small and medium sized temporal\nartery (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">Figure <xref rid=\"fig1\" ref-type=\"fig\">1</xref></xref>C),\nand renal arterioles (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">1</xref>C),\nand renal arterioles (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">Figure <xref rid=\"fig1\" ref-type=\"fig\">1</xref></xref>D). CD31 served as a marker of endothelial cells (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">1</xref>D). CD31 served as a marker of endothelial cells (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">Figure <xref rid=\"fig1\" ref-type=\"fig\">1</xref></xref>B–D. Moreover,\nwe show that CD209L is expressed in renal proximal tubular epithelial\ncells, which were marked by aquaporin 1 (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">1</xref>B–D. Moreover,\nwe show that CD209L is expressed in renal proximal tubular epithelial\ncells, which were marked by aquaporin 1 (S. Figure 2A). However, CD209L was not observed in the glomerular capillaries,\nand minimal expression was noted in the mesangial area, probably in\nthe infiltrating immune cells (S. Figure 2B). The results demonstrate the prominent expression of CD209L in\ntype II alveolar cells and pulmonary endothelium as well as renal\nvessels and renal tubular cells, which are also potential target cells\nof SARS-CoV-2. CD209 was expressed only in a subset of type MUC1 positive II alveolar\ncells (S. Figure 2A). Furthermore, unlike\nCD209L, which is highly expressed in endothelial cells (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">Figure <xref rid=\"fig1\" ref-type=\"fig\">1</xref></xref>C,D), we did not observe expression\nof CD209 in the pulmonary or renal arterioles (data not shown). A\ndistinct expression of CD209 was observed in the limited proximal\ntubular epithelial cells in kidneys (<xref rid=\"oc0c01537_0001\" ref-type=\"fig\">1</xref>C,D), we did not observe expression\nof CD209 in the pulmonary or renal arterioles (data not shown). A\ndistinct expression of CD209 was observed in the limited proximal\ntubular epithelial cells in kidneys (S. Figure 3B), but glomerular capillaries were also mostly negative for\nCD209 (S. Figure 3C). Overall, these results\nsuggest that CD209 has a limited expression profile compared to CD209L\nin the organs examined.",
-  "relevant_image_context": "Lung tissue was costained with antibodies against CD209L and MUC1, the latter serving as a marker for type II alveolar cells,41,42 and was examined using laser microscopy. Isotope-labeled antibody served as a control and showed negligible staining of the lung tissue (S. Figure 1A). Our results showed prominent expression of CD209L in the MUC1 positive alveolar cells (Figure 1A). We also observed expression of CD209L in pulmonary capillaries (Figure 1A)."
+  "relevant_image_context": "Lung tissue was costained with antibodies against CD209L and MUC1, the latter serving as a marker for type II alveolar cells,41,42 and was examined using laser microscopy. Isotope-labeled antibody served as a control and showed negligible staining of the lung tissue (S. Figure 1A). Our results showed prominent expression of CD209L in the MUC1 positive alveolar cells (Figure 1A). We also observed expression of CD209L in pulmonary capillaries (Figure 1A).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_3_filelist_noncommercial_batch_96_33-PMC8265543-4-oc0c01537_0001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_96_33-PMC8265543-4-oc0c01537_0001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "AS label on right side",
+        "claim_text": "The label 'AS' is located on the right side of the main image.",
+        "presence_question": "Does the model's response discuss AS label on right side?",
+        "correctness_question": "Does the model's response correctly assert that The label 'AS' is located on the right side of the main image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "dotted white line on alveolar septal border",
+        "claim_text": "A dotted white line is located at the alveolar septal border.",
+        "presence_question": "Does the model's response discuss dotted white line on alveolar septal border?",
+        "correctness_question": "Does the model's response correctly assert that A dotted white line is located at the alveolar septal border?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "white arrowhead on alveolar septal border",
+        "claim_text": "A white arrowhead is located along the dotted alveolar septal border.",
+        "presence_question": "Does the model's response discuss white arrowhead on alveolar septal border?",
+        "correctness_question": "Does the model's response correctly assert that A white arrowhead is located along the dotted alveolar septal border?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "bright green cell present",
+        "claim_text": "A bright green cell is present in the image.",
+        "presence_question": "Does the model's response discuss bright green cell present?",
+        "correctness_question": "Does the model's response correctly assert that A bright green cell is present in the image?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "bright green cell on alveolar septal border",
+        "claim_text": "A bright green cell is located along the dotted alveolar septal border.",
+        "presence_question": "Does the model's response discuss bright green cell on alveolar septal border?",
+        "correctness_question": "Does the model's response correctly assert that A bright green cell is located along the dotted alveolar septal border?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Muc1 label at left margin",
+        "claim_text": "The green label 'Muc1' is located at the left margin of the image.",
+        "presence_question": "Does the model's response discuss Muc1 label at left margin?",
+        "correctness_question": "Does the model's response correctly assert that The green label 'Muc1' is located at the left margin of the image?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "fluorescent signal on left side",
+        "claim_text": "Fluorescent signal is located on the left side of the image.",
+        "presence_question": "Does the model's response discuss fluorescent signal on left side?",
+        "correctness_question": "Does the model's response correctly assert that Fluorescent signal is located on the left side of the image?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "inset in lower right corner",
+        "claim_text": "An inset zoomed-in view is located in the lower right corner of the figure.",
+        "presence_question": "Does the model's response discuss inset in lower right corner?",
+        "correctness_question": "Does the model's response correctly assert that An inset zoomed-in view is located in the lower right corner of the figure?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "arrowhead-marked cell above midline",
+        "claim_text": "An arrowhead-marked cell is located above the horizontal midline of the main image.",
+        "presence_question": "Does the model's response discuss arrowhead-marked cell above midline?",
+        "correctness_question": "Does the model's response correctly assert that An arrowhead-marked cell is located above the horizontal midline of the main image?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "arrowhead-marked cell left of midline",
+        "claim_text": "An arrowhead-marked cell is located to the left of the vertical midline of the main image.",
+        "presence_question": "Does the model's response discuss arrowhead-marked cell left of midline?",
+        "correctness_question": "Does the model's response correctly assert that An arrowhead-marked cell is located to the left of the vertical midline of the main image?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "dotted alveolar septal border above midline",
+        "claim_text": "The dotted alveolar septal border outline is located above the horizontal midline of the main image.",
+        "presence_question": "Does the model's response discuss dotted alveolar septal border above midline?",
+        "correctness_question": "Does the model's response correctly assert that The dotted alveolar septal border outline is located above the horizontal midline of the main image?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "dotted alveolar septal border left of midline",
+        "claim_text": "The dotted alveolar septal border outline is located to the left of the vertical midline of the main image.",
+        "presence_question": "Does the model's response discuss dotted alveolar septal border left of midline?",
+        "correctness_question": "Does the model's response correctly assert that The dotted alveolar septal border outline is located to the left of the vertical midline of the main image?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "inset",
+        "claim_text": "An inset is a zoomed-in view of a region of the main image.",
+        "presence_question": "Does the model's response discuss inset?",
+        "correctness_question": "Does the model's response correctly state that An inset is a zoomed-in view of a region of the main image?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "arrowhead marker",
+        "claim_text": "An arrowhead marker points to or indicates a specific feature in an image.",
+        "presence_question": "Does the model's response discuss arrowhead marker?",
+        "correctness_question": "Does the model's response correctly state that An arrowhead marker points to or indicates a specific feature in an image?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "image label text",
+        "claim_text": "Image label text identifies the anatomical region or molecular marker shown in the image channel.",
+        "presence_question": "Does the model's response discuss image label text?",
+        "correctness_question": "Does the model's response correctly state that Image label text identifies the anatomical region or molecular marker shown in the image channel?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "dotted outline",
+        "claim_text": "A dotted outline is used to demarcate the borders of structures in an image.",
+        "presence_question": "Does the model's response discuss dotted outline?",
+        "correctness_question": "Does the model's response correctly state that A dotted outline is used to demarcate the borders of structures in an image?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Muc1 fluorescent localization",
+        "claim_text": "The green fluorescent signal corresponds to the Muc1 marker and is located on the left side of the image, which supports that the Muc1 fluorescent signal is located in the left side of the image.",
+        "presence_question": "Does the model's response make an inferential link about Muc1 fluorescent localization?",
+        "correctness_question": "Does the model's response correctly conclude that the green fluorescent signal corresponds to the Muc1 marker and is located on the left side of the image, which supports that the Muc1 fluorescent signal is located in the left side of the image?",
+        "premise_perception_ids": [
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "cell location at septal border",
+        "claim_text": "The arrowhead marks a specific bright green cell that lies along the dotted alveolar septal border, which supports that the cell marked by the arrowhead is located at the alveolar septal border.",
+        "presence_question": "Does the model's response make an inferential link about cell location at septal border?",
+        "correctness_question": "Does the model's response correctly conclude that the arrowhead marks a specific bright green cell that lies along the dotted alveolar septal border, which supports that the cell marked by the arrowhead is located at the alveolar septal border?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "inset magnified region",
+        "claim_text": "The inset in the lower right corner is a magnified view of a region of the main image, which justifies interpreting the inset as a zoomed-in view of the main image's lower-right region.",
+        "presence_question": "Does the model's response make an inferential link about inset magnified region?",
+        "correctness_question": "Does the model's response correctly conclude that the inset in the lower right corner is a magnified view of a region of the main image, which justifies interpreting the inset as a zoomed-in view of the main image's lower-right region?",
+        "premise_perception_ids": [
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "co-localization in upper-left quadrant",
+        "claim_text": "Both the arrowhead-marked cell and the dotted alveolar septal border are located in the upper-left quadrant of the main image, which supports that these features co-localize in the upper-left quadrant of the image.",
+        "presence_question": "Does the model's response make an inferential link about co-localization in upper-left quadrant?",
+        "correctness_question": "Does the model's response correctly conclude that both the arrowhead-marked cell and the dotted alveolar septal border are located in the upper-left quadrant of the main image, which supports that these features co-localize in the upper-left quadrant of the image?",
+        "premise_perception_ids": [
+          "p9",
+          "p10",
+          "p11",
+          "p12"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

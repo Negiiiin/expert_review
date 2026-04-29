@@ -28,5 +28,118 @@
   "caption": "CT scan in the immediate postoperative period showing total resection of the tumor and subarachnoid bleeding that extends from the surgical site towards the left sylvian and interhemispheric fissure, modified Fisher 3. CT, computed tomography",
   "sub_caption": "CT scan in the immediate postoperative period showing total resection of the tumor and subarachnoid bleeding that extends from the surgical site towards the left sylvian and interhemispheric fissure, modified Fisher 3. CT, computed tomography",
   "image_context": "After surgery, the patient was drowsy and immediate computed tomography (CT) scan confirmed total tumor removal, with associated postoperative changes in addition to a subarachnoid hemorrhage (SAH) modified-Fisher 3 (<xref rid=\"jcen-2023-e2023-08-005f2\" ref-type=\"fig\">Fig. 2</xref>).).",
-  "relevant_image_context": "After surgery, the patient was drowsy and immediate computed tomography (CT) scan confirmed total tumor removal, with associated postoperative changes in addition to a subarachnoid hemorrhage (SAH) modified-Fisher 3."
+  "relevant_image_context": "After surgery, the patient was drowsy and immediate computed tomography (CT) scan confirmed total tumor removal, with associated postoperative changes in addition to a subarachnoid hemorrhage (SAH) modified-Fisher 3.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_152_45-PMC11220296-2-jcen-2023-e2023-08-005f2.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_152_45-PMC11220296-2-jcen-2023-e2023-08-005f2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "postoperative craniotomy changes",
+        "claim_text": "There are postoperative changes related to a recent craniotomy involving the cranium and brain.",
+        "presence_question": "Does the model's response discuss postoperative craniotomy changes?",
+        "correctness_question": "Does the model's response correctly assert that there are postoperative changes related to a recent craniotomy involving the cranium and brain?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "subarachnoid hyperdense material",
+        "claim_text": "Hyperdense material is present in the subarachnoid spaces, cisterns, and along the cortical sulci.",
+        "presence_question": "Does the model's response discuss subarachnoid hyperdense material?",
+        "correctness_question": "Does the model's response correctly assert that hyperdense material is present in the subarachnoid spaces, cisterns, and along the cortical sulci?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "air at anterior skull base",
+        "claim_text": "There is postoperative air located along the anterior skull base.",
+        "presence_question": "Does the model's response discuss air at the anterior skull base?",
+        "correctness_question": "Does the model's response correctly assert that there is postoperative air located along the anterior skull base?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Hyperdense material in subarachnoid spaces",
+        "claim_text": "Hyperdense material layering within subarachnoid spaces on noncontrast CT suggests acute subarachnoid hemorrhage.",
+        "presence_question": "Does the model's response discuss Hyperdense material in subarachnoid spaces?",
+        "correctness_question": "Does the model's response correctly state that Hyperdense material layering within subarachnoid spaces on noncontrast CT suggests acute subarachnoid hemorrhage?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Acute subarachnoid hemorrhage and vascular lesions",
+        "claim_text": "Acute subarachnoid hemorrhage is typically associated with an underlying vascular lesion or acute vascular compromise.",
+        "presence_question": "Does the model's response discuss Acute subarachnoid hemorrhage and vascular lesions?",
+        "correctness_question": "Does the model's response correctly state that Acute subarachnoid hemorrhage is typically associated with an underlying vascular lesion or acute vascular compromise?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "CT angiography of the head and neck",
+        "claim_text": "CT angiography (CTA) of the head and neck is typically better for rapid, noninvasive evaluation of the cerebral and cervical vasculature.",
+        "presence_question": "Does the model's response discuss CT angiography of the head and neck?",
+        "correctness_question": "Does the model's response correctly state that CT angiography (CTA) of the head and neck is typically better for rapid, noninvasive evaluation of the cerebral and cervical vasculature?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Postoperative identification of vascular lesion",
+        "claim_text": "Identification of an underlying vascular lesion postoperatively typically leads to changes in immediate postoperative management.",
+        "presence_question": "Does the model's response discuss Postoperative identification of vascular lesion?",
+        "correctness_question": "Does the model's response correctly state that Identification of an underlying vascular lesion postoperatively typically leads to changes in immediate postoperative management?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "Recent craniotomy postoperative CT findings",
+        "claim_text": "Recent craniotomy is typically associated with postoperative air and surgical change on head CT.",
+        "presence_question": "Does the model's response discuss Recent craniotomy postoperative CT findings?",
+        "correctness_question": "Does the model's response correctly state that Recent craniotomy is typically associated with postoperative air and surgical change on head CT?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Hyperdense subarachnoid layering supports acute SAH",
+        "claim_text": "The hyperdense material layering within the subarachnoid spaces on the noncontrast head CT supports the presence of acute subarachnoid hemorrhage in this case.",
+        "presence_question": "Does the model's response make an inferential link about Hyperdense subarachnoid layering supports acute SAH?",
+        "correctness_question": "Does the model's response correctly conclude that The hyperdense material layering within the subarachnoid spaces on the noncontrast head CT supports the presence of acute subarachnoid hemorrhage in this case?",
+        "premise_perception_ids": [
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Acute SAH suggests vascular lesion or complication",
+        "claim_text": "The presence of acute-appearing subarachnoid blood is consistent with an underlying vascular lesion or acute vascular complication contributing to the patient's postoperative altered mental status.",
+        "presence_question": "Does the model's response make an inferential link about Acute SAH suggests vascular lesion or complication?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of acute-appearing subarachnoid blood is consistent with an underlying vascular lesion or acute vascular complication contributing to the patient's postoperative altered mental status?",
+        "premise_perception_ids": [
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "CTA head and neck justified as next test",
+        "claim_text": "CT angiography of the head and neck is justified as the next diagnostic step in this case because there is acute subarachnoid blood on the immediate postoperative CT, CTA provides rapid noninvasive vascular imaging, and detection of a vascular lesion can alter immediate management.",
+        "presence_question": "Does the model's response make an inferential link about CTA head and neck justified as next test?",
+        "correctness_question": "Does the model's response correctly conclude that CT angiography of the head and neck is justified as the next diagnostic step in this case because there is acute subarachnoid blood on the immediate postoperative CT, CTA provides rapid noninvasive vascular imaging, and detection of a vascular lesion can alter immediate management?",
+        "premise_perception_ids": [
+          "p2",
+          "p1",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

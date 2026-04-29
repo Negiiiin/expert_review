@@ -27,5 +27,123 @@
   "caption": "Solitary adrenal metastasis in a patient with previous history of treated ovarian carcinoma. Patient was symptomatic with flank pain necessitating an open adrenalectomy.",
   "sub_caption": "Solitary adrenal metastasis in a patient with previous history of treated ovarian carcinoma. Patient was symptomatic with flank pain necessitating an open adrenalectomy.",
   "image_context": "The adrenal is a common site of metastatic disease in patients with cancers of other organs. The most common primary sites of origin are the lung, breast, kidney, gastrointestinal tract, and melanoma. About half of patients with an adrenal mass in the setting of known malignancy were found to have a metastasis to the adrenal gland [27]. With this in mind, careful evaluation for other adrenal primary tumours is still warranted to exclude functioning tumours. Most patients with metastases to the adrenal gland will also be found to have multiple sites of metastatic disease, but occasionally the adrenal will be the site of a solitary metastasis. Most patients are asymptomatic with the adrenal mass noted incidentally on imaging, but occasionally patients will experience back or flank pain from a large adrenal lesion (<xref rid=\"gr4\" ref-type=\"fig\">Fig. 4</xref>).).",
-  "relevant_image_context": "The adrenal is a common site of metastatic disease in patients with cancers of other organs. The most common primary sites of origin are the lung, breast, kidney, gastrointestinal tract, and melanoma. About half of patients with an adrenal mass in the setting of known malignancy were found to have a metastasis to the adrenal gland [27]. With this in mind, careful evaluation for other adrenal primary tumours is still warranted to exclude functioning tumours. Most patients with metastases to the adrenal gland will also be found to have multiple sites of metastatic disease, but occasionally the adrenal will be the site of a solitary metastasis. Most patients are asymptomatic with the adrenal mass noted incidentally on imaging, but occasionally patients will experience back or flank pain from a large adrenal lesion (Fig. 4).)."
+  "relevant_image_context": "The adrenal is a common site of metastatic disease in patients with cancers of other organs. The most common primary sites of origin are the lung, breast, kidney, gastrointestinal tract, and melanoma. About half of patients with an adrenal mass in the setting of known malignancy were found to have a metastasis to the adrenal gland [27]. With this in mind, careful evaluation for other adrenal primary tumours is still warranted to exclude functioning tumours. Most patients with metastases to the adrenal gland will also be found to have multiple sites of metastatic disease, but occasionally the adrenal will be the site of a solitary metastasis. Most patients are asymptomatic with the adrenal mass noted incidentally on imaging, but occasionally patients will experience back or flank pain from a large adrenal lesion (Fig. 4).).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_36_22-PMC5122797-1-gr4.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_36_22-PMC5122797-1-gr4.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left adrenal mass",
+        "claim_text": "A mass is present in the left adrenal/upper pole region on coronal CT.",
+        "presence_question": "Does the model's response discuss the left adrenal mass?",
+        "correctness_question": "Does the model's response correctly assert that a mass is present in the left adrenal/upper pole region on coronal CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "heterogeneous appearance of left adrenal mass",
+        "claim_text": "The left adrenal mass has a heterogeneous appearance on coronal CT.",
+        "presence_question": "Does the model's response discuss the heterogeneous appearance of the left adrenal mass?",
+        "correctness_question": "Does the model's response correctly assert that the left adrenal mass has a heterogeneous appearance on coronal CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "large left adrenal mass",
+        "claim_text": "The left adrenal mass is large on coronal CT.",
+        "presence_question": "Does the model's response discuss the large left adrenal mass?",
+        "correctness_question": "Does the model's response correctly assert that the left adrenal mass is large on coronal CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "left adrenal mass adjacent to left kidney",
+        "claim_text": "The left adrenal mass is adjacent to the left kidney on coronal CT.",
+        "presence_question": "Does the model's response discuss the left adrenal mass adjacent to the left kidney?",
+        "correctness_question": "Does the model's response correctly assert that the left adrenal mass is adjacent to the left kidney on coronal CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "unremarkable right adrenal",
+        "claim_text": "The right adrenal appears unremarkable on coronal CT.",
+        "presence_question": "Does the model's response discuss the right adrenal appearance?",
+        "correctness_question": "Does the model's response correctly assert that the right adrenal appears unremarkable on coronal CT?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Pheochromocytoma",
+        "claim_text": "Pheochromocytoma is a catecholamine-secreting tumor arising from the adrenal medulla.",
+        "presence_question": "Does the model's response discuss Pheochromocytoma?",
+        "correctness_question": "Does the model's response correctly state that Pheochromocytoma is a catecholamine-secreting tumor arising from the adrenal medulla?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Intraoperative catecholamine release",
+        "claim_text": "Catecholamine release during tumor manipulation can result in severe intraoperative cardiovascular instability.",
+        "presence_question": "Does the model's response discuss Intraoperative catecholamine release?",
+        "correctness_question": "Does the model's response correctly state that Catecholamine release during tumor manipulation can result in severe intraoperative cardiovascular instability?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Preoperative alpha blockade",
+        "claim_text": "Preoperative alpha-adrenergic blockade reduces perioperative cardiovascular risk in patients with catecholamine-secreting adrenal tumors.",
+        "presence_question": "Does the model's response discuss Preoperative alpha blockade?",
+        "correctness_question": "Does the model's response correctly state that Preoperative alpha-adrenergic blockade reduces perioperative cardiovascular risk in patients with catecholamine-secreting adrenal tumors?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Cross-sectional imaging for adrenal lesions",
+        "claim_text": "Cross-sectional imaging alone is insufficient to determine the hormonal activity of an adrenal lesion.",
+        "presence_question": "Does the model's response discuss Cross-sectional imaging for adrenal lesions?",
+        "correctness_question": "Does the model's response correctly state that Cross-sectional imaging alone is insufficient to determine the hormonal activity of an adrenal lesion?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "biochemical testing before adrenalectomy",
+        "claim_text": "Because imaging cannot determine the hormonal activity of the left adrenal mass, biochemical testing is required before adrenalectomy.",
+        "presence_question": "Does the model's response make an inferential link about biochemical testing before adrenalectomy?",
+        "correctness_question": "Does the model's response correctly conclude that Because imaging cannot determine the hormonal activity of the left adrenal mass, biochemical testing is required before adrenalectomy?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "pheochromocytoma intraoperative instability risk",
+        "claim_text": "If the left adrenal mass is a pheochromocytoma, manipulation of the tumor could release catecholamines and cause severe intraoperative cardiovascular instability.",
+        "presence_question": "Does the model's response make an inferential link about pheochromocytoma intraoperative instability risk?",
+        "correctness_question": "Does the model's response correctly conclude that If the left adrenal mass is a pheochromocytoma, manipulation of the tumor could release catecholamines and cause severe intraoperative cardiovascular instability?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "preoperative alpha blockade before adrenalectomy",
+        "claim_text": "If biochemical testing confirms a catecholamine-secreting adrenal tumor (pheochromocytoma), preoperative alpha blockade should be administered prior to adrenalectomy to reduce perioperative risk.",
+        "presence_question": "Does the model's response make an inferential link about preoperative alpha blockade before adrenalectomy?",
+        "correctness_question": "Does the model's response correctly conclude that If biochemical testing confirms a catecholamine-secreting adrenal tumor (pheochromocytoma), preoperative alpha blockade should be administered prior to adrenalectomy to reduce perioperative risk?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

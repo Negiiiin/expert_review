@@ -27,5 +27,155 @@
   "caption": "A CT scan of the chest from the patient's prior hospitalization (top image) showing a large, lobulated, left apical lung mass (arrow). Transthoracic FNA results later came back positive for poorly differentiated lung carcinoma with focal neuroendocrine differentiation. The bottom image is from a CT scan of the abdomen that was done on presentation, which shows a large elliptical lesion (arrow) around the third portion of the duodenum, later found on esophagogastroduodenoscopy, whose biopsies were consistent with metastatic lung carcinoma.",
   "sub_caption": "The bottom image is from a CT scan of the abdomen that was done on presentation, which shows a large elliptical lesion (arrow) around the third portion of the duodenum, later found on esophagogastroduodenoscopy, whose biopsies were consistent with metastatic lung carcinoma.",
   "image_context": "Of note, the patient was recently diagnosed with lung cancer 6 months prior to his presentation. At that time, he was complaining of chronic hemoptysis, unintentional 15-pound weight loss, and worsening fatigue over a 6-month time period. Prior chest X-rays were negative; however, a computerized tomography (CT) scan of the chest showed a new left-sided lobulated, apical lesion measuring 4 × 2 cm with bronchial involvement, and hilar lymphadenopathy (Fig. <xref ref-type=\"fig\" rid=\"crg-0014-0186-g01\">1</xref>). The patient was worked up for an infectious source, including tuberculosis, which ended up being negative. He had a bronchoscopy with bronchoalveolar lavage and a transbronchial biopsy done, which showed inflammatory cells but was negative for any malignant cells on brushing or washing. However, due to a high suspicion for malignancy, the patient ultimately had a transthoracic fine-needle aspiration (FNA) of the mass. The final pathology results demonstrated poorly differentiated carcinoma that was weakly positive (only a few scattered cells) for CK-7, synaptophysin, and calretinin on IHC staining (Fig. ). The patient was worked up for an infectious source, including tuberculosis, which ended up being negative. He had a bronchoscopy with bronchoalveolar lavage and a transbronchial biopsy done, which showed inflammatory cells but was negative for any malignant cells on brushing or washing. However, due to a high suspicion for malignancy, the patient ultimately had a transthoracic fine-needle aspiration (FNA) of the mass. The final pathology results demonstrated poorly differentiated carcinoma that was weakly positive (only a few scattered cells) for CK-7, synaptophysin, and calretinin on IHC staining (Fig. <xref ref-type=\"fig\" rid=\"crg-0014-0186-g02\">2</xref>). IHC staining of the specimen was also negative for CK-20, p63, TTF-1, chromogranin, melan-A, CDX-2, PSA, and PSMA (Fig. ). IHC staining of the specimen was also negative for CK-20, p63, TTF-1, chromogranin, melan-A, CDX-2, PSA, and PSMA (Fig. <xref ref-type=\"fig\" rid=\"crg-0014-0186-g02\">2</xref>). The patient was further worked up for his malignancy with a magnetic resonance imaging scan of the brain which was negative for any lesions. However, a positron emission tomography scan was done and found an active left upper-lobe apical mass as well as hypermetabolic mediastinal and hilar lymphadenopathy, which were compatible with metastatic disease. His pretreatment stage at the time was determined to be T4N2M0, stage IIIB. He was started on a paclitaxel/carboplatin chemotherapy regimen with concurrent radiation therapy (total of 6,000 cgy) and was in the process of planning a surgical resection evaluation of the lung tumor prior to his hospitalization.). The patient was further worked up for his malignancy with a magnetic resonance imaging scan of the brain which was negative for any lesions. However, a positron emission tomography scan was done and found an active left upper-lobe apical mass as well as hypermetabolic mediastinal and hilar lymphadenopathy, which were compatible with metastatic disease. His pretreatment stage at the time was determined to be T4N2M0, stage IIIB. He was started on a paclitaxel/carboplatin chemotherapy regimen with concurrent radiation therapy (total of 6,000 cgy) and was in the process of planning a surgical resection evaluation of the lung tumor prior to his hospitalization.",
-  "relevant_image_context": "The bottom image is from a CT scan of the abdomen that was done on presentation, which shows a large elliptical lesion (arrow) around the third portion of the duodenum, later found on esophagogastroduodenoscopy, whose biopsies were consistent with metastatic lung carcinoma."
+  "relevant_image_context": "The bottom image is from a CT scan of the abdomen that was done on presentation, which shows a large elliptical lesion (arrow) around the third portion of the duodenum, later found on esophagogastroduodenoscopy, whose biopsies were consistent with metastatic lung carcinoma.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_77_37-PMC7204736-2-crg-0014-0186-g01.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_77_37-PMC7204736-2-crg-0014-0186-g01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left apical mediastinal chest mass",
+        "claim_text": "A chest mass is located in the left apical and mediastinal region on the axial image.",
+        "presence_question": "Does the model's response discuss left apical mediastinal chest mass?",
+        "correctness_question": "Does the model's response correctly assert that A chest mass is located in the left apical and mediastinal region on the axial image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lobulated left apical chest mass",
+        "claim_text": "The left apical chest mass has a lobulated contour.",
+        "presence_question": "Does the model's response discuss lobulated left apical chest mass?",
+        "correctness_question": "Does the model's response correctly assert that The left apical chest mass has a lobulated contour?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "right upper abdominal mass",
+        "claim_text": "An abdominal mass is located in the right upper quadrant and upper midline.",
+        "presence_question": "Does the model's response discuss right upper abdominal mass?",
+        "correctness_question": "Does the model's response correctly assert that An abdominal mass is located in the right upper quadrant and upper midline?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "mass adjacent to duodenum and pancreatic head",
+        "claim_text": "The abdominal mass is adjacent to the second portion of the duodenum and the pancreatic head region.",
+        "presence_question": "Does the model's response discuss mass adjacent to duodenum and pancreatic head?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass is adjacent to the second portion of the duodenum and the pancreatic head region?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "mass anterior to vertebral body",
+        "claim_text": "The abdominal mass lies anterior to the vertebral body in the retroperitoneum.",
+        "presence_question": "Does the model's response discuss mass anterior to vertebral body?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass lies anterior to the vertebral body in the retroperitoneum?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "mass medial to right kidney",
+        "claim_text": "The abdominal mass is located medial to the right kidney.",
+        "presence_question": "Does the model's response discuss mass medial to right kidney?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass is located medial to the right kidney?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "discrete round solid peripancreatic nodule",
+        "claim_text": "The abdominal mass appears as a discrete, round, well-defined solid soft-tissue nodule.",
+        "presence_question": "Does the model's response discuss discrete round solid peripancreatic nodule?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass appears as a discrete, round, well-defined solid soft-tissue nodule?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "right renal parenchyma involvement",
+        "claim_text": "The abdominal mass does not involve the right renal parenchyma.",
+        "presence_question": "Does the model's response discuss right renal parenchyma involvement?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass does not involve the right renal parenchyma?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "pancreatic parenchyma involvement",
+        "claim_text": "The abdominal mass does not arise within the pancreatic parenchyma.",
+        "presence_question": "Does the model's response discuss pancreatic parenchyma involvement?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass does not arise within the pancreatic parenchyma?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "bowel lumen involvement",
+        "claim_text": "The abdominal mass is not located within the bowel lumen.",
+        "presence_question": "Does the model's response discuss bowel lumen involvement?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass is not located within the bowel lumen?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "both kidneys visible",
+        "claim_text": "Both kidneys are visible on the axial abdominal CT.",
+        "presence_question": "Does the model's response discuss both kidneys visible?",
+        "correctness_question": "Does the model's response correctly assert that Both kidneys are visible on the axial abdominal CT?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "new solid soft-tissue nodules",
+        "claim_text": "New discrete solid soft-tissue nodules on staging or follow-up imaging are typically associated with metastatic deposits in patients with a known primary malignancy.",
+        "presence_question": "Does the model's response discuss new solid soft-tissue nodules?",
+        "correctness_question": "Does the model's response correctly state that new discrete solid soft-tissue nodules on staging or follow-up imaging are typically associated with metastatic deposits in patients with a known primary malignancy?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "lesion separate from organ parenchyma",
+        "claim_text": "A lesion that is separate from an organ's parenchyma or is not intraparenchymal is typically less likely to originate from that organ.",
+        "presence_question": "Does the model's response discuss a lesion separate from organ parenchyma?",
+        "correctness_question": "Does the model's response correctly state that a lesion that is separate from an organ's parenchyma or is not intraparenchymal is typically less likely to originate from that organ?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "primary lung carcinoma metastasis",
+        "claim_text": "Primary lung carcinoma can metastasize to distant sites, including intra-abdominal locations.",
+        "presence_question": "Does the model's response discuss primary lung carcinoma metastasis?",
+        "correctness_question": "Does the model's response correctly state that primary lung carcinoma can metastasize to distant sites, including intra-abdominal locations?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Plausibility of lung metastasis",
+        "claim_text": "The imaging findings support that a metastatic deposit from the known lung carcinoma is a plausible diagnosis for the discrete peripancreatic/duodenal soft-tissue nodule in this case",
+        "presence_question": "Does the model's response make an inferential link about Plausibility of lung metastasis?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings support that a metastatic deposit from the known lung carcinoma is a plausible diagnosis for the discrete peripancreatic/duodenal soft-tissue nodule in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Unlikelihood of renal/pancreatic/bowel primary",
+        "claim_text": "Because the mass is not within the renal parenchyma, not intraparenchymal in the pancreas, and not projecting into a bowel lumen, the findings argue against a primary renal, pancreatic parenchymal, or intraluminal bowel origin for this lesion in this case",
+        "presence_question": "Does the model's response make an inferential link about Unlikelihood of renal/pancreatic/bowel primary?",
+        "correctness_question": "Does the model's response correctly conclude that Because the mass is not within the renal parenchyma, not intraparenchymal in the pancreas, and not projecting into a bowel lumen, the findings argue against a primary renal, pancreatic parenchymal, or intraluminal bowel origin for this lesion in this case?",
+        "premise_perception_ids": [
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

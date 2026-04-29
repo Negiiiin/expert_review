@@ -28,5 +28,121 @@
   "caption": "Noncontrast head computed tomography demonstrates markedly asymmetric density in the distal right middle cerebral artery (arrow) compatible with the dense middle cerebral artery sign",
   "sub_caption": "Noncontrast head computed tomography demonstrates markedly asymmetric density in the distal right middle cerebral artery (arrow) compatible with the dense middle cerebral artery sign",
   "image_context": "A 58-year-old woman with a history of chronic obstructive pulmonary disease, hypertension, and smoking presented to the emergency department two hours after the onset of severe left-sided weakness with facial droop, dysarthria, right gaze preference, and weakness. Her initial National Institutes of Health Stroke Scale (NIHSS) was 8 by the tele-neurology exam using the spoke and hub robot. The patient was administered intravenous rtPA (IV-rtPA) and transferred to our high-volume comprehensive stroke center for endovascular stroke therapy. The initial head computerized tomography (CT) demonstrated a dense MCA sign on the right (Figure <xref ref-type=\"fig\" rid=\"cureus-0010-00000002254-i01\">1</xref>).).",
-  "relevant_image_context": "The initial head computed tomography (CT) demonstrated a dense MCA sign on the right."
+  "relevant_image_context": "The initial head computed tomography (CT) demonstrated a dense MCA sign on the right.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_53_112-PMC5929888-0-cureus-0010-00000002254-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_53_112-PMC5929888-0-cureus-0010-00000002254-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "noncontrast axial head CT examination",
+        "claim_text": "A noncontrast axial head CT examination was performed for this study.",
+        "presence_question": "Does the model's response discuss noncontrast axial head CT examination?",
+        "correctness_question": "Does the model's response correctly assert that A noncontrast axial head CT examination was performed for this study?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "focal hyperdensity in the right lateral sulcus",
+        "claim_text": "There is a focal hyperdensity in the right lateral sulcus region.",
+        "presence_question": "Does the model's response discuss focal hyperdensity in the right lateral sulcus?",
+        "correctness_question": "Does the model's response correctly assert that There is a focal hyperdensity in the right lateral sulcus region?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "linear shape of right lateral sulcus hyperdensity",
+        "claim_text": "The focal hyperdensity in the right lateral sulcus is linear in shape.",
+        "presence_question": "Does the model's response discuss linear shape of right lateral sulcus hyperdensity?",
+        "correctness_question": "Does the model's response correctly assert that The focal hyperdensity in the right lateral sulcus is linear in shape?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "location in right lateral sulcus",
+        "claim_text": "The focal hyperdensity is located in the right lateral sulcus region.",
+        "presence_question": "Does the model's response discuss location in right lateral sulcus?",
+        "correctness_question": "Does the model's response correctly assert that The focal hyperdensity is located in the right lateral sulcus region?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "expected course of the right middle cerebral artery",
+        "claim_text": "The focal hyperdensity is located along the expected course of the right middle cerebral artery.",
+        "presence_question": "Does the model's response discuss expected course of the right middle cerebral artery?",
+        "correctness_question": "Does the model's response correctly assert that The focal hyperdensity is located along the expected course of the right middle cerebral artery?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "single hyperdensity in right lateral sulcus",
+        "claim_text": "There is a single focal hyperdensity in the right lateral sulcus.",
+        "presence_question": "Does the model's response discuss single hyperdensity in right lateral sulcus?",
+        "correctness_question": "Does the model's response correctly assert that There is a single focal hyperdensity in the right lateral sulcus?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "amorphous parenchymal focus in lateral sulcus absent",
+        "claim_text": "No amorphous parenchymal focus is present in the right lateral sulcus region of the hyperdensity.",
+        "presence_question": "Does the model's response discuss amorphous parenchymal focus in lateral sulcus absent?",
+        "correctness_question": "Does the model's response correctly assert that No amorphous parenchymal focus is present in the right lateral sulcus region of the hyperdensity?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "hyperdense vessel sign on noncontrast CT",
+        "claim_text": "A focal linear hyperdensity following a vessel course on noncontrast CT (the hyperdense vessel sign) typically indicates an acute intravascular thrombus.",
+        "presence_question": "Does the model's response discuss hyperdense vessel sign on noncontrast CT?",
+        "correctness_question": "Does the model's response correctly state that A focal linear hyperdensity following a vessel course on noncontrast CT (the hyperdense vessel sign) typically indicates an acute intravascular thrombus?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "parenchymal hemorrhage CT appearance",
+        "claim_text": "Parenchymal hemorrhage on noncontrast CT typically appears as an amorphous parenchymal hyperdense focus rather than a linear vessel-following hyperdensity.",
+        "presence_question": "Does the model's response discuss parenchymal hemorrhage CT appearance?",
+        "correctness_question": "Does the model's response correctly state that Parenchymal hemorrhage on noncontrast CT typically appears as an amorphous parenchymal hyperdense focus rather than a linear vessel-following hyperdensity?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "middle cerebral artery location",
+        "claim_text": "The middle cerebral artery typically runs in the lateral sulcus (Sylvian fissure).",
+        "presence_question": "Does the model's response discuss middle cerebral artery location?",
+        "correctness_question": "Does the model's response correctly state that The middle cerebral artery typically runs in the lateral sulcus (Sylvian fissure)?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Right MCA acute thrombus",
+        "claim_text": "The unilateral, focal, linear hyperdensity located in the right lateral sulcus along the expected course of the MCA supports the presence of an acute thrombus in the right middle cerebral artery.",
+        "presence_question": "Does the model's response make an inferential link about Right MCA acute thrombus?",
+        "correctness_question": "Does the model's response correctly conclude that The unilateral, focal, linear hyperdensity located in the right lateral sulcus along the expected course of the MCA supports the presence of an acute thrombus in the right middle cerebral artery?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Parenchymal hemorrhage less likely",
+        "claim_text": "Because the hyperdensity follows a vascular course and there is absence of an amorphous parenchymal focus, parenchymal hemorrhage in this region is less likely in this case.",
+        "presence_question": "Does the model's response make an inferential link about Parenchymal hemorrhage less likely?",
+        "correctness_question": "Does the model's response correctly conclude that Because the hyperdensity follows a vascular course and there is absence of an amorphous parenchymal focus, parenchymal hemorrhage in this region is less likely in this case?",
+        "premise_perception_ids": [
+          "p5",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

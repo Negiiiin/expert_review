@@ -28,5 +28,143 @@
   "caption": "A contrast chest computed tomography scan from a 67-year-old male with respiratory failure 1 day after upper gastrointestinal series (barium swallow). There are hyperdensities within the right lower lobe bronchi (arrows) representing aspirated barium with surrounding consolidation.",
   "sub_caption": "A contrast chest computed tomography scan from a 67-year-old male with respiratory failure 1 day after upper gastrointestinal series (barium swallow). There are hyperdensities within the right lower lobe bronchi (arrows) representing aspirated barium with surrounding consolidation.",
   "image_context": "A 67-year-old male was brought to hospital (Linda University Medical Center, Loma Linda, CA, USA) after being hit by a car. The patient underwent surgery for a fractured acetabulum. The post-operative course was complicated by 7 days of ileus. An upper gastrointestinal (GI) series (i.e. barium swallow) with small bowel follow-through was requested. There were no immediate complications during the upper GI series. The supine abdominal radiograph at 8 h post-upper GI series (<xref rid=\"err-23-133-396-f01\" ref-type=\"fig\">fig. 1</xref>) showed relatively normal lungs and contrast within the stomach and proximal small bowel. 15 h after the upper GI series, the patient complained of shortness of breath with a respiratory rate of 14 breaths·min) showed relatively normal lungs and contrast within the stomach and proximal small bowel. 15 h after the upper GI series, the patient complained of shortness of breath with a respiratory rate of 14 breaths·min−1 and an arterial oxygen saturation measured by pulse oximetry of 99%. The patient was reassured. The supine abdominal radiograph at 16 h post-upper GI series (<xref rid=\"err-23-133-396-f01\" ref-type=\"fig\">fig. 1</xref>) showed consolidation within the right lung. A contrast chest computed tomography scan was then performed () showed consolidation within the right lung. A contrast chest computed tomography scan was then performed (<xref rid=\"err-23-133-396-f02\" ref-type=\"fig\">fig. 2</xref>) and showed hyperdense round irregular foci within the lung with surrounding consolidation. The densities within the lung represented aspirated barium contrast after the upper GI series while the patient was in his room. Due to the severe ileus, the contrast agent did not pass through the stomach and remained at a location susceptible to aspiration. The patient went on to suffer acute respiratory failure as a result of acute pneumonitis and eventually had a tracheostomy tube inserted. This demonstrates the importance of aspiration precautions for patients with ileus.) and showed hyperdense round irregular foci within the lung with surrounding consolidation. The densities within the lung represented aspirated barium contrast after the upper GI series while the patient was in his room. Due to the severe ileus, the contrast agent did not pass through the stomach and remained at a location susceptible to aspiration. The patient went on to suffer acute respiratory failure as a result of acute pneumonitis and eventually had a tracheostomy tube inserted. This demonstrates the importance of aspiration precautions for patients with ileus.",
-  "relevant_image_context": "A contrast chest computed tomography scan was performed and showed consolidation within the right lung, with hyperdense round irregular foci within the lung with surrounding consolidation. The densities within the lung represented aspirated barium contrast after the upper GI series while the patient was in his room. Due to the severe ileus, the contrast agent did not pass through the stomach and remained at a location susceptible to aspiration."
+  "relevant_image_context": "A contrast chest computed tomography scan was performed and showed consolidation within the right lung, with hyperdense round irregular foci within the lung with surrounding consolidation. The densities within the lung represented aspirated barium contrast after the upper GI series while the patient was in his room. Due to the severe ileus, the contrast agent did not pass through the stomach and remained at a location susceptible to aspiration.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_118_51-PMC9487323-1-err-23-133-396-f02.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_118_51-PMC9487323-1-err-23-133-396-f02.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "heart location",
+        "claim_text": "The heart is located in the left hemithorax.",
+        "presence_question": "Does the model's response discuss heart location?",
+        "correctness_question": "Does the model's response correctly assert that The heart is located in the left hemithorax?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "right hemithorax dense abnormality",
+        "claim_text": "A dense abnormality is present in the right hemithorax.",
+        "presence_question": "Does the model's response discuss right hemithorax dense abnormality?",
+        "correctness_question": "Does the model's response correctly assert that A dense abnormality is present in the right hemithorax?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "right posterior-lateral hemithorax lesion",
+        "claim_text": "There is a lesion in the dependent posterior-lateral right hemithorax near the diaphragm.",
+        "presence_question": "Does the model's response discuss right posterior-lateral hemithorax lesion?",
+        "correctness_question": "Does the model's response correctly assert that There is a lesion in the dependent posterior-lateral right hemithorax near the diaphragm?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "multiple hyperattenuating particulate densities",
+        "claim_text": "Multiple hyperattenuating particulate densities are present in the dependent posterior right lung.",
+        "presence_question": "Does the model's response discuss multiple hyperattenuating particulate densities?",
+        "correctness_question": "Does the model's response correctly assert that Multiple hyperattenuating particulate densities are present in the dependent posterior right lung?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "particulate densities in consolidation",
+        "claim_text": "The hyperattenuating particulate densities are located within a region of air-space consolidation.",
+        "presence_question": "Does the model's response discuss particulate densities in consolidation?",
+        "correctness_question": "Does the model's response correctly assert that The hyperattenuating particulate densities are located within a region of air-space consolidation?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "right lung base air-space consolidation",
+        "claim_text": "Air-space consolidation is present in the dependent posterior portion of the right lung base.",
+        "presence_question": "Does the model's response discuss right lung base air-space consolidation?",
+        "correctness_question": "Does the model's response correctly assert that Air-space consolidation is present in the dependent posterior portion of the right lung base?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "right lung base soft-tissue attenuation",
+        "claim_text": "There is increased soft-tissue attenuation at the right lung base surrounding the particulate material.",
+        "presence_question": "Does the model's response discuss right lung base soft-tissue attenuation?",
+        "correctness_question": "Does the model's response correctly assert that There is increased soft-tissue attenuation at the right lung base surrounding the particulate material?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "absence of corresponding abnormality in left hemithorax",
+        "claim_text": "No corresponding abnormality is present in the left hemithorax.",
+        "presence_question": "Does the model's response discuss absence of corresponding abnormality in left hemithorax?",
+        "correctness_question": "Does the model's response correctly assert that No corresponding abnormality is present in the left hemithorax?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "posterior dependent process in right lower lobe",
+        "claim_text": "The posterior dependent process at the right lung base is located in the right lower lobe.",
+        "presence_question": "Does the model's response discuss posterior dependent process in right lower lobe?",
+        "correctness_question": "Does the model's response correctly assert that The posterior dependent process at the right lung base is located in the right lower lobe?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "heart location",
+        "claim_text": "The heart is typically located in the left hemithorax.",
+        "presence_question": "Does the model's response discuss heart location?",
+        "correctness_question": "Does the model's response correctly state that The heart is typically located in the left hemithorax?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "posterior lung base",
+        "claim_text": "The posterior lung base typically corresponds to the lower lobe.",
+        "presence_question": "Does the model's response discuss posterior lung base?",
+        "correctness_question": "Does the model's response correctly state that The posterior lung base typically corresponds to the lower lobe?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "air-space consolidation",
+        "claim_text": "Air-space consolidation with increased soft-tissue attenuation typically suggests lobar or segmental consolidation.",
+        "presence_question": "Does the model's response discuss air-space consolidation?",
+        "correctness_question": "Does the model's response correctly state that Air-space consolidation with increased soft-tissue attenuation typically suggests lobar or segmental consolidation?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "right lower lobe involvement",
+        "claim_text": "The posterior, dependent process at the right lung base on these axial images implies involvement of the right lower lobe.",
+        "presence_question": "Does the model's response make an inferential link about right lower lobe involvement?",
+        "correctness_question": "Does the model's response correctly conclude that The posterior, dependent process at the right lung base on these axial images implies involvement of the right lower lobe?",
+        "premise_perception_ids": [
+          "p9",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "lobar or segmental consolidation",
+        "claim_text": "The region of air-space consolidation with surrounding increased soft-tissue attenuation supports the presence of lobar or segmental consolidation in this case.",
+        "presence_question": "Does the model's response make an inferential link about lobar or segmental consolidation?",
+        "correctness_question": "Does the model's response correctly conclude that The region of air-space consolidation with surrounding increased soft-tissue attenuation supports the presence of lobar or segmental consolidation in this case?",
+        "premise_perception_ids": [
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "right-sided confinement of abnormality",
+        "claim_text": "The absence of a corresponding abnormality on the left supports that the abnormality is confined to the right hemithorax.",
+        "presence_question": "Does the model's response make an inferential link about right-sided confinement of abnormality?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of a corresponding abnormality on the left supports that the abnormality is confined to the right hemithorax?",
+        "premise_perception_ids": [
+          "p2",
+          "p8"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

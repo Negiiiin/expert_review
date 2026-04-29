@@ -27,5 +27,14 @@
   "caption": "Abdominal CT performed with oral and IV contrast. Appendix is dilated to 1.4 cm in diameter with marked mural thickening and mild adjacent fat stranding, typical of acute appendicitis.",
   "sub_caption": "Appendix is dilated to 1.4 cm in diameter with marked mural thickening and mild adjacent fat stranding, typical of acute appendicitis.",
   "image_context": "The patient was afebrile, nontoxic in appearance, and with stable vital signs. His abdomen was non-distended, tender to deep palpation in the right lower quadrant, without rebound or guarding. Rovsing’s sign was negative. Complete blood count demonstrated a hemoglobin of 14.2, hematocrit of 41.4, white blood cell count of 5.1 × 109/L with neutrophil percentage of 30.1%, and platelet count of 133 × 109/L. Biochemistries and liver function tests were within normal limits. An abdominal/pelvic Computed Tomography (CT) scan with contrast demonstrated a 1.4 cm in diameter appendix with marked mural thickening and mild fat stranding typical of acute appendicitis (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). The patient underwent a laparoscopic appendectomy. Intraoperative findings were consistent with an inflamed appendix. Postoperative recovery was uncomplicated.). The patient underwent a laparoscopic appendectomy. Intraoperative findings were consistent with an inflamed appendix. Postoperative recovery was uncomplicated.Fig. 1Abdominal CT performed with oral and IV contrast. Appendix is dilated to 1.4 cm in diameter with marked mural thickening and mild adjacent fat stranding, typical of acute appendicitis.Fig. 1",
-  "relevant_image_context": "Fig. 1 Abdominal CT performed with oral and IV contrast. Appendix is dilated to 1.4 cm in diameter with marked mural thickening and mild adjacent fat stranding, typical of acute appendicitis. Fig. 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Fig. 1 Abdominal CT performed with oral and IV contrast. Appendix is dilated to 1.4 cm in diameter with marked mural thickening and mild adjacent fat stranding, typical of acute appendicitis. Fig. 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "pkr_questions": {
+    "perception": [],
+    "knowledge": [],
+    "reasoning": []
+  },
+  "pkr_questions_match": {
+    "matched": false,
+    "method": "no_match"
+  }
 }

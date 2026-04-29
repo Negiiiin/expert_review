@@ -27,5 +27,94 @@
   "caption": "Intraoral flap on palate with long, coarse, and dark hair",
   "sub_caption": "Intraoral flap on palate with long, coarse, and dark hair",
   "image_context": "An important though rare side effect of reconstruction surgery in oral cavity is persistent hair growth in the recipient site due to intact hair follicles.[1] Hair growth in the transplanted site may be due to the dominant nature of the underlying skin.[2] A 40-year-old male came to the dermatology outpatient department with a complaint of excessive hair growth in the oral cavity 2 months after oral reconstructive surgery. The patient was a diagnosed case of low flow vascular malformation palate. He had undergone palatal excision and reconstruction with left anterolateral thigh flap 2 months back. The graft took well only partially leaving a defect, and after 2 months of surgery, the patient returned to his surgeon to complain about the excessive hair growth on the flap and remnant palatal defect. He was referred to a dermatologist for opinion regarding hair removal at this unusual site. On examination of the oral cavity, we noted a large amount of hair on the flap which was used for repair of palatal defect. The hair was long, thick, and coarse [<xref ref-type=\"fig\" rid=\"IJT-9-43-g001\">Figure 1</xref>]. Posterior to the flap, an oval defect of 2 cm × 3 cm was appreciable []. Posterior to the flap, an oval defect of 2 cm × 3 cm was appreciable [<xref ref-type=\"fig\" rid=\"IJT-9-43-g002\">Figure 2</xref>]. The patient had difficulty in eating and chewing as the food got entangled in the tuft of hair. The patient had Fitzpatrick's skin Type 5 and had thick dark hair all over his body. He was advised to have laser intraoral hair removal, but he refused despite adequate explanations of the procedure.]. The patient had difficulty in eating and chewing as the food got entangled in the tuft of hair. The patient had Fitzpatrick's skin Type 5 and had thick dark hair all over his body. He was advised to have laser intraoral hair removal, but he refused despite adequate explanations of the procedure.",
-  "relevant_image_context": "An important though rare side effect of reconstruction surgery in oral cavity is persistent hair growth in the recipient site due to intact hair follicles. Hair growth in the transplanted site may be due to the dominant nature of the underlying skin. A 40-year-old male came to the dermatology outpatient department with a complaint of excessive hair growth in the oral cavity 2 months after oral reconstructive surgery. The patient was a diagnosed case of low flow vascular malformation palate. He had undergone palatal excision and reconstruction with left anterolateral thigh flap 2 months back. The graft took well only partially leaving a defect, and after 2 months of surgery, the patient returned to his surgeon to complain about the excessive hair growth on the flap and remnant palatal defect. He was referred to a dermatologist for opinion regarding hair removal at this unusual site. On examination of the oral cavity, we noted a large amount of hair on the flap which was used for repair of palatal defect. The hair was long, thick, and coarse [Figure 1]. The patient had difficulty in eating and chewing as the food got entangled in the tuft of hair. The patient had Fitzpatrick's skin Type 5 and had thick dark hair all over his body. He was advised to have laser intraoral hair removal, but he refused despite adequate explanations of the procedure."
+  "relevant_image_context": "An important though rare side effect of reconstruction surgery in oral cavity is persistent hair growth in the recipient site due to intact hair follicles. Hair growth in the transplanted site may be due to the dominant nature of the underlying skin. A 40-year-old male came to the dermatology outpatient department with a complaint of excessive hair growth in the oral cavity 2 months after oral reconstructive surgery. The patient was a diagnosed case of low flow vascular malformation palate. He had undergone palatal excision and reconstruction with left anterolateral thigh flap 2 months back. The graft took well only partially leaving a defect, and after 2 months of surgery, the patient returned to his surgeon to complain about the excessive hair growth on the flap and remnant palatal defect. He was referred to a dermatologist for opinion regarding hair removal at this unusual site. On examination of the oral cavity, we noted a large amount of hair on the flap which was used for repair of palatal defect. The hair was long, thick, and coarse [Figure 1]. The patient had difficulty in eating and chewing as the food got entangled in the tuft of hair. The patient had Fitzpatrick's skin Type 5 and had thick dark hair all over his body. He was advised to have laser intraoral hair removal, but he refused despite adequate explanations of the procedure.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_46_52-PMC5514798-0-IJT-9-43-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_46_52-PMC5514798-0-IJT-9-43-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "intraoral hair",
+        "claim_text": "There is hair present within the oral cavity.",
+        "presence_question": "Does the model's response discuss intraoral hair?",
+        "correctness_question": "Does the model's response correctly assert that there is hair present within the oral cavity?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "palatal hair patch",
+        "claim_text": "A patch of hair is located on the palate (oral roof).",
+        "presence_question": "Does the model's response discuss palatal hair patch?",
+        "correctness_question": "Does the model's response correctly assert that a patch of hair is located on the palate (oral roof)?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "hair extending into oral cavity",
+        "claim_text": "The hair extends into the oral cavity, hanging down into the mouth.",
+        "presence_question": "Does the model's response discuss hair extending into the oral cavity?",
+        "correctness_question": "Does the model's response correctly assert that the hair extends into the oral cavity, hanging down into the mouth?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "coarse hair texture",
+        "claim_text": "The hair on the palate and oral cavity appears coarse in texture.",
+        "presence_question": "Does the model's response discuss coarse hair texture?",
+        "correctness_question": "Does the model's response correctly assert that the hair on the palate and oral cavity appears coarse in texture?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "long intraoral hair",
+        "claim_text": "The hair in the palate and oral cavity is long in length.",
+        "presence_question": "Does the model's response discuss long hair in the oral cavity?",
+        "correctness_question": "Does the model's response correctly assert that the hair in the palate and oral cavity is long in length?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "dense hair",
+        "claim_text": "The hair in the palate and oral cavity appears dense.",
+        "presence_question": "Does the model's response discuss dense hair?",
+        "correctness_question": "Does the model's response correctly assert that the hair in the palate and oral cavity appears dense?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "hair in masticatory pathway",
+        "claim_text": "The hair is located within the masticatory pathway used for food passage during chewing.",
+        "presence_question": "Does the model's response discuss hair within the masticatory pathway?",
+        "correctness_question": "Does the model's response correctly assert that the hair is located within the masticatory pathway used for food passage during chewing?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Intraoral hair projecting into chewing pathway",
+        "claim_text": "Intraoral hair projecting into the chewing pathway is associated with entrapment of food during mastication and difficulty clearing food while chewing.",
+        "presence_question": "Does the model's response discuss Intraoral hair projecting into the chewing pathway?",
+        "correctness_question": "Does the model's response correctly state that Intraoral hair projecting into the chewing pathway is associated with entrapment of food during mastication and difficulty clearing food while chewing?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Intraoral hair causing food entrapment while chewing",
+        "claim_text": "The image of a long, coarse, dense patch of palatal hair projecting into and occupying the chewing pathway supports that food entrapment while chewing is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about Intraoral hair causing food entrapment while chewing?",
+        "correctness_question": "Does the model's response correctly conclude that The image of a long, coarse, dense patch of palatal hair projecting into and occupying the chewing pathway supports that food entrapment while chewing is plausible in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

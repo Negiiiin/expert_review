@@ -28,5 +28,99 @@
   "caption": "Preprocedural computed tomography showing protruding plaques into the descending aortic lumen.",
   "sub_caption": "Preprocedural computed tomography showing protruding plaques into the descending aortic lumen.",
   "image_context": "An 83-year-old male was scheduled for transcatheter aortic valve replacement for severe aortic valve stenosis. Although preprocedural computed tomography demonstrated atherosclerotic plaques protruding into the descending aortic lumen (<xref rid=\"gr1\" ref-type=\"fig\">Figure 1</xref>), we concluded a transfemoral approach was feasible. However, while advancing the valve system through the descending aorta, the echocardiographer detected a fragment detached from the protruding plaque on transesophageal echocardiography (not recorded). A 26-mm Sapien 3 (Edwards Lifesciences, Irvine, California) was successfully implanted (), we concluded a transfemoral approach was feasible. However, while advancing the valve system through the descending aorta, the echocardiographer detected a fragment detached from the protruding plaque on transesophageal echocardiography (not recorded). A 26-mm Sapien 3 (Edwards Lifesciences, Irvine, California) was successfully implanted (<xref rid=\"gr2\" ref-type=\"fig\">Figure 2</xref>) while transesophageal echocardiography delineated a contrasting configuration of the plaque () while transesophageal echocardiography delineated a contrasting configuration of the plaque (<xref rid=\"gr3\" ref-type=\"fig\">Figure 3</xref>a and b, a and b, Supplemental Video 1). Emergency superior mesenteric artery angiography demonstrated an embolic partial obstruction (<xref rid=\"gr4\" ref-type=\"fig\">Figure 4</xref>a), and an intravascular aspiration procedure, using an Export Advance catheter (Medtronic, Minneapolis, Minnesota), restored blood flow to the ileocolic territory (a), and an intravascular aspiration procedure, using an Export Advance catheter (Medtronic, Minneapolis, Minnesota), restored blood flow to the ileocolic territory (<xref rid=\"gr4\" ref-type=\"fig\">Figure 4</xref>b). His post-transcatheter aortic valve replacement course was uneventful with no signs of bowel ischemia. Pathology showed the retrieved material was a fragment of atherosclerotic plaque with typical cholesterol clefts and foamy macrophages (b). His post-transcatheter aortic valve replacement course was uneventful with no signs of bowel ischemia. Pathology showed the retrieved material was a fragment of atherosclerotic plaque with typical cholesterol clefts and foamy macrophages (<xref rid=\"gr5\" ref-type=\"fig\">Figure 5</xref>a and b).a and b).Figure 1Preprocedural computed tomography showing protruding plaques into the descending aortic lumen.Figure 2Aortography after Sapien 3 implantation.Figure 3Transesophageal echocardiography (TEE) showing a guidewire (arrow) with the protruding plaque (arrowhead) before (a) and after (b) device advancement.Figure 4Superior mesenteric artery angiography showing embolic partial obstruction of the mid portion before the aspiration procedure (a) and restoration of blood flow to ileocolic territory after the procedure (b). Arrow heads indicate partially improved blood flow to iliocolic territory.Figure 5Pathology of the aspirate showing cholesterol clefts (green arrows), foamy macrophages (blue arrows), and calcification (yellow arrow) in low (a) and high (b) magnifications.",
-  "relevant_image_context": "An 83-year-old male was scheduled for transcatheter aortic valve replacement for severe aortic valve stenosis. Although preprocedural computed tomography demonstrated atherosclerotic plaques protruding into the descending aortic lumen (Figure 1), we concluded a transfemoral approach was feasible."
+  "relevant_image_context": "An 83-year-old male was scheduled for transcatheter aortic valve replacement for severe aortic valve stenosis. Although preprocedural computed tomography demonstrated atherosclerotic plaques protruding into the descending aortic lumen (Figure 1), we concluded a transfemoral approach was feasible.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_132_10-PMC10236824-4-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_132_10-PMC10236824-4-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "mid-thoracic aorta level",
+        "claim_text": "The image is at the level of the mid-thoracic aorta.",
+        "presence_question": "Does the model's response discuss mid-thoracic aorta level?",
+        "correctness_question": "Does the model's response correctly assert that The image is at the level of the mid-thoracic aorta.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "descending thoracic aortic plaque",
+        "claim_text": "Atherosclerotic plaque and calcification are present in the descending thoracic aortic wall.",
+        "presence_question": "Does the model's response discuss descending thoracic aortic plaque?",
+        "correctness_question": "Does the model's response correctly assert that Atherosclerotic plaque and calcification are present in the descending thoracic aortic wall.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "plaque shape in descending aorta",
+        "claim_text": "The atherosclerotic plaque is irregular and eccentric in shape within the descending thoracic aorta.",
+        "presence_question": "Does the model's response discuss plaque shape in descending aorta?",
+        "correctness_question": "Does the model's response correctly assert that The atherosclerotic plaque is irregular and eccentric in shape within the descending thoracic aorta.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "plaque projecting into aortic lumen",
+        "claim_text": "The atherosclerotic plaque projects into the aortic lumen of the descending thoracic aorta.",
+        "presence_question": "Does the model's response discuss plaque projecting into aortic lumen?",
+        "correctness_question": "Does the model's response correctly assert that The atherosclerotic plaque projects into the aortic lumen of the descending thoracic aorta.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "plaque on transfemoral catheter path",
+        "claim_text": "The atherosclerotic plaque lies along the expected transfemoral catheter path from the femoral artery to the aortic valve.",
+        "presence_question": "Does the model's response discuss plaque on transfemoral catheter path?",
+        "correctness_question": "Does the model's response correctly assert that The atherosclerotic plaque lies along the expected transfemoral catheter path from the femoral artery to the aortic valve.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "transfemoral TAVR access",
+        "claim_text": "Transfemoral transcatheter aortic valve replacement typically involves passage and manipulation of large-bore sheaths and catheters through the descending aorta and aortic arch to reach the aortic valve.",
+        "presence_question": "Does the model's response discuss transfemoral TAVR access?",
+        "correctness_question": "Does the model's response correctly state that Transfemoral transcatheter aortic valve replacement typically involves passage and manipulation of large-bore sheaths and catheters through the descending aorta and aortic arch to reach the aortic valve?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "aortic plaque embolization",
+        "claim_text": "Disruption of aortic atherosclerotic plaque during endovascular device passage can produce emboli that travel to the cerebral circulation and cause ischemic stroke.",
+        "presence_question": "Does the model's response discuss aortic plaque embolization?",
+        "correctness_question": "Does the model's response correctly state that Disruption of aortic atherosclerotic plaque during endovascular device passage can produce emboli that travel to the cerebral circulation and cause ischemic stroke?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Plaque disruption risk along transfemoral route",
+        "claim_text": "The atherosclerotic plaque seen on CT is plausibly at risk of being disrupted by transfemoral device passage.",
+        "presence_question": "Does the model's response make an inferential link about Plaque disruption risk along transfemoral route?",
+        "correctness_question": "Does the model's response correctly conclude that The atherosclerotic plaque seen on CT is plausibly at risk of being disrupted by transfemoral device passage?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Increased periprocedural embolic stroke risk",
+        "claim_text": "The presence of plaque along the transfemoral catheter route on this CT increases the risk of periprocedural embolic ischemic stroke in this case.",
+        "presence_question": "Does the model's response make an inferential link about Increased periprocedural embolic stroke risk?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of plaque along the transfemoral catheter route on this CT increases the risk of periprocedural embolic ischemic stroke in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

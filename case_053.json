@@ -31,5 +31,153 @@
   "caption": "MRI images demonstrating cystic papillary adenoma of Seminal Vesicle",
   "sub_caption": "MRI images demonstrating cystic papillary adenoma of Seminal Vesicle",
   "image_context": "A 35 year old male was referred with an 8 month history of intermittent macroscopic haematuria, associated with mild right sided iliac fossa and groin pain. Past medical history included a prior right inguinal hernia repair and orchidopexy for undescended testis. The patient was also found to have azoospermia and was undergoing assessment in preparation for In vitro fertilization (IVF)/Intracytoplasmic Sperm Injection (ICSI). Examination of genitalia, testes and prostate was essentially unremarkable outside of an old right inguinal scar consistent with the history of orchidopexy and hernia repair. There was some thickening of the tissues around his right testicle consistent with previous orchidopexy. Initial workup of haematuria was performed. Urine microscopy demonstrated nonglomerular microscopic haematuria, cytology revealed atypical cells and the computerized tomography (CT) intravenous pyelogram (IVP) reported normal appearance of the upper urinary tract and bladder. However, it also described the incidental finding of a 7 × 3.5 × 2 cm fluid density mass at the posterior aspect of the bladder continuous with the right seminal vesicle. Blood tests were unremarkable including a PSA of 0.6 ng/ml. The seminal vesicle mass was further investigated with magnetic resonance imaging (MRI) which reported two cystic structures adjacent the bladder and appearing related to the seminal vesicle (Fig. <xref rid=\"12894_2021_830_Fig1_HTML\" ref-type=\"fig\">1</xref>). The larger structure terminated at the level of the verumontanum appearing to be a Müllerian duct remnant, and comment was made on the appearance of debris within the smaller structure. Operatively blood stained debris was seen at the verumontanum meatus and a rigid ureteroscope was used to perform seminal vesiculoscopy to inspect the lesion. A papillary mass was visible macroscopically and biopsies were taken of the mass. The biopsy histology noted atypical epithelial lesion with papillary features. Following discussion of these findings the patient elected to proceed and the cystic structure was excised via a robotic approach and sent for histopathology. The patient made a smooth recovery with normal ejaculation function and volume. The urine cytology also normalized post removal of the seminal vesicle.\n). The larger structure terminated at the level of the verumontanum appearing to be a Müllerian duct remnant, and comment was made on the appearance of debris within the smaller structure. Operatively blood stained debris was seen at the verumontanum meatus and a rigid ureteroscope was used to perform seminal vesiculoscopy to inspect the lesion. A papillary mass was visible macroscopically and biopsies were taken of the mass. The biopsy histology noted atypical epithelial lesion with papillary features. Following discussion of these findings the patient elected to proceed and the cystic structure was excised via a robotic approach and sent for histopathology. The patient made a smooth recovery with normal ejaculation function and volume. The urine cytology also normalized post removal of the seminal vesicle.\nFig. 1MRI images demonstrating cystic papillary adenoma of Seminal Vesicle",
-  "relevant_image_context": "Fig. 1MRI images demonstrating cystic papillary adenoma of Seminal Vesicle First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context. MRI images demonstrating cystic papillary adenoma of Seminal Vesicle. Two cystic structures adjacent the bladder and appearing related to the seminal vesicle (Fig. 1). The larger structure terminated at the level of the verumontanum, appearing to be a Müllerian duct remnant, and comment was made on the appearance of debris within the smaller structure. Operatively blood stained debris was seen at the verumontanum meatus and a rigid ureteroscope was used to perform seminal vesiculoscopy to inspect the lesion. A papillary mass was visible macroscopically and biopsies were taken of the mass."
+  "relevant_image_context": "Fig. 1MRI images demonstrating cystic papillary adenoma of Seminal Vesicle First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context. MRI images demonstrating cystic papillary adenoma of Seminal Vesicle. Two cystic structures adjacent the bladder and appearing related to the seminal vesicle (Fig. 1). The larger structure terminated at the level of the verumontanum, appearing to be a Müllerian duct remnant, and comment was made on the appearance of debris within the smaller structure. Operatively blood stained debris was seen at the verumontanum meatus and a rigid ureteroscope was used to perform seminal vesiculoscopy to inspect the lesion. A papillary mass was visible macroscopically and biopsies were taken of the mass.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_95_56-PMC8051035-0-12894_2021_830_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_95_56-PMC8051035-0-12894_2021_830_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "midline urinary bladder",
+        "claim_text": "A large midline fluid-filled urinary bladder is present superiorly in the pelvis.",
+        "presence_question": "Does the model's response discuss midline urinary bladder?",
+        "correctness_question": "Does the model's response correctly assert that A large midline fluid-filled urinary bladder is present superiorly in the pelvis?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "urinary bladder fluid-filled appearance",
+        "claim_text": "The urinary bladder demonstrates a fluid-filled appearance on these images.",
+        "presence_question": "Does the model's response discuss urinary bladder fluid-filled appearance?",
+        "correctness_question": "Does the model's response correctly assert that The urinary bladder demonstrates a fluid-filled appearance on these images?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "left pelvic fluid-filled lesion",
+        "claim_text": "A separate left-sided fluid-filled lesion is present inferior and slightly posterior to the urinary bladder.",
+        "presence_question": "Does the model's response discuss left pelvic fluid-filled lesion?",
+        "correctness_question": "Does the model's response correctly assert that A separate left-sided fluid-filled lesion is present inferior and slightly posterior to the urinary bladder?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "single left pelvic lesion",
+        "claim_text": "There is a single left-sided arrowed lesion in the pelvis.",
+        "presence_question": "Does the model's response discuss single left pelvic lesion?",
+        "correctness_question": "Does the model's response correctly assert that There is a single left-sided arrowed lesion in the pelvis?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "elongated ovoid lesion shape",
+        "claim_text": "The arrowed lesion has an elongated ovoid shape.",
+        "presence_question": "Does the model's response discuss elongated ovoid lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The arrowed lesion has an elongated ovoid shape?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesion uniform fluid signal",
+        "claim_text": "The arrowed lesion demonstrates a uniform fluid signal.",
+        "presence_question": "Does the model's response discuss lesion uniform fluid signal?",
+        "correctness_question": "Does the model's response correctly assert that The arrowed lesion demonstrates a uniform fluid signal?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "lesion left lateral and posterior to bladder",
+        "claim_text": "The arrowed lesion is located left of midline, lateral and posterior to the urinary bladder.",
+        "presence_question": "Does the model's response discuss lesion left lateral and posterior to bladder?",
+        "correctness_question": "Does the model's response correctly assert that The arrowed lesion is located left of midline, lateral and posterior to the urinary bladder?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "lesion superior and anterior to prostate region",
+        "claim_text": "The arrowed lesion lies superior and anterior to central pelvic soft tissue at the level of the prostate.",
+        "presence_question": "Does the model's response discuss lesion superior and anterior to prostate region?",
+        "correctness_question": "Does the model's response correctly assert that The arrowed lesion lies superior and anterior to central pelvic soft tissue at the level of the prostate?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "lesion anterior to rectum",
+        "claim_text": "The arrowed lesion is located anterior to the rectum.",
+        "presence_question": "Does the model's response discuss lesion anterior to rectum?",
+        "correctness_question": "Does the model's response correctly assert that The arrowed lesion is located anterior to the rectum?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "lesion in seminal vesicle region",
+        "claim_text": "The arrowed lesion is in the expected region of the seminal vesicles on the left.",
+        "presence_question": "Does the model's response discuss lesion in seminal vesicle region?",
+        "correctness_question": "Does the model's response correctly assert that The arrowed lesion is in the expected region of the seminal vesicles on the left?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "seminal vesicle location",
+        "claim_text": "The seminal vesicles are located lateral to the midline, posterior to the bladder, and anterior to the rectum.",
+        "presence_question": "Does the model's response discuss seminal vesicle location?",
+        "correctness_question": "Does the model's response correctly state that The seminal vesicles are located lateral to the midline, posterior to the bladder, and anterior to the rectum?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "cystic lesion imaging appearance",
+        "claim_text": "Cystic lesions typically demonstrate a uniform fluid signal on imaging.",
+        "presence_question": "Does the model's response discuss cystic lesion imaging appearance?",
+        "correctness_question": "Does the model's response correctly state that Cystic lesions typically demonstrate a uniform fluid signal on imaging?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "seminal vesicle cyst features",
+        "claim_text": "A seminal vesicle cyst is typically identified by cystic morphology and by its location lateral and posterior to the bladder.",
+        "presence_question": "Does the model's response discuss seminal vesicle cyst features?",
+        "correctness_question": "Does the model's response correctly state that A seminal vesicle cyst is typically identified by cystic morphology and by its location lateral and posterior to the bladder?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Cystic interpretation of lesion",
+        "claim_text": "The lesion's uniform fluid signal on imaging supports interpreting the lesion as cystic in this case.",
+        "presence_question": "Does the model's response make an inferential link about Cystic interpretation of lesion?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's uniform fluid signal on imaging supports interpreting the lesion as cystic in this case?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Lesion location consistent with seminal vesicles",
+        "claim_text": "The lesion's position left of midline, lateral/posterior to the bladder, and anterior to the rectum is consistent with the typical anatomical location of the seminal vesicles.",
+        "presence_question": "Does the model's response make an inferential link about Lesion location consistent with seminal vesicles?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's position left of midline, lateral/posterior to the bladder, and anterior to the rectum is consistent with the typical anatomical location of the seminal vesicles?",
+        "premise_perception_ids": [
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Seminal vesicle cyst as plausible diagnosis",
+        "claim_text": "The combination of the lesion's cystic imaging appearance and its location in the expected region of the seminal vesicles supports that a seminal vesicle cyst is a plausible diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Seminal vesicle cyst as plausible diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of the lesion's cystic imaging appearance and its location in the expected region of the seminal vesicles supports that a seminal vesicle cyst is a plausible diagnosis in this case?",
+        "premise_perception_ids": [
+          "p6",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -29,5 +29,131 @@
   "caption": "Image of a posterior scalp lesion",
   "sub_caption": "The provided image shows a posterior scalp lesion as indicated by the yellow arrow. The dimensions labeled as \"A: 18.7 mm\" and \"B: 8.5 mm\" suggest measurements of the lesion's size. This image likely represents a cross-sectional view, possibly from a CT scan, highlighting the lesion's location and characteristics.",
   "image_context": "An elderly woman with a medical history of obesity, diabetes mellitus, chronic kidney disease, and rheumatoid arthritis first noticed a mass on her vertex scalp in 2019, as visualized by computed tomography (CT) in Figure <xref rid=\"cureus-0015-00000040033-i01\" ref-type=\"fig\">1</xref>. The mass persisted and she sought out a dermatologist in November 2021. She then underwent an excisional biopsy and a histopathologic review demonstrated eccrine spiradenocarcinoma, as seen in Figure . The mass persisted and she sought out a dermatologist in November 2021. She then underwent an excisional biopsy and a histopathologic review demonstrated eccrine spiradenocarcinoma, as seen in Figure <xref rid=\"cureus-0015-00000040033-i02\" ref-type=\"fig\">2</xref>. The lesion was noted to extend to all margins of the biopsy specimen. CT scans of her head and neck, chest, abdomen, and pelvis were performed without contrast due to the patient’s poor renal function, and no evidence of metastasis was found. Given her medical history, the patient and her daughter were concerned about the patient’s ability to tolerate surgical resection and removal of lymph nodes. Radiation therapy was discussed as a possible curative option or as part of a palliative plan. The patient agreed to have her case, including radiologic and pathologic studies, be presented at the multidisciplinary tumor board. The team consisted of medical oncology, radiation oncology, surgery, speech pathology, and dental and oral maxillofacial prosthodontics. The final recommendation of the tumor board was wide local excision of positive margins.. The lesion was noted to extend to all margins of the biopsy specimen. CT scans of her head and neck, chest, abdomen, and pelvis were performed without contrast due to the patient’s poor renal function, and no evidence of metastasis was found. Given her medical history, the patient and her daughter were concerned about the patient’s ability to tolerate surgical resection and removal of lymph nodes. Radiation therapy was discussed as a possible curative option or as part of a palliative plan. The patient agreed to have her case, including radiologic and pathologic studies, be presented at the multidisciplinary tumor board. The team consisted of medical oncology, radiation oncology, surgery, speech pathology, and dental and oral maxillofacial prosthodontics. The final recommendation of the tumor board was wide local excision of positive margins.",
-  "relevant_image_context": "An elderly woman with a history of obesity, diabetes mellitus, chronic kidney disease, and rheumatoid arthritis first noticed a mass on her vertex scalp in 2019, as visualized by computed tomography (CT) in Figure 1."
+  "relevant_image_context": "An elderly woman with a history of obesity, diabetes mellitus, chronic kidney disease, and rheumatoid arthritis first noticed a mass on her vertex scalp in 2019, as visualized by computed tomography (CT) in Figure 1.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_149_56-PMC10246931-1-cureus-0015-00000040033-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_149_56-PMC10246931-1-cureus-0015-00000040033-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "posterior scalp lesion",
+        "claim_text": "A lesion is present on the axial CT slice of the posterior scalp.",
+        "presence_question": "Does the model's response discuss posterior scalp lesion?",
+        "correctness_question": "Does the model's response correctly assert that A lesion is present on the axial CT slice of the posterior scalp?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lesion superficial to calvarium",
+        "claim_text": "The lesion is located superficial to the calvarium within the scalp subcutaneous soft tissues.",
+        "presence_question": "Does the model's response discuss lesion superficial to calvarium?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located superficial to the calvarium within the scalp subcutaneous soft tissues?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "lesion size",
+        "claim_text": "The lesion measures approximately 18.7 mm by 8.5 mm.",
+        "presence_question": "Does the model's response discuss lesion size?",
+        "correctness_question": "Does the model's response correctly assert that The lesion measures approximately 18.7 mm by 8.5 mm?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lesion shape",
+        "claim_text": "The lesion demonstrates an ovoid shape on the axial posterior scalp image.",
+        "presence_question": "Does the model's response discuss lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesion demonstrates an ovoid shape on the axial posterior scalp image?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "lesion margins",
+        "claim_text": "The lesion has well-circumscribed margins on the axial posterior scalp image.",
+        "presence_question": "Does the model's response discuss lesion margins?",
+        "correctness_question": "Does the model's response correctly assert that The lesion has well-circumscribed margins on the axial posterior scalp image?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "cortical defect or intracranial extension",
+        "claim_text": "No cortical defect or intracranial extension is identified on this axial CT slice.",
+        "presence_question": "Does the model's response discuss cortical defect or intracranial extension?",
+        "correctness_question": "Does the model's response correctly assert that No cortical defect or intracranial extension is identified on this axial CT slice?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "subcutaneous scalp lesion (extracranial)",
+        "claim_text": "The lesion is located within the subcutaneous scalp soft tissues and is extracranial.",
+        "presence_question": "Does the model's response discuss subcutaneous scalp lesion (extracranial)?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located within the subcutaneous scalp soft tissues and is extracranial?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Well-circumscribed lesion",
+        "claim_text": "A well-circumscribed lesion typically suggests a localized, less invasive process.",
+        "presence_question": "Does the model's response discuss well-circumscribed lesion?",
+        "correctness_question": "Does the model's response correctly state that A well-circumscribed lesion typically suggests a localized, less invasive process?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Excision with primary closure",
+        "claim_text": "Excision with primary closure for a small superficial lesion typically provides a complete specimen for histopathologic diagnosis.",
+        "presence_question": "Does the model's response discuss excision with primary closure?",
+        "correctness_question": "Does the model's response correctly state that Excision with primary closure for a small superficial lesion typically provides a complete specimen for histopathologic diagnosis?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "No cortical defect or intracranial extension on CT",
+        "claim_text": "Absence of a cortical defect or intracranial extension on CT typically indicates the lesion is confined extracranially.",
+        "presence_question": "Does the model's response discuss no cortical defect or intracranial extension on CT?",
+        "correctness_question": "Does the model's response correctly state that Absence of a cortical defect or intracranial extension on CT typically indicates the lesion is confined extracranially?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Lesion morphology implies localized process",
+        "claim_text": "The lesion's well-circumscribed, ovoid morphology on CT supports that a localized, less invasive process is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about Lesion morphology implies localized process?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's well-circumscribed, ovoid morphology on CT supports that a localized, less invasive process is plausible in this case.?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Excision with primary closure justified",
+        "claim_text": "Given the lesion is small and superficial on imaging, excision with primary closure is a reasonable, lower-morbidity approach that will provide a full specimen for histopathology.",
+        "presence_question": "Does the model's response make an inferential link about Excision with primary closure justified?",
+        "correctness_question": "Does the model's response correctly conclude that Given the lesion is small and superficial on imaging, excision with primary closure is a reasonable, lower-morbidity approach that will provide a full specimen for histopathology.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Absence of cortical defect argues against intracranial extension",
+        "claim_text": "The lack of an apparent cortical defect or intracranial extension on the CT slice argues against intracranial involvement and supports that the lesion is extracranial in this study.",
+        "presence_question": "Does the model's response make an inferential link about Absence of cortical defect argues against intracranial extension?",
+        "correctness_question": "Does the model's response correctly conclude that The lack of an apparent cortical defect or intracranial extension on the CT slice argues against intracranial involvement and supports that the lesion is extracranial in this study.?",
+        "premise_perception_ids": [
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

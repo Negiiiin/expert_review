@@ -28,5 +28,156 @@
   "caption": "Brain computed tomographyBrain computed tomography in axial view showing a large left fronto-parieto-temporal extra-axial fluid collection measuring 9.5 x 5.1 cm of maximum diameters creating a significant parenchymal and ventricular compression with subfalcine herniation (midline shift). It is also possible to see a 5 mm deviation of midline structures.",
   "sub_caption": "Brain computed tomography in axial view showing a large left fronto-parieto-temporal extra-axial fluid collection measuring 9.5 x 5.1 cm of maximum diameters creating a significant parenchymal and ventricular compression with subfalcine herniation (midline shift). It is also possible to see a 5 mm deviation of midline structures.",
   "image_context": "The authors describe a case of a 66-year-old autonomous man with a known history of benign prostatic hypertrophy, who presented to the emergency department for the first time with sudden onset of dysarthria, left central facial palsy, and left hemihypesthesia involving the tongue. No other focal neurological deficits were detected. The patient was hemodynamically stable, with a blood pressure of 153/84 mmHg and heart rate of 80 bpm, with normal peripheral oxygen blood saturation (SpO2 = 97%), and was normoglycemic. Traumatic brain injury and possible toxic exposures were ruled out. Assuming a stoke, a National Institutes of Health Stroke Scale (NIHSS) score of 5 was calculated and the patient promptly underwent a brain CT scan, followed by a brain CT angiography (Figures <xref rid=\"cureus-0014-00000031782-i01\" ref-type=\"fig\">1</xref>, , <xref rid=\"cureus-0014-00000031782-i02\" ref-type=\"fig\">2</xref>), which revealed a large left fronto-parieto-temporal arachnoid cyst, with approximately 9.5 x 5.1 cm of maximum diameters (anteroposterior and transversal, respectably), compressing the brain parenchyma and the ventricular system with a right deviation of the median structures by about 5 mm. During the five-hour stay in the emergency department, the patient had a complete spontaneous resolution of the initial symptoms. He declined admission to the ward for observation and further investigation, choosing to be discharged against medical advice. A few weeks later, the patient was re-admitted to the hospital with the same deficits described at the initial episode but this time with severe dysarthria and new onset of left hemiparesis scoring 10 on the NIHSS. The patient was admitted to the neurosurgery ward and submitted to an emergent cystoperitoneal shunt. The procedure underwent without complications with complete remission of the initial deficits. One year later, the patient remained asymptomatic with follow-up brain CT scans showing no signs of surgery-related complications or cyst relapse.), which revealed a large left fronto-parieto-temporal arachnoid cyst, with approximately 9.5 x 5.1 cm of maximum diameters (anteroposterior and transversal, respectably), compressing the brain parenchyma and the ventricular system with a right deviation of the median structures by about 5 mm. During the five-hour stay in the emergency department, the patient had a complete spontaneous resolution of the initial symptoms. He declined admission to the ward for observation and further investigation, choosing to be discharged against medical advice. A few weeks later, the patient was re-admitted to the hospital with the same deficits described at the initial episode but this time with severe dysarthria and new onset of left hemiparesis scoring 10 on the NIHSS. The patient was admitted to the neurosurgery ward and submitted to an emergent cystoperitoneal shunt. The procedure underwent without complications with complete remission of the initial deficits. One year later, the patient remained asymptomatic with follow-up brain CT scans showing no signs of surgery-related complications or cyst relapse.",
-  "relevant_image_context": "which revealed a large left fronto-parieto-temporal arachnoid cyst, with approximately 9.5 x 5.1 cm of maximum diameters (anteroposterior and transversal, respectably), compressing the brain parenchyma and the ventricular system with a right deviation of the median structures by about 5 mm."
+  "relevant_image_context": "which revealed a large left fronto-parieto-temporal arachnoid cyst, with approximately 9.5 x 5.1 cm of maximum diameters (anteroposterior and transversal, respectably), compressing the brain parenchyma and the ventricular system with a right deviation of the median structures by about 5 mm.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_18_42-PMC3932581-3-IJRI-23-366-g009.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_18_42-PMC3932581-3-IJRI-23-366-g009.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "probe surface at top of image",
+        "claim_text": "The probe surface (skin) is located at the top of the image.",
+        "presence_question": "Does the model's response discuss probe surface at top of image?",
+        "correctness_question": "Does the model's response correctly assert that The probe surface (skin) is located at the top of the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lesion presence",
+        "claim_text": "A lesion is present and visible in the image.",
+        "presence_question": "Does the model's response discuss lesion presence?",
+        "correctness_question": "Does the model's response correctly assert that A lesion is present and visible in the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "lesion shape",
+        "claim_text": "The lesion has a distinctly ovoid shape on imaging.",
+        "presence_question": "Does the model's response discuss lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesion has a distinctly ovoid shape on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lesion margin",
+        "claim_text": "The lesion demonstrates clearly demarcated margins on the image.",
+        "presence_question": "Does the model's response discuss lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The lesion demonstrates clearly demarcated margins on the image?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "lesion below superficial line",
+        "claim_text": "The lesion is located just below the superficial line.",
+        "presence_question": "Does the model's response discuss lesion below superficial line?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located just below the superficial line?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesion outlined by calipers",
+        "claim_text": "The lesion is outlined by dotted measurement calipers.",
+        "presence_question": "Does the model's response discuss lesion outlined by calipers?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is outlined by dotted measurement calipers?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "lesion in upper field",
+        "claim_text": "The lesion is located in the upper portion of the field.",
+        "presence_question": "Does the model's response discuss lesion in upper field?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located in the upper portion of the field?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "lesion centered at midline",
+        "claim_text": "The lesion is centered horizontally along the midline.",
+        "presence_question": "Does the model's response discuss lesion centered at midline?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is centered horizontally along the midline?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "ultrasound image orientation",
+        "claim_text": "Structures closest to the ultrasound probe, such as skin and other superficial tissues, appear at the top of the image.",
+        "presence_question": "Does the model's response discuss ultrasound image orientation?",
+        "correctness_question": "Does the model's response correctly state that Structures closest to the ultrasound probe, such as skin and other superficial tissues, appear at the top of the image?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "measurement calipers on imaging",
+        "claim_text": "Measurement calipers on imaging are annotations indicating the measurement of a structure.",
+        "presence_question": "Does the model's response discuss measurement calipers on imaging?",
+        "correctness_question": "Does the model's response correctly state that Measurement calipers on imaging are annotations indicating the measurement of a structure?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "ovoid shape descriptor",
+        "claim_text": "The term 'ovoid' describes a rounded-elongated shape.",
+        "presence_question": "Does the model's response discuss ovoid shape descriptor?",
+        "correctness_question": "Does the model's response correctly state that The term 'ovoid' describes a rounded-elongated shape?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "image midline",
+        "claim_text": "The image midline is the horizontal center of the image.",
+        "presence_question": "Does the model's response discuss image midline?",
+        "correctness_question": "Does the model's response correctly state that The image midline is the horizontal center of the image?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "lesion superficiality from probe position",
+        "claim_text": "The probe being at the top of the image and the lesion lying just below the superficial line supports that the lesion is superficial in this case.",
+        "presence_question": "Does the model's response make an inferential link about lesion superficiality from probe position?",
+        "correctness_question": "Does the model's response correctly conclude that The probe being at the top of the image and the lesion lying just below the superficial line supports that the lesion is superficial in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "measurement inference from calipers",
+        "claim_text": "The lesion being outlined by dotted measurement calipers is consistent with the lesion being measured in the image.",
+        "presence_question": "Does the model's response make an inferential link about measurement inference from calipers?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion being outlined by dotted measurement calipers is consistent with the lesion being measured in the image?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "ovoid shape inference",
+        "claim_text": "The lesion being described as ovoid, where 'ovoid' denotes a rounded-elongated shape, supports that the lesion in this case has an ovoid shape.",
+        "presence_question": "Does the model's response make an inferential link about ovoid shape inference?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion being described as ovoid, where 'ovoid' denotes a rounded-elongated shape, supports that the lesion in this case has an ovoid shape?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "horizontal centering inference",
+        "claim_text": "The lesion's location at the midline, given that the midline corresponds to the horizontal center of the image, is consistent with the lesion being centered horizontally in this case.",
+        "presence_question": "Does the model's response make an inferential link about horizontal centering inference?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's location at the midline, given that the midline corresponds to the horizontal center of the image, is consistent with the lesion being centered horizontally in this case?",
+        "premise_perception_ids": [
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

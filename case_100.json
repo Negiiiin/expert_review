@@ -28,5 +28,162 @@
   "caption": "Chest CT with contrast showing mediastinal cysts.",
   "sub_caption": "Chest CT with contrast showing mediastinal cysts.",
   "image_context": "Investigations initially showed a normal full blood count and a positive Casoni test. A chest CT scan with contrast subsequently revealed two multi-loculated mediastinal cysts. The first was located in the middle mediastinum lateral to the ascending aorta. The second was posterior to the heart attached to the posterolateral surface of the left ventricle (Fig. <xref ref-type=\"fig\" rid=\"rjw01901\">1</xref>). Echocardiography demonstrated that the posterior cyst was adherent to the posterior surface of the left ventricle.\n). Echocardiography demonstrated that the posterior cyst was adherent to the posterior surface of the left ventricle.\nFigure 1:Chest CT with contrast showing mediastinal cysts.",
-  "relevant_image_context": "Investigations initially showed a normal full blood count and a positive Casoni test. A chest CT scan with contrast subsequently revealed two multi-loculated mediastinal cysts. The first was located in the middle mediastinum lateral to the ascending aorta. The second was posterior to the heart attached to the posterolateral surface of the left ventricle. Echocardiography demonstrated that the posterior cyst was adherent to the posterior surface of the left ventricle. Figure 1: Chest CT with contrast showing mediastinal cysts."
+  "relevant_image_context": "Investigations initially showed a normal full blood count and a positive Casoni test. A chest CT scan with contrast subsequently revealed two multi-loculated mediastinal cysts. The first was located in the middle mediastinum lateral to the ascending aorta. The second was posterior to the heart attached to the posterolateral surface of the left ventricle. Echocardiography demonstrated that the posterior cyst was adherent to the posterior surface of the left ventricle. Figure 1: Chest CT with contrast showing mediastinal cysts.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_32_104-PMC4769357-2-rjw01901.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_32_104-PMC4769357-2-rjw01901.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Number of mediastinal masses",
+        "claim_text": "There are two distinct masses identified within the mediastinum on imaging studies.",
+        "presence_question": "Does the model's response discuss Number of mediastinal masses?",
+        "correctness_question": "Does the model's response correctly assert that There are two distinct masses identified within the mediastinum on imaging studies.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Low attenuation of mediastinal masses",
+        "claim_text": "The mediastinal masses demonstrate low attenuation on the axial contrast-enhanced chest CT images.",
+        "presence_question": "Does the model's response discuss Low attenuation of mediastinal masses?",
+        "correctness_question": "Does the model's response correctly assert that The mediastinal masses demonstrate low attenuation on the axial contrast-enhanced chest CT images.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Rounded shape of mediastinal masses",
+        "claim_text": "The mediastinal masses appear rounded in shape on the axial contrast-enhanced chest CT.",
+        "presence_question": "Does the model's response discuss Rounded shape of mediastinal masses?",
+        "correctness_question": "Does the model's response correctly assert that The mediastinal masses appear rounded in shape on the axial contrast-enhanced chest CT.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Well-defined margins of mediastinal masses",
+        "claim_text": "The mediastinal masses have well-defined margins on the axial contrast-enhanced chest CT.",
+        "presence_question": "Does the model's response discuss Well-defined margins of mediastinal masses?",
+        "correctness_question": "Does the model's response correctly assert that The mediastinal masses have well-defined margins on the axial contrast-enhanced chest CT.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Posterior mediastinal mass location",
+        "claim_text": "One posterior mediastinal mass is located posterior to the heart in the retrocardiac region.",
+        "presence_question": "Does the model's response discuss Posterior mediastinal mass location?",
+        "correctness_question": "Does the model's response correctly assert that One posterior mediastinal mass is located posterior to the heart in the retrocardiac region.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Posterior mass adjacent to left ventricle",
+        "claim_text": "The posterior mass closely abuts the left ventricular surface on axial contrast-enhanced chest CT images.",
+        "presence_question": "Does the model's response discuss Posterior mass adjacent to left ventricle?",
+        "correctness_question": "Does the model's response correctly assert that The posterior mass closely abuts the left ventricular surface on axial contrast-enhanced chest CT images.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Posterior lesion adherent to left ventricle",
+        "claim_text": "Echocardiography confirms the posterior lesion is adherent to the left ventricle.",
+        "presence_question": "Does the model's response discuss Posterior lesion adherent to left ventricle?",
+        "correctness_question": "Does the model's response correctly assert that Echocardiography confirms the posterior lesion is adherent to the left ventricle.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Second mass in anterior/central mediastinum",
+        "claim_text": "A second mass is located in the anterior and central mediastinum on axial contrast-enhanced chest CT.",
+        "presence_question": "Does the model's response discuss Second mass in anterior/central mediastinum?",
+        "correctness_question": "Does the model's response correctly assert that A second mass is located in the anterior and central mediastinum on axial contrast-enhanced chest CT.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Full blood count normal",
+        "claim_text": "The full blood count demonstrates normal results on laboratory testing.",
+        "presence_question": "Does the model's response discuss Full blood count normal?",
+        "correctness_question": "Does the model's response correctly assert that The full blood count demonstrates normal results on laboratory testing.?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Positive Casoni skin test",
+        "claim_text": "The Casoni skin test is positive on clinical testing.",
+        "presence_question": "Does the model's response discuss Positive Casoni skin test?",
+        "correctness_question": "Does the model's response correctly assert that The Casoni skin test is positive on clinical testing.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Casoni skin test",
+        "claim_text": "A positive Casoni skin test suggests infection with parasitic cysts.",
+        "presence_question": "Does the model's response discuss Casoni skin test?",
+        "correctness_question": "Does the model's response correctly state that A positive Casoni skin test suggests infection with parasitic cysts?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Low-attenuation rounded CT masses",
+        "claim_text": "Low-attenuation, well-defined, rounded masses on contrast-enhanced CT are characteristic of cystic lesions.",
+        "presence_question": "Does the model's response discuss Low-attenuation rounded CT masses?",
+        "correctness_question": "Does the model's response correctly state that Low-attenuation, well-defined, rounded masses on contrast-enhanced CT are characteristic of cystic lesions?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Echocardiography detection of lesion adhesion",
+        "claim_text": "Echocardiography can detect adhesion of lesions to cardiac structures.",
+        "presence_question": "Does the model's response discuss Echocardiography detection of lesion adhesion?",
+        "correctness_question": "Does the model's response correctly state that Echocardiography can detect adhesion of lesions to cardiac structures?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Anti-helminthic therapy for parasitic cysts",
+        "claim_text": "Anti-helminthic therapy reduces parasitic cyst viability and lowers the risk of cyst dissemination during interventions.",
+        "presence_question": "Does the model's response discuss Anti-helminthic therapy for parasitic cysts?",
+        "correctness_question": "Does the model's response correctly state that Anti-helminthic therapy reduces parasitic cyst viability and lowers the risk of cyst dissemination during interventions?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Parasitic cyst as plausible diagnosis",
+        "claim_text": "The presence of two well-defined, rounded, low-attenuation mediastinal masses on CT together with a positive Casoni skin test supports that parasitic cysts are a plausible diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Parasitic cyst as plausible diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of two well-defined, rounded, low-attenuation mediastinal masses on CT together with a positive Casoni skin test supports that parasitic cysts are a plausible diagnosis in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Adjunctive anti-helminthic therapy justified",
+        "claim_text": "Because the posterior lesion is adjacent to/adherent to the left ventricle, using adjunctive anti-helminthic therapy that reduces cyst viability and the risk of dissemination with intervention is justified in this case.",
+        "presence_question": "Does the model's response make an inferential link about Adjunctive anti-helminthic therapy justified?",
+        "correctness_question": "Does the model's response correctly conclude that Because the posterior lesion is adjacent to/adherent to the left ventricle, using adjunctive anti-helminthic therapy that reduces cyst viability and the risk of dissemination with intervention is justified in this case?",
+        "premise_perception_ids": [
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Posterior lesion adherence confirmation",
+        "claim_text": "Echocardiography confirmation that the posterior lesion is adherent to the left ventricle supports the imaging finding of lesion adherence to cardiac structures in this case.",
+        "presence_question": "Does the model's response make an inferential link about Posterior lesion adherence confirmation?",
+        "correctness_question": "Does the model's response correctly conclude that Echocardiography confirmation that the posterior lesion is adherent to the left ventricle supports the imaging finding of lesion adherence to cardiac structures in this case?",
+        "premise_perception_ids": [
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

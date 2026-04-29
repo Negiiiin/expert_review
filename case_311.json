@@ -28,5 +28,94 @@
   "caption": "Contrast agent‐enhanced computed tomography scan of the abdominal plane. Bilateral multiple renal cysts and pyelectasis were visualized. Pancreatic and genital tract were spared.",
   "sub_caption": "Contrast agent‐enhanced computed tomography scan of the abdominal plane. Bilateral multiple renal cysts and pyelectasis were visualized. Pancreatic and genital tract were spared.",
   "image_context": "Abdominal computed tomography showed bilateral multiple renal cysts and pyelectasis (Figure <xref rid=\"JDI-13-923-g004\" ref-type=\"fig\">1</xref>). Based on these clinical observations, MODY5 was suspected. Furthermore, the ). Based on these clinical observations, MODY5 was suspected. Furthermore, the HNF1B score, a pivotal tool for rational genetic testing\n5\n, was 19, confirming a high level of clinical suspicion for HNF1B‐related disease. We carried out multiplex ligation probe amplification using patient‐derived lymphocyte, and identified heterozygous entire deletion of the HNF1B gene (Figure <xref rid=\"JDI-13-923-g003\" ref-type=\"fig\">2</xref>).).",
-  "relevant_image_context": "Abdominal computed tomography showed bilateral multiple renal cysts and pyelectasis (Figure 1). Based on these clinical observations, MODY5 was suspected. Furthermore, the HNF1B score, a pivotal tool for rational genetic testing, was 19, confirming a high level of clinical suspicion for HNF1B-related disease. We carried out multiplex ligation probe amplification using patient-derived lymphocyte, and identified heterozygous entire deletion of the HNF1B gene (Figure 2)."
+  "relevant_image_context": "Abdominal computed tomography showed bilateral multiple renal cysts and pyelectasis (Figure 1). Based on these clinical observations, MODY5 was suspected. Furthermore, the HNF1B score, a pivotal tool for rational genetic testing, was 19, confirming a high level of clinical suspicion for HNF1B-related disease. We carried out multiplex ligation probe amplification using patient-derived lymphocyte, and identified heterozygous entire deletion of the HNF1B gene (Figure 2).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_111_7-PMC9077722-1-JDI-13-923-g004.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_111_7-PMC9077722-1-JDI-13-923-g004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "bilateral renal cortical cysts",
+        "claim_text": "Multiple cortical renal cysts are present bilaterally in the renal cortex of both kidneys.",
+        "presence_question": "Does the model's response discuss bilateral renal cortical cysts?",
+        "correctness_question": "Does the model's response correctly assert that Multiple cortical renal cysts are present bilaterally in the renal cortex of both kidneys?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "bilateral collecting system dilation",
+        "claim_text": "There is dilation of the collecting systems in both kidneys.",
+        "presence_question": "Does the model's response discuss bilateral collecting system dilation?",
+        "correctness_question": "Does the model's response correctly assert that There is dilation of the collecting systems in both kidneys?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "heterozygous deletion",
+        "claim_text": "A heterozygous deletion is the loss of one allele while the other allele remains present.",
+        "presence_question": "Does the model's response discuss heterozygous deletion?",
+        "correctness_question": "Does the model's response correctly state that a heterozygous deletion is the loss of one allele while the other allele remains present?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "autosomal dominant inheritance",
+        "claim_text": "In autosomal dominant inheritance, each biological child of an affected heterozygous parent has approximately a 50% chance of inheriting the pathogenic allele.",
+        "presence_question": "Does the model's response discuss autosomal dominant inheritance?",
+        "correctness_question": "Does the model's response correctly state that in autosomal dominant inheritance, each biological child of an affected heterozygous parent has approximately a 50% chance of inheriting the pathogenic allele?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "renal cortical cysts and collecting-system dilation",
+        "claim_text": "Renal cortical cysts and collecting-system dilation can be features of renal-pancreatic syndromes.",
+        "presence_question": "Does the model's response discuss renal cortical cysts and collecting-system dilation?",
+        "correctness_question": "Does the model's response correctly state that renal cortical cysts and collecting-system dilation can be features of renal-pancreatic syndromes?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "renal–pancreatic syndrome plausibility",
+        "claim_text": "The bilateral renal cortical cysts and dilation of the collecting systems support that a renal–pancreatic syndrome is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about renal–pancreatic syndrome plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that The bilateral renal cortical cysts and dilation of the collecting systems support that a renal–pancreatic syndrome is plausible in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "inheritance probability for deletion",
+        "claim_text": "For an autosomal dominant condition, a parent who is heterozygous for a deletion confers about a 50% chance that each biological child will inherit that deletion.",
+        "presence_question": "Does the model's response make an inferential link about inheritance probability for deletion?",
+        "correctness_question": "Does the model's response correctly conclude that For an autosomal dominant condition, a parent who is heterozygous for a deletion confers about a 50% chance that each biological child will inherit that deletion?",
+        "premise_perception_ids": [],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "imaging effect on inheritance probability",
+        "claim_text": "The imaging findings provide clinical support for the syndrome but are insufficient to alter the Mendelian (autosomal dominant) probability of transmission to offspring.",
+        "presence_question": "Does the model's response make an inferential link about imaging effect on inheritance probability?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings provide clinical support for the syndrome but are insufficient to alter the Mendelian (autosomal dominant) probability of transmission to offspring?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

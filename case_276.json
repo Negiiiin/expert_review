@@ -27,5 +27,100 @@
   "caption": "Endoscopic ultrasound view of a malignant peritumor lymph node. It is hypoechoic, round, and greater than 1 cm in size and has distinct borders.",
   "sub_caption": "Endoscopic ultrasound view of a malignant peritumor lymph node. It is hypoechoic, round, and greater than 1 cm in size and has distinct borders.",
   "image_context": "Endosonographic characteristics of lymph nodes that suggest malignant potential include size greater than 1 cm, round shape, sharp and demarcated borders, and hypoechoic echotexture (Figure <xref rid=\"WJGE-14-205-g007\" ref-type=\"fig\">7</xref>). When a lymph node is found to possess all four of these aforementioned features, the accuracy of predicting a malignant lymph node is 80%-100%[). When a lymph node is found to possess all four of these aforementioned features, the accuracy of predicting a malignant lymph node is 80%-100%[14,15]. The location of the lymph node may also be informative in differentiation of benign and malignant. For example, the presence of celiac lymph nodes usually indicates pathology since they are not usually present. In one study, 89% of endosonographically detectable celiac lymph nodes were confirmed to be malignant on FNA[16]. Another predictor of malignant lymph node status includes association with T3-T4 staged lesions[17].",
-  "relevant_image_context": "Endosonographic characteristics of lymph nodes that suggest malignant potential include size greater than 1 cm, round shape, sharp and demarcated borders, and hypoechoic echotexture (Figure 7). When a lymph node is found to possess all four of these aforementioned features, the accuracy of predicting a malignant lymph node is 80%-100%[14,15]. The location of the lymph node may also be informative in differentiation of benign and malignant. For example, the presence of celiac lymph nodes usually indicates pathology since they are not usually present. In one study, 89% of endosonographically detectable celiac lymph nodes were confirmed to be malignant on FNA[16]. Another predictor of malignant lymph node status includes association with T3-T4 staged lesions[17]."
+  "relevant_image_context": "Endosonographic characteristics of lymph nodes that suggest malignant potential include size greater than 1 cm, round shape, sharp and demarcated borders, and hypoechoic echotexture (Figure 7). When a lymph node is found to possess all four of these aforementioned features, the accuracy of predicting a malignant lymph node is 80%-100%[14,15]. The location of the lymph node may also be informative in differentiation of benign and malignant. For example, the presence of celiac lymph nodes usually indicates pathology since they are not usually present. In one study, 89% of endosonographically detectable celiac lymph nodes were confirmed to be malignant on FNA[16]. Another predictor of malignant lymph node status includes association with T3-T4 staged lesions[17].",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_110_3-PMC9048493-0-WJGE-14-205-g007.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_110_3-PMC9048493-0-WJGE-14-205-g007.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "lymph node presence on endoscopic ultrasound",
+        "claim_text": "A lymph node is present on the endoscopic ultrasound image",
+        "presence_question": "Does the model's response discuss lymph node presence on endoscopic ultrasound?",
+        "correctness_question": "Does the model's response correctly assert that A lymph node is present on the endoscopic ultrasound image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lymph node shape on endoscopic ultrasound",
+        "claim_text": "The lymph node on the endoscopic ultrasound image is round in shape",
+        "presence_question": "Does the model's response discuss lymph node shape on endoscopic ultrasound?",
+        "correctness_question": "Does the model's response correctly assert that The lymph node on the endoscopic ultrasound image is round in shape?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "lymph node echogenicity on endoscopic ultrasound",
+        "claim_text": "The lymph node on the endoscopic ultrasound image is hypoechoic (darker) relative to surrounding tissue",
+        "presence_question": "Does the model's response discuss lymph node echogenicity on endoscopic ultrasound?",
+        "correctness_question": "Does the model's response correctly assert that The lymph node on the endoscopic ultrasound image is hypoechoic (darker) relative to surrounding tissue?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lymph node margins on endoscopic ultrasound",
+        "claim_text": "The lymph node on the endoscopic ultrasound image has sharp, well-defined borders",
+        "presence_question": "Does the model's response discuss lymph node margins on endoscopic ultrasound?",
+        "correctness_question": "Does the model's response correctly assert that The lymph node on the endoscopic ultrasound image has sharp, well-defined borders?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "lymph node sonographic features",
+        "claim_text": "Round, hypoechoic, sharply marginated lymph nodes on endoscopic ultrasound are associated with increased suspicion for malignancy.",
+        "presence_question": "Does the model's response discuss lymph node sonographic features?",
+        "correctness_question": "Does the model's response correctly state that Round, hypoechoic, sharply marginated lymph nodes on endoscopic ultrasound are associated with increased suspicion for malignancy?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "suspicious lymph nodes",
+        "claim_text": "Lymph nodes with a suspicious appearance on imaging raise concern for nodal metastasis in patients with known malignancy.",
+        "presence_question": "Does the model's response discuss suspicious lymph nodes?",
+        "correctness_question": "Does the model's response correctly state that Lymph nodes with a suspicious appearance on imaging raise concern for nodal metastasis in patients with known malignancy?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "hypoechoic ultrasound signal",
+        "claim_text": "A hypoechoic signal on ultrasound appears darker relative to the surrounding tissue.",
+        "presence_question": "Does the model's response discuss hypoechoic ultrasound signal?",
+        "correctness_question": "Does the model's response correctly state that A hypoechoic signal on ultrasound appears darker relative to the surrounding tissue?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "suspicious lymph node appearance",
+        "claim_text": "The lymph node's round shape, hypoechoic signal, and sharp margins on EUS together support that the lymph node has a suspicious sonographic appearance.",
+        "presence_question": "Does the model's response make an inferential link about suspicious lymph node appearance?",
+        "correctness_question": "Does the model's response correctly conclude that The lymph node's round shape, hypoechoic signal, and sharp margins on EUS together support that the lymph node has a suspicious sonographic appearance?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "nodal metastasis concern",
+        "claim_text": "In the setting of a known gastrointestinal malignancy, the lymph node's suspicious sonographic features support that nodal metastasis is a plausible diagnosis in this patient.",
+        "presence_question": "Does the model's response make an inferential link about nodal metastasis concern?",
+        "correctness_question": "Does the model's response correctly conclude that In the setting of a known gastrointestinal malignancy, the lymph node's suspicious sonographic features support that nodal metastasis is a plausible diagnosis in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

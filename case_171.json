@@ -29,5 +29,141 @@
   "caption": "T2 weighted FLAIR image showing a 5 mm hyper intensity lesion in the left frontal lobe.",
   "sub_caption": "T2 weighted FLAIR image showing a 5 mm hyper intensity lesion in the left frontal lobe.",
   "image_context": "The second participant who tested positive for NMDAR-Abs was a 17 year-old female in the HC group. She had no prior or present psychopathology. The results from the neurocognitive assessment were within normal range on all tests, and she had no neurological findings upon inclusion. She had no prior somatic diseases or hospital admissions. She presented with a single finding on a FLAIR MR pulse sequence consisting of a 5 mm white matter hyper intensity lesion located in the left frontal lobe (<xref ref-type=\"fig\" rid=\"fpsyt-11-00666-g002\">\n<bold>Figure 2</bold>\n</xref>). This finding prompted a follow-up MRI, which was conducted one month later without observed abnormalities, i.e. the prior FLAIR abnormality was resolved. The same neuro-radiologist reviewed both scans. Neither at time of inclusion, nor at MRI follow-up scan, did she present with any symptoms or neurological findings coinciding with ANRE. Her school and social functioning remained unremarkable. Further clinical follow-up was not indicated.Figure 2\n). This finding prompted a follow-up MRI, which was conducted one month later without observed abnormalities, i.e. the prior FLAIR abnormality was resolved. The same neuro-radiologist reviewed both scans. Neither at time of inclusion, nor at MRI follow-up scan, did she present with any symptoms or neurological findings coinciding with ANRE. Her school and social functioning remained unremarkable. Further clinical follow-up was not indicated.",
-  "relevant_image_context": "The second participant who tested positive for NMDAR-Abs was a 17 year-old female in the HC group. She had no prior or present psychopathology. The results from the neurocognitive assessment were within normal range on all tests, and she had no neurological findings upon inclusion. She had no prior somatic diseases or hospital admissions. She presented with a single finding on a FLAIR MR pulse sequence consisting of a 5 mm white matter hyper intensity lesion located in the left frontal lobe (<xref ref-type=\"fig\" rid=\"fpsyt-11-00666-g002\"><bold>Figure 2</bold></xref>). This finding prompted a follow-up MRI, which was conducted one month later without observed abnormalities, i.e. the prior FLAIR abnormality was resolved. The same neuro-radiologist reviewed both scans. Neither at time of inclusion, nor at MRI follow-up scan, did she present with any symptoms or neurological findings coinciding with ANRE. Her school and social functioning remained unremarkable. Further clinical follow-up was not indicated. Figure 2"
+  "relevant_image_context": "The second participant who tested positive for NMDAR-Abs was a 17 year-old female in the HC group. She had no prior or present psychopathology. The results from the neurocognitive assessment were within normal range on all tests, and she had no neurological findings upon inclusion. She had no prior somatic diseases or hospital admissions. She presented with a single finding on a FLAIR MR pulse sequence consisting of a 5 mm white matter hyper intensity lesion located in the left frontal lobe (<xref ref-type=\"fig\" rid=\"fpsyt-11-00666-g002\"><bold>Figure 2</bold></xref>). This finding prompted a follow-up MRI, which was conducted one month later without observed abnormalities, i.e. the prior FLAIR abnormality was resolved. The same neuro-radiologist reviewed both scans. Neither at time of inclusion, nor at MRI follow-up scan, did she present with any symptoms or neurological findings coinciding with ANRE. Her school and social functioning remained unremarkable. Further clinical follow-up was not indicated. Figure 2",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_81_97-PMC7381144-1-fpsyt-11-00666-g002.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_81_97-PMC7381144-1-fpsyt-11-00666-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "focal hyperintense lesion",
+        "claim_text": "A focal hyperintense lesion is present on the image.",
+        "presence_question": "Does the model's response discuss focal hyperintense lesion?",
+        "correctness_question": "Does the model's response correctly assert that A focal hyperintense lesion is present on the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "single focal hyperintense lesion",
+        "claim_text": "Only a single focal hyperintense lesion is identified on the image.",
+        "presence_question": "Does the model's response discuss single focal hyperintense lesion?",
+        "correctness_question": "Does the model's response correctly assert that Only a single focal hyperintense lesion is identified on the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "left frontal subcortical white matter lesion",
+        "claim_text": "The lesion is located in the left frontal subcortical white matter.",
+        "presence_question": "Does the model's response discuss left frontal subcortical white matter lesion?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located in the left frontal subcortical white matter?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "well-circumscribed lesion margin",
+        "claim_text": "The left frontal subcortical lesion has a well-circumscribed margin.",
+        "presence_question": "Does the model's response discuss well-circumscribed lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The left frontal subcortical lesion has a well-circumscribed margin?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "small lesion",
+        "claim_text": "The left frontal subcortical lesion is small in size.",
+        "presence_question": "Does the model's response discuss small lesion?",
+        "correctness_question": "Does the model's response correctly assert that The left frontal subcortical lesion is small in size?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "surrounding mass effect",
+        "claim_text": "There is no surrounding mass effect around the left frontal lesion.",
+        "presence_question": "Does the model's response discuss surrounding mass effect?",
+        "correctness_question": "Does the model's response correctly assert that There is no surrounding mass effect around the left frontal lesion?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "large confluent lesions",
+        "claim_text": "No large confluent lesions are present on this slice.",
+        "presence_question": "Does the model's response discuss large confluent lesions?",
+        "correctness_question": "Does the model's response correctly assert that No large confluent lesions are present on this slice?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "additional multifocal abnormalities",
+        "claim_text": "No additional multifocal abnormalities are present on this slice.",
+        "presence_question": "Does the model's response discuss additional multifocal abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that No additional multifocal abnormalities are present on this slice?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "axial FLAIR brain MRI",
+        "claim_text": "An axial FLAIR brain MRI sequence is present.",
+        "presence_question": "Does the model's response discuss axial FLAIR brain MRI?",
+        "correctness_question": "Does the model's response correctly assert that An axial FLAIR brain MRI sequence is present?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "short-interval repeat brain MRI",
+        "claim_text": "Short-interval repeat non-contrast brain MRI typically documents stability or resolution of incidental brain MRI abnormalities.",
+        "presence_question": "Does the model's response discuss short-interval repeat brain MRI?",
+        "correctness_question": "Does the model's response correctly state that short-interval repeat non-contrast brain MRI typically documents stability or resolution of incidental brain MRI abnormalities?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "small solitary nonspecific FLAIR abnormalities",
+        "claim_text": "Small solitary nonspecific FLAIR abnormalities can represent transient or artifactual changes, or persistent pathologic lesions.",
+        "presence_question": "Does the model's response discuss small solitary nonspecific FLAIR abnormalities?",
+        "correctness_question": "Does the model's response correctly state that small solitary nonspecific FLAIR abnormalities can represent transient or artifactual changes, or persistent pathologic lesions?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "contrast-enhanced or invasive imaging",
+        "claim_text": "Contrast-enhanced or more invasive imaging should be considered if a lesion persists or progresses on follow-up imaging.",
+        "presence_question": "Does the model's response discuss contrast-enhanced or invasive imaging?",
+        "correctness_question": "Does the model's response correctly state that contrast-enhanced or more invasive imaging should be considered if a lesion persists or progresses on follow-up imaging?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Short-interval repeat MRI recommendation",
+        "claim_text": "The single, small, well-circumscribed FLAIR hyperintense focus in the left frontal subcortical white matter without mass effect or additional lesions justifies short-interval repeat non-contrast brain MRI as the most appropriate next imaging to document stability or resolution.",
+        "presence_question": "Does the model's response make an inferential link about Short-interval repeat MRI recommendation?",
+        "correctness_question": "Does the model's response correctly conclude that The single, small, well-circumscribed FLAIR hyperintense focus in the left frontal subcortical white matter without mass effect or additional lesions justifies short-interval repeat non-contrast brain MRI as the most appropriate next imaging to document stability or resolution?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Deferral of contrast-enhanced or invasive imaging",
+        "claim_text": "The absence of surrounding mass effect and of additional multifocal abnormalities on this slice argues that immediate contrast-enhanced or more invasive imaging is not indicated as the next step and can be deferred pending follow-up stability or resolution.",
+        "presence_question": "Does the model's response make an inferential link about Deferral of contrast-enhanced or invasive imaging?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of surrounding mass effect and of additional multifocal abnormalities on this slice argues that immediate contrast-enhanced or more invasive imaging is not indicated as the next step and can be deferred pending follow-up stability or resolution?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

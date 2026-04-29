@@ -28,5 +28,121 @@
   "caption": "A 56-year-old woman with papillary thyroid carcinoma. Ultrasound images (A and B) show a heterogeneous nodule in the right thyroid lobe with high vascularity. This nodule was interpreted similarly by both observers and has a substantial agreement for US features.",
   "sub_caption": "Ultrasound images (A and B) show a heterogeneous nodule in the right thyroid lobe with high vascularity. This nodule was interpreted similarly by both observers and has a substantial agreement for US features.",
   "image_context": "Thyroid ultrasound images of 75 nodules were independently reviewed by 2 radiologists. Each radiologist had 6 years of experience in ultrasound imaging. The ultrasound images were evaluated blindly on the same liquid crystal display monitor, and the different ultrasound imaging features identified by the observers were recorded. They assessed nodules based on the 5 feature categories (echogenicity, shape; margin, vascularity, and calcification), in which ultrasound findings correspond to their association with malignancy (Fig. <xref rid=\"medi-101-e31106-g001\" ref-type=\"fig\">1</xref>).).",
-  "relevant_image_context": "Thyroid ultrasound images of 75 nodules were independently reviewed by 2 radiologists. Each radiologist had 6 years of experience in ultrasound imaging. The ultrasound images were evaluated blindly on the same liquid crystal display monitor, and the different ultrasound imaging features identified by the observers were recorded. They assessed nodules based on the 5 feature categories (echogenicity, shape; margin, vascularity, and calcification), in which ultrasound findings correspond to their association with malignancy (Fig. 1)."
+  "relevant_image_context": "Thyroid ultrasound images of 75 nodules were independently reviewed by 2 radiologists. Each radiologist had 6 years of experience in ultrasound imaging. The ultrasound images were evaluated blindly on the same liquid crystal display monitor, and the different ultrasound imaging features identified by the observers were recorded. They assessed nodules based on the 5 feature categories (echogenicity, shape; margin, vascularity, and calcification), in which ultrasound findings correspond to their association with malignancy (Fig. 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_120_32-PMC9575780-0-medi-101-e31106-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_120_32-PMC9575780-0-medi-101-e31106-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "right thyroid lobe lesion",
+        "claim_text": "A lesion is located in the right thyroid lobe.",
+        "presence_question": "Does the model's response discuss right thyroid lobe lesion?",
+        "correctness_question": "Does the model's response correctly assert that A lesion is located in the right thyroid lobe?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "internal vascular flow in right thyroid lesion",
+        "claim_text": "The lesion in the right thyroid lobe shows internal vascular flow.",
+        "presence_question": "Does the model's response discuss internal vascular flow in right thyroid lesion?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the right thyroid lobe shows internal vascular flow?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "peripheral vascular flow in right thyroid lesion",
+        "claim_text": "The lesion in the right thyroid lobe demonstrates peripheral vascular flow.",
+        "presence_question": "Does the model's response discuss peripheral vascular flow in right thyroid lesion?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the right thyroid lobe demonstrates peripheral vascular flow?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "predominantly solid right thyroid nodule",
+        "claim_text": "A nodule in the right thyroid lobe is predominantly solid.",
+        "presence_question": "Does the model's response discuss predominantly solid right thyroid nodule?",
+        "correctness_question": "Does the model's response correctly assert that A nodule in the right thyroid lobe is predominantly solid?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "hypoechoic right thyroid nodule",
+        "claim_text": "The nodule in the right thyroid lobe is hypoechoic.",
+        "presence_question": "Does the model's response discuss hypoechoic right thyroid nodule?",
+        "correctness_question": "Does the model's response correctly assert that The nodule in the right thyroid lobe is hypoechoic?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "internal heterogeneity of right thyroid nodule",
+        "claim_text": "The nodule in the right thyroid lobe has internal heterogeneity consistent with a solid component or mural nodule.",
+        "presence_question": "Does the model's response discuss internal heterogeneity of right thyroid nodule?",
+        "correctness_question": "Does the model's response correctly assert that The nodule in the right thyroid lobe has internal heterogeneity consistent with a solid component or mural nodule?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "caliper-measured right thyroid nodule size",
+        "claim_text": "The right thyroid nodule is measured with calipers (dotted line), indicating substantial size.",
+        "presence_question": "Does the model's response discuss caliper-measured right thyroid nodule size?",
+        "correctness_question": "Does the model's response correctly assert that The right thyroid nodule is measured with calipers (dotted line), indicating substantial size?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "concordant radiologist interpretations",
+        "claim_text": "Two experienced radiologists independently reached concordant interpretations of the right thyroid lobe images.",
+        "presence_question": "Does the model's response discuss concordant radiologist interpretations?",
+        "correctness_question": "Does the model's response correctly assert that Two experienced radiologists independently reached concordant interpretations of the right thyroid lobe images?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "thyroid nodule cytologic diagnosis",
+        "claim_text": "Ultrasound-guided fine-needle aspiration is typically used to obtain a cytologic diagnosis of thyroid nodules.",
+        "presence_question": "Does the model's response discuss thyroid nodule cytologic diagnosis?",
+        "correctness_question": "Does the model's response correctly state that Ultrasound-guided fine-needle aspiration is typically used to obtain a cytologic diagnosis of thyroid nodules?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "concerning thyroid nodule ultrasound features",
+        "claim_text": "A solid, hypoechoic, vascular, and sizable thyroid nodule typically suggests higher concern and often warrants tissue diagnosis such as fine-needle aspiration.",
+        "presence_question": "Does the model's response discuss concerning thyroid nodule ultrasound features?",
+        "correctness_question": "Does the model's response correctly state that A solid, hypoechoic, vascular, and sizable thyroid nodule typically suggests higher concern and often warrants tissue diagnosis such as fine-needle aspiration?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Justification for ultrasound-guided fine-needle aspiration",
+        "claim_text": "The imaging findings of a sizable, predominantly solid, hypoechoic right thyroid nodule with internal and peripheral vascularity justify performing ultrasound-guided fine-needle aspiration as the next diagnostic test.",
+        "presence_question": "Does the model's response make an inferential link about Justification for ultrasound-guided fine-needle aspiration?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings of a sizable, predominantly solid, hypoechoic right thyroid nodule with internal and peripheral vascularity justify performing ultrasound-guided fine-needle aspiration as the next diagnostic test?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Radiologist concordance strengthens FNA justification",
+        "claim_text": "Independent concordant interpretations by two experienced radiologists increase confidence that the sonographic features are real and therefore strengthen the justification for ultrasound-guided fine-needle aspiration.",
+        "presence_question": "Does the model's response make an inferential link about Radiologist concordance strengthens FNA justification?",
+        "correctness_question": "Does the model's response correctly conclude that Independent concordant interpretations by two experienced radiologists increase confidence that the sonographic features are real and therefore strengthen the justification for ultrasound-guided fine-needle aspiration?",
+        "premise_perception_ids": [
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,142 @@
   "caption": "The lesions on the arm. Note the erythema around the biting sites",
   "sub_caption": "The lesions on the arm. Note the erythema around the biting sites",
   "image_context": "A 29 years old manworking in Sari Zoo, Sari, Mazandaran, Iran, presented itchy papullar eruption of the skin (<xref rid=\"IJPA-9-594f2\" ref-type=\"fig\">Fig. 2</xref>). Papullar rash were on the forearms and legs of the man. He had noticed small insects fixed on his skin and he had attempted to remove them, also large numbers of these same insects were on a python and its cage in the zoo. Department of veterinary parasitology, veterinary faculty, Islamic Azad University, Babol Branch was asked to examine the python. The snake was a 2.95m caramel burmese python snake and insects were collected from the snake and its glass cage in the zoo. Insects were found at several locations, moreover beneath the tale scales (). Papullar rash were on the forearms and legs of the man. He had noticed small insects fixed on his skin and he had attempted to remove them, also large numbers of these same insects were on a python and its cage in the zoo. Department of veterinary parasitology, veterinary faculty, Islamic Azad University, Babol Branch was asked to examine the python. The snake was a 2.95m caramel burmese python snake and insects were collected from the snake and its glass cage in the zoo. Insects were found at several locations, moreover beneath the tale scales (<xref rid=\"IJPA-9-594f3\" ref-type=\"fig\">Fig. 3</xref>). The man who feeds and takes care of python with papullar rash was also examined and behavioral changes noticed such as, restlessness, irritation, anorexia, and short cycles of skin shedding in python history.). The man who feeds and takes care of python with papullar rash was also examined and behavioral changes noticed such as, restlessness, irritation, anorexia, and short cycles of skin shedding in python history.",
-  "relevant_image_context": "A 29 years old manworking in Sari Zoo, Sari, Mazandaran, Iran, presented itchy papullar eruption of the skin (Fig. 2). Papullar rash were on the forearms and legs of the man."
+  "relevant_image_context": "A 29 years old manworking in Sari Zoo, Sari, Mazandaran, Iran, presented itchy papullar eruption of the skin (Fig. 2). Papullar rash were on the forearms and legs of the man.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_39_17-PMC4345101-2-IJPA-9-594f2.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_39_17-PMC4345101-2-IJPA-9-594f2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "papular skin lesions",
+        "claim_text": "Papular skin lesions are present in the image.",
+        "presence_question": "Does the model's response discuss papular skin lesions?",
+        "correctness_question": "Does the model's response correctly assert that Papular skin lesions are present in the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lesion location on forearm",
+        "claim_text": "The papular skin lesions are located on the forearm.",
+        "presence_question": "Does the model's response discuss lesion location on forearm?",
+        "correctness_question": "Does the model's response correctly assert that The papular skin lesions are located on the forearm?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "multiple lesions",
+        "claim_text": "Multiple papular skin lesions are present on the forearm.",
+        "presence_question": "Does the model's response discuss multiple lesions?",
+        "correctness_question": "Does the model's response correctly assert that Multiple papular skin lesions are present on the forearm?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "raised lesion shape",
+        "claim_text": "The papular skin lesions on the forearm are raised.",
+        "presence_question": "Does the model's response discuss raised lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The papular skin lesions on the forearm are raised?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "erythematous lesion color",
+        "claim_text": "The papular skin lesions on the forearm are erythematous.",
+        "presence_question": "Does the model's response discuss erythematous lesion color?",
+        "correctness_question": "Does the model's response correctly assert that The papular skin lesions on the forearm are erythematous?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "pustular component absent",
+        "claim_text": "There is no pustular component on the papular skin lesions of the forearm.",
+        "presence_question": "Does the model's response discuss pustular component absent?",
+        "correctness_question": "Does the model's response correctly assert that There is no pustular component on the papular skin lesions of the forearm?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "exudate absent",
+        "claim_text": "There is no exudate on the papular skin lesions of the forearm.",
+        "presence_question": "Does the model's response discuss exudate absent?",
+        "correctness_question": "Does the model's response correctly assert that There is no exudate on the papular skin lesions of the forearm?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "ulceration absent",
+        "claim_text": "There is no ulceration on the papular skin lesions of the forearm.",
+        "presence_question": "Does the model's response discuss ulceration absent?",
+        "correctness_question": "Does the model's response correctly assert that There is no ulceration on the papular skin lesions of the forearm?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "crusting absent",
+        "claim_text": "There is no crusting on the papular skin lesions of the forearm.",
+        "presence_question": "Does the model's response discuss crusting absent?",
+        "correctness_question": "Does the model's response correctly assert that There is no crusting on the papular skin lesions of the forearm?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "superficial lesion depth",
+        "claim_text": "The papular skin lesions on the forearm appear superficial.",
+        "presence_question": "Does the model's response discuss superficial lesion depth?",
+        "correctness_question": "Does the model's response correctly assert that The papular skin lesions on the forearm appear superficial?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "large plaques absent",
+        "claim_text": "There are no large plaques on the forearm in the image.",
+        "presence_question": "Does the model's response discuss large plaques absent?",
+        "correctness_question": "Does the model's response correctly assert that There are no large plaques on the forearm in the image?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "necrotic areas absent",
+        "claim_text": "There are no necrotic areas on the forearm in the image.",
+        "presence_question": "Does the model's response discuss necrotic areas absent?",
+        "correctness_question": "Does the model's response correctly assert that There are no necrotic areas on the forearm in the image?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Papules",
+        "claim_text": "Papules are small, raised, superficial skin lesions.",
+        "presence_question": "Does the model's response discuss Papules?",
+        "correctness_question": "Does the model's response correctly state that Papules are small, raised, superficial skin lesions?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Papular superficial inflammatory lesions",
+        "claim_text": "Papular superficial inflammatory skin lesions are typically associated with pruritus (itching).",
+        "presence_question": "Does the model's response discuss papular superficial inflammatory lesions?",
+        "correctness_question": "Does the model's response correctly state that Papular superficial inflammatory skin lesions are typically associated with pruritus (itching)?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Occupational animal exposure",
+        "claim_text": "Occupational animal exposure is typically associated with superficial skin reactions related to exposure.",
+        "presence_question": "Does the model's response discuss occupational animal exposure?",
+        "correctness_question": "Does the model's response correctly state that Occupational animal exposure is typically associated with superficial skin reactions related to exposure?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Papules suggesting pruritus",
+        "claim_text": "The observed multiple small, raised, erythematous superficial papules support that pruritus (itching) is likely in this case.",
+        "presence_question": "Does the model's response make an inferential link about Papules suggesting pruritus?",
+        "correctness_question": "Does the model's response correctly conclude that The observed multiple small, raised, erythematous superficial papules support that pruritus (itching) is likely in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p4",
+          "p5",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

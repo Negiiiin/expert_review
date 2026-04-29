@@ -27,5 +27,133 @@
   "caption": "A B: Hypertrophy of bronchial arteries in the same patient can be seen in digital subtraction angiography (arrows in A) and in contrast enhanced CT scan (arrows in B). C: moderately hypertrophied bronchial arteries in a patient with end stage CF but no history of hemoptysis (arrows show bronchial artery). D: In this patient non-contrast-enhanced CT was performed and hypertrophied bronchial arteries cannot be distinguished from lymph nodes or other pulmonary vessels in the mediastinum (see arrows). Hypertrophy of bronchial arteries is easily missed in CT scans without contrast enhancement",
   "sub_caption": "D: In this patient non-contrast-enhanced CT was performed and hypertrophied bronchial arteries cannot be distinguished from lymph nodes or other pulmonary vessels in the mediastinum (see arrows). Hypertrophy of bronchial arteries is easily missed in CT scans without contrast enhancement.",
   "image_context": "In our study BA diameters ≥ 3.5 mm were found in 76% of patients with MH (see Fig. <xref rid=\"12890_2022_2233_Fig2_HTML\" ref-type=\"fig\">2</xref>A, A, <xref rid=\"12890_2022_2233_Fig2_HTML\" ref-type=\"fig\">B</xref>), whereas only in 29% of control group patients with end stage CF without hemoptysis (see Fig. ), whereas only in 29% of control group patients with end stage CF without hemoptysis (see Fig. <xref rid=\"12890_2022_2233_Fig2_HTML\" ref-type=\"fig\">2</xref>C). However, these results might be biased as patients with bloody stained sputum and minor hemoptysis were excluded from control group in order to make differentiation of case and control group clearer. Another bias might have been created as median FEV1% pred. and also BMI of the control group are lower than in the case group. However, binary logistic regression analysis with MH as dependent variable and age, sex, FEV1 and BA diameter revealed BA diameter as the strongest independent risk factor (see Table C). However, these results might be biased as patients with bloody stained sputum and minor hemoptysis were excluded from control group in order to make differentiation of case and control group clearer. Another bias might have been created as median FEV1% pred. and also BMI of the control group are lower than in the case group. However, binary logistic regression analysis with MH as dependent variable and age, sex, FEV1 and BA diameter revealed BA diameter as the strongest independent risk factor (see Table 2). Influence of FEV1%pred. in BA diameter is minor. Control group patients had hypertrophied BA in 97%, but in the large majority (80%) only moderate hypertrophy was present. BA diameters ≥ 3.5 mm were found 2.6-fold, and BA diameters ≥ 4 mm were found 3.2-fold more often in patients with MH than in patients with end-stage CF but without history of hemoptysis. BA diameters were significantly larger in the case than in the control group creating an area under the curve of 0.719 in ROC calculation (see Fig. <xref rid=\"12890_2022_2233_Fig1_HTML\" ref-type=\"fig\">1</xref>).). BA diameter is not an underscore in any scoring system for CF. Routine CT scans for follow-up in patients with CF are usually carried out non-enhanced to appreciate lung parenchyma changes. Lack of contrast renders detection and measurement of BA and NBSA impossible (see Fig. <xref rid=\"12890_2022_2233_Fig2_HTML\" ref-type=\"fig\">2</xref>D). In order to avoid secondary damage of ionizing radiation, morphologic lung tissue assessment is increasingly carried out as non-contrast enhanced magnetic resonance imaging (MRI) [D). In order to avoid secondary damage of ionizing radiation, morphologic lung tissue assessment is increasingly carried out as non-contrast enhanced magnetic resonance imaging (MRI) [8, 25]. BA could be detected in MRI angiography, but spacial resolution does not yet allow for BA/NBSA measurements [25]. Therefore, to carry out CT scans as CTA in patients with CF and hemoptysis might help to evaluate BA diameter and presence of hypertrophied NBSA.",
-  "relevant_image_context": "Routine CT scans for follow-up in patients with CF are usually carried out non-enhanced to appreciate lung parenchyma changes. Lack of contrast renders detection and measurement of BA and NBSA impossible (see Fig. 2D). BA could be detected in MRI angiography, but spacial resolution does not yet allow for BA/NBSA measurements [25]. Therefore, to carry out CT scans as CTA in patients with CF and hemoptysis might help to evaluate BA diameter and presence of hypertrophied NBSA."
+  "relevant_image_context": "Routine CT scans for follow-up in patients with CF are usually carried out non-enhanced to appreciate lung parenchyma changes. Lack of contrast renders detection and measurement of BA and NBSA impossible (see Fig. 2D). BA could be detected in MRI angiography, but spacial resolution does not yet allow for BA/NBSA measurements [25]. Therefore, to carry out CT scans as CTA in patients with CF and hemoptysis might help to evaluate BA diameter and presence of hypertrophied NBSA.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_2_filelist_commercial_batch_134_66-PMC9670530-1-12890_2022_2233_Fig2_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_134_66-PMC9670530-1-12890_2022_2233_Fig2_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "axial CT chest image",
+        "claim_text": "The axial CT image shows the chest (thorax).",
+        "presence_question": "Does the model's response discuss axial CT chest image?",
+        "correctness_question": "Does the model's response correctly assert that The axial CT image shows the chest (thorax)?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lateral lungs",
+        "claim_text": "The lungs are located in the lateral portions of the image.",
+        "presence_question": "Does the model's response discuss lateral lungs?",
+        "correctness_question": "Does the model's response correctly assert that The lungs are located in the lateral portions of the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "posterior vertebral body",
+        "claim_text": "The vertebral body is located in the posterior portion of the image.",
+        "presence_question": "Does the model's response discuss posterior vertebral body?",
+        "correctness_question": "Does the model's response correctly assert that The vertebral body is located in the posterior portion of the image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "mediastinal soft tissues",
+        "claim_text": "Mediastinal soft tissues are located in the central portion of the image.",
+        "presence_question": "Does the model's response discuss mediastinal soft tissues?",
+        "correctness_question": "Does the model's response correctly assert that Mediastinal soft tissues are located in the central portion of the image?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "arrow count",
+        "claim_text": "Two arrows are present in the axial CT image.",
+        "presence_question": "Does the model's response discuss arrow count?",
+        "correctness_question": "Does the model's response correctly assert that Two arrows are present in the axial CT image?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "arrows in mediastinum",
+        "claim_text": "The arrows are located in the central mediastinal region.",
+        "presence_question": "Does the model's response discuss arrows in mediastinum?",
+        "correctness_question": "Does the model's response correctly assert that The arrows are located in the central mediastinal region?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "midline soft-tissue density",
+        "claim_text": "An area of increased soft-tissue density is located in the midline between the two lungs.",
+        "presence_question": "Does the model's response discuss midline soft-tissue density?",
+        "correctness_question": "Does the model's response correctly assert that An area of increased soft-tissue density is located in the midline between the two lungs?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "soft tissue anterior to vertebra",
+        "claim_text": "The area of increased soft-tissue density is anterior to the vertebral body.",
+        "presence_question": "Does the model's response discuss soft tissue anterior to vertebra?",
+        "correctness_question": "Does the model's response correctly assert that The area of increased soft-tissue density is anterior to the vertebral body?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "soft tissue inferior to heart base",
+        "claim_text": "The area of increased soft-tissue density is inferior to the heart base.",
+        "presence_question": "Does the model's response discuss soft tissue inferior to heart base?",
+        "correctness_question": "Does the model's response correctly assert that The area of increased soft-tissue density is inferior to the heart base?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Mediastinum location",
+        "claim_text": "The mediastinum is the central compartment of the thorax located between the lungs.",
+        "presence_question": "Does the model's response discuss Mediastinum location?",
+        "correctness_question": "Does the model's response correctly state that The mediastinum is the central compartment of the thorax located between the lungs?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Axial chest CT orientation",
+        "claim_text": "On an axial chest CT, the lungs are seen laterally, the vertebral body is seen posteriorly, and the mediastinum is seen centrally.",
+        "presence_question": "Does the model's response discuss Axial chest CT orientation?",
+        "correctness_question": "Does the model's response correctly state that On an axial chest CT, the lungs are seen laterally, the vertebral body is seen posteriorly, and the mediastinum is seen centrally?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Radiologic annotation markers",
+        "claim_text": "Radiologic arrows or pointers on an image indicate structures or focal findings of interest.",
+        "presence_question": "Does the model's response discuss Radiologic annotation markers?",
+        "correctness_question": "Does the model's response correctly state that Radiologic arrows or pointers on an image indicate structures or focal findings of interest?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "central mediastinum localization",
+        "claim_text": "The presence of conspicuous arrows in the central mediastinal region supports that the focal abnormality of interest is localized to the central mediastinum.",
+        "presence_question": "Does the model's response make an inferential link about central mediastinum localization?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of conspicuous arrows in the central mediastinal region supports that the focal abnormality of interest is localized to the central mediastinum.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "central (midline) mediastinal localization",
+        "claim_text": "The area of increased soft-tissue density centered midline between the lungs, anterior to the vertebral body, and inferior to the heart base supports that the primary finding is localized to the central (midline) mediastinal region.",
+        "presence_question": "Does the model's response make an inferential link about central (midline) mediastinal localization?",
+        "correctness_question": "Does the model's response correctly conclude that The area of increased soft-tissue density centered midline between the lungs, anterior to the vertebral body, and inferior to the heart base supports that the primary finding is localized to the central (midline) mediastinal region.?",
+        "premise_perception_ids": [
+          "p7",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

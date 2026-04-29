@@ -28,5 +28,239 @@
   "caption": "A– Initial clinical presentation with right eyelid ulceration and necrosis. B – Histopathology of eyelid ulceration (20x) demonstrates collection of neutrophils within the dermis (arrow) and epidermal acanthosis. C– Clinical photograph of the indurated chin lesion. D– Histopathology of chin lesion (20x) reveals dense sheets of neutrophils in the dermis (arrow). E– H&E stain of transverse colon biopsy (20x) shows active colitis with ulceration, neutrophilic infiltration (arrow) and architectural changes. F– Clinical improvement in the eyelid after initiation of steroids.",
   "sub_caption": "D– Histopathology of chin lesion (20x) reveals dense sheets of neutrophils in the dermis (arrow).",
   "image_context": "A 63 year old male with a history of recurrent ulcerations and presumed cellulitis on bilateral lower extremities presented to the emergency room with right upper eyelid edema and erythema that progressed rapidly over one week. Despite systemic and topical antibiotics, the eyelid became necrotic (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>A). A new lesion on the chin prompted biopsy of both locations, which demonstrated sheets of neutrophils in the dermis suggestive of pyoderma gangrenosum (A). A new lesion on the chin prompted biopsy of both locations, which demonstrated sheets of neutrophils in the dermis suggestive of pyoderma gangrenosum (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>B,C,D). He underwent systemic workup to evaluate for malignancy, vasculitic processes, and rheumatologic conditions. A positron emission tomography/computed tomography scan revealed colonic thickening which was further investigated with a colonoscopy. The colonoscopy revealed colitis with ulceration and neutrophilic inflammation consistent with Crohn's disease (B,C,D). He underwent systemic workup to evaluate for malignancy, vasculitic processes, and rheumatologic conditions. A positron emission tomography/computed tomography scan revealed colonic thickening which was further investigated with a colonoscopy. The colonoscopy revealed colitis with ulceration and neutrophilic inflammation consistent with Crohn's disease (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>E). Upon treatment with systemic steroids, there was brisk improvement in his eyelid condition (E). Upon treatment with systemic steroids, there was brisk improvement in his eyelid condition (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>F). He has since been transitioned to infliximab, an anti-TNF agent, with good response and continues to do well at 6 months follow up.F). He has since been transitioned to infliximab, an anti-TNF agent, with good response and continues to do well at 6 months follow up.Fig. 1A– Initial clinical presentation with right eyelid ulceration and necrosis. B – Histopathology of eyelid ulceration (20x) demonstrates collection of neutrophils within the dermis (arrow) and epidermal acanthosis. C– Clinical photograph of the indurated chin lesion. D– Histopathology of chin lesion (20x) reveals dense sheets of neutrophils in the dermis (arrow). E– H&E stain of transverse colon biopsy (20x) shows active colitis with ulceration, neutrophilic infiltration (arrow) and architectural changes. F– Clinical improvement in the eyelid after initiation of steroids.Fig. 1",
-  "relevant_image_context": "A new lesion on the chin prompted biopsy of both locations, which demonstrated sheets of neutrophils in the dermis suggestive of pyoderma gangrenosum (B,C,D). D– Histopathology of chin lesion (20x) reveals dense sheets of neutrophils in the dermis (arrow)."
+  "relevant_image_context": "A new lesion on the chin prompted biopsy of both locations, which demonstrated sheets of neutrophils in the dermis suggestive of pyoderma gangrenosum (B,C,D). D– Histopathology of chin lesion (20x) reveals dense sheets of neutrophils in the dermis (arrow).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_76_17-PMC7075799-1-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_76_17-PMC7075799-1-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "crusted ulcerated plaque",
+        "claim_text": "crusted ulcerated plaque is present.",
+        "presence_question": "Does the model's response discuss crusted ulcerated plaque?",
+        "correctness_question": "Does the model's response correctly assert that crusted ulcerated plaque is present.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "plaque",
+        "claim_text": "plaque has appearance crusted.",
+        "presence_question": "Does the model's response discuss plaque?",
+        "correctness_question": "Does the model's response correctly assert that plaque has appearance crusted.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "plaque",
+        "claim_text": "plaque has appearance ulcerated.",
+        "presence_question": "Does the model's response discuss plaque?",
+        "correctness_question": "Does the model's response correctly assert that plaque has appearance ulcerated.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "erythema",
+        "claim_text": "erythema is present.",
+        "presence_question": "Does the model's response discuss erythema?",
+        "correctness_question": "Does the model's response correctly assert that erythema is present.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "swelling",
+        "claim_text": "swelling is present.",
+        "presence_question": "Does the model's response discuss swelling?",
+        "correctness_question": "Does the model's response correctly assert that swelling is present.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "small skin lesion",
+        "claim_text": "small skin lesion is present.",
+        "presence_question": "Does the model's response discuss small skin lesion?",
+        "correctness_question": "Does the model's response correctly assert that small skin lesion is present.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "small skin lesion",
+        "claim_text": "small skin lesion has shape raised.",
+        "presence_question": "Does the model's response discuss small skin lesion?",
+        "correctness_question": "Does the model's response correctly assert that small skin lesion has shape raised.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "small skin lesion",
+        "claim_text": "small skin lesion has shape central depression.",
+        "presence_question": "Does the model's response discuss small skin lesion?",
+        "correctness_question": "Does the model's response correctly assert that small skin lesion has shape central depression.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "loss/ulceration of the epidermal surface",
+        "claim_text": "loss/ulceration of the epidermal surface is present.",
+        "presence_question": "Does the model's response discuss loss/ulceration of the epidermal surface?",
+        "correctness_question": "Does the model's response correctly assert that loss/ulceration of the epidermal surface is present.?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "inflammatory cell infiltrate",
+        "claim_text": "inflammatory cell infiltrate is present.",
+        "presence_question": "Does the model's response discuss inflammatory cell infiltrate?",
+        "correctness_question": "Does the model's response correctly assert that inflammatory cell infiltrate is present.?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "inflammatory cell infiltrate in superficial dermis",
+        "claim_text": "inflammatory cell infiltrate in superficial dermis has appearance dense and composed predominantly of neutrophils.",
+        "presence_question": "Does the model's response discuss inflammatory cell infiltrate in superficial dermis?",
+        "correctness_question": "Does the model's response correctly assert that inflammatory cell infiltrate in superficial dermis has appearance dense and composed predominantly of neutrophils.?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "marked dermal inflammation",
+        "claim_text": "marked dermal inflammation is present.",
+        "presence_question": "Does the model's response discuss marked dermal inflammation?",
+        "correctness_question": "Does the model's response correctly assert that marked dermal inflammation is present.?"
+      },
+      {
+        "claim_id": "p13",
+        "topic": "epidermis",
+        "claim_text": "epidermis has appearance hyperplastic-appearing overlying heavy inflammatory infiltrate.",
+        "presence_question": "Does the model's response discuss epidermis?",
+        "correctness_question": "Does the model's response correctly assert that epidermis has appearance hyperplastic-appearing overlying heavy inflammatory infiltrate.?"
+      },
+      {
+        "claim_id": "p14",
+        "topic": "inflammatory cells",
+        "claim_text": "inflammatory cells is present.",
+        "presence_question": "Does the model's response discuss inflammatory cells?",
+        "correctness_question": "Does the model's response correctly assert that inflammatory cells is present.?"
+      },
+      {
+        "claim_id": "p15",
+        "topic": "inflammatory cells in lamina propria",
+        "claim_text": "inflammatory cells in lamina propria has appearance increased.",
+        "presence_question": "Does the model's response discuss inflammatory cells in lamina propria?",
+        "correctness_question": "Does the model's response correctly assert that inflammatory cells in lamina propria has appearance increased.?"
+      },
+      {
+        "claim_id": "p16",
+        "topic": "crypt architecture",
+        "claim_text": "crypt architecture has appearance focal architectural distortion.",
+        "presence_question": "Does the model's response discuss crypt architecture?",
+        "correctness_question": "Does the model's response correctly assert that crypt architecture has appearance focal architectural distortion.?"
+      },
+      {
+        "claim_id": "p17",
+        "topic": "mucosal injury",
+        "claim_text": "mucosal injury is present.",
+        "presence_question": "Does the model's response discuss mucosal injury?",
+        "correctness_question": "Does the model's response correctly assert that mucosal injury is present.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "skin ulceration and crusting",
+        "claim_text": "Ulceration and crusting of the skin indicate pathologic tissue injury rather than normal skin.",
+        "presence_question": "Does the model's response discuss skin ulceration and crusting?",
+        "correctness_question": "Does the model's response correctly state that ulceration and crusting of the skin indicate pathologic tissue injury rather than normal skin?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "epidermal ulceration with neutrophil-predominant dermal infiltrate",
+        "claim_text": "Loss or ulceration of the epidermal surface with a dense neutrophil-predominant infiltrate in the superficial dermis indicates acute inflammation and active tissue injury.",
+        "presence_question": "Does the model's response discuss epidermal ulceration with neutrophil-predominant dermal infiltrate?",
+        "correctness_question": "Does the model's response correctly state that loss or ulceration of the epidermal surface with a dense neutrophil-predominant infiltrate in the superficial dermis indicates acute inflammation and active tissue injury?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "colonic mucosal inflammation with crypt distortion",
+        "claim_text": "Increased inflammatory cells in the lamina propria with focal crypt architectural distortion indicate mucosal injury and inflammation of the colon.",
+        "presence_question": "Does the model's response discuss colonic mucosal inflammation with crypt distortion?",
+        "correctness_question": "Does the model's response correctly state that increased inflammatory cells in the lamina propria with focal crypt architectural distortion indicate mucosal injury and inflammation of the colon?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "normal skin and colonic mucosa histology",
+        "claim_text": "Normal histology of skin and colonic mucosa is absent if there is epidermal ulceration, dense neutrophilic dermal infiltrates, increased lamina propria inflammatory cells, or crypt distortion.",
+        "presence_question": "Does the model's response discuss normal skin and colonic mucosa histology?",
+        "correctness_question": "Does the model's response correctly state that normal histology of skin and colonic mucosa is absent if there is epidermal ulceration, dense neutrophilic dermal infiltrates, increased lamina propria inflammatory cells, or crypt distortion?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Eyelid skin abnormality",
+        "claim_text": "The clinical photographs of the eyelid plaque with crusting, ulceration, surrounding erythema, and swelling support that the skin findings are abnormal and represent tissue injury rather than normal skin.",
+        "presence_question": "Does the model's response make an inferential link about eyelid skin abnormality?",
+        "correctness_question": "Does the model's response correctly conclude that The clinical photographs of the eyelid plaque with crusting, ulceration, surrounding erythema, and swelling support that the skin findings are abnormal and represent tissue injury rather than normal skin?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Skin biopsy acute inflammation",
+        "claim_text": "The skin histology fields showing epidermal loss/ulceration and a dense neutrophil-predominant inflammatory infiltrate in the superficial dermis are consistent with acute inflammation and active tissue injury in the skin biopsy.",
+        "presence_question": "Does the model's response make an inferential link about skin biopsy acute inflammation?",
+        "correctness_question": "Does the model's response correctly conclude that The skin histology fields showing epidermal loss/ulceration and a dense neutrophil-predominant inflammatory infiltrate in the superficial dermis are consistent with acute inflammation and active tissue injury in the skin biopsy?",
+        "premise_perception_ids": [
+          "p9",
+          "p10",
+          "p11",
+          "p12",
+          "p13"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Colonic mucosal injury",
+        "claim_text": "The colonic mucosal biopsy with increased inflammatory cells in the lamina propria, focal crypt architectural distortion, and mucosal injury supports that the colonic mucosa shows mucosal inflammation or injury.",
+        "presence_question": "Does the model's response make an inferential link about colonic mucosal injury?",
+        "correctness_question": "Does the model's response correctly conclude that The colonic mucosal biopsy with increased inflammatory cells in the lamina propria, focal crypt architectural distortion, and mucosal injury supports that the colonic mucosa shows mucosal inflammation or injury?",
+        "premise_perception_ids": [
+          "p14",
+          "p15",
+          "p17"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Overall case abnormality",
+        "claim_text": "Taken together, the abnormal clinical skin findings and multiple histologic samples showing epidermal ulceration, dense neutrophilic dermal inflammation, and colonic mucosal injury indicate that the overall case findings are pathologic (not normal).",
+        "presence_question": "Does the model's response make an inferential link about overall case abnormality?",
+        "correctness_question": "Does the model's response correctly conclude that Taken together, the abnormal clinical skin findings and multiple histologic samples showing epidermal ulceration, dense neutrophilic dermal inflammation, and colonic mucosal injury indicate that the overall case findings are pathologic (not normal)?",
+        "premise_perception_ids": [
+          "p1",
+          "p9",
+          "p11",
+          "p14",
+          "p16",
+          "p17"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,191 @@
   "caption": "Axial non-contrast computed tomography scan of the brainShowing bilateral acute-on-chronic subdural haemorrhages.",
   "sub_caption": "Axial non-contrast computed tomography scan of the brain Showing bilateral acute-on-chronic subdural haemorrhages.",
   "image_context": "A 70-year-old male initially presented to the local hospital following an alleged assault in which he sustained a minor head injury. The Glasgow coma score (GCS) on presentation was 15. Initial computed tomography (CT) scan of his brain was unremarkable. He was discharged but developed worsening headache and left-sided weakness one month later. He represented to the hospital and a repeat CT showed bilateral acute on chronic subdural haemorrhages (Figure <xref ref-type=\"fig\" rid=\"cureus-0009-00000001358-i01\">1</xref>).).",
-  "relevant_image_context": "A 70-year-old male initially presented to the local hospital following an alleged assault in which he sustained a minor head injury. The Glasgow coma score (GCS) on presentation was 15. Initial computed tomography (CT) scan of his brain was unremarkable. He was discharged but developed worsening headache and left-sided weakness one month later. He represented to the hospital and a repeat CT showed bilateral acute on chronic subdural haemorrhages (Figure 1)."
+  "relevant_image_context": "A 70-year-old male initially presented to the local hospital following an alleged assault in which he sustained a minor head injury. The Glasgow coma score (GCS) on presentation was 15. Initial computed tomography (CT) scan of his brain was unremarkable. He was discharged but developed worsening headache and left-sided weakness one month later. He represented to the hospital and a repeat CT showed bilateral acute on chronic subdural haemorrhages (Figure 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_46_7-PMC5510975-0-cureus-0009-00000001358-i01.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_46_7-PMC5510975-0-cureus-0009-00000001358-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "bilateral extra-axial collections",
+        "claim_text": "Bilateral extra-axial collections are present along the cerebral convexities.",
+        "presence_question": "Does the model's response discuss bilateral extra-axial collections?",
+        "correctness_question": "Does the model's response correctly assert that Bilateral extra-axial collections are present along the cerebral convexities?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "collections on cerebral convexities",
+        "claim_text": "Extra-axial collections are located along the cerebral convexities bilaterally.",
+        "presence_question": "Does the model's response discuss collections on cerebral convexities?",
+        "correctness_question": "Does the model's response correctly assert that Extra-axial collections are located along the cerebral convexities bilaterally?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "crescent-shaped collections",
+        "claim_text": "The extra-axial collections are crescent-shaped along the cerebral convexities bilaterally.",
+        "presence_question": "Does the model's response discuss crescent-shaped collections?",
+        "correctness_question": "Does the model's response correctly assert that The extra-axial collections are crescent-shaped along the cerebral convexities bilaterally?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "collections adjacent to brain surface",
+        "claim_text": "The extra-axial collections lie adjacent to the brain surface along the cortical convexities bilaterally.",
+        "presence_question": "Does the model's response discuss collections adjacent to brain surface?",
+        "correctness_question": "Does the model's response correctly assert that The extra-axial collections lie adjacent to the brain surface along the cortical convexities bilaterally?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "hyperdense regions within collections",
+        "claim_text": "There are relatively hyperdense regions within the extra-axial collections along the convexities.",
+        "presence_question": "Does the model's response discuss hyperdense regions within collections?",
+        "correctness_question": "Does the model's response correctly assert that There are relatively hyperdense regions within the extra-axial collections along the convexities?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "hypodense regions within collections",
+        "claim_text": "There are relatively hypodense regions within the extra-axial collections along the convexities.",
+        "presence_question": "Does the model's response discuss hypodense regions within collections?",
+        "correctness_question": "Does the model's response correctly assert that There are relatively hypodense regions within the extra-axial collections along the convexities?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "asymmetric collection thickness",
+        "claim_text": "The extra-axial collections are asymmetric, with greater thickness on one side along the convexities.",
+        "presence_question": "Does the model's response discuss asymmetric collection thickness?",
+        "correctness_question": "Does the model's response correctly assert that The extra-axial collections are asymmetric, with greater thickness on one side along the convexities?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "mass effect on adjacent hemisphere",
+        "claim_text": "The extra-axial collections compress the adjacent cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss mass effect on adjacent hemisphere?",
+        "correctness_question": "Does the model's response correctly assert that The extra-axial collections compress the adjacent cerebral hemisphere?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "sulcal effacement ipsilateral to collection",
+        "claim_text": "Cerebral sulci are effaced ipsilateral to the larger extra-axial collection.",
+        "presence_question": "Does the model's response discuss sulcal effacement ipsilateral to collection?",
+        "correctness_question": "Does the model's response correctly assert that Cerebral sulci are effaced ipsilateral to the larger extra-axial collection?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "slight midline shift",
+        "claim_text": "There is a slight midline shift of the intracranial structures.",
+        "presence_question": "Does the model's response discuss slight midline shift?",
+        "correctness_question": "Does the model's response correctly assert that There is a slight midline shift of the intracranial structures?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "crescentic extra-axial collections",
+        "claim_text": "Crescentic extra-axial collections along the cerebral convexities are characteristic of subdural hematomas.",
+        "presence_question": "Does the model's response discuss crescentic extra-axial collections?",
+        "correctness_question": "Does the model's response correctly state that Crescentic extra-axial collections along the cerebral convexities are characteristic of subdural hematomas?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "mixed attenuation in subdural collections",
+        "claim_text": "Mixed attenuation within a subdural collection typically indicates blood of different ages, such as an acute re-bleed into a chronic subdural.",
+        "presence_question": "Does the model's response discuss mixed attenuation in subdural collections?",
+        "correctness_question": "Does the model's response correctly state that Mixed attenuation within a subdural collection typically indicates blood of different ages, such as an acute re-bleed into a chronic subdural?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "mass effect from subdural collections",
+        "claim_text": "Extra-axial mass effect from subdural collections can cause focal neurological deficits by compressing the cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss mass effect from subdural collections?",
+        "correctness_question": "Does the model's response correctly state that Extra-axial mass effect from subdural collections can cause focal neurological deficits by compressing the cerebral hemisphere?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "chronic subdural hematoma presentation",
+        "claim_text": "Chronic subdural hematoma typically causes delayed clinical deterioration days to weeks after a minor head injury and may not be evident on initial CT.",
+        "presence_question": "Does the model's response discuss chronic subdural hematoma presentation?",
+        "correctness_question": "Does the model's response correctly state that Chronic subdural hematoma typically causes delayed clinical deterioration days to weeks after a minor head injury and may not be evident on initial CT?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "subdural collection diagnosis",
+        "claim_text": "The bilateral, crescent-shaped extra-axial collections along the convexities are most consistent with subdural collections in this case.",
+        "presence_question": "Does the model's response make an inferential link about subdural collection diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that the bilateral, crescent-shaped extra-axial collections along the convexities are most consistent with subdural collections in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "acute-on-chronic subdural",
+        "claim_text": "The presence of both relatively hyperdense and hypodense regions within the crescentic collections supports the interpretation of blood of different ages, i.e., an acute re-bleed on a chronic subdural.",
+        "presence_question": "Does the model's response make an inferential link about acute-on-chronic subdural?",
+        "correctness_question": "Does the model's response correctly conclude that the presence of both relatively hyperdense and hypodense regions within the crescentic collections supports the interpretation of blood of different ages, i.e., an acute re-bleed on a chronic subdural?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "subdural compression causing focal deficit",
+        "claim_text": "The asymmetric larger collection producing mass effect with sulcal effacement and slight midline shift can explain the patient's new focal neurological deficit by compression of the adjacent cerebral hemisphere.",
+        "presence_question": "Does the model's response make an inferential link about subdural compression causing focal deficit?",
+        "correctness_question": "Does the model's response correctly conclude that the asymmetric larger collection producing mass effect with sulcal effacement and slight midline shift can explain the patient's new focal neurological deficit by compression of the adjacent cerebral hemisphere?",
+        "premise_perception_ids": [
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "re-bled chronic subdural causing delayed deterioration",
+        "claim_text": "The mixed-density crescentic collections are consistent with a chronic subdural that has re-bled and can account for the delayed clinical deterioration that occurred weeks after a minor head injury.",
+        "presence_question": "Does the model's response make an inferential link about re-bled chronic subdural causing delayed deterioration?",
+        "correctness_question": "Does the model's response correctly conclude that the mixed-density crescentic collections are consistent with a chronic subdural that has re-bled and can account for the delayed clinical deterioration that occurred weeks after a minor head injury?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "contralateral focal deficit plausibility",
+        "claim_text": "Because the collections are asymmetric with greater thickness on one side and produce midline shift, a focal neurologic deficit contralateral to the compressed hemisphere is a plausible clinical consequence of the imaging findings.",
+        "presence_question": "Does the model's response make an inferential link about contralateral focal deficit plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that because the collections are asymmetric with greater thickness on one side and produce midline shift, a focal neurologic deficit contralateral to the compressed hemisphere is a plausible clinical consequence of the imaging findings?",
+        "premise_perception_ids": [
+          "p7",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

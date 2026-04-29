@@ -25,5 +25,120 @@
   "caption": "Ruptured left iliac bifurcation, CT scan.",
   "sub_caption": "CT scan showing a ruptured left iliac bifurcation.",
   "image_context": "The patient presented to an outside facility with acute left lower abdominal pain that extended to his lower extremity. The patient stated he could not move his leg along with significant paresthesia. Computed tomography angiography demonstrated dissection of distal left common iliac artery extending into the external iliac artery with occlusion to the level of the proximal superficial femoral artery. An associated rupture of the distal common iliac artery was also identified with a large retroperitoneal hematoma (<xref rid=\"gr1\" ref-type=\"fig\">Fig 1</xref>). Prior to transfer, the patient was initiated on pharmacological impulse control with goal systolic blood pressure less than 120 mmHg. Upon arrival, the patient was taken immediately to the operating room for intervention. The patient was alert and oriented, tachycardic with stable systolic blood pressures. Physical exam of left lower extremity without dopplerable signals and decreased motor and sensory consistent with Rutherford IIB.). Prior to transfer, the patient was initiated on pharmacological impulse control with goal systolic blood pressure less than 120 mmHg. Upon arrival, the patient was taken immediately to the operating room for intervention. The patient was alert and oriented, tachycardic with stable systolic blood pressures. Physical exam of left lower extremity without dopplerable signals and decreased motor and sensory consistent with Rutherford IIB.Fig 1Ruptured left iliac bifurcation, CT scan.",
-  "relevant_image_context": "The patient presented to an outside facility with acute left lower abdominal pain that extended to his lower extremity. The patient stated he could not move his leg along with significant paresthesia. Computed tomography angiography demonstrated dissection of distal left common iliac artery extending into the external iliac artery with occlusion to the level of the proximal superficial femoral artery. An associated rupture of the distal common iliac artery was also identified with a large retroperitoneal hematoma (Fig 1). Prior to transfer, the patient was initiated on pharmacological impulse control with goal systolic blood pressure less than 120 mmHg. Upon arrival, the patient was taken immediately to the operating room for intervention. The patient was alert and oriented, tachycardic with stable systolic blood pressures. Physical exam of left lower extremity without dopplerable signals and decreased motor and sensory consistent with Rutherford IIB.). Prior to transfer, the patient was initiated on pharmacological impulse control with goal systolic blood pressure less than 120 mmHg. Upon arrival, the patient was taken immediately to the operating room for intervention. The patient was alert and oriented, tachycardic with stable systolic blood pressures. Physical exam of left lower extremity without dopplerable signals and decreased motor and sensory consistent with Rutherford IIB.Fig 1Ruptured left iliac bifurcation, CT scan. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "The patient presented to an outside facility with acute left lower abdominal pain that extended to his lower extremity. The patient stated he could not move his leg along with significant paresthesia. Computed tomography angiography demonstrated dissection of distal left common iliac artery extending into the external iliac artery with occlusion to the level of the proximal superficial femoral artery. An associated rupture of the distal common iliac artery was also identified with a large retroperitoneal hematoma (Fig 1). Prior to transfer, the patient was initiated on pharmacological impulse control with goal systolic blood pressure less than 120 mmHg. Upon arrival, the patient was taken immediately to the operating room for intervention. The patient was alert and oriented, tachycardic with stable systolic blood pressures. Physical exam of left lower extremity without dopplerable signals and decreased motor and sensory consistent with Rutherford IIB.). Prior to transfer, the patient was initiated on pharmacological impulse control with goal systolic blood pressure less than 120 mmHg. Upon arrival, the patient was taken immediately to the operating room for intervention. The patient was alert and oriented, tachycardic with stable systolic blood pressures. Physical exam of left lower extremity without dopplerable signals and decreased motor and sensory consistent with Rutherford IIB.Fig 1Ruptured left iliac bifurcation, CT scan. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_141_19-PMC10663891-5-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_141_19-PMC10663891-5-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left pelvic soft-tissue collection",
+        "claim_text": "A soft-tissue collection is present in the left pelvic/left lower quadrant soft tissues.",
+        "presence_question": "Does the model's response discuss left pelvic soft-tissue collection?",
+        "correctness_question": "Does the model's response correctly assert that a soft-tissue collection is present in the left pelvic/left lower quadrant soft tissues?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "collection high attenuation",
+        "claim_text": "The left pelvic soft-tissue collection demonstrates relatively high attenuation.",
+        "presence_question": "Does the model's response discuss collection high attenuation?",
+        "correctness_question": "Does the model's response correctly assert that the left pelvic soft-tissue collection demonstrates relatively high attenuation?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "heterogeneous collection texture",
+        "claim_text": "The left pelvic soft-tissue collection has a heterogeneous internal texture.",
+        "presence_question": "Does the model's response discuss heterogeneous collection texture?",
+        "correctness_question": "Does the model's response correctly assert that the left pelvic soft-tissue collection has a heterogeneous internal texture?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "absence on right side",
+        "claim_text": "No soft-tissue collection is identified in the right pelvic/right lower quadrant soft tissues.",
+        "presence_question": "Does the model's response discuss absence on right side?",
+        "correctness_question": "Does the model's response correctly assert that no soft-tissue collection is identified in the right pelvic/right lower quadrant soft tissues?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "adjacent soft-tissue stranding",
+        "claim_text": "There is soft-tissue stranding adjacent to the left pelvic soft-tissue collection.",
+        "presence_question": "Does the model's response discuss adjacent soft-tissue stranding?",
+        "correctness_question": "Does the model's response correctly assert that there is soft-tissue stranding adjacent to the left pelvic soft-tissue collection?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "mass effect on adjacent bowel",
+        "claim_text": "The left pelvic collection produces mass effect compressing adjacent bowel loops.",
+        "presence_question": "Does the model's response discuss mass effect on adjacent bowel?",
+        "correctness_question": "Does the model's response correctly assert that the left pelvic collection produces mass effect compressing adjacent bowel loops?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "acute pelvic fracture absent",
+        "claim_text": "No acute fracture is seen involving the visualized pelvic bones and sacrum.",
+        "presence_question": "Does the model's response discuss acute pelvic fracture absent?",
+        "correctness_question": "Does the model's response correctly assert that no acute fracture is seen involving the visualized pelvic bones and sacrum?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "high-attenuation soft-tissue collection",
+        "claim_text": "A high-attenuation soft-tissue collection with adjacent fat or soft-tissue stranding typically suggests an acute process such as hemorrhage/hematoma or active contrast extravasation.",
+        "presence_question": "Does the model's response discuss high-attenuation soft-tissue collection?",
+        "correctness_question": "Does the model's response correctly state that a high-attenuation soft-tissue collection with adjacent fat or soft-tissue stranding typically suggests an acute process such as hemorrhage/hematoma or active contrast extravasation?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "asymmetric collection absent on contralateral side",
+        "claim_text": "An asymmetric collection that is absent on the contralateral side is typically abnormal.",
+        "presence_question": "Does the model's response discuss asymmetric collection absent on contralateral side?",
+        "correctness_question": "Does the model's response correctly state that an asymmetric collection that is absent on the contralateral side is typically abnormal?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "absence of acute fracture on CT",
+        "claim_text": "Absence of an obvious acute fracture on CT typically indicates that no acute osseous fracture is visualized on the scan.",
+        "presence_question": "Does the model's response discuss absence of acute fracture on CT?",
+        "correctness_question": "Does the model's response correctly state that absence of an obvious acute fracture on CT typically indicates that no acute osseous fracture is visualized on the scan?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Attribution of left pelvic collection to acute process",
+        "claim_text": "The left pelvic soft-tissue collection is most consistent with an acute process such as hemorrhage/hematoma or active contrast extravasation in this case.",
+        "presence_question": "Does the model's response make an inferential link about Attribution of left pelvic collection to acute process?",
+        "correctness_question": "Does the model's response correctly conclude that The left pelvic soft-tissue collection is most consistent with an acute process such as hemorrhage/hematoma or active contrast extravasation in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Lack of fracture argues against acute osseous fracture",
+        "claim_text": "The lack of an obvious acute fracture in the visualized pelvic bones and sacrum argues against an acute osseous fracture being present on this scan.",
+        "presence_question": "Does the model's response make an inferential link about Lack of fracture argues against acute osseous fracture?",
+        "correctness_question": "Does the model's response correctly conclude that The lack of an obvious acute fracture in the visualized pelvic bones and sacrum argues against an acute osseous fracture being present on this scan?",
+        "premise_perception_ids": [
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

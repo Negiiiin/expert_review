@@ -27,5 +27,144 @@
   "caption": "Axial T2-weighted MRI of the brain demonstrates extension of the left occipital lobe into the space created by the calvarial protrusion (white arrow). Bilateral proptosis and hypertelorism is also noted (black arrows), and there is marked ventriculomegaly (asterisks).",
   "sub_caption": "Axial T2-weighted MRI of the brain demonstrates extension of the left occipital lobe into the space created by the calvarial protrusion (white arrow). Bilateral proptosis and hypertelorism is also noted (black arrows), and there is marked ventriculomegaly (asterisks).",
   "image_context": "The patient then underwent MRI of the brain which revealed bilateral proptosis (<xref rid=\"gr5\" ref-type=\"fig\">Fig. 5</xref>), ventriculomegaly, and marked compression of the hindbrain structures (), ventriculomegaly, and marked compression of the hindbrain structures (<xref rid=\"gr6\" ref-type=\"fig\">Fig. 6</xref>) with complete effacement of the prepontine cistern. Cerebellar tonsillar tissue was translated minimally below the level of the foramen magnum, and the obex was also displaced inferiorly.) with complete effacement of the prepontine cistern. Cerebellar tonsillar tissue was translated minimally below the level of the foramen magnum, and the obex was also displaced inferiorly.Fig. 5Axial T2-weighted MRI of the brain demonstrates extension of the left occipital lobe into the space created by the calvarial protrusion (white arrow). Bilateral proptosis and hypertelorism is also noted (black arrows), and there is marked ventriculomegaly (asterisks).Fig 5Fig. 6Sagittal T2-weighted MRI of the brain reveals marked ventriculomegaly (asterisk), severe crowding of the hindbrain structures (white arrow), and extension of the left occipital lobe into the posterior calvarial protrusion (white arrow).Fig 6",
-  "relevant_image_context": "Fig. 5 Axial T2-weighted MRI of the brain demonstrates extension of the left occipital lobe into the space created by the calvarial protrusion (white arrow). Bilateral proptosis and hypertelorism is also noted (black arrows), and there is marked ventriculomegaly (asterisks)."
+  "relevant_image_context": "Fig. 5 Axial T2-weighted MRI of the brain demonstrates extension of the left occipital lobe into the space created by the calvarial protrusion (white arrow). Bilateral proptosis and hypertelorism is also noted (black arrows), and there is marked ventriculomegaly (asterisks).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_75_39-PMC7042416-6-gr5.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_75_39-PMC7042416-6-gr5.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "bilateral globe protrusion",
+        "claim_text": "There is bilateral globe protrusion of the orbits.",
+        "presence_question": "Does the model's response discuss bilateral globe protrusion?",
+        "correctness_question": "Does the model's response correctly assert that There is bilateral globe protrusion of the orbits.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "increased interorbital spacing",
+        "claim_text": "The interorbital spacing is increased compared with normal for the orbits.",
+        "presence_question": "Does the model's response discuss increased interorbital spacing?",
+        "correctness_question": "Does the model's response correctly assert that The interorbital spacing is increased compared with normal for the orbits.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "occipital calvarial defect",
+        "claim_text": "There is a defect of the occipital calvarium in the posterior skull region.",
+        "presence_question": "Does the model's response discuss occipital calvarial defect?",
+        "correctness_question": "Does the model's response correctly assert that There is a defect of the occipital calvarium in the posterior skull region.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "occipital tissue outpouching",
+        "claim_text": "A focal outpouching of tissue is located at the occipital skull in the posterior cranial region.",
+        "presence_question": "Does the model's response discuss occipital tissue outpouching?",
+        "correctness_question": "Does the model's response correctly assert that A focal outpouching of tissue is located at the occipital skull in the posterior cranial region.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "intracranial-extracranial signal continuity",
+        "claim_text": "There is continuity of signal between intracranial parenchyma and the extracranial component in the occipital region.",
+        "presence_question": "Does the model's response discuss intracranial-extracranial signal continuity?",
+        "correctness_question": "Does the model's response correctly assert that There is continuity of signal between intracranial parenchyma and the extracranial component in the occipital region.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "brain parenchyma extension beyond calvarium",
+        "claim_text": "Brain substance extends through the calvarium into the extracranial compartment beyond the occipital skull.",
+        "presence_question": "Does the model's response discuss brain parenchyma extension beyond calvarium?",
+        "correctness_question": "Does the model's response correctly assert that Brain substance extends through the calvarium into the extracranial compartment beyond the occipital skull.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "bilateral lateral ventricular enlargement",
+        "claim_text": "The lateral ventricles are bilaterally increased in size compared with normal.",
+        "presence_question": "Does the model's response discuss bilateral lateral ventricular enlargement?",
+        "correctness_question": "Does the model's response correctly assert that The lateral ventricles are bilaterally increased in size compared with normal.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "occipital brain herniation into sac",
+        "claim_text": "Brain tissue herniates into an occipital extracranial sac in the posterior cranial region.",
+        "presence_question": "Does the model's response discuss occipital brain herniation into sac?",
+        "correctness_question": "Does the model's response correctly assert that Brain tissue herniates into an occipital extracranial sac in the posterior cranial region.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "encephalocele",
+        "claim_text": "An encephalocele is a herniation of brain and meninges through a skull defect into an extracranial sac.",
+        "presence_question": "Does the model's response discuss encephalocele?",
+        "correctness_question": "Does the model's response correctly state that an encephalocele is a herniation of brain and meninges through a skull defect into an extracranial sac?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "signal continuity between intracranial and extracranial components",
+        "claim_text": "Signal continuity between intracranial parenchyma and an extracranial component indicates that brain tissue is present within the extracranial component.",
+        "presence_question": "Does the model's response discuss signal continuity between intracranial and extracranial components?",
+        "correctness_question": "Does the model's response correctly state that signal continuity between intracranial parenchyma and an extracranial component indicates that brain tissue is present within the extracranial component?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "ventriculomegaly",
+        "claim_text": "Ventriculomegaly is enlargement of the lateral ventricles.",
+        "presence_question": "Does the model's response discuss ventriculomegaly?",
+        "correctness_question": "Does the model's response correctly state that ventriculomegaly is enlargement of the lateral ventricles?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "proptosis",
+        "claim_text": "Proptosis is protrusion of the globe.",
+        "presence_question": "Does the model's response discuss proptosis?",
+        "correctness_question": "Does the model's response correctly state that proptosis is protrusion of the globe?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Encephalocele diagnosis from imaging features",
+        "claim_text": "The combination of an occipital calvarial defect, signal continuity between intracranial parenchyma and an extracranial component, and observed herniation of brain tissue supports the diagnosis of an encephalocele in this case.",
+        "presence_question": "Does the model's response make an inferential link about Encephalocele diagnosis from imaging features?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of an occipital calvarial defect, signal continuity between intracranial parenchyma and an extracranial component, and observed herniation of brain tissue supports the diagnosis of an encephalocele in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p5",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Extracranial sac contains brain tissue",
+        "claim_text": "The observed signal continuity between intracranial parenchyma and the extracranial component indicates that the extracranial sac contains brain tissue in this case.",
+        "presence_question": "Does the model's response make an inferential link about Extracranial sac contains brain tissue?",
+        "correctness_question": "Does the model's response correctly conclude that The observed signal continuity between intracranial parenchyma and the extracranial component indicates that the extracranial sac contains brain tissue in this case.?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Ventriculomegaly from enlarged lateral ventricles",
+        "claim_text": "Marked enlargement of the lateral ventricles on the image corresponds to ventriculomegaly in this case.",
+        "presence_question": "Does the model's response make an inferential link about Ventriculomegaly from enlarged lateral ventricles?",
+        "correctness_question": "Does the model's response correctly conclude that Marked enlargement of the lateral ventricles on the image corresponds to ventriculomegaly in this case.?",
+        "premise_perception_ids": [
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

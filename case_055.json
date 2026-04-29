@@ -27,5 +27,104 @@
   "caption": "Ultrasound completed on day of birth showing bilateral adrenal gland enlargement. The right adrenal gland (1) measured up to 3.2 cm with a maximal limb thickness of 7 mm. The left adrenal gland (2) measured up to 4.3 cm with a maximal limb thickness of 8 mm. There was a hypoechoic cystic structure with an echogenic wall (3) that measured approximately 9 × 8 mm in the left adrenal gland.",
   "sub_caption": "There was a hypoechoic cystic structure with an echogenic wall (3) that measured approximately 9 × 8 mm in the left adrenal gland.",
   "image_context": "Upon transfer to the NICU, the patient was noted to be very pale with a soft, full abdomen with LLQ fullness. To assess for potential sources of bleeding, head ultrasound showed small grade I germinal matrix hemorrhages. The abdominal ultrasound was significant for bilateral enlarged adrenal glands, with the right adrenal measuring 3.2 cm with maximal limb thickness 8 mm and left adrenal gland measuring 4.3 cm with maximal limb thickness of 8 mm, in addition to a hypoechoic cystic structure 9 mm × 8 mm in the left adrenal gland concerning for adrenal hemorrhage (<xref rid=\"EDM23-0091fig1\" ref-type=\"fig\">Fig. 1</xref>). Given severe anemia and possible left adrenal hemorrhage, pediatric hematology and endocrinology were consulted within the first 24 h of life.\n). Given severe anemia and possible left adrenal hemorrhage, pediatric hematology and endocrinology were consulted within the first 24 h of life.\nFigure 1Ultrasound completed on day of birth showing bilateral adrenal gland enlargement. The right adrenal gland (1) measured up to 3.2 cm with a maximal limb thickness of 7 mm. The left adrenal gland (2) measured up to 4.3 cm with a maximal limb thickness of 8 mm. There was a hypoechoic cystic structure with an echogenic wall (3) that measured approximately 9 × 8 mm in the left adrenal gland.",
-  "relevant_image_context": "bilateral enlarged adrenal glands, with the right adrenal measuring 3.2 cm with maximal limb thickness 8 mm and left adrenal gland measuring 4.3 cm with maximal limb thickness of 8 mm, in addition to a hypoechoic cystic structure 9 mm × 8 mm in the left adrenal gland concerning for adrenal hemorrhage."
+  "relevant_image_context": "bilateral enlarged adrenal glands, with the right adrenal measuring 3.2 cm with maximal limb thickness 8 mm and left adrenal gland measuring 4.3 cm with maximal limb thickness of 8 mm, in addition to a hypoechoic cystic structure 9 mm × 8 mm in the left adrenal gland concerning for adrenal hemorrhage.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_147_31-PMC10959027-0-EDM23-0091fig1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_147_31-PMC10959027-0-EDM23-0091fig1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Left adrenal lesion location",
+        "claim_text": "A lesion is located in the left adrenal region.",
+        "presence_question": "Does the model's response discuss Left adrenal lesion location?",
+        "correctness_question": "Does the model's response correctly assert that A lesion is located in the left adrenal region?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Number of left adrenal lesions",
+        "claim_text": "There is one lesion in the left adrenal.",
+        "presence_question": "Does the model's response discuss Number of left adrenal lesions?",
+        "correctness_question": "Does the model's response correctly assert that There is one lesion in the left adrenal?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Left adrenal lesion size",
+        "claim_text": "The left adrenal lesion measures approximately 0.87 cm by 0.75 cm.",
+        "presence_question": "Does the model's response discuss Left adrenal lesion size?",
+        "correctness_question": "Does the model's response correctly assert that The left adrenal lesion measures approximately 0.87 cm by 0.75 cm?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Central anechoic or hypoechoic component",
+        "claim_text": "The left adrenal lesion contains a central anechoic or hypoechoic component.",
+        "presence_question": "Does the model's response discuss Central anechoic or hypoechoic component?",
+        "correctness_question": "Does the model's response correctly assert that The left adrenal lesion contains a central anechoic or hypoechoic component?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Echogenic internal material in lesion",
+        "claim_text": "The left adrenal lesion contains internal echogenic material within the cystic space.",
+        "presence_question": "Does the model's response discuss Echogenic internal material in lesion?",
+        "correctness_question": "Does the model's response correctly assert that The left adrenal lesion contains internal echogenic material within the cystic space?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Echogenic wall or septation in lesion",
+        "claim_text": "The left adrenal lesion shows an echogenic wall or septation within the cystic space.",
+        "presence_question": "Does the model's response discuss Echogenic wall or septation in lesion?",
+        "correctness_question": "Does the model's response correctly assert that The left adrenal lesion shows an echogenic wall or septation within the cystic space?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Cystic appearance of lesion",
+        "claim_text": "The lesion in the left adrenal has a cystic appearance.",
+        "presence_question": "Does the model's response discuss Cystic appearance of lesion?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the left adrenal has a cystic appearance?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "intracystic echogenicity on sonography",
+        "claim_text": "Internal echogenicity within a cystic lesion on sonography typically suggests a complex cystic lesion.",
+        "presence_question": "Does the model's response discuss intracystic echogenicity on sonography?",
+        "correctness_question": "Does the model's response correctly state that internal echogenicity within a cystic lesion on sonography typically suggests a complex cystic lesion?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Adrenal lesion classification",
+        "claim_text": "The dominant imaging finding should be classified as a complex cystic adrenal lesion because the lesion is cystic and contains internal echogenic components and septation.",
+        "presence_question": "Does the model's response make an inferential link about Adrenal lesion classification?",
+        "correctness_question": "Does the model's response correctly conclude that The dominant imaging finding should be classified as a complex cystic adrenal lesion because the lesion is cystic and contains internal echogenic components and septation.?",
+        "premise_perception_ids": [
+          "p7",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Internal echogenic material characterization",
+        "claim_text": "The internal echogenic material within the cystic adrenal lesion is plausibly hemorrhagic based on the sonographic appearance.",
+        "presence_question": "Does the model's response make an inferential link about Internal echogenic material characterization?",
+        "correctness_question": "Does the model's response correctly conclude that The internal echogenic material within the cystic adrenal lesion is plausibly hemorrhagic based on the sonographic appearance.?",
+        "premise_perception_ids": [
+          "p5",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

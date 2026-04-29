@@ -27,5 +27,137 @@
   "caption": "Oblique-axial MIP view of angiographic-CT-scan, showing evidence of a vascular ring surrounding the middle tract of the trachea and esophagus (white arrowhead), determined by the right aortic arch (white arrow nº1), the aortic diverticulum (white arrow nº2) and the residual left arch (white arrow nº3).",
   "sub_caption": "Oblique-axial MIP view of angiographic-CT-scan, showing evidence of a vascular ring surrounding the middle tract of the trachea and esophagus (white arrowhead), determined by the right aortic arch (white arrow nº1), the aortic diverticulum (white arrow nº2) and the residual left arch (white arrow nº3).",
   "image_context": "The esophagus appeared compressed due to the presence of a vascular ring formed by the right-posterior aortic arch, the dilatation of the descending aorta, and the distal portion of the left arch, in the absence of significant tracheal stenosis (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>).).Fig. 1Oblique-axial MIP view of angiographic-CT-scan, showing evidence of a vascular ring surrounding the middle tract of the trachea and esophagus (white arrowhead), determined by the right aortic arch (white arrow nº1), the aortic diverticulum (white arrow nº2) and the residual left arch (white arrow nº3).Fig 1",
-  "relevant_image_context": "The esophagus appeared compressed due to the presence of a vascular ring formed by the right-posterior aortic arch, the dilatation of the descending aorta, and the distal portion of the left arch, in the absence of significant tracheal stenosis. Fig. 1 Oblique-axial MIP view of angiographic-CT-scan, showing evidence of a vascular ring surrounding the middle tract of the trachea and esophagus (white arrowhead), determined by the right aortic arch (white arrow nº1), the aortic diverticulum (white arrow nº2) and the residual left arch (white arrow nº3). Fig 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "The esophagus appeared compressed due to the presence of a vascular ring formed by the right-posterior aortic arch, the dilatation of the descending aorta, and the distal portion of the left arch, in the absence of significant tracheal stenosis. Fig. 1 Oblique-axial MIP view of angiographic-CT-scan, showing evidence of a vascular ring surrounding the middle tract of the trachea and esophagus (white arrowhead), determined by the right aortic arch (white arrow nº1), the aortic diverticulum (white arrow nº2) and the residual left arch (white arrow nº3). Fig 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_138_98-PMC9829553-3-gr1.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_138_98-PMC9829553-3-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Axial contrast-enhanced CT image",
+        "claim_text": "The axial contrast-enhanced CT image is located at the upper thorax.",
+        "presence_question": "Does the model's response discuss Axial contrast-enhanced CT image?",
+        "correctness_question": "Does the model's response correctly assert that The axial contrast-enhanced CT image is located at the upper thorax?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Tracheal air column",
+        "claim_text": "A tracheal air column is present in the central mediastinum.",
+        "presence_question": "Does the model's response discuss Tracheal air column?",
+        "correctness_question": "Does the model's response correctly assert that A tracheal air column is present in the central mediastinum?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Number of contrast-filled vascular lumens",
+        "claim_text": "There are three contrast-filled vascular lumens around the trachea in the central mediastinum.",
+        "presence_question": "Does the model's response discuss Number of contrast-filled vascular lumens?",
+        "correctness_question": "Does the model's response correctly assert that There are three contrast-filled vascular lumens around the trachea in the central mediastinum?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Contrast-filled vascular lumens around trachea",
+        "claim_text": "Contrast-filled vascular lumens surround the tracheal air column in the central mediastinum.",
+        "presence_question": "Does the model's response discuss Contrast-filled vascular lumens around trachea?",
+        "correctness_question": "Does the model's response correctly assert that Contrast-filled vascular lumens surround the tracheal air column in the central mediastinum?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Left anterior contrast-filled lumen",
+        "claim_text": "One contrast-filled lumen lies anterior and left of midline relative to the trachea.",
+        "presence_question": "Does the model's response discuss Left anterior contrast-filled lumen?",
+        "correctness_question": "Does the model's response correctly assert that One contrast-filled lumen lies anterior and left of midline relative to the trachea?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Posterior-inferior contrast-filled lumen",
+        "claim_text": "One contrast-filled lumen is located posterior and inferior to the trachea.",
+        "presence_question": "Does the model's response discuss Posterior-inferior contrast-filled lumen?",
+        "correctness_question": "Does the model's response correctly assert that One contrast-filled lumen is located posterior and inferior to the trachea?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Right lateral contrast-filled lumen",
+        "claim_text": "One contrast-filled lumen is located at the right lateral aspect of the trachea.",
+        "presence_question": "Does the model's response discuss Right lateral contrast-filled lumen?",
+        "correctness_question": "Does the model's response correctly assert that One contrast-filled lumen is located at the right lateral aspect of the trachea?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Distinct contrast-filled lumen margins",
+        "claim_text": "Each lumen has its own contrast-filled boundary or margin in the central mediastinum.",
+        "presence_question": "Does the model's response discuss Distinct contrast-filled lumen margins?",
+        "correctness_question": "Does the model's response correctly assert that Each lumen has its own contrast-filled boundary or margin in the central mediastinum?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Contrast-filled lumen signal",
+        "claim_text": "Each lumen demonstrates contrast-filled signal in the central mediastinum.",
+        "presence_question": "Does the model's response discuss Contrast-filled lumen signal?",
+        "correctness_question": "Does the model's response correctly assert that Each lumen demonstrates contrast-filled signal in the central mediastinum?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "CT appearance of vascular lumens",
+        "claim_text": "On contrast-enhanced CT, vascular lumens typically appear as contrast-filled structures with visible boundaries.",
+        "presence_question": "Does the model's response discuss CT appearance of vascular lumens?",
+        "correctness_question": "Does the model's response correctly state that On contrast-enhanced CT, vascular lumens typically appear as contrast-filled structures with visible boundaries?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "central mediastinum vascular structures",
+        "claim_text": "The central mediastinum typically contains vascular structures.",
+        "presence_question": "Does the model's response discuss central mediastinum vascular structures?",
+        "correctness_question": "Does the model's response correctly state that The central mediastinum typically contains vascular structures?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "distinct contrast-filled lumens",
+        "claim_text": "Distinct contrast-filled lumens with individual boundaries suggest separate vascular structures rather than a single contiguous lumen.",
+        "presence_question": "Does the model's response discuss distinct contrast-filled lumens?",
+        "correctness_question": "Does the model's response correctly state that Distinct contrast-filled lumens with individual boundaries suggest separate vascular structures rather than a single contiguous lumen?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Mediastinal vascular structures",
+        "claim_text": "This finding supports that the three contrast-filled rounded lumens surrounding the tracheal air column on the upper thoracic CT are vascular structures in the central mediastinum.",
+        "presence_question": "Does the model's response make an inferential link about Mediastinal vascular structures?",
+        "correctness_question": "Does the model's response correctly conclude that This finding supports that the three contrast-filled rounded lumens surrounding the tracheal air column on the upper thoracic CT are vascular structures in the central mediastinum?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Separate vascular structures vs contiguous lumen",
+        "claim_text": "The imaging favors that each lumen, having its own contrast-filled boundary, represents a separate vascular structure rather than a branch of a single contiguous lumen.",
+        "presence_question": "Does the model's response make an inferential link about Separate vascular structures vs contiguous lumen?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging favors that each lumen, having its own contrast-filled boundary, represents a separate vascular structure rather than a branch of a single contiguous lumen?",
+        "premise_perception_ids": [
+          "p8",
+          "p9",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

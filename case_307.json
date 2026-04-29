@@ -29,5 +29,100 @@
   "caption": "Axial reconstruction, portovenous-enhanced CT imaging of a 50-year-old male patient. The image demonstrates rectal thickening (dashed arrow) and an enhancing mesorectal node (solid arrow).",
   "sub_caption": "Axial reconstruction, portovenous-enhanced CT imaging of a 50-year-old male patient. The image demonstrates rectal thickening (dashed arrow) and an enhancing mesorectal node (solid arrow).",
   "image_context": "<xref ref-type=\"fig\" rid=\"SAJR-21-1233-g009\">Figures 9</xref> and  and <xref ref-type=\"fig\" rid=\"SAJR-21-1233-g010\">10</xref> demonstrate a 50-year-old male patient, with CD4 count of 320 cells/μL at initial presentation, with rectal thickening and an enhancing mesorectal node. The diagnosis of rectal KS was made upon transrectal biopsy. demonstrate a 50-year-old male patient, with CD4 count of 320 cells/μL at initial presentation, with rectal thickening and an enhancing mesorectal node. The diagnosis of rectal KS was made upon transrectal biopsy.",
-  "relevant_image_context": "Figures 9 and 10 demonstrate a 50-year-old male patient, with CD4 count of 320 cells/μL at initial presentation, with rectal thickening and an enhancing mesorectal node. The diagnosis of rectal KS was made upon transrectal biopsy."
+  "relevant_image_context": "Figures 9 and 10 demonstrate a 50-year-old male patient, with CD4 count of 320 cells/μL at initial presentation, with rectal thickening and an enhancing mesorectal node. The diagnosis of rectal KS was made upon transrectal biopsy.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_71_31-PMC6837834-5-SAJR-21-1233-g009.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_71_31-PMC6837834-5-SAJR-21-1233-g009.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Rectal wall thickening",
+        "claim_text": "There is circumferential thickening of the rectal wall.",
+        "presence_question": "Does the model's response discuss Rectal wall thickening?",
+        "correctness_question": "Does the model's response correctly assert that There is circumferential thickening of the rectal wall?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Rectal wall enhancement",
+        "claim_text": "The rectal wall demonstrates heterogeneous enhancement on contrast-enhanced imaging.",
+        "presence_question": "Does the model's response discuss Rectal wall enhancement?",
+        "correctness_question": "Does the model's response correctly assert that The rectal wall demonstrates heterogeneous enhancement on contrast-enhanced imaging?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Mesorectal soft-tissue node",
+        "claim_text": "A mesorectal soft-tissue node is present in the mesorectum.",
+        "presence_question": "Does the model's response discuss Mesorectal soft-tissue node?",
+        "correctness_question": "Does the model's response correctly assert that A mesorectal soft-tissue node is present in the mesorectum?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Enhancing mesorectal node",
+        "claim_text": "The mesorectal soft-tissue node in the mesorectum demonstrates enhancement.",
+        "presence_question": "Does the model's response discuss Enhancing mesorectal node?",
+        "correctness_question": "Does the model's response correctly assert that The mesorectal soft-tissue node in the mesorectum demonstrates enhancement?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Lateral mesorectal node adjacent to rectum",
+        "claim_text": "A lateral mesorectal soft-tissue node is adjacent to the rectum.",
+        "presence_question": "Does the model's response discuss Lateral mesorectal node adjacent to rectum?",
+        "correctness_question": "Does the model's response correctly assert that A lateral mesorectal soft-tissue node is adjacent to the rectum?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Large bulky pelvic nodal masses absent",
+        "claim_text": "No large bulky nodal masses are identified in the pelvis.",
+        "presence_question": "Does the model's response discuss Large bulky pelvic nodal masses absent?",
+        "correctness_question": "Does the model's response correctly assert that No large bulky nodal masses are identified in the pelvis?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Markedly asymmetric eccentric rectal mass absent",
+        "claim_text": "There is no markedly asymmetric eccentric mass in the rectum.",
+        "presence_question": "Does the model's response discuss Markedly asymmetric eccentric rectal mass absent?",
+        "correctness_question": "Does the model's response correctly assert that There is no markedly asymmetric eccentric mass in the rectum?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Kaposi sarcoma and immunosuppression",
+        "claim_text": "Kaposi sarcoma is typically associated with immunosuppression.",
+        "presence_question": "Does the model's response discuss Kaposi sarcoma and immunosuppression?",
+        "correctness_question": "Does the model's response correctly state that Kaposi sarcoma is typically associated with immunosuppression?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Rectal Kaposi sarcoma findings",
+        "claim_text": "Kaposi sarcoma typically presents as rectal wall lesions with associated small enhancing mesorectal lymph nodes.",
+        "presence_question": "Does the model's response discuss Rectal Kaposi sarcoma findings?",
+        "correctness_question": "Does the model's response correctly state that Kaposi sarcoma typically presents as rectal wall lesions with associated small enhancing mesorectal lymph nodes?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Support for Kaposi sarcoma diagnosis",
+        "claim_text": "The combination of circumferential rectal wall thickening with heterogeneous enhancement and a small adjacent enhancing mesorectal node in an immunosuppressed patient supports Kaposi sarcoma as a plausible diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Support for Kaposi sarcoma diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of circumferential rectal wall thickening with heterogeneous enhancement and a small adjacent enhancing mesorectal node in an immunosuppressed patient supports Kaposi sarcoma as a plausible diagnosis in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

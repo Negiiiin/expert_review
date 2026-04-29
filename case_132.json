@@ -29,5 +29,106 @@
   "caption": "Computed tomography (CT) of the brain.(A) Thrombosis of the superior sagittal sinus (yellow arrow) and cerebral vessel with normal contrast enhancement (red arrow). (B) Thrombosis of the right transverse sinus (yellow arrow). (C) Thrombosis of the superior sagittal sinus (yellow arrow). (D) Intracranial hemorrhage in the left frontal and parietal lobe (red arrow).",
   "sub_caption": "(B) Thrombosis of the right transverse sinus (yellow arrow).",
   "image_context": "The patient experienced a continuous high fever, along with progressive weakness with muscle strength was 3/5 on the left side of the body and during all movements. Cranial computed tomography (CT) was performed on Day 1 of admission, which revealed filling defects in the superior sagittal sinus and right transverse sinus representing cerebral venous sinus thrombosis, possibly cerebral edema and ICH in the left frontal lobe and left parietal lobe (Figure <xref rid=\"cureus-0016-00000064220-i01\" ref-type=\"fig\">1</xref>).).",
-  "relevant_image_context": "The patient experienced a continuous high fever, along with progressive weakness with muscle strength was 3/5 on the left side of the body and during all movements. Cranial computed tomography (CT) was performed on Day 1 of admission, which revealed filling defects in the superior sagittal sinus and right transverse sinus representing cerebral venous sinus thrombosis, possibly cerebral edema and ICH in the left frontal lobe and left parietal lobe (Figure 1)."
+  "relevant_image_context": "The patient experienced a continuous high fever, along with progressive weakness with muscle strength was 3/5 on the left side of the body and during all movements. Cranial computed tomography (CT) was performed on Day 1 of admission, which revealed filling defects in the superior sagittal sinus and right transverse sinus representing cerebral venous sinus thrombosis, possibly cerebral edema and ICH in the left frontal lobe and left parietal lobe (Figure 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_176_84-PMC11310897-2-cureus-0016-00000064220-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_176_84-PMC11310897-2-cureus-0016-00000064220-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "focal ovoid hyperdensity in lateral skull base",
+        "claim_text": "A focal ovoid structure in the lateral skull base is relatively hyperdense on axial non-contrast head CT.",
+        "presence_question": "Does the model's response discuss focal ovoid hyperdensity in lateral skull base?",
+        "correctness_question": "Does the model's response correctly assert that A focal ovoid structure in the lateral skull base is relatively hyperdense on axial non-contrast head CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "transverse-sigmoid venous sinus location",
+        "claim_text": "A focal ovoid structure is located along the expected course of the transverse and sigmoid venous sinuses.",
+        "presence_question": "Does the model's response discuss transverse-sigmoid venous sinus location?",
+        "correctness_question": "Does the model's response correctly assert that A focal ovoid structure is located along the expected course of the transverse and sigmoid venous sinuses?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "ovoid-shaped focal structure in lateral skull base",
+        "claim_text": "A focal structure in the lateral skull base has an ovoid shape on axial non-contrast head CT.",
+        "presence_question": "Does the model's response discuss ovoid-shaped focal structure in lateral skull base?",
+        "correctness_question": "Does the model's response correctly assert that A focal structure in the lateral skull base has an ovoid shape on axial non-contrast head CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "mastoid air cells involvement",
+        "claim_text": "The focal hyperdense structure is not located within the mastoid air cells on axial non-contrast head CT.",
+        "presence_question": "Does the model's response discuss mastoid air cells involvement?",
+        "correctness_question": "Does the model's response correctly assert that The focal hyperdense structure is not located within the mastoid air cells on axial non-contrast head CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "lateral skull base bone involvement",
+        "claim_text": "The focal hyperdense structure does not arise from adjacent lateral skull base bone on axial non-contrast head CT.",
+        "presence_question": "Does the model's response discuss lateral skull base bone involvement?",
+        "correctness_question": "Does the model's response correctly assert that The focal hyperdense structure does not arise from adjacent lateral skull base bone on axial non-contrast head CT?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "systemic intravenous thrombolysis",
+        "claim_text": "Systemic intravenous thrombolysis (alteplase) is a diffuse systemic fibrinolytic intervention.",
+        "presence_question": "Does the model's response discuss systemic intravenous thrombolysis?",
+        "correctness_question": "Does the model's response correctly state that Systemic intravenous thrombolysis (alteplase) is a diffuse systemic fibrinolytic intervention?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "systemic fibrinolysis and intracranial bleeding risk",
+        "claim_text": "Systemic fibrinolysis increases the risk of precipitating or worsening intracranial bleeding when an intravascular thrombus or an unstable intracranial vascular abnormality is present or visible on CT.",
+        "presence_question": "Does the model's response discuss systemic fibrinolysis and intracranial bleeding risk?",
+        "correctness_question": "Does the model's response correctly state that Systemic fibrinolysis increases the risk of precipitating or worsening intracranial bleeding when an intravascular thrombus or an unstable intracranial vascular abnormality is present or visible on CT?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "venous sinus intraluminal hyperdensity on CT",
+        "claim_text": "A focal intraluminal hyperdensity in a venous sinus on non-contrast CT suggests acute venous sinus thrombosis due to an intraluminal thrombus.",
+        "presence_question": "Does the model's response discuss venous sinus intraluminal hyperdensity on CT?",
+        "correctness_question": "Does the model's response correctly state that A focal intraluminal hyperdensity in a venous sinus on non-contrast CT suggests acute venous sinus thrombosis due to an intraluminal thrombus?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "venous sinus thrombus diagnosis",
+        "claim_text": "The focal relatively hyperdense ovoid structure located in the expected course of the transverse/sigmoid sinus is most consistent with an acute venous sinus thrombus in this case.",
+        "presence_question": "Does the model's response make an inferential link about venous sinus thrombus diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The focal relatively hyperdense ovoid structure located in the expected course of the transverse/sigmoid sinus is most consistent with an acute venous sinus thrombus in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "systemic intravenous thrombolysis risk",
+        "claim_text": "Because the imaging finding likely represents an intraluminal venous thrombus and systemic intravenous thrombolysis is a diffuse fibrinolytic therapy that increases risk of intracranial bleeding when intravascular thrombus or unstable intracranial vascular abnormalities are present, systemic intravenous thrombolysis would be expected to carry the highest risk of intracranial adverse events in this case.",
+        "presence_question": "Does the model's response make an inferential link about systemic intravenous thrombolysis risk?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging finding likely represents an intraluminal venous thrombus and systemic intravenous thrombolysis is a diffuse fibrinolytic therapy that increases risk of intracranial bleeding when intravascular thrombus or unstable intracranial vascular abnormalities are present, systemic intravenous thrombolysis would be expected to carry the highest risk of intracranial adverse events in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

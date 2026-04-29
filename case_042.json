@@ -27,5 +27,122 @@
   "caption": "Transverse segment of a CT scan showing a distended stomach, with a suggestion of gastric volvulus in the intrathoracic segment.The arrows show the stomach within the thoracic cavity.",
   "sub_caption": "Transverse segment of a CT scan showing a distended stomach, with a suggestion of gastric volvulus in the intrathoracic segment. The arrows show the stomach within the thoracic cavity.",
   "image_context": "A contrast abdominal and pelvic CT scan allowed the visualization of a very large herniation of the oesophageal hiatus with herniation of a large part of the stomach to the intrathoracic topography, as depicted in the two pictures below (Figures <xref ref-type=\"fig\" rid=\"cureus-0013-00000013285-i03\">3</xref> and 4). The stomach was very distended, with a suggestion of gastric volvulus in the intrathoracic segment, suggestive of a type 1 gastric volvulus (organoaxial rotation). No other significant alterations were found, including focal thickening of the gastric wall. and 4). The stomach was very distended, with a suggestion of gastric volvulus in the intrathoracic segment, suggestive of a type 1 gastric volvulus (organoaxial rotation). No other significant alterations were found, including focal thickening of the gastric wall.",
-  "relevant_image_context": "A contrast abdominal and pelvic CT scan allowed the visualization of a very large herniation of the oesophageal hiatus with herniation of a large part of the stomach to the intrathoracic topography, as depicted in the two pictures below (Figures 3 and 4). The stomach was very distended, with a suggestion of gastric volvulus in the intrathoracic segment, suggestive of a type 1 gastric volvulus (organoaxial rotation). No other significant alterations were found, including focal thickening of the gastric wall."
+  "relevant_image_context": "A contrast abdominal and pelvic CT scan allowed the visualization of a very large herniation of the oesophageal hiatus with herniation of a large part of the stomach to the intrathoracic topography, as depicted in the two pictures below (Figures 3 and 4). The stomach was very distended, with a suggestion of gastric volvulus in the intrathoracic segment, suggestive of a type 1 gastric volvulus (organoaxial rotation). No other significant alterations were found, including focal thickening of the gastric wall.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_73_0-PMC6873057-0-crg-0013-0430-g04.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_73_0-PMC6873057-0-crg-0013-0430-g04.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "endoscopic view shape",
+        "claim_text": "The endoscopic view in the image has a circular shape.",
+        "presence_question": "Does the model's response discuss endoscopic view shape?",
+        "correctness_question": "Does the model's response correctly assert that The endoscopic view in the image has a circular shape?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "rugal folds of gastric mucosa",
+        "claim_text": "The gastric mucosa shows rugal folds in the stomach.",
+        "presence_question": "Does the model's response discuss rugal folds of gastric mucosa?",
+        "correctness_question": "Does the model's response correctly assert that The gastric mucosa shows rugal folds in the stomach?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "linear metallic object",
+        "claim_text": "A linear metallic object is present traversing the visible field.",
+        "presence_question": "Does the model's response discuss linear metallic object?",
+        "correctness_question": "Does the model's response correctly assert that A linear metallic object is present traversing the visible field?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "appearance of metallic object",
+        "claim_text": "The linear metallic object appears bright in the visible field.",
+        "presence_question": "Does the model's response discuss appearance of metallic object?",
+        "correctness_question": "Does the model's response correctly assert that The linear metallic object appears bright in the visible field?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "metallic clips along object",
+        "claim_text": "Small metallic clips or fasteners are visible along the linear metallic object in the visible field.",
+        "presence_question": "Does the model's response discuss metallic clips along object?",
+        "correctness_question": "Does the model's response correctly assert that Small metallic clips or fasteners are visible along the linear metallic object in the visible field?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "object location in upper-left quadrant",
+        "claim_text": "The bulk of the metallic object and the most conspicuous clip are located in the upper-left quadrant of the visible field.",
+        "presence_question": "Does the model's response discuss object location in upper-left quadrant?",
+        "correctness_question": "Does the model's response correctly assert that The bulk of the metallic object and the most conspicuous clip are located in the upper-left quadrant of the visible field?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Rugal folds",
+        "claim_text": "Rugal folds are characteristic features of the gastric mucosa.",
+        "presence_question": "Does the model's response discuss Rugal folds?",
+        "correctness_question": "Does the model's response correctly state that Rugal folds are characteristic features of the gastric mucosa?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Metallic clips",
+        "claim_text": "Metallic clips are a type of metallic fastener.",
+        "presence_question": "Does the model's response discuss Metallic clips?",
+        "correctness_question": "Does the model's response correctly state that Metallic clips are a type of metallic fastener?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Endoscopic images",
+        "claim_text": "Endoscopic images typically have a circular field of view.",
+        "presence_question": "Does the model's response discuss Endoscopic images?",
+        "correctness_question": "Does the model's response correctly state that Endoscopic images typically have a circular field of view?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Upper-left object localization",
+        "claim_text": "The evidence supports that the linear metallic object with associated clips is localized to the upper-left quadrant of the image.",
+        "presence_question": "Does the model's response make an inferential link about Upper-left object localization?",
+        "correctness_question": "Does the model's response correctly conclude that The evidence supports that the linear metallic object with associated clips is localized to the upper-left quadrant of the image.?",
+        "premise_perception_ids": [
+          "p3",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Gastric mucosal localization",
+        "claim_text": "The image findings are consistent with the metallic linear object being located on or within the gastric mucosal field in this image.",
+        "presence_question": "Does the model's response make an inferential link about Gastric mucosal localization?",
+        "correctness_question": "Does the model's response correctly conclude that The image findings are consistent with the metallic linear object being located on or within the gastric mucosal field in this image.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Clips identified as fasteners",
+        "claim_text": "The evidence supports that the small metallic clips seen along the linear object are metallic fasteners.",
+        "presence_question": "Does the model's response make an inferential link about Clips identified as fasteners?",
+        "correctness_question": "Does the model's response correctly conclude that The evidence supports that the small metallic clips seen along the linear object are metallic fasteners.?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

@@ -28,5 +28,121 @@
   "caption": "Chromophobe renal cell carcinoma. (A) Single-shot T2-weighted scan of a chromophobe renal cell carcinoma (chRCC). Note how the mass is well circumscribed with homogenous, low-intensity signal. (B) T1-weighted post-gadolinium enhanced fat-suppressed three-dimensional gradient-echo (T1WI FS 3D GRE), delayed phase image. Note the characteristic “spoke-wheel” enhancement pattern (arrowheads). (C) T1WI FS 3D GRE, delayed phase image demonstrating central scarring of the tumor (small arrowhead) and capsular enhancement (large arrowhead). Patient underwent nephrectomy; diagnosis of chRCC was confirmed on surgical pathology.",
   "sub_caption": "(C) T1WI FS 3D GRE, delayed phase image demonstrating central scarring of the tumor (small arrowhead) and capsular enhancement (large arrowhead). Patient underwent nephrectomy; diagnosis of chRCC was confirmed on surgical pathology.",
   "image_context": "Given the similarities between chRCC and oncocytoma, differentiation in MR imaging is challenging. ChRCCs are generally peripherally located, well circumscribed, homogenous, and lacking in perinephric fat or renal vein invasion [9]. Cystic changes and necrosis are uncommon even in large chRCCs [48]. Although chRCCs tend to have low to intermediate T2-weighted signal intensity, this finding can vary significantly [30]. Gadolinium administration will result in intermediate, delayed enhancement of chRCCs, less than ccRCCs but greater than pRCCs [1,30]. Additional enhancement patterns include a central, stellate scar (30–40% of cases) and “spoke wheel” enhancement, although these features may also be present in oncocytomas (<xref rid=\"cancers-15-02799-g006\" ref-type=\"fig\">Figure 6</xref>) [) [38].",
-  "relevant_image_context": "MR imaging features of chromophobe RCC (chRCC) include central stellate scar patterns and delayed enhancement after gadolinium. ChRCCs are generally peripherally located, well circumscribed, and may show central, stellate scar in a subset of cases. Gadolinium administration yields intermediate, delayed enhancement for chRCCs (less than ccRCCs but greater than pRCCs). Additional enhancement patterns include a central, stellate scar (30–40% of cases) and “spoke wheel” enhancement, though these features may also be seen in oncocytomas."
+  "relevant_image_context": "MR imaging features of chromophobe RCC (chRCC) include central stellate scar patterns and delayed enhancement after gadolinium. ChRCCs are generally peripherally located, well circumscribed, and may show central, stellate scar in a subset of cases. Gadolinium administration yields intermediate, delayed enhancement for chRCCs (less than ccRCCs but greater than pRCCs). Additional enhancement patterns include a central, stellate scar (30–40% of cases) and “spoke wheel” enhancement, though these features may also be seen in oncocytomas.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_2_filelist_commercial_batch_148_79-PMC10216374-7-cancers-15-02799-g006.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_148_79-PMC10216374-7-cancers-15-02799-g006.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Right renal mass",
+        "claim_text": "A right renal mass is present in the kidney.",
+        "presence_question": "Does the model's response discuss Right renal mass?",
+        "correctness_question": "Does the model's response correctly assert that A right renal mass is present in the kidney?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Mass in right kidney",
+        "claim_text": "The mass is located in the right kidney on the coronal abdominal image.",
+        "presence_question": "Does the model's response discuss Mass in right kidney?",
+        "correctness_question": "Does the model's response correctly assert that The mass is located in the right kidney on the coronal abdominal image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Mass extent in right kidney",
+        "claim_text": "The mass extends to most of the right kidney on the coronal abdominal image.",
+        "presence_question": "Does the model's response discuss Mass extent in right kidney?",
+        "correctness_question": "Does the model's response correctly assert that The mass extends to most of the right kidney on the coronal abdominal image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Predominantly solid mass",
+        "claim_text": "The right renal mass appears predominantly solid on the coronal abdominal image.",
+        "presence_question": "Does the model's response discuss Predominantly solid mass?",
+        "correctness_question": "Does the model's response correctly assert that The right renal mass appears predominantly solid on the coronal abdominal image?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Single renal mass",
+        "claim_text": "There is a single mass in the right kidney on the coronal abdominal image.",
+        "presence_question": "Does the model's response discuss Single renal mass?",
+        "correctness_question": "Does the model's response correctly assert that There is a single mass in the right kidney on the coronal abdominal image?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Central stellate area within mass",
+        "claim_text": "A central stellate area is located within the right renal mass on the coronal abdominal image.",
+        "presence_question": "Does the model's response discuss Central stellate area within mass?",
+        "correctness_question": "Does the model's response correctly assert that A central stellate area is located within the right renal mass on the coronal abdominal image?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Stellate shape of central area",
+        "claim_text": "The central area within the right renal mass has a stellate (star-shaped) configuration.",
+        "presence_question": "Does the model's response discuss Stellate shape of central area?",
+        "correctness_question": "Does the model's response correctly assert that The central area within the right renal mass has a stellate (star-shaped) configuration?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Low signal central area",
+        "claim_text": "The central stellate area within the right renal mass demonstrates low signal on the coronal abdominal image.",
+        "presence_question": "Does the model's response discuss Low signal central area?",
+        "correctness_question": "Does the model's response correctly assert that The central stellate area within the right renal mass demonstrates low signal on the coronal abdominal image?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Peripheral tumor tissue surrounding central area",
+        "claim_text": "Peripheral tumor tissue in the right renal mass surrounds the central stellate area on the coronal abdominal image.",
+        "presence_question": "Does the model's response discuss Peripheral tumor tissue surrounding central area?",
+        "correctness_question": "Does the model's response correctly assert that Peripheral tumor tissue in the right renal mass surrounds the central stellate area on the coronal abdominal image?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Peripheral tissue higher signal than central area",
+        "claim_text": "The peripheral tumor tissue within the right renal mass shows increased signal or enhancement compared to the central stellate area.",
+        "presence_question": "Does the model's response discuss Peripheral tissue higher signal than central area?",
+        "correctness_question": "Does the model's response correctly assert that The peripheral tumor tissue within the right renal mass shows increased signal or enhancement compared to the central stellate area?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "central stellate scar",
+        "claim_text": "A central stellate scar appears on imaging as a central low-signal, star-shaped area.",
+        "presence_question": "Does the model's response discuss central stellate scar?",
+        "correctness_question": "Does the model's response correctly state that a central stellate scar appears on imaging as a central low-signal, star-shaped area?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "peripheral enhancement",
+        "claim_text": "Peripheral enhancement on imaging is characterized by higher signal intensity of peripheral tissue compared with a central scar.",
+        "presence_question": "Does the model's response discuss peripheral enhancement?",
+        "correctness_question": "Does the model's response correctly state that peripheral enhancement on imaging is characterized by higher signal intensity of peripheral tissue compared with a central scar?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "central stellate scar with peripheral enhancement",
+        "claim_text": "The observed central low-signal, stellate-shaped area within the mass together with more avid/higher-signal peripheral tumor tissue is consistent with the presence of a central stellate scar with peripheral enhancement in this case.",
+        "presence_question": "Does the model's response make an inferential link about central stellate scar with peripheral enhancement?",
+        "correctness_question": "Does the model's response correctly conclude that The observed central low-signal, stellate-shaped area within the mass together with more avid/higher-signal peripheral tumor tissue is consistent with the presence of a central stellate scar with peripheral enhancement in this case?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

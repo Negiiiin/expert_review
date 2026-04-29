@@ -28,5 +28,140 @@
   "caption": "Mild spongiosis, acanthosis, focal basal vacuolar degeneration, dyskeratosis, and mild lichenoid infiltrate with melanin incontinence. (Hematoxylin-eosin stain; original magnification: ×40).",
   "sub_caption": "Mild spongiosis, acanthosis, focal basal vacuolar degeneration, dyskeratosis, and mild lichenoid infiltrate with melanin incontinence. (Hematoxylin-eosin stain; original magnification: ×40).",
   "image_context": "The patient returned 8 weeks later with persistent symptoms despite using topical corticosteroids and was noted to have progression of the dermatitis with several superficial bullae involving skin outside the radiation field. Biopsy revealed lichenoid interface dermatitis (<xref rid=\"gr3\" ref-type=\"fig\">Fig 3</xref>). Direct immunofluorescence testing revealed granular deposition of IgG, IgA, IgM, and fibrinogen at the basement membrane. There was also antikeratinocyte nuclear labeling by IgG, which is nonspecific but often correlates with a positive antinuclear antibody test. Direct immunofluorescence revealed a positive lupus band (). Direct immunofluorescence testing revealed granular deposition of IgG, IgA, IgM, and fibrinogen at the basement membrane. There was also antikeratinocyte nuclear labeling by IgG, which is nonspecific but often correlates with a positive antinuclear antibody test. Direct immunofluorescence revealed a positive lupus band (<xref rid=\"gr4\" ref-type=\"fig\">Fig 4</xref>). Additional workup included white blood cell count (2.68 × 10). Additional workup included white blood cell count (2.68 × 103 cells/mm3; normal range, 3.7-10.4 × 103 cells/mm3), hemoglobin (11.4 g/dL; normal range, 13.6-16.7 g/dL), and documentation of antinuclear antibodies (1:160, speckled and antiSjögren's-syndrome-related antigen A autoantibody patterns), as well as anti-double-stranded DNA antibodies (56; normal, <40), antiSjögren's syndrome-related antigen A autoantibodies (>8; normal, <1), antiSjögren's syndrome-related antigen B autoantibodies (>8; normal, <1), and ribonucleoprotein (1.7; normal, <1). Taking all these results into account, the patient was diagnosed with lupus and started on hydroxychloroquine. After a short course of therapy, the skin lesions resolved (<xref rid=\"gr5\" ref-type=\"fig\">Fig 5</xref>), and no recurrence was noted over the next 15 months of follow-up.), and no recurrence was noted over the next 15 months of follow-up.Fig 3Mild spongiosis, acanthosis, focal basal vacuolar degeneration, dyskeratosis, and mild lichenoid infiltrate with melanin incontinence. (Hematoxylin-eosin stain; original magnification: ×40).Fig 4Direct immunofluorescence of IgG demonstrates antikeratinocyte nuclear deposition and irregular basement membrane deposition. (Original magnification: ×40).Fig 5Representative image of right breast after 6 months of hydroxychloroquine therapy.",
-  "relevant_image_context": "The patient returned 8 weeks later with persistent symptoms despite using topical corticosteroids and was noted to have progression of the dermatitis with several superficial bullae involving skin outside the radiation field. Biopsy revealed lichenoid interface dermatitis (Fig 3). Fig 3Mild spongiosis, acanthosis, focal basal vacuolar degeneration, dyskeratosis, and mild lichenoid infiltrate with melanin incontinence. (Hematoxylin-eosin stain; original magnification: ×40)."
+  "relevant_image_context": "The patient returned 8 weeks later with persistent symptoms despite using topical corticosteroids and was noted to have progression of the dermatitis with several superficial bullae involving skin outside the radiation field. Biopsy revealed lichenoid interface dermatitis (Fig 3). Fig 3Mild spongiosis, acanthosis, focal basal vacuolar degeneration, dyskeratosis, and mild lichenoid infiltrate with melanin incontinence. (Hematoxylin-eosin stain; original magnification: ×40).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_98_16-PMC8358281-0-gr3.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_98_16-PMC8358281-0-gr3.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "basal epidermal vacuolar change",
+        "claim_text": "The basal layer of the epidermis shows vacuolar change consistent with basal layer damage.",
+        "presence_question": "Does the model's response discuss basal epidermal vacuolar change?",
+        "correctness_question": "Does the model's response correctly assert that The basal layer of the epidermis shows vacuolar change consistent with basal layer damage?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "necrotic keratinocytes in epidermis",
+        "claim_text": "The epidermis contains numerous necrotic keratinocytes, also described as dyskeratoses or colloid bodies.",
+        "presence_question": "Does the model's response discuss necrotic keratinocytes in epidermis?",
+        "correctness_question": "Does the model's response correctly assert that The epidermis contains numerous necrotic keratinocytes, also described as dyskeratoses or colloid bodies?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "superficial dermal lymphocytic infiltrate",
+        "claim_text": "A lymphocytic infiltrate is present in the superficial dermis and dermoepidermal junction of the section.",
+        "presence_question": "Does the model's response discuss superficial dermal lymphocytic infiltrate?",
+        "correctness_question": "Does the model's response correctly assert that A lymphocytic infiltrate is present in the superficial dermis and dermoepidermal junction of the section?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "band-like lymphocytic infiltrate",
+        "claim_text": "The lymphocytic infiltrate is dense and band-like in the superficial dermis adjacent to the epidermis.",
+        "presence_question": "Does the model's response discuss band-like lymphocytic infiltrate?",
+        "correctness_question": "Does the model's response correctly assert that The lymphocytic infiltrate is dense and band-like in the superficial dermis adjacent to the epidermis?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "infiltrate at dermoepidermal junction",
+        "claim_text": "The lymphocytic infiltrate is located at the dermoepidermal junction, hugging the junction.",
+        "presence_question": "Does the model's response discuss infiltrate at dermoepidermal junction?",
+        "correctness_question": "Does the model's response correctly assert that The lymphocytic infiltrate is located at the dermoepidermal junction, hugging the junction?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "dermal pigment incontinence",
+        "claim_text": "The superficial dermis demonstrates pigment incontinence in the examined section.",
+        "presence_question": "Does the model's response discuss dermal pigment incontinence?",
+        "correctness_question": "Does the model's response correctly assert that The superficial dermis demonstrates pigment incontinence in the examined section?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "absence of neutrophil predominance",
+        "claim_text": "No neutrophil predominance is present in this examined section on H&E.",
+        "presence_question": "Does the model's response discuss absence of neutrophil predominance?",
+        "correctness_question": "Does the model's response correctly assert that No neutrophil predominance is present in this examined section on H&E?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "no subepidermal blister with eosinophils",
+        "claim_text": "There is no subepidermal blister containing abundant eosinophils identified on this H&E section.",
+        "presence_question": "Does the model's response discuss no subepidermal blister with eosinophils?",
+        "correctness_question": "Does the model's response correctly assert that There is no subepidermal blister containing abundant eosinophils identified on this H&E section?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "tissue-bound immunoreactants at the dermoepidermal junction",
+        "claim_text": "Direct immunofluorescence on perilesional skin identifies tissue-bound immunoreactants at the dermoepidermal junction.",
+        "presence_question": "Does the model's response discuss tissue-bound immunoreactants at the dermoepidermal junction?",
+        "correctness_question": "Does the model's response correctly state that Direct immunofluorescence on perilesional skin identifies tissue-bound immunoreactants at the dermoepidermal junction?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "lichenoid/interface dermatitis features",
+        "claim_text": "Basal vacuolar change, necrotic keratinocytes, a dense band-like lymphocytic infiltrate, and pigment incontinence are characteristic histologic features of lichenoid (interface) dermatitis.",
+        "presence_question": "Does the model's response discuss lichenoid/interface dermatitis features?",
+        "correctness_question": "Does the model's response correctly state that Basal vacuolar change, necrotic keratinocytes, a dense band-like lymphocytic infiltrate, and pigment incontinence are characteristic histologic features of lichenoid (interface) dermatitis?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "new superficial bullae outside radiation field",
+        "claim_text": "New superficial bullae arising outside a radiation field in the setting of persistent dermatitis after radiotherapy suggest an immune-mediated lichenoid or autoimmune blistering process rather than contact allergy or bacterial infection.",
+        "presence_question": "Does the model's response discuss new superficial bullae outside a radiation field?",
+        "correctness_question": "Does the model's response correctly state that New superficial bullae arising outside a radiation field in the setting of persistent dermatitis after radiotherapy suggest an immune-mediated lichenoid or autoimmune blistering process rather than contact allergy or bacterial infection?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "direct immunofluorescence on perilesional skin",
+        "claim_text": "Direct immunofluorescence on perilesional skin is better for evaluating autoimmune or immune-complex–mediated processes in blistering and interface dermatoses.",
+        "presence_question": "Does the model's response discuss direct immunofluorescence on perilesional skin?",
+        "correctness_question": "Does the model's response correctly state that Direct immunofluorescence on perilesional skin is better for evaluating autoimmune or immune-complex–mediated processes in blistering and interface dermatoses?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Lichenoid/interface dermatitis plausibility",
+        "claim_text": "The histologic features (basal vacuolar change, numerous necrotic keratinocytes, a dense band-like lymphocytic infiltrate at the dermoepidermal junction, and pigment incontinence) support that a lichenoid/interface dermatitis is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about Lichenoid/interface dermatitis plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that The histologic features (basal vacuolar change, numerous necrotic keratinocytes, a dense band-like lymphocytic infiltrate at the dermoepidermal junction, and pigment incontinence) support that a lichenoid/interface dermatitis is plausible in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Direct immunofluorescence as next diagnostic test",
+        "claim_text": "Given the interface/lichenoid histologic changes, performing direct immunofluorescence on perilesional skin is justified as the next diagnostic test to evaluate for an autoimmune or immune-complex-mediated process.",
+        "presence_question": "Does the model's response make an inferential link about Direct immunofluorescence as next diagnostic test?",
+        "correctness_question": "Does the model's response correctly conclude that Given the interface/lichenoid histologic changes, performing direct immunofluorescence on perilesional skin is justified as the next diagnostic test to evaluate for an autoimmune or immune-complex-mediated process?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

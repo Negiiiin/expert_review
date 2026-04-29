@@ -28,5 +28,141 @@
   "caption": "Contrast-enhanced computed tomography of pelvis shows isolated retrovesical multivesicular hydatid cyst with daughter cysts (arrows) and rim like mural calcification (arrow head)",
   "sub_caption": "Contrast-enhanced computed tomography of pelvis shows isolated retrovesical multivesicular hydatid cyst with daughter cysts (arrows) and rim like mural calcification (arrow head)",
   "image_context": "An isolated hydatid cyst in the pelvic cavity in retrovesical location has also been reported causing urinary symptoms due to mass effects [<xref ref-type=\"fig\" rid=\"TP-6-103-g020\">Figure 20</xref>]. In such cases, the hydatid embryo gains access to pelvis by hematogenous or lymphatic route.[]. In such cases, the hydatid embryo gains access to pelvis by hematogenous or lymphatic route.[2627]",
-  "relevant_image_context": "An isolated hydatid cyst in the pelvic cavity in retrovesical location has also been reported causing urinary symptoms due to mass effects [Figure 20]. In such cases, the hydatid embryo gains access to pelvis by hematogenous or lymphatic route. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "An isolated hydatid cyst in the pelvic cavity in retrovesical location has also been reported causing urinary symptoms due to mass effects [Figure 20]. In such cases, the hydatid embryo gains access to pelvis by hematogenous or lymphatic route. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_34_49-PMC5048696-4-TP-6-103-g020.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_34_49-PMC5048696-4-TP-6-103-g020.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "large rounded pelvic mass",
+        "claim_text": "A large, rounded pelvic mass is present in the pelvis.",
+        "presence_question": "Does the model's response discuss large rounded pelvic mass?",
+        "correctness_question": "Does the model's response correctly assert that A large, rounded pelvic mass is present in the pelvis?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "retrovesical space",
+        "claim_text": "The pelvic mass is located in the retrovesical space posterior to the bladder.",
+        "presence_question": "Does the model's response discuss retrovesical space?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass is located in the retrovesical space posterior to the bladder?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "large pelvic mass size",
+        "claim_text": "The pelvic mass is large in size within the pelvis.",
+        "presence_question": "Does the model's response discuss large pelvic mass size?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass is large in size within the pelvis?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "rounded shape of pelvic mass",
+        "claim_text": "The pelvic mass has a rounded shape on imaging.",
+        "presence_question": "Does the model's response discuss rounded shape of pelvic mass?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass has a rounded shape on imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "multilocular internal appearance",
+        "claim_text": "The pelvic mass demonstrates a multilocular internal appearance.",
+        "presence_question": "Does the model's response discuss multilocular internal appearance?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass demonstrates a multilocular internal appearance?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "internal daughter cyst-like structures",
+        "claim_text": "Multiple small daughter cyst-like structures are present within the retrovesical mass.",
+        "presence_question": "Does the model's response discuss internal daughter cyst-like structures?",
+        "correctness_question": "Does the model's response correctly assert that Multiple small daughter cyst-like structures are present within the retrovesical mass?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "mural rim calcification",
+        "claim_text": "The pelvic mass has a partial rim of higher-attenuation mural calcification.",
+        "presence_question": "Does the model's response discuss mural rim calcification?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass has a partial rim of higher-attenuation mural calcification?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "bladder compression",
+        "claim_text": "The retrovesical pelvic mass compresses the urinary bladder.",
+        "presence_question": "Does the model's response discuss bladder compression?",
+        "correctness_question": "Does the model's response correctly assert that The retrovesical pelvic mass compresses the urinary bladder?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "pelvic mass effect on bladder",
+        "claim_text": "Pelvic space-occupying lesions that produce mass effect on the bladder typically cause lower urinary tract symptoms.",
+        "presence_question": "Does the model's response discuss pelvic mass effect on bladder?",
+        "correctness_question": "Does the model's response correctly state that Pelvic space-occupying lesions that produce mass effect on the bladder typically cause lower urinary tract symptoms?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "surgical excision of pelvic cystic masses",
+        "claim_text": "Large symptomatic pelvic cystic masses are typically treated with definitive surgical excision.",
+        "presence_question": "Does the model's response discuss surgical excision of pelvic cystic masses?",
+        "correctness_question": "Does the model's response correctly state that Large symptomatic pelvic cystic masses are typically treated with definitive surgical excision?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "albendazole adjunctive antiparasitic therapy",
+        "claim_text": "Albendazole is used as adjunctive antiparasitic therapy to reduce the risk of residual disease when combined with surgery.",
+        "presence_question": "Does the model's response discuss albendazole adjunctive antiparasitic therapy?",
+        "correctness_question": "Does the model's response correctly state that Albendazole is used as adjunctive antiparasitic therapy to reduce the risk of residual disease when combined with surgery?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "retrovesical mass causing urinary symptoms",
+        "claim_text": "The retrovesical large pelvic mass that compresses the bladder is a plausible cause of the patient's progressive lower urinary symptoms.",
+        "presence_question": "Does the model's response make an inferential link about retrovesical mass causing urinary symptoms?",
+        "correctness_question": "Does the model's response correctly conclude that The retrovesical large pelvic mass that compresses the bladder is a plausible cause of the patient's progressive lower urinary symptoms.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "definitive surgical excision justification",
+        "claim_text": "Definitive surgical excision is justified to remove this large symptomatic retrovesical cystic mass.",
+        "presence_question": "Does the model's response make an inferential link about definitive surgical excision justification?",
+        "correctness_question": "Does the model's response correctly conclude that Definitive surgical excision is justified to remove this large symptomatic retrovesical cystic mass.?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "albendazole adjunctive therapy justification",
+        "claim_text": "Adjunctive albendazole is justified to address residual disease risk in addition to surgery for this cystic lesion.",
+        "presence_question": "Does the model's response make an inferential link about albendazole adjunctive therapy justification?",
+        "correctness_question": "Does the model's response correctly conclude that Adjunctive albendazole is justified to address residual disease risk in addition to surgery for this cystic lesion.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

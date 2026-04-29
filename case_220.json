@@ -27,5 +27,177 @@
   "caption": "Left anterior oblique caudal view of left coronary systemOstium to proximal left anterior descending 99% stenosis (yellow arrow) and ostium to proximal left circumflex 90% stenosis (red arrow) are seen.",
   "sub_caption": "Left anterior oblique caudal view of left coronary systemOstium to proximal left anterior descending 99% stenosis (yellow arrow) and ostium to proximal left circumflex 90% stenosis (red arrow) are seen.",
   "image_context": "A transthoracic echocardiogram was performed showing an ejection fraction (EF) of 40% (prior 50%) with systolic function being moderately reduced, left atrium dilation, and new hypokinetic regions including mid anterior, mid inferoseptal, mid anterolateral, apical anterior, apical septal, apical lateral, and apex. Due to these findings as well as the patient’s symptoms, cardiac catheterization was performed. Results included: ostium LAD to proximal LAD 99% stenosed, ostium to proximal Circumflex 90% stenosed, Ramus 10% stenosis, distal right coronary artery (RCA) 50% stenosed, right posterior descending artery (RPDA) 70% stenosed, and mid RCA 30% stenosed (Figure <xref rid=\"cureus-0015-00000033527-i01\" ref-type=\"fig\">1</xref>). ).",
-  "relevant_image_context": "A transthoracic echocardiogram was performed showing an ejection fraction (EF) of 40% (prior 50%) with systolic function being moderately reduced, left atrium dilation, and new hypokinetic regions including mid anterior, mid inferoseptal, mid anterolateral, apical anterior, apical septal, apical lateral, and apex. Due to these findings as well as the patient’s symptoms, cardiac catheterization was performed. Results included: ostium LAD to proximal LAD 99% stenosed, ostium to proximal Circumflex 90% stenosed, Ramus 10% stenosis, distal right coronary artery (RCA) 50% stenosed, right posterior descending artery (RPDA) 70% stenosed, and mid RCA 30% stenosed (Figure 1). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "A transthoracic echocardiogram was performed showing an ejection fraction (EF) of 40% (prior 50%) with systolic function being moderately reduced, left atrium dilation, and new hypokinetic regions including mid anterior, mid inferoseptal, mid anterolateral, apical anterior, apical septal, apical lateral, and apex. Due to these findings as well as the patient’s symptoms, cardiac catheterization was performed. Results included: ostium LAD to proximal LAD 99% stenosed, ostium to proximal Circumflex 90% stenosed, Ramus 10% stenosis, distal right coronary artery (RCA) 50% stenosed, right posterior descending artery (RPDA) 70% stenosed, and mid RCA 30% stenosed (Figure 1). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_140_89-PMC9906126-0-cureus-0015-00000033527-i01.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_140_89-PMC9906126-0-cureus-0015-00000033527-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "LAO caudal left coronary angiogram view",
+        "claim_text": "A left coronary angiogram was obtained in the LAO caudal view.",
+        "presence_question": "Does the model's response discuss LAO caudal left coronary angiogram view?",
+        "correctness_question": "Does the model's response correctly assert that A left coronary angiogram was obtained in the LAO caudal view?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "number of focal high-grade stenoses",
+        "claim_text": "There are two focal high-grade stenoses in the left coronary system.",
+        "presence_question": "Does the model's response discuss number of focal high-grade stenoses?",
+        "correctness_question": "Does the model's response correctly assert that There are two focal high-grade stenoses in the left coronary system?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "stenosis at proximal LAD ostium",
+        "claim_text": "A stenosis is located at the ostium/proximal left anterior descending artery.",
+        "presence_question": "Does the model's response discuss stenosis at proximal LAD ostium?",
+        "correctness_question": "Does the model's response correctly assert that A stenosis is located at the ostium/proximal left anterior descending artery?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "appearance of proximal LAD stenosis",
+        "claim_text": "The stenosis at the ostium/proximal LAD appears focal and high-grade.",
+        "presence_question": "Does the model's response discuss appearance of proximal LAD stenosis?",
+        "correctness_question": "Does the model's response correctly assert that The stenosis at the ostium/proximal LAD appears focal and high-grade?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "stenosis at proximal LCx ostium",
+        "claim_text": "A stenosis is located at the ostium/proximal left circumflex artery.",
+        "presence_question": "Does the model's response discuss stenosis at proximal LCx ostium?",
+        "correctness_question": "Does the model's response correctly assert that A stenosis is located at the ostium/proximal left circumflex artery?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "appearance of proximal LCx stenosis",
+        "claim_text": "The stenosis at the ostium/proximal LCx appears focal and high-grade.",
+        "presence_question": "Does the model's response discuss appearance of proximal LCx stenosis?",
+        "correctness_question": "Does the model's response correctly assert that The stenosis at the ostium/proximal LCx appears focal and high-grade?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "visualization of LAD downstream branches",
+        "claim_text": "Downstream branches of the left anterior descending artery are visualized.",
+        "presence_question": "Does the model's response discuss visualization of LAD downstream branches?",
+        "correctness_question": "Does the model's response correctly assert that Downstream branches of the left anterior descending artery are visualized?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "visualization of LCx downstream branches",
+        "claim_text": "Downstream branches of the left circumflex artery are visualized.",
+        "presence_question": "Does the model's response discuss visualization of LCx downstream branches?",
+        "correctness_question": "Does the model's response correctly assert that Downstream branches of the left circumflex artery are visualized?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "proximal left coronary stenoses supplying LV",
+        "claim_text": "The stenoses are in proximal left coronary segments supplying a large left ventricular territory.",
+        "presence_question": "Does the model's response discuss proximal left coronary stenoses supplying LV?",
+        "correctness_question": "Does the model's response correctly assert that The stenoses are in proximal left coronary segments supplying a large left ventricular territory?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "left ventricular ejection fraction",
+        "claim_text": "The measured left ventricular ejection fraction is 40 percent.",
+        "presence_question": "Does the model's response discuss left ventricular ejection fraction?",
+        "correctness_question": "Does the model's response correctly assert that The measured left ventricular ejection fraction is 40 percent?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "regional wall motion abnormalities",
+        "claim_text": "New regional wall motion abnormalities span multiple mid and apical left ventricular segments.",
+        "presence_question": "Does the model's response discuss regional wall motion abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that New regional wall motion abnormalities span multiple mid and apical left ventricular segments?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "reduced ejection fraction with regional wall motion abnormalities",
+        "claim_text": "Reduced ejection fraction with new regional wall motion abnormalities typically indicates substantial ischemia and myocardial dysfunction affecting a large portion of the left ventricle.",
+        "presence_question": "Does the model's response discuss reduced ejection fraction with regional wall motion abnormalities?",
+        "correctness_question": "Does the model's response correctly state that Reduced ejection fraction with new regional wall motion abnormalities typically indicates substantial ischemia and myocardial dysfunction affecting a large portion of the left ventricle?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "proximal coronary artery stenoses",
+        "claim_text": "Proximal stenoses in major coronary arteries are typically associated with ischemia of large left ventricular territories.",
+        "presence_question": "Does the model's response discuss proximal coronary artery stenoses?",
+        "correctness_question": "Does the model's response correctly state that Proximal stenoses in major coronary arteries are typically associated with ischemia of large left ventricular territories?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "extensive proximal multivessel coronary disease",
+        "claim_text": "Extensive proximal multivessel coronary disease with reduced ejection fraction and new regional dysfunction is typically treated with surgical revascularization to achieve complete revascularization.",
+        "presence_question": "Does the model's response discuss extensive proximal multivessel coronary disease?",
+        "correctness_question": "Does the model's response correctly state that Extensive proximal multivessel coronary disease with reduced ejection fraction and new regional dysfunction is typically treated with surgical revascularization to achieve complete revascularization?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "coronary angiography",
+        "claim_text": "Coronary angiography is typically used to identify the location and severity of coronary stenoses.",
+        "presence_question": "Does the model's response discuss coronary angiography?",
+        "correctness_question": "Does the model's response correctly state that Coronary angiography is typically used to identify the location and severity of coronary stenoses?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Proximal multivessel coronary stenoses",
+        "claim_text": "The angiogram findings support that the two focal high-grade stenoses at the ostia/proximal LAD and ostia/proximal LCx together constitute proximal multivessel coronary artery stenoses in this case.",
+        "presence_question": "Does the model's response make an inferential link about Proximal multivessel coronary stenoses?",
+        "correctness_question": "Does the model's response correctly conclude that The angiogram findings support that the two focal high-grade stenoses at the ostia/proximal LAD and ostia/proximal LCx together constitute proximal multivessel coronary artery stenoses in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Ischemia and myocardial dysfunction affecting the LV",
+        "claim_text": "The measured ejection fraction of 40% together with new regional wall motion abnormalities across multiple mid and apical segments are consistent with substantial ischemia and myocardial dysfunction affecting a large portion of the left ventricle in this case.",
+        "presence_question": "Does the model's response make an inferential link about Ischemia and myocardial dysfunction affecting the LV?",
+        "correctness_question": "Does the model's response correctly conclude that The measured ejection fraction of 40% together with new regional wall motion abnormalities across multiple mid and apical segments are consistent with substantial ischemia and myocardial dysfunction affecting a large portion of the left ventricle in this case?",
+        "premise_perception_ids": [
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Surgical revascularization favored",
+        "claim_text": "Given the presence of two proximal high-grade lesions supplying a large left ventricular territory together with reduced EF and new regional dysfunction, surgical revascularization is favored in this case to achieve complete revascularization.",
+        "presence_question": "Does the model's response make an inferential link about Surgical revascularization favored?",
+        "correctness_question": "Does the model's response correctly conclude that Given the presence of two proximal high-grade lesions supplying a large left ventricular territory together with reduced EF and new regional dysfunction, surgical revascularization is favored in this case to achieve complete revascularization?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p9",
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

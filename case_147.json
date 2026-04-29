@@ -27,5 +27,117 @@
   "caption": "Postoperative anteroposterior pelvis radiograph demonstrating dislocation of bipolar hemiarthroplasty of the left hip",
   "sub_caption": "Postoperative anteroposterior pelvis radiograph demonstrating dislocation of bipolar hemiarthroplasty of the left hip",
   "image_context": "Forty days postoperatively, the patient was readmitted to our orthopaedic department complaining of acute left hip pain and inability to bear weight. No previous fall was reported. Radiographic evaluation revealed a dislocation of the left hip hemiarthroplasty (Figure <xref ref-type=\"fig\" rid=\"cureus-0012-00000009044-i03\">3</xref>).).",
-  "relevant_image_context": "Forty days postoperatively, the patient was readmitted to our orthopaedic department complaining of acute left hip pain and inability to bear weight. No previous fall was reported. Radiographic evaluation revealed a dislocation of the left hip hemiarthroplasty (Figure 3)."
+  "relevant_image_context": "Forty days postoperatively, the patient was readmitted to our orthopaedic department complaining of acute left hip pain and inability to bear weight. No previous fall was reported. Radiographic evaluation revealed a dislocation of the left hip hemiarthroplasty (Figure 3).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_82_50-PMC7410513-6-cureus-0012-00000009044-i03.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_82_50-PMC7410513-6-cureus-0012-00000009044-i03.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "right native hip",
+        "claim_text": "The right hip demonstrates native anatomy without prosthetic replacement.",
+        "presence_question": "Does the model's response discuss right native hip?",
+        "correctness_question": "Does the model's response correctly assert that The right hip demonstrates native anatomy without prosthetic replacement.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "left femoral hemiarthroplasty",
+        "claim_text": "A left femoral hemiarthroplasty with a femoral stem and prosthetic head is present.",
+        "presence_question": "Does the model's response discuss left femoral hemiarthroplasty?",
+        "correctness_question": "Does the model's response correctly assert that A left femoral hemiarthroplasty with a femoral stem and prosthetic head is present.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "left femoral stem position",
+        "claim_text": "The left femoral stem is located within the femoral canal.",
+        "presence_question": "Does the model's response discuss left femoral stem position?",
+        "correctness_question": "Does the model's response correctly assert that The left femoral stem is located within the femoral canal.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "left prosthetic femoral head shape",
+        "claim_text": "The left prosthetic femoral head is spherical in shape.",
+        "presence_question": "Does the model's response discuss left prosthetic femoral head shape?",
+        "correctness_question": "Does the model's response correctly assert that The left prosthetic femoral head is spherical in shape.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "left prosthetic head location",
+        "claim_text": "The left prosthetic femoral head lies superolateral to the acetabular fossa.",
+        "presence_question": "Does the model's response discuss left prosthetic head location?",
+        "correctness_question": "Does the model's response correctly assert that The left prosthetic femoral head lies superolateral to the acetabular fossa.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "left prosthetic head location",
+        "claim_text": "The left prosthetic femoral head is not located within the acetabular fossa.",
+        "presence_question": "Does the model's response discuss left prosthetic head location?",
+        "correctness_question": "Does the model's response correctly assert that The left prosthetic femoral head is not located within the acetabular fossa.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "left prosthetic components intactness",
+        "claim_text": "The left prosthetic components appear intact without visible disruption or loosening.",
+        "presence_question": "Does the model's response discuss left prosthetic components intactness?",
+        "correctness_question": "Does the model's response correctly assert that The left prosthetic components appear intact without visible disruption or loosening.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Hemiarthroplasty",
+        "claim_text": "Hemiarthroplasty is replacement of the femoral head with a prosthesis that articulates with the native acetabulum.",
+        "presence_question": "Does the model's response discuss Hemiarthroplasty?",
+        "correctness_question": "Does the model's response correctly state that Hemiarthroplasty is replacement of the femoral head with a prosthesis that articulates with the native acetabulum?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Prosthetic femoral head position",
+        "claim_text": "A prosthetic femoral head located outside the acetabular margin indicates dislocation of the hip prosthesis.",
+        "presence_question": "Does the model's response discuss prosthetic femoral head position?",
+        "correctness_question": "Does the model's response correctly state that a prosthetic femoral head located outside the acetabular margin indicates dislocation of the hip prosthesis?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Femoral stem position",
+        "claim_text": "A femoral stem located within the femoral canal with intact components suggests the prosthetic components are in the expected position and are less likely to be fractured or grossly dissociated.",
+        "presence_question": "Does the model's response discuss femoral stem position?",
+        "correctness_question": "Does the model's response correctly state that a femoral stem located within the femoral canal with intact components suggests the prosthetic components are in the expected position and are less likely to be fractured or grossly dissociated?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Left hip prosthesis dislocation",
+        "claim_text": "The prosthetic femoral head being displaced superolaterally and located outside the acetabular fossa supports that a left hip prosthesis dislocation is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about Left hip prosthesis dislocation?",
+        "correctness_question": "Does the model's response correctly conclude that The prosthetic femoral head being displaced superolaterally and located outside the acetabular fossa supports that a left hip prosthesis dislocation is plausible in this case?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Component failure as cause of displacement",
+        "claim_text": "The femoral stem being within the femoral canal and the prosthetic components appearing intact argues against component failure as the cause of the displacement in this case.",
+        "presence_question": "Does the model's response make an inferential link about Component failure as cause of displacement?",
+        "correctness_question": "Does the model's response correctly conclude that The femoral stem being within the femoral canal and the prosthetic components appearing intact argues against component failure as the cause of the displacement in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

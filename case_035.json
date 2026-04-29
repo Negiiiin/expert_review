@@ -27,5 +27,193 @@
   "caption": "A partially occluded OS ASD with an Amplatzer® device as is seen from a 3D TEE study (left side view). One extension of the defect toward it's superior edge (1) is not covered by the device. This irregularities in the shape may be overlooked in 2D images. 2.- Amplatzer® device as seen in photography and in 3D TEE study; 3.- Mitral ring; 4.- Left ventricle outflow tract.",
   "sub_caption": "A partially occluded OS ASD with an Amplatzer® device as is seen from a 3D TEE study (left side view). One extension of the defect toward its superior edge (1) is not covered by the device. These irregularities in the shape may be overlooked in 2D images. 2.- Amplatzer® device as seen in photography and in 3D TEE study; 3.- Mitral ring; 4.- Left ventricle outflow tract.",
   "image_context": "In the first case (figure <xref ref-type=\"fig\" rid=\"1476-7120-6-38-1\">1</xref>) 3D TEE showed that the shunt was secondary to a residual orifice due to an extension of the defect not well evaluated initially with 2D TEE study. In the second case was possible to observe spatial relationships between ASD, coronary sinus orifice and a prominent Eustachian valve, forming part of the \"Koch triangle\", (figure ) 3D TEE showed that the shunt was secondary to a residual orifice due to an extension of the defect not well evaluated initially with 2D TEE study. In the second case was possible to observe spatial relationships between ASD, coronary sinus orifice and a prominent Eustachian valve, forming part of the \"Koch triangle\", (figure <xref ref-type=\"fig\" rid=\"1476-7120-6-38-2\">2</xref>). In another view of 3D reconstruction, we could visualize the entire endocardial surface of the defect and the dimensions of the 5 portions of the septal rim (figure ). In another view of 3D reconstruction, we could visualize the entire endocardial surface of the defect and the dimensions of the 5 portions of the septal rim (figure <xref ref-type=\"fig\" rid=\"1476-7120-6-38-3\">3</xref>) as has been proposed by Mathewson and co-workers [) as has been proposed by Mathewson and co-workers [8]. In the OP case, the spatial relationship between the defect and the mitral valve internal comissure was successfully displayed (figure <xref ref-type=\"fig\" rid=\"1476-7120-6-38-4\">4</xref>). In the SV case, the defect was associated with anomalous right upper pulmonary venous drainage and one interesting aspect of the 3D reconstruction was the possibility of visualizing it from different angles (figure ). In the SV case, the defect was associated with anomalous right upper pulmonary venous drainage and one interesting aspect of the 3D reconstruction was the possibility of visualizing it from different angles (figure <xref ref-type=\"fig\" rid=\"1476-7120-6-38-5\">5</xref>). 3D reconstruction of the CA allowed to appreciate the absence of right AV connection and could accurately display simultaneously the exact geometry of a large ventricular septal defect (figure ). 3D reconstruction of the CA allowed to appreciate the absence of right AV connection and could accurately display simultaneously the exact geometry of a large ventricular septal defect (figure <xref ref-type=\"fig\" rid=\"1476-7120-6-38-6\">6</xref>), that closely resembles the surgeon's vision. In the last case, the lack of atrial septal tissue in the 3D image was easily appreciated as well as the distance between the defect and the venous drainage through a dilated coronary sinus orifice (figure ), that closely resembles the surgeon's vision. In the last case, the lack of atrial septal tissue in the 3D image was easily appreciated as well as the distance between the defect and the venous drainage through a dilated coronary sinus orifice (figure <xref ref-type=\"fig\" rid=\"1476-7120-6-38-7\">7</xref>).). It has been demonstrated that 3D-TEE is an useful non-invasive tool for evaluating defects of atrial tabication and other anatomical details [11], and it has a better anatomic correlation with matched anatomic specimens than with the corresponding 2D images alone [10]. With 3D images there was a better spatial appreciation of the surrounding structures providing a more \"realistic\" conceptualization of the cardiac anatomy, particularly with structures located at different tomographic planes [6,12], and it's dynamic changes during the cardiac cycle [13]. Irregularities in shape of the ASDs can lead to residual shunting that, as in the case of figure <xref ref-type=\"fig\" rid=\"1476-7120-6-38-1\">1</xref>, may require overlapping septal occlusion devices to treat it [, may require overlapping septal occlusion devices to treat it [14].",
-  "relevant_image_context": "In the first case (figure 1) 3D TEE showed that the shunt was secondary to a residual orifice due to an extension of the defect not well evaluated initially with 2D TEE study. Irregularities in shape of the ASDs can lead to residual shunting that, as in the case of figure 1, may require overlapping septal occlusion devices to treat it. It has been demonstrated that 3D-TEE is a useful non-invasive tool for evaluating defects of atrial septation and other anatomical details, and with 3D images there was a better spatial appreciation of the surrounding structures providing a more 'realistic' conceptualization of the cardiac anatomy, particularly with structures located at different tomographic planes and its dynamic changes during the cardiac cycle."
+  "relevant_image_context": "In the first case (figure 1) 3D TEE showed that the shunt was secondary to a residual orifice due to an extension of the defect not well evaluated initially with 2D TEE study. Irregularities in shape of the ASDs can lead to residual shunting that, as in the case of figure 1, may require overlapping septal occlusion devices to treat it. It has been demonstrated that 3D-TEE is a useful non-invasive tool for evaluating defects of atrial septation and other anatomical details, and with 3D images there was a better spatial appreciation of the surrounding structures providing a more 'realistic' conceptualization of the cardiac anatomy, particularly with structures located at different tomographic planes and its dynamic changes during the cardiac cycle.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_130_11-PMC10130205-0-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_130_11-PMC10130205-0-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "coronal abdominal CT label",
+        "claim_text": "The image is a coronal abdominal CT labeled '2 YRS ABDOMEN'.",
+        "presence_question": "Does the model's response discuss coronal abdominal CT label?",
+        "correctness_question": "Does the model's response correctly assert that The image is a coronal abdominal CT labeled '2 YRS ABDOMEN'?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "abdominal mass",
+        "claim_text": "A large abdominal mass is present in the central and lower abdomen.",
+        "presence_question": "Does the model's response discuss abdominal mass?",
+        "correctness_question": "Does the model's response correctly assert that A large abdominal mass is present in the central and lower abdomen?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "mass location",
+        "claim_text": "The abdominal mass is located in the central and lower abdomen.",
+        "presence_question": "Does the model's response discuss mass location?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass is located in the central and lower abdomen?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "mass size",
+        "claim_text": "The abdominal mass is very large, occupying much of the central and lower abdomen.",
+        "presence_question": "Does the model's response discuss mass size?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass is very large, occupying much of the central and lower abdomen?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "mass margins",
+        "claim_text": "The abdominal mass has well-defined margins on imaging of the central and lower abdomen.",
+        "presence_question": "Does the model's response discuss mass margins?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass has well-defined margins on imaging of the central and lower abdomen?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "cystic nature",
+        "claim_text": "The abdominal mass is predominantly cystic in appearance.",
+        "presence_question": "Does the model's response discuss cystic nature?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass is predominantly cystic in appearance?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "multilocular pattern",
+        "claim_text": "The abdominal mass demonstrates a multilocular configuration with multiple internal compartments.",
+        "presence_question": "Does the model's response discuss multilocular pattern?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass demonstrates a multilocular configuration with multiple internal compartments?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "locule count",
+        "claim_text": "There are multiple locules within the abdominal mass on the coronal CT.",
+        "presence_question": "Does the model's response discuss locule count?",
+        "correctness_question": "Does the model's response correctly assert that There are multiple locules within the abdominal mass on the coronal CT?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "locule shape",
+        "claim_text": "The locules within the mass are rounded in shape on imaging.",
+        "presence_question": "Does the model's response discuss locule shape?",
+        "correctness_question": "Does the model's response correctly assert that The locules within the mass are rounded in shape on imaging?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "locule appearance",
+        "claim_text": "The locules within the mass appear fluid-filled on the CT images.",
+        "presence_question": "Does the model's response discuss locule appearance?",
+        "correctness_question": "Does the model's response correctly assert that The locules within the mass appear fluid-filled on the CT images?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "locule size variation",
+        "claim_text": "The locules within the mass vary in size.",
+        "presence_question": "Does the model's response discuss locule size variation?",
+        "correctness_question": "Does the model's response correctly assert that The locules within the mass vary in size?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "thin septations",
+        "claim_text": "The abdominal mass contains thin septations separating its internal locules on imaging.",
+        "presence_question": "Does the model's response discuss thin septations?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass contains thin septations separating its internal locules on imaging?"
+      },
+      {
+        "claim_id": "p13",
+        "topic": "bowel compression",
+        "claim_text": "The abdominal mass compresses adjacent bowel loops, displacing them peripherally.",
+        "presence_question": "Does the model's response discuss bowel compression?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass compresses adjacent bowel loops, displacing them peripherally?"
+      },
+      {
+        "claim_id": "p14",
+        "topic": "mesenteric location",
+        "claim_text": "The abdominal mass is located in the mesentery.",
+        "presence_question": "Does the model's response discuss mesenteric location?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass is located in the mesentery?"
+      },
+      {
+        "claim_id": "p15",
+        "topic": "solid enhancing components",
+        "claim_text": "There are no solid enhancing components within the abdominal mass.",
+        "presence_question": "Does the model's response discuss solid enhancing components?",
+        "correctness_question": "Does the model's response correctly assert that There are no solid enhancing components within the abdominal mass?"
+      },
+      {
+        "claim_id": "p16",
+        "topic": "calcifications",
+        "claim_text": "There are no calcifications within the abdominal mass.",
+        "presence_question": "Does the model's response discuss calcifications?",
+        "correctness_question": "Does the model's response correctly assert that There are no calcifications within the abdominal mass?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "congenital lymphatic malformation",
+        "claim_text": "Congenital lymphatic malformations are typically developmental cystic processes.",
+        "presence_question": "Does the model's response discuss congenital lymphatic malformation?",
+        "correctness_question": "Does the model's response correctly state that Congenital lymphatic malformations are typically developmental cystic processes?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "lymphatic malformation",
+        "claim_text": "Lymphatic malformations are typically composed of multiple lymph-filled locules.",
+        "presence_question": "Does the model's response discuss lymphatic malformation?",
+        "correctness_question": "Does the model's response correctly state that Lymphatic malformations are typically composed of multiple lymph-filled locules?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "multilocular thin-walled cystic mass",
+        "claim_text": "A multilocular thin-walled cystic mass is a typical feature of lymphatic malformations.",
+        "presence_question": "Does the model's response discuss multilocular thin-walled cystic mass?",
+        "correctness_question": "Does the model's response correctly state that A multilocular thin-walled cystic mass is a typical feature of lymphatic malformations?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Mesenteric multilocular cystic mass diagnosis",
+        "claim_text": "The combination of a very large, well-defined, predominantly cystic, multilocular mass centered in the mesentery that compresses bowel and lacks solid enhancing components or calcifications supports that a congenital lymphatic malformation is the most likely diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Mesenteric multilocular cystic mass diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a very large, well-defined, predominantly cystic, multilocular mass centered in the mesentery that compresses bowel and lacks solid enhancing components or calcifications supports that a congenital lymphatic malformation is the most likely diagnosis in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p12",
+          "p13",
+          "p14",
+          "p15",
+          "p16"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Locules as lymph-filled spaces",
+        "claim_text": "The presence of multiple rounded fluid-filled locules with thin septations in the mass is consistent with those locules representing lymph-filled spaces seen in lymphatic malformations.",
+        "presence_question": "Does the model's response make an inferential link about Locules as lymph-filled spaces?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of multiple rounded fluid-filled locules with thin septations in the mass is consistent with those locules representing lymph-filled spaces seen in lymphatic malformations?",
+        "premise_perception_ids": [
+          "p7",
+          "p9",
+          "p10",
+          "p12"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

@@ -28,5 +28,114 @@
   "caption": "(\nA\n) Clinical appearance of the patient in the trauma bay after intubation and bilateral needle thoracostomy; (\nB\n) computed tomography imaging displaying rupture of the right main stem bronchus (arrow), massive soft tissue and mediastinal emphysema, and significant right pneumothorax and in spite of drainage (*thoracostomy tube).",
   "sub_caption": "(B) computed tomography imaging displaying rupture of the right main stem bronchus (arrow), massive soft tissue and mediastinal emphysema, and significant right pneumothorax and in spite of drainage (*thoracostomy tube).",
   "image_context": "A 7-year-old girl presented to our emergency department after horse riding accident. Although the event was unwitnessed, most likely the patient fell off the horse and was stepped onto the chest by one of the hind hoofs. At arrival in the trauma bay, she was placed on a stretcher in prone position, chest propped up on the arms, displaying signs of severe dyspnea with tachypnea, increased work of breathing, and both inspiratory and expiratory stridor. Her oxygen saturation (SaO\n2\n) was stable around 90% after application of supplemental oxygen. The patient was fully aware and conscious (Glasgow Coma Scale 15), but agitated. On physical examination, there were bruises on the throat and right upper chest with massive subcutaneous emphysema of the upper chest, neck, and face. The patient was given sedatives, leading to desaturation. Still, there was no obvious difference in breath sounds on both sides, so bilateral needle thoracostomy was performed, and the patient was endotracheally intubated (\n<xref rid=\"10-1055-s-0039-1681038-i180418cr-1\" ref-type=\"fig\">Fig. 1A</xref>\n). After intubation and positive-pressure ventilation, oxygen saturation and blood pressure dropped. At this time, right tension pneumothorax was diagnosed, and two 17-mm thoracostomy tubes were placed.\n\n). After intubation and positive-pressure ventilation, oxygen saturation and blood pressure dropped. At this time, right tension pneumothorax was diagnosed, and two 17-mm thoracostomy tubes were placed. A massive air leak was appreciated from the chest tubes (\nVideo 1\n). The SaO\n2\nimproved to 84%. Computed tomography (CT) scan showed a complete avulsion of the right main stem bronchus at the level of the carina, a residual pneumothorax with mediastinal shifting, atelectasis of the right lung, as well as emphysema of the mediastinum and soft tissue (\n<xref rid=\"10-1055-s-0039-1681038-i180418cr-1\" ref-type=\"fig\">Fig. 1B</xref>\n). The only skeletal thoracic injury was a fracture of the contralateral left first rib. The blood gas showed acidosis (pH 7.16), and hypercapnia (partial pressure of carbon dioxide 63 mm Hg).\n\n). The only skeletal thoracic injury was a fracture of the contralateral left first rib. The blood gas showed acidosis (pH 7.16), and hypercapnia (partial pressure of carbon dioxide 63 mm Hg).",
-  "relevant_image_context": "Computed tomography (CT) scan showed a complete avulsion of the right main stem bronchus at the level of the carina, a residual pneumothorax with mediastinal shifting, atelectasis of the right lung, as well as emphysema of the mediastinum and soft tissue (Fig. 1B). The only skeletal thoracic injury was a fracture of the contralateral left first rib. The blood gas showed acidosis (pH 7.16), and hypercapnia (partial pressure of carbon dioxide 63 mm Hg)."
+  "relevant_image_context": "Computed tomography (CT) scan showed a complete avulsion of the right main stem bronchus at the level of the carina, a residual pneumothorax with mediastinal shifting, atelectasis of the right lung, as well as emphysema of the mediastinum and soft tissue (Fig. 1B). The only skeletal thoracic injury was a fracture of the contralateral left first rib. The blood gas showed acidosis (pH 7.16), and hypercapnia (partial pressure of carbon dioxide 63 mm Hg).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_66_3-PMC6535340-1-10-1055-s-0039-1681038-i180418cr-1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_66_3-PMC6535340-1-10-1055-s-0039-1681038-i180418cr-1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Right pleural drainage tube",
+        "claim_text": "A pleural drainage tube is located in the right pleural space.",
+        "presence_question": "Does the model's response discuss Right pleural drainage tube?",
+        "correctness_question": "Does the model's response correctly assert that a pleural drainage tube is located in the right pleural space?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right hemithorax opacification",
+        "claim_text": "The right hemithorax is markedly opacified on the radiograph.",
+        "presence_question": "Does the model's response discuss Right hemithorax opacification?",
+        "correctness_question": "Does the model's response correctly assert that the right hemithorax is markedly opacified on the radiograph?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Right hemithorax volume loss",
+        "claim_text": "The right hemithorax demonstrates volume loss on the radiograph.",
+        "presence_question": "Does the model's response discuss Right hemithorax volume loss?",
+        "correctness_question": "Does the model's response correctly assert that the right hemithorax demonstrates volume loss on the radiograph?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Mediastinal air",
+        "claim_text": "Air is present in the mediastinum on the radiograph.",
+        "presence_question": "Does the model's response discuss Mediastinal air?",
+        "correctness_question": "Does the model's response correctly assert that air is present in the mediastinum on the radiograph?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Proximal right main bronchus discontinuity",
+        "claim_text": "An airway discontinuity is present at the proximal right main bronchus at the carinal level.",
+        "presence_question": "Does the model's response discuss Proximal right main bronchus discontinuity?",
+        "correctness_question": "Does the model's response correctly assert that an airway discontinuity is present at the proximal right main bronchus at the carinal level?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Right pneumothorax",
+        "claim_text": "A pneumothorax is present in the right pleural space on the radiograph.",
+        "presence_question": "Does the model's response discuss Right pneumothorax?",
+        "correctness_question": "Does the model's response correctly assert that a pneumothorax is present in the right pleural space on the radiograph?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "pneumomediastinum",
+        "claim_text": "Air within the mediastinum indicates mediastinal emphysema (pneumomediastinum).",
+        "presence_question": "Does the model's response discuss pneumomediastinum?",
+        "correctness_question": "Does the model's response correctly state that air within the mediastinum indicates mediastinal emphysema (pneumomediastinum)?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "traumatic bronchial rupture",
+        "claim_text": "Focal discontinuity of a mainstem bronchus with ipsilateral lung collapse, pneumothorax, and mediastinal emphysema suggests traumatic bronchial rupture.",
+        "presence_question": "Does the model's response discuss traumatic bronchial rupture?",
+        "correctness_question": "Does the model's response correctly state that focal discontinuity of a mainstem bronchus with ipsilateral lung collapse, pneumothorax, and mediastinal emphysema suggests traumatic bronchial rupture?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "chest tube",
+        "claim_text": "A pleural drainage tube (chest tube) is used to manage pneumothorax.",
+        "presence_question": "Does the model's response discuss chest tube?",
+        "correctness_question": "Does the model's response correctly state that a pleural drainage tube (chest tube) is used to manage pneumothorax?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Traumatic bronchial rupture diagnosis",
+        "claim_text": "The combination of a focal airway discontinuity at the proximal right main bronchus, ipsilateral hemithorax volume loss/opacification, right pneumothorax, and mediastinal air supports traumatic bronchial rupture as the most likely diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Traumatic bronchial rupture diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a focal airway discontinuity at the proximal right main bronchus, ipsilateral hemithorax volume loss/opacification, right pneumothorax, and mediastinal air supports traumatic bronchial rupture as the most likely diagnosis in this case.?",
+        "premise_perception_ids": [
+          "p5",
+          "p3",
+          "p2",
+          "p6",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Pneumothorax managed with chest tube",
+        "claim_text": "The presence of a pleural drainage tube in the right pleural space together with a right pneumothorax justifies concluding that the pneumothorax is being managed with a chest tube.",
+        "presence_question": "Does the model's response make an inferential link about Pneumothorax managed with chest tube?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a pleural drainage tube in the right pleural space together with a right pneumothorax justifies concluding that the pneumothorax is being managed with a chest tube.?",
+        "premise_perception_ids": [
+          "p1",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

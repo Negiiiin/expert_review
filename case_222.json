@@ -27,5 +27,140 @@
   "caption": "Intra-operative photograph showing fracture exposure with crevicular incision.",
   "sub_caption": "Intra-operative photograph showing fracture exposure with crevicular incision.",
   "image_context": "Unlike the vestibular incision, the location of the crevicular incision with vertical release is away from the mental nerve. Blind tissue dissection is not required to identify and relieve the nerve of traction. The anterior vertical release incision facilitates tension-free retraction of the flap and offers excellent visualization of the body region, the superior as well as the inferior border as shown in <xref rid=\"gr4\" ref-type=\"fig\">Fig. 4</xref>. This exposure helps in achieving the ideal fixation requirements of body region, which vary according to the biomechanical forces acting on the 3 anatomic subdivisions of the body region; 2 miniplates in the anterior and posterior body while a single miniplate for the mid body. Further, the crevicular incision helps in visualising basal triangle fractures as well as oblique fractures where the superior and inferior limits of fracture are far away. The incision may also be extended further if required. The exposure also facilitates osteotomies which are essential in the management of mal-united fractures. Finally, the flap reflection from the crevicular end is much easier as there are no vital structures between the site of incision and fixation. In contrast the vestibular incision requires reflection from below, traversing across the mental foramen to reach the line of osteosynthesis which is above the mental foramen in mid body region.. This exposure helps in achieving the ideal fixation requirements of body region, which vary according to the biomechanical forces acting on the 3 anatomic subdivisions of the body region; 2 miniplates in the anterior and posterior body while a single miniplate for the mid body. Further, the crevicular incision helps in visualising basal triangle fractures as well as oblique fractures where the superior and inferior limits of fracture are far away. The incision may also be extended further if required. The exposure also facilitates osteotomies which are essential in the management of mal-united fractures. Finally, the flap reflection from the crevicular end is much easier as there are no vital structures between the site of incision and fixation. In contrast the vestibular incision requires reflection from below, traversing across the mental foramen to reach the line of osteosynthesis which is above the mental foramen in mid body region.19",
-  "relevant_image_context": "Unlike the vestibular incision, the location of the crevicular incision with vertical release is away from the mental nerve. Blind tissue dissection is not required to identify and relieve the nerve of traction. The anterior vertical release incision facilitates tension-free retraction of the flap and offers excellent visualization of the body region, the superior as well as the inferior border as shown in Fig. 4. This exposure helps in achieving the ideal fixation requirements of body region, which vary according to the biomechanical forces acting on the 3 anatomic subdivisions of the body region; 2 miniplates in the anterior and posterior body while a single miniplate for the mid body. Further, the crevicular incision helps in visualising basal triangle fractures as well as oblique fractures where the superior and inferior limits of fracture are far away. The incision may also be extended further if required. The exposure also facilitates osteotomies which are essential in the management of mal-united fractures. Finally, the flap reflection from the crevicular end is much easier as there are no vital structures between the site of incision and fixation. In contrast the vestibular incision requires reflection from below, traversing across the mental foramen to reach the line of osteosynthesis which is above the mental foramen in mid body region."
+  "relevant_image_context": "Unlike the vestibular incision, the location of the crevicular incision with vertical release is away from the mental nerve. Blind tissue dissection is not required to identify and relieve the nerve of traction. The anterior vertical release incision facilitates tension-free retraction of the flap and offers excellent visualization of the body region, the superior as well as the inferior border as shown in Fig. 4. This exposure helps in achieving the ideal fixation requirements of body region, which vary according to the biomechanical forces acting on the 3 anatomic subdivisions of the body region; 2 miniplates in the anterior and posterior body while a single miniplate for the mid body. Further, the crevicular incision helps in visualising basal triangle fractures as well as oblique fractures where the superior and inferior limits of fracture are far away. The incision may also be extended further if required. The exposure also facilitates osteotomies which are essential in the management of mal-united fractures. Finally, the flap reflection from the crevicular end is much easier as there are no vital structures between the site of incision and fixation. In contrast the vestibular incision requires reflection from below, traversing across the mental foramen to reach the line of osteosynthesis which is above the mental foramen in mid body region.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_67_1-PMC6529400-4-gr4.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_67_1-PMC6529400-4-gr4.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "intraoral teeth",
+        "claim_text": "Visible teeth are present within the intraoral field on the image.",
+        "presence_question": "Does the model's response discuss intraoral teeth?",
+        "correctness_question": "Does the model's response correctly assert that Visible teeth are present within the intraoral field on the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "orthodontic brackets",
+        "claim_text": "Orthodontic brackets are present within the intraoral field on the image.",
+        "presence_question": "Does the model's response discuss orthodontic brackets?",
+        "correctness_question": "Does the model's response correctly assert that Orthodontic brackets are present within the intraoral field on the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "mucoperiosteal flap",
+        "claim_text": "A mucoperiosteal flap is reflected from the gingival margin exposing mandibular lateral cortex.",
+        "presence_question": "Does the model's response discuss a mucoperiosteal flap?",
+        "correctness_question": "Does the model's response correctly assert that A mucoperiosteal flap is reflected from the gingival margin exposing mandibular lateral cortex?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "retracted tissue openness",
+        "claim_text": "Retracted tissue extends and is open superiorly and inferiorly in the intraoral field.",
+        "presence_question": "Does the model's response discuss retracted tissue openness?",
+        "correctness_question": "Does the model's response correctly assert that Retracted tissue extends and is open superiorly and inferiorly in the intraoral field?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "exposed mandibular bone",
+        "claim_text": "Exposed bone is present in the mandibular body below the tooth roots of the lateral cortex.",
+        "presence_question": "Does the model's response discuss exposed mandibular bone?",
+        "correctness_question": "Does the model's response correctly assert that Exposed bone is present in the mandibular body below the tooth roots of the lateral cortex?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "incision at gingival margin",
+        "claim_text": "An incision is located at the gingival margin, appearing crevicular/sulcus-based.",
+        "presence_question": "Does the model's response discuss an incision at the gingival margin?",
+        "correctness_question": "Does the model's response correctly assert that An incision is located at the gingival margin, appearing crevicular/sulcus-based?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "anterior vertical releasing incision",
+        "claim_text": "The incision includes an anterior vertical releasing element at the gingival margin.",
+        "presence_question": "Does the model's response discuss an anterior vertical releasing incision?",
+        "correctness_question": "Does the model's response correctly assert that The incision includes an anterior vertical releasing element at the gingival margin?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "sulcus-based incision",
+        "claim_text": "A sulcus-based incision is present in the gingival sulcus.",
+        "presence_question": "Does the model's response discuss a sulcus-based incision?",
+        "correctness_question": "Does the model's response correctly assert that A sulcus-based incision is present in the gingival sulcus?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "mucoperiosteal flap reflection",
+        "claim_text": "Reflection of a mucoperiosteal flap from the gingival margin exposes the lateral cortex of the mandibular body.",
+        "presence_question": "Does the model's response discuss mucoperiosteal flap reflection?",
+        "correctness_question": "Does the model's response correctly state that Reflection of a mucoperiosteal flap from the gingival margin exposes the lateral cortex of the mandibular body?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "crevicular incision with vertical release",
+        "claim_text": "A crevicular (sulcus-based) incision combined with an anterior vertical releasing incision provides a wide, tension-free mucoperiosteal flap and direct visualization of the mandibular body.",
+        "presence_question": "Does the model's response discuss crevicular incision with vertical release?",
+        "correctness_question": "Does the model's response correctly state that A crevicular (sulcus-based) incision combined with an anterior vertical releasing incision provides a wide, tension-free mucoperiosteal flap and direct visualization of the mandibular body?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "atraumatic wide flap reflection",
+        "claim_text": "Adequate visualization and atraumatic wide flap reflection facilitate preservation of the mental nerve during exposure and fixation or osteotomy.",
+        "presence_question": "Does the model's response discuss atraumatic wide flap reflection?",
+        "correctness_question": "Does the model's response correctly state that Adequate visualization and atraumatic wide flap reflection facilitate preservation of the mental nerve during exposure and fixation or osteotomy?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Crevicular incision identification",
+        "claim_text": "The incision visible in the image is consistent with a crevicular (sulcus-based) incision that includes an anterior vertical releasing incision.",
+        "presence_question": "Does the model's response make an inferential link about Crevicular incision identification?",
+        "correctness_question": "Does the model's response correctly conclude that The incision visible in the image is consistent with a crevicular (sulcus-based) incision that includes an anterior vertical releasing incision.?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Mental nerve preservation inference",
+        "claim_text": "The reflected mucoperiosteal flap exposing the lateral mandibular body supports that the mental nerve is plausibly preserved in this case.",
+        "presence_question": "Does the model's response make an inferential link about Mental nerve preservation inference?",
+        "correctness_question": "Does the model's response correctly conclude that The reflected mucoperiosteal flap exposing the lateral mandibular body supports that the mental nerve is plausibly preserved in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Tension-free mucoperiosteal flap inference",
+        "claim_text": "The anterior vertical releasing incision together with tissue retracted open superiorly and inferiorly implies a wide, tension-free mucoperiosteal flap suitable for tension-free retraction during fixation and osteotomy.",
+        "presence_question": "Does the model's response make an inferential link about Tension-free mucoperiosteal flap inference?",
+        "correctness_question": "Does the model's response correctly conclude that The anterior vertical releasing incision together with tissue retracted open superiorly and inferiorly implies a wide, tension-free mucoperiosteal flap suitable for tension-free retraction during fixation and osteotomy.?",
+        "premise_perception_ids": [
+          "p4",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

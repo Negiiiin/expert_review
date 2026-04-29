@@ -29,5 +29,146 @@
   "caption": "MRI appearance of multiple sclerosis in a child with ADEM-like onset. A 2-year-old boy developed an acute event with ataxia, right hemiparesis and drowsiness; he was unable to walk in the following 3 days. Axial T2-weighted brain images at presentation (A and B) show bilateral involvement of cerebellar white matter, especially on the right side, with additional areas of high signal in the corpus callosum (splenium) and left internal capsule. The patient fully recovered after corticosteroid treatment. Five months later he had difficulties in swallowing with progressive ataxia. On examination he was alert, with cerebellar ataxia, left hemiparesis and bilateral pyramidal signs. Oligoclonal bands were positive in CSF. A new brain MRI showed bilateral ill-defined lesions in the periventricular and subcortical white matter (C). The boy received methylprednisolone pulse-therapy with good recovery. After a new clinical attack 3 months later the diagnosis of paediatric MS was made and treatment with IFN beta-1a was begun. The last two images (D and E) were obtained 6 years after the first event showing well-defined new lesions, perpendicular to the long axis of the corpus callosum, which positively correlate with the diagnosis of MS.",
   "sub_caption": "The last two images (D and E) were obtained 6 years after the first event showing well-defined new lesions, perpendicular to the long axis of the corpus callosum, which positively correlate with the diagnosis of MS.",
   "image_context": "But it should be noted that in the special circumstance of a child whose initial clinical event was classified as DEM, a second demyelinating event not meeting DEM criteria is considered not enough for a definite diagnosis of MS and additional evidence of further dissemination in time is required, either on MRI with emergence of new lesions at least 3 months or a new clinical attack (<xref rid=\"gr2_lrg\" ref-type=\"fig\">Fig. 2</xref>\n). Although this statement remains controversial, it seems justifiable to avoid establishing prematurely the diagnosis of MS in children with DEM who relapse, and to extend the clinical and MRI follow-up instead of initiating early immunomodulatory treatment.\n). Although this statement remains controversial, it seems justifiable to avoid establishing prematurely the diagnosis of MS in children with DEM who relapse, and to extend the clinical and MRI follow-up instead of initiating early immunomodulatory treatment.Fig. 2MRI appearance of multiple sclerosis in a child with ADEM-like onset. A 2-year-old boy developed an acute event with ataxia, right hemiparesis and drowsiness; he was unable to walk in the following 3 days. Axial T2-weighted brain images at presentation (A and B) show bilateral involvement of cerebellar white matter, especially on the right side, with additional areas of high signal in the corpus callosum (splenium) and left internal capsule. The patient fully recovered after corticosteroid treatment. Five months later he had difficulties in swallowing with progressive ataxia. On examination he was alert, with cerebellar ataxia, left hemiparesis and bilateral pyramidal signs. Oligoclonal bands were positive in CSF. A new brain MRI showed bilateral ill-defined lesions in the periventricular and subcortical white matter (C). The boy received methylprednisolone pulse-therapy with good recovery. After a new clinical attack 3 months later the diagnosis of paediatric MS was made and treatment with IFN beta-1a was begun. The last two images (D and E) were obtained 6 years after the first event showing well-defined new lesions, perpendicular to the long axis of the corpus callosum, which positively correlate with the diagnosis of MS.",
-  "relevant_image_context": "But it should be noted that in the special circumstance of a child whose initial clinical event was classified as DEM, a second demyelinating event not meeting DEM criteria is considered not enough for a definite diagnosis of MS and additional evidence of further dissemination in time is required, either on MRI with emergence of new lesions at least 3 months or a new clinical attack (Fig. 2). Although this statement remains controversial, it seems justifiable to avoid establishing prematurely the diagnosis of MS in children with DEM who relapse, and to extend the clinical and MRI follow-up instead of initiating early immunomodulatory treatment. Fig. 2MRI appearance of multiple sclerosis in a child with ADEM-like onset. The last two images (D and E) were obtained 6 years after the first event showing well-defined new lesions, perpendicular to the long axis of the corpus callosum, which positively correlate with the diagnosis of MS."
+  "relevant_image_context": "But it should be noted that in the special circumstance of a child whose initial clinical event was classified as DEM, a second demyelinating event not meeting DEM criteria is considered not enough for a definite diagnosis of MS and additional evidence of further dissemination in time is required, either on MRI with emergence of new lesions at least 3 months or a new clinical attack (Fig. 2). Although this statement remains controversial, it seems justifiable to avoid establishing prematurely the diagnosis of MS in children with DEM who relapse, and to extend the clinical and MRI follow-up instead of initiating early immunomodulatory treatment. Fig. 2MRI appearance of multiple sclerosis in a child with ADEM-like onset. The last two images (D and E) were obtained 6 years after the first event showing well-defined new lesions, perpendicular to the long axis of the corpus callosum, which positively correlate with the diagnosis of MS.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_other_batch_62_0-PMC7116932-0-gr2_lrg.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_62_0-PMC7116932-0-gr2_lrg.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "brain lesions on axial images",
+        "claim_text": "There are lesions visible in the brain on the axial images.",
+        "presence_question": "Does the model's response discuss brain lesions on axial images?",
+        "correctness_question": "Does the model's response correctly assert that There are lesions visible in the brain on the axial images?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "periventricular white matter lesions",
+        "claim_text": "Lesions are located in the periventricular white matter.",
+        "presence_question": "Does the model's response discuss periventricular white matter lesions?",
+        "correctness_question": "Does the model's response correctly assert that Lesions are located in the periventricular white matter?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "T2-hyperintense lesions",
+        "claim_text": "The lesions are T2-hyperintense on the examined sequences.",
+        "presence_question": "Does the model's response discuss T2-hyperintense lesions?",
+        "correctness_question": "Does the model's response correctly assert that The lesions are T2-hyperintense on the examined sequences?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "ovoid lesion shape",
+        "claim_text": "The lesions have an ovoid shape in the periventricular white matter.",
+        "presence_question": "Does the model's response discuss ovoid lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesions have an ovoid shape in the periventricular white matter?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "multiple lesions",
+        "claim_text": "There are multiple lesions in the periventricular white matter.",
+        "presence_question": "Does the model's response discuss multiple lesions?",
+        "correctness_question": "Does the model's response correctly assert that There are multiple lesions in the periventricular white matter?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "brain lesions on sagittal images",
+        "claim_text": "Lesions are visible in the brain on the sagittal images.",
+        "presence_question": "Does the model's response discuss brain lesions on sagittal images?",
+        "correctness_question": "Does the model's response correctly assert that Lesions are visible in the brain on the sagittal images?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "linear or ovoid lesion shape",
+        "claim_text": "Lesions in the periventricular and callosal region are linear or ovoid in shape.",
+        "presence_question": "Does the model's response discuss linear or ovoid lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that Lesions in the periventricular and callosal region are linear or ovoid in shape?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "lesions perpendicular to corpus callosum",
+        "claim_text": "Lesions are oriented perpendicular to the long axis of the corpus callosum.",
+        "presence_question": "Does the model's response discuss lesions perpendicular to corpus callosum?",
+        "correctness_question": "Does the model's response correctly assert that Lesions are oriented perpendicular to the long axis of the corpus callosum?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "acute disseminated encephalomyelitis (ADEM)",
+        "claim_text": "Acute disseminated encephalomyelitis is typically a single (monophasic) demyelinating event.",
+        "presence_question": "Does the model's response discuss acute disseminated encephalomyelitis (ADEM)?",
+        "correctness_question": "Does the model's response correctly state that Acute disseminated encephalomyelitis is typically a single (monophasic) demyelinating event?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "lesions perpendicular to corpus callosum",
+        "claim_text": "Lesions oriented perpendicular to the long axis of the corpus callosum are typically associated with focal demyelinating disease.",
+        "presence_question": "Does the model's response discuss lesions oriented perpendicular to the long axis of the corpus callosum?",
+        "correctness_question": "Does the model's response correctly state that Lesions oriented perpendicular to the long axis of the corpus callosum are typically associated with focal demyelinating disease?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "new periventricular demyelinating lesions after ADEM",
+        "claim_text": "New distinct periventricular demyelinating-appearing lesions occurring years after an initial ADEM-like event typically suggest new focal demyelinating disease activity rather than a single monophasic ADEM.",
+        "presence_question": "Does the model's response discuss new distinct periventricular demyelinating-appearing lesions occurring years after an initial ADEM-like event?",
+        "correctness_question": "Does the model's response correctly state that New distinct periventricular demyelinating-appearing lesions occurring years after an initial ADEM-like event typically suggest new focal demyelinating disease activity rather than a single monophasic ADEM?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "focal demyelinating disease plausibility",
+        "claim_text": "The imaging findings of multiple well-defined ovoid T2-hyperintense periventricular lesions on axial images together with linear/ovoid hyperintense lesions perpendicular to the corpus callosum on sagittal images support focal demyelinating disease activity as a plausible diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about focal demyelinating disease plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings of multiple well-defined ovoid T2-hyperintense periventricular lesions on axial images together with linear/ovoid hyperintense lesions perpendicular to the corpus callosum on sagittal images support focal demyelinating disease activity as a plausible diagnosis in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "perpendicular-to-callosum lesion orientation",
+        "claim_text": "Lesions oriented perpendicular to the long axis of the corpus callosum support a demyelinating etiology.",
+        "presence_question": "Does the model's response make an inferential link about perpendicular-to-callosum lesion orientation?",
+        "correctness_question": "Does the model's response correctly conclude that Lesions oriented perpendicular to the long axis of the corpus callosum support a demyelinating etiology?",
+        "premise_perception_ids": [
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "new lesions vs monophasic ADEM",
+        "claim_text": "The presence of new, distinct periventricular demyelinating-appearing lesions years after an initial ADEM-like event argues against a single monophasic ADEM and favors new focal demyelinating disease activity in this patient.",
+        "presence_question": "Does the model's response make an inferential link about new lesions vs monophasic ADEM?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of new, distinct periventricular demyelinating-appearing lesions years after an initial ADEM-like event argues against a single monophasic ADEM and favors new focal demyelinating disease activity in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p5",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

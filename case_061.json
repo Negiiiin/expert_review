@@ -27,5 +27,156 @@
   "caption": "A 56-year-old female with history of trauma and lump. USG shows an ill-defined hyperechoic mass with anechoic component at the site of the palpable lump quite superficial in location. Note the displacement of the tissue planes and the parallel orientation of the lesion suggesting benignity. BIRADS 3",
   "sub_caption": "USG shows an ill-defined hyperechoic mass with anechoic component at the site of the palpable lump quite superficial in location. Note the displacement of the tissue planes and the parallel orientation of the lesion suggesting benignity. BIRADS 3",
   "image_context": "Parallel orientation, an USG feature supportive of benign etiology, is very important to note in cases with solid abnormality [<xref ref-type=\"fig\" rid=\"IJRI-23-366-g009\">Figure 9</xref>]. Lack of flow on Doppler []. Lack of flow on Doppler [<xref ref-type=\"fig\" rid=\"IJRI-23-366-g010\">Figure 10</xref>] is a supportive feature of fat necrosis,[] is a supportive feature of fat necrosis,[2] but literature suggests that it is not a reliable discriminator between benign and malignant nodules.[11]",
-  "relevant_image_context": "Parallel orientation, an USG feature supportive of benign etiology, is very important to note in cases with solid abnormality [Figure 9]. Lack of flow on Doppler []. Lack of flow on Doppler [Figure 10] is a supportive feature of fat necrosis,[] is a supportive feature of fat necrosis,[2] but literature suggests that it is not a reliable discriminator between benign and malignant nodules.[11] First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Parallel orientation, an USG feature supportive of benign etiology, is very important to note in cases with solid abnormality [Figure 9]. Lack of flow on Doppler []. Lack of flow on Doppler [Figure 10] is a supportive feature of fat necrosis,[] is a supportive feature of fat necrosis,[2] but literature suggests that it is not a reliable discriminator between benign and malignant nodules.[11] First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_18_42-PMC3932581-3-IJRI-23-366-g009.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_18_42-PMC3932581-3-IJRI-23-366-g009.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "probe surface at top of image",
+        "claim_text": "The probe surface (skin) is located at the top of the image.",
+        "presence_question": "Does the model's response discuss probe surface at top of image?",
+        "correctness_question": "Does the model's response correctly assert that The probe surface (skin) is located at the top of the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lesion presence",
+        "claim_text": "A lesion is present and visible in the image.",
+        "presence_question": "Does the model's response discuss lesion presence?",
+        "correctness_question": "Does the model's response correctly assert that A lesion is present and visible in the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "lesion shape",
+        "claim_text": "The lesion has a distinctly ovoid shape on imaging.",
+        "presence_question": "Does the model's response discuss lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesion has a distinctly ovoid shape on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lesion margin",
+        "claim_text": "The lesion demonstrates clearly demarcated margins on the image.",
+        "presence_question": "Does the model's response discuss lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The lesion demonstrates clearly demarcated margins on the image?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "lesion below superficial line",
+        "claim_text": "The lesion is located just below the superficial line.",
+        "presence_question": "Does the model's response discuss lesion below superficial line?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located just below the superficial line?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesion outlined by calipers",
+        "claim_text": "The lesion is outlined by dotted measurement calipers.",
+        "presence_question": "Does the model's response discuss lesion outlined by calipers?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is outlined by dotted measurement calipers?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "lesion in upper field",
+        "claim_text": "The lesion is located in the upper portion of the field.",
+        "presence_question": "Does the model's response discuss lesion in upper field?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located in the upper portion of the field?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "lesion centered at midline",
+        "claim_text": "The lesion is centered horizontally along the midline.",
+        "presence_question": "Does the model's response discuss lesion centered at midline?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is centered horizontally along the midline?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "ultrasound image orientation",
+        "claim_text": "Structures closest to the ultrasound probe, such as skin and other superficial tissues, appear at the top of the image.",
+        "presence_question": "Does the model's response discuss ultrasound image orientation?",
+        "correctness_question": "Does the model's response correctly state that Structures closest to the ultrasound probe, such as skin and other superficial tissues, appear at the top of the image?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "measurement calipers on imaging",
+        "claim_text": "Measurement calipers on imaging are annotations indicating the measurement of a structure.",
+        "presence_question": "Does the model's response discuss measurement calipers on imaging?",
+        "correctness_question": "Does the model's response correctly state that Measurement calipers on imaging are annotations indicating the measurement of a structure?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "ovoid shape descriptor",
+        "claim_text": "The term 'ovoid' describes a rounded-elongated shape.",
+        "presence_question": "Does the model's response discuss ovoid shape descriptor?",
+        "correctness_question": "Does the model's response correctly state that The term 'ovoid' describes a rounded-elongated shape?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "image midline",
+        "claim_text": "The image midline is the horizontal center of the image.",
+        "presence_question": "Does the model's response discuss image midline?",
+        "correctness_question": "Does the model's response correctly state that The image midline is the horizontal center of the image?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "lesion superficiality from probe position",
+        "claim_text": "The probe being at the top of the image and the lesion lying just below the superficial line supports that the lesion is superficial in this case.",
+        "presence_question": "Does the model's response make an inferential link about lesion superficiality from probe position?",
+        "correctness_question": "Does the model's response correctly conclude that The probe being at the top of the image and the lesion lying just below the superficial line supports that the lesion is superficial in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "measurement inference from calipers",
+        "claim_text": "The lesion being outlined by dotted measurement calipers is consistent with the lesion being measured in the image.",
+        "presence_question": "Does the model's response make an inferential link about measurement inference from calipers?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion being outlined by dotted measurement calipers is consistent with the lesion being measured in the image?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "ovoid shape inference",
+        "claim_text": "The lesion being described as ovoid, where 'ovoid' denotes a rounded-elongated shape, supports that the lesion in this case has an ovoid shape.",
+        "presence_question": "Does the model's response make an inferential link about ovoid shape inference?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion being described as ovoid, where 'ovoid' denotes a rounded-elongated shape, supports that the lesion in this case has an ovoid shape?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "horizontal centering inference",
+        "claim_text": "The lesion's location at the midline, given that the midline corresponds to the horizontal center of the image, is consistent with the lesion being centered horizontally in this case.",
+        "presence_question": "Does the model's response make an inferential link about horizontal centering inference?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's location at the midline, given that the midline corresponds to the horizontal center of the image, is consistent with the lesion being centered horizontally in this case?",
+        "premise_perception_ids": [
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

@@ -27,5 +27,163 @@
   "caption": "Patient 1: Preoperative magnetic resonance image. An axial T1-weighted image with contrast shows a classic expansile internal auditory canal and cerebellopontine angle mass consistent with left vestibular schwannoma. No vascular abnormalities are appreciated.",
   "sub_caption": "An axial T1-weighted image with contrast shows a classic expansile internal auditory canal and cerebellopontine angle mass consistent with left vestibular schwannoma. No vascular abnormalities are appreciated.",
   "image_context": "A 46-year-old woman presented with left-sided tinnitus and severe to profound hearing loss. Magnetic resonance imaging (MRI) showed an enhancing 23 × 23 × 21-mm left-sided CPA mass consistent with vestibular schwannoma (VS; <xref rid=\"sbsr01051-1\" ref-type=\"fig\">Fig. 1</xref>). Vascular anatomy appeared normal, and there was no history of coagulopathy.). Vascular anatomy appeared normal, and there was no history of coagulopathy.",
-  "relevant_image_context": "A 46-year-old woman presented with left-sided tinnitus and severe to profound hearing loss. Magnetic resonance imaging (MRI) showed an enhancing 23 × 23 × 21-mm left-sided CPA mass consistent with vestibular schwannoma (VS). Vascular anatomy appeared normal, and there was no history of coagulopathy."
+  "relevant_image_context": "A 46-year-old woman presented with left-sided tinnitus and severe to profound hearing loss. Magnetic resonance imaging (MRI) showed an enhancing 23 × 23 × 21-mm left-sided CPA mass consistent with vestibular schwannoma (VS). Vascular anatomy appeared normal, and there was no history of coagulopathy.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_31_14-PMC3743590-1-sbsr01051-1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_31_14-PMC3743590-1-sbsr01051-1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Left cerebellopontine angle and internal auditory canal mass",
+        "claim_text": "There is a left cerebellopontine angle/internal auditory canal intracranial mass",
+        "presence_question": "Does the model's response discuss left cerebellopontine angle and internal auditory canal mass?",
+        "correctness_question": "Does the model's response correctly assert that there is a left cerebellopontine angle/internal auditory canal intracranial mass?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Margin of left cerebellopontine angle/internal auditory canal mass",
+        "claim_text": "The left cerebellopontine angle/internal auditory canal mass has a well-circumscribed margin",
+        "presence_question": "Does the model's response discuss margin of left cerebellopontine angle and internal auditory canal mass?",
+        "correctness_question": "Does the model's response correctly assert that the left cerebellopontine angle/internal auditory canal mass has a well-circumscribed margin?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Rounded shape of left cerebellopontine angle/internal auditory canal mass",
+        "claim_text": "The left cerebellopontine angle/internal auditory canal mass is rounded in shape",
+        "presence_question": "Does the model's response discuss the rounded shape of the left cerebellopontine angle and internal auditory canal mass?",
+        "correctness_question": "Does the model's response correctly assert that the left cerebellopontine angle/internal auditory canal mass is rounded in shape?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Enhancement of left cerebellopontine angle/internal auditory canal mass",
+        "claim_text": "The left cerebellopontine angle/internal auditory canal mass shows enhancement",
+        "presence_question": "Does the model's response discuss enhancement of the left cerebellopontine angle and internal auditory canal mass?",
+        "correctness_question": "Does the model's response correctly assert that the left cerebellopontine angle/internal auditory canal mass shows enhancement?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Count of left cerebellopontine angle/internal auditory canal lesion",
+        "claim_text": "There is a single left cerebellopontine angle/internal auditory canal intracranial lesion",
+        "presence_question": "Does the model's response discuss the number of left cerebellopontine angle and internal auditory canal lesions?",
+        "correctness_question": "Does the model's response correctly assert that there is a single left cerebellopontine angle/internal auditory canal intracranial lesion?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Location of the intracranial mass at left CPA/IAC",
+        "claim_text": "The intracranial mass is located in the left cerebellopontine angle and internal auditory canal",
+        "presence_question": "Does the model's response discuss the location of the intracranial mass at the left cerebellopontine angle and internal auditory canal?",
+        "correctness_question": "Does the model's response correctly assert that the intracranial mass is located in the left cerebellopontine angle and internal auditory canal?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Absence of right cerebellopontine angle/internal auditory canal lesion",
+        "claim_text": "There is no lesion in the right cerebellopontine angle or internal auditory canal",
+        "presence_question": "Does the model's response discuss the right cerebellopontine angle and internal auditory canal lesion status?",
+        "correctness_question": "Does the model's response correctly assert that there is no lesion in the right cerebellopontine angle or internal auditory canal?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Absence of additional intracranial masses on study",
+        "claim_text": "No additional intracranial masses are visible on this study",
+        "presence_question": "Does the model's response discuss additional intracranial masses visible on this study?",
+        "correctness_question": "Does the model's response correctly assert that no additional intracranial masses are visible on this study?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Local mass effect from left CPA/IAC mass",
+        "claim_text": "The left cerebellopontine angle/internal auditory canal mass produces local mass effect",
+        "presence_question": "Does the model's response discuss local mass effect from the left cerebellopontine angle and internal auditory canal mass?",
+        "correctness_question": "Does the model's response correctly assert that the left cerebellopontine angle/internal auditory canal mass produces local mass effect?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Autosomal-dominant germline mutation",
+        "claim_text": "An autosomal-dominant germline mutation confers approximately a 50% chance of being transmitted to each offspring.",
+        "presence_question": "Does the model's response discuss Autosomal-dominant germline mutation?",
+        "correctness_question": "Does the model's response correctly state that An autosomal-dominant germline mutation confers approximately a 50% chance of being transmitted to each offspring?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Bilateral or multiple characteristic imaging lesions",
+        "claim_text": "Bilateral or multiple characteristic lesions on imaging are commonly associated with hereditary syndromes, often with autosomal-dominant inheritance.",
+        "presence_question": "Does the model's response discuss Bilateral or multiple characteristic imaging lesions?",
+        "correctness_question": "Does the model's response correctly state that Bilateral or multiple characteristic lesions on imaging are commonly associated with hereditary syndromes, often with autosomal-dominant inheritance?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Isolated unilateral characteristic imaging lesion",
+        "claim_text": "An isolated unilateral characteristic lesion on imaging suggests a lower likelihood of an inherited syndrome with high transmission risk.",
+        "presence_question": "Does the model's response discuss Isolated unilateral characteristic imaging lesion?",
+        "correctness_question": "Does the model's response correctly state that An isolated unilateral characteristic lesion on imaging suggests a lower likelihood of an inherited syndrome with high transmission risk?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Enhancing rounded mass at the cerebellopontine angle/internal auditory canal",
+        "claim_text": "An enhancing, rounded mass at the cerebellopontine angle or internal auditory canal is characteristic of a vestibular schwannoma.",
+        "presence_question": "Does the model's response discuss Enhancing rounded mass at the cerebellopontine angle/internal auditory canal?",
+        "correctness_question": "Does the model's response correctly state that An enhancing, rounded mass at the cerebellopontine angle or internal auditory canal is characteristic of a vestibular schwannoma?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "vestibular schwannoma diagnosis",
+        "claim_text": "The imaging features (single, well-circumscribed, rounded, enhancing mass at the left CPA/IAC) support that the lesion is a vestibular schwannoma in this case.",
+        "presence_question": "Does the model's response make an inferential link about vestibular schwannoma diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging features (single, well-circumscribed, rounded, enhancing mass at the left CPA/IAC) support that the lesion is a vestibular schwannoma in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "autosomal-dominant hereditary syndrome unlikely",
+        "claim_text": "Because there is only a unilateral solitary lesion and no contralateral or additional intracranial lesions on this study, the imaging argues against a hereditary autosomal-dominant syndrome that typically produces bilateral or multiple characteristic lesions.",
+        "presence_question": "Does the model's response make an inferential link about autosomal-dominant hereditary syndrome unlikely?",
+        "correctness_question": "Does the model's response correctly conclude that Because there is only a unilateral solitary lesion and no contralateral or additional intracranial lesions on this study, the imaging argues against a hereditary autosomal-dominant syndrome that typically produces bilateral or multiple characteristic lesions?",
+        "premise_perception_ids": [
+          "p5",
+          "p7",
+          "p8",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "germline mutation transmission risk low",
+        "claim_text": "Given that autosomal-dominant hereditary conditions typically confer about a 50% transmission risk but are usually associated with bilateral or multiple lesions, the presence of an isolated unilateral lesion with no other lesions on imaging implies that the probability of a germline mutation being present and thus transmitted to offspring is low and closer to the general population risk for this case.",
+        "presence_question": "Does the model's response make an inferential link about germline mutation transmission risk low?",
+        "correctness_question": "Does the model's response correctly conclude that Given that autosomal-dominant hereditary conditions typically confer about a 50% transmission risk but are usually associated with bilateral or multiple lesions, the presence of an isolated unilateral lesion with no other lesions on imaging implies that the probability of a germline mutation being present and thus transmitted to offspring is low and closer to the general population risk for this case?",
+        "premise_perception_ids": [
+          "p5",
+          "p7",
+          "p8",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

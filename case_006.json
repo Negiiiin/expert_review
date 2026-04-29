@@ -27,5 +27,140 @@
   "caption": "(A) Screen shot of the model during the evaluation of a NICE type 1 lesion (hyperplastic polyp). The display shows the type determined by the model (type 1) and the probability (100%). (B) Screen shot of the model in the evaluation of a NICE type 2 lesion (conventional adenoma). The display shows the type 2 determined by the model and the probability (100%) (see video). NICE, narrow band imaging International Colorectal Endoscopic.",
   "sub_caption": "(B) Screen shot of the model in the evaluation of a NICE type 2 lesion (conventional adenoma). The display shows the type 2 determined by the model and the probability (100%) (see video). NICE, narrow band imaging International Colorectal Endoscopic.",
   "image_context": "Accordingly, 125 polyp videos were evaluated using the AI model. The final pathology of the 125 lesions was 51 hyperplastic polyps and 74 adenomas. Of these, the model did not build enough confidence to predict the histology in 19 polyps, leaving 106 in which the model made a high confidence prediction. Table 1 shows the predictions of the model for these 106 diminutive polyps compared with the histologies of the polyps. <xref ref-type=\"fig\" rid=\"gutjnl-2017-314547f04\">Figure 4</xref> shows screenshots of the model as it appears in real-time in the evaluation of NICE type 1 and 2 lesions (unaltered) and for which the model reached high confidence. The video shows the model as it appears during colonoscopy (online  shows screenshots of the model as it appears in real-time in the evaluation of NICE type 1 and 2 lesions (unaltered) and for which the model reached high confidence. The video shows the model as it appears during colonoscopy (online supplementary video 1). For the 106 polyps, the accuracy of the model was 94% (95% CI 86% to 97%), the sensitivity for identification of adenomas was 98% (95% CI 92% to 100%), specificity was 83% (95% CI 67% to 93%), negative predictive value was 97% and positive predictive value was 90%.",
-  "relevant_image_context": "Accordingly, 125 polyp videos were evaluated using the AI model. The final pathology of the 125 lesions was 51 hyperplastic polyps and 74 adenomas. Of these, the model did not build enough confidence to predict the histology in 19 polyps, leaving 106 in which the model made a high confidence prediction. Table 1 shows the predictions of the model for these 106 diminutive polyps compared with the histologies of the polyps. Figure 4 shows screenshots of the model as it appears in real-time in the evaluation of NICE type 1 and 2 lesions (unaltered) and for which the model reached high confidence. The video shows the model as it appears during colonoscopy (online supplementary video 1). For the 106 polyps, the accuracy of the model was 94% (95% CI 86% to 97%), the sensitivity for identification of adenomas was 98% (95% CI 92% to 100%), specificity was 83% (95% CI 67% to 93%), negative predictive value was 97% and positive predictive value was 90%. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Accordingly, 125 polyp videos were evaluated using the AI model. The final pathology of the 125 lesions was 51 hyperplastic polyps and 74 adenomas. Of these, the model did not build enough confidence to predict the histology in 19 polyps, leaving 106 in which the model made a high confidence prediction. Table 1 shows the predictions of the model for these 106 diminutive polyps compared with the histologies of the polyps. Figure 4 shows screenshots of the model as it appears in real-time in the evaluation of NICE type 1 and 2 lesions (unaltered) and for which the model reached high confidence. The video shows the model as it appears during colonoscopy (online supplementary video 1). For the 106 polyps, the accuracy of the model was 94% (95% CI 86% to 97%), the sensitivity for identification of adenomas was 98% (95% CI 92% to 100%), specificity was 83% (95% CI 67% to 93%), negative predictive value was 97% and positive predictive value was 90%. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_72_28-PMC6839831-3-gutjnl-2017-314547f04.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_72_28-PMC6839831-3-gutjnl-2017-314547f04.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "central lesion",
+        "claim_text": "A central lesion is present in the image center.",
+        "presence_question": "Does the model's response discuss central lesion?",
+        "correctness_question": "Does the model's response correctly assert that A central lesion is present in the image center.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "central lesion location",
+        "claim_text": "The lesion is located at the center of the image field.",
+        "presence_question": "Does the model's response discuss central lesion location?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located at the center of the image field.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "central lesion shape",
+        "claim_text": "The central lesion has a polypoid shape on endoscopic view.",
+        "presence_question": "Does the model's response discuss central lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The central lesion has a polypoid shape on endoscopic view.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lesion margins",
+        "claim_text": "The central lesion has well-circumscribed margins on imaging.",
+        "presence_question": "Does the model's response discuss lesion margins?",
+        "correctness_question": "Does the model's response correctly assert that The central lesion has well-circumscribed margins on imaging.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "lesion elevation",
+        "claim_text": "The central lesion appears raised relative to surrounding mucosa.",
+        "presence_question": "Does the model's response discuss lesion elevation?",
+        "correctness_question": "Does the model's response correctly assert that The central lesion appears raised relative to surrounding mucosa.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesion surface texture",
+        "claim_text": "The central lesion has a lobulated surface texture.",
+        "presence_question": "Does the model's response discuss lesion surface texture?",
+        "correctness_question": "Does the model's response correctly assert that The central lesion has a lobulated surface texture.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "surrounding mucosa pattern",
+        "claim_text": "The surrounding mucosa shows mucosal folds and vascular pattern.",
+        "presence_question": "Does the model's response discuss surrounding mucosa pattern?",
+        "correctness_question": "Does the model's response correctly assert that The surrounding mucosa shows mucosal folds and vascular pattern.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "small white specks",
+        "claim_text": "Small white specks are present in the surrounding mucosa.",
+        "presence_question": "Does the model's response discuss small white specks?",
+        "correctness_question": "Does the model's response correctly assert that Small white specks are present in the surrounding mucosa.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "additional similar lesions",
+        "claim_text": "There are no other lesions similar to the central lesion in the surrounding mucosa.",
+        "presence_question": "Does the model's response discuss additional similar lesions?",
+        "correctness_question": "Does the model's response correctly assert that There are no other lesions similar to the central lesion in the surrounding mucosa.?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "lesion count",
+        "claim_text": "Only one lesion is present in the imaged field.",
+        "presence_question": "Does the model's response discuss lesion count?",
+        "correctness_question": "Does the model's response correctly assert that Only one lesion is present in the imaged field.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "well-circumscribed margins and lobulated surface texture",
+        "claim_text": "Well-circumscribed margins and a lobulated surface texture are characteristic of visually distinct lesions that are distinguishable from the surrounding mucosa.",
+        "presence_question": "Does the model's response discuss well-circumscribed margins and lobulated surface texture?",
+        "correctness_question": "Does the model's response correctly state that well-circumscribed margins and a lobulated surface texture are characteristic of visually distinct lesions that are distinguishable from the surrounding mucosa?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "accurate lesion counting",
+        "claim_text": "Accurate lesion counting is achieved by scanning the surrounding mucosa and excluding mucosal folds, specks, and vascular markings as non-lesions.",
+        "presence_question": "Does the model's response discuss accurate lesion counting?",
+        "correctness_question": "Does the model's response correctly state that accurate lesion counting is achieved by scanning the surrounding mucosa and excluding mucosal folds, specks, and vascular markings as non-lesions?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "polypoid appearance",
+        "claim_text": "A polypoid appearance indicates a raised lesion morphology.",
+        "presence_question": "Does the model's response discuss polypoid appearance?",
+        "correctness_question": "Does the model's response correctly state that a polypoid appearance indicates a raised lesion morphology?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "lesion count",
+        "claim_text": "The image-level evidence supports that only one distinct lesion is visible in the image.",
+        "presence_question": "Does the model's response make an inferential link about lesion count?",
+        "correctness_question": "Does the model's response correctly conclude that The image-level evidence supports that only one distinct lesion is visible in the image.?",
+        "premise_perception_ids": [
+          "p1",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "lesion distinctness",
+        "claim_text": "The central lesion's well-circumscribed margins and lobulated surface texture, contrasted with the surrounding mucosal folds and vascular pattern, are consistent with the central finding being a morphologically distinct lesion rather than background mucosa.",
+        "presence_question": "Does the model's response make an inferential link about lesion distinctness?",
+        "correctness_question": "Does the model's response correctly conclude that The central lesion's well-circumscribed margins and lobulated surface texture, contrasted with the surrounding mucosal folds and vascular pattern, are consistent with the central finding being a morphologically distinct lesion rather than background mucosa.?",
+        "premise_perception_ids": [
+          "p4",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

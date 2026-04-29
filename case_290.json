@@ -28,5 +28,164 @@
   "caption": "Case 1. The clinical views of modified gingivoplasty. For the mandible, the full thickness flap was raised with the crevicular incision a The fibrotic connective tissue was entirely removed according to its colour and texture b The osteoplasty was applied to remove the fibrotic alveolar bone c After the debridement, the flap was repositioned apically and sutured d For the maxilla, Intraoral views(central, right and left occlusal views of maxilla) e, g, h; Central maxillary palatal views f",
   "sub_caption": "After the debridement, the flap was repositioned apically and sutured d",
   "image_context": "On the basis of these findings, a diagnosis of non-syndromic hereditary gingival fibromatosis (HGF) was given. With the consent of the patient and her family, non-surgical periodontal treatment which comprised sub-gingival scaling and root planning and oral hygiene instruction was initially taken. Next, a bilateral posterior superior alveolar nerve block was administered with a supplemental local anesthesia obtained through labial and palatal infiltration. After strict disinfection, gingivoplasty surgery in both labial/buccal and palatal/lingual sides in the maxilla was performed. Crevicular incision was made along to the sulcus the using a cconventional scalpel (11/12/15c) and down to the alveolus and then, full thickness flap was raised above the mucogingival junction (Fig. <xref rid=\"12903_2022_2411_Fig4_HTML\" ref-type=\"fig\">4</xref>a). The fibrotic connective tissue and alveolar bone were exposed. It’s not difficult to distinguish the pathological tissue from the outside soft tissue, for the pathological part is very hard in texture and pale in colour. Therefore, depending on the texture and color, the fibrotic connective tissue was resected and the gingiva was scalloped in shape, with slightly thinner margins (Fig. a). The fibrotic connective tissue and alveolar bone were exposed. It’s not difficult to distinguish the pathological tissue from the outside soft tissue, for the pathological part is very hard in texture and pale in colour. Therefore, depending on the texture and color, the fibrotic connective tissue was resected and the gingiva was scalloped in shape, with slightly thinner margins (Fig. <xref rid=\"12903_2022_2411_Fig4_HTML\" ref-type=\"fig\">4</xref>b). The handpiece and bur were used to remove the outside fibrotic alveolar bone and reshape normal physiological alveolar anatomy (Fig. b). The handpiece and bur were used to remove the outside fibrotic alveolar bone and reshape normal physiological alveolar anatomy (Fig. <xref rid=\"12903_2022_2411_Fig4_HTML\" ref-type=\"fig\">4</xref>c). The split thickness gingival flap was raised below the mucogingival junction. After debridement, the flap was repositioned apically and sutured with absorbable suture (polyglycolic acid braid with short term resorption) (Fig. c). The split thickness gingival flap was raised below the mucogingival junction. After debridement, the flap was repositioned apically and sutured with absorbable suture (polyglycolic acid braid with short term resorption) (Fig. <xref rid=\"12903_2022_2411_Fig4_HTML\" ref-type=\"fig\">4</xref>d). With a bilateral inferior alveolar nerve block anesthesia and labial and palatal infiltration anesthesia, the operation in the mandible was utilized 4 weeks after the one in the maxilla (Fig. d). With a bilateral inferior alveolar nerve block anesthesia and labial and palatal infiltration anesthesia, the operation in the mandible was utilized 4 weeks after the one in the maxilla (Fig. <xref rid=\"12903_2022_2411_Fig4_HTML\" ref-type=\"fig\">4</xref>e–h). The patient was advised to continue taking the antibiotic (amoxicillin, 500 mg tds) and fluid intake after operation for 3 days. Intense exercise and brushing teeth within 24 h after operation should be avoided. A 0.12% chlorhexidine gluconate rinse was prescribed for administration twice a day for one week. The patient could eat without pain 7 days after the operation. Comfortably eating was achieved 14 days after the suture were removed. Complete healing occurred 3 months after the operation.e–h). The patient was advised to continue taking the antibiotic (amoxicillin, 500 mg tds) and fluid intake after operation for 3 days. Intense exercise and brushing teeth within 24 h after operation should be avoided. A 0.12% chlorhexidine gluconate rinse was prescribed for administration twice a day for one week. The patient could eat without pain 7 days after the operation. Comfortably eating was achieved 14 days after the suture were removed. Complete healing occurred 3 months after the operation.Fig. 4Case 1. The clinical views of modified gingivoplasty. For the mandible, the full thickness flap was raised with the crevicular incision a The fibrotic connective tissue was entirely removed according to its colour and texture b The osteoplasty was applied to remove the fibrotic alveolar bone c After the debridement, the flap was repositioned apically and sutured d For the maxilla, Intraoral views(central, right and left occlusal views of maxilla) e, g, h; Central maxillary palatal views f",
-  "relevant_image_context": "After debridement, the flap was repositioned apically and sutured with absorbable suture (polyglycolic acid braid with short term resorption) (Fig. 4d)."
+  "relevant_image_context": "After debridement, the flap was repositioned apically and sutured with absorbable suture (polyglycolic acid braid with short term resorption) (Fig. 4d).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_135_28-PMC9694548-4-12903_2022_2411_Fig4_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_135_28-PMC9694548-4-12903_2022_2411_Fig4_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "lower anterior dentition location",
+        "claim_text": "The lower anterior dentition is located at the post-flap surgery site in the lower anterior mandible",
+        "presence_question": "Does the model's response discuss lower anterior dentition location?",
+        "correctness_question": "Does the model's response correctly assert that The lower anterior dentition is located at the post-flap surgery site in the lower anterior mandible?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "apically repositioned mucosal flaps",
+        "claim_text": "Multiple apically repositioned mucosal flaps are present in the lower anterior gingiva",
+        "presence_question": "Does the model's response discuss apically repositioned mucosal flaps?",
+        "correctness_question": "Does the model's response correctly assert that Multiple apically repositioned mucosal flaps are present in the lower anterior gingiva?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "interrupted absorbable sutures",
+        "claim_text": "Interrupted absorbable sutures are present in the lower anterior gingiva",
+        "presence_question": "Does the model's response discuss interrupted absorbable sutures?",
+        "correctness_question": "Does the model's response correctly assert that Interrupted absorbable sutures are present in the lower anterior gingiva?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "fresh blood and coagulum",
+        "claim_text": "Fresh blood and coagulum are present along the wound margins of the flap site",
+        "presence_question": "Does the model's response discuss fresh blood and coagulum?",
+        "correctness_question": "Does the model's response correctly assert that Fresh blood and coagulum are present along the wound margins of the flap site?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "soft tissue approximation",
+        "claim_text": "The soft tissues of the lower anterior gingiva appear approximated",
+        "presence_question": "Does the model's response discuss soft tissue approximation?",
+        "correctness_question": "Does the model's response correctly assert that The soft tissues of the lower anterior gingiva appear approximated?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "pus at surgical site",
+        "claim_text": "No pus is present at the anterior surgical site",
+        "presence_question": "Does the model's response discuss pus at surgical site?",
+        "correctness_question": "Does the model's response correctly assert that No pus is present at the anterior surgical site?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "extensive edema",
+        "claim_text": "There is no extensive edema in the soft tissues of the anterior surgical area",
+        "presence_question": "Does the model's response discuss extensive edema?",
+        "correctness_question": "Does the model's response correctly assert that There is no extensive edema in the soft tissues of the anterior surgical area?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "spreading infection signs",
+        "claim_text": "There are no signs of spreading infection around the anterior surgical site",
+        "presence_question": "Does the model's response discuss spreading infection signs?",
+        "correctness_question": "Does the model's response correctly assert that There are no signs of spreading infection around the anterior surgical site?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "surgical site closure",
+        "claim_text": "The surgical site in the lower anterior gingiva is primarily closed",
+        "presence_question": "Does the model's response discuss surgical site closure?",
+        "correctness_question": "Does the model's response correctly assert that The surgical site in the lower anterior gingiva is primarily closed?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "suture integrity",
+        "claim_text": "The sutures in the lower anterior gingiva appear intact",
+        "presence_question": "Does the model's response discuss suture integrity?",
+        "correctness_question": "Does the model's response correctly assert that The sutures in the lower anterior gingiva appear intact?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "fresh wound blood and coagulum",
+        "claim_text": "Fresh blood and coagulum along wound margins are commonly seen in postoperative wounds.",
+        "presence_question": "Does the model's response discuss fresh wound blood and coagulum?",
+        "correctness_question": "Does the model's response correctly state that Fresh blood and coagulum along wound margins are commonly seen in postoperative wounds?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "local antiseptic plus analgesic therapy",
+        "claim_text": "Postoperative localized pain, inflammation, or local plaque are typically treated with a local antiseptic plus an analgesic or anti-inflammatory agent.",
+        "presence_question": "Does the model's response discuss local antiseptic plus analgesic therapy?",
+        "correctness_question": "Does the model's response correctly state that Postoperative localized pain, inflammation, or local plaque are typically treated with a local antiseptic plus an analgesic or anti-inflammatory agent?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "absence of gross infection signs",
+        "claim_text": "The absence of gross signs of active infection typically suggests that systemic antibiotics may be unnecessary.",
+        "presence_question": "Does the model's response discuss absence of gross infection signs?",
+        "correctness_question": "Does the model's response correctly state that The absence of gross signs of active infection typically suggests that systemic antibiotics may be unnecessary?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "intact sutures approximating soft tissue",
+        "claim_text": "Intact sutures approximating soft tissues indicate a primarily closed surgical site.",
+        "presence_question": "Does the model's response discuss intact sutures approximating soft tissue?",
+        "correctness_question": "Does the model's response correctly state that Intact sutures approximating soft tissues indicate a primarily closed surgical site?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Local vs systemic treatment choice",
+        "claim_text": "The primarily closed surgical site with intact sutures and absence of pus, extensive edema, or spreading infection supports selecting a local antiseptic plus an analgesic/anti-inflammatory agent rather than systemic antibiotic therapy for postoperative management in this case.",
+        "presence_question": "Does the model's response make an inferential link about Local vs systemic treatment choice?",
+        "correctness_question": "Does the model's response correctly conclude that The primarily closed surgical site with intact sutures and absence of pus, extensive edema, or spreading infection supports selecting a local antiseptic plus an analgesic/anti-inflammatory agent rather than systemic antibiotic therapy for postoperative management in this case?",
+        "premise_perception_ids": [
+          "p9",
+          "p10",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Fresh blood as expected postoperative finding",
+        "claim_text": "The presence of fresh blood and coagulum along the wound margins is consistent with expected postoperative findings after flap surgery and does not by itself indicate active infection in this case.",
+        "presence_question": "Does the model's response make an inferential link about Fresh blood as expected postoperative finding?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of fresh blood and coagulum along the wound margins is consistent with expected postoperative findings after flap surgery and does not by itself indicate active infection in this case?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Need for systemic antibiotics",
+        "claim_text": "The lack of gross clinical signs of active infection (no pus, no extensive edema, no spreading infection) argues against the need for systemic antibiotics in this postoperative case.",
+        "presence_question": "Does the model's response make an inferential link about Need for systemic antibiotics?",
+        "correctness_question": "Does the model's response correctly conclude that The lack of gross clinical signs of active infection (no pus, no extensive edema, no spreading infection) argues against the need for systemic antibiotics in this postoperative case?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

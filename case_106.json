@@ -28,5 +28,219 @@
   "caption": "Upper gastrointestinal series shows a series of foreign bodies attached end-to-end and looping from the stomach through the duodenum.",
   "sub_caption": "Upper gastrointestinal series shows a series of foreign bodies attached end-to-end and looping from the stomach through the duodenum.",
   "image_context": "A 19-month-old male in his usual state of good heath presented with a three-month history of progressive non-bloody, non-bilious emesis. The mother denied history of fever, diarrhea, or abdominal pain. His growth parameters plotted above the 75th percentile for height and weight, and there was no previous history of gastroesophageal reflux symptoms. He was referred to our institution where an upper GI series (UGI) showed 13 ingested foreign bodies connected end-to-end and looped from the stomach through the pylorus into the duodenum (<xref ref-type=\"fig\" rid=\"pghn-21-336-g001\">Fig. 1</xref>). His mother reported that he had received a box of plastic colored magnets as a gift several months earlier.). His mother reported that he had received a box of plastic colored magnets as a gift several months earlier.",
-  "relevant_image_context": "A 19-month-old male in his usual state of good heath presented with a three-month history of progressive non-bloody, non-bilious emesis. The mother denied history of fever, diarrhea, or abdominal pain. His growth parameters plotted above the 75th percentile for height and weight, and there was no previous history of gastroesophageal reflux symptoms. He was referred to our institution where an upper GI series (UGI) showed 13 ingested foreign bodies connected end-to-end and looped from the stomach through the pylorus into the duodenum (Fig. 1). His mother reported that he had received a box of plastic colored magnets as a gift several months earlier."
+  "relevant_image_context": "A 19-month-old male in his usual state of good heath presented with a three-month history of progressive non-bloody, non-bilious emesis. The mother denied history of fever, diarrhea, or abdominal pain. His growth parameters plotted above the 75th percentile for height and weight, and there was no previous history of gastroesophageal reflux symptoms. He was referred to our institution where an upper GI series (UGI) showed 13 ingested foreign bodies connected end-to-end and looped from the stomach through the pylorus into the duodenum (Fig. 1). His mother reported that he had received a box of plastic colored magnets as a gift several months earlier.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_60_40-PMC6182470-0-pghn-21-336-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_60_40-PMC6182470-0-pghn-21-336-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "abdominal bead cluster",
+        "claim_text": "A cluster of beads is present in the central upper-mid abdomen.",
+        "presence_question": "Does the model's response discuss abdominal bead cluster?",
+        "correctness_question": "Does the model's response correctly assert that A cluster of beads is present in the central upper-mid abdomen?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "number of beads",
+        "claim_text": "Multiple beads are present in the central upper-mid abdomen.",
+        "presence_question": "Does the model's response discuss number of beads?",
+        "correctness_question": "Does the model's response correctly assert that Multiple beads are present in the central upper-mid abdomen?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "radiopaque beads",
+        "claim_text": "The beads are radiopaque in the central upper-mid abdomen.",
+        "presence_question": "Does the model's response discuss radiopaque beads?",
+        "correctness_question": "Does the model's response correctly assert that The beads are radiopaque in the central upper-mid abdomen?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "bead shape",
+        "claim_text": "The beads have a rounded to rectangular shape in the central upper-mid abdomen.",
+        "presence_question": "Does the model's response discuss bead shape?",
+        "correctness_question": "Does the model's response correctly assert that The beads have a rounded to rectangular shape in the central upper-mid abdomen?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "bead size uniformity",
+        "claim_text": "The beads are uniform in size within the central upper-mid abdomen.",
+        "presence_question": "Does the model's response discuss bead size uniformity?",
+        "correctness_question": "Does the model's response correctly assert that The beads are uniform in size within the central upper-mid abdomen?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "bead configuration",
+        "claim_text": "The beads form a contiguous loop or polygonal chain in the central upper-mid abdomen.",
+        "presence_question": "Does the model's response discuss bead configuration?",
+        "correctness_question": "Does the model's response correctly assert that The beads form a contiguous loop or polygonal chain in the central upper-mid abdomen?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "intrabdominal bowel location",
+        "claim_text": "The beads are located within the bowel gas pattern in the mid-abdomen.",
+        "presence_question": "Does the model's response discuss intrabdominal bowel location?",
+        "correctness_question": "Does the model's response correctly assert that The beads are located within the bowel gas pattern in the mid-abdomen?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "relation to stomach bubble",
+        "claim_text": "The beads are located inferior to the gastric air bubble, below the stomach shadow.",
+        "presence_question": "Does the model's response discuss relation to stomach bubble?",
+        "correctness_question": "Does the model's response correctly assert that The beads are located inferior to the gastric air bubble, below the stomach shadow?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "gas-filled stomach bubble",
+        "claim_text": "A gas-filled stomach bubble is present in the left upper quadrant.",
+        "presence_question": "Does the model's response discuss gas-filled stomach bubble?",
+        "correctness_question": "Does the model's response correctly assert that A gas-filled stomach bubble is present in the left upper quadrant?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "superficial clothing over pelvis",
+        "claim_text": "Superficial clothing or a zipper is present over the pelvis.",
+        "presence_question": "Does the model's response discuss superficial clothing over pelvis?",
+        "correctness_question": "Does the model's response correctly assert that Superficial clothing or a zipper is present over the pelvis?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "beads not over pelvis",
+        "claim_text": "The beads are not overlying the pelvis and are distinct from superficial clothing.",
+        "presence_question": "Does the model's response discuss beads not over pelvis?",
+        "correctness_question": "Does the model's response correctly assert that The beads are not overlying the pelvis and are distinct from superficial clothing?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "connected bead chain appearance",
+        "claim_text": "The beads appear as a connected contiguous chain of uniform rounded or rectangular radiopaque beads.",
+        "presence_question": "Does the model's response discuss connected bead chain appearance?",
+        "correctness_question": "Does the model's response correctly assert that The beads appear as a connected contiguous chain of uniform rounded or rectangular radiopaque beads?"
+      },
+      {
+        "claim_id": "p13",
+        "topic": "vomiting history",
+        "claim_text": "There is a three-month history of progressive non-bloody, non-bilious vomiting.",
+        "presence_question": "Does the model's response discuss vomiting history?",
+        "correctness_question": "Does the model's response correctly assert that There is a three-month history of progressive non-bloody, non-bilious vomiting?"
+      },
+      {
+        "claim_id": "p14",
+        "topic": "access to small magnets",
+        "claim_text": "The patient is a 19-month-old child with access to small magnets.",
+        "presence_question": "Does the model's response discuss access to small magnets?",
+        "correctness_question": "Does the model's response correctly assert that The patient is a 19-month-old child with access to small magnets?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "radiopaque objects on radiograph",
+        "claim_text": "Radiopaque objects on radiographs indicate the presence of dense or metallic foreign bodies.",
+        "presence_question": "Does the model's response discuss radiopaque objects on radiograph?",
+        "correctness_question": "Does the model's response correctly state that Radiopaque objects on radiographs indicate the presence of dense or metallic foreign bodies?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "objects within bowel gas on abdominal radiograph",
+        "claim_text": "Objects projecting within the bowel gas pattern on abdominal radiographs are intraluminal or intra-abdominal in location.",
+        "presence_question": "Does the model's response discuss objects within bowel gas on abdominal radiograph?",
+        "correctness_question": "Does the model's response correctly state that Objects projecting within the bowel gas pattern on abdominal radiographs are intraluminal or intra-abdominal in location?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "vomiting with ingested foreign body",
+        "claim_text": "Prolonged or progressive vomiting after ingestion of a foreign body suggests the foreign body has not passed and may be clinically symptomatic, possibly due to obstruction.",
+        "presence_question": "Does the model's response discuss vomiting with ingested foreign body?",
+        "correctness_question": "Does the model's response correctly state that Prolonged or progressive vomiting after ingestion of a foreign body suggests the foreign body has not passed and may be clinically symptomatic, possibly due to obstruction?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "object below gastric shadow on upright radiograph",
+        "claim_text": "An object located below the gastric shadow on an upright abdominal radiograph is distal to the stomach.",
+        "presence_question": "Does the model's response discuss object below gastric shadow on upright radiograph?",
+        "correctness_question": "Does the model's response correctly state that An object located below the gastric shadow on an upright abdominal radiograph is distal to the stomach?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Radiopaque chain indicates metallic foreign bodies",
+        "claim_text": "The radiopaque appearance of the chain of beads on radiograph supports that these are dense/metallic ingested foreign bodies in this case.",
+        "presence_question": "Does the model's response make an inferential link about Radiopaque chain indicates metallic foreign bodies?",
+        "correctness_question": "Does the model's response correctly conclude that The radiopaque appearance of the chain of beads on radiograph supports that these are dense/metallic ingested foreign bodies in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p12"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Beads within bowel gas imply intraluminal location",
+        "claim_text": "Visualization of the beads within the bowel gas pattern on radiograph is consistent with the beads being intrabdominal/intraluminal rather than superficial in this case.",
+        "presence_question": "Does the model's response make an inferential link about Beads within bowel gas imply intraluminal location?",
+        "correctness_question": "Does the model's response correctly conclude that Visualization of the beads within the bowel gas pattern on radiograph is consistent with the beads being intrabdominal/intraluminal rather than superficial in this case.?",
+        "premise_perception_ids": [
+          "p7",
+          "p12"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Chain below gastric shadow implies distal to stomach",
+        "claim_text": "The chain of beads lying below the gastric shadow (with a LUQ stomach bubble) on radiograph implies the beads are located distal to the stomach in this case.",
+        "presence_question": "Does the model's response make an inferential link about Chain below gastric shadow implies distal to stomach?",
+        "correctness_question": "Does the model's response correctly conclude that The chain of beads lying below the gastric shadow (with a LUQ stomach bubble) on radiograph implies the beads are located distal to the stomach in this case.?",
+        "premise_perception_ids": [
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Chronic vomiting indicates retained foreign bodies",
+        "claim_text": "The reported three-month history of progressive vomiting supports that the ingested foreign bodies have not passed and are producing persistent symptoms in this case.",
+        "presence_question": "Does the model's response make an inferential link about Chronic vomiting indicates retained foreign bodies?",
+        "correctness_question": "Does the model's response correctly conclude that The reported three-month history of progressive vomiting supports that the ingested foreign bodies have not passed and are producing persistent symptoms in this case.?",
+        "premise_perception_ids": [
+          "p13"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "Imaging plus vomiting supports beads causing persistent symptoms",
+        "claim_text": "Integration of imaging showing multiple contiguous radiopaque beads intrabdominal and distal to the stomach with the chronic progressive vomiting is consistent with the connected chain of ingested beads not having passed and being the likely cause of the patient’s ongoing symptoms in this case.",
+        "presence_question": "Does the model's response make an inferential link about Imaging plus vomiting supports beads causing persistent symptoms?",
+        "correctness_question": "Does the model's response correctly conclude that Integration of imaging showing multiple contiguous radiopaque beads intrabdominal and distal to the stomach with the chronic progressive vomiting is consistent with the connected chain of ingested beads not having passed and being the likely cause of the patient’s ongoing symptoms in this case.?",
+        "premise_perception_ids": [
+          "p2",
+          "p6",
+          "p7",
+          "p8",
+          "p13"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

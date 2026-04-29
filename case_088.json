@@ -27,5 +27,175 @@
   "caption": "(a–c) Axial and sagittal T2 images depict a raise in the number and size of the pseudocystic lesions along the brain and spine.",
   "sub_caption": "(a–c) Axial and sagittal T2 images depict a raise in the number and size of the pseudocystic lesions along the brain and spine.",
   "image_context": "He continued to clinically deteriorate despite a change in the anti-tuberculosis treatment and presented in May 2014 with repeated generalized seizures. MRI performed at that moment disclosed a raise in both the number and size of the small T2 hyperintense pseudocystic deposits, some of which were enhanced, along the parenchymal surface of the cerebellum, brainstem, anterior and medial temporal lobes, basal frontal lobes, thalami, and spinal cord (Figure <xref ref-type=\"fig\" rid=\"jbsr-101-1-1012-g3\">3a–c</xref>). The mass effect thereby entailed led to the worsening of the hydrocephalus and resulted into cerebellar herniation. Diffuse leptomeningeal enhancement persisted around the brain and spine. Moreover, a new focal, nodular intramedullary enhancement was observed in the spinal cord at the level of the first and second lumbar vertebrae.). The mass effect thereby entailed led to the worsening of the hydrocephalus and resulted into cerebellar herniation. Diffuse leptomeningeal enhancement persisted around the brain and spine. Moreover, a new focal, nodular intramedullary enhancement was observed in the spinal cord at the level of the first and second lumbar vertebrae.",
-  "relevant_image_context": "He continued to clinically deteriorate despite a change in the anti-tuberculosis treatment and presented in May 2014 with repeated generalized seizures. MRI performed at that moment disclosed a raise in both the number and size of the small T2 hyperintense pseudocystic deposits, some of which were enhanced, along the parenchymal surface of the cerebellum, brainstem, anterior and medial temporal lobes, basal frontal lobes, thalami, and spinal cord (Figure 3a–c). The mass effect thereby entailed led to the worsening of the hydrocephalus and resulted into cerebellar herniation. Diffuse leptomeningeal enhancement persisted around the brain and spine. Moreover, a new focal, nodular intramedullary enhancement was observed in the spinal cord at the level of the first and second lumbar vertebrae. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "He continued to clinically deteriorate despite a change in the anti-tuberculosis treatment and presented in May 2014 with repeated generalized seizures. MRI performed at that moment disclosed a raise in both the number and size of the small T2 hyperintense pseudocystic deposits, some of which were enhanced, along the parenchymal surface of the cerebellum, brainstem, anterior and medial temporal lobes, basal frontal lobes, thalami, and spinal cord (Figure 3a–c). The mass effect thereby entailed led to the worsening of the hydrocephalus and resulted into cerebellar herniation. Diffuse leptomeningeal enhancement persisted around the brain and spine. Moreover, a new focal, nodular intramedullary enhancement was observed in the spinal cord at the level of the first and second lumbar vertebrae. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_52_81-PMC5854298-1-jbsr-101-1-1012-g3.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_52_81-PMC5854298-1-jbsr-101-1-1012-g3.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "numerous lesions",
+        "claim_text": "There are numerous lesions visible on the scan.",
+        "presence_question": "Does the model's response discuss numerous lesions?",
+        "correctness_question": "Does the model's response correctly assert that There are numerous lesions visible on the scan.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "small lesions",
+        "claim_text": "The lesions are small in size on imaging.",
+        "presence_question": "Does the model's response discuss small lesions?",
+        "correctness_question": "Does the model's response correctly assert that The lesions are small in size on imaging.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "well-defined lesion margins",
+        "claim_text": "The lesions demonstrate well-defined margins on the imaging study.",
+        "presence_question": "Does the model's response discuss well-defined lesion margins?",
+        "correctness_question": "Does the model's response correctly assert that The lesions demonstrate well-defined margins on the imaging study.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "hyperintense lesion signal",
+        "claim_text": "The lesions are hyperintense on the relevant MRI sequences.",
+        "presence_question": "Does the model's response discuss hyperintense lesion signal?",
+        "correctness_question": "Does the model's response correctly assert that The lesions are hyperintense on the relevant MRI sequences.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "cystic-appearing lesions",
+        "claim_text": "The lesions have a cystic-appearing morphology on imaging.",
+        "presence_question": "Does the model's response discuss cystic-appearing lesions?",
+        "correctness_question": "Does the model's response correctly assert that The lesions have a cystic-appearing morphology on imaging.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesions in both cerebellar hemispheres and vermis",
+        "claim_text": "The lesions involve both cerebellar hemispheres and the cerebellar vermis.",
+        "presence_question": "Does the model's response discuss lesions in both cerebellar hemispheres and vermis?",
+        "correctness_question": "Does the model's response correctly assert that The lesions involve both cerebellar hemispheres and the cerebellar vermis.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "diffuse cerebellar involvement",
+        "claim_text": "The lesions extend diffusely throughout the cerebellum on the study.",
+        "presence_question": "Does the model's response discuss diffuse cerebellar involvement?",
+        "correctness_question": "Does the model's response correctly assert that The lesions extend diffusely throughout the cerebellum on the study.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "confluent lesion areas",
+        "claim_text": "In some areas, the lesions are confluent, forming contiguous regions.",
+        "presence_question": "Does the model's response discuss confluent lesion areas?",
+        "correctness_question": "Does the model's response correctly assert that In some areas, the lesions are confluent, forming contiguous regions.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "distorted cerebellar folial architecture",
+        "claim_text": "The cerebellar folial architecture appears distorted on imaging.",
+        "presence_question": "Does the model's response discuss distorted cerebellar folial architecture?",
+        "correctness_question": "Does the model's response correctly assert that The cerebellar folial architecture appears distorted on imaging.?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "compression of midline posterior fossa CSF space",
+        "claim_text": "The lesions compress the midline posterior fossa CSF space at the fourth ventricle region.",
+        "presence_question": "Does the model's response discuss compression of midline posterior fossa CSF space?",
+        "correctness_question": "Does the model's response correctly assert that The lesions compress the midline posterior fossa CSF space at the fourth ventricle region.?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "effacement of midline posterior fossa CSF space",
+        "claim_text": "The midline posterior fossa CSF space, including the fourth ventricle region, is effaced.",
+        "presence_question": "Does the model's response discuss effacement of midline posterior fossa CSF space?",
+        "correctness_question": "Does the model's response correctly assert that The midline posterior fossa CSF space, including the fourth ventricle region, is effaced.?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "axial posterior fossa image location",
+        "claim_text": "The image is an axial view through the posterior fossa.",
+        "presence_question": "Does the model's response discuss axial posterior fossa image location?",
+        "correctness_question": "Does the model's response correctly assert that The image is an axial view through the posterior fossa.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "CSF space compression",
+        "claim_text": "Compression or effacement of cerebrospinal fluid (CSF) spaces suggests local mass effect.",
+        "presence_question": "Does the model's response discuss CSF space compression?",
+        "correctness_question": "Does the model's response correctly state that Compression or effacement of cerebrospinal fluid (CSF) spaces suggests local mass effect?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "diffuse high lesion burden",
+        "claim_text": "A high lesion burden with diffuse involvement and associated mass effect indicates advanced or extensive disease severity.",
+        "presence_question": "Does the model's response discuss diffuse high lesion burden?",
+        "correctness_question": "Does the model's response correctly state that A high lesion burden with diffuse involvement and associated mass effect indicates advanced or extensive disease severity?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "severity grade assessment",
+        "claim_text": "Severity grading is based on assessment of lesion burden, anatomic extent, and the presence of mass effect.",
+        "presence_question": "Does the model's response discuss severity grade assessment?",
+        "correctness_question": "Does the model's response correctly state that Severity grading is based on assessment of lesion burden, anatomic extent, and the presence of mass effect?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "high severity grade assignment",
+        "claim_text": "The image findings of numerous small cystic hyperintense lesions diffusely involving both cerebellar hemispheres and the vermis, confluent in areas and causing compression/effacement of the midline posterior fossa CSF space, support that this represents advanced/extensive disease and justify assigning a high severity grade for this case.",
+        "presence_question": "Does the model's response make an inferential link about high severity grade assignment?",
+        "correctness_question": "Does the model's response correctly conclude that The image findings of numerous small cystic hyperintense lesions diffusely involving both cerebellar hemispheres and the vermis, confluent in areas and causing compression/effacement of the midline posterior fossa CSF space, support that this represents advanced/extensive disease and justify assigning a high severity grade for this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "local mass effect inference",
+        "claim_text": "Apparent compression and effacement of the midline posterior fossa CSF space (fourth ventricle region) on this image implies the presence of local mass effect in this case.",
+        "presence_question": "Does the model's response make an inferential link about local mass effect inference?",
+        "correctness_question": "Does the model's response correctly conclude that Apparent compression and effacement of the midline posterior fossa CSF space (fourth ventricle region) on this image implies the presence of local mass effect in this case?",
+        "premise_perception_ids": [
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "extensive cerebellar involvement",
+        "claim_text": "Confluent lesions that distort the cerebellar folial architecture are consistent with extensive involvement of the cerebellar parenchyma in this case.",
+        "presence_question": "Does the model's response make an inferential link about extensive cerebellar involvement?",
+        "correctness_question": "Does the model's response correctly conclude that Confluent lesions that distort the cerebellar folial architecture are consistent with extensive involvement of the cerebellar parenchyma in this case?",
+        "premise_perception_ids": [
+          "p8",
+          "p9",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

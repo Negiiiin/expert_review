@@ -27,5 +27,156 @@
   "caption": "CT staging of emphysematous pyelonephritis. a Axial oblique MPR reconstruction of the parenchymal phase of a 53-year-old diabetic female patient presenting with mild fever shows a class I EPN, characterized by gas only inside collecting system, in association with the presence of a calculus in the renal pelvis (arrow). b Axial scan of the parenchymal phase of a 73-year-old diabetic female patient presenting with right flank discomfort shows two calyceal calculi with initial parenchyma spread of gas (arrow) in a class II EPN. c Coronal oblique MPR reconstruction of a 66-year-old diabetic female patient presenting with abdominal pain shows a class III EPN with a voluminous hypodense fluid-gaseous abscess filled with gas bubbles, dissecting the interstitial space and invading the perinephric space (arrow)",
   "sub_caption": "c Coronal oblique MPR reconstruction of a 66-year-old diabetic female patient presenting with abdominal pain shows a class III EPN with a voluminous hypodense fluid-gaseous abscess filled with gas bubbles, dissecting the interstitial space and invading the perinephric space (arrow)",
   "image_context": "Subsequently, Huang et al. [49] proposed four classes of EPN based on CT scan, also providing a prognostic stratification, essential for patient’s management (Table 3). In particular, in class 1 gas is present only in the collecting system (Fig. <xref rid=\"11547_2020_1315_Fig5_HTML\" ref-type=\"fig\">5</xref>a), in class 2 gas is present in the renal parenchyma without extension to the extrarenal area (Fig. a), in class 2 gas is present in the renal parenchyma without extension to the extrarenal area (Fig. <xref rid=\"11547_2020_1315_Fig5_HTML\" ref-type=\"fig\">5</xref>b), in class 3A gas and or abscess are present in the perinephric area (Fig. b), in class 3A gas and or abscess are present in the perinephric area (Fig. <xref rid=\"11547_2020_1315_Fig5_HTML\" ref-type=\"fig\">5</xref>c), in class 3B gas or abscess are present in the pararenal space, while in class 4 EPN is bilateral. Although no significant differences were noted in clinical features among the 4 classes, mortality progressively increases, with class 4 being the worst. In particular, class 1 and 2 patients can be treated with percutaneous drainage combined with antibiotics, as well as patients with more extensive EPN, such as class 3A and 3B, on condition there are &lt; 2 risk factors (i.e., thrombocytopenia, acute renal function impairment, disturbance of consciousness, and shock). Nephrectomy should be promptly performed in class 3A and 3B with &gt; 2 risk factors and in class 4 cases; however, given the instability of class 4 patients, bilateral percutaneous drainage should be tried first, in order to avoid an emergency nephrectomy [c), in class 3B gas or abscess are present in the pararenal space, while in class 4 EPN is bilateral. Although no significant differences were noted in clinical features among the 4 classes, mortality progressively increases, with class 4 being the worst. In particular, class 1 and 2 patients can be treated with percutaneous drainage combined with antibiotics, as well as patients with more extensive EPN, such as class 3A and 3B, on condition there are < 2 risk factors (i.e., thrombocytopenia, acute renal function impairment, disturbance of consciousness, and shock). Nephrectomy should be promptly performed in class 3A and 3B with > 2 risk factors and in class 4 cases; however, given the instability of class 4 patients, bilateral percutaneous drainage should be tried first, in order to avoid an emergency nephrectomy [53].Table 3CT staging of emphysematous pyelonephritisClassificationClassWan et al. (39)I. Parenchymal destruction with either an absence of fluid collection or a presence of steaky or mottled gasII. Renal or perinephric fluid collection with bubbly or located gas or gas in the collecting systemHuang and Tseng (40)1. Gas in collecting system only2. Parenchymal gas only3A. Extension of gas into perinephric space3B. Extension of gas into pararenal space4. EPN in solitary kidney or bilateral diseaseFig. 5CT staging of emphysematous pyelonephritis. a Axial oblique MPR reconstruction of the parenchymal phase of a 53-year-old diabetic female patient presenting with mild fever shows a class I EPN, characterized by gas only inside collecting system, in association with the presence of a calculus in the renal pelvis (arrow). b Axial scan of the parenchymal phase of a 73-year-old diabetic female patient presenting with right flank discomfort shows two calyceal calculi with initial parenchyma spread of gas (arrow) in a class II EPN. c Coronal oblique MPR reconstruction of a 66-year-old diabetic female patient presenting with abdominal pain shows a class III EPN with a voluminous hypodense fluid-gaseous abscess filled with gas bubbles, dissecting the interstitial space and invading the perinephric space (arrow)",
-  "relevant_image_context": "c Coronal oblique MPR reconstruction of a 66-year-old diabetic female patient presenting with abdominal pain shows a class III EPN with a voluminous hypodense fluid-gaseous abscess filled with gas bubbles, dissecting the interstitial space and invading the perinephric space (arrow)"
+  "relevant_image_context": "c Coronal oblique MPR reconstruction of a 66-year-old diabetic female patient presenting with abdominal pain shows a class III EPN with a voluminous hypodense fluid-gaseous abscess filled with gas bubbles, dissecting the interstitial space and invading the perinephric space (arrow)",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_2_filelist_commercial_batch_94_76-PMC8007507-4-11547_2020_1315_Fig5_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_94_76-PMC8007507-4-11547_2020_1315_Fig5_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Right renal gas",
+        "claim_text": "Gas is present within the right kidney on the imaging study.",
+        "presence_question": "Does the model's response discuss right renal gas?",
+        "correctness_question": "Does the model's response correctly assert that Gas is present within the right kidney on the imaging study?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right renal collecting-system gas bubbles",
+        "claim_text": "Gas bubbles are located in the right renal intrapelvic collecting system on imaging.",
+        "presence_question": "Does the model's response discuss right renal collecting-system gas bubbles?",
+        "correctness_question": "Does the model's response correctly assert that Gas bubbles are located in the right renal intrapelvic collecting system on imaging?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Right renal parenchymal gas",
+        "claim_text": "Gas is located within the parenchyma of the right kidney on imaging.",
+        "presence_question": "Does the model's response discuss right renal parenchymal gas?",
+        "correctness_question": "Does the model's response correctly assert that Gas is located within the parenchyma of the right kidney on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Right perinephric gas",
+        "claim_text": "Gas is present in the right perinephric region on imaging.",
+        "presence_question": "Does the model's response discuss right perinephric gas?",
+        "correctness_question": "Does the model's response correctly assert that Gas is present in the right perinephric region on imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Image panels showing right renal gas",
+        "claim_text": "Three image panels show the focal gas collections related to the right kidney findings.",
+        "presence_question": "Does the model's response discuss image panels showing right renal gas?",
+        "correctness_question": "Does the model's response correctly assert that Three image panels show the focal gas collections related to the right kidney findings?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "renal intraparenchymal or perinephric gas",
+        "claim_text": "Intraparenchymal or perinephric gas in the kidney suggests a gas-forming destructive renal infection that extends beyond the collecting system.",
+        "presence_question": "Does the model's response discuss renal intraparenchymal or perinephric gas?",
+        "correctness_question": "Does the model's response correctly state that intraparenchymal or perinephric gas in the kidney suggests a gas-forming destructive renal infection that extends beyond the collecting system?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "severe renal infection with systemic features",
+        "claim_text": "Severe renal infection with systemic or organ-threatening features requires prompt systemic (parenteral) antibiotic therapy, in addition to procedural drainage when indicated.",
+        "presence_question": "Does the model's response discuss severe renal infection with systemic features?",
+        "correctness_question": "Does the model's response correctly state that severe renal infection with systemic or organ-threatening features requires prompt systemic (parenteral) antibiotic therapy, in addition to procedural drainage when indicated?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "initial oral antibiotic regimens",
+        "claim_text": "Initial oral antibiotic regimens are unlikely to be adequate for severe gas-forming renal infections.",
+        "presence_question": "Does the model's response discuss initial oral antibiotic regimens?",
+        "correctness_question": "Does the model's response correctly state that initial oral antibiotic regimens are unlikely to be adequate for severe gas-forming renal infections?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "withholding antibiotics during drainage",
+        "claim_text": "Withholding antibiotics while performing drainage alone would leave a systemic or organ-threatening infection untreated.",
+        "presence_question": "Does the model's response discuss withholding antibiotics during drainage?",
+        "correctness_question": "Does the model's response correctly state that withholding antibiotics while performing drainage alone would leave a systemic or organ-threatening infection untreated?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "intravenous piperacillin–tazobactam",
+        "claim_text": "Intravenous piperacillin–tazobactam is an appropriate broad-spectrum empiric intravenous antimicrobial option for severe renal infection while arranging drainage.",
+        "presence_question": "Does the model's response discuss intravenous piperacillin–tazobactam?",
+        "correctness_question": "Does the model's response correctly state that intravenous piperacillin–tazobactam is an appropriate broad-spectrum empiric intravenous antimicrobial option for severe renal infection while arranging drainage?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Gas-forming renal infection diagnosis",
+        "claim_text": "The presence of intrapelvic/collecting-system gas plus gas within the renal parenchyma and perinephric region supports the diagnosis of a gas-forming, destructive renal infection with extension beyond the collecting system in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Gas-forming renal infection diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of intrapelvic/collecting-system gas plus gas within the renal parenchyma and perinephric region supports the diagnosis of a gas-forming, destructive renal infection with extension beyond the collecting system in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Oral antibiotics adequacy",
+        "claim_text": "Because imaging indicates a gas-forming renal infection extending beyond the collecting system and such infections require prompt systemic therapy, an initial oral antibiotic regimen is unlikely to be adequate for this patient.",
+        "presence_question": "Does the model's response make an inferential link about Oral antibiotics adequacy?",
+        "correctness_question": "Does the model's response correctly conclude that Because imaging indicates a gas-forming renal infection extending beyond the collecting system and such infections require prompt systemic therapy, an initial oral antibiotic regimen is unlikely to be adequate for this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "IV piperacillin–tazobactam appropriateness",
+        "claim_text": "Given the imaging evidence of an aggressive gas-forming renal infection and the need for prompt systemic therapy while source control is arranged, intravenous piperacillin–tazobactam is an appropriate initial empiric therapy in this case.",
+        "presence_question": "Does the model's response make an inferential link about IV piperacillin–tazobactam appropriateness?",
+        "correctness_question": "Does the model's response correctly conclude that Given the imaging evidence of an aggressive gas-forming renal infection and the need for prompt systemic therapy while source control is arranged, intravenous piperacillin–tazobactam is an appropriate initial empiric therapy in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Safety of withholding antibiotics during drainage",
+        "claim_text": "Proceeding to drainage alone while withholding antibiotics would leave a systemic or organ-threatening infection untreated in this patient with imaging evidence of intrarenal and perinephric gas.",
+        "presence_question": "Does the model's response make an inferential link about Safety of withholding antibiotics during drainage?",
+        "correctness_question": "Does the model's response correctly conclude that Proceeding to drainage alone while withholding antibiotics would leave a systemic or organ-threatening infection untreated in this patient with imaging evidence of intrarenal and perinephric gas?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

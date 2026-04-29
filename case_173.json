@@ -27,5 +27,129 @@
   "caption": "Solitary gastric neurofibroma with a diameter of 2.0 cm on CT examination. (A) Plain CT showed a soft tissue mass-like lesion in the greater curvature of the stomach in horizontal plane; (B) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in horizontal plane; (C) CT showed a soft tissue mass-like lesion in the greater curvature of the stomach in coronal plane; (D) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in sagittal plane.",
   "sub_caption": "(B) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in horizontal plane;",
   "image_context": "All patients underwent abdominal CT examination, including plain and enhanced scans, before endoscopic therapy. These GNs showed round, oval, or spindle-shaped soft tissue shadows in the gastric wall, with equal or slightly low uniform density, clear boundaries, no obvious adhesion to surrounding tissues, and no invasion of adjacent organ (<xref rid=\"IJGM-15-279-g0004\" ref-type=\"fig\">Figure 4</xref>).).Figure 4Solitary gastric neurofibroma with a diameter of 2.0 cm on CT examination. (A) Plain CT showed a soft tissue mass-like lesion in the greater curvature of the stomach in horizontal plane; (B) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in horizontal plane; (C) CT showed a soft tissue mass-like lesion in the greater curvature of the stomach in coronal plane; (D) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in sagittal plane.",
-  "relevant_image_context": "(B) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in horizontal plane;"
+  "relevant_image_context": "(B) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in horizontal plane;",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_3_filelist_noncommercial_batch_105_3-PMC8747736-0-IJGM-15-279-g0004.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_105_3-PMC8747736-0-IJGM-15-279-g0004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left upper abdominal rounded air-filled structure",
+        "claim_text": "A rounded air-filled structure is located in the left upper-mid abdomen.",
+        "presence_question": "Does the model's response discuss left upper abdominal rounded air-filled structure?",
+        "correctness_question": "Does the model's response correctly assert that A rounded air-filled structure is located in the left upper-mid abdomen?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "low-density air-filled structure in left upper abdomen",
+        "claim_text": "The rounded structure in the left upper-mid abdomen has low (air-filled) density.",
+        "presence_question": "Does the model's response discuss low-density air-filled structure in left upper abdomen?",
+        "correctness_question": "Does the model's response correctly assert that The rounded structure in the left upper-mid abdomen has low (air-filled) density?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "anterior rounded air-filled structure in left upper abdomen",
+        "claim_text": "The rounded air-filled structure projects anteriorly in the image within the left upper-mid abdomen.",
+        "presence_question": "Does the model's response discuss anterior rounded air-filled structure in left upper abdomen?",
+        "correctness_question": "Does the model's response correctly assert that The rounded air-filled structure projects anteriorly in the image within the left upper-mid abdomen?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "soft-tissue density posterior to the stomach",
+        "claim_text": "A contiguous soft-tissue density is located immediately posterior to the stomach, behind the gastric bubble.",
+        "presence_question": "Does the model's response discuss soft-tissue density posterior to the stomach?",
+        "correctness_question": "Does the model's response correctly assert that A contiguous soft-tissue density is located immediately posterior to the stomach, behind the gastric bubble?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "soft-tissue density adjacent to stomach posterior wall",
+        "claim_text": "A contiguous soft-tissue density is adjacent to the back wall of the stomach.",
+        "presence_question": "Does the model's response discuss soft-tissue density adjacent to stomach posterior wall?",
+        "correctness_question": "Does the model's response correctly assert that A contiguous soft-tissue density is adjacent to the back wall of the stomach?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "soft-tissue density anterior to aorta/vertebral column",
+        "claim_text": "A contiguous soft-tissue density lies just anterior to the aorta/vertebral column's bright circular structure.",
+        "presence_question": "Does the model's response discuss soft-tissue density anterior to the aorta/vertebral column?",
+        "correctness_question": "Does the model's response correctly assert that A contiguous soft-tissue density lies just anterior to the aorta/vertebral column's bright circular structure?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "bright circular aorta/vertebral column",
+        "claim_text": "The aorta/vertebral column appears as a bright circular structure posteriorly in the image.",
+        "presence_question": "Does the model's response discuss bright circular aorta/vertebral column?",
+        "correctness_question": "Does the model's response correctly assert that The aorta/vertebral column appears as a bright circular structure posteriorly in the image?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Pancreas anatomical position",
+        "claim_text": "The pancreas lies immediately posterior to the stomach and anterior to the aorta and vertebral column in the upper abdomen.",
+        "presence_question": "Does the model's response discuss Pancreas anatomical position?",
+        "correctness_question": "Does the model's response correctly state that the pancreas lies immediately posterior to the stomach and anterior to the aorta and vertebral column in the upper abdomen?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Air appearance on CT",
+        "claim_text": "Air appears as a low-density (hypodense) region on CT imaging.",
+        "presence_question": "Does the model's response discuss Air appearance on CT?",
+        "correctness_question": "Does the model's response correctly state that air appears as a low-density (hypodense) region on CT imaging?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Gastric bubble appearance on CT",
+        "claim_text": "The gastric bubble appears as a rounded air-filled structure in the upper mid-to-left abdomen on axial CT images.",
+        "presence_question": "Does the model's response discuss Gastric bubble appearance on CT?",
+        "correctness_question": "Does the model's response correctly state that the gastric bubble appears as a rounded air-filled structure in the upper mid-to-left abdomen on axial CT images?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Aorta and vertebral column location",
+        "claim_text": "The aorta and vertebral column are located at the posterior midline of the abdomen on axial CT images.",
+        "presence_question": "Does the model's response discuss Aorta and vertebral column location?",
+        "correctness_question": "Does the model's response correctly state that the aorta and vertebral column are located at the posterior midline of the abdomen on axial CT images?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Stomach identification",
+        "claim_text": "The rounded, low-density, anterior structure in the upper mid/left abdomen supports that the stomach (gastric bubble) is present in this case.",
+        "presence_question": "Does the model's response make an inferential link about Stomach identification?",
+        "correctness_question": "Does the model's response correctly conclude that The rounded, low-density, anterior structure in the upper mid/left abdomen supports that the stomach (gastric bubble) is present in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Pancreas location posterior to stomach",
+        "claim_text": "The contiguous soft-tissue density immediately posterior to the stomach and located just anterior to the aorta is consistent with the pancreas being located immediately posterior to the stomach in this case.",
+        "presence_question": "Does the model's response make an inferential link about Pancreas location posterior to stomach?",
+        "correctness_question": "Does the model's response correctly conclude that The contiguous soft-tissue density immediately posterior to the stomach and located just anterior to the aorta is consistent with the pancreas being located immediately posterior to the stomach in this case.?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

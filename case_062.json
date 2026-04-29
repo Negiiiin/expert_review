@@ -29,5 +29,134 @@
   "caption": "Histopathological examination showing granulomatous inflammation with multinucleated giant cells of foreign body type",
   "sub_caption": "Histopathological examination showing granulomatous inflammation with multinucleated giant cells of foreign body type",
   "image_context": "Local ultrasonography and magnetic resonance imaging did not reveal any colonic connections. A repeat skin biopsy from the vulvar ulcers showed granulomatous inflammation with multinucleated giant cells, histiocytes, lymphocytes, and plasma cells [<xref rid=\"IJSTD-45-54-g006\" ref-type=\"fig\">Figure 6</xref>]. Based on this clinical and investigational profile, we reached the final diagnosis of cutaneous CD. She was treated with monthly methylprednisolone pulse along with oral prednisolone, sulfasalazine, and colchicine, with adequate remission and residual window-like defect in labia minora, []. Based on this clinical and investigational profile, we reached the final diagnosis of cutaneous CD. She was treated with monthly methylprednisolone pulse along with oral prednisolone, sulfasalazine, and colchicine, with adequate remission and residual window-like defect in labia minora, [<xref rid=\"IJSTD-45-54-g007\" ref-type=\"fig\">Figure 7a</xref> and  and <xref rid=\"IJSTD-45-54-g007\" ref-type=\"fig\">b</xref>] however, with relapsed episodes.] however, with relapsed episodes.",
-  "relevant_image_context": "Local ultrasonography and magnetic resonance imaging did not reveal any colonic connections. A repeat skin biopsy from the vulvar ulcers showed granulomatous inflammation with multinucleated giant cells, histiocytes, lymphocytes, and plasma cells [Figure 6]. Based on this clinical and investigational profile, we reached the final diagnosis of cutaneous CD. She was treated with monthly methylprednisolone pulse along with oral prednisolone, sulfasalazine, and colchicine, with adequate remission and residual window-like defect in labia minora."
+  "relevant_image_context": "Local ultrasonography and magnetic resonance imaging did not reveal any colonic connections. A repeat skin biopsy from the vulvar ulcers showed granulomatous inflammation with multinucleated giant cells, histiocytes, lymphocytes, and plasma cells [Figure 6]. Based on this clinical and investigational profile, we reached the final diagnosis of cutaneous CD. She was treated with monthly methylprednisolone pulse along with oral prednisolone, sulfasalazine, and colchicine, with adequate remission and residual window-like defect in labia minora.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_153_11-PMC11233039-5-IJSTD-45-54-g006.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_153_11-PMC11233039-5-IJSTD-45-54-g006.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "epithelioid histiocyte aggregates",
+        "claim_text": "Aggregates of epithelioid histiocytes are present in the dermis.",
+        "presence_question": "Does the model's response discuss epithelioid histiocyte aggregates?",
+        "correctness_question": "Does the model's response correctly assert that Aggregates of epithelioid histiocytes are present in the dermis?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "multinucleated giant cells",
+        "claim_text": "Multinucleated giant cells are present in the dermis.",
+        "presence_question": "Does the model's response discuss multinucleated giant cells?",
+        "correctness_question": "Does the model's response correctly assert that Multinucleated giant cells are present in the dermis?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "epithelioid histiocytes and giant cells in dermis",
+        "claim_text": "Epithelioid histiocyte aggregates and giant cells are located in the dermis.",
+        "presence_question": "Does the model's response discuss epithelioid histiocytes and giant cells in dermis?",
+        "correctness_question": "Does the model's response correctly assert that Epithelioid histiocyte aggregates and giant cells are located in the dermis?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "chronic lymphocytic inflammatory infiltrate",
+        "claim_text": "A chronic inflammatory infiltrate composed of lymphocytes is present in the dermis.",
+        "presence_question": "Does the model's response discuss chronic lymphocytic inflammatory infiltrate?",
+        "correctness_question": "Does the model's response correctly assert that A chronic inflammatory infiltrate composed of lymphocytes is present in the dermis?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "plasma cells in dermis",
+        "claim_text": "Plasma cells are present within the dermal tissue.",
+        "presence_question": "Does the model's response discuss plasma cells in dermis?",
+        "correctness_question": "Does the model's response correctly assert that Plasma cells are present within the dermal tissue?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "colonic connections on imaging",
+        "claim_text": "No colonic connections are identified on imaging of the pelvic or colonic region.",
+        "presence_question": "Does the model's response discuss colonic connections on imaging?",
+        "correctness_question": "Does the model's response correctly assert that No colonic connections are identified on imaging of the pelvic or colonic region?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "granulomatous inflammation",
+        "claim_text": "Granulomatous inflammation is characterized by aggregates of epithelioid histiocytes and multinucleated giant cells, often with a chronic inflammatory infiltrate of lymphocytes and plasma cells.",
+        "presence_question": "Does the model's response discuss granulomatous inflammation?",
+        "correctness_question": "Does the model's response correctly state that granulomatous inflammation is characterized by aggregates of epithelioid histiocytes and multinucleated giant cells, often with a chronic inflammatory infiltrate of lymphocytes and plasma cells?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "oral systemic corticosteroids",
+        "claim_text": "Oral systemic corticosteroids typically produce rapid suppression of active granulomatous inflammation and induction of remission.",
+        "presence_question": "Does the model's response discuss oral systemic corticosteroids?",
+        "correctness_question": "Does the model's response correctly state that oral systemic corticosteroids typically produce rapid suppression of active granulomatous inflammation and induction of remission?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "colonic fistula (bowel-to-skin)",
+        "claim_text": "Imaging demonstrating a colonic connection typically suggests a fistulous extension from the bowel to the skin.",
+        "presence_question": "Does the model's response discuss colonic fistula (bowel-to-skin)?",
+        "correctness_question": "Does the model's response correctly state that imaging demonstrating a colonic connection typically suggests a fistulous extension from the bowel to the skin?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Granulomatous inflammation identification",
+        "claim_text": "The observed aggregates of epithelioid histiocytes, multinucleated giant cells, and accompanying lymphocytes and plasma cells support that granulomatous inflammation is present in this tissue sample.",
+        "presence_question": "Does the model's response make an inferential link about Granulomatous inflammation identification?",
+        "correctness_question": "Does the model's response correctly conclude that The observed aggregates of epithelioid histiocytes, multinucleated giant cells, and accompanying lymphocytes and plasma cells support that granulomatous inflammation is present in this tissue sample.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Primary cutaneous versus bowel fistula etiology",
+        "claim_text": "The absence of imaging evidence of colonic connections makes the vulvar granulomatous lesion more consistent with a primary cutaneous granulomatous process rather than fistulous extension from the bowel.",
+        "presence_question": "Does the model's response make an inferential link about Primary cutaneous versus bowel fistula etiology?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of imaging evidence of colonic connections makes the vulvar granulomatous lesion more consistent with a primary cutaneous granulomatous process rather than fistulous extension from the bowel.?",
+        "premise_perception_ids": [
+          "p6",
+          "p1",
+          "p2",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Corticosteroid therapy justification",
+        "claim_text": "The presence of active granulomatous inflammation on histology justifies using oral systemic corticosteroids as systemic therapy to induce remission in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Corticosteroid therapy justification?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of active granulomatous inflammation on histology justifies using oral systemic corticosteroids as systemic therapy to induce remission in this patient.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

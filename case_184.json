@@ -27,5 +27,84 @@
   "caption": "Preoperative ultrasonography findings of a patient with anterior placenta previa indicating suspicious lacunar space, sponge-like findings in the cervix wall, and lack of retroplacental clear zone.",
   "sub_caption": "Preoperative ultrasonography findings of a patient with anterior placenta previa indicating suspicious lacunar space, sponge-like findings in the cervix wall, and lack of retroplacental clear zone.",
   "image_context": "After confirming the placenta location, US findings suggesting a risk of massive blood loss and placental adhesion should be checked. Many studies have reported sonographic findings predicting placenta accreta. Lacunae space (an irregular area of low echogenicity larger than 1 cm × 1 cm in the placental parenchyma) was strongly associated with placenta accreta [6,7]. Lacunae were graded according to their appearance and number, with Grades 2 and 3 at high risk for placental invasion. Grade 2 is defined as the presence of 4–6 lacunae that tend to be larger and more irregular in shape, while Grade 3 is characterized by many large and bizarrely-shaped lacunae throughout the placenta [8]. Sponge-like findings of the cervix wall (five or more hypoechogenic areas > 5 mm in diameter), lack of retroplacental clear zone (the clear zone; sonolucent zone between the placenta and myometrium), thinning (≤ 1 mm) of the myometrium, bridging vessels from the placenta to the uterine-bladder interface, and uterine-bladder interface thinning are also suggestive of abnormal placentation [6,7,9,10] (<xref rid=\"apm-20076f1\" ref-type=\"fig\">Fig. 1</xref>). Magnetic resonance imaging (MRI) can also be used when US examination findings are inconclusive, particularly in women with abnormal placentation. In a systematic review and meta-analysis report, MRI was highly accurate for the detection of placental invasion presence, depth, and topography (). Magnetic resonance imaging (MRI) can also be used when US examination findings are inconclusive, particularly in women with abnormal placentation. In a systematic review and meta-analysis report, MRI was highly accurate for the detection of placental invasion presence, depth, and topography (<xref rid=\"apm-20076f2\" ref-type=\"fig\">Fig. 2</xref>). Further, MRI and US showed similar performance in detecting the presence of invasive placentation [). Further, MRI and US showed similar performance in detecting the presence of invasive placentation [11]. However, the prenatal diagnosis accuracy using US exam may be insufficient, with a sensitivity of 0.53–0.85 and a specificity of 0.71–0.89 [10–12]. US alone has limitations for the prediction of bleeding in the intra- and postpartum periods. Therefore, the clinical characteristics should also be considered.",
-  "relevant_image_context": "Lacunae space (an irregular area of low echogenicity larger than 1 cm × 1 cm in the placental parenchyma) was strongly associated with placenta accreta. Lacunae were graded according to their appearance and number, with Grades 2 and 3 at high risk for placental invasion. Grade 2 is defined as the presence of 4–6 lacunae that tend to be larger and more irregular in shape, while Grade 3 is characterized by many large and bizarrely-shaped lacunae throughout the placenta. Sponge-like findings of the cervix wall (five or more hypoechogenic areas > 5 mm in diameter), lack of retroplacental clear zone (the clear zone; sonolucent zone between the placenta and myometrium), thinning (≤ 1 mm) of the myometrium, bridging vessels from the placenta to the uterine-bladder interface, and uterine-bladder interface thinning are also suggestive of abnormal placentation."
+  "relevant_image_context": "Lacunae space (an irregular area of low echogenicity larger than 1 cm × 1 cm in the placental parenchyma) was strongly associated with placenta accreta. Lacunae were graded according to their appearance and number, with Grades 2 and 3 at high risk for placental invasion. Grade 2 is defined as the presence of 4–6 lacunae that tend to be larger and more irregular in shape, while Grade 3 is characterized by many large and bizarrely-shaped lacunae throughout the placenta. Sponge-like findings of the cervix wall (five or more hypoechogenic areas > 5 mm in diameter), lack of retroplacental clear zone (the clear zone; sonolucent zone between the placenta and myometrium), thinning (≤ 1 mm) of the myometrium, bridging vessels from the placenta to the uterine-bladder interface, and uterine-bladder interface thinning are also suggestive of abnormal placentation.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_86_35-PMC7724116-1-apm-20076f1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_86_35-PMC7724116-1-apm-20076f1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "placental location",
+        "claim_text": "Placental tissue is located along the uterine wall",
+        "presence_question": "Does the model's response discuss placental location?",
+        "correctness_question": "Does the model's response correctly assert that Placental tissue is located along the uterine wall?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "placental appearance",
+        "claim_text": "The placental layer contains multiple irregular hypoechoic or anechoic spaces",
+        "presence_question": "Does the model's response discuss placental appearance?",
+        "correctness_question": "Does the model's response correctly assert that The placental layer contains multiple irregular hypoechoic or anechoic spaces?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "subplacental myometrium thickness",
+        "claim_text": "The myometrial layer between the placenta and uterine serosa is thin",
+        "presence_question": "Does the model's response discuss subplacental myometrium thickness?",
+        "correctness_question": "Does the model's response correctly assert that The myometrial layer between the placenta and uterine serosa is thin?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "placental lacunae and thin myometrium",
+        "claim_text": "Irregular placental lacunae and thinning of the myometrium are often associated with abnormally adherent or invasive placental implantation.",
+        "presence_question": "Does the model's response discuss placental lacunae and thin myometrium?",
+        "correctness_question": "Does the model's response correctly state that Irregular placental lacunae and thinning of the myometrium are often associated with abnormally adherent or invasive placental implantation?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "abnormally adherent or invasive placentation",
+        "claim_text": "Abnormally adherent or invasive placentation typically increases the risk of massive hemorrhage during cesarean delivery.",
+        "presence_question": "Does the model's response discuss abnormally adherent or invasive placentation?",
+        "correctness_question": "Does the model's response correctly state that Abnormally adherent or invasive placentation typically increases the risk of massive hemorrhage during cesarean delivery?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Invasive placental implantation diagnosis",
+        "claim_text": "The ultrasound findings support the presence of an abnormally adherent or invasive placental implantation in this case.",
+        "presence_question": "Does the model's response make an inferential link about Invasive placental implantation diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The ultrasound findings support the presence of an abnormally adherent or invasive placental implantation in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Cesarean operative planning for hemorrhage risk",
+        "claim_text": "Suspected invasive placentation justifies planning the operative strategy for this scheduled cesarean to account for an increased risk of massive hemorrhage.",
+        "presence_question": "Does the model's response make an inferential link about Cesarean operative planning for hemorrhage risk?",
+        "correctness_question": "Does the model's response correctly conclude that Suspected invasive placentation justifies planning the operative strategy for this scheduled cesarean to account for an increased risk of massive hemorrhage?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

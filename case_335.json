@@ -28,5 +28,134 @@
   "caption": "Low power view (×10): Histopathology (H and E) showing highly cellular and fibrillary background. Cells are highly pleomorphic with hyper chromatic nuclei. Multinucleate giant cells and few xanthomatous cells with foamy cytoplasm can also be seen. There is no evidence of mitosis or necrosis suggestive of pleomorphic xanthoastrocytoma",
   "sub_caption": "Low power view (×10): Histopathology (H and E) showing highly cellular and fibrillary background. Cells are highly pleomorphic with hyperchromatic nuclei. Multinucleate giant cells and few xanthomatous cells with foamy cytoplasm can also be seen. There is no evidence of mitosis or necrosis suggestive of pleomorphic xanthoastrocytoma.",
   "image_context": "Histopathology (hematoxylin and eosin stain) showed highly cellular and fibrillary background. Cellular areas consist of small cells with highly pleomorphic and hyperchromatic nuclei. Numerous multinucleated giant cells and few xanthomatous cells with foamy cytoplasm were present with no evidence of mitosis or necrosis. These features were suggestive of PXA (WHO grade 2) [Figures <xref ref-type=\"fig\" rid=\"AJNS-12-566-g005\">4</xref> and  and <xref ref-type=\"fig\" rid=\"AJNS-12-566-g006\">5</xref>].]. High-power view (×40) showing histological features mentioned in <xref ref-type=\"fig\" rid=\"AJNS-12-566-g005\">Figure 4</xref> using H and E, Red arrow showing a multinucleate giant cell and blue arrows showing cells with hyperchromatic nuclei using H and E, Red arrow showing a multinucleate giant cell and blue arrows showing cells with hyperchromatic nuclei",
-  "relevant_image_context": "Histopathology (hematoxylin and eosin stain) showed highly cellular and fibrillary background. Cellular areas consist of small cells with highly pleomorphic and hyperchromatic nuclei. Numerous multinucleated giant cells and few xanthomatous cells with foamy cytoplasm were present with no evidence of mitosis or necrosis. These features were suggestive of PXA (WHO grade 2)."
+  "relevant_image_context": "Histopathology (hematoxylin and eosin stain) showed highly cellular and fibrillary background. Cellular areas consist of small cells with highly pleomorphic and hyperchromatic nuclei. Numerous multinucleated giant cells and few xanthomatous cells with foamy cytoplasm were present with no evidence of mitosis or necrosis. These features were suggestive of PXA (WHO grade 2).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_38_10-PMC4239813-0-gcsp-2012-11-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_38_10-PMC4239813-0-gcsp-2012-11-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "endocardial dense band",
+        "claim_text": "A broad dense band of tissue is present along the endocardial inner surface.",
+        "presence_question": "Does the model's response discuss endocardial dense band?",
+        "correctness_question": "Does the model's response correctly assert that A broad dense band of tissue is present along the endocardial inner surface?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "endocardial thickening",
+        "claim_text": "The broad dense band of tissue is thicker than a normal thin endocardial lining.",
+        "presence_question": "Does the model's response discuss endocardial thickening?",
+        "correctness_question": "Does the model's response correctly assert that The broad dense band of tissue is thicker than a normal thin endocardial lining?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "acellularity of endocardial band",
+        "claim_text": "The broad dense band of tissue appears relatively acellular in the endocardium and subendocardium.",
+        "presence_question": "Does the model's response discuss acellularity of endocardial band?",
+        "correctness_question": "Does the model's response correctly assert that The broad dense band of tissue appears relatively acellular in the endocardium and subendocardium?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "staining difference from myocardium",
+        "claim_text": "The broad dense band of tissue stains differently than the deeper myocardium.",
+        "presence_question": "Does the model's response discuss staining difference from myocardium?",
+        "correctness_question": "Does the model's response correctly assert that The broad dense band of tissue stains differently than the deeper myocardium?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "location of dense band",
+        "claim_text": "The broad dense band of tissue is located at the endocardial inner surface.",
+        "presence_question": "Does the model's response discuss location of dense band?",
+        "correctness_question": "Does the model's response correctly assert that The broad dense band of tissue is located at the endocardial inner surface?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "extent of endocardial band",
+        "claim_text": "The broad dense band of tissue extends with a broad, irregular distribution along the endocardial inner surface.",
+        "presence_question": "Does the model's response discuss extent of endocardial band?",
+        "correctness_question": "Does the model's response correctly assert that The broad dense band of tissue extends with a broad, irregular distribution along the endocardial inner surface?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "100 µm scale bar",
+        "claim_text": "A 100 µm scale bar is present in the image.",
+        "presence_question": "Does the model's response discuss 100 µm scale bar?",
+        "correctness_question": "Does the model's response correctly assert that A 100 µm scale bar is present in the image?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "band larger than 100 µm",
+        "claim_text": "The broad dense band of tissue measures greater than 100 µm, several times the scale bar.",
+        "presence_question": "Does the model's response discuss band larger than 100 µm?",
+        "correctness_question": "Does the model's response correctly assert that The broad dense band of tissue measures greater than 100 µm, several times the scale bar?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "extent of endocardial thickening",
+        "claim_text": "The endocardial and subendocardial thickening extends across a large portion of the visualized ventricular wall field.",
+        "presence_question": "Does the model's response discuss extent of endocardial thickening?",
+        "correctness_question": "Does the model's response correctly assert that The endocardial and subendocardial thickening extends across a large portion of the visualized ventricular wall field?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "decreased normal endocardial lining",
+        "claim_text": "The normal thin endocardial lining is decreased compared to the expected normal amount.",
+        "presence_question": "Does the model's response discuss decreased normal endocardial lining?",
+        "correctness_question": "Does the model's response correctly assert that The normal thin endocardial lining is decreased compared to the expected normal amount?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "endocardial lesion severity assessment",
+        "claim_text": "Severity assessment of endocardial and subendocardial lesions on imaging is based on the extent and degree of the visible abnormality.",
+        "presence_question": "Does the model's response discuss endocardial lesion severity assessment?",
+        "correctness_question": "Does the model's response correctly state that Severity assessment of endocardial and subendocardial lesions on imaging is based on the extent and degree of the visible abnormality?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "image scale bar",
+        "claim_text": "A scale bar on an image indicates the image scale and allows estimation of structure size.",
+        "presence_question": "Does the model's response discuss image scale bar?",
+        "correctness_question": "Does the model's response correctly state that A scale bar on an image indicates the image scale and allows estimation of structure size?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "endocardial abnormality severity",
+        "claim_text": "The presence of a broadly extensive, markedly thickened endocardial/subendocardial band occupying a large portion of the field with little remaining normal thin lining supports classifying the abnormality as severe in this case.",
+        "presence_question": "Does the model's response make an inferential link about endocardial abnormality severity?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a broadly extensive, markedly thickened endocardial/subendocardial band occupying a large portion of the field with little remaining normal thin lining supports classifying the abnormality as severe in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p6",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "band thickness exceeding 100 µm",
+        "claim_text": "The visible 100 µm scale bar and the abnormal band's spanning of several times that distance support the conclusion that the band's thickness in this image exceeds 100 µm by multiple-fold in this case.",
+        "presence_question": "Does the model's response make an inferential link about band thickness exceeding 100 µm?",
+        "correctness_question": "Does the model's response correctly conclude that The visible 100 µm scale bar and the abnormal band's spanning of several times that distance support the conclusion that the band's thickness in this image exceeds 100 µm by multiple-fold in this case.?",
+        "premise_perception_ids": [
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

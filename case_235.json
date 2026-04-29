@@ -28,5 +28,104 @@
   "caption": "(a) CECT abdomen showed enlarged right adrenal gland heterogeneous (red) Pancreatic head solid mass situated posteriorly (blue) and Cyst in pancreatic tail (green), (b) Right Adrenalectomy and Pancreaticoduodenectomy specimen of the same patient",
   "sub_caption": "Right Adrenalectomy and Pancreaticoduodenectomy specimen of the same patient",
   "image_context": "On examination patient was found to be hypertensive with postural fall. On hormonal evaluation he was found to have high levels of 24 h urinary normetanephrines. CECT abdomen [<xref ref-type=\"fig\" rid=\"IJEM-23-159-g002\">Figure 2a</xref>] showed enlarged right adrenal gland heterogeneous (red), pancreatic head solid mass situated posteriorly (blue), and cyst in pancreatic tail (green). In order to rule out other NET and tumor in contralateral adrenal functional imaging was done. FDG PET scan showed avid uptake in right adrenal and pancreatic head. Hence, a clinical diagnosis of Vhl was made. With adequate alpha blockade patient was planned for right adrenalectomy and pancreatic surgery. Open transperitoneal anterior adrenalectomy with IOUSG and bidigital palpation of pancreas—tumor located posteriorly, close to main pancreatic duct as enucleation not possible hence decision was taken for pancreaticoduodenectomy [] showed enlarged right adrenal gland heterogeneous (red), pancreatic head solid mass situated posteriorly (blue), and cyst in pancreatic tail (green). In order to rule out other NET and tumor in contralateral adrenal functional imaging was done. FDG PET scan showed avid uptake in right adrenal and pancreatic head. Hence, a clinical diagnosis of Vhl was made. With adequate alpha blockade patient was planned for right adrenalectomy and pancreatic surgery. Open transperitoneal anterior adrenalectomy with IOUSG and bidigital palpation of pancreas—tumor located posteriorly, close to main pancreatic duct as enucleation not possible hence decision was taken for pancreaticoduodenectomy [<xref ref-type=\"fig\" rid=\"IJEM-23-159-g002\">Figure 2b</xref>]. Postoperative course was uneventful. Postoperative urinary normetanephrines were normal on 10]. Postoperative course was uneventful. Postoperative urinary normetanephrines were normal on 10th day. Histopathology showed right adrenal PCC and pancreatic NET with uncertain malignant potential. Mutation analysis revealed positive mutation in exon 3 of VHL gene at 167th position of amino acid Arg (arginine) is replaced by Gln (glutamine) happens due to CGG-CAG a single nucleotide change.",
-  "relevant_image_context": "CECT abdomen showed enlarged right adrenal gland heterogeneous (red), pancreatic head solid mass situated posteriorly (blue), and cyst in pancreatic tail (green). In order to rule out other NET and tumor in contralateral adrenal functional imaging was done. FDG PET scan showed avid uptake in right adrenal and pancreatic head. Hence, a clinical diagnosis of Vhl was made. With adequate alpha blockade patient was planned for right adrenalectomy and pancreatic surgery. Open transperitoneal anterior adrenalectomy with IOUSG and bidigital palpation of pancreas—tumor located posteriorly, close to main pancreatic duct as enucleation not possible hence decision was taken for pancreaticoduodenectomy. Postoperative course was uneventful. Histopathology showed right adrenal PCC and pancreatic NET with uncertain malignant potential."
+  "relevant_image_context": "CECT abdomen showed enlarged right adrenal gland heterogeneous (red), pancreatic head solid mass situated posteriorly (blue), and cyst in pancreatic tail (green). In order to rule out other NET and tumor in contralateral adrenal functional imaging was done. FDG PET scan showed avid uptake in right adrenal and pancreatic head. Hence, a clinical diagnosis of Vhl was made. With adequate alpha blockade patient was planned for right adrenalectomy and pancreatic surgery. Open transperitoneal anterior adrenalectomy with IOUSG and bidigital palpation of pancreas—tumor located posteriorly, close to main pancreatic duct as enucleation not possible hence decision was taken for pancreaticoduodenectomy. Postoperative course was uneventful. Histopathology showed right adrenal PCC and pancreatic NET with uncertain malignant potential.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_65_36-PMC6446673-1-IJEM-23-159-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_65_36-PMC6446673-1-IJEM-23-159-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Adrenal gland in resected specimen",
+        "claim_text": "An adrenal gland is present in the resected specimen.",
+        "presence_question": "Does the model's response discuss Adrenal gland in resected specimen?",
+        "correctness_question": "Does the model's response correctly assert that An adrenal gland is present in the resected specimen?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Tumor in pancreatic head",
+        "claim_text": "A tumor is located in the pancreatic head.",
+        "presence_question": "Does the model's response discuss Tumor in pancreatic head?",
+        "correctness_question": "Does the model's response correctly assert that A tumor is located in the pancreatic head?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Pancreatic head tumor size",
+        "claim_text": "The tumor in the pancreatic head measures 2 x 2 cm.",
+        "presence_question": "Does the model's response discuss Pancreatic head tumor size?",
+        "correctness_question": "Does the model's response correctly assert that The tumor in the pancreatic head measures 2 x 2 cm?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Fleshy tumor appearance",
+        "claim_text": "The tumor in the pancreatic head appears fleshy.",
+        "presence_question": "Does the model's response discuss Fleshy tumor appearance?",
+        "correctness_question": "Does the model's response correctly assert that The tumor in the pancreatic head appears fleshy?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Tumor count in resected specimens",
+        "claim_text": "There are two tumors in the resected specimens.",
+        "presence_question": "Does the model's response discuss Tumor count in resected specimens?",
+        "correctness_question": "Does the model's response correctly assert that There are two tumors in the resected specimens?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Tumors located in different organs",
+        "claim_text": "The tumors are located in different organs in the body.",
+        "presence_question": "Does the model's response discuss Tumors located in different organs?",
+        "correctness_question": "Does the model's response correctly assert that The tumors are located in different organs in the body?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "multiple primary tumors in separate organs",
+        "claim_text": "Multiple primary tumors in separate organs suggest an inherited tumor predisposition.",
+        "presence_question": "Does the model's response discuss multiple primary tumors in separate organs?",
+        "correctness_question": "Does the model's response correctly state that Multiple primary tumors in separate organs suggest an inherited tumor predisposition?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "autosomal dominant inheritance",
+        "claim_text": "Autosomal dominant inheritance results in approximately a 50% chance of transmission to each child.",
+        "presence_question": "Does the model's response discuss autosomal dominant inheritance?",
+        "correctness_question": "Does the model's response correctly state that Autosomal dominant inheritance results in approximately a 50% chance of transmission to each child?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Inherited tumor predisposition plausibility",
+        "claim_text": "The presence of two distinct tumors in different organs supports the interpretation that an inherited tumor predisposition is plausible in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Inherited tumor predisposition plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of two distinct tumors in different organs supports the interpretation that an inherited tumor predisposition is plausible in this patient.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Autosomal dominant inheritance risk",
+        "claim_text": "If the tumor predisposition in this patient follows an autosomal dominant pattern, this implies a first-degree offspring has an approximately 50% chance of inheriting the pathogenic germline variant.",
+        "presence_question": "Does the model's response make an inferential link about Autosomal dominant inheritance risk?",
+        "correctness_question": "Does the model's response correctly conclude that If the tumor predisposition in this patient follows an autosomal dominant pattern, this implies a first-degree offspring has an approximately 50% chance of inheriting the pathogenic germline variant.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

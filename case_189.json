@@ -27,5 +27,99 @@
   "caption": "A The positions of three trocars in traditional laparoscopic Cohen surgery. B, C The ureter was mobilized to 2.5–3 cm with circumferential cutting of the mucosal layer surrounding the opening with an electrode hook. D Cross-trigonal tunneling is started from the affected side across the bladder trigone to the opposite side, with careful mucosal separation. E, F The mobilized ureter is then tunneled into the submucosal plane and out to the new orifice. Then finished the anastomosis. G The wound of laparoscopic Cohen surgery",
   "sub_caption": "D Cross-trigonal tunneling is started from the affected side across the bladder trigone to the opposite side, with careful mucosal separation.",
   "image_context": "A 6F or 8F urethral catheter was inserted into the bladder and filled with normal saline until the bladder was palpably distended. The midline was identified for suprapubic positioning of 3 ports between the umbilicus and top of the pubic bone with the bladder dome situated at the umbilical level along the midline. Then, at 3 cm below the umbilical level, two stitches of 2–0 absorbable sutures were used for percutaneous fixation of the bladder to the anterior abdominal wall. A 5-mm incision was made in the abdomen between the two sutured sites. Then, a 3-mm step port for the camera was inserted. The second and third working ports were inserted 3 cm lateral to the median port on both sides in a similar manner. After the trocars were inserted, the saline was drained, and the bladder was insufflated with CO2 gas at a pressure of 8-12 mmHg and flow rate of 3–4 l/min in Fig. <xref rid=\"40001_2024_1862_Fig2_HTML\" ref-type=\"fig\">2</xref>A.A.Fig. 2A The positions of three trocars in traditional laparoscopic Cohen surgery. B, C The ureter was mobilized to 2.5–3 cm with circumferential cutting of the mucosal layer surrounding the opening with an electrode hook. D Cross-trigonal tunneling is started from the affected side across the bladder trigone to the opposite side, with careful mucosal separation. E, F The mobilized ureter is then tunneled into the submucosal plane and out to the new orifice. Then finished the anastomosis. G The wound of laparoscopic Cohen surgery Under cystoscopic vision, a 3F ureteral stent was introduced into the urethral opening, inserted into the affected ureter and fixed at the end of the distal ureter with 5–0 absorbable sutures. This facilitates visualization of the extra vesicalureteral pathway. Then, the ureter was mobilized to2.5–3 cm with circumferential cutting of the mucosal layer surrounding the opening with an electrode hook. To minimize injury to the muscularis and surrounding tissues, electrocautery should be localized with the peri-ureteral adventitia. Ureteral tailoring can now be performed as if required in Fig. <xref rid=\"40001_2024_1862_Fig2_HTML\" ref-type=\"fig\">2</xref>B, C. Cross-trigonal tunneling is started from the affected side across the bladder trigone to the opposite side with careful mucosal separation. At the original ureteral orifice, the defect in the detrusor muscle was closed with interrupted sutures. The remaining mucosal defects were closed with absorbable sutures, and the tube was removed. The ureter was fixed in position with interrupted 5–0 sutures. Anastomosis was performed between the end of the crossed ureter and the bladder mucosa at the neohiatus with 5–0 interrupted sutures dissection in the submucosal plane in Fig. B, C. Cross-trigonal tunneling is started from the affected side across the bladder trigone to the opposite side with careful mucosal separation. At the original ureteral orifice, the defect in the detrusor muscle was closed with interrupted sutures. The remaining mucosal defects were closed with absorbable sutures, and the tube was removed. The ureter was fixed in position with interrupted 5–0 sutures. Anastomosis was performed between the end of the crossed ureter and the bladder mucosa at the neohiatus with 5–0 interrupted sutures dissection in the submucosal plane in Fig. <xref rid=\"40001_2024_1862_Fig2_HTML\" ref-type=\"fig\">2</xref>D. The new orifice is opened at a site slightly superior to the unaffected ureteral orifice on the other side. The mobilized ureter is then tunneled into the submucosal plane and out to the new orifice, similar to the steps in open surgery in Fig. D. The new orifice is opened at a site slightly superior to the unaffected ureteral orifice on the other side. The mobilized ureter is then tunneled into the submucosal plane and out to the new orifice, similar to the steps in open surgery in Fig. <xref rid=\"40001_2024_1862_Fig2_HTML\" ref-type=\"fig\">2</xref>E, F.E, F.",
-  "relevant_image_context": "D Cross-trigonal tunneling is started from the affected side across the bladder trigone to the opposite side, with careful mucosal separation."
+  "relevant_image_context": "D Cross-trigonal tunneling is started from the affected side across the bladder trigone to the opposite side, with careful mucosal separation.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_170_107-PMC11077742-1-40001_2024_1862_Fig2_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_170_107-PMC11077742-1-40001_2024_1862_Fig2_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "laparoscopic or robotic instruments",
+        "claim_text": "Laparoscopic or robotic instruments are present, dissecting a thin mucosal layer across the bladder trigone.",
+        "presence_question": "Does the model's response discuss laparoscopic or robotic instruments?",
+        "correctness_question": "Does the model's response correctly assert that Laparoscopic or robotic instruments are present, dissecting a thin mucosal layer across the bladder trigone?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "thin mucosal layer",
+        "claim_text": "The mucosal layer in the bladder trigone appears thin.",
+        "presence_question": "Does the model's response discuss the thin mucosal layer?",
+        "correctness_question": "Does the model's response correctly assert that The mucosal layer in the bladder trigone appears thin?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "mucosal layer location",
+        "claim_text": "A mucosal layer is located at the bladder trigone.",
+        "presence_question": "Does the model's response discuss the mucosal layer location?",
+        "correctness_question": "Does the model's response correctly assert that A mucosal layer is located at the bladder trigone?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "instruments in submucosal plane",
+        "claim_text": "The instruments are located within the submucosal plane of the bladder trigone.",
+        "presence_question": "Does the model's response discuss instruments in the submucosal plane?",
+        "correctness_question": "Does the model's response correctly assert that The instruments are located within the submucosal plane of the bladder trigone?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "mucosal/submucosal dissection",
+        "claim_text": "Mucosal/submucosal dissection is present, showing deliberate separation of mucosa from underlying tissue.",
+        "presence_question": "Does the model's response discuss mucosal/submucosal dissection?",
+        "correctness_question": "Does the model's response correctly assert that Mucosal/submucosal dissection is present, showing deliberate separation of mucosa from underlying tissue?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "ureteral orifices absence",
+        "claim_text": "The ureteral orifices are absent in this field.",
+        "presence_question": "Does the model's response discuss the ureteral orifices?",
+        "correctness_question": "Does the model's response correctly assert that The ureteral orifices are absent in this field?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "vascular pedicles absence",
+        "claim_text": "Distinct vascular pedicles are absent in this field.",
+        "presence_question": "Does the model's response discuss vascular pedicles?",
+        "correctness_question": "Does the model's response correctly assert that Distinct vascular pedicles are absent in this field?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "mucosal/submucosal dissection",
+        "claim_text": "Mucosal/submucosal dissection is the separation of the mucosa from the underlying tissue.",
+        "presence_question": "Does the model's response discuss mucosal/submucosal dissection?",
+        "correctness_question": "Does the model's response correctly state that Mucosal/submucosal dissection is the separation of the mucosa from the underlying tissue?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "inadvertent mucosal breach",
+        "claim_text": "An inadvertent mucosal breach is an important intraoperative adverse event to avoid during mucosal separation.",
+        "presence_question": "Does the model's response discuss inadvertent mucosal breach?",
+        "correctness_question": "Does the model's response correctly state that An inadvertent mucosal breach is an important intraoperative adverse event to avoid during mucosal separation?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Inadvertent mucosal breach as top adverse event",
+        "claim_text": "The image supports that an inadvertent mucosal breach is the most important intraoperative adverse event to avoid in this case.",
+        "presence_question": "Does the model's response make an inferential link about inadvertent mucosal breach as top adverse event?",
+        "correctness_question": "Does the model's response correctly conclude that the image supports that an inadvertent mucosal breach is the most important intraoperative adverse event to avoid in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

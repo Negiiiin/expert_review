@@ -28,5 +28,112 @@
   "caption": "Magnetic Resonance Venography demonstrating thrombosis of the superior sagittal sinus",
   "sub_caption": "Magnetic Resonance Venography demonstrating thrombosis of the superior sagittal sinus",
   "image_context": "One day after admission she had about 10 episodes of sided convulsions, with residual right sided hemiparesis. The power of all the muscle groups in the right upper and lower limbs was grade 2/5. A Magnetic Resonance venography established superior sagittal and left transverse sinuses thrombosis (<xref ref-type=\"fig\" rid=\"PAMJ-16-4-g001\">Figure 1</xref>). Furthermore, there were venous infarction with haemorrhagic component and oedema in the left frontal, temporal, occipital and parietal lobes. In addition to continuation of anticoagulation, anticonvulsants were optimized to control convulsions. There was a reduction of seizure episodes over the subsequent five days and the patient's neurological deficit slowly normalized inthe next three weeks. She was then discharged home with mild hemiparesis and her subsequent outpatient visits showed no neurologic deterioration.). Furthermore, there were venous infarction with haemorrhagic component and oedema in the left frontal, temporal, occipital and parietal lobes. In addition to continuation of anticoagulation, anticonvulsants were optimized to control convulsions. There was a reduction of seizure episodes over the subsequent five days and the patient's neurological deficit slowly normalized inthe next three weeks. She was then discharged home with mild hemiparesis and her subsequent outpatient visits showed no neurologic deterioration.",
-  "relevant_image_context": "One day after admission she had about 10 episodes of sided convulsions, with residual right sided hemiparesis. The power of all the muscle groups in the right upper and lower limbs was grade 2/5. A Magnetic Resonance venography established superior sagittal and left transverse sinuses thrombosis (Figure 1). Furthermore, there were venous infarction with haemorrhagic component and oedema in the left frontal, temporal, occipital and parietal lobes. In addition to continuation of anticoagulation, anticonvulsants were optimized to control convulsions. There was a reduction of seizure episodes over the subsequent five days and the patient's neurological deficit slowly normalized inthe next three weeks. She was then discharged home with mild hemiparesis and her subsequent outpatient visits showed no neurologic deterioration.). Furthermore, there were venous infarction with haemorrhagic component and oedema in the left frontal, temporal, occipital and parietal lobes. In addition to continuation of anticoagulation, anticonvulsants were optimized to control convulsions. There was a reduction of seizure episodes over the subsequent five days and the patient's neurological deficit slowly normalized inthe next three weeks. She was then discharged home with mild hemiparesis and her subsequent outpatient visits showed no neurologic deterioration. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "One day after admission she had about 10 episodes of sided convulsions, with residual right sided hemiparesis. The power of all the muscle groups in the right upper and lower limbs was grade 2/5. A Magnetic Resonance venography established superior sagittal and left transverse sinuses thrombosis (Figure 1). Furthermore, there were venous infarction with haemorrhagic component and oedema in the left frontal, temporal, occipital and parietal lobes. In addition to continuation of anticoagulation, anticonvulsants were optimized to control convulsions. There was a reduction of seizure episodes over the subsequent five days and the patient's neurological deficit slowly normalized inthe next three weeks. She was then discharged home with mild hemiparesis and her subsequent outpatient visits showed no neurologic deterioration.). Furthermore, there were venous infarction with haemorrhagic component and oedema in the left frontal, temporal, occipital and parietal lobes. In addition to continuation of anticoagulation, anticonvulsants were optimized to control convulsions. There was a reduction of seizure episodes over the subsequent five days and the patient's neurological deficit slowly normalized inthe next three weeks. She was then discharged home with mild hemiparesis and her subsequent outpatient visits showed no neurologic deterioration. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_19_0-PMC3926758-0-PAMJ-16-4-g001.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_19_0-PMC3926758-0-PAMJ-16-4-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "superior sagittal sinus flow",
+        "claim_text": "Flow signal in the superior sagittal sinus is decreased compared to normal.",
+        "presence_question": "Does the model's response discuss superior sagittal sinus flow?",
+        "correctness_question": "Does the model's response correctly assert that Flow signal in the superior sagittal sinus is decreased compared to normal?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "superior sagittal sinus filling defect",
+        "claim_text": "There is a filling defect in the superior sagittal sinus.",
+        "presence_question": "Does the model's response discuss superior sagittal sinus filling defect?",
+        "correctness_question": "Does the model's response correctly assert that There is a filling defect in the superior sagittal sinus?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "multiple focal seizures",
+        "claim_text": "Multiple focal seizures were documented after admission during the hospital stay.",
+        "presence_question": "Does the model's response discuss multiple focal seizures?",
+        "correctness_question": "Does the model's response correctly assert that Multiple focal seizures were documented after admission during the hospital stay?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "right-sided weakness",
+        "claim_text": "Residual right-sided weakness is present, representing a focal motor deficit.",
+        "presence_question": "Does the model's response discuss right-sided weakness?",
+        "correctness_question": "Does the model's response correctly assert that Residual right-sided weakness is present, representing a focal motor deficit?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "treatment of venous sinus thrombosis",
+        "claim_text": "Venous sinus thrombosis is treated with therapeutic-dose low-molecular-weight heparin (full anticoagulation).",
+        "presence_question": "Does the model's response discuss treatment of venous sinus thrombosis?",
+        "correctness_question": "Does the model's response correctly state that Venous sinus thrombosis is treated with therapeutic-dose low-molecular-weight heparin (full anticoagulation)?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "focal seizures and focal motor deficits",
+        "claim_text": "Focal seizures and focal motor deficits are associated with localized cortical venous drainage abnormalities.",
+        "presence_question": "Does the model's response discuss focal seizures and focal motor deficits?",
+        "correctness_question": "Does the model's response correctly state that Focal seizures and focal motor deficits are associated with localized cortical venous drainage abnormalities?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "loss of flow signal on MR venography",
+        "claim_text": "Loss of normal flow signal on MR venography suggests a filling defect or occlusion of a venous sinus.",
+        "presence_question": "Does the model's response discuss loss of flow signal on MR venography?",
+        "correctness_question": "Does the model's response correctly state that Loss of normal flow signal on MR venography suggests a filling defect or occlusion of a venous sinus?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "MR venography evidence for superior sagittal sinus thrombosis",
+        "claim_text": "The decreased flow signal and filling defect in the superior sagittal sinus on MR venography support the diagnosis of superior sagittal sinus thrombosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about MR venography evidence for superior sagittal sinus thrombosis?",
+        "correctness_question": "Does the model's response correctly conclude that The decreased flow signal and filling defect in the superior sagittal sinus on MR venography support the diagnosis of superior sagittal sinus thrombosis in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Symptoms attributable to superior sagittal sinus thrombosis",
+        "claim_text": "The patient's multiple focal seizures and residual right-sided weakness are consistent with a localized cortical venous drainage abnormality and therefore attributable to the superior sagittal sinus thrombosis suggested on imaging.",
+        "presence_question": "Does the model's response make an inferential link about Symptoms attributable to superior sagittal sinus thrombosis?",
+        "correctness_question": "Does the model's response correctly conclude that The patient's multiple focal seizures and residual right-sided weakness are consistent with a localized cortical venous drainage abnormality and therefore attributable to the superior sagittal sinus thrombosis suggested on imaging?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Therapeutic anticoagulation justified for SSS thrombosis",
+        "claim_text": "Because the imaging findings indicate a venous sinus occlusion (superior sagittal sinus) in this case, therapeutic-dose low-molecular-weight heparin is justified as treatment for the thrombosis.",
+        "presence_question": "Does the model's response make an inferential link about Therapeutic anticoagulation justified for SSS thrombosis?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging findings indicate a venous sinus occlusion (superior sagittal sinus) in this case, therapeutic-dose low-molecular-weight heparin is justified as treatment for the thrombosis?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

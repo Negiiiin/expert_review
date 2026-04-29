@@ -27,5 +27,123 @@
   "caption": "Leg magnetic resonance image with pulsation blood flow artifact (labeled by yellow arrows). Note the artifacts are in line with the blood vessels in the phase encoding direction.",
   "sub_caption": "Leg magnetic resonance image with pulsation blood flow artifact (labeled by yellow arrows). Note the artifacts are in line with the blood vessels in the phase encoding direction.",
   "image_context": "Body tissue motion or fluid flow during an MR scan can produce image artifacts that manifest along the phase-encoding direction and extend over the entire image [<xref rid=\"JCIS-14-33-g009\" ref-type=\"fig\">Figure 9</xref>].].[1-9,12] Motion artifacts may stem from blood vessel pulsations, respiratory/cardiac motion, swallowing, and physical movement of the patient. Random motion such as patient movement tends to produce artifact that has a smear appearance while periodic motion, such as cardiac/vascular pulsation or respiratory motion, typically produces artifacts that are more discrete. Motion artifact may be identified and distinguished from RF interference artifact by observing that the artifact is in line with the moving tissues or flowing vessels in the phase-encoding direction [<xref rid=\"JCIS-14-33-g009\" ref-type=\"fig\">Figure 9</xref>].].",
-  "relevant_image_context": "Body tissue motion or fluid flow during an MR scan can produce image artifacts that manifest along the phase-encoding direction and extend over the entire image [Figure 9]. Motion artifacts may stem from blood vessel pulsations, respiratory/cardiac motion, swallowing, and physical movement of the patient. Random motion such as patient movement tends to produce artifact that has a smear appearance while periodic motion, such as cardiac/vascular pulsation or respiratory motion, typically produces artifacts that are more discrete. Motion artifact may be identified and distinguished from RF interference artifact by observing that the artifact is in line with the moving tissues or flowing vessels in the phase-encoding direction [Figure 9]."
+  "relevant_image_context": "Body tissue motion or fluid flow during an MR scan can produce image artifacts that manifest along the phase-encoding direction and extend over the entire image [Figure 9]. Motion artifacts may stem from blood vessel pulsations, respiratory/cardiac motion, swallowing, and physical movement of the patient. Random motion such as patient movement tends to produce artifact that has a smear appearance while periodic motion, such as cardiac/vascular pulsation or respiratory motion, typically produces artifacts that are more discrete. Motion artifact may be identified and distinguished from RF interference artifact by observing that the artifact is in line with the moving tissues or flowing vessels in the phase-encoding direction [Figure 9].",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_159_6-PMC11450485-1-JCIS-14-33-g009.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_159_6-PMC11450485-1-JCIS-14-33-g009.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "thigh cross-section",
+        "claim_text": "The image is a transverse cross-sectional view of the thigh.",
+        "presence_question": "Does the model's response discuss thigh cross-section?",
+        "correctness_question": "Does the model's response correctly assert that The image is a transverse cross-sectional view of the thigh?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "single central structure",
+        "claim_text": "A single central structure is present in the image slice.",
+        "presence_question": "Does the model's response discuss single central structure?",
+        "correctness_question": "Does the model's response correctly assert that A single central structure is present in the image slice?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "central structure shape",
+        "claim_text": "The central structure has a round or ovoid shape.",
+        "presence_question": "Does the model's response discuss central structure shape?",
+        "correctness_question": "Does the model's response correctly assert that The central structure has a round or ovoid shape?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "central structure location",
+        "claim_text": "The central structure is located at the center of the image slice.",
+        "presence_question": "Does the model's response discuss central structure location?",
+        "correctness_question": "Does the model's response correctly assert that The central structure is located at the center of the image slice?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "central structure margin",
+        "claim_text": "The central structure has a well-defined margin in the image slice.",
+        "presence_question": "Does the model's response discuss central structure margin?",
+        "correctness_question": "Does the model's response correctly assert that The central structure has a well-defined margin in the image slice?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "dark rim with lighter center",
+        "claim_text": "The central structure shows a dark rim surrounding a lighter central region.",
+        "presence_question": "Does the model's response discuss dark rim with lighter center?",
+        "correctness_question": "Does the model's response correctly assert that The central structure shows a dark rim surrounding a lighter central region?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "surrounding muscles and soft tissues",
+        "claim_text": "Muscle groups and surrounding soft tissues encircle the central structure.",
+        "presence_question": "Does the model's response discuss surrounding muscles and soft tissues?",
+        "correctness_question": "Does the model's response correctly assert that Muscle groups and surrounding soft tissues encircle the central structure?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "cortical rim and central marrow appearance",
+        "claim_text": "The central structure's appearance resembles a cortical rim with central marrow.",
+        "presence_question": "Does the model's response discuss cortical rim and central marrow appearance?",
+        "correctness_question": "Does the model's response correctly assert that The central structure's appearance resembles a cortical rim with central marrow?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Long-bone diaphysis appearance",
+        "claim_text": "On cross-sectional imaging, the diaphysis of long bones typically shows a dense cortical rim with central marrow.",
+        "presence_question": "Does the model's response discuss Long-bone diaphysis appearance?",
+        "correctness_question": "Does the model's response correctly state that On cross-sectional imaging, the diaphysis of long bones typically shows a dense cortical rim with central marrow?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Mid-thigh cross-sectional anatomy",
+        "claim_text": "On transverse cross-section through the mid-thigh, the femoral shaft is centrally located and surrounded by concentric muscle groups.",
+        "presence_question": "Does the model's response discuss Mid-thigh cross-sectional anatomy?",
+        "correctness_question": "Does the model's response correctly state that On transverse cross-section through the mid-thigh, the femoral shaft is centrally located and surrounded by concentric muscle groups?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Long-bone diaphysis identification",
+        "claim_text": "The single, well-defined round structure with a dark rim and lighter central region supports that the structure represents a long-bone diaphysis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Long-bone diaphysis identification?",
+        "correctness_question": "Does the model's response correctly conclude that The single, well-defined round structure with a dark rim and lighter central region supports that the structure represents a long-bone diaphysis in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p5",
+          "p6",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Femoral shaft identification",
+        "claim_text": "Given a mid-thigh transverse slice and concentric surrounding muscle groups, the central osseous structure supports that it most likely represents the femoral (long-bone) shaft in this cross-section.",
+        "presence_question": "Does the model's response make an inferential link about Femoral shaft identification?",
+        "correctness_question": "Does the model's response correctly conclude that Given a mid-thigh transverse slice and concentric surrounding muscle groups, the central osseous structure supports that it most likely represents the femoral (long-bone) shaft in this cross-section?",
+        "premise_perception_ids": [
+          "p1",
+          "p4",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

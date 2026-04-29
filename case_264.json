@@ -28,5 +28,130 @@
   "caption": "Observations in patient 2. Right eye: Perifoveal superficial vascular plexus in a 3 × 3 mm fovea-centered OCTA image with inferior interruption of the capillary network (upper right). Hyperreflective retinal abnormalities (ie, microvascular protrusions; red circles) within enlarged foveal avascular zone in the pDVP en face OCTA and B-scan images (lower band of images). Note the vascular retinal abnormality at the boundary between pSVP and pDVP on the upper B-scan image (red circle). Copyright © 2016 Karger Publishers, Basel, Switzerland. Adapted with permission from Stanga PE, Papayannis A, Tsamis E, et al. Swept-source optical coherence tomography angiography of paediatric macular diseases. Dev Ophthalmol. 2016;56:166–173.25Abbreviations: OCTA, optical coherence tomography angiography; pDVP, perifoveal deep vascular plexus; pSVP, perifoveal superficial vascular plexus.",
   "sub_caption": "Right eye: Perifoveal superficial vascular plexus in a 3 × 3 mm fovea-centered OCTA image with inferior interruption of the capillary network (upper right). Hyperreflective retinal abnormalities (ie, microvascular protrusions; red circles) within enlarged foveal avascular zone in the pDVP en face OCTA and B-scan images (lower band of images). Note the vascular retinal abnormality at the boundary between pSVP and pDVP on the upper B-scan image (red circle).",
   "image_context": "This patient presented with the RS1 gene mutation c.590 G>A (p.R197H) (Exon 6). Imaging analysis of the data acquired from the left eye was unsuccessful because of retinal detachment involving the fovea. In the right eye, BCVA was 6/12, and fundoscopy examination showed stellate spoke-like maculopathy with perimacular exudation. Inferior peripheral retinoschisis with bridging vessels between retinal leaflets was also present. Structural OCT B-scans showed high retinal disruption and foveal schistic cysts localized in the GCL, INL (bigger in the INL) and ONL. Right eye’s CRT was 340 µm. OCTA images were acquired with Atlantis. There were no microvascular changes in the pSVP. Vessels with abnormal protrusion and course were identified in pDVP. A single vascular abnormality has been observed at the boundary between the pSVP and pDVP. The FAZ shape was abnormal in both plexuses (<xref ref-type=\"fig\" rid=\"imcrj-10-329Fig2\">Figure 2</xref>).).",
-  "relevant_image_context": "This patient presented with the RS1 gene mutation c.590 G>A (p.R197H) (Exon 6). Imaging analysis of the data acquired from the left eye was unsuccessful because of retinal detachment involving the fovea. In the right eye, BCVA was 6/12, and fundoscopy examination showed stellate spoke-like maculopathy with perimacular exudation. Inferior peripheral retinoschisis with bridging vessels between retinal leaflets was also present. Structural OCT B-scans showed high retinal disruption and foveal schistic cysts localized in the GCL, INL (bigger in the INL) and ONL. Right eye’s CRT was 340 µm. OCTA images were acquired with Atlantis. There were no microvascular changes in the pSVP. Vessels with abnormal protrusion and course were identified in pDVP. A single vascular abnormality has been observed at the boundary between the pSVP and pDVP. The FAZ shape was abnormal in both plexuses (Figure 2.).)."
+  "relevant_image_context": "This patient presented with the RS1 gene mutation c.590 G>A (p.R197H) (Exon 6). Imaging analysis of the data acquired from the left eye was unsuccessful because of retinal detachment involving the fovea. In the right eye, BCVA was 6/12, and fundoscopy examination showed stellate spoke-like maculopathy with perimacular exudation. Inferior peripheral retinoschisis with bridging vessels between retinal leaflets was also present. Structural OCT B-scans showed high retinal disruption and foveal schistic cysts localized in the GCL, INL (bigger in the INL) and ONL. Right eye’s CRT was 340 µm. OCTA images were acquired with Atlantis. There were no microvascular changes in the pSVP. Vessels with abnormal protrusion and course were identified in pDVP. A single vascular abnormality has been observed at the boundary between the pSVP and pDVP. The FAZ shape was abnormal in both plexuses (Figure 2.).).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_49_30-PMC5652910-2-imcrj-10-329Fig2.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_49_30-PMC5652910-2-imcrj-10-329Fig2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "central macular dark zone",
+        "claim_text": "There is a central, well-defined dark zone located in the macular region.",
+        "presence_question": "Does the model's response discuss central macular dark zone?",
+        "correctness_question": "Does the model's response correctly assert that There is a central, well-defined dark zone located in the macular region.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "capillary detail in central macula",
+        "claim_text": "There are no capillary details visible within the central dark zone of the macula.",
+        "presence_question": "Does the model's response discuss capillary detail in central macula?",
+        "correctness_question": "Does the model's response correctly assert that There are no capillary details visible within the central dark zone of the macula.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "perifoveal capillary ring",
+        "claim_text": "The perifoveal capillary ring immediately surrounding the central zone is decreased compared to peripheral larger vessels.",
+        "presence_question": "Does the model's response discuss perifoveal capillary ring?",
+        "correctness_question": "Does the model's response correctly assert that The perifoveal capillary ring immediately surrounding the central zone is decreased compared to peripheral larger vessels.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "perifoveal capillary size",
+        "claim_text": "Perifoveal capillaries are thinner than the peripheral larger vessels.",
+        "presence_question": "Does the model's response discuss perifoveal capillary size?",
+        "correctness_question": "Does the model's response correctly assert that Perifoveal capillaries are thinner than the peripheral larger vessels.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "perifoveal capillary network density",
+        "claim_text": "The perifoveal capillary network immediately around the dark center has reduced density with fewer fine capillary loops.",
+        "presence_question": "Does the model's response discuss perifoveal capillary network density?",
+        "correctness_question": "Does the model's response correctly assert that The perifoveal capillary network immediately around the dark center has reduced density with fewer fine capillary loops.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "central dark zone margin",
+        "claim_text": "The central dark zone has a well-defined margin.",
+        "presence_question": "Does the model's response discuss central dark zone margin?",
+        "correctness_question": "Does the model's response correctly assert that The central dark zone has a well-defined margin.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "foveal avascular zone enlargement",
+        "claim_text": "An enlarged foveal avascular zone is identified by a central area lacking visible capillary detail.",
+        "presence_question": "Does the model's response discuss foveal avascular zone enlargement?",
+        "correctness_question": "Does the model's response correctly state that An enlarged foveal avascular zone is identified by a central area lacking visible capillary detail?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "perifoveal capillary rarefaction",
+        "claim_text": "Perifoveal capillary rarefaction is defined as a reduction in the density and caliber of the perifoveal small-capillary network.",
+        "presence_question": "Does the model's response discuss perifoveal capillary rarefaction?",
+        "correctness_question": "Does the model's response correctly state that Perifoveal capillary rarefaction is defined as a reduction in the density and caliber of the perifoveal small-capillary network?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "perifoveal capillary network",
+        "claim_text": "The perifoveal capillary network is composed of fine capillary loops immediately surrounding the foveal center.",
+        "presence_question": "Does the model's response discuss perifoveal capillary network?",
+        "correctness_question": "Does the model's response correctly state that The perifoveal capillary network is composed of fine capillary loops immediately surrounding the foveal center?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Enlarged FAZ inference",
+        "claim_text": "The central well-defined dark zone in the macula that lacks visible capillary detail supports an enlarged foveal avascular zone (FAZ) in this case.",
+        "presence_question": "Does the model's response make an inferential link about Enlarged FAZ inference?",
+        "correctness_question": "Does the model's response correctly conclude that The central well-defined dark zone in the macula that lacks visible capillary detail supports an enlarged foveal avascular zone (FAZ) in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Perifoveal capillary rarefaction inference",
+        "claim_text": "The observed reduced density and thinner caliber of the perifoveal capillary network (fewer fine capillary loops) supports the presence of perifoveal capillary rarefaction in this case.",
+        "presence_question": "Does the model's response make an inferential link about Perifoveal capillary rarefaction inference?",
+        "correctness_question": "Does the model's response correctly conclude that The observed reduced density and thinner caliber of the perifoveal capillary network (fewer fine capillary loops) supports the presence of perifoveal capillary rarefaction in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Enlarged FAZ with perifoveal rarefaction inference",
+        "claim_text": "The combination of a central macular zone without capillary detail and a surrounding ring of sparser, thinner perifoveal capillaries is consistent with an enlarged FAZ with adjacent perifoveal capillary rarefaction in this case.",
+        "presence_question": "Does the model's response make an inferential link about Enlarged FAZ with perifoveal rarefaction inference?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a central macular zone without capillary detail and a surrounding ring of sparser, thinner perifoveal capillaries is consistent with an enlarged FAZ with adjacent perifoveal capillary rarefaction in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

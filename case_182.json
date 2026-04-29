@@ -27,5 +27,119 @@
   "caption": "Second follow‐up study, 2 months after initial presentation. The coronary angiography scan captured at the second follow‐up shows partial resolution of the intramural hematoma with the residual ostial left anterior descending artery, 30% stenosis, and an outpouching.",
   "sub_caption": "The coronary angiography scan captured at the second follow‐up shows partial resolution of the intramural hematoma with the residual ostial left anterior descending artery, 30% stenosis, and an outpouching.",
   "image_context": "A follow‐up CT coronary angiography 1 month after presentation to the clinic (Figure <xref rid=\"CCR3-12-e8988-g004\" ref-type=\"fig\">4</xref>) revealed significant improvement in the IMH, with a 30% residual narrowing of the ostial LAD and, once again, an outpouching. A few days later, the interventional cardiologist admitted the patient for diagnostic and follow‐up purposes regarding the persistent outpouching, and another coronary angiography was performed. The angiogram showed significant improvement of the IMH with no stenosis, dissecting flap, or pseudoaneurysm on IVUS and OCT. The cardiologist determined that no intervention was necessary in this case. Follow‐up was conducted 1 year later, and a CT coronary angiography scan showed resolution of the outpouching with no residual stenosis (Figure ) revealed significant improvement in the IMH, with a 30% residual narrowing of the ostial LAD and, once again, an outpouching. A few days later, the interventional cardiologist admitted the patient for diagnostic and follow‐up purposes regarding the persistent outpouching, and another coronary angiography was performed. The angiogram showed significant improvement of the IMH with no stenosis, dissecting flap, or pseudoaneurysm on IVUS and OCT. The cardiologist determined that no intervention was necessary in this case. Follow‐up was conducted 1 year later, and a CT coronary angiography scan showed resolution of the outpouching with no residual stenosis (Figure <xref rid=\"CCR3-12-e8988-g005\" ref-type=\"fig\">5</xref>).).",
-  "relevant_image_context": "A follow‐up CT coronary angiography 1 month after presentation to the clinic (Figure 4) revealed significant improvement in the IMH, with a 30% residual narrowing of the ostial LAD and, once again, an outpouching. A few days later, the interventional cardiologist admitted the patient for diagnostic and follow‐up purposes regarding the persistent outpouching, and another coronary angiography was performed. The angiogram showed significant improvement of the IMH with no stenosis, dissecting flap, or pseudoaneurysm on IVUS and OCT. The cardiologist determined that no intervention was necessary in this case. Follow‐up was conducted 1 year later, and a CT coronary angiography scan showed resolution of the outpouching with no residual stenosis (Figure ). revealed significant improvement in the IMH, with a 30% residual narrowing of the ostial LAD and, once again, an outpouching. A few days later, the interventional cardiologist admitted the patient for diagnostic and follow‐up purposes regarding the persistent outpouching, and another coronary angiography was performed. The angiogram showed significant improvement of the IMH with no stenosis, dissecting flap, or pseudoaneurysm on IVUS and OCT. The cardiologist determined that no intervention was necessary in this case. Follow‐up was conducted 1 year later, and a CT coronary angiography scan showed resolution of the outpouching with no residual stenosis (Figure 5).). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "A follow‐up CT coronary angiography 1 month after presentation to the clinic (Figure 4) revealed significant improvement in the IMH, with a 30% residual narrowing of the ostial LAD and, once again, an outpouching. A few days later, the interventional cardiologist admitted the patient for diagnostic and follow‐up purposes regarding the persistent outpouching, and another coronary angiography was performed. The angiogram showed significant improvement of the IMH with no stenosis, dissecting flap, or pseudoaneurysm on IVUS and OCT. The cardiologist determined that no intervention was necessary in this case. Follow‐up was conducted 1 year later, and a CT coronary angiography scan showed resolution of the outpouching with no residual stenosis (Figure ). revealed significant improvement in the IMH, with a 30% residual narrowing of the ostial LAD and, once again, an outpouching. A few days later, the interventional cardiologist admitted the patient for diagnostic and follow‐up purposes regarding the persistent outpouching, and another coronary angiography was performed. The angiogram showed significant improvement of the IMH with no stenosis, dissecting flap, or pseudoaneurysm on IVUS and OCT. The cardiologist determined that no intervention was necessary in this case. Follow‐up was conducted 1 year later, and a CT coronary angiography scan showed resolution of the outpouching with no residual stenosis (Figure 5).). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_152_32-PMC11208282-2-CCR3-12-e8988-g004.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_152_32-PMC11208282-2-CCR3-12-e8988-g004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "LAD territory opacification",
+        "claim_text": "The left anterior descending (LAD) territory is well opacified.",
+        "presence_question": "Does the model's response discuss LAD territory opacification?",
+        "correctness_question": "Does the model's response correctly assert that The left anterior descending (LAD) territory is well opacified.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "number of arrows",
+        "claim_text": "There are two visible arrows present on the image and they are marked for reference.",
+        "presence_question": "Does the model's response discuss number of arrows?",
+        "correctness_question": "Does the model's response correctly assert that There are two visible arrows present on the image and they are marked for reference.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "contrast-filled outpouching location",
+        "claim_text": "A contrast-filled outpouching is located at the proximal/ostial segment of the left anterior descending artery.",
+        "presence_question": "Does the model's response discuss contrast-filled outpouching location?",
+        "correctness_question": "Does the model's response correctly assert that A contrast-filled outpouching is located at the proximal/ostial segment of the left anterior descending artery.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "high-grade concentric stenosis absence",
+        "claim_text": "There is no obvious high-grade concentric stenosis at the proximal/ostial LAD outpouching site.",
+        "presence_question": "Does the model's response discuss high-grade concentric stenosis absence?",
+        "correctness_question": "Does the model's response correctly assert that There is no obvious high-grade concentric stenosis at the proximal/ostial LAD outpouching site.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "distal vessel runoff",
+        "claim_text": "Distal vessel runoff in the left anterior descending artery and downstream vessels is preserved.",
+        "presence_question": "Does the model's response discuss distal vessel runoff?",
+        "correctness_question": "Does the model's response correctly assert that Distal vessel runoff in the left anterior descending artery and downstream vessels is preserved.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "intravascular imaging performed",
+        "claim_text": "Intravascular imaging was performed with both IVUS and optical coherence tomography (OCT).",
+        "presence_question": "Does the model's response discuss intravascular imaging performed?",
+        "correctness_question": "Does the model's response correctly assert that Intravascular imaging was performed with both IVUS and optical coherence tomography (OCT).?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "focal outpouching appearance",
+        "claim_text": "The focal outpouching in the proximal LAD is described as focal and non–flow‑limiting, with uncertainty.",
+        "presence_question": "Does the model's response discuss focal outpouching appearance?",
+        "correctness_question": "Does the model's response correctly assert that The focal outpouching in the proximal LAD is described as focal and non–flow‑limiting, with uncertainty.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Intracoronary imaging with IVUS and OCT",
+        "claim_text": "IVUS and OCT are intracoronary imaging techniques used to evaluate persistent focal coronary abnormalities.",
+        "presence_question": "Does the model's response discuss Intracoronary imaging with IVUS and OCT?",
+        "correctness_question": "Does the model's response correctly state that IVUS and OCT are intracoronary imaging techniques used to evaluate persistent focal coronary abnormalities?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Conservative therapy with observation and imaging",
+        "claim_text": "Conservative medical therapy with observation and interval imaging is appropriate for focal non–flow‑limiting angiographic abnormalities when invasive repair is not indicated.",
+        "presence_question": "Does the model's response discuss Conservative therapy with observation and imaging?",
+        "correctness_question": "Does the model's response correctly state that Conservative medical therapy with observation and interval imaging is appropriate for focal non–flow‑limiting angiographic abnormalities when invasive repair is not indicated?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Interval imaging for lesion follow-up",
+        "claim_text": "Interval imaging can document stability or resolution of a focal angiographic abnormality.",
+        "presence_question": "Does the model's response discuss Interval imaging for lesion follow-up?",
+        "correctness_question": "Does the model's response correctly state that Interval imaging can document stability or resolution of a focal angiographic abnormality?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Flow limitation of proximal/ostial LAD outpouching",
+        "claim_text": "The proximal/ostial LAD outpouching is non–flow-limiting in this case.",
+        "presence_question": "Does the model's response make an inferential link about Flow limitation of proximal/ostial LAD outpouching?",
+        "correctness_question": "Does the model's response correctly conclude that The proximal/ostial LAD outpouching is non–flow-limiting in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Next-step management recommendation",
+        "claim_text": "Conservative medical therapy with observation and interval imaging is the most appropriate next-step management for this case.",
+        "presence_question": "Does the model's response make an inferential link about Next-step management recommendation?",
+        "correctness_question": "Does the model's response correctly conclude that Conservative medical therapy with observation and interval imaging is the most appropriate next-step management for this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

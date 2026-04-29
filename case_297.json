@@ -27,5 +27,126 @@
   "caption": "The patient’s thoracic CT scan showing bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion.",
   "sub_caption": "The patient’s thoracic CT scan showing bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion.",
   "image_context": "Approximately five months later, the patient developed a cough and fever, leading to hospitalization on August 8th (day 0). An abdominal CT scan revealed mild dilatation of the renal pelvis and hydronephrosis. Meanwhile, a thoracic CT scan showed bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). Blood samples were collected for laboratory examination during the hospitalization, and significant indicators during the treatment are displayed in ). Blood samples were collected for laboratory examination during the hospitalization, and significant indicators during the treatment are displayed in Table 1.Fig. 1The patient’s thoracic CT scan showing bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion.Fig. 1Table 1Part of the blood indicators during the treatment.Table 1DAY1DAY4DAY5DAY9DAY14Reference Range1,3-β-D-glucan(pg/ml)246.15399.71426.45/154.310.00-60.00CRP(mg/L)66.9432.3371.9684.36255.230.00-8.00PCT（ng/ml）1.870.51.760.845.230.00-0.50Creatinine（μmol/L）382394638858057.00-97.00",
-  "relevant_image_context": "Approximately five months later, the patient developed a cough and fever, leading to hospitalization on August 8th (day 0). Meanwhile, a thoracic CT scan showed bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion (Fig. 1). The patient’s thoracic CT scan showing bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion."
+  "relevant_image_context": "Approximately five months later, the patient developed a cough and fever, leading to hospitalization on August 8th (day 0). Meanwhile, a thoracic CT scan showed bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion (Fig. 1). The patient’s thoracic CT scan showing bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_149_40-PMC11066508-3-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_149_40-PMC11066508-3-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "patchy air-space opacities",
+        "claim_text": "Patchy air-space opacities are present on the imaging study.",
+        "presence_question": "Does the model's response discuss patchy air-space opacities?",
+        "correctness_question": "Does the model's response correctly assert that Patchy air-space opacities are present on the imaging study?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "ground-glass change",
+        "claim_text": "Ground-glass change is present on the imaging study.",
+        "presence_question": "Does the model's response discuss ground-glass change?",
+        "correctness_question": "Does the model's response correctly assert that Ground-glass change is present on the imaging study?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "lower lung abnormalities",
+        "claim_text": "Abnormalities are located in both lower lungs on the imaging study.",
+        "presence_question": "Does the model's response discuss lower lung abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that Abnormalities are located in both lower lungs on the imaging study?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "basilar regions",
+        "claim_text": "Abnormalities are located in the basilar regions of the lungs on imaging.",
+        "presence_question": "Does the model's response discuss basilar regions?",
+        "correctness_question": "Does the model's response correctly assert that Abnormalities are located in the basilar regions of the lungs on imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "peripheral lung abnormalities",
+        "claim_text": "Abnormalities are located in the peripheral regions of the lungs on imaging.",
+        "presence_question": "Does the model's response discuss peripheral lung abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that Abnormalities are located in the peripheral regions of the lungs on imaging?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "extension into both lower lungs",
+        "claim_text": "The abnormalities extend into large portions of both lower lungs on the imaging study.",
+        "presence_question": "Does the model's response discuss extension into both lower lungs?",
+        "correctness_question": "Does the model's response correctly assert that The abnormalities extend into large portions of both lower lungs on the imaging study?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "multifocal distribution",
+        "claim_text": "The abnormality distribution is multifocal on the imaging study.",
+        "presence_question": "Does the model's response discuss multifocal distribution?",
+        "correctness_question": "Does the model's response correctly assert that The abnormality distribution is multifocal on the imaging study?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "confluent distribution",
+        "claim_text": "The abnormality distribution is confluent on the imaging study.",
+        "presence_question": "Does the model's response discuss confluent distribution?",
+        "correctness_question": "Does the model's response correctly assert that The abnormality distribution is confluent on the imaging study?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "air-space opacities and ground-glass change",
+        "claim_text": "Air-space opacities and ground-glass change are typical imaging patterns of lung abnormality.",
+        "presence_question": "Does the model's response discuss air-space opacities and ground-glass change?",
+        "correctness_question": "Does the model's response correctly state that Air-space opacities and ground-glass change are typical imaging patterns of lung abnormality?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "widespread bilateral pulmonary abnormalities",
+        "claim_text": "Widespread bilateral pulmonary abnormalities typically indicate a higher degree of pulmonary involvement on imaging.",
+        "presence_question": "Does the model's response discuss widespread bilateral pulmonary abnormalities?",
+        "correctness_question": "Does the model's response correctly state that Widespread bilateral pulmonary abnormalities typically indicate a higher degree of pulmonary involvement on imaging?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "multifocal and confluent patterns",
+        "claim_text": "Multifocal and confluent patterns typically suggest involvement of multiple adjacent foci rather than a single small focus.",
+        "presence_question": "Does the model's response discuss multifocal and confluent patterns?",
+        "correctness_question": "Does the model's response correctly state that Multifocal and confluent patterns typically suggest involvement of multiple adjacent foci rather than a single small focus?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "severity of pulmonary involvement",
+        "claim_text": "The CT findings support that the pulmonary involvement in this case is of high degree.",
+        "presence_question": "Does the model's response make an inferential link about severity of pulmonary involvement?",
+        "correctness_question": "Does the model's response correctly conclude that The CT findings support that the pulmonary involvement in this case is of high degree?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "abnormality distribution interpretation",
+        "claim_text": "The presence of a multifocal and confluent abnormality distribution is consistent with the imaging findings involving multiple adjacent foci rather than being limited to a single small focus in this case.",
+        "presence_question": "Does the model's response make an inferential link about abnormality distribution interpretation?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a multifocal and confluent abnormality distribution is consistent with the imaging findings involving multiple adjacent foci rather than being limited to a single small focus in this case?",
+        "premise_perception_ids": [
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

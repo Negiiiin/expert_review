@@ -28,5 +28,144 @@
   "caption": "CT abdomen depicting a diffuse tissue mass in the head and tail of the pancreas.",
   "sub_caption": "CT abdomen depicting a diffuse tissue mass in the head and tail of the pancreas.",
   "image_context": "A 62-year-old female with history of Crohn’s was referred to our hospital with abdominal pain that started 5 months ago accompanied by nausea and vomiting. Review of systems was negative for weight loss or loss of appetite. She had no previous history of pancreatitis or family history of pancreatic cancer. The patient’s complete blood count and comprehensive metabolic panel were within normal limits. Her Ig G and ANCA levels were normal, thus ruling out autoimmune pancreatitis. CT revealed a diffuse tissue mass in the head and tail of the pancreas (Fig. <xref ref-type=\"fig\" rid=\"rjy218f02\">2</xref>). Fine needle aspiration of the mass through endoscopic ultrasound yielded only chronic inflammatory cells (lymphocytes, lymphocytic aggregates, macrophages, lympho histiocytic aggregates). A CT-guided percutaneous FNA of a peripancreatic lymph node also revealed no evidence of malignancy.). Fine needle aspiration of the mass through endoscopic ultrasound yielded only chronic inflammatory cells (lymphocytes, lymphocytic aggregates, macrophages, lympho histiocytic aggregates). A CT-guided percutaneous FNA of a peripancreatic lymph node also revealed no evidence of malignancy.",
-  "relevant_image_context": "A 62-year-old female with history of Crohn’s was referred to our hospital with abdominal pain that started 5 months ago accompanied by nausea and vomiting. Review of systems was negative for weight loss or loss of appetite. She had no previous history of pancreatitis or family history of pancreatic cancer. The patient’s complete blood count and comprehensive metabolic panel were within normal limits. Her Ig G and ANCA levels were normal, thus ruling out autoimmune pancreatitis. CT revealed a diffuse tissue mass in the head and tail of the pancreas (Fig. 2)."
+  "relevant_image_context": "A 62-year-old female with history of Crohn’s was referred to our hospital with abdominal pain that started 5 months ago accompanied by nausea and vomiting. Review of systems was negative for weight loss or loss of appetite. She had no previous history of pancreatitis or family history of pancreatic cancer. The patient’s complete blood count and comprehensive metabolic panel were within normal limits. Her Ig G and ANCA levels were normal, thus ruling out autoimmune pancreatitis. CT revealed a diffuse tissue mass in the head and tail of the pancreas (Fig. 2).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_59_25-PMC6115602-1-rjy218f02.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_59_25-PMC6115602-1-rjy218f02.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Pancreas enlargement",
+        "claim_text": "The pancreas is enlarged in the upper abdomen on axial contrast-enhanced CT images.",
+        "presence_question": "Does the model's response discuss Pancreas enlargement?",
+        "correctness_question": "Does the model's response correctly assert that The pancreas is enlarged in the upper abdomen on axial contrast-enhanced CT images?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Mass in pancreatic head and body",
+        "claim_text": "A mass-like soft-tissue attenuation lesion is present in the pancreas head and body region on axial CT.",
+        "presence_question": "Does the model's response discuss Mass in pancreatic head and body?",
+        "correctness_question": "Does the model's response correctly assert that A mass-like soft-tissue attenuation lesion is present in the pancreas head and body region on axial CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Lesion attenuation",
+        "claim_text": "The lesion demonstrates soft-tissue attenuation within the pancreas head and body region on axial CT.",
+        "presence_question": "Does the model's response discuss Lesion attenuation?",
+        "correctness_question": "Does the model's response correctly assert that The lesion demonstrates soft-tissue attenuation within the pancreas head and body region on axial CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Lesion heterogeneity",
+        "claim_text": "The mass-like lesion in the pancreas head and body appears heterogeneous on axial contrast-enhanced CT.",
+        "presence_question": "Does the model's response discuss Lesion heterogeneity?",
+        "correctness_question": "Does the model's response correctly assert that The mass-like lesion in the pancreas head and body appears heterogeneous on axial contrast-enhanced CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Extent of pancreatic lesion",
+        "claim_text": "The mass-like lesion extends through a large portion of the pancreas on axial contrast-enhanced CT.",
+        "presence_question": "Does the model's response discuss Extent of pancreatic lesion?",
+        "correctness_question": "Does the model's response correctly assert that The mass-like lesion extends through a large portion of the pancreas on axial contrast-enhanced CT?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Distant organ mass absence",
+        "claim_text": "No distant organ mass is visible on this single axial slice of the upper abdomen CT.",
+        "presence_question": "Does the model's response discuss Distant organ mass absence?",
+        "correctness_question": "Does the model's response correctly assert that No distant organ mass is visible on this single axial slice of the upper abdomen CT?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Laboratory test results",
+        "claim_text": "Laboratory testing (CBC, CMP, IgG, ANCA) is reported as normal.",
+        "presence_question": "Does the model's response discuss Laboratory test results?",
+        "correctness_question": "Does the model's response correctly assert that Laboratory testing (CBC, CMP, IgG, ANCA) is reported as normal?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "tissue diagnosis of pancreatic mass",
+        "claim_text": "Endoscopic ultrasound-guided fine needle aspiration is a common method to obtain a tissue diagnosis of a pancreatic mass.",
+        "presence_question": "Does the model's response discuss tissue diagnosis of pancreatic mass?",
+        "correctness_question": "Does the model's response correctly state that Endoscopic ultrasound-guided fine needle aspiration is a common method to obtain a tissue diagnosis of a pancreatic mass?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "heterogeneous pancreatic mass on contrast-enhanced CT",
+        "claim_text": "Heterogeneous, mass-like soft-tissue attenuation in the pancreas on contrast-enhanced CT typically suggests a pancreatic neoplasm.",
+        "presence_question": "Does the model's response discuss heterogeneous pancreatic mass on contrast-enhanced CT?",
+        "correctness_question": "Does the model's response correctly state that heterogeneous, mass-like soft-tissue attenuation in the pancreas on contrast-enhanced CT typically suggests a pancreatic neoplasm?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "ANCA or abnormal IgG serology",
+        "claim_text": "Positive ANCA or abnormal IgG serology are commonly associated with autoimmune or inflammatory etiologies.",
+        "presence_question": "Does the model's response discuss ANCA or abnormal IgG serology?",
+        "correctness_question": "Does the model's response correctly state that positive ANCA or abnormal IgG serology are commonly associated with autoimmune or inflammatory etiologies?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "targeted tissue diagnosis",
+        "claim_text": "Obtaining a targeted tissue diagnosis helps inform decisions about surgery or other therapies.",
+        "presence_question": "Does the model's response discuss targeted tissue diagnosis?",
+        "correctness_question": "Does the model's response correctly state that obtaining a targeted tissue diagnosis helps inform decisions about surgery or other therapies?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Pancreatic neoplasm diagnosis",
+        "claim_text": "The enlarged, heterogeneous, mass-like pancreatic lesion supports that a pancreatic neoplasm is a likely diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Pancreatic neoplasm diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The enlarged, heterogeneous, mass-like pancreatic lesion supports that a pancreatic neoplasm is a likely diagnosis in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Autoimmune/inflammatory etiology exclusion",
+        "claim_text": "Normal serologic testing (CBC, CMP, IgG, ANCA) argues against an autoimmune or inflammatory etiology explaining this pancreatic mass.",
+        "presence_question": "Does the model's response make an inferential link about Autoimmune/inflammatory etiology exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that Normal serologic testing (CBC, CMP, IgG, ANCA) argues against an autoimmune or inflammatory etiology explaining this pancreatic mass?",
+        "premise_perception_ids": [
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "EUS-FNA justified as next test",
+        "claim_text": "Because the imaging shows a pancreatic mass concerning for neoplasm and targeted tissue diagnosis informs management, endoscopic ultrasound-guided fine needle aspiration is justified as the next step to obtain a targeted tissue diagnosis before surgery or other therapies.",
+        "presence_question": "Does the model's response make an inferential link about EUS-FNA justified as next test?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging shows a pancreatic mass concerning for neoplasm and targeted tissue diagnosis informs management, endoscopic ultrasound-guided fine needle aspiration is justified as the next step to obtain a targeted tissue diagnosis before surgery or other therapies?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

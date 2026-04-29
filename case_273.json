@@ -28,5 +28,135 @@
   "caption": "CT abdomen showing pancreatic atrophy with multiple sub-centimeter calcifications consistent with severe chronic pancreatitis: arrow points to dilated pancreatic duct with stones in it.",
   "sub_caption": "CT abdomen showing pancreatic atrophy with multiple sub-centimeter calcifications consistent with severe chronic pancreatitis: arrow points to dilated pancreatic duct with stones in it.",
   "image_context": "A 21-year-old male was referred to the gastroenterology clinic for incidental findings of severe chronic pancreatitis on cross-sectional imaging but no associated symptoms of pancreatitis. He had presented to the emergency department for abdominal pain consistent with prior episodes of renal colic. Computed tomography scan confirmed the presence of renal calculi that passed with conservative management. An incidental finding on the imaging showed marked pancreatic atrophy with multiple sub-centimeter calcifications consistent with severe chronic pancreatitis (<xref ref-type=\"fig\" rid=\"PAMJ-28-110-g001\">Figure 1</xref>). Remarkably, he did not report having any symptoms associated with pancreatic insufficiency including epigastric pain, vomiting, steatorrhea and weight loss. He denied having any prior episodes of acute pancreatitis and had no history of alcohol use. His laboratory tests were all within normal range, including complete blood count, liver function tests, amylase and lipase. His family history was significant as his father had an isolated episode of pancreatitis which required abdominal surgery. Magnetic resonance cholangiopancreatography (MRCP) showed severe parenchymal atrophy and pancreatic ductal stones with ductal dilation to 9mm (). Remarkably, he did not report having any symptoms associated with pancreatic insufficiency including epigastric pain, vomiting, steatorrhea and weight loss. He denied having any prior episodes of acute pancreatitis and had no history of alcohol use. His laboratory tests were all within normal range, including complete blood count, liver function tests, amylase and lipase. His family history was significant as his father had an isolated episode of pancreatitis which required abdominal surgery. Magnetic resonance cholangiopancreatography (MRCP) showed severe parenchymal atrophy and pancreatic ductal stones with ductal dilation to 9mm (<xref ref-type=\"fig\" rid=\"PAMJ-28-110-g002\">Figure 2</xref>). Due to his young age and atypical presentation, he was referred for genetic testing and counselling. He underwent genetic testing for various genes known to cause hereditary pancreatitis: CASR, CFTR, CTRC, PRSS1, SPINK1. He tested positive for homozygous variant of SPINK1 (N34S) mutation. Reflex testing of at-risk relatives confirmed that both of his parents were heterozygous carriers of the same SPINK1 (N34S) mutation and a review of their extended pedigree revealed that they were distant cousins. Given his asymptomatic clinical course, he remains under close follow-up without requiring any specific treatment for pancreatic insufficiency. Due to the severity of pancreatitis noted on imaging and long expected lifespan, he was counselled about the increased risk of pancreatic malignancy and is undergoing regular cross-sectional imaging for the detection and prevention of cancer.). Due to his young age and atypical presentation, he was referred for genetic testing and counselling. He underwent genetic testing for various genes known to cause hereditary pancreatitis: CASR, CFTR, CTRC, PRSS1, SPINK1. He tested positive for homozygous variant of SPINK1 (N34S) mutation. Reflex testing of at-risk relatives confirmed that both of his parents were heterozygous carriers of the same SPINK1 (N34S) mutation and a review of their extended pedigree revealed that they were distant cousins. Given his asymptomatic clinical course, he remains under close follow-up without requiring any specific treatment for pancreatic insufficiency. Due to the severity of pancreatitis noted on imaging and long expected lifespan, he was counselled about the increased risk of pancreatic malignancy and is undergoing regular cross-sectional imaging for the detection and prevention of cancer.",
-  "relevant_image_context": "Computed tomography scan confirmed the presence of renal calculi that passed with conservative management. An incidental finding on the imaging showed marked pancreatic atrophy with multiple sub-centimeter calcifications consistent with severe chronic pancreatitis."
+  "relevant_image_context": "Computed tomography scan confirmed the presence of renal calculi that passed with conservative management. An incidental finding on the imaging showed marked pancreatic atrophy with multiple sub-centimeter calcifications consistent with severe chronic pancreatitis.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_52_42-PMC5837166-0-PAMJ-28-110-g001.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_52_42-PMC5837166-0-PAMJ-28-110-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "upper abdomen on axial contrast CT",
+        "claim_text": "The axial contrast CT images cover the upper abdomen.",
+        "presence_question": "Does the model's response discuss upper abdomen on axial contrast CT?",
+        "correctness_question": "Does the model's response correctly assert that The axial contrast CT images cover the upper abdomen.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "pancreatic atrophy",
+        "claim_text": "The pancreas demonstrates atrophic size on axial contrast CT images.",
+        "presence_question": "Does the model's response discuss pancreatic atrophy?",
+        "correctness_question": "Does the model's response correctly assert that The pancreas demonstrates atrophic size on axial contrast CT images.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "multiple high-attenuation pancreatic foci",
+        "claim_text": "There are multiple high-attenuation foci within the pancreas on the axial contrast CT.",
+        "presence_question": "Does the model's response discuss multiple high-attenuation pancreatic foci?",
+        "correctness_question": "Does the model's response correctly assert that There are multiple high-attenuation foci within the pancreas on the axial contrast CT.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "high-attenuation pancreatic foci",
+        "claim_text": "The foci demonstrate high attenuation on the axial contrast CT images.",
+        "presence_question": "Does the model's response discuss high-attenuation pancreatic foci?",
+        "correctness_question": "Does the model's response correctly assert that The foci demonstrate high attenuation on the axial contrast CT images.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "pancreatic parenchymal high-attenuation foci",
+        "claim_text": "The high-attenuation foci are located within the pancreatic parenchyma.",
+        "presence_question": "Does the model's response discuss pancreatic parenchymal high-attenuation foci?",
+        "correctness_question": "Does the model's response correctly assert that The high-attenuation foci are located within the pancreatic parenchyma.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "pancreatic ductal region foci",
+        "claim_text": "Some high-attenuation foci are located in the pancreatic ductal region.",
+        "presence_question": "Does the model's response discuss pancreatic ductal region foci?",
+        "correctness_question": "Does the model's response correctly assert that Some high-attenuation foci are located in the pancreatic ductal region.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "dense focus in pancreatic duct region",
+        "claim_text": "A dense focus is present in the region of the pancreatic duct.",
+        "presence_question": "Does the model's response discuss dense focus in pancreatic duct region?",
+        "correctness_question": "Does the model's response correctly assert that A dense focus is present in the region of the pancreatic duct.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "dense focus location in pancreatic duct",
+        "claim_text": "The dense focus is located in the region of the pancreatic duct.",
+        "presence_question": "Does the model's response discuss dense focus location in pancreatic duct?",
+        "correctness_question": "Does the model's response correctly assert that The dense focus is located in the region of the pancreatic duct.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "pancreatic atrophy and calcifications",
+        "claim_text": "Parenchymal atrophy with intraductal or intraparenchymal calcifications and ductal stones is characteristic of chronic pancreatitis.",
+        "presence_question": "Does the model's response discuss pancreatic atrophy and calcifications?",
+        "correctness_question": "Does the model's response correctly state that Parenchymal atrophy with intraductal or intraparenchymal calcifications and ductal stones is characteristic of chronic pancreatitis?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "inherited syndrome identification",
+        "claim_text": "An inherited syndrome is identified by family history or genetic testing.",
+        "presence_question": "Does the model's response discuss inherited syndrome identification?",
+        "correctness_question": "Does the model's response correctly state that An inherited syndrome is identified by family history or genetic testing?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "pancreatic high-attenuation foci on CT",
+        "claim_text": "High-attenuation foci within the pancreas on CT suggest calcifications or ductal stones.",
+        "presence_question": "Does the model's response discuss pancreatic high-attenuation foci on CT?",
+        "correctness_question": "Does the model's response correctly state that High-attenuation foci within the pancreas on CT suggest calcifications or ductal stones?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Imaging evidence for chronic pancreatitis",
+        "claim_text": "The combination of pancreatic atrophy and multiple high-attenuation intraparenchymal and ductal foci on CT is consistent with chronic pancreatitis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Imaging evidence for chronic pancreatitis?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of pancreatic atrophy and multiple high-attenuation intraparenchymal and ductal foci on CT is consistent with chronic pancreatitis in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Imaging insufficient to establish hereditary transmission",
+        "claim_text": "Imaging findings alone are insufficient to establish that these represent an inherited syndrome or to infer a substantially increased risk to first-degree offspring in this case.",
+        "presence_question": "Does the model's response make an inferential link about Imaging insufficient to establish hereditary transmission?",
+        "correctness_question": "Does the model's response correctly conclude that Imaging findings alone are insufficient to establish that these represent an inherited syndrome or to infer a substantially increased risk to first-degree offspring in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

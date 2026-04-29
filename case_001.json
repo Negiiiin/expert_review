@@ -27,5 +27,117 @@
   "caption": "CT scan of suspected a Mirizzi's syndrome with a large stone (red arrow) between the CBD and a badly recognizable gallbladder.\nb\nCholangiography showing Mirizzi's syndrome type III with cholecystobiliary fistula involving up to two-thirds of the CBD diameter with an impacted large stone.",
   "sub_caption": "CT scan of suspected a Mirizzi's syndrome with a large stone (red arrow) between the CBD and a badly recognizable gallbladder.",
   "image_context": "An 82-year-old man was admitted due to abdominal pain and jaundice. Biochemistry showed high transaminases and bilirubin levels. Computed tomography was suspicious for Mirizzi’s syndrome with a large stone between the CBD and a badly recognizable gallbladder (\n<xref rid=\"10-1055-a-1197-6725-i1934ei1\" ref-type=\"fig\">Fig. 1a</xref>\n). Considering the patient’s severe comorbidity (chronic obstructive pulmonary disease and heart failure) and the high risks related to surgery and anesthesiology, according to the surgeon, we performed endoscopic retrograde cholangiopancreatography (ERCP).\n\n). Considering the patient’s severe comorbidity (chronic obstructive pulmonary disease and heart failure) and the high risks related to surgery and anesthesiology, according to the surgeon, we performed endoscopic retrograde cholangiopancreatography (ERCP). ERCP showed Mirizzi’s syndrome type III with cholecystobiliary fistula involving up to two-thirds of the CBD diameter with an impacted large stone (\n<xref rid=\"10-1055-a-1197-6725-i1934ei1\" ref-type=\"fig\">Fig. 1b</xref>\n). Stone extraction using both the retrieval balloon and the Dormia basket failed. We decided to use the SpyGlass System (Boston Scientific, Massachusetts, United States) to fragment the impacted stone with holmium laser lithotripsy (Storz 25750220, 365-μm-diameter fiber, 15 Hz/20 W). The green aiming beam allowed the stone to be targeted (\n\n). Stone extraction using both the retrieval balloon and the Dormia basket failed. We decided to use the SpyGlass System (Boston Scientific, Massachusetts, United States) to fragment the impacted stone with holmium laser lithotripsy (Storz 25750220, 365-μm-diameter fiber, 15 Hz/20 W). The green aiming beam allowed the stone to be targeted (\n<xref rid=\"10-1055-a-1197-6725-i1934ei2\" ref-type=\"fig\">Fig. 2a</xref>\n), with the laser fiber in contact with the stone until it was fragmented (\n\n), with the laser fiber in contact with the stone until it was fragmented (\n<xref rid=\"10-1055-a-1197-6725-i1934ei2\" ref-type=\"fig\">Fig. 2b</xref>\n); all fragments were finally removed with the retrieval balloon (\n\n); all fragments were finally removed with the retrieval balloon (\n<xref rid=\"10-1055-a-1197-6725-i1934ei2\" ref-type=\"fig\">Fig. 2c</xref>\n) being able to obtain complete CBD toilette, as confirmed at cholangioscopy and cholangiography (\n\n) being able to obtain complete CBD toilette, as confirmed at cholangioscopy and cholangiography (\n<xref rid=\"10-1055-a-1197-6725-i1934ei2\" ref-type=\"fig\">Fig. 2d</xref>\n). No complications were reported and the patient was discharged after 3 days.\n\n). No complications were reported and the patient was discharged after 3 days.",
-  "relevant_image_context": "An 82-year-old man was admitted due to abdominal pain and jaundice. Biochemistry showed high transaminases and bilirubin levels. Computed tomography was suspicious for Mirizzi’s syndrome with a large stone between the CBD and a badly recognizable gallbladder (Fig. 1a)."
+  "relevant_image_context": "An 82-year-old man was admitted due to abdominal pain and jaundice. Biochemistry showed high transaminases and bilirubin levels. Computed tomography was suspicious for Mirizzi’s syndrome with a large stone between the CBD and a badly recognizable gallbladder (Fig. 1a).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_82_25-PMC7458756-0-10-1055-a-1197-6725-i1934ei1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_82_25-PMC7458756-0-10-1055-a-1197-6725-i1934ei1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Gallbladder neck and cystic duct focus",
+        "claim_text": "A rounded high-attenuation focus is located in the gallbladder neck and cystic duct region.",
+        "presence_question": "Does the model's response discuss Gallbladder neck and cystic duct focus?",
+        "correctness_question": "Does the model's response correctly assert that A rounded high-attenuation focus is located in the gallbladder neck and cystic duct region.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Single high-attenuation focus",
+        "claim_text": "There is one rounded high-attenuation focus in the gallbladder neck/cystic duct region.",
+        "presence_question": "Does the model's response discuss Single high-attenuation focus?",
+        "correctness_question": "Does the model's response correctly assert that There is one rounded high-attenuation focus in the gallbladder neck/cystic duct region.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Extrahepatic bile duct adjacency",
+        "claim_text": "The rounded high-attenuation focus is adjacent to the extrahepatic bile duct.",
+        "presence_question": "Does the model's response discuss Extrahepatic bile duct adjacency?",
+        "correctness_question": "Does the model's response correctly assert that The rounded high-attenuation focus is adjacent to the extrahepatic bile duct.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Biliary tract compression",
+        "claim_text": "The rounded high-attenuation focus compresses the extrahepatic bile duct/biliary tract.",
+        "presence_question": "Does the model's response discuss Biliary tract compression?",
+        "correctness_question": "Does the model's response correctly assert that The rounded high-attenuation focus compresses the extrahepatic bile duct/biliary tract.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Impacted gallbladder neck or cystic duct stone",
+        "claim_text": "Impacted gallbladder neck or cystic duct stones can compress the extrahepatic bile duct.",
+        "presence_question": "Does the model's response discuss Impacted gallbladder neck or cystic duct stone?",
+        "correctness_question": "Does the model's response correctly state that Impacted gallbladder neck or cystic duct stones can compress the extrahepatic bile duct?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Bile duct compression or obstruction",
+        "claim_text": "Compression or obstruction of the bile duct typically causes obstructive jaundice and elevated liver enzymes and bilirubin.",
+        "presence_question": "Does the model's response discuss Bile duct compression or obstruction?",
+        "correctness_question": "Does the model's response correctly state that Compression or obstruction of the bile duct typically causes obstructive jaundice and elevated liver enzymes and bilirubin?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Acute biliary obstruction or inflammation",
+        "claim_text": "Acute biliary obstruction or inflammation typically causes right upper quadrant tenderness.",
+        "presence_question": "Does the model's response discuss Acute biliary obstruction or inflammation?",
+        "correctness_question": "Does the model's response correctly state that Acute biliary obstruction or inflammation typically causes right upper quadrant tenderness?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "High-attenuation focus in gallbladder neck on CT",
+        "claim_text": "A rounded, high-attenuation focus within the gallbladder neck on CT is characteristic of a gallstone.",
+        "presence_question": "Does the model's response discuss High-attenuation focus in gallbladder neck on CT?",
+        "correctness_question": "Does the model's response correctly state that A rounded, high-attenuation focus within the gallbladder neck on CT is characteristic of a gallstone?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "gallbladder-neck stone diagnosis",
+        "claim_text": "The rounded, high-attenuation focus adjacent to the extrahepatic bile duct supports the conclusion that an impacted gallbladder-neck stone is the most likely diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about gallbladder-neck stone diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The rounded, high-attenuation focus adjacent to the extrahepatic bile duct supports the conclusion that an impacted gallbladder-neck stone is the most likely diagnosis in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "obstructive biliary pathology",
+        "claim_text": "Focal compression of the extrahepatic bile duct by the adjacent high-attenuation focus supports the presence of obstructive biliary pathology (obstructive jaundice) in this case.",
+        "presence_question": "Does the model's response make an inferential link about obstructive biliary pathology?",
+        "correctness_question": "Does the model's response correctly conclude that Focal compression of the extrahepatic bile duct by the adjacent high-attenuation focus supports the presence of obstructive biliary pathology (obstructive jaundice) in this case.?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "right upper quadrant tenderness as sign",
+        "claim_text": "The imaging evidence of bile duct compression is consistent with focal right upper quadrant tenderness being a plausible clinical sign in this case.",
+        "presence_question": "Does the model's response make an inferential link about right upper quadrant tenderness as sign?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging evidence of bile duct compression is consistent with focal right upper quadrant tenderness being a plausible clinical sign in this case.?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

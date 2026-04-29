@@ -27,5 +27,139 @@
   "caption": "Follow-up ultrasound showing good flow through the brachial artery at the level of the mid-humerus.",
   "sub_caption": "Follow-up ultrasound showing good flow through the brachial artery at the level of the mid-humerus.",
   "image_context": "The patient was transferred to the pediatric intensive care unit with a well-perfused hand and subsequently discharged home on postoperative day 4. He was not prescribed anticoagulation therapy or aspirin because no thrombosis or intimal injury had occurred. He presented for follow-up 3 months later with normal pulses and hand function. Ultrasound showed normal flow in the brachial artery (<xref rid=\"gr5\" ref-type=\"fig\">Fig 5</xref>).).Fig 5Follow-up ultrasound showing good flow through the brachial artery at the level of the mid-humerus.",
-  "relevant_image_context": "The patient was transferred to the pediatric intensive care unit with a well-perfused hand and subsequently discharged home on postoperative day 4. He was not prescribed anticoagulation therapy or aspirin because no thrombosis or intimal injury had occurred. He presented for follow-up 3 months later with normal pulses and hand function. Ultrasound showed normal flow in the brachial artery. Fig 5Follow-up ultrasound showing good flow through the brachial artery at the level of the mid-humerus."
+  "relevant_image_context": "The patient was transferred to the pediatric intensive care unit with a well-perfused hand and subsequently discharged home on postoperative day 4. He was not prescribed anticoagulation therapy or aspirin because no thrombosis or intimal injury had occurred. He presented for follow-up 3 months later with normal pulses and hand function. Ultrasound showed normal flow in the brachial artery. Fig 5Follow-up ultrasound showing good flow through the brachial artery at the level of the mid-humerus.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_138_31-PMC10547742-1-gr5.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_138_31-PMC10547742-1-gr5.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "longitudinal scan view",
+        "claim_text": "The scan is obtained in a longitudinal view.",
+        "presence_question": "Does the model's response discuss longitudinal scan view?",
+        "correctness_question": "Does the model's response correctly assert that The scan is obtained in a longitudinal view?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "single structure present",
+        "claim_text": "Only a single structure is identified on the image.",
+        "presence_question": "Does the model's response discuss single structure present?",
+        "correctness_question": "Does the model's response correctly assert that Only a single structure is identified on the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "tubular shape",
+        "claim_text": "The identified structure demonstrates a tubular shape on the image.",
+        "presence_question": "Does the model's response discuss tubular shape?",
+        "correctness_question": "Does the model's response correctly assert that The identified structure demonstrates a tubular shape on the image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "intraluminal color Doppler signal",
+        "claim_text": "The structure's lumen shows intraluminal color Doppler filling with uniform red signal.",
+        "presence_question": "Does the model's response discuss intraluminal color Doppler signal?",
+        "correctness_question": "Does the model's response correctly assert that The structure's lumen shows intraluminal color Doppler filling with uniform red signal?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "measured velocity",
+        "claim_text": "The monitor displays a velocity measurement of 52.2 cm/s for the structure.",
+        "presence_question": "Does the model's response discuss measured velocity?",
+        "correctness_question": "Does the model's response correctly assert that The monitor displays a velocity measurement of 52.2 cm/s for the structure?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "insonation angle",
+        "claim_text": "The image shows an insonation angle of 60 degrees.",
+        "presence_question": "Does the model's response discuss insonation angle?",
+        "correctness_question": "Does the model's response correctly assert that The image shows an insonation angle of 60 degrees?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "pulsatile vascular channel",
+        "claim_text": "A well-defined pulsatile vascular channel may be present.",
+        "presence_question": "Does the model's response discuss pulsatile vascular channel?",
+        "correctness_question": "Does the model's response correctly assert that A well-defined pulsatile vascular channel may be present?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "intraluminal color Doppler",
+        "claim_text": "Intraluminal color Doppler signal and measurable Doppler velocities indicate the presence of blood flow and therefore that a structure is a blood vessel rather than a nerve.",
+        "presence_question": "Does the model's response discuss intraluminal color Doppler?",
+        "correctness_question": "Does the model's response correctly state that Intraluminal color Doppler signal and measurable Doppler velocities indicate the presence of blood flow and therefore that a structure is a blood vessel rather than a nerve?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Doppler velocity and color filling",
+        "claim_text": "Higher Doppler velocities and prominent continuous color filling on Doppler ultrasound suggest an arterial vessel rather than a venous vessel.",
+        "presence_question": "Does the model's response discuss Doppler velocity and color filling?",
+        "correctness_question": "Does the model's response correctly state that Higher Doppler velocities and prominent continuous color filling on Doppler ultrasound suggest an arterial vessel rather than a venous vessel?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "insonation angle marker",
+        "claim_text": "An insonation angle marker on ultrasound indicates the Doppler insonation angle used to measure flow velocity.",
+        "presence_question": "Does the model's response discuss insonation angle marker?",
+        "correctness_question": "Does the model's response correctly state that An insonation angle marker on ultrasound indicates the Doppler insonation angle used to measure flow velocity?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "longitudinal ultrasound view",
+        "claim_text": "A longitudinal ultrasound view typically shows the tubular appearance of vessels.",
+        "presence_question": "Does the model's response discuss longitudinal ultrasound view?",
+        "correctness_question": "Does the model's response correctly state that A longitudinal ultrasound view typically shows the tubular appearance of vessels?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "blood vessel vs nerve identification",
+        "claim_text": "The presence of intraluminal color Doppler filling of the lumen together with a measurable Doppler velocity supports that the depicted structure is a blood vessel rather than a nerve.",
+        "presence_question": "Does the model's response make an inferential link about blood vessel vs nerve identification?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of intraluminal color Doppler filling of the lumen together with a measurable Doppler velocity supports that the depicted structure is a blood vessel rather than a nerve.?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "arterial versus venous differentiation",
+        "claim_text": "The relatively high measured Doppler velocity and prominent continuous intraluminal color filling favor an arterial vessel over a venous vessel in this case.",
+        "presence_question": "Does the model's response make an inferential link about arterial versus venous differentiation?",
+        "correctness_question": "Does the model's response correctly conclude that The relatively high measured Doppler velocity and prominent continuous intraluminal color filling favor an arterial vessel over a venous vessel in this case.?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Doppler velocity measurement confirmation",
+        "claim_text": "The displayed 60° insonation angle marker indicates that a Doppler angle was used to derive the reported flow velocity, confirming the velocity measurement context in the image.",
+        "presence_question": "Does the model's response make an inferential link about Doppler velocity measurement confirmation?",
+        "correctness_question": "Does the model's response correctly conclude that The displayed 60° insonation angle marker indicates that a Doppler angle was used to derive the reported flow velocity, confirming the velocity measurement context in the image.?",
+        "premise_perception_ids": [
+          "p6",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

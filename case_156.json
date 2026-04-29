@@ -27,5 +27,142 @@
   "caption": "Positron emission tomography-computed tomography showing asymmetric thickening of the bladder wall.",
   "sub_caption": "Positron emission tomography-computed tomography showing asymmetric thickening of the bladder wall.",
   "image_context": "PET-CT showed asymmetrical thickening of the left posterolateral bladder wall, causing obstruction of the left ureterovesical junction, and associated with moderate hydroureteronephrosis of the left kidney, as shown in Figure <xref rid=\"ms9-86-3652-g002\" ref-type=\"fig\">2</xref>. This extended to the right ureterovesical junction, causing mild hydroureteronephrosis of the right kidney. There was a focal increase in FDG uptake along the bladder wall measuring up to 3 cm; the SUV was 28.5 cm greater than the background. Hologic urine activity within the bladder. Adjacent soft-tissue stranding was identified. No suspicious FDG intake; avid abdominal or pelvic lymphadenopathy.. This extended to the right ureterovesical junction, causing mild hydroureteronephrosis of the right kidney. There was a focal increase in FDG uptake along the bladder wall measuring up to 3 cm; the SUV was 28.5 cm greater than the background. Hologic urine activity within the bladder. Adjacent soft-tissue stranding was identified. No suspicious FDG intake; avid abdominal or pelvic lymphadenopathy.",
-  "relevant_image_context": "PET-CT showed asymmetrical thickening of the left posterolateral bladder wall, causing obstruction of the left ureterovesical junction, and associated with moderate hydroureteronephrosis of the left kidney. This extended to the right ureterovesical junction, causing mild hydroureteronephrosis of the right kidney. There was a focal increase in FDG uptake along the bladder wall measuring up to 3 cm; the SUV was 28.5 cm greater than the background. Hologic urine activity within the bladder. Adjacent soft-tissue stranding was identified. No suspicious FDG intake; avid abdominal or pelvic lymphadenopathy."
+  "relevant_image_context": "PET-CT showed asymmetrical thickening of the left posterolateral bladder wall, causing obstruction of the left ureterovesical junction, and associated with moderate hydroureteronephrosis of the left kidney. This extended to the right ureterovesical junction, causing mild hydroureteronephrosis of the right kidney. There was a focal increase in FDG uptake along the bladder wall measuring up to 3 cm; the SUV was 28.5 cm greater than the background. Hologic urine activity within the bladder. Adjacent soft-tissue stranding was identified. No suspicious FDG intake; avid abdominal or pelvic lymphadenopathy.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_151_27-PMC11152792-2-ms9-86-3652-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_151_27-PMC11152792-2-ms9-86-3652-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "coronal PET-CT image",
+        "claim_text": "A coronal PET-CT image is present in the provided imaging series.",
+        "presence_question": "Does the model's response discuss coronal PET-CT image?",
+        "correctness_question": "Does the model's response correctly assert that A coronal PET-CT image is present in the provided imaging series?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "single tracer focus",
+        "claim_text": "There is a single tracer focus visible on the image.",
+        "presence_question": "Does the model's response discuss single tracer focus?",
+        "correctness_question": "Does the model's response correctly assert that There is a single tracer focus visible on the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "very bright tracer focus",
+        "claim_text": "The tracer focus appears very bright on the PET-CT images.",
+        "presence_question": "Does the model's response discuss very bright tracer focus?",
+        "correctness_question": "Does the model's response correctly assert that The tracer focus appears very bright on the PET-CT images?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "round tracer focus",
+        "claim_text": "The tracer focus has a round shape on the images.",
+        "presence_question": "Does the model's response discuss round tracer focus?",
+        "correctness_question": "Does the model's response correctly assert that The tracer focus has a round shape on the images?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "pelvic tracer focus",
+        "claim_text": "The tracer focus is located in the pelvis.",
+        "presence_question": "Does the model's response discuss pelvic tracer focus?",
+        "correctness_question": "Does the model's response correctly assert that The tracer focus is located in the pelvis?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "tracer focus in image lower half",
+        "claim_text": "The tracer focus is located in the lower half of the image.",
+        "presence_question": "Does the model's response discuss tracer focus in image lower half?",
+        "correctness_question": "Does the model's response correctly assert that The tracer focus is located in the lower half of the image?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "right-sided tracer focus",
+        "claim_text": "The tracer focus is slightly to the right side of the coronal image.",
+        "presence_question": "Does the model's response discuss right-sided tracer focus?",
+        "correctness_question": "Does the model's response correctly assert that The tracer focus is slightly to the right side of the coronal image?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "adjacent to pelvic bones and soft tissues",
+        "claim_text": "The tracer focus is adjacent to the pelvic bones and surrounding soft tissues.",
+        "presence_question": "Does the model's response discuss adjacent to pelvic bones and soft tissues?",
+        "correctness_question": "Does the model's response correctly assert that The tracer focus is adjacent to the pelvic bones and surrounding soft tissues?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "PET-CT tracer uptake appearance",
+        "claim_text": "On PET-CT, tracer uptake typically appears as areas of increased brightness representing intense radiotracer accumulation.",
+        "presence_question": "Does the model's response discuss PET-CT tracer uptake appearance?",
+        "correctness_question": "Does the model's response correctly state that on PET-CT, tracer uptake typically appears as areas of increased brightness representing intense radiotracer accumulation?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "urinary bladder tracer uptake",
+        "claim_text": "The urinary bladder can exhibit intense focal tracer uptake on PET-CT.",
+        "presence_question": "Does the model's response discuss urinary bladder tracer uptake?",
+        "correctness_question": "Does the model's response correctly state that the urinary bladder can exhibit intense focal tracer uptake on PET-CT?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "pelvic localization on coronal imaging",
+        "claim_text": "Coronal imaging is typically used to localize pelvic findings to the pelvic bones and soft tissues.",
+        "presence_question": "Does the model's response discuss pelvic localization on coronal imaging?",
+        "correctness_question": "Does the model's response correctly state that coronal imaging is typically used to localize pelvic findings to the pelvic bones and soft tissues?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "urinary bladder identification",
+        "claim_text": "The single very bright pelvic focus supports the interpretation that it is plausibly the urinary bladder in this case.",
+        "presence_question": "Does the model's response make an inferential link about urinary bladder identification?",
+        "correctness_question": "Does the model's response correctly conclude that The single very bright pelvic focus supports the interpretation that it is plausibly the urinary bladder in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "focus location on coronal display",
+        "claim_text": "The observed focus is consistent with being located in the lower-right quadrant on the coronal display.",
+        "presence_question": "Does the model's response make an inferential link about focus location on coronal display?",
+        "correctness_question": "Does the model's response correctly conclude that The observed focus is consistent with being located in the lower-right quadrant on the coronal display?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "tracer uptake interpretation",
+        "claim_text": "The intense brightness of the focus is consistent with representing tracer uptake on PET-CT in this case.",
+        "presence_question": "Does the model's response make an inferential link about tracer uptake interpretation?",
+        "correctness_question": "Does the model's response correctly conclude that The intense brightness of the focus is consistent with representing tracer uptake on PET-CT in this case?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

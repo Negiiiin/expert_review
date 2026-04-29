@@ -27,5 +27,141 @@
   "caption": "Example of hepatic echinococcal cysts, in this case in the course of albendazole treatment",
   "sub_caption": "Example of hepatic echinococcal cysts, in this case in the course of albendazole treatment",
   "image_context": "Large symptomatic hepatic cysts present a wide spectrum of lesions – from simple, benign lesions through complicated, parasitic cysts up to potentially malignant lesions of a cystadenoma or cystadenocarcinoma type (<xref ref-type=\"fig\" rid=\"JoU-2016-0026-g007\">Fig. 7</xref>))(8, 10, 11). Proper differential diagnostics may indicate the optimum method of therapy. Ultrasonography constitutes at present the most popular, most often recommended method of preliminary assessment of the cyst type, its size and location in the liver(2, 8, 11). A simple cyst, being the subject matter of our analysis, is termed a single hypoechogenic, fluid space, almost with no capsule (presented in ultrasonography), or internal partitions, bridges, of oval or round shape. The content of the cyst has no differentiated internal reflections, it is homogenous(2, 8). These traits – in an almost clear manner – enable one to differentiate them from other fluid lesions, for instance abscess, hematoma, necrotic tumor or even solid tumor of varied nature (<xref ref-type=\"fig\" rid=\"JoU-2016-0026-g008\">Fig. 8</xref>). The studied group was exclusive of the cases of hepatic polycystic disease (). The studied group was exclusive of the cases of hepatic polycystic disease (<xref ref-type=\"fig\" rid=\"JoU-2016-0026-g009\">Fig. 9</xref>). As far as ultrasonography is a sufficient method of imaging simple cysts, in situation when the examination determines additional structures inside the cyst's structure it is necessary to utilize more precise diagnostic methods. The following are recommended: ultrasonography with a contrast medium, Computed Tomography and Magnetic Resonance Imaging as well as serological tests in the case the presence of a parasitic cyst suspected). As far as ultrasonography is a sufficient method of imaging simple cysts, in situation when the examination determines additional structures inside the cyst's structure it is necessary to utilize more precise diagnostic methods. The following are recommended: ultrasonography with a contrast medium, Computed Tomography and Magnetic Resonance Imaging as well as serological tests in the case the presence of a parasitic cyst suspected(3, 8, 9, 10). The imaging of internal partitions, tissue bridges, thickened and irregular wall of the cyst, papilli-form outgrowths, calcification and structures in its lumen exclude the diagnosis of a simple hepatic cyst. The differential diagnostics of neoplastic cysts, apart from imaging testing, may additionally utilize the fine- or thick-needle biopsy method and the laboratory assessment of the aspirated fluid, along with tumor markers, mainly CEA and CA 19–9(2, 8, 14). Our material covered the analysis of fluid collected during aspiration. In 73% of the cases it was light, clear, typical of the aspirated one in cases of simple hepatic cysts. Additionally, in 20% of the patients, the fluid was slightly colored with bile, and in the remaining 7% it contained an admixture of bile, which proved the existing connection with bile ducts.",
-  "relevant_image_context": "Ultrasonography constitutes at present the most popular, most often recommended method of preliminary assessment of the cyst type, its size and location in the liver. A simple cyst, being the subject matter of our analysis, is termed a single hypoechogenic, fluid space, almost with no capsule, or internal partitions, bridges, of oval or round shape. The content of the cyst has no differentiated internal reflections, it is homogenous. These traits enable one to differentiate them from other fluid lesions, for instance abscess, hematoma, necrotic tumor or even solid tumor of varied nature. As ultrasonography is a sufficient method of imaging simple cysts, in situation when the examination determines additional structures inside the cyst's structure it is necessary to utilize more precise diagnostic methods. The following are recommended: ultrasonography with a contrast medium, Computed Tomography and Magnetic Resonance Imaging as well as serological tests in the case the presence of a parasitic cyst suspected. The imaging of internal partitions, tissue bridges, thickened and irregular wall of the cyst, papilli-form outgrowths, calcification and structures in its lumen exclude the diagnosis of a simple hepatic cyst. The differential diagnostics of neoplastic cysts, apart from imaging testing, may additionally utilize the fine- or thick-needle biopsy method and the laboratory assessment of the aspirated fluid, along with tumor markers, mainly CEA and CA 19–9. Our material covered the analysis of fluid collected during aspiration."
+  "relevant_image_context": "Ultrasonography constitutes at present the most popular, most often recommended method of preliminary assessment of the cyst type, its size and location in the liver. A simple cyst, being the subject matter of our analysis, is termed a single hypoechogenic, fluid space, almost with no capsule, or internal partitions, bridges, of oval or round shape. The content of the cyst has no differentiated internal reflections, it is homogenous. These traits enable one to differentiate them from other fluid lesions, for instance abscess, hematoma, necrotic tumor or even solid tumor of varied nature. As ultrasonography is a sufficient method of imaging simple cysts, in situation when the examination determines additional structures inside the cyst's structure it is necessary to utilize more precise diagnostic methods. The following are recommended: ultrasonography with a contrast medium, Computed Tomography and Magnetic Resonance Imaging as well as serological tests in the case the presence of a parasitic cyst suspected. The imaging of internal partitions, tissue bridges, thickened and irregular wall of the cyst, papilli-form outgrowths, calcification and structures in its lumen exclude the diagnosis of a simple hepatic cyst. The differential diagnostics of neoplastic cysts, apart from imaging testing, may additionally utilize the fine- or thick-needle biopsy method and the laboratory assessment of the aspirated fluid, along with tumor markers, mainly CEA and CA 19–9. Our material covered the analysis of fluid collected during aspiration.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_46_15-PMC5034020-0-JoU-2016-0026-g007.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_46_15-PMC5034020-0-JoU-2016-0026-g007.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "liver lesion",
+        "claim_text": "A lesion is present within the liver on the examined images.",
+        "presence_question": "Does the model's response discuss liver lesion?",
+        "correctness_question": "Does the model's response correctly assert that A lesion is present within the liver on the examined images?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lesion margin",
+        "claim_text": "The lesion demonstrates a well-defined margin on the imaging study.",
+        "presence_question": "Does the model's response discuss lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The lesion demonstrates a well-defined margin on the imaging study?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "predominantly cystic lesion",
+        "claim_text": "The lesion has a predominantly cystic appearance on the imaging.",
+        "presence_question": "Does the model's response discuss predominantly cystic lesion?",
+        "correctness_question": "Does the model's response correctly assert that The lesion has a predominantly cystic appearance on the imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "internal echoes",
+        "claim_text": "The lesion contains internal echoes on ultrasound imaging.",
+        "presence_question": "Does the model's response discuss internal echoes?",
+        "correctness_question": "Does the model's response correctly assert that The lesion contains internal echoes on ultrasound imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "multiple internal septations",
+        "claim_text": "The lesion shows multiple internal septations or daughter compartments within it.",
+        "presence_question": "Does the model's response discuss multiple internal septations?",
+        "correctness_question": "Does the model's response correctly assert that The lesion shows multiple internal septations or daughter compartments within it?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "simple anechoic solitary cyst",
+        "claim_text": "There is no simple anechoic solitary cyst appearance in the liver.",
+        "presence_question": "Does the model's response discuss simple anechoic solitary cyst?",
+        "correctness_question": "Does the model's response correctly assert that There is no simple anechoic solitary cyst appearance in the liver?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "internal septations in liver cysts",
+        "claim_text": "Internal septations within a cystic liver lesion indicate a complex cystic lesion.",
+        "presence_question": "Does the model's response discuss internal septations in liver cysts?",
+        "correctness_question": "Does the model's response correctly state that internal septations within a cystic liver lesion indicate a complex cystic lesion?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "evaluation of complex cystic liver lesions",
+        "claim_text": "Complex cystic liver lesions should be characterized to determine etiology (for example, neoplastic versus infectious or parasitic) before invasive or therapeutic intervention.",
+        "presence_question": "Does the model's response discuss evaluation of complex cystic liver lesions?",
+        "correctness_question": "Does the model's response correctly state that complex cystic liver lesions should be characterized to determine etiology (for example, neoplastic versus infectious or parasitic) before invasive or therapeutic intervention?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "cross-sectional imaging and serologic testing",
+        "claim_text": "Cross-sectional imaging (CT or MRI) and targeted serologic testing help establish the diagnosis and guide management of complex cystic liver lesions.",
+        "presence_question": "Does the model's response discuss cross-sectional imaging and serologic testing?",
+        "correctness_question": "Does the model's response correctly state that cross-sectional imaging (CT or MRI) and targeted serologic testing help establish the diagnosis and guide management of complex cystic liver lesions?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "simple hepatic cyst ultrasound appearance",
+        "claim_text": "Simple hepatic cysts are typically anechoic and solitary on ultrasound.",
+        "presence_question": "Does the model's response discuss simple hepatic cyst ultrasound appearance?",
+        "correctness_question": "Does the model's response correctly state that simple hepatic cysts are typically anechoic and solitary on ultrasound?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Multiple internal septations indicating complex cystic lesion",
+        "claim_text": "The presence of multiple internal septations supports interpreting this lesion as a complex cystic lesion in this case.",
+        "presence_question": "Does the model's response make an inferential link about Multiple internal septations indicating complex cystic lesion?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of multiple internal septations supports interpreting this lesion as a complex cystic lesion in this case?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Absence of simple cyst appearance",
+        "claim_text": "Because the lesion lacks the simple anechoic solitary cyst appearance, it is unlikely to represent a simple hepatic cyst in this case.",
+        "presence_question": "Does the model's response make an inferential link about Absence of simple cyst appearance?",
+        "correctness_question": "Does the model's response correctly conclude that Because the lesion lacks the simple anechoic solitary cyst appearance, it is unlikely to represent a simple hepatic cyst in this case?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Characterization of complex cystic lesions",
+        "claim_text": "The requirement that complex cystic lesions be characterized to determine etiology justifies further evaluation of this lesion.",
+        "presence_question": "Does the model's response make an inferential link about Characterization of complex cystic lesions?",
+        "correctness_question": "Does the model's response correctly conclude that The requirement that complex cystic lesions be characterized to determine etiology justifies further evaluation of this lesion?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Cross-sectional imaging and targeted serologic testing",
+        "claim_text": "Noninvasive cross-sectional imaging (CT or MRI) and targeted serologic testing are appropriate next tests to help establish the diagnosis and guide management for this lesion.",
+        "presence_question": "Does the model's response make an inferential link about Cross-sectional imaging and targeted serologic testing?",
+        "correctness_question": "Does the model's response correctly conclude that Noninvasive cross-sectional imaging (CT or MRI) and targeted serologic testing are appropriate next tests to help establish the diagnosis and guide management for this lesion?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

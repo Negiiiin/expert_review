@@ -27,5 +27,120 @@
   "caption": "Axial view (a), sagital MPR (b) and corresponding VR views (c, d) illustrate a typical case of high degree compression of the CTK (red arrows) by the MAL of the diaphragm fortuitously diagnosed in a 68-year-old patient. The compression appears well compensated by retrograde arterial supply from the SMA through typical serpiginous hypertrophy of the PDAs (white arrows).",
   "sub_caption": "Axial view (a), sagital MPR (b) and corresponding VR views (c, d) illustrate a typical case of high degree compression of the CTK (red arrows) by the MAL of the diaphragm fortuitously diagnosed in a 68-year-old patient. The compression appears well compensated by retrograde arterial supply from the SMA through typical serpiginous hypertrophy of the PDAs (white arrows).",
   "image_context": "During MDCTA the MALS exhibits a characteristic hooked appearance of the focal narrowing of the CTK and the deformation increases during expiration (Figures <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g1\">1</xref> and  and <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g2\">2</xref>). This aspect is clearly distinctive from other causes of stenosis such atherosclerosis [). This aspect is clearly distinctive from other causes of stenosis such atherosclerosis [9]. Poststenotic dilatation of the compressed CTK is also common as well as the development of collaterals which essentially concern serpiginous hypertrophy of the Gastroduodenal Artery (GDA) and of the cephalic pancreatic arcades (CPAs) (Figures <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g1\">1</xref> and  and <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g3\">3</xref>). These antero-inferior and postero-superior CPAs envelop the pancreas head in a circular network [). These antero-inferior and postero-superior CPAs envelop the pancreas head in a circular network [14]. They anastomose the GDA originating from the hepatic artery (HA) with the inferior pancreaticoduodenal artery originating from the SMA usually as its first branch.",
-  "relevant_image_context": "During MDCTA the MALS exhibits a characteristic hooked appearance of the focal narrowing of the CTK and the deformation increases during expiration. This aspect is clearly distinctive from other causes of stenosis such as atherosclerosis. Poststenotic dilatation of the compressed CTK is also common as well as the development of collaterals which essentially concern serpiginous hypertrophy of the Gastroduodenal Artery (GDA) and of the cephalic pancreatic arcades (CPAs). These antero-inferior and postero-superior CPAs envelop the pancreas head in a circular network. They anastomose the GDA originating from the hepatic artery with the inferior pancreaticoduodenal artery originating from the SMA usually as its first branch."
+  "relevant_image_context": "During MDCTA the MALS exhibits a characteristic hooked appearance of the focal narrowing of the CTK and the deformation increases during expiration. This aspect is clearly distinctive from other causes of stenosis such as atherosclerosis. Poststenotic dilatation of the compressed CTK is also common as well as the development of collaterals which essentially concern serpiginous hypertrophy of the Gastroduodenal Artery (GDA) and of the cephalic pancreatic arcades (CPAs). These antero-inferior and postero-superior CPAs envelop the pancreas head in a circular network. They anastomose the GDA originating from the hepatic artery with the inferior pancreaticoduodenal artery originating from the SMA usually as its first branch.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_3_filelist_commercial_batch_52_81-PMC5854326-3-jbsr-101-1-1203-g1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_52_81-PMC5854326-3-jbsr-101-1-1203-g1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "crescent-shaped indentation at proximal celiac trunk",
+        "claim_text": "A focal crescent-shaped indentation is present at the proximal celiac trunk origin.",
+        "presence_question": "Does the model's response discuss the crescent-shaped indentation at proximal celiac trunk?",
+        "correctness_question": "Does the model's response correctly assert that A focal crescent-shaped indentation is present at the proximal celiac trunk origin?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "severe luminal narrowing at proximal celiac trunk",
+        "claim_text": "There is a discrete point of severe luminal narrowing at the proximal celiac trunk origin.",
+        "presence_question": "Does the model's response discuss the severe luminal narrowing at proximal celiac trunk?",
+        "correctness_question": "Does the model's response correctly assert that There is a discrete point of severe luminal narrowing at the proximal celiac trunk origin?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "distal celiac trunk enlargement",
+        "claim_text": "The celiac trunk segment just distal to the narrowing is increased in caliber compared to the proximal narrowed segment.",
+        "presence_question": "Does the model's response discuss the distal celiac trunk enlargement?",
+        "correctness_question": "Does the model's response correctly assert that The celiac trunk segment just distal to the narrowing is increased in caliber compared to the proximal narrowed segment?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "indentation compressing celiac trunk origin",
+        "claim_text": "The indentation compresses the proximal celiac trunk origin.",
+        "presence_question": "Does the model's response discuss the indentation compressing celiac trunk origin?",
+        "correctness_question": "Does the model's response correctly assert that The indentation compresses the proximal celiac trunk origin?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "ligamentous-type extrinsic compression appearance",
+        "claim_text": "The indentation may have the appearance of a ligamentous-type extrinsic compression at the proximal celiac trunk origin.",
+        "presence_question": "Does the model's response discuss the ligamentous-type extrinsic compression appearance?",
+        "correctness_question": "Does the model's response correctly assert that The indentation may have the appearance of a ligamentous-type extrinsic compression at the proximal celiac trunk origin?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "extrinsic vascular compression",
+        "claim_text": "Extrinsic vascular compression is typically treated by surgical decompression that releases the compressing structure.",
+        "presence_question": "Does the model's response discuss extrinsic vascular compression?",
+        "correctness_question": "Does the model's response correctly state that Extrinsic vascular compression is typically treated by surgical decompression that releases the compressing structure?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "crescent-shaped arterial indentation",
+        "claim_text": "A crescent-shaped focal indentation compressing an artery from above typically suggests extrinsic ligamentous compression.",
+        "presence_question": "Does the model's response discuss crescent-shaped arterial indentation?",
+        "correctness_question": "Does the model's response correctly state that A crescent-shaped focal indentation compressing an artery from above typically suggests extrinsic ligamentous compression?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "post-stenotic dilation",
+        "claim_text": "Post-stenotic dilation can occur distal to an arterial stenosis.",
+        "presence_question": "Does the model's response discuss post-stenotic dilation?",
+        "correctness_question": "Does the model's response correctly state that Post-stenotic dilation can occur distal to an arterial stenosis?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Extrinsic ligamentous compression inference",
+        "claim_text": "The combination of a focal crescent-shaped indentation at the proximal celiac trunk origin that compresses the artery from above and an adjacent point of severe luminal narrowing is consistent with an extrinsic ligamentous compression of the proximal celiac trunk in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Extrinsic ligamentous compression inference?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a focal crescent-shaped indentation at the proximal celiac trunk origin that compresses the artery from above and an adjacent point of severe luminal narrowing is consistent with an extrinsic ligamentous compression of the proximal celiac trunk in this patient.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Surgical decompression recommendation",
+        "claim_text": "Because the imaging demonstrates extrinsic compression of the proximal celiac trunk rather than a primary intraluminal lesion, surgical management should target release of the compressing structure (decompression) rather than intraluminal interventions.",
+        "presence_question": "Does the model's response make an inferential link about Surgical decompression recommendation?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging demonstrates extrinsic compression of the proximal celiac trunk rather than a primary intraluminal lesion, surgical management should target release of the compressing structure (decompression) rather than intraluminal interventions.?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Hemodynamic significance inference",
+        "claim_text": "The presence of a discrete severe focal luminal narrowing with a more dilated segment distal to it is consistent with the proximal stenosis being hemodynamically significant and having produced post-stenotic dilation.",
+        "presence_question": "Does the model's response make an inferential link about Hemodynamic significance inference?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a discrete severe focal luminal narrowing with a more dilated segment distal to it is consistent with the proximal stenosis being hemodynamically significant and having produced post-stenotic dilation.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

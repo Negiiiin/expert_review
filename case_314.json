@@ -28,5 +28,112 @@
   "caption": "Digital subtraction angiography (DSA) of cerebral vessels performed at one-year follow-up after coiling, showing substantially enlarged residual aneurysm at A2 segment of the left anterior cerebral artery (ACA) measuring 2.95 mm in diameter of aneurysmal sac (red rings): the anteroposterior (A), lateral (B), and three-dimensional (C) DSA projections; computed tomographic angiography (CTA) performed at 6-month follow-up after clipping, showing stable aneurysmal occlusion (D) (red ring).",
   "sub_caption": "computed tomographic angiography (CTA) performed at 6-month follow-up after clipping, showing stable aneurysmal occlusion (D) (red ring).",
   "image_context": "A 57-year-old male was admitted to the hospital as an emergency due to ruptured aneurysm on the left pericallosal artery and consequent SAH two years prior to microsurgical treatment. His past medical history included arterial hypertension and no other chronic illnesses. He was HH I at admission having no neurological deficit. Immediate endovascular procedure was carried out and the aneurysm sac was occluded with 3 coils. His post-procedural recovery was uneventful and he had upper full recovery (GOSE 8) at 6-month follow-up when post-procedural digital subtraction angiography (DSA) of cerebral vessels was performed showing coil-occluded aneurysmal sac at A2 segment of the left anterior cerebral artery (ACA) with minor residual filling of the aneurysmal neck. However, the residual aneurysm substantially enlarged at one-year check-up, measuring 2.95 mm in diameter of aneurysmal sac (<xref rid=\"acc-60-695-f1\" ref-type=\"fig\">Fig. 1 A, B, C</xref>). Accordingly, microsurgical aneurysm revision was proposed and bifrontal, more left-side oriented craniotomy was performed. Aneurysm site on the left pericallosal artery was located through interhemispheric approach with control of the neuronavigation system. Coils protruding throughout the aneurysmal sac were visible but left intact. A titanium clip was selectively placed across the aneurysmal neck, while intraoperative fluorescein imaging confirmed no further aneurysmal filling with maintained patency of the parent vessel. Computerized tomography (CT) brain scan disclosed no abnormalities and no signs of brain ischemic lesion. No additional neurological deficit was observed. The patient was discharged fully recovered (GOSE 8). Follow-up computed tomographic angiography (CTA) performed at 6-month check-up after clipping showed stable distal ACA aneurysmal occlusion (). Accordingly, microsurgical aneurysm revision was proposed and bifrontal, more left-side oriented craniotomy was performed. Aneurysm site on the left pericallosal artery was located through interhemispheric approach with control of the neuronavigation system. Coils protruding throughout the aneurysmal sac were visible but left intact. A titanium clip was selectively placed across the aneurysmal neck, while intraoperative fluorescein imaging confirmed no further aneurysmal filling with maintained patency of the parent vessel. Computerized tomography (CT) brain scan disclosed no abnormalities and no signs of brain ischemic lesion. No additional neurological deficit was observed. The patient was discharged fully recovered (GOSE 8). Follow-up computed tomographic angiography (CTA) performed at 6-month check-up after clipping showed stable distal ACA aneurysmal occlusion (<xref rid=\"acc-60-695-f1\" ref-type=\"fig\">Fig. 1 D</xref>).).",
-  "relevant_image_context": "Follow-up computed tomographic angiography (CTA) performed at 6-month check-up after clipping showed stable distal ACA aneurysmal occlusion (Fig. 1 D)."
+  "relevant_image_context": "Follow-up computed tomographic angiography (CTA) performed at 6-month check-up after clipping showed stable distal ACA aneurysmal occlusion (Fig. 1 D).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_113_16-PMC9196227-0-acc-60-695-f1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_113_16-PMC9196227-0-acc-60-695-f1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "surgical clip",
+        "claim_text": "A surgical clip is present on the axial vascular image.",
+        "presence_question": "Does the model's response discuss surgical clip?",
+        "correctness_question": "Does the model's response correctly assert that A surgical clip is present on the axial vascular image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "surgical clip density",
+        "claim_text": "The surgical clip demonstrates high density on the axial vascular image.",
+        "presence_question": "Does the model's response discuss surgical clip density?",
+        "correctness_question": "Does the model's response correctly assert that The surgical clip demonstrates high density on the axial vascular image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "surgical clip shape",
+        "claim_text": "The surgical clip appears star-shaped on the axial vascular image.",
+        "presence_question": "Does the model's response discuss surgical clip shape?",
+        "correctness_question": "Does the model's response correctly assert that The surgical clip appears star-shaped on the axial vascular image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "surgical clip location",
+        "claim_text": "The surgical clip is located in the midline anterior region on axial vascular imaging.",
+        "presence_question": "Does the model's response discuss surgical clip location?",
+        "correctness_question": "Does the model's response correctly assert that The surgical clip is located in the midline anterior region on axial vascular imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "contrast-filled outpouching adjacent to clip",
+        "claim_text": "No contrast-filled outpouching is identified adjacent to the clip on the axial vascular image.",
+        "presence_question": "Does the model's response discuss contrast-filled outpouching adjacent to clip?",
+        "correctness_question": "Does the model's response correctly assert that No contrast-filled outpouching is identified adjacent to the clip on the axial vascular image?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "vessel filling defect near clip",
+        "claim_text": "No filling defect is present in the nearby vessel adjacent to the clip on the axial vascular image.",
+        "presence_question": "Does the model's response discuss vessel filling defect near clip?",
+        "correctness_question": "Does the model's response correctly assert that No filling defect is present in the nearby vessel adjacent to the clip on the axial vascular image?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "residual or recurrent contrast-filled sac",
+        "claim_text": "A residual or recurrent contrast-filled sac adjacent to a treated site suggests recurrence.",
+        "presence_question": "Does the model's response discuss residual or recurrent contrast-filled sac?",
+        "correctness_question": "Does the model's response correctly state that A residual or recurrent contrast-filled sac adjacent to a treated site suggests recurrence?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "parent vessel compromise or filling defect",
+        "claim_text": "Parent vessel compromise or a filling defect indicates increased ischemic risk.",
+        "presence_question": "Does the model's response discuss parent vessel compromise or filling defect?",
+        "correctness_question": "Does the model's response correctly state that Parent vessel compromise or a filling defect indicates increased ischemic risk?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "durable occlusion without residual filling or vessel compromise",
+        "claim_text": "Durable occlusion without residual or recurrent filling or vessel compromise is associated with a low risk of recurrence and supports candidacy for routine surveillance.",
+        "presence_question": "Does the model's response discuss durable occlusion without residual or recurrent filling or vessel compromise?",
+        "correctness_question": "Does the model's response correctly state that Durable occlusion without residual or recurrent filling or vessel compromise is associated with a low risk of recurrence and supports candidacy for routine surveillance?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Occlusion implies low recurrence risk",
+        "claim_text": "The absence of a contrast-filled sac adjacent to the clip and the absence of a filling defect in the nearby vessel support that the treated lesion is occluded without residual or recurrent filling, implying a low risk of recurrence.",
+        "presence_question": "Does the model's response make an inferential link about Occlusion implies low recurrence risk?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of a contrast-filled sac adjacent to the clip and the absence of a filling defect in the nearby vessel support that the treated lesion is occluded without residual or recurrent filling, implying a low risk of recurrence.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "No residual filling justifies surveillance",
+        "claim_text": "The absence of residual or recurrent contrast filling adjacent to the clip and the lack of parent vessel compromise on this image justify routine surveillance as the appropriate follow-up for the treated lesion.",
+        "presence_question": "Does the model's response make an inferential link about No residual filling justifies surveillance?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of residual or recurrent contrast filling adjacent to the clip and the lack of parent vessel compromise on this image justify routine surveillance as the appropriate follow-up for the treated lesion.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

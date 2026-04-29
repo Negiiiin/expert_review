@@ -28,5 +28,118 @@
   "caption": "MRI revealed nodular enhancement in the left pontine cistern.",
   "sub_caption": "MRI revealed nodular enhancement in the left pontine cistern.",
   "image_context": "On the third day of admission, the patient developed lethargy. Considering his persistent fever and refractory hyponatremia since admission, the patient underwent a lumbar puncture with pressure > 40 cmH20. The cerebrospinal fluid (CSF) analysis revealed a WBC count of 66 × 106/L, lymphocyte count of 70%, protein level of 925.1 mg/L, glucose level of 3.0 mmol/L, and chloride level of 103.5 mmol/L. Findings of CSF cryptococcal antigen and bacterial and fungal cultures, as well as results of the purified protein derivation test and sputum cultures, were all negative. High-throughput sequencing of the CSF detected Mycobacterium tuberculosis with high confidence. Re-examination of head MRI enhancement revealed that the left pontine cistern showed nodular enhancement (<xref rid=\"fneur-12-676684-g0003\" ref-type=\"fig\">Figure 3</xref>), and multiple cerebral infarctions with complicated TBM were diagnosed. The patient was thus started on a five-drug treatment for tuberculosis comprising isoniazid, ethambutol, pyrazinamide, rifampicin, and levofloxacin. Intrathecal administration of dexamethasone (4 mg/time) and isoniazid (100 mg/time) were given three times per week. Further CSF examinations showed improved tendencies (), and multiple cerebral infarctions with complicated TBM were diagnosed. The patient was thus started on a five-drug treatment for tuberculosis comprising isoniazid, ethambutol, pyrazinamide, rifampicin, and levofloxacin. Intrathecal administration of dexamethasone (4 mg/time) and isoniazid (100 mg/time) were given three times per week. Further CSF examinations showed improved tendencies (Table 1). The patient had only right facial paralysis when discharged, and he continued anti-tuberculosis treatment at a local hospital.",
-  "relevant_image_context": "Re-examination of head MRI enhancement revealed that the left pontine cistern showed nodular enhancement (Figure 3), and multiple cerebral infarctions with complicated TBM were diagnosed."
+  "relevant_image_context": "Re-examination of head MRI enhancement revealed that the left pontine cistern showed nodular enhancement (Figure 3), and multiple cerebral infarctions with complicated TBM were diagnosed.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_105_40-PMC8497823-0-fneur-12-676684-g0003.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_105_40-PMC8497823-0-fneur-12-676684-g0003.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left pontine cistern bright focus",
+        "claim_text": "A rounded bright focus is present in the left pontine cistern.",
+        "presence_question": "Does the model's response discuss left pontine cistern bright focus?",
+        "correctness_question": "Does the model's response correctly assert that A rounded bright focus is present in the left pontine cistern?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "left anterolateral pons location",
+        "claim_text": "The rounded bright focus is immediately adjacent to the left anterolateral aspect of the pons.",
+        "presence_question": "Does the model's response discuss left anterolateral pons location?",
+        "correctness_question": "Does the model's response correctly assert that The rounded bright focus is immediately adjacent to the left anterolateral aspect of the pons?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "compact nodular shape",
+        "claim_text": "The focus in the left pontine cistern has a compact nodular shape.",
+        "presence_question": "Does the model's response discuss compact nodular shape?",
+        "correctness_question": "Does the model's response correctly assert that The focus in the left pontine cistern has a compact nodular shape?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "increased signal compared to CSF and brain",
+        "claim_text": "The focus demonstrates increased signal compared to surrounding CSF and brain.",
+        "presence_question": "Does the model's response discuss increased signal compared to CSF and brain?",
+        "correctness_question": "Does the model's response correctly assert that The focus demonstrates increased signal compared to surrounding CSF and brain?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "single enhancing nodule in left pontine cistern",
+        "claim_text": "There is one enhancing nodule in the left pontine cistern.",
+        "presence_question": "Does the model's response discuss single enhancing nodule in left pontine cistern?",
+        "correctness_question": "Does the model's response correctly assert that There is one enhancing nodule in the left pontine cistern?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "nodular contrast enhancement",
+        "claim_text": "Nodular contrast enhancement on post-contrast MRI refers to discrete rounded regions of increased signal intensity.",
+        "presence_question": "Does the model's response discuss nodular contrast enhancement?",
+        "correctness_question": "Does the model's response correctly state that Nodular contrast enhancement on post-contrast MRI refers to discrete rounded regions of increased signal intensity?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "contrast-enhancing lesions",
+        "claim_text": "Contrast-enhancing lesions on post-contrast MRI are characterized by increased signal compared to cerebrospinal fluid and brain.",
+        "presence_question": "Does the model's response discuss contrast-enhancing lesions?",
+        "correctness_question": "Does the model's response correctly state that Contrast-enhancing lesions on post-contrast MRI are characterized by increased signal compared to cerebrospinal fluid and brain?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "identification of nodular enhancing foci",
+        "claim_text": "Identification of nodular enhancing foci typically involves systematic scanning of the cistern on post-contrast images.",
+        "presence_question": "Does the model's response discuss identification of nodular enhancing foci?",
+        "correctness_question": "Does the model's response correctly state that Identification of nodular enhancing foci typically involves systematic scanning of the cistern on post-contrast images?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Focal nodular enhancement interpretation",
+        "claim_text": "The observed discrete rounded bright focus adjacent to the left anterolateral pons supports the presence of focal nodular contrast enhancement within the left pontine cistern in this case.",
+        "presence_question": "Does the model's response make an inferential link about Focal nodular enhancement interpretation?",
+        "correctness_question": "Does the model's response correctly conclude that The observed discrete rounded bright focus adjacent to the left anterolateral pons supports the presence of focal nodular contrast enhancement within the left pontine cistern in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Solitary nodular lesion inference",
+        "claim_text": "The detection of only a single nodular enhancing focus in the left pontine cistern on this axial post-contrast image is consistent with a solitary lesion in that cisternal space on this slice.",
+        "presence_question": "Does the model's response make an inferential link about Solitary nodular lesion inference?",
+        "correctness_question": "Does the model's response correctly conclude that The detection of only a single nodular enhancing focus in the left pontine cistern on this axial post-contrast image is consistent with a solitary lesion in that cisternal space on this slice.?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Contrast enhancement inference",
+        "claim_text": "The focus's higher signal relative to surrounding CSF and brain on the post-contrast image supports that the finding represents true contrast enhancement in this case.",
+        "presence_question": "Does the model's response make an inferential link about Contrast enhancement inference?",
+        "correctness_question": "Does the model's response correctly conclude that The focus's higher signal relative to surrounding CSF and brain on the post-contrast image supports that the finding represents true contrast enhancement in this case.?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

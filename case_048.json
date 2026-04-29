@@ -27,5 +27,126 @@
   "caption": "Abdominal wound dehiscence.On a contrast-enhanced postoperative CT scan performed 7 days after total colectomy for severe slow transit constipation, separation of the abdominal wall and a fluid collection is identified along the midline incision (arrows).",
   "sub_caption": "On a contrast-enhanced postoperative CT scan performed 7 days after total colectomy for severe slow transit constipation, separation of the abdominal wall and a fluid collection is identified along the midline incision (arrows).",
   "image_context": "대장 직장 수술의 상처 감염 혹은 수술 부위 감염(surgical site infections)은 다른 복부 수술에 비해 4배나 더 잘 발생하는 것으로 알려져 있다(35). 수술 부위 감염을 방치하게 되면 시간이 지남에 따라 상처 벌어짐(wound dehiscence)과 절개창 탈장(incisional hernia)이 발생하게 된다(36). 상처 감염과 상처 벌어짐의 영상의학적 소견은 CT상에서 복벽절개창(abdominal wall incision) 내에 생긴 소량의 액체 또는 공기 저류가 보이는 것이다(<xref rid=\"jksr-85-727-g006\" ref-type=\"fig\">Fig. 6</xref>) () (36). 간혹 상처를 닫지 않고 2차 치유(secondary intention wound healing)를 위해 수술적 드레싱으로 상처 부위를 채워 넣은 경우가 있으며, 이것을 상처 부위 벌어짐으로 오해해서는 안 된다(37).",
-  "relevant_image_context": "상처 감염과 상처 벌어짐의 영상의학적 소견은 CT상에서 복벽절개창(abdominal wall incision) 내에 생긴 소량의 액체 또는 공기 저류가 보이는 것이다"
+  "relevant_image_context": "상처 감염과 상처 벌어짐의 영상의학적 소견은 CT상에서 복벽절개창(abdominal wall incision) 내에 생긴 소량의 액체 또는 공기 저류가 보이는 것이다",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_155_4-PMC11310425-12-jksr-85-727-g006.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_155_4-PMC11310425-12-jksr-85-727-g006.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "CT timing after colectomy",
+        "claim_text": "The axial contrast-enhanced CT was performed seven days after total colectomy",
+        "presence_question": "Does the model's response discuss CT timing after colectomy?",
+        "correctness_question": "Does the model's response correctly assert that The axial contrast-enhanced CT was performed seven days after total colectomy?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "anterior midline fascial separation",
+        "claim_text": "There is focal separation of the fascial and soft-tissue planes in the anterior midline abdominal wall",
+        "presence_question": "Does the model's response discuss anterior midline fascial separation?",
+        "correctness_question": "Does the model's response correctly assert that There is focal separation of the fascial and soft-tissue planes in the anterior midline abdominal wall?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "lenticular intra-wound fluid collection",
+        "claim_text": "The intra-wound fluid collection is lenticular in shape within the wound defect",
+        "presence_question": "Does the model's response discuss lenticular intra-wound fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that The intra-wound fluid collection is lenticular in shape within the wound defect?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "low-attenuation intra-wound fluid",
+        "claim_text": "The intra-wound fluid collection within the wound defect exhibits low-attenuation density",
+        "presence_question": "Does the model's response discuss low-attenuation intra-wound fluid?",
+        "correctness_question": "Does the model's response correctly assert that The intra-wound fluid collection within the wound defect exhibits low-attenuation density?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "fluid collection in midline wound defect",
+        "claim_text": "A fluid collection is present in the midline anterior wound defect",
+        "presence_question": "Does the model's response discuss fluid collection in midline wound defect?",
+        "correctness_question": "Does the model's response correctly assert that A fluid collection is present in the midline anterior wound defect?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "adjacent subcutaneous tissue heterogeneity",
+        "claim_text": "The subcutaneous tissues adjacent to the defect are mildly heterogeneous",
+        "presence_question": "Does the model's response discuss adjacent subcutaneous tissue heterogeneity?",
+        "correctness_question": "Does the model's response correctly assert that The subcutaneous tissues adjacent to the defect are mildly heterogeneous?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "pelvic bowel loop location",
+        "claim_text": "Bowel loops are located deeper in the pelvis",
+        "presence_question": "Does the model's response discuss pelvic bowel loop location?",
+        "correctness_question": "Does the model's response correctly assert that Bowel loops are located deeper in the pelvis?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "pelvic bowel dilatation",
+        "claim_text": "Bowel loops in the pelvis show no obvious dilatation",
+        "presence_question": "Does the model's response discuss pelvic bowel dilatation?",
+        "correctness_question": "Does the model's response correctly assert that Bowel loops in the pelvis show no obvious dilatation?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "absence of bowel within wound",
+        "claim_text": "There is no contained segment of bowel within the wound",
+        "presence_question": "Does the model's response discuss absence of bowel within wound?",
+        "correctness_question": "Does the model's response correctly assert that There is no contained segment of bowel within the wound?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "wound dehiscence",
+        "claim_text": "Wound dehiscence is separation of the fascial and soft-tissue planes.",
+        "presence_question": "Does the model's response discuss wound dehiscence?",
+        "correctness_question": "Does the model's response correctly state that Wound dehiscence is separation of the fascial and soft-tissue planes?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "fluid collection in a wound",
+        "claim_text": "Fluid collection within a wound increases the risk of local infection and delayed or complicated wound healing.",
+        "presence_question": "Does the model's response discuss fluid collection in a wound?",
+        "correctness_question": "Does the model's response correctly state that Fluid collection within a wound increases the risk of local infection and delayed or complicated wound healing?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "postoperative wound infection plausibility",
+        "claim_text": "The presence of midline wound dehiscence and an intra-wound low-attenuation fluid collection supports that postoperative wound infection is plausible in this patient.",
+        "presence_question": "Does the model's response make an inferential link about postoperative wound infection plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of midline wound dehiscence and an intra-wound low-attenuation fluid collection supports that postoperative wound infection is plausible in this patient?",
+        "premise_perception_ids": [
+          "p2",
+          "p5",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "delayed or complicated wound healing",
+        "claim_text": "The combination of wound separation, intra-wound fluid collection, and mild heterogeneity of adjacent subcutaneous tissues is consistent with delayed or otherwise complicated wound healing in this case.",
+        "presence_question": "Does the model's response make an inferential link about delayed or complicated wound healing?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of wound separation, intra-wound fluid collection, and mild heterogeneity of adjacent subcutaneous tissues is consistent with delayed or otherwise complicated wound healing in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

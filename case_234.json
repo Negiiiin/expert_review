@@ -27,5 +27,105 @@
   "caption": "The 5-layer structure of the normal gastric wall on ultrasonography. The 5-layer structure of the normal gastric wall is numbered from the luminal side. Layer 1 is the interface echo between the gastric lumen and the mucosa, layer 2 is the rest of the mucosa, layer 3 is the submucosa, layer 4 is the muscularis propria, and layer 5 is the serosa.",
   "sub_caption": "The 5-layer structure of the normal gastric wall on ultrasonography. The 5-layer structure of the normal gastric wall is numbered from the luminal side. Layer 1 is the interface echo between the gastric lumen and the mucosa, layer 2 is the rest of the mucosa, layer 3 is the submucosa, layer 4 is the muscularis propria, and layer 5 is the serosa.",
   "image_context": "Normal gastric wall consists of five layers, mucosa, submucosa, muscularis propria, subserosa and serosa. The five layers, including the interface echo between the gastric lumen and the mucosa, the rest of the mucosa, submucosa, muscularis propria, and serosa[15] , can be visualized by US (Figure <xref rid=\"WJG-30-3005-g002\" ref-type=\"fig\">2</xref>). The outer serosa enhances first in the CEUS examination, followed rapidly by the submucosa and mucosa, completing the enhancement of the entire gastric wall. The layers of the mucosa and particularly the submucosa, exhibit early and intense enhancement whereas muscularis propria layer shows lesser and delayed enhancement[). The outer serosa enhances first in the CEUS examination, followed rapidly by the submucosa and mucosa, completing the enhancement of the entire gastric wall. The layers of the mucosa and particularly the submucosa, exhibit early and intense enhancement whereas muscularis propria layer shows lesser and delayed enhancement[16] (Video 1). GCs manifest as the thickening and disruption of normal gastric wall structures on US, “hyper-enhancement” in the arterial phase and “hypo-enhancement” in the venous phase on CEUS. Therefore, the 5-layer gastric wall structure of US and perfusion characteristics of CEUS give detailed information for T staging.",
-  "relevant_image_context": "Normal gastric wall consists of five layers, mucosa, submucosa, muscularis propria, subserosa and serosa. The five layers, including the interface echo between the gastric lumen and the mucosa, the rest of the mucosa, submucosa, muscularis propria, and serosa, can be visualized by US. The outer serosa enhances first in CEUS, followed rapidly by the submucosa and mucosa, completing the enhancement of the entire gastric wall. The layers of the mucosa and particularly the submucosa, exhibit early and intense enhancement whereas muscularis propria layer shows lesser and delayed enhancement. Therefore, the 5-layer gastric wall structure of US and perfusion characteristics of CEUS give detailed information for T staging."
+  "relevant_image_context": "Normal gastric wall consists of five layers, mucosa, submucosa, muscularis propria, subserosa and serosa. The five layers, including the interface echo between the gastric lumen and the mucosa, the rest of the mucosa, submucosa, muscularis propria, and serosa, can be visualized by US. The outer serosa enhances first in CEUS, followed rapidly by the submucosa and mucosa, completing the enhancement of the entire gastric wall. The layers of the mucosa and particularly the submucosa, exhibit early and intense enhancement whereas muscularis propria layer shows lesser and delayed enhancement. Therefore, the 5-layer gastric wall structure of US and perfusion characteristics of CEUS give detailed information for T staging.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_152_36-PMC11212705-2-WJG-30-3005-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_152_36-PMC11212705-2-WJG-30-3005-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "parallel bands on wall",
+        "claim_text": "The wall shows visible parallel bands across its surface in the image.",
+        "presence_question": "Does the model's response discuss parallel bands on the wall?",
+        "correctness_question": "Does the model's response correctly assert that The wall shows visible parallel bands across its surface in the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "labeled arrows",
+        "claim_text": "There are five labeled arrows present in the image.",
+        "presence_question": "Does the model's response discuss labeled arrows?",
+        "correctness_question": "Does the model's response correctly assert that There are five labeled arrows present in the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "arrows on distinct bands",
+        "claim_text": "Each labeled arrow is located on a distinct band of the wall.",
+        "presence_question": "Does the model's response discuss arrows on distinct bands?",
+        "correctness_question": "Does the model's response correctly assert that Each labeled arrow is located on a distinct band of the wall?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "distinct wall layers",
+        "claim_text": "There are five distinct layers visible in the wall.",
+        "presence_question": "Does the model's response discuss distinct wall layers?",
+        "correctness_question": "Does the model's response correctly assert that There are five distinct layers visible in the wall?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Layer 1 through Layer 5 labels",
+        "claim_text": "Text labels 'Layer 1' through 'Layer 5' are present in the image.",
+        "presence_question": "Does the model's response discuss Layer 1 through Layer 5 labels?",
+        "correctness_question": "Does the model's response correctly assert that Text labels 'Layer 1' through 'Layer 5' are present in the image?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "image annotations",
+        "claim_text": "Image annotations such as text labels or arrows indicate the location of the structures they label.",
+        "presence_question": "Does the model's response discuss image annotations?",
+        "correctness_question": "Does the model's response correctly state that Image annotations such as text labels or arrows indicate the location of the structures they label?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "parallel bands",
+        "claim_text": "Parallel bands on imaging suggest the presence of a layered structure.",
+        "presence_question": "Does the model's response discuss parallel bands?",
+        "correctness_question": "Does the model's response correctly state that Parallel bands on imaging suggest the presence of a layered structure?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "distinct annotated bands",
+        "claim_text": "Distinct annotated bands indicate the number of visible layers.",
+        "presence_question": "Does the model's response discuss distinct annotated bands?",
+        "correctness_question": "Does the model's response correctly state that Distinct annotated bands indicate the number of visible layers?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Number of distinct layers",
+        "claim_text": "The five labeled arrows pointing to distinct bands and annotated labels support that the number of distinct layers visible in this image is five.",
+        "presence_question": "Does the model's response make an inferential link about Number of distinct layers?",
+        "correctness_question": "Does the model's response correctly conclude that The five labeled arrows pointing to distinct bands and annotated labels support that the number of distinct layers visible in this image is five.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p5",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Presence of layer structure",
+        "claim_text": "The presence of parallel bands across the wall supports that layer structure is present in this case.",
+        "presence_question": "Does the model's response make an inferential link about Presence of layer structure?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of parallel bands across the wall supports that layer structure is present in this case.?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

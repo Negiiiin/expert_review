@@ -28,5 +28,86 @@
   "caption": "A 20-year old girl with progressive loss of vision and cafe-au-lait spots on her skin. A.Axial T1-weighted MR image of the orbits. B. Post-contrast axial T1-weighted MR image of the orbits.",
   "sub_caption": "B. Post-contrast axial T1-weighted MR image of the orbits.",
   "image_context": "In the axial T1-weighted MR image of the orbits, bilateral thickened optic nerves which were isointense with brain parenchyma were detected (<xref ref-type=\"fig\" rid=\"iranjradiol-08-63-g001\">Fig. 1A</xref>). In the post-contrast axial T1-weighted MR image, bilateral optic nerve gliomas without involvement of the chiasma were seen (). In the post-contrast axial T1-weighted MR image, bilateral optic nerve gliomas without involvement of the chiasma were seen (<xref ref-type=\"fig\" rid=\"iranjradiol-08-63-g001\">Fig. 1B</xref>).).",
-  "relevant_image_context": "In the post-contrast axial T1-weighted MR image, bilateral optic nerve gliomas without involvement of the chiasma were seen (Fig. 1B)."
+  "relevant_image_context": "In the post-contrast axial T1-weighted MR image, bilateral optic nerve gliomas without involvement of the chiasma were seen (Fig. 1B).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_12_114-PMC3522317-6-iranjradiol-08-63-g001.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_12_114-PMC3522317-6-iranjradiol-08-63-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "orbital tubular structures count",
+        "claim_text": "Two tubular structures are present bilaterally within the orbits.",
+        "presence_question": "Does the model's response discuss orbital tubular structures count?",
+        "correctness_question": "Does the model's response correctly assert that Two tubular structures are present bilaterally within the orbits?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "shape of tubular structures posterior to globes",
+        "claim_text": "The tubular structures posterior to the globes are elongated bilaterally on axial orbital MR.",
+        "presence_question": "Does the model's response discuss shape of tubular structures posterior to globes?",
+        "correctness_question": "Does the model's response correctly assert that The tubular structures posterior to the globes are elongated bilaterally on axial orbital MR?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "thickness of tubular structures posterior to globes",
+        "claim_text": "The tubular structures posterior to the globes are relatively thick bilaterally on axial orbital MR.",
+        "presence_question": "Does the model's response discuss thickness of tubular structures posterior to globes?",
+        "correctness_question": "Does the model's response correctly assert that The tubular structures posterior to the globes are relatively thick bilaterally on axial orbital MR?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "location of tubular structures at posterior globe",
+        "claim_text": "The tubular structures are located at the posterior aspect of each globe.",
+        "presence_question": "Does the model's response discuss location of tubular structures at posterior globe?",
+        "correctness_question": "Does the model's response correctly assert that The tubular structures are located at the posterior aspect of each globe?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "posterior extension of tubular structures toward midline",
+        "claim_text": "The tubular structures extend posteriorly toward the midline within each orbit.",
+        "presence_question": "Does the model's response discuss posterior extension of tubular structures toward midline?",
+        "correctness_question": "Does the model's response correctly assert that The tubular structures extend posteriorly toward the midline within each orbit?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "optic nerve",
+        "claim_text": "The optic nerve is a paired structure that extends from the posterior globe to the intracranial region.",
+        "presence_question": "Does the model's response discuss optic nerve?",
+        "correctness_question": "Does the model's response correctly state that the optic nerve is a paired structure that extends from the posterior globe to the intracranial region?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "optic nerve appearance on orbital imaging",
+        "claim_text": "On orbital imaging, the optic nerve typically appears as a tubular structure arising from the posterior pole of the globe and coursing posteriorly.",
+        "presence_question": "Does the model's response discuss optic nerve appearance on orbital imaging?",
+        "correctness_question": "Does the model's response correctly state that on orbital imaging the optic nerve typically appears as a tubular structure arising from the posterior pole of the globe and coursing posteriorly?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Optic nerve identification",
+        "claim_text": "The bilateral, elongated, relatively thick tubular structures originating at the posterior poles of the globes and coursing posteriorly toward the midline support the conclusion that these structures are the optic nerves in this case.",
+        "presence_question": "Does the model's response make an inferential link about Optic nerve identification?",
+        "correctness_question": "Does the model's response correctly conclude that The bilateral, elongated, relatively thick tubular structures originating at the posterior poles of the globes and coursing posteriorly toward the midline support the conclusion that these structures are the optic nerves in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

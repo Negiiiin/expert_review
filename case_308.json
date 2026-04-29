@@ -27,5 +27,165 @@
   "caption": "Post contrast neck computed tomography scan; axial and coronal reformat images, demonstrates a very large cystic cervical mass (46 × 23 mm) with papillary projections in its antero-lateral aspect, in left neck zone Vb (a, c). Moreover, there is a small heterogeneously enhancing nodule with small central cystic component in left pre-auricular region, in the site of prior parotidectomy (b)",
   "sub_caption": "axial and coronal reformat images, demonstrates a very large cystic cervical mass (46 × 23 mm) with papillary projections in its antero-lateral aspect, in left neck zone Vb (a, c).",
   "image_context": "Post-contrast neck computed tomography (CT) scan; demonstrated a very large cystic cervical mass (46 × 23 mm) with papillary projections in the antero-lateral aspect of the left neck zone Vb (Fig. <xref rid=\"13256_2024_4364_Fig1_HTML\" ref-type=\"fig\">1</xref>a, c). Moreover, there was a small heterogeneously enhancing nodule with small central cystic components in the left pre-auricular region (at the site of the prior surgical bed) (Fig. a, c). Moreover, there was a small heterogeneously enhancing nodule with small central cystic components in the left pre-auricular region (at the site of the prior surgical bed) (Fig. <xref rid=\"13256_2024_4364_Fig1_HTML\" ref-type=\"fig\">1</xref>b). In order to complete the restaging workup, a spiral lung CT was taken, which showed no distant metastases.b). In order to complete the restaging workup, a spiral lung CT was taken, which showed no distant metastases.Fig. 1Post contrast neck computed tomography scan; axial and coronal reformat images, demonstrates a very large cystic cervical mass (46 × 23 mm) with papillary projections in its antero-lateral aspect, in left neck zone Vb (a, c). Moreover, there is a small heterogeneously enhancing nodule with small central cystic component in left pre-auricular region, in the site of prior parotidectomy (b)",
-  "relevant_image_context": "Post-contrast neck CT scan; axial and coronal reform images, demonstrates a very large cystic cervical mass (46 × 23 mm) with papillary projections in its antero-lateral aspect, in left neck zone Vb (a, c). Moreover, there is a small heterogeneously enhancing nodule with small central cystic components in left pre-auricular region, in the site of prior parotidectomy (a, c)."
+  "relevant_image_context": "Post-contrast neck CT scan; axial and coronal reform images, demonstrates a very large cystic cervical mass (46 × 23 mm) with papillary projections in its antero-lateral aspect, in left neck zone Vb (a, c). Moreover, there is a small heterogeneously enhancing nodule with small central cystic components in left pre-auricular region, in the site of prior parotidectomy (a, c).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_106_23-PMC8819912-2-gr5.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_106_23-PMC8819912-2-gr5.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "vertebral body presence",
+        "claim_text": "A vertebral body is present in the image.",
+        "presence_question": "Does the model's response discuss vertebral body presence?",
+        "correctness_question": "Does the model's response correctly assert that A vertebral body is present in the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "vertebral body shape",
+        "claim_text": "The vertebral body has a roughly circular shape.",
+        "presence_question": "Does the model's response discuss vertebral body shape?",
+        "correctness_question": "Does the model's response correctly assert that The vertebral body has a roughly circular shape?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "vertebral body location",
+        "claim_text": "The vertebral body is located at the center of the image.",
+        "presence_question": "Does the model's response discuss vertebral body location?",
+        "correctness_question": "Does the model's response correctly assert that The vertebral body is located at the center of the image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "posterior elements location",
+        "claim_text": "The posterior elements are located in the inferior (posterior) portion of the image frame.",
+        "presence_question": "Does the model's response discuss posterior elements location?",
+        "correctness_question": "Does the model's response correctly assert that The posterior elements are located in the inferior (posterior) portion of the image frame?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "spinous process location",
+        "claim_text": "The spinous process is located in the inferior (posterior) portion of the image frame.",
+        "presence_question": "Does the model's response discuss spinous process location?",
+        "correctness_question": "Does the model's response correctly assert that The spinous process is located in the inferior (posterior) portion of the image frame?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "paraspinal soft tissues location",
+        "claim_text": "The paraspinal soft tissues are located lateral to the vertebral body in the image.",
+        "presence_question": "Does the model's response discuss paraspinal soft tissues location?",
+        "correctness_question": "Does the model's response correctly assert that The paraspinal soft tissues are located lateral to the vertebral body in the image?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "intra-vertebral object count",
+        "claim_text": "There are two intra-vertebral objects within the vertebral body.",
+        "presence_question": "Does the model's response discuss intra-vertebral object count?",
+        "correctness_question": "Does the model's response correctly assert that There are two intra-vertebral objects within the vertebral body?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "intra-vertebral object shape",
+        "claim_text": "Each intra-vertebral object has a round shape on imaging.",
+        "presence_question": "Does the model's response discuss intra-vertebral object shape?",
+        "correctness_question": "Does the model's response correctly assert that Each intra-vertebral object has a round shape on imaging?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "intra-vertebral object density",
+        "claim_text": "Each intra-vertebral object has high-density, metallic-appearing attenuation on imaging.",
+        "presence_question": "Does the model's response discuss intra-vertebral object density?",
+        "correctness_question": "Does the model's response correctly assert that Each intra-vertebral object has high-density, metallic-appearing attenuation on imaging?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "objects within vertebral body",
+        "claim_text": "The objects are located within the vertebral body.",
+        "presence_question": "Does the model's response discuss objects within vertebral body?",
+        "correctness_question": "Does the model's response correctly assert that The objects are located within the vertebral body?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "objects superior location",
+        "claim_text": "The objects are located in the superior (above horizontal midline) portion of the vertebral body.",
+        "presence_question": "Does the model's response discuss objects superior location?",
+        "correctness_question": "Does the model's response correctly assert that The objects are located in the superior (above horizontal midline) portion of the vertebral body?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "objects midline position",
+        "claim_text": "The objects are centered on the vertical midline of the image.",
+        "presence_question": "Does the model's response discuss objects midline position?",
+        "correctness_question": "Does the model's response correctly assert that The objects are centered on the vertical midline of the image?"
+      },
+      {
+        "claim_id": "p13",
+        "topic": "objects adjacency",
+        "claim_text": "The two objects are adjacent to each other, positioned close together.",
+        "presence_question": "Does the model's response discuss objects adjacency?",
+        "correctness_question": "Does the model's response correctly assert that The two objects are adjacent to each other, positioned close together?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "metallic foreign bodies on CT",
+        "claim_text": "Metallic foreign bodies appear as high-density (hyperattenuating) round foci on CT.",
+        "presence_question": "Does the model's response discuss metallic foreign bodies on CT?",
+        "correctness_question": "Does the model's response correctly state that Metallic foreign bodies appear as high-density (hyperattenuating) round foci on CT?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "axial CT of the spine",
+        "claim_text": "On axial spinal CT, the vertebral body lies centrally, the posterior elements (including the spinous process) are posterior, and paraspinal soft tissues lie laterally.",
+        "presence_question": "Does the model's response discuss axial CT of the spine?",
+        "correctness_question": "Does the model's response correctly state that On axial spinal CT, the vertebral body lies centrally, the posterior elements (including the spinous process) are posterior, and paraspinal soft tissues lie laterally?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "presence of metallic foreign bodies",
+        "claim_text": "The two round, high-density intravertebral objects are consistent with metallic foreign bodies being present in this case.",
+        "presence_question": "Does the model's response make an inferential link about presence of metallic foreign bodies?",
+        "correctness_question": "Does the model's response correctly conclude that The two round, high-density intravertebral objects are consistent with metallic foreign bodies being present in this case?",
+        "premise_perception_ids": [
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "superior midline location of objects",
+        "claim_text": "The appearance on this axial image supports that the objects are located at the superior midline of the vertebral body.",
+        "presence_question": "Does the model's response make an inferential link about superior midline location of objects?",
+        "correctness_question": "Does the model's response correctly conclude that The appearance on this axial image supports that the objects are located at the superior midline of the vertebral body?",
+        "premise_perception_ids": [
+          "p10",
+          "p11",
+          "p12"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "clustering of intravertebral objects",
+        "claim_text": "The two intra-vertebral objects are consistent with being clustered adjacent to each other within the superior midline of the vertebral body.",
+        "presence_question": "Does the model's response make an inferential link about clustering of intravertebral objects?",
+        "correctness_question": "Does the model's response correctly conclude that The two intra-vertebral objects are consistent with being clustered adjacent to each other within the superior midline of the vertebral body?",
+        "premise_perception_ids": [
+          "p7",
+          "p13"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

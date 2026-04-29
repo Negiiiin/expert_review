@@ -27,5 +27,178 @@
   "caption": "CT chest with contrast, axial view CT chest shows large confluent right hilar mass, mass-like pleural thickening in addition to nodular pleural thickening throughout the right hemithorax. Large right-sided pleural effusion with significant mass-effect and compressive atelectasis on the right lower and middle lung lobes.",
   "sub_caption": "CT chest with contrast, axial view CT chest shows large confluent right hilar mass, mass-like pleural thickening in addition to nodular pleural thickening throughout the right hemithorax. Large right-sided pleural effusion with significant mass-effect and compressive atelectasis on the right lower and middle lung lobes.",
   "image_context": "Due to concerns of association of unilateral pleural effusion with malignancy, CT chest with contrast was done and it showed a large confluent right hilar mass, mass-like pleural thickening in addition to nodular pleural thickening throughout the right hemithorax. The imaging also showed large right-sided pleural effusion with significant mass-effect and compressive atelectasis on the right lower and middle lung lobes (Figure <xref ref-type=\"fig\" rid=\"cureus-0013-00000017199-i02\">2</xref>).).",
-  "relevant_image_context": "Due to concerns of association of unilateral pleural effusion with malignancy, CT chest with contrast was done and it showed a large confluent right hilar mass, mass-like pleural thickening in addition to nodular pleural thickening throughout the right hemithorax. The imaging also showed large right-sided pleural effusion with significant mass-effect and compressive atelectasis on the right lower and middle lung lobes."
+  "relevant_image_context": "Due to concerns of association of unilateral pleural effusion with malignancy, CT chest with contrast was done and it showed a large confluent right hilar mass, mass-like pleural thickening in addition to nodular pleural thickening throughout the right hemithorax. The imaging also showed large right-sided pleural effusion with significant mass-effect and compressive atelectasis on the right lower and middle lung lobes.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_103_118-PMC8439404-1-cureus-0013-00000017199-i02.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_103_118-PMC8439404-1-cureus-0013-00000017199-i02.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "unilateral pleural effusion",
+        "claim_text": "A pleural fluid collection is present in one hemithorax.",
+        "presence_question": "Does the model's response discuss unilateral pleural effusion?",
+        "correctness_question": "Does the model's response correctly assert that A pleural fluid collection is present in one hemithorax?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "pleural effusion extent",
+        "claim_text": "The pleural fluid collection extends to most of the affected hemithorax.",
+        "presence_question": "Does the model's response discuss pleural effusion extent?",
+        "correctness_question": "Does the model's response correctly assert that the pleural fluid collection extends to most of the affected hemithorax?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "dependent low-attenuation pleural component",
+        "claim_text": "The pleural fluid contains a dependent, low-attenuation component.",
+        "presence_question": "Does the model's response discuss dependent low-attenuation pleural component?",
+        "correctness_question": "Does the model's response correctly assert that the pleural fluid contains a dependent, low-attenuation component?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "adjacent lung compression",
+        "claim_text": "The pleural fluid collection compresses the adjacent lung on the same side.",
+        "presence_question": "Does the model's response discuss adjacent lung compression?",
+        "correctness_question": "Does the model's response correctly assert that the pleural fluid collection compresses the adjacent lung on the same side?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "hilar soft-tissue density",
+        "claim_text": "A confluent soft-tissue density is located near the hilum on the same side as the effusion.",
+        "presence_question": "Does the model's response discuss hilar soft-tissue density?",
+        "correctness_question": "Does the model's response correctly assert that a confluent soft-tissue density is located near the hilum on the same side as the effusion?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "pleural-based chest wall soft tissue",
+        "claim_text": "Pleural-based soft tissue is present lining the chest wall on the same side as the effusion.",
+        "presence_question": "Does the model's response discuss pleural-based chest wall soft tissue?",
+        "correctness_question": "Does the model's response correctly assert that pleural-based soft tissue is present lining the chest wall on the same side as the effusion?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "nodular pleural-based soft tissue",
+        "claim_text": "The pleural-based soft tissue on the same side as the effusion has a nodular shape.",
+        "presence_question": "Does the model's response discuss nodular pleural-based soft tissue?",
+        "correctness_question": "Does the model's response correctly assert that the pleural-based soft tissue on the same side as the effusion has a nodular shape?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "irregular pleural-based soft tissue margins",
+        "claim_text": "The pleural-based soft tissue on the same side as the effusion has irregular margins.",
+        "presence_question": "Does the model's response discuss irregular pleural-based soft tissue margins?",
+        "correctness_question": "Does the model's response correctly assert that the pleural-based soft tissue on the same side as the effusion has irregular margins?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "adjacent lung marked compression with airspace loss",
+        "claim_text": "The adjacent lung on the same side shows marked compression with loss of airspace.",
+        "presence_question": "Does the model's response discuss adjacent lung marked compression with airspace loss?",
+        "correctness_question": "Does the model's response correctly assert that the adjacent lung on the same side shows marked compression with loss of airspace?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "large pleural effusion",
+        "claim_text": "A large pleural effusion is pleural fluid that fills most of a hemithorax.",
+        "presence_question": "Does the model's response discuss large pleural effusion?",
+        "correctness_question": "Does the model's response correctly state that a large pleural effusion is pleural fluid that fills most of a hemithorax?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "pleural effusion with mass effect",
+        "claim_text": "A pleural effusion that produces mass effect compresses adjacent lung and causes loss of aeration (compressive atelectasis).",
+        "presence_question": "Does the model's response discuss pleural effusion with mass effect?",
+        "correctness_question": "Does the model's response correctly state that a pleural effusion that produces mass effect compresses adjacent lung and causes loss of aeration (compressive atelectasis)?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "confluent or nodular pleural/hilar soft tissue",
+        "claim_text": "Confluent or nodular pleural-based and hilar soft tissue suggests extensive pleural and hilar involvement.",
+        "presence_question": "Does the model's response discuss confluent or nodular pleural/hilar soft tissue?",
+        "correctness_question": "Does the model's response correctly state that confluent or nodular pleural-based and hilar soft tissue suggests extensive pleural and hilar involvement?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "severity assessment of thoracic disease",
+        "claim_text": "Greater extent of thoracic involvement, presence of mass effect, and confluent or nodular pleural or hilar disease correspond to higher severity categories in thoracic disease assessment.",
+        "presence_question": "Does the model's response discuss severity assessment of thoracic disease?",
+        "correctness_question": "Does the model's response correctly state that greater extent of thoracic involvement, presence of mass effect, and confluent or nodular pleural or hilar disease correspond to higher severity categories in thoracic disease assessment?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "large pleural effusion severity",
+        "claim_text": "A pleural fluid collection that fills most of a hemithorax supports classification of the abnormality as high-severity because it meets criteria for a large effusion and indicates extensive involvement.",
+        "presence_question": "Does the model's response make an inferential link about large pleural effusion severity?",
+        "correctness_question": "Does the model's response correctly conclude that A pleural fluid collection that fills most of a hemithorax supports classification of the abnormality as high-severity because it meets criteria for a large effusion and indicates extensive involvement.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "mass effect and severity",
+        "claim_text": "The pleural fluid producing mass effect with marked compression and airspace loss of the adjacent lung supports classifying the abnormality as higher severity because it indicates significant functional compromise.",
+        "presence_question": "Does the model's response make an inferential link about mass effect and severity?",
+        "correctness_question": "Does the model's response correctly conclude that The pleural fluid producing mass effect with marked compression and airspace loss of the adjacent lung supports classifying the abnormality as higher severity because it indicates significant functional compromise.?",
+        "premise_perception_ids": [
+          "p4",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "pleural and hilar involvement",
+        "claim_text": "Confluent soft tissue near the hilum and irregular nodular pleural-based soft tissue lining the chest wall are consistent with extensive pleural and hilar involvement in this case.",
+        "presence_question": "Does the model's response make an inferential link about pleural and hilar involvement?",
+        "correctness_question": "Does the model's response correctly conclude that Confluent soft tissue near the hilum and irregular nodular pleural-based soft tissue lining the chest wall are consistent with extensive pleural and hilar involvement in this case.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "combined findings indicate severe abnormality",
+        "claim_text": "Combining the near-complete hemithoracic effusion, mass effect with marked lung compression, and confluent/nodular pleural-hilar soft tissue supports classifying the overall abnormality as severe.",
+        "presence_question": "Does the model's response make an inferential link about combined findings indicate severe abnormality?",
+        "correctness_question": "Does the model's response correctly conclude that Combining the near-complete hemithoracic effusion, mass effect with marked lung compression, and confluent/nodular pleural-hilar soft tissue supports classifying the overall abnormality as severe.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p4",
+          "p5",
+          "p6",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

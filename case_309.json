@@ -28,5 +28,148 @@
   "caption": "– Sagittal T2-weighted MRI image showing increased signal intensity (arrows) in posterior columns of the spinal cord extending from cervico-medullary junction to the upper border of the T12 vertebra",
   "sub_caption": "Sagittal T2-weighted MRI image showing increased signal intensity (arrows) in posterior columns of the spinal cord extending from cervico-medullary junction to the upper border of the T12 vertebra",
   "image_context": "Based on the megaloblastic changes and neurological manifestations, vitamin B12 deficiency was suspected. Subsequent investigations revealed; low serum vitamin B12 (116 pg/ml; normal 187–883 pg/ml) and RBC folate (91 µg/L; normal 126–650 µg/L) levels. MRI of the spine revealed symmetrical T2-weighted high signal intensity in the posterior column from cervico-medullary junction to the 12th thoracic vertebra suggesting subacute combined degeneration of the spinal cord (Fig. <xref rid=\"12887_2021_2499_Fig3_HTML\" ref-type=\"fig\">3</xref>). Axial T2-weighted images showed ‘inverted V sign’ with symmetrical bilateral hyperintense signal in posterior columns (Fig. ). Axial T2-weighted images showed ‘inverted V sign’ with symmetrical bilateral hyperintense signal in posterior columns (Fig. <xref rid=\"12887_2021_2499_Fig4_HTML\" ref-type=\"fig\">4</xref>). MRI of the brain revealed multiple bilateral patchy T2-weighted high signal intensity in the centrum semiovale and deep white matter areas with mild cerebral and cerebellar atrophy. The ventricular system, extra-axial cerebrospinal fluid spaces and cerebellar folia were prominent. His nerve conduction study was normal, anti-intrinsic factor antibody titre was 14.7U (Normal &lt; 20.0), and anti-parietal cell antibodies were negative. Urine analysis revealed urine albumin 2 + with normal microscopy. Urine protein: creatinine ratio was 225 mg/mmol suggesting non-nephrotic range proteinuria. His liver and renal function tests, serum electrolytes, serum calcium, serum protein and renal ultrasonography were normal; however, 25-hydroxy vitamin D level was 27.3 ng/mL (normal 30–100 ng/mL).). MRI of the brain revealed multiple bilateral patchy T2-weighted high signal intensity in the centrum semiovale and deep white matter areas with mild cerebral and cerebellar atrophy. The ventricular system, extra-axial cerebrospinal fluid spaces and cerebellar folia were prominent. His nerve conduction study was normal, anti-intrinsic factor antibody titre was 14.7U (Normal < 20.0), and anti-parietal cell antibodies were negative. Urine analysis revealed urine albumin 2 + with normal microscopy. Urine protein: creatinine ratio was 225 mg/mmol suggesting non-nephrotic range proteinuria. His liver and renal function tests, serum electrolytes, serum calcium, serum protein and renal ultrasonography were normal; however, 25-hydroxy vitamin D level was 27.3 ng/mL (normal 30–100 ng/mL).",
-  "relevant_image_context": "Based on the megaloblastic changes and neurological manifestations, vitamin B12 deficiency was suspected. Subacute combined degeneration of the spinal cord was identified. MRI of the spine revealed symmetrical T2-weighted high signal intensity in the posterior column from cervico-medullary junction to the 12th thoracic vertebra suggesting subacute combined degeneration of the spinal cord (Fig. 3)."
+  "relevant_image_context": "Based on the megaloblastic changes and neurological manifestations, vitamin B12 deficiency was suspected. Subacute combined degeneration of the spinal cord was identified. MRI of the spine revealed symmetrical T2-weighted high signal intensity in the posterior column from cervico-medullary junction to the 12th thoracic vertebra suggesting subacute combined degeneration of the spinal cord (Fig. 3).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_90_64-PMC7812643-0-12887_2021_2499_Fig3_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_90_64-PMC7812643-0-12887_2021_2499_Fig3_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "posterior spinal cord T2 hyperintensity",
+        "claim_text": "There is T2 hyperintense signal in the dorsal (posterior) columns of the spinal cord.",
+        "presence_question": "Does the model's response discuss posterior spinal cord T2 hyperintensity?",
+        "correctness_question": "Does the model's response correctly assert that There is T2 hyperintense signal in the dorsal (posterior) columns of the spinal cord.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "cervical and upper thoracic spinal cord",
+        "claim_text": "The T2 hyperintense signal is located in the cervical and upper thoracic spinal cord.",
+        "presence_question": "Does the model's response discuss cervical and upper thoracic spinal cord?",
+        "correctness_question": "Does the model's response correctly assert that The T2 hyperintense signal is located in the cervical and upper thoracic spinal cord.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "bilateral symmetric posterior column signal",
+        "claim_text": "The T2 hyperintense signal in the posterior columns is bilateral and symmetric.",
+        "presence_question": "Does the model's response discuss bilateral symmetric posterior column signal?",
+        "correctness_question": "Does the model's response correctly assert that The T2 hyperintense signal in the posterior columns is bilateral and symmetric.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "longitudinally extensive posterior cord signal",
+        "claim_text": "The abnormal posterior column signal is longitudinally extensive along the posterior cord over multiple vertebral levels.",
+        "presence_question": "Does the model's response discuss longitudinally extensive posterior cord signal?",
+        "correctness_question": "Does the model's response correctly assert that The abnormal posterior column signal is longitudinally extensive along the posterior cord over multiple vertebral levels.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "sagittal T2-weighted spinal MRI",
+        "claim_text": "Sagittal T2-weighted spinal MRI images were obtained for evaluation.",
+        "presence_question": "Does the model's response discuss sagittal T2-weighted spinal MRI?",
+        "correctness_question": "Does the model's response correctly assert that Sagittal T2-weighted spinal MRI images were obtained for evaluation.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "progressive paresthesias",
+        "claim_text": "The patient reported progressive paresthesias in the extremities over weeks.",
+        "presence_question": "Does the model's response discuss progressive paresthesias?",
+        "correctness_question": "Does the model's response correctly assert that The patient reported progressive paresthesias in the extremities over weeks.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "gait disturbance",
+        "claim_text": "The patient exhibited gait disturbance affecting ambulation recently.",
+        "presence_question": "Does the model's response discuss gait disturbance?",
+        "correctness_question": "Does the model's response correctly assert that The patient exhibited gait disturbance affecting ambulation recently.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "low serum vitamin B12",
+        "claim_text": "The serum vitamin B12 level was low on laboratory testing.",
+        "presence_question": "Does the model's response discuss low serum vitamin B12?",
+        "correctness_question": "Does the model's response correctly assert that The serum vitamin B12 level was low on laboratory testing.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "low red blood cell folate",
+        "claim_text": "The red blood cell folate level was low.",
+        "presence_question": "Does the model's response discuss low red blood cell folate?",
+        "correctness_question": "Does the model's response correctly assert that The red blood cell folate level was low.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "posterior (dorsal) column T2 hyperintensity",
+        "claim_text": "Posterior (dorsal) column T2 hyperintensity in the spinal cord is typically associated with vitamin B12 deficiency.",
+        "presence_question": "Does the model's response discuss posterior (dorsal) column T2 hyperintensity?",
+        "correctness_question": "Does the model's response correctly state that Posterior (dorsal) column T2 hyperintensity in the spinal cord is typically associated with vitamin B12 deficiency?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "progressive paresthesias and gait disturbance",
+        "claim_text": "Progressive paresthesias and gait disturbance are typical presenting features of vitamin B12 deficiency.",
+        "presence_question": "Does the model's response discuss progressive paresthesias and gait disturbance?",
+        "correctness_question": "Does the model's response correctly state that Progressive paresthesias and gait disturbance are typical presenting features of vitamin B12 deficiency?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "low serum vitamin B12 level",
+        "claim_text": "A low serum vitamin B12 level typically indicates vitamin B12 deficiency.",
+        "presence_question": "Does the model's response discuss low serum vitamin B12 level?",
+        "correctness_question": "Does the model's response correctly state that A low serum vitamin B12 level typically indicates vitamin B12 deficiency?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "neurologic disease from vitamin B12 deficiency",
+        "claim_text": "Neurologic disease caused by vitamin B12 deficiency should be treated with prompt and reliable vitamin B12 replacement therapy.",
+        "presence_question": "Does the model's response discuss neurologic disease from vitamin B12 deficiency?",
+        "correctness_question": "Does the model's response correctly state that Neurologic disease caused by vitamin B12 deficiency should be treated with prompt and reliable vitamin B12 replacement therapy?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Imaging suggests vitamin B12 deficiency",
+        "claim_text": "The bilateral, symmetric, longitudinally extensive T2 hyperintensity in the dorsal columns of the cervical and upper thoracic cord supports a diagnosis of vitamin B12 deficiency.",
+        "presence_question": "Does the model's response make an inferential link about Imaging suggests vitamin B12 deficiency?",
+        "correctness_question": "Does the model's response correctly conclude that The bilateral, symmetric, longitudinally extensive T2 hyperintensity in the dorsal columns of the cervical and upper thoracic cord supports a diagnosis of vitamin B12 deficiency?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Justification for vitamin B12 replacement therapy",
+        "claim_text": "Given the imaging pattern consistent with vitamin B12 deficiency together with the patient's progressive paresthesias, gait disturbance, and low serum vitamin B12, prompt vitamin B12 replacement therapy is justified as the appropriate initial treatment in this case.",
+        "presence_question": "Does the model's response make an inferential link about Justification for vitamin B12 replacement therapy?",
+        "correctness_question": "Does the model's response correctly conclude that Given the imaging pattern consistent with vitamin B12 deficiency together with the patient's progressive paresthesias, gait disturbance, and low serum vitamin B12, prompt vitamin B12 replacement therapy is justified as the appropriate initial treatment in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

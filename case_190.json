@@ -27,5 +27,111 @@
   "caption": "Standard abdominal computed tomography with contrast showing splenomegaly, ascites, and no defined hepatic mass.",
   "sub_caption": "Standard abdominal computed tomography with contrast showing splenomegaly, ascites, and no defined hepatic mass.",
   "image_context": "A 61-year-old obese woman presented to the clinic with a complaint of generalized abdominal pain, exertional dyspnea, and worsening lower extremity edema. She had a medical history significant for HCV cirrhosis, treated with a sustained virologic response. She denied any history of cardiac disease, jaundice, or pruritus. She endorsed compliance with recommended daily sodium intake and medications. Examination findings were unremarkable, except for a distended abdomen, positive shifting dullness, and bilateral pitting lower extremity edema. Laboratory findings showed a white blood cell count of 3.33k/cmm (4.5–10), hemoglobin of 12.3 g/dL(12–16), platelet of 109k/cmm (150–440), international normalized ratio of 1.12 (0.9–1.3), Cr of 0.62 mg/dL (0.7–1.3), gamma-glutamyl transpeptidase of 359 unit/L (5–85), alkaline phosphatase of 159 unit/L (15–37), aspartate aminotransferase of 159 unit/L (15–37), alanine aminotransferase of 59 unit/L (12–78), total bilirubin of 1.2 mg/dL (0.2–1.0), alpha-fetoprotein (AFP) of >20,000 ng/mL (0.5–8.0), CA 125 of 505 unit/mL (1.5-35), CA 19-9 of 40U/mL (0–35), peritoneal fluid cytology was negative, model for end-stage liver disease of 16, and Child-Pugh B. A right upper quadrant ultrasound showed cirrhosis without evidence of a hepatic mass. A standard abdominal CT scan obtained in the venous phase showed splenomegaly and cirrhosis with no hepatic mass (Figure <xref rid=\"ac9-9-e00945-g001\" ref-type=\"fig\">1</xref>). Further studies with multiphasic MRI with contrast showed cirrhosis with portal vein thrombosis and cavernous transformation; no hypervascular hepatic mass was seen (Figure ). Further studies with multiphasic MRI with contrast showed cirrhosis with portal vein thrombosis and cavernous transformation; no hypervascular hepatic mass was seen (Figure <xref rid=\"ac9-9-e00945-g002\" ref-type=\"fig\">2</xref>). The markedly elevated AFP left a high suspicion for HCC; hence, the patient was referred for EUS-FNA, which showed 12 × 16 mm nonocclusive portal vein thrombosis and heterogeneous and diffuse echogenicity worrisome for an infiltrative process (Figure ). The markedly elevated AFP left a high suspicion for HCC; hence, the patient was referred for EUS-FNA, which showed 12 × 16 mm nonocclusive portal vein thrombosis and heterogeneous and diffuse echogenicity worrisome for an infiltrative process (Figure <xref rid=\"ac9-9-e00945-g003\" ref-type=\"fig\">3</xref>). The biopsy report showed malignant cells positive for AFP while negative for trypsin, arginase, SF1, chromogranin, synaptophysin, and PAX 8. Immunostains marked tumor cells reactive for glypican-3 and negative for Hep Par1, supporting the diagnosis of HCC (Figure ). The biopsy report showed malignant cells positive for AFP while negative for trypsin, arginase, SF1, chromogranin, synaptophysin, and PAX 8. Immunostains marked tumor cells reactive for glypican-3 and negative for Hep Par1, supporting the diagnosis of HCC (Figure <xref rid=\"ac9-9-e00945-g004\" ref-type=\"fig\">4</xref>). On a follow-up visit, an oncology referral was discussed with the patient and she was agreeable. A month later, the patient died before she could follow up with oncology.). On a follow-up visit, an oncology referral was discussed with the patient and she was agreeable. A month later, the patient died before she could follow up with oncology.",
-  "relevant_image_context": "A standard abdominal CT scan obtained in the venous phase showed splenomegaly and cirrhosis with no hepatic mass (Figure 1)."
+  "relevant_image_context": "A standard abdominal CT scan obtained in the venous phase showed splenomegaly and cirrhosis with no hepatic mass (Figure 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_124_41-PMC9820777-4-ac9-9-e00945-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_124_41-PMC9820777-4-ac9-9-e00945-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "venous-phase abdominal CT",
+        "claim_text": "The abdominal CT was performed using a venous-phase acquisition only.",
+        "presence_question": "Does the model's response discuss venous-phase abdominal CT?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal CT was performed using a venous-phase acquisition only?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "cirrhotic liver morphology",
+        "claim_text": "The liver demonstrates morphologic features of chronic liver disease consistent with cirrhotic morphology.",
+        "presence_question": "Does the model's response discuss cirrhotic liver morphology?",
+        "correctness_question": "Does the model's response correctly assert that The liver demonstrates morphologic features of chronic liver disease consistent with cirrhotic morphology?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "focal hepatic mass absence",
+        "claim_text": "No defined focal hepatic mass is identified on the provided CT images.",
+        "presence_question": "Does the model's response discuss focal hepatic mass absence?",
+        "correctness_question": "Does the model's response correctly assert that No defined focal hepatic mass is identified on the provided CT images?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "ascites",
+        "claim_text": "Ascites is present within the peritoneal cavity on the abdominal CT.",
+        "presence_question": "Does the model's response discuss ascites?",
+        "correctness_question": "Does the model's response correctly assert that Ascites is present within the peritoneal cavity on the abdominal CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "left splenomegaly",
+        "claim_text": "The left-sided spleen is enlarged, consistent with splenomegaly.",
+        "presence_question": "Does the model's response discuss left splenomegaly?",
+        "correctness_question": "Does the model's response correctly assert that The left-sided spleen is enlarged, consistent with splenomegaly?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "multiphasic liver imaging",
+        "claim_text": "Multiphasic contrast-phase liver imaging is better for comprehensive evaluation of focal hepatic lesions because it assesses lesion enhancement over time.",
+        "presence_question": "Does the model's response discuss multiphasic liver imaging?",
+        "correctness_question": "Does the model's response correctly state that Multiphasic contrast-phase liver imaging is better for comprehensive evaluation of focal hepatic lesions because it assesses lesion enhancement over time?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "multiphasic liver MRI",
+        "claim_text": "Dedicated multiphasic contrast-enhanced liver MRI is more sensitive than single-phase venous-phase CT for characterization of focal liver lesions.",
+        "presence_question": "Does the model's response discuss multiphasic liver MRI?",
+        "correctness_question": "Does the model's response correctly state that Dedicated multiphasic contrast-enhanced liver MRI is more sensitive than single-phase venous-phase CT for characterization of focal liver lesions?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "venous-phase CT insufficiency for liver evaluation",
+        "claim_text": "The venous-phase abdominal CT is insufficient for comprehensive evaluation of focal hepatic lesions.",
+        "presence_question": "Does the model's response make an inferential link about venous-phase CT insufficiency for liver evaluation?",
+        "correctness_question": "Does the model's response correctly conclude that The venous-phase abdominal CT is insufficient for comprehensive evaluation of focal hepatic lesions?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "dedicated multiphasic liver MRI as next study",
+        "claim_text": "A dedicated multiphasic contrast-enhanced liver MRI is the most appropriate next study in this case.",
+        "presence_question": "Does the model's response make an inferential link about dedicated multiphasic liver MRI as next study?",
+        "correctness_question": "Does the model's response correctly conclude that A dedicated multiphasic contrast-enhanced liver MRI is the most appropriate next study in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "absence-of-mass on venous CT insufficient to exclude lesions",
+        "claim_text": "Absence of a defined mass on a single venous-phase CT is insufficient to exclude focal hepatic lesions because single-phase imaging lacks the temporal enhancement information needed for characterization.",
+        "presence_question": "Does the model's response make an inferential link about absence-of-mass on venous CT insufficient to exclude lesions?",
+        "correctness_question": "Does the model's response correctly conclude that Absence of a defined mass on a single venous-phase CT is insufficient to exclude focal hepatic lesions because single-phase imaging lacks the temporal enhancement information needed for characterization?",
+        "premise_perception_ids": [
+          "p3",
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -27,5 +27,140 @@
   "caption": "a Plain radiographs showing periosteal thickening of the distal femur (arrow). MRI showing enhanced intramedullary signals in the distal femur (b, arrowhead).",
   "sub_caption": "MRI showing enhanced intramedullary signals in the distal femur (b, arrowhead).",
   "image_context": "A 65-year-old gentleman presented with recurrence of right lower limb infection eight months after having undergone two surgical debridement for a distal thigh abscess and distal femur osteomyelitis. The patient re-presented with a one-week history of right thigh pain and swelling. Prior to this presentation, the patient was symptom-free and was able to ambulate independently. The patient had a fever of 38.2 °C and on examination, a fluctuant tender lump was palpable over the right lateral thigh. There was tenderness on ranging the right knee. Blood investigations showed CRP and WCC of 78.5 mg/L and 11.0 × 109/L respectively. Plain radiographs revealed periosteal thickening of the distal femur, an indication of possible osteomyelitis (<xref rid=\"gr6\" ref-type=\"fig\">Fig. 6</xref>a). MRI confirmed an intramedullary collection within the distal femur, as well as showing an effusion in the knee (a). MRI confirmed an intramedullary collection within the distal femur, as well as showing an effusion in the knee (<xref rid=\"gr6\" ref-type=\"fig\">Fig. 6</xref>b).b).Fig. 6a Plain radiographs showing periosteal thickening of the distal femur (arrow). MRI showing enhanced intramedullary signals in the distal femur (b, arrowhead).Fig. 6",
-  "relevant_image_context": "A 65-year-old gentleman presented with recurrence of right lower limb infection eight months after having undergone two surgical debridement for a distal thigh abscess and distal femur osteomyelitis. The patient re-presented with a one-week history of right thigh pain and swelling. Prior to this presentation, the patient was symptom-free and was able to ambulate independently. The patient had a fever of 38.2 °C and on examination, a fluctuant tender lump was palpable over the right lateral thigh. There was tenderness on ranging the right knee. Blood investigations showed CRP and WCC of 78.5 mg/L and 11.0 × 10^9/L respectively. MRI confirmed an intramedullary collection within the distal femur, as well as showing an effusion in the knee (Fig. 6b). MRI showing enhanced intramedullary signals in the distal femur (b, arrowhead)."
+  "relevant_image_context": "A 65-year-old gentleman presented with recurrence of right lower limb infection eight months after having undergone two surgical debridement for a distal thigh abscess and distal femur osteomyelitis. The patient re-presented with a one-week history of right thigh pain and swelling. Prior to this presentation, the patient was symptom-free and was able to ambulate independently. The patient had a fever of 38.2 °C and on examination, a fluctuant tender lump was palpable over the right lateral thigh. There was tenderness on ranging the right knee. Blood investigations showed CRP and WCC of 78.5 mg/L and 11.0 × 10^9/L respectively. MRI confirmed an intramedullary collection within the distal femur, as well as showing an effusion in the knee (Fig. 6b). MRI showing enhanced intramedullary signals in the distal femur (b, arrowhead).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_90_2-PMC7901033-5-gr6.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_90_2-PMC7901033-5-gr6.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Intramedullary fluid collection (distal femur)",
+        "claim_text": "An intramedullary fluid collection is present in the distal femoral shaft",
+        "presence_question": "Does the model's response discuss Intramedullary fluid collection (distal femur)?",
+        "correctness_question": "Does the model's response correctly assert that An intramedullary fluid collection is present in the distal femoral shaft?"
+      },
+      {
+        "claim_id": "p1a",
+        "topic": "High signal of intramedullary fluid (distal femur)",
+        "claim_text": "The intramedullary fluid collection in the distal femur demonstrates high signal",
+        "presence_question": "Does the model's response discuss High signal of intramedullary fluid (distal femur)?",
+        "correctness_question": "Does the model's response correctly assert that The intramedullary fluid collection in the distal femur demonstrates high signal?"
+      },
+      {
+        "claim_id": "p1b",
+        "topic": "Well-defined intramedullary fluid collection (distal femur)",
+        "claim_text": "The intramedullary fluid collection in the distal femur is well-defined",
+        "presence_question": "Does the model's response discuss Well-defined intramedullary fluid collection (distal femur)?",
+        "correctness_question": "Does the model's response correctly assert that The intramedullary fluid collection in the distal femur is well-defined?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Soft-tissue fluid collection (lateral thigh)",
+        "claim_text": "A soft-tissue fluid collection is present in the lateral thigh",
+        "presence_question": "Does the model's response discuss Soft-tissue fluid collection (lateral thigh)?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue fluid collection is present in the lateral thigh?"
+      },
+      {
+        "claim_id": "p2a",
+        "topic": "High signal soft-tissue fluid (lateral thigh)",
+        "claim_text": "The soft-tissue fluid collection in the lateral thigh demonstrates high signal",
+        "presence_question": "Does the model's response discuss High signal soft-tissue fluid (lateral thigh)?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue fluid collection in the lateral thigh demonstrates high signal?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Lateral thigh fluid adjacent to distal femoral collection",
+        "claim_text": "The lateral thigh soft-tissue fluid collection is adjacent to the intramedullary fluid collection in the distal femoral shaft",
+        "presence_question": "Does the model's response discuss Lateral thigh fluid adjacent to distal femoral collection?",
+        "correctness_question": "Does the model's response correctly assert that The lateral thigh soft-tissue fluid collection is adjacent to the intramedullary fluid collection in the distal femoral shaft?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "MRI findings",
+        "claim_text": "MRI typically identifies intramedullary and soft-tissue fluid collections.",
+        "presence_question": "Does the model's response discuss MRI findings?",
+        "correctness_question": "Does the model's response correctly state that MRI typically identifies intramedullary and soft-tissue fluid collections?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Intramedullary fluid collection",
+        "claim_text": "An intramedullary fluid collection typically suggests deep-seated bone infection (osteomyelitis).",
+        "presence_question": "Does the model's response discuss intramedullary fluid collection?",
+        "correctness_question": "Does the model's response correctly state that an intramedullary fluid collection typically suggests deep-seated bone infection (osteomyelitis)?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Fluctuant palpable lump",
+        "claim_text": "A fluctuant palpable lump typically indicates a superficial fluid collection or abscess.",
+        "presence_question": "Does the model's response discuss fluctuant palpable lump?",
+        "correctness_question": "Does the model's response correctly state that a fluctuant palpable lump typically indicates a superficial fluid collection or abscess?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Fever or elevated CRP/WCC",
+        "claim_text": "Fever or elevated CRP or white cell count typically suggests systemic infection or a systemic inflammatory response.",
+        "presence_question": "Does the model's response discuss fever or elevated CRP/WCC?",
+        "correctness_question": "Does the model's response correctly state that fever or elevated CRP or white cell count typically suggests systemic infection or a systemic inflammatory response?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "Treatment for deep intramedullary bone infection",
+        "claim_text": "Deep intramedullary bone infection is typically treated with surgical debridement and intramedullary drainage combined with intravenous antibiotics.",
+        "presence_question": "Does the model's response discuss treatment for deep intramedullary bone infection?",
+        "correctness_question": "Does the model's response correctly state that deep intramedullary bone infection is typically treated with surgical debridement and intramedullary drainage combined with intravenous antibiotics?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Intramedullary fluid suggesting osteomyelitis",
+        "claim_text": "The presence of a well-defined, high-signal intramedullary fluid collection in the distal femoral shaft supports that a deep-seated bone infection (osteomyelitis) is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about Intramedullary fluid suggesting osteomyelitis?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a well-defined, high-signal intramedullary fluid collection in the distal femoral shaft supports that a deep-seated bone infection (osteomyelitis) is plausible in this case?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Soft-tissue plus intramedullary spread",
+        "claim_text": "An adjacent lateral thigh soft-tissue fluid collection together with an intramedullary fluid collection indicates the infection is not confined to only superficial tissues in this case.",
+        "presence_question": "Does the model's response make an inferential link about Soft-tissue plus intramedullary spread?",
+        "correctness_question": "Does the model's response correctly conclude that An adjacent lateral thigh soft-tissue fluid collection together with an intramedullary fluid collection indicates the infection is not confined to only superficial tissues in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Intramedullary collection justifies surgical debridement",
+        "claim_text": "Because MRI shows a persistent intramedullary collection in the distal femur, definitive management that addresses the intramedullary focus such as surgical debridement with intramedullary drainage combined with intravenous antibiotics is justified.",
+        "presence_question": "Does the model's response make an inferential link about Intramedullary collection justifies surgical debridement?",
+        "correctness_question": "Does the model's response correctly conclude that Because MRI shows a persistent intramedullary collection in the distal femur, definitive management that addresses the intramedullary focus such as surgical debridement with intramedullary drainage combined with intravenous antibiotics is justified?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k5",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

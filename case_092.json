@@ -27,5 +27,133 @@
   "caption": "Smooth polyp with feeding vessel at hydrosonography.",
   "sub_caption": "Subfigure showing a smooth polyp with a feeding vessel visualized at hydrosonography.",
   "image_context": "Timmerman and co‐workers showed that “feeding vessels” are predictive of polyps and focally growing lesions, <xref rid=\"AJUM-12-24-g005\" ref-type=\"fig\">Fig. 4</xref>, , \n31\n. The question is can this method replace SIS? The feeding vessel has been reported to have an excellent accuracy for the prediction of polyps\n31\n\n,\n\n32\n. The method however seems to be less good for the over all prediction of focally growing lesions. In our own unpublished material comprising 224 women with PMB, we found a high detection rate (90%), but a lower specificity (48%) indicating that the absence of a feeding vessel will not exclude a focal lesion (Epstein, unpublished). One should be aware that top of the line Doppler equipment is needed for adequate assessment of endometrial vascularity.",
-  "relevant_image_context": "Timmerman and co‐workers showed that “feeding vessels” are predictive of polyps and focally growing lesions. The feeding vessel has been reported to have an excellent accuracy for the prediction of polyps. The method however seems to be less good for the overall prediction of focally growing lesions. In our own unpublished material comprising 224 women with PMB, we found a high detection rate (90%), but a lower specificity (48%) indicating that the absence of a feeding vessel will not exclude a focal lesion. One should be aware that top of the line Doppler equipment is needed for adequate assessment of endometrial vascularity."
+  "relevant_image_context": "Timmerman and co‐workers showed that “feeding vessels” are predictive of polyps and focally growing lesions. The feeding vessel has been reported to have an excellent accuracy for the prediction of polyps. The method however seems to be less good for the overall prediction of focally growing lesions. In our own unpublished material comprising 224 women with PMB, we found a high detection rate (90%), but a lower specificity (48%) indicating that the absence of a feeding vessel will not exclude a focal lesion. One should be aware that top of the line Doppler equipment is needed for adequate assessment of endometrial vascularity.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_46_12-PMC5024825-0-AJUM-12-24-g005.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_46_12-PMC5024825-0-AJUM-12-24-g005.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Intracavitary mass in endometrial cavity",
+        "claim_text": "An intracavitary mass is present in the endometrial cavity.",
+        "presence_question": "Does the model's response discuss Intracavitary mass in endometrial cavity?",
+        "correctness_question": "Does the model's response correctly assert that An intracavitary mass is present in the endometrial cavity.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Rounded shape of intracavitary mass",
+        "claim_text": "The intracavitary mass in the endometrial cavity has a rounded shape.",
+        "presence_question": "Does the model's response discuss Rounded shape of intracavitary mass?",
+        "correctness_question": "Does the model's response correctly assert that The intracavitary mass in the endometrial cavity has a rounded shape.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Well-defined margins of mass",
+        "claim_text": "The intracavitary mass in the endometrial cavity has well-defined margins.",
+        "presence_question": "Does the model's response discuss Well-defined margins of mass?",
+        "correctness_question": "Does the model's response correctly assert that The intracavitary mass in the endometrial cavity has well-defined margins.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Mass projecting from endometrial surface",
+        "claim_text": "The intracavitary mass projects from the endometrial surface.",
+        "presence_question": "Does the model's response discuss Mass projecting from endometrial surface?",
+        "correctness_question": "Does the model's response correctly assert that The intracavitary mass projects from the endometrial surface.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Single feeding vessel within lesion",
+        "claim_text": "A single feeding vessel is identified within the lesion on color Doppler.",
+        "presence_question": "Does the model's response discuss Single feeding vessel within lesion?",
+        "correctness_question": "Does the model's response correctly assert that A single feeding vessel is identified within the lesion on color Doppler.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Feeding vessel within intracavitary lesion",
+        "claim_text": "A feeding vessel is located within the intracavitary endometrial lesion.",
+        "presence_question": "Does the model's response discuss Feeding vessel within intracavitary lesion?",
+        "correctness_question": "Does the model's response correctly assert that A feeding vessel is located within the intracavitary endometrial lesion.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Diffuse scattered flow in endometrium",
+        "claim_text": "Diffuse scattered flow throughout the endometrium is absent on color Doppler.",
+        "presence_question": "Does the model's response discuss Diffuse scattered flow in endometrium?",
+        "correctness_question": "Does the model's response correctly assert that Diffuse scattered flow throughout the endometrium is absent on color Doppler.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Single feeding pedicle vascular pattern",
+        "claim_text": "The lesion demonstrates a single concentrated vessel entering it, consistent with a feeding pedicle, on color Doppler.",
+        "presence_question": "Does the model's response discuss Single feeding pedicle vascular pattern?",
+        "correctness_question": "Does the model's response correctly assert that The lesion demonstrates a single concentrated vessel entering it, consistent with a feeding pedicle, on color Doppler.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "focal endometrial proliferation",
+        "claim_text": "Focal endometrial stromal or glandular proliferations are associated with localized endometrial masses that may have a central arterial pedicle supplying them.",
+        "presence_question": "Does the model's response discuss focal endometrial proliferation?",
+        "correctness_question": "Does the model's response correctly state that focal endometrial stromal or glandular proliferations are associated with localized endometrial masses that may have a central arterial pedicle supplying them?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "single dominant feeding vessel on Doppler",
+        "claim_text": "A single dominant feeding vessel entering a focal lesion on Doppler suggests the lesion is supplied by a single arterial pedicle rather than diffuse endometrial hyperemia.",
+        "presence_question": "Does the model's response discuss single dominant feeding vessel on Doppler?",
+        "correctness_question": "Does the model's response correctly state that a single dominant feeding vessel entering a focal lesion on Doppler suggests the lesion is supplied by a single arterial pedicle rather than diffuse endometrial hyperemia?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "color Doppler ultrasound",
+        "claim_text": "Color Doppler ultrasound can demonstrate feeding vessels or pedicles entering lesions.",
+        "presence_question": "Does the model's response discuss color Doppler ultrasound?",
+        "correctness_question": "Does the model's response correctly state that color Doppler ultrasound can demonstrate feeding vessels or pedicles entering lesions?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Focal proliferation with central arterial pedicle",
+        "claim_text": "The focal rounded intracavitary endometrial mass with a single dominant feeding vessel entering it supports a focal stromal or glandular proliferation supplied by a central arterial pedicle.",
+        "presence_question": "Does the model's response make an inferential link about Focal proliferation with central arterial pedicle?",
+        "correctness_question": "Does the model's response correctly conclude that The focal rounded intracavitary endometrial mass with a single dominant feeding vessel entering it supports a focal stromal or glandular proliferation supplied by a central arterial pedicle.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Localized arterial pedicle vs diffuse hyperemia",
+        "claim_text": "The presence of a single concentrated vessel entering the lesion and the absence of diffuse scattered endometrial flow are consistent with a localized endometrial process supplied by an arterial pedicle rather than diffuse endometrial hyperemia.",
+        "presence_question": "Does the model's response make an inferential link about Localized arterial pedicle vs diffuse hyperemia?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a single concentrated vessel entering the lesion and the absence of diffuse scattered endometrial flow are consistent with a localized endometrial process supplied by an arterial pedicle rather than diffuse endometrial hyperemia.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

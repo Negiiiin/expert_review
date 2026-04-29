@@ -77,6 +77,7 @@
     background: #eef1f5; color: #41484f; font-weight: 600; }
   .badge.scope-subfigure { background: #fff4e5; color: #b35c00; }
   .badge.scope-full { background: #e7efff; color: var(--accent); }
+  .badge.qtype { background: #f3e8ff; color: #6d28d9; }
 
   /* ========== Images ========== */
   .images-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 16px; }
@@ -145,10 +146,11 @@
   .scale { display: flex; gap: 6px; flex-wrap: wrap; }
   .scale label {
     border: 1px solid var(--border); border-radius: 8px;
-    padding: 6px 12px; cursor: pointer; background: #fff; font-size: 13px;
-    user-select: none;
+    padding: 6px 14px; cursor: pointer; background: #fff; font-size: 13px;
+    user-select: none; min-width: 60px; text-align: center;
   }
-  .scale label.checked { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .scale label.checked.yes { background: var(--success-soft); border-color: var(--success); color: var(--success); font-weight: 600; }
+  .scale label.checked.no { background: var(--danger-soft); border-color: var(--danger); color: var(--danger); font-weight: 600; }
   .scale input { display: none; }
 
   .comments { padding: 14px 16px; border-top: 1px solid var(--border); }
@@ -157,6 +159,31 @@
     width: 100%; min-height: 80px; resize: vertical;
     border: 1px solid var(--border); border-radius: 8px; padding: 10px; font: inherit;
   }
+
+  /* ========== PKR claims ========== */
+  .pkr-section { padding: 14px 16px; }
+  .pkr-claim {
+    border: 1px solid var(--border); border-radius: 10px;
+    padding: 10px 12px; margin-bottom: 8px; background: #fbfcfd;
+  }
+  .pkr-claim .topic {
+    font-weight: 700; font-size: 12.5px; color: var(--text);
+    display: flex; gap: 8px; align-items: baseline;
+  }
+  .pkr-claim .topic .id-tag {
+    font-size: 10px; background: #eef1f5; color: #41484f;
+    padding: 2px 6px; border-radius: 4px; font-weight: 700; letter-spacing: .5px;
+  }
+  .pkr-claim .claim-text {
+    margin: 4px 0 6px; font-size: 13px; color: #2a2f36; line-height: 1.5;
+  }
+  .pkr-claim .pkr-q { font-size: 12.5px; color: var(--muted); margin: 2px 0; line-height: 1.4; }
+  .pkr-claim .pkr-q b { color: var(--text); font-weight: 600; margin-right: 4px; }
+  .premise-tags { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  .premise-tags span { display: inline-block; background: #eef1f5; padding: 1px 6px;
+    border-radius: 4px; margin-right: 4px; font-weight: 600; color: #41484f; }
+
+  .pkr-empty { color: var(--muted); font-style: italic; padding: 8px 0; font-size: 13px; }
 
   /* ========== Footer actions ========== */
   .actions-bar {
@@ -287,39 +314,81 @@
 (function () {
   "use strict";
 
-  // -------- Review questions definition --------
+  // -------- Review questions (Yes / No) --------
+  const YN = ["Yes", "No"];
   const REVIEW_QUESTIONS = [
     {
-      id: "question_quality",
-      label: "Question quality / clarity",
-      help: "Is the question clearly worded and answerable from what is provided?",
-      options: ["Poor", "Fair", "Good", "Excellent"],
+      id: "final_answer_supported",
+      label: "Is the marked answer the final answer to this question, as established in the image context?",
+      help: "Looking at the image context (the source narrative), is the marked option what the original case ultimately establishes as correct?",
+      options: YN,
     },
     {
-      id: "answer_correctness",
-      label: "Correctness of the marked answer",
-      help: "Is the marked correct answer actually correct given the image and clinical context?",
-      options: ["Incorrect", "Partially correct", "Correct"],
+      id: "answerable",
+      label: "Is this question answerable from the provided image and accompanying context?",
+      help: "Could a qualified reader arrive at the answer using only what is shown and described here?",
+      options: YN,
     },
     {
-      id: "reasoning_quality",
-      label: "Reasoning quality",
-      help: "Is the provided ground-truth reasoning sound, complete, and well supported?",
-      options: ["Poor", "Fair", "Good", "Excellent"],
+      id: "question_well_formed",
+      label: "Is the question grammatically and semantically well-formed and unambiguous?",
+      help: "Is the wording clear, complete, and free of ambiguity?",
+      options: YN,
     },
     {
-      id: "image_question_alignment",
-      label: "Image–question alignment",
-      help: "Does answering the question genuinely require the image (vs. answerable from text alone)?",
-      options: ["Not aligned", "Weakly aligned", "Strongly aligned"],
+      id: "image_quality",
+      label: "Is the image of sufficient quality to support clinical interpretation?",
+      help: "Resolution, framing, and visibility of relevant findings.",
+      options: YN,
     },
     {
-      id: "qa_context_alignment",
-      label: "Q&A vs. image context alignment",
-      help: "Do the generated question and answer align with the image's caption / clinical context?",
-      options: ["Not aligned", "Partially aligned", "Fully aligned"],
+      id: "answer_correct",
+      label: "Is the marked correct answer indeed correct?",
+      help: "Independent of the source narrative, is the marked option the clinically correct choice?",
+      options: YN,
+    },
+    {
+      id: "reasoning_alignment",
+      label: "Does the generated reasoning align with the information in the image context?",
+      help: "Is the reasoning consistent with — and supported by — the case's image context and findings?",
+      options: YN,
+    },
+    {
+      id: "modality_correct",
+      label: "Is the imaging modality assigned to this case correct?",
+      help: "Are the labelled primary / secondary modality values appropriate for the image shown?",
+      options: YN,
+    },
+    {
+      id: "question_type_match",
+      label: "Does the assigned question type appropriately match the question?",
+      help: "Does the question_category label correctly describe what is being asked?",
+      options: YN,
     },
   ];
+
+  const PKR_REVIEW = [
+    {
+      id: "pkr_perception_quality",
+      category: "perception",
+      label: "Are the perception questions appropriate for assessing the perception capability of a newly generated reasoning trace for this case?",
+      help: "Do these claims and probes adequately capture what should be perceived from the image?",
+    },
+    {
+      id: "pkr_knowledge_quality",
+      category: "knowledge",
+      label: "Are the knowledge questions appropriate for assessing the knowledge capability of a newly generated reasoning trace for this case?",
+      help: "Do these claims and probes adequately capture the relevant medical/domain knowledge?",
+    },
+    {
+      id: "pkr_reasoning_quality",
+      category: "reasoning",
+      label: "Are the reasoning questions appropriate for assessing the reasoning capability of a newly generated reasoning trace for this case?",
+      help: "Do these inferential claims and probes adequately capture the reasoning steps required?",
+    },
+  ];
+
+  const ALL_REVIEW_IDS = REVIEW_QUESTIONS.map(q => q.id).concat(PKR_REVIEW.map(q => q.id));
 
   // -------- State --------
   const CASES = window.CASES || [];
@@ -388,7 +457,7 @@
     const status = document.getElementById("welcome-status");
     if (stored) {
       const r = loadResponses(stored);
-      const n = Object.keys(r).length;
+      const n = Object.values(r).filter(x => x && x.completed).length;
       status.textContent = "Last reviewer: " + stored + " (" + n + " cases reviewed)";
     } else {
       status.textContent = "";
@@ -425,6 +494,60 @@
     showWelcome(reviewer);
   });
 
+  // -------- PKR rendering --------
+  function pkrSectionHtml(c, r, def) {
+    const claims = ((c.pkr_questions || {})[def.category]) || [];
+    let html = `
+      <div class="card-header">
+        <h2>${capitalize(def.category)} questions <span class="save-status">(${claims.length})</span></h2>
+      </div>
+      <div class="pkr-section">
+    `;
+    if (!claims.length) {
+      html += `<div class="pkr-empty">No ${escapeHtml(def.category)} claims defined for this case.</div>`;
+    } else {
+      claims.forEach(cl => {
+        const idKey = cl.claim_id || cl.knowledge_id || cl.reasoning_id || "";
+        let premiseHtml = "";
+        if (cl.premise_perception_ids && cl.premise_perception_ids.length) {
+          premiseHtml += `<span title="Perception premises">P: ${escapeHtml(cl.premise_perception_ids.join(", "))}</span>`;
+        }
+        if (cl.premise_knowledge_ids && cl.premise_knowledge_ids.length) {
+          premiseHtml += `<span title="Knowledge premises">K: ${escapeHtml(cl.premise_knowledge_ids.join(", "))}</span>`;
+        }
+        html += `
+          <div class="pkr-claim">
+            <div class="topic">
+              <span class="id-tag">${escapeHtml(idKey)}</span>
+              <span>${escapeHtml(cl.topic || "")}</span>
+            </div>
+            <div class="claim-text">${escapeHtml(cl.claim_text || "")}</div>
+            ${cl.presence_question ? `<div class="pkr-q"><b>Presence:</b>${escapeHtml(cl.presence_question)}</div>` : ""}
+            ${cl.correctness_question ? `<div class="pkr-q"><b>Correctness:</b>${escapeHtml(cl.correctness_question)}</div>` : ""}
+            ${premiseHtml ? `<div class="premise-tags">${premiseHtml}</div>` : ""}
+          </div>
+        `;
+      });
+    }
+    html += `</div>`;
+    // Review question for this PKR category
+    const current = r[def.id];
+    const optsHtml = YN.map(opt => `
+      <label class="${current === opt ? "checked " + opt.toLowerCase() : ""}">
+        <input type="radio" name="rq-${def.id}" value="${escapeAttr(opt)}" ${current === opt ? "checked" : ""} />
+        ${escapeHtml(opt)}
+      </label>
+    `).join("");
+    html += `
+      <div class="review-q" data-review-id="${def.id}" style="border-top:1px solid var(--border);">
+        <h3>${escapeHtml(def.label)}</h3>
+        <p class="help">${escapeHtml(def.help)}</p>
+        <div class="scale" data-qid="${def.id}">${optsHtml}</div>
+      </div>
+    `;
+    return html;
+  }
+
   // -------- Render --------
   function render() {
     if (currentIdx >= CASES.length) {
@@ -436,7 +559,6 @@
     const c = CASES[currentIdx];
     const r = responses[c.case_id] || {};
 
-    // Progress (count of cases that have at least one rating answer)
     const reviewedCount = Object.values(responses).filter(x => x && x.completed).length;
     const pct = (reviewedCount / CASES.length) * 100;
     document.getElementById("progress-fill").style.width = pct + "%";
@@ -453,10 +575,10 @@
       <div class="card-header">
         <h2>Case ${c.case_id} — Images</h2>
         <div class="badges">
+          ${c.question_category ? `<span class="badge qtype">type: ${escapeHtml(c.question_category)}</span>` : ""}
+          ${c.question_scope ? `<span class="badge scope-${escapeHtml(c.question_scope)}">scope: ${escapeHtml(c.question_scope)}</span>` : ""}
           ${c.primary_modality ? `<span class="badge">${escapeHtml(c.primary_modality)}</span>` : ""}
           ${c.secondary_modality ? `<span class="badge">${escapeHtml(c.secondary_modality)}</span>` : ""}
-          ${c.question_category ? `<span class="badge">${escapeHtml(c.question_category)}</span>` : ""}
-          ${c.question_scope ? `<span class="badge scope-${escapeHtml(c.question_scope)}">scope: ${escapeHtml(c.question_scope)}</span>` : ""}
         </div>
       </div>
       <div class="images-grid">
@@ -478,14 +600,14 @@
     `;
     main.appendChild(imgCard);
 
-    // ---- Card 2: Question + options + ground truth ----
+    // ---- Card 2: Question + options + generated reasoning ----
     const optionsHtml = Object.entries(c.options || {}).map(([k, v]) => {
       const isGT = k === c.ground_truth_answer;
       return `
         <div class="option ${isGT ? "correct" : ""}">
           <div class="key">${escapeHtml(k)}</div>
           <div>${escapeHtml(v)}</div>
-          ${isGT ? '<div class="gt-label">Ground truth</div>' : ""}
+          ${isGT ? '<div class="gt-label">Marked answer</div>' : ""}
         </div>
       `;
     }).join("");
@@ -493,42 +615,60 @@
     const qCard = document.createElement("div");
     qCard.className = "card";
     qCard.innerHTML = `
-      <div class="card-header"><h2>Question</h2></div>
+      <div class="card-header">
+        <h2>Question</h2>
+        <div class="badges">
+          ${c.question_category ? `<span class="badge qtype">type: ${escapeHtml(c.question_category)}</span>` : ""}
+          ${c.question_scope ? `<span class="badge scope-${escapeHtml(c.question_scope)}">scope: ${escapeHtml(c.question_scope)}</span>` : ""}
+        </div>
+      </div>
       <div class="card-body">
         <p class="qtext">${escapeHtml(c.question || "")}</p>
         <div class="options">${optionsHtml}</div>
       </div>
       <details class="collapsible" open>
-        <summary>Ground-truth reasoning</summary>
+        <summary>Generated reasoning</summary>
         <div class="det-body small-text">${escapeHtml(c.ground_truth_reasoning || "")}</div>
       </details>
     `;
     main.appendChild(qCard);
 
-    // ---- Card 3: Context / metadata ----
-    const ctxCard = document.createElement("div");
-    ctxCard.className = "card";
-    ctxCard.innerHTML = `
-      <div class="card-header"><h2>Image context & metadata</h2></div>
+    // ---- Card 3: Question metadata (BEFORE image context) ----
+    const metaCard = document.createElement("div");
+    metaCard.className = "card";
+    metaCard.innerHTML = `
+      <div class="card-header"><h2>Question metadata</h2></div>
       <dl class="meta-grid">
+        ${c.question_category ? `<dt>Question type</dt><dd>${escapeHtml(c.question_category)}</dd>` : ""}
+        ${c.question_scope ? `<dt>Question scope</dt><dd>${escapeHtml(c.question_scope)}</dd>` : ""}
         ${c.modality ? `<dt>Modality</dt><dd>${escapeHtml(c.modality)}</dd>` : ""}
+        ${c.primary_modality ? `<dt>Primary modality</dt><dd>${escapeHtml(c.primary_modality)}</dd>` : ""}
+        ${c.secondary_modality ? `<dt>Secondary modality</dt><dd>${escapeHtml(c.secondary_modality)}</dd>` : ""}
         ${c.image_primary_label ? `<dt>Image label (primary)</dt><dd>${escapeHtml((c.image_primary_label || []).join(", "))}</dd>` : ""}
         ${c.image_secondary_label ? `<dt>Image label (secondary)</dt><dd>${escapeHtml((c.image_secondary_label || []).join(", "))}</dd>` : ""}
       </dl>
+    `;
+    main.appendChild(metaCard);
+
+    // ---- Card 4: Image context ----
+    const ctxCard = document.createElement("div");
+    ctxCard.className = "card";
+    ctxCard.innerHTML = `
+      <div class="card-header"><h2>Image context</h2></div>
       ${c.sub_caption ? `
         <details class="collapsible" open>
           <summary>Sub-caption</summary>
           <div class="det-body small-text">${escapeHtml(c.sub_caption)}</div>
         </details>` : ""}
-      ${c.caption ? `
-        <details class="collapsible">
-          <summary>Full caption</summary>
-          <div class="det-body small-text">${escapeHtml(c.caption)}</div>
-        </details>` : ""}
       ${c.relevant_image_context ? `
         <details class="collapsible" open>
           <summary>Relevant image context</summary>
           <div class="det-body small-text">${escapeHtml(c.relevant_image_context)}</div>
+        </details>` : ""}
+      ${c.caption ? `
+        <details class="collapsible">
+          <summary>Full caption</summary>
+          <div class="det-body small-text">${escapeHtml(c.caption)}</div>
         </details>` : ""}
       ${c.image_context ? `
         <details class="collapsible">
@@ -538,37 +678,54 @@
     `;
     main.appendChild(ctxCard);
 
-    // ---- Card 4: Review questions ----
+    // ---- Card 5: Main review questions ----
     const reviewCard = document.createElement("div");
     reviewCard.className = "card";
     let reviewHtml = `<div class="card-header"><h2>Your review</h2></div>`;
     REVIEW_QUESTIONS.forEach((q, i) => {
       const current = r[q.id];
       const optsHtml = q.options.map(opt => `
-        <label class="${current === opt ? "checked" : ""}">
+        <label class="${current === opt ? "checked " + opt.toLowerCase() : ""}">
           <input type="radio" name="rq-${q.id}" value="${escapeAttr(opt)}" ${current === opt ? "checked" : ""} />
           ${escapeHtml(opt)}
         </label>
       `).join("");
       reviewHtml += `
-        <div class="review-q">
+        <div class="review-q" data-review-id="${q.id}">
           <h3>${i + 1}. ${escapeHtml(q.label)}</h3>
           <p class="help">${escapeHtml(q.help)}</p>
           <div class="scale" data-qid="${q.id}">${optsHtml}</div>
         </div>
       `;
     });
-    reviewHtml += `
-      <div class="comments">
-        <label for="comments-box">Comments (optional)</label>
-        <textarea id="comments-box" placeholder="Notes about this case…">${escapeHtml(r.comments || "")}</textarea>
-      </div>
-    `;
     reviewCard.innerHTML = reviewHtml;
     main.appendChild(reviewCard);
 
-    // Wire up review inputs
-    reviewCard.querySelectorAll(".scale").forEach(scale => {
+    // ---- Cards 6/7/8: PKR sections ----
+    PKR_REVIEW.forEach((def, i) => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = pkrSectionHtml(c, r, def);
+      // Update the inner question number to follow the main 8
+      const h3 = card.querySelector(".review-q h3");
+      if (h3) h3.innerHTML = `${REVIEW_QUESTIONS.length + i + 1}. ${escapeHtml(def.label)}`;
+      main.appendChild(card);
+    });
+
+    // ---- Card 9: Comments ----
+    const commentsCard = document.createElement("div");
+    commentsCard.className = "card";
+    commentsCard.innerHTML = `
+      <div class="card-header"><h2>Comments</h2></div>
+      <div class="comments">
+        <label for="comments-box">Free-text notes about this case (optional)</label>
+        <textarea id="comments-box" placeholder="Anything else worth noting…">${escapeHtml(r.comments || "")}</textarea>
+      </div>
+    `;
+    main.appendChild(commentsCard);
+
+    // ---- Wire up review inputs ----
+    main.querySelectorAll(".scale").forEach(scale => {
       const qid = scale.getAttribute("data-qid");
       scale.querySelectorAll("input[type=radio]").forEach(input => {
         input.addEventListener("change", () => {
@@ -576,24 +733,28 @@
           responses[c.case_id][qid] = input.value;
           markCompletion(c.case_id);
           // Update UI checked styling
-          scale.querySelectorAll("label").forEach(l => l.classList.remove("checked"));
-          input.parentElement.classList.add("checked");
+          scale.querySelectorAll("label").forEach(l => {
+            l.classList.remove("checked", "yes", "no");
+          });
+          input.parentElement.classList.add("checked", input.value.toLowerCase());
           saveResponses();
           updateProgressOnly();
         });
       });
     });
 
-    const commentsBox = reviewCard.querySelector("#comments-box");
+    const commentsBox = main.querySelector("#comments-box");
     let commentsTimer = null;
-    commentsBox.addEventListener("input", () => {
-      ensureCase(c.case_id);
-      responses[c.case_id].comments = commentsBox.value;
-      if (commentsTimer) clearTimeout(commentsTimer);
-      commentsTimer = setTimeout(() => {
-        saveResponses();
-      }, 350);
-    });
+    if (commentsBox) {
+      commentsBox.addEventListener("input", () => {
+        ensureCase(c.case_id);
+        responses[c.case_id].comments = commentsBox.value;
+        if (commentsTimer) clearTimeout(commentsTimer);
+        commentsTimer = setTimeout(() => {
+          saveResponses();
+        }, 350);
+      });
+    }
 
     // Flag button state
     const flagBtn = document.getElementById("btn-flag");
@@ -622,7 +783,7 @@
   }
   function markCompletion(caseId) {
     const r = responses[caseId] || {};
-    const allAnswered = REVIEW_QUESTIONS.every(q => r[q.id]);
+    const allAnswered = ALL_REVIEW_IDS.every(id => r[id]);
     r.completed = !!allAnswered;
     if (allAnswered) {
       r.completed_at = new Date().toISOString();
@@ -643,9 +804,10 @@
   document.getElementById("btn-next").addEventListener("click", () => {
     const c = CASES[currentIdx];
     const r = responses[c.case_id] || {};
-    const missing = REVIEW_QUESTIONS.filter(q => !r[q.id]);
+    const allDefs = REVIEW_QUESTIONS.concat(PKR_REVIEW);
+    const missing = allDefs.filter(q => !r[q.id]);
     if (missing.length > 0) {
-      const ok = confirm("You haven't answered:\n• " + missing.map(q => q.label).join("\n• ") + "\n\nMove to next case anyway?");
+      const ok = confirm("You haven't answered " + missing.length + " question(s) on this case. Move to next case anyway?");
       if (!ok) return;
     }
     saveResponses();
@@ -690,7 +852,7 @@
     }
   });
 
-  // Keyboard shortcuts: ← → for prev/next
+  // Keyboard shortcuts
   document.addEventListener("keydown", (e) => {
     if (document.getElementById("welcome").classList.contains("hidden") === false) return;
     if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
@@ -705,7 +867,7 @@
       reviewer: reviewer,
       exported_at: new Date().toISOString(),
       total_cases: CASES.length,
-      review_questions: REVIEW_QUESTIONS,
+      review_questions: REVIEW_QUESTIONS.concat(PKR_REVIEW.map(p => ({ id: p.id, label: p.label, options: YN }))),
       responses: CASES.map((c, idx) => {
         const r = responses[c.case_id] || {};
         return Object.assign({
@@ -727,6 +889,7 @@
   function exportCSV() {
     const cols = ["case_index", "case_id", "question_scope", "question_category", "ground_truth_answer", "completed", "completed_at", "flagged"];
     REVIEW_QUESTIONS.forEach(q => cols.push(q.id));
+    PKR_REVIEW.forEach(q => cols.push(q.id));
     cols.push("comments");
     const rows = [cols.join(",")];
     CASES.forEach((c, idx) => {
@@ -805,9 +968,8 @@
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#39;");
   }
-  function escapeAttr(s) {
-    return escapeHtml(s);
-  }
+  function escapeAttr(s) { return escapeHtml(s); }
+  function capitalize(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
 
   // -------- Boot --------
   const stored = loadReviewer();

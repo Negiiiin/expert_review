@@ -28,5 +28,124 @@
   "caption": "Intraoperative DSA image. (A) Image of a 2-mm gooseneck snare (white arrow) being guided along a tangled microguidewire (black arrow). (B) Image of a microguidewire (black arrow) being pulled by a gooseneck snare and a stent (white arrow) in the process of sliding down. (C) A stent (black arrows) that has slipped down and a newly placed stent (white arrows).",
   "sub_caption": "(B) Image of a microguidewire (black arrow) being pulled by a gooseneck snare and a stent (white arrow) in the process of sliding down.",
   "image_context": "We attempted to manipulate the tangled section using a balloon, but it was unsuccessful. Next, we attempted to pull the Synchro into the SL-10 and Tactics, but it was also unsuccessful. Finally, to carefully pull the Synchro, we grasped the area around the entangled Synchro using a 2-mm Goose Neck Snares (Medtronic, Minneapolis, MN, USA) (<xref rid=\"jnet-17-299-g004\" ref-type=\"fig\"><bold>Fig. 4A</bold></xref>). As a result, Atlas slipped off. During this process, the entanglement between the Synchro SELECT and Atlas stent was resolved, allowing the retrieval of Synchro (Fig. 4A). As a result, Atlas slipped off. During this process, the entanglement between the Synchro SELECT and Atlas stent was resolved, allowing the retrieval of Synchro (<xref rid=\"jnet-17-299-g004\" ref-type=\"fig\"><bold>Fig. 4B</bold></xref>). The Atlas stent remained in place near the proximal part of the ICA, and no further retrieval was done. A new Neuroform Atlas was placed on the neck of the aneurysm, and the procedure was terminated (Fig. 4B). The Atlas stent remained in place near the proximal part of the ICA, and no further retrieval was done. A new Neuroform Atlas was placed on the neck of the aneurysm, and the procedure was terminated (<xref rid=\"jnet-17-299-g004\" ref-type=\"fig\"><bold>Fig. 4C</bold></xref>). Fortunately, postoperative computed tomography showed no signs of bleeding, and the MRI performed the following showed only minor ischemic changes. The patient was asymptomatic and discharged home.Fig. 4C). Fortunately, postoperative computed tomography showed no signs of bleeding, and the MRI performed the following showed only minor ischemic changes. The patient was asymptomatic and discharged home.",
-  "relevant_image_context": "As a result, Atlas slipped off. During this process, the entanglement between the Synchro SELECT and Atlas stent was resolved, allowing the retrieval of Synchro (Fig. 4B). The Atlas stent remained in place near the proximal part of the ICA, and no further retrieval was done. A new Neuroform Atlas was placed on the neck of the aneurysm, and the procedure was terminated (Fig. 4B)."
+  "relevant_image_context": "As a result, Atlas slipped off. During this process, the entanglement between the Synchro SELECT and Atlas stent was resolved, allowing the retrieval of Synchro (Fig. 4B). The Atlas stent remained in place near the proximal part of the ICA, and no further retrieval was done. A new Neuroform Atlas was placed on the neck of the aneurysm, and the procedure was terminated (Fig. 4B).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_2_filelist_noncommercial_batch_142_39-PMC10730298-3-jnet-17-299-g004.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_142_39-PMC10730298-3-jnet-17-299-g004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "tubular radiopaque mesh",
+        "claim_text": "A tubular radiopaque mesh is present within the vessel on the image.",
+        "presence_question": "Does the model's response discuss tubular radiopaque mesh?",
+        "correctness_question": "Does the model's response correctly assert that A tubular radiopaque mesh is present within the vessel on the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "mesh location along vessel",
+        "claim_text": "The tubular radiopaque mesh is located along the vessel.",
+        "presence_question": "Does the model's response discuss mesh location along vessel?",
+        "correctness_question": "Does the model's response correctly assert that The tubular radiopaque mesh is located along the vessel?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "tubular mesh malposition",
+        "claim_text": "The tubular radiopaque mesh appears malpositioned and not following the expected intraluminal contour of the vessel.",
+        "presence_question": "Does the model's response discuss tubular mesh malposition?",
+        "correctness_question": "Does the model's response correctly assert that The tubular radiopaque mesh appears malpositioned and not following the expected intraluminal contour of the vessel?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "thin radiopaque filament",
+        "claim_text": "A thin radiopaque filament is present on the image.",
+        "presence_question": "Does the model's response discuss thin radiopaque filament?",
+        "correctness_question": "Does the model's response correctly assert that A thin radiopaque filament is present on the image?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "filament appearance like guidewire",
+        "claim_text": "The thin radiopaque filament has an appearance consistent with a guidewire.",
+        "presence_question": "Does the model's response discuss filament appearance like guidewire?",
+        "correctness_question": "Does the model's response correctly assert that The thin radiopaque filament has an appearance consistent with a guidewire?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "stent radiographic appearance",
+        "claim_text": "A stent typically appears as a tubular radiopaque mesh on radiographic imaging.",
+        "presence_question": "Does the model's response discuss stent radiographic appearance?",
+        "correctness_question": "Does the model's response correctly state that a stent typically appears as a tubular radiopaque mesh on radiographic imaging?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "guidewire radiographic appearance",
+        "claim_text": "A guidewire typically appears as a thin radiopaque filament on radiographic imaging.",
+        "presence_question": "Does the model's response discuss guidewire radiographic appearance?",
+        "correctness_question": "Does the model's response correctly state that a guidewire typically appears as a thin radiopaque filament on radiographic imaging?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "stent migration on imaging",
+        "claim_text": "Stent migration or dislocation is characterized by the stent being displaced from its expected intraluminal contour and located in an abnormal position on imaging.",
+        "presence_question": "Does the model's response discuss stent migration on imaging?",
+        "correctness_question": "Does the model's response correctly state that stent migration or dislocation is characterized by the stent being displaced from its expected intraluminal contour and located in an abnormal position on imaging?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "management of displaced stent",
+        "claim_text": "If a displaced stent cannot be removed, placement of an additional stent is a possible management option.",
+        "presence_question": "Does the model's response discuss management of displaced stent?",
+        "correctness_question": "Does the model's response correctly state that if a displaced stent cannot be removed, placement of an additional stent is a possible management option?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "stent migration/dislocation explanation",
+        "claim_text": "The tubular radiopaque mesh seen in an abnormal/displaced location along the vessel supports stent migration/dislocation as the explanation in this case.",
+        "presence_question": "Does the model's response make an inferential link about stent migration/dislocation explanation?",
+        "correctness_question": "Does the model's response correctly conclude that The tubular radiopaque mesh seen in an abnormal/displaced location along the vessel supports stent migration/dislocation as the explanation in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "guidewire presence",
+        "claim_text": "The thin radiopaque filament visible on the image is consistent with the presence of a guidewire in this case.",
+        "presence_question": "Does the model's response make an inferential link about guidewire presence?",
+        "correctness_question": "Does the model's response correctly conclude that The thin radiopaque filament visible on the image is consistent with the presence of a guidewire in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "placement of a second stent",
+        "claim_text": "Given a stent is visualized in an abnormal/displaced location and displacement that cannot be remedied may be managed by placing an additional stent, placement of a second stent is a plausible management step in this case.",
+        "presence_question": "Does the model's response make an inferential link about placement of a second stent?",
+        "correctness_question": "Does the model's response correctly conclude that Given a stent is visualized in an abnormal/displaced location and displacement that cannot be remedied may be managed by placing an additional stent, placement of a second stent is a plausible management step in this case?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

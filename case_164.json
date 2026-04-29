@@ -27,5 +27,154 @@
   "caption": "Computed tomography (CT) images showing heavily calcified obstruction of the right common iliac artery and right common femoral artery (CFA; arrows).",
   "sub_caption": "Computed tomography (CT) images showing heavily calcified obstruction of the right common iliac artery and right common femoral artery (CFA; arrows).",
   "image_context": "A 72-year-old male patient presented with chronic limb threatening ischemia of the right lower extremity (rest pain, Rutherford classification stage IV). His medical history included current smoking (70 pack-years), arterial hypertension, dyslipidemia, and coronary artery disease. The patient underwent CT angiography, which revealed a coral reef aorta, a heavily calcified occlusion of the right common iliac artery (CIA), a heavily calcified occlusion of the right common femoral artery (CFA; GLASS Global Limb Anatomic Staging System. stage IIB), femoropopliteal occlusion (GLASS grade 3), and below-the-knee arterial disease (GLASS grade 3). Additionally, there was atherosclerosis of the left CIA without significant stenosis, left femoropopliteal occlusion (GLASS grade 3), and below-the-knee arterial disease (GLASS grade 3; <xref rid=\"gr1\" ref-type=\"fig\">Fig 1</xref>). The right CFA was not palpable, although the left CFA was palpable. The patient provided written informed consent for the report of his case details and imaging studies.). The right CFA was not palpable, although the left CFA was palpable. The patient provided written informed consent for the report of his case details and imaging studies.Fig 1Computed tomography (CT) images showing heavily calcified obstruction of the right common iliac artery and right common femoral artery (CFA; arrows).",
-  "relevant_image_context": "Fig 1 Computed tomography (CT) images showing heavily calcified obstruction of the right common iliac artery and right common femoral artery (CFA; arrows). A 72-year-old male patient presented with chronic limb threatening ischemia of the right lower extremity (rest pain, Rutherford classification stage IV). His medical history included current smoking (70 pack-years), arterial hypertension, dyslipidemia, and coronary artery disease. The patient underwent CT angiography, which revealed a coral reef aorta, a heavily calcified occlusion of the right common iliac artery (CIA), a heavily calcified occlusion of the right common femoral artery (CFA; GLASS Global Limb Anatomic Staging System. stage IIB), femoropopliteal occlusion (GLASS grade 3), and below-the-knee arterial disease (GLASS grade 3). Additionally, there was atherosclerosis of the left CIA without significant stenosis, left femoropopliteal occlusion (GLASS grade 3), and below-the-knee arterial disease (GLASS grade 3; Fig 1). The right CFA was not palpable, although the left CFA was palpable. The patient provided written informed consent for the report of his case details and imaging studies.). The right CFA was not palpable, although the left CFA was palpable. The patient provided written informed consent for the report of his case details and imaging studies."
+  "relevant_image_context": "Fig 1 Computed tomography (CT) images showing heavily calcified obstruction of the right common iliac artery and right common femoral artery (CFA; arrows). A 72-year-old male patient presented with chronic limb threatening ischemia of the right lower extremity (rest pain, Rutherford classification stage IV). His medical history included current smoking (70 pack-years), arterial hypertension, dyslipidemia, and coronary artery disease. The patient underwent CT angiography, which revealed a coral reef aorta, a heavily calcified occlusion of the right common iliac artery (CIA), a heavily calcified occlusion of the right common femoral artery (CFA; GLASS Global Limb Anatomic Staging System. stage IIB), femoropopliteal occlusion (GLASS grade 3), and below-the-knee arterial disease (GLASS grade 3). Additionally, there was atherosclerosis of the left CIA without significant stenosis, left femoropopliteal occlusion (GLASS grade 3), and below-the-knee arterial disease (GLASS grade 3; Fig 1). The right CFA was not palpable, although the left CFA was palpable. The patient provided written informed consent for the report of his case details and imaging studies.). The right CFA was not palpable, although the left CFA was palpable. The patient provided written informed consent for the report of his case details and imaging studies.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_90_38-PMC7941028-0-gr1a.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_90_38-PMC7941028-0-gr1a.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Pleural collection location",
+        "claim_text": "A pleural collection is located in a single hemithorax.",
+        "presence_question": "Does the model's response discuss Pleural collection location?",
+        "correctness_question": "Does the model's response correctly assert that A pleural collection is located in a single hemithorax?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Pleural collection density",
+        "claim_text": "The pleural collection demonstrates a dense internal attenuation on imaging.",
+        "presence_question": "Does the model's response discuss Pleural collection density?",
+        "correctness_question": "Does the model's response correctly assert that The pleural collection demonstrates a dense internal attenuation on imaging?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Pleural collection homogeneity",
+        "claim_text": "The pleural collection has a homogeneous internal appearance on imaging.",
+        "presence_question": "Does the model's response discuss Pleural collection homogeneity?",
+        "correctness_question": "Does the model's response correctly assert that The pleural collection has a homogeneous internal appearance on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Air–fluid level in pleural collection",
+        "claim_text": "The pleural collection demonstrates an air–fluid level pattern within the hemithorax.",
+        "presence_question": "Does the model's response discuss Air–fluid level in pleural collection?",
+        "correctness_question": "Does the model's response correctly assert that The pleural collection demonstrates an air–fluid level pattern within the hemithorax?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Intrapleural air bubbles",
+        "claim_text": "Scattered intrapleural air bubbles are present within the ipsilateral pleural space.",
+        "presence_question": "Does the model's response discuss Intrapleural air bubbles?",
+        "correctness_question": "Does the model's response correctly assert that Scattered intrapleural air bubbles are present within the ipsilateral pleural space?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Extent of pleural collection",
+        "claim_text": "The pleural collection extends to occupy nearly the entire hemithorax.",
+        "presence_question": "Does the model's response discuss Extent of pleural collection?",
+        "correctness_question": "Does the model's response correctly assert that The pleural collection extends to occupy nearly the entire hemithorax?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Ipsilateral lung compression",
+        "claim_text": "The ipsilateral lung is compressed into a thin peripheral rim by the collection.",
+        "presence_question": "Does the model's response discuss Ipsilateral lung compression?",
+        "correctness_question": "Does the model's response correctly assert that The ipsilateral lung is compressed into a thin peripheral rim by the collection?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Ipsilateral lung aeration and markings",
+        "claim_text": "The ipsilateral lung shows loss of normal aeration and pulmonary markings.",
+        "presence_question": "Does the model's response discuss Ipsilateral lung aeration and markings?",
+        "correctness_question": "Does the model's response correctly assert that The ipsilateral lung shows loss of normal aeration and pulmonary markings?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Contralateral lung aeration and expansion",
+        "claim_text": "The contralateral lung is aerated and relatively expanded.",
+        "presence_question": "Does the model's response discuss Contralateral lung aeration and expansion?",
+        "correctness_question": "Does the model's response correctly assert that The contralateral lung is aerated and relatively expanded?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Compression of central thoracic structures",
+        "claim_text": "The pleural collection compresses central thoracic structures, causing mass effect.",
+        "presence_question": "Does the model's response discuss Compression of central thoracic structures?",
+        "correctness_question": "Does the model's response correctly assert that The pleural collection compresses central thoracic structures, causing mass effect?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "volume of pleural or intrathoracic collection",
+        "claim_text": "The volume of an intrathoracic or pleural collection is typically associated with the severity of the abnormality.",
+        "presence_question": "Does the model's response discuss volume of pleural or intrathoracic collection?",
+        "correctness_question": "Does the model's response correctly state that the volume of an intrathoracic or pleural collection is typically associated with the severity of the abnormality?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "compression of lung by adjacent mass",
+        "claim_text": "Compression of the lung by an adjacent mass or collection typically leads to loss of aeration and reduced lung function.",
+        "presence_question": "Does the model's response discuss compression of lung by adjacent mass?",
+        "correctness_question": "Does the model's response correctly state that compression of the lung by an adjacent mass or collection typically leads to loss of aeration and reduced lung function?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "aerated and expanded lung on imaging",
+        "claim_text": "An aerated and expanded lung on imaging is typically associated with relatively preserved lung function.",
+        "presence_question": "Does the model's response discuss aerated and expanded lung on imaging?",
+        "correctness_question": "Does the model's response correctly state that an aerated and expanded lung on imaging is typically associated with relatively preserved lung function?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "pleural collection severity inference",
+        "claim_text": "The imaging findings are consistent with the pleural collection being severe because it occupies nearly the entire hemithorax, produces marked ipsilateral lung compression with loss of aeration, and exerts mass effect on central thoracic structures.",
+        "presence_question": "Does the model's response make an inferential link about pleural collection severity inference?",
+        "correctness_question": "Does the model's response correctly conclude that the imaging findings are consistent with the pleural collection being severe because it occupies nearly the entire hemithorax, produces marked ipsilateral lung compression with loss of aeration, and exerts mass effect on central thoracic structures?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "ipsilateral lung functional status inference",
+        "claim_text": "The imaging findings support that the ipsilateral lung is likely nonfunctional or has major functional impairment because it is compressed to a thin peripheral rim with loss of normal aeration.",
+        "presence_question": "Does the model's response make an inferential link about ipsilateral lung functional status inference?",
+        "correctness_question": "Does the model's response correctly conclude that the imaging findings support that the ipsilateral lung is likely nonfunctional or has major functional impairment because it is compressed to a thin peripheral rim with loss of normal aeration?",
+        "premise_perception_ids": [
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "contralateral lung preservation inference",
+        "claim_text": "The imaging findings are consistent with the contralateral lung being relatively preserved because it is aerated and relatively expanded on imaging.",
+        "presence_question": "Does the model's response make an inferential link about contralateral lung preservation inference?",
+        "correctness_question": "Does the model's response correctly conclude that the imaging findings are consistent with the contralateral lung being relatively preserved because it is aerated and relatively expanded on imaging?",
+        "premise_perception_ids": [
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

@@ -26,5 +26,133 @@
   "caption": "Axial cut of the plain computed tomography image showed a mass compressed on the left lateral ventricle (red arrow).",
   "sub_caption": "Axial cut of the plain computed tomography image showed a mass compressed on the left lateral ventricle (red arrow).",
   "image_context": "A healthy 54-year-old man presented with an acute progressive blurring of vision in both eyes. It started with generalized blurring and he became totally blind within six weeks. He experienced horizontal diplopia before total blindness. Otherwise, there was no eye pain, eye redness, or proptosis. He started to develop headaches only one week after becoming blind. The headache was described as frontal, throbbing in nature, and aggravated on straining. However, there was no nausea or vomiting. He also had lethargy, loss of appetite, and loss of weight. His ocular history was unremarkable. On examination, the visual acuity in both eyes was no perception of light (NPL) in all four quadrants. The anterior segment in both eyes was normal. Bilateral pupils were dilated 5 mm in diameter and not responsive to light. The intraocular pressure (ICP) was normal in both eyes. There was left esotropia on the primary gaze with restriction in abduction. Fundoscopy examination revealed a pale optic disc in both eyes. Computed tomography (CT) scan and magnetic resonance imaging (MRI) revealed a suprasellar mass consistent with craniopharyngioma that compressed the optic chiasma and adjacent brain structures with the presence of hydrocephalus (Figures <xref rid=\"cureus-0014-00000026880-i01\" ref-type=\"fig\">1</xref>, , <xref rid=\"cureus-0014-00000026880-i02\" ref-type=\"fig\">2</xref>). He underwent uneventful tumor debulking surgery. Postoperatively, the patient was stable. However, his visual acuity of both eyes remained NPL.). He underwent uneventful tumor debulking surgery. Postoperatively, the patient was stable. However, his visual acuity of both eyes remained NPL.",
-  "relevant_image_context": "A healthy 54-year-old man presented with an acute progressive blurring of vision in both eyes. It started with generalized blurring and he became totally blind within six weeks. He experienced horizontal diplopia before total blindness. Otherwise, there was no eye pain, eye redness, or proptosis. He started to develop headaches only one week after becoming blind. The headache was described as frontal, throbbing in nature, and aggravated on straining. However, there was no nausea or vomiting. He also had lethargy, loss of appetite, and loss of weight. His ocular history was unremarkable. On examination, the visual acuity in both eyes was no perception of light (NPL) in all four quadrants. The anterior segment in both eyes was normal. Bilateral pupils were dilated 5 mm in diameter and not responsive to light. The intraocular pressure (ICP) was normal in both eyes. There was left esotropia on the primary gaze with restriction in abduction. Fundoscopy examination revealed a pale optic disc in both eyes. Computed tomography (CT) scan and magnetic resonance imaging (MRI) revealed a suprasellar mass consistent with craniopharyngioma that compressed the optic chiasma and adjacent brain structures with the presence of hydrocephalus (Figures 1, 2). He underwent uneventful tumor debulking surgery. Postoperatively, the patient was stable. However, his visual acuity of both eyes remained NPL.). He underwent uneventful tumor debulking surgery. Postoperatively, the patient was stable. However, his visual acuity of both eyes remained NPL. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "A healthy 54-year-old man presented with an acute progressive blurring of vision in both eyes. It started with generalized blurring and he became totally blind within six weeks. He experienced horizontal diplopia before total blindness. Otherwise, there was no eye pain, eye redness, or proptosis. He started to develop headaches only one week after becoming blind. The headache was described as frontal, throbbing in nature, and aggravated on straining. However, there was no nausea or vomiting. He also had lethargy, loss of appetite, and loss of weight. His ocular history was unremarkable. On examination, the visual acuity in both eyes was no perception of light (NPL) in all four quadrants. The anterior segment in both eyes was normal. Bilateral pupils were dilated 5 mm in diameter and not responsive to light. The intraocular pressure (ICP) was normal in both eyes. There was left esotropia on the primary gaze with restriction in abduction. Fundoscopy examination revealed a pale optic disc in both eyes. Computed tomography (CT) scan and magnetic resonance imaging (MRI) revealed a suprasellar mass consistent with craniopharyngioma that compressed the optic chiasma and adjacent brain structures with the presence of hydrocephalus (Figures 1, 2). He underwent uneventful tumor debulking surgery. Postoperatively, the patient was stable. However, his visual acuity of both eyes remained NPL.). He underwent uneventful tumor debulking surgery. Postoperatively, the patient was stable. However, his visual acuity of both eyes remained NPL. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_2_filelist_commercial_batch_124_109-PMC9295365-0-12872_2022_2768_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_124_109-PMC9295365-0-12872_2022_2768_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "sagittal thoracoabdominal aorta",
+        "claim_text": "The CT image shows the thoracoabdominal aorta in the sagittal plane.",
+        "presence_question": "Does the model's response discuss sagittal thoracoabdominal aorta?",
+        "correctness_question": "Does the model's response correctly assert that The CT image shows the thoracoabdominal aorta in the sagittal plane.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "aortic lumen contrast opacification",
+        "claim_text": "The aortic lumen of the thoracoabdominal aorta is opacified with contrast on CT.",
+        "presence_question": "Does the model's response discuss aortic lumen contrast opacification?",
+        "correctness_question": "Does the model's response correctly assert that The aortic lumen of the thoracoabdominal aorta is opacified with contrast on CT.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "linear curvilinear low-attenuation line",
+        "claim_text": "A linear curvilinear low-attenuation line is present within the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss linear curvilinear low-attenuation line?",
+        "correctness_question": "Does the model's response correctly assert that A linear curvilinear low-attenuation line is present within the thoracoabdominal aorta.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "line within aortic lumen",
+        "claim_text": "The linear curvilinear low-attenuation line is located within the aortic lumen.",
+        "presence_question": "Does the model's response discuss line within aortic lumen?",
+        "correctness_question": "Does the model's response correctly assert that The linear curvilinear low-attenuation line is located within the aortic lumen.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "line extent along aorta",
+        "claim_text": "The linear curvilinear low-attenuation line extends along the length of the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss line extent along aorta?",
+        "correctness_question": "Does the model's response correctly assert that The linear curvilinear low-attenuation line extends along the length of the thoracoabdominal aorta.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "aortic lumen channels",
+        "claim_text": "The aortic lumen demonstrates two channels within the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss aortic lumen channels?",
+        "correctness_question": "Does the model's response correctly assert that The aortic lumen demonstrates two channels within the thoracoabdominal aorta.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "contrast-opacified channel",
+        "claim_text": "One channel of the thoracoabdominal aortic lumen is fully opacified with contrast.",
+        "presence_question": "Does the model's response discuss contrast-opacified channel?",
+        "correctness_question": "Does the model's response correctly assert that One channel of the thoracoabdominal aortic lumen is fully opacified with contrast.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "crescent of non-opacified material",
+        "claim_text": "The adjacent channel contains a crescent of non-opacified material within the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss crescent of non-opacified material?",
+        "correctness_question": "Does the model's response correctly assert that The adjacent channel contains a crescent of non-opacified material within the thoracoabdominal aorta.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "normal contrast-enhanced aorta",
+        "claim_text": "A normal contrast-enhanced aorta shows a single smooth, uniformly opacified lumen without an intraluminal linear flap or a non-opacified crescent.",
+        "presence_question": "Does the model's response discuss normal contrast-enhanced aorta?",
+        "correctness_question": "Does the model's response correctly state that a normal contrast-enhanced aorta shows a single smooth, uniformly opacified lumen without an intraluminal linear flap or a non-opacified crescent?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "intraluminal linear flap",
+        "claim_text": "An intraluminal linear flap with an adjacent partially non-opacified lumen suggests an intimal flap creating a true lumen and a partially thrombosed false lumen.",
+        "presence_question": "Does the model's response discuss intraluminal linear flap?",
+        "correctness_question": "Does the model's response correctly state that an intraluminal linear flap with an adjacent partially non-opacified lumen suggests an intimal flap creating a true lumen and a partially thrombosed false lumen?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "aortic lumen opacification on CT",
+        "claim_text": "Opacification of the aortic lumen on CT results from administration of intravenous contrast.",
+        "presence_question": "Does the model's response discuss aortic lumen opacification on CT?",
+        "correctness_question": "Does the model's response correctly state that opacification of the aortic lumen on CT results from administration of intravenous contrast?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Intimal flap with partially thrombosed false lumen",
+        "claim_text": "The imaging findings support the presence of an intimal flap producing a true lumen and a partially thrombosed false lumen in this case.",
+        "presence_question": "Does the model's response make an inferential link about Intimal flap with partially thrombosed false lumen?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings support the presence of an intimal flap producing a true lumen and a partially thrombosed false lumen in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Aortic lumen abnormality",
+        "claim_text": "The observed intraluminal linear flap and the split opacified and non-opacified channels support that the aortic lumen is abnormal in this case.",
+        "presence_question": "Does the model's response make an inferential link about Aortic lumen abnormality?",
+        "correctness_question": "Does the model's response correctly conclude that The observed intraluminal linear flap and the split opacified and non-opacified channels support that the aortic lumen is abnormal in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

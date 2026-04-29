@@ -27,5 +27,115 @@
   "caption": "– Color flow Doppler image showing venous thrombosis of noncompressible plantar veins without flow.",
   "sub_caption": "Color flow Doppler image showing venous thrombosis of noncompressible plantar veins without flow.",
   "image_context": "A TVP pode acometer diversos segmentos venosos em conjunto ou isoladamente. Um exemplo é a trombose de veias plantares, não avaliada com frequência. Deve-se buscar esse diagnóstico quando há a presença de dor aguda e/ou edema no pé. Os aspectos ultrassonográficos da TVP plantar recentemente observados são a dilatação venosa e a presença do trombo luminal com redução da compressibilidade venosa (\n<xref rid=\"0066-782X-abc-118-04-0797-gf12\" ref-type=\"fig\">Figura 12</xref>\n).\n).",
-  "relevant_image_context": "A TVP pode acometer diversos segmentos venosos em conjunto ou isoladamente. Um exemplo é a trombose de veias plantares, não avaliada com frequência. Deve-se buscar esse diagnóstico quando há a presença de dor aguda e/ou edema no pé. Os aspectos ultrassonográficos da TVP plantar recentemente observados são a dilatação venosa e a presença do trombo luminal com redução da compressibilidade venosa (Figura 12)."
+  "relevant_image_context": "A TVP pode acometer diversos segmentos venosos em conjunto ou isoladamente. Um exemplo é a trombose de veias plantares, não avaliada com frequência. Deve-se buscar esse diagnóstico quando há a presença de dor aguda e/ou edema no pé. Os aspectos ultrassonográficos da TVP plantar recentemente observados são a dilatação venosa e a presença do trombo luminal com redução da compressibilidade venosa (Figura 12).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_117_104-PMC9007000-74-0066-782X-abc-118-04-0797-gf12-en.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_117_104-PMC9007000-74-0066-782X-abc-118-04-0797-gf12-en.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "plantar color Doppler ultrasound",
+        "claim_text": "The image is a color Doppler ultrasound of the plantar soft tissues of the foot.",
+        "presence_question": "Does the model's response discuss plantar color Doppler ultrasound?",
+        "correctness_question": "Does the model's response correctly assert that the image is a color Doppler ultrasound of the plantar soft tissues of the foot?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "round tubular structure in plantar soft tissue",
+        "claim_text": "A round tubular structure is located within the plantar soft tissue.",
+        "presence_question": "Does the model's response discuss round tubular structure in plantar soft tissue?",
+        "correctness_question": "Does the model's response correctly assert that a round tubular structure is located within the plantar soft tissue?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "arrow markers pointing to structure",
+        "claim_text": "Arrow markers are present pointing to the round tubular structure.",
+        "presence_question": "Does the model's response discuss arrow markers pointing to the structure?",
+        "correctness_question": "Does the model's response correctly assert that arrow markers are present pointing to the round tubular structure?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "intraluminal color flow",
+        "claim_text": "The lumen of the tubular structure shows little to no internal color flow.",
+        "presence_question": "Does the model's response discuss intraluminal color flow?",
+        "correctness_question": "Does the model's response correctly assert that the lumen of the tubular structure shows little to no internal color flow?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "intraluminal echogenic focus",
+        "claim_text": "An intraluminal echogenic focus is located within the lumen of the tubular structure.",
+        "presence_question": "Does the model's response discuss an intraluminal echogenic focus?",
+        "correctness_question": "Does the model's response correctly assert that an intraluminal echogenic focus is located within the lumen of the tubular structure?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "decreased internal color flow",
+        "claim_text": "Internal color flow in the tubular structure is decreased compared to the nearby tissue.",
+        "presence_question": "Does the model's response discuss decreased internal color flow?",
+        "correctness_question": "Does the model's response correctly assert that internal color flow in the tubular structure is decreased compared to the nearby tissue?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Color Doppler ultrasound",
+        "claim_text": "Color Doppler ultrasound is better for visualizing blood flow in vessels.",
+        "presence_question": "Does the model's response discuss Color Doppler ultrasound?",
+        "correctness_question": "Does the model's response correctly state that Color Doppler ultrasound is better for visualizing blood flow in vessels?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Absent or reduced venous color flow",
+        "claim_text": "Absent or reduced color flow within a vein suggests compromised venous flow, such as thrombosis or occlusion.",
+        "presence_question": "Does the model's response discuss Absent or reduced venous color flow?",
+        "correctness_question": "Does the model's response correctly state that Absent or reduced color flow within a vein suggests compromised venous flow, such as thrombosis or occlusion?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Focal venous lesion",
+        "claim_text": "A focal venous lesion is typically associated with localized pain and swelling in the affected region.",
+        "presence_question": "Does the model's response discuss Focal venous lesion?",
+        "correctness_question": "Does the model's response correctly state that A focal venous lesion is typically associated with localized pain and swelling in the affected region?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "focal venous structure diagnosis",
+        "claim_text": "The observed round tubular structure containing an intraluminal echogenic focus and demonstrating little to no internal color flow supports that a focal venous structure with compromised flow is a plausible diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about focal venous structure diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The observed round tubular structure containing an intraluminal echogenic focus and demonstrating little to no internal color flow supports that a focal venous structure with compromised flow is a plausible diagnosis in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "venous lesion causing plantar pain and swelling",
+        "claim_text": "A focal venous lesion with compromised flow localized to the plantar soft tissues supports that localized plantar pain and swelling are likely in this patient.",
+        "presence_question": "Does the model's response make an inferential link about venous lesion causing plantar pain and swelling?",
+        "correctness_question": "Does the model's response correctly conclude that A focal venous lesion with compromised flow localized to the plantar soft tissues supports that localized plantar pain and swelling are likely in this patient?",
+        "premise_perception_ids": [
+          "p2",
+          "p4",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

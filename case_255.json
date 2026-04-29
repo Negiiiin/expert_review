@@ -30,5 +30,128 @@
   "caption": "Magnetic resonance imaging of the spine showing vertebral metastases (yellow arrow) on parasagittal (A) and sagittal (B) views.",
   "sub_caption": "Magnetic resonance imaging of the spine showing vertebral metastases (yellow arrow) on parasagittal (A) and sagittal (B) views.",
   "image_context": "A 46-year-old female presented to our hospital in 2008 with gradual onset of paraparesis of both lower limbs. She had right hemi-thyroidectomy performed 12 years ago at another hospital. She did not monitor TSH, nor did she receive levothyroxine replacement at any time. Magnetic resonance imaging (MRI) of the spine showed multiple areas of abnormal marrow signals in the spine, involving the T4, T6, T7, T12, L2, L3 and S1 vertebrae. Collapse of the T4 vertebra was seen with posterior cortical margin convexity and associated pre- and para-spinal and anterior epidural soft tissue components, causing compression on the thecal sac with moderate to severe secondary central canal stenosis (<xref ref-type=\"fig\" rid=\"JAFES-32-1-057-g001\">Figures 1A and B</xref>). Computed tomography (CT)-guided biopsy of the third lumbar spinal lesion revealed tumor cells which were positive for thyroglobulin immunohistochemistry, suggestive of metastatic follicular thyroid carcinoma.). Computed tomography (CT)-guided biopsy of the third lumbar spinal lesion revealed tumor cells which were positive for thyroglobulin immunohistochemistry, suggestive of metastatic follicular thyroid carcinoma.",
-  "relevant_image_context": "A 46-year-old female presented to our hospital in 2008 with gradual onset of paraparesis of both lower limbs. Magnetic resonance imaging (MRI) of the spine showed multiple areas of abnormal marrow signals in the spine, involving the T4, T6, T7, T12, L2, L3 and S1 vertebrae. Collapse of the T4 vertebra was seen with posterior cortical margin convexity and associated pre- and para-spinal and anterior epidural soft tissue components, causing compression on the thecal sac with moderate to severe secondary central canal stenosis (Figures 1A and B). Computed tomography (CT)-guided biopsy of the third lumbar spinal lesion revealed tumor cells which were positive for thyroglobulin immunohistochemistry, suggestive of metastatic follicular thyroid carcinoma."
+  "relevant_image_context": "A 46-year-old female presented to our hospital in 2008 with gradual onset of paraparesis of both lower limbs. Magnetic resonance imaging (MRI) of the spine showed multiple areas of abnormal marrow signals in the spine, involving the T4, T6, T7, T12, L2, L3 and S1 vertebrae. Collapse of the T4 vertebra was seen with posterior cortical margin convexity and associated pre- and para-spinal and anterior epidural soft tissue components, causing compression on the thecal sac with moderate to severe secondary central canal stenosis (Figures 1A and B). Computed tomography (CT)-guided biopsy of the third lumbar spinal lesion revealed tumor cells which were positive for thyroglobulin immunohistochemistry, suggestive of metastatic follicular thyroid carcinoma.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_87_49-PMC7784090-0-JAFES-32-1-057-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_87_49-PMC7784090-0-JAFES-32-1-057-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "lumbar vertebral body height loss",
+        "claim_text": "The vertebral body at the arrow level in the lumbar spine demonstrates loss of height (partial collapse).",
+        "presence_question": "Does the model's response discuss lumbar vertebral body height loss?",
+        "correctness_question": "Does the model's response correctly assert that The vertebral body at the arrow level in the lumbar spine demonstrates loss of height (partial collapse)?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "posterior vertebral cortex extension",
+        "claim_text": "The posterior cortex of the collapsed lumbar vertebral body extends into the spinal canal.",
+        "presence_question": "Does the model's response discuss posterior vertebral cortex extension?",
+        "correctness_question": "Does the model's response correctly assert that The posterior cortex of the collapsed lumbar vertebral body extends into the spinal canal?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "epidural soft-tissue adjacent to vertebra",
+        "claim_text": "An epidural soft-tissue component is adjacent to the collapsed vertebral body in the lumbar epidural space.",
+        "presence_question": "Does the model's response discuss epidural soft-tissue adjacent to vertebra?",
+        "correctness_question": "Does the model's response correctly assert that An epidural soft-tissue component is adjacent to the collapsed vertebral body in the lumbar epidural space?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "thecal sac compression",
+        "claim_text": "The epidural soft-tissue component compresses the thecal sac in the lumbar spine.",
+        "presence_question": "Does the model's response discuss thecal sac compression?",
+        "correctness_question": "Does the model's response correctly assert that The epidural soft-tissue component compresses the thecal sac in the lumbar spine?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "spinal canal compression",
+        "claim_text": "The epidural soft-tissue component is compressing the spinal canal in the lumbar region.",
+        "presence_question": "Does the model's response discuss spinal canal compression?",
+        "correctness_question": "Does the model's response correctly assert that The epidural soft-tissue component is compressing the spinal canal in the lumbar region?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "collapsed vertebral body location on sagittal image",
+        "claim_text": "The collapsed vertebral body is located at the level indicated by the arrow on the sagittal MRI image.",
+        "presence_question": "Does the model's response discuss collapsed vertebral body location on sagittal image?",
+        "correctness_question": "Does the model's response correctly assert that The collapsed vertebral body is located at the level indicated by the arrow on the sagittal MRI image?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "sudden mechanical compression of neural elements",
+        "claim_text": "A sudden increase in mechanical compression of neural elements typically causes acute worsening of lower-limb weakness and back pain.",
+        "presence_question": "Does the model's response discuss sudden mechanical compression of neural elements?",
+        "correctness_question": "Does the model's response correctly state that A sudden increase in mechanical compression of neural elements typically causes acute worsening of lower-limb weakness and back pain?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "vertebral collapse with posterior cortical displacement",
+        "claim_text": "Vertebral body collapse with posterior cortical displacement and contiguous epidural tissue causing canal narrowing typically causes mechanical compression of neural elements, leading to rapid neurologic decline.",
+        "presence_question": "Does the model's response discuss vertebral collapse with posterior cortical displacement?",
+        "correctness_question": "Does the model's response correctly state that Vertebral body collapse with posterior cortical displacement and contiguous epidural tissue causing canal narrowing typically causes mechanical compression of neural elements, leading to rapid neurologic decline?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "mechanical compression of neural elements",
+        "claim_text": "The imaging findings of vertebral body partial collapse with posterior cortical bulging and contiguous epidural soft tissue compressing the thecal sac support the presence of mechanical compression of neural elements in this case.",
+        "presence_question": "Does the model's response make an inferential link about mechanical compression of neural elements?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings of vertebral body partial collapse with posterior cortical bulging and contiguous epidural soft tissue compressing the thecal sac support the presence of mechanical compression of neural elements in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "vertebral collapse as cause of rapid decline",
+        "claim_text": "A vertebral collapse with posterior cortical displacement and associated epidural tissue narrowing the canal can produce sudden mechanical compression of neural elements and is therefore consistent with being a cause of rapid neurologic decline.",
+        "presence_question": "Does the model's response make an inferential link about vertebral collapse as cause of rapid decline?",
+        "correctness_question": "Does the model's response correctly conclude that A vertebral collapse with posterior cortical displacement and associated epidural tissue narrowing the canal can produce sudden mechanical compression of neural elements and is therefore consistent with being a cause of rapid neurologic decline.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "imaging explains post-biopsy deterioration",
+        "claim_text": "Because sudden increases in mechanical compression of neural elements cause acute worsening of limb weakness and pain, the imaging findings (vertebral collapse and epidural tissue causing canal narrowing) plausibly explain the patient's acute deterioration after the CT-guided biopsy by producing increased mechanical compression.",
+        "presence_question": "Does the model's response make an inferential link about imaging explains post-biopsy deterioration?",
+        "correctness_question": "Does the model's response correctly conclude that Because sudden increases in mechanical compression of neural elements cause acute worsening of limb weakness and pain, the imaging findings (vertebral collapse and epidural tissue causing canal narrowing) plausibly explain the patient's acute deterioration after the CT-guided biopsy by producing increased mechanical compression.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

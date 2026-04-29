@@ -28,5 +28,117 @@
   "caption": "3D volume rendered recontruction (A and B) of spinal CT shows thoracic dextroscoliosis with right side T5 and T6 (white arrowheads in A) hemivertebrae as well as right side fused T7-T8 (black arrowhead in A) vertebral bodies with unilateral hemivertebrae. On the left side, the 6th- 8th ribs are fused anterolaterally (red arrowheads in A). B and C depict bony fusion involving the right lamina of L1 and L2 (black arrows in B and C).",
   "sub_caption": "3D volume rendered recontruction (A and B) of spinal CT shows thoracic dextroscoliosis with right side T5 and T6 (white arrowheads in A) hemivertebrae as well as right side fused T7-T8 (black arrowhead in A) vertebral bodies with unilateral hemivertebrae. On the left side, the 6th- 8th ribs are fused anterolaterally (red arrowheads in A).",
   "image_context": "The baby had stable vital signs on physical examination, with a pulse rate of 100/min, a respiratory rate of 24/min, and a temperature (armpit) of 36.2 degrees Celsius. She cannot sit unsupported, but her other developmental milestones were normal. Except for mild chest wall asymmetry, signs of respiratory distress were absent. She showed a short neck, scoliosis, a patch of hair in the lower back region, and a mildly underdeveloped right leg with normal tone and power. A chest radiograph from the referring hospital reported curvature of the thoracic spine with multiple broad left side ribs. The imaging work-up continued with spinal computed tomography (CT) and magnetic resonance imaging (MRI). A 3D CT scan (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>) revealed dextroscoliosis and several rib problems on the left side, including fusion and absence defects. The types of vertebral abnormalities were hemivertebrae and anomalous fusion () revealed dextroscoliosis and several rib problems on the left side, including fusion and absence defects. The types of vertebral abnormalities were hemivertebrae and anomalous fusion (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). A rib defect caused a focal herniation of the left posterior lung (). A rib defect caused a focal herniation of the left posterior lung (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>). MRI and complementary CT scans clearly showed 2 hemicords from T10–L4 levels with no midline bony spur and contained within a single dural covering and a focal proximal syrinx (). MRI and complementary CT scans clearly showed 2 hemicords from T10–L4 levels with no midline bony spur and contained within a single dural covering and a focal proximal syrinx (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>).).Fig. 13D volume rendered recontruction (A and B) of spinal CT shows thoracic dextroscoliosis with right side T5 and T6 (white arrowheads in A) hemivertebrae as well as right side fused T7-T8 (black arrowhead in A) vertebral bodies with unilateral hemivertebrae. On the left side, the 6th- 8th ribs are fused anterolaterally (red arrowheads in A). B and C depict bony fusion involving the right lamina of L1 and L2 (black arrows in B and C).Fig 1Fig. 2Sagittal (A) and axial (B) chest CT shows volume loss of the left lung following herniation (white arrowheads in A and B) through a posterior rib defect.Fig 2Fig. 3Cranial to caudal axial FSE T2W MRI (A-C) and coronal CT (D) clearly shows the 2 hemicords at the thoracolumbar level (black arrows in B-D) without a separating structure. There is also a focal syrinx proximal to the cord division at T9 level (black arrowhead on A).Fig 3",
-  "relevant_image_context": "Fig. 13D volume rendered recontruction (A and B) of spinal CT shows thoracic dextroscoliosis with right side T5 and T6 (white arrowheads in A) hemivertebrae as well as right side fused T7-T8 (black arrowhead in A) vertebral bodies with unilateral hemivertebrae. On the left side, the 6th- 8th ribs are fused anterolaterally (red arrowheads in A). B and C depict bony fusion involving the right lamina of L1 and L2 (black arrows in B and C)."
+  "relevant_image_context": "Fig. 13D volume rendered recontruction (A and B) of spinal CT shows thoracic dextroscoliosis with right side T5 and T6 (white arrowheads in A) hemivertebrae as well as right side fused T7-T8 (black arrowhead in A) vertebral bodies with unilateral hemivertebrae. On the left side, the 6th- 8th ribs are fused anterolaterally (red arrowheads in A). B and C depict bony fusion involving the right lamina of L1 and L2 (black arrows in B and C).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_2_filelist_noncommercial_batch_151_38-PMC11163143-2-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_151_38-PMC11163143-2-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Rightward thoracic curvature",
+        "claim_text": "There is a rightward curvature of the thoracic spine.",
+        "presence_question": "Does the model's response discuss Rightward thoracic curvature?",
+        "correctness_question": "Does the model's response correctly assert that There is a rightward curvature of the thoracic spine?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right thoracic wedge-shaped vertebral bodies",
+        "claim_text": "The right thoracic vertebral bodies are wedge-shaped on 3D CT reconstruction.",
+        "presence_question": "Does the model's response discuss Right thoracic wedge-shaped vertebral bodies?",
+        "correctness_question": "Does the model's response correctly assert that The right thoracic vertebral bodies are wedge-shaped on 3D CT reconstruction?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Asymmetric right thoracic vertebral bodies",
+        "claim_text": "The right thoracic vertebral bodies have an asymmetric appearance on 3D CT reconstruction.",
+        "presence_question": "Does the model's response discuss Asymmetric right thoracic vertebral bodies?",
+        "correctness_question": "Does the model's response correctly assert that The right thoracic vertebral bodies have an asymmetric appearance on 3D CT reconstruction?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Fusion of right thoracic vertebrae and ribs",
+        "claim_text": "Adjacent right thoracic vertebral bodies and ribs appear fused on 3D CT reconstruction.",
+        "presence_question": "Does the model's response discuss Fusion of right thoracic vertebrae and ribs?",
+        "correctness_question": "Does the model's response correctly assert that Adjacent right thoracic vertebral bodies and ribs appear fused on 3D CT reconstruction?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Right thoracic structural angular deformity",
+        "claim_text": "There is a right-sided structural angular deformity of the thoracic spine on 3D CT reconstruction.",
+        "presence_question": "Does the model's response discuss Right thoracic structural angular deformity?",
+        "correctness_question": "Does the model's response correctly assert that There is a right-sided structural angular deformity of the thoracic spine on 3D CT reconstruction?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "hemivertebra",
+        "claim_text": "A hemivertebra is a unilateral wedge-shaped vertebra.",
+        "presence_question": "Does the model's response discuss hemivertebra?",
+        "correctness_question": "Does the model's response correctly state that A hemivertebra is a unilateral wedge-shaped vertebra?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "cause of hemivertebra",
+        "claim_text": "A hemivertebra is caused by failure of formation of one vertebral chondrification center.",
+        "presence_question": "Does the model's response discuss cause of hemivertebra?",
+        "correctness_question": "Does the model's response correctly state that A hemivertebra is caused by failure of formation of one vertebral chondrification center?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "wedge-shaped vertebra",
+        "claim_text": "A wedge-shaped vertebra leads to a structural angular deformity of the spine.",
+        "presence_question": "Does the model's response discuss wedge-shaped vertebra?",
+        "correctness_question": "Does the model's response correctly state that A wedge-shaped vertebra leads to a structural angular deformity of the spine?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "hemivertebra diagnosis support",
+        "claim_text": "The presence of unilateral, wedge-shaped thoracic vertebral bodies supports the diagnosis of hemivertebra in this case.",
+        "presence_question": "Does the model's response make an inferential link about hemivertebra diagnosis support?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of unilateral, wedge-shaped thoracic vertebral bodies supports the diagnosis of hemivertebra in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "cause of thoracic angular deformity",
+        "claim_text": "The observed structural angular deformity of the thoracic spine is consistent with deformity produced by wedge-shaped vertebrae.",
+        "presence_question": "Does the model's response make an inferential link about cause of thoracic angular deformity?",
+        "correctness_question": "Does the model's response correctly conclude that The observed structural angular deformity of the thoracic spine is consistent with deformity produced by wedge-shaped vertebrae?",
+        "premise_perception_ids": [
+          "p5",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "embryologic cause of hemivertebra",
+        "claim_text": "A hemivertebra in this case is best explained embryologically by failure of formation of one vertebral chondrification center.",
+        "presence_question": "Does the model's response make an inferential link about embryologic cause of hemivertebra?",
+        "correctness_question": "Does the model's response correctly conclude that A hemivertebra in this case is best explained embryologically by failure of formation of one vertebral chondrification center?",
+        "premise_perception_ids": [
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

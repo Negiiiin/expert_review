@@ -28,5 +28,146 @@
   "caption": "Pattern classification from fecal Gram stain. In the diverse pattern, numerous kinds of bacteria totally covered the field",
   "sub_caption": "In the diverse pattern, numerous kinds of bacteria totally covered the field",
   "image_context": "We classified Gram-stained fecal flora into three patterns in accordance with the patterns of bacteria we could identify (Fig. <xref rid=\"10620_2010_1486_Fig1_HTML\" ref-type=\"fig\">1</xref>). The classification of each sample was certified at the Division of Infection Control and Prevention in our hospital by an infectious disease physician who had no knowledge of the clinical course of each patient. In the diverse pattern, large numbers of multiple kinds of bacteria completely covered the field. In the single pattern, one specific kind of bacteria or fungi predominantly covered the field. Figure ). The classification of each sample was certified at the Division of Infection Control and Prevention in our hospital by an infectious disease physician who had no knowledge of the clinical course of each patient. In the diverse pattern, large numbers of multiple kinds of bacteria completely covered the field. In the single pattern, one specific kind of bacteria or fungi predominantly covered the field. Figure <xref rid=\"10620_2010_1486_Fig2_HTML\" ref-type=\"fig\">2</xref> shows that Gram-positive cocci (GPC), Gram-negative rods (GNR), and fungi dominated the field. In the depleted pattern, most bacteria were diminished in the field (Fig.  shows that Gram-positive cocci (GPC), Gram-negative rods (GNR), and fungi dominated the field. In the depleted pattern, most bacteria were diminished in the field (Fig. <xref rid=\"10620_2010_1486_Fig3_HTML\" ref-type=\"fig\">3</xref>). Alterations in gut flora usually progress from a diverse pattern to a single pattern and then onwards to a depleted pattern.). Alterations in gut flora usually progress from a diverse pattern to a single pattern and then onwards to a depleted pattern.Fig. 1Pattern classification from fecal Gram stain. In the diverse pattern, numerous kinds of bacteria totally covered the field\nFig. 2Pattern classification from fecal Gram stain. In the single pattern, specified bacteria (only one or two kinds of bacteria) dominantly covered the field. These pictures show that Gram-positive coccus (left), Gram-negative rod (middle) and fungus (right) dominantly cover the field\nFig. 3Pattern classification from fecal Gram stain. In the depleted pattern, most bacteria were diminished in the field. The deterioration of gut flora usually occurs from a diverse pattern to a single pattern, and from a single pattern to a depleted pattern",
-  "relevant_image_context": "Fig. 1 Pattern classification from fecal Gram stain. In the diverse pattern, numerous kinds of bacteria totally covered the field."
+  "relevant_image_context": "Fig. 1 Pattern classification from fecal Gram stain. In the diverse pattern, numerous kinds of bacteria totally covered the field.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_8_29-PMC3097348-2-10620_2010_1486_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_8_29-PMC3097348-2-10620_2010_1486_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "fecal material on Gram stain",
+        "claim_text": "Fecal material is present on the Gram-stained specimen",
+        "presence_question": "Does the model's response discuss fecal material on Gram stain?",
+        "correctness_question": "Does the model's response correctly assert that Fecal material is present on the Gram-stained specimen?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "bacterial density",
+        "claim_text": "Bacteria are present at very dense concentrations on the examined Gram-stained slide",
+        "presence_question": "Does the model's response discuss bacterial density?",
+        "correctness_question": "Does the model's response correctly assert that Bacteria are present at very dense concentrations on the examined Gram-stained slide?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "heterogeneous bacterial population",
+        "claim_text": "The bacterial population displays a heterogeneous appearance with varied morphologies on the slide",
+        "presence_question": "Does the model's response discuss heterogeneous bacterial population?",
+        "correctness_question": "Does the model's response correctly assert that The bacterial population displays a heterogeneous appearance with varied morphologies on the slide?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "slender rod-shaped bacteria",
+        "claim_text": "Slender rod-shaped bacteria are present in the field of view",
+        "presence_question": "Does the model's response discuss slender rod-shaped bacteria?",
+        "correctness_question": "Does the model's response correctly assert that Slender rod-shaped bacteria are present in the field of view?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "shorter, rounder bacterial forms",
+        "claim_text": "Shorter, rounder bacterial forms are present in the field of view",
+        "presence_question": "Does the model's response discuss shorter, rounder bacterial forms?",
+        "correctness_question": "Does the model's response correctly assert that Shorter, rounder bacterial forms are present in the field of view?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "variation in bacterial size and arrangement",
+        "claim_text": "The bacterial population shows variation in size and arrangement rather than a single uniform appearance",
+        "presence_question": "Does the model's response discuss variation in bacterial size and arrangement?",
+        "correctness_question": "Does the model's response correctly assert that The bacterial population shows variation in size and arrangement rather than a single uniform appearance?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "bacteria across the field",
+        "claim_text": "Bacteria are located across the field of view",
+        "presence_question": "Does the model's response discuss bacteria across the field?",
+        "correctness_question": "Does the model's response correctly assert that Bacteria are located across the field of view?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "polymicrobial colonization",
+        "claim_text": "Polymicrobial colonization is typically associated with mixed bacterial morphologies and high organismal density on Gram stain.",
+        "presence_question": "Does the model's response discuss polymicrobial colonization?",
+        "correctness_question": "Does the model's response correctly state that Polymicrobial colonization is typically associated with mixed bacterial morphologies and high organismal density on Gram stain?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "normal gut flora",
+        "claim_text": "Normal gut flora is typically composed of multiple bacterial species (is polymicrobial).",
+        "presence_question": "Does the model's response discuss normal gut flora?",
+        "correctness_question": "Does the model's response correctly state that Normal gut flora is typically composed of multiple bacterial species (is polymicrobial)?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "bacterial morphology",
+        "claim_text": "Bacterial morphology (shape) can be identified by Gram stain appearance.",
+        "presence_question": "Does the model's response discuss bacterial morphology?",
+        "correctness_question": "Does the model's response correctly state that Bacterial morphology (shape) can be identified by Gram stain appearance?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "single-organism overgrowth",
+        "claim_text": "Single-organism overgrowth is typically associated with a uniform bacterial morphology on Gram stain.",
+        "presence_question": "Does the model's response discuss single-organism overgrowth?",
+        "correctness_question": "Does the model's response correctly state that Single-organism overgrowth is typically associated with a uniform bacterial morphology on Gram stain?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "polymicrobial colonization inference",
+        "claim_text": "The presence of a very dense, heterogeneous bacterial population with multiple morphologies across the field supports polymicrobial colonization.",
+        "presence_question": "Does the model's response make an inferential link about polymicrobial colonization inference?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a very dense, heterogeneous bacterial population with multiple morphologies across the field supports polymicrobial colonization?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "single-organism overgrowth exclusion",
+        "claim_text": "Variation in size and arrangement rather than a single uniform appearance argues against a single-organism overgrowth in this specimen.",
+        "presence_question": "Does the model's response make an inferential link about single-organism overgrowth exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that Variation in size and arrangement rather than a single uniform appearance argues against a single-organism overgrowth in this specimen?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "normal gut flora colonization inference",
+        "claim_text": "Because the specimen is fecal and shows a dense, mixed bacterial population with multiple morphologies, this supports colonization by normal polymicrobial gut flora as a plausible explanation.",
+        "presence_question": "Does the model's response make an inferential link about normal gut flora colonization inference?",
+        "correctness_question": "Does the model's response correctly conclude that Because the specimen is fecal and shows a dense, mixed bacterial population with multiple morphologies, this supports colonization by normal polymicrobial gut flora as a plausible explanation?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,157 @@
   "caption": "CT of the head showing acute right convexity subdural hematoma measuring up to 11 mm in maximal diameter with midline shift to the left measuring up to 2 mm.",
   "sub_caption": "CT of the head showing acute right convexity subdural hematoma measuring up to 11 mm in maximal diameter with midline shift to the left measuring up to 2 mm.",
   "image_context": "At that time, the patient had a loading dose of aspirin 325 mg, and 4,000 units of heparin, and was started on a heparin drip per ACS protocol for non-ST-elevation myocardial infarction (STEMI), also one dose of intravenous Lasix 40 mg was given. At that time, the patient was also started on daily aspirin 81 mg, atorvastatin 40 mg daily at bedtime, carvedilol 12.5 mg twice daily, transthoracic echocardiography (TTE) was requested. TTE showed normal left ventricular size with severe systolic dysfunction. There is severe hypokinesis to akinesis of the distal 1/2 of the left ventricle, worse in the anterior and anteroseptal walls. EF 25%-30%, moderate tricuspid regurgitation, trivial pericardial effusion, compared with a previous echo that was done a month earlier. He had a computed tomography (CT) of the head without contrast that showed no acute intracranial abnormalities, but neurology service was consulted for the complaint of word-finding difficulty, by that time and after 67544444444444complete assessment and reviewing of the whole work up, anomia was not appreciated. On the same day, the initial diagnosis by cardiology was Takotsubo cardiomyopathy secondary to consistent wall motion abnormalities on TTE and left heart catheterization (LHC) was requested and also heparin was stopped earlier. Before LHC, he got a loading dose of Ticagrelor 180 mg, and LHC showed early-mid and distal left anterior descending artery (LAD) disease with drug-eluting stent placement x1 each. Later that day (after four hours from the loading dose), the patient started to develop cognitive impairment and deteriorated from being AAO x4 on presentation to AAO x1, oriented to himself only, and requiring one-to-one observation at the bedside. That was attributed to hyperactive delirium. Also, hepatic encephalopathy was excluded due to normal ammonia and bilirubin level. We received recommendations for frequent orientation and sleep cycle preservation and as needed melatonin during the night and to avoid benzodiazepines. The following night, the patient remained combative and had a repeat CT (Figure <xref rid=\"cureus-0015-00000041761-i03\" ref-type=\"fig\">3</xref>) head that showed an acute right convexity subdural hematoma (SDH) measuring up to 11 mm in maximal diameter with a trace midline shift to the left measuring up to 2 mm, which is new compared with the most recent prior head CT. Immediately aspirin, Ticagrelor, and prophylaxis subcutaneous heparin were stopped, and the patient was upgraded to the neuro intensive care unit where his neuro exam was significant for being lethargic, oriented only to himself, but was not clear with location or date, prosodic without dysarthria, the face appeared symmetric and strength was 4/5 throughout. Neurosurgery service was consulted and recommended to repeat CT head in the morning which showed no interval changes from the one overnight. On the following day, he was transferred to a tertiary care center for embolization of the middle meningeal artery. After that procedure, he was transferred back to our institute, being fully oriented, with no gross neurological deficit. At that time DAPT has been on hold for five days, so he got a loading dose of both aspirin 325 mg and Plavix 300 mg, cardiology recommended to continue with DAPT therapy for a one-year post-discharge with a very close follow-up. Furthermore, the patient was discharged home after being evaluated and optimized by both physical and occupational therapy.) head that showed an acute right convexity subdural hematoma (SDH) measuring up to 11 mm in maximal diameter with a trace midline shift to the left measuring up to 2 mm, which is new compared with the most recent prior head CT. Immediately aspirin, Ticagrelor, and prophylaxis subcutaneous heparin were stopped, and the patient was upgraded to the neuro intensive care unit where his neuro exam was significant for being lethargic, oriented only to himself, but was not clear with location or date, prosodic without dysarthria, the face appeared symmetric and strength was 4/5 throughout. Neurosurgery service was consulted and recommended to repeat CT head in the morning which showed no interval changes from the one overnight. On the following day, he was transferred to a tertiary care center for embolization of the middle meningeal artery. After that procedure, he was transferred back to our institute, being fully oriented, with no gross neurological deficit. At that time DAPT has been on hold for five days, so he got a loading dose of both aspirin 325 mg and Plavix 300 mg, cardiology recommended to continue with DAPT therapy for a one-year post-discharge with a very close follow-up. Furthermore, the patient was discharged home after being evaluated and optimized by both physical and occupational therapy.",
-  "relevant_image_context": "The patient had a CT head without contrast that showed no acute intracranial abnormalities. Later that night, a repeat CT head showed an acute right convexity subdural hematoma (SDH) measuring up to 11 mm in maximal diameter with a trace midline shift to the left measuring up to 2 mm, which was new compared with the prior head CT. Immediately aspirin, Ticagrelor, and prophylaxis subcutaneous heparin were stopped. Neurosurgery recommended repeating CT head in the morning, which showed no interval changes from the overnight study. The CT findings prompted escalation to the neuro intensive care unit and further management."
+  "relevant_image_context": "The patient had a CT head without contrast that showed no acute intracranial abnormalities. Later that night, a repeat CT head showed an acute right convexity subdural hematoma (SDH) measuring up to 11 mm in maximal diameter with a trace midline shift to the left measuring up to 2 mm, which was new compared with the prior head CT. Immediately aspirin, Ticagrelor, and prophylaxis subcutaneous heparin were stopped. Neurosurgery recommended repeating CT head in the morning, which showed no interval changes from the overnight study. The CT findings prompted escalation to the neuro intensive care unit and further management.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_153_94-PMC10416268-1-cureus-0015-00000041761-i03.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_153_94-PMC10416268-1-cureus-0015-00000041761-i03.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "right convexity crescent-shaped hyperdense collection",
+        "claim_text": "A crescent-shaped hyperdense collection is present along the right cerebral convexity.",
+        "presence_question": "Does the model's response discuss right convexity crescent-shaped hyperdense collection?",
+        "correctness_question": "Does the model's response correctly assert that a crescent-shaped hyperdense collection is present along the right cerebral convexity?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "minimal intracranial mass effect",
+        "claim_text": "There is minimal intracranial mass effect.",
+        "presence_question": "Does the model's response discuss minimal intracranial mass effect?",
+        "correctness_question": "Does the model's response correctly assert that there is minimal intracranial mass effect?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "slight midline shift",
+        "claim_text": "The midline structures show a slight shift.",
+        "presence_question": "Does the model's response discuss slight midline shift?",
+        "correctness_question": "Does the model's response correctly assert that the midline structures show a slight shift?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "large acute hemorrhage beyond the convexity",
+        "claim_text": "There is no large acute hemorrhage beyond the convexity collection.",
+        "presence_question": "Does the model's response discuss large acute hemorrhage beyond the convexity?",
+        "correctness_question": "Does the model's response correctly assert that there is no large acute hemorrhage beyond the convexity collection?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "aspirin, ticagrelor, and prophylactic heparin",
+        "claim_text": "Aspirin, ticagrelor, and prophylactic subcutaneous heparin were being taken prior to stopping.",
+        "presence_question": "Does the model's response discuss aspirin, ticagrelor, and prophylactic heparin?",
+        "correctness_question": "Does the model's response correctly assert that aspirin, ticagrelor, and prophylactic subcutaneous heparin were being taken prior to stopping?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "antithrombotic agents stopped",
+        "claim_text": "Antithrombotic agents have been stopped and therefore are not being administered.",
+        "presence_question": "Does the model's response discuss antithrombotic agents stopped?",
+        "correctness_question": "Does the model's response correctly assert that antithrombotic agents have been stopped and therefore are not being administered?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "neurosurgery recommendation for short-interval observation and transfer",
+        "claim_text": "Neurosurgery recommends short-interval observation with repeat imaging and transfer to a higher level of care.",
+        "presence_question": "Does the model's response discuss neurosurgery recommendation for short-interval observation and transfer?",
+        "correctness_question": "Does the model's response correctly assert that neurosurgery recommends short-interval observation with repeat imaging and transfer to a higher level of care?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "acute subdural hematoma appearance on CT",
+        "claim_text": "Acute subdural hematoma typically appears as a crescent-shaped hyperdense extra-axial collection along the cerebral convexity on noncontrast CT.",
+        "presence_question": "Does the model's response discuss acute subdural hematoma appearance on CT?",
+        "correctness_question": "Does the model's response correctly state that Acute subdural hematoma typically appears as a crescent-shaped hyperdense extra-axial collection along the cerebral convexity on noncontrast CT?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "midline shift",
+        "claim_text": "Midline shift typically reflects mass effect from an intracranial lesion.",
+        "presence_question": "Does the model's response discuss midline shift?",
+        "correctness_question": "Does the model's response correctly state that Midline shift typically reflects mass effect from an intracranial lesion?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "aspirin and ticagrelor",
+        "claim_text": "Aspirin and ticagrelor are antiplatelet agents.",
+        "presence_question": "Does the model's response discuss aspirin and ticagrelor?",
+        "correctness_question": "Does the model's response correctly state that Aspirin and ticagrelor are antiplatelet agents?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "prophylactic subcutaneous heparin",
+        "claim_text": "Prophylactic subcutaneous heparin is a form of anticoagulant therapy.",
+        "presence_question": "Does the model's response discuss prophylactic subcutaneous heparin?",
+        "correctness_question": "Does the model's response correctly state that Prophylactic subcutaneous heparin is a form of anticoagulant therapy?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "withholding antithrombotic agents",
+        "claim_text": "Withholding antithrombotic agents is a management strategy in the setting of intracranial hemorrhage.",
+        "presence_question": "Does the model's response discuss withholding antithrombotic agents?",
+        "correctness_question": "Does the model's response correctly state that Withholding antithrombotic agents is a management strategy in the setting of intracranial hemorrhage?"
+      },
+      {
+        "knowledge_id": "k6",
+        "topic": "management of small acute subdural hematoma",
+        "claim_text": "Small acute subdural hematomas without significant mass effect are typically managed with short-interval observation and repeat imaging.",
+        "presence_question": "Does the model's response discuss management of small acute subdural hematoma?",
+        "correctness_question": "Does the model's response correctly state that Small acute subdural hematomas without significant mass effect are typically managed with short-interval observation and repeat imaging?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Imaging supports acute subdural hematoma",
+        "claim_text": "The crescent-shaped hyperdense extra-axial collection along the right cerebral convexity on noncontrast CT supports that an acute subdural hematoma is present in this case.",
+        "presence_question": "Does the model's response make an inferential link about Imaging supports acute subdural hematoma?",
+        "correctness_question": "Does the model's response correctly conclude that The crescent-shaped hyperdense extra-axial collection along the right cerebral convexity on noncontrast CT supports that an acute subdural hematoma is present in this case?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Mass effect indicates hematoma smallness/severity",
+        "claim_text": "The collection's minimal mass effect with only a slight midline shift is consistent with the hematoma being small and not causing significant mass effect.",
+        "presence_question": "Does the model's response make an inferential link about Mass effect indicates hematoma smallness/severity?",
+        "correctness_question": "Does the model's response correctly conclude that The collection's minimal mass effect with only a slight midline shift is consistent with the hematoma being small and not causing significant mass effect?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Case justifies withholding antithrombotics",
+        "claim_text": "Given a small acute subdural hematoma without significant mass effect, prior cessation of antithrombotic agents, and neurosurgical recommendation for short-interval observation with repeat imaging, the case justifies continuing to withhold antithrombotic medications and provide supportive monitoring with repeat imaging.",
+        "presence_question": "Does the model's response make an inferential link about Case justifies withholding antithrombotics?",
+        "correctness_question": "Does the model's response correctly conclude that Given a small acute subdural hematoma without significant mass effect, prior cessation of antithrombotic agents, and neurosurgical recommendation for short-interval observation with repeat imaging, the case justifies continuing to withhold antithrombotic medications and provide supportive monitoring with repeat imaging?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k5",
+          "k6",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

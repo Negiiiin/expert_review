@@ -27,5 +27,135 @@
   "caption": "a Endoscopic image of rectum is shown. b Mucosal tissue was biopsied in sigmoid colon and histological examination with hematoxylin and eosin staining is shown with a scale bar",
   "sub_caption": "a Endoscopic image of rectum is shown.",
   "image_context": "A 17-year-old man with a height of 168 cm and a weight of 70 kg presented to our dermatology department for the treatment of atopic dermatitis. He had a history of pediatric asthma and attention-deficit hyperactivity disorder and also allergies to house dust and pollen. Furthermore, his father had a medical history of UC. He had been treated with topical and oral therapy for refractory atopic dermatitis at a local clinic. Due to his refractory condition, he was administered an injection of dupilumab 600 mg and continued to receive it 300 mg every two weeks without any adverse events. After the administration of three doses, the skin rash on his back and trunk had almost disappeared. However, after 3 months of initiating dupilumab therapy, he developed intermittent abdominal pain, tenesmus, and had diarrhea seven times a day. Therefore, he was treated with polycarbophil calcium and lactomin for suspected irritable bowel syndrome but did not show any signs of improvement. He was referred to our department and underwent colonoscopy. The examination showed decreased vascularity, mild friability, and erythema in the cecum, part of the ascending colon, sigmoid colon, and rectum (Fig. <xref rid=\"12876_2021_1803_Fig1_HTML\" ref-type=\"fig\">1</xref>a). No pathogenic bacteria were identified in the stool culture, and a). No pathogenic bacteria were identified in the stool culture, and Clostridioides difficile toxin was also not detected. Blood tests showed no elevation of white blood cells, C reactive protein, or erythrocyte sedimentation rate, and there were no signs of anemia. Histological examination revealed moderate mixed inflammatory cell infiltration, cryptitis, destruction of the crypt, decreased goblet cells, mucosal erosions, and edema (Fig. <xref rid=\"12876_2021_1803_Fig1_HTML\" ref-type=\"fig\">1</xref>b). Based on these findings, he was diagnosed with UC and was prescribed oral mesalazine (4800 mg/day) treatment. Within a month of the treatment, his diarrhea improved and the frequency of defecation decreased to three times a day. His atopic dermatitis continued to improve and dupilumab therapy was continued without any interruption for 1 year.b). Based on these findings, he was diagnosed with UC and was prescribed oral mesalazine (4800 mg/day) treatment. Within a month of the treatment, his diarrhea improved and the frequency of defecation decreased to three times a day. His atopic dermatitis continued to improve and dupilumab therapy was continued without any interruption for 1 year.Fig. 1a Endoscopic image of rectum is shown. b Mucosal tissue was biopsied in sigmoid colon and histological examination with hematoxylin and eosin staining is shown with a scale bar",
-  "relevant_image_context": "A 17-year-old man with a height of 168 cm and a weight of 70 kg presented to our dermatology department for the treatment of atopic dermatitis. He had a history of pediatric asthma and attention-deficit hyperactivity disorder and also allergies to house dust and pollen. Furthermore, his father had a medical history of UC. He had been treated with topical and oral therapy for refractory atopic dermatitis at a local clinic. Due to his refractory condition, he was administered an injection of dupilumab 600 mg and continued to receive it 300 mg every two weeks without any adverse events. After the administration of three doses, the skin rash on his back and trunk had almost disappeared. However, after 3 months of initiating dupilumab therapy, he developed intermittent abdominal pain, tenesmus, and had diarrhea seven times a day. Therefore, he was treated with polycarbophil calcium and lactomin for suspected irritable bowel syndrome but did not show any signs of improvement. He was referred to our department and underwent colonoscopy. No pathogenic bacteria were identified in the stool culture, and Clostridioides difficile toxin was also not detected. Blood tests showed no elevation of white blood cells, C reactive protein, or erythrocyte sedimentation rate, and there were no signs of anemia. Histological examination revealed moderate mixed inflammatory cell infiltration, cryptitis, destruction of the crypt, decreased goblet cells, mucosal erosions, and edema (Fig. 1b). Based on these findings, he was diagnosed with UC and was prescribed oral mesalazine (4800 mg/day) treatment. Within a month of the treatment, his diarrhea improved and the frequency of defecation decreased to three times a day. His atopic dermatitis continued to improve and dupilumab therapy was continued without any interruption for 1 year. b Mucosal tissue was biopsied in sigmoid colon and histological examination with hematoxylin and eosin staining is shown with a scale bar First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "A 17-year-old man with a height of 168 cm and a weight of 70 kg presented to our dermatology department for the treatment of atopic dermatitis. He had a history of pediatric asthma and attention-deficit hyperactivity disorder and also allergies to house dust and pollen. Furthermore, his father had a medical history of UC. He had been treated with topical and oral therapy for refractory atopic dermatitis at a local clinic. Due to his refractory condition, he was administered an injection of dupilumab 600 mg and continued to receive it 300 mg every two weeks without any adverse events. After the administration of three doses, the skin rash on his back and trunk had almost disappeared. However, after 3 months of initiating dupilumab therapy, he developed intermittent abdominal pain, tenesmus, and had diarrhea seven times a day. Therefore, he was treated with polycarbophil calcium and lactomin for suspected irritable bowel syndrome but did not show any signs of improvement. He was referred to our department and underwent colonoscopy. No pathogenic bacteria were identified in the stool culture, and Clostridioides difficile toxin was also not detected. Blood tests showed no elevation of white blood cells, C reactive protein, or erythrocyte sedimentation rate, and there were no signs of anemia. Histological examination revealed moderate mixed inflammatory cell infiltration, cryptitis, destruction of the crypt, decreased goblet cells, mucosal erosions, and edema (Fig. 1b). Based on these findings, he was diagnosed with UC and was prescribed oral mesalazine (4800 mg/day) treatment. Within a month of the treatment, his diarrhea improved and the frequency of defecation decreased to three times a day. His atopic dermatitis continued to improve and dupilumab therapy was continued without any interruption for 1 year. b Mucosal tissue was biopsied in sigmoid colon and histological examination with hematoxylin and eosin staining is shown with a scale bar First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_3_filelist_commercial_batch_96_75-PMC8105910-0-12876_2021_1803_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_96_75-PMC8105910-0-12876_2021_1803_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "diffuse mucosal erythema",
+        "claim_text": "The mucosa appears diffusely erythematous throughout the examined region.",
+        "presence_question": "Does the model's response discuss diffuse mucosal erythema?",
+        "correctness_question": "Does the model's response correctly assert that The mucosa appears diffusely erythematous throughout the examined region.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "mucosal granularity",
+        "claim_text": "The mucosa has a granular appearance on inspection.",
+        "presence_question": "Does the model's response discuss mucosal granularity?",
+        "correctness_question": "Does the model's response correctly assert that The mucosa has a granular appearance on inspection.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "loss of normal mucosal sheen",
+        "claim_text": "The mucosa shows loss of the normal smooth, glistening appearance.",
+        "presence_question": "Does the model's response discuss loss of normal mucosal sheen?",
+        "correctness_question": "Does the model's response correctly assert that The mucosa shows loss of the normal smooth, glistening appearance.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "whitish mucosal specks or exudates",
+        "claim_text": "The mucosa contains multiple small whitish specks or exudates.",
+        "presence_question": "Does the model's response discuss whitish mucosal specks or exudates?",
+        "correctness_question": "Does the model's response correctly assert that The mucosa contains multiple small whitish specks or exudates.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "possible superficial mucosal erosions",
+        "claim_text": "There are subtle superficial mucosal irregularities that may represent erosions.",
+        "presence_question": "Does the model's response discuss possible superficial mucosal erosions?",
+        "correctness_question": "Does the model's response correctly assert that There are subtle superficial mucosal irregularities that may represent erosions.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "possible mucosal friability",
+        "claim_text": "There are subtle superficial mucosal irregularities that may reflect mucosal friability.",
+        "presence_question": "Does the model's response discuss possible mucosal friability?",
+        "correctness_question": "Does the model's response correctly assert that There are subtle superficial mucosal irregularities that may reflect mucosal friability.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "deep large ulcers",
+        "claim_text": "No deep, large ulcers are present in the examined mucosa.",
+        "presence_question": "Does the model's response discuss deep large ulcers?",
+        "correctness_question": "Does the model's response correctly assert that No deep, large ulcers are present in the examined mucosa.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "active spurting bleeding",
+        "claim_text": "There is no active spurting bleeding observed during the examination.",
+        "presence_question": "Does the model's response discuss active spurting bleeding?",
+        "correctness_question": "Does the model's response correctly assert that There is no active spurting bleeding observed during the examination.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "transmural deformity or stricture",
+        "claim_text": "No transmural deformity or stricture is present on inspection.",
+        "presence_question": "Does the model's response discuss transmural deformity or stricture?",
+        "correctness_question": "Does the model's response correctly assert that No transmural deformity or stricture is present on inspection.?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "loss of vascular pattern",
+        "claim_text": "The mucosa shows loss of the normal vascular pattern.",
+        "presence_question": "Does the model's response discuss loss of vascular pattern?",
+        "correctness_question": "Does the model's response correctly assert that The mucosa shows loss of the normal vascular pattern.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "endoscopic mucosal inflammation findings",
+        "claim_text": "Diffuse erythema, granular mucosa, loss of vascular pattern, and superficial erosions are typical endoscopic features of active mucosal inflammation.",
+        "presence_question": "Does the model's response discuss endoscopic mucosal inflammation findings?",
+        "correctness_question": "Does the model's response correctly state that Diffuse erythema, granular mucosa, loss of vascular pattern, and superficial erosions are typical endoscopic features of active mucosal inflammation?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "endoscopic severe injury findings",
+        "claim_text": "Deep, large ulcers, active spurting bleeding, and transmural deformity or stricture are typical findings indicating deep or severe mucosal injury and severe bleeding.",
+        "presence_question": "Does the model's response discuss endoscopic severe injury findings?",
+        "correctness_question": "Does the model's response correctly state that Deep, large ulcers, active spurting bleeding, and transmural deformity or stricture are typical findings indicating deep or severe mucosal injury and severe bleeding?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Active mucosal inflammation",
+        "claim_text": "The observed diffuse erythema, granular mucosa, loss of vascular pattern, and superficial erosions support the presence of active mucosal inflammation in this case.",
+        "presence_question": "Does the model's response make an inferential link about Active mucosal inflammation?",
+        "correctness_question": "Does the model's response correctly conclude that The observed diffuse erythema, granular mucosa, loss of vascular pattern, and superficial erosions support the presence of active mucosal inflammation in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p10",
+          "p5",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Deep ulceration or severe bleeding",
+        "claim_text": "The absence of deep large ulcers, active spurting bleeding, and transmural deformity or stricture argues against deep ulceration or severe bleeding in this case.",
+        "presence_question": "Does the model's response make an inferential link about Deep ulceration or severe bleeding?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of deep large ulcers, active spurting bleeding, and transmural deformity or stricture argues against deep ulceration or severe bleeding in this case?",
+        "premise_perception_ids": [
+          "p7",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

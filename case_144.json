@@ -27,5 +27,143 @@
   "caption": "A, Preoperative computed tomography scan with extent of false lumen to zone 8 proximally and zone 10 distally highlighted. B, Three-dimensional reconstruction of preoperative computerized tomography, demonstrating extravasation of contrast from the true lumen (white) into the false lumen (red) through fenestrations in zones 9 and 10. C, Postoperative computed tomography scan showing significant shrinkage of the false lumen, highlighted. D, Postoperative three-dimensional reconstruction demonstrating cessation of false lumen flow.",
   "sub_caption": "C, Postoperative computed tomography scan showing significant shrinkage of the false lumen, highlighted.",
   "image_context": "On examination, her abdomen was minimally tender to deep palpation of a pulsatile, left periumbilical mass. Distal pulses were intact. Computed tomography angiography demonstrated a TBAD with aneurysmal degeneration to 4.7 cm (<xref rid=\"gr1\" ref-type=\"fig\">Fig 1</xref>). Multiple large fenestrations feeding the false lumen were identified in mid to distal zone 9, and proximal zone 10 on the left. There was aneurysmal degeneration of bilateral common iliac arteries to 2.0 cm (right) and 2.4 cm (left). There was a 1-cm splenic artery aneurysm. Ascending aorta was non-aneurysmal. No prior CT scans were available for review.). Multiple large fenestrations feeding the false lumen were identified in mid to distal zone 9, and proximal zone 10 on the left. There was aneurysmal degeneration of bilateral common iliac arteries to 2.0 cm (right) and 2.4 cm (left). There was a 1-cm splenic artery aneurysm. Ascending aorta was non-aneurysmal. No prior CT scans were available for review.Fig 1A, Preoperative computed tomography scan with extent of false lumen to zone 8 proximally and zone 10 distally highlighted. B, Three-dimensional reconstruction of preoperative computerized tomography, demonstrating extravasation of contrast from the true lumen (white) into the false lumen (red) through fenestrations in zones 9 and 10. C, Postoperative computed tomography scan showing significant shrinkage of the false lumen, highlighted. D, Postoperative three-dimensional reconstruction demonstrating cessation of false lumen flow.",
-  "relevant_image_context": "C, Postoperative computed tomography scan showing significant shrinkage of the false lumen, highlighted."
+  "relevant_image_context": "C, Postoperative computed tomography scan showing significant shrinkage of the false lumen, highlighted.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_90_3-PMC7902277-1-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_90_3-PMC7902277-1-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "central thoracoabdominal aortic channel",
+        "claim_text": "A central tubular thoracoabdominal aortic channel extending into the pelvis is contrast-opacified.",
+        "presence_question": "Does the model's response discuss central thoracoabdominal aortic channel?",
+        "correctness_question": "Does the model's response correctly assert that A central tubular thoracoabdominal aortic channel extending into the pelvis is contrast-opacified?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "true lumen of aortic channel",
+        "claim_text": "The true lumen of the aortic channel is patent and well-opacified.",
+        "presence_question": "Does the model's response discuss true lumen of aortic channel?",
+        "correctness_question": "Does the model's response correctly assert that The true lumen of the aortic channel is patent and well-opacified?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "crescentic nonopacified aortic wall area",
+        "claim_text": "A thin crescentic area of nonopacified material is present along the lateral wall of the aorta.",
+        "presence_question": "Does the model's response discuss crescentic nonopacified aortic wall area?",
+        "correctness_question": "Does the model's response correctly assert that A thin crescentic area of nonopacified material is present along the lateral wall of the aorta?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "nonopacified area adjacent to central lumen",
+        "claim_text": "The thin crescentic nonopacified area lies adjacent to the central aortic lumen along the lateral wall.",
+        "presence_question": "Does the model's response discuss nonopacified area adjacent to central lumen?",
+        "correctness_question": "Does the model's response correctly assert that The thin crescentic nonopacified area lies adjacent to the central aortic lumen along the lateral wall?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "diminished crescentic aortic wall area",
+        "claim_text": "The thin crescentic nonopacified area along the lateral aortic wall is markedly diminished in caliber.",
+        "presence_question": "Does the model's response discuss diminished crescentic aortic wall area?",
+        "correctness_question": "Does the model's response correctly assert that The thin crescentic nonopacified area along the lateral aortic wall is markedly diminished in caliber?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "focal contrast extravasation",
+        "claim_text": "There is no focal contrast extravasation in the periaortic or vascular region.",
+        "presence_question": "Does the model's response discuss focal contrast extravasation?",
+        "correctness_question": "Does the model's response correctly assert that There is no focal contrast extravasation in the periaortic or vascular region?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "large new periaortic hematoma",
+        "claim_text": "There is no large new periaortic hematoma in the periaortic region.",
+        "presence_question": "Does the model's response discuss large new periaortic hematoma?",
+        "correctness_question": "Does the model's response correctly assert that There is no large new periaortic hematoma in the periaortic region?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "substantially enlarging aortic sac",
+        "claim_text": "There is no substantially enlarging sac within the aortic sac.",
+        "presence_question": "Does the model's response discuss substantially enlarging aortic sac?",
+        "correctness_question": "Does the model's response correctly assert that There is no substantially enlarging sac within the aortic sac?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "residual false lumen management",
+        "claim_text": "Marked reduction of a residual false lumen without acute imaging signs suggests that conservative management with interval CT surveillance may be appropriate.",
+        "presence_question": "Does the model's response discuss residual false lumen management?",
+        "correctness_question": "Does the model's response correctly state that Marked reduction of a residual false lumen without acute imaging signs suggests that conservative management with interval CT surveillance may be appropriate?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "findings suggesting aortic rupture",
+        "claim_text": "Focal contrast extravasation, a large periaortic hematoma, or a rapidly enlarging sac suggests acute failure or rupture.",
+        "presence_question": "Does the model's response discuss findings suggesting aortic rupture?",
+        "correctness_question": "Does the model's response correctly state that Focal contrast extravasation, a large periaortic hematoma, or a rapidly enlarging sac suggests acute failure or rupture?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "vascular lumen contrast opacification",
+        "claim_text": "Contrast opacification of a vascular lumen indicates luminal patency.",
+        "presence_question": "Does the model's response discuss vascular lumen contrast opacification?",
+        "correctness_question": "Does the model's response correctly state that Contrast opacification of a vascular lumen indicates luminal patency?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Justification for conservative therapy",
+        "claim_text": "The imaging combination of a patent, well-opacified true lumen and a markedly diminished residual nonopacified crescentic area, in the absence of focal contrast extravasation, large periaortic hematoma, or a substantially enlarging sac, supports conservative medical therapy with interval CT surveillance in this postoperative case.",
+        "presence_question": "Does the model's response make an inferential link about Justification for conservative therapy?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging combination of a patent, well-opacified true lumen and a markedly diminished residual nonopacified crescentic area, in the absence of focal contrast extravasation, large periaortic hematoma, or a substantially enlarging sac, supports conservative medical therapy with interval CT surveillance in this postoperative case.?",
+        "premise_perception_ids": [
+          "p2",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Evidence arguing against rupture",
+        "claim_text": "The absence of focal contrast extravasation, a large new periaortic hematoma, and a substantially enlarging sac argues against acute failure or rupture in this case.",
+        "presence_question": "Does the model's response make an inferential link about Evidence arguing against rupture?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of focal contrast extravasation, a large new periaortic hematoma, and a substantially enlarging sac argues against acute failure or rupture in this case.?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Imaging indicating postoperative stability",
+        "claim_text": "A markedly reduced residual false-lumen caliber together with a patent, well-opacified true lumen is consistent with postoperative anatomic stability on surveillance imaging.",
+        "presence_question": "Does the model's response make an inferential link about Imaging indicating postoperative stability?",
+        "correctness_question": "Does the model's response correctly conclude that A markedly reduced residual false-lumen caliber together with a patent, well-opacified true lumen is consistent with postoperative anatomic stability on surveillance imaging.?",
+        "premise_perception_ids": [
+          "p2",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

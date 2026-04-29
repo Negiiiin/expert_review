@@ -27,5 +27,147 @@
   "caption": "Chest CT reveals right‐side pleural effusion and mediastinal hematoma.",
   "sub_caption": "Chest CT reveals right‐side pleural effusion and mediastinal hematoma.",
   "image_context": "The differential diagnosis on admission was PE recurrence; pleural effusion is not related to PE, so the team continued rivaroxaban and CT pulmonary angiogram (CTPA) showed left lung lower lobe segmental pulmonary arterial thromboembolism and moderate right‐side pleural effusion associated with atelectatic changes (Figure <xref rid=\"CCR3-11-e8333-g004\" ref-type=\"fig\">1</xref>). Further evaluation showed moderate pleural effusion on the right side. Then the repeated CTPA did not show any new changes suggestive of recurrent PE. The pleural effusion was minimal to mild severity compared to the previous X‐ray.). Further evaluation showed moderate pleural effusion on the right side. Then the repeated CTPA did not show any new changes suggestive of recurrent PE. The pleural effusion was minimal to mild severity compared to the previous X‐ray.",
-  "relevant_image_context": "The differential diagnosis on admission was PE recurrence; pleural effusion is not related to PE, so the team continued rivaroxaban and CT pulmonary angiogram (CTPA) showed left lung lower lobe segmental pulmonary arterial thromboembolism and moderate right-side pleural effusion associated with atelectatic changes (Figure 1). Further evaluation showed moderate pleural effusion on the right side. Then the repeated CTPA did not show any new changes suggestive of recurrent PE. The pleural effusion was minimal to mild severity compared to the previous X-ray."
+  "relevant_image_context": "The differential diagnosis on admission was PE recurrence; pleural effusion is not related to PE, so the team continued rivaroxaban and CT pulmonary angiogram (CTPA) showed left lung lower lobe segmental pulmonary arterial thromboembolism and moderate right-side pleural effusion associated with atelectatic changes (Figure 1). Further evaluation showed moderate pleural effusion on the right side. Then the repeated CTPA did not show any new changes suggestive of recurrent PE. The pleural effusion was minimal to mild severity compared to the previous X-ray.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_161_72-PMC10714055-2-CCR3-11-e8333-g004.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_161_72-PMC10714055-2-CCR3-11-e8333-g004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "fluid in the pleural space",
+        "claim_text": "There is a fluid collection located in the pleural space of the thorax",
+        "presence_question": "Does the model's response discuss fluid in the pleural space?",
+        "correctness_question": "Does the model's response correctly assert that There is a fluid collection located in the pleural space of the thorax?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "large pleural fluid collection",
+        "claim_text": "The pleural fluid collection in the pleural space is large",
+        "presence_question": "Does the model's response discuss large pleural fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that The pleural fluid collection in the pleural space is large?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "layering of pleural fluid",
+        "claim_text": "The pleural fluid collection shows layering within the pleural space",
+        "presence_question": "Does the model's response discuss layering of pleural fluid?",
+        "correctness_question": "Does the model's response correctly assert that The pleural fluid collection shows layering within the pleural space?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "high-attenuation pleural fluid",
+        "claim_text": "The pleural fluid collection demonstrates high-attenuation density in the pleural space",
+        "presence_question": "Does the model's response discuss high-attenuation pleural fluid?",
+        "correctness_question": "Does the model's response correctly assert that The pleural fluid collection demonstrates high-attenuation density in the pleural space?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "mediastinal collection",
+        "claim_text": "There is a collection located in the mediastinum",
+        "presence_question": "Does the model's response discuss a mediastinal collection?",
+        "correctness_question": "Does the model's response correctly assert that There is a collection located in the mediastinum?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "hyperdense mediastinal collection",
+        "claim_text": "The mediastinal collection appears hyperdense on cross-sectional imaging",
+        "presence_question": "Does the model's response discuss a hyperdense mediastinal collection?",
+        "correctness_question": "Does the model's response correctly assert that The mediastinal collection appears hyperdense on cross-sectional imaging?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "mediastinal collection adjacent to heart and vessels",
+        "claim_text": "The mediastinal collection is adjacent to the heart and great vessels in the anterior central thorax",
+        "presence_question": "Does the model's response discuss a mediastinal collection adjacent to the heart and great vessels?",
+        "correctness_question": "Does the model's response correctly assert that The mediastinal collection is adjacent to the heart and great vessels in the anterior central thorax?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "rivaroxaban anticoagulation",
+        "claim_text": "The patient is currently on anticoagulation therapy with rivaroxaban",
+        "presence_question": "Does the model's response discuss rivaroxaban anticoagulation?",
+        "correctness_question": "Does the model's response correctly assert that The patient is currently on anticoagulation therapy with rivaroxaban?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "hyperdense (high-attenuation) collections on CT",
+        "claim_text": "High-attenuation (hyperdense) collections on CT generally indicate blood or hematoma rather than a simple clear effusion.",
+        "presence_question": "Does the model's response discuss hyperdense (high-attenuation) collections on CT?",
+        "correctness_question": "Does the model's response correctly state that High-attenuation (hyperdense) collections on CT generally indicate blood or hematoma rather than a simple clear effusion?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "anticoagulant therapy (e.g., rivaroxaban)",
+        "claim_text": "Anticoagulant therapy (for example, rivaroxaban) is associated with an increased risk of bleeding complications.",
+        "presence_question": "Does the model's response discuss anticoagulant therapy (e.g., rivaroxaban)?",
+        "correctness_question": "Does the model's response correctly state that Anticoagulant therapy (for example, rivaroxaban) is associated with an increased risk of bleeding complications?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "mediastinal hematoma and pleural blood",
+        "claim_text": "The presence of a mediastinal hematoma and pleural blood indicates thoracic bleeding or a hemorrhagic complication.",
+        "presence_question": "Does the model's response discuss mediastinal hematoma and pleural blood?",
+        "correctness_question": "Does the model's response correctly state that The presence of a mediastinal hematoma and pleural blood indicates thoracic bleeding or a hemorrhagic complication?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "mediastinal hematoma diagnosis",
+        "claim_text": "The hyperdense mediastinal collection supports the conclusion that a mediastinal hematoma is likely in this case.",
+        "presence_question": "Does the model's response make an inferential link about mediastinal hematoma diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The hyperdense mediastinal collection supports the conclusion that a mediastinal hematoma is likely in this case?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "pleural hemothorax diagnosis",
+        "claim_text": "The large, layering pleural collection with high attenuation supports the conclusion that pleural blood (hemothorax) is likely in this case.",
+        "presence_question": "Does the model's response make an inferential link about pleural hemothorax diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The large, layering pleural collection with high attenuation supports the conclusion that pleural blood (hemothorax) is likely in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "anticoagulation-related hemorrhagic complication",
+        "claim_text": "The presence of mediastinal hematoma and pleural blood on imaging together with rivaroxaban use implies a significant anticoagulation-related hemorrhagic complication in this patient.",
+        "presence_question": "Does the model's response make an inferential link about anticoagulation-related hemorrhagic complication?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of mediastinal hematoma and pleural blood on imaging together with rivaroxaban use implies a significant anticoagulation-related hemorrhagic complication in this patient?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p1",
+          "p4",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

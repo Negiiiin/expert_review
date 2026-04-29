@@ -28,5 +28,114 @@
   "caption": "The anteroposterior diameter of the spinal canal. Red is the ground truth, blue is predicted results and the two end points of the line segment are marked with star marks of the corresponding color (color figure online)",
   "sub_caption": "The anteroposterior diameter of the spinal canal. Red is the ground truth, blue is predicted results and the two end points of the line segment are marked with star marks of the corresponding color (color figure online)",
   "image_context": "Figure <xref rid=\"521_2021_5856_Fig9_HTML\" ref-type=\"fig\">9</xref> shows several cases of the anteroposterior diameter of the spinal canal. When calculating the anteroposterior diameter of the spinal canal, we approximate this distance to the distance from the center of the bottom of the vertebral body to the most concave point on the upper edges of the lamina. In the first step, we need to calculate the center of the bottom of the vertebral body. In this process, we first find the center of the vertebral body, and regard the horizontal coordinate of the center as the horizontal coordinate of the bottom center of the vertebral body. Then we compute the vertical coordinate corresponding to this horizontal coordinate on the curve of the vertebral body contour and regard the position with the smaller absolute value as the vertical coordinate of the bottom center of the vertebral body. This coordinate can be expressed as follows: shows several cases of the anteroposterior diameter of the spinal canal. When calculating the anteroposterior diameter of the spinal canal, we approximate this distance to the distance from the center of the bottom of the vertebral body to the most concave point on the upper edges of the lamina. In the first step, we need to calculate the center of the bottom of the vertebral body. In this process, we first find the center of the vertebral body, and regard the horizontal coordinate of the center as the horizontal coordinate of the bottom center of the vertebral body. Then we compute the vertical coordinate corresponding to this horizontal coordinate on the curve of the vertebral body contour and regard the position with the smaller absolute value as the vertical coordinate of the bottom center of the vertebral body. This coordinate can be expressed as follows:10a\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$$Cen_{x} ,Cen_{y} = getCenLocation(C_{VB} )$$\\end{document}Cenx,Ceny=getCenLocation(CVB)10b\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$$Bottom_{y} = \\min (findCoo\\_y(C = {\\kern 1pt} \\; = Cen_{x} ))$$\\end{document}Bottomy=min(findCoo_y(C==Cenx))10c\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$$Bottom\\;Coordinate = \\left( {Cen_{x} ,Bottom_{y} } \\right)$$\\end{document}BottomCoordinate=Cenx,Bottomywhere \\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$$C_{VB}$$\\end{document}CVB is outline of vertebral body, \\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$$\\left( {Cen_{x} ,Cen_{y} } \\right)$$\\end{document}Cenx,Ceny is the center of vertebral body and \\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$$\\left( {Cen_{x} ,Bottom_{y} } \\right)$$\\end{document}Cenx,Bottomy is the bottom center of vertebral body. getCenLocation function represents to extract the center of a contour, and findCoo_y function represents to find a vertical coordinate in the contour.Fig. 9The anteroposterior diameter of the spinal canal. Red is the ground truth, blue is predicted results and the two end points of the line segment are marked with star marks of the corresponding color (color figure online)",
-  "relevant_image_context": "Figure 9 shows several cases of the anteroposterior diameter of the spinal canal. When calculating the anteroposterior diameter, we approximate this distance as the distance from the center of the bottom of the vertebral body to the most concave point on the upper edges of the lamina. The center of the bottom of the vertebral body is found by first locating the center of the vertebral body, taking the horizontal coordinate as the bottom center's x, and then selecting the vertical coordinate on the vertebral body contour with the smaller absolute value. This coordinate is BottomCoordinate = (Cen_x, Bottom_y), where CVB is the outline of the vertebral body and Cen_x, Cen_y is the center of the vertebral body. Fig. 9 The anteroposterior diameter of the spinal canal. Red is the ground truth, blue is predicted results and the two end points of the line segment are marked with star marks of the corresponding color (color figure online). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Figure 9 shows several cases of the anteroposterior diameter of the spinal canal. When calculating the anteroposterior diameter, we approximate this distance as the distance from the center of the bottom of the vertebral body to the most concave point on the upper edges of the lamina. The center of the bottom of the vertebral body is found by first locating the center of the vertebral body, taking the horizontal coordinate as the bottom center's x, and then selecting the vertical coordinate on the vertebral body contour with the smaller absolute value. This coordinate is BottomCoordinate = (Cen_x, Bottom_y), where CVB is the outline of the vertebral body and Cen_x, Cen_y is the center of the vertebral body. Fig. 9 The anteroposterior diameter of the spinal canal. Red is the ground truth, blue is predicted results and the two end points of the line segment are marked with star marks of the corresponding color (color figure online). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_86_9-PMC7945623-3-521_2021_5856_Fig9_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_86_9-PMC7945623-3-521_2021_5856_Fig9_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "axial lumbar MRI image",
+        "claim_text": "An axial MRI image through a lumbar vertebral level is present.",
+        "presence_question": "Does the model's response discuss axial lumbar MRI image?",
+        "correctness_question": "Does the model's response correctly assert that an axial MRI image through a lumbar vertebral level is present?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "anterior vertebral body",
+        "claim_text": "The anterior aspect of the vertebral body at the lumbar level is present.",
+        "presence_question": "Does the model's response discuss anterior vertebral body?",
+        "correctness_question": "Does the model's response correctly assert that the anterior aspect of the vertebral body at the lumbar level is present?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "spinal canal midline position",
+        "claim_text": "The spinal canal is located at the midline of the lumbar spine.",
+        "presence_question": "Does the model's response discuss spinal canal midline position?",
+        "correctness_question": "Does the model's response correctly assert that the spinal canal is located at the midline of the lumbar spine?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "posterior bony elements",
+        "claim_text": "Posterior bony elements, including laminae and spinous processes, are present posterior to the vertebral body.",
+        "presence_question": "Does the model's response discuss posterior bony elements?",
+        "correctness_question": "Does the model's response correctly assert that posterior bony elements, including laminae and spinous processes, are present posterior to the vertebral body?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "midline marker line in spinal canal",
+        "claim_text": "A blue line with star markers is located inside the midline of the lumbar spinal canal.",
+        "presence_question": "Does the model's response discuss midline marker line in spinal canal?",
+        "correctness_question": "Does the model's response correctly assert that a blue line with star markers is located inside the midline of the lumbar spinal canal?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "marker line orientation",
+        "claim_text": "The blue line with star markers is oriented front-to-back (anteroposterior) in the midline spinal canal.",
+        "presence_question": "Does the model's response discuss marker line orientation?",
+        "correctness_question": "Does the model's response correctly assert that the blue line with star markers is oriented front-to-back (anteroposterior) in the midline spinal canal?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "marker reaches anterior canal boundary",
+        "claim_text": "The blue line with star markers extends to the anterior boundary of the central canal near the vertebral body's posterior aspect.",
+        "presence_question": "Does the model's response discuss marker reaches anterior canal boundary?",
+        "correctness_question": "Does the model's response correctly assert that the blue line with star markers extends to the anterior boundary of the central canal near the vertebral body's posterior aspect?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "marker reaches posterior canal boundary",
+        "claim_text": "The blue line with star markers extends to the posterior boundary of the central canal near the posterior bony elements and lamina.",
+        "presence_question": "Does the model's response discuss marker reaches posterior canal boundary?",
+        "correctness_question": "Does the model's response correctly assert that the blue line with star markers extends to the posterior boundary of the central canal near the posterior bony elements and lamina?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "central spinal canal anteroposterior measurement",
+        "claim_text": "The blue line with star markers measures the anteroposterior depth of the central spinal canal.",
+        "presence_question": "Does the model's response discuss central spinal canal anteroposterior measurement?",
+        "correctness_question": "Does the model's response correctly assert that the blue line with star markers measures the anteroposterior depth of the central spinal canal?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Axial lumbar spine anatomy",
+        "claim_text": "On axial cross-sectional images of the lumbar spine, the vertebral body is located anteriorly, the spinal canal is central/midline, and the posterior elements (laminae and spinous process) are located posteriorly.",
+        "presence_question": "Does the model's response discuss Axial lumbar spine anatomy?",
+        "correctness_question": "Does the model's response correctly state that On axial cross-sectional images of the lumbar spine, the vertebral body is located anteriorly, the spinal canal is central/midline, and the posterior elements (laminae and spinous process) are located posteriorly?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Central spinal canal AP diameter definition",
+        "claim_text": "The anteroposterior diameter of the central spinal canal is the distance from the canal's anterior boundary (posterior aspect of the vertebral body) to its posterior boundary (anterior border of the posterior elements/lamina).",
+        "presence_question": "Does the model's response discuss Central spinal canal AP diameter definition?",
+        "correctness_question": "Does the model's response correctly state that The anteroposterior diameter of the central spinal canal is the distance from the canal's anterior boundary (posterior aspect of the vertebral body) to its posterior boundary (anterior border of the posterior elements/lamina)?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Anteroposterior diameter identification",
+        "claim_text": "The blue midline line inside the spinal canal, oriented anteroposteriorly and extending between the canal's anterior and posterior boundaries, supports that it represents the anteroposterior diameter (depth) of the central spinal canal in this image.",
+        "presence_question": "Does the model's response make an inferential link about anteroposterior diameter identification?",
+        "correctness_question": "Does the model's response correctly conclude that the blue midline line inside the spinal canal, oriented anteroposteriorly and extending between the canal's anterior and posterior boundaries, supports that it represents the anteroposterior diameter (depth) of the central spinal canal in this image?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

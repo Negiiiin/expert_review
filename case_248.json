@@ -27,5 +27,131 @@
   "caption": "A 71-year-old female with COVID-19 ARDS complicated by stroke and deep venous thrombosis, treated with systemic anticoagulation. She developed mass-like swelling of the leg. a Axial T2-weighted fat-saturated and b coronal T1-weighted images demonstrate an intramuscular hematoma (arrows)",
   "sub_caption": "b coronal T1-weighted images demonstrate an intramuscular hematoma (arrows)",
   "image_context": "Bleeding complications can occur in COVID-19 patients secondary to virus-induced bleeding coagulopathy and/or anticoagulation therapy administered for treatment or prevention of the more commonly occurring thrombotic coagulopathy [41]. Hematomas may develop in subcutaneous soft tissues or within muscles. Complications from hematomas include compressive neuropathy, increased compartment pressure, and superimposed infection. CT, ultrasound, or MR imaging may be utilized for evaluation of hematomas, including diagnosis and follow-up imaging to ensure resolution (Figs. <xref rid=\"256_2021_3734_Fig9_HTML\" ref-type=\"fig\">9</xref> and  and <xref rid=\"256_2021_3734_Fig10_HTML\" ref-type=\"fig\">10</xref>). Hematomas appear as heterogeneous hypoechoic fluid collections on ultrasound, with potential development of septa or calcifications in the chronic stage. MR imaging findings of hematomas include variable signal intensity due to different stages of blood degradation. In the subacute phase, a T1 hyperintense peripheral ring is distinctive [). Hematomas appear as heterogeneous hypoechoic fluid collections on ultrasound, with potential development of septa or calcifications in the chronic stage. MR imaging findings of hematomas include variable signal intensity due to different stages of blood degradation. In the subacute phase, a T1 hyperintense peripheral ring is distinctive [9].Fig. 9A 71-year-old female with COVID-19 ARDS complicated by stroke and deep venous thrombosis, treated with systemic anticoagulation. She developed mass-like swelling of the leg. a Axial T2-weighted fat-saturated and b coronal T1-weighted images demonstrate an intramuscular hematoma (arrows)Fig. 10A 76-year-old male with COVID-19 on therapeutic anti-coagulation who developed right femoral and obturator neuropathies. a, b Axial CT demonstrates a large hematoma of the proximal right thigh musculature extending into the retroperitoneum along the right iliopsoas muscle (arrows)",
-  "relevant_image_context": "Fig. 9A 71-year-old female with COVID-19 ARDS complicated by stroke and deep venous thrombosis, treated with systemic anticoagulation. She developed mass-like swelling of the leg. a Axial T2-weighted fat-saturated and b coronal T1-weighted images demonstrate an intramuscular hematoma (arrows)."
+  "relevant_image_context": "Fig. 9A 71-year-old female with COVID-19 ARDS complicated by stroke and deep venous thrombosis, treated with systemic anticoagulation. She developed mass-like swelling of the leg. a Axial T2-weighted fat-saturated and b coronal T1-weighted images demonstrate an intramuscular hematoma (arrows).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_85_11-PMC7889306-4-256_2021_3734_Fig9_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_85_11-PMC7889306-4-256_2021_3734_Fig9_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "mass in calf musculature",
+        "claim_text": "A mass-like collection is present in the calf/lower leg musculature.",
+        "presence_question": "Does the model's response discuss mass in calf musculature?",
+        "correctness_question": "Does the model's response correctly assert that A mass-like collection is present in the calf/lower leg musculature?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lower leg musculature location",
+        "claim_text": "The mass-like collection is located in the musculature of the lower leg.",
+        "presence_question": "Does the model's response discuss lower leg musculature location?",
+        "correctness_question": "Does the model's response correctly assert that The mass-like collection is located in the musculature of the lower leg?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "single mass in lower leg",
+        "claim_text": "There is a single mass-like collection in the calf/lower leg.",
+        "presence_question": "Does the model's response discuss a single mass in the lower leg?",
+        "correctness_question": "Does the model's response correctly assert that There is a single mass-like collection in the calf/lower leg?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "rounded mass shape",
+        "claim_text": "The mass-like collection has a rounded shape in the calf.",
+        "presence_question": "Does the model's response discuss a rounded mass shape?",
+        "correctness_question": "Does the model's response correctly assert that The mass-like collection has a rounded shape in the calf?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "well-defined mass margins",
+        "claim_text": "The mass-like collection has well-defined margins in the calf.",
+        "presence_question": "Does the model's response discuss well-defined mass margins?",
+        "correctness_question": "Does the model's response correctly assert that The mass-like collection has well-defined margins in the calf?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "focal contour bulge appearance",
+        "claim_text": "The mass-like collection appears as a focal contour bulge rather than diffuse enlargement.",
+        "presence_question": "Does the model's response discuss a focal contour bulge appearance?",
+        "correctness_question": "Does the model's response correctly assert that The mass-like collection appears as a focal contour bulge rather than diffuse enlargement?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "adjacent to calf muscle fibers",
+        "claim_text": "The mass-like collection is adjacent to muscle fibers in the calf.",
+        "presence_question": "Does the model's response discuss adjacency to calf muscle fibers?",
+        "correctness_question": "Does the model's response correctly assert that The mass-like collection is adjacent to muscle fibers in the calf?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "diffuse enlargement of entire limb absent",
+        "claim_text": "Diffuse enlargement of the entire limb is absent.",
+        "presence_question": "Does the model's response discuss diffuse enlargement of the entire limb?",
+        "correctness_question": "Does the model's response correctly assert that Diffuse enlargement of the entire limb is absent?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Systemic anticoagulation",
+        "claim_text": "Systemic anticoagulation increases the risk of intramuscular hemorrhage or hematoma.",
+        "presence_question": "Does the model's response discuss Systemic anticoagulation?",
+        "correctness_question": "Does the model's response correctly state that Systemic anticoagulation increases the risk of intramuscular hemorrhage or hematoma?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Focal intramuscular hematoma appearance",
+        "claim_text": "A focal intramuscular hematoma typically appears as a localized, well-defined, rounded mass-like collection within muscle that displaces adjacent muscle fibers and causes a focal contour bulge.",
+        "presence_question": "Does the model's response discuss Focal intramuscular hematoma appearance?",
+        "correctness_question": "Does the model's response correctly state that A focal intramuscular hematoma typically appears as a localized, well-defined, rounded mass-like collection within muscle that displaces adjacent muscle fibers and causes a focal contour bulge?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Focal intramuscular hematoma symptoms",
+        "claim_text": "A focal intramuscular hematoma typically causes acute localized pain and tenderness due to focal tissue stretch and swelling.",
+        "presence_question": "Does the model's response discuss Focal intramuscular hematoma symptoms?",
+        "correctness_question": "Does the model's response correctly state that A focal intramuscular hematoma typically causes acute localized pain and tenderness due to focal tissue stretch and swelling?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "intramuscular hematoma diagnosis",
+        "claim_text": "The imaged single, well-defined, rounded intramuscular mass-like collection that produces a focal contour bulge in a patient on anticoagulation is most consistent with an intramuscular hemorrhagic collection (hematoma).",
+        "presence_question": "Does the model's response make an inferential link about intramuscular hematoma diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The imaged single, well-defined, rounded intramuscular mass-like collection that produces a focal contour bulge in a patient on anticoagulation is most consistent with an intramuscular hemorrhagic collection (hematoma)?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "localized pain from intramuscular hematoma",
+        "claim_text": "Because focal intramuscular hematomas typically cause focal tissue stretch and swelling, acute localized pain and tenderness would be expected in this case with a focal intramuscular collection.",
+        "presence_question": "Does the model's response make an inferential link about localized pain from intramuscular hematoma?",
+        "correctness_question": "Does the model's response correctly conclude that Because focal intramuscular hematomas typically cause focal tissue stretch and swelling, acute localized pain and tenderness would be expected in this case with a focal intramuscular collection?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

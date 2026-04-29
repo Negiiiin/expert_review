@@ -28,5 +28,165 @@
   "caption": "Sixth postoperative day (POD 6): infraumbilical laparotomy wound with erythematous papules and violaceous confluent wound border",
   "sub_caption": "Sixth postoperative day (POD 6): infraumbilical laparotomy wound with erythematous papules and violaceous confluent wound border",
   "image_context": "The patient was hemodynamically stable all the time, without complaints, and was afebrile. On POD 6, pustules appeared on the edges of the wound as well as on the place where the abdominal drain was placed and severe pain in the wound appeared (Figures <xref rid=\"cureus-0015-00000042016-i01\" ref-type=\"fig\">1</xref>, , <xref rid=\"cureus-0015-00000042016-i02\" ref-type=\"fig\">2</xref>).).",
-  "relevant_image_context": "The patient was hemodynamically stable all the time, without complaints, and was afebrile. On POD 6, pustules appeared on the edges of the wound as well as on the place where the abdominal drain was placed and severe pain in the wound appeared."
+  "relevant_image_context": "The patient was hemodynamically stable all the time, without complaints, and was afebrile. On POD 6, pustules appeared on the edges of the wound as well as on the place where the abdominal drain was placed and severe pain in the wound appeared.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_152_21-PMC10353335-4-cureus-0015-00000042016-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_152_21-PMC10353335-4-cureus-0015-00000042016-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "postoperative incision in midline abdomen",
+        "claim_text": "A postoperative incision is present in the midline abdomen.",
+        "presence_question": "Does the model's response discuss the postoperative incision in midline abdomen?",
+        "correctness_question": "Does the model's response correctly assert that A postoperative incision is present in the midline abdomen?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "timing of postoperative incision",
+        "claim_text": "The image shows the postoperative incision on postoperative day 6.",
+        "presence_question": "Does the model's response discuss the timing of postoperative incision?",
+        "correctness_question": "Does the model's response correctly assert that The image shows the postoperative incision on postoperative day 6?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "erythematous wound edges",
+        "claim_text": "The wound edges at the incision margins are markedly erythematous.",
+        "presence_question": "Does the model's response discuss erythematous wound edges?",
+        "correctness_question": "Does the model's response correctly assert that The wound edges at the incision margins are markedly erythematous?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "violaceous wound edges",
+        "claim_text": "The wound edges at the incision margins have a violaceous appearance.",
+        "presence_question": "Does the model's response discuss violaceous wound edges?",
+        "correctness_question": "Does the model's response correctly assert that The wound edges at the incision margins have a violaceous appearance?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "scalloped wound edge shape",
+        "claim_text": "The wound edges at the incision margins are scalloped in shape.",
+        "presence_question": "Does the model's response discuss the scalloped wound edge shape?",
+        "correctness_question": "Does the model's response correctly assert that The wound edges at the incision margins are scalloped in shape?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "multiple small pustules",
+        "claim_text": "Multiple small pustules are concentrated along the incision margins.",
+        "presence_question": "Does the model's response discuss multiple small pustules?",
+        "correctness_question": "Does the model's response correctly assert that Multiple small pustules are concentrated along the incision margins?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "pustules located on incision margins",
+        "claim_text": "Pustules are located on the incision margins in the image.",
+        "presence_question": "Does the model's response discuss pustules located on incision margins?",
+        "correctness_question": "Does the model's response correctly assert that Pustules are located on the incision margins in the image?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "thick yellow-creamy exudate in wound bed",
+        "claim_text": "The central wound bed contains thick yellow-creamy exudate.",
+        "presence_question": "Does the model's response discuss thick yellow-creamy exudate in the wound bed?",
+        "correctness_question": "Does the model's response correctly assert that The central wound bed contains thick yellow-creamy exudate?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "inflamed surrounding skin around incision",
+        "claim_text": "The skin surrounding the incision appears inflamed in the image.",
+        "presence_question": "Does the model's response discuss the inflamed surrounding skin around the incision?",
+        "correctness_question": "Does the model's response correctly assert that The skin surrounding the incision appears inflamed in the image?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "purulent wound exudate",
+        "claim_text": "Purulent-appearing exudate suggests a surgical-site infection.",
+        "presence_question": "Does the model's response discuss purulent wound exudate?",
+        "correctness_question": "Does the model's response correctly state that purulent-appearing exudate suggests a surgical-site infection?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "marked erythema, violaceous borders, scalloped edges, pustules",
+        "claim_text": "Marked erythema, violaceous borders, scalloped edges, and pustules indicate a severe local surgical-site infection that may involve deeper tissue or be polymicrobial.",
+        "presence_question": "Does the model's response discuss marked erythema, violaceous borders, scalloped edges, and pustules?",
+        "correctness_question": "Does the model's response correctly state that marked erythema, violaceous borders, scalloped edges, and pustules indicate a severe local surgical-site infection that may involve deeper tissue or be polymicrobial?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "severe local wound findings",
+        "claim_text": "Severe local findings such as purulence, pronounced pain, or extensive edge involvement indicate the need for parenteral broad-spectrum empiric antibiotics covering MRSA, gram-negative bacilli, and anaerobes.",
+        "presence_question": "Does the model's response discuss severe local wound findings?",
+        "correctness_question": "Does the model's response correctly state that severe local findings such as purulence, pronounced pain, or extensive edge involvement indicate the need for parenteral broad-spectrum empiric antibiotics covering MRSA, gram-negative bacilli, and anaerobes?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "vancomycin plus piperacillin-tazobactam",
+        "claim_text": "Intravenous vancomycin combined with piperacillin-tazobactam can be used to treat infections involving MRSA, gram-negative bacilli, and anaerobes.",
+        "presence_question": "Does the model's response discuss vancomycin plus piperacillin-tazobactam?",
+        "correctness_question": "Does the model's response correctly state that intravenous vancomycin combined with piperacillin-tazobactam can be used to treat infections involving MRSA, gram-negative bacilli, and anaerobes?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "surgical-site infection presence",
+        "claim_text": "The combination of thick yellow-creamy exudate, multiple pustules along the incision margins, marked erythema, violaceous scalloped wound edges, and inflamed surrounding skin supports that a clinically significant surgical-site infection is present with potential for deep or polymicrobial involvement.",
+        "presence_question": "Does the model's response make an inferential link about surgical-site infection presence?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of thick yellow-creamy exudate, multiple pustules along the incision margins, marked erythema, violaceous scalloped wound edges, and inflamed surrounding skin supports that a clinically significant surgical-site infection is present with potential for deep or polymicrobial involvement.?",
+        "premise_perception_ids": [
+          "p8",
+          "p6",
+          "p3",
+          "p4",
+          "p5",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "broad-spectrum IV antibiotics indication",
+        "claim_text": "Because the wound demonstrates purulent-appearing exudate and extensive severe local findings, parenteral broad-spectrum empiric antibiotics covering MRSA, gram-negative bacilli, and anaerobes are warranted as the initial therapy.",
+        "presence_question": "Does the model's response make an inferential link about broad-spectrum IV antibiotics indication?",
+        "correctness_question": "Does the model's response correctly conclude that Because the wound demonstrates purulent-appearing exudate and extensive severe local findings, parenteral broad-spectrum empiric antibiotics covering MRSA, gram-negative bacilli, and anaerobes are warranted as the initial therapy.?",
+        "premise_perception_ids": [
+          "p8",
+          "p6",
+          "p3",
+          "p4",
+          "p5",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "vancomycin+piperacillin–tazobactam appropriateness",
+        "claim_text": "IV vancomycin plus piperacillin–tazobactam provides coverage for MRSA, gram-negative bacilli, and anaerobes and therefore is an appropriate initial empiric regimen for this case given the severity of the wound findings.",
+        "presence_question": "Does the model's response make an inferential link about vancomycin+piperacillin–tazobactam appropriateness?",
+        "correctness_question": "Does the model's response correctly conclude that IV vancomycin plus piperacillin–tazobactam provides coverage for MRSA, gram-negative bacilli, and anaerobes and therefore is an appropriate initial empiric regimen for this case given the severity of the wound findings.?",
+        "premise_perception_ids": [
+          "p8",
+          "p6",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

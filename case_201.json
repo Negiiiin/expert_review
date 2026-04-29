@@ -28,5 +28,192 @@
   "caption": "Computed tomography angiogram, coronal reconstruction demonstrating aneurysmal dilatation of intraparenchymal renal artery branches. There is relative sparing of the superior renal pole arterial branches.",
   "sub_caption": "Computed tomography angiogram, coronal reconstruction demonstrating aneurysmal dilatation of intraparenchymal renal artery branches. There is relative sparing of the superior renal pole arterial branches.",
   "image_context": "CT angiography confirmed the presence of multiple, single-lobed, intraparenchymal, segmental renal artery pseudoaneurysms. The largest pseudoaneurysm diameter measured 2.53 cm (<xref ref-type=\"fig\" rid=\"amjcaserep-17-570-g001\">Figure 1</xref>). The pseudoaneurysms were exclusively located within the inferior pole and pelvis of the allograft, while the superior renal pole had normal intraparenchymal arteries. There were no features of renal infarct. The allograft renal artery anastomosis with the right external iliac was normal. There was no aneurysmal dilatation or stenosis at this level (). The pseudoaneurysms were exclusively located within the inferior pole and pelvis of the allograft, while the superior renal pole had normal intraparenchymal arteries. There were no features of renal infarct. The allograft renal artery anastomosis with the right external iliac was normal. There was no aneurysmal dilatation or stenosis at this level (<xref ref-type=\"fig\" rid=\"amjcaserep-17-570-g002\">Figure 2</xref>). The extrarenal renal artery and iliac arteries were unaffected. There was no active extravasation of contrast to suggest aneurysmal rupture or leak. There was no hydronephrosis or features of ureteric obstruction in the allograft collecting system.). The extrarenal renal artery and iliac arteries were unaffected. There was no active extravasation of contrast to suggest aneurysmal rupture or leak. There was no hydronephrosis or features of ureteric obstruction in the allograft collecting system.",
-  "relevant_image_context": "CT angiography confirmed the presence of multiple, single-lobed, intraparenchymal, segmental renal artery pseudoaneurysms. The largest pseudoaneurysm diameter measured 2.53 cm. The pseudoaneurysms were exclusively located within the inferior pole and pelvis of the allograft, while the superior renal pole had normal intraparenchymal arteries. There were no features of renal infarct. The allograft renal artery anastomosis with the right external iliac was normal. There was no aneurysmal dilatation or stenosis at this level. The extrarenal renal artery and iliac arteries were unaffected. There was no active extravasation of contrast to suggest aneurysmal rupture or leak. There was no hydronephrosis or features of ureteric obstruction in the allograft collecting system."
+  "relevant_image_context": "CT angiography confirmed the presence of multiple, single-lobed, intraparenchymal, segmental renal artery pseudoaneurysms. The largest pseudoaneurysm diameter measured 2.53 cm. The pseudoaneurysms were exclusively located within the inferior pole and pelvis of the allograft, while the superior renal pole had normal intraparenchymal arteries. There were no features of renal infarct. The allograft renal artery anastomosis with the right external iliac was normal. There was no aneurysmal dilatation or stenosis at this level. The extrarenal renal artery and iliac arteries were unaffected. There was no active extravasation of contrast to suggest aneurysmal rupture or leak. There was no hydronephrosis or features of ureteric obstruction in the allograft collecting system.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_46_7-PMC4991616-1-amjcaserep-17-570-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_46_7-PMC4991616-1-amjcaserep-17-570-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "renal graft saccular outpouchings",
+        "claim_text": "The renal graft demonstrates two saccular outpouchings in the parenchyma and hilum.",
+        "presence_question": "Does the model's response discuss renal graft saccular outpouchings?",
+        "correctness_question": "Does the model's response correctly assert that The renal graft demonstrates two saccular outpouchings in the parenchyma and hilum.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "graft outpouching locations",
+        "claim_text": "Each outpouching is located in the renal parenchyma and hilum of the graft.",
+        "presence_question": "Does the model's response discuss graft outpouching locations?",
+        "correctness_question": "Does the model's response correctly assert that Each outpouching is located in the renal parenchyma and hilum of the graft.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "outpouching shape",
+        "claim_text": "The outpouchings are rounded and saccular in shape within the renal graft.",
+        "presence_question": "Does the model's response discuss outpouching shape?",
+        "correctness_question": "Does the model's response correctly assert that The outpouchings are rounded and saccular in shape within the renal graft.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "outpouching contrast appearance",
+        "claim_text": "The outpouchings are contrast-filled on the coronal CT angiographic image of the renal graft.",
+        "presence_question": "Does the model's response discuss outpouching contrast appearance?",
+        "correctness_question": "Does the model's response correctly assert that The outpouchings are contrast-filled on the coronal CT angiographic image of the renal graft.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "first outpouching size",
+        "claim_text": "The first outpouching in the renal graft measures 2.53 cm.",
+        "presence_question": "Does the model's response discuss first outpouching size?",
+        "correctness_question": "Does the model's response correctly assert that The first outpouching in the renal graft measures 2.53 cm.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "second outpouching size",
+        "claim_text": "The second outpouching in the renal graft measures 1.99 cm.",
+        "presence_question": "Does the model's response discuss second outpouching size?",
+        "correctness_question": "Does the model's response correctly assert that The second outpouching in the renal graft measures 1.99 cm.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "perinephric hematoma absence",
+        "claim_text": "There is no large surrounding perinephric hematoma around the graft on the shown view.",
+        "presence_question": "Does the model's response discuss perinephric hematoma absence?",
+        "correctness_question": "Does the model's response correctly assert that There is no large surrounding perinephric hematoma around the graft on the shown view.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "active extravasation absence",
+        "claim_text": "There is no clear active extravasation seen on this single frame.",
+        "presence_question": "Does the model's response discuss active extravasation absence?",
+        "correctness_question": "Does the model's response correctly assert that There is no clear active extravasation seen on this single frame.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "main renal artery involvement",
+        "claim_text": "The graft's main renal artery origin does not appear grossly involved on the shown view.",
+        "presence_question": "Does the model's response discuss main renal artery involvement?",
+        "correctness_question": "Does the model's response correctly assert that The graft's main renal artery origin does not appear grossly involved on the shown view.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "CT angiography",
+        "claim_text": "CT angiography identifies contrast-filled vascular outpouchings.",
+        "presence_question": "Does the model's response discuss CT angiography?",
+        "correctness_question": "Does the model's response correctly state that CT angiography identifies contrast-filled vascular outpouchings?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Intraparenchymal vascular lesions",
+        "claim_text": "Intraparenchymal vascular pseudoaneurysms or segmental arterial lesions can cause gross hematuria and declining renal graft function.",
+        "presence_question": "Does the model's response discuss intraparenchymal vascular lesions?",
+        "correctness_question": "Does the model's response correctly state that intraparenchymal vascular pseudoaneurysms or segmental arterial lesions can cause gross hematuria and declining renal graft function?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Segmental vascular outpouchings",
+        "claim_text": "Discrete segmental vascular outpouchings are typically treated with targeted endovascular occlusion.",
+        "presence_question": "Does the model's response discuss segmental vascular outpouchings?",
+        "correctness_question": "Does the model's response correctly state that discrete segmental vascular outpouchings are typically treated with targeted endovascular occlusion?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Saccular renal outpouchings on CTA",
+        "claim_text": "Rounded contrast-filled saccular outpouchings on renal CT angiography are characteristic of vascular pseudoaneurysm.",
+        "presence_question": "Does the model's response discuss saccular renal outpouchings on CTA?",
+        "correctness_question": "Does the model's response correctly state that rounded contrast-filled saccular outpouchings on renal CT angiography are characteristic of vascular pseudoaneurysm?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "Main arterial origin involvement on imaging",
+        "claim_text": "Lack of gross involvement of a main arterial origin on imaging suggests a more distal, segmental intraparenchymal arterial lesion rather than a main artery lesion.",
+        "presence_question": "Does the model's response discuss main arterial origin involvement on imaging?",
+        "correctness_question": "Does the model's response correctly state that lack of gross involvement of a main arterial origin on imaging suggests a more distal, segmental intraparenchymal arterial lesion rather than a main artery lesion?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "pseudoaneurysm diagnosis",
+        "claim_text": "The rounded, contrast-filled saccular outpouchings within the graft support the diagnosis of vascular pseudoaneurysms in this case.",
+        "presence_question": "Does the model's response make an inferential link about pseudoaneurysm diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The rounded, contrast-filled saccular outpouchings within the graft support the diagnosis of vascular pseudoaneurysms in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "pseudoaneurysm causing symptoms",
+        "claim_text": "These intraparenchymal vascular pseudoaneurysms could account for the patient's gross hematuria and declining graft function.",
+        "presence_question": "Does the model's response make an inferential link about pseudoaneurysm causing symptoms?",
+        "correctness_question": "Does the model's response correctly conclude that These intraparenchymal vascular pseudoaneurysms could account for the patient's gross hematuria and declining graft function?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "endovascular occlusion as treatment",
+        "claim_text": "Because the CTA shows discrete segmental vascular outpouchings within the graft, targeted endovascular occlusion is a reasonable therapeutic option for these imaging findings.",
+        "presence_question": "Does the model's response make an inferential link about endovascular occlusion as treatment?",
+        "correctness_question": "Does the model's response correctly conclude that Because the CTA shows discrete segmental vascular outpouchings within the graft, targeted endovascular occlusion is a reasonable therapeutic option for these imaging findings?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "large extra-parenchymal hemorrhage",
+        "claim_text": "The absence of a large perinephric hematoma and of clear active extravasation on the shown frame argues against a large extra-parenchymal hemorrhage or an obvious active contrast leak on this view.",
+        "presence_question": "Does the model's response make an inferential link about large extra-parenchymal hemorrhage?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of a large perinephric hematoma and of clear active extravasation on the shown frame argues against a large extra-parenchymal hemorrhage or an obvious active contrast leak on this view?",
+        "premise_perception_ids": [
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "segmental vs main renal artery origin",
+        "claim_text": "Because the main renal artery origin does not appear grossly involved on the image, the lesions are more consistent with segmental/intraparenchymal arterial lesions rather than a lesion of the main renal artery.",
+        "presence_question": "Does the model's response make an inferential link about segmental vs main renal artery origin?",
+        "correctness_question": "Does the model's response correctly conclude that Because the main renal artery origin does not appear grossly involved on the image, the lesions are more consistent with segmental/intraparenchymal arterial lesions rather than a lesion of the main renal artery?",
+        "premise_perception_ids": [
+          "p9",
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,133 @@
   "caption": "73-year-old patient with lung squamous cell carcinoma under Pembrolizumab. (A) Axial post-contrast CT image demonstrating colitis after 8 weeks of ICI administration, with diffuse bowel wall thickening (red arrowheads) and mucosal hyperemia (yellow arrow), at the level of sigma and rectus; also associated with peri-visceral fat stranding (blue arrow) and local vascular engorgement (orange arrow). (B) Axial post-contrast CT image showing colitis resolution (green arrow) after Pembrolizumab discontinuation and corticosteroid administration.",
   "sub_caption": "(A) Axial post-contrast CT image demonstrating colitis after 8 weeks of ICI administration, with diffuse bowel wall thickening (red arrowheads) and mucosal hyperemia (yellow arrow), at the level of sigma and rectus; also associated with peri-visceral fat stranding (blue arrow) and local vascular engorgement (orange arrow).",
   "image_context": "There are two main CT patterns of immune-related colitis described in the literature, diffuse colitis or segmental colitis associated with diverticulosis (SCAD) which is usually confined to the sigmoid (<xref rid=\"curroncol-30-00355-g001\" ref-type=\"fig\">Figure 1</xref>). A less frequent pattern has been described by Barina et al. which corresponds to isolated recto-sigmoid colitis without diverticulosis (). A less frequent pattern has been described by Barina et al. which corresponds to isolated recto-sigmoid colitis without diverticulosis (Table 3) [36].",
-  "relevant_image_context": "There are two main CT patterns of immune-related colitis described in the literature, diffuse colitis or segmental colitis associated with diverticulosis (SCAD) which is usually confined to the sigmoid. A less frequent pattern has been described by Barina et al. which corresponds to isolated recto-sigmoid colitis without diverticulosis. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "There are two main CT patterns of immune-related colitis described in the literature, diffuse colitis or segmental colitis associated with diverticulosis (SCAD) which is usually confined to the sigmoid. A less frequent pattern has been described by Barina et al. which corresponds to isolated recto-sigmoid colitis without diverticulosis. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_148_85-PMC10217557-0-curroncol-30-00355-g001.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_148_85-PMC10217557-0-curroncol-30-00355-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "circumferential bowel wall thickening",
+        "claim_text": "There is circumferential bowel wall thickening of the sigmoid and rectum.",
+        "presence_question": "Does the model's response discuss circumferential bowel wall thickening?",
+        "correctness_question": "Does the model's response correctly assert that There is circumferential bowel wall thickening of the sigmoid and rectum.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "mucosal hyperenhancement",
+        "claim_text": "There is mucosal hyperenhancement in the sigmoid and rectum.",
+        "presence_question": "Does the model's response discuss mucosal hyperenhancement?",
+        "correctness_question": "Does the model's response correctly assert that There is mucosal hyperenhancement in the sigmoid and rectum.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "pericolonic fat stranding",
+        "claim_text": "Pericolonic fat stranding is present adjacent to the sigmoid and rectum.",
+        "presence_question": "Does the model's response discuss pericolonic fat stranding?",
+        "correctness_question": "Does the model's response correctly assert that Pericolonic fat stranding is present adjacent to the sigmoid and rectum.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "regional vascular engorgement",
+        "claim_text": "There is regional vascular engorgement of the sigmoid and rectum.",
+        "presence_question": "Does the model's response discuss regional vascular engorgement?",
+        "correctness_question": "Does the model's response correctly assert that There is regional vascular engorgement of the sigmoid and rectum.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Imaging findings of colonic inflammation",
+        "claim_text": "Circumferential colonic wall thickening, mucosal hyperenhancement, pericolonic fat stranding, and vascular engorgement suggest colonic inflammation (colitis).",
+        "presence_question": "Does the model's response discuss Imaging findings of colonic inflammation?",
+        "correctness_question": "Does the model's response correctly state that Circumferential colonic wall thickening, mucosal hyperenhancement, pericolonic fat stranding, and vascular engorgement suggest colonic inflammation (colitis)?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Immune checkpoint inhibitor therapy",
+        "claim_text": "Immune checkpoint inhibitor therapy is associated with colitis.",
+        "presence_question": "Does the model's response discuss Immune checkpoint inhibitor therapy?",
+        "correctness_question": "Does the model's response correctly state that Immune checkpoint inhibitor therapy is associated with colitis?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "ICI-associated colitis symptoms",
+        "claim_text": "ICI-associated colitis typically presents with new abdominal pain and diarrhea.",
+        "presence_question": "Does the model's response discuss ICI-associated colitis symptoms?",
+        "correctness_question": "Does the model's response correctly state that ICI-associated colitis typically presents with new abdominal pain and diarrhea?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Flexible sigmoidoscopy visualization",
+        "claim_text": "Flexible sigmoidoscopy provides direct visualization of the rectum and sigmoid colon.",
+        "presence_question": "Does the model's response discuss Flexible sigmoidoscopy visualization?",
+        "correctness_question": "Does the model's response correctly state that Flexible sigmoidoscopy provides direct visualization of the rectum and sigmoid colon?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "Flexible sigmoidoscopy biopsy and assessment",
+        "claim_text": "Flexible sigmoidoscopy allows biopsy for histologic confirmation and focused, lower-risk mucosal assessment of the rectum and sigmoid colon.",
+        "presence_question": "Does the model's response discuss Flexible sigmoidoscopy biopsy and assessment?",
+        "correctness_question": "Does the model's response correctly state that Flexible sigmoidoscopy allows biopsy for histologic confirmation and focused, lower-risk mucosal assessment of the rectum and sigmoid colon?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "CT evidence of colonic inflammation",
+        "claim_text": "The combination of circumferential bowel wall thickening, mucosal hyperenhancement, adjacent pericolonic fat stranding, and regional vascular engorgement on CT is consistent with colonic inflammation in this case.",
+        "presence_question": "Does the model's response make an inferential link about CT evidence of colonic inflammation?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of circumferential bowel wall thickening, mucosal hyperenhancement, adjacent pericolonic fat stranding, and regional vascular engorgement on CT is consistent with colonic inflammation in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Immune checkpoint inhibitor-associated colitis",
+        "claim_text": "Given the imaging features of colonic inflammation plus the clinical context of recent immune checkpoint inhibitor therapy with new abdominal pain and diarrhea, an immune checkpoint inhibitor-associated colitis localized to the recto‑sigmoid is a leading diagnostic consideration.",
+        "presence_question": "Does the model's response make an inferential link about Immune checkpoint inhibitor-associated colitis?",
+        "correctness_question": "Does the model's response correctly conclude that Given the imaging features of colonic inflammation plus the clinical context of recent immune checkpoint inhibitor therapy with new abdominal pain and diarrhea, an immune checkpoint inhibitor-associated colitis localized to the recto‑sigmoid is a leading diagnostic consideration.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Justification for flexible sigmoidoscopy",
+        "claim_text": "Because the CT abnormalities are confined to the rectum and sigmoid and flexible sigmoidoscopy directly visualizes and allows biopsy of these segments while providing a focused, lower-risk mucosal assessment, flexible sigmoidoscopy is a justified next diagnostic test in this case.",
+        "presence_question": "Does the model's response make an inferential link about Justification for flexible sigmoidoscopy?",
+        "correctness_question": "Does the model's response correctly conclude that Because the CT abnormalities are confined to the rectum and sigmoid and flexible sigmoidoscopy directly visualizes and allows biopsy of these segments while providing a focused, lower-risk mucosal assessment, flexible sigmoidoscopy is a justified next diagnostic test in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k5"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

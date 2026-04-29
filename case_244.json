@@ -30,5 +30,119 @@
   "caption": "Ribosomes are excluded from the nucleus in the absence of nuclear envelope transport.a, HeLa cell expressing the mature ribosome marker L10-EGFP and H2B-mCherry progressing through anaphase in the presence of Leptomycin B. b, Quantification of L10-EGFP mean fluorescence within the chromosomal region normalized to surrounding cytoplasm, in anaphase cells as in (a). n =16 cells. c, d, Validation of Exportin-1 inhibition by Leptomycin B. c, Live HeLa cells expressing fluorescently labeled H2B and NES-GFP were imaged during mitotic progression by time-lapse microscopy, either untreated (control) or in presence of leptomycin B. Time point 0 min refers to anaphase onset. d, Quantification of NES-GFP mean fluorescence intensity within the chromosomal region normalized to pre-anaphase in control and leptomycin B treated cells, as in (c). n = 18 cells (control), n = 15 cells (leptomycin B). Lines indicate mean and shaded areas represent ± SD. Scale bars, 10 μm.",
   "sub_caption": "a, HeLa cell expressing the mature ribosome marker L10-EGFP and H2B-mCherry progressing through anaphase in the presence of Leptomycin B.",
   "image_context": "The timing of L10-GFP exclusion from the reassembling nucleus prior to the onset of transport through nuclear pores suggested that this exclusion should be independent of Exportin-1, the transport receptor mediating export of pre-ribosomal subunits during biogenesis12. Consistent with this hypothesis, we found that the exclusion of L10-GFP was unaffected by Leptomycin B treatment (<xref rid=\"nihms-1602249-f0006\" ref-type=\"fig\">Extended Data Fig. 2a</xref>, , <xref rid=\"nihms-1602249-f0006\" ref-type=\"fig\">b</xref>), an inhibitor of Exportin-1), an inhibitor of Exportin-113 (<xref rid=\"nihms-1602249-f0006\" ref-type=\"fig\">Extended Data Fig. 2c</xref>, , <xref rid=\"nihms-1602249-f0006\" ref-type=\"fig\">d</xref>). Thus, exclusion of ribosomes and other large cytoplasmic particles during nuclear assembly appears to be independent of nuclear pore-mediated transport.). Thus, exclusion of ribosomes and other large cytoplasmic particles during nuclear assembly appears to be independent of nuclear pore-mediated transport.",
-  "relevant_image_context": "The timing of L10-GFP exclusion from the reassembling nucleus prior to the onset of transport through nuclear pores suggested that this exclusion should be independent of Exportin-1, the transport receptor mediating export of pre-ribosomal subunits during biogenesis12. Consistent with this hypothesis, we found that the exclusion of L10-GFP was unaffected by Leptomycin B treatment (Extended Data Fig. 2a, , b), an inhibitor of Exportin-1), an inhibitor of Exportin-113 (Extended Data Fig. 2c, , d). Thus, exclusion of ribosomes and other large cytoplasmic particles during nuclear assembly appears to be independent of nuclear pore-mediated transport.). Thus, exclusion of ribosomes and other large cytoplasmic particles during nuclear assembly appears to be independent of nuclear pore-mediated transport. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "The timing of L10-GFP exclusion from the reassembling nucleus prior to the onset of transport through nuclear pores suggested that this exclusion should be independent of Exportin-1, the transport receptor mediating export of pre-ribosomal subunits during biogenesis12. Consistent with this hypothesis, we found that the exclusion of L10-GFP was unaffected by Leptomycin B treatment (Extended Data Fig. 2a, , b), an inhibitor of Exportin-1), an inhibitor of Exportin-113 (Extended Data Fig. 2c, , d). Thus, exclusion of ribosomes and other large cytoplasmic particles during nuclear assembly appears to be independent of nuclear pore-mediated transport.). Thus, exclusion of ribosomes and other large cytoplasmic particles during nuclear assembly appears to be independent of nuclear pore-mediated transport. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_16_filelist_other_batch_81_5-PMC7666080-5-nihms-1602249-f0006.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_81_5-PMC7666080-5-nihms-1602249-f0006.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "magenta signal in condensed chromatin",
+        "claim_text": "A magenta signal is located at condensed chromatin.",
+        "presence_question": "Does the model's response discuss magenta signal in condensed chromatin?",
+        "correctness_question": "Does the model's response correctly assert that A magenta signal is located at condensed chromatin?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "green signal in surrounding cytoplasm",
+        "claim_text": "A green signal is located in the surrounding cytoplasm.",
+        "presence_question": "Does the model's response discuss green signal in surrounding cytoplasm?",
+        "correctness_question": "Does the model's response correctly assert that A green signal is located in the surrounding cytoplasm?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "green signal absent from reassembling nucleus interior",
+        "claim_text": "A green signal is absent from the interior of the reassembling nucleus.",
+        "presence_question": "Does the model's response discuss green signal absent from reassembling nucleus interior?",
+        "correctness_question": "Does the model's response correctly assert that A green signal is absent from the interior of the reassembling nucleus?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "green signal sharp boundary at chromatin edge",
+        "claim_text": "The green signal has a sharp boundary at the edge of the chromatin mass.",
+        "presence_question": "Does the model's response discuss green signal sharp boundary at chromatin edge?",
+        "correctness_question": "Does the model's response correctly assert that The green signal has a sharp boundary at the edge of the chromatin mass?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "large green particles in perinuclear cytoplasm",
+        "claim_text": "Large green particles are concentrated outside the chromatin/nascent nuclear boundary.",
+        "presence_question": "Does the model's response discuss large green particles in perinuclear cytoplasm?",
+        "correctness_question": "Does the model's response correctly assert that Large green particles are concentrated outside the chromatin/nascent nuclear boundary?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "large green particles absent inside nascent nucleus",
+        "claim_text": "Large green particles are absent within the nascent nuclear compartment.",
+        "presence_question": "Does the model's response discuss large green particles absent inside nascent nucleus?",
+        "correctness_question": "Does the model's response correctly assert that Large green particles are absent within the nascent nuclear compartment?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "chromatin as nuclear boundary",
+        "claim_text": "Chromatin defines the interior of the nascent nuclear compartment.",
+        "presence_question": "Does the model's response discuss chromatin as nuclear boundary?",
+        "correctness_question": "Does the model's response correctly state that Chromatin defines the interior of the nascent nuclear compartment?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "nascent nuclear envelope barrier",
+        "claim_text": "The nascent nuclear envelope can provide a transient size-exclusion barrier that prevents large cytoplasmic macromolecules from entering during nuclear reassembly.",
+        "presence_question": "Does the model's response discuss nascent nuclear envelope barrier?",
+        "correctness_question": "Does the model's response correctly state that The nascent nuclear envelope can provide a transient size-exclusion barrier that prevents large cytoplasmic macromolecules from entering during nuclear reassembly?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "boundary excluding labeled material",
+        "claim_text": "A physical boundary that excludes a labeled material results in the label signal being concentrated outside the boundary and absent inside.",
+        "presence_question": "Does the model's response discuss boundary excluding labeled material?",
+        "correctness_question": "Does the model's response correctly state that A physical boundary that excludes a labeled material results in the label signal being concentrated outside the boundary and absent inside?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "mitotic exit and nuclear reassembly",
+        "claim_text": "Mitotic exit involves reassembly of the nucleus.",
+        "presence_question": "Does the model's response discuss mitotic exit and nuclear reassembly?",
+        "correctness_question": "Does the model's response correctly state that Mitotic exit involves reassembly of the nucleus?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Physical exclusion of cytoplasmic material",
+        "claim_text": "The observed magenta chromatin localization, a sharp outer boundary of green signal, and absence of green signal inside support that the green-labeled cytoplasmic material is physically excluded from the nascent nuclear compartment defined by chromatin.",
+        "presence_question": "Does the model's response make an inferential link about physical exclusion of cytoplasmic material?",
+        "correctness_question": "Does the model's response correctly conclude that the observed magenta chromatin localization, a sharp outer boundary of green signal, and absence of green signal inside support that the green-labeled cytoplasmic material is physically excluded from the nascent nuclear compartment defined by chromatin?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Size-exclusion by nascent nuclear envelope",
+        "claim_text": "The concentration of large green particles outside and their absence inside, together with the concept that a nascent nuclear envelope can transiently exclude large macromolecules during nuclear reassembly, explains that transient size-exclusion by the nascent nuclear envelope plausibly prevents large cytoplasmic particles from entering the reassembling nucleus during mitotic exit.",
+        "presence_question": "Does the model's response make an inferential link about size-exclusion by nascent nuclear envelope?",
+        "correctness_question": "Does the model's response correctly conclude that the concentration of large green particles outside and their absence inside, together with the concept that a nascent nuclear envelope can transiently exclude large macromolecules during nuclear reassembly, explains that transient size-exclusion by the nascent nuclear envelope plausibly prevents large cytoplasmic particles from entering the reassembling nucleus during mitotic exit?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

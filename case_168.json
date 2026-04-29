@@ -28,5 +28,105 @@
   "caption": "Effect of the architecture of nanostructured type I collagen matrices on fibroblast. (a) Aligned collagen fibrils displaying a D-periodic banded pattern obtained using a buffer containing K+ ions; (b) collagen fibrils without D-periodicity obtained with a buffer containing Na+ ions. Bars 1.0 μm (inset 0.2 μm). (c) Mouse dermal fibroblasts cultivated on mica; (d) on unaligned collagen fibrils; (e) on aligned collagen fibrils lacking D-periodicity; (f) on aligned D-periodic collagen fibrils. Only cells cultivated on (a) type substrates display elongated morphology and directional motility along fibril direction (black arrow). Bars 40 μm. Reprinted from Journal of Molecular Biology, 349, Poole et al. Molecular-Scale Topographic Cues Induce the Orientation and Directional Movement of Fibroblasts on Two-Dimensional Collagen Surfaces, 380–386, 2005 with permission form Elsevier, [46]. Permissions regarding further reuse of these figures should be directed to the Elsevier.",
   "sub_caption": "(a) Aligned collagen fibrils displaying a D-periodic banded pattern obtained using a buffer containing K+ ions; (b) collagen fibrils without D-periodicity obtained with a buffer containing Na+ ions. Bars 1.0 μm (inset 0.2 μm).",
   "image_context": "Collagen fibrillogenesis is an entropy driven process that is affected by environmental conditions such as temperature, pH, ionic strength and collagen concentration. If not properly directed, random fibril growth and orientation result in weak gels. However, collagen molecules can adsorb on surfaces acting as nucleation points for the fibrillogenesis. Mica surfaces exhibiting a specific crystallographic orientation determine the alignment of collagen fibres and direct their growth [43]. When fibrillogenesis is induced in buffers mimicking the eukaryotic cytoplasmic environment at pH 7.2, collagen fibrils display morphological features similar to those observed in vivo, such as the characteristic D-period and a thickness of 3 nm, corresponding to the average diameter of collagen microfibrils in real ECMs [44,45]. In buffers deprived of potassium, collagen is still able to form parallel and aligned fibrils, but these lacked the banded pattern [44], thus emphasizing the importance of the chemical environment in fibrillogenesis (<xref rid=\"cancers-14-05939-g002\" ref-type=\"fig\">Figure 2</xref>a,b).a,b). The importance of proper fibrillogenesis is demonstrated by the observation that fibroblasts seeded on 2D aligned collagen layers adhere, elongate and migrate along the fibre direction as a direct consequence of the strong contact guidance exerted by the orderly arrangement of fibrils. However, such a directional motility is observed only when the fibrils display the characteristic D-periodicity, as fibroblasts seeded on type I collagen lacking such a periodicity are randomly oriented and exhibit impaired motility [46] (<xref rid=\"cancers-14-05939-g002\" ref-type=\"fig\">Figure 2</xref>c,f). By exploiting anisotropic aligned collagen I fibrils on mica, Kirmse et al. investigated the interdependency of cell-collagen adhesion, cell-generated force transmission and proteolytic remodelling caused by MV3 melanoma cells on collagen [c,f). By exploiting anisotropic aligned collagen I fibrils on mica, Kirmse et al. investigated the interdependency of cell-collagen adhesion, cell-generated force transmission and proteolytic remodelling caused by MV3 melanoma cells on collagen [47]. As the experimental model allowed for a direct visualization of fibrillar features and cell compartments, the authors showed that collagen remodelling depended on the functionality of a2b1 integrins, the structure of the actin network and myosin II activity, which are features tightly connected to the mechanical signalling provided by the extracellular environment of aligned fibrils. Random collagen matrices did not induce substantial alteration of the matrix, emphasizing the central role of mechanosensing in matrix remodelling. More recently, Wang et al. used aligned or non-aligned type I collagen fibrils on mica to study the contact guidance behaviour of two invasive breast cancer cell lines (MDA-MB-231 and MTLn3) [48]. These exhibited very different migratory behaviours that were interpreted as a result of the different levels of traction forces exerted by the two cells. In particular, highly contractile MDA-MB-231 exert forces that promote focal adhesion—ollagen fibril coalignment, thus resulting in a directed migration, whereas MTLn3 exerting lower traction forces display a random migration. Hence, the anisotropic mechanical stimulus provided by aligned fibrils is permissive, but not sufficient to drive an effective directed migration.",
-  "relevant_image_context": "When fibrillogenesis is induced in buffers mimicking the eukaryotic cytoplasmic environment at pH 7.2, collagen fibrils display morphological features similar to those observed in vivo, such as the characteristic D-period and a thickness of 3 nm, corresponding to the average diameter of collagen microfibrils in real ECMs [44,45]. In buffers deprived of potassium, collagen is still able to form parallel and aligned fibrils, but these lacked the banded pattern [44], thus emphasizing the importance of the chemical environment in fibrillogenesis (Figure 2a,b)."
+  "relevant_image_context": "When fibrillogenesis is induced in buffers mimicking the eukaryotic cytoplasmic environment at pH 7.2, collagen fibrils display morphological features similar to those observed in vivo, such as the characteristic D-period and a thickness of 3 nm, corresponding to the average diameter of collagen microfibrils in real ECMs [44,45]. In buffers deprived of potassium, collagen is still able to form parallel and aligned fibrils, but these lacked the banded pattern [44], thus emphasizing the importance of the chemical environment in fibrillogenesis (Figure 2a,b).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_136_55-PMC9739814-5-cancers-14-05939-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_136_55-PMC9739814-5-cancers-14-05939-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Collagen fibril length",
+        "claim_text": "The collagen fibrils in the image appear elongated and long along their axis.",
+        "presence_question": "Does the model's response discuss Collagen fibril length?",
+        "correctness_question": "Does the model's response correctly assert that The collagen fibrils in the image appear elongated and long along their axis.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Collagen fibril banding",
+        "claim_text": "The collagen fibrils show clear repeating light-dark bands along their length.",
+        "presence_question": "Does the model's response discuss Collagen fibril banding?",
+        "correctness_question": "Does the model's response correctly assert that The collagen fibrils show clear repeating light-dark bands along their length.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Inset banded pattern",
+        "claim_text": "The inset shows a regular periodic banded pattern along the fibril axis.",
+        "presence_question": "Does the model's response discuss Inset banded pattern?",
+        "correctness_question": "Does the model's response correctly assert that The inset shows a regular periodic banded pattern along the fibril axis.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Axial banding repeat",
+        "claim_text": "The observed banding demonstrates a consistent axial repeat along the fibril axis.",
+        "presence_question": "Does the model's response discuss Axial banding repeat?",
+        "correctness_question": "Does the model's response correctly assert that The observed banding demonstrates a consistent axial repeat along the fibril axis.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Random aggregation absence",
+        "claim_text": "There is no evidence of random aggregation anywhere in the image.",
+        "presence_question": "Does the model's response discuss Random aggregation absence?",
+        "correctness_question": "Does the model's response correctly assert that There is no evidence of random aggregation anywhere in the image.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Diffuse swelling absence",
+        "claim_text": "There is no diffuse swelling visible in the image.",
+        "presence_question": "Does the model's response discuss Diffuse swelling absence?",
+        "correctness_question": "Does the model's response correctly assert that There is no diffuse swelling visible in the image.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "collagen axial banding",
+        "claim_text": "A regular staggered arrangement of collagen monomers along the fibril axis produces periodic axial banding at characteristic intervals.",
+        "presence_question": "Does the model's response discuss collagen axial banding?",
+        "correctness_question": "Does the model's response correctly state that A regular staggered arrangement of collagen monomers along the fibril axis produces periodic axial banding at characteristic intervals?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "cation-dependent electrostatic interactions",
+        "claim_text": "Cation-dependent electrostatic interactions can stabilize offset packing of protein monomers and thereby produce repeating bands.",
+        "presence_question": "Does the model's response discuss cation-dependent electrostatic interactions?",
+        "correctness_question": "Does the model's response correctly state that Cation-dependent electrostatic interactions can stabilize offset packing of protein monomers and thereby produce repeating bands?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "staggered collagen monomer arrangement",
+        "claim_text": "The presence of regular axial repeating light-dark bands is consistent with a staggered, regularly offset arrangement of collagen monomers along the fibril axis.",
+        "presence_question": "Does the model's response make an inferential link about staggered collagen monomer arrangement?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of regular axial repeating light-dark bands is consistent with a staggered, regularly offset arrangement of collagen monomers along the fibril axis.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "cation-dependent electrostatic interactions",
+        "claim_text": "Cation-dependent electrostatic interactions are a plausible mechanism explaining the observed regular banded pattern.",
+        "presence_question": "Does the model's response make an inferential link about cation-dependent electrostatic interactions?",
+        "correctness_question": "Does the model's response correctly conclude that Cation-dependent electrostatic interactions are a plausible mechanism explaining the observed regular banded pattern.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

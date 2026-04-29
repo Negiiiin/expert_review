@@ -28,5 +28,135 @@
   "caption": "Images of a 38-year-old man with COVID-19 pneumonia: (A) Axial unenhanced chest CT obtained at the first day of admission revealing bilateral ground glass opacities and areas of crazy paving; (B) Axial pulmonary CT angiogram showing filling defects in segmental branches of the pulmonary artery bilaterally",
   "sub_caption": "(B) Axial pulmonary CT angiogram showing filling defects in segmental branches of the pulmonary artery bilaterally",
   "image_context": "<xref ref-type=\"fig\" rid=\"ijccm-24-873-g003\">Figure 3</xref> belongs to a 38-year-old man hospitalized for 13 days. He presented with progressive dyspnea. On admission, he had WBC count of 4.9 (10 belongs to a 38-year-old man hospitalized for 13 days. He presented with progressive dyspnea. On admission, he had WBC count of 4.9 (103/μL) with 67% neutrophils and 24.1% lymphocytes, 120,000 platelets per micro liter, and elevated ESR (56 mm/hour) and CRP (58 mg/L). On the ninth day of admission, the patient became a candidate for pulmonary CT angiography because of lack of response to therapies and rising d-dimer levels (14,269 ng/mL on the sixth day vs >15,000 ng/mL on the eighth day). CT angiogram confirmed APE.",
-  "relevant_image_context": "On the ninth day of admission, the patient became a candidate for pulmonary CT angiography because of lack of response to therapies and rising d-dimer levels. CT angiogram confirmed APE."
+  "relevant_image_context": "On the ninth day of admission, the patient became a candidate for pulmonary CT angiography because of lack of response to therapies and rising d-dimer levels. CT angiogram confirmed APE.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_84_32-PMC7584821-2-ijccm-24-873-g003.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_84_32-PMC7584821-2-ijccm-24-873-g003.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "pulmonary artery contrast enhancement",
+        "claim_text": "The pulmonary arteries are contrast-opacified on the CT angiogram.",
+        "presence_question": "Does the model's response discuss pulmonary artery contrast enhancement?",
+        "correctness_question": "Does the model's response correctly assert that The pulmonary arteries are contrast-opacified on the CT angiogram?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "pulmonary arterial filling defects",
+        "claim_text": "Filling defects are present within the pulmonary arterial branches on the CT angiogram.",
+        "presence_question": "Does the model's response discuss pulmonary arterial filling defects?",
+        "correctness_question": "Does the model's response correctly assert that Filling defects are present within the pulmonary arterial branches on the CT angiogram?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "segmental branch filling defects",
+        "claim_text": "Filling defects are located bilaterally in the segmental pulmonary artery branches.",
+        "presence_question": "Does the model's response discuss segmental branch filling defects?",
+        "correctness_question": "Does the model's response correctly assert that Filling defects are located bilaterally in the segmental pulmonary artery branches?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "large central or saddle thrombus absence",
+        "claim_text": "There is no large central or saddle thrombus on this slice.",
+        "presence_question": "Does the model's response discuss large central or saddle thrombus absence?",
+        "correctness_question": "Does the model's response correctly assert that There is no large central or saddle thrombus on this slice?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "cardiac silhouette size",
+        "claim_text": "The cardiac silhouette is not grossly dilated and does not suggest marked right ventricular enlargement.",
+        "presence_question": "Does the model's response discuss cardiac silhouette size?",
+        "correctness_question": "Does the model's response correctly assert that The cardiac silhouette is not grossly dilated and does not suggest marked right ventricular enlargement?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Pulmonary embolus",
+        "claim_text": "Pulmonary emboli are identified as filling defects within contrast-opacified pulmonary arteries on imaging.",
+        "presence_question": "Does the model's response discuss Pulmonary embolus?",
+        "correctness_question": "Does the model's response correctly state that Pulmonary emboli are identified as filling defects within contrast-opacified pulmonary arteries on imaging?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Systemic thrombolytic therapy",
+        "claim_text": "Systemic thrombolytic therapy is typically reserved for patients with massive pulmonary embolism who have hemodynamic compromise.",
+        "presence_question": "Does the model's response discuss Systemic thrombolytic therapy?",
+        "correctness_question": "Does the model's response correctly state that Systemic thrombolytic therapy is typically reserved for patients with massive pulmonary embolism who have hemodynamic compromise?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Initial treatment for acute pulmonary embolism",
+        "claim_text": "Initial pharmacologic treatment for acute pulmonary embolism in hospitalized patients is therapeutic parenteral anticoagulation.",
+        "presence_question": "Does the model's response discuss Initial treatment for acute pulmonary embolism?",
+        "correctness_question": "Does the model's response correctly state that Initial pharmacologic treatment for acute pulmonary embolism in hospitalized patients is therapeutic parenteral anticoagulation?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Low-molecular-weight heparin",
+        "claim_text": "Low-molecular-weight heparin is a therapeutic parenteral anticoagulant used as an initial treatment for acute pulmonary embolism.",
+        "presence_question": "Does the model's response discuss Low-molecular-weight heparin?",
+        "correctness_question": "Does the model's response correctly state that Low-molecular-weight heparin is a therapeutic parenteral anticoagulant used as an initial treatment for acute pulmonary embolism?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "Massive pulmonary embolism imaging findings",
+        "claim_text": "A large central (saddle) thrombus or marked right ventricular enlargement on imaging suggests massive pulmonary embolism with potential hemodynamic compromise.",
+        "presence_question": "Does the model's response discuss Massive pulmonary embolism imaging findings?",
+        "correctness_question": "Does the model's response correctly state that A large central (saddle) thrombus or marked right ventricular enlargement on imaging suggests massive pulmonary embolism with potential hemodynamic compromise?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Massive pulmonary embolism exclusion",
+        "claim_text": "The imaging shows multiple segmental bilateral pulmonary arterial filling defects without a large central/saddle thrombus or marked right ventricular enlargement, which argues against this being a massive pulmonary embolism.",
+        "presence_question": "Does the model's response make an inferential link about Massive pulmonary embolism exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging shows multiple segmental bilateral pulmonary arterial filling defects without a large central/saddle thrombus or marked right ventricular enlargement, which argues against this being a massive pulmonary embolism.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Systemic thrombolysis not indicated",
+        "claim_text": "Because the imaging findings argue against massive PE and systemic thrombolysis is typically reserved for massive PE with hemodynamic compromise, systemic thrombolytic therapy is not indicated as the initial pharmacologic treatment for this patient and initial therapeutic parenteral anticoagulation is justified.",
+        "presence_question": "Does the model's response make an inferential link about Systemic thrombolysis not indicated?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging findings argue against massive PE and systemic thrombolysis is typically reserved for massive PE with hemodynamic compromise, systemic thrombolytic therapy is not indicated as the initial pharmacologic treatment for this patient and initial therapeutic parenteral anticoagulation is justified.?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Low-molecular-weight heparin initial treatment",
+        "claim_text": "The evidence supports therapeutic low-molecular-weight heparin as an appropriate initial pharmacologic treatment for this hospitalized patient with acute pulmonary emboli.",
+        "presence_question": "Does the model's response make an inferential link about Low-molecular-weight heparin initial treatment?",
+        "correctness_question": "Does the model's response correctly conclude that The evidence supports therapeutic low-molecular-weight heparin as an appropriate initial pharmacologic treatment for this hospitalized patient with acute pulmonary emboli.?",
+        "premise_perception_ids": [
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

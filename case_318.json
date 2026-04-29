@@ -25,5 +25,109 @@
   "caption": "Photograph showing MCN branches traversing over and under the LPSL on the left side in a cadaveric specimen obtained from an 88-year-old woman (specimen no. 21).Notes: The cephalad branch (b1) originates from S1 foramen and traverses over the LPSL. The caudal branch (b2) originates from S2 foramen and enters into the LPSL (curved arrow). S1 and S2 foramina are indicated by two pink needles.Abbreviations: MCN, middle cluneal nerve; PSIS, posterior superior iliac spine; LPSL, long posterior sacroiliac ligament.",
   "sub_caption": "Photograph showing MCN branches traversing over and under the LPSL on the left side in a cadaveric specimen obtained from an 88-year-old woman (specimen no. 21). Notes: The cephalad branch (b1) originates from S1 foramen and traverses over the LPSL. The caudal branch (b2) originates from S2 foramen and enters into the LPSL (curved arrow). S1 and S2 foramina are indicated by two pink needles. Abbreviations: MCN, middle cluneal nerve; PSIS, posterior superior iliac spine; LPSL, long posterior sacroiliac ligament.",
   "image_context": "Of 30 hemipelves, 8 (specimen nos. 1, 7, 9, 11, 21, 24, 26, and 28) had one (<xref ref-type=\"fig\" rid=\"jpr-10-1431Fig2\">Figure 2</xref>) and 1 (specimen no. 5) had two MCN branches traversing under the LPSL. The 10 penetrating MCN branches were lateral branches of the dorsal sacral rami, most commonly from S2 and more rarely from S1, S3, or S4 foramina. The average cephalocaudal distance from the PSIS of LPSL penetration was 23.2 mm (12.5–42.1 mm). The average distance from the midline was 34.5 mm (26.9–43.6 mm). The MCN branch was quite thin, with an average width of 1.6 mm (1.0–2.2 mm) measured at the point where it traversed the LPSL. Four of the 10 MCN branches passing under the LPSL had marked narrowing from constriction under the LPSL () and 1 (specimen no. 5) had two MCN branches traversing under the LPSL. The 10 penetrating MCN branches were lateral branches of the dorsal sacral rami, most commonly from S2 and more rarely from S1, S3, or S4 foramina. The average cephalocaudal distance from the PSIS of LPSL penetration was 23.2 mm (12.5–42.1 mm). The average distance from the midline was 34.5 mm (26.9–43.6 mm). The MCN branch was quite thin, with an average width of 1.6 mm (1.0–2.2 mm) measured at the point where it traversed the LPSL. Four of the 10 MCN branches passing under the LPSL had marked narrowing from constriction under the LPSL (<xref ref-type=\"fig\" rid=\"jpr-10-1431Fig3\">Figures 3</xref> and  and <xref ref-type=\"fig\" rid=\"jpr-10-1431Fig4\">4</xref>).).",
-  "relevant_image_context": "Of 30 hemipelves, 8 (specimen nos. 1, 7, 9, 11, 21, 24, 26, and 28) had one MCN branch traversing under the LPSL. The 10 penetrating MCN branches were lateral branches of the dorsal sacral rami, most commonly from S2 and more rarely from S1, S3, or S4 foramina. The average cephalocaudal distance from the PSIS of LPSL penetration was 23.2 mm (12.5–42.1 mm). The average distance from the midline was 34.5 mm (26.9–43.6 mm). The MCN branch was quite thin, with an average width of 1.6 mm (1.0–2.2 mm) measured at the point where it traversed the LPSL."
+  "relevant_image_context": "Of 30 hemipelves, 8 (specimen nos. 1, 7, 9, 11, 21, 24, 26, and 28) had one MCN branch traversing under the LPSL. The 10 penetrating MCN branches were lateral branches of the dorsal sacral rami, most commonly from S2 and more rarely from S1, S3, or S4 foramina. The average cephalocaudal distance from the PSIS of LPSL penetration was 23.2 mm (12.5–42.1 mm). The average distance from the midline was 34.5 mm (26.9–43.6 mm). The MCN branch was quite thin, with an average width of 1.6 mm (1.0–2.2 mm) measured at the point where it traversed the LPSL.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_46_12-PMC5476578-0-jpr-10-1431Fig2.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_46_12-PMC5476578-0-jpr-10-1431Fig2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Long posterior sacroiliac ligament label",
+        "claim_text": "The long posterior sacroiliac ligament (LPSL) is labeled in the central lower part of the image.",
+        "presence_question": "Does the model's response discuss the Long posterior sacroiliac ligament label?",
+        "correctness_question": "Does the model's response correctly assert that The long posterior sacroiliac ligament (LPSL) is labeled in the central lower part of the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Left S1 foramen label",
+        "claim_text": "A pink pin labels the S1 foramen on the left side of the image.",
+        "presence_question": "Does the model's response discuss the Left S1 foramen label?",
+        "correctness_question": "Does the model's response correctly assert that A pink pin labels the S1 foramen on the left side of the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Left S2 foramen label",
+        "claim_text": "A pink pin labels the S2 foramen on the left side of the image.",
+        "presence_question": "Does the model's response discuss the Left S2 foramen label?",
+        "correctness_question": "Does the model's response correctly assert that A pink pin labels the S2 foramen on the left side of the image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Slender nerve branch near S2 foramen",
+        "claim_text": "A slender nerve branch is located in the vicinity of the left S2 foramen.",
+        "presence_question": "Does the model's response discuss the Slender nerve branch near S2 foramen?",
+        "correctness_question": "Does the model's response correctly assert that A slender nerve branch is located in the vicinity of the left S2 foramen?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Nerve branch within LPSL",
+        "claim_text": "A slender nerve branch runs within the substance of the long posterior sacroiliac ligament (LPSL).",
+        "presence_question": "Does the model's response discuss the Nerve branch within LPSL?",
+        "correctness_question": "Does the model's response correctly assert that A slender nerve branch runs within the substance of the long posterior sacroiliac ligament (LPSL)?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "middle cluneal nerve branch",
+        "claim_text": "Middle cluneal nerve branches are typically located near the S2 foramen.",
+        "presence_question": "Does the model's response discuss middle cluneal nerve branch?",
+        "correctness_question": "Does the model's response correctly state that Middle cluneal nerve branches are typically located near the S2 foramen?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "nerve branch within ligament",
+        "claim_text": "Visualization of a nerve branch within the substance of a ligament indicates that the nerve penetrates that ligament.",
+        "presence_question": "Does the model's response discuss nerve branch within ligament?",
+        "correctness_question": "Does the model's response correctly state that Visualization of a nerve branch within the substance of a ligament indicates that the nerve penetrates that ligament?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Origin near S2 indicates middle cluneal branch",
+        "claim_text": "The nerve branch originating near the S2 foramen supports that it is a middle cluneal nerve branch in this case.",
+        "presence_question": "Does the model's response make an inferential link about Origin near S2 indicates middle cluneal branch?",
+        "correctness_question": "Does the model's response correctly conclude that The nerve branch originating near the S2 foramen supports that it is a middle cluneal nerve branch in this case?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Visualization within LPSL indicates ligament penetration",
+        "claim_text": "The nerve branch being visualized within the substance of the LPSL indicates that the nerve penetrates the ligament in this case.",
+        "presence_question": "Does the model's response make an inferential link about Visualization within LPSL indicates ligament penetration?",
+        "correctness_question": "Does the model's response correctly conclude that The nerve branch being visualized within the substance of the LPSL indicates that the nerve penetrates the ligament in this case?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Branch of middle cluneal nerve penetrates LPSL",
+        "claim_text": "Because the branch arises near the S2 foramen and is visualized inside the substance of the LPSL, the image supports that a branch of the middle cluneal nerve penetrates the LPSL in this case.",
+        "presence_question": "Does the model's response make an inferential link about Branch of middle cluneal nerve penetrates LPSL?",
+        "correctness_question": "Does the model's response correctly conclude that Because the branch arises near the S2 foramen and is visualized inside the substance of the LPSL, the image supports that a branch of the middle cluneal nerve penetrates the LPSL in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

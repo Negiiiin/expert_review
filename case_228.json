@@ -27,5 +27,150 @@
   "caption": "Images of the second operation. A Contrast-enhanced CT showing a small low-density lesion (10 mm in diameter) in the tail of the residual pancreas (arrow). B MRI showing small nodules in the tail of the pancreas (arrow), which had a low intensity on a T1-weighted image and iso-intensity on a T2-weighted image. The nodule was not enhanced by gadolinium EDTA.",
   "sub_caption": "MRI showing small nodules in the tail of the pancreas (arrow), which had a low intensity on a T1-weighted image and iso-intensity on a T2-weighted image. The nodule was not enhanced by gadolinium EDTA.",
   "image_context": "The postoperative course was uneventful after the first operation, and adjuvant chemotherapy with gemcitabine (1,400 mg/body) was administered every 2 weeks for 36 courses. Subsequently, the titer of carbohydrate antigen 19-9 increased up to 70.4 ng/mL. Moreover, a small nodular lesion measuring 9 mm in diameter was observed in the tail of the residual pancreas on computed tomography (CT) (Fig. <xref ref-type=\"fig\" rid=\"cro-0013-0392-g02\">2A</xref>) and magnetic resonance imaging (MRI) (Fig. ) and magnetic resonance imaging (MRI) (Fig. <xref ref-type=\"fig\" rid=\"cro-0013-0392-g02\">2B</xref>). ). 19F-deoxyglucose positron emission tomography (FDG-PET) revealed a very small hot spot in the tail of the pancreas. In April 2010, we resected the pancreas tail while preserving the pancreas body and stomach. The second resected tumor was diagnosed as a well-differentiated tubular adenocarcinoma (Fig. <xref ref-type=\"fig\" rid=\"cro-0013-0392-g01\">1B</xref>), T1, N0, M0, R0 Stage 1. The surgical margin was free from cancer cells, and no surrounding tissue invasion or regional lymph node metastasis was noted.), T1, N0, M0, R0 Stage 1. The surgical margin was free from cancer cells, and no surrounding tissue invasion or regional lymph node metastasis was noted.",
-  "relevant_image_context": "The text notes a small nodular lesion measuring 9 mm in diameter in the tail of the residual pancreas observed on computed tomography (CT) (Fig. 2A) and magnetic resonance imaging (MRI) (Fig. 2B). 19F-deoxyglucose positron emission tomography (FDG-PET) revealed a very small hot spot in the tail of the pancreas."
+  "relevant_image_context": "The text notes a small nodular lesion measuring 9 mm in diameter in the tail of the residual pancreas observed on computed tomography (CT) (Fig. 2A) and magnetic resonance imaging (MRI) (Fig. 2B). 19F-deoxyglucose positron emission tomography (FDG-PET) revealed a very small hot spot in the tail of the pancreas.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_77_20-PMC7184847-1-cro-0013-0392-g02.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_77_20-PMC7184847-1-cro-0013-0392-g02.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Nodular focus in pancreatic tail",
+        "claim_text": "A nodular focus is present in the pancreatic tail on the contrast-enhanced CT (panel A)",
+        "presence_question": "Does the model's response discuss Nodular focus in pancreatic tail?",
+        "correctness_question": "Does the model's response correctly assert that A nodular focus is present in the pancreatic tail on the contrast-enhanced CT (panel A)?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Nodular focus in pancreatic tail (MRI)",
+        "claim_text": "A nodular focus is present in the pancreatic tail on the MRI (panel B)",
+        "presence_question": "Does the model's response discuss Nodular focus in pancreatic tail (MRI)?",
+        "correctness_question": "Does the model's response correctly assert that A nodular focus is present in the pancreatic tail on the MRI (panel B)?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Lesion size (~9 mm)",
+        "claim_text": "The lesion measures approximately 9 mm in the left upper quadrant/pancreatic tail",
+        "presence_question": "Does the model's response discuss Lesion size (~9 mm)?",
+        "correctness_question": "Does the model's response correctly assert that The lesion measures approximately 9 mm in the left upper quadrant/pancreatic tail?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Lesion in pancreatic tail",
+        "claim_text": "The lesion is located in the pancreatic tail",
+        "presence_question": "Does the model's response discuss Lesion in pancreatic tail?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located in the pancreatic tail?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Lesion in left upper quadrant",
+        "claim_text": "The lesion is located in the left upper quadrant",
+        "presence_question": "Does the model's response discuss Lesion in left upper quadrant?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located in the left upper quadrant?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Lesion adjacent to stomach",
+        "claim_text": "The lesion is adjacent to the stomach/gastric wall",
+        "presence_question": "Does the model's response discuss Lesion adjacent to stomach?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is adjacent to the stomach/gastric wall?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Lesion medial to spleen",
+        "claim_text": "The lesion lies medial to the spleen on the left",
+        "presence_question": "Does the model's response discuss Lesion medial to spleen?",
+        "correctness_question": "Does the model's response correctly assert that The lesion lies medial to the spleen on the left?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Nodular lesion shape",
+        "claim_text": "The lesion has a nodular shape in the pancreatic tail",
+        "presence_question": "Does the model's response discuss Nodular lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesion has a nodular shape in the pancreatic tail?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Subtle but identified lesion appearance",
+        "claim_text": "The lesion appears subtle but is clearly identified in the pancreatic tail",
+        "presence_question": "Does the model's response discuss Subtle but identified lesion appearance?",
+        "correctness_question": "Does the model's response correctly assert that The lesion appears subtle but is clearly identified in the pancreatic tail?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "endoscopic ultrasound with fine-needle aspiration",
+        "claim_text": "Endoscopic ultrasound with fine-needle aspiration allows real-time targeted sampling of small pancreatic lesions adjacent to the stomach.",
+        "presence_question": "Does the model's response discuss endoscopic ultrasound with fine-needle aspiration?",
+        "correctness_question": "Does the model's response correctly state that Endoscopic ultrasound with fine-needle aspiration allows real-time targeted sampling of small pancreatic lesions adjacent to the stomach?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "discrete lesion on cross-sectional imaging",
+        "claim_text": "Visualization of a discrete lesion on cross-sectional imaging indicates that a tissue-confirming diagnostic procedure is indicated.",
+        "presence_question": "Does the model's response discuss discrete lesions on cross-sectional imaging?",
+        "correctness_question": "Does the model's response correctly state that Visualization of a discrete lesion on cross-sectional imaging indicates that a tissue-confirming diagnostic procedure is indicated?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "endoscopic transgastric approach",
+        "claim_text": "An endoscopic transgastric approach provides direct access for tissue sampling of pancreatic lesions that abut the stomach.",
+        "presence_question": "Does the model's response discuss an endoscopic transgastric approach?",
+        "correctness_question": "Does the model's response correctly state that An endoscopic transgastric approach provides direct access for tissue sampling of pancreatic lesions that abut the stomach?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Indication for tissue-confirming procedure",
+        "claim_text": "Because a discrete nodular lesion of approximately 9 mm is visualized in the pancreatic tail on cross-sectional imaging, a tissue-confirming procedure is indicated for this patient.",
+        "presence_question": "Does the model's response make an inferential link about Indication for tissue-confirming procedure?",
+        "correctness_question": "Does the model's response correctly conclude that Because a discrete nodular lesion of approximately 9 mm is visualized in the pancreatic tail on cross-sectional imaging, a tissue-confirming procedure is indicated for this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "EUS-FNA appropriateness for tissue diagnosis",
+        "claim_text": "Because the lesion is small (~9 mm) and lies immediately adjacent to the gastric wall, endoscopic ultrasound with fine-needle aspiration is an appropriate diagnostic test to obtain a tissue diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about EUS-FNA appropriateness for tissue diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that Because the lesion is small (~9 mm) and lies immediately adjacent to the gastric wall, endoscopic ultrasound with fine-needle aspiration is an appropriate diagnostic test to obtain a tissue diagnosis in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p6",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Endoscopic/transgastric access for sampling",
+        "claim_text": "Because the lesion abuts the stomach, an endoscopic/transgastric approach would provide direct access for sampling in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Endoscopic/transgastric access for sampling?",
+        "correctness_question": "Does the model's response correctly conclude that Because the lesion abuts the stomach, an endoscopic/transgastric approach would provide direct access for sampling in this patient?",
+        "premise_perception_ids": [
+          "p6",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

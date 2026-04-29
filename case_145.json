@@ -27,5 +27,138 @@
   "caption": "Whole body 18FDG PET/CT scan. A Diffuse moderate-intensity of FDG uptake by small and large bowels. B Mild hypermetabolic focus at apical aspect of interventricular septum",
   "sub_caption": "A Diffuse moderate-intensity of FDG uptake by small and large bowels.",
   "image_context": "Based on the CMRI findings, both perimyocarditis and sarcoidosis were possible differentials. Therefore, we arranged for a whole-body 18Fluorodeoxyglucose Positron Emission Tomography/Computed Tomography (18FDG PET/CT) scan. The patient was prepared with a high fat/very low carbohydrate diet 2 meals before scan followed by a fast of at least 4 h to suppress 18FDG uptake from normal myocardium. The 18FDG PET/CT scan showed a hypermetabolic focus at apical of interventricular septum (maximum Standardized Uptake Value/ SUV max = 3.8), favoring myocarditis rather than cardiac sarcoidosis. In addition, the presence of diffuse moderate-intensity of FDG uptake by small and large bowels (SUV max = 12.2) on the 18FDG PET—scan (Fig. <xref rid=\"12872_2021_2232_Fig3_HTML\" ref-type=\"fig\">3</xref>) further reinforced our initial suspicion of an active inflammatory process in the intestinal tract leading to acute perimyocarditis.) further reinforced our initial suspicion of an active inflammatory process in the intestinal tract leading to acute perimyocarditis.Fig. 3Whole body 18FDG PET/CT scan. A Diffuse moderate-intensity of FDG uptake by small and large bowels. B Mild hypermetabolic focus at apical aspect of interventricular septum",
-  "relevant_image_context": "Fig. 3 Whole body 18FDG PET/CT scan. A Diffuse moderate-intensity of FDG uptake by small and large bowels. The 18FDG PET/CT scan showed a diffuse uptake in the bowels (SUV max = 12.2), supporting an active inflammatory process in the intestinal tract."
+  "relevant_image_context": "Fig. 3 Whole body 18FDG PET/CT scan. A Diffuse moderate-intensity of FDG uptake by small and large bowels. The 18FDG PET/CT scan showed a diffuse uptake in the bowels (SUV max = 12.2), supporting an active inflammatory process in the intestinal tract.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_103_96-PMC8431953-1-12872_2021_2232_Fig3_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_103_96-PMC8431953-1-12872_2021_2232_Fig3_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Coronal PET/CT image",
+        "claim_text": "A coronal PET/CT image is present in the study and available for review.",
+        "presence_question": "Does the model's response discuss Coronal PET/CT image?",
+        "correctness_question": "Does the model's response correctly assert that A coronal PET/CT image is present in the study and available for review?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Increased radiotracer uptake areas",
+        "claim_text": "There are multiple discrete and segmental foci of increased radiotracer uptake.",
+        "presence_question": "Does the model's response discuss Increased radiotracer uptake areas?",
+        "correctness_question": "Does the model's response correctly assert that There are multiple discrete and segmental foci of increased radiotracer uptake?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Uptake in mid/lower abdomen",
+        "claim_text": "The increased radiotracer uptake foci are located in the mid and lower abdomen.",
+        "presence_question": "Does the model's response discuss Uptake in mid/lower abdomen?",
+        "correctness_question": "Does the model's response correctly assert that The increased radiotracer uptake foci are located in the mid and lower abdomen?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Bowel distribution of uptake",
+        "claim_text": "The increased radiotracer uptake foci are within the expected distribution of small and large bowel.",
+        "presence_question": "Does the model's response discuss Bowel distribution of uptake?",
+        "correctness_question": "Does the model's response correctly assert that The increased radiotracer uptake foci are within the expected distribution of small and large bowel?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Number of uptake foci",
+        "claim_text": "There are multiple increased radiotracer uptake foci present.",
+        "presence_question": "Does the model's response discuss Number of uptake foci?",
+        "correctness_question": "Does the model's response correctly assert that There are multiple increased radiotracer uptake foci present?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Uptake color against background activity",
+        "claim_text": "The increased radiotracer uptake foci appear green-yellow to red against lower background activity.",
+        "presence_question": "Does the model's response discuss Uptake color against background activity?",
+        "correctness_question": "Does the model's response correctly assert that The increased radiotracer uptake foci appear green-yellow to red against lower background activity?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Bowel uptake intensity",
+        "claim_text": "Bowel uptake intensity is increased compared with low-level background activity in the abdomen.",
+        "presence_question": "Does the model's response discuss Bowel uptake intensity?",
+        "correctness_question": "Does the model's response correctly assert that Bowel uptake intensity is increased compared with low-level background activity in the abdomen?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Uniformly confluent or extensive bowel uptake",
+        "claim_text": "Bowel uptake is not uniformly intensely confluent or overwhelmingly extensive throughout the abdomen.",
+        "presence_question": "Does the model's response discuss Uniformly confluent or extensive bowel uptake?",
+        "correctness_question": "Does the model's response correctly assert that Bowel uptake is not uniformly intensely confluent or overwhelmingly extensive throughout the abdomen?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Intermediate bowel uptake intensity",
+        "claim_text": "The pattern and color intensity of bowel foci are consistently intermediate, neither faint nor maximal, in the mid and lower abdomen.",
+        "presence_question": "Does the model's response discuss Intermediate bowel uptake intensity?",
+        "correctness_question": "Does the model's response correctly assert that The pattern and color intensity of bowel foci are consistently intermediate, neither faint nor maximal, in the mid and lower abdomen?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "PET/CT color scale",
+        "claim_text": "The color scale on PET/CT images represents relative radiotracer activity, with green-yellow through red indicating progressively higher activity relative to background.",
+        "presence_question": "Does the model's response discuss PET/CT color scale?",
+        "correctness_question": "Does the model's response correctly state that the color scale on PET/CT images represents relative radiotracer activity, with green-yellow through red indicating progressively higher activity relative to background?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "severity grading of radiotracer uptake",
+        "claim_text": "Severity grading of radiotracer uptake is determined by both the intensity of uptake and the extent/distribution of the uptake.",
+        "presence_question": "Does the model's response discuss severity grading of radiotracer uptake?",
+        "correctness_question": "Does the model's response correctly state that severity grading of radiotracer uptake is determined by both the intensity of uptake and the extent/distribution of the uptake?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "bowel-distribution radiotracer uptake",
+        "claim_text": "Radiotracer uptake that follows the bowel distribution suggests the activity originates from the bowel.",
+        "presence_question": "Does the model's response discuss bowel-distribution radiotracer uptake?",
+        "correctness_question": "Does the model's response correctly state that radiotracer uptake that follows the bowel distribution suggests the activity originates from the bowel?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "intermediate severity grade",
+        "claim_text": "The pattern of multiple segmental bowel foci with intensity above background but intermediate (neither faint nor maximal) supports an intermediate (mild–moderate) severity grade rather than minimal or severe.",
+        "presence_question": "Does the model's response make an inferential link about intermediate severity grade?",
+        "correctness_question": "Does the model's response correctly conclude that The pattern of multiple segmental bowel foci with intensity above background but intermediate (neither faint nor maximal) supports an intermediate (mild–moderate) severity grade rather than minimal or severe.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p7",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "bowel-related uptake",
+        "claim_text": "Because the foci are located in the mid/lower abdomen along the expected distribution of small and large bowel and have the appearance of bowel uptake on PET/CT, the observed radiotracer activity is consistent with bowel-related uptake in this case.",
+        "presence_question": "Does the model's response make an inferential link about bowel-related uptake?",
+        "correctness_question": "Does the model's response correctly conclude that Because the foci are located in the mid/lower abdomen along the expected distribution of small and large bowel and have the appearance of bowel uptake on PET/CT, the observed radiotracer activity is consistent with bowel-related uptake in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

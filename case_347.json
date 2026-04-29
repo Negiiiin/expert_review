@@ -28,5 +28,112 @@
   "caption": "(a) Spinal cord MRI (sagittal T2 sequence) showed a longitudinally extensive transverse myelitis extending from C5 to T10 (red arrow). (b) Posteroanterior chest radiograph showed bilateral micronodular infiltrate without peripheral consolidation or pleural effusion.",
   "sub_caption": "(a) Spinal cord MRI (sagittal T2 sequence) showed a longitudinally extensive transverse myelitis extending from C5 to T10 (red arrow).",
   "image_context": "We report the case of a 28-year-old man with no medical history. He presented to the emergency room complaining of ocular pain, blurred vision, gait disorders and dysuria. He also sought care for respiratory symptoms including cough with a small amount of haemoptysis, fever and a decrease in general condition over the preceding few months. At admission, he developed complete urinary retention and a spastic paraplegia. Brain and spinal cord MRI showed a transverse myelitis extending from C5 to T10 (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>a) with optic nerve and optic chiasma contrast recording. Ophthalmological examination revealed the presence of bilateral papilloedema. Visual evoked potential indicated a significant prolongation of the latency of the P100 wave. Lumbar puncture showed clear cerebrospinal fluid (CSF) with albumin cytological dissociation (white blood cell count of 7/mma) with optic nerve and optic chiasma contrast recording. Ophthalmological examination revealed the presence of bilateral papilloedema. Visual evoked potential indicated a significant prolongation of the latency of the P100 wave. Lumbar puncture showed clear cerebrospinal fluid (CSF) with albumin cytological dissociation (white blood cell count of 7/mm3 with elevated protein concentration of 3.23 g/L) and low glycorrhachia (ratio of 1/3). Direct examination and CSF culture were negative. In addition, PCR analysis of the CSF was negative for herpes simplex virus, varicella zoster virus, enteroviruses, Listeria monocytogenes and Mycobacterium tuberculosis. Molecular detection was carried out using the FilmArray® Meningitis/Encephalitis (M/E) Panel from bioMérieux (Marcy l’Étoile, France) and by conventional tests.Fig. 1(a) Spinal cord MRI (sagittal T2 sequence) showed a longitudinally extensive transverse myelitis extending from C5 to T10 (red arrow). (b) Posteroanterior chest radiograph showed bilateral micronodular infiltrate without peripheral consolidation or pleural effusion.Fig. 1 Chest X-ray showed a bilateral micronodular infiltrate (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>b). A thoracic CT revealed bilateral acinar nodes more prevalent in the upper left lobe, associated with several cavitating lesions.b). A thoracic CT revealed bilateral acinar nodes more prevalent in the upper left lobe, associated with several cavitating lesions.",
-  "relevant_image_context": "We report the case of a 28-year-old man with no medical history. He presented to the emergency room complaining of ocular pain, blurred vision, gait disorders and dysuria. He also sought care for respiratory symptoms including cough with a small amount of haemoptysis, fever and a decrease in general condition over the preceding few months. At admission, he developed complete urinary retention and a spastic paraplegia. Ophthalmological examination revealed the presence of bilateral papilloedema. Visual evoked potential indicated a significant prolongation of the latency of the P100 wave. Lumbar puncture showed clear cerebrospinal fluid (CSF) with albumin cytological dissociation (white blood cell count of 7/mm3 with elevated protein concentration of 3.23 g/L) and low glycorrhachia (ratio of 1/3). Direct examination and CSF culture were negative. In addition, PCR analysis of the CSF was negative for herpes simplex virus, varicella zoster virus, enteroviruses, Listeria monocytogenes and Mycobacterium tuberculosis. Molecular detection was carried out using the FilmArray Meningitis/Encephalitis Panel from bioMérieux (Marcy l’Étoile, France) and by conventional tests."
+  "relevant_image_context": "We report the case of a 28-year-old man with no medical history. He presented to the emergency room complaining of ocular pain, blurred vision, gait disorders and dysuria. He also sought care for respiratory symptoms including cough with a small amount of haemoptysis, fever and a decrease in general condition over the preceding few months. At admission, he developed complete urinary retention and a spastic paraplegia. Ophthalmological examination revealed the presence of bilateral papilloedema. Visual evoked potential indicated a significant prolongation of the latency of the P100 wave. Lumbar puncture showed clear cerebrospinal fluid (CSF) with albumin cytological dissociation (white blood cell count of 7/mm3 with elevated protein concentration of 3.23 g/L) and low glycorrhachia (ratio of 1/3). Direct examination and CSF culture were negative. In addition, PCR analysis of the CSF was negative for herpes simplex virus, varicella zoster virus, enteroviruses, Listeria monocytogenes and Mycobacterium tuberculosis. Molecular detection was carried out using the FilmArray Meningitis/Encephalitis Panel from bioMérieux (Marcy l’Étoile, France) and by conventional tests.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_87_38-PMC7777500-0-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_87_38-PMC7777500-0-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "spinal cord lesion",
+        "claim_text": "A spinal cord lesion is present on the sagittal spinal MRI.",
+        "presence_question": "Does the model's response discuss spinal cord lesion?",
+        "correctness_question": "Does the model's response correctly assert that A spinal cord lesion is present on the sagittal spinal MRI?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "T2-hyperintense spinal cord lesion",
+        "claim_text": "The spinal cord lesion is T2-hyperintense on sagittal spinal MRI.",
+        "presence_question": "Does the model's response discuss T2-hyperintense spinal cord lesion?",
+        "correctness_question": "Does the model's response correctly assert that The spinal cord lesion is T2-hyperintense on sagittal spinal MRI?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "central spinal cord location",
+        "claim_text": "The spinal cord lesion is centrally located in the midline of the cord.",
+        "presence_question": "Does the model's response discuss central spinal cord location?",
+        "correctness_question": "Does the model's response correctly assert that The spinal cord lesion is centrally located in the midline of the cord?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lesion extent cervical to upper thoracic",
+        "claim_text": "The spinal cord lesion extends from the cervical to upper thoracic vertebral levels.",
+        "presence_question": "Does the model's response discuss lesion extent cervical to upper thoracic?",
+        "correctness_question": "Does the model's response correctly assert that The spinal cord lesion extends from the cervical to upper thoracic vertebral levels?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "bilateral air-space opacities",
+        "claim_text": "Bilateral air-space opacities are present on the chest radiograph.",
+        "presence_question": "Does the model's response discuss bilateral air-space opacities?",
+        "correctness_question": "Does the model's response correctly assert that Bilateral air-space opacities are present on the chest radiograph?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "patchy reticulonodular opacities",
+        "claim_text": "The bilateral air-space opacities have a patchy, reticulonodular pattern on radiograph.",
+        "presence_question": "Does the model's response discuss patchy reticulonodular opacities?",
+        "correctness_question": "Does the model's response correctly assert that The bilateral air-space opacities have a patchy, reticulonodular pattern on radiograph?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "central and basal lung predominance",
+        "claim_text": "The opacities are more prominent centrally and at the lung bases bilaterally.",
+        "presence_question": "Does the model's response discuss central and basal lung predominance?",
+        "correctness_question": "Does the model's response correctly assert that The opacities are more prominent centrally and at the lung bases bilaterally?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "longitudinally extensive spinal cord lesions",
+        "claim_text": "Longitudinally extensive T2-hyperintense spinal cord lesions are typically associated with inflammatory myelopathies.",
+        "presence_question": "Does the model's response discuss longitudinally extensive spinal cord lesions?",
+        "correctness_question": "Does the model's response correctly state that Longitudinally extensive T2-hyperintense spinal cord lesions are typically associated with inflammatory myelopathies?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "treatment of acute inflammatory myelopathies",
+        "claim_text": "Acute inflammatory myelopathies are typically treated with intravenous high-dose methylprednisolone.",
+        "presence_question": "Does the model's response discuss treatment of acute inflammatory myelopathies?",
+        "correctness_question": "Does the model's response correctly state that Acute inflammatory myelopathies are typically treated with intravenous high-dose methylprednisolone?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Longitudinally extensive myelopathy inference",
+        "claim_text": "A centrally located T2-hyperintense spinal cord lesion extending from the cervical to upper thoracic levels supports the presence of a longitudinally extensive myelopathy in this case.",
+        "presence_question": "Does the model's response make an inferential link about Longitudinally extensive myelopathy inference?",
+        "correctness_question": "Does the model's response correctly conclude that A centrally located T2-hyperintense spinal cord lesion extending from the cervical to upper thoracic levels supports the presence of a longitudinally extensive myelopathy in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "IV methylprednisolone treatment justification",
+        "claim_text": "Because longitudinally extensive T2-hyperintense spinal cord lesions are associated with inflammatory myelopathies and intravenous high-dose methylprednisolone is a treatment for acute inflammatory myelopathies, administering IV high-dose methylprednisolone is justified for this patient given the imaging appearance.",
+        "presence_question": "Does the model's response make an inferential link about IV methylprednisolone treatment justification?",
+        "correctness_question": "Does the model's response correctly conclude that Because longitudinally extensive T2-hyperintense spinal cord lesions are associated with inflammatory myelopathies and intravenous high-dose methylprednisolone is a treatment for acute inflammatory myelopathies, administering IV high-dose methylprednisolone is justified for this patient given the imaging appearance?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

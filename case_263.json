@@ -27,5 +27,101 @@
   "caption": "The magnetic resonance imaging (T2-weighted imaging sequence) performed in 2020 following the second surgery involving L4-L5 Laminectomy and L2-L5 transpedicular fixation. A: Sagittal plane. Position of titanium screws following the transpedicular fixation. Titanium-induced artefacts prevent from reliable evaluation of the spinal canal and its contents; B: Axial plane at L3-L4 segment level. Note the additional space available in the central canal following the extended decompression.",
   "sub_caption": "A: Sagittal plane. Position of titanium screws following the transpedicular fixation. Titanium-induced artefacts prevent from reliable evaluation of the spinal canal and its contents;",
   "image_context": "Given the marked progression of symptoms and a radiological evidence of segmental stenosis, an operative treatment was proposed for the patient. Initially, patient decided to delay the intervention and wait, but neurological condition continued to worsen and 2 mo later he agreed to comply with the surgical management option. Patient underwent a L4-L5 Laminectomy with a caudal extension of previous duraplasty and L2-L5 transpedicular fixation (Figure <xref rid=\"WJCC-10-4519-g006\" ref-type=\"fig\">6</xref>). Hypertrophied ligamenta flava, facet joints, and visible adhesions were maximally removed from the spinal canal to accommodate the thecal sac. The post-operative period was uneventful, and patient’s pre-operative symptoms in terms of ambulation and pain improved dramatically following the operation. However, the problem of urinary retention remained unaffected, without the significant changes observed between the pre-operative and post-operative status.). Hypertrophied ligamenta flava, facet joints, and visible adhesions were maximally removed from the spinal canal to accommodate the thecal sac. The post-operative period was uneventful, and patient’s pre-operative symptoms in terms of ambulation and pain improved dramatically following the operation. However, the problem of urinary retention remained unaffected, without the significant changes observed between the pre-operative and post-operative status.",
-  "relevant_image_context": "Given the marked progression of symptoms and a radiological evidence of segmental stenosis, an operative treatment was proposed for the patient. Initially, patient decided to delay the intervention and wait, but neurological condition continued to worsen and 2 mo later he agreed to comply with the surgical management option. Patient underwent a L4-L5 Laminectomy with a caudal extension of previous duraplasty and L2-L5 transpedicular fixation (Figure 6). Hypertrophied ligamenta flava, facet joints, and visible adhesions were maximally removed from the spinal canal to accommodate the thecal sac. The post-operative period was uneventful, and patient’s pre-operative symptoms in terms of ambulation and pain improved dramatically following the operation. However, the problem of urinary retention remained unaffected, without the significant changes observed between the pre-operative and post-operative status.). Hypertrophied ligamenta flava, facet joints, and visible adhesions were maximally removed from the spinal canal to accommodate the thecal sac. The post-operative period was uneventful, and patient’s pre-operative symptoms in terms of ambulation and pain improved dramatically following the operation. However, the problem of urinary retention remained unaffected, without the significant changes observed between the pre-operative and post-operative status. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Given the marked progression of symptoms and a radiological evidence of segmental stenosis, an operative treatment was proposed for the patient. Initially, patient decided to delay the intervention and wait, but neurological condition continued to worsen and 2 mo later he agreed to comply with the surgical management option. Patient underwent a L4-L5 Laminectomy with a caudal extension of previous duraplasty and L2-L5 transpedicular fixation (Figure 6). Hypertrophied ligamenta flava, facet joints, and visible adhesions were maximally removed from the spinal canal to accommodate the thecal sac. The post-operative period was uneventful, and patient’s pre-operative symptoms in terms of ambulation and pain improved dramatically following the operation. However, the problem of urinary retention remained unaffected, without the significant changes observed between the pre-operative and post-operative status.). Hypertrophied ligamenta flava, facet joints, and visible adhesions were maximally removed from the spinal canal to accommodate the thecal sac. The post-operative period was uneventful, and patient’s pre-operative symptoms in terms of ambulation and pain improved dramatically following the operation. However, the problem of urinary retention remained unaffected, without the significant changes observed between the pre-operative and post-operative status. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_112_5-PMC9125283-0-WJCC-10-4519-g006.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_112_5-PMC9125283-0-WJCC-10-4519-g006.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "signal loss and distortion at L4–L5 posterior elements",
+        "claim_text": "There is a focal area of marked signal loss and distortion in the posterior elements and posterior spinal canal at L4–L5.",
+        "presence_question": "Does the model's response discuss signal loss and distortion at L4–L5 posterior elements?",
+        "correctness_question": "Does the model's response correctly assert that There is a focal area of marked signal loss and distortion in the posterior elements and posterior spinal canal at L4–L5.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "linear very low-signal structures in posterior elements",
+        "claim_text": "Linear very low-signal structures are present in the posterior elements at L4–L5.",
+        "presence_question": "Does the model's response discuss linear very low-signal structures in posterior elements?",
+        "correctness_question": "Does the model's response correctly assert that Linear very low-signal structures are present in the posterior elements at L4–L5.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "linear low-signal structures consistent with pedicle screws",
+        "claim_text": "The linear very low-signal structures in the posterior elements are most consistent with surgical fixation hardware, specifically pedicle screws.",
+        "presence_question": "Does the model's response discuss linear low-signal structures consistent with pedicle screws?",
+        "correctness_question": "Does the model's response correctly assert that The linear very low-signal structures in the posterior elements are most consistent with surgical fixation hardware, specifically pedicle screws.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "signal void and distortion adjacent to posterior elements",
+        "claim_text": "Surrounding tissues adjacent to the posterior elements show localized signal void and distortion at the posterior spinal canal at L4–L5.",
+        "presence_question": "Does the model's response discuss signal void and distortion adjacent to posterior elements?",
+        "correctness_question": "Does the model's response correctly assert that Surrounding tissues adjacent to the posterior elements show localized signal void and distortion at the posterior spinal canal at L4–L5.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "artifact centered on metallic hardware at L4–L5",
+        "claim_text": "The artifact is focal and centered on, and immediately adjacent to, the metallic hardware at L4–L5.",
+        "presence_question": "Does the model's response discuss artifact centered on metallic hardware at L4–L5?",
+        "correctness_question": "Does the model's response correctly assert that The artifact is focal and centered on, and immediately adjacent to, the metallic hardware at L4–L5.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "signal loss and geometric distortion around L4–L5 hardware",
+        "claim_text": "There is loss of signal and geometric distortion around the metallic posterior fixation hardware at L4–L5.",
+        "presence_question": "Does the model's response discuss signal loss and geometric distortion around L4–L5 hardware?",
+        "correctness_question": "Does the model's response correctly assert that There is loss of signal and geometric distortion around the metallic posterior fixation hardware at L4–L5.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "sagittal lumbar spine MRI",
+        "claim_text": "A sagittal lumbar spine MRI image is present.",
+        "presence_question": "Does the model's response discuss sagittal lumbar spine MRI?",
+        "correctness_question": "Does the model's response correctly assert that A sagittal lumbar spine MRI image is present.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "magnetic susceptibility artifacts",
+        "claim_text": "Magnetic susceptibility-induced field inhomogeneity typically produces focal signal loss and geometric distortion on MRI near metallic objects.",
+        "presence_question": "Does the model's response discuss magnetic susceptibility artifacts?",
+        "correctness_question": "Does the model's response correctly state that Magnetic susceptibility-induced field inhomogeneity typically produces focal signal loss and geometric distortion on MRI near metallic objects?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "metallic surgical fixation hardware",
+        "claim_text": "Metallic surgical fixation hardware, such as pedicle screws, is typically associated with a localized MRI signal void and distortion centered on the hardware.",
+        "presence_question": "Does the model's response discuss metallic surgical fixation hardware?",
+        "correctness_question": "Does the model's response correctly state that Metallic surgical fixation hardware, such as pedicle screws, is typically associated with a localized MRI signal void and distortion centered on the hardware?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "hardware-induced magnetic susceptibility artifact",
+        "claim_text": "Magnetic susceptibility–induced field inhomogeneity from the metallic posterior fixation hardware most likely explains the observed focal signal loss and geometric distortion at L4–L5.",
+        "presence_question": "Does the model's response make an inferential link about hardware-induced magnetic susceptibility artifact?",
+        "correctness_question": "Does the model's response correctly conclude that Magnetic susceptibility–induced field inhomogeneity from the metallic posterior fixation hardware most likely explains the observed focal signal loss and geometric distortion at L4–L5?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,104 @@
   "caption": "A The CTA performed six months before presenting the hemoptysis. Note the proximity of the sternal wire and the graft and the absence of any space between the sternum and the aortic graft. B and C The recent CTA (axial and lateral views): the thin arrow shows the fractured wire, and the thick arrow shows the pseudoaneurysm. Note the large space filled with a hematoma between the graft and the posterior border of the sternum",
   "sub_caption": "B and C The recent CTA (axial and lateral views): the thin arrow shows the fractured wire, and the thick arrow shows the pseudoaneurysm. Note the large space filled with a hematoma between the graft and the posterior border of the sternum.",
   "image_context": "Finding out the cause of hemoptysis, he was admitted and a comprehensive evaluation including computed tomography angiography (CTA), bronchoscopy, and transesophageal echocardiography set out. The CTA showed a new collection, most probably a pseudoaneurysm sized 4 × 6 × 9 cm around the ascending aorta extending to the posterior border of the manubrium at the maximum diameter (Fig. <xref rid=\"13019_2021_1737_Fig1_HTML\" ref-type=\"fig\">1</xref>B, C). Therefore, we focused on the ascending aorta as the source of bleeding into the mediastinum, which could have caused an aortobronchial fistula and ultimately the hemoptysis. The source images of a CTA belonging to 6 months earlier were reviewed. We noticed a sternal wire applied with the figure-of-eight technique in the first surgery in close contact with the Dacron graft, and it seemed to have penetrated the graft (Fig. B, C). Therefore, we focused on the ascending aorta as the source of bleeding into the mediastinum, which could have caused an aortobronchial fistula and ultimately the hemoptysis. The source images of a CTA belonging to 6 months earlier were reviewed. We noticed a sternal wire applied with the figure-of-eight technique in the first surgery in close contact with the Dacron graft, and it seemed to have penetrated the graft (Fig. <xref rid=\"13019_2021_1737_Fig1_HTML\" ref-type=\"fig\">1</xref>A). We also spotted a fracture line on the wire without any displacement. Viewing a large space between the wire and the graft occupied by a pseudoaneurysm in the latest CTA corroborated the assumption that the graft erosion was established by the wire.A). We also spotted a fracture line on the wire without any displacement. Viewing a large space between the wire and the graft occupied by a pseudoaneurysm in the latest CTA corroborated the assumption that the graft erosion was established by the wire.Fig. 1A The CTA performed six months before presenting the hemoptysis. Note the proximity of the sternal wire and the graft and the absence of any space between the sternum and the aortic graft. B and C The recent CTA (axial and lateral views): the thin arrow shows the fractured wire, and the thick arrow shows the pseudoaneurysm. Note the large space filled with a hematoma between the graft and the posterior border of the sternum",
-  "relevant_image_context": "Finding out the cause of hemoptysis, the patient underwent a comprehensive evaluation including computed tomography angiography (CTA), bronchoscopy, and transesophageal echocardiography. The CTA showed a new collection around the ascending aorta extending to the posterior border of the manubrium at the maximum diameter. Therefore, the ascending aorta was considered the source of bleeding into the mediastinum, with the possibility of an aortobronchial fistula and hemoptysis. The source images of a CTA from six months earlier were reviewed. We noted a sternal wire applied with the figure-of-eight technique in the initial surgery in close contact with the Dacron graft, and it appeared to have penetrated the graft. We also observed a fracture line on the wire without displacement. Viewing a large space between the wire and the graft occupied by a pseudoaneurysm in the latest CTA supported the conclusion that graft erosion was caused by the wire."
+  "relevant_image_context": "Finding out the cause of hemoptysis, the patient underwent a comprehensive evaluation including computed tomography angiography (CTA), bronchoscopy, and transesophageal echocardiography. The CTA showed a new collection around the ascending aorta extending to the posterior border of the manubrium at the maximum diameter. Therefore, the ascending aorta was considered the source of bleeding into the mediastinum, with the possibility of an aortobronchial fistula and hemoptysis. The source images of a CTA from six months earlier were reviewed. We noted a sternal wire applied with the figure-of-eight technique in the initial surgery in close contact with the Dacron graft, and it appeared to have penetrated the graft. We also observed a fracture line on the wire without displacement. Viewing a large space between the wire and the graft occupied by a pseudoaneurysm in the latest CTA supported the conclusion that graft erosion was caused by the wire.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_108_113-PMC8649677-1-13019_2021_1737_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_108_113-PMC8649677-1-13019_2021_1737_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "ascending aortic graft outpouching",
+        "claim_text": "A contrast-filled outpouching is located on the anterior aspect of the ascending aortic graft.",
+        "presence_question": "Does the model's response discuss ascending aortic graft outpouching?",
+        "correctness_question": "Does the model's response correctly assert that A contrast-filled outpouching is located on the anterior aspect of the ascending aortic graft?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "contrast-opacified outpouching",
+        "claim_text": "The outpouching demonstrates contrast opacification in the ascending aorta and upper mediastinum.",
+        "presence_question": "Does the model's response discuss contrast-opacified outpouching?",
+        "correctness_question": "Does the model's response correctly assert that The outpouching demonstrates contrast opacification in the ascending aorta and upper mediastinum?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "sac-like outpouching shape",
+        "claim_text": "The outpouching has a sac-like shape on axial contrast CT of the upper mediastinum.",
+        "presence_question": "Does the model's response discuss sac-like outpouching shape?",
+        "correctness_question": "Does the model's response correctly assert that The outpouching has a sac-like shape on axial contrast CT of the upper mediastinum?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "outpouching adjacent to sternum",
+        "claim_text": "The vascular sac outpouching abuts the posterior table of the sternum at the midline.",
+        "presence_question": "Does the model's response discuss outpouching adjacent to sternum?",
+        "correctness_question": "Does the model's response correctly assert that The vascular sac outpouching abuts the posterior table of the sternum at the midline?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "discontinuous sternal wire",
+        "claim_text": "There is a discontinuity of a sternal wire projecting across the sternum in the anterior chest.",
+        "presence_question": "Does the model's response discuss discontinuous sternal wire?",
+        "correctness_question": "Does the model's response correctly assert that There is a discontinuity of a sternal wire projecting across the sternum in the anterior chest?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "sternal wire adjacent to outpouching",
+        "claim_text": "A sternal wire lies adjacent to the vascular sac outpouching in the anterior chest.",
+        "presence_question": "Does the model's response discuss sternal wire adjacent to outpouching?",
+        "correctness_question": "Does the model's response correctly assert that A sternal wire lies adjacent to the vascular sac outpouching in the anterior chest?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Aortic pseudoaneurysm anterior chest pulsation",
+        "claim_text": "An aortic pseudoaneurysm that contacts the sternum typically produces a palpable or visible pulsation of the anterior chest wall.",
+        "presence_question": "Does the model's response discuss Aortic pseudoaneurysm anterior chest pulsation?",
+        "correctness_question": "Does the model's response correctly state that An aortic pseudoaneurysm that contacts the sternum typically produces a palpable or visible pulsation of the anterior chest wall?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Anteriorly bulging ascending aortic pseudoaneurysm location",
+        "claim_text": "An anteriorly bulging ascending aortic pseudoaneurysm is typically located directly beneath the posterior table of the sternum and immediately beneath the anterior chest wall.",
+        "presence_question": "Does the model's response discuss Anteriorly bulging ascending aortic pseudoaneurysm location?",
+        "correctness_question": "Does the model's response correctly state that An anteriorly bulging ascending aortic pseudoaneurysm is typically located directly beneath the posterior table of the sternum and immediately beneath the anterior chest wall?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Support for pseudoaneurysm diagnosis",
+        "claim_text": "The contrast-filled, sac-like outpouching at the anterior aspect of the ascending aortic graft that projects against the posterior table of the sternum and is adjacent to a discontinuous sternal wire supports the diagnosis of a pseudoaneurysm in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Support for pseudoaneurysm diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The contrast-filled, sac-like outpouching at the anterior aspect of the ascending aortic graft that projects against the posterior table of the sternum and is adjacent to a discontinuous sternal wire supports the diagnosis of a pseudoaneurysm in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Anterior chest wall pulsation from sac contact",
+        "claim_text": "Contact of the vascular sac with the posterior table of the sternum implies it is likely to produce a palpable or visible pulsatile anterior chest wall mass in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Anterior chest wall pulsation from sac contact?",
+        "correctness_question": "Does the model's response correctly conclude that Contact of the vascular sac with the posterior table of the sternum implies it is likely to produce a palpable or visible pulsatile anterior chest wall mass in this patient?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

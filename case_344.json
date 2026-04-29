@@ -27,5 +27,131 @@
   "caption": "Four-chamber view shows stomach on the left side and cardiac apex on the right side. Both stomach shadow and cardiac chambers are visible in the four chamber view",
   "sub_caption": "Four-chamber view shows stomach on the left side and cardiac apex on the right side. Both stomach shadow and cardiac chambers are visible in the four chamber view.",
   "image_context": "In the four-chamber view, a hypoechoic structure was seen in the left fetal thoracic cavity, and the heart was visible in the right thoracic cavity in the transverse view [<xref ref-type=\"fig\" rid=\"APC-13-167-g002\">Figure 2</xref>]. The total lung area measured in four-chamber view was within normal limits for gestational age. There was no mediastinal shift, and the diaphragm had a normal appearance, thus excluding the possibility of a congenital diaphragmatic hernia. Fetal abdominal examination showed isolated complete herniation of the stomach and gastroesophageal junction (GEJ) []. The total lung area measured in four-chamber view was within normal limits for gestational age. There was no mediastinal shift, and the diaphragm had a normal appearance, thus excluding the possibility of a congenital diaphragmatic hernia. Fetal abdominal examination showed isolated complete herniation of the stomach and gastroesophageal junction (GEJ) [<xref ref-type=\"fig\" rid=\"APC-13-167-g005\">Figure 5</xref>]. Thus, the possibility of a sliding hiatus hernia was considered. An open neural tube defect in the occipital region suggestive of occipital meningomyelocele with kyphosis was noted []. Thus, the possibility of a sliding hiatus hernia was considered. An open neural tube defect in the occipital region suggestive of occipital meningomyelocele with kyphosis was noted [<xref ref-type=\"fig\" rid=\"APC-13-167-g006\">Figure 6</xref>]. Complexity of the CHD and the extracardiac abnormalities were explained to the parents, and they opted for medical termination of pregnancy. Fetal autopsy was not performed because the parents refused for the same.]. Complexity of the CHD and the extracardiac abnormalities were explained to the parents, and they opted for medical termination of pregnancy. Fetal autopsy was not performed because the parents refused for the same.",
-  "relevant_image_context": "In the four-chamber view, a hypoechoic structure was seen in the left fetal thoracic cavity, and the heart was visible in the right thoracic cavity in the transverse view [Figure 2]. The total lung area measured in the four-chamber view was within normal limits for gestational age. There was no mediastinal shift, and the diaphragm had a normal appearance, thus excluding the possibility of a congenital diaphragmatic hernia."
+  "relevant_image_context": "In the four-chamber view, a hypoechoic structure was seen in the left fetal thoracic cavity, and the heart was visible in the right thoracic cavity in the transverse view [Figure 2]. The total lung area measured in the four-chamber view was within normal limits for gestational age. There was no mediastinal shift, and the diaphragm had a normal appearance, thus excluding the possibility of a congenital diaphragmatic hernia.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_80_6-PMC7331833-5-APC-13-167-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_80_6-PMC7331833-5-APC-13-167-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "labeled arrows showing fetal structures",
+        "claim_text": "The image shows labeled arrows indicating the cardiac apex, aorta, spine, and stomach.",
+        "presence_question": "Does the model's response discuss labeled arrows showing fetal structures?",
+        "correctness_question": "Does the model's response correctly assert that The image shows labeled arrows indicating the cardiac apex, aorta, spine, and stomach.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "cardiac apex position",
+        "claim_text": "The cardiac apex is located on the right side of the fetal thorax.",
+        "presence_question": "Does the model's response discuss cardiac apex position?",
+        "correctness_question": "Does the model's response correctly assert that The cardiac apex is located on the right side of the fetal thorax.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "stomach location",
+        "claim_text": "The stomach is located on the left side of the image, opposite the cardiac apex.",
+        "presence_question": "Does the model's response discuss stomach location?",
+        "correctness_question": "Does the model's response correctly assert that The stomach is located on the left side of the image, opposite the cardiac apex.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "cardiac apex midline location",
+        "claim_text": "The cardiac apex is not located at the midline of the fetal thorax.",
+        "presence_question": "Does the model's response discuss cardiac apex midline location?",
+        "correctness_question": "Does the model's response correctly assert that The cardiac apex is not located at the midline of the fetal thorax.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "cardiac apex displacement",
+        "claim_text": "The cardiac apex appears clearly displaced to one hemithorax of the fetal thorax.",
+        "presence_question": "Does the model's response discuss cardiac apex displacement?",
+        "correctness_question": "Does the model's response correctly assert that The cardiac apex appears clearly displaced to one hemithorax of the fetal thorax.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "aorta labeled",
+        "claim_text": "The aorta is labeled and present in the image of the fetal thorax.",
+        "presence_question": "Does the model's response discuss aorta labeled?",
+        "correctness_question": "Does the model's response correctly assert that The aorta is labeled and present in the image of the fetal thorax.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "spine labeled",
+        "claim_text": "The spine is labeled and present in the image of the fetal posterior.",
+        "presence_question": "Does the model's response discuss spine labeled?",
+        "correctness_question": "Does the model's response correctly assert that The spine is labeled and present in the image of the fetal posterior.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "ultrasound images",
+        "claim_text": "Ultrasound images may include labeled arrows indicating anatomical structures.",
+        "presence_question": "Does the model's response discuss ultrasound images?",
+        "correctness_question": "Does the model's response correctly state that Ultrasound images may include labeled arrows indicating anatomical structures?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "cardiac apex position",
+        "claim_text": "Cardiac apex position is described relative to the fetal thorax midline and hemithoraxes.",
+        "presence_question": "Does the model's response discuss cardiac apex position?",
+        "correctness_question": "Does the model's response correctly state that Cardiac apex position is described relative to the fetal thorax midline and hemithoraxes?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "relative positions of fetal organs",
+        "claim_text": "Comparing the relative positions of fetal organs such as the heart apex and stomach is used to describe organ sidedness.",
+        "presence_question": "Does the model's response discuss relative positions of fetal organs?",
+        "correctness_question": "Does the model's response correctly state that Comparing the relative positions of fetal organs such as the heart apex and stomach is used to describe organ sidedness?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Cardiac apex right-sided location",
+        "claim_text": "The observed image supports that the fetal cardiac apex is located in the right hemithorax.",
+        "presence_question": "Does the model's response make an inferential link about Cardiac apex right-sided location?",
+        "correctness_question": "Does the model's response correctly conclude that The observed image supports that the fetal cardiac apex is located in the right hemithorax?",
+        "premise_perception_ids": [
+          "p2",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Stomach left-sided position opposite apex",
+        "claim_text": "The observed image is consistent with the stomach being located on the left side opposite the cardiac apex.",
+        "presence_question": "Does the model's response make an inferential link about Stomach left-sided position opposite apex?",
+        "correctness_question": "Does the model's response correctly conclude that The observed image is consistent with the stomach being located on the left side opposite the cardiac apex?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Apex displacement justifies further testing",
+        "claim_text": "The observed displacement of the cardiac apex away from the midline justifies additional testing to assess displacement toward one hemithorax.",
+        "presence_question": "Does the model's response make an inferential link about Apex displacement justifies further testing?",
+        "correctness_question": "Does the model's response correctly conclude that The observed displacement of the cardiac apex away from the midline justifies additional testing to assess displacement toward one hemithorax?",
+        "premise_perception_ids": [
+          "p2",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

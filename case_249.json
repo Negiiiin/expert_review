@@ -27,5 +27,75 @@
   "caption": "Perianal ultrasound (PAUS) of the anal canal at rest. a + c Coronal plane, b + d midsagittal plane",
   "sub_caption": "b + d midsagittal plane",
   "image_context": "PAUS B-mode pictures and 3D/4D-volumes were done standardly during pelvic floor rest and contraction (Figs. <xref rid=\"12905_2021_1387_Fig2_HTML\" ref-type=\"fig\">2</xref>, , <xref rid=\"12905_2021_1387_Fig3_HTML\" ref-type=\"fig\">3</xref>).).Fig. 2Perianal ultrasound (PAUS) of the anal canal at rest. a + c Coronal plane, b + d midsagittal planeFig. 3Schematic representation of with PAUS imaged structures. a Coronal plane, b midsagittal plane, c axial plane",
-  "relevant_image_context": "PAUS B-mode pictures and 3D/4D-volumes were done standardly during pelvic floor rest and contraction (Figs. 2, 3). Fig. 2 Perianal ultrasound (PAUS) of the anal canal at rest. a + c Coronal plane, b + d midsagittal plane Fig. 3 Schematic representation of with PAUS imaged structures. a Coronal plane, b midsagittal plane, c axial plane First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "PAUS B-mode pictures and 3D/4D-volumes were done standardly during pelvic floor rest and contraction (Figs. 2, 3). Fig. 2 Perianal ultrasound (PAUS) of the anal canal at rest. a + c Coronal plane, b + d midsagittal plane Fig. 3 Schematic representation of with PAUS imaged structures. a Coronal plane, b midsagittal plane, c axial plane First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_3_filelist_commercial_batch_98_116-PMC8214294-3-12905_2021_1387_Fig2_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_98_116-PMC8214294-3-12905_2021_1387_Fig2_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "midsagittal perianal ultrasound image",
+        "claim_text": "A midsagittal perianal ultrasound image is present in the study.",
+        "presence_question": "Does the model's response discuss midsagittal perianal ultrasound image?",
+        "correctness_question": "Does the model's response correctly assert that a midsagittal perianal ultrasound image is present in the study?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "external anal sphincter position",
+        "claim_text": "The external anal sphincter is located superficially in the image, more superficial than the internal anal sphincter.",
+        "presence_question": "Does the model's response discuss external anal sphincter position?",
+        "correctness_question": "Does the model's response correctly assert that the external anal sphincter is located superficially in the image, more superficial than the internal anal sphincter?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "internal anal sphincter location",
+        "claim_text": "The internal anal sphincter lies immediately medial to the external anal sphincter in the image.",
+        "presence_question": "Does the model's response discuss internal anal sphincter location?",
+        "correctness_question": "Does the model's response correctly assert that the internal anal sphincter lies immediately medial to the external anal sphincter in the image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "mucosa as internal layer",
+        "claim_text": "The mucosa is the most internal layer depicted in the image.",
+        "presence_question": "Does the model's response discuss mucosa as internal layer?",
+        "correctness_question": "Does the model's response correctly assert that the mucosa is the most internal layer depicted in the image?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "internal anal sphincter",
+        "claim_text": "The internal anal sphincter is located immediately internal to the external anal sphincter.",
+        "presence_question": "Does the model's response discuss internal anal sphincter?",
+        "correctness_question": "Does the model's response correctly state that the internal anal sphincter is located immediately internal to the external anal sphincter?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "anal canal mucosa",
+        "claim_text": "The mucosa is the most internal layer of the anal canal.",
+        "presence_question": "Does the model's response discuss anal canal mucosa?",
+        "correctness_question": "Does the model's response correctly state that the mucosa is the most internal layer of the anal canal?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "IAS position relative to EAS",
+        "claim_text": "The image supports that the internal anal sphincter is located immediately internal to the external anal sphincter in this case.",
+        "presence_question": "Does the model's response make an inferential link about IAS position relative to EAS?",
+        "correctness_question": "Does the model's response correctly conclude that the image supports that the internal anal sphincter is located immediately internal to the external anal sphincter in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

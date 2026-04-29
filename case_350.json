@@ -28,5 +28,115 @@
   "caption": "Multiple botfly furuncles found on the scalp of a 4-year-old boy.",
   "sub_caption": "Multiple botfly furuncles found on the scalp of a 4-year-old boy.",
   "image_context": "Diagnosis relies on the combination of the proper identification of the lesion and knowledge of the patient's recent travel history. A furuncular lesion that releases bloody, nonpus, discharge from a central pore is indicative of furuncular cutaneous myiasis. Multiple furuncles may be found (<xref rid=\"gr4_lrg\" ref-type=\"fig\">Fig 4</xref>\n). Dermoscopy, which can be used to help identify \n). Dermoscopy, which can be used to help identify D hominis within the lesion, may be an additional useful tool for diagnosis.62 The posterior end of the larvae is visualized as “creamy-white bodies,” and respiratory spiracles resemble “birds’ legs with digitated feet.” The peripheral skin may be hypopigmented and has dilated capillaries.63 If desiring the aid of imaging in diagnosis, ultrasound with or without color Doppler is recommended.64 In addition, myiasis can stimulate a hypereosinophilic immune response resulting in pleural effusions.65\nFigure 4Multiple botfly furuncles found on the scalp of a 4-year-old boy.Figure 4",
-  "relevant_image_context": "Diagnosis relies on the combination of the proper identification of the lesion and knowledge of the patient's recent travel history. A furuncular lesion that releases bloody, nonpus, discharge from a central pore is indicative of furuncular cutaneous myiasis. Multiple furuncles may be found (Fig 4). Dermoscopy, which can be used to help identify D hominis within the lesion, may be an additional useful tool for diagnosis.62 The posterior end of the larvae is visualized as “creamy-white bodies,” and respiratory spiracles resemble “birds’ legs with digitated feet.” The peripheral skin may be hypopigmented and has dilated capillaries.63 If desiring the aid of imaging in diagnosis, ultrasound with or without color Doppler is recommended.64 In addition, myiasis can stimulate a hypereosinophilic immune response resulting in pleural effusions.65\n\nFigure 4Multiple botfly furuncles found on the scalp of a 4-year-old boy."
+  "relevant_image_context": "Diagnosis relies on the combination of the proper identification of the lesion and knowledge of the patient's recent travel history. A furuncular lesion that releases bloody, nonpus, discharge from a central pore is indicative of furuncular cutaneous myiasis. Multiple furuncles may be found (Fig 4). Dermoscopy, which can be used to help identify D hominis within the lesion, may be an additional useful tool for diagnosis.62 The posterior end of the larvae is visualized as “creamy-white bodies,” and respiratory spiracles resemble “birds’ legs with digitated feet.” The peripheral skin may be hypopigmented and has dilated capillaries.63 If desiring the aid of imaging in diagnosis, ultrasound with or without color Doppler is recommended.64 In addition, myiasis can stimulate a hypereosinophilic immune response resulting in pleural effusions.65\n\nFigure 4Multiple botfly furuncles found on the scalp of a 4-year-old boy.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_114_2-PMC9789609-4-gr4_lrg.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_114_2-PMC9789609-4-gr4_lrg.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "erythematous raised scalp nodule",
+        "claim_text": "An erythematous raised nodule is present on the scalp",
+        "presence_question": "Does the model's response discuss erythematous raised scalp nodule?",
+        "correctness_question": "Does the model's response correctly assert that An erythematous raised nodule is present on the scalp?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "erythematous nodule appearance",
+        "claim_text": "The nodule on the scalp is erythematous in appearance",
+        "presence_question": "Does the model's response discuss erythematous nodule appearance?",
+        "correctness_question": "Does the model's response correctly assert that The nodule on the scalp is erythematous in appearance?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "raised nodule shape",
+        "claim_text": "The nodule on the scalp is raised in appearance",
+        "presence_question": "Does the model's response discuss raised nodule shape?",
+        "correctness_question": "Does the model's response correctly assert that The nodule on the scalp is raised in appearance?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "central punctum within nodule",
+        "claim_text": "A central punctum or pore is present within the nodule on the scalp",
+        "presence_question": "Does the model's response discuss central punctum within nodule?",
+        "correctness_question": "Does the model's response correctly assert that A central punctum or pore is present within the nodule on the scalp?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "surrounding material crusted or serous",
+        "claim_text": "The material surrounding the scalp nodule appears crusted or serous",
+        "presence_question": "Does the model's response discuss surrounding material crusted or serous?",
+        "correctness_question": "Does the model's response correctly assert that The material surrounding the scalp nodule appears crusted or serous?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "pleural effusion after lesion extraction",
+        "claim_text": "A pleural effusion is present on chest imaging performed several days after lesion extraction",
+        "presence_question": "Does the model's response discuss pleural effusion after lesion extraction?",
+        "correctness_question": "Does the model's response correctly assert that A pleural effusion is present on chest imaging performed several days after lesion extraction?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "parasitic cutaneous lesions",
+        "claim_text": "Parasitic cutaneous lesions typically present as small erythematous raised nodules with a central punctum and may have crusted or serous exudate.",
+        "presence_question": "Does the model's response discuss parasitic cutaneous lesions?",
+        "correctness_question": "Does the model's response correctly state that parasitic cutaneous lesions typically present as small erythematous raised nodules with a central punctum and may have crusted or serous exudate?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "parasitic infections",
+        "claim_text": "Parasitic infections are typically associated with eosinophilic pleural effusion.",
+        "presence_question": "Does the model's response discuss parasitic infections?",
+        "correctness_question": "Does the model's response correctly state that parasitic infections are typically associated with eosinophilic pleural effusion?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "eosinophilic pleural effusion",
+        "claim_text": "Eosinophilic pleural effusion is a pleural effusion characterized by the presence of eosinophils in the pleural fluid.",
+        "presence_question": "Does the model's response discuss eosinophilic pleural effusion?",
+        "correctness_question": "Does the model's response correctly state that eosinophilic pleural effusion is a pleural effusion characterized by the presence of eosinophils in the pleural fluid?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Parasitic etiology of scalp nodule",
+        "claim_text": "The scalp nodule's visual features (erythematous, raised, central punctum, surrounding crusted/serous material) support that the lesion is plausibly a parasitic cutaneous lesion in this case.",
+        "presence_question": "Does the model's response make an inferential link about Parasitic etiology of scalp nodule?",
+        "correctness_question": "Does the model's response correctly conclude that The scalp nodule's visual features (erythematous, raised, central punctum, surrounding crusted/serous material) support that the lesion is plausibly a parasitic cutaneous lesion in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Parasitic cause of eosinophilic pleural effusion",
+        "claim_text": "The new pleural effusion appearing on imaging shortly after extraction of the presumed parasitic scalp lesion, together with the fact that parasitic infections can be associated with eosinophilic pleural effusions, supports that the child's pleural effusion is plausibly an eosinophilic pleural effusion secondary to parasitic infection.",
+        "presence_question": "Does the model's response make an inferential link about Parasitic cause of eosinophilic pleural effusion?",
+        "correctness_question": "Does the model's response correctly conclude that The new pleural effusion appearing on imaging shortly after extraction of the presumed parasitic scalp lesion, together with the fact that parasitic infections can be associated with eosinophilic pleural effusions, supports that the child's pleural effusion is plausibly an eosinophilic pleural effusion secondary to parasitic infection.?",
+        "premise_perception_ids": [
+          "p6",
+          "p1",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

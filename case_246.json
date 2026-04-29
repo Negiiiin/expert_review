@@ -28,5 +28,190 @@
   "caption": "A large left-sided intraparenchymal hemorrhage with intraventricular extension, superficial subarachnoid blood, and left-sided cerebral swelling",
   "sub_caption": "A large left-sided intraparenchymal hemorrhage with intraventricular extension, superficial subarachnoid blood, and left-sided cerebral swelling",
   "image_context": "A 59-year-old woman with hypertension was admitted with COVID-19 pneumonia and intubated for hypoxic respiratory failure. Prophylactic anticoagulation with apixaban was started and then switched on day 6 to therapeutic enoxaparin due to rising d-dimer levels. She remained comatose despite being off intravenous sedation for 1 week. CT scan of the head on day 15 revealed a large intraparenchymal hemorrhage and cerebral edema, with transtentorial-herniation causing brainstem compression (Fig. <xref rid=\"13365_2020_869_Fig3_HTML\" ref-type=\"fig\">3</xref>). Neurological exam and apnea test were consistent with brain death. Throughout the hospital stay, systolic blood pressure ranged between 125 and 140 mmHg.). Neurological exam and apnea test were consistent with brain death. Throughout the hospital stay, systolic blood pressure ranged between 125 and 140 mmHg.Fig. 3A large left-sided intraparenchymal hemorrhage with intraventricular extension, superficial subarachnoid blood, and left-sided cerebral swelling",
-  "relevant_image_context": "A large left-sided intraparenchymal hemorrhage with intraventricular extension, superficial subarachnoid blood, and left-sided cerebral swelling. CT scan of the head on day 15 revealed a large intraparenchymal hemorrhage and cerebral edema, with transtentorial-herniation causing brainstem compression."
+  "relevant_image_context": "A large left-sided intraparenchymal hemorrhage with intraventricular extension, superficial subarachnoid blood, and left-sided cerebral swelling. CT scan of the head on day 15 revealed a large intraparenchymal hemorrhage and cerebral edema, with transtentorial-herniation causing brainstem compression.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_72_10-PMC7307498-1-13365_2020_869_Fig3_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_72_10-PMC7307498-1-13365_2020_869_Fig3_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Intraparenchymal collection",
+        "claim_text": "There is an intraparenchymal collection within the brain parenchyma.",
+        "presence_question": "Does the model's response discuss intraparenchymal collection?",
+        "correctness_question": "Does the model's response correctly assert that There is an intraparenchymal collection within the brain parenchyma.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Left cerebral hemisphere location",
+        "claim_text": "The intraparenchymal collection is located in the left cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss left cerebral hemisphere location?",
+        "correctness_question": "Does the model's response correctly assert that The intraparenchymal collection is located in the left cerebral hemisphere.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Collection hyperdensity",
+        "claim_text": "The intraparenchymal collection in the left cerebral hemisphere appears hyperdense.",
+        "presence_question": "Does the model's response discuss collection hyperdensity?",
+        "correctness_question": "Does the model's response correctly assert that The intraparenchymal collection in the left cerebral hemisphere appears hyperdense.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Collection size",
+        "claim_text": "The intraparenchymal collection in the left hemisphere is large in size.",
+        "presence_question": "Does the model's response discuss collection size?",
+        "correctness_question": "Does the model's response correctly assert that The intraparenchymal collection in the left hemisphere is large in size.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Hyperdense material in lateral ventricle",
+        "claim_text": "Hyperdense material is present within the lateral ventricle.",
+        "presence_question": "Does the model's response discuss hyperdense material in lateral ventricle?",
+        "correctness_question": "Does the model's response correctly assert that Hyperdense material is present within the lateral ventricle.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Low-density tissue around collection",
+        "claim_text": "Low-density tissue surrounds the intraparenchymal collection in the left hemisphere.",
+        "presence_question": "Does the model's response discuss low-density tissue around collection?",
+        "correctness_question": "Does the model's response correctly assert that Low-density tissue surrounds the intraparenchymal collection in the left hemisphere.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Surrounding tissue hypodensity",
+        "claim_text": "The tissue surrounding the left intraparenchymal collection is hypodense or low density.",
+        "presence_question": "Does the model's response discuss surrounding tissue hypodensity?",
+        "correctness_question": "Does the model's response correctly assert that The tissue surrounding the left intraparenchymal collection is hypodense or low density.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Compression of cortical sulci",
+        "claim_text": "The intraparenchymal collection in the left hemisphere compresses the adjacent cortical sulci.",
+        "presence_question": "Does the model's response discuss compression of cortical sulci?",
+        "correctness_question": "Does the model's response correctly assert that The intraparenchymal collection in the left hemisphere compresses the adjacent cortical sulci.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Compression of ventricular contours",
+        "claim_text": "The intraparenchymal collection in the left hemisphere compresses ventricular contours.",
+        "presence_question": "Does the model's response discuss compression of ventricular contours?",
+        "correctness_question": "Does the model's response correctly assert that The intraparenchymal collection in the left hemisphere compresses ventricular contours.?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Intracranial mass effect",
+        "claim_text": "There is intracranial mass effect identified on the study.",
+        "presence_question": "Does the model's response discuss intracranial mass effect?",
+        "correctness_question": "Does the model's response correctly assert that There is intracranial mass effect identified on the study.?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "Compression of midline structures",
+        "claim_text": "The intraparenchymal collection in the left hemisphere compresses midline structures.",
+        "presence_question": "Does the model's response discuss compression of midline structures?",
+        "correctness_question": "Does the model's response correctly assert that The intraparenchymal collection in the left hemisphere compresses midline structures.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "space-occupying intracranial lesion",
+        "claim_text": "Space-occupying intracranial lesions typically cause increased intracranial pressure and mass effect.",
+        "presence_question": "Does the model's response discuss space-occupying intracranial lesion?",
+        "correctness_question": "Does the model's response correctly state that Space-occupying intracranial lesions typically cause increased intracranial pressure and mass effect?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "lumbar puncture",
+        "claim_text": "A lumbar puncture removes cerebrospinal fluid (CSF).",
+        "presence_question": "Does the model's response discuss lumbar puncture?",
+        "correctness_question": "Does the model's response correctly state that A lumbar puncture removes cerebrospinal fluid (CSF)?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "lumbar puncture herniation risk",
+        "claim_text": "Removal of cerebrospinal fluid by lumbar puncture can create an intracranial pressure gradient when a large intracranial mass with mass effect is present, risking downward herniation.",
+        "presence_question": "Does the model's response discuss lumbar puncture herniation risk?",
+        "correctness_question": "Does the model's response correctly state that Removal of cerebrospinal fluid by lumbar puncture can create an intracranial pressure gradient when a large intracranial mass with mass effect is present, risking downward herniation?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "intraventricular hyperdensity on CT",
+        "claim_text": "Hyperdense material within the cerebral ventricles on CT indicates intraventricular hemorrhage (blood).",
+        "presence_question": "Does the model's response discuss intraventricular hyperdensity on CT?",
+        "correctness_question": "Does the model's response correctly state that Hyperdense material within the cerebral ventricles on CT indicates intraventricular hemorrhage (blood)?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "low-density region around intracranial hemorrhage on CT",
+        "claim_text": "A low-density region around an intracranial hemorrhage on CT suggests surrounding edema.",
+        "presence_question": "Does the model's response discuss low-density region around intracranial hemorrhage on CT?",
+        "correctness_question": "Does the model's response correctly state that A low-density region around an intracranial hemorrhage on CT suggests surrounding edema?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Intraventricular hemorrhage inference",
+        "claim_text": "Hyperdense material seen within the lateral ventricle on CT supports the presence of intraventricular hemorrhage in this case.",
+        "presence_question": "Does the model's response make an inferential link about Intraventricular hemorrhage inference?",
+        "correctness_question": "Does the model's response correctly conclude that Hyperdense material seen within the lateral ventricle on CT supports the presence of intraventricular hemorrhage in this case?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Perilesional edema inference",
+        "claim_text": "Low-density tissue surrounding the collection on imaging supports the presence of edema in this case.",
+        "presence_question": "Does the model's response make an inferential link about Perilesional edema inference?",
+        "correctness_question": "Does the model's response correctly conclude that Low-density tissue surrounding the collection on imaging supports the presence of edema in this case?",
+        "premise_perception_ids": [
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Raised intracranial pressure inference",
+        "claim_text": "The presence of mass effect with compression of cortical sulci, ventricular contours, and midline structures supports the presence of raised intracranial pressure in this case.",
+        "presence_question": "Does the model's response make an inferential link about Raised intracranial pressure inference?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of mass effect with compression of cortical sulci, ventricular contours, and midline structures supports the presence of raised intracranial pressure in this case?",
+        "premise_perception_ids": [
+          "p8",
+          "p9",
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Lumbar puncture contraindication inference",
+        "claim_text": "Because this case shows a large space-occupying intracranial lesion with mass effect and raised intracranial pressure, performing a lumbar puncture is contraindicated here due to the risk that CSF removal could create a pressure gradient and precipitate downward herniation.",
+        "presence_question": "Does the model's response make an inferential link about Lumbar puncture contraindication inference?",
+        "correctness_question": "Does the model's response correctly conclude that Because this case shows a large space-occupying intracranial lesion with mass effect and raised intracranial pressure, performing a lumbar puncture is contraindicated here due to the risk that CSF removal could create a pressure gradient and precipitate downward herniation?",
+        "premise_perception_ids": [
+          "p4",
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

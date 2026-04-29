@@ -28,5 +28,126 @@
   "caption": "A Contrast-enhanced abdominal computed tomography showing an enlarged and heterogeneous liver, with ill-defined hypoattenuating indeterminate lesions (arrow). B Abdominal magnetic resonance (T2-weighted image) depicting a suspicious intermediate signal solid nodule (arrowhead) on right hepatic lobe",
   "sub_caption": "B Abdominal magnetic resonance (T2-weighted image) depicting a suspicious intermediate signal solid nodule (arrowhead) on right hepatic lobe",
   "image_context": "Repeated CT in October 2019 showed improvement in pulmonary congestion, signs of pericardiocentesis, and the appearance of indeterminate liver lesions, subsequently confirmed on magnetic resonance as solid nodules (Fig. <xref rid=\"13256_2021_3085_Fig4_HTML\" ref-type=\"fig\">4</xref>). No conspicuous lesions were reported in intestines (although colons were not adequately distended). CT-guided liver biopsy was then performed, revealing adenocarcinoma of probable gastrointestinal origin (immunohistochemical analysis positive for CDX2, CK19, and CK20 and negative for CK7 and TTF1). Colonoscopy was carried out in November 2019, showing a vegetating and stenosing lesion of the sigmoid colon, biopsy-proven adenocarcinoma. The patient underwent laparoscopic rectosigmoidectomy and pelvic and retroperitoneal lymphadenectomy. Anatomopathological result was moderately differentiated invasive tubulopapillary adenocarcinoma. Peritoneal carcinomatosis was also observed. Pathological staging was pT2N2bM1.). No conspicuous lesions were reported in intestines (although colons were not adequately distended). CT-guided liver biopsy was then performed, revealing adenocarcinoma of probable gastrointestinal origin (immunohistochemical analysis positive for CDX2, CK19, and CK20 and negative for CK7 and TTF1). Colonoscopy was carried out in November 2019, showing a vegetating and stenosing lesion of the sigmoid colon, biopsy-proven adenocarcinoma. The patient underwent laparoscopic rectosigmoidectomy and pelvic and retroperitoneal lymphadenectomy. Anatomopathological result was moderately differentiated invasive tubulopapillary adenocarcinoma. Peritoneal carcinomatosis was also observed. Pathological staging was pT2N2bM1.Fig. 4A Contrast-enhanced abdominal computed tomography showing an enlarged and heterogeneous liver, with ill-defined hypoattenuating indeterminate lesions (arrow). B Abdominal magnetic resonance (T2-weighted image) depicting a suspicious intermediate signal solid nodule (arrowhead) on right hepatic lobe",
-  "relevant_image_context": "Repeated CT in October 2019 showed improvement in pulmonary congestion, signs of pericardiocentesis, and the appearance of indeterminate liver lesions, subsequently confirmed on magnetic resonance as solid nodules. No conspicuous lesions were reported in intestines (although colons were not adequately distended). CT-guided liver biopsy was then performed, revealing adenocarcinoma of probable gastrointestinal origin (immunohistochemical analysis positive for CDX2, CK19, and CK20 and negative for CK7 and TTF1). Colonoscopy was carried out in November 2019, showing a vegetating and stenosing lesion of the sigmoid colon, biopsy-proven adenocarcinoma. The patient underwent laparoscopic rectosigmoidectomy and pelvic and retroperitoneal lymphadenectomy. Anatomopathological result was moderately differentiated invasive tubulopapillary adenocarcinoma. Peritoneal carcinomatosis was also observed. Pathological staging was pT2N2bM1. B Abdominal magnetic resonance (T2-weighted image) depicting a suspicious intermediate signal solid nodule (arrowhead) on right hepatic lobe."
+  "relevant_image_context": "Repeated CT in October 2019 showed improvement in pulmonary congestion, signs of pericardiocentesis, and the appearance of indeterminate liver lesions, subsequently confirmed on magnetic resonance as solid nodules. No conspicuous lesions were reported in intestines (although colons were not adequately distended). CT-guided liver biopsy was then performed, revealing adenocarcinoma of probable gastrointestinal origin (immunohistochemical analysis positive for CDX2, CK19, and CK20 and negative for CK7 and TTF1). Colonoscopy was carried out in November 2019, showing a vegetating and stenosing lesion of the sigmoid colon, biopsy-proven adenocarcinoma. The patient underwent laparoscopic rectosigmoidectomy and pelvic and retroperitoneal lymphadenectomy. Anatomopathological result was moderately differentiated invasive tubulopapillary adenocarcinoma. Peritoneal carcinomatosis was also observed. Pathological staging was pT2N2bM1. B Abdominal magnetic resonance (T2-weighted image) depicting a suspicious intermediate signal solid nodule (arrowhead) on right hepatic lobe.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_3_filelist_commercial_batch_106_90-PMC8555127-1-13256_2021_3085_Fig4_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_106_90-PMC8555127-1-13256_2021_3085_Fig4_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "solid-appearing hepatic lesion",
+        "claim_text": "A solid-appearing focal hepatic lesion is present in the subcapsular right hepatic lobe.",
+        "presence_question": "Does the model's response discuss solid-appearing hepatic lesion?",
+        "correctness_question": "Does the model's response correctly assert that A solid-appearing focal hepatic lesion is present in the subcapsular right hepatic lobe?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lesion location in right hepatic lobe",
+        "claim_text": "The focal hepatic lesion is located in the subcapsular region of the right hepatic lobe.",
+        "presence_question": "Does the model's response discuss lesion location in right hepatic lobe?",
+        "correctness_question": "Does the model's response correctly assert that The focal hepatic lesion is located in the subcapsular region of the right hepatic lobe?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "number of hepatic lesions",
+        "claim_text": "One hepatic lesion is present in the right liver.",
+        "presence_question": "Does the model's response discuss number of hepatic lesions?",
+        "correctness_question": "Does the model's response correctly assert that One hepatic lesion is present in the right liver?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "discrete lesion margin",
+        "claim_text": "The right hepatic lesion has a discrete margin.",
+        "presence_question": "Does the model's response discuss discrete lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The right hepatic lesion has a discrete margin?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "primary tumor absence on abdominal MRI",
+        "claim_text": "No primary tumor is identified on the displayed abdominal MRI.",
+        "presence_question": "Does the model's response discuss primary tumor absence on abdominal MRI?",
+        "correctness_question": "Does the model's response correctly assert that No primary tumor is identified on the displayed abdominal MRI?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "CDX2+/CK20+/CK7- immunoprofile",
+        "claim_text": "An immunoprofile of CDX2 positive, CK20 positive, and CK7 negative typically suggests a gastrointestinal primary tumor.",
+        "presence_question": "Does the model's response discuss CDX2+/CK20+/CK7- immunoprofile?",
+        "correctness_question": "Does the model's response correctly state that an immunoprofile of CDX2 positive, CK20 positive, and CK7 negative typically suggests a gastrointestinal primary tumor?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Colonoscopy for colorectal primary",
+        "claim_text": "Colonoscopy is the preferred method to detect and sample a colorectal primary tumor by direct visualization and mucosal biopsy.",
+        "presence_question": "Does the model's response discuss colonoscopy for colorectal primary?",
+        "correctness_question": "Does the model's response correctly state that colonoscopy is the preferred method to detect and sample a colorectal primary tumor by direct visualization and mucosal biopsy?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Immunohistochemistry for tissue origin",
+        "claim_text": "Immunohistochemistry performed on a tumor biopsy can suggest the tumor's probable tissue of origin.",
+        "presence_question": "Does the model's response discuss immunohistochemistry for tissue origin?",
+        "correctness_question": "Does the model's response correctly state that immunohistochemistry performed on a tumor biopsy can suggest the tumor's probable tissue of origin?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "CT-guided liver biopsy diagnostic yield",
+        "claim_text": "CT-guided liver biopsy can obtain diagnostic tissue to identify metastatic adenocarcinoma and characterize its immunohistochemical markers.",
+        "presence_question": "Does the model's response discuss CT-guided liver biopsy diagnostic yield?",
+        "correctness_question": "Does the model's response correctly state that CT-guided liver biopsy can obtain diagnostic tissue to identify metastatic adenocarcinoma and characterize its immunohistochemical markers?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "hepatic metastasis plausibility",
+        "claim_text": "The hepatic lesion is plausibly a metastatic adenocarcinoma deposit in this case.",
+        "presence_question": "Does the model's response make an inferential link about hepatic metastasis plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that The hepatic lesion is plausibly a metastatic adenocarcinoma deposit in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "gastrointestinal primary likelihood",
+        "claim_text": "The biopsy immunoprofile supports a gastrointestinal primary as the likely origin of the adenocarcinoma in this patient.",
+        "presence_question": "Does the model's response make an inferential link about gastrointestinal primary likelihood?",
+        "correctness_question": "Does the model's response correctly conclude that The biopsy immunoprofile supports a gastrointestinal primary as the likely origin of the adenocarcinoma in this patient?",
+        "premise_perception_ids": [],
+        "premise_knowledge_ids": [
+          "k4",
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "colonoscopy justification",
+        "claim_text": "Colonoscopy is justified to localize and biopsy a suspected colorectal primary because the primary tumor is not identified on the abdominal MRI and the biopsy immunoprofile indicates a probable gastrointestinal origin.",
+        "presence_question": "Does the model's response make an inferential link about colonoscopy justification?",
+        "correctness_question": "Does the model's response correctly conclude that Colonoscopy is justified to localize and biopsy a suspected colorectal primary because the primary tumor is not identified on the abdominal MRI and the biopsy immunoprofile indicates a probable gastrointestinal origin?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

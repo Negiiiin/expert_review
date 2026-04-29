@@ -27,5 +27,119 @@
   "caption": "Thymoma and myasthenia gravis. Contrast-enhanced CT shows right prevascular mediastinal mass (arrow). CT, computed tomography.",
   "sub_caption": "Contrast-enhanced CT shows right prevascular mediastinal mass (arrow).",
   "image_context": "Thymoma typically presents as a smooth or lobular mass involving one lobe of the thymus, although bilateral involvement can occur (39). Most thymomas demonstrate homogeneous enhancement, although, approximately one third can be heterogeneous due to areas of hemorrhage, necrosis, cystic change, or calcification (1) (<xref rid=\"med-07-28-f8\" ref-type=\"fig\"><italic>Figures 8,9</italic></xref>Figures 8,9<xref rid=\"med-07-28-f9\" ref-type=\"fig\" />). Imaging characteristics can vary according to WHO histological classification, with vascular invasion and pleural/pericardial involvement more common with more aggressive histology (). Imaging characteristics can vary according to WHO histological classification, with vascular invasion and pleural/pericardial involvement more common with more aggressive histology (<xref rid=\"med-07-28-f2\" ref-type=\"fig\"><italic>Figure 2</italic></xref>). The thymomas with the more aggressive histologies tend to be larger, more lobular or irregular, have cystic or necrotic change, areas of calcification, or evidence of infiltration into surrounding fat (Figure 2). The thymomas with the more aggressive histologies tend to be larger, more lobular or irregular, have cystic or necrotic change, areas of calcification, or evidence of infiltration into surrounding fat (40-42) (<xref rid=\"med-07-28-f10\" ref-type=\"fig\"><italic>Figure 10</italic></xref>).Figure 10).",
-  "relevant_image_context": "Thymoma typically presents as a smooth or lobular mass involving one lobe of the thymus, although bilateral involvement can occur (39). Most thymomas demonstrate homogeneous enhancement, although, approximately one third can be heterogeneous due to areas of hemorrhage, necrosis, cystic change, or calcification (1) (<xref rid=\"med-07-28-f8\" ref-type=\"fig\"><italic>Figures 8,9</italic></xref>Figures 8,9<xref rid=\"med-07-28-f9\" ref-type=\"fig\" />). Imaging characteristics can vary according to WHO histological classification, with vascular invasion and pleural/pericardial involvement more common with more aggressive histology (). Imaging characteristics can vary according to WHO histological classification, with vascular invasion and pleural/pericardial involvement more common with more aggressive histology (<xref rid=\"med-07-28-f2\" ref-type=\"fig\"><italic>Figure 2</italic></xref>). The thymomas with the more aggressive histologies tend to be larger, more lobular or irregular, have cystic or necrotic change, areas of calcification, or evidence of infiltration into surrounding fat (Figure 2). The thymomas with the more aggressive histologies tend to be larger, more lobular or irregular, have cystic or necrotic change, areas of calcification, or evidence of infiltration into surrounding fat (40-42) (<xref rid=\"med-07-28-f10\" ref-type=\"fig\"><italic>Figure 10</italic></xref>).Figure 10). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Thymoma typically presents as a smooth or lobular mass involving one lobe of the thymus, although bilateral involvement can occur (39). Most thymomas demonstrate homogeneous enhancement, although, approximately one third can be heterogeneous due to areas of hemorrhage, necrosis, cystic change, or calcification (1) (<xref rid=\"med-07-28-f8\" ref-type=\"fig\"><italic>Figures 8,9</italic></xref>Figures 8,9<xref rid=\"med-07-28-f9\" ref-type=\"fig\" />). Imaging characteristics can vary according to WHO histological classification, with vascular invasion and pleural/pericardial involvement more common with more aggressive histology (). Imaging characteristics can vary according to WHO histological classification, with vascular invasion and pleural/pericardial involvement more common with more aggressive histology (<xref rid=\"med-07-28-f2\" ref-type=\"fig\"><italic>Figure 2</italic></xref>). The thymomas with the more aggressive histologies tend to be larger, more lobular or irregular, have cystic or necrotic change, areas of calcification, or evidence of infiltration into surrounding fat (Figure 2). The thymomas with the more aggressive histologies tend to be larger, more lobular or irregular, have cystic or necrotic change, areas of calcification, or evidence of infiltration into surrounding fat (40-42) (<xref rid=\"med-07-28-f10\" ref-type=\"fig\"><italic>Figure 10</italic></xref>).Figure 10). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_137_29-PMC10493619-2-med-07-28-f8.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_137_29-PMC10493619-2-med-07-28-f8.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "anterior chest rounded lesion",
+        "claim_text": "A rounded soft-tissue density intrathoracic lesion is present in the anterior chest.",
+        "presence_question": "Does the model's response discuss anterior chest rounded lesion?",
+        "correctness_question": "Does the model's response correctly assert that A rounded soft-tissue density intrathoracic lesion is present in the anterior chest?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "soft-tissue density behind sternum",
+        "claim_text": "A soft-tissue density is located immediately behind the anterior chest wall at the sternum.",
+        "presence_question": "Does the model's response discuss soft-tissue density behind sternum?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue density is located immediately behind the anterior chest wall at the sternum?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "soft-tissue density anterior to heart",
+        "claim_text": "A soft-tissue density is located directly in front of the cardiac silhouette.",
+        "presence_question": "Does the model's response discuss soft-tissue density anterior to heart?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue density is located directly in front of the cardiac silhouette?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lesion between sternum and heart",
+        "claim_text": "The lesion occupies the space between the sternum and the heart.",
+        "presence_question": "Does the model's response discuss lesion between sternum and heart?",
+        "correctness_question": "Does the model's response correctly assert that The lesion occupies the space between the sternum and the heart?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "posterior compression of aerated lung",
+        "claim_text": "The lesion compresses the adjacent aerated lung posteriorly.",
+        "presence_question": "Does the model's response discuss posterior compression of aerated lung?",
+        "correctness_question": "Does the model's response correctly assert that The lesion compresses the adjacent aerated lung posteriorly?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "rounded lesion shape",
+        "claim_text": "The lesion demonstrates a rounded contour in the anterior mediastinal region.",
+        "presence_question": "Does the model's response discuss rounded lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesion demonstrates a rounded contour in the anterior mediastinal region?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "soft-tissue density of lesion",
+        "claim_text": "The lesion demonstrates soft-tissue density in the anterior mediastinal region.",
+        "presence_question": "Does the model's response discuss soft-tissue density of lesion?",
+        "correctness_question": "Does the model's response correctly assert that The lesion demonstrates soft-tissue density in the anterior mediastinal region?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "anterior mediastinum",
+        "claim_text": "The anterior mediastinum, also called the prevascular compartment, is the mediastinal space located anterior to the heart and sternum.",
+        "presence_question": "Does the model's response discuss anterior mediastinum?",
+        "correctness_question": "Does the model's response correctly state that The anterior mediastinum, also called the prevascular compartment, is the mediastinal space located anterior to the heart and sternum?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "mediastinal compartment assignment",
+        "claim_text": "Mediastinal compartments are defined by a lesion's location relative to the heart and great vessels and to the spine.",
+        "presence_question": "Does the model's response discuss mediastinal compartment assignment?",
+        "correctness_question": "Does the model's response correctly state that Mediastinal compartments are defined by a lesion's location relative to the heart and great vessels and to the spine?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "prevascular mediastinum",
+        "claim_text": "The prevascular mediastinum is identified by lesions that lie anterior to the heart and great vessels.",
+        "presence_question": "Does the model's response discuss prevascular mediastinum?",
+        "correctness_question": "Does the model's response correctly state that The prevascular mediastinum is identified by lesions that lie anterior to the heart and great vessels?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Localization from sternal adjacency",
+        "claim_text": "These imaging findings place the lesion in the anterior (prevascular) mediastinum in this case because it is located immediately behind the sternum, directly anterior to the cardiac silhouette, and occupies the space between the sternum and heart.",
+        "presence_question": "Does the model's response make an inferential link about Localization from sternal adjacency?",
+        "correctness_question": "Does the model's response correctly conclude that These imaging findings place the lesion in the anterior (prevascular) mediastinum in this case because it is located immediately behind the sternum, directly anterior to the cardiac silhouette, and occupies the space between the sternum and heart?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Posterior lung displacement localization",
+        "claim_text": "The lesion's posterior displacement of adjacent aerated lung supports that it lies anterior to the lung, consistent with an anterior mediastinal location.",
+        "presence_question": "Does the model's response make an inferential link about Posterior lung displacement localization?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's posterior displacement of adjacent aerated lung supports that it lies anterior to the lung, consistent with an anterior mediastinal location?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

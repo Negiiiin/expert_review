@@ -27,5 +27,125 @@
   "caption": "(A) Arthroscopic view of a right knee, viewed from the anterolateral portal with the patient supine and the knee in 90° flexion. The anterior cruciate ligament is shown with a type I avulsion tear (asterisk) and an intact distal and middle part of the ligament with excellent tissue quality and vascularity (arrowhead). (B) Arthroscopic view of a right knee, viewed from the anterolateral portal with the patient supine and the knee in 90° flexion. A suture passer (arrowhead) is used to pass a No. 2 FiberWire suture through the anteromedial bundle. The suture is passed in an alternating, interlocking Bunnell-type pattern and advancing proximally when compared with the previous stitches (arrow). In the left top corner of the image, the No. 2 TigerWire sutures of the posterolateral bundle are seen (asterisk), because these were performed first in this patient.",
   "sub_caption": "(B) Arthroscopic view of a right knee, viewed from the anterolateral portal with the patient supine and the knee in 90° flexion. A suture passer (arrowhead) is used to pass a No. 2 FiberWire suture through the anteromedial bundle. The suture is passed in an alternating, interlocking Bunnell-type pattern and advancing proximally when compared with the previous stitches (arrow). In the left top corner of the image, the No. 2 TigerWire sutures of the posterolateral bundle are seen (asterisk), because these were performed first in this patient.",
   "image_context": "The patient is placed in the supine position, and the operative leg is prepped and draped as for standard knee arthroscopy. First, anteromedial and anterolateral portals are created, and a malleable Passport cannula (Arthrex, Naples, FL) is placed in the anteromedial portal for suture passage and management. A general inspection of the knee is performed for tear type and tissue quality, assessing the possibility of primary repair surgery (<xref rid=\"gr1\" ref-type=\"fig\">Fig 1</xref>A).A).7Fig 1(A) Arthroscopic view of a right knee, viewed from the anterolateral portal with the patient supine and the knee in 90° flexion. The anterior cruciate ligament is shown with a type I avulsion tear (asterisk) and an intact distal and middle part of the ligament with excellent tissue quality and vascularity (arrowhead). (B) Arthroscopic view of a right knee, viewed from the anterolateral portal with the patient supine and the knee in 90° flexion. A suture passer (arrowhead) is used to pass a No. 2 FiberWire suture through the anteromedial bundle. The suture is passed in an alternating, interlocking Bunnell-type pattern and advancing proximally when compared with the previous stitches (arrow). In the left top corner of the image, the No. 2 TigerWire sutures of the posterolateral bundle are seen (asterisk), because these were performed first in this patient. The first part of this surgical technique is similar to arthroscopic primary repair without suture augmentation.9 First, the anteromedial and posterolateral bundles of the ACL are identified, and the suturing is commenced. The sutures are passed through the anteromedial bundle using the Scorpion Suture Passer (Arthrex) with a No. 2 FiberWire suture (Arthrex) from the intact distal end in an alternating, interlocking Bunnell-type pattern toward the avulsed proximal end (<xref rid=\"gr1\" ref-type=\"fig\">Fig 1</xref>B). Three to four passes can usually be made before the final pass exits the proximal end toward the femur. Similarly, the suturing of the posterolateral bundle is performed using a No. 2 TigerWire suture (Arthrex). It should be noted that the suture-passing device should be repositioned if great resistance is experienced, because this can lead to transection of the previously passed suture.B). Three to four passes can usually be made before the final pass exits the proximal end toward the femur. Similarly, the suturing of the posterolateral bundle is performed using a No. 2 TigerWire suture (Arthrex). It should be noted that the suture-passing device should be repositioned if great resistance is experienced, because this can lead to transection of the previously passed suture.",
-  "relevant_image_context": "Arthroscopic view of a right knee, viewed from the anterolateral portal with the patient supine and the knee in 90° flexion. A suture passer (arrowhead) is used to pass a No. 2 FiberWire suture through the anteromedial bundle. The suture is passed in an alternating, interlocking Bunnell-type pattern and advancing proximally when compared with the previous stitches (arrow). In the left top corner of the image, the No. 2 TigerWire sutures of the posterolateral bundle are seen (asterisk), because these were performed first in this patient. The first part of this surgical technique is similar to arthroscopic primary repair without suture augmentation.9 First, the anteromedial and posterolateral bundles of the ACL are identified, and the suturing is commenced. The sutures are passed through the anteromedial bundle using the Scorpion Suture Passer (Arthrex) with a No. 2 FiberWire suture (Arthrex) from the intact distal end in an alternating, interlocking Bunnell-type pattern toward the avulsed proximal end. Three to four passes can usually be made before the final pass exits the proximal end toward the femur. Similarly, the suturing of the posterolateral bundle is performed using a No. 2 TigerWire suture (Arthrex). It should be noted that the suture-passing device should be repositioned if great resistance is experienced, because this can lead to transection of the previously passed suture."
+  "relevant_image_context": "Arthroscopic view of a right knee, viewed from the anterolateral portal with the patient supine and the knee in 90° flexion. A suture passer (arrowhead) is used to pass a No. 2 FiberWire suture through the anteromedial bundle. The suture is passed in an alternating, interlocking Bunnell-type pattern and advancing proximally when compared with the previous stitches (arrow). In the left top corner of the image, the No. 2 TigerWire sutures of the posterolateral bundle are seen (asterisk), because these were performed first in this patient. The first part of this surgical technique is similar to arthroscopic primary repair without suture augmentation.9 First, the anteromedial and posterolateral bundles of the ACL are identified, and the suturing is commenced. The sutures are passed through the anteromedial bundle using the Scorpion Suture Passer (Arthrex) with a No. 2 FiberWire suture (Arthrex) from the intact distal end in an alternating, interlocking Bunnell-type pattern toward the avulsed proximal end. Three to four passes can usually be made before the final pass exits the proximal end toward the femur. Similarly, the suturing of the posterolateral bundle is performed using a No. 2 TigerWire suture (Arthrex). It should be noted that the suture-passing device should be repositioned if great resistance is experienced, because this can lead to transection of the previously passed suture.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_50_23-PMC5709701-0-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_50_23-PMC5709701-0-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Suture-passing instrument presence",
+        "claim_text": "A suture-passing instrument is present in the arthroscopic field adjacent to the ligament.",
+        "presence_question": "Does the model's response discuss Suture-passing instrument presence?",
+        "correctness_question": "Does the model's response correctly assert that A suture-passing instrument is present in the arthroscopic field adjacent to the ligament?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Instrument in ligament tissue",
+        "claim_text": "The suture-passing instrument is located within ligament tissue.",
+        "presence_question": "Does the model's response discuss Instrument in ligament tissue?",
+        "correctness_question": "Does the model's response correctly assert that The suture-passing instrument is located within ligament tissue?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Previously placed suture posterior to instrument",
+        "claim_text": "A previously placed suture, marked with an asterisk, is located posterior to the suture-passing instrument.",
+        "presence_question": "Does the model's response discuss Previously placed suture posterior to instrument?",
+        "correctness_question": "Does the model's response correctly assert that A previously placed suture, marked with an asterisk, is located posterior to the suture-passing instrument?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Truncated suture end adjacent to tip",
+        "claim_text": "A truncated suture end is present immediately adjacent to the instrument tip.",
+        "presence_question": "Does the model's response discuss Truncated suture end adjacent to tip?",
+        "correctness_question": "Does the model's response correctly assert that A truncated suture end is present immediately adjacent to the instrument tip?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Appearance of truncated suture end",
+        "claim_text": "The truncated suture end appears short, irregular, and blunt-appearing.",
+        "presence_question": "Does the model's response discuss Appearance of truncated suture end?",
+        "correctness_question": "Does the model's response correctly assert that The truncated suture end appears short, irregular, and blunt-appearing?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Surgeon-reported resistance advancing sutures",
+        "claim_text": "The surgeon reported feeling resistance while advancing the sutures.",
+        "presence_question": "Does the model's response discuss Surgeon-reported resistance advancing sutures?",
+        "correctness_question": "Does the model's response correctly assert that The surgeon reported feeling resistance while advancing the sutures?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "advancing suture passer against existing suture",
+        "claim_text": "Advancing a suture passer against an existing suture can transect (cut) the existing suture.",
+        "presence_question": "Does the model's response discuss advancing a suture passer against an existing suture?",
+        "correctness_question": "Does the model's response correctly state that advancing a suture passer against an existing suture can transect (cut) the existing suture?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "arthroscopic appearance of transected suture",
+        "claim_text": "A transected (cut) suture typically appears on arthroscopy as a short, irregular, blunt-appearing truncated end.",
+        "presence_question": "Does the model's response discuss the arthroscopic appearance of a transected suture?",
+        "correctness_question": "Does the model's response correctly state that a transected (cut) suture typically appears on arthroscopy as a short, irregular, blunt-appearing truncated end?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "intraoperative resistance while advancing sutures",
+        "claim_text": "Intraoperative resistance while advancing a suture typically indicates contact with existing suture material and may signal a risk of suture transection.",
+        "presence_question": "Does the model's response discuss intraoperative resistance while advancing sutures?",
+        "correctness_question": "Does the model's response correctly state that intraoperative resistance while advancing a suture typically indicates contact with existing suture material and may signal a risk of suture transection?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Truncated suture suggests transection",
+        "claim_text": "The visual finding of a short, irregular, blunt-appearing truncated suture end adjacent to the instrument tip supports that the previously placed suture was transected in this case.",
+        "presence_question": "Does the model's response make an inferential link about Truncated suture suggests transection?",
+        "correctness_question": "Does the model's response correctly conclude that The visual finding of a short, irregular, blunt-appearing truncated suture end adjacent to the instrument tip supports that the previously placed suture was transected in this case.?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Resistance indicates instrument-suture contact",
+        "claim_text": "The intraoperative sensation of resistance while advancing sutures supports that the instrument contacted existing suture material and that this contact could have contributed to suture transection in this case.",
+        "presence_question": "Does the model's response make an inferential link about Resistance indicates instrument-suture contact?",
+        "correctness_question": "Does the model's response correctly conclude that The intraoperative sensation of resistance while advancing sutures supports that the instrument contacted existing suture material and that this contact could have contributed to suture transection in this case.?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Combined findings consistent with suture transection",
+        "claim_text": "The combination of the visual finding of a truncated suture end adjacent to the passer and the reported resistance while advancing sutures, together with the mechanism that advancing a passer against an existing suture can transect it, is consistent with a previously passed suture being transected in this case.",
+        "presence_question": "Does the model's response make an inferential link about Combined findings consistent with suture transection?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of the visual finding of a truncated suture end adjacent to the passer and the reported resistance while advancing sutures, together with the mechanism that advancing a passer against an existing suture can transect it, is consistent with a previously passed suture being transected in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

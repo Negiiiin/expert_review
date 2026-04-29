@@ -27,5 +27,92 @@
   "caption": "CT scan of the abdomen showing extensive necrosis of the head of the pancreas with peripancreatic fluid collectionCT: computed tomography",
   "sub_caption": "CT scan of the abdomen showing extensive necrosis of the head of the pancreas with peripancreatic fluid collection",
   "image_context": "However, the patient again presented to the emergency with a similar clinical picture 12 days later. An ultrasound was inconclusive due to overlying bowel gasses; however, an abdominal CT scan with contrast showed an edematous pancreas with necrosis of the pancreatic head and multiloculated prepancreatic fluid collection, denoting a pancreatic pseudocyst (Figure <xref rid=\"cureus-0016-00000054437-i04\" ref-type=\"fig\">4</xref>).).",
-  "relevant_image_context": "an abdominal CT scan with contrast showed an edematous pancreas with necrosis of the pancreatic head and multiloculated prepancreatic fluid collection, denoting a pancreatic pseudocyst."
+  "relevant_image_context": "an abdominal CT scan with contrast showed an edematous pancreas with necrosis of the pancreatic head and multiloculated prepancreatic fluid collection, denoting a pancreatic pseudocyst.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_122_109-PMC9218535-0-fmed-09-858511-g001.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_122_109-PMC9218535-0-fmed-09-858511-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "axial chest CT image",
+        "claim_text": "An axial chest CT slice is present in the study.",
+        "presence_question": "Does the model's response discuss axial chest CT image?",
+        "correctness_question": "Does the model's response correctly assert that An axial chest CT slice is present in the study.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "increased lung attenuation",
+        "claim_text": "The lung parenchyma contains multiple areas of increased attenuation.",
+        "presence_question": "Does the model's response discuss increased lung attenuation?",
+        "correctness_question": "Does the model's response correctly assert that The lung parenchyma contains multiple areas of increased attenuation.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "patchy-to-confluent pulmonary opacities",
+        "claim_text": "There are patchy-to-confluent pulmonary opacities throughout the lungs on this CT.",
+        "presence_question": "Does the model's response discuss patchy-to-confluent pulmonary opacities?",
+        "correctness_question": "Does the model's response correctly assert that There are patchy-to-confluent pulmonary opacities throughout the lungs on this CT.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "bilateral lower lung opacities",
+        "claim_text": "Opacities are located in the lower lungs bilaterally.",
+        "presence_question": "Does the model's response discuss bilateral lower lung opacities?",
+        "correctness_question": "Does the model's response correctly assert that Opacities are located in the lower lungs bilaterally.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "greater opacities on one side",
+        "claim_text": "Opacities are increased on one side compared with the opposite lung, one side particularly extensive.",
+        "presence_question": "Does the model's response discuss greater opacities on one side?",
+        "correctness_question": "Does the model's response correctly assert that Opacities are increased on one side compared with the opposite lung, one side particularly extensive.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "large lung opacities",
+        "claim_text": "The opacities are large rather than small or focal.",
+        "presence_question": "Does the model's response discuss large lung opacities?",
+        "correctness_question": "Does the model's response correctly assert that The opacities are large rather than small or focal.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "opacities involving multiple lung segments",
+        "claim_text": "The opacities extend across multiple lung segments on imaging.",
+        "presence_question": "Does the model's response discuss opacities involving multiple lung segments?",
+        "correctness_question": "Does the model's response correctly assert that The opacities extend across multiple lung segments on imaging.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Extent and confluence of lung opacities",
+        "claim_text": "The extent and confluence of lung parenchymal opacities are typically associated with the severity classification of lung disease.",
+        "presence_question": "Does the model's response discuss Extent and confluence of lung opacities?",
+        "correctness_question": "Does the model's response correctly state that the extent and confluence of lung parenchymal opacities are typically associated with the severity classification of lung disease?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Opacities indicating high severity",
+        "claim_text": "The presence of large, patchy-to-confluent bilateral lung opacities that occupy multiple lung segments and large portions of the hemithoraces supports that this case corresponds to a high (severe/extensive) severity category.",
+        "presence_question": "Does the model's response make an inferential link about Opacities indicating high severity?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of large, patchy-to-confluent bilateral lung opacities that occupy multiple lung segments and large portions of the hemithoraces supports that this case corresponds to a high (severe/extensive) severity category?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

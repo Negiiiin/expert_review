@@ -27,5 +27,229 @@
   "caption": "CT and renal artery angiography images: a Abdominopelvic non-contrast CT demonstrated abnormal left kidney contour that was interiorly displaced and externally compressed. A large but limited subcapsular collection with mixed density lateral to the left kidney was seen, with an overall size of 5.8 × 10.1 × 11.7 cm, red arrow; b Contrast-enhanced abdominopelvic CT showed renal parenchymal laceration> 1 cm in depth without collecting system rupture or urinary extravasation. The subcapsular hematoma was shrunk than before with an overall left kidney size of about 4.7 × 8.9 × 11.7 cm, red arrow. In contrast, the right kidney filled uniformly with intravenous dye and showed no obvious sign of injury; c The left kidney was significantly deformed due to suppression. Renal arteriography identified active contrast extravasation from a distant branch of the left renal artery, red arrow; d Post-embolization film showed successful obliteration of bleeding branch, red arrow",
   "sub_caption": "b Contrast-enhanced abdominopelvic CT showed renal parenchymal laceration> 1 cm in depth without collecting system rupture or urinary extravasation. The subcapsular hematoma was shrunk than before with an overall left kidney size of about 4.7 × 8.9 × 11.7 cm, red arrow. In contrast, the right kidney filled uniformly with intravenous dye and showed no obvious sign of injury;",
   "image_context": "On admission, the patient was restless but responded correctly. Physical examination revealed pallor and relatively unstable vital signs (blood pressure, 149/85 mmHg; pulse, 130 beats/min, T 36.5 °C). Inspection revealed scattered ecchymosis due to anticoagulant injections on the abdomen. Abdominal palpation showed involuntary guarding and rigidity. Left flank tenderness on deep palpation was noted. Due to general weakness and frailty, it is hard for the patient to recall when the pain started creeping up. Initial investigations revealed a hemoglobin level of 42 g/L. Serum creatinine peaked at 296.2 μmol/L. Coagulation test was relatively normal except for high d-dimer level of 1.25 mg/L (normal range < 0.24 mg/L). Bedside abdominal ultrasonography showed a large left peri-renal fluid collection. There was no history of abdominal trauma. Therefore, spontaneous perirenal hemorrhage was highly suspected. A subsequent non-contrast abdominopelvic CT scan demonstrated subcapsular and perirenal hematoma of the left kidney (Fig. <xref rid=\"12882_2021_2424_Fig1_HTML\" ref-type=\"fig\">1</xref>a). Emergency renal arteriography identified active extravasation of contrast media from a distant branch of the left renal artery (Fig. a). Emergency renal arteriography identified active extravasation of contrast media from a distant branch of the left renal artery (Fig. <xref rid=\"12882_2021_2424_Fig1_HTML\" ref-type=\"fig\">1</xref>c). Furthermore, selective transcatheter embolization effectively obliterated the bleeding spot (Fig. c). Furthermore, selective transcatheter embolization effectively obliterated the bleeding spot (Fig. <xref rid=\"12882_2021_2424_Fig1_HTML\" ref-type=\"fig\">1</xref>d). With red blood cell transfusion and closely monitoring of hemoglobin, there was no sign of active bleeding. As the bleeding stopped, the patient continued 40 mg of methylprednisolone daily since admission for major organ involvement. Four days after admission, contrast-enhanced abdominopelvic CT confirmed renal parenchymal laceration (Fig. d). With red blood cell transfusion and closely monitoring of hemoglobin, there was no sign of active bleeding. As the bleeding stopped, the patient continued 40 mg of methylprednisolone daily since admission for major organ involvement. Four days after admission, contrast-enhanced abdominopelvic CT confirmed renal parenchymal laceration (Fig. <xref rid=\"12882_2021_2424_Fig1_HTML\" ref-type=\"fig\">1</xref>b).\nb).\nFig. 1CT and renal artery angiography images: a Abdominopelvic non-contrast CT demonstrated abnormal left kidney contour that was interiorly displaced and externally compressed. A large but limited subcapsular collection with mixed density lateral to the left kidney was seen, with an overall size of 5.8 × 10.1 × 11.7 cm, red arrow; b Contrast-enhanced abdominopelvic CT showed renal parenchymal laceration> 1 cm in depth without collecting system rupture or urinary extravasation. The subcapsular hematoma was shrunk than before with an overall left kidney size of about 4.7 × 8.9 × 11.7 cm, red arrow. In contrast, the right kidney filled uniformly with intravenous dye and showed no obvious sign of injury; c The left kidney was significantly deformed due to suppression. Renal arteriography identified active contrast extravasation from a distant branch of the left renal artery, red arrow; d Post-embolization film showed successful obliteration of bleeding branch, red arrow",
-  "relevant_image_context": "Four days after admission, contrast-enhanced abdominopelvic CT confirmed renal parenchymal laceration (Fig. 1b). Contrast-enhanced abdominopelvic CT showed renal parenchymal laceration >1 cm in depth without collecting system rupture or urinary extravasation. The subcapsular hematoma was shrunk from before with an overall left kidney size of about 4.7 × 8.9 × 11.7 cm, red arrow. In contrast, the right kidney filled uniformly with intravenous dye and showed no obvious sign of injury."
+  "relevant_image_context": "Four days after admission, contrast-enhanced abdominopelvic CT confirmed renal parenchymal laceration (Fig. 1b). Contrast-enhanced abdominopelvic CT showed renal parenchymal laceration >1 cm in depth without collecting system rupture or urinary extravasation. The subcapsular hematoma was shrunk from before with an overall left kidney size of about 4.7 × 8.9 × 11.7 cm, red arrow. In contrast, the right kidney filled uniformly with intravenous dye and showed no obvious sign of injury.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_98_53-PMC8191094-0-12882_2021_2424_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_98_53-PMC8191094-0-12882_2021_2424_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Linear defect in left kidney",
+        "claim_text": "A linear defect is present in the left kidney.",
+        "presence_question": "Does the model's response discuss Linear defect in left kidney?",
+        "correctness_question": "Does the model's response correctly assert that A linear defect is present in the left kidney?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Hypodense linear defect in left renal parenchyma",
+        "claim_text": "The linear defect in the left renal parenchyma is hypodense.",
+        "presence_question": "Does the model's response discuss Hypodense linear defect in left renal parenchyma?",
+        "correctness_question": "Does the model's response correctly assert that The linear defect in the left renal parenchyma is hypodense?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Linear defect extending from cortex into parenchyma",
+        "claim_text": "The linear defect in the left kidney extends from the cortical surface into renal parenchyma.",
+        "presence_question": "Does the model's response discuss Linear defect extending from cortex into parenchyma?",
+        "correctness_question": "Does the model's response correctly assert that The linear defect in the left kidney extends from the cortical surface into renal parenchyma?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Crescentic collection adjacent to left kidney",
+        "claim_text": "A crescentic collection is present adjacent to the left kidney.",
+        "presence_question": "Does the model's response discuss Crescentic collection adjacent to left kidney?",
+        "correctness_question": "Does the model's response correctly assert that A crescentic collection is present adjacent to the left kidney?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Subcapsular collection of left kidney",
+        "claim_text": "The collection is located in the subcapsular region of the left kidney.",
+        "presence_question": "Does the model's response discuss Subcapsular collection of left kidney?",
+        "correctness_question": "Does the model's response correctly assert that The collection is located in the subcapsular region of the left kidney?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Crescentic-shaped perirenal collection",
+        "claim_text": "The collection adjacent to the left kidney has a crescentic shape.",
+        "presence_question": "Does the model's response discuss Crescentic-shaped perirenal collection?",
+        "correctness_question": "Does the model's response correctly assert that The collection adjacent to the left kidney has a crescentic shape?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Contrast enhancement of right kidney",
+        "claim_text": "The right kidney demonstrates contrast enhancement on the examined images.",
+        "presence_question": "Does the model's response discuss Contrast enhancement of right kidney?",
+        "correctness_question": "Does the model's response correctly assert that The right kidney demonstrates contrast enhancement on the examined images?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Acute abnormality in right kidney",
+        "claim_text": "No acute abnormality is identified in the right kidney.",
+        "presence_question": "Does the model's response discuss Acute abnormality in right kidney?",
+        "correctness_question": "Does the model's response correctly assert that No acute abnormality is identified in the right kidney?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Contrast extravasation into collecting system",
+        "claim_text": "There is no contrast extravasation into the collecting system on this slice.",
+        "presence_question": "Does the model's response discuss Contrast extravasation into collecting system?",
+        "correctness_question": "Does the model's response correctly assert that There is no contrast extravasation into the collecting system on this slice?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Gross fragmentation of left kidney",
+        "claim_text": "There is no gross fragmentation or shattered appearance of the left kidney.",
+        "presence_question": "Does the model's response discuss Gross fragmentation of left kidney?",
+        "correctness_question": "Does the model's response correctly assert that There is no gross fragmentation or shattered appearance of the left kidney?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "Large devascularized renal segment in left kidney",
+        "claim_text": "No large devascularized renal segment is seen in the left renal parenchyma.",
+        "presence_question": "Does the model's response discuss Large devascularized renal segment in left kidney?",
+        "correctness_question": "Does the model's response correctly assert that No large devascularized renal segment is seen in the left renal parenchyma?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "Left renal vascular pedicle injury",
+        "claim_text": "No injury to the left renal vascular pedicle is identified.",
+        "presence_question": "Does the model's response discuss Left renal vascular pedicle injury?",
+        "correctness_question": "Does the model's response correctly assert that No injury to the left renal vascular pedicle is identified?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "renal parenchymal laceration",
+        "claim_text": "Renal parenchymal lacerations typically appear as linear hypodense defects on contrast-enhanced CT extending from the cortex into the renal parenchyma.",
+        "presence_question": "Does the model's response discuss renal parenchymal laceration?",
+        "correctness_question": "Does the model's response correctly state that renal parenchymal lacerations typically appear as linear hypodense defects on contrast-enhanced CT extending from the cortex into the renal parenchyma?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "contrast extravasation into collecting system",
+        "claim_text": "Contrast extravasation into the collecting system typically indicates a collecting-system rupture or urinary tract leak.",
+        "presence_question": "Does the model's response discuss contrast extravasation into the collecting system?",
+        "correctness_question": "Does the model's response correctly state that contrast extravasation into the collecting system typically indicates a collecting-system rupture or urinary tract leak?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "shattered kidney (gross fragmentation)",
+        "claim_text": "Gross fragmentation or a 'shattered' appearance of the kidney is typically associated with high-severity renal injury.",
+        "presence_question": "Does the model's response discuss a shattered kidney or gross fragmentation?",
+        "correctness_question": "Does the model's response correctly state that gross fragmentation or a 'shattered' appearance of the kidney is typically associated with high-severity renal injury?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "large devascularized renal segment or pedicle injury",
+        "claim_text": "A large devascularized renal segment or injury to the renal vascular pedicle typically indicates major vascular injury and greater renal injury severity.",
+        "presence_question": "Does the model's response discuss a large devascularized renal segment or vascular pedicle injury?",
+        "correctness_question": "Does the model's response correctly state that a large devascularized renal segment or injury to the renal vascular pedicle typically indicates major vascular injury and greater renal injury severity?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "subcapsular hematoma",
+        "claim_text": "A crescentic collection adjacent to the renal cortex on imaging is characteristic of a subcapsular hematoma.",
+        "presence_question": "Does the model's response discuss subcapsular hematoma?",
+        "correctness_question": "Does the model's response correctly state that a crescentic collection adjacent to the renal cortex on imaging is characteristic of a subcapsular hematoma?"
+      },
+      {
+        "knowledge_id": "k6",
+        "topic": "deep parenchymal laceration with subcapsular hematoma",
+        "claim_text": "A single deep parenchymal laceration with subcapsular hematoma without collecting-system rupture or major vascular injury corresponds to a moderate (intermediate) renal injury severity category.",
+        "presence_question": "Does the model's response discuss a single deep parenchymal laceration with subcapsular hematoma?",
+        "correctness_question": "Does the model's response correctly state that a single deep parenchymal laceration with subcapsular hematoma without collecting-system rupture or major vascular injury corresponds to a moderate (intermediate) renal injury severity category?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "left renal parenchymal laceration",
+        "claim_text": "The linear hypodense defect in the left kidney supports the presence of a left renal parenchymal laceration.",
+        "presence_question": "Does the model's response make an inferential link about left renal parenchymal laceration?",
+        "correctness_question": "Does the model's response correctly conclude that The linear hypodense defect in the left kidney supports the presence of a left renal parenchymal laceration?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "left subcapsular hematoma",
+        "claim_text": "The crescentic collection adjacent to the left kidney supports the presence of a left subcapsular hematoma.",
+        "presence_question": "Does the model's response make an inferential link about left subcapsular hematoma?",
+        "correctness_question": "Does the model's response correctly conclude that The crescentic collection adjacent to the left kidney supports the presence of a left subcapsular hematoma?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "collecting-system rupture",
+        "claim_text": "Absence of contrast extravasation into the collecting system argues against a collecting-system rupture on this image.",
+        "presence_question": "Does the model's response make an inferential link about collecting-system rupture?",
+        "correctness_question": "Does the model's response correctly conclude that Absence of contrast extravasation into the collecting system argues against a collecting-system rupture on this image?",
+        "premise_perception_ids": [
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "major renal vascular injury or shattered kidney",
+        "claim_text": "Absence of gross fragmentation, a large devascularized segment, or vascular pedicle injury argues against major renal vascular injury or a shattered kidney on this image.",
+        "presence_question": "Does the model's response make an inferential link about major renal vascular injury or shattered kidney?",
+        "correctness_question": "Does the model's response correctly conclude that Absence of gross fragmentation, a large devascularized segment, or vascular pedicle injury argues against major renal vascular injury or a shattered kidney on this image?",
+        "premise_perception_ids": [
+          "p10",
+          "p11",
+          "p12"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "left renal injury severity category",
+        "claim_text": "The combination of a single deep parenchymal laceration and a subcapsular hematoma, without collecting-system rupture or major vascular injury, is most consistent with a moderate left renal injury severity category in this case.",
+        "presence_question": "Does the model's response make an inferential link about left renal injury severity category?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a single deep parenchymal laceration and a subcapsular hematoma, without collecting-system rupture or major vascular injury, is most consistent with a moderate left renal injury severity category in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p9",
+          "p10",
+          "p11",
+          "p12"
+        ],
+        "premise_knowledge_ids": [
+          "k6",
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

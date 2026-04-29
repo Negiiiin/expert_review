@@ -27,5 +27,113 @@
   "caption": "Axial T2-weighted fast spin echo (FSE) MR image demonstrates a focus of irregular low signal intensity (arrow) anterior to the coronoid fossa, representing an intra-articular body. This is made more conspicuous by the small joint effusion surrounding the loose body. [Powerpoint Slide]",
   "sub_caption": "Axial T2-weighted fast spin echo (FSE) MR image demonstrates a focus of irregular low signal intensity (arrow) anterior to the coronoid fossa, representing an intra-articular body. This is made more conspicuous by the small joint effusion surrounding the loose body.",
   "image_context": "MR image of the elbow was then ordered to validate and characterize location, consistency and mobility of the loose body and provide more diagnostic information before referral to the orthopedic varsity team consultant. Axial and coronal T2-weighted Fast Spin Echo images demonstrated an irregular low signal intensity anterior to the coronoid fossa and surrounded by fluid (<xref rid=\"gr2a\" ref-type=\"fig\">Figure 2A</xref>, , <xref rid=\"gr2b\" ref-type=\"fig\">Figure 2B</xref>).).",
-  "relevant_image_context": "MR image of the elbow was ordered to validate and characterize location, consistency and mobility of the loose body and provide more diagnostic information before referral to the orthopedic varsity team consultant. Axial and coronal T2-weighted Fast Spin Echo images demonstrated an irregular low signal intensity anterior to the coronoid fossa and surrounded by fluid, consistent with an intra-articular loose body."
+  "relevant_image_context": "MR image of the elbow was ordered to validate and characterize location, consistency and mobility of the loose body and provide more diagnostic information before referral to the orthopedic varsity team consultant. Axial and coronal T2-weighted Fast Spin Echo images demonstrated an irregular low signal intensity anterior to the coronoid fossa and surrounded by fluid, consistent with an intra-articular loose body.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_32_21-PMC4891554-3-gr2a.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_32_21-PMC4891554-3-gr2a.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Marked focus location",
+        "claim_text": "A marked focal lesion is located in the joint region.",
+        "presence_question": "Does the model's response discuss Marked focus location?",
+        "correctness_question": "Does the model's response correctly assert that A marked focal lesion is located in the joint region?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Marked focus signal intensity",
+        "claim_text": "The marked focus demonstrates low signal intensity in the joint region.",
+        "presence_question": "Does the model's response discuss Marked focus signal intensity?",
+        "correctness_question": "Does the model's response correctly assert that The marked focus demonstrates low signal intensity in the joint region?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Marked focus margins",
+        "claim_text": "The marked focus has well-defined margins in the joint region.",
+        "presence_question": "Does the model's response discuss Marked focus margins?",
+        "correctness_question": "Does the model's response correctly assert that The marked focus has well-defined margins in the joint region?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Surrounding joint fluid signal",
+        "claim_text": "Surrounding joint fluid in the joint recesses shows higher signal intensity.",
+        "presence_question": "Does the model's response discuss Surrounding joint fluid signal?",
+        "correctness_question": "Does the model's response correctly assert that Surrounding joint fluid in the joint recesses shows higher signal intensity?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Other discrete dark foci absence",
+        "claim_text": "No other discrete dark foci are present elsewhere in the field of view.",
+        "presence_question": "Does the model's response discuss Other discrete dark foci absence?",
+        "correctness_question": "Does the model's response correctly assert that No other discrete dark foci are present elsewhere in the field of view?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Distinct foci count",
+        "claim_text": "There is one distinct focus in the imaged joint region.",
+        "presence_question": "Does the model's response discuss Distinct foci count?",
+        "correctness_question": "Does the model's response correctly assert that There is one distinct focus in the imaged joint region?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Low signal intensity",
+        "claim_text": "Low signal intensity appears dark on an image.",
+        "presence_question": "Does the model's response discuss Low signal intensity?",
+        "correctness_question": "Does the model's response correctly state that Low signal intensity appears dark on an image?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Higher signal intensity",
+        "claim_text": "Higher signal intensity appears brighter on an image than low signal intensity.",
+        "presence_question": "Does the model's response discuss Higher signal intensity?",
+        "correctness_question": "Does the model's response correctly state that Higher signal intensity appears brighter on an image than low signal intensity?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Distinct foci",
+        "claim_text": "Distinct foci are separate, demarcated lesions that share a similar appearance.",
+        "presence_question": "Does the model's response discuss Distinct foci?",
+        "correctness_question": "Does the model's response correctly state that Distinct foci are separate, demarcated lesions that share a similar appearance?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "count of distinct foci",
+        "claim_text": "The single well-defined, low-signal focus in the joint and the absence of other similar discrete dark foci support that there is one distinct focus on this image.",
+        "presence_question": "Does the model's response make an inferential link about count of distinct foci?",
+        "correctness_question": "Does the model's response correctly conclude that The single well-defined, low-signal focus in the joint and the absence of other similar discrete dark foci support that there is one distinct focus on this image?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "focus distinct from joint fluid",
+        "claim_text": "The marked focus's low signal intensity contrasted with surrounding higher-signal joint fluid is consistent with the focus being distinct from the joint fluid.",
+        "presence_question": "Does the model's response make an inferential link about focus distinct from joint fluid?",
+        "correctness_question": "Does the model's response correctly conclude that The marked focus's low signal intensity contrasted with surrounding higher-signal joint fluid is consistent with the focus being distinct from the joint fluid?",
+        "premise_perception_ids": [
+          "p2",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,105 @@
   "caption": "CT scan of the abdomen showing hemonephrosis, hemorrhage in left retroperitoneum and a large subscapular fluid collection along posterior cortical margin of the left kidney.",
   "sub_caption": "CT scan of the abdomen showing hemonephrosis, hemorrhage in left retroperitoneum and a large subscapular fluid collection along posterior cortical margin of the left kidney.",
   "image_context": "A 56-year-old male with cystinuria and chronic kidney disease (BUN 19 mg/dL, creatinine 1.8 mg/dL) presented for PCNL and holmium laser lithotripsy of left cysteine staghorn calculus. The procedure was performed with the patient under general anesthesia in the prone position. Percutaneous access via supracostal approach to the posterior aspect of the upper pole of the left kidney was established under endoscopic and fluoroscopic guidance. The procedure lasted approximately 6 h requiring extensive laser treatment and placement of an ureteral stent. Immediate postoperative chest radiograph revealed no evidence of pneumothorax, consolidation or pleural effusion. On postoperative day one (POD) 1, patient developed tachycardia and persistent oxygen desaturation. A repeat chest x-ray showed no evidence of consolidation, pleural effusion, or pneumothorax at that time (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). A ventilation/perfusion scan was obtained that reported high probability of pulmonary embolism and heparin infusion was initiated and titrated to a thromboplastin time goal of 60–90 seconds. On POD 3, the anticoagulation was discontinued secondary to the development of hematuria and acute blood loss anemia (from 13.9 g/dl to 9.2g/dl). In addition, the patient developed worsening kidney injury and the serum creatinine increased to 6.1 mg/dl. A CT scan revealed significant blood collection in the left renal collecting system with moderate perinephric hematoma (). A ventilation/perfusion scan was obtained that reported high probability of pulmonary embolism and heparin infusion was initiated and titrated to a thromboplastin time goal of 60–90 seconds. On POD 3, the anticoagulation was discontinued secondary to the development of hematuria and acute blood loss anemia (from 13.9 g/dl to 9.2g/dl). In addition, the patient developed worsening kidney injury and the serum creatinine increased to 6.1 mg/dl. A CT scan revealed significant blood collection in the left renal collecting system with moderate perinephric hematoma (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>), however there was no evidence of focal consolidation, pleural effusion, or pneumothorax (), however there was no evidence of focal consolidation, pleural effusion, or pneumothorax (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>). Emergent transthoracic echocardiogram showed normal left and right ventricular size and function. Patient was scheduled for emergent cystoscopy and ureteral stent exchange.). Emergent transthoracic echocardiogram showed normal left and right ventricular size and function. Patient was scheduled for emergent cystoscopy and ureteral stent exchange.Fig. 1CT scan of the abdomen showing hemonephrosis, hemorrhage in left retroperitoneum and a large subscapular fluid collection along posterior cortical margin of the left kidney.Fig. 1Fig. 2Chest radiograph POD 3, 1 h prior to arrival to preoperative care unit and acute decompensation showing no evidence pleural effusion.Fig. 2",
-  "relevant_image_context": "Fig. 1CT scan of the abdomen showing hemonephrosis, hemorrhage in left retroperitoneum and a large subscapular fluid collection along posterior cortical margin of the left kidney. A CT scan revealed significant blood collection in the left renal collecting system with moderate perinephric hematoma (Fig. 1)."
+  "relevant_image_context": "Fig. 1CT scan of the abdomen showing hemonephrosis, hemorrhage in left retroperitoneum and a large subscapular fluid collection along posterior cortical margin of the left kidney. A CT scan revealed significant blood collection in the left renal collecting system with moderate perinephric hematoma (Fig. 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_84_21-PMC7573947-2-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_84_21-PMC7573947-2-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left perinephric/renal subcapsular hyperdense collection",
+        "claim_text": "A hyperdense collection is present in the left perinephric and renal subcapsular region.",
+        "presence_question": "Does the model's response discuss left perinephric/renal subcapsular hyperdense collection?",
+        "correctness_question": "Does the model's response correctly assert that A hyperdense collection is present in the left perinephric and renal subcapsular region?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "left renal collecting system high-attenuation material",
+        "claim_text": "High-attenuation material is present in the left renal collecting system.",
+        "presence_question": "Does the model's response discuss left renal collecting system high-attenuation material?",
+        "correctness_question": "Does the model's response correctly assert that High-attenuation material is present in the left renal collecting system?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "ongoing significant hemorrhage",
+        "claim_text": "Ongoing significant hemorrhage contraindicates therapeutic anticoagulation and systemic thrombolysis.",
+        "presence_question": "Does the model's response discuss ongoing significant hemorrhage?",
+        "correctness_question": "Does the model's response correctly state that ongoing significant hemorrhage contraindicates therapeutic anticoagulation and systemic thrombolysis?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "temporary retrievable IVC filter",
+        "claim_text": "A temporary retrievable IVC filter provides mechanical protection from further emboli when anticoagulation cannot be given.",
+        "presence_question": "Does the model's response discuss temporary retrievable IVC filters?",
+        "correctness_question": "Does the model's response correctly state that a temporary retrievable IVC filter provides mechanical protection from further emboli when anticoagulation cannot be given?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "renal or perinephric hemorrhage",
+        "claim_text": "Renal or perinephric hemorrhage can present with gross hematuria, acute blood-loss anemia, and worsening renal function.",
+        "presence_question": "Does the model's response discuss renal or perinephric hemorrhage?",
+        "correctness_question": "Does the model's response correctly state that renal or perinephric hemorrhage can present with gross hematuria, acute blood-loss anemia, and worsening renal function?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "retrievable IVC filters",
+        "claim_text": "Retrievable IVC filters can be removed later when bleeding is controlled and anticoagulation can be restarted.",
+        "presence_question": "Does the model's response discuss retrievable IVC filters?",
+        "correctness_question": "Does the model's response correctly state that retrievable IVC filters can be removed later when bleeding is controlled and anticoagulation can be restarted?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "renal/perinephric hemorrhage diagnosis",
+        "claim_text": "The presence of a left perinephric/renal subcapsular hyperdense collection and high-attenuation material within the left collecting system is consistent with renal/perinephric hemorrhage in this case.",
+        "presence_question": "Does the model's response make an inferential link about renal/perinephric hemorrhage diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a left perinephric/renal subcapsular hyperdense collection and high-attenuation material within the left collecting system is consistent with renal/perinephric hemorrhage in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "therapeutic anticoagulation or thrombolysis safety",
+        "claim_text": "Because imaging shows ongoing hemorrhage around the left kidney and ongoing significant hemorrhage contraindicates therapeutic anticoagulation or systemic thrombolysis, therapeutic anticoagulation or systemic thrombolysis is unsafe in this patient now.",
+        "presence_question": "Does the model's response make an inferential link about therapeutic anticoagulation or thrombolysis safety?",
+        "correctness_question": "Does the model's response correctly conclude that Because imaging shows ongoing hemorrhage around the left kidney and ongoing significant hemorrhage contraindicates therapeutic anticoagulation or systemic thrombolysis, therapeutic anticoagulation or systemic thrombolysis is unsafe in this patient now.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "temporary retrievable IVC filter as management",
+        "claim_text": "Given imaging evidence of active renal/perinephric hemorrhage that makes anticoagulation unsafe, placing a temporary retrievable IVC filter is a plausible management option to protect against further emboli until bleeding is controlled and anticoagulation can be resumed.",
+        "presence_question": "Does the model's response make an inferential link about temporary retrievable IVC filter as management?",
+        "correctness_question": "Does the model's response correctly conclude that Given imaging evidence of active renal/perinephric hemorrhage that makes anticoagulation unsafe, placing a temporary retrievable IVC filter is a plausible management option to protect against further emboli until bleeding is controlled and anticoagulation can be resumed.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

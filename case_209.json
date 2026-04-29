@@ -28,5 +28,135 @@
   "caption": "Ultrasound image showing anatomic relations between external oblique muscle (EO), internal oblique muscle (IO) and transversus abdominis muscle (TA). Arrow is depicting neurovascular bundle in the course of the ilioinguinal nerve, the injection for should be performed in its plane. (BA) bowel air. L – lateral, M – medial",
   "sub_caption": "Ultrasound image showing anatomic relations between external oblique muscle (EO), internal oblique muscle (IO) and transversus abdominis muscle (TA). Arrow is depicting neurovascular bundle in the course of the ilioinguinal nerve, the injection for should be performed in its plane. (BA) bowel air. L – lateral, M – medial",
   "image_context": "US-guided nerve block is usually performed to the ilioinguinal and iliohypogastric nerves simultaneously due to an overlap in clinical presentation(5,44,45). MRI is helpful in order to exclude lumbar radiculopathies and potential masses in the course of the nerve(57,58). In order to depict the ilioinguinal nerve, a high-frequency linear transducer is placed over the anterior superior iliac spine and slowly moved along the anterior superior iliac spine – umbilicus line. In the deep fascial layer, the ilioinguinal nerve lies between the internal oblique and transverse muscles, lateral to the iliohypogastric nerve at the level of the anterior superior iliac spine. With the in-plane technique, a needle is advanced through the subcutaneous tissue, and the external and internal oblique muscles towards the fascial plane between the internal oblique muscle and the transversus abdominis muscle(54,59,60). It needs to be noted that precise nerve targeting is not essential, as the injection will spread in the fascial plane between the internal oblique muscle and the transversus abdominis muscle, where the sensory nerves from T6 to L1 spinal roots innervate the anterolateral abdominal wall, including the ilioinguinal nerve. In anesthesiology, the infiltration in the described fascial plane is reffered to as the transverse abdominis plane (TAP) block(61,62). Differences in the analgetic result have been described depending on the approach (lateral, posterior or subcostal) is used for performing the TAP block (<xref ref-type=\"fig\" rid=\"jou-21-85-e139-g004\">Fig. 4</xref>))(61).",
-  "relevant_image_context": "US-guided nerve block is usually performed to the ilioinguinal and iliohypogastric nerves simultaneously due to an overlap in clinical presentation(5,44,45). MRI is helpful in order to exclude lumbar radiculopathies and potential masses in the course of the nerve(57,58). In order to depict the ilioinguinal nerve, a high-frequency linear transducer is placed over the anterior superior iliac spine and slowly moved along the anterior superior iliac spine – umbilicus line. In the deep fascial layer, the ilioinguinal nerve lies between the internal oblique and transverse muscles, lateral to the iliohypogastric nerve at the level of the anterior superior iliac spine. With the in-plane technique, a needle is advanced through the subcutaneous tissue, and the external and internal oblique muscles towards the fascial plane between the internal oblique muscle and the transversus abdominis muscle(54,59,60). It needs to be noted that precise nerve targeting is not essential, as the injection will spread in the fascial plane between the internal oblique muscle and the transversus abdominis muscle, where the sensory nerves from T6 to L1 spinal roots innervate the anterolateral abdominal wall, including the ilioinguinal nerve. In anesthesiology, the infiltration in the described fascial plane is reffered to as the transverse abdominis plane (TAP) block(61,62). Differences in the analgetic result have been described depending on the approach (lateral, posterior or subcostal) is used for performing the TAP block (Fig. 4))(61)."
+  "relevant_image_context": "US-guided nerve block is usually performed to the ilioinguinal and iliohypogastric nerves simultaneously due to an overlap in clinical presentation(5,44,45). MRI is helpful in order to exclude lumbar radiculopathies and potential masses in the course of the nerve(57,58). In order to depict the ilioinguinal nerve, a high-frequency linear transducer is placed over the anterior superior iliac spine and slowly moved along the anterior superior iliac spine – umbilicus line. In the deep fascial layer, the ilioinguinal nerve lies between the internal oblique and transverse muscles, lateral to the iliohypogastric nerve at the level of the anterior superior iliac spine. With the in-plane technique, a needle is advanced through the subcutaneous tissue, and the external and internal oblique muscles towards the fascial plane between the internal oblique muscle and the transversus abdominis muscle(54,59,60). It needs to be noted that precise nerve targeting is not essential, as the injection will spread in the fascial plane between the internal oblique muscle and the transversus abdominis muscle, where the sensory nerves from T6 to L1 spinal roots innervate the anterolateral abdominal wall, including the ilioinguinal nerve. In anesthesiology, the infiltration in the described fascial plane is reffered to as the transverse abdominis plane (TAP) block(61,62). Differences in the analgetic result have been described depending on the approach (lateral, posterior or subcostal) is used for performing the TAP block (Fig. 4))(61).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_96_32-PMC8264816-4-jou-21-85-e139-g004.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_96_32-PMC8264816-4-jou-21-85-e139-g004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "external oblique muscle layer",
+        "claim_text": "The external oblique muscle layer is visible in the anterolateral abdominal wall on the ultrasound image.",
+        "presence_question": "Does the model's response discuss the external oblique muscle layer?",
+        "correctness_question": "Does the model's response correctly assert that The external oblique muscle layer is visible in the anterolateral abdominal wall on the ultrasound image.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "internal oblique muscle layer",
+        "claim_text": "The internal oblique muscle layer is visible in the anterolateral abdominal wall on the ultrasound image.",
+        "presence_question": "Does the model's response discuss the internal oblique muscle layer?",
+        "correctness_question": "Does the model's response correctly assert that The internal oblique muscle layer is visible in the anterolateral abdominal wall on the ultrasound image.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "small ovoid structure shape",
+        "claim_text": "A small structure has an ovoid shape on the ultrasound image.",
+        "presence_question": "Does the model's response discuss small ovoid structure shape?",
+        "correctness_question": "Does the model's response correctly assert that A small structure has an ovoid shape on the ultrasound image.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "small ovoid structure echogenicity",
+        "claim_text": "The small ovoid structure appears hypoechoic on the ultrasound image.",
+        "presence_question": "Does the model's response discuss small ovoid structure echogenicity?",
+        "correctness_question": "Does the model's response correctly assert that The small ovoid structure appears hypoechoic on the ultrasound image.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "position between oblique muscle layers",
+        "claim_text": "The small ovoid structure lies between the external oblique and internal oblique muscle layers in the anterolateral abdominal wall.",
+        "presence_question": "Does the model's response discuss the position between oblique muscle layers?",
+        "correctness_question": "Does the model's response correctly assert that The small ovoid structure lies between the external oblique and internal oblique muscle layers in the anterolateral abdominal wall.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "small ovoid structure location",
+        "claim_text": "The small ovoid structure is located in the anterolateral abdominal wall on ultrasound.",
+        "presence_question": "Does the model's response discuss the small ovoid structure location?",
+        "correctness_question": "Does the model's response correctly assert that The small ovoid structure is located in the anterolateral abdominal wall on ultrasound.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "superficial abdominal nerve segment",
+        "claim_text": "The superficial segment of the abdominal wall nerve is visible in the superficial anterolateral abdominal wall on ultrasound.",
+        "presence_question": "Does the model's response discuss the superficial abdominal nerve segment?",
+        "correctness_question": "Does the model's response correctly assert that The superficial segment of the abdominal wall nerve is visible in the superficial anterolateral abdominal wall on ultrasound.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "lumbar nerve roots",
+        "claim_text": "Lumbar nerve roots are not visualized along the lumbar spine or retroperitoneal course on ultrasound.",
+        "presence_question": "Does the model's response discuss lumbar nerve roots?",
+        "correctness_question": "Does the model's response correctly assert that Lumbar nerve roots are not visualized along the lumbar spine or retroperitoneal course on ultrasound.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "deeper pelvic and retroperitoneal nerve course",
+        "claim_text": "The deeper pelvic and retroperitoneal course of the nerve is not visualized on ultrasound.",
+        "presence_question": "Does the model's response discuss the deeper pelvic and retroperitoneal nerve course?",
+        "correctness_question": "Does the model's response correctly assert that The deeper pelvic and retroperitoneal course of the nerve is not visualized on ultrasound.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Lumbar nerve roots and pelvic/retroperitoneal areas",
+        "claim_text": "Lumbar nerve roots and pelvic/retroperitoneal areas are typically visualized on MRI of the lumbar spine and pelvis.",
+        "presence_question": "Does the model's response discuss Lumbar nerve roots and pelvic/retroperitoneal areas?",
+        "correctness_question": "Does the model's response correctly state that Lumbar nerve roots and pelvic/retroperitoneal areas are typically visualized on MRI of the lumbar spine and pelvis?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Superficial abdominal wall nerve segments",
+        "claim_text": "Superficial abdominal wall nerve segments are typically visualized on abdominal wall ultrasound.",
+        "presence_question": "Does the model's response discuss Superficial abdominal wall nerve segments?",
+        "correctness_question": "Does the model's response correctly state that Superficial abdominal wall nerve segments are typically visualized on abdominal wall ultrasound?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "MRI of the lumbar spine and pelvis",
+        "claim_text": "MRI of the lumbar spine and pelvis is typically better for evaluating radiculopathy and masses along the proximal nerve course.",
+        "presence_question": "Does the model's response discuss MRI of the lumbar spine and pelvis?",
+        "correctness_question": "Does the model's response correctly state that MRI of the lumbar spine and pelvis is typically better for evaluating radiculopathy and masses along the proximal nerve course?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Peripheral cutaneous nerve inference",
+        "claim_text": "The ultrasound finding of a small ovoid, hypoechoic structure between the external and internal oblique muscles in the anterolateral abdominal wall supports that it is a peripheral cutaneous nerve.",
+        "presence_question": "Does the model's response make an inferential link about Peripheral cutaneous nerve inference?",
+        "correctness_question": "Does the model's response correctly conclude that The ultrasound finding of a small ovoid, hypoechoic structure between the external and internal oblique muscles in the anterolateral abdominal wall supports that it is a peripheral cutaneous nerve?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Justifying MRI of lumbar spine and pelvis",
+        "claim_text": "The lack of ultrasound visualization of the lumbar nerve roots and the deeper pelvic/retroperitoneal course justifies performing MRI of the lumbar spine and pelvis to evaluate for radiculopathy or a proximal mass that could explain the peripheral ultrasound findings.",
+        "presence_question": "Does the model's response make an inferential link about Justifying MRI of lumbar spine and pelvis?",
+        "correctness_question": "Does the model's response correctly conclude that The lack of ultrasound visualization of the lumbar nerve roots and the deeper pelvic/retroperitoneal course justifies performing MRI of the lumbar spine and pelvis to evaluate for radiculopathy or a proximal mass that could explain the peripheral ultrasound findings?",
+        "premise_perception_ids": [
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

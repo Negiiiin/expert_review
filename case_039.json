@@ -27,5 +27,111 @@
   "caption": "A sagittal view of MRI pelvis showing the (1) endometrial cavity, (2) the pedicle of the prolapsed fibroid, and the (3) prolapsed fibroid in the vagina.",
   "sub_caption": "A sagittal view of MRI pelvis showing the (1) endometrial cavity, (2) the pedicle of the prolapsed fibroid, and the (3) prolapsed fibroid in the vagina.",
   "image_context": "A 36-year-old nulliparous widow was admitted with a history of heavy menstrual bleeding and symptoms of anemia. She gave a history of uterine fibroids and heavy prolonged menstrual flow lasting six months. She had a blood transfusion in another hospital four months before this admission for the same reasons. She was otherwise healthy. At presentation, she was pale and tachycardic with normal blood pressure. On abdominal examination, the uterus was palpable corresponding to 16 weeks pregnancy. On vaginal examination, there was a large friable myoma tightly impacted vaginally with inability to visualize or palpate the cervix. Her hemoglobin was 80 g/L and platelets 260 × 106/L with a normal coagulation profile. Pelvic ultrasound showed three intramural fibroids, 3–5 cm in diameter with a vaginal mass details which were difficult to delineate. Magnetic resonance imaging (MRI) showed a large prolapsed vaginal leiomyoma measuring 10 × 11 cm [<xref ref-type=\"fig\" rid=\"OMJ-D-17-00153-f1\">Figure 1</xref>]. The pedicle of the myoma arose from the fundus of the uterine cavity. The cervix was stretched out but appeared grossly normal. Informed consent was obtained for vaginal myomectomy for the prolapsed fibroid and possible hysteroscopic myomectomy for the submucous fibroid. She agreed to a possible hysterectomy only if it was a necessary lifesaving emergency intervention. Her preoperative anemia was corrected.]. The pedicle of the myoma arose from the fundus of the uterine cavity. The cervix was stretched out but appeared grossly normal. Informed consent was obtained for vaginal myomectomy for the prolapsed fibroid and possible hysteroscopic myomectomy for the submucous fibroid. She agreed to a possible hysterectomy only if it was a necessary lifesaving emergency intervention. Her preoperative anemia was corrected.",
-  "relevant_image_context": "Magnetic resonance imaging (MRI) showed a large prolapsed vaginal leiomyoma measuring 10 × 11 cm. The pedicle of the myoma arose from the fundus of the uterine cavity. The cervix was stretched out but appeared grossly normal."
+  "relevant_image_context": "Magnetic resonance imaging (MRI) showed a large prolapsed vaginal leiomyoma measuring 10 × 11 cm. The pedicle of the myoma arose from the fundus of the uterine cavity. The cervix was stretched out but appeared grossly normal.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_72_35-PMC6851067-0-OMJ-D-17-00153-f1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_72_35-PMC6851067-0-OMJ-D-17-00153-f1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "pelvic mass",
+        "claim_text": "A pelvic mass is present within the pelvis on the sagittal pelvic MRI.",
+        "presence_question": "Does the model's response discuss pelvic mass?",
+        "correctness_question": "Does the model's response correctly assert that A pelvic mass is present within the pelvis on the sagittal pelvic MRI?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "mass location in lower pelvis",
+        "claim_text": "The pelvic mass is located in the lower pelvis on the sagittal pelvic MRI.",
+        "presence_question": "Does the model's response discuss mass location in lower pelvis?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass is located in the lower pelvis on the sagittal pelvic MRI?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "extension into vaginal canal",
+        "claim_text": "The pelvic mass extends into the vaginal canal on the sagittal pelvic MRI.",
+        "presence_question": "Does the model's response discuss extension into vaginal canal?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass extends into the vaginal canal on the sagittal pelvic MRI?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "mass size",
+        "claim_text": "The pelvic mass measures approximately 98–110 mm (about 10 × 11 cm).",
+        "presence_question": "Does the model's response discuss mass size?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass measures approximately 98–110 mm (about 10 × 11 cm)?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "adjacency to uterine region",
+        "claim_text": "The pelvic mass is adjacent to the uterine region on the sagittal pelvic MRI.",
+        "presence_question": "Does the model's response discuss adjacency to uterine region?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass is adjacent to the uterine region on the sagittal pelvic MRI?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "extension to vaginal introitus",
+        "claim_text": "The pelvic mass extends to the vaginal introitus on the sagittal pelvic MRI.",
+        "presence_question": "Does the model's response discuss extension to vaginal introitus?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass extends to the vaginal introitus on the sagittal pelvic MRI?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "mass margins",
+        "claim_text": "The pelvic mass has well-defined margins on the sagittal pelvic MRI.",
+        "presence_question": "Does the model's response discuss mass margins?",
+        "correctness_question": "Does the model's response correctly assert that The pelvic mass has well-defined margins on the sagittal pelvic MRI?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "pelvic mass extending into the vaginal canal",
+        "claim_text": "Pelvic masses extending into the vaginal canal are typically palpable or visible at the vaginal introitus.",
+        "presence_question": "Does the model's response discuss pelvic mass extending into the vaginal canal?",
+        "correctness_question": "Does the model's response correctly state that pelvic masses extending into the vaginal canal are typically palpable or visible at the vaginal introitus?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "mass contiguous with uterus on imaging",
+        "claim_text": "A mass contiguous with the uterine region on imaging typically suggests a uterine origin.",
+        "presence_question": "Does the model's response discuss mass contiguous with uterus on imaging?",
+        "correctness_question": "Does the model's response correctly state that a mass contiguous with the uterine region on imaging typically suggests a uterine origin?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "prolapsing mass at vaginal introitus",
+        "claim_text": "The imaged large pelvic mass that extends into the vaginal canal and to the introitus supports that a prolapsing mass palpable or visible at the vaginal introitus is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about prolapsing mass at vaginal introitus?",
+        "correctness_question": "Does the model's response correctly conclude that The imaged large pelvic mass that extends into the vaginal canal and to the introitus supports that a prolapsing mass palpable or visible at the vaginal introitus is plausible in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p4",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "uterine origin of pelvic mass",
+        "claim_text": "The mass appearing contiguous with the uterine region on MRI supports that a uterine origin for the mass is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about uterine origin of pelvic mass?",
+        "correctness_question": "Does the model's response correctly conclude that The mass appearing contiguous with the uterine region on MRI supports that a uterine origin for the mass is plausible in this case?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

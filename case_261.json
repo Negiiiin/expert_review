@@ -25,5 +25,168 @@
   "caption": "CT Scan with contrast. Tumour mass affecting glottic and supraglottic larynx, which involved the thyroid cartilage and the paralaryngeal space. In the context of the mass presence of calcification areas.",
   "sub_caption": "CT Scan with contrast. Tumour mass affecting glottic and supraglottic larynx, which involved the thyroid cartilage and the paralaryngeal space. In the context of the mass presence of calcification areas.",
   "image_context": "Tumuor staging by means of total body CT scanning with contrast revealed a tumour mass affecting glottic and supraglottic larynx, which also affected the thyroid and circoid cartilages and extended to the paralaryngeal space (Fig. <xref ref-type=\"fig\" rid=\"1757-1626-1-365-1\">1</xref>). No regional or distant metastases were identified. A new laryngoscopy was performed. The new biopsies confirmed the previous examintions.). No regional or distant metastases were identified. A new laryngoscopy was performed. The new biopsies confirmed the previous examintions.",
-  "relevant_image_context": "Tumuor staging by means of total body CT scanning with contrast revealed a tumour mass affecting glottic and supraglottic larynx, which also affected the thyroid and circoid cartilages and extended to the paralaryngeal space (Fig. 1). No regional or distant metastases were identified. A new laryngoscopy was performed. The new biopsies confirmed the previous examintions."
+  "relevant_image_context": "Tumuor staging by means of total body CT scanning with contrast revealed a tumour mass affecting glottic and supraglottic larynx, which also affected the thyroid and circoid cartilages and extended to the paralaryngeal space (Fig. 1). No regional or distant metastases were identified. A new laryngoscopy was performed. The new biopsies confirmed the previous examintions.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_3_19-PMC2621131-2-1757-1626-1-365-1.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_3_19-PMC2621131-2-1757-1626-1-365-1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Midline neck soft-tissue mass",
+        "claim_text": "A soft-tissue mass is present in the midline/paramidline neck at the level of the larynx.",
+        "presence_question": "Does the model's response discuss Midline neck soft-tissue mass?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue mass is present in the midline/paramidline neck at the level of the larynx?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Midline laryngeal mass location",
+        "claim_text": "The soft-tissue mass is located at the level of the larynx in the midline/paramidline neck.",
+        "presence_question": "Does the model's response discuss Midline laryngeal mass location?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass is located at the level of the larynx in the midline/paramidline neck?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Large midline neck mass",
+        "claim_text": "The soft-tissue mass in the midline neck is large.",
+        "presence_question": "Does the model's response discuss Large midline neck mass?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass in the midline neck is large?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Irregular mass margins",
+        "claim_text": "The soft-tissue mass in the midline neck has irregular margins.",
+        "presence_question": "Does the model's response discuss Irregular mass margins?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass in the midline neck has irregular margins?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Heterogeneous attenuation",
+        "claim_text": "The soft-tissue mass in the midline neck demonstrates heterogeneous attenuation.",
+        "presence_question": "Does the model's response discuss Heterogeneous attenuation?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass in the midline neck demonstrates heterogeneous attenuation?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "High-density foci within mass",
+        "claim_text": "The soft-tissue mass in the midline neck contains several focal higher-density foci.",
+        "presence_question": "Does the model's response discuss High-density foci within mass?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass in the midline neck contains several focal higher-density foci?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Extension beyond lumenal confines",
+        "claim_text": "The soft-tissue mass at the larynx extends beyond expected lumenal confines.",
+        "presence_question": "Does the model's response discuss Extension beyond lumenal confines?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass at the larynx extends beyond expected lumenal confines?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Extension into adjacent soft tissues",
+        "claim_text": "The soft-tissue mass extends into adjacent neck soft tissues.",
+        "presence_question": "Does the model's response discuss Extension into adjacent soft tissues?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass extends into adjacent neck soft tissues?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Possible laryngeal cartilaginous involvement",
+        "claim_text": "The soft-tissue mass may involve the laryngeal cartilaginous framework.",
+        "presence_question": "Does the model's response discuss Possible laryngeal cartilaginous involvement?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass may involve the laryngeal cartilaginous framework?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "irregular margins on imaging",
+        "claim_text": "Irregular margins on imaging suggest malignancy.",
+        "presence_question": "Does the model's response discuss irregular margins on imaging?",
+        "correctness_question": "Does the model's response correctly state that Irregular margins on imaging suggest malignancy?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "heterogeneous internal density on imaging",
+        "claim_text": "Heterogeneous internal density on imaging suggests malignancy.",
+        "presence_question": "Does the model's response discuss heterogeneous internal density on imaging?",
+        "correctness_question": "Does the model's response correctly state that Heterogeneous internal density on imaging suggests malignancy?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "extension into adjacent soft tissues and cartilage",
+        "claim_text": "Extension into adjacent soft tissues and involvement of cartilage indicate local invasion and are more consistent with malignancy than with benign lesions.",
+        "presence_question": "Does the model's response discuss extension into adjacent soft tissues and cartilage?",
+        "correctness_question": "Does the model's response correctly state that Extension into adjacent soft tissues and involvement of cartilage indicate local invasion and are more consistent with malignancy than with benign lesions?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "benign well-circumscribed lesions",
+        "claim_text": "Benign well-circumscribed lesions are typically confined and noninvasive.",
+        "presence_question": "Does the model's response discuss benign well-circumscribed lesions?",
+        "correctness_question": "Does the model's response correctly state that Benign well-circumscribed lesions are typically confined and noninvasive?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Irregular margins suggesting malignancy",
+        "claim_text": "The presence of irregular margins on the laryngeal mass supports that a malignant neoplasm of the larynx is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about irregular margins suggesting malignancy?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of irregular margins on the laryngeal mass supports that a malignant neoplasm of the larynx is plausible in this case?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Heterogeneous internal density indicating malignancy",
+        "claim_text": "The heterogeneous internal density of the mass, including multiple focal higher-density foci, supports that a malignant neoplasm of the larynx is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about heterogeneous internal density indicating malignancy?",
+        "correctness_question": "Does the model's response correctly conclude that The heterogeneous internal density of the mass, including multiple focal higher-density foci, supports that a malignant neoplasm of the larynx is plausible in this case?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Extension into adjacent tissues implying local invasion",
+        "claim_text": "Clear extension of the mass into adjacent soft tissues and apparent involvement of the laryngeal cartilaginous framework is consistent with local invasion in this case.",
+        "presence_question": "Does the model's response make an inferential link about extension into adjacent tissues implying local invasion?",
+        "correctness_question": "Does the model's response correctly conclude that Clear extension of the mass into adjacent soft tissues and apparent involvement of the laryngeal cartilaginous framework is consistent with local invasion in this case?",
+        "premise_perception_ids": [
+          "p8",
+          "p9",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Local invasion favoring malignancy over benign lesion",
+        "claim_text": "The imaging evidence of local invasion (extension into adjacent tissues and cartilage involvement) favors a malignant neoplasm of the larynx over a benign well-circumscribed noninvasive lesion in this case.",
+        "presence_question": "Does the model's response make an inferential link about local invasion favoring malignancy over benign lesion?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging evidence of local invasion (extension into adjacent tissues and cartilage involvement) favors a malignant neoplasm of the larynx over a benign well-circumscribed noninvasive lesion in this case?",
+        "premise_perception_ids": [
+          "p8",
+          "p9",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

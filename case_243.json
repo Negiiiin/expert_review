@@ -28,5 +28,145 @@
   "caption": "Cervical-thoracic computed tomography (CT) scans of the patient before and after radiotherapy.A) Preradiotherapy contrast-enhanced computed tomography (CT) images; B) postradiotherapy plain CT images. (A) Prior to radiotherapy, the trachea was compressed by the tumor and displaced to the right side (arrow). (B) Taken two weeks after radiotherapy, radiotherapy resulted in a marked shrinkage of the tumor and improvement in airway displacement (arrow).",
   "sub_caption": "(A) Prior to radiotherapy, the trachea was compressed by the tumor and displaced to the right side (arrow).",
   "image_context": "The patient was a 79-year-old woman with a medical history of surgery for uterine fibroids and no history of malignancy. There was no significant family history to note. The patient had comorbidities including essential hypertension, dyslipidemia, and hepatic dysfunction but was only taking antihypertensive medications. She visited a local doctor on X-5 day complaining of dyspnea that started on X-10 day. She had wheezing, and a chest X-ray showed multiple nodules in both lungs. Her initial examination showed a blood oxygen saturation of 97% in room air. A contrast-enhanced computed tomography (CT) scan showed an upper anterior mediastinal tumor compressing the airway (Figure <xref rid=\"cureus-0015-00000036743-i01\" ref-type=\"fig\">1A</xref>) and multiple lung tumors (Figure ) and multiple lung tumors (Figure <xref rid=\"cureus-0015-00000036743-i02\" ref-type=\"fig\">2A</xref>). On X-4 day, the patient was transferred to a hospital for a possible emergency tracheostomy due to severe airway stenosis, but treatment for airway stenosis was deemed difficult due to the tumor's location. The patient was transferred to our hospital on X day. Radiotherapy (30 Gy in 10 fractions) was administered on X day to improve airway stenosis (Figures ). On X-4 day, the patient was transferred to a hospital for a possible emergency tracheostomy due to severe airway stenosis, but treatment for airway stenosis was deemed difficult due to the tumor's location. The patient was transferred to our hospital on X day. Radiotherapy (30 Gy in 10 fractions) was administered on X day to improve airway stenosis (Figures <xref rid=\"cureus-0015-00000036743-i03\" ref-type=\"fig\">3A</xref>-C). During treatment, the patient's hoarseness and dysphagia improved, and wheezing disappeared. CT scan also showed improvement in airway narrowing and deviation (Figure -C). During treatment, the patient's hoarseness and dysphagia improved, and wheezing disappeared. CT scan also showed improvement in airway narrowing and deviation (Figure <xref rid=\"cureus-0015-00000036743-i01\" ref-type=\"fig\">1B</xref>). Radiotherapy was completed without adverse events on X+14 day, and a CT-guided biopsy of the lung tumor was performed on X+20 day, which showed ACC (Figures ). Radiotherapy was completed without adverse events on X+14 day, and a CT-guided biopsy of the lung tumor was performed on X+20 day, which showed ACC (Figures <xref rid=\"cureus-0015-00000036743-i04\" ref-type=\"fig\">4A</xref>-F). The results of Alcian blue and immunohistochemical staining were as follows: positive for Alcian blue, weakly positive for c-kit, positive for gastrointestinal stromal tumor-1, positive for p40, and positive for smooth muscle actin. No lesions were found in the head and neck region. Bronchoscopy showed no lesions in the tracheal mucosa. The patient was then started on systemic therapy with 24 mg of lenvatinib one month after X day. Lenvatinib caused cardiac pain, fever, and myelosuppression (grade 2, Common Terminology Criteria for Adverse Events version 5.0) [-F). The results of Alcian blue and immunohistochemical staining were as follows: positive for Alcian blue, weakly positive for c-kit, positive for gastrointestinal stromal tumor-1, positive for p40, and positive for smooth muscle actin. No lesions were found in the head and neck region. Bronchoscopy showed no lesions in the tracheal mucosa. The patient was then started on systemic therapy with 24 mg of lenvatinib one month after X day. Lenvatinib caused cardiac pain, fever, and myelosuppression (grade 2, Common Terminology Criteria for Adverse Events version 5.0) [7] but was resumed at a lower dose after a break. One month after starting lenvatinib, a CT scan showed a reduction of lung metastases (Figure <xref rid=\"cureus-0015-00000036743-i02\" ref-type=\"fig\">2B</xref>), but edema around the gallbladder (Figure ), but edema around the gallbladder (Figure <xref rid=\"cureus-0015-00000036743-i02\" ref-type=\"fig\">2C</xref>) and hypothyroidism was observed, and lenvatinib was discontinued. Subsequent chest X-rays showed a re-expansion of the lung metastases. Two months after radiotherapy, there was no evidence of recurrent airway narrowing.) and hypothyroidism was observed, and lenvatinib was discontinued. Subsequent chest X-rays showed a re-expansion of the lung metastases. Two months after radiotherapy, there was no evidence of recurrent airway narrowing.",
-  "relevant_image_context": "contrast-enhanced computed tomography (CT) scan showed an upper anterior mediastinal tumor compressing the airway (Figure 1A)."
+  "relevant_image_context": "contrast-enhanced computed tomography (CT) scan showed an upper anterior mediastinal tumor compressing the airway (Figure 1A).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_146_66-PMC10132237-3-cureus-0015-00000036743-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_146_66-PMC10132237-3-cureus-0015-00000036743-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "anterior mediastinal soft-tissue mass",
+        "claim_text": "A soft-tissue mass is present in the midline upper anterior mediastinum.",
+        "presence_question": "Does the model's response discuss anterior mediastinal soft-tissue mass?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue mass is present in the midline upper anterior mediastinum?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "soft-tissue density of mass",
+        "claim_text": "The mass in the midline upper anterior mediastinum demonstrates soft-tissue density.",
+        "presence_question": "Does the model's response discuss soft-tissue density of mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass in the midline upper anterior mediastinum demonstrates soft-tissue density?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "well-defined mass margin",
+        "claim_text": "The soft-tissue mass in the midline upper anterior mediastinum has a well-defined margin.",
+        "presence_question": "Does the model's response discuss well-defined mass margin?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass in the midline upper anterior mediastinum has a well-defined margin?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "mass location in upper anterior mediastinum",
+        "claim_text": "The soft-tissue mass is located in the midline upper anterior mediastinal region.",
+        "presence_question": "Does the model's response discuss mass location in upper anterior mediastinum?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass is located in the midline upper anterior mediastinal region?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "mass anterior to trachea",
+        "claim_text": "The soft-tissue mass is located anterior to the trachea.",
+        "presence_question": "Does the model's response discuss mass anterior to trachea?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass is located anterior to the trachea?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "mass posterior to manubrium",
+        "claim_text": "The soft-tissue mass lies posterior to the manubrial region.",
+        "presence_question": "Does the model's response discuss mass posterior to manubrium?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass lies posterior to the manubrial region?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "tracheal compression by mass",
+        "claim_text": "The soft-tissue mass in the upper anterior mediastinum compresses the trachea to the right.",
+        "presence_question": "Does the model's response discuss tracheal compression by mass?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass in the upper anterior mediastinum compresses the trachea to the right?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "tracheal rightward displacement",
+        "claim_text": "The trachea is displaced to the right in the cervical and upper thoracic region.",
+        "presence_question": "Does the model's response discuss tracheal rightward displacement?",
+        "correctness_question": "Does the model's response correctly assert that The trachea is displaced to the right in the cervical and upper thoracic region?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "arrow-indicated structure in upper anterior mediastinum",
+        "claim_text": "The structure indicated by the arrow is located in the midline upper anterior mediastinal region.",
+        "presence_question": "Does the model's response discuss arrow-indicated structure in upper anterior mediastinum?",
+        "correctness_question": "Does the model's response correctly assert that The structure indicated by the arrow is located in the midline upper anterior mediastinal region?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "mediastinal structures on axial CT",
+        "claim_text": "Mediastinal structures are typically identified on axial CT.",
+        "presence_question": "Does the model's response discuss mediastinal structures on axial CT?",
+        "correctness_question": "Does the model's response correctly state that mediastinal structures are typically identified on axial CT?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "tracheal displacement or compression",
+        "claim_text": "Tracheal displacement or compression typically indicates mass effect from an adjacent lesion.",
+        "presence_question": "Does the model's response discuss tracheal displacement or compression?",
+        "correctness_question": "Does the model's response correctly state that tracheal displacement or compression typically indicates mass effect from an adjacent lesion?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "anterior mediastinum",
+        "claim_text": "The anterior mediastinum is the anatomical region anterior to the trachea and posterior to the manubrium.",
+        "presence_question": "Does the model's response discuss the anterior mediastinum?",
+        "correctness_question": "Does the model's response correctly state that the anterior mediastinum is the anatomical region anterior to the trachea and posterior to the manubrium?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "well-defined soft-tissue density on CT",
+        "claim_text": "A well-defined soft-tissue density on CT typically indicates a soft-tissue mass.",
+        "presence_question": "Does the model's response discuss a well-defined soft-tissue density on CT?",
+        "correctness_question": "Does the model's response correctly state that a well-defined soft-tissue density on CT typically indicates a soft-tissue mass?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Midline upper anterior mediastinal mass",
+        "claim_text": "Supports that the arrow indicates a midline upper anterior mediastinal soft-tissue mass in this case.",
+        "presence_question": "Does the model's response make an inferential link about Midline upper anterior mediastinal mass?",
+        "correctness_question": "Does the model's response correctly conclude that Supports that the arrow indicates a midline upper anterior mediastinal soft-tissue mass in this case?",
+        "premise_perception_ids": [
+          "p9",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k3",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Mass effect causing tracheal displacement",
+        "claim_text": "Supports that the anterior mediastinal lesion is producing rightward displacement and compression of the trachea in this case.",
+        "presence_question": "Does the model's response make an inferential link about Mass effect causing tracheal displacement?",
+        "correctness_question": "Does the model's response correctly conclude that Supports that the anterior mediastinal lesion is producing rightward displacement and compression of the trachea in this case?",
+        "premise_perception_ids": [
+          "p7",
+          "p8",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

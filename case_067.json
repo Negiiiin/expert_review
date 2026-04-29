@@ -28,5 +28,122 @@
   "caption": "(a) Large tumor cells with vesicular nuclei and prominent nucleoli. Note the abundant necrosis on the right side (H/E ×20), (b) Numerous mitotic figures in the tumor, which is characterized by organoid architecture (H/E ×20), (c) Tumor cells are strong positive for synaptophysin (IHC ×20), (d) The Ki67 proliferation index of around 70% (IHC ×20), (e) The tumor with “mutant type” p53 expression (IHC ×20).",
   "sub_caption": "Large tumor cells with vesicular nuclei and prominent nucleoli. Note the abundant necrosis on the right side (H/E ×20),",
   "image_context": "In the pathological examination of the surgical specimen, metastases were not detected in any of the 20 harvested lymph nodes, and the surgical margins were tumor-free. The gross evaluation revealed three polypoid tumors with the dimension of 4 × 3.5 × 1.2 cm, 1.3 × 1 × 0.8 cm, and 0.3 × 0.2 × 0.2 cm, respectively. The histopathological examination of the tumors showed organoid proliferation of large cells with abundant eosinophilic cytoplasm, finely granular chromatin, and prominent nucleoli. There were large areas of tumor necrosis and extremely frequent mitotic figures (<xref rid=\"jclintranslres-2022-8-4-272-g002\" ref-type=\"fig\">Figure 2a</xref>). High mitotic rate was detected as &gt;20/2 mm). High mitotic rate was detected as >20/2 mm2 (57/2 mm2 in the greatest one) (<xref rid=\"jclintranslres-2022-8-4-272-g002\" ref-type=\"fig\">Figure 2b</xref>). Immunohistochemical analysis demonstrated positivity for synaptophsin, chromogranin, and CDX2 (). Immunohistochemical analysis demonstrated positivity for synaptophsin, chromogranin, and CDX2 (<xref rid=\"jclintranslres-2022-8-4-272-g002\" ref-type=\"fig\">Figure 2c</xref>). The Ki67 proliferation index was around 60–70% in the most mitotically active part of the tumors (). The Ki67 proliferation index was around 60–70% in the most mitotically active part of the tumors (<xref rid=\"jclintranslres-2022-8-4-272-g002\" ref-type=\"fig\">Figure 2d</xref>). Diffuse and strong “mutant type” p53 expression was also observed for all tumors (). Diffuse and strong “mutant type” p53 expression was also observed for all tumors (<xref rid=\"jclintranslres-2022-8-4-272-g002\" ref-type=\"fig\">Figure 2e</xref>). Based on the histopathological characteristics and results of the immunohistochemical staining, the tumors were diagnosed as “multifocal large cell neuroendocrin carcinoma.” The pathological stage was classified as T2 (m)N0 with muscularis propria invasion according to AJCC eighth edition.). Based on the histopathological characteristics and results of the immunohistochemical staining, the tumors were diagnosed as “multifocal large cell neuroendocrin carcinoma.” The pathological stage was classified as T2 (m)N0 with muscularis propria invasion according to AJCC eighth edition.",
-  "relevant_image_context": "In the pathological examination of the surgical specimen, metastases were not detected in any of the 20 harvested lymph nodes, and the surgical margins were tumor-free. The gross evaluation revealed three polypoid tumors with the dimension of 4 × 3.5 × 1.2 cm, 1.3 × 1 × 0.8 cm, and 0.3 × 0.2 × 0.2 cm, respectively. The histopathological examination of the tumors showed organoid proliferation of large cells with abundant eosinophilic cytoplasm, finely granular chromatin, and prominent nucleoli. High mitotic rate was detected as >20/2 mm2 (57/2 mm2 in the greatest one). Based on the histopathological characteristics and results of the immunohistochemical staining, the tumors were diagnosed as “multifocal large cell neuroendocrine carcinoma.” The pathological stage was classified as T2 (m)N0 with muscularis propria invasion according to AJCC eighth edition."
+  "relevant_image_context": "In the pathological examination of the surgical specimen, metastases were not detected in any of the 20 harvested lymph nodes, and the surgical margins were tumor-free. The gross evaluation revealed three polypoid tumors with the dimension of 4 × 3.5 × 1.2 cm, 1.3 × 1 × 0.8 cm, and 0.3 × 0.2 × 0.2 cm, respectively. The histopathological examination of the tumors showed organoid proliferation of large cells with abundant eosinophilic cytoplasm, finely granular chromatin, and prominent nucleoli. High mitotic rate was detected as >20/2 mm2 (57/2 mm2 in the greatest one). Based on the histopathological characteristics and results of the immunohistochemical staining, the tumors were diagnosed as “multifocal large cell neuroendocrine carcinoma.” The pathological stage was classified as T2 (m)N0 with muscularis propria invasion according to AJCC eighth edition.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_3_filelist_noncommercial_batch_116_38-PMC9373722-0-jclintranslres-2022-8-4-272-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_116_38-PMC9373722-0-jclintranslres-2022-8-4-272-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Densely packed tumor cells",
+        "claim_text": "Panel a shows densely packed tumor cells present.",
+        "presence_question": "Does the model's response discuss Densely packed tumor cells?",
+        "correctness_question": "Does the model's response correctly assert that Panel a shows densely packed tumor cells present?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Scant cytoplasm in tumor cells",
+        "claim_text": "In panel a, the tumor cells have scant cytoplasm.",
+        "presence_question": "Does the model's response discuss Scant cytoplasm in tumor cells?",
+        "correctness_question": "Does the model's response correctly assert that In panel a, the tumor cells have scant cytoplasm?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Dark, condensed tumor nuclei",
+        "claim_text": "In panel a, tumor cell nuclei are dark and condensed.",
+        "presence_question": "Does the model's response discuss Dark, condensed tumor nuclei?",
+        "correctness_question": "Does the model's response correctly assert that In panel a, tumor cell nuclei are dark and condensed?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Multiple mitotic figures",
+        "claim_text": "Multiple mitotic figures are present in panel a.",
+        "presence_question": "Does the model's response discuss Multiple mitotic figures?",
+        "correctness_question": "Does the model's response correctly assert that Multiple mitotic figures are present in panel a?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Right-hand pale eosinophilic regions in panel b",
+        "claim_text": "Pale eosinophilic regions are located in the right-hand area of panel b.",
+        "presence_question": "Does the model's response discuss Right-hand pale eosinophilic regions in panel b?",
+        "correctness_question": "Does the model's response correctly assert that Pale eosinophilic regions are located in the right-hand area of panel b?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Pale regions consistent with confluent necrosis in panel b",
+        "claim_text": "The pale eosinophilic regions in the right-hand area of panel b have an appearance consistent with confluent necrosis.",
+        "presence_question": "Does the model's response discuss Pale regions consistent with confluent necrosis in panel b?",
+        "correctness_question": "Does the model's response correctly assert that The pale eosinophilic regions in the right-hand area of panel b have an appearance consistent with confluent necrosis?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "high mitotic activity",
+        "claim_text": "High mitotic activity is associated with more aggressive tumor behavior and with a higher risk of recurrence and worse overall prognosis.",
+        "presence_question": "Does the model's response discuss high mitotic activity?",
+        "correctness_question": "Does the model's response correctly state that High mitotic activity is associated with more aggressive tumor behavior and with a higher risk of recurrence and worse overall prognosis?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "extensive confluent necrosis",
+        "claim_text": "Extensive confluent necrosis is associated with more aggressive tumor behavior and with a higher risk of recurrence and worse overall prognosis.",
+        "presence_question": "Does the model's response discuss extensive confluent necrosis?",
+        "correctness_question": "Does the model's response correctly state that Extensive confluent necrosis is associated with more aggressive tumor behavior and with a higher risk of recurrence and worse overall prognosis?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "co-occurrence of mitotic activity and necrosis",
+        "claim_text": "The co-occurrence of high mitotic activity and extensive necrosis predicts a higher recurrence risk and worse overall prognosis more strongly than either feature alone.",
+        "presence_question": "Does the model's response discuss the co-occurrence of high mitotic activity and extensive necrosis?",
+        "correctness_question": "Does the model's response correctly state that The co-occurrence of high mitotic activity and extensive necrosis predicts a higher recurrence risk and worse overall prognosis more strongly than either feature alone?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Mitotic figures imply worse prognosis",
+        "claim_text": "The presence of multiple mitotic figures in the image supports a higher likelihood of aggressive tumor behavior and therefore a higher recurrence risk or worse overall prognosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Mitotic figures imply worse prognosis?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of multiple mitotic figures in the image supports a higher likelihood of aggressive tumor behavior and therefore a higher recurrence risk or worse overall prognosis in this case.?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Confluent necrosis implies worse prognosis",
+        "claim_text": "Regions in the image that appear consistent with confluent necrosis support a higher likelihood of aggressive tumor behavior and therefore a higher recurrence risk or worse overall prognosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Confluent necrosis implies worse prognosis?",
+        "correctness_question": "Does the model's response correctly conclude that Regions in the image that appear consistent with confluent necrosis support a higher likelihood of aggressive tumor behavior and therefore a higher recurrence risk or worse overall prognosis in this case.?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Combined mitoses and necrosis imply worse prognosis",
+        "claim_text": "The combination of multiple mitotic figures and regions appearing consistent with confluent necrosis in the images together supports a stronger prediction of higher recurrence risk or worse overall prognosis for this tumor in this case.",
+        "presence_question": "Does the model's response make an inferential link about Combined mitoses and necrosis imply worse prognosis?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of multiple mitotic figures and regions appearing consistent with confluent necrosis in the images together supports a stronger prediction of higher recurrence risk or worse overall prognosis for this tumor in this case.?",
+        "premise_perception_ids": [
+          "p4",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

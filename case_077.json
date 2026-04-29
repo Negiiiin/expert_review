@@ -27,5 +27,84 @@
   "caption": "Thoracic computer tomography with cardiac imaging and retrocardial accessory spleen (A). Oesopageal displacement to the left of the tumor (B)",
   "sub_caption": "Thoracic computer tomography with cardiac imaging and retrocardial accessory spleen (A). Oesopageal displacement to the left of the tumor (B)",
   "image_context": "An oesophagoscopy was performed and revealed varices grade 3 [2]. Nine consecutive ligatures were placed. Furthermore, since there was no history or ultrasonic findings of liver disease, a thoracic CT scan was performed, revealing a large retrocardial mass (12 × 12 × 6 cm, Fig. <xref rid=\"134_2009_1696_Fig1_HTML\" ref-type=\"fig\">1</xref>) between the main bronchi displacing the oesophagus.) between the main bronchi displacing the oesophagus.Fig. 1Thoracic computer tomography with cardiac imaging and retrocardial accessory spleen (A). Oesopageal displacement to the left of the tumor (B)",
-  "relevant_image_context": "An oesophagoscopy was performed and revealed varices grade 3 [2]. Nine consecutive ligatures were placed. Furthermore, since there was no history or ultrasonic findings of liver disease, a thoracic CT scan was performed, revealing a large retrocardial mass (12 × 12 × 6 cm, Fig. 1) between the main bronchi displacing the oesophagus. Fig. 1 Thoracic computer tomography with cardiac imaging and retrocardial accessory spleen (A)."
+  "relevant_image_context": "An oesophagoscopy was performed and revealed varices grade 3 [2]. Nine consecutive ligatures were placed. Furthermore, since there was no history or ultrasonic findings of liver disease, a thoracic CT scan was performed, revealing a large retrocardial mass (12 × 12 × 6 cm, Fig. 1) between the main bronchi displacing the oesophagus. Fig. 1 Thoracic computer tomography with cardiac imaging and retrocardial accessory spleen (A).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_6_11-PMC2809308-0-134_2009_1696_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_6_11-PMC2809308-0-134_2009_1696_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Posterior mediastinal soft-tissue mass",
+        "claim_text": "A soft-tissue mass is present in the posterior (retrocardiac) mediastinum.",
+        "presence_question": "Does the model's response discuss Posterior mediastinal soft-tissue mass?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue mass is present in the posterior (retrocardiac) mediastinum?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Mass adjacent to the posterior heart",
+        "claim_text": "A soft-tissue mass is adjacent to the posterior aspect of the heart.",
+        "presence_question": "Does the model's response discuss Mass adjacent to the posterior heart?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue mass is adjacent to the posterior aspect of the heart?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Compression of adjacent mediastinal structures",
+        "claim_text": "The soft-tissue mass compresses adjacent mediastinal structures on imaging.",
+        "presence_question": "Does the model's response discuss Compression of adjacent mediastinal structures?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass compresses adjacent mediastinal structures on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Lateral displacement of esophagus",
+        "claim_text": "The esophagus is laterally displaced from its expected position.",
+        "presence_question": "Does the model's response discuss Lateral displacement of esophagus?",
+        "correctness_question": "Does the model's response correctly assert that The esophagus is laterally displaced from its expected position?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Posterior mediastinal mass compressing esophagus",
+        "claim_text": "A posterior mediastinal mass compresses the esophagus on imaging.",
+        "presence_question": "Does the model's response discuss Posterior mediastinal mass compressing esophagus?",
+        "correctness_question": "Does the model's response correctly assert that A posterior mediastinal mass compresses the esophagus on imaging?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Extrinsic esophageal compression",
+        "claim_text": "Extrinsic compression of the esophagus is typically associated with progressive dysphagia to solids.",
+        "presence_question": "Does the model's response discuss Extrinsic esophageal compression?",
+        "correctness_question": "Does the model's response correctly state that Extrinsic compression of the esophagus is typically associated with progressive dysphagia to solids?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Mechanical esophageal narrowing",
+        "claim_text": "Mechanical narrowing of the esophagus typically causes preferential impairment of passage of solids compared with liquids.",
+        "presence_question": "Does the model's response discuss Mechanical esophageal narrowing?",
+        "correctness_question": "Does the model's response correctly state that Mechanical narrowing of the esophagus typically causes preferential impairment of passage of solids compared with liquids?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "posterior mediastinal mass causing dysphagia",
+        "claim_text": "The posterior mediastinal mass compressing and displacing the esophagus supports that progressive dysphagia to solids is a plausible symptom in this patient.",
+        "presence_question": "Does the model's response make an inferential link about posterior mediastinal mass causing dysphagia?",
+        "correctness_question": "Does the model's response correctly conclude that The posterior mediastinal mass compressing and displacing the esophagus supports that progressive dysphagia to solids is a plausible symptom in this patient.?",
+        "premise_perception_ids": [
+          "p1",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

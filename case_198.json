@@ -28,5 +28,202 @@
   "caption": "Post-contrast CT at late portal phase. There was mild splenomegaly and multiple hypodense nodular lesions with slight ring-like enhancement.",
   "sub_caption": "Post-contrast CT at late portal phase. There was mild splenomegaly and multiple hypodense nodular lesions with slight ring-like enhancement.",
   "image_context": "The patient was once admitted to local hospital with fever for a week. Physical examination had no positive signs except for the mild epigastric pain. Labboratory findings indicated pancytopenia and increased C-reaction protein (CRP). An abdominal ultrasonography (USG) revealed slight enlarged spleen with heterogeneous parenchyma due to multiple hypoechoic nodules. CT showed mild splenomegaly on plain scan, after intravenous administration of contrast medium, multiple hypodense nodular lesions with mild ring-like enhancement were displayed in the spleen, in which was unenhanced dot (Figure <xref ref-type=\"fig\" rid=\"medi-93-e272-g001\">1</xref>). There was increased metabolism of 18F-FDG in the spleen on PET-CT. No other anomalies were found on USG, CT and PET-CT. Lymphoma was suspected at first. However, there was no evidence of lymphoma found by USG guided biopsy of lymph node in the left popliteal space.). There was increased metabolism of 18F-FDG in the spleen on PET-CT. No other anomalies were found on USG, CT and PET-CT. Lymphoma was suspected at first. However, there was no evidence of lymphoma found by USG guided biopsy of lymph node in the left popliteal space.",
-  "relevant_image_context": "CT showed mild splenomegaly on plain scan, after intravenous administration of contrast medium, multiple hypodense nodular lesions with mild ring-like enhancement were displayed in the spleen, in which was unenhanced dot (Figure 1)."
+  "relevant_image_context": "CT showed mild splenomegaly on plain scan, after intravenous administration of contrast medium, multiple hypodense nodular lesions with mild ring-like enhancement were displayed in the spleen, in which was unenhanced dot (Figure 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_28_5-PMC4602606-0-medi-93-e272-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_28_5-PMC4602606-0-medi-93-e272-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "splenic enlargement",
+        "claim_text": "The spleen is enlarged in the left upper quadrant",
+        "presence_question": "Does the model's response discuss splenic enlargement?",
+        "correctness_question": "Does the model's response correctly assert that The spleen is enlarged in the left upper quadrant?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "splenic hypodense lesions",
+        "claim_text": "Hypodense lesions are present within the spleen on axial contrast-enhanced CT",
+        "presence_question": "Does the model's response discuss splenic hypodense lesions?",
+        "correctness_question": "Does the model's response correctly assert that Hypodense lesions are present within the spleen on axial contrast-enhanced CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "multiple splenic lesions",
+        "claim_text": "There are multiple hypodense lesions in the spleen on axial contrast-enhanced CT",
+        "presence_question": "Does the model's response discuss multiple splenic lesions?",
+        "correctness_question": "Does the model's response correctly assert that There are multiple hypodense lesions in the spleen on axial contrast-enhanced CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "round splenic lesions",
+        "claim_text": "The hypodense lesions in the spleen are round in shape on axial contrast-enhanced CT",
+        "presence_question": "Does the model's response discuss round splenic lesions?",
+        "correctness_question": "Does the model's response correctly assert that The hypodense lesions in the spleen are round in shape on axial contrast-enhanced CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "well-defined lesion margins",
+        "claim_text": "The hypodense splenic lesions have well-defined margins on axial contrast-enhanced CT",
+        "presence_question": "Does the model's response discuss well-defined lesion margins?",
+        "correctness_question": "Does the model's response correctly assert that The hypodense splenic lesions have well-defined margins on axial contrast-enhanced CT?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "rim attenuation in splenic lesions",
+        "claim_text": "Some splenic lesions demonstrate a higher-attenuation rim compared with their centers on axial contrast-enhanced CT",
+        "presence_question": "Does the model's response discuss rim attenuation in splenic lesions?",
+        "correctness_question": "Does the model's response correctly assert that Some splenic lesions demonstrate a higher-attenuation rim compared with their centers on axial contrast-enhanced CT?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "perisplenic high-attenuation fluid",
+        "claim_text": "No perisplenic high-attenuation fluid is identified on axial contrast-enhanced CT",
+        "presence_question": "Does the model's response discuss perisplenic high-attenuation fluid?",
+        "correctness_question": "Does the model's response correctly assert that No perisplenic high-attenuation fluid is identified on axial contrast-enhanced CT?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "widespread intraperitoneal fluid",
+        "claim_text": "There is no widespread intraperitoneal fluid detected on axial contrast-enhanced CT",
+        "presence_question": "Does the model's response discuss widespread intraperitoneal fluid?",
+        "correctness_question": "Does the model's response correctly assert that There is no widespread intraperitoneal fluid detected on axial contrast-enhanced CT?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "fever",
+        "claim_text": "The patient is febrile and currently has a documented fever",
+        "presence_question": "Does the model's response discuss fever?",
+        "correctness_question": "Does the model's response correctly assert that The patient is febrile and currently has a documented fever?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "pancytopenia",
+        "claim_text": "Laboratory studies demonstrate pancytopenia in the patient on admission",
+        "presence_question": "Does the model's response discuss pancytopenia?",
+        "correctness_question": "Does the model's response correctly assert that Laboratory studies demonstrate pancytopenia in the patient on admission?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "elevated C-reactive protein",
+        "claim_text": "C-reactive protein (CRP) is elevated above the normal range",
+        "presence_question": "Does the model's response discuss elevated C-reactive protein?",
+        "correctness_question": "Does the model's response correctly assert that C-reactive protein (CRP) is elevated above the normal range?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "new splenic abnormalities",
+        "claim_text": "Splenic abnormalities are newly present compared with prior imaging",
+        "presence_question": "Does the model's response discuss new splenic abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that Splenic abnormalities are newly present compared with prior imaging?"
+      },
+      {
+        "claim_id": "p13",
+        "topic": "left popliteal lymph node biopsy",
+        "claim_text": "A left popliteal lymph node ultrasound-guided biopsy was recently performed",
+        "presence_question": "Does the model's response discuss left popliteal lymph node biopsy?",
+        "correctness_question": "Does the model's response correctly assert that A left popliteal lymph node ultrasound-guided biopsy was recently performed?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "rim-enhancing hypodense splenic lesions",
+        "claim_text": "Rim-enhancing hypodense splenic lesions typically suggest infected or necrotic foci such as splenic abscesses.",
+        "presence_question": "Does the model's response discuss rim-enhancing hypodense splenic lesions?",
+        "correctness_question": "Does the model's response correctly state that Rim-enhancing hypodense splenic lesions typically suggest infected or necrotic foci such as splenic abscesses?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "perisplenic high-attenuation or intraperitoneal fluid",
+        "claim_text": "Perisplenic high-attenuation fluid or widespread intraperitoneal fluid typically indicates active intra-abdominal hemorrhage.",
+        "presence_question": "Does the model's response discuss perisplenic high-attenuation or intraperitoneal fluid?",
+        "correctness_question": "Does the model's response correctly state that Perisplenic high-attenuation fluid or widespread intraperitoneal fluid typically indicates active intra-abdominal hemorrhage?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "bacteremia",
+        "claim_text": "Bacteremia is commonly associated with secondary splenic abscesses.",
+        "presence_question": "Does the model's response discuss bacteremia?",
+        "correctness_question": "Does the model's response correctly state that Bacteremia is commonly associated with secondary splenic abscesses?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "fever and elevated inflammatory markers",
+        "claim_text": "Fever and elevated inflammatory markers are commonly associated with infection.",
+        "presence_question": "Does the model's response discuss fever and elevated inflammatory markers?",
+        "correctness_question": "Does the model's response correctly state that Fever and elevated inflammatory markers are commonly associated with infection?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Imaging suggests splenic abscesses",
+        "claim_text": "The imaging finding of multiple well-defined, round hypodense splenic lesions, several with higher-attenuation rims, in an enlarged spleen supports that splenic abscesses are a plausible diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Imaging suggests splenic abscesses?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging finding of multiple well-defined, round hypodense splenic lesions, several with higher-attenuation rims, in an enlarged spleen supports that splenic abscesses are a plausible diagnosis in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Absence of imaging signs of active hemorrhage",
+        "claim_text": "The absence of perisplenic high-attenuation fluid and absence of widespread intraperitoneal fluid argue against active intra-abdominal hemorrhage in this case.",
+        "presence_question": "Does the model's response make an inferential link about Absence of imaging signs of active hemorrhage?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of perisplenic high-attenuation fluid and absence of widespread intraperitoneal fluid argue against active intra-abdominal hemorrhage in this case.?",
+        "premise_perception_ids": [
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Findings consistent with bacteremia causing splenic abscesses",
+        "claim_text": "The combination of fever, elevated CRP, and multiple rim-enhancing hypodense splenic lesions is consistent with bacteremia leading to secondary splenic abscesses in this case.",
+        "presence_question": "Does the model's response make an inferential link about Findings consistent with bacteremia causing splenic abscesses?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of fever, elevated CRP, and multiple rim-enhancing hypodense splenic lesions is consistent with bacteremia leading to secondary splenic abscesses in this case.?",
+        "premise_perception_ids": [
+          "p9",
+          "p11",
+          "p2",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Recent biopsy as potential source of bacteremia",
+        "claim_text": "A recent ultrasound-guided left popliteal lymph node biopsy could be a source of bacteremia that secondarily seeded the spleen, explaining the newly present splenic lesions.",
+        "presence_question": "Does the model's response make an inferential link about Recent biopsy as potential source of bacteremia?",
+        "correctness_question": "Does the model's response correctly conclude that A recent ultrasound-guided left popliteal lymph node biopsy could be a source of bacteremia that secondarily seeded the spleen, explaining the newly present splenic lesions.?",
+        "premise_perception_ids": [
+          "p13",
+          "p12"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

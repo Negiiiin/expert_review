@@ -25,5 +25,137 @@
   "caption": "Contrast-enhanced MRI showing the cyst located on the right side behind the jugular vein and lateral to the thyroid gland (arrow).MRI: magnetic resonance imaging",
   "sub_caption": "Contrast-enhanced MRI showing the cyst located on the right side behind the jugular vein and lateral to the thyroid gland (arrow).",
   "image_context": "Upon physical examination, an overweight female patient was found to have a soft, mobile, painless mass on the right side of her neck with no additional masses or lymphadenopathy present. The rest of the physical exam was within normal limits. The patient underwent a contrast-enhanced neck magnetic resonance imaging (MRI) study, which revealed a large cyst possibly derived from the fourth branchial cleft on the right side, behind the jugular vein and lateral to the thyroid, almost submerged in that area, with smooth and thin walls (Figure <xref rid=\"cureus-0015-00000036913-i01\" ref-type=\"fig\">1</xref>).).",
-  "relevant_image_context": "Upon physical examination, an overweight female patient was found to have a soft, mobile, painless mass on the right side of her neck with no additional masses or lymphadenopathy present. The rest of the physical exam was within normal limits. The patient underwent a contrast-enhanced neck magnetic resonance imaging (MRI) study, which revealed a large cyst possibly derived from the fourth branchial cleft on the right side, behind the jugular vein and lateral to the thyroid, almost submerged in that area, with smooth and thin walls (Figure 1)."
+  "relevant_image_context": "Upon physical examination, an overweight female patient was found to have a soft, mobile, painless mass on the right side of her neck with no additional masses or lymphadenopathy present. The rest of the physical exam was within normal limits. The patient underwent a contrast-enhanced neck magnetic resonance imaging (MRI) study, which revealed a large cyst possibly derived from the fourth branchial cleft on the right side, behind the jugular vein and lateral to the thyroid, almost submerged in that area, with smooth and thin walls (Figure 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_147_19-PMC10151110-0-cureus-0015-00000036913-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_147_19-PMC10151110-0-cureus-0015-00000036913-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "right lateral neck lesion",
+        "claim_text": "A dominant lesion is present in the right lateral neck.",
+        "presence_question": "Does the model's response discuss right lateral neck lesion?",
+        "correctness_question": "Does the model's response correctly assert that A dominant lesion is present in the right lateral neck?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "right lateral neck lesion location",
+        "claim_text": "The dominant neck lesion is located in the right lateral neck.",
+        "presence_question": "Does the model's response discuss right lateral neck lesion location?",
+        "correctness_question": "Does the model's response correctly assert that The dominant neck lesion is located in the right lateral neck?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "right neck lesion shape",
+        "claim_text": "The dominant right neck lesion has a round-oval shape.",
+        "presence_question": "Does the model's response discuss right neck lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The dominant right neck lesion has a round-oval shape?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "right neck lesion margin",
+        "claim_text": "The dominant right neck lesion has smooth margins.",
+        "presence_question": "Does the model's response discuss right neck lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The dominant right neck lesion has smooth margins?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "thin lesion margin",
+        "claim_text": "The dominant right neck lesion has a thin margin.",
+        "presence_question": "Does the model's response discuss thin lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The dominant right neck lesion has a thin margin?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesion internal signal",
+        "claim_text": "The dominant right neck lesion demonstrates uniformly bright internal signal.",
+        "presence_question": "Does the model's response discuss lesion internal signal?",
+        "correctness_question": "Does the model's response correctly assert that The dominant right neck lesion demonstrates uniformly bright internal signal?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "lesion signal compared to muscle",
+        "claim_text": "The dominant right neck lesion shows increased signal compared to adjacent neck musculature.",
+        "presence_question": "Does the model's response discuss lesion signal compared to muscle?",
+        "correctness_question": "Does the model's response correctly assert that The dominant right neck lesion shows increased signal compared to adjacent neck musculature?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "internal solid nodularity",
+        "claim_text": "The dominant right neck lesion lacks internal solid nodularity.",
+        "presence_question": "Does the model's response discuss internal solid nodularity?",
+        "correctness_question": "Does the model's response correctly assert that The dominant right neck lesion lacks internal solid nodularity?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "heterogeneous internal architecture",
+        "claim_text": "The dominant right neck lesion lacks heterogeneous internal architecture.",
+        "presence_question": "Does the model's response discuss heterogeneous internal architecture?",
+        "correctness_question": "Does the model's response correctly assert that The dominant right neck lesion lacks heterogeneous internal architecture?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "lesion septation",
+        "claim_text": "The dominant right neck lesion lacks internal septation.",
+        "presence_question": "Does the model's response discuss lesion septation?",
+        "correctness_question": "Does the model's response correctly assert that The dominant right neck lesion lacks internal septation?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "cystic lesion imaging",
+        "claim_text": "A cystic (fluid-filled) lesion typically appears as a sharply marginated structure with homogeneous internal signal and absence of internal solid components on cross-sectional imaging.",
+        "presence_question": "Does the model's response discuss cystic lesion imaging?",
+        "correctness_question": "Does the model's response correctly state that a cystic (fluid-filled) lesion typically appears as a sharply marginated structure with homogeneous internal signal and absence of internal solid components on cross-sectional imaging?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "internal solid components or septations",
+        "claim_text": "Presence of internal solid components, septations, or heterogeneous internal architecture typically suggests a predominantly solid or complex lesion rather than a simple cystic lesion on imaging.",
+        "presence_question": "Does the model's response discuss internal solid components or septations?",
+        "correctness_question": "Does the model's response correctly state that presence of internal solid components, septations, or heterogeneous internal architecture typically suggests a predominantly solid or complex lesion rather than a simple cystic lesion on imaging?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "cystic lesion interpretation",
+        "claim_text": "The lesion's well-defined round-oval shape, smooth thin wall, homogeneous bright internal signal (increased relative to muscle), and absence of internal solid components or septations are consistent with a cystic (fluid-filled) lesion.",
+        "presence_question": "Does the model's response make an inferential link about cystic lesion interpretation?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's well-defined round-oval shape, smooth thin wall, homogeneous bright internal signal (increased relative to muscle), and absence of internal solid components or septations are consistent with a cystic (fluid-filled) lesion?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "predominantly solid mass exclusion",
+        "claim_text": "The absence of internal solid nodularity and septations in this lesion argues against it being a predominantly solid mass.",
+        "presence_question": "Does the model's response make an inferential link about predominantly solid mass exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of internal solid nodularity and septations in this lesion argues against it being a predominantly solid mass?",
+        "premise_perception_ids": [
+          "p8",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

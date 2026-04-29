@@ -27,5 +27,113 @@
   "caption": "Coronal T2WI of the brain of 1-year-old girl with seizures, demonstrating the classical findings in complete lissencephaly. The cerebral cortex is remarkably thick and lacks gyri (smooth surface), the gray/white matter interface is smooth, and the sylvian fissures are underdeveloped. This appearance is very similar to the immature fetal brain.",
   "sub_caption": "Coronal T2WI of the brain of 1-year-old girl with seizures, demonstrating the classical findings in complete lissencephaly. The cerebral cortex is remarkably thick and lacks gyri (smooth surface), the gray/white matter interface is smooth, and the sylvian fissures are underdeveloped. This appearance is very similar to the immature fetal brain.",
   "image_context": "During the eighth fetal week the neurons start migrating from the germinal zone to the cortex. Several etiological factors have a role in interruption of neuronal migration, resulting in variable degrees of migrational abnormalities due to arrest of neurons at a distance short of the normal location of the cortex. In type 1 (classical) lissencephaly (<xref ref-type=\"fig\" rid=\"asm-1-28f4\">Figure 4</xref>), the brain surface is completely smooth (agyria) or has broad, flat gyri separated by a few, shallow sulci (pachygyria).), the brain surface is completely smooth (agyria) or has broad, flat gyri separated by a few, shallow sulci (pachygyria).1 In addition, imaging studies show a thick cortex and shallow, vertically oriented sylvian fissures (lack of opercularization) giving the cerebrum the shape of a figure of eight.17 More than one gene defect has been proved responsible for classical lissencephaly. In some types of classical lissencephaly, the mothers and sisters of the affected patients have another type of migrational defect (band heterotopia or double cortex).18 On the other hand, the previously termed type 2 lissencephaly is no longer considered lissencephaly, but a brain malformation that forms part of the cobblestone complex that is often seen in association with muscular dystrophy.1 Only one patient was identified in this series with this type of cerebral malformation. Gray matter heterotopia refers to normal neurons in abnormal location. Patients with heterotopia almost always present with epilepsy, the severity and prognosis of which is a function of the severity of heterotopia.17 The heterotopic gray matter may be located subependymally, subcortically, or between the ventricles and cortex. The heterotopic islands may have a nodular or band configuration and their signal intensity on MRI follows that of the cerebral cortex on all pulse sequences.19 These lesions are not surrounded by edema and do not enhance.",
-  "relevant_image_context": "During the eighth fetal week the neurons start migrating from the germinal zone to the cortex. Several etiological factors have a role in interruption of neuronal migration, resulting in variable degrees of migrational abnormalities due to arrest of neurons at a distance short of the normal location of the cortex. In type 1 (classical) lissencephaly (Figure 4), the brain surface is completely smooth (agyria) or has broad, flat gyri separated by a few, shallow sulci (pachygyria).), the brain surface is completely smooth (agyria) or has broad, flat gyri separated by a few, shallow sulci (pachygyria).1 In addition, imaging studies show a thick cortex and shallow, vertically oriented sylvian fissures (lack of opercularization) giving the cerebrum the shape of a figure of eight.17 More than one gene defect has been proved responsible for classical lissencephaly. In some types of classical lissencephaly, the mothers and sisters of the affected patients have another type of migrational defect (band heterotopia or double cortex).18 On the other hand, the previously termed type 2 lissencephaly is no longer considered lissencephaly, but a brain malformation that forms part of the cobblestone complex that is often seen in association with muscular dystrophy.1 Only one patient was identified in this series with this type of cerebral malformation. Gray matter heterotopia refers to normal neurons in abnormal location. Patients with heterotopia almost always present with epilepsy, the severity and prognosis of which is a function of the severity of heterotopia.17 The heterotopic gray matter may be located subependymally, subcortically, or between the ventricles and cortex. The heterotopic islands may have a nodular or band configuration and their signal intensity on MRI follows that of the cerebral cortex on all pulse sequences.19 These lesions are not surrounded by edema and do not enhance."
+  "relevant_image_context": "During the eighth fetal week the neurons start migrating from the germinal zone to the cortex. Several etiological factors have a role in interruption of neuronal migration, resulting in variable degrees of migrational abnormalities due to arrest of neurons at a distance short of the normal location of the cortex. In type 1 (classical) lissencephaly (Figure 4), the brain surface is completely smooth (agyria) or has broad, flat gyri separated by a few, shallow sulci (pachygyria).), the brain surface is completely smooth (agyria) or has broad, flat gyri separated by a few, shallow sulci (pachygyria).1 In addition, imaging studies show a thick cortex and shallow, vertically oriented sylvian fissures (lack of opercularization) giving the cerebrum the shape of a figure of eight.17 More than one gene defect has been proved responsible for classical lissencephaly. In some types of classical lissencephaly, the mothers and sisters of the affected patients have another type of migrational defect (band heterotopia or double cortex).18 On the other hand, the previously termed type 2 lissencephaly is no longer considered lissencephaly, but a brain malformation that forms part of the cobblestone complex that is often seen in association with muscular dystrophy.1 Only one patient was identified in this series with this type of cerebral malformation. Gray matter heterotopia refers to normal neurons in abnormal location. Patients with heterotopia almost always present with epilepsy, the severity and prognosis of which is a function of the severity of heterotopia.17 The heterotopic gray matter may be located subependymally, subcortically, or between the ventricles and cortex. The heterotopic islands may have a nodular or band configuration and their signal intensity on MRI follows that of the cerebral cortex on all pulse sequences.19 These lesions are not surrounded by edema and do not enhance.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_58_43-PMC6078548-1-asm-1-28f4.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_58_43-PMC6078548-1-asm-1-28f4.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Cerebral gyral pattern",
+        "claim_text": "Both cerebral hemispheres show a markedly simplified gyral pattern.",
+        "presence_question": "Does the model's response discuss Cerebral gyral pattern?",
+        "correctness_question": "Does the model's response correctly assert that Both cerebral hemispheres show a markedly simplified gyral pattern?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Cortical sulci depth",
+        "claim_text": "The cortical sulci are very shallow or absent on both sides, though this is uncertain.",
+        "presence_question": "Does the model's response discuss Cortical sulci depth?",
+        "correctness_question": "Does the model's response correctly assert that The cortical sulci are very shallow or absent on both sides, though this is uncertain?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Cortical thickening",
+        "claim_text": "The cerebral cortex appears thickened on both sides.",
+        "presence_question": "Does the model's response discuss Cortical thickening?",
+        "correctness_question": "Does the model's response correctly assert that The cerebral cortex appears thickened on both sides?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Hemispheric symmetry",
+        "claim_text": "The cerebral hemispheres are symmetric between the left and right sides.",
+        "presence_question": "Does the model's response discuss Hemispheric symmetry?",
+        "correctness_question": "Does the model's response correctly assert that The cerebral hemispheres are symmetric between the left and right sides?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Lateral ventricle enlargement",
+        "claim_text": "The lateral ventricles are bilaterally enlarged relative to expected size.",
+        "presence_question": "Does the model's response discuss Lateral ventricle enlargement?",
+        "correctness_question": "Does the model's response correctly assert that The lateral ventricles are bilaterally enlarged relative to expected size?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Focal destructive lesion",
+        "claim_text": "There is no focal destructive lesion identified in the brain.",
+        "presence_question": "Does the model's response discuss Focal destructive lesion?",
+        "correctness_question": "Does the model's response correctly assert that There is no focal destructive lesion identified in the brain?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Strictly unilateral abnormality",
+        "claim_text": "There is no strictly unilateral abnormality in the brain.",
+        "presence_question": "Does the model's response discuss Strictly unilateral abnormality?",
+        "correctness_question": "Does the model's response correctly assert that There is no strictly unilateral abnormality in the brain?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Diffuse cortical malformation",
+        "claim_text": "A diffuse, bilateral cortical malformation is present, characterized by smooth, thick cortex.",
+        "presence_question": "Does the model's response discuss Diffuse cortical malformation?",
+        "correctness_question": "Does the model's response correctly assert that A diffuse, bilateral cortical malformation is present, characterized by smooth, thick cortex?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "diffuse bilateral cortical malformation",
+        "claim_text": "Diffuse bilateral cortical malformations are typically associated with severe global developmental delay.",
+        "presence_question": "Does the model's response discuss diffuse bilateral cortical malformation?",
+        "correctness_question": "Does the model's response correctly state that Diffuse bilateral cortical malformations are typically associated with severe global developmental delay?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Lesion distribution (diffuse vs focal)",
+        "claim_text": "The combination of a markedly simplified gyral pattern, very shallow or absent sulci, bilaterally thickened cortex, symmetric appearance, and relative ventriculomegaly supports a diffuse bilateral cortical malformation rather than a focal cortical lesion.",
+        "presence_question": "Does the model's response make an inferential link about Lesion distribution (diffuse vs focal)?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a markedly simplified gyral pattern, very shallow or absent sulci, bilaterally thickened cortex, symmetric appearance, and relative ventriculomegaly supports a diffuse bilateral cortical malformation rather than a focal cortical lesion?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Likelihood of severe global developmental delay",
+        "claim_text": "The presence of a diffuse bilateral cortical malformation on imaging supports severe global developmental delay as the most likely associated clinical feature in this 1-year-old with seizures.",
+        "presence_question": "Does the model's response make an inferential link about Likelihood of severe global developmental delay?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a diffuse bilateral cortical malformation on imaging supports severe global developmental delay as the most likely associated clinical feature in this 1-year-old with seizures?",
+        "premise_perception_ids": [
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

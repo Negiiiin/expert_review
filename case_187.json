@@ -28,5 +28,86 @@
   "caption": "Histology of a serrated polypArrows highlight the sawtooth configuration.",
   "sub_caption": "Arrows highlight the sawtooth configuration.",
   "image_context": "Colon cancer is the fourth most common cause of cancer and is second only to lung cancer as a cause of cancer mortality in the United States [1]. Colon cancers are believed to develop from polyps and, until recently, the adenoma was considered the exclusive precursor lesion while hyperplastic polyps (HPPs) were deemed to have no malignant potential. However, accumulated evidence suggested that a subset of HPPs are associated with cancers. Such evidence includes the finding of hyperplastic tissue at the margin of adenomas and the association of larger HPPs, particularly in the right colon, with carcinoma [2-4]. In 1990, Longacre and Fenoglio-Preiser [5] analyzed a group of polyps with features similar to HPPs and adenomas and concluded that most of these cases were actually adenomas with a serrated morphology, which led to the term ‘serrated adenoma’. These serrated polyps have a sawtooth pattern of crypt infolding as a distinct histological feature (<xref ref-type=\"fig\" rid=\"medrep-02-89-g001\">Figure 1</xref>).). There are distinct histological and genetic differences between serrated polyps and conventional adenomas (<xref ref-type=\"fig\" rid=\"medrep-02-89-g001\">Figure 1</xref> and  and <xref ref-type=\"fig\" rid=\"medrep-02-89-g003\">Figure 3</xref>). Histologically and by definition, all conventional adenomas show epithelial dysplasia, whereas SSAs often display cytological atypia or dysplasia but not the classical dysplastic morphology of conventional adenomas [). Histologically and by definition, all conventional adenomas show epithelial dysplasia, whereas SSAs often display cytological atypia or dysplasia but not the classical dysplastic morphology of conventional adenomas [9-11]. TSAs and mixed polyps also show classical epithelial dysplasia, but can be differentiated from conventional adenomas by their histology [10,11]. In recent years, there has been a heightened interest in the serrated adenoma pathway, but the lack of uniform terminology and histological interobserver agreement has hampered accurate estimates of the frequency of serrated polyps [10]. Chromoendoscopy has been shown to enhance mucosal detail and lesion detection [24, 25]. In two recent studies, one of which utilized chromoendoscopy, the frequency of serrated polyps was estimated to be as follows: HPPs were seen in ~30% of patients, SSAs in 4-9%, TSAs in ~0.7%, and mixed polyps in 0.7-1.7% [16,26].",
-  "relevant_image_context": "These serrated polyps have a sawtooth pattern of crypt infolding as a distinct histological feature. There are distinct histological and genetic differences between serrated polyps and conventional adenomas. Histologically and by definition, all conventional adenomas show epithelial dysplasia, whereas SSAs often display cytological atypia or dysplasia but not the classical dysplastic morphology of conventional adenomas."
+  "relevant_image_context": "These serrated polyps have a sawtooth pattern of crypt infolding as a distinct histological feature. There are distinct histological and genetic differences between serrated polyps and conventional adenomas. Histologically and by definition, all conventional adenomas show epithelial dysplasia, whereas SSAs often display cytological atypia or dysplasia but not the classical dysplastic morphology of conventional adenomas.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_7_49-PMC3026616-0-medrep-02-89-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_7_49-PMC3026616-0-medrep-02-89-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "crypt luminal serration",
+        "claim_text": "The colonic crypts show prominent luminal serration with a sawtooth appearance.",
+        "presence_question": "Does the model's response discuss crypt luminal serration?",
+        "correctness_question": "Does the model's response correctly assert that The colonic crypts show prominent luminal serration with a sawtooth appearance.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "crypt epithelial branching",
+        "claim_text": "The crypt epithelium shows branching of the glandular architecture in the colonic crypts.",
+        "presence_question": "Does the model's response discuss crypt epithelial branching?",
+        "correctness_question": "Does the model's response correctly assert that The crypt epithelium shows branching of the glandular architecture in the colonic crypts.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "goblet cell abundance",
+        "claim_text": "The crypt epithelium contains abundant mucin and numerous goblet cells.",
+        "presence_question": "Does the model's response discuss goblet cell abundance?",
+        "correctness_question": "Does the model's response correctly assert that The crypt epithelium contains abundant mucin and numerous goblet cells.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "high-grade cytologic atypia",
+        "claim_text": "High-grade cytologic atypia is absent in the epithelium.",
+        "presence_question": "Does the model's response discuss high-grade cytologic atypia?",
+        "correctness_question": "Does the model's response correctly assert that High-grade cytologic atypia is absent in the epithelium.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "dense inflammatory cell infiltrate",
+        "claim_text": "A dense inflammatory cell infiltrate is absent in the surrounding lamina propria.",
+        "presence_question": "Does the model's response discuss dense inflammatory cell infiltrate?",
+        "correctness_question": "Does the model's response correctly assert that A dense inflammatory cell infiltrate is absent in the surrounding lamina propria.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "smooth muscle expansion between crypts",
+        "claim_text": "There is no expansion of smooth muscle within the lamina propria between crypts.",
+        "presence_question": "Does the model's response discuss smooth muscle expansion between crypts?",
+        "correctness_question": "Does the model's response correctly assert that There is no expansion of smooth muscle within the lamina propria between crypts.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Increased epithelial proliferation with branching",
+        "claim_text": "Increased epithelial proliferation with branching produces serrated (sawtooth) luminal contours and branched crypt architecture.",
+        "presence_question": "Does the model's response discuss increased epithelial proliferation with branching?",
+        "correctness_question": "Does the model's response correctly state that increased epithelial proliferation with branching produces serrated (sawtooth) luminal contours and branched crypt architecture?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Increased epithelial proliferation with branching",
+        "claim_text": "The observed sawtooth serration and branching of crypt epithelium support that increased epithelial proliferation with branching is a plausible mechanism in this specimen.",
+        "presence_question": "Does the model's response make an inferential link about Increased epithelial proliferation with branching?",
+        "correctness_question": "Does the model's response correctly conclude that The observed sawtooth serration and branching of crypt epithelium support that increased epithelial proliferation with branching is a plausible mechanism in this specimen.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

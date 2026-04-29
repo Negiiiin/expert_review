@@ -27,5 +27,117 @@
   "caption": "CT scan showing an osteochondroma (red arrow) of the rib. CT, computed tomography.",
   "sub_caption": "CT scan showing an osteochondroma (red arrow) of the rib. CT, computed tomography.",
   "image_context": "It is a benign bone surface tumor (<xref rid=\"jtd-16-01-722-f1\" ref-type=\"fig\"><italic>Figure 1</italic></xref>). It is made up of mature bone with a cartilage cap, which usually exhibits a growth plate-like morphology (Figure 1). It is made up of mature bone with a cartilage cap, which usually exhibits a growth plate-like morphology (<xref rid=\"jtd-16-01-722-f2\" ref-type=\"fig\"><italic>Figure 2</italic></xref>). It may be solitary or occur as multiple hereditary exostoses and is more often found in children and adolescents. Both sporadic solitary tumors and multiple hereditary exostoses are linked with loss of function (LoF) mutations in the genes EXT1 (8q24) and EXT2 (11p11) (Figure 2). It may be solitary or occur as multiple hereditary exostoses and is more often found in children and adolescents. Both sporadic solitary tumors and multiple hereditary exostoses are linked with loss of function (LoF) mutations in the genes EXT1 (8q24) and EXT2 (11p11) (36). However, in solitary lesions, EXT gene inactivation is substantially restricted to the cartilage cap and is somatic. On the other hand, the multiple exostoses evidence an autosomal dominant inheritance (37). If a cartilaginous cap is identified grossly, the microscopic examination of these tumors reveals a cap composed of mature hyaline cartilage with an overlying fibrous perichondrium. The transition between bone and cartilage cap in children and adolescents looks like a growth plate. It is easy to demonstrate endochondral ossification into mature bone. Cartilage cap diminishes and may basically be lacking later in life.",
-  "relevant_image_context": "Osteochondroma is a benign bone surface tumor composed of mature bone with a cartilage cap that often exhibits a growth plate–like morphology. It may be solitary or occur as multiple hereditary exostoses and is more commonly found in children and adolescents; mutations in EXT1 and EXT2 are associated with these lesions. If a cartilaginous cap is identified grossly, histology shows a cap of mature hyaline cartilage with an overlying fibrous perichondrium. The transition between bone and cartilage cap in children and adolescents resembles a growth plate, and endochondral ossification into mature bone can be demonstrated. The cartilage cap diminishes with age and may be absent later in life."
+  "relevant_image_context": "Osteochondroma is a benign bone surface tumor composed of mature bone with a cartilage cap that often exhibits a growth plate–like morphology. It may be solitary or occur as multiple hereditary exostoses and is more commonly found in children and adolescents; mutations in EXT1 and EXT2 are associated with these lesions. If a cartilaginous cap is identified grossly, histology shows a cap of mature hyaline cartilage with an overlying fibrous perichondrium. The transition between bone and cartilage cap in children and adolescents resembles a growth plate, and endochondral ossification into mature bone can be demonstrated. The cartilage cap diminishes with age and may be absent later in life.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_146_8-PMC10894435-7-jtd-16-01-722-f1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_146_8-PMC10894435-7-jtd-16-01-722-f1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "exophytic bony protuberance on posterior rib",
+        "claim_text": "An exophytic bony protuberance arises from the posterior rib on axial chest CT",
+        "presence_question": "Does the model's response discuss exophytic bony protuberance on posterior rib?",
+        "correctness_question": "Does the model's response correctly assert that An exophytic bony protuberance arises from the posterior rib on axial chest CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "osseous surface lesion on posterior rib",
+        "claim_text": "There is an osseous surface lesion located on the posterior rib",
+        "presence_question": "Does the model's response discuss osseous surface lesion on posterior rib?",
+        "correctness_question": "Does the model's response correctly assert that There is an osseous surface lesion located on the posterior rib?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "exophytic lesion shape",
+        "claim_text": "The lesion demonstrates an exophytic shape projecting from the chest rib",
+        "presence_question": "Does the model's response discuss exophytic lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesion demonstrates an exophytic shape projecting from the chest rib?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "well-demarcated lesion margin",
+        "claim_text": "The lesion has well-demarcated margins along the chest rib surface",
+        "presence_question": "Does the model's response discuss well-demarcated lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The lesion has well-demarcated margins along the chest rib surface?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "single osseous surface lesion in included chest slices",
+        "claim_text": "Only one similar osseous surface lesion is present within the included chest slices",
+        "presence_question": "Does the model's response discuss single osseous surface lesion in included chest slices?",
+        "correctness_question": "Does the model's response correctly assert that Only one similar osseous surface lesion is present within the included chest slices?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "no additional similar osseous lesions in included chest slices",
+        "claim_text": "No additional similar osseous surface lesions are seen within the included chest slices",
+        "presence_question": "Does the model's response discuss no additional similar osseous lesions in included chest slices?",
+        "correctness_question": "Does the model's response correctly assert that No additional similar osseous surface lesions are seen within the included chest slices?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "EXT1/EXT2 mutations",
+        "claim_text": "Germline EXT1 or EXT2 mutations are associated with multiple similar osseous surface lesions (hereditary multiple exostoses).",
+        "presence_question": "Does the model's response discuss EXT1/EXT2 mutations?",
+        "correctness_question": "Does the model's response correctly state that Germline EXT1 or EXT2 mutations are associated with multiple similar osseous surface lesions (hereditary multiple exostoses)?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "solitary osseous surface lesion",
+        "claim_text": "An isolated solitary osseous surface lesion typically indicates a sporadic (non-hereditary) etiology.",
+        "presence_question": "Does the model's response discuss solitary osseous surface lesion?",
+        "correctness_question": "Does the model's response correctly state that An isolated solitary osseous surface lesion typically indicates a sporadic (non-hereditary) etiology?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "EXT mutation inheritance risk",
+        "claim_text": "EXT1 or EXT2 germline mutations are inherited in an autosomal dominant pattern, conferring about a 50% risk to first-degree relatives.",
+        "presence_question": "Does the model's response discuss EXT mutation inheritance risk?",
+        "correctness_question": "Does the model's response correctly state that EXT1 or EXT2 germline mutations are inherited in an autosomal dominant pattern, conferring about a 50% risk to first-degree relatives?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Lesion etiology (isolated vs hereditary)",
+        "claim_text": "The imaging finding of a single, well-demarcated exophytic bony protuberance on the posterior rib with no additional similar lesions supports an isolated (sporadic) lesion rather than the hereditary multiple-exostoses phenotype.",
+        "presence_question": "Does the model's response make an inferential link about Lesion etiology (isolated vs hereditary)?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging finding of a single, well-demarcated exophytic bony protuberance on the posterior rib with no additional similar lesions supports an isolated (sporadic) lesion rather than the hereditary multiple-exostoses phenotype?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Substantial familial risk increase",
+        "claim_text": "Because the imaging favors an isolated sporadic lesion and hereditary EXT1/EXT2 syndrome is associated with multiple lesions and confers roughly a 50% autosomal dominant risk to first-degree relatives, the case argues against a substantial increase in familial risk for this patient.",
+        "presence_question": "Does the model's response make an inferential link about Substantial familial risk increase?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging favors an isolated sporadic lesion and hereditary EXT1/EXT2 syndrome is associated with multiple lesions and confers roughly a 50% autosomal dominant risk to first-degree relatives, the case argues against a substantial increase in familial risk for this patient?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

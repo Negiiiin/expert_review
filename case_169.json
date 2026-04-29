@@ -28,5 +28,177 @@
   "caption": "The teres minor muscles had the largest arborization patterns (shaded in blue), in the located on 1/5–3/5. The tendinous portion was observed in the 3/5–5/5. The needles in the photograph show ideal injection areas along the teres minor muscle where the largest arborization was observed.",
   "sub_caption": "The needles in the photograph show ideal injection areas along the teres minor muscle where the largest arborization was observed.",
   "image_context": "There are limited studies that have investigated the anatomy of the teres minor muscle. Our study identified the location of the intramuscular neural dense area of the nerve branch that connects to the teres minor muscle. This area was found to be located between 1/5 and 3/5 from the reference point and these areas should considered in clinical fields (<xref rid=\"acb-56-3-322-f5\" ref-type=\"fig\">Fig. 5</xref>). This finding could serve as a helpful guideline for injections targeting the teres minor muscle.). This finding could serve as a helpful guideline for injections targeting the teres minor muscle.",
-  "relevant_image_context": "There are limited studies that have investigated the anatomy of the teres minor muscle. Our study identified the location of the intramuscular neural dense area of the nerve branch that connects to the teres minor muscle. This area was found to be located between 1/5 and 3/5 from the reference point and these areas should be considered in clinical fields (Fig. 5). This finding could serve as a helpful guideline for injections targeting the teres minor muscle."
+  "relevant_image_context": "There are limited studies that have investigated the anatomy of the teres minor muscle. Our study identified the location of the intramuscular neural dense area of the nerve branch that connects to the teres minor muscle. This area was found to be located between 1/5 and 3/5 from the reference point and these areas should be considered in clinical fields (Fig. 5). This finding could serve as a helpful guideline for injections targeting the teres minor muscle.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_138_11-PMC10520855-2-acb-56-3-322-f5.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_138_11-PMC10520855-2-acb-56-3-322-f5.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "posterior shoulder dissection",
+        "claim_text": "A posterior shoulder dissection is present in the figure.",
+        "presence_question": "Does the model's response discuss posterior shoulder dissection?",
+        "correctness_question": "Does the model's response correctly assert that A posterior shoulder dissection is present in the figure.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "narrow muscle",
+        "claim_text": "A depicted muscle appears narrow in the image cross-section.",
+        "presence_question": "Does the model's response discuss narrow muscle?",
+        "correctness_question": "Does the model's response correctly assert that A depicted muscle appears narrow in the image cross-section.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "muscle location at axillary scapular border",
+        "claim_text": "The muscle is located at the axillary border of the scapula.",
+        "presence_question": "Does the model's response discuss muscle location at the axillary border of the scapula?",
+        "correctness_question": "Does the model's response correctly assert that The muscle is located at the axillary border of the scapula.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "two needles or syringes",
+        "claim_text": "There are two needles or syringes visible in the image.",
+        "presence_question": "Does the model's response discuss needles or syringes?",
+        "correctness_question": "Does the model's response correctly assert that There are two needles or syringes visible in the image.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "needles in muscle belly",
+        "claim_text": "The needles are located within the muscle belly.",
+        "presence_question": "Does the model's response discuss needles in the muscle belly?",
+        "correctness_question": "Does the model's response correctly assert that The needles are located within the muscle belly.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "needle orientation",
+        "claim_text": "The needles are oriented parallel to each other.",
+        "presence_question": "Does the model's response discuss needle orientation?",
+        "correctness_question": "Does the model's response correctly assert that The needles are oriented parallel to each other.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "blue-shaded region over muscle midportion",
+        "claim_text": "A blue-shaded rectangular region is present over the muscle midportion.",
+        "presence_question": "Does the model's response discuss the blue-shaded region over the muscle midportion?",
+        "correctness_question": "Does the model's response correctly assert that A blue-shaded rectangular region is present over the muscle midportion.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "blue-shaded region over muscle midportion",
+        "claim_text": "The blue-shaded region overlies the midportion of the muscle.",
+        "presence_question": "Does the model's response discuss the blue-shaded region over the muscle midportion?",
+        "correctness_question": "Does the model's response correctly assert that The blue-shaded region overlies the midportion of the muscle.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "rectangular blue-shaded region shape",
+        "claim_text": "The blue-shaded region displays a rectangular shape in the figure.",
+        "presence_question": "Does the model's response discuss the rectangular blue-shaded region shape?",
+        "correctness_question": "Does the model's response correctly assert that The blue-shaded region displays a rectangular shape in the figure.?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "blue color of region",
+        "claim_text": "The shaded region is colored blue in the image.",
+        "presence_question": "Does the model's response discuss the blue color of the region?",
+        "correctness_question": "Does the model's response correctly assert that The shaded region is colored blue in the image.?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "overlying caption text",
+        "claim_text": "An overlying caption contains the phrase '2/3 of axillary border of the scap...'.",
+        "presence_question": "Does the model's response discuss the overlying caption text?",
+        "correctness_question": "Does the model's response correctly assert that An overlying caption contains the phrase '2/3 of axillary border of the scap...'.?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "blue-shaded intramuscular zone",
+        "claim_text": "The blue-shaded intramuscular zone is the dominant visual feature.",
+        "presence_question": "Does the model's response discuss the blue-shaded intramuscular zone?",
+        "correctness_question": "Does the model's response correctly assert that The blue-shaded intramuscular zone is the dominant visual feature.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "teres minor muscle",
+        "claim_text": "The teres minor is located at the axillary border of the scapula.",
+        "presence_question": "Does the model's response discuss teres minor muscle?",
+        "correctness_question": "Does the model's response correctly state that The teres minor is located at the axillary border of the scapula?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "needles inserted into a muscle belly",
+        "claim_text": "Needles inserted into a muscle belly indicate an intramuscular targeted zone or injection.",
+        "presence_question": "Does the model's response discuss needles inserted into a muscle belly?",
+        "correctness_question": "Does the model's response correctly state that Needles inserted into a muscle belly indicate an intramuscular targeted zone or injection?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "blue-shaded rectangular overlay",
+        "claim_text": "A blue-shaded rectangular overlay on an image identifies a targeted region or area of interest in the figure.",
+        "presence_question": "Does the model's response discuss blue-shaded rectangular overlay?",
+        "correctness_question": "Does the model's response correctly state that A blue-shaded rectangular overlay on an image identifies a targeted region or area of interest in the figure?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "teres minor identification",
+        "claim_text": "The evidence supports that the narrow muscle along the axillary border of the scapula in this case is the teres minor.",
+        "presence_question": "Does the model's response make an inferential link about teres minor identification?",
+        "correctness_question": "Does the model's response correctly conclude that The evidence supports that the narrow muscle along the axillary border of the scapula in this case is the teres minor?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "targeted intramuscular injection zone",
+        "claim_text": "The presence of two parallel needles and a blue-shaded rectangular overlay justifies that a targeted intramuscular injection zone is present in the muscle belly in this case.",
+        "presence_question": "Does the model's response make an inferential link about targeted intramuscular injection zone?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of two parallel needles and a blue-shaded rectangular overlay justifies that a targeted intramuscular injection zone is present in the muscle belly in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "neural arborization zone of teres minor",
+        "claim_text": "The evidence supports that, given identification of the muscle as teres minor and a dominant blue-shaded intramuscular region targeted by needles at the midportion/axillary border, the dominant anatomical finding in this case is the neural arborization zone of the teres minor.",
+        "presence_question": "Does the model's response make an inferential link about neural arborization zone of teres minor?",
+        "correctness_question": "Does the model's response correctly conclude that The evidence supports that, given identification of the muscle as teres minor and a dominant blue-shaded intramuscular region targeted by needles at the midportion/axillary border, the dominant anatomical finding in this case is the neural arborization zone of the teres minor?",
+        "premise_perception_ids": [
+          "p3",
+          "p5",
+          "p7",
+          "p8",
+          "p11",
+          "p12"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

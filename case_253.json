@@ -27,5 +27,86 @@
   "caption": "External slit lamp image of the bleb at postoperative month one (A) and postoperative month ten (B). (A) At postoperative month one, the patient had an elevated bleb, formed anterior chamber and Seidel negative conjunctival closure. Flap sutures (arrows) were visible under the conjunctiva. (B) At postoperative month ten, the bleb was diffusely elevated.",
   "sub_caption": "(A) At postoperative month one, the patient had an elevated bleb, formed anterior chamber and Seidel negative conjunctival closure. Flap sutures (arrows) were visible under the conjunctiva.",
   "image_context": "On postoperative day one, the patient's VA was 20/150, IOP was 3 mmHg with a Seidel negative, raised bleb. She had a formed anterior chamber and no choroidal effusions. She was started on prednisolone acetate four times per day and atropine two times per day. All her IOP-lowering medications were stopped. OCT of the macula did not show significant macular folds or choroidal undulations during the first postoperative week. Throughout the first postoperative month, the patient maintained a formed anterior chamber despite a slow bleb leak at the nasal limbus appearing at post-operative week one which resolved following the application of a bandage contact lens. At postoperative month one, VA was 20/70 and IOP was 4 mmHg with a formed anterior chamber (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>A). At postoperative month two, VA was 20/60, IOP was 10 mmHg with a deep anterior chamber. She was maintained on prednisolone acetate four times per day and remained off IOP-lowering medications. She was then lost to follow up for four months. At postoperative month six, VA was 20/70, and IOP was 14 mmHg. She was then lost again to follow up with unclear medication usage in the interim. At postoperative month ten, the patient's VA was 20/60 and IOP was 14 mmHg with an elevated bleb (A). At postoperative month two, VA was 20/60, IOP was 10 mmHg with a deep anterior chamber. She was maintained on prednisolone acetate four times per day and remained off IOP-lowering medications. She was then lost to follow up for four months. At postoperative month six, VA was 20/70, and IOP was 14 mmHg. She was then lost again to follow up with unclear medication usage in the interim. At postoperative month ten, the patient's VA was 20/60 and IOP was 14 mmHg with an elevated bleb (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>B).B).Fig. 2External slit lamp image of the bleb at postoperative month one (A) and postoperative month ten (B). (A) At postoperative month one, the patient had an elevated bleb, formed anterior chamber and Seidel negative conjunctival closure. Flap sutures (arrows) were visible under the conjunctiva. (B) At postoperative month ten, the bleb was diffusely elevated.Fig. 2",
-  "relevant_image_context": "Fig. 2 External slit lamp image of the bleb at postoperative month one (A) and postoperative month ten (B). (A) At postoperative month one, the patient had an elevated bleb, formed anterior chamber and Seidel negative conjunctival closure. Flap sutures (arrows) were visible under the conjunctiva."
+  "relevant_image_context": "Fig. 2 External slit lamp image of the bleb at postoperative month one (A) and postoperative month ten (B). (A) At postoperative month one, the patient had an elevated bleb, formed anterior chamber and Seidel negative conjunctival closure. Flap sutures (arrows) were visible under the conjunctiva.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_155_17-PMC11320425-1-gr2.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_155_17-PMC11320425-1-gr2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Inferior bulbar conjunctiva reflection",
+        "claim_text": "The inferior bulbar conjunctiva is reflected upward against the lower eyelid.",
+        "presence_question": "Does the model's response discuss Inferior bulbar conjunctiva reflection?",
+        "correctness_question": "Does the model's response correctly assert that The inferior bulbar conjunctiva is reflected upward against the lower eyelid?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Count of inferior suture-like structures",
+        "claim_text": "There are two suture-like structures beneath the inferior conjunctival surface near the limbal area.",
+        "presence_question": "Does the model's response discuss Count of inferior suture-like structures?",
+        "correctness_question": "Does the model's response correctly assert that There are two suture-like structures beneath the inferior conjunctival surface near the limbal area?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Appearance of inferior suture-like structures",
+        "claim_text": "The inferior suture-like structures appear as dark, linear cords with knotted points.",
+        "presence_question": "Does the model's response discuss Appearance of inferior suture-like structures?",
+        "correctness_question": "Does the model's response correctly assert that The inferior suture-like structures appear as dark, linear cords with knotted points?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Location of suture-like structures beneath conjunctiva",
+        "claim_text": "The suture-like structures are located beneath the conjunctival surface near the inferior limbal area.",
+        "presence_question": "Does the model's response discuss Location of suture-like structures beneath conjunctiva?",
+        "correctness_question": "Does the model's response correctly assert that The suture-like structures are located beneath the conjunctival surface near the inferior limbal area?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Additional suture-like structures elsewhere",
+        "claim_text": "No additional suture-like structures are visible elsewhere in the exposed conjunctival field.",
+        "presence_question": "Does the model's response discuss Additional suture-like structures elsewhere?",
+        "correctness_question": "Does the model's response correctly assert that No additional suture-like structures are visible elsewhere in the exposed conjunctival field?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Subconjunctival sutures",
+        "claim_text": "Dark, linear, knotted points beneath the conjunctiva typically indicate the presence of sutures.",
+        "presence_question": "Does the model's response discuss subconjunctival sutures?",
+        "correctness_question": "Does the model's response correctly state that dark, linear, knotted points beneath the conjunctiva typically indicate the presence of sutures?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Conjunctival reflection",
+        "claim_text": "Reflecting the conjunctiva typically allows visualization of sub-conjunctival structures.",
+        "presence_question": "Does the model's response discuss conjunctival reflection?",
+        "correctness_question": "Does the model's response correctly state that reflecting the conjunctiva typically allows visualization of sub-conjunctival structures?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Flap suture count from conjunctival appearance",
+        "claim_text": "Supports that the two dark, linear/knotted structures seen beneath the reflected inferior bulbar conjunctiva are flap sutures and that the count of flap sutures visible under the conjunctiva in this case is 2.",
+        "presence_question": "Does the model's response make an inferential link about flap suture count from conjunctival appearance?",
+        "correctness_question": "Does the model's response correctly conclude that Supports that the two dark, linear/knotted structures seen beneath the reflected inferior bulbar conjunctiva are flap sutures and that the count of flap sutures visible under the conjunctiva in this case is 2?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

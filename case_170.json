@@ -27,5 +27,76 @@
   "caption": "CT (A) and right vertebral angiography (B–D) just after re-bleeding. (A) CT shows new subarachnoid hemorrhage in the right premedullary cistern. (B and C) Anteroposterior and lateral views show the absence of the right PICA. (D) Oblique view shows a saccular aneurysm (arrow) in the anterior pontine segment of the right AICA. AICA: anterior inferior cerebellar artery; PICA: posterior inferior cerebellar artery",
   "sub_caption": "(A) CT shows new subarachnoid hemorrhage in the right premedullary cistern.",
   "image_context": "Based on the above, the patient was diagnosed with Hunt and Kosnik grade I, World Federation of Neurosurgical Societies grade I subarachnoid hemorrhage of unknown source of bleeding, and resting and blood pressure control at a systolic blood pressure lower than 130 mmHg were performed. Re-examination by cerebral angiography was performed on day 6 after the onset, but the source of bleeding was unclear. On day 10 after the onset, headache sharply aggravated and a small volume of subarachnoid hemorrhage newly developed centering in the right premedullary cistern on head CT (<xref rid=\"jnet-15-339-g002\" ref-type=\"fig\"><bold>Fig. 2A</bold></xref>). DSA was repeated and an aneurysm was present in the non-vascular bifurcation region of the anterior pontine segment of the right AICA. The right posterior inferior cerebellar artery (PICA) was lost and the right AICA perfused the right PICA region (Fig. 2A). DSA was repeated and an aneurysm was present in the non-vascular bifurcation region of the anterior pontine segment of the right AICA. The right posterior inferior cerebellar artery (PICA) was lost and the right AICA perfused the right PICA region (<xref rid=\"jnet-15-339-g002\" ref-type=\"fig\"><bold>Fig. 2B</bold></xref>Fig. 2B–<xref rid=\"jnet-15-339-g002\" ref-type=\"fig\"><bold>2D</bold></xref>). The aneurysm diameter was 0.9 mm and the AICA diameter was 1.4 mm in the proximal region of the aneurysm.2D). The aneurysm diameter was 0.9 mm and the AICA diameter was 1.4 mm in the proximal region of the aneurysm.",
-  "relevant_image_context": "On day 10 after the onset, headache sharply aggravated and a small volume of subarachnoid hemorrhage newly developed centering in the right premedullary cistern on head CT (Fig. 2A)."
+  "relevant_image_context": "On day 10 after the onset, headache sharply aggravated and a small volume of subarachnoid hemorrhage newly developed centering in the right premedullary cistern on head CT (Fig. 2A).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_3_filelist_noncommercial_batch_134_44-PMC10370979-3-jnet-15-339-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_134_44-PMC10370979-3-jnet-15-339-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Right premedullary and prepontine hyperdense collection",
+        "claim_text": "There is a focal hyperdense collection in the right premedullary and prepontine cistern.",
+        "presence_question": "Does the model's response discuss Right premedullary and prepontine hyperdense collection?",
+        "correctness_question": "Does the model's response correctly assert that there is a focal hyperdense collection in the right premedullary and prepontine cistern?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Basal cisterns layering hyperdensity",
+        "claim_text": "There is layering hyperdensity present within the basal cisterns on the study.",
+        "presence_question": "Does the model's response discuss Basal cisterns layering hyperdensity?",
+        "correctness_question": "Does the model's response correctly assert that there is layering hyperdensity present within the basal cisterns on the study?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "layering hyperdensity in basal cisterns on CT",
+        "claim_text": "Layering hyperdensity in the basal cisterns on noncontrast head CT typically suggests acute subarachnoid hemorrhage.",
+        "presence_question": "Does the model's response discuss layering hyperdensity in the basal cisterns on CT?",
+        "correctness_question": "Does the model's response correctly state that Layering hyperdensity in the basal cisterns on noncontrast head CT typically suggests acute subarachnoid hemorrhage?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "active intracranial hemorrhage",
+        "claim_text": "Active intracranial hemorrhage is a contraindication to systemic thrombolytic therapy.",
+        "presence_question": "Does the model's response discuss active intracranial hemorrhage?",
+        "correctness_question": "Does the model's response correctly state that Active intracranial hemorrhage is a contraindication to systemic thrombolytic therapy?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "acute subarachnoid hemorrhage diagnosis",
+        "claim_text": "The observed focal hyperdensity in the right premedullary/prepontine cistern and the layering hyperdensity in the basal cisterns are consistent with an acute subarachnoid hemorrhage in this patient.",
+        "presence_question": "Does the model's response make an inferential link about acute subarachnoid hemorrhage diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The observed focal hyperdensity in the right premedullary/prepontine cistern and the layering hyperdensity in the basal cisterns are consistent with an acute subarachnoid hemorrhage in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "contraindication to systemic thrombolytic therapy",
+        "claim_text": "Because the imaging findings indicate an active intracranial hemorrhage (subarachnoid blood), administering systemic thrombolytic therapy that promotes bleeding would be contraindicated in this patient.",
+        "presence_question": "Does the model's response make an inferential link about contraindication to systemic thrombolytic therapy?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging findings indicate an active intracranial hemorrhage (subarachnoid blood), administering systemic thrombolytic therapy that promotes bleeding would be contraindicated in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

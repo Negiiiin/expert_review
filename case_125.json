@@ -27,5 +27,112 @@
   "caption": "Abdominal CT angiography depicting contrast extravasation in the distant ileum (indicated by red arrow)",
   "sub_caption": "Abdominal CT angiography depicting contrast extravasation in the distant ileum (indicated by red arrow)",
   "image_context": "The patient underwent CT angiography on admission, which suggested contrast extravasation in the distal ileum (Figure <xref rid=\"cureus-0016-00000051744-i01\" ref-type=\"fig\">1</xref>). No pathologically enlarged lymph nodes or free fluid in the peritoneal and pelvic cavity were detected. Interventional radiologists were consulted for emergency embolization. However, at the time of angiography, active bleeding was not confirmed. Hence, we opted against performing a non-super-selective embolization to a patient of this age, in view of possible complications, namely bowel ischemia. Instead, our patient was supported with transfusions of two packs of fresh frozen plasma (FFP) and three units of packed red blood cells (RBC).). No pathologically enlarged lymph nodes or free fluid in the peritoneal and pelvic cavity were detected. Interventional radiologists were consulted for emergency embolization. However, at the time of angiography, active bleeding was not confirmed. Hence, we opted against performing a non-super-selective embolization to a patient of this age, in view of possible complications, namely bowel ischemia. Instead, our patient was supported with transfusions of two packs of fresh frozen plasma (FFP) and three units of packed red blood cells (RBC).",
-  "relevant_image_context": "The patient underwent CT angiography on admission, which suggested contrast extravasation in the distal ileum. No pathologically enlarged lymph nodes or free fluid in the peritoneal and pelvic cavity were detected. Interventional radiologists were consulted for emergency embolization. However, at the time of angiography, active bleeding was not confirmed. Hence, we opted against performing a non-super-selective embolization to a patient of this age, in view of possible complications, namely bowel ischemia. Instead, our patient was supported with transfusions of two packs of fresh frozen plasma (FFP) and three units of packed red blood cells (RBC)."
+  "relevant_image_context": "The patient underwent CT angiography on admission, which suggested contrast extravasation in the distal ileum. No pathologically enlarged lymph nodes or free fluid in the peritoneal and pelvic cavity were detected. Interventional radiologists were consulted for emergency embolization. However, at the time of angiography, active bleeding was not confirmed. Hence, we opted against performing a non-super-selective embolization to a patient of this age, in view of possible complications, namely bowel ischemia. Instead, our patient was supported with transfusions of two packs of fresh frozen plasma (FFP) and three units of packed red blood cells (RBC).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_164_117-PMC10840443-0-cureus-0016-00000051744-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_164_117-PMC10840443-0-cureus-0016-00000051744-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "high-attenuation pocket in distal small-bowel loop",
+        "claim_text": "A focal pocket of high attenuation is located in a distal small-bowel loop in the right lower quadrant.",
+        "presence_question": "Does the model's response discuss high-attenuation pocket in distal small-bowel loop?",
+        "correctness_question": "Does the model's response correctly assert that A focal pocket of high attenuation is located in a distal small-bowel loop in the right lower quadrant?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "high-attenuation pocket in right lower quadrant",
+        "claim_text": "A focal pocket of high attenuation is present in the right lower quadrant.",
+        "presence_question": "Does the model's response discuss high-attenuation pocket in right lower quadrant?",
+        "correctness_question": "Does the model's response correctly assert that A focal pocket of high attenuation is present in the right lower quadrant?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "active extravasation on catheter angiography",
+        "claim_text": "No active extravasation is seen on diagnostic catheter angiography.",
+        "presence_question": "Does the model's response discuss active extravasation on catheter angiography?",
+        "correctness_question": "Does the model's response correctly assert that No active extravasation is seen on diagnostic catheter angiography?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "high-attenuation intraluminal bowel material",
+        "claim_text": "High-attenuation material within the bowel lumen on CT angiography typically indicates contrast extravasation from active gastrointestinal bleeding.",
+        "presence_question": "Does the model's response discuss high-attenuation intraluminal bowel material?",
+        "correctness_question": "Does the model's response correctly state that High-attenuation material within the bowel lumen on CT angiography typically indicates contrast extravasation from active gastrointestinal bleeding?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "non-super-selective arterial embolization",
+        "claim_text": "Non-super-selective arterial embolization is typically associated with an increased risk of ischemia.",
+        "presence_question": "Does the model's response discuss non-super-selective arterial embolization?",
+        "correctness_question": "Does the model's response correctly state that Non-super-selective arterial embolization is typically associated with an increased risk of ischemia?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "initial conservative management of GI bleeding",
+        "claim_text": "Initial conservative management of suspected gastrointestinal bleeding typically includes resuscitation with blood product transfusion and close clinical observation.",
+        "presence_question": "Does the model's response discuss initial conservative management of GI bleeding?",
+        "correctness_question": "Does the model's response correctly state that Initial conservative management of suspected gastrointestinal bleeding typically includes resuscitation with blood product transfusion and close clinical observation?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "CT angiography sensitivity for active bleeding",
+        "claim_text": "CT angiography can be more sensitive than diagnostic catheter angiography for detecting active bleeding in some cases.",
+        "presence_question": "Does the model's response discuss CT angiography sensitivity for active bleeding?",
+        "correctness_question": "Does the model's response correctly state that CT angiography can be more sensitive than diagnostic catheter angiography for detecting active bleeding in some cases?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "active lower GI bleeding (distal ileum)",
+        "claim_text": "The focal high-attenuation pocket in a distal small-bowel loop supports the presence of active lower gastrointestinal bleeding in the distal ileum in this case.",
+        "presence_question": "Does the model's response make an inferential link about active lower GI bleeding (distal ileum)?",
+        "correctness_question": "Does the model's response correctly conclude that The focal high-attenuation pocket in a distal small-bowel loop supports the presence of active lower gastrointestinal bleeding in the distal ileum in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "empiric non-super-selective arterial embolization",
+        "claim_text": "The absence of active extravasation on catheter angiography combined with the ischemic risk of non-super-selective embolization argues against performing empiric non-super-selective arterial embolization in this patient.",
+        "presence_question": "Does the model's response make an inferential link about empiric non-super-selective arterial embolization?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of active extravasation on catheter angiography combined with the ischemic risk of non-super-selective embolization argues against performing empiric non-super-selective arterial embolization in this patient?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "conservative management with resuscitation and observation",
+        "claim_text": "Given a CTA suggestive of bleeding, negative catheter angiography, and elevated ischemic risk with embolization, initial conservative management with resuscitation (blood product transfusion) and close clinical observation is the appropriate immediate step.",
+        "presence_question": "Does the model's response make an inferential link about conservative management with resuscitation and observation?",
+        "correctness_question": "Does the model's response correctly conclude that Given a CTA suggestive of bleeding, negative catheter angiography, and elevated ischemic risk with embolization, initial conservative management with resuscitation (blood product transfusion) and close clinical observation is the appropriate immediate step?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

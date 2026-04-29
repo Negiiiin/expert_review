@@ -27,5 +27,203 @@
   "caption": "Spectral domain optical coherence tomography B-scan showing a type 1 membrane in an eye with occult choroidal neovascularization (top image-arrow). En-face image (bottom image) at the level of retinal pigment epithelium showing the total extent of the occult membrane (arrowheads)",
   "sub_caption": "En-face image (bottom image) at the level of retinal pigment epithelium showing the total extent of the occult membrane (arrowheads)",
   "image_context": "En-face imaging can also visualize CNV in FV-PEDs due to exudative AMD. Coscas et al. showed that en-face EDI SD-OCT was able to demonstrate the CNV as a hyper-reflective network within the FV-PED in 30 out of 38 eyes with AMD, with an underlying area of homogeneous hypo-reflectivity consistent with serous exudation. The course of the hyper-reflectivity on OCT corresponded well with the hyper-fluorescent network on ICG. In the other 8 eyes, en-face imaging showed dense, homogenous hyper-reflectivity within the FV-PED, suggestive of fibrous tissue obscuring the CNV. <xref ref-type=\"fig\" rid=\"IJO-63-378-g002\">Fig. 2</xref> is an en-face OCT scan revealing the total extent of occult CNV. With the ability to detect CNV on en-face OCT, it may be possible in future to diagnose type 1 exudative AMD noninvasively, without the need for FA and ICG, both of which require intravenous contrast injection.[ is an en-face OCT scan revealing the total extent of occult CNV. With the ability to detect CNV on en-face OCT, it may be possible in future to diagnose type 1 exudative AMD noninvasively, without the need for FA and ICG, both of which require intravenous contrast injection.[17]",
-  "relevant_image_context": "En-face imaging can also visualize CNV in FV-PEDs due to exudative AMD. Coscas et al. showed that en-face EDI SD-OCT was able to demonstrate the CNV as a hyper-reflective network within the FV-PED in 30 out of 38 eyes with AMD, with an underlying area of homogeneous hypo-reflectivity consistent with serous exudation. The course of the hyper-reflectivity on OCT corresponded well with the hyper-fluorescent network on ICG. In the other 8 eyes, en-face imaging showed dense, homogenous hyper-reflectivity within the FV-PED, suggestive of fibrous tissue obscuring the CNV. Fig. 2 is an en-face OCT scan revealing the total extent of occult CNV. With the ability to detect CNV on en-face OCT, it may be possible in future to diagnose type 1 exudative AMD noninvasively, without the need for FA and ICG, both of which require intravenous contrast injection."
+  "relevant_image_context": "En-face imaging can also visualize CNV in FV-PEDs due to exudative AMD. Coscas et al. showed that en-face EDI SD-OCT was able to demonstrate the CNV as a hyper-reflective network within the FV-PED in 30 out of 38 eyes with AMD, with an underlying area of homogeneous hypo-reflectivity consistent with serous exudation. The course of the hyper-reflectivity on OCT corresponded well with the hyper-fluorescent network on ICG. In the other 8 eyes, en-face imaging showed dense, homogenous hyper-reflectivity within the FV-PED, suggestive of fibrous tissue obscuring the CNV. Fig. 2 is an en-face OCT scan revealing the total extent of occult CNV. With the ability to detect CNV on en-face OCT, it may be possible in future to diagnose type 1 exudative AMD noninvasively, without the need for FA and ICG, both of which require intravenous contrast injection.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_26_34-PMC4501131-1-IJO-63-378-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_26_34-PMC4501131-1-IJO-63-378-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "RPE elevation",
+        "claim_text": "A retinal pigment epithelium elevation is present at the fovea.",
+        "presence_question": "Does the model's response discuss RPE elevation in the image?",
+        "correctness_question": "Does the model's response correctly assert that A retinal pigment epithelium elevation is present at the fovea?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "foveal location of RPE elevation",
+        "claim_text": "The retinal pigment epithelium elevation is located at the fovea.",
+        "presence_question": "Does the model's response discuss foveal location of RPE elevation in the image?",
+        "correctness_question": "Does the model's response correctly assert that The retinal pigment epithelium elevation is located at the fovea?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "shape of RPE elevation",
+        "claim_text": "The retinal pigment epithelium elevation at the fovea is dome-shaped.",
+        "presence_question": "Does the model's response discuss shape of RPE elevation in the image?",
+        "correctness_question": "Does the model's response correctly assert that The retinal pigment epithelium elevation at the fovea is dome-shaped?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "sub-RPE hyper-reflective material",
+        "claim_text": "Heterogeneous hyper-reflective material is present beneath the retinal pigment epithelium in the fovea.",
+        "presence_question": "Does the model's response discuss sub-RPE hyper-reflective material in the image?",
+        "correctness_question": "Does the model's response correctly assert that Heterogeneous hyper-reflective material is present beneath the retinal pigment epithelium in the fovea?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "material within RPE elevation",
+        "claim_text": "Heterogeneous hyper-reflective material is located inside the retinal pigment epithelium elevation.",
+        "presence_question": "Does the model's response discuss material within RPE elevation in the image?",
+        "correctness_question": "Does the model's response correctly assert that Heterogeneous hyper-reflective material is located inside the retinal pigment epithelium elevation?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "compact round hyper-reflective network",
+        "claim_text": "A compact round hyper-reflective network is present within the area of the pigment epithelial detachment.",
+        "presence_question": "Does the model's response discuss compact round hyper-reflective network in the image?",
+        "correctness_question": "Does the model's response correctly assert that A compact round hyper-reflective network is present within the area of the pigment epithelial detachment?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "shape of compact hyper-reflective network",
+        "claim_text": "The compact hyper-reflective network within the PED is round in shape.",
+        "presence_question": "Does the model's response discuss shape of compact hyper-reflective network in the image?",
+        "correctness_question": "Does the model's response correctly assert that The compact hyper-reflective network within the PED is round in shape?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "appearance of compact round network",
+        "claim_text": "The compact round network within the PED appears hyper-reflective.",
+        "presence_question": "Does the model's response discuss appearance of compact round network in the image?",
+        "correctness_question": "Does the model's response correctly assert that The compact round network within the PED appears hyper-reflective?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "radiating pattern of compact network",
+        "claim_text": "The compact round network within the PED shows radiating elements in its pattern.",
+        "presence_question": "Does the model's response discuss radiating pattern of compact network in the image?",
+        "correctness_question": "Does the model's response correctly assert that The compact round network within the PED shows radiating elements in its pattern?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "location of compact hyper-reflective network",
+        "claim_text": "The compact round hyper-reflective network is located within the area of the RPE elevation (PED).",
+        "presence_question": "Does the model's response discuss location of compact hyper-reflective network in the image?",
+        "correctness_question": "Does the model's response correctly assert that The compact round hyper-reflective network is located within the area of the RPE elevation (PED)?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "dome-shaped RPE elevation",
+        "claim_text": "A dome-shaped elevation of the retinal pigment epithelium with heterogeneous hyper-reflective material beneath it indicates a pigment epithelial detachment containing abnormal tissue.",
+        "presence_question": "Does the model's response discuss dome-shaped RPE elevation?",
+        "correctness_question": "Does the model's response correctly state that A dome-shaped elevation of the retinal pigment epithelium with heterogeneous hyper-reflective material beneath it indicates a pigment epithelial detachment containing abnormal tissue?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "en-face OCT hyper-reflective network",
+        "claim_text": "A compact, round hyper-reflective network with radiating elements on en-face OCT within a pigment epithelial detachment indicates a vascular membrane within the PED rather than simple fluid.",
+        "presence_question": "Does the model's response discuss en-face OCT hyper-reflective network?",
+        "correctness_question": "Does the model's response correctly state that A compact, round hyper-reflective network with radiating elements on en-face OCT within a pigment epithelial detachment indicates a vascular membrane within the PED rather than simple fluid?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "submacular vascular membranes",
+        "claim_text": "Vascular membranes under the macula are associated with choroidal neovascularization.",
+        "presence_question": "Does the model's response discuss submacular vascular membranes?",
+        "correctness_question": "Does the model's response correctly state that Vascular membranes under the macula are associated with choroidal neovascularization?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "neovascular membranes",
+        "claim_text": "Neovascular membranes are treated with intravitreal anti-VEGF injections.",
+        "presence_question": "Does the model's response discuss neovascular membranes?",
+        "correctness_question": "Does the model's response correctly state that Neovascular membranes are treated with intravitreal anti-VEGF injections?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "choroidal neovascularization",
+        "claim_text": "Choroidal neovascularization typically causes central visual distortion and decreased visual acuity.",
+        "presence_question": "Does the model's response discuss choroidal neovascularization?",
+        "correctness_question": "Does the model's response correctly state that Choroidal neovascularization typically causes central visual distortion and decreased visual acuity?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "PED containing abnormal tissue",
+        "claim_text": "The dome-shaped foveal RPE elevation containing heterogeneous hyper-reflective sub-RPE material supports a pigment epithelial detachment (PED) that contains abnormal tissue in this case.",
+        "presence_question": "Does the model's response make an inferential link about PED containing abnormal tissue?",
+        "correctness_question": "Does the model's response correctly conclude that The dome-shaped foveal RPE elevation containing heterogeneous hyper-reflective sub-RPE material supports a pigment epithelial detachment (PED) that contains abnormal tissue in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Vascular membrane inside PED",
+        "claim_text": "The compact, round hyper-reflective en-face network with radiating elements within the PED supports the presence of a vascular membrane inside the PED rather than simple fluid or isolated RPE elevation.",
+        "presence_question": "Does the model's response make an inferential link about Vascular membrane inside PED?",
+        "correctness_question": "Does the model's response correctly conclude that The compact, round hyper-reflective en-face network with radiating elements within the PED supports the presence of a vascular membrane inside the PED rather than simple fluid or isolated RPE elevation?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Choroidal neovascularization (CNV)",
+        "claim_text": "The presence of a vascular membrane under the macula on OCT is consistent with an active neovascular complex (choroidal neovascularization) beneath the macula in this case.",
+        "presence_question": "Does the model's response make an inferential link about Choroidal neovascularization (CNV)?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a vascular membrane under the macula on OCT is consistent with an active neovascular complex (choroidal neovascularization) beneath the macula in this case?",
+        "premise_perception_ids": [
+          "p6",
+          "p10",
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Neovascular membrane causing central visual symptoms",
+        "claim_text": "A neovascular membrane located at the fovea can explain the patient's recent central visual distortion and decreased visual acuity because choroidal neovascularization commonly leads to those symptoms.",
+        "presence_question": "Does the model's response make an inferential link about Neovascular membrane causing central visual symptoms?",
+        "correctness_question": "Does the model's response correctly conclude that A neovascular membrane located at the fovea can explain the patient's recent central visual distortion and decreased visual acuity because choroidal neovascularization commonly leads to those symptoms?",
+        "premise_perception_ids": [
+          "p2",
+          "p6",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "Intravitreal anti-VEGF justified for neovascular membrane",
+        "claim_text": "Because the imaging findings indicate a neovascular membrane within the PED, intravitreal anti-VEGF injections are justified for treating the neovascular membrane in this case.",
+        "presence_question": "Does the model's response make an inferential link about Intravitreal anti-VEGF justified for neovascular membrane?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging findings indicate a neovascular membrane within the PED, intravitreal anti-VEGF injections are justified for treating the neovascular membrane in this case?",
+        "premise_perception_ids": [
+          "p6",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

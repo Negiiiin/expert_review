@@ -27,5 +27,128 @@
   "caption": "a Sagittal T2 MRI image depicting inflammatory signs and bony oedema over the os trigonum complex (white arrow). b Axial T2 MRI image depicting inflammatory signs and bony oedema over the os trigonum (red arrow) in an athlete with a combined chronic injury to the lateral ligament complex (white arrow)",
   "sub_caption": "a Sagittal T2 MRI image depicting inflammatory signs and bony oedema over the os trigonum complex (white arrow).",
   "image_context": "An MRI study in athletes with os trigonum syndrome (sagittal T1-weighted and fat-suppressed T2-weighted images) observed abnormal signal intensity in the lateral talar tubercle and/or os trigonum, consistent with bone marrow edema [11]. Considering the mechanisms of injury, this abnormal signal intensity could be the result of bone impaction which represents micro-trabecular fractures, edema, and/or hemorrhage of the bone marrow without disruption of the cortex. Most ankle sprains occur in plantar flexion and inversion [10, 20]. When considering the repetitive dynamic movements involved in agility sports, this ankle position in those athletes with a deficient lateral ligament might explain why the os trigonum undergoes increased mechanical overload, becoming painful compared to incidental findings of os trigonum. This is supported with MRI findings of bone marrow edema over the os trigonum after hyper plantar flexion injury of the ankle (Fig. <xref rid=\"167_2018_5183_Fig2_HTML\" ref-type=\"fig\">2</xref>a, b).a, b).",
-  "relevant_image_context": "An MRI study in athletes with os trigonum syndrome (sagittal T1-weighted and fat-suppressed T2-weighted images) observed abnormal signal intensity in the lateral talar tubercle and/or os trigonum, consistent with bone marrow edema [11]. Considering the mechanisms of injury, this abnormal signal intensity could be the result of bone impaction which represents micro-trabecular fractures, edema, and/or hemorrhage of the bone marrow without disruption of the cortex. Most ankle sprains occur in plantar flexion and inversion [10, 20]. When considering the repetitive dynamic movements involved in agility sports, this ankle position in those athletes with a deficient lateral ligament might explain why the os trigonum undergoes increased mechanical overload, becoming painful compared to incidental findings of os trigonum. This is supported with MRI findings of bone marrow edema over the os trigonum after hyper plantar flexion injury of the ankle (Fig. 2a, b).a, b). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "An MRI study in athletes with os trigonum syndrome (sagittal T1-weighted and fat-suppressed T2-weighted images) observed abnormal signal intensity in the lateral talar tubercle and/or os trigonum, consistent with bone marrow edema [11]. Considering the mechanisms of injury, this abnormal signal intensity could be the result of bone impaction which represents micro-trabecular fractures, edema, and/or hemorrhage of the bone marrow without disruption of the cortex. Most ankle sprains occur in plantar flexion and inversion [10, 20]. When considering the repetitive dynamic movements involved in agility sports, this ankle position in those athletes with a deficient lateral ligament might explain why the os trigonum undergoes increased mechanical overload, becoming painful compared to incidental findings of os trigonum. This is supported with MRI findings of bone marrow edema over the os trigonum after hyper plantar flexion injury of the ankle (Fig. 2a, b).a, b). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_68_98-PMC6706354-0-167_2018_5183_Fig2_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_68_98-PMC6706354-0-167_2018_5183_Fig2_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Posterior accessory ossicle location",
+        "claim_text": "A posterior accessory ossicle is located immediately posterior to the talar posterior process in the posterior ankle.",
+        "presence_question": "Does the model's response discuss Posterior accessory ossicle location?",
+        "correctness_question": "Does the model's response correctly assert that A posterior accessory ossicle is located immediately posterior to the talar posterior process in the posterior ankle.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Posterior accessory ossicle signal",
+        "claim_text": "There is increased signal intensity within the posterior accessory ossicle in the posterior ankle.",
+        "presence_question": "Does the model's response discuss Posterior accessory ossicle signal?",
+        "correctness_question": "Does the model's response correctly assert that There is increased signal intensity within the posterior accessory ossicle in the posterior ankle.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Adjacent talar bone signal",
+        "claim_text": "The adjacent talar bone demonstrates increased signal intensity in the posterior ankle.",
+        "presence_question": "Does the model's response discuss Adjacent talar bone signal?",
+        "correctness_question": "Does the model's response correctly assert that The adjacent talar bone demonstrates increased signal intensity in the posterior ankle.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Adjacent soft tissue signal",
+        "claim_text": "Adjacent soft tissues show increased signal intensity in the posterior ankle.",
+        "presence_question": "Does the model's response discuss Adjacent soft tissue signal?",
+        "correctness_question": "Does the model's response correctly assert that Adjacent soft tissues show increased signal intensity in the posterior ankle.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Number of posterior accessory ossicles",
+        "claim_text": "There is one posterior accessory ossicle present in the posterior ankle.",
+        "presence_question": "Does the model's response discuss Number of posterior accessory ossicles?",
+        "correctness_question": "Does the model's response correctly assert that There is one posterior accessory ossicle present in the posterior ankle.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "posterior talar accessory ossicle",
+        "claim_text": "A posterior talar accessory ossicle can be mechanically compressed between the calcaneus and the posterior talus during plantar flexion.",
+        "presence_question": "Does the model's response discuss posterior talar accessory ossicle?",
+        "correctness_question": "Does the model's response correctly state that a posterior talar accessory ossicle can be mechanically compressed between the calcaneus and the posterior talus during plantar flexion?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "mechanical compression of posterior ossicle",
+        "claim_text": "Mechanical compression of a posterior ossicle is typically associated with focal posterior impingement and posterior ankle pain.",
+        "presence_question": "Does the model's response discuss mechanical compression of posterior ossicle?",
+        "correctness_question": "Does the model's response correctly state that mechanical compression of a posterior ossicle is typically associated with focal posterior impingement and posterior ankle pain?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "increased marrow or soft-tissue MRI signal",
+        "claim_text": "Increased marrow or soft-tissue signal on MRI indicates edema or inflammation.",
+        "presence_question": "Does the model's response discuss increased marrow or soft-tissue MRI signal?",
+        "correctness_question": "Does the model's response correctly state that increased marrow or soft-tissue signal on MRI indicates edema or inflammation?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "posterior impingement",
+        "claim_text": "Posterior impingement typically causes posterior ankle pain that is worse with plantar flexion.",
+        "presence_question": "Does the model's response discuss posterior impingement?",
+        "correctness_question": "Does the model's response correctly state that posterior impingement typically causes posterior ankle pain that is worse with plantar flexion?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "MRI signal indicating edema/inflammation",
+        "claim_text": "The increased MRI signal within the posterior ossicle and adjacent talar bone and soft tissues supports that these findings represent edema/inflammation in this case.",
+        "presence_question": "Does the model's response make an inferential link about MRI signal indicating edema/inflammation?",
+        "correctness_question": "Does the model's response correctly conclude that The increased MRI signal within the posterior ossicle and adjacent talar bone and soft tissues supports that these findings represent edema/inflammation in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "ossicle compression during plantar flexion",
+        "claim_text": "A posterior ossicle located immediately posterior to the talar posterior process in this case implies that it would be mechanically compressed between the calcaneus and posterior talus during plantar flexion.",
+        "presence_question": "Does the model's response make an inferential link about ossicle compression during plantar flexion?",
+        "correctness_question": "Does the model's response correctly conclude that A posterior ossicle located immediately posterior to the talar posterior process in this case implies that it would be mechanically compressed between the calcaneus and posterior talus during plantar flexion?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "posterior impingement diagnosis",
+        "claim_text": "The presence of a posterior ossicle with adjacent marrow and soft-tissue edema supports a diagnosis of posterior impingement in this case, which would be expected to cause posterior ankle pain worsened by plantar flexion.",
+        "presence_question": "Does the model's response make an inferential link about posterior impingement diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a posterior ossicle with adjacent marrow and soft-tissue edema supports a diagnosis of posterior impingement in this case, which would be expected to cause posterior ankle pain worsened by plantar flexion?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

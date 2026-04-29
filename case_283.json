@@ -25,5 +25,98 @@
   "caption": "In a 35-year-old patient post COVID-infection of moderate severity, presented with sinusitis. Axial CT images (a, b) showing left maxillary sinusitis with the erosion of the posterior wall of the left maxillary sinus (orange arrow) and obliterating the retroantral fat, consistent with invasive fungal sinusitis",
   "sub_caption": "Axial CT images (a, b) showing left maxillary sinusitis with the erosion of the posterior wall of the left maxillary sinus (orange arrow) and obliterating the retroantral fat, consistent with invasive fungal sinusitis",
   "image_context": "On imaging, in early infection, there may just be mild nodular mucosal thickening which may progress to opacification of the entire sinus. On CT, this may present as enhancing soft tissue thickening of the sinus which on MRI will be hypointense on T1 Weighted (W) and variably hyperintense on T2 W sequences. The hyphae of the fungi may show diffusion restriction. Enhancement patterns can be variable ranging from mild to heterogeneous to peripheral enhancement. Fungal infections characteristically cause erosion of the underlying bones in about 40% of the cases [9] (Fig. <xref rid=\"43055_2022_735_Fig2_HTML\" ref-type=\"fig\">2</xref>). However, this occurs late in the disease and is best detected on a CT scan. Early diagnosis can be made if enhancing soft tissue is seen anterior or posterior to the involved maxillary sinus, best detected on MRI [). However, this occurs late in the disease and is best detected on a CT scan. Early diagnosis can be made if enhancing soft tissue is seen anterior or posterior to the involved maxillary sinus, best detected on MRI [10]. There may also be a presence of high-density contents within the sinus which may show blooming on gradient images. These represent the fungal hyphae contents. At times, due to invasion of the smaller vessels, there may be infarction of tissue resulting in non-enhancement of the mucosa [7].Fig. 2In a 35-year-old patient post COVID-infection of moderate severity, presented with sinusitis. Axial CT images (a, b) showing left maxillary sinusitis with the erosion of the posterior wall of the left maxillary sinus (orange arrow) and obliterating the retroantral fat, consistent with invasive fungal sinusitis",
-  "relevant_image_context": "Fig. 2 In a 35-year-old patient post COVID-infection of moderate severity, presented with sinusitis. Axial CT images (a, b) showing left maxillary sinusitis with the erosion of the posterior wall of the left maxillary sinus (orange arrow) and obliterating the retroantral fat, consistent with invasive fungal sinusitis"
+  "relevant_image_context": "Fig. 2 In a 35-year-old patient post COVID-infection of moderate severity, presented with sinusitis. Axial CT images (a, b) showing left maxillary sinusitis with the erosion of the posterior wall of the left maxillary sinus (orange arrow) and obliterating the retroantral fat, consistent with invasive fungal sinusitis",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_115_7-PMC8894831-10-43055_2022_735_Fig2_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_115_7-PMC8894831-10-43055_2022_735_Fig2_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Left maxillary sinus soft-tissue density",
+        "claim_text": "There is soft-tissue density within the left maxillary sinus.",
+        "presence_question": "Does the model's response discuss Left maxillary sinus soft-tissue density?",
+        "correctness_question": "Does the model's response correctly assert that There is soft-tissue density within the left maxillary sinus?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right maxillary sinus aeration",
+        "claim_text": "The right maxillary sinus appears aerated on imaging.",
+        "presence_question": "Does the model's response discuss Right maxillary sinus aeration?",
+        "correctness_question": "Does the model's response correctly assert that The right maxillary sinus appears aerated on imaging?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Asymmetry of maxillary sinuses",
+        "claim_text": "The left maxillary sinus is increased compared to the right maxillary sinus.",
+        "presence_question": "Does the model's response discuss Asymmetry of maxillary sinuses?",
+        "correctness_question": "Does the model's response correctly assert that The left maxillary sinus is increased compared to the right maxillary sinus?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Left posterior-lateral maxillary sinus wall discontinuity",
+        "claim_text": "There is a focal discontinuity of the left posterior-lateral maxillary sinus wall cortex.",
+        "presence_question": "Does the model's response discuss Left posterior-lateral maxillary sinus wall discontinuity?",
+        "correctness_question": "Does the model's response correctly assert that There is a focal discontinuity of the left posterior-lateral maxillary sinus wall cortex?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Left posterior-lateral maxillary sinus wall irregularity",
+        "claim_text": "The left posterior-lateral maxillary sinus wall cortex demonstrates irregularity.",
+        "presence_question": "Does the model's response discuss Left posterior-lateral maxillary sinus wall irregularity?",
+        "correctness_question": "Does the model's response correctly assert that The left posterior-lateral maxillary sinus wall cortex demonstrates irregularity?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Loss of left maxillary sinus wall bony contour",
+        "claim_text": "The normal bony contour of the left posterior-lateral maxillary sinus wall is absent.",
+        "presence_question": "Does the model's response discuss Loss of left maxillary sinus wall bony contour?",
+        "correctness_question": "Does the model's response correctly assert that The normal bony contour of the left posterior-lateral maxillary sinus wall is absent?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Left retroantral fat plane obliteration",
+        "claim_text": "The left retroantral fat plane is obliterated on imaging.",
+        "presence_question": "Does the model's response discuss Left retroantral fat plane obliteration?",
+        "correctness_question": "Does the model's response correctly assert that The left retroantral fat plane is obliterated on imaging?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Left maxillary sinus soft-tissue extension",
+        "claim_text": "Soft-tissue extends beyond the expected boundary of the left maxillary sinus into adjacent tissues.",
+        "presence_question": "Does the model's response discuss Left maxillary sinus soft-tissue extension?",
+        "correctness_question": "Does the model's response correctly assert that Soft-tissue extends beyond the expected boundary of the left maxillary sinus into adjacent tissues?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "focal cortical bone loss, fat plane loss, and soft-tissue extension",
+        "claim_text": "Focal cortical bone loss, loss of the adjacent fat plane, and soft-tissue extension are typical features that suggest a destructive (invasive) process rather than a simple non-destructive mucosal disease.",
+        "presence_question": "Does the model's response discuss focal cortical bone loss, fat plane loss, and soft-tissue extension?",
+        "correctness_question": "Does the model's response correctly state that Focal cortical bone loss, loss of the adjacent fat plane, and soft-tissue extension are typical features that suggest a destructive (invasive) process rather than a simple non-destructive mucosal disease?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Destructive (invasive) process plausibility",
+        "claim_text": "The presence of focal cortical discontinuity/irregularity of the left posterior/lateral maxillary sinus wall, obliteration of the left retroantral fat plane, and soft-tissue extension beyond the left sinus boundary supports that a destructive (invasive) process is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about destructive (invasive) process plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that the presence of focal cortical discontinuity/irregularity of the left posterior/lateral maxillary sinus wall, obliteration of the left retroantral fat plane, and soft-tissue extension beyond the left sinus boundary supports that a destructive (invasive) process is plausible in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

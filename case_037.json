@@ -28,5 +28,181 @@
   "caption": "Severe pancreatitis with (new) occlusion of the splenic vein and new suspected areas of pancreatic necrosis. Prominent increase in peripancreatic fluid and fluid extending along the left paracolic gutter suspicious for early pseudocyst formation. A: Severe pancreatitis (red arrow) with interval increase in peripancreatic fluid collection (yellow arrow), with suspected area of pancreatic necrosis (blue arrow). The fluid collection is seen anteriorly between the pancreas and the stomach which measures approximately 4.6 × 13.2 × 7.2 cm. B: Splenic vein thrombosis.",
   "sub_caption": "A: Severe pancreatitis (red arrow) with interval increase in peripancreatic fluid collection (yellow arrow), with suspected area of pancreatic necrosis (blue arrow). The fluid collection is seen anteriorly between the pancreas and the stomach which measures approximately 4.6 × 13.2 × 7.2 cm.",
   "image_context": "On day 4 patient’s white blood cell count increased to WBC: 18.0 × 109/L with tachycardia HR 110. A repeat CT scan of the abdomen and pelvis revealed worsening pancreatitis with small areas of low attenuation within the pancreatic parenchyma suspicious for necrosis. A prominent fluid collection was noted anteriorly between the pancreas and the stomach which measured approximately 4.6 × 13.2 × 7.2 cm. Another large fluid collection also developed along the left paracolic gutter measuring 6.2 × 5.0 × 19 cm. In addition, this imaging not only confirmed an early formation of pseudocyst (<xref rid=\"jchimp-12-01-075f2\" ref-type=\"fig\">Fig. 2</xref>), but also demonstrated a new occlusion and thrombosis of the splenic vein.), but also demonstrated a new occlusion and thrombosis of the splenic vein.",
-  "relevant_image_context": "On day 4 patient’s white blood cell count increased to WBC: 18.0 × 10^9/L with tachycardia HR 110. A repeat CT scan of the abdomen and pelvis revealed worsening pancreatitis with small areas of low attenuation within the pancreatic parenchyma suspicious for necrosis. A prominent fluid collection was noted anteriorly between the pancreas and the stomach which measured approximately 4.6 × 13.2 × 7.2 cm."
+  "relevant_image_context": "On day 4 patient’s white blood cell count increased to WBC: 18.0 × 10^9/L with tachycardia HR 110. A repeat CT scan of the abdomen and pelvis revealed worsening pancreatitis with small areas of low attenuation within the pancreatic parenchyma suspicious for necrosis. A prominent fluid collection was noted anteriorly between the pancreas and the stomach which measured approximately 4.6 × 13.2 × 7.2 cm.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_113_15-PMC9195125-0-jchimp-12-01-075f2.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_113_15-PMC9195125-0-jchimp-12-01-075f2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "pancreas heterogeneity",
+        "claim_text": "The pancreas demonstrates a heterogeneous appearance on this imaging study.",
+        "presence_question": "Does the model's response discuss pancreas heterogeneity?",
+        "correctness_question": "Does the model's response correctly assert that The pancreas demonstrates a heterogeneous appearance on this imaging study?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "nonhomogeneous region in pancreatic bed",
+        "claim_text": "There is a large nonhomogeneous region located in the pancreatic bed.",
+        "presence_question": "Does the model's response discuss nonhomogeneous region in pancreatic bed?",
+        "correctness_question": "Does the model's response correctly assert that There is a large nonhomogeneous region located in the pancreatic bed?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "hypodense region in pancreatic bed",
+        "claim_text": "The large nonhomogeneous region in the pancreatic bed is hypodense.",
+        "presence_question": "Does the model's response discuss hypodense region in pancreatic bed?",
+        "correctness_question": "Does the model's response correctly assert that The large nonhomogeneous region in the pancreatic bed is hypodense?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "peripancreatic fluid collection",
+        "claim_text": "A sizable peripancreatic fluid collection is present adjacent to the pancreas.",
+        "presence_question": "Does the model's response discuss peripancreatic fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that A sizable peripancreatic fluid collection is present adjacent to the pancreas?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "peripancreatic fluid collection extension",
+        "claim_text": "The peripancreatic fluid collection extends anteriorly on this study.",
+        "presence_question": "Does the model's response discuss peripancreatic fluid collection extension?",
+        "correctness_question": "Does the model's response correctly assert that The peripancreatic fluid collection extends anteriorly on this study?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "intralesional gas in collections",
+        "claim_text": "There is no intralesional gas within the pancreatic bed or peripancreatic collections.",
+        "presence_question": "Does the model's response discuss intralesional gas in collections?",
+        "correctness_question": "Does the model's response correctly assert that There is no intralesional gas within the pancreatic bed or peripancreatic collections?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "walled-off organized collection",
+        "claim_text": "There is no clearly walled-off organized peripancreatic collection identified on this study.",
+        "presence_question": "Does the model's response discuss walled-off organized collection?",
+        "correctness_question": "Does the model's response correctly assert that There is no clearly walled-off organized peripancreatic collection identified on this study?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "study timepoint",
+        "claim_text": "The imaging study was obtained early, on hospital day four.",
+        "presence_question": "Does the model's response discuss study timepoint?",
+        "correctness_question": "Does the model's response correctly assert that The imaging study was obtained early, on hospital day four?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "new leukocytosis",
+        "claim_text": "There is newly identified leukocytosis on laboratory testing.",
+        "presence_question": "Does the model's response discuss new leukocytosis?",
+        "correctness_question": "Does the model's response correctly assert that There is newly identified leukocytosis on laboratory testing?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "new tachycardia",
+        "claim_text": "The patient is noted to have new tachycardia on vital signs.",
+        "presence_question": "Does the model's response discuss new tachycardia?",
+        "correctness_question": "Does the model's response correctly assert that The patient is noted to have new tachycardia on vital signs?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "early pancreatic necrosis",
+        "claim_text": "Early pancreatic necrosis is typically poorly demarcated and contains unorganized necrotic collections.",
+        "presence_question": "Does the model's response discuss early pancreatic necrosis?",
+        "correctness_question": "Does the model's response correctly state that Early pancreatic necrosis is typically poorly demarcated and contains unorganized necrotic collections?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "early open surgical necrosectomy",
+        "claim_text": "Early open surgical necrosectomy is associated with worse early outcomes and higher mortality.",
+        "presence_question": "Does the model's response discuss early open surgical necrosectomy?",
+        "correctness_question": "Does the model's response correctly state that Early open surgical necrosectomy is associated with worse early outcomes and higher mortality?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "walled-off organized collection",
+        "claim_text": "A clearly walled-off, organized collection indicates a mature encapsulated collection that is amenable to delayed intervention.",
+        "presence_question": "Does the model's response discuss walled-off organized collections?",
+        "correctness_question": "Does the model's response correctly state that A clearly walled-off, organized collection indicates a mature encapsulated collection that is amenable to delayed intervention?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "new leukocytosis and tachycardia",
+        "claim_text": "New leukocytosis and tachycardia suggest worsening or infected acute pancreatitis.",
+        "presence_question": "Does the model's response discuss new leukocytosis and tachycardia?",
+        "correctness_question": "Does the model's response correctly state that New leukocytosis and tachycardia suggest worsening or infected acute pancreatitis?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Imaging evidence for pancreatic necrosis",
+        "claim_text": "The hypodense, nonhomogeneous region in the pancreatic bed with an adjacent sizable peripancreatic fluid collection supports pancreatic necrosis with associated peripancreatic fluid.",
+        "presence_question": "Does the model's response make an inferential link about Imaging evidence for pancreatic necrosis?",
+        "correctness_question": "Does the model's response correctly conclude that The hypodense, nonhomogeneous region in the pancreatic bed with an adjacent sizable peripancreatic fluid collection supports pancreatic necrosis with associated peripancreatic fluid.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Clinical signs indicating worsening pancreatitis",
+        "claim_text": "The development of new leukocytosis and tachycardia on hospital day 4 supports that the clinical course represents worsening acute pancreatitis, potentially with necrosis or other complication.",
+        "presence_question": "Does the model's response make an inferential link about Clinical signs indicating worsening pancreatitis?",
+        "correctness_question": "Does the model's response correctly conclude that The development of new leukocytosis and tachycardia on hospital day 4 supports that the clinical course represents worsening acute pancreatitis, potentially with necrosis or other complication.?",
+        "premise_perception_ids": [
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Contraindication to open surgical necrosectomy",
+        "claim_text": "Because the study is early (day 4) and collections are not clearly walled-off or organized, these findings argue against performing immediate open surgical necrosectomy and make it contraindicated at this time.",
+        "presence_question": "Does the model's response make an inferential link about Contraindication to open surgical necrosectomy?",
+        "correctness_question": "Does the model's response correctly conclude that Because the study is early (day 4) and collections are not clearly walled-off or organized, these findings argue against performing immediate open surgical necrosectomy and make it contraindicated at this time.?",
+        "premise_perception_ids": [
+          "p8",
+          "p7",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Imaging insufficient to mandate surgery",
+        "claim_text": "The absence of intralesional gas and of a clearly walled-off organized collection on this early study is insufficient to mandate immediate operative intervention.",
+        "presence_question": "Does the model's response make an inferential link about Imaging insufficient to mandate surgery?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of intralesional gas and of a clearly walled-off organized collection on this early study is insufficient to mandate immediate operative intervention.?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -27,5 +27,127 @@
   "caption": "Clipless internal mammary artery harvesting for minimally invasive coronary artery bypass grafting using a shear-tip harmonic scalpel.",
   "sub_caption": "Clipless internal mammary artery harvesting for minimally invasive coronary artery bypass grafting using a shear-tip harmonic scalpel.",
   "image_context": "The LIMA is located in the fatty tissue adjacent to the pleura, and we can simultaneously dissect the surrounding tissue and seal the branches using the shear-tip Harmonic scalpel. The vein is cut between the instruments, and the artery is progressively harvested in a skeletonized fashion using this scalpel rather than scissors and vascular clips. The conventional method requires a lot of effort and time as it involves placement of vascular clips in the distal and proximal segments of the mammary branches, followed by dissection with Metzenbaum scissors. Clip manipulation can lead to injury or misplacement, resulting in severe bleeding. This characteristic highlights a major difference in our procedure and the need to avoid vascular injuries. Additionally, the clear surgical view provided by this technique is advantageous. In cases of multivessel revascularization, the RIMA is harvested using the same method. The thymus and pericardium can also be opened using this type of scalpel (<xref rid=\"jtd-16-06-3711-vid1\" ref-type=\"fig\"><italic>Video 1</italic></xref>).Video 1).",
-  "relevant_image_context": "The LIMA is located in the fatty tissue adjacent to the pleura, and we can simultaneously dissect the surrounding tissue and seal the branches using the shear-tip Harmonic scalpel. The vein is cut between the instruments, and the artery is progressively harvested in a skeletonized fashion using this scalpel rather than scissors and vascular clips. The conventional method requires a lot of effort and time as it involves placement of vascular clips in the distal and proximal segments of the mammary branches, followed by dissection with Metzenbaum scissors. Clip manipulation can lead to injury or misplacement, resulting in severe bleeding. This characteristic highlights a major difference in our procedure and the need to avoid vascular injuries. Additionally, the clear surgical view provided by this technique is advantageous. In cases of multivessel revascularization, the RIMA is harvested using the same method. The thymus and pericardium can also be opened using this type of scalpel."
+  "relevant_image_context": "The LIMA is located in the fatty tissue adjacent to the pleura, and we can simultaneously dissect the surrounding tissue and seal the branches using the shear-tip Harmonic scalpel. The vein is cut between the instruments, and the artery is progressively harvested in a skeletonized fashion using this scalpel rather than scissors and vascular clips. The conventional method requires a lot of effort and time as it involves placement of vascular clips in the distal and proximal segments of the mammary branches, followed by dissection with Metzenbaum scissors. Clip manipulation can lead to injury or misplacement, resulting in severe bleeding. This characteristic highlights a major difference in our procedure and the need to avoid vascular injuries. Additionally, the clear surgical view provided by this technique is advantageous. In cases of multivessel revascularization, the RIMA is harvested using the same method. The thymus and pericardium can also be opened using this type of scalpel.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_153_4-PMC11228713-1-jtd-16-06-3711-vid1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_153_4-PMC11228713-1-jtd-16-06-3711-vid1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "artery in operative field",
+        "claim_text": "An artery is located in the operative field.",
+        "presence_question": "Does the model's response discuss artery in operative field?",
+        "correctness_question": "Does the model's response correctly assert that An artery is located in the operative field?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "exposed artery",
+        "claim_text": "The artery appears exposed within the operative field.",
+        "presence_question": "Does the model's response discuss exposed artery?",
+        "correctness_question": "Does the model's response correctly assert that The artery appears exposed within the operative field?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "small arterial side branches",
+        "claim_text": "Small side branches are present arising from the artery in the operative field.",
+        "presence_question": "Does the model's response discuss small arterial side branches?",
+        "correctness_question": "Does the model's response correctly assert that Small side branches are present arising from the artery in the operative field?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "hand-held instrument at small side branch",
+        "claim_text": "A hand-held cutting and sealing instrument is positioned at a small side branch.",
+        "presence_question": "Does the model's response discuss hand-held instrument at small side branch?",
+        "correctness_question": "Does the model's response correctly assert that A hand-held cutting and sealing instrument is positioned at a small side branch?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "vascular clips on arterial side branches",
+        "claim_text": "There are no vascular clips on the arterial side branches in the operative field.",
+        "presence_question": "Does the model's response discuss vascular clips on arterial side branches?",
+        "correctness_question": "Does the model's response correctly assert that There are no vascular clips on the arterial side branches in the operative field?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "high-frequency ultrasonic vibration",
+        "claim_text": "High-frequency ultrasonic vibration causes protein denaturation and coagulative sealing.",
+        "presence_question": "Does the model's response discuss high-frequency ultrasonic vibration?",
+        "correctness_question": "Does the model's response correctly state that High-frequency ultrasonic vibration causes protein denaturation and coagulative sealing?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "coagulative sealing of vessel proteins",
+        "claim_text": "Coagulative sealing of vessel wall proteins produces hemostasis of small vessel branches without requiring clips.",
+        "presence_question": "Does the model's response discuss coagulative sealing of vessel proteins?",
+        "correctness_question": "Does the model's response correctly state that Coagulative sealing of vessel wall proteins produces hemostasis of small vessel branches without requiring clips?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "shear-tip harmonic scalpel",
+        "claim_text": "Shear-tip harmonic scalpels perform simultaneous cutting and sealing of small vessels.",
+        "presence_question": "Does the model's response discuss shear-tip harmonic scalpels?",
+        "correctness_question": "Does the model's response correctly state that Shear-tip harmonic scalpels perform simultaneous cutting and sealing of small vessels?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "ultrasonic harmonic surgical devices",
+        "claim_text": "Ultrasonic (harmonic) surgical devices typically produce minimal lateral thermal spread.",
+        "presence_question": "Does the model's response discuss ultrasonic (harmonic) surgical devices?",
+        "correctness_question": "Does the model's response correctly state that Ultrasonic (harmonic) surgical devices typically produce minimal lateral thermal spread?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "hemostasis of small vessel branches",
+        "claim_text": "The instrument applied at a branch in the absence of clips supports that hemostasis of small vessel branches is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about hemostasis of small vessel branches?",
+        "correctness_question": "Does the model's response correctly conclude that The instrument applied at a branch in the absence of clips supports that hemostasis of small vessel branches is plausible in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "clipless arterial harvesting technique",
+        "claim_text": "The absence of vascular clips on the visible branches combined with the presence of an instrument is consistent with a clipless arterial harvesting technique in this case.",
+        "presence_question": "Does the model's response make an inferential link about clipless arterial harvesting technique?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of vascular clips on the visible branches combined with the presence of an instrument is consistent with a clipless arterial harvesting technique in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "likelihood of collateral thermal injury",
+        "claim_text": "Because the instrument at the branch is an ultrasonic device and such devices have minimal lateral thermal spread, this supports that collateral thermal injury to adjacent structures is less likely in this case.",
+        "presence_question": "Does the model's response make an inferential link about likelihood of collateral thermal injury?",
+        "correctness_question": "Does the model's response correctly conclude that Because the instrument at the branch is an ultrasonic device and such devices have minimal lateral thermal spread, this supports that collateral thermal injury to adjacent structures is less likely in this case?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

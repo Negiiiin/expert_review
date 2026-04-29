@@ -27,5 +27,147 @@
   "caption": "Plain radiographs showed RSF-PIP joint destruction with osteolysis and an increased soft tissue shadow, AP view.RSF: right small finger, PIP: proximal interphalangeal, AP: anteroposterior view.",
   "sub_caption": "Plain radiographs showed RSF-PIP joint destruction with osteolysis and an increased soft tissue shadow, AP view. RSF: right small finger, PIP: proximal interphalangeal, AP: anteroposterior view.",
   "image_context": "At the same time, a neurovascular examination revealed hyperesthesia along the ulnar nerve distribution of his hand, including the RSF. Plain radiographs showed RSF-PIP joint destruction with osteolysis and an increased soft tissue shadow (Figures <xref rid=\"cureus-0015-00000036915-i05\" ref-type=\"fig\">5</xref>--<xref rid=\"cureus-0015-00000036915-i06\" ref-type=\"fig\">6</xref>). The initial differential diagnosis of the finger lesion included a local tumor, osteomyelitis, a soft tissue granuloma, an infection, gout, and arthritis. The patient demonstrated no systemic manifestations of bacterial infection (no fevers or chills), and laboratory findings were unremarkable, with a white blood cell count of 4.1 × 109/L. The infectious disease team was consulted, and leprosy was included as a potential differential diagnosis given the clinical presentation and features of the patient, including hyperesthesia, skin lesions, joint swelling, peripheral neuropathy, and leonine facies. Given that leprosy has negative serological markers and a biopsy is needed, we have decided to proceed surgically to remove the RSF joint lesion and send for histopathological analysis.). The initial differential diagnosis of the finger lesion included a local tumor, osteomyelitis, a soft tissue granuloma, an infection, gout, and arthritis. The patient demonstrated no systemic manifestations of bacterial infection (no fevers or chills), and laboratory findings were unremarkable, with a white blood cell count of 4.1 × 109/L. The infectious disease team was consulted, and leprosy was included as a potential differential diagnosis given the clinical presentation and features of the patient, including hyperesthesia, skin lesions, joint swelling, peripheral neuropathy, and leonine facies. Given that leprosy has negative serological markers and a biopsy is needed, we have decided to proceed surgically to remove the RSF joint lesion and send for histopathological analysis.",
-  "relevant_image_context": "At the same time, a neurovascular examination revealed hyperesthesia along the ulnar nerve distribution of his hand, including the RSF. Plain radiographs showed RSF-PIP joint destruction with osteolysis and an increased soft tissue shadow (Figures 5–6). The initial differential diagnosis of the finger lesion included a local tumor, osteomyelitis, a soft tissue granuloma, an infection, gout, and arthritis. The patient demonstrated no systemic manifestations of bacterial infection (no fevers or chills), and laboratory findings were unremarkable, with a white blood cell count of 4.1 × 10^9/L. The infectious disease team was consulted, and leprosy was included as a potential differential diagnosis given the clinical presentation and features of the patient, including hyperesthesia, skin lesions, joint swelling, peripheral neuropathy, and leonine facies. Given that leprosy has negative serological markers and a biopsy is needed, we have decided to proceed surgically to remove the RSF joint lesion and send for histopathological analysis."
+  "relevant_image_context": "At the same time, a neurovascular examination revealed hyperesthesia along the ulnar nerve distribution of his hand, including the RSF. Plain radiographs showed RSF-PIP joint destruction with osteolysis and an increased soft tissue shadow (Figures 5–6). The initial differential diagnosis of the finger lesion included a local tumor, osteomyelitis, a soft tissue granuloma, an infection, gout, and arthritis. The patient demonstrated no systemic manifestations of bacterial infection (no fevers or chills), and laboratory findings were unremarkable, with a white blood cell count of 4.1 × 10^9/L. The infectious disease team was consulted, and leprosy was included as a potential differential diagnosis given the clinical presentation and features of the patient, including hyperesthesia, skin lesions, joint swelling, peripheral neuropathy, and leonine facies. Given that leprosy has negative serological markers and a biopsy is needed, we have decided to proceed surgically to remove the RSF joint lesion and send for histopathological analysis.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_145_1-PMC10063427-6-cureus-0015-00000036915-i05.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_145_1-PMC10063427-6-cureus-0015-00000036915-i05.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "single finger visible",
+        "claim_text": "A single finger is visible on the radiograph.",
+        "presence_question": "Does the model's response discuss single finger visible?",
+        "correctness_question": "Does the model's response correctly assert that A single finger is visible on the radiograph?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "three long bone segments",
+        "claim_text": "There are three long bone segments comprising the finger.",
+        "presence_question": "Does the model's response discuss three long bone segments?",
+        "correctness_question": "Does the model's response correctly assert that There are three long bone segments comprising the finger?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "radiolucent joint space",
+        "claim_text": "A radiolucent joint space is present between the osseous segments.",
+        "presence_question": "Does the model's response discuss radiolucent joint space?",
+        "correctness_question": "Does the model's response correctly assert that A radiolucent joint space is present between the osseous segments?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "AP/oblique projection",
+        "claim_text": "The radiograph appears to be an AP/oblique view of the hand or finger.",
+        "presence_question": "Does the model's response discuss AP/oblique projection?",
+        "correctness_question": "Does the model's response correctly assert that The radiograph appears to be an AP/oblique view of the hand or finger?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "distal phalanx location",
+        "claim_text": "The distal phalanx is the distal-most osseous segment of the finger.",
+        "presence_question": "Does the model's response discuss distal phalanx location?",
+        "correctness_question": "Does the model's response correctly assert that The distal phalanx is the distal-most osseous segment of the finger?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "middle phalanx location",
+        "claim_text": "The middle phalanx is located at the middle osseous segment of the finger.",
+        "presence_question": "Does the model's response discuss middle phalanx location?",
+        "correctness_question": "Does the model's response correctly assert that The middle phalanx is located at the middle osseous segment of the finger?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "proximal phalanx location",
+        "claim_text": "The proximal phalanx is the proximal osseous segment at the base of the finger.",
+        "presence_question": "Does the model's response discuss proximal phalanx location?",
+        "correctness_question": "Does the model's response correctly assert that The proximal phalanx is the proximal osseous segment at the base of the finger?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "distinct cortical margins",
+        "claim_text": "Each osseous segment demonstrates distinct cortical margins visible on the radiograph.",
+        "presence_question": "Does the model's response discuss distinct cortical margins?",
+        "correctness_question": "Does the model's response correctly assert that Each osseous segment demonstrates distinct cortical margins visible on the radiograph?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "articulating surfaces visible",
+        "claim_text": "Each osseous segment shows visible articulating surfaces at the interphalangeal joints.",
+        "presence_question": "Does the model's response discuss articulating surfaces visible?",
+        "correctness_question": "Does the model's response correctly assert that Each osseous segment shows visible articulating surfaces at the interphalangeal joints?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "finger phalangeal anatomy",
+        "claim_text": "A finger is composed of distal, middle, and proximal phalanges.",
+        "presence_question": "Does the model's response discuss finger phalangeal anatomy?",
+        "correctness_question": "Does the model's response correctly state that A finger is composed of distal, middle, and proximal phalanges?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "radiographic identification of phalanges",
+        "claim_text": "Distinct cortical margins and visible articulating surfaces on a radiograph indicate that separate phalanges can be identified.",
+        "presence_question": "Does the model's response discuss radiographic identification of phalanges?",
+        "correctness_question": "Does the model's response correctly state that Distinct cortical margins and visible articulating surfaces on a radiograph indicate that separate phalanges can be identified?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "phalangeal joint spaces on X-ray",
+        "claim_text": "Joint spaces between phalanges typically appear radiolucent on radiographs.",
+        "presence_question": "Does the model's response discuss phalangeal joint spaces on X-ray?",
+        "correctness_question": "Does the model's response correctly state that Joint spaces between phalanges typically appear radiolucent on radiographs?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Presence of three phalanges",
+        "claim_text": "The three observed long bone segments separated by radiolucent joint spaces support that three phalanges are present on this radiograph.",
+        "presence_question": "Does the model's response make an inferential link about Presence of three phalanges?",
+        "correctness_question": "Does the model's response correctly conclude that The three observed long bone segments separated by radiolucent joint spaces support that three phalanges are present on this radiograph.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Identification of distal/middle/proximal phalanges",
+        "claim_text": "The appearance of the distal-most, middle, and proximal osseous segments supports that they correspond to the distal, middle, and proximal phalanges, respectively, in this case.",
+        "presence_question": "Does the model's response make an inferential link about Identification of distal/middle/proximal phalanges?",
+        "correctness_question": "Does the model's response correctly conclude that The appearance of the distal-most, middle, and proximal osseous segments supports that they correspond to the distal, middle, and proximal phalanges, respectively, in this case.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Counting segments as separate phalanges",
+        "claim_text": "Distinct cortical margins and visible articulating surfaces on each osseous segment support counting each segment as a separate phalanx on this radiograph.",
+        "presence_question": "Does the model's response make an inferential link about Counting segments as separate phalanges?",
+        "correctness_question": "Does the model's response correctly conclude that Distinct cortical margins and visible articulating surfaces on each osseous segment support counting each segment as a separate phalanx on this radiograph.?",
+        "premise_perception_ids": [
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

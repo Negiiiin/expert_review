@@ -28,5 +28,198 @@
   "caption": "CT scan shows intra-abdominal extension of the desmoid tumor, which is adherent to the abdominal bowel.",
   "sub_caption": "CT scan shows intra-abdominal extension of the desmoid tumor, which is adherent to the abdominal bowel.",
   "image_context": "However, at 1 year after abdominoplasty, the patient presented with vague complains; she had a feeling of heaviness and discomfort in her abdomen. An abdominal examination was un-remarkable. A CT scan was performed, which showed a large abdominal mass (8×9×4 cm) arising from the abdominal wall and extending intra-abdominally (<xref ref-type=\"fig\" rid=\"amjcaserep-20-953-g001\">Figure 1</xref>). A second surgery was planned in collaboration with a general surgery team. The previous abdominoplasty scar was re-incised to give a better aesthetic outcome. A solid mass was found arising from the repaired abdominal wall, with an intra-abdominal extension that was adherent to the small bowel but easily dissectible from the tumor (). A second surgery was planned in collaboration with a general surgery team. The previous abdominoplasty scar was re-incised to give a better aesthetic outcome. A solid mass was found arising from the repaired abdominal wall, with an intra-abdominal extension that was adherent to the small bowel but easily dissectible from the tumor (<xref ref-type=\"fig\" rid=\"amjcaserep-20-953-g002\">Figures 2</xref>, , <xref ref-type=\"fig\" rid=\"amjcaserep-20-953-g003\">3</xref>).).",
-  "relevant_image_context": "A CT scan was performed, which showed a large abdominal mass arising from the abdominal wall and extending intra-abdominally. A solid mass was found arising from the repaired abdominal wall, with an intra-abdominal extension that was adherent to the small bowel but easily dissectible from the tumor."
+  "relevant_image_context": "A CT scan was performed, which showed a large abdominal mass arising from the abdominal wall and extending intra-abdominally. A solid mass was found arising from the repaired abdominal wall, with an intra-abdominal extension that was adherent to the small bowel but easily dissectible from the tumor.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_68_45-PMC6621933-0-amjcaserep-20-953-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_68_45-PMC6621933-0-amjcaserep-20-953-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "anterior abdominal wall mass",
+        "claim_text": "A soft-tissue mass is present in the anterior abdominal wall.",
+        "presence_question": "Does the model's response discuss anterior abdominal wall mass?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue mass is present in the anterior abdominal wall?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "mass location in anterior abdominal wall",
+        "claim_text": "The soft-tissue mass is located in the anterior abdominal wall.",
+        "presence_question": "Does the model's response discuss mass location in anterior abdominal wall?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass is located in the anterior abdominal wall?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "soft-tissue density of mass",
+        "claim_text": "The soft-tissue mass in the anterior abdominal wall demonstrates soft-tissue density.",
+        "presence_question": "Does the model's response discuss soft-tissue density of mass?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass in the anterior abdominal wall demonstrates soft-tissue density?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "well-defined margin of mass",
+        "claim_text": "The soft-tissue mass in the anterior abdominal wall has a well-defined margin.",
+        "presence_question": "Does the model's response discuss well-defined margin of mass?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass in the anterior abdominal wall has a well-defined margin?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "location at prior repair site",
+        "claim_text": "The soft-tissue mass is located at the site of prior repair.",
+        "presence_question": "Does the model's response discuss location at prior repair site?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass is located at the site of prior repair?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "extension into peritoneal cavity",
+        "claim_text": "The soft-tissue mass extends into the peritoneal cavity.",
+        "presence_question": "Does the model's response discuss extension into peritoneal cavity?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass extends into the peritoneal cavity?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "adjacency to bowel loops",
+        "claim_text": "The soft-tissue mass is adjacent to bowel loops in the peritoneal cavity.",
+        "presence_question": "Does the model's response discuss adjacency to bowel loops?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass is adjacent to bowel loops in the peritoneal cavity?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "compression of bowel loops",
+        "claim_text": "The soft-tissue mass likely compresses adjacent bowel loops.",
+        "presence_question": "Does the model's response discuss compression of bowel loops?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass likely compresses adjacent bowel loops?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "bowel protrusion through fascial defect",
+        "claim_text": "There is no bowel protruding through a fascial defect in the anterior abdominal wall.",
+        "presence_question": "Does the model's response discuss bowel protrusion through fascial defect?",
+        "correctness_question": "Does the model's response correctly assert that There is no bowel protruding through a fascial defect in the anterior abdominal wall?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "central low-density fluid collection",
+        "claim_text": "There is no central low-density fluid collection within the lesion.",
+        "presence_question": "Does the model's response discuss central low-density fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that There is no central low-density fluid collection within the lesion?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "internal gas within lesion",
+        "claim_text": "There is no internal gas within the soft-tissue lesion.",
+        "presence_question": "Does the model's response discuss internal gas within lesion?",
+        "correctness_question": "Does the model's response correctly assert that There is no internal gas within the soft-tissue lesion?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "marked acute blood density in lesion",
+        "claim_text": "There is no marked acute blood density within the soft-tissue lesion.",
+        "presence_question": "Does the model's response discuss marked acute blood density in lesion?",
+        "correctness_question": "Does the model's response correctly assert that There is no marked acute blood density within the soft-tissue lesion?"
+      },
+      {
+        "claim_id": "p13",
+        "topic": "number of soft-tissue masses",
+        "claim_text": "There is a single soft-tissue mass in the anterior abdominal wall and peritoneal cavity.",
+        "presence_question": "Does the model's response discuss number of soft-tissue masses?",
+        "correctness_question": "Does the model's response correctly assert that There is a single soft-tissue mass in the anterior abdominal wall and peritoneal cavity?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "soft-tissue mass contiguous with prior repair",
+        "claim_text": "A soft-tissue mass contiguous with a prior surgical repair and extending into the peritoneal cavity suggests recurrent tumor at the repair site.",
+        "presence_question": "Does the model's response discuss soft-tissue mass contiguous with prior repair?",
+        "correctness_question": "Does the model's response correctly state that a soft-tissue mass contiguous with a prior surgical repair and extending into the peritoneal cavity suggests recurrent tumor at the repair site?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "fascial discontinuity with bowel protrusion",
+        "claim_text": "Fascial discontinuity with bowel protruding through the defect is characteristic of an abdominal wall hernia.",
+        "presence_question": "Does the model's response discuss fascial discontinuity with bowel protrusion?",
+        "correctness_question": "Does the model's response correctly state that fascial discontinuity with bowel protruding through the defect is characteristic of an abdominal wall hernia?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "central low-density fluid or internal gas in lesion",
+        "claim_text": "Central low-density fluid collection or the presence of internal gas within a soft-tissue lesion suggests an abscess.",
+        "presence_question": "Does the model's response discuss central low-density fluid or internal gas in lesion?",
+        "correctness_question": "Does the model's response correctly state that central low-density fluid collection or the presence of internal gas within a soft-tissue lesion suggests an abscess?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "marked acute blood density on CT",
+        "claim_text": "Marked acute high attenuation consistent with blood within a lesion on CT indicates acute hemorrhage.",
+        "presence_question": "Does the model's response discuss marked acute blood density on CT?",
+        "correctness_question": "Does the model's response correctly state that marked acute high attenuation consistent with blood within a lesion on CT indicates acute hemorrhage?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Support for recurrent tumor",
+        "claim_text": "The observed solitary, well-defined soft-tissue density mass at the prior repair site that extends into the peritoneal cavity and abuts or displaces bowel supports recurrent tumor at the repair site as the most likely diagnosis.",
+        "presence_question": "Does the model's response make an inferential link about Support for recurrent tumor?",
+        "correctness_question": "Does the model's response correctly conclude that The observed solitary, well-defined soft-tissue density mass at the prior repair site that extends into the peritoneal cavity and abuts or displaces bowel supports recurrent tumor at the repair site as the most likely diagnosis.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p13"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Abdominal wall hernia exclusion",
+        "claim_text": "The absence of fascial discontinuity with bowel protrusion argues against an abdominal wall hernia as the cause of the new mass.",
+        "presence_question": "Does the model's response make an inferential link about Abdominal wall hernia exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of fascial discontinuity with bowel protrusion argues against an abdominal wall hernia as the cause of the new mass.?",
+        "premise_perception_ids": [
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Abscess exclusion",
+        "claim_text": "The lack of a central low-density fluid collection and absence of internal gas within the lesion argues against an abscess as the explanation for the mass.",
+        "presence_question": "Does the model's response make an inferential link about Abscess exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that The lack of a central low-density fluid collection and absence of internal gas within the lesion argues against an abscess as the explanation for the mass.?",
+        "premise_perception_ids": [
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Acute hemorrhage exclusion",
+        "claim_text": "The absence of marked acute blood density within the lesion argues against acute hemorrhage as the cause of the mass.",
+        "presence_question": "Does the model's response make an inferential link about Acute hemorrhage exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of marked acute blood density within the lesion argues against acute hemorrhage as the cause of the mass.?",
+        "premise_perception_ids": [
+          "p12"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

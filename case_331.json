@@ -27,5 +27,144 @@
   "caption": "The abdominal CT image shows retroperitoneal hematoma with contrast leakage (white arrows).",
   "sub_caption": "The abdominal CT image shows retroperitoneal hematoma with contrast leakage (white arrows).",
   "image_context": "A 48-year-old woman underwent kidney transplant for end stage renal disease due to IgA nephropathy. She was hospitalizes 2 weeks before transplantation and performed immunosuppressive therapy. For ABO-incompatible transplantation, induction therapy consisted of basiliximab, rituximab, plasma exchange (PE) and double-filtration plasmapheresis (DFPP) followed by maintenance immunosuppression with tacrolimus, mycophenolate mofetil, and methylprednisolone. Because of delayed renal function, hemodialysis restart was needed in five days after transplantation. On the eighth day after transplant, spike wave form was recognized with Doppler echo in renal allograft. As a result of renal biopsy, we diagnosed acute antibody mediated rejection, and steroid pulse, intravenous immunoglobulin, PE, and rituximab injection was performed. Fifteen days later after transplant, she presented strong abdominal and back pain in the right side and hemoglobin dropped to 4.1 g/dl from 7.5 g/dl. Two hours later, hemoglobin further dropped to 3.7 g/dl and her systolic blood pressure decreased to 90/43 mmHg, we took a computerized tomography (CT) of the abdomen with rapid blood transfusion. A contrast-enhanced CT showed a large retroperitoneal hematoma and leakage of contrast medium (<xref rid=\"egi10NLJGW8PT0\" ref-type=\"fig\">Fig. 1</xref>). Angiography was performed, which showed extravasation from the lumbar artery (). Angiography was performed, which showed extravasation from the lumbar artery (<xref rid=\"egi10X8K0J1RL4\" ref-type=\"fig\">Fig. 2</xref>). Selective angiographic embolization of the lumbar artery was performed and patient received 4 units of RBC, hemoglobin increased to 7.6 g/dl. Then her renal function began to improve gradually, it was able to stop dialysis after this day. Six days later after embolization, the hemoglobin level decreased from 7.6 g/dl to 6.9 g/dl and abdominal CT revealed pseudo aneurysm of the lumbar artery, it was performed embolization again. She was discharged on the 41st postoperative day without progression of anemia.). Selective angiographic embolization of the lumbar artery was performed and patient received 4 units of RBC, hemoglobin increased to 7.6 g/dl. Then her renal function began to improve gradually, it was able to stop dialysis after this day. Six days later after embolization, the hemoglobin level decreased from 7.6 g/dl to 6.9 g/dl and abdominal CT revealed pseudo aneurysm of the lumbar artery, it was performed embolization again. She was discharged on the 41st postoperative day without progression of anemia.Fig. 1The abdominal CT image shows retroperitoneal hematoma with contrast leakage (white arrows).Fig. 1Fig. 2The angiography shows contrast extravasation from the right forth lumbar arteries (white arrows).Fig. 2",
-  "relevant_image_context": "Two hours later, hemoglobin further dropped to 3.7 g/dl and her systolic blood pressure decreased to 90/43 mmHg, we took a computerized tomography (CT) of the abdomen with rapid blood transfusion. A contrast-enhanced CT showed a large retroperitoneal hematoma and leakage of contrast medium. The abdominal CT image shows retroperitoneal hematoma with contrast leakage (white arrows).Fig. 1"
+  "relevant_image_context": "Two hours later, hemoglobin further dropped to 3.7 g/dl and her systolic blood pressure decreased to 90/43 mmHg, we took a computerized tomography (CT) of the abdomen with rapid blood transfusion. A contrast-enhanced CT showed a large retroperitoneal hematoma and leakage of contrast medium. The abdominal CT image shows retroperitoneal hematoma with contrast leakage (white arrows).Fig. 1",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_74_3-PMC6938848-1-egi10NLJGW8PT0.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_74_3-PMC6938848-1-egi10NLJGW8PT0.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "right retroperitoneal collection",
+        "claim_text": "A large right retroperitoneal collection is present on imaging.",
+        "presence_question": "Does the model's response discuss right retroperitoneal collection?",
+        "correctness_question": "Does the model's response correctly assert that A large right retroperitoneal collection is present on imaging?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "right retroperitoneal collection density",
+        "claim_text": "The right retroperitoneal collection demonstrates heterogeneous high attenuation.",
+        "presence_question": "Does the model's response discuss right retroperitoneal collection density?",
+        "correctness_question": "Does the model's response correctly assert that The right retroperitoneal collection demonstrates heterogeneous high attenuation?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "focal very high-attenuation area",
+        "claim_text": "A focal very high-attenuation area is present within the right retroperitoneal collection.",
+        "presence_question": "Does the model's response discuss focal very high-attenuation area?",
+        "correctness_question": "Does the model's response correctly assert that A focal very high-attenuation area is present within the right retroperitoneal collection?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "focal high-attenuation area matching vessels",
+        "claim_text": "The focal very high-attenuation area matches the enhancement of nearby vessels.",
+        "presence_question": "Does the model's response discuss focal high-attenuation area matching vessels?",
+        "correctness_question": "Does the model's response correctly assert that The focal very high-attenuation area matches the enhancement of nearby vessels?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "axial contrast-enhanced abdominal CT",
+        "claim_text": "An axial contrast-enhanced abdominal CT was acquired for evaluation.",
+        "presence_question": "Does the model's response discuss axial contrast-enhanced abdominal CT?",
+        "correctness_question": "Does the model's response correctly assert that An axial contrast-enhanced abdominal CT was acquired for evaluation?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "hemoglobin level",
+        "claim_text": "The patient's hemoglobin level measured 3.7 g/dL on laboratory testing.",
+        "presence_question": "Does the model's response discuss hemoglobin level?",
+        "correctness_question": "Does the model's response correctly assert that The patient's hemoglobin level measured 3.7 g/dL on laboratory testing?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "blood pressure",
+        "claim_text": "The blood pressure measured systolic 90 mmHg and diastolic 43 mmHg.",
+        "presence_question": "Does the model's response discuss blood pressure?",
+        "correctness_question": "Does the model's response correctly assert that The blood pressure measured systolic 90 mmHg and diastolic 43 mmHg?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "ongoing transfusion",
+        "claim_text": "An ongoing transfusion was being administered at the time of evaluation.",
+        "presence_question": "Does the model's response discuss ongoing transfusion?",
+        "correctness_question": "Does the model's response correctly assert that An ongoing transfusion was being administered at the time of evaluation?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "focal contrast extravasation on CT",
+        "claim_text": "Focal contrast extravasation on contrast-enhanced CT typically indicates active bleeding.",
+        "presence_question": "Does the model's response discuss focal contrast extravasation on CT?",
+        "correctness_question": "Does the model's response correctly state that Focal contrast extravasation on contrast-enhanced CT typically indicates active bleeding?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "extravasated intravascular contrast",
+        "claim_text": "Extravasated intravascular contrast typically appears as very high attenuation matching intravascular/vascular enhancement.",
+        "presence_question": "Does the model's response discuss extravasated intravascular contrast?",
+        "correctness_question": "Does the model's response correctly state that Extravasated intravascular contrast typically appears as very high attenuation matching intravascular/vascular enhancement?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "rapid drop in hemoglobin and new hypotension",
+        "claim_text": "A rapid drop in hemoglobin combined with new hypotension typically suggests ongoing significant blood loss with hemodynamic instability.",
+        "presence_question": "Does the model's response discuss a rapid drop in hemoglobin and new hypotension?",
+        "correctness_question": "Does the model's response correctly state that A rapid drop in hemoglobin combined with new hypotension typically suggests ongoing significant blood loss with hemodynamic instability?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "focal contrast extravasation",
+        "claim_text": "The focal very high-attenuation area within the right retroperitoneal collection that matches nearby vascular enhancement supports that focal contrast extravasation is a plausible explanation on CT.",
+        "presence_question": "Does the model's response make an inferential link about focal contrast extravasation?",
+        "correctness_question": "Does the model's response correctly conclude that The focal very high-attenuation area within the right retroperitoneal collection that matches nearby vascular enhancement supports that focal contrast extravasation is a plausible explanation on CT.?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "ongoing blood loss with instability",
+        "claim_text": "The precipitous hemoglobin of 3.7 g/dL and new hypotension despite ongoing transfusion are consistent with ongoing significant blood loss with hemodynamic instability in this patient.",
+        "presence_question": "Does the model's response make an inferential link about ongoing blood loss with instability?",
+        "correctness_question": "Does the model's response correctly conclude that The precipitous hemoglobin of 3.7 g/dL and new hypotension despite ongoing transfusion are consistent with ongoing significant blood loss with hemodynamic instability in this patient.?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "active arterial bleeding",
+        "claim_text": "The imaging evidence of focal contrast extravasation into the retroperitoneal hematoma together with the rapid hemoglobin decline and hypotension supports that active arterial bleeding is the most likely diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about active arterial bleeding?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging evidence of focal contrast extravasation into the retroperitoneal hematoma together with the rapid hemoglobin decline and hypotension supports that active arterial bleeding is the most likely diagnosis in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

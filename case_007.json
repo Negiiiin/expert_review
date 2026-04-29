@@ -27,5 +27,97 @@
   "caption": "CT abdomen showing the severe cystic appearance of both kidneys (white arrows)CT: computed tomography",
   "sub_caption": "CT abdomen showing the severe cystic appearance of both kidneys (white arrows)",
   "image_context": "We present a 71-year-old female, with a past medical history of hypertension, hyperlipidemia, end-stage renal disease (secondary to polycystic kidney disease, Figure <xref ref-type=\"fig\" rid=\"cureus-0012-00000009031-i01\">1</xref>), on intermittent hemodialysis who was admitted to the hospital with a hypertensive emergency, with systolic blood pressure (SBP) &gt; 200, complicated with non-ST-elevation myocardial infarction (NSTEMI) type 2, diastolic heart failure, pericardial effusion, hypertensive retinopathy, headache, and tinnitus. The patient's elevated BP was resistant to the oral antihypertensive regimen and daily hemodialysis sessions. The patient had a previous admission with a hypertensive emergency that resolved with multiple sessions of hemodialysis. The patient's antihypertensive regimen included clonidine 0.6 mg PO TID, hydralazine 100 mg PO BID, labetalol 800 mg BID, lisinopril 10 mg QD, nifedipine XL 240 QD, and spironolactone 100 mg QD. Minoxidil was relatively contraindicated in this patient given the current pericardial effusion. The patient's BP was controlled with the addition of intravenous (IV) nicardipine drip with the goal of SBP &lt; 180 and was transferred to the critical care unit for close monitoring.), on intermittent hemodialysis who was admitted to the hospital with a hypertensive emergency, with systolic blood pressure (SBP) > 200, complicated with non-ST-elevation myocardial infarction (NSTEMI) type 2, diastolic heart failure, pericardial effusion, hypertensive retinopathy, headache, and tinnitus. The patient's elevated BP was resistant to the oral antihypertensive regimen and daily hemodialysis sessions. The patient had a previous admission with a hypertensive emergency that resolved with multiple sessions of hemodialysis. The patient's antihypertensive regimen included clonidine 0.6 mg PO TID, hydralazine 100 mg PO BID, labetalol 800 mg BID, lisinopril 10 mg QD, nifedipine XL 240 QD, and spironolactone 100 mg QD. Minoxidil was relatively contraindicated in this patient given the current pericardial effusion. The patient's BP was controlled with the addition of intravenous (IV) nicardipine drip with the goal of SBP < 180 and was transferred to the critical care unit for close monitoring.",
-  "relevant_image_context": "We present a 71-year-old female with end-stage renal disease (secondary to polycystic kidney disease, Figure 1) on intermittent hemodialysis."
+  "relevant_image_context": "We present a 71-year-old female with end-stage renal disease (secondary to polycystic kidney disease, Figure 1) on intermittent hemodialysis.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_82_36-PMC7406182-0-cureus-0012-00000009031-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_82_36-PMC7406182-0-cureus-0012-00000009031-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Bilateral kidney enlargement",
+        "claim_text": "Both kidneys are markedly enlarged, indicating bilateral renal enlargement.",
+        "presence_question": "Does the model's response discuss Bilateral kidney enlargement?",
+        "correctness_question": "Does the model's response correctly assert that Both kidneys are markedly enlarged, indicating bilateral renal enlargement?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Bilateral renal parenchymal cysts",
+        "claim_text": "Numerous well-defined rounded fluid-density cysts are present throughout the renal parenchyma of both kidneys.",
+        "presence_question": "Does the model's response discuss Bilateral renal parenchymal cysts?",
+        "correctness_question": "Does the model's response correctly assert that Numerous well-defined rounded fluid-density cysts are present throughout the renal parenchyma of both kidneys?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Diffuse bilateral renal cystic change",
+        "claim_text": "Cystic change is diffuse and involves both kidneys rather than being focal or unilateral.",
+        "presence_question": "Does the model's response discuss Diffuse bilateral renal cystic change?",
+        "correctness_question": "Does the model's response correctly assert that Cystic change is diffuse and involves both kidneys rather than being focal or unilateral?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "bilateral diffuse renal cystic replacement",
+        "claim_text": "Bilateral diffuse renal cystic replacement typically suggests an inherited cystic kidney disorder rather than a solitary acquired or unilateral cyst.",
+        "presence_question": "Does the model's response discuss bilateral diffuse renal cystic replacement?",
+        "correctness_question": "Does the model's response correctly state that Bilateral diffuse renal cystic replacement typically suggests an inherited cystic kidney disorder rather than a solitary acquired or unilateral cyst?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "autosomal dominant inheritance",
+        "claim_text": "Autosomal dominant inheritance typically results in roughly a 50% risk to each biological child.",
+        "presence_question": "Does the model's response discuss autosomal dominant inheritance?",
+        "correctness_question": "Does the model's response correctly state that Autosomal dominant inheritance typically results in roughly a 50% risk to each biological child?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Inherited cystic kidney disease diagnosis",
+        "claim_text": "The imaging findings support that, in this case, the most likely diagnosis is an inherited cystic kidney disease rather than a solitary acquired or unilateral cystic process.",
+        "presence_question": "Does the model's response make an inferential link about Inherited cystic kidney disease diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings support that, in this case, the most likely diagnosis is an inherited cystic kidney disease rather than a solitary acquired or unilateral cystic process?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Autosomal dominant inheritance pattern",
+        "claim_text": "Bilateral, diffuse cystic kidneys in an adult imply that the most likely inheritance pattern in this case is autosomal dominant.",
+        "presence_question": "Does the model's response make an inferential link about Autosomal dominant inheritance pattern?",
+        "correctness_question": "Does the model's response correctly conclude that Bilateral, diffuse cystic kidneys in an adult imply that the most likely inheritance pattern in this case is autosomal dominant?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Biological children inheritance risk",
+        "claim_text": "If the disorder in this case is autosomal dominant, then each biological child would have roughly a 50% risk of inheriting the disorder.",
+        "presence_question": "Does the model's response make an inferential link about Biological children inheritance risk?",
+        "correctness_question": "Does the model's response correctly conclude that If the disorder in this case is autosomal dominant, then each biological child would have roughly a 50% risk of inheriting the disorder?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

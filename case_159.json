@@ -27,5 +27,145 @@
   "caption": "Cardiac CT scan showing calcification of the aorta.Abbreviation: CT, computed tomography.",
   "sub_caption": "Cardiac CT scan showing calcification of the aorta.",
   "image_context": "The patient was an 11-year-old Saudi girl who was referred to our center from a local hospital at age of 4 years when she was discovered to have hepatosplenomegaly and pancytopenia. She was born at full term to a healthy Saudi mother following an uneventful pregnancy. Her perinatal history as well as developmental history were unremarkable. Family history was significant for consanguinity and a history of an older brother deceased at age of 12 years with GD type III based on molecular and enzymatic testing with a similar clinical picture of his sister. On physical examination, her weight was in the 10th percentile and height was in the 3rd percentile. Her heart rate and blood pressure were within normal range. The liver and spleen were palpable 5 and 7 cm below the costal margin, respectively. Cardiac examination was normal at the time of presentation. Neurological examination was normal apart from oculomotor apraxia. Examinations of other systems were unremarkable. Complete blood count showed pancytopenia as follows: white blood cells: 4×109/L (5–15), hemoglobin: 11.7 g/dL (11.5–13.5), platelets: 106×109/L (140–350). Echocardiography was normal. β-glucocerebrosidase activity was low (0.02 U/g protein). Abdominal ultrasound showed mild enlargement of the liver with a measurement of 13.5 cm and diffuse increased echogenicity. Also, there was moderate splenomegaly, with a splenic measurement of 14.2 cm. She was subsequently diagnosed with GD, which was confirmed by genetic testing that showed a homozygous mutation in the GBA gene (NM_000157.3(GBA):c.1342G>C: p.(Asp448His)). This variant is known as D409H, and we will use the old nomenclature for consistency. The family refused enzyme replacement therapy due to social reasons. Years later, she presented at 11 years of age with a history of syncope after exertion and dyspnea. On examination, her weight and height were below the 3rd percentile. She continued to have hepatosplenomegaly and pancytopenia and has normal neurological status. Complete blood count showed the following values: white blood cells: 9.6×109/L (5–15), hemoglobin: 9.7 g/dL (11.5–15.5), platelets: 109×109/L (140–350). Abdominal ultrasound showed mild hepatomegaly, with a measurement of 15.6 cm, and moderate splenomegaly, with a measurement of 17 cm. There was no focal lesion and normal parenchyma. A repeated echocardiography revealed thickened mitral valve leaflets with severe mitral regurgitation, thickened aortic valve leaflets, fixed right aortic cusp with mild regurgitation, severely dilated left atrium, depressed biventricular systolic function, right ventricular outflow tract obstruction, and peak end-diastolic gradient of 18 mmHg. Cardiac computed tomography scan (<xref ref-type=\"fig\" rid=\"tacg-11-107Fig1\">Figure 1</xref>) showed diffuse thickening of the aortic root extending along the ascending aorta and aortic arch with calcifications. There was minimal fluid surrounding the aorta, thickening of the aortic valve leaflets and mitral valve, and marked enlargement of the left atrium. She was started on antifailure medications without significant improvement, as observed on repeated echocardiography. She was scheduled for surgery, but unfortunately, she deteriorated rapidly and died before the surgery.) showed diffuse thickening of the aortic root extending along the ascending aorta and aortic arch with calcifications. There was minimal fluid surrounding the aorta, thickening of the aortic valve leaflets and mitral valve, and marked enlargement of the left atrium. She was started on antifailure medications without significant improvement, as observed on repeated echocardiography. She was scheduled for surgery, but unfortunately, she deteriorated rapidly and died before the surgery.",
-  "relevant_image_context": "Cardiac computed tomography scan (Figure 1) showed diffuse thickening of the aortic root extending along the ascending aorta and aortic arch with calcifications. There was minimal fluid surrounding the aorta, thickening of the aortic valve leaflets and mitral valve, and marked enlargement of the left atrium."
+  "relevant_image_context": "Cardiac computed tomography scan (Figure 1) showed diffuse thickening of the aortic root extending along the ascending aorta and aortic arch with calcifications. There was minimal fluid surrounding the aorta, thickening of the aortic valve leaflets and mitral valve, and marked enlargement of the left atrium.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_61_4-PMC6199969-0-tacg-11-107Fig1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_61_4-PMC6199969-0-tacg-11-107Fig1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "axial thoracic CT slice",
+        "claim_text": "An axial thoracic CT slice is present in the study.",
+        "presence_question": "Does the model's response discuss axial thoracic CT slice?",
+        "correctness_question": "Does the model's response correctly assert that An axial thoracic CT slice is present in the study?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "heart",
+        "claim_text": "The heart is present within the thorax on the image.",
+        "presence_question": "Does the model's response discuss heart?",
+        "correctness_question": "Does the model's response correctly assert that The heart is present within the thorax on the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "great vessels",
+        "claim_text": "The great vessels are present within the thorax on the image.",
+        "presence_question": "Does the model's response discuss great vessels?",
+        "correctness_question": "Does the model's response correctly assert that The great vessels are present within the thorax on the image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lungs",
+        "claim_text": "The lungs are present within the thorax on the image.",
+        "presence_question": "Does the model's response discuss lungs?",
+        "correctness_question": "Does the model's response correctly assert that The lungs are present within the thorax on the image?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "genetic or pedigree information",
+        "claim_text": "Direct genetic or pedigree information is absent from the image.",
+        "presence_question": "Does the model's response discuss genetic or pedigree information?",
+        "correctness_question": "Does the model's response correctly assert that Direct genetic or pedigree information is absent from the image?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "proband homozygosity for pathogenic variant",
+        "claim_text": "The proband is homozygous for a pathogenic variant.",
+        "presence_question": "Does the model's response discuss proband homozygosity for pathogenic variant?",
+        "correctness_question": "Does the model's response correctly assert that The proband is homozygous for a pathogenic variant?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "parental consanguinity",
+        "claim_text": "The parents are consanguineous, indicating parental consanguinity is present.",
+        "presence_question": "Does the model's response discuss parental consanguinity?",
+        "correctness_question": "Does the model's response correctly assert that The parents are consanguineous, indicating parental consanguinity is present?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "previously affected child",
+        "claim_text": "There is one previously affected child reported in the family history.",
+        "presence_question": "Does the model's response discuss previously affected child?",
+        "correctness_question": "Does the model's response correctly assert that There is one previously affected child reported in the family history?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Homozygous affected child",
+        "claim_text": "An affected child who is homozygous for a recessive allele indicates that both parents are at least carriers of that allele.",
+        "presence_question": "Does the model's response discuss Homozygous affected child?",
+        "correctness_question": "Does the model's response correctly state that An affected child who is homozygous for a recessive allele indicates that both parents are at least carriers of that allele?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Autosomal recessive carrier mating",
+        "claim_text": "In an autosomal recessive mating between two carriers, each pregnancy has a 25% chance of an affected (homozygous) offspring, a 50% chance of a carrier (heterozygous) offspring, and a 25% chance of an unaffected non-carrier.",
+        "presence_question": "Does the model's response discuss Autosomal recessive carrier mating?",
+        "correctness_question": "Does the model's response correctly state that In an autosomal recessive mating between two carriers, each pregnancy has a 25% chance of an affected (homozygous) offspring, a 50% chance of a carrier (heterozygous) offspring, and a 25% chance of an unaffected non-carrier?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Consanguinity",
+        "claim_text": "Consanguinity increases the probability that both parents carry the same recessive allele.",
+        "presence_question": "Does the model's response discuss Consanguinity?",
+        "correctness_question": "Does the model's response correctly state that Consanguinity increases the probability that both parents carry the same recessive allele?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Mendelian segregation in autosomal recessive",
+        "claim_text": "In autosomal recessive inheritance, each pregnancy is an independent event with respect to genotype outcomes.",
+        "presence_question": "Does the model's response discuss Mendelian segregation in autosomal recessive?",
+        "correctness_question": "Does the model's response correctly state that In autosomal recessive inheritance, each pregnancy is an independent event with respect to genotype outcomes?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "CT image effect on inheritance probabilities",
+        "claim_text": "The CT image implies it is insufficient to change the inheritance probabilities described in the question.",
+        "presence_question": "Does the model's response make an inferential link about CT image effect on inheritance probabilities?",
+        "correctness_question": "Does the model's response correctly conclude that The CT image implies it is insufficient to change the inheritance probabilities described in the question?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Parental carrier status from proband homozygosity",
+        "claim_text": "The proband being homozygous for a pathogenic variant supports that both parents are at least carriers of the pathogenic allele in this case.",
+        "presence_question": "Does the model's response make an inferential link about Parental carrier status from proband homozygosity?",
+        "correctness_question": "Does the model's response correctly conclude that The proband being homozygous for a pathogenic variant supports that both parents are at least carriers of the pathogenic allele in this case?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Recurrence risk for future full sibling",
+        "claim_text": "Given both parents are carriers, the situation is consistent with a 25% per-pregnancy recurrence risk for a future full sibling, and consanguinity increases the prior chance the parents are carriers but does not change the 25% per-pregnancy recurrence once carrier status is established.",
+        "presence_question": "Does the model's response make an inferential link about Recurrence risk for future full sibling?",
+        "correctness_question": "Does the model's response correctly conclude that Given both parents are carriers, the situation is consistent with a 25% per-pregnancy recurrence risk for a future full sibling, and consanguinity increases the prior chance the parents are carriers but does not change the 25% per-pregnancy recurrence once carrier status is established?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

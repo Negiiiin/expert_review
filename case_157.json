@@ -29,5 +29,132 @@
   "caption": "Radiologic examination shows a lobulated intra-axial mass in the right frontoparietal lobe with heterogeneous enhancement and mild peripheral edema. Shift of falx cerebri to the left side is seen",
   "sub_caption": "Radiologic examination shows a lobulated intra-axial mass in the right frontoparietal lobe with heterogeneous enhancement and mild peripheral edema. Shift of falx cerebri to the left side is seen.",
   "image_context": "A 25-year-old female referred to the Department of Neurosurgery in Sina Hospital affiliated to TUMS with a four months history of generalized headache. At first, the outpatient examination finding was unremarkable. The patient’s family history and past medical history was also unremarkable. No neurological sign was found. The patient underwent plain radiography, which showed a calcified lesion on the right frontoparietal lobe. The brain MRI (magnetic resonance imaging) with and without contrast showed a lobulated intra-axial mass in the right frontoparietal lobe with heterogeneous enhancement and mild peripheral edema. Shift of falx cerebri to the left side was seen. The radiological diagnosis was low grade glioma or meningioma (<xref ref-type=\"fig\" rid=\"ijp-16-222-g001\">Figure 1</xref>). The diagnosis required histopathologic confirmation. The patient underwent an excisional surgery. She well tolerated the procedure without complications. The received specimen for pathology examination consisted of multiple pieces of tan firm tissue totally measuring 12×8×2.5 cm. Histological examinations revealed portions of mature cartilage with lobular architecture. No atypia or mitotic figures and necrosis were seen (). The diagnosis required histopathologic confirmation. The patient underwent an excisional surgery. She well tolerated the procedure without complications. The received specimen for pathology examination consisted of multiple pieces of tan firm tissue totally measuring 12×8×2.5 cm. Histological examinations revealed portions of mature cartilage with lobular architecture. No atypia or mitotic figures and necrosis were seen (<xref ref-type=\"fig\" rid=\"ijp-16-222-g002\">Figure 2</xref>). Therefore, our case was compatible with chondroma and diagnosis was confirmed. Based on the diagnosis, the patient received no additional treatment. After 6 months of follow-up examinations, no recurrence was observed and the patient is still asymptomatic.). Therefore, our case was compatible with chondroma and diagnosis was confirmed. Based on the diagnosis, the patient received no additional treatment. After 6 months of follow-up examinations, no recurrence was observed and the patient is still asymptomatic.",
-  "relevant_image_context": "A 25-year-old female with four months of generalized headache. The brain MRI with and without contrast showed a lobulated intra-axial mass in the right frontoparietal lobe with heterogeneous enhancement and mild peripheral edema. Shift of falx cerebri to the left side was seen. The radiological diagnosis was low grade glioma or meningioma. The diagnosis required histopathologic confirmation."
+  "relevant_image_context": "A 25-year-old female with four months of generalized headache. The brain MRI with and without contrast showed a lobulated intra-axial mass in the right frontoparietal lobe with heterogeneous enhancement and mild peripheral edema. Shift of falx cerebri to the left side was seen. The radiological diagnosis was low grade glioma or meningioma. The diagnosis required histopathologic confirmation.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_96_37-PMC8085281-1-ijp-16-222-g001.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_96_37-PMC8085281-1-ijp-16-222-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Intra-axial mass",
+        "claim_text": "An intra-axial mass is present on the axial brain MRI.",
+        "presence_question": "Does the model's response discuss intra-axial mass?",
+        "correctness_question": "Does the model's response correctly assert that An intra-axial mass is present on the axial brain MRI?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right frontoparietal mass location",
+        "claim_text": "The intra-axial mass is located in the right frontoparietal region on axial brain MRI.",
+        "presence_question": "Does the model's response discuss right frontoparietal mass location?",
+        "correctness_question": "Does the model's response correctly assert that The intra-axial mass is located in the right frontoparietal region on axial brain MRI?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Lobulated mass shape",
+        "claim_text": "The intra-axial mass in the right frontoparietal region has a lobulated shape on axial MRI.",
+        "presence_question": "Does the model's response discuss lobulated mass shape?",
+        "correctness_question": "Does the model's response correctly assert that The intra-axial mass in the right frontoparietal region has a lobulated shape on axial MRI?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Contrast-enhancing mass",
+        "claim_text": "The right frontoparietal intra-axial mass demonstrates contrast-enhancing signal on axial MRI.",
+        "presence_question": "Does the model's response discuss contrast-enhancing mass?",
+        "correctness_question": "Does the model's response correctly assert that The right frontoparietal intra-axial mass demonstrates contrast-enhancing signal on axial MRI?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Surrounding low-signal zone",
+        "claim_text": "A broad zone of low-signal surrounds the intra-axial mass in the right frontoparietal region.",
+        "presence_question": "Does the model's response discuss surrounding low-signal zone?",
+        "correctness_question": "Does the model's response correctly assert that A broad zone of low-signal surrounds the intra-axial mass in the right frontoparietal region?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Midline leftward shift",
+        "claim_text": "There is a leftward shift of the brain midline on the axial MRI.",
+        "presence_question": "Does the model's response discuss midline leftward shift?",
+        "correctness_question": "Does the model's response correctly assert that There is a leftward shift of the brain midline on the axial MRI?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Dexamethasone",
+        "claim_text": "Dexamethasone is a corticosteroid.",
+        "presence_question": "Does the model's response discuss Dexamethasone?",
+        "correctness_question": "Does the model's response correctly state that Dexamethasone is a corticosteroid?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Corticosteroid treatment of peritumoral cerebral edema",
+        "claim_text": "Corticosteroids reduce peritumoral cerebral edema and can thereby relieve mass effect and associated neurologic symptoms.",
+        "presence_question": "Does the model's response discuss Corticosteroid treatment of peritumoral cerebral edema?",
+        "correctness_question": "Does the model's response correctly state that Corticosteroids reduce peritumoral cerebral edema and can thereby relieve mass effect and associated neurologic symptoms?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Midline shift on brain imaging",
+        "claim_text": "Midline shift on brain imaging indicates the presence of mass effect.",
+        "presence_question": "Does the model's response discuss Midline shift on brain imaging?",
+        "correctness_question": "Does the model's response correctly state that Midline shift on brain imaging indicates the presence of mass effect?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Preoperative corticosteroid therapy",
+        "claim_text": "Corticosteroid therapy can be given before histopathologic confirmation to manage symptomatic tumor-associated edema.",
+        "presence_question": "Does the model's response discuss Preoperative corticosteroid therapy?",
+        "correctness_question": "Does the model's response correctly state that Corticosteroid therapy can be given before histopathologic confirmation to manage symptomatic tumor-associated edema?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Midline shift indicating mass effect",
+        "claim_text": "The observed leftward midline shift on the MRI is consistent with mass effect from the intracranial lesion.",
+        "presence_question": "Does the model's response make an inferential link about Midline shift indicating mass effect?",
+        "correctness_question": "Does the model's response correctly conclude that The observed leftward midline shift on the MRI is consistent with mass effect from the intracranial lesion?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Dexamethasone to reduce edema",
+        "claim_text": "The broad zone of surrounding low-signal consistent with peritumoral edema supports that corticosteroids such as dexamethasone will reduce edema and thereby relieve mass effect and neurologic symptoms in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Dexamethasone to reduce edema?",
+        "correctness_question": "Does the model's response correctly conclude that The broad zone of surrounding low-signal consistent with peritumoral edema supports that corticosteroids such as dexamethasone will reduce edema and thereby relieve mass effect and neurologic symptoms in this patient?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Immediate corticosteroid therapy pending diagnosis",
+        "claim_text": "Because the imaging shows tumor-associated edema and mass effect and the clinical context is symptomatic while awaiting diagnosis, initiating corticosteroid therapy now is an appropriate immediate management step prior to histopathologic confirmation.",
+        "presence_question": "Does the model's response make an inferential link about Immediate corticosteroid therapy pending diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging shows tumor-associated edema and mass effect and the clinical context is symptomatic while awaiting diagnosis, initiating corticosteroid therapy now is an appropriate immediate management step prior to histopathologic confirmation?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

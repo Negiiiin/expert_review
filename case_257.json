@@ -27,5 +27,147 @@
   "caption": "Preoperative. This photo illustrates the extent of the scrotal abscess and cancer upon presentation. The urethra was obliterated. In addition to multiple areas of infection, there were nodular areas with squamous keratinization.",
   "sub_caption": "Preoperative. This photo illustrates the extent of the scrotal abscess and cancer upon presentation. The urethra was obliterated. In addition to multiple areas of infection, there were nodular areas with squamous keratinization.",
   "image_context": "Approximately six months later, he re-presented with Fournier’s gangrene and underwent drainage of the scrotal abscess and further debridement of the chronic necrotic tissue. A sample of necrotic scrotal tissue was sent for differential diagnosis, and pathology revealed invasive moderately differentiated urethral SCC (<xref ref-type=\"fig\" rid=\"ccrep-9-2016-083f1\">Fig. 1</xref>). The patient had a 15 pack year history of smoking and a recent history of feeling weak and tired and having dyspnea. The patient described significant pain, stating that his pain ranged from 6 to 9/10.). The patient had a 15 pack year history of smoking and a recent history of feeling weak and tired and having dyspnea. The patient described significant pain, stating that his pain ranged from 6 to 9/10.",
-  "relevant_image_context": "Approximately six months later, he re-presented with Fournier’s gangrene and underwent drainage of the scrotal abscess and further debridement of the chronic necrotic tissue. A sample of necrotic scrotal tissue was sent for differential diagnosis, and pathology revealed invasive moderately differentiated urethral SCC (Fig. 1). The patient had a 15 pack year history of smoking and a recent history of feeling weak and tired and having dyspnea. The patient described significant pain, stating that his pain ranged from 6 to 9/10.). The patient had a 15 pack year history of smoking and a recent history of feeling weak and tired and having dyspnea. The patient described significant pain, stating that his pain ranged from 6 to 9/10. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Approximately six months later, he re-presented with Fournier’s gangrene and underwent drainage of the scrotal abscess and further debridement of the chronic necrotic tissue. A sample of necrotic scrotal tissue was sent for differential diagnosis, and pathology revealed invasive moderately differentiated urethral SCC (Fig. 1). The patient had a 15 pack year history of smoking and a recent history of feeling weak and tired and having dyspnea. The patient described significant pain, stating that his pain ranged from 6 to 9/10.). The patient had a 15 pack year history of smoking and a recent history of feeling weak and tired and having dyspnea. The patient described significant pain, stating that his pain ranged from 6 to 9/10. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_other_batch_46_16-PMC5045045-1-ccrep-9-2016-083f1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_46_16-PMC5045045-1-ccrep-9-2016-083f1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "ulcerated scrotal mass",
+        "claim_text": "A large, irregular, ulcerated mass is present on the scrotum.",
+        "presence_question": "Does the model's response discuss ulcerated scrotal mass?",
+        "correctness_question": "Does the model's response correctly assert that A large, irregular, ulcerated mass is present on the scrotum?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "yellow necrotic scrotal slough",
+        "claim_text": "Yellow necrotic slough is present on the scrotum.",
+        "presence_question": "Does the model's response discuss yellow necrotic scrotal slough?",
+        "correctness_question": "Does the model's response correctly assert that Yellow necrotic slough is present on the scrotum?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "extent of necrotic slough",
+        "claim_text": "The yellow necrotic slough extends across widespread areas of the scrotum.",
+        "presence_question": "Does the model's response discuss extent of necrotic slough?",
+        "correctness_question": "Does the model's response correctly assert that The yellow necrotic slough extends across widespread areas of the scrotum?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "active scrotal bleeding",
+        "claim_text": "Active bleeding is visibly present on the scrotum.",
+        "presence_question": "Does the model's response discuss active scrotal bleeding?",
+        "correctness_question": "Does the model's response correctly assert that Active bleeding is visibly present on the scrotum?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "scrotal anatomic contours",
+        "claim_text": "Normal anatomic contours are absent across most of the scrotum.",
+        "presence_question": "Does the model's response discuss scrotal anatomic contours?",
+        "correctness_question": "Does the model's response correctly assert that Normal anatomic contours are absent across most of the scrotum?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "destructive lesion appearance",
+        "claim_text": "The lesion has an extensively destructive appearance on the scrotum.",
+        "presence_question": "Does the model's response discuss destructive lesion appearance?",
+        "correctness_question": "Does the model's response correctly assert that The lesion has an extensively destructive appearance on the scrotum?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "lesion not confined to focal area",
+        "claim_text": "The lesion is not confined to a small local focus on the scrotum.",
+        "presence_question": "Does the model's response discuss lesion not confined to focal area?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is not confined to a small local focus on the scrotum?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "systemic symptoms and clinical risk factors",
+        "claim_text": "Systemic symptoms and clinical risk factors are associated with more aggressive disease behavior and a worse prognosis.",
+        "presence_question": "Does the model's response discuss systemic symptoms and clinical risk factors?",
+        "correctness_question": "Does the model's response correctly state that systemic symptoms and clinical risk factors are associated with more aggressive disease behavior and a worse prognosis?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "extensive local tissue invasion and necrosis",
+        "claim_text": "Extensive local tissue invasion and necrosis are associated with worse prognosis that correlates with the extent of local disease.",
+        "presence_question": "Does the model's response discuss extensive local tissue invasion and necrosis?",
+        "correctness_question": "Does the model's response correctly state that extensive local tissue invasion and necrosis are associated with worse prognosis that correlates with the extent of local disease?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "loss of normal anatomic contours",
+        "claim_text": "Loss of normal anatomic contours indicates extensive tissue destruction or local invasion.",
+        "presence_question": "Does the model's response discuss loss of normal anatomic contours?",
+        "correctness_question": "Does the model's response correctly state that loss of normal anatomic contours indicates extensive tissue destruction or local invasion?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "ulceration with necrotic slough and bleeding",
+        "claim_text": "Ulceration with necrotic slough and active bleeding suggests an ongoing necrotic or ulcerative destructive process.",
+        "presence_question": "Does the model's response discuss ulceration with necrotic slough and bleeding?",
+        "correctness_question": "Does the model's response correctly state that ulceration with necrotic slough and active bleeding suggests an ongoing necrotic or ulcerative destructive process?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Poor prognosis from local disease extent",
+        "claim_text": "The combination of an extensive destructive-appearing lesion, widespread necrotic slough, active bleeding, and loss of normal scrotal contours supports a poor prognosis related to the extent of local disease in this case.",
+        "presence_question": "Does the model's response make an inferential link about Poor prognosis from local disease extent?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of an extensive destructive-appearing lesion, widespread necrotic slough, active bleeding, and loss of normal scrotal contours supports a poor prognosis related to the extent of local disease in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Ongoing necrosis and ulceration",
+        "claim_text": "Visible yellow necrotic slough together with active bleeding supports an ongoing necrotic and ulcerative destructive process in this lesion.",
+        "presence_question": "Does the model's response make an inferential link about Ongoing necrosis and ulceration?",
+        "correctness_question": "Does the model's response correctly conclude that Visible yellow necrotic slough together with active bleeding supports an ongoing necrotic and ulcerative destructive process in this lesion?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Extensive local tissue invasion",
+        "claim_text": "Absence of normal anatomic contours across most of the scrotum and an extensively destructive lesion appearance supports extensive local tissue invasion or destruction in this case.",
+        "presence_question": "Does the model's response make an inferential link about Extensive local tissue invasion?",
+        "correctness_question": "Does the model's response correctly conclude that Absence of normal anatomic contours across most of the scrotum and an extensively destructive lesion appearance supports extensive local tissue invasion or destruction in this case?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

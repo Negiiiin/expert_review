@@ -27,5 +27,160 @@
   "caption": "Necrotic uterine fibroid, 25 weeks of pregnancy. (a) Inhomogeneous, hypo-/hyperechoic lesion of the uterus with 15 cm in diameter in B-mode (yellow arrows; red arrow: uterus). (b) Only a slightly marginal contrast enhancement was detected in CEUS (yellow arrow). (c) In adjunct MRI, a predominantly T2-hypointense, inhomogeneous lesion of the left uterine wall was visualized (red arrowhead).",
   "sub_caption": "(b) Only a slightly marginal contrast enhancement was detected in CEUS (yellow arrow).",
   "image_context": "Due to an incidentally detected unclear uterine tumor, a 34-year-old patient at 25 weeks of gestational age was referred to our department by her caring obstetrician. The woman suffered lower abdominal pain with blood tests having revealed elevated markers of inflammation. Contrast-enhanced ultrasound was performed for the definitive characterization of the uterine lesion. A 15 cm inhomogeneous tumor at the left uterine wall could be visualized in B-mode ultrasound (<xref ref-type=\"fig\" rid=\"medicina-56-00675-g002\">Figure 2</xref>a). The lesion showed no hypervascularization in Doppler mode and only a slight contrast enhancement in CEUS (a). The lesion showed no hypervascularization in Doppler mode and only a slight contrast enhancement in CEUS (<xref ref-type=\"fig\" rid=\"medicina-56-00675-g002\">Figure 2</xref>b). The morphological findings led to the diagnosis of necrotic uterine fibroid confirmed by MRI (b). The morphological findings led to the diagnosis of necrotic uterine fibroid confirmed by MRI (<xref ref-type=\"fig\" rid=\"medicina-56-00675-g002\">Figure 2</xref>c). Under calculated antibiotic therapy, the serum inflammatory markers returned to normal levels and the patient was discharged to ambulatory care after a hospitalization period of five days.c). Under calculated antibiotic therapy, the serum inflammatory markers returned to normal levels and the patient was discharged to ambulatory care after a hospitalization period of five days.",
-  "relevant_image_context": "The lesion showed no hypervascularization in Doppler mode and only a slight contrast enhancement in CEUS (b). The morphological findings led to the diagnosis of necrotic uterine fibroid confirmed by MRI (b)."
+  "relevant_image_context": "The lesion showed no hypervascularization in Doppler mode and only a slight contrast enhancement in CEUS (b). The morphological findings led to the diagnosis of necrotic uterine fibroid confirmed by MRI (b).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_2_filelist_commercial_batch_89_49-PMC7762549-2-medicina-56-00675-g002.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_89_49-PMC7762549-2-medicina-56-00675-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "tumor lesion texture",
+        "claim_text": "The tumor lesion has a heterogeneous texture on grayscale ultrasound.",
+        "presence_question": "Does the model's response discuss tumor lesion texture?",
+        "correctness_question": "Does the model's response correctly assert that The tumor lesion has a heterogeneous texture on grayscale ultrasound?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "central region of lesion",
+        "claim_text": "A central region is located within the lesion.",
+        "presence_question": "Does the model's response discuss central region of lesion?",
+        "correctness_question": "Does the model's response correctly assert that A central region is located within the lesion?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "central region appearance",
+        "claim_text": "The lesion's central region appears distinct from the peripheral tissue.",
+        "presence_question": "Does the model's response discuss central region appearance?",
+        "correctness_question": "Does the model's response correctly assert that The lesion's central region appears distinct from the peripheral tissue?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "central region Doppler flow",
+        "claim_text": "No internal color/Doppler flow signals are present in the lesion's central region.",
+        "presence_question": "Does the model's response discuss central region Doppler flow?",
+        "correctness_question": "Does the model's response correctly assert that No internal color/Doppler flow signals are present in the lesion's central region?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "peripheral tissue signal",
+        "claim_text": "Peripheral tumor tissue shows increased signal compared to the central core on contrast-enhanced ultrasound.",
+        "presence_question": "Does the model's response discuss peripheral tissue signal?",
+        "correctness_question": "Does the model's response correctly assert that Peripheral tumor tissue shows increased signal compared to the central core on contrast-enhanced ultrasound?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "central core contrast enhancement",
+        "claim_text": "The tumor's central core is non-enhancing, lacking microbubble contrast on contrast-enhanced ultrasound.",
+        "presence_question": "Does the model's response discuss central core contrast enhancement?",
+        "correctness_question": "Does the model's response correctly assert that The tumor's central core is non-enhancing, lacking microbubble contrast on contrast-enhanced ultrasound?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "central zone MRI enhancement",
+        "claim_text": "There is no enhancement of the tumor's central zone on axial MRI.",
+        "presence_question": "Does the model's response discuss central zone MRI enhancement?",
+        "correctness_question": "Does the model's response correctly assert that There is no enhancement of the tumor's central zone on axial MRI?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "tumor rim enhancement",
+        "claim_text": "An enhancing solid rim is present around the tumor on axial MRI.",
+        "presence_question": "Does the model's response discuss tumor rim enhancement?",
+        "correctness_question": "Does the model's response correctly assert that An enhancing solid rim is present around the tumor on axial MRI?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "color Doppler signal",
+        "claim_text": "A color Doppler signal indicates detectable blood flow or vascularity.",
+        "presence_question": "Does the model's response discuss color Doppler signal?",
+        "correctness_question": "Does the model's response correctly state that a color Doppler signal indicates detectable blood flow or vascularity?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "microbubble contrast enhancement",
+        "claim_text": "Microbubble contrast enhancement on contrast-enhanced ultrasound indicates microvascular perfusion.",
+        "presence_question": "Does the model's response discuss microbubble contrast enhancement?",
+        "correctness_question": "Does the model's response correctly state that microbubble contrast enhancement on contrast-enhanced ultrasound indicates microvascular perfusion?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "lack of MRI enhancement",
+        "claim_text": "Lack of enhancement on MRI suggests loss of internal tissue perfusion.",
+        "presence_question": "Does the model's response discuss lack of MRI enhancement?",
+        "correctness_question": "Does the model's response correctly state that lack of enhancement on MRI suggests loss of internal tissue perfusion?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "loss of blood supply",
+        "claim_text": "Loss of blood supply results from tissue infarction or necrosis.",
+        "presence_question": "Does the model's response discuss loss of blood supply?",
+        "correctness_question": "Does the model's response correctly state that loss of blood supply results from tissue infarction or necrosis?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "central non-enhancing area with enhancing rim",
+        "claim_text": "A central non-enhancing area surrounded by an enhancing rim within a tumor is characteristic of necrosis or infarction.",
+        "presence_question": "Does the model's response discuss a central non-enhancing area with an enhancing rim?",
+        "correctness_question": "Does the model's response correctly state that a central non-enhancing area surrounded by an enhancing rim within a tumor is characteristic of necrosis or infarction?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Absent microvascular perfusion",
+        "claim_text": "The imaging findings (absent microbubble contrast, absent Doppler flow signals, and lack of MRI enhancement) are consistent with the central region lacking microvascular perfusion.",
+        "presence_question": "Does the model's response make an inferential link about Absent microvascular perfusion?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings (absent microbubble contrast, absent Doppler flow signals, and lack of MRI enhancement) are consistent with the central region lacking microvascular perfusion?",
+        "premise_perception_ids": [
+          "p4",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Peripheral rim perfusion",
+        "claim_text": "Marked contrast enhancement of the peripheral/solid rim on ultrasound and MRI supports that the peripheral rim demonstrates preserved perfusion and is likely vascularized/viable tissue.",
+        "presence_question": "Does the model's response make an inferential link about Peripheral rim perfusion?",
+        "correctness_question": "Does the model's response correctly conclude that Marked contrast enhancement of the peripheral/solid rim on ultrasound and MRI supports that the peripheral rim demonstrates preserved perfusion and is likely vascularized/viable tissue?",
+        "premise_perception_ids": [
+          "p5",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Central infarction diagnosis",
+        "claim_text": "The imaging pattern of a central non-enhancing zone surrounded by an enhancing rim supports the diagnosis that the central region most likely represents infarction/necrosis due to loss of blood supply.",
+        "presence_question": "Does the model's response make an inferential link about Central infarction diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging pattern of a central non-enhancing zone surrounded by an enhancing rim supports the diagnosis that the central region most likely represents infarction/necrosis due to loss of blood supply?",
+        "premise_perception_ids": [
+          "p6",
+          "p4",
+          "p7",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k5",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,108 @@
   "caption": "A plain axial CT scan of the brain showing mild interval regression of the left-sided posterior fossa/cerebellar epidural hematoma",
   "sub_caption": "A plain axial CT scan of the brain showing mild interval regression of the left-sided posterior fossa/cerebellar epidural hematoma",
   "image_context": "The patient arrived at the emergency department 2 hours after experiencing head trauma from falling on wet ground. He suffered from post-traumatic headaches and acute vomiting. On arriving at the emergency department of Maternity and Children’s Hospital, Alhassa, he was conscious, attentive, agitated, and with stable vital signs, including heart rate, blood pressure, temperature, and respiratory rate. Laboratory investigations showed that his hemoglobin was 9.7 g/dL, hematocrit was 30.7%, mean corpuscular volume was 54 fL, reticulocyte count was 1.1%, and white blood cell count was 9.86 × 109/L. On clinical examination, there were no neurological deficiencies regarding reflexes, sensation, mental, cognitive, visual, speech, gait, or motor functions. A computerized tomography (CT) scan of the brain was requested as a part of the routine evaluation and revealed a left-sided posterior fossa cerebellar epidural hematoma (Fig. <xref rid=\"13256_2023_3783_Fig1_HTML\" ref-type=\"fig\">1</xref>). The patient was admitted and closely monitored in the intensive care unit and received 24 doses of rFVII (120 µg/kg) for the first 2 days, then six doses daily for 4 days, with tranexamic acid (10 mg/kg) given every 6 hours. Brain CT scans were repeated after 2 days, revealing bleeding cessation. Accordingly, no interventional neurosurgical procedures were recommended. The patient showed stable vital signs and normal neurological examination throughout his admission. The patient was discharged after 10 days, in good health, with no neurological complications. One week after discharge, the patient was followed up by the hospital’s neurosurgeon for reassurance.). The patient was admitted and closely monitored in the intensive care unit and received 24 doses of rFVII (120 µg/kg) for the first 2 days, then six doses daily for 4 days, with tranexamic acid (10 mg/kg) given every 6 hours. Brain CT scans were repeated after 2 days, revealing bleeding cessation. Accordingly, no interventional neurosurgical procedures were recommended. The patient showed stable vital signs and normal neurological examination throughout his admission. The patient was discharged after 10 days, in good health, with no neurological complications. One week after discharge, the patient was followed up by the hospital’s neurosurgeon for reassurance.Fig. 1A plain axial CT scan of the brain showing mild interval regression of the left-sided posterior fossa/cerebellar epidural hematoma",
-  "relevant_image_context": "The CT scan of the brain revealed a left-sided posterior fossa cerebellar epidural hematoma (Fig. 1). Brain CT scans were repeated after 2 days, revealing bleeding cessation. Accordingly, no interventional neurosurgical procedures were recommended. The patient arrived at the emergency department 2 hours after experiencing head trauma from falling on wet ground with post-traumatic headaches and acute vomiting. On examination, there were no neurological deficiencies regarding reflexes, sensation, mental status, visual function, or motor function. The patient was admitted and closely monitored in the intensive care unit and received treatment; brain CT scans were repeated after 2 days, revealing cessation of bleeding."
+  "relevant_image_context": "The CT scan of the brain revealed a left-sided posterior fossa cerebellar epidural hematoma (Fig. 1). Brain CT scans were repeated after 2 days, revealing bleeding cessation. Accordingly, no interventional neurosurgical procedures were recommended. The patient arrived at the emergency department 2 hours after experiencing head trauma from falling on wet ground with post-traumatic headaches and acute vomiting. On examination, there were no neurological deficiencies regarding reflexes, sensation, mental status, visual function, or motor function. The patient was admitted and closely monitored in the intensive care unit and received treatment; brain CT scans were repeated after 2 days, revealing cessation of bleeding.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_141_99-PMC9948523-0-13256_2023_3783_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_141_99-PMC9948523-0-13256_2023_3783_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left posterior fossa collection",
+        "claim_text": "A collection is present in the left posterior fossa.",
+        "presence_question": "Does the model's response discuss left posterior fossa collection?",
+        "correctness_question": "Does the model's response correctly assert that A collection is present in the left posterior fossa?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "left posterior skull base collection",
+        "claim_text": "The collection is located at the left posterior skull base/petrous region.",
+        "presence_question": "Does the model's response discuss left posterior skull base collection?",
+        "correctness_question": "Does the model's response correctly assert that The collection is located at the left posterior skull base/petrous region?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "adjacent to inner table of skull",
+        "claim_text": "The collection is adjacent to the inner table of the left skull.",
+        "presence_question": "Does the model's response discuss adjacent to inner table of skull?",
+        "correctness_question": "Does the model's response correctly assert that The collection is adjacent to the inner table of the left skull?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "left cerebellar parenchyma involvement",
+        "claim_text": "The collection is not located in the left cerebellar parenchyma.",
+        "presence_question": "Does the model's response discuss left cerebellar parenchyma involvement?",
+        "correctness_question": "Does the model's response correctly assert that The collection is not located in the left cerebellar parenchyma?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "lentiform (lens-shaped) morphology",
+        "claim_text": "The collection has a lentiform, rounded (lens-shaped) contour.",
+        "presence_question": "Does the model's response discuss lentiform (lens-shaped) morphology?",
+        "correctness_question": "Does the model's response correctly assert that The collection has a lentiform, rounded (lens-shaped) contour?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "localized collection appearance",
+        "claim_text": "The collection appears localized within the left posterior fossa.",
+        "presence_question": "Does the model's response discuss localized collection appearance?",
+        "correctness_question": "Does the model's response correctly assert that The collection appears localized within the left posterior fossa?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "compression of left cerebellar hemisphere",
+        "claim_text": "On axial CT, the collection compresses the left cerebellar hemisphere.",
+        "presence_question": "Does the model's response discuss compression of left cerebellar hemisphere?",
+        "correctness_question": "Does the model's response correctly assert that On axial CT, the collection compresses the left cerebellar hemisphere?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "hyperdense collection on axial CT",
+        "claim_text": "The collection is hyperdense on axial CT images.",
+        "presence_question": "Does the model's response discuss hyperdense collection on axial CT?",
+        "correctness_question": "Does the model's response correctly assert that The collection is hyperdense on axial CT images?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "epidural hematoma CT appearance",
+        "claim_text": "Epidural hematoma typically appears on CT as a localized, lens-shaped (lentiform) extra-axial hyperdensity abutting the skull.",
+        "presence_question": "Does the model's response discuss epidural hematoma CT appearance?",
+        "correctness_question": "Does the model's response correctly state that Epidural hematoma typically appears on CT as a localized, lens-shaped (lentiform) extra-axial hyperdensity abutting the skull?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "extra-axial lesion location",
+        "claim_text": "An extra-axial lesion is located adjacent to the inner table of the skull rather than within the brain parenchyma.",
+        "presence_question": "Does the model's response discuss extra-axial lesion location?",
+        "correctness_question": "Does the model's response correctly state that An extra-axial lesion is located adjacent to the inner table of the skull rather than within the brain parenchyma?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Imaging supports epidural hematoma diagnosis",
+        "claim_text": "The imaging findings of a left posterior fossa, localized, lens-shaped, extra-axial hyperdense collection abutting the inner table and producing focal compression of the cerebellar hemisphere support that an epidural hematoma is likely in this case.",
+        "presence_question": "Does the model's response make an inferential link about Imaging supports epidural hematoma diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings of a left posterior fossa, localized, lens-shaped, extra-axial hyperdense collection abutting the inner table and producing focal compression of the cerebellar hemisphere support that an epidural hematoma is likely in this case.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

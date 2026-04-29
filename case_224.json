@@ -27,5 +27,128 @@
   "caption": "EUS: Thickening of duodenal folds of inflammatory aspect and cystic areas inside the duodenal wall. EUS = Endoscopic ultrasound",
   "sub_caption": "EUS: Thickening of duodenal folds of inflammatory aspect and cystic areas inside the duodenal wall. EUS = Endoscopic ultrasound",
   "image_context": "In view of the diagnostic doubts, a EUS was requested, evidencing atrophic pancreas with heterogeneous lobular parenchyma suggestive of chronic pancreatitis and edema thickening of the duodenal wall, with loss of layer stratification and the presence of multiple cystic areas inside, all of them less than 2cm, suggestive of CDDW [<xref ref-type=\"fig\" rid=\"EUS-6-61-g003\">Figure 3</xref>].].",
-  "relevant_image_context": "In view of the diagnostic doubts, a EUS was requested, evidencing atrophic pancreas with heterogeneous lobular parenchyma suggestive of chronic pancreatitis and edema thickening of the duodenal wall, with loss of layer stratification and the presence of multiple cystic areas inside, all of them less than 2cm, suggestive of CDDW [Figure 3]."
+  "relevant_image_context": "In view of the diagnostic doubts, a EUS was requested, evidencing atrophic pancreas with heterogeneous lobular parenchyma suggestive of chronic pancreatitis and edema thickening of the duodenal wall, with loss of layer stratification and the presence of multiple cystic areas inside, all of them less than 2cm, suggestive of CDDW [Figure 3].",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_43_16-PMC5331846-9-EUS-6-61-g003.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_43_16-PMC5331846-9-EUS-6-61-g003.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "echogenic ring",
+        "claim_text": "An echogenic ring is present within the image and is clearly visible on the scan.",
+        "presence_question": "Does the model's response discuss echogenic ring?",
+        "correctness_question": "Does the model's response correctly assert that An echogenic ring is present within the image and is clearly visible on the scan?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "central anechoic circle",
+        "claim_text": "A central anechoic circle is present within the image and is visible on the ultrasound.",
+        "presence_question": "Does the model's response discuss central anechoic circle?",
+        "correctness_question": "Does the model's response correctly assert that A central anechoic circle is present within the image and is visible on the ultrasound?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "round area in duodenal region",
+        "claim_text": "The round area indicated by the arrow in the duodenal region is anechoic on the image.",
+        "presence_question": "Does the model's response discuss round area in duodenal region?",
+        "correctness_question": "Does the model's response correctly assert that The round area indicated by the arrow in the duodenal region is anechoic on the image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "shape of round duodenal area",
+        "claim_text": "The round area indicated by the arrow in the duodenal region has a round shape.",
+        "presence_question": "Does the model's response discuss shape of round duodenal area?",
+        "correctness_question": "Does the model's response correctly assert that The round area indicated by the arrow in the duodenal region has a round shape?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "thin surrounding wall",
+        "claim_text": "The round area indicated by the arrow in the duodenal region is surrounded by a thin wall.",
+        "presence_question": "Does the model's response discuss thin surrounding wall?",
+        "correctness_question": "Does the model's response correctly assert that The round area indicated by the arrow in the duodenal region is surrounded by a thin wall?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "well-defined appearance",
+        "claim_text": "The round area indicated by the arrow in the duodenal region appears well-defined on the image.",
+        "presence_question": "Does the model's response discuss well-defined appearance?",
+        "correctness_question": "Does the model's response correctly assert that The round area indicated by the arrow in the duodenal region appears well-defined on the image?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "adjacency to duodenal lumen",
+        "claim_text": "The round area indicated by the arrow is adjacent to the duodenal lumen.",
+        "presence_question": "Does the model's response discuss adjacency to duodenal lumen?",
+        "correctness_question": "Does the model's response correctly assert that The round area indicated by the arrow is adjacent to the duodenal lumen?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "location in duodenal wall",
+        "claim_text": "The round area indicated by the arrow is located within the duodenal wall adjacent to the lumen.",
+        "presence_question": "Does the model's response discuss location in duodenal wall?",
+        "correctness_question": "Does the model's response correctly assert that The round area indicated by the arrow is located within the duodenal wall adjacent to the lumen?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "number of round areas",
+        "claim_text": "There is a single round area indicated by the arrow in the duodenal region.",
+        "presence_question": "Does the model's response discuss number of round areas?",
+        "correctness_question": "Does the model's response correctly assert that There is a single round area indicated by the arrow in the duodenal region?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "endoscopic ultrasound transducer appearance",
+        "claim_text": "An endoscopic ultrasound transducer typically appears on ultrasound as an echogenic ring with a central anechoic circle.",
+        "presence_question": "Does the model's response discuss endoscopic ultrasound transducer appearance?",
+        "correctness_question": "Does the model's response correctly state that An endoscopic ultrasound transducer typically appears on ultrasound as an echogenic ring with a central anechoic circle.?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "ultrasound cystic structure appearance",
+        "claim_text": "Cystic structures on ultrasound typically appear anechoic, round, and thin-walled.",
+        "presence_question": "Does the model's response discuss ultrasound cystic structure appearance?",
+        "correctness_question": "Does the model's response correctly state that Cystic structures on ultrasound typically appear anechoic, round, and thin-walled.?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Cystic duodenal wall lesion",
+        "claim_text": "Supports that the well-defined, anechoic, round lesion with a thin wall abutting the lumen represents a cystic structure in the duodenal wall in this case.",
+        "presence_question": "Does the model's response make an inferential link about Cystic duodenal wall lesion?",
+        "correctness_question": "Does the model's response correctly conclude that Supports that the well-defined, anechoic, round lesion with a thin wall abutting the lumen represents a cystic structure in the duodenal wall in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p7",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "EUS transducer and lumen identification",
+        "claim_text": "Supports that the observed echogenic ring with a central anechoic circle corresponds to the endoscopic ultrasound transducer and that the central anechoic circle corresponds to the duodenal lumen in this image.",
+        "presence_question": "Does the model's response make an inferential link about EUS transducer and lumen identification?",
+        "correctness_question": "Does the model's response correctly conclude that Supports that the observed echogenic ring with a central anechoic circle corresponds to the endoscopic ultrasound transducer and that the central anechoic circle corresponds to the duodenal lumen in this image.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

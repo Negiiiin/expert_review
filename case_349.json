@@ -30,5 +30,105 @@
   "caption": "Computed tomography images (coronal and sagital cut) showing the abdominal cystic mass mimicking a hydatid cyst of the abdomen.",
   "sub_caption": "Computed tomography images (coronal and sagital cut) showing the abdominal cystic mass mimicking a hydatid cyst of the abdomen.",
   "image_context": "A 41 years old male patient, with no significant pathological history consulting the emergencies for Acute abdominal pain with a giant abdominal mass evolving for 04 months on clinical examination: dehydrated patient, with skin nodes: NF I, and ophthalmoscopic fundus examination confirmed typical lisch nodules; the biological check-up was completely normal the computed tomography objectified a cystic mass 13.9 * 16.5 cm, sticking nose into the aorta with no encroachment likely A hydatid peritoneal cyst (<xref rid=\"gr5\" ref-type=\"fig\">Fig. 6</xref>). At that stage no vital emergency was detected and the patient was scheduled for a midline laparotomy 2 days after being prepped and hydrated with isotonic saline solution. The open laparotomy discovered a giant cystic mass adherent to the small intestine and to the bladder with medium abundance ascites with no peritoneal nodules (). At that stage no vital emergency was detected and the patient was scheduled for a midline laparotomy 2 days after being prepped and hydrated with isotonic saline solution. The open laparotomy discovered a giant cystic mass adherent to the small intestine and to the bladder with medium abundance ascites with no peritoneal nodules (<xref rid=\"gr6\" ref-type=\"fig\">Fig. 7</xref>, , <xref rid=\"gr7\" ref-type=\"fig\">Fig. 8</xref>). The complete Resection of the mass with the intestinal bowl invaded using a linear cutter with 3D staples (NTLC © Ethicon) was done but tricky when we had to dissect it from the bladder and the Aorta with no iatrogenic lesions. The histopathology study finds a GIST of 18 cm with high metastatic risk according to the classification of Miettinen (). The complete Resection of the mass with the intestinal bowl invaded using a linear cutter with 3D staples (NTLC © Ethicon) was done but tricky when we had to dissect it from the bladder and the Aorta with no iatrogenic lesions. The histopathology study finds a GIST of 18 cm with high metastatic risk according to the classification of Miettinen (<xref rid=\"gr8\" ref-type=\"fig\">Fig. 9</xref>). The patient undergoing an adjuvant imatinib therapy, at 08 months follow up with no signs of recurrence.). The patient undergoing an adjuvant imatinib therapy, at 08 months follow up with no signs of recurrence.Fig. 6Computed tomography images (coronal and sagital cut) showing the abdominal cystic mass mimicking a hydatid cyst of the abdomen.Fig. 6Fig. 7Preoperative image showing the first look at the cystic tumor after the open abdomen.Fig. 7Fig. 8Specimen after complete resection of the cystic mass.Fig. 8Fig. 9Microscopic images of the histological and immunohistochemistry study of the cystic mass showing its real origin: A stromal tumor of the small intestine.Fig. 9",
-  "relevant_image_context": "A 41 years old male patient, with no significant pathological history consulting the emergencies for Acute abdominal pain with a giant abdominal mass evolving for 04 months on clinical examination: dehydrated patient, with skin nodes: NF I, and ophthalmoscopic fundus examination confirmed typical lisch nodules; the biological check-up was completely normal the computed tomography objectified a cystic mass 13.9 * 16.5 cm, sticking nose into the aorta with no encroachment likely A hydatid peritoneal cyst. At that stage no vital emergency was detected and the patient was scheduled for a midline laparotomy 2 days after being prepped and hydrated with isotonic saline solution. The open laparotomy discovered a giant cystic mass adherent to the small intestine and to the bladder with medium abundance ascites with no peritoneal nodules. The complete Resection of the mass with the intestinal bowl invaded using a linear cutter with 3D staples (NTLC © Ethicon) was done but tricky when we had to dissect it from the bladder and the Aorta with no iatrogenic lesions."
+  "relevant_image_context": "A 41 years old male patient, with no significant pathological history consulting the emergencies for Acute abdominal pain with a giant abdominal mass evolving for 04 months on clinical examination: dehydrated patient, with skin nodes: NF I, and ophthalmoscopic fundus examination confirmed typical lisch nodules; the biological check-up was completely normal the computed tomography objectified a cystic mass 13.9 * 16.5 cm, sticking nose into the aorta with no encroachment likely A hydatid peritoneal cyst. At that stage no vital emergency was detected and the patient was scheduled for a midline laparotomy 2 days after being prepped and hydrated with isotonic saline solution. The open laparotomy discovered a giant cystic mass adherent to the small intestine and to the bladder with medium abundance ascites with no peritoneal nodules. The complete Resection of the mass with the intestinal bowl invaded using a linear cutter with 3D staples (NTLC © Ethicon) was done but tricky when we had to dissect it from the bladder and the Aorta with no iatrogenic lesions.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_84_10-PMC7559553-1-gr5.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_84_10-PMC7559553-1-gr5.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "abdominal cystic mass",
+        "claim_text": "A cystic-appearing mass is present in the abdomen on sagittal CT.",
+        "presence_question": "Does the model's response discuss abdominal cystic mass?",
+        "correctness_question": "Does the model's response correctly assert that A cystic-appearing mass is present in the abdomen on sagittal CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "cystic appearance of abdominal mass",
+        "claim_text": "The abdominal mass has a cystic appearance on sagittal CT.",
+        "presence_question": "Does the model's response discuss cystic appearance of abdominal mass?",
+        "correctness_question": "Does the model's response correctly assert that The abdominal mass has a cystic appearance on sagittal CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "large abdominal mass",
+        "claim_text": "A large mass is present in the abdomen on sagittal CT.",
+        "presence_question": "Does the model's response discuss large abdominal mass?",
+        "correctness_question": "Does the model's response correctly assert that A large mass is present in the abdomen on sagittal CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "cutaneous neurofibromas",
+        "claim_text": "Multiple cutaneous neurofibromas are present on the skin.",
+        "presence_question": "Does the model's response discuss cutaneous neurofibromas?",
+        "correctness_question": "Does the model's response correctly assert that Multiple cutaneous neurofibromas are present on the skin?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "iris Lisch nodules",
+        "claim_text": "Iris Lisch nodules are present in the iris.",
+        "presence_question": "Does the model's response discuss iris Lisch nodules?",
+        "correctness_question": "Does the model's response correctly assert that Iris Lisch nodules are present in the iris?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "autosomal dominant disorder",
+        "claim_text": "An autosomal dominant disorder is one in which a single mutated allele in an affected parent can be passed to offspring.",
+        "presence_question": "Does the model's response discuss autosomal dominant disorder?",
+        "correctness_question": "Does the model's response correctly state that An autosomal dominant disorder is one in which a single mutated allele in an affected parent can be passed to offspring?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "offspring inheritance risk",
+        "claim_text": "For an autosomal dominant mutation in one parent, each pregnancy has approximately a one-half (50%) risk of transmitting the mutation to the offspring.",
+        "presence_question": "Does the model's response discuss offspring inheritance risk?",
+        "correctness_question": "Does the model's response correctly state that For an autosomal dominant mutation in one parent, each pregnancy has approximately a one-half (50%) risk of transmitting the mutation to the offspring?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "cutaneous neurofibromas and Lisch nodules",
+        "claim_text": "Multiple cutaneous neurofibromas and iris Lisch nodules are findings consistent with an autosomal dominant neurocutaneous disorder such as neurofibromatosis.",
+        "presence_question": "Does the model's response discuss cutaneous neurofibromas and Lisch nodules?",
+        "correctness_question": "Does the model's response correctly state that Multiple cutaneous neurofibromas and iris Lisch nodules are findings consistent with an autosomal dominant neurocutaneous disorder such as neurofibromatosis?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Autosomal dominant neurocutaneous disorder diagnosis",
+        "claim_text": "The presence of multiple cutaneous neurofibromas and iris Lisch nodules in this patient supports that the patient has an autosomal dominant neurocutaneous disorder.",
+        "presence_question": "Does the model's response make an inferential link about Autosomal dominant neurocutaneous disorder diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of multiple cutaneous neurofibromas and iris Lisch nodules in this patient supports that the patient has an autosomal dominant neurocutaneous disorder?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Autosomal dominant transmission risk",
+        "claim_text": "If the patient is affected by an autosomal dominant disorder, that implies that each biological child has approximately a 50% chance of inheriting the causative mutation.",
+        "presence_question": "Does the model's response make an inferential link about Autosomal dominant transmission risk?",
+        "correctness_question": "Does the model's response correctly conclude that If the patient is affected by an autosomal dominant disorder, that implies that each biological child has approximately a 50% chance of inheriting the causative mutation?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -27,5 +27,102 @@
   "caption": "A Identify and draw the safety triangle. Note both convex and linear probes are present. B, C Use a low-frequency US transducer (convex or phased array probe) to identify the best puncture site. The best puncture site is where the operator can visualise each anatomical structures (i.e., diaphragm, pleural, organs) and can measure the maximum distance between visceral and parietal pleural (increasing the safety margin). The probe should be used in the transverse position between two ribs. The probe marker is facing the patient’s head (on the right of the screen). D At the end-expiration (high-frequency US transducer) diaphragm reaches the most cranial position. E At the end inspiration (high-frequency US transducer) lung reaches the most caudal position. F A high-frequency US transducer (linear probe) should be used in the transverse position, between two ribs to understand the upper and lower border of the needle insertion area. The probe marker is facing the patient’s head (on the right of the screen). The operator designs the course of the needle within the expected insertion area",
   "sub_caption": "B, C Use a low-frequency US transducer (convex or phased array probe) to identify the best puncture site. The best puncture site is where the operator can visualise each anatomical structures (i.e., diaphragm, pleural, organs) and can measure the maximum distance between visceral and parietal pleural (increasing the safety margin). The probe should be used in the transverse position between two ribs. The probe marker is facing the patient’s head (on the right of the screen).",
   "image_context": "Identify the best site for the puncture. Use a low-frequency (3.5–5 MHz) ultrasound transducer (convex or phased array probe) to identify the best puncture site evaluating these following steps. The probe should be used in the transverse position between two ribs (Fig. <xref rid=\"13089_2018_98_Fig3_HTML\" ref-type=\"fig\">3</xref>, Additional file , Additional file 2: Video S2):Fig. 3A Identify and draw the safety triangle. Note both convex and linear probes are present. B, C Use a low-frequency US transducer (convex or phased array probe) to identify the best puncture site. The best puncture site is where the operator can visualise each anatomical structures (i.e., diaphragm, pleural, organs) and can measure the maximum distance between visceral and parietal pleural (increasing the safety margin). The probe should be used in the transverse position between two ribs. The probe marker is facing the patient’s head (on the right of the screen). D At the end-expiration (high-frequency US transducer) diaphragm reaches the most cranial position. E At the end inspiration (high-frequency US transducer) lung reaches the most caudal position. F A high-frequency US transducer (linear probe) should be used in the transverse position, between two ribs to understand the upper and lower border of the needle insertion area. The probe marker is facing the patient’s head (on the right of the screen). The operator designs the course of the needle within the expected insertion area\nI.Diaphragm. The position of the diaphragm should always be marked at end-expiration when it is the most cranial in position;II.Organs. Subdiaphragmatic (liver, spleen, kidneys) and over-diaphragmatic (visceral and parietal pleura, heart, lungs);III.Maximum distance between visceral and parietal pleura. This increases the safety margin;IV.Shift to the high-frequency (7–15 MHz) ultrasound transducer (linear probe). The probe should be used in the transverse position between two ribs to identify the upper and lower borders of the needle insertion area. The puncture site and the needle trajectory must be carefully designed (Fig. <xref rid=\"13089_2018_98_Fig3_HTML\" ref-type=\"fig\">3</xref>), with particular attention to the depth required to reach the pleural fluid and avoid lung injuries. In morbidly obese with limited rib palpation, linear probe can also be used to help to be perpendicular and over the upper rib edge with great safety.), with particular attention to the depth required to reach the pleural fluid and avoid lung injuries. In morbidly obese with limited rib palpation, linear probe can also be used to help to be perpendicular and over the upper rib edge with great safety.V.Intercostal artery.",
-  "relevant_image_context": "B, C Use a low-frequency US transducer (convex or phased array probe) to identify the best puncture site. The best puncture site is where the operator can visualise each anatomical structures (i.e., diaphragm, pleural, organs) and can measure the maximum distance between visceral and parietal pleural (increasing the safety margin). The probe should be used in the transverse position between two ribs. The probe marker is facing the patient’s head (on the right of the screen)."
+  "relevant_image_context": "B, C Use a low-frequency US transducer (convex or phased array probe) to identify the best puncture site. The best puncture site is where the operator can visualise each anatomical structures (i.e., diaphragm, pleural, organs) and can measure the maximum distance between visceral and parietal pleural (increasing the safety margin). The probe should be used in the transverse position between two ribs. The probe marker is facing the patient’s head (on the right of the screen).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_4_filelist_commercial_batch_56_71-PMC6068051-4-13089_2018_98_Fig3_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_56_71-PMC6068051-4-13089_2018_98_Fig3_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "diaphragm appearance",
+        "claim_text": "The diaphragm appears as an echogenic curvilinear line on the image.",
+        "presence_question": "Does the model's response discuss diaphragm appearance?",
+        "correctness_question": "Does the model's response correctly assert that the diaphragm appears as an echogenic curvilinear line on the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "pleural and visceral lung position",
+        "claim_text": "Pleural and visceral lung structures are located cranial to the diaphragm.",
+        "presence_question": "Does the model's response discuss pleural and visceral lung position?",
+        "correctness_question": "Does the model's response correctly assert that pleural and visceral lung structures are located cranial to the diaphragm?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "subdiaphragmatic solid organ location",
+        "claim_text": "A solid organ is immediately caudal to the diaphragm at the planned puncture site.",
+        "presence_question": "Does the model's response discuss subdiaphragmatic solid organ location?",
+        "correctness_question": "Does the model's response correctly assert that a solid organ is immediately caudal to the diaphragm at the planned puncture site?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "solid organ appearance",
+        "claim_text": "The subdiaphragmatic solid organ has a relatively homogeneous appearance.",
+        "presence_question": "Does the model's response discuss solid organ appearance?",
+        "correctness_question": "Does the model's response correctly assert that the subdiaphragmatic solid organ has a relatively homogeneous appearance?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "subdiaphragmatic organ size",
+        "claim_text": "The subdiaphragmatic solid organ appears large in size on the image.",
+        "presence_question": "Does the model's response discuss subdiaphragmatic organ size?",
+        "correctness_question": "Does the model's response correctly assert that the subdiaphragmatic solid organ appears large in size on the image?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "image orientation",
+        "claim_text": "The image is a transverse intercostal view with the probe marker directed toward the head.",
+        "presence_question": "Does the model's response discuss image orientation?",
+        "correctness_question": "Does the model's response correctly assert that the image is a transverse intercostal view with the probe marker directed toward the head?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "liver",
+        "claim_text": "The liver is a large homogeneous solid organ located beneath the diaphragm.",
+        "presence_question": "Does the model's response discuss liver?",
+        "correctness_question": "Does the model's response correctly state that The liver is a large homogeneous solid organ located beneath the diaphragm.?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "pleural and visceral lung structures",
+        "claim_text": "Pleural and visceral lung structures are located cranial to the diaphragm.",
+        "presence_question": "Does the model's response discuss pleural and visceral lung structures?",
+        "correctness_question": "Does the model's response correctly state that Pleural and visceral lung structures are located cranial to the diaphragm.?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Liver identification from imaging",
+        "claim_text": "The observed large, relatively homogeneous solid organ immediately caudal to the diaphragm supports identifying it as the liver in this case.",
+        "presence_question": "Does the model's response make an inferential link about Liver identification from imaging?",
+        "correctness_question": "Does the model's response correctly conclude that The observed large, relatively homogeneous solid organ immediately caudal to the diaphragm supports identifying it as the liver in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Needle puncture risk to liver",
+        "claim_text": "Because the liver lies immediately beneath the diaphragm at the planned puncture site, a needle trajectory that passes below the diaphragm would likely puncture the liver and thus increase the risk of liver injury.",
+        "presence_question": "Does the model's response make an inferential link about Needle puncture risk to liver?",
+        "correctness_question": "Does the model's response correctly conclude that Because the liver lies immediately beneath the diaphragm at the planned puncture site, a needle trajectory that passes below the diaphragm would likely puncture the liver and thus increase the risk of liver injury?",
+        "premise_perception_ids": [
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

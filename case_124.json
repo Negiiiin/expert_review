@@ -28,5 +28,211 @@
   "caption": "Transient synovitis; hypoechoic effusion without hyperaemia.",
   "sub_caption": "Transient synovitis; hypoechoic effusion without hyperaemia.",
   "image_context": "Irritable hip or transient synovitis (TS) is the most common cause of hip pain in the paediatric patient\n6\n. TS (<xref rid=\"AJUM-13-23-g009\" ref-type=\"fig\">Fig. 7</xref>) and reactive arthritis () and reactive arthritis (<xref rid=\"AJUM-13-23-g010\" ref-type=\"fig\">Figs. 8a</xref>, , <xref rid=\"AJUM-13-23-g011\" ref-type=\"fig\">8b</xref>) are both benign, self limiting conditions. The temperature is usually normal or slightly raised, white cell count (WCC) and erythrocyte sedimentation rate (ESR) are normal or close to normal. Treatment is rest and analgesia. The addition of an anti‐inflammatory may speed recovery) are both benign, self limiting conditions. The temperature is usually normal or slightly raised, white cell count (WCC) and erythrocyte sedimentation rate (ESR) are normal or close to normal. Treatment is rest and analgesia. The addition of an anti‐inflammatory may speed recovery\n7\n. Usually these conditions follow a recent viral illness in particular an upper respiratory tract infection (URTI)\n6\n.",
-  "relevant_image_context": "Irritable hip or transient synovitis (TS) is the most common cause of hip pain in the paediatric patient. TS is a benign, self-limiting condition; the temperature is usually normal or slightly raised, white cell count (WCC) and erythrocyte sedimentation rate (ESR) are normal or close to normal. Usually these conditions follow a recent viral illness, in particular an upper respiratory tract infection (URTI)."
+  "relevant_image_context": "Irritable hip or transient synovitis (TS) is the most common cause of hip pain in the paediatric patient. TS is a benign, self-limiting condition; the temperature is usually normal or slightly raised, white cell count (WCC) and erythrocyte sedimentation rate (ESR) are normal or close to normal. Usually these conditions follow a recent viral illness, in particular an upper respiratory tract infection (URTI).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_46_12-PMC5024870-16-AJUM-13-23-g009.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_46_12-PMC5024870-16-AJUM-13-23-g009.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Left hip",
+        "claim_text": "The imaging demonstrates the presence of the left hip.",
+        "presence_question": "Does the model's response discuss Left hip?",
+        "correctness_question": "Does the model's response correctly assert that The imaging demonstrates the presence of the left hip?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Anterior joint recess fluid collection",
+        "claim_text": "There is a fluid collection in the left anterior joint recess.",
+        "presence_question": "Does the model's response discuss Anterior joint recess fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that There is a fluid collection in the left anterior joint recess?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Crescent-shaped collection",
+        "claim_text": "The fluid collection in the left anterior joint recess is crescent-shaped.",
+        "presence_question": "Does the model's response discuss Crescent-shaped collection?",
+        "correctness_question": "Does the model's response correctly assert that The fluid collection in the left anterior joint recess is crescent-shaped?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Anechoic or hypoechoic fluid appearance",
+        "claim_text": "The fluid collection in the left anterior joint recess appears anechoic or hypoechoic.",
+        "presence_question": "Does the model's response discuss Anechoic or hypoechoic fluid appearance?",
+        "correctness_question": "Does the model's response correctly assert that The fluid collection in the left anterior joint recess appears anechoic or hypoechoic?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Location of fluid collection",
+        "claim_text": "The fluid collection is located in the left anterior joint recess.",
+        "presence_question": "Does the model's response discuss Location of fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that The fluid collection is located in the left anterior joint recess?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Peri-capsular Doppler dots",
+        "claim_text": "Two color Doppler dots are present in the left peri-capsular region.",
+        "presence_question": "Does the model's response discuss Peri-capsular Doppler dots?",
+        "correctness_question": "Does the model's response correctly assert that Two color Doppler dots are present in the left peri-capsular region?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Doppler adjacent to capsule",
+        "claim_text": "The color Doppler dots are adjacent to the left joint capsule.",
+        "presence_question": "Does the model's response discuss Doppler adjacent to capsule?",
+        "correctness_question": "Does the model's response correctly assert that The color Doppler dots are adjacent to the left joint capsule?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Left synovial hyperaemia",
+        "claim_text": "There is no diffuse or prominent hyperaemia of the left synovium.",
+        "presence_question": "Does the model's response discuss Left synovial hyperaemia?",
+        "correctness_question": "Does the model's response correctly assert that There is no diffuse or prominent hyperaemia of the left synovium?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Simple fluid appearance",
+        "claim_text": "The fluid collection in the left anterior joint recess has a simple appearance.",
+        "presence_question": "Does the model's response discuss Simple fluid appearance?",
+        "correctness_question": "Does the model's response correctly assert that The fluid collection in the left anterior joint recess has a simple appearance?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "Acute left hip pain",
+        "claim_text": "The patient has acute pain in the left hip.",
+        "presence_question": "Does the model's response discuss Acute left hip pain?",
+        "correctness_question": "Does the model's response correctly assert that The patient has acute pain in the left hip?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "Recent upper respiratory infection",
+        "claim_text": "The patient had a recent upper respiratory infection.",
+        "presence_question": "Does the model's response discuss Recent upper respiratory infection?",
+        "correctness_question": "Does the model's response correctly assert that The patient had a recent upper respiratory infection?"
+      },
+      {
+        "claim_id": "p13",
+        "topic": "Normal temperature (afebrile)",
+        "claim_text": "The patient's temperature is normal and they are afebrile.",
+        "presence_question": "Does the model's response discuss Normal temperature (afebrile)?",
+        "correctness_question": "Does the model's response correctly assert that The patient's temperature is normal and they are afebrile?"
+      },
+      {
+        "claim_id": "p14",
+        "topic": "White cell count",
+        "claim_text": "The white cell count is within normal limits.",
+        "presence_question": "Does the model's response discuss White cell count?",
+        "correctness_question": "Does the model's response correctly assert that The white cell count is within normal limits?"
+      },
+      {
+        "claim_id": "p15",
+        "topic": "Erythrocyte sedimentation rate",
+        "claim_text": "The erythrocyte sedimentation rate is within normal limits.",
+        "presence_question": "Does the model's response discuss Erythrocyte sedimentation rate?",
+        "correctness_question": "Does the model's response correctly assert that The erythrocyte sedimentation rate is within normal limits?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "hip joint effusion on ultrasound",
+        "claim_text": "A crescent-shaped anechoic fluid collection in the anterior joint recess on hip ultrasound indicates a hip joint effusion.",
+        "presence_question": "Does the model's response discuss hip joint effusion on ultrasound?",
+        "correctness_question": "Does the model's response correctly state that A crescent-shaped anechoic fluid collection in the anterior joint recess on hip ultrasound indicates a hip joint effusion?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "synovial Doppler hyperaemia",
+        "claim_text": "Diffuse or prominent Doppler hyperaemia within the synovium suggests septic or inflammatory arthritis.",
+        "presence_question": "Does the model's response discuss synovial Doppler hyperaemia?",
+        "correctness_question": "Does the model's response correctly state that Diffuse or prominent Doppler hyperaemia within the synovium suggests septic or inflammatory arthritis?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "normal temperature and inflammatory markers",
+        "claim_text": "Normal temperature and normal inflammatory markers (white cell count and ESR) suggest a lower likelihood of septic arthritis and support benign or transient synovitis.",
+        "presence_question": "Does the model's response discuss normal temperature and inflammatory markers?",
+        "correctness_question": "Does the model's response correctly state that Normal temperature and normal inflammatory markers (white cell count and ESR) suggest a lower likelihood of septic arthritis and support benign or transient synovitis?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "transient synovitis prognosis",
+        "claim_text": "Transient (benign) synovitis is typically self-limiting with expected full recovery.",
+        "presence_question": "Does the model's response discuss transient synovitis prognosis?",
+        "correctness_question": "Does the model's response correctly state that Transient (benign) synovitis is typically self-limiting with expected full recovery?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Hip joint effusion inference",
+        "claim_text": "The ultrasound finding of a crescent-shaped anechoic fluid collection in the anterior joint recess supports that this represents a hip joint effusion in this case.",
+        "presence_question": "Does the model's response make an inferential link about Hip joint effusion inference?",
+        "correctness_question": "Does the model's response correctly conclude that The ultrasound finding of a crescent-shaped anechoic fluid collection in the anterior joint recess supports that this represents a hip joint effusion in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Doppler argues against septic arthritis",
+        "claim_text": "The absence of diffuse or prominent synovial hyperaemia on Doppler and only a couple of small Doppler dots near the capsule argue against septic arthritis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Doppler argues against septic arthritis?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of diffuse or prominent synovial hyperaemia on Doppler and only a couple of small Doppler dots near the capsule argue against septic arthritis in this case?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Findings support transient synovitis",
+        "claim_text": "The combination of a simple anechoic effusion with minimal Doppler signal together with the patient's normal temperature and normal WCC/ESR supports a diagnosis of benign, self-limiting (transient) synovitis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Findings support transient synovitis?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a simple anechoic effusion with minimal Doppler signal together with the patient's normal temperature and normal WCC/ESR supports a diagnosis of benign, self-limiting (transient) synovitis in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p4",
+          "p6",
+          "p9",
+          "p12",
+          "p13",
+          "p14",
+          "p15"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Transient synovitis implies full recovery",
+        "claim_text": "Given that transient synovitis is typically self-limiting, a diagnosis of transient synovitis in this case implies an expected full recovery.",
+        "presence_question": "Does the model's response make an inferential link about Transient synovitis implies full recovery?",
+        "correctness_question": "Does the model's response correctly conclude that Given that transient synovitis is typically self-limiting, a diagnosis of transient synovitis in this case implies an expected full recovery?",
+        "premise_perception_ids": [
+          "p11",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

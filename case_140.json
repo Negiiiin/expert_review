@@ -27,5 +27,143 @@
   "caption": "Enlarged kidney from a patient with autosomal dominant polycystic kidney disease (ADPKD). Multiple cysts, grossly varying in size, have massively destructed the renal parenchyma",
   "sub_caption": "Enlarged kidney from a patient with autosomal dominant polycystic kidney disease (ADPKD). Multiple cysts, grossly varying in size, have massively destructed the renal parenchyma.",
   "image_context": "Renal cysts can vary considerably in size and appearance arising from all segments of the nephron (Fig. <xref rid=\"431_2011_1553_Fig2_HTML\" ref-type=\"fig\">2</xref>). Usually, they show progressive enlargement and may become disconnected from the tubular space. The Consortium for Radiologic Imaging for the Study of Polycystic Kidney Disease recently showed that renal enlargement in ADPKD mimicked exponential growth. Over a 3-year period among more than 200 patients, the renal volume increased by a mean of 63.4 ml (5.3%) per year resulting from the expansion of cysts in a continuous process associated with the decline of renal function. While this leads to progressive destruction of the adjacent renal parenchyma and massive enlargement of the kidneys, renal function can long be preserved as functioning nephrons undergo compensatory hypertrophy [). Usually, they show progressive enlargement and may become disconnected from the tubular space. The Consortium for Radiologic Imaging for the Study of Polycystic Kidney Disease recently showed that renal enlargement in ADPKD mimicked exponential growth. Over a 3-year period among more than 200 patients, the renal volume increased by a mean of 63.4 ml (5.3%) per year resulting from the expansion of cysts in a continuous process associated with the decline of renal function. While this leads to progressive destruction of the adjacent renal parenchyma and massive enlargement of the kidneys, renal function can long be preserved as functioning nephrons undergo compensatory hypertrophy [27]. Chronic renal failure presents in about 50% of patients by the age of 60 years [21]. PKD2 is usually significantly milder than PKD1 with a lower prevalence of arterial hypertension and urinary tract infections [39]. Patients with PKD1 develop end-stage renal disease (ESRD) approximately 20 years earlier than patients with PKD2, with a median age of onset of ESRD at 54.3 and 74.0 years, respectively [33]. The greater severity of PKD1 is due to the development of more cysts at an early age, not to faster cyst growth [30].Fig. 2Enlarged kidney from a patient with autosomal dominant polycystic kidney disease (ADPKD). Multiple cysts, grossly varying in size, have massively destructed the renal parenchyma",
-  "relevant_image_context": "Fig. 2 Enlarged kidney from a patient with autosomal dominant polycystic kidney disease (ADPKD). Multiple cysts, grossly varying in size, have massively destructed the renal parenchyma."
+  "relevant_image_context": "Fig. 2 Enlarged kidney from a patient with autosomal dominant polycystic kidney disease (ADPKD). Multiple cysts, grossly varying in size, have massively destructed the renal parenchyma.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_12_32-PMC3419833-5-431_2011_1553_Fig2_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_12_32-PMC3419833-5-431_2011_1553_Fig2_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "kidney enlargement",
+        "claim_text": "The kidney is markedly enlarged in size on imaging.",
+        "presence_question": "Does the model's response discuss kidney enlargement?",
+        "correctness_question": "Does the model's response correctly assert that The kidney is markedly enlarged in size on imaging.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "multiple rounded renal cysts",
+        "claim_text": "The kidney contains many rounded cysts throughout its parenchyma on imaging.",
+        "presence_question": "Does the model's response discuss multiple rounded renal cysts?",
+        "correctness_question": "Does the model's response correctly assert that The kidney contains many rounded cysts throughout its parenchyma on imaging.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "fluid-filled cysts",
+        "claim_text": "The cysts appear fluid-filled on imaging, consistent with simple cysts.",
+        "presence_question": "Does the model's response discuss fluid-filled cysts?",
+        "correctness_question": "Does the model's response correctly assert that The cysts appear fluid-filled on imaging, consistent with simple cysts.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "cyst shape (rounded)",
+        "claim_text": "The cysts are rounded in shape on imaging, suggesting typical morphology.",
+        "presence_question": "Does the model's response discuss cyst shape (rounded)?",
+        "correctness_question": "Does the model's response correctly assert that The cysts are rounded in shape on imaging, suggesting typical morphology.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "cyst size variability",
+        "claim_text": "The cysts vary in size across the kidney surface, ranging from small to large.",
+        "presence_question": "Does the model's response discuss cyst size variability?",
+        "correctness_question": "Does the model's response correctly assert that The cysts vary in size across the kidney surface, ranging from small to large.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "family history of similar kidney disease",
+        "claim_text": "Several first-degree relatives have a similar kidney disease, indicating a positive family history.",
+        "presence_question": "Does the model's response discuss family history of similar kidney disease?",
+        "correctness_question": "Does the model's response correctly assert that Several first-degree relatives have a similar kidney disease, indicating a positive family history.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "partner-reported absence of family history",
+        "claim_text": "The patient's partner reports no family history of similar kidney disease.",
+        "presence_question": "Does the model's response discuss partner-reported absence of family history?",
+        "correctness_question": "Does the model's response correctly assert that The patient's partner reports no family history of similar kidney disease.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Affected individuals in successive generations",
+        "claim_text": "Affected individuals in successive generations typically suggest dominant inheritance.",
+        "presence_question": "Does the model's response discuss Affected individuals in successive generations?",
+        "correctness_question": "Does the model's response correctly state that Affected individuals in successive generations typically suggest dominant inheritance?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Dominant inheritance",
+        "claim_text": "Dominant inheritance is characterized by transmission of a single altered gene copy from an affected parent to offspring.",
+        "presence_question": "Does the model's response discuss Dominant inheritance?",
+        "correctness_question": "Does the model's response correctly state that Dominant inheritance is characterized by transmission of a single altered gene copy from an affected parent to offspring?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Autosomal dominant transmission",
+        "claim_text": "Autosomal dominant transmission means each child has approximately a 50% chance of inheriting the variant from one affected parent.",
+        "presence_question": "Does the model's response discuss Autosomal dominant transmission?",
+        "correctness_question": "Does the model's response correctly state that Autosomal dominant transmission means each child has approximately a 50% chance of inheriting the variant from one affected parent?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Multilocular cystic replacement of the kidney",
+        "claim_text": "Multilocular cystic replacement of the kidney can be seen in inherited cystic kidney diseases.",
+        "presence_question": "Does the model's response discuss Multilocular cystic replacement of the kidney?",
+        "correctness_question": "Does the model's response correctly state that Multilocular cystic replacement of the kidney can be seen in inherited cystic kidney diseases?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Dominant inheritance inference",
+        "claim_text": "The presence of several affected first-degree relatives supports a dominant inheritance pattern in this family.",
+        "presence_question": "Does the model's response make an inferential link about Dominant inheritance inference?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of several affected first-degree relatives supports a dominant inheritance pattern in this family.?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Parent affected by cystic kidney disorder",
+        "claim_text": "The excised kidney's multilocular, fluid-filled rounded cysts are consistent with the parent being affected by a cystic kidney disorder.",
+        "presence_question": "Does the model's response make an inferential link about Parent affected by cystic kidney disorder?",
+        "correctness_question": "Does the model's response correctly conclude that The excised kidney's multilocular, fluid-filled rounded cysts are consistent with the parent being affected by a cystic kidney disorder.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Child inheritance probability",
+        "claim_text": "The combination of an affected parent, a family history consistent with dominant inheritance, and a partner with no family history supports that any biologic child has about a 50% probability of inheriting the dominant pathogenic variant from the affected parent.",
+        "presence_question": "Does the model's response make an inferential link about Child inheritance probability?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of an affected parent, a family history consistent with dominant inheritance, and a partner with no family history supports that any biologic child has about a 50% probability of inheriting the dominant pathogenic variant from the affected parent.?",
+        "premise_perception_ids": [
+          "p2",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

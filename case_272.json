@@ -27,5 +27,144 @@
   "caption": "Esophagogastroduodenoscopy showing a 10 mm sessile tumor with a central depression in the duodenal bulb.",
   "sub_caption": "Esophagogastroduodenoscopy showing a 10 mm sessile tumor with a central depression in the duodenal bulb.",
   "image_context": "A 60-year-old man presented with melena and hematemesis in 1984. Esophagogastroduodenoscopy (EGD) detected a small protruding lesion in the duodenal bulb, which was diagnosed as Brunner's adenoma. Subsequent annual EGD and biopsies showed no significant changes for 10 years, after which the patient was lost to follow-up for 7 years. He again presented with melena in 2001. The lesion had changed shape to become a 10 mm sessile tumor with a central depression according to EGD (fig. <xref ref-type=\"fig\" rid=\"crg0001-0103-f01\">1</xref>) and hypotonic duodenography (fig. ) and hypotonic duodenography (fig. <xref ref-type=\"fig\" rid=\"crg0001-0103-f02\">2</xref>), and following a biopsy was diagnosed as adenocarcinoma. Laboratory test results, including those from tumor marker (CEA and CA19-9) assays, were within normal limits. The patient underwent partial resection of the duodenum.), and following a biopsy was diagnosed as adenocarcinoma. Laboratory test results, including those from tumor marker (CEA and CA19-9) assays, were within normal limits. The patient underwent partial resection of the duodenum.",
-  "relevant_image_context": "A 60-year-old man presented with melena and hematemesis in 1984. Esophagogastroduodenoscopy (EGD) detected a small protruding lesion in the duodenal bulb, which was diagnosed as Brunner's adenoma. The lesion had changed shape to become a 10 mm sessile tumor with a central depression according to EGD, and following a biopsy was diagnosed as adenocarcinoma. The patient underwent partial resection of the duodenum."
+  "relevant_image_context": "A 60-year-old man presented with melena and hematemesis in 1984. Esophagogastroduodenoscopy (EGD) detected a small protruding lesion in the duodenal bulb, which was diagnosed as Brunner's adenoma. The lesion had changed shape to become a 10 mm sessile tumor with a central depression according to EGD, and following a biopsy was diagnosed as adenocarcinoma. The patient underwent partial resection of the duodenum.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_8_17-PMC3073796-0-crg0001-0103-f01.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_8_17-PMC3073796-0-crg0001-0103-f01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "nodule on visible mucosa",
+        "claim_text": "A nodule is present on the visible mucosa.",
+        "presence_question": "Does the model's response discuss nodule on visible mucosa?",
+        "correctness_question": "Does the model's response correctly assert that A nodule is present on the visible mucosa?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "single nodule",
+        "claim_text": "There is one nodule on the visible mucosa.",
+        "presence_question": "Does the model's response discuss single nodule?",
+        "correctness_question": "Does the model's response correctly assert that There is one nodule on the visible mucosa?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "nodule shape round",
+        "claim_text": "The nodule on the visible mucosa is round.",
+        "presence_question": "Does the model's response discuss nodule shape round?",
+        "correctness_question": "Does the model's response correctly assert that The nodule on the visible mucosa is round?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "nodule raised shape",
+        "claim_text": "The nodule on the visible mucosa is raised.",
+        "presence_question": "Does the model's response discuss nodule raised shape?",
+        "correctness_question": "Does the model's response correctly assert that The nodule on the visible mucosa is raised?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "erythematous appearance",
+        "claim_text": "The nodule on the visible mucosa appears erythematous.",
+        "presence_question": "Does the model's response discuss erythematous appearance?",
+        "correctness_question": "Does the model's response correctly assert that The nodule on the visible mucosa appears erythematous?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "central field location",
+        "claim_text": "The nodule is located in the central field of view.",
+        "presence_question": "Does the model's response discuss central field location?",
+        "correctness_question": "Does the model's response correctly assert that The nodule is located in the central field of view?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "distinct nodule margin",
+        "claim_text": "The nodule has margins distinct from the surrounding mucosa.",
+        "presence_question": "Does the model's response discuss distinct nodule margin?",
+        "correctness_question": "Does the model's response correctly assert that The nodule has margins distinct from the surrounding mucosa?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "other raised nodules absent",
+        "claim_text": "No other raised nodules are present on the visible mucosa.",
+        "presence_question": "Does the model's response discuss other raised nodules absent?",
+        "correctness_question": "Does the model's response correctly assert that No other raised nodules are present on the visible mucosa?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "ulcers absent",
+        "claim_text": "No ulcers are present on the visible mucosa.",
+        "presence_question": "Does the model's response discuss ulcers absent?",
+        "correctness_question": "Does the model's response correctly assert that No ulcers are present on the visible mucosa?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "focal discolorations absent",
+        "claim_text": "No focal discolorations are present on the visible mucosa.",
+        "presence_question": "Does the model's response discuss focal discolorations absent?",
+        "correctness_question": "Does the model's response correctly assert that No focal discolorations are present on the visible mucosa?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "specular light on lesion",
+        "claim_text": "Specular light reflections are present on the lesion surface.",
+        "presence_question": "Does the model's response discuss specular light on lesion?",
+        "correctness_question": "Does the model's response correctly assert that Specular light reflections are present on the lesion surface?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Specular light reflections",
+        "claim_text": "Specular light reflections are imaging artifacts that do not represent separate lesions.",
+        "presence_question": "Does the model's response discuss Specular light reflections?",
+        "correctness_question": "Does the model's response correctly state that Specular light reflections are imaging artifacts that do not represent separate lesions?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Specular reflection artifact interpretation",
+        "claim_text": "The specular light reflections seen on the lesion surface are imaging artifacts and do not represent separate lesions in this case.",
+        "presence_question": "Does the model's response make an inferential link about Specular reflection artifact interpretation?",
+        "correctness_question": "Does the model's response correctly conclude that The specular light reflections seen on the lesion surface are imaging artifacts and do not represent separate lesions in this case?",
+        "premise_perception_ids": [
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Single discrete mucosal lesion presence",
+        "claim_text": "The observed findings support that only a single discrete focal mucosal lesion is present in the visible field in this case.",
+        "presence_question": "Does the model's response make an inferential link about Single discrete mucosal lesion presence?",
+        "correctness_question": "Does the model's response correctly conclude that The observed findings support that only a single discrete focal mucosal lesion is present in the visible field in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Well-circumscribed mucosal nodule identification",
+        "claim_text": "The lesion's round, raised shape and distinct margins support that it is a well-circumscribed mucosal nodule in this case.",
+        "presence_question": "Does the model's response make an inferential link about Well-circumscribed mucosal nodule identification?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's round, raised shape and distinct margins support that it is a well-circumscribed mucosal nodule in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p7"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

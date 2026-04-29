@@ -27,5 +27,132 @@
   "caption": "CT imaging 21 months after diagnosisImaging continues to demonstrate a large right-sided heterogeneous mass (arrow), appearing larger than that in previous studies. The mass causes marked mass effect upon and narrowing of the inferior vena cava (star, medial to arrow).",
   "sub_caption": "CT imaging 21 months after diagnosisImaging continues to demonstrate a large right-sided heterogeneous mass (arrow), appearing larger than that in previous studies. The mass causes marked mass effect upon and narrowing of the inferior vena cava (star, medial to arrow).",
   "image_context": "Six months following the doxorubicin chemoembolization treatment (21 months after diagnosis), CT was significant for a diffusely enlarged liver compared to previous scans, with the right hepatic mass appearing larger and measuring approximately 19.0 x 14.1 x 15.3 cm (Figure <xref ref-type=\"fig\" rid=\"cureus-0012-00000008163-i03\">3</xref>). Calcification in the left lobe was stable, and tumor thrombus at the bifurcation of the main portal vein was appreciated, noted to be causing mass effect and narrowing of the inferior vena cava.). Calcification in the left lobe was stable, and tumor thrombus at the bifurcation of the main portal vein was appreciated, noted to be causing mass effect and narrowing of the inferior vena cava.",
-  "relevant_image_context": "Six months following the doxorubicin chemoembolization treatment (21 months after diagnosis), CT was significant for a diffusely enlarged liver compared to previous scans, with the right hepatic mass appearing larger and measuring approximately 19.0 x 14.1 x 15.3 cm (Figure 3). Calcification in the left lobe was stable, and tumor thrombus at the bifurcation of the main portal vein was appreciated, noted to be causing mass effect and narrowing of the inferior vena cava."
+  "relevant_image_context": "Six months following the doxorubicin chemoembolization treatment (21 months after diagnosis), CT was significant for a diffusely enlarged liver compared to previous scans, with the right hepatic mass appearing larger and measuring approximately 19.0 x 14.1 x 15.3 cm (Figure 3). Calcification in the left lobe was stable, and tumor thrombus at the bifurcation of the main portal vein was appreciated, noted to be causing mass effect and narrowing of the inferior vena cava.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_80_15-PMC7296880-2-cureus-0012-00000008163-i03.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_80_15-PMC7296880-2-cureus-0012-00000008163-i03.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "right hepatic lobe mass",
+        "claim_text": "A mass is located in the right hepatic lobe on the axial CT.",
+        "presence_question": "Does the model's response discuss right hepatic lobe mass?",
+        "correctness_question": "Does the model's response correctly assert that A mass is located in the right hepatic lobe on the axial CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "single right hepatic mass",
+        "claim_text": "There is a single mass visible in the right liver on this axial CT slice.",
+        "presence_question": "Does the model's response discuss single right hepatic mass?",
+        "correctness_question": "Does the model's response correctly assert that There is a single mass visible in the right liver on this axial CT slice?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "large right hepatic mass",
+        "claim_text": "The mass in the right hepatic lobe is large on the axial CT.",
+        "presence_question": "Does the model's response discuss large right hepatic mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass in the right hepatic lobe is large on the axial CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "heterogeneous right hepatic mass",
+        "claim_text": "The mass in the right hepatic lobe has a heterogeneous appearance on axial CT.",
+        "presence_question": "Does the model's response discuss heterogeneous right hepatic mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass in the right hepatic lobe has a heterogeneous appearance on axial CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "mass distorting liver contour",
+        "claim_text": "The mass distorts the normal liver contour on the axial CT.",
+        "presence_question": "Does the model's response discuss mass distorting liver contour?",
+        "correctness_question": "Does the model's response correctly assert that The mass distorts the normal liver contour on the axial CT?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "internal attenuation variation",
+        "claim_text": "The mass shows internal variation in attenuation compared with the remainder of the liver on axial CT.",
+        "presence_question": "Does the model's response discuss internal attenuation variation?",
+        "correctness_question": "Does the model's response correctly assert that The mass shows internal variation in attenuation compared with the remainder of the liver on axial CT?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "no additional well-defined masses",
+        "claim_text": "No additional well-defined masses are identified in the left liver, spleen, or adjacent structures on this slice.",
+        "presence_question": "Does the model's response discuss no additional well-defined masses?",
+        "correctness_question": "Does the model's response correctly assert that No additional well-defined masses are identified in the left liver, spleen, or adjacent structures on this slice?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Axial CT images",
+        "claim_text": "Axial CT images are used to evaluate focal liver lesions.",
+        "presence_question": "Does the model's response discuss Axial CT images?",
+        "correctness_question": "Does the model's response correctly state that Axial CT images are used to evaluate focal liver lesions?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Distinct mass on imaging",
+        "claim_text": "A distinct mass is a separate, well-defined lesion that is distinguished from other lesions on imaging.",
+        "presence_question": "Does the model's response discuss Distinct mass on imaging?",
+        "correctness_question": "Does the model's response correctly state that a distinct mass is a separate, well-defined lesion that is distinguished from other lesions on imaging?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Heterogeneous attenuation",
+        "claim_text": "Heterogeneous attenuation refers to internal variation in attenuation compared with the surrounding liver tissue.",
+        "presence_question": "Does the model's response discuss Heterogeneous attenuation?",
+        "correctness_question": "Does the model's response correctly state that heterogeneous attenuation refers to internal variation in attenuation compared with the surrounding liver tissue?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Distinct hepatic mass count on axial slice",
+        "claim_text": "The imaging is consistent with there being only one distinct hepatic mass visible on the displayed axial CT slice.",
+        "presence_question": "Does the model's response make an inferential link about distinct hepatic mass count on axial slice?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging is consistent with there being only one distinct hepatic mass visible on the displayed axial CT slice.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Heterogeneous mass appearance on CT",
+        "claim_text": "The lesion's imaging supports that the mass has a heterogeneous appearance on CT.",
+        "presence_question": "Does the model's response make an inferential link about heterogeneous mass appearance on CT?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's imaging supports that the mass has a heterogeneous appearance on CT.?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Dominant right hepatic lesion on slice",
+        "claim_text": "The findings support that the large right hepatic lesion is the dominant visible lesion on this axial CT slice.",
+        "presence_question": "Does the model's response make an inferential link about dominant right hepatic lesion on slice?",
+        "correctness_question": "Does the model's response correctly conclude that The findings support that the large right hepatic lesion is the dominant visible lesion on this axial CT slice.?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

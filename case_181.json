@@ -27,5 +27,97 @@
   "caption": "CT scan revealing a 10 × 8 × 5 cm ill-defined heterogeneous soft tissue density mass lesion in the anterior abdominal wall involving rectus abdominis muscle, skin, and subcutaneous tissue (arrows)",
   "sub_caption": "CT scan revealing a 10 × 8 × 5 cm ill-defined heterogeneous soft tissue density mass lesion in the anterior abdominal wall involving rectus abdominis muscle, skin, and subcutaneous tissue (arrows)",
   "image_context": "A 30-year-old woman presented with a gradually increasing painful abdominal lump for the past six years. The pain was not associated with menstruation. Seven years back, she had undergone caesarean section for cephalo-pelvic disproportion. Physical examination revealed a 12 × 10 cm tender firm midline abdominal lump. The overlying skin was discoloured, with a dark brown scar. Ultrasound revealed a large firm mass lesion in the lower anterior abdominal wall in the midline extending up to the pubic region and showing hypoechoic and isoechoic components. CT scan revealed a 10 × 8 × 5 cm ill-defined heterogeneous soft tissue density mass lesion in the anterior abdominal wall, infraumbilical region predominantly epicentred at the right rectus abdominis muscle with extensions into opposite rectus muscle, skin, and subcutaneous tissue [<xref ref-type=\"fig\" rid=\"JCAS-4-141-g001\">Figure 1</xref>]. Based on the clinical and radiological findings, a desmoid tumour was considered. The mass was excised and sent for histopathological examination.]. Based on the clinical and radiological findings, a desmoid tumour was considered. The mass was excised and sent for histopathological examination.",
-  "relevant_image_context": "A 30-year-old woman presented with a gradually increasing painful abdominal lump for the past six years. The pain was not associated with menstruation. Seven years back, she had undergone caesarean section for cephalo-pelvic disproportion. Physical examination revealed a 12 × 10 cm tender firm midline abdominal lump. The overlying skin was discoloured, with a dark brown scar. Ultrasound revealed a large firm mass lesion in the lower anterior abdominal wall in the midline extending up to the pubic region and showing hypoechoic and isoechoic components. CT scan revealed a 10 × 8 × 5 cm ill-defined heterogeneous soft tissue density mass lesion in the anterior abdominal wall, infraumbilical region predominantly epicentred at the right rectus abdominis muscle with extensions into opposite rectus muscle, skin, and subcutaneous tissue [Figure 1]. Based on the clinical and radiological findings, a desmoid tumour was considered. The mass was excised and sent for histopathological examination."
+  "relevant_image_context": "A 30-year-old woman presented with a gradually increasing painful abdominal lump for the past six years. The pain was not associated with menstruation. Seven years back, she had undergone caesarean section for cephalo-pelvic disproportion. Physical examination revealed a 12 × 10 cm tender firm midline abdominal lump. The overlying skin was discoloured, with a dark brown scar. Ultrasound revealed a large firm mass lesion in the lower anterior abdominal wall in the midline extending up to the pubic region and showing hypoechoic and isoechoic components. CT scan revealed a 10 × 8 × 5 cm ill-defined heterogeneous soft tissue density mass lesion in the anterior abdominal wall, infraumbilical region predominantly epicentred at the right rectus abdominis muscle with extensions into opposite rectus muscle, skin, and subcutaneous tissue [Figure 1]. Based on the clinical and radiological findings, a desmoid tumour was considered. The mass was excised and sent for histopathological examination.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_9_30-PMC3183722-4-JCAS-4-141-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_9_30-PMC3183722-4-JCAS-4-141-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "midline lower anterior abdominal wall soft-tissue mass",
+        "claim_text": "A soft-tissue mass is present in the midline lower anterior abdominal wall.",
+        "presence_question": "Does the model's response discuss midline lower anterior abdominal wall soft-tissue mass?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue mass is present in the midline lower anterior abdominal wall?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "mass location: lower anterior abdominal wall",
+        "claim_text": "The soft-tissue mass is located in the midline lower anterior abdominal wall on axial CT.",
+        "presence_question": "Does the model's response discuss mass location: lower anterior abdominal wall?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass is located in the midline lower anterior abdominal wall on axial CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "ill-defined margin of mass",
+        "claim_text": "The soft-tissue mass in the midline lower anterior abdominal wall has ill-defined margins on axial CT.",
+        "presence_question": "Does the model's response discuss the ill-defined margin of the mass?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass in the midline lower anterior abdominal wall has ill-defined margins on axial CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "broad-based shape of mass",
+        "claim_text": "The soft-tissue mass demonstrates a broad-based shape in the midline lower anterior abdominal wall on axial CT.",
+        "presence_question": "Does the model's response discuss the broad-based shape of the mass?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass demonstrates a broad-based shape in the midline lower anterior abdominal wall on axial CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "mass crossing the midline",
+        "claim_text": "The soft-tissue mass extends across the midline of the lower anterior abdominal wall on axial CT.",
+        "presence_question": "Does the model's response discuss that the mass crosses the midline?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass extends across the midline of the lower anterior abdominal wall on axial CT?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "subcutaneous extension of mass",
+        "claim_text": "The soft-tissue mass extends superficially into the anterior abdominal wall subcutaneous fat on axial CT.",
+        "presence_question": "Does the model's response discuss the mass extending into the anterior abdominal wall subcutaneous fat?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass extends superficially into the anterior abdominal wall subcutaneous fat on axial CT?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "mass abutting anterior abdominal skin",
+        "claim_text": "The soft-tissue mass abuts the skin at the anterior surface of the lower abdominal wall on axial CT.",
+        "presence_question": "Does the model's response discuss that the mass is abutting the anterior skin?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass abuts the skin at the anterior surface of the lower abdominal wall on axial CT?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "tumor invasion of overlying skin and subcutaneous tissue",
+        "claim_text": "Tumor invasion of the overlying skin and subcutaneous tissue is associated with a higher risk of local recurrence after surgical resection.",
+        "presence_question": "Does the model's response discuss tumor invasion of overlying skin and subcutaneous tissue?",
+        "correctness_question": "Does the model's response correctly state that Tumor invasion of the overlying skin and subcutaneous tissue is associated with a higher risk of local recurrence after surgical resection?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "tumor invasion of overlying skin and subcutaneous tissue",
+        "claim_text": "Tumor invasion of the overlying skin and subcutaneous tissue commonly makes achieving complete surgical excision more difficult.",
+        "presence_question": "Does the model's response discuss tumor invasion of overlying skin and subcutaneous tissue?",
+        "correctness_question": "Does the model's response correctly state that Tumor invasion of the overlying skin and subcutaneous tissue commonly makes achieving complete surgical excision more difficult?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Superficial tumor extension increases recurrence risk",
+        "claim_text": "The image shows superficial extension of the abdominal wall mass into subcutaneous fat and abutting the skin, which implies a higher risk of local recurrence after surgical resection.",
+        "presence_question": "Does the model's response make an inferential link about superficial tumor extension increases recurrence risk?",
+        "correctness_question": "Does the model's response correctly conclude that The image shows superficial extension of the abdominal wall mass into subcutaneous fat and abutting the skin, which implies a higher risk of local recurrence after surgical resection?",
+        "premise_perception_ids": [
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

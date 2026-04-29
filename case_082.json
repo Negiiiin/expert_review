@@ -27,5 +27,115 @@
   "caption": "Dome-shaped PED.Abbreviations: PED, pigment epithelial detachment; N, nasal; T, temporal.",
   "sub_caption": "Dome-shaped PED. Abbreviations: PED, pigment epithelial detachment; N, nasal; T, temporal.",
   "image_context": "The analyzed OCT characteristics included the central macular thickness (CMT), the presence of dome-shaped pigment epithelial detachment (PED), the presence of an obvious RPE discontinuity, and the presence of subretinal or intraretinal fluid. The dome-shaped PED was defined as a domed space formed between the RPE and Bruch’s membrane filled with mixed hyperreflective and hyporeflective materials. RPE discontinuity was defined as a hyporeflective gap in the hyperreflective line corresponding to the RPE in OCT. <xref ref-type=\"fig\" rid=\"opth-10-1117Fig1\">Figure 1</xref> shows the presence of a dome-shaped PED, and  shows the presence of a dome-shaped PED, and <xref ref-type=\"fig\" rid=\"opth-10-1117Fig2\">Figure 2</xref> shows the presence of RPE discontinuity and subretinal fluid.  shows the presence of RPE discontinuity and subretinal fluid. <xref ref-type=\"fig\" rid=\"opth-10-1117Fig3\">Figure 3</xref> shows the presence of intraretinal fluid. A single grader assessed all the macula scans for the presence of the characteristics mentioned above. A reproducibility study was conducted before the beginning of the study, and it did not show significant variability in the grading outcomes. More specifically, ten randomly selected OCT scans from the AMD patients were graded twice (2 weeks apart) by the grader of the study, and the results were compared. The results showed high accordance for the grading. shows the presence of intraretinal fluid. A single grader assessed all the macula scans for the presence of the characteristics mentioned above. A reproducibility study was conducted before the beginning of the study, and it did not show significant variability in the grading outcomes. More specifically, ten randomly selected OCT scans from the AMD patients were graded twice (2 weeks apart) by the grader of the study, and the results were compared. The results showed high accordance for the grading.",
-  "relevant_image_context": "The analyzed OCT characteristics included the central macular thickness (CMT), the presence of dome-shaped PED, the presence of an obvious RPE discontinuity, and the presence of subretinal or intraretinal fluid. The dome-shaped PED was defined as a domed space formed between the RPE and Bruch’s membrane filled with mixed hyperreflective and hyporeflective materials. RPE discontinuity was defined as a hyporeflective gap in the hyperreflective line corresponding to the RPE in OCT. Figure 1 shows the presence of a dome-shaped PED. A single grader assessed all the macula scans for the presence of the characteristics mentioned above. A reproducibility study was conducted before the beginning of the study, and it did not show significant variability in the grading outcomes. More specifically, ten randomly selected OCT scans from the AMD patients were graded twice (2 weeks apart) by the grader of the study, and the results were compared. The results showed high accordance for the grading."
+  "relevant_image_context": "The analyzed OCT characteristics included the central macular thickness (CMT), the presence of dome-shaped PED, the presence of an obvious RPE discontinuity, and the presence of subretinal or intraretinal fluid. The dome-shaped PED was defined as a domed space formed between the RPE and Bruch’s membrane filled with mixed hyperreflective and hyporeflective materials. RPE discontinuity was defined as a hyporeflective gap in the hyperreflective line corresponding to the RPE in OCT. Figure 1 shows the presence of a dome-shaped PED. A single grader assessed all the macula scans for the presence of the characteristics mentioned above. A reproducibility study was conducted before the beginning of the study, and it did not show significant variability in the grading outcomes. More specifically, ten randomly selected OCT scans from the AMD patients were graded twice (2 weeks apart) by the grader of the study, and the results were compared. The results showed high accordance for the grading.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_32_43-PMC4914034-2-opth-10-1117Fig1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_32_43-PMC4914034-2-opth-10-1117Fig1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "OCT B-scan image",
+        "claim_text": "An OCT B-scan image of the retina is present and available for evaluation.",
+        "presence_question": "Does the model's response discuss OCT B-scan image?",
+        "correctness_question": "Does the model's response correctly assert that An OCT B-scan image of the retina is present and available for evaluation?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "RPE band reflectivity",
+        "claim_text": "The retinal pigment epithelium (RPE) band demonstrates hyperreflective signal on the OCT scan.",
+        "presence_question": "Does the model's response discuss RPE band reflectivity?",
+        "correctness_question": "Does the model's response correctly assert that The retinal pigment epithelium (RPE) band demonstrates hyperreflective signal on the OCT scan?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Dome-shaped RPE elevation",
+        "claim_text": "A dome-shaped elevation of the retinal pigment epithelium (RPE) is present on the OCT scan.",
+        "presence_question": "Does the model's response discuss Dome-shaped RPE elevation?",
+        "correctness_question": "Does the model's response correctly assert that A dome-shaped elevation of the retinal pigment epithelium (RPE) is present on the OCT scan?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Count of dome-shaped RPE elevations",
+        "claim_text": "There is a single dome-shaped retinal pigment epithelium (RPE) elevation identified on the scan.",
+        "presence_question": "Does the model's response discuss Count of dome-shaped RPE elevations?",
+        "correctness_question": "Does the model's response correctly assert that There is a single dome-shaped retinal pigment epithelium (RPE) elevation identified on the scan?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Location of RPE elevation",
+        "claim_text": "The dome-shaped RPE elevation is located centrally in the macula/central retina.",
+        "presence_question": "Does the model's response discuss Location of RPE elevation?",
+        "correctness_question": "Does the model's response correctly assert that The dome-shaped RPE elevation is located centrally in the macula/central retina?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Sub-RPE hyporeflective space",
+        "claim_text": "A hyporeflective sub-RPE space is present immediately beneath the elevated RPE.",
+        "presence_question": "Does the model's response discuss Sub-RPE hyporeflective space?",
+        "correctness_question": "Does the model's response correctly assert that A hyporeflective sub-RPE space is present immediately beneath the elevated RPE?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Appearance of surrounding RPE",
+        "claim_text": "The surrounding retinal pigment epithelium outside the central elevation appears relatively flat.",
+        "presence_question": "Does the model's response discuss Appearance of surrounding RPE?",
+        "correctness_question": "Does the model's response correctly assert that The surrounding retinal pigment epithelium outside the central elevation appears relatively flat?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Additional dome-shaped RPE elevations",
+        "claim_text": "No other dome-shaped RPE elevations are present elsewhere on the scan.",
+        "presence_question": "Does the model's response discuss Additional dome-shaped RPE elevations?",
+        "correctness_question": "Does the model's response correctly assert that No other dome-shaped RPE elevations are present elsewhere on the scan?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "RPE on OCT",
+        "claim_text": "The retinal pigment epithelium appears on OCT as a hyperreflective band.",
+        "presence_question": "Does the model's response discuss RPE on OCT?",
+        "correctness_question": "Does the model's response correctly state that The retinal pigment epithelium appears on OCT as a hyperreflective band?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "pigment epithelial detachment (PED)",
+        "claim_text": "A pigment epithelial detachment is a dome-shaped elevation of the retinal pigment epithelium with a relatively hyporeflective space beneath the elevated RPE.",
+        "presence_question": "Does the model's response discuss pigment epithelial detachment (PED)?",
+        "correctness_question": "Does the model's response correctly state that A pigment epithelial detachment is a dome-shaped elevation of the retinal pigment epithelium with a relatively hyporeflective space beneath the elevated RPE?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "separate dome-shaped RPE elevations",
+        "claim_text": "Each separate dome-shaped elevation of the retinal pigment epithelium corresponds to a distinct pigment epithelial detachment.",
+        "presence_question": "Does the model's response discuss separate dome-shaped RPE elevations?",
+        "correctness_question": "Does the model's response correctly state that Each separate dome-shaped elevation of the retinal pigment epithelium corresponds to a distinct pigment epithelial detachment?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "pigment epithelial detachment count",
+        "claim_text": "The single central dome-shaped elevation of the hyperreflective RPE with a hyporeflective space beneath it supports that there is one pigment epithelial detachment in this image.",
+        "presence_question": "Does the model's response make an inferential link about pigment epithelial detachment count?",
+        "correctness_question": "Does the model's response correctly conclude that The single central dome-shaped elevation of the hyperreflective RPE with a hyporeflective space beneath it supports that there is one pigment epithelial detachment in this image?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

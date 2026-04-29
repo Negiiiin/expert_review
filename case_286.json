@@ -27,5 +27,100 @@
   "caption": "Refractory endometriosis on imaging. Axial T1 post-contrast MRI view showing a 3.0 × 2.3 × 2.9 cm biopsy-proven endometriosis mass at the vaginal apex",
   "sub_caption": "Axial T1 post-contrast MRI view showing a 3.0 × 2.3 × 2.9 cm biopsy-proven endometriosis mass at the vaginal apex",
   "image_context": "At current presentation, she noted continued intermittent bleeding (requiring 2 pads per day on days of bleeding) and pelvic pain from the endometriosis. Bimanual exam showed a small tender nodularity in the vaginal cuff with a small amount of oozing blood. A discussion was had with the patient to create a plan of action. Given that she had received multiple lines of medical and surgical resection with recurrence of her vaginal bleeding, radiation treatment was offered. The risks, benefits, side effects, and potential complications of radiation treatment, including increased risk of secondary malignancy, were discussed. An MRI of the pelvis was obtained to determine the extent of her endometriosis, and it showed a 3.0 × 2.3 × 2.9 cm soft tissue mass at the vaginal apex (shown in <xref ref-type=\"fig\" rid=\"rpor-26-3-457f1\">Fig. 1</xref>). The patient was consented for radiation treatment, and a CT simulation was conducted with both a full and empty bladder. An internal gross target volume (iGTV) was created from contouring and merging GTV volumes from both scans. A clinical target volume (CTV) was not created due to low concern for microscopic disease and this being a benign entity. A uniform 15 mm expansion in all directions was done to create a planning target volume (PTV). She was prescribed 30 Gy in 10 fractions, and 10 MV and 18 MV photons were used to ensure that 100% of the prescription dose covered 95% of the target volume (). The patient was consented for radiation treatment, and a CT simulation was conducted with both a full and empty bladder. An internal gross target volume (iGTV) was created from contouring and merging GTV volumes from both scans. A clinical target volume (CTV) was not created due to low concern for microscopic disease and this being a benign entity. A uniform 15 mm expansion in all directions was done to create a planning target volume (PTV). She was prescribed 30 Gy in 10 fractions, and 10 MV and 18 MV photons were used to ensure that 100% of the prescription dose covered 95% of the target volume (<xref ref-type=\"fig\" rid=\"rpor-26-3-457f2\">Fig. 2</xref>). Organs at risk (OAR) that were monitored included the bladder, bowel, femurs, and rectum. During weekly checkups, the patient noted improvement in her bleeding with only a small amount of blood with urination.). Organs at risk (OAR) that were monitored included the bladder, bowel, femurs, and rectum. During weekly checkups, the patient noted improvement in her bleeding with only a small amount of blood with urination.",
-  "relevant_image_context": "An MRI of the pelvis was obtained to determine the extent of her endometriosis, and it showed a 3.0 × 2.3 × 2.9 cm soft tissue mass at the vaginal apex (shown in Fig. 1)."
+  "relevant_image_context": "An MRI of the pelvis was obtained to determine the extent of her endometriosis, and it showed a 3.0 × 2.3 × 2.9 cm soft tissue mass at the vaginal apex (shown in Fig. 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_96_48-PMC8281906-1-rpor-26-3-457f1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_96_48-PMC8281906-1-rpor-26-3-457f1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "vaginal cuff nodule",
+        "claim_text": "A focal soft-tissue nodule is located at the vaginal cuff (vaginal apex).",
+        "presence_question": "Does the model's response discuss vaginal cuff nodule?",
+        "correctness_question": "Does the model's response correctly assert that A focal soft-tissue nodule is located at the vaginal cuff (vaginal apex)?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "well-defined nodule margins",
+        "claim_text": "The focal soft-tissue nodule at the vaginal cuff has well-defined margins.",
+        "presence_question": "Does the model's response discuss well-defined nodule margins?",
+        "correctness_question": "Does the model's response correctly assert that The focal soft-tissue nodule at the vaginal cuff has well-defined margins?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "extension into bladder or rectum",
+        "claim_text": "There is no extension of the vaginal cuff nodule into the bladder or rectum.",
+        "presence_question": "Does the model's response discuss extension into bladder or rectum?",
+        "correctness_question": "Does the model's response correctly assert that There is no extension of the vaginal cuff nodule into the bladder or rectum?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "nodule on axial pelvic MRI",
+        "claim_text": "A focal soft-tissue nodule is present on the axial pelvic MRI.",
+        "presence_question": "Does the model's response discuss nodule on axial pelvic MRI?",
+        "correctness_question": "Does the model's response correctly assert that A focal soft-tissue nodule is present on the axial pelvic MRI?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "vaginal cuff lesion",
+        "claim_text": "A focal lesion at the vaginal cuff typically causes local symptoms such as pelvic pain and vaginal bleeding.",
+        "presence_question": "Does the model's response discuss vaginal cuff lesion?",
+        "correctness_question": "Does the model's response correctly state that a focal lesion at the vaginal cuff typically causes local symptoms such as pelvic pain and vaginal bleeding?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "tender palpable vaginal cuff lesion",
+        "claim_text": "A tender palpable lesion at the vaginal cuff typically causes pain with vaginal penetration or intercourse due to direct mechanical or local stimulation.",
+        "presence_question": "Does the model's response discuss tender palpable vaginal cuff lesion?",
+        "correctness_question": "Does the model's response correctly state that a tender palpable lesion at the vaginal cuff typically causes pain with vaginal penetration or intercourse due to direct mechanical or local stimulation?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Nodule as explanation for symptoms",
+        "claim_text": "The focal soft-tissue nodule seen on axial pelvic MRI at the vaginal cuff supports that it is a plausible explanation for the patient's local symptoms of pelvic pain and vaginal bleeding.",
+        "presence_question": "Does the model's response make an inferential link about Nodule as explanation for symptoms?",
+        "correctness_question": "Does the model's response correctly conclude that The focal soft-tissue nodule seen on axial pelvic MRI at the vaginal cuff supports that it is a plausible explanation for the patient's local symptoms of pelvic pain and vaginal bleeding?",
+        "premise_perception_ids": [
+          "p1",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Unlikely bladder/rectum invasion",
+        "claim_text": "There is no imaging evidence on the axial slice of extension of the nodule into the bladder or rectum, which argues against invasive spread into those adjacent organs on this imaging slice.",
+        "presence_question": "Does the model's response make an inferential link about Unlikely bladder/rectum invasion?",
+        "correctness_question": "Does the model's response correctly conclude that There is no imaging evidence on the axial slice of extension of the nodule into the bladder or rectum, which argues against invasive spread into those adjacent organs on this imaging slice?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Lesion causing pain with penetration",
+        "claim_text": "A tender, palpable lesion at the vaginal cuff is anatomically positioned to produce pain with vaginal penetration, which is consistent with a focal cuff nodule causing the patient's pain.",
+        "presence_question": "Does the model's response make an inferential link about Lesion causing pain with penetration?",
+        "correctness_question": "Does the model's response correctly conclude that A tender, palpable lesion at the vaginal cuff is anatomically positioned to produce pain with vaginal penetration, which is consistent with a focal cuff nodule causing the patient's pain?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

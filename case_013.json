@@ -27,5 +27,128 @@
   "caption": "Preoperative initial radiograph of the patient showed a disruption of AC joint with posterior dislocation of the clavicle.",
   "sub_caption": "Preoperative initial radiograph of the patient showed a disruption of AC joint with posterior dislocation of the clavicle.",
   "image_context": "On examination, there was a marked deformity on the right back. The right shoulder range of motion was limited due to pain and resistance. The neurovascular examination was normal. Radiograph examination (scapular Y view) showed a disruption of the AC joint with the posterior clavicle dislocation (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). The patient was diagnosed with neglected AC joint dislocation Rockwood type IV and was advised to receive further treatment with AC and CC reconstruction procedures followed by physical therapy.). The patient was diagnosed with neglected AC joint dislocation Rockwood type IV and was advised to receive further treatment with AC and CC reconstruction procedures followed by physical therapy.Fig. 1Preoperative initial radiograph of the patient showed a disruption of AC joint with posterior dislocation of the clavicle.Fig. 1",
-  "relevant_image_context": "Radiograph examination (scapular Y view) showed a disruption of the AC joint with the posterior clavicle dislocation (Fig. 1). The patient was diagnosed with neglected AC joint dislocation Rockwood type IV and was advised to receive further treatment with AC and CC reconstruction procedures followed by physical therapy. Fig. 1 Preoperative initial radiograph of the patient showed a disruption of AC joint with posterior dislocation of the clavicle."
+  "relevant_image_context": "Radiograph examination (scapular Y view) showed a disruption of the AC joint with the posterior clavicle dislocation (Fig. 1). The patient was diagnosed with neglected AC joint dislocation Rockwood type IV and was advised to receive further treatment with AC and CC reconstruction procedures followed by physical therapy. Fig. 1 Preoperative initial radiograph of the patient showed a disruption of AC joint with posterior dislocation of the clavicle.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_111_40-PMC9108874-4-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_111_40-PMC9108874-4-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "right scapular Y-view radiograph",
+        "claim_text": "A right scapular Y-view radiograph of the shoulder is present.",
+        "presence_question": "Does the model's response discuss right scapular Y-view radiograph?",
+        "correctness_question": "Does the model's response correctly assert that A right scapular Y-view radiograph of the shoulder is present?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "right acromioclavicular articulation disruption",
+        "claim_text": "The right acromioclavicular articulation appears disrupted on the radiograph.",
+        "presence_question": "Does the model's response discuss right acromioclavicular articulation disruption?",
+        "correctness_question": "Does the model's response correctly assert that The right acromioclavicular articulation appears disrupted on the radiograph?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "right distal clavicle displacement relative to acromion",
+        "claim_text": "The right distal clavicle is displaced relative to the acromion.",
+        "presence_question": "Does the model's response discuss right distal clavicle displacement relative to acromion?",
+        "correctness_question": "Does the model's response correctly assert that The right distal clavicle is displaced relative to the acromion?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "right acromioclavicular joint step-off",
+        "claim_text": "There is a clear step-off of the right acromioclavicular joint on this view.",
+        "presence_question": "Does the model's response discuss right acromioclavicular joint step-off?",
+        "correctness_question": "Does the model's response correctly assert that There is a clear step-off of the right acromioclavicular joint on this view?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "right acromioclavicular joint relationship abnormality",
+        "claim_text": "The right acromioclavicular joint relationship is abnormal on the radiographic view.",
+        "presence_question": "Does the model's response discuss right acromioclavicular joint relationship abnormality?",
+        "correctness_question": "Does the model's response correctly assert that The right acromioclavicular joint relationship is abnormal on the radiographic view?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "right clavicle acute fracture absence",
+        "claim_text": "No acute fracture of the right clavicle is seen on this view.",
+        "presence_question": "Does the model's response discuss right clavicle acute fracture absence?",
+        "correctness_question": "Does the model's response correctly assert that No acute fracture of the right clavicle is seen on this view?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "right proximal humerus acute fracture absence",
+        "claim_text": "No acute fracture of the right proximal humerus is seen on this view.",
+        "presence_question": "Does the model's response discuss right proximal humerus acute fracture absence?",
+        "correctness_question": "Does the model's response correctly assert that No acute fracture of the right proximal humerus is seen on this view?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "right AC/CC alignment loss",
+        "claim_text": "There is loss of the normal AC/CC alignment on the right.",
+        "presence_question": "Does the model's response discuss right AC/CC alignment loss?",
+        "correctness_question": "Does the model's response correctly assert that There is loss of the normal AC/CC alignment on the right?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "persistent displacement of the right AC region",
+        "claim_text": "Persistent displacement of the right AC region, including the distal clavicle, is present.",
+        "presence_question": "Does the model's response discuss persistent displacement of the right AC region?",
+        "correctness_question": "Does the model's response correctly assert that Persistent displacement of the right AC region, including the distal clavicle, is present?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "AC/CC relationship disruption",
+        "claim_text": "Open reduction with anatomic coracoclavicular reconstruction is a typical treatment for disruption of the acromioclavicular–coracoclavicular relationship.",
+        "presence_question": "Does the model's response discuss AC/CC relationship disruption?",
+        "correctness_question": "Does the model's response correctly state that Open reduction with anatomic coracoclavicular reconstruction is a typical treatment for disruption of the acromioclavicular–coracoclavicular relationship?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Persistent AC/CC displacement",
+        "claim_text": "Persistent displacement with loss of normal acromioclavicular–coracoclavicular alignment indicates structural instability that is unlikely to be resolved by simple immobilization.",
+        "presence_question": "Does the model's response discuss Persistent AC/CC displacement?",
+        "correctness_question": "Does the model's response correctly state that Persistent displacement with loss of normal acromioclavicular–coracoclavicular alignment indicates structural instability that is unlikely to be resolved by simple immobilization?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "AC region structural instability",
+        "claim_text": "The imaging findings of persistent displacement and loss of normal AC/CC alignment support structural instability of the AC region in this patient.",
+        "presence_question": "Does the model's response make an inferential link about AC region structural instability?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings of persistent displacement and loss of normal AC/CC alignment support structural instability of the AC region in this patient.?",
+        "premise_perception_ids": [
+          "p3",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Open reduction with CC reconstruction appropriateness",
+        "claim_text": "Given the displaced distal clavicle with disrupted AC relationship and the suitability of open reduction with anatomic coracoclavicular reconstruction to restore AC/CC alignment, open reduction with anatomic coracoclavicular reconstruction is appropriate for this case of structural AC instability.",
+        "presence_question": "Does the model's response make an inferential link about Open reduction with CC reconstruction appropriateness?",
+        "correctness_question": "Does the model's response correctly conclude that Given the displaced distal clavicle with disrupted AC relationship and the suitability of open reduction with anatomic coracoclavicular reconstruction to restore AC/CC alignment, open reduction with anatomic coracoclavicular reconstruction is appropriate for this case of structural AC instability.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

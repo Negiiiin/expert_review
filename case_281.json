@@ -27,5 +27,101 @@
   "caption": "Representative single-phase enhanced CT images. Both images were acquired on separate occasions from a 62-year-old male who had liver metastases after colon cancer surgery. The tin-filtered 100 kV (TF100kV) protocol (a) shows lower CNR and higher FOM than the standard 120 kV (ST120kV) protocol (b). Liver metastases are detectable in both protocols (arrows).",
   "sub_caption": "The tin-filtered 100 kV (TF100kV) protocol (a) shows lower CNR and higher FOM than the standard 120 kV (ST120kV) protocol (b). Liver metastases are detectable in both protocols (arrows).",
   "image_context": "The data for the objective image quality assessment are shown in Table 4. The mean background noise was significantly higher for the TF100kV protocol than for the ST120kV protocol (8.36 (7.61–8.86) HU vs. 6.04 (5.45–6.93) HU, p < 0.0001). CNRs of the liver and abdominal aorta were significantly higher for the ST120kV protocol than for the TF100kV protocol (liver: 2.76 (1.38–4.03) vs. 2.13 (1.42–2.73), p < 0.0001; abdominal aorta: 5.81 (4.76–7.52) vs. 4.08 (3.39–5.02), p < 0.0001). However, FOM was found to be significantly higher for the TF100kV protocol than for the ST120kV protocol (liver: 2.24 (0.89–4.07) vs. 0.36 (0.09–0.93), p < 0.0001; abdominal aorta: 8.62 (5.98–14.1) and vs. 1.81 (1.19–3.16), p < 0.0001). <xref rid=\"tomography-08-00088-g003\" ref-type=\"fig\">Figure 3</xref> shows representative example images of both protocols. shows representative example images of both protocols.",
-  "relevant_image_context": "Data for the objective image quality assessment are shown in Table 4. The mean background noise was significantly higher for the TF100kV protocol than for the ST120kV protocol (8.36 (7.61–8.86) HU vs. 6.04 (5.45–6.93) HU, p < 0.0001). CNRs of the liver and abdominal aorta were significantly higher for the ST120kV protocol than for the TF100kV protocol (liver: 2.76 (1.38–4.03) vs. 2.13 (1.42–2.73), p < 0.0001; abdominal aorta: 5.81 (4.76–7.52) vs. 4.08 (3.39–5.02), p < 0.0001). However, FOM was found to be significantly higher for the TF100kV protocol than for the ST120kV protocol (liver: 2.24 (0.89–4.07) vs. 0.36 (0.09–0.93), p < 0.0001; abdominal aorta: 8.62 (5.98–14.1) and vs. 1.81 (1.19–3.16), p < 0.0001). Figure 3 shows representative example images of both protocols. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Data for the objective image quality assessment are shown in Table 4. The mean background noise was significantly higher for the TF100kV protocol than for the ST120kV protocol (8.36 (7.61–8.86) HU vs. 6.04 (5.45–6.93) HU, p < 0.0001). CNRs of the liver and abdominal aorta were significantly higher for the ST120kV protocol than for the TF100kV protocol (liver: 2.76 (1.38–4.03) vs. 2.13 (1.42–2.73), p < 0.0001; abdominal aorta: 5.81 (4.76–7.52) vs. 4.08 (3.39–5.02), p < 0.0001). However, FOM was found to be significantly higher for the TF100kV protocol than for the ST120kV protocol (liver: 2.24 (0.89–4.07) vs. 0.36 (0.09–0.93), p < 0.0001; abdominal aorta: 8.62 (5.98–14.1) and vs. 1.81 (1.19–3.16), p < 0.0001). Figure 3 shows representative example images of both protocols. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_118_69-PMC9033029-3-tomography-08-00088-g003.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_118_69-PMC9033029-3-tomography-08-00088-g003.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "hepatic lesions",
+        "claim_text": "There are hepatic lesions present within the liver on imaging.",
+        "presence_question": "Does the model's response discuss hepatic lesions?",
+        "correctness_question": "Does the model's response correctly assert that There are hepatic lesions present within the liver on imaging.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lesion location (right lobe predominant)",
+        "claim_text": "The hepatic lesions are located in the hepatic parenchyma, predominantly in the right lobe.",
+        "presence_question": "Does the model's response discuss lesion location (right lobe predominant)?",
+        "correctness_question": "Does the model's response correctly assert that The hepatic lesions are located in the hepatic parenchyma, predominantly in the right lobe.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "number of liver lesions",
+        "claim_text": "There are three lesions identified in the liver on the study.",
+        "presence_question": "Does the model's response discuss number of liver lesions?",
+        "correctness_question": "Does the model's response correctly assert that There are three lesions identified in the liver on the study.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lesion shape",
+        "claim_text": "The lesions demonstrate a rounded shape on imaging.",
+        "presence_question": "Does the model's response discuss lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesions demonstrate a rounded shape on imaging.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "lesion margins",
+        "claim_text": "The lesions demonstrate well-circumscribed margins on the imaging study.",
+        "presence_question": "Does the model's response discuss lesion margins?",
+        "correctness_question": "Does the model's response correctly assert that The lesions demonstrate well-circumscribed margins on the imaging study.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesion size variability",
+        "claim_text": "The lesions are of variable sizes and measurements on imaging.",
+        "presence_question": "Does the model's response discuss lesion size variability?",
+        "correctness_question": "Does the model's response correctly assert that The lesions are of variable sizes and measurements on imaging.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "lesion attenuation",
+        "claim_text": "The lesions show decreased attenuation compared with surrounding liver tissue.",
+        "presence_question": "Does the model's response discuss lesion attenuation?",
+        "correctness_question": "Does the model's response correctly assert that The lesions show decreased attenuation compared with surrounding liver tissue.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "axial CT of upper abdomen",
+        "claim_text": "The findings are seen on axial CT images of the upper abdomen.",
+        "presence_question": "Does the model's response discuss axial CT of upper abdomen?",
+        "correctness_question": "Does the model's response correctly assert that The findings are seen on axial CT images of the upper abdomen.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "multiple hypodense hepatic lesions",
+        "claim_text": "Multiple well-defined, round hypodense hepatic lesions of variable size scattered in the liver typically suggest metastatic deposits.",
+        "presence_question": "Does the model's response discuss multiple hypodense hepatic lesions?",
+        "correctness_question": "Does the model's response correctly state that multiple well-defined, round hypodense hepatic lesions of variable size scattered in the liver typically suggest metastatic deposits?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Inference of hepatic metastases",
+        "claim_text": "The observed multiple, well-circumscribed, rounded hypodense hepatic lesions of variable size favor metastatic deposits in this case.",
+        "presence_question": "Does the model's response make an inferential link about Inference of hepatic metastases?",
+        "correctness_question": "Does the model's response correctly conclude that The observed multiple, well-circumscribed, rounded hypodense hepatic lesions of variable size favor metastatic deposits in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

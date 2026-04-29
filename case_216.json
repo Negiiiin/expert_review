@@ -27,5 +27,142 @@
   "caption": "Vertebral column and pelvis (x-ray findings)",
   "sub_caption": "Vertebral column and pelvis (x-ray findings)",
   "image_context": "The cardiac ultrasound showed mild mitral and tricuspid valve regurgitation with an ejection fraction of 66%. The radiographic assessment revealed kyphoscoliosis with a Cobb angle of 59.57˚, fractures of the 10th, 11th, and 12th right ribs, protrusion of the acetabular roof projecting toward the pelvis, fracture of the right femoral head, opacification of the growth plate of the left femoral head associated with coxa magna, and neglected intertrochanteric greenstick fracture. It was concluded as progressive OI type 3, in correlation with the clinical history (Figure <xref rid=\"cureus-0014-00000022198-i02\" ref-type=\"fig\">2</xref>).).",
-  "relevant_image_context": "The radiographic assessment revealed kyphoscoliosis with a Cobb angle of 59.57˚, fractures of the 10th, 11th, and 12th right ribs, protrusion of the acetabular roof projecting toward the pelvis, fracture of the right femoral head, opacification of the growth plate of the left femoral head associated with coxa magna, and neglected intertrochanteric greenstick fracture. It was concluded as progressive OI type 3, in correlation with the clinical history."
+  "relevant_image_context": "The radiographic assessment revealed kyphoscoliosis with a Cobb angle of 59.57˚, fractures of the 10th, 11th, and 12th right ribs, protrusion of the acetabular roof projecting toward the pelvis, fracture of the right femoral head, opacification of the growth plate of the left femoral head associated with coxa magna, and neglected intertrochanteric greenstick fracture. It was concluded as progressive OI type 3, in correlation with the clinical history.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_115_94-PMC8925934-0-cureus-0014-00000022198-i02.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_115_94-PMC8925934-0-cureus-0014-00000022198-i02.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "low bone density",
+        "claim_text": "The skeleton demonstrates generalized low bone density on imaging.",
+        "presence_question": "Does the model's response discuss low bone density?",
+        "correctness_question": "Does the model's response correctly assert that the skeleton demonstrates generalized low bone density on imaging?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "multiple healed or healing fractures",
+        "claim_text": "Multiple healed or healing fractures are present at multiple sites.",
+        "presence_question": "Does the model's response discuss multiple healed or healing fractures?",
+        "correctness_question": "Does the model's response correctly assert that multiple healed or healing fractures are present at multiple sites?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "rib fractures",
+        "claim_text": "There are fractures involving the ribs on imaging.",
+        "presence_question": "Does the model's response discuss rib fractures?",
+        "correctness_question": "Does the model's response correctly assert that there are fractures involving the ribs on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "bilateral femoral fractures",
+        "claim_text": "Fractures are present in both femoral regions on imaging.",
+        "presence_question": "Does the model's response discuss bilateral femoral fractures?",
+        "correctness_question": "Does the model's response correctly assert that fractures are present in both femoral regions on imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "marked spinal curvature",
+        "claim_text": "There is marked curvature of the spine on radiographic imaging.",
+        "presence_question": "Does the model's response discuss marked spinal curvature?",
+        "correctness_question": "Does the model's response correctly assert that there is marked curvature of the spine on radiographic imaging?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "vertebral deformity",
+        "claim_text": "A vertebral deformity is present on the imaging study.",
+        "presence_question": "Does the model's response discuss vertebral deformity?",
+        "correctness_question": "Does the model's response correctly assert that a vertebral deformity is present on the imaging study?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "child patient",
+        "claim_text": "The patient is a child based on the provided information.",
+        "presence_question": "Does the model's response discuss a child patient?",
+        "correctness_question": "Does the model's response correctly assert that the patient is a child based on the provided information?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "recurrent fractures and low bone density",
+        "claim_text": "Recurrent fractures, low bone density, and bone deformities in children are characteristic features of hereditary brittle-bone disorders.",
+        "presence_question": "Does the model's response discuss recurrent fractures and low bone density?",
+        "correctness_question": "Does the model's response correctly state that Recurrent fractures, low bone density, and bone deformities in children are characteristic features of hereditary brittle-bone disorders?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "autosomal dominant inheritance",
+        "claim_text": "Autosomal dominant inheritance confers about a 50% risk of transmission from an affected parent to each child.",
+        "presence_question": "Does the model's response discuss autosomal dominant inheritance?",
+        "correctness_question": "Does the model's response correctly state that Autosomal dominant inheritance confers about a 50% risk of transmission from an affected parent to each child?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "hereditary brittle-bone disorders",
+        "claim_text": "Hereditary brittle-bone disorders are commonly inherited in an autosomal dominant pattern.",
+        "presence_question": "Does the model's response discuss hereditary brittle-bone disorders?",
+        "correctness_question": "Does the model's response correctly state that Hereditary brittle-bone disorders are commonly inherited in an autosomal dominant pattern?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "hereditary brittle-bone diagnosis",
+        "claim_text": "The combination of generalized low bone density, multiple healed fractures (including ribs and femoral regions), marked spinal curvature, and vertebral deformity in this child is consistent with a hereditary brittle-bone disorder.",
+        "presence_question": "Does the model's response make an inferential link about hereditary brittle-bone diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of generalized low bone density, multiple healed fractures (including ribs and femoral regions), marked spinal curvature, and vertebral deformity in this child is consistent with a hereditary brittle-bone disorder?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "autosomal dominant inheritance likelihood",
+        "claim_text": "The imaging features characteristic of hereditary brittle-bone disorders and the common association with autosomal dominant transmission support that an autosomal dominant inheritance pattern is the most likely mode in this case.",
+        "presence_question": "Does the model's response make an inferential link about autosomal dominant inheritance likelihood?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging features characteristic of hereditary brittle-bone disorders and the common association with autosomal dominant transmission support that an autosomal dominant inheritance pattern is the most likely mode in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "parent-to-child transmission probability",
+        "claim_text": "If an autosomal dominant inheritance pattern applies in this hereditary brittle-bone disorder, this implies that the expected probability of transmission from an affected parent to each child is approximately 50%.",
+        "presence_question": "Does the model's response make an inferential link about parent-to-child transmission probability?",
+        "correctness_question": "Does the model's response correctly conclude that If an autosomal dominant inheritance pattern applies in this hereditary brittle-bone disorder, this implies that the expected probability of transmission from an affected parent to each child is approximately 50%?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

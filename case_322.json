@@ -28,5 +28,129 @@
   "caption": "CT of the abdomen showing only five out of the six struts of the inferior vena cava filter with one strut missing.",
   "sub_caption": "CT of the abdomen showing only five out of the six struts of the inferior vena cava filter with one strut missing.",
   "image_context": "Cardiothoracic and vascular surgery teams were consulted, and upon reviewing the CT images they agreed that the IVC filter was off-axis and missing one strut (Figure <xref ref-type=\"fig\" rid=\"cureus-0012-00000009779-i05\">5</xref>). They also stated that the IVC strut was likely embedded in the trabeculae of the right ventricle and endothelialized, posing minimal risk. Since the patient was asymptomatic, they decided to leave the IVC filter and the strut in place and opted for surveillance by regular follow-ups and CT scans. The patient’s right flank pain was likely musculoskeletal and responded well to the muscle relaxant. The patient was discharged home on novel oral anticoagulant with close follow-up as an outpatient. ). They also stated that the IVC strut was likely embedded in the trabeculae of the right ventricle and endothelialized, posing minimal risk. Since the patient was asymptomatic, they decided to leave the IVC filter and the strut in place and opted for surveillance by regular follow-ups and CT scans. The patient’s right flank pain was likely musculoskeletal and responded well to the muscle relaxant. The patient was discharged home on novel oral anticoagulant with close follow-up as an outpatient.",
-  "relevant_image_context": "Cardiothoracic and vascular surgery teams were consulted, and upon reviewing the CT images they agreed that the IVC filter was off-axis and missing one strut. They also stated that the IVC strut was likely embedded in the trabeculae of the right ventricle and endothelialized, posing minimal risk. Since the patient was asymptomatic, they decided to leave the IVC filter and the strut in place and opted for surveillance by regular follow-ups and CT scans. The patient’s right flank pain was likely musculoskeletal and responded well to the muscle relaxant. The patient was discharged home on novel oral anticoagulant with close follow-up as an outpatient."
+  "relevant_image_context": "Cardiothoracic and vascular surgery teams were consulted, and upon reviewing the CT images they agreed that the IVC filter was off-axis and missing one strut. They also stated that the IVC strut was likely embedded in the trabeculae of the right ventricle and endothelialized, posing minimal risk. Since the patient was asymptomatic, they decided to leave the IVC filter and the strut in place and opted for surveillance by regular follow-ups and CT scans. The patient’s right flank pain was likely musculoskeletal and responded well to the muscle relaxant. The patient was discharged home on novel oral anticoagulant with close follow-up as an outpatient.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_83_115-PMC7491686-1-cureus-0012-00000009779-i05.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_83_115-PMC7491686-1-cureus-0012-00000009779-i05.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Inferior vena cava filter",
+        "claim_text": "An inferior vena cava (IVC) filter is present in the inferior vena cava.",
+        "presence_question": "Does the model's response discuss Inferior vena cava filter?",
+        "correctness_question": "Does the model's response correctly assert that An inferior vena cava (IVC) filter is present in the inferior vena cava.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Filter struts",
+        "claim_text": "The IVC filter demonstrates multiple circumferential struts within the inferior vena cava.",
+        "presence_question": "Does the model's response discuss Filter struts?",
+        "correctness_question": "Does the model's response correctly assert that The IVC filter demonstrates multiple circumferential struts within the inferior vena cava.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Displaced filter component",
+        "claim_text": "One component of the IVC filter appears displaced relative to the main filter body within the inferior vena cava.",
+        "presence_question": "Does the model's response discuss Displaced filter component?",
+        "correctness_question": "Does the model's response correctly assert that One component of the IVC filter appears displaced relative to the main filter body within the inferior vena cava.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Surrounding hemorrhage",
+        "claim_text": "No acute hemorrhage is present around the inferior vena cava or IVC filter.",
+        "presence_question": "Does the model's response discuss Surrounding hemorrhage?",
+        "correctness_question": "Does the model's response correctly assert that No acute hemorrhage is present around the inferior vena cava or IVC filter.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Adjacent collection near IVC",
+        "claim_text": "There is no large collection adjacent to the inferior vena cava or IVC filter.",
+        "presence_question": "Does the model's response discuss Adjacent collection near IVC?",
+        "correctness_question": "Does the model's response correctly assert that There is no large collection adjacent to the inferior vena cava or IVC filter.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "intravascular foreign body endothelialization",
+        "claim_text": "Endothelialization or embedding of an intravascular foreign body indicates incorporation into the vessel wall and suggests it is stable and not actively migrating.",
+        "presence_question": "Does the model's response discuss intravascular foreign body endothelialization?",
+        "correctness_question": "Does the model's response correctly state that Endothelialization or embedding of an intravascular foreign body indicates incorporation into the vessel wall and suggests it is stable and not actively migrating?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "CT absence of hemorrhage or collection",
+        "claim_text": "Absence of acute surrounding hemorrhage or a large adjacent collection on CT makes an acute complication requiring urgent intervention less likely.",
+        "presence_question": "Does the model's response discuss CT absence of hemorrhage or collection?",
+        "correctness_question": "Does the model's response correctly state that Absence of acute surrounding hemorrhage or a large adjacent collection on CT makes an acute complication requiring urgent intervention less likely?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "management of embedded IVC filter fragment",
+        "claim_text": "Asymptomatic patients with a displaced but stable and embedded retained IVC filter fragment that is judged to pose minimal risk can be managed nonoperatively with scheduled surveillance imaging.",
+        "presence_question": "Does the model's response discuss management of embedded IVC filter fragment?",
+        "correctness_question": "Does the model's response correctly state that Asymptomatic patients with a displaced but stable and embedded retained IVC filter fragment that is judged to pose minimal risk can be managed nonoperatively with scheduled surveillance imaging?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "surgical clinical assessment of displaced component",
+        "claim_text": "Surgical clinical assessment can determine that a displaced intravascular component is embedded, endothelialized, and poses minimal risk.",
+        "presence_question": "Does the model's response discuss surgical clinical assessment of displaced component?",
+        "correctness_question": "Does the model's response correctly state that Surgical clinical assessment can determine that a displaced intravascular component is embedded, endothelialized, and poses minimal risk?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Filter embedment and stability",
+        "claim_text": "The findings support that the displaced filter component is likely embedded and stable in this case.",
+        "presence_question": "Does the model's response make an inferential link about Filter embedment and stability?",
+        "correctness_question": "Does the model's response correctly conclude that The findings support that the displaced filter component is likely embedded and stable in this case?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Absence of acute complication on imaging",
+        "claim_text": "The imaging findings support that an acute complication (such as hemorrhage or a large collection) is unlikely in this case.",
+        "presence_question": "Does the model's response make an inferential link about Absence of acute complication on imaging?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings support that an acute complication (such as hemorrhage or a large collection) is unlikely in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Nonoperative observation appropriateness",
+        "claim_text": "Given the imaging appearance (displaced component without hemorrhage or collection) together with the clinical assessment that it is embedded and poses minimal risk, these findings justify that nonoperative observation with scheduled imaging is an appropriate management plan for this case.",
+        "presence_question": "Does the model's response make an inferential link about Nonoperative observation appropriateness?",
+        "correctness_question": "Does the model's response correctly conclude that Given the imaging appearance (displaced component without hemorrhage or collection) together with the clinical assessment that it is embedded and poses minimal risk, these findings justify that nonoperative observation with scheduled imaging is an appropriate management plan for this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4",
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

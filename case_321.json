@@ -27,5 +27,161 @@
   "caption": "After open drainage of the abscess, it spontaneously shrank in 2 months. The rectus abdominus muscle was unclear in computed tomography.",
   "sub_caption": "\nThe rectus abdominus muscle was unclear in computed tomography.",
   "image_context": "She was requested to wear a girth around her chest and abdomen for 4 months. Six months later, chest wall deformity had gradually improved. However, there was pus discharge, and computed tomography revealed abscess formation between the folded muscles. After open drainage of the abscess, it spontaneously shrank in 2 months. The rectus abdominus muscle was unclear in computed tomography (Fig. <xref ref-type=\"fig\" rid=\"gox-2-e195-g003\">3</xref>). Regarding her abdominal muscle strength, she could not do sit-ups. Throughout the follow-up period, her abdominal muscles were not strong enough to allow her to sit-up without using her arms (Fig. ). Regarding her abdominal muscle strength, she could not do sit-ups. Throughout the follow-up period, her abdominal muscles were not strong enough to allow her to sit-up without using her arms (Fig. <xref ref-type=\"fig\" rid=\"gox-2-e195-g004\">4</xref>).). Serous fluid pooled and an abscess between the muscles formed. The unevenness of the folded muscles in the abdomen resolved gradually after open drainage of the abscess. Although we intended to preserve the functional rectus abdominal muscle, the shape was unclear in computated tomography (Fig. <xref ref-type=\"fig\" rid=\"gox-2-e195-g003\">3</xref>) and the strength was not enough to allow her to sit up. The chest wall deformity improved conservatively within 6 months by use of a girth (Fig. ) and the strength was not enough to allow her to sit up. The chest wall deformity improved conservatively within 6 months by use of a girth (Fig. <xref ref-type=\"fig\" rid=\"gox-2-e195-g004\">4</xref>) as we expected from a a report by Kim et al.) as we expected from a a report by Kim et al.13",
-  "relevant_image_context": "The rectus abdominus muscle was unclear in computed tomography (Fig. 3). Although we intended to preserve the functional rectus abdominal muscle, the shape was unclear in computated tomography (Fig. 3) and the strength was not enough to allow her to sit up. Serous fluid pooled and an abscess between the muscles formed. The unevenness of the folded muscles in the abdomen resolved gradually after open drainage of the abscess. Regarding her abdominal muscle strength, she could not do sit-ups. Throughout the follow-up period, her abdominal muscles were not strong enough to allow her to sit-up without using her arms."
+  "relevant_image_context": "The rectus abdominus muscle was unclear in computed tomography (Fig. 3). Although we intended to preserve the functional rectus abdominal muscle, the shape was unclear in computated tomography (Fig. 3) and the strength was not enough to allow her to sit up. Serous fluid pooled and an abscess between the muscles formed. The unevenness of the folded muscles in the abdomen resolved gradually after open drainage of the abscess. Regarding her abdominal muscle strength, she could not do sit-ups. Throughout the follow-up period, her abdominal muscles were not strong enough to allow her to sit-up without using her arms.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_110_65-PMC8714213-2-21-1636-F3.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_110_65-PMC8714213-2-21-1636-F3.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Bilateral maxillary sinus opacification",
+        "claim_text": "Both maxillary sinuses are opacified with soft-tissue or fluid signal.",
+        "presence_question": "Does the model's response discuss Bilateral maxillary sinus opacification?",
+        "correctness_question": "Does the model's response correctly assert that Both maxillary sinuses are opacified with soft-tissue or fluid signal?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Left greater than right maxillary involvement",
+        "claim_text": "The left maxillary sinus shows greater extent of involvement than the right maxillary sinus.",
+        "presence_question": "Does the model's response discuss Left greater than right maxillary involvement?",
+        "correctness_question": "Does the model's response correctly assert that The left maxillary sinus shows greater extent of involvement than the right maxillary sinus?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Extension to left pterygopalatine fossa",
+        "claim_text": "Contiguous soft-tissue signal from the left maxillary sinus extends into the left pterygopalatine fossa.",
+        "presence_question": "Does the model's response discuss Extension to left pterygopalatine fossa?",
+        "correctness_question": "Does the model's response correctly assert that Contiguous soft-tissue signal from the left maxillary sinus extends into the left pterygopalatine fossa?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Extension to left masticator space",
+        "claim_text": "Contiguous soft-tissue signal from the left maxillary sinus extends into the left masticator space.",
+        "presence_question": "Does the model's response discuss Extension to left masticator space?",
+        "correctness_question": "Does the model's response correctly assert that Contiguous soft-tissue signal from the left maxillary sinus extends into the left masticator space?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Mild nasal septal deviation",
+        "claim_text": "There is mild deviation of the nasal septum on imaging.",
+        "presence_question": "Does the model's response discuss Mild nasal septal deviation?",
+        "correctness_question": "Does the model's response correctly assert that There is mild deviation of the nasal septum on imaging?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "maxillary sinuses",
+        "claim_text": "Maxillary sinuses are considered normal when they are air-filled.",
+        "presence_question": "Does the model's response discuss maxillary sinuses?",
+        "correctness_question": "Does the model's response correctly state that Maxillary sinuses are considered normal when they are air-filled?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "soft tissue or fluid in paranasal sinus",
+        "claim_text": "Soft tissue or fluid signal within a paranasal sinus indicates sinus opacification.",
+        "presence_question": "Does the model's response discuss soft tissue or fluid in paranasal sinus?",
+        "correctness_question": "Does the model's response correctly state that Soft tissue or fluid signal within a paranasal sinus indicates sinus opacification?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "soft tissue extension beyond sinus walls",
+        "claim_text": "Soft tissue extending beyond the sinus walls suggests involvement of adjacent deep facial spaces.",
+        "presence_question": "Does the model's response discuss soft tissue extension beyond sinus walls?",
+        "correctness_question": "Does the model's response correctly state that Soft tissue extending beyond the sinus walls suggests involvement of adjacent deep facial spaces?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "pterygopalatine fossa and masticator space",
+        "claim_text": "The pterygopalatine fossa and masticator space are adjacent to the lateral and posterior aspects of the maxillary sinus.",
+        "presence_question": "Does the model's response discuss pterygopalatine fossa and masticator space?",
+        "correctness_question": "Does the model's response correctly state that The pterygopalatine fossa and masticator space are adjacent to the lateral and posterior aspects of the maxillary sinus?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "nasal septal deviation",
+        "claim_text": "Nasal septal deviation is a common anatomic variation that is often clinically minor.",
+        "presence_question": "Does the model's response discuss nasal septal deviation?",
+        "correctness_question": "Does the model's response correctly state that Nasal septal deviation is a common anatomic variation that is often clinically minor?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "maxillary sinus opacification",
+        "claim_text": "The presence of soft-tissue/fluid signal filling both maxillary sinuses supports that both maxillary sinuses are opacified in this case.",
+        "presence_question": "Does the model's response make an inferential link about maxillary sinus opacification?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of soft-tissue/fluid signal filling both maxillary sinuses supports that both maxillary sinuses are opacified in this case?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "left extra-sinus extension",
+        "claim_text": "Contiguous soft-tissue signal extending from the left maxillary sinus into adjacent deep facial spaces is consistent with extra-sinus extension on the left.",
+        "presence_question": "Does the model's response make an inferential link about left extra-sinus extension?",
+        "correctness_question": "Does the model's response correctly conclude that Contiguous soft-tissue signal extending from the left maxillary sinus into adjacent deep facial spaces is consistent with extra-sinus extension on the left?",
+        "premise_perception_ids": [
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "left pterygopalatine and masticator involvement",
+        "claim_text": "The observed contiguous soft-tissue signal extends into the left pterygopalatine fossa and left masticator space, supporting involvement of those spaces.",
+        "presence_question": "Does the model's response make an inferential link about left pterygopalatine and masticator involvement?",
+        "correctness_question": "Does the model's response correctly conclude that The observed contiguous soft-tissue signal extends into the left pterygopalatine fossa and left masticator space, supporting involvement of those spaces?",
+        "premise_perception_ids": [
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "significance of nasal septal deviation",
+        "claim_text": "A mild nasal septal deviation is present but, as a common anatomic variation, is less likely to account for the dominant findings than bilateral maxillary sinus opacification with left-sided soft-tissue extension.",
+        "presence_question": "Does the model's response make an inferential link about the significance of the nasal septal deviation?",
+        "correctness_question": "Does the model's response correctly conclude that A mild nasal septal deviation is present but, as a common anatomic variation, is less likely to account for the dominant findings than bilateral maxillary sinus opacification with left-sided soft-tissue extension?",
+        "premise_perception_ids": [
+          "p5",
+          "p1",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "dominant abnormality identification",
+        "claim_text": "The combination of bilateral maxillary sinus opacification and contiguous left-sided soft-tissue extension justifies concluding that the dominant abnormality in this study is maxillary sinus opacification with left-sided extra-sinus extension.",
+        "presence_question": "Does the model's response make an inferential link about dominant abnormality identification?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of bilateral maxillary sinus opacification and contiguous left-sided soft-tissue extension justifies concluding that the dominant abnormality in this study is maxillary sinus opacification with left-sided extra-sinus extension?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

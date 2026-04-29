@@ -28,5 +28,77 @@
   "caption": "Abdominopelvic CT scan.",
   "sub_caption": "Perirenal urinoma",
   "image_context": "A 42 years old man was admitted to Department of emergency medicine at Sina Hospital because of left flank pain, which was lasted at least for 2 hours. The pain awakened the patient at 4 a.m. and the patient's pain, which was spread to suprapubic, worsened. The patient had no complications of fever, hematuria, urinary obstructive symptoms, and urinary irritation symptoms. He also had no history of renal or ureteral stone and renal trauma. He noticed that 6 hours before flank pain had been initiated, about 3 L of fluid was consumed by him in less than an hour, following of a 16-h-fasting. An abdominal sonography was performed and a massive perirenal urinoma around the left kidney, was detected. Thereafter, the patient was undergone abdominopelvic computed tomography (CT) (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>) and in addition to urinoma, a small 3mm stone in the distal of left ureter was seen. Meanwhile, serological and urine tests were carried out and the results were as follows: WBC = 8000, Hb = 15.1, PLT = 25,200, Cr = 1.0, Bun = 17, U/A: WBC = 10–15, RBC = many, Bacteria: negative.) and in addition to urinoma, a small 3mm stone in the distal of left ureter was seen. Meanwhile, serological and urine tests were carried out and the results were as follows: WBC = 8000, Hb = 15.1, PLT = 25,200, Cr = 1.0, Bun = 17, U/A: WBC = 10–15, RBC = many, Bacteria: negative.Fig. 1Abdominopelvic CT scan.Fig. 1",
-  "relevant_image_context": "A 42 years old man was admitted to Department of emergency medicine at Sina Hospital because of left flank pain, which was lasted at least for 2 hours. The pain awakened the patient at 4 a.m. and the patient's pain, which was spread to suprapubic, worsened. The patient had no complications of fever, hematuria, urinary obstructive symptoms, and urinary irritation symptoms. He also had no history of renal or ureteral stone and renal trauma. He noticed that 6 hours before flank pain had been initiated, about 3 L of fluid was consumed by him in less than an hour, following a 16-h-fasting. An abdominal sonography was performed and a massive perirenal urinoma around the left kidney, was detected. Fig. 1 Abdominopelvic CT scan."
+  "relevant_image_context": "A 42 years old man was admitted to Department of emergency medicine at Sina Hospital because of left flank pain, which was lasted at least for 2 hours. The pain awakened the patient at 4 a.m. and the patient's pain, which was spread to suprapubic, worsened. The patient had no complications of fever, hematuria, urinary obstructive symptoms, and urinary irritation symptoms. He also had no history of renal or ureteral stone and renal trauma. He noticed that 6 hours before flank pain had been initiated, about 3 L of fluid was consumed by him in less than an hour, following a 16-h-fasting. An abdominal sonography was performed and a massive perirenal urinoma around the left kidney, was detected. Fig. 1 Abdominopelvic CT scan.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_88_33-PMC7820026-0-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_88_33-PMC7820026-0-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left perirenal fluid collection",
+        "claim_text": "There is a fluid collection in the left perirenal space.",
+        "presence_question": "Does the model's response discuss left perirenal fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that There is a fluid collection in the left perirenal space.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "left renal collecting system adjacent to perirenal fluid",
+        "claim_text": "The left renal collecting system is adjacent to the perirenal fluid collection.",
+        "presence_question": "Does the model's response discuss left renal collecting system adjacent to perirenal fluid?",
+        "correctness_question": "Does the model's response correctly assert that The left renal collecting system is adjacent to the perirenal fluid collection.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "axial CT image of the abdomen",
+        "claim_text": "An axial CT image of the abdomen is present.",
+        "presence_question": "Does the model's response discuss axial CT image of the abdomen?",
+        "correctness_question": "Does the model's response correctly assert that An axial CT image of the abdomen is present.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "perirenal contrast extravasation",
+        "claim_text": "Contrast extravasation into the perirenal space indicates a urinary collecting-system leak and can localize the site of the leak.",
+        "presence_question": "Does the model's response discuss perirenal contrast extravasation?",
+        "correctness_question": "Does the model's response correctly state that Contrast extravasation into the perirenal space indicates a urinary collecting-system leak and can localize the site of the leak?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "imaging that opacifies the urinary collecting system",
+        "claim_text": "Imaging that opacifies the urinary collecting system is necessary to demonstrate contrast extravasation and to confirm and localize collecting-system leaks.",
+        "presence_question": "Does the model's response discuss imaging that opacifies the urinary collecting system?",
+        "correctness_question": "Does the model's response correctly state that Imaging that opacifies the urinary collecting system is necessary to demonstrate contrast extravasation and to confirm and localize collecting-system leaks?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "contrast-enhanced CT urography",
+        "claim_text": "Contrast-enhanced CT with a delayed excretory phase (CT urography) identifies opacification of the renal collecting system on delayed images and can directly demonstrate contrast extravasation.",
+        "presence_question": "Does the model's response discuss contrast-enhanced CT urography?",
+        "correctness_question": "Does the model's response correctly state that Contrast-enhanced CT with a delayed excretory phase (CT urography) identifies opacification of the renal collecting system on delayed images and can directly demonstrate contrast extravasation?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Selecting CT urography for perirenal fluid",
+        "claim_text": "The presence of a left perirenal fluid collection adjacent to the left renal collecting system justifies performing contrast-enhanced CT with delayed excretory-phase imaging (CT urography) as the most appropriate next test to confirm and localize a collecting-system leak in this case.",
+        "presence_question": "Does the model's response make an inferential link about Selecting CT urography for perirenal fluid?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a left perirenal fluid collection adjacent to the left renal collecting system justifies performing contrast-enhanced CT with delayed excretory-phase imaging (CT urography) as the most appropriate next test to confirm and localize a collecting-system leak in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

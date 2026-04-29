@@ -27,5 +27,137 @@
   "caption": "Brain MRI features of CSF1R-related leukoencephalopathy. The images were obtained from a 47-year-old female with progressive cognitive and behavioral deficits, and motor impairments with an approximate 3-year disease duration. Her father died of progressive dementia. The commercial genetic testing demonstrated the presence of heterozygote CSF1R mutation, p.L786S, c.2357 T > C. a, b Restricted diffusion in the splenium and left body of corpus callosum. c Thinning of corpus callosum on the sagittal section. d T2 hyperintensities in frontal and parietal white matter on the axial section. Courtesy of Daniel F. Broderick, M.D., Mayo Clinic Florida",
   "sub_caption": "c Thinning of corpus callosum on the sagittal section.",
   "image_context": "A diagnostic value of unique calcifications distributed in selective brain regions on computed tomography scans has been proposed [16]. In addition, thinning of the corpus callosum, extensive non-confluent and occasionally even confluent subcortical white matter lesions on T2-weighted brain MRI images, and persistent restricted diffusion of diffuse-weighted imaging signal without gadolinium enhancement can be evident during the disease course. This may help in identifying potential CSF1R-related leukoencephalopathy cases (Fig. <xref rid=\"40478_2020_1093_Fig1_HTML\" ref-type=\"fig\">1</xref>) [) [17]. We have previously demonstrated that the brain volume fractions measured by MRI did not differ significantly between CSF1R-related leukoencephalopathy and MS patients, while the cerebellum was relatively spared in CSF1R-related leukoencephalopathy patients [18]. We also employed an artificial intelligence machine learning to differentiate this disease state from MS using multi-parametric brain MRI images [19].Fig. 1Brain MRI features of CSF1R-related leukoencephalopathy. The images were obtained from a 47-year-old female with progressive cognitive and behavioral deficits, and motor impairments with an approximate 3-year disease duration. Her father died of progressive dementia. The commercial genetic testing demonstrated the presence of heterozygote CSF1R mutation, p.L786S, c.2357 T > C. a, b Restricted diffusion in the splenium and left body of corpus callosum. c Thinning of corpus callosum on the sagittal section. d T2 hyperintensities in frontal and parietal white matter on the axial section. Courtesy of Daniel F. Broderick, M.D., Mayo Clinic Florida",
-  "relevant_image_context": "A diagnostic value of unique calcifications distributed in selective brain regions on computed tomography scans has been proposed [16]. In addition, thinning of the corpus callosum, extensive non-confluent and occasionally even confluent subcortical white matter lesions on T2-weighted brain MRI images, and persistent restricted diffusion of diffuse-weighted imaging signal without gadolinium enhancement can be evident during the disease course. This may help in identifying potential CSF1R-related leukoencephalopathy cases (Fig. 1) [17]. We have previously demonstrated that the brain volume fractions measured by MRI did not differ significantly between CSF1R-related leukoencephalopathy and MS patients, while the cerebellum was relatively spared in CSF1R-related leukoencephalopathy patients [18]. We also employed an artificial intelligence machine learning to differentiate this disease state from MS using multi-parametric brain MRI images [19].Fig. 1 Brain MRI features of CSF1R-related leukoencephalopathy. The images were obtained from a 47-year-old female with progressive cognitive and behavioral deficits, and motor impairments with an approximate 3-year disease duration. Her father died of progressive dementia. The commercial genetic testing demonstrated the presence of heterozygote CSF1R mutation, p.L786S, c.2357 T > C. c Thinning of corpus callosum on the sagittal section. Courtesy of Daniel F. Broderick, M.D., Mayo Clinic Florida First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "A diagnostic value of unique calcifications distributed in selective brain regions on computed tomography scans has been proposed [16]. In addition, thinning of the corpus callosum, extensive non-confluent and occasionally even confluent subcortical white matter lesions on T2-weighted brain MRI images, and persistent restricted diffusion of diffuse-weighted imaging signal without gadolinium enhancement can be evident during the disease course. This may help in identifying potential CSF1R-related leukoencephalopathy cases (Fig. 1) [17]. We have previously demonstrated that the brain volume fractions measured by MRI did not differ significantly between CSF1R-related leukoencephalopathy and MS patients, while the cerebellum was relatively spared in CSF1R-related leukoencephalopathy patients [18]. We also employed an artificial intelligence machine learning to differentiate this disease state from MS using multi-parametric brain MRI images [19].Fig. 1 Brain MRI features of CSF1R-related leukoencephalopathy. The images were obtained from a 47-year-old female with progressive cognitive and behavioral deficits, and motor impairments with an approximate 3-year disease duration. Her father died of progressive dementia. The commercial genetic testing demonstrated the presence of heterozygote CSF1R mutation, p.L786S, c.2357 T > C. c Thinning of corpus callosum on the sagittal section. Courtesy of Daniel F. Broderick, M.D., Mayo Clinic Florida First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_3_filelist_commercial_batch_88_49-PMC7720517-0-40478_2020_1093_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_88_49-PMC7720517-0-40478_2020_1093_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "corpus callosum thinning",
+        "claim_text": "The corpus callosum is markedly thinned on midline sagittal imaging",
+        "presence_question": "Does the model's response discuss corpus callosum thinning?",
+        "correctness_question": "Does the model's response correctly assert that The corpus callosum is markedly thinned on midline sagittal imaging?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "central white matter volume loss",
+        "claim_text": "Generalized central white matter volume is decreased compared to expected",
+        "presence_question": "Does the model's response discuss central white matter volume loss?",
+        "correctness_question": "Does the model's response correctly assert that Generalized central white matter volume is decreased compared to expected?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "patient age",
+        "claim_text": "The patient's age is 47 years at the time of evaluation",
+        "presence_question": "Does the model's response discuss patient age?",
+        "correctness_question": "Does the model's response correctly assert that The patient's age is 47 years at the time of evaluation?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "progressive cognitive, behavioral, and motor decline",
+        "claim_text": "The patient has progressive cognitive and behavioral decline with motor impairment over approximately three years",
+        "presence_question": "Does the model's response discuss progressive cognitive, behavioral, and motor decline?",
+        "correctness_question": "Does the model's response correctly assert that The patient has progressive cognitive and behavioral decline with motor impairment over approximately three years?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "family history of dementia",
+        "claim_text": "The patient's father died of progressive dementia, indicating an affected prior generation",
+        "presence_question": "Does the model's response discuss family history of dementia?",
+        "correctness_question": "Does the model's response correctly assert that The patient's father died of progressive dementia, indicating an affected prior generation?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "vertical transmission across generations",
+        "claim_text": "Affected individuals in consecutive generations suggest vertical (familial) transmission of disease.",
+        "presence_question": "Does the model's response discuss vertical transmission across generations?",
+        "correctness_question": "Does the model's response correctly state that affected individuals in consecutive generations suggest vertical (familial) transmission of disease?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "autosomal dominant inheritance",
+        "claim_text": "Autosomal dominant inheritance occurs when a single pathogenic allele in a parent can cause disease in offspring when transmitted.",
+        "presence_question": "Does the model's response discuss autosomal dominant inheritance?",
+        "correctness_question": "Does the model's response correctly state that autosomal dominant inheritance occurs when a single pathogenic allele in a parent can cause disease in offspring when transmitted?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "autosomal dominant transmission risk",
+        "claim_text": "In autosomal dominant transmission, each child of an affected parent has a 50% probability of inheriting the pathogenic variant, independent of sex.",
+        "presence_question": "Does the model's response discuss autosomal dominant transmission risk?",
+        "correctness_question": "Does the model's response correctly state that in autosomal dominant transmission, each child of an affected parent has a 50% probability of inheriting the pathogenic variant, independent of sex?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "corpus callosum thinning and central white-matter loss",
+        "claim_text": "Thinning of the corpus callosum with central white-matter volume loss is characteristic of progressive neurodegenerative leukoencephalopathy and can be seen in relatively young adults.",
+        "presence_question": "Does the model's response discuss corpus callosum thinning and central white-matter loss?",
+        "correctness_question": "Does the model's response correctly state that thinning of the corpus callosum with central white-matter volume loss is characteristic of progressive neurodegenerative leukoencephalopathy and can be seen in relatively young adults?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Callosal thinning as leukoencephalopathy evidence",
+        "claim_text": "The observed corpus callosum thinning and central white-matter volume loss support that a progressive neurodegenerative leukoencephalopathy is a plausible diagnosis in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Callosal thinning as leukoencephalopathy evidence?",
+        "correctness_question": "Does the model's response correctly conclude that The observed corpus callosum thinning and central white-matter volume loss support that a progressive neurodegenerative leukoencephalopathy is a plausible diagnosis in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Vertical transmission within family",
+        "claim_text": "The presence of an affected father and the affected daughter supports that vertical transmission of the disease within the family is plausible.",
+        "presence_question": "Does the model's response make an inferential link about Vertical transmission within family?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of an affected father and the affected daughter supports that vertical transmission of the disease within the family is plausible?",
+        "premise_perception_ids": [
+          "p5",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Autosomal dominant inheritance inference",
+        "claim_text": "A dominant trait transmitted from an affected parent to an affected child is most consistent with autosomal dominant inheritance for this family pattern.",
+        "presence_question": "Does the model's response make an inferential link about Autosomal dominant inheritance inference?",
+        "correctness_question": "Does the model's response correctly conclude that A dominant trait transmitted from an affected parent to an affected child is most consistent with autosomal dominant inheritance for this family pattern?",
+        "premise_perception_ids": [
+          "p5",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Inheritance probability under autosomal dominant",
+        "claim_text": "If the causative variant follows autosomal dominant inheritance, then each biological child of an affected parent has a 50% probability of inheriting the pathogenic variant.",
+        "presence_question": "Does the model's response make an inferential link about Inheritance probability under autosomal dominant?",
+        "correctness_question": "Does the model's response correctly conclude that If the causative variant follows autosomal dominant inheritance, then each biological child of an affected parent has a 50% probability of inheriting the pathogenic variant?",
+        "premise_perception_ids": [],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

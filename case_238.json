@@ -27,5 +27,156 @@
   "caption": "In dermatomyositis lesions, epidermal thickening and echo enhancement are noted, and banded hypoechoic areas can be seen in the superficial dermis (43).",
   "sub_caption": "In dermatomyositis lesions, epidermal thickening and echo enhancement are noted, and banded hypoechoic areas can be seen in the superficial dermis (43).",
   "image_context": "Dermatomyositis is an autoimmune disease that causes skin changes and muscle weakness. The disease progresses from inflammation to fibrosis. Symptoms can include a reddish-purple rash around the eyelids, Gottron papules, and discoloured skin on the shoulders and neck (38, 39). Subcutaneous calcinosis can occasionally be seen, especially in juvenile dermatomyositis, and may result in pain, ulcerations, and infections (40). According to the histological description (41), patients with this condition have oedema present in the upper dermis and significant vacuolar interface change in the early stage, accompanied by extravasation of perivascular erythrocytes and inflammatory cells. However, later in the disease course, there is increased perivascular clustering, which leads to microinfarcts, necrosis, and hypoperfusion. Ischaemia and inflammatory infiltration can gradually cause the epidermis to atrophy and trigger fibrosis and atrophy of muscle fibres (42). In the acute phase, the epidermis of lesional skin appears thickened on ultrasound, echogenicity is increased, and blood flow is increased compared with healthy controls (43). There are also banded hypoechoic areas in the superficial dermis, which may be related to the expansion of epidermal capillaries and perivascular inflammation and oedema in the dermis (43). Finally, the subcutaneous diseased muscles are characterized by standard or slight swelling size, hyperperfusion, and relatively low echogenicity (44). In the chronic phase, on ultrasound, the epidermis is atrophied and its thickness decreased, and the blood flow is diminished. The muscle shows decreased fullness and thickness, with decreased perfusion of surrounding blood. The muscularis presents diffuse increased echogenicity due to replacing atrophic or obliterated muscle fibres with large amounts of proliferative connective tissue (7, 45). In addition, persistent elastotic values are increased at the lesional site (46), corresponding to the disease’s early inflammatory infiltration and late fibrotic course. In combination with calcinosis, intradermal hyperechoic masses with posterior acoustic shadowing are seen in lesional calcification (<xref rid=\"ActaDV-102-1969-g003\" ref-type=\"fig\"><bold>Fig. 3</bold></xref>; Fig. 3; 5, 47, 43, 48). Dermatomyositis sonographic manifestations vary with disease progression. Prompt diagnosis and intervention prior to lesion atrophy are beneficial to maintain limb function, prevent disability, and improve quality of life. Reimers et al. (7) reported that the sensitivity of sonography in detecting evidence of histopathologically proven dermatomyositis was not significantly different from that of electromyography or the measurement of creatine kinase activity. Furthermore, quantifying the distribution and degree of the lesion and variations in echo-intensity helps in assessing the disease’s chronicity and severity and provides clues for assessing treatment effectiveness. Mittal et al. (49) recorded HFUS features at baseline and after 6 months of treatment in 11 patients with early, active, untreated inflammatory myopathies; all abnormalities of thigh muscles ultimately resolved with treatment.",
-  "relevant_image_context": "In the acute phase, the epidermis of lesional skin appears thickened on ultrasound, echogenicity is increased, and blood flow is increased compared with healthy controls (43). There are also banded hypoechoic areas in the superficial dermis, which may be related to the expansion of epidermal capillaries and perivascular inflammation and oedema in the dermis (43)."
+  "relevant_image_context": "In the acute phase, the epidermis of lesional skin appears thickened on ultrasound, echogenicity is increased, and blood flow is increased compared with healthy controls (43). There are also banded hypoechoic areas in the superficial dermis, which may be related to the expansion of epidermal capillaries and perivascular inflammation and oedema in the dermis (43).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_120_21-PMC9558316-1-ActaDV-102-1969-g003.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_120_21-PMC9558316-1-ActaDV-102-1969-g003.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "superficial skin layering",
+        "claim_text": "The superficial skin demonstrates a layered appearance on imaging.",
+        "presence_question": "Does the model's response discuss superficial skin layering?",
+        "correctness_question": "Does the model's response correctly assert that The superficial skin demonstrates a layered appearance on imaging?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "focal elevation of superficial layers",
+        "claim_text": "A focal elevation of the superficial layers at the epidermis-dermis junction is present on imaging.",
+        "presence_question": "Does the model's response discuss focal elevation of superficial layers?",
+        "correctness_question": "Does the model's response correctly assert that A focal elevation of the superficial layers at the epidermis-dermis junction is present on imaging?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "superficial dermis echotexture",
+        "claim_text": "The superficial dermis shows a heterogeneous echotexture on imaging.",
+        "presence_question": "Does the model's response discuss superficial dermis echotexture?",
+        "correctness_question": "Does the model's response correctly assert that The superficial dermis shows a heterogeneous echotexture on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "bright signal areas in affected zone",
+        "claim_text": "The affected superficial zone contains mixed higher-signal (bright) areas on imaging.",
+        "presence_question": "Does the model's response discuss bright signal areas in affected zone?",
+        "correctness_question": "Does the model's response correctly assert that The affected superficial zone contains mixed higher-signal (bright) areas on imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "dark low-signal regions in affected zone",
+        "claim_text": "The affected superficial zone contains darker low-signal regions on imaging.",
+        "presence_question": "Does the model's response discuss dark low-signal regions in affected zone?",
+        "correctness_question": "Does the model's response correctly assert that The affected superficial zone contains darker low-signal regions on imaging?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "banded pattern of signal variation",
+        "claim_text": "Signal variation in the superficial dermis and affected zone demonstrates a banded pattern.",
+        "presence_question": "Does the model's response discuss banded pattern of signal variation?",
+        "correctness_question": "Does the model's response correctly assert that Signal variation in the superficial dermis and affected zone demonstrates a banded pattern?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "lesion morphology",
+        "claim_text": "The lesion morphology is not non-nodular on imaging.",
+        "presence_question": "Does the model's response discuss lesion morphology?",
+        "correctness_question": "Does the model's response correctly assert that The lesion morphology is not non-nodular on imaging?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "well-defined fluid collection",
+        "claim_text": "No well-defined fluid collection is present in the imaged region on imaging.",
+        "presence_question": "Does the model's response discuss well-defined fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that No well-defined fluid collection is present in the imaged region on imaging?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "discrete solid mass",
+        "claim_text": "No discrete solid mass is present in the imaged region on imaging.",
+        "presence_question": "Does the model's response discuss discrete solid mass?",
+        "correctness_question": "Does the model's response correctly assert that No discrete solid mass is present in the imaged region on imaging?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "superficial soft tissue thickening",
+        "claim_text": "The superficial soft tissues and dermis show focal thickening on imaging.",
+        "presence_question": "Does the model's response discuss superficial soft tissue thickening?",
+        "correctness_question": "Does the model's response correctly assert that The superficial soft tissues and dermis show focal thickening on imaging?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "superficial dermal heterogeneous echotexture",
+        "claim_text": "A heterogeneous, banded echotexture with focal thickening in the superficial dermis suggests an active superficial inflammatory process.",
+        "presence_question": "Does the model's response discuss superficial dermal heterogeneous echotexture?",
+        "correctness_question": "Does the model's response correctly state that A heterogeneous, banded echotexture with focal thickening in the superficial dermis suggests an active superficial inflammatory process?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "well-defined fluid collection or solid mass",
+        "claim_text": "A well-defined fluid collection or a discrete solid mass is characteristic of an abscess or of a focal solid lesion.",
+        "presence_question": "Does the model's response discuss well-defined fluid collections or discrete solid masses?",
+        "correctness_question": "Does the model's response correctly state that A well-defined fluid collection or a discrete solid mass is characteristic of an abscess or of a focal solid lesion?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "active superficial inflammatory skin changes",
+        "claim_text": "Active inflammatory superficial skin changes are typically treated with anti-inflammatory therapy.",
+        "presence_question": "Does the model's response discuss active superficial inflammatory skin changes?",
+        "correctness_question": "Does the model's response correctly state that Active inflammatory superficial skin changes are typically treated with anti-inflammatory therapy?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "active superficial inflammation",
+        "claim_text": "The combination of heterogeneous echotexture, banded non-nodular appearance, and focal superficial thickening on the image supports the presence of active superficial inflammatory changes in this case.",
+        "presence_question": "Does the model's response make an inferential link about active superficial inflammation?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of heterogeneous echotexture, banded non-nodular appearance, and focal superficial thickening on the image supports the presence of active superficial inflammatory changes in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p6",
+          "p7",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "abscess or discrete solid mass",
+        "claim_text": "The absence of a well-defined fluid collection or a discrete solid mass on the image argues against an abscess or discrete solid mass in this case.",
+        "presence_question": "Does the model's response make an inferential link about an abscess or discrete solid mass?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of a well-defined fluid collection or a discrete solid mass on the image argues against an abscess or discrete solid mass in this case?",
+        "premise_perception_ids": [
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "response to anti-inflammatory therapy",
+        "claim_text": "The imaging findings of active superficial inflammation, combined with the principle that such conditions are treated with anti-inflammatory therapy, justify expecting a therapeutic response to anti-inflammatory treatment in this case.",
+        "presence_question": "Does the model's response make an inferential link about response to anti-inflammatory therapy?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings of active superficial inflammation, combined with the principle that such conditions are treated with anti-inflammatory therapy, justify expecting a therapeutic response to anti-inflammatory treatment in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p6",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

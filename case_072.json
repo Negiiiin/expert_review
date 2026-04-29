@@ -28,5 +28,107 @@
   "caption": "Computed tomography image of the impacted gallstone (yellow arrows) at the intersection of the second and the third parts of the duodenum, which was causing gastric outlet obstruction.",
   "sub_caption": "Computed tomography image of the impacted gallstone (yellow arrows) at the intersection of the second and the third parts of the duodenum, which was causing gastric outlet obstruction.",
   "image_context": "A 69-year-old woman attended the emergency department with severe nausea, vomiting, and abdominal pain, and an absence of flatulence and defecation. Abdominal computed tomography examination showed a cholecystoduodenal fistula and a 56 × 59-mm stone at the intersection of the second and third parts of the duodenum (\n<xref rid=\"10-1055-a-1887-5539-i3199ev1\" ref-type=\"fig\">Fig. 1</xref>\n). Endoscopic evaluation was performed with a CF170Q endoscope (Olympus, Japan), and the orifice of the cholecystoduodenal fistula was observed at the apex of the duodenal bulb. In addition, a giant stone was seen at the intersection of the second and third parts of the duodenum (\n\n). Endoscopic evaluation was performed with a CF170Q endoscope (Olympus, Japan), and the orifice of the cholecystoduodenal fistula was observed at the apex of the duodenal bulb. In addition, a giant stone was seen at the intersection of the second and third parts of the duodenum (\n<xref rid=\"10-1055-a-1887-5539-i3199ev2\" ref-type=\"fig\">Fig. 2</xref>\n). Enterographic examination obtained by the endoscopic administration of radiopaque contrast medium showed almost complete intestinal obstruction (\n\n). Enterographic examination obtained by the endoscopic administration of radiopaque contrast medium showed almost complete intestinal obstruction (\n<xref rid=\"10-1055-a-1887-5539-i3199ev3\" ref-type=\"fig\">Fig. 3</xref>\n).\n\n).",
-  "relevant_image_context": "A 69-year-old woman attended the emergency department with severe nausea, vomiting, and abdominal pain, and an absence of flatulence and defecation. Abdominal computed tomography examination showed a cholecystoduodenal fistula and a 56 × 59-mm stone at the intersection of the second and third parts of the duodenum."
+  "relevant_image_context": "A 69-year-old woman attended the emergency department with severe nausea, vomiting, and abdominal pain, and an absence of flatulence and defecation. Abdominal computed tomography examination showed a cholecystoduodenal fistula and a 56 × 59-mm stone at the intersection of the second and third parts of the duodenum.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_123_22-PMC9736820-4-10-1055-a-1887-5539-i3199ev1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_123_22-PMC9736820-4-10-1055-a-1887-5539-i3199ev1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Duodenal lesion margin",
+        "claim_text": "A lesion in the duodenum has a well defined margin.",
+        "presence_question": "Does the model's response discuss Duodenal lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that A lesion in the duodenum has a well defined margin?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Duodenal lesion shape",
+        "claim_text": "A lesion in the duodenum is rounded in shape.",
+        "presence_question": "Does the model's response discuss Duodenal lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that A lesion in the duodenum is rounded in shape?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Duodenal lesion density",
+        "claim_text": "A lesion within the duodenum appears hyperdense on imaging.",
+        "presence_question": "Does the model's response discuss Duodenal lesion density?",
+        "correctness_question": "Does the model's response correctly assert that A lesion within the duodenum appears hyperdense on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Lesion at duodenal D2-D3 junction",
+        "claim_text": "The lesion is located at the junction of the second and third portions of the duodenum.",
+        "presence_question": "Does the model's response discuss Lesion at duodenal D2-D3 junction?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located at the junction of the second and third portions of the duodenum?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Duodenal lumen lesion",
+        "claim_text": "The lesion is located within the duodenal lumen.",
+        "presence_question": "Does the model's response discuss Duodenal lumen lesion?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located within the duodenal lumen?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Luminal material adjacent to lesion",
+        "claim_text": "Luminal material is adjacent to the lesion on its proximal side.",
+        "presence_question": "Does the model's response discuss Luminal material adjacent to lesion?",
+        "correctness_question": "Does the model's response correctly assert that Luminal material is adjacent to the lesion on its proximal side?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Bowel gas or fluid proximal to lesion",
+        "claim_text": "Gas and/or fluid are present in the bowel proximal to the lesion.",
+        "presence_question": "Does the model's response discuss Bowel gas or fluid proximal to lesion?",
+        "correctness_question": "Does the model's response correctly assert that Gas and/or fluid are present in the bowel proximal to the lesion?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "hyperdense CT structure",
+        "claim_text": "A high-attenuation (hyperdense) structure on CT typically indicates calcified material or a stone.",
+        "presence_question": "Does the model's response discuss hyperdense CT structure?",
+        "correctness_question": "Does the model's response correctly state that a high-attenuation (hyperdense) structure on CT typically indicates calcified material or a stone?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "axial CT imaging",
+        "claim_text": "Axial CT images are typically better for assessing lesion location, attenuation, and anatomic relationships.",
+        "presence_question": "Does the model's response discuss axial CT imaging?",
+        "correctness_question": "Does the model's response correctly state that axial CT images are typically better for assessing lesion location, attenuation, and anatomic relationships?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "intraluminal calcified fragments",
+        "claim_text": "Calcified or stone fragments can be seen in the bowel lumen as lodged intraluminal objects.",
+        "presence_question": "Does the model's response discuss intraluminal calcified fragments?",
+        "correctness_question": "Does the model's response correctly state that calcified or stone fragments can be seen in the bowel lumen as lodged intraluminal objects?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Calcified stone fragment in duodenum",
+        "claim_text": "The intraluminal, sharply marginated, rounded, hyperdense lesion at the D2-D3 junction supports the presence of a calcified or stone fragment lodged in the duodenal lumen.",
+        "presence_question": "Does the model's response make an inferential link about Calcified stone fragment in duodenum?",
+        "correctness_question": "Does the model's response correctly conclude that The intraluminal, sharply marginated, rounded, hyperdense lesion at the D2-D3 junction supports the presence of a calcified or stone fragment lodged in the duodenal lumen?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,161 @@
   "caption": "Coronal Cardiac MRI image of the patient showing the presence of the right persistent superior vena, left superior vena cava and bridging inominate vein.",
   "sub_caption": "Coronal Cardiac MRI image of the patient showing the presence of the right persistent superior vena, left superior vena cava and bridging inominate vein.",
   "image_context": "Given the dextrocardia, a right sided approach was undertaken to optimize defibrillation vectors. Triple cannulation of the right axillary vein was performed. Cardiac MRI had revealed the presence of a right persistent superior vena cava (RPSVC) and innominate vein bridging to the proper (given the diagnosis of situs inversus totalis) left superior vena cava (LSVC) (<xref ref-type=\"fig\" rid=\"ipej100058-01\">Figure 1</xref>).). An initial attempt was made to introduce an active fixation dual coil ventricular defibrillation lead (Endotak Reliance Goretex™, model 0184, Boston Scientific Corp., St. Paul, MN) and an active fixation bipolar atrial lead (Medtronic Capsurefix Novus 5076™, Medtronic Corp.) via the innominate vein draining into the left superior vena cava. This approach failed as there was inadequate innominate vessel caliber to allow free movement of the leads. Subsequent venography showed that the right PSVC drained into the right atrium via the coronary sinus. (<xref ref-type=\"fig\" rid=\"ipej100058-01\">Figure 1</xref> and  and <xref ref-type=\"fig\" rid=\"ipej100058-02\">Figure 2</xref>). The dual coil lead defibrillator lead was redirected via the right PSVC and was placed in the RV apex. Capture threshold measured 0.6 V at 0.5ms with an impedence of 675Ω, sensing amplitude was 30.0mV with a slew rate of 4.0 V/s and high-voltage shock impedance was 44Ω.). The dual coil lead defibrillator lead was redirected via the right PSVC and was placed in the RV apex. Capture threshold measured 0.6 V at 0.5ms with an impedence of 675Ω, sensing amplitude was 30.0mV with a slew rate of 4.0 V/s and high-voltage shock impedance was 44Ω.",
-  "relevant_image_context": "Given the dextrocardia, a right sided approach was undertaken to optimize defibrillation vectors. Triple cannulation of the right axillary vein was performed. Cardiac MRI had revealed the presence of a right persistent superior vena cava (RPSVC) and innominate vein bridging to the proper (given the diagnosis of situs inversus totalis) left superior vena cava (LSVC) (Figure 1). Subsequently venography showed that the right PSVC drained into the right atrium via the coronary sinus (Figure 1 and  Figure 2)."
+  "relevant_image_context": "Given the dextrocardia, a right sided approach was undertaken to optimize defibrillation vectors. Triple cannulation of the right axillary vein was performed. Cardiac MRI had revealed the presence of a right persistent superior vena cava (RPSVC) and innominate vein bridging to the proper (given the diagnosis of situs inversus totalis) left superior vena cava (LSVC) (Figure 1). Subsequently venography showed that the right PSVC drained into the right atrium via the coronary sinus (Figure 1 and  Figure 2).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_4_60-PMC2803607-2-ipej100058-01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_4_60-PMC2803607-2-ipej100058-01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "right-sided heart (dextrocardia)",
+        "claim_text": "The heart is located on the right side of the chest, consistent with dextrocardia.",
+        "presence_question": "Does the model's response discuss right-sided heart (dextrocardia)?",
+        "correctness_question": "Does the model's response correctly assert that The heart is located on the right side of the chest, consistent with dextrocardia?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "right superior vena cava",
+        "claim_text": "A right superior vena cava is visualized on the right side of the mediastinum.",
+        "presence_question": "Does the model's response discuss right superior vena cava?",
+        "correctness_question": "Does the model's response correctly assert that A right superior vena cava is visualized on the right side of the mediastinum?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "course of right superior vena cava",
+        "claim_text": "The right superior vena cava courses toward the right-sided cardiac silhouette in the mediastinum.",
+        "presence_question": "Does the model's response discuss course of right superior vena cava?",
+        "correctness_question": "Does the model's response correctly assert that The right superior vena cava courses toward the right-sided cardiac silhouette in the mediastinum?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "left superior vena cava",
+        "claim_text": "A left superior vena cava is visualized on the left side of the mediastinum.",
+        "presence_question": "Does the model's response discuss left superior vena cava?",
+        "correctness_question": "Does the model's response correctly assert that A left superior vena cava is visualized on the left side of the mediastinum?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "bridging (innominate) vein",
+        "claim_text": "A bridging (innominate) vein is visualized in the mediastinum between the superior vena cavae.",
+        "presence_question": "Does the model's response discuss bridging (innominate) vein?",
+        "correctness_question": "Does the model's response correctly assert that A bridging (innominate) vein is visualized in the mediastinum between the superior vena cavae?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "bridging vein location between SVCs",
+        "claim_text": "The bridging (innominate) vein is located between the right and left superior vena cavae, connecting them.",
+        "presence_question": "Does the model's response discuss bridging vein location between SVCs?",
+        "correctness_question": "Does the model's response correctly assert that The bridging (innominate) vein is located between the right and left superior vena cavae, connecting them?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "mediastinal venous structures",
+        "claim_text": "Three mediastinal venous structures are visualized and labeled.",
+        "presence_question": "Does the model's response discuss mediastinal venous structures?",
+        "correctness_question": "Does the model's response correctly assert that Three mediastinal venous structures are visualized and labeled?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "right superior vena cava patency",
+        "claim_text": "The right superior vena cava appears patent without evidence of occlusion.",
+        "presence_question": "Does the model's response discuss right superior vena cava patency?",
+        "correctness_question": "Does the model's response correctly assert that The right superior vena cava appears patent without evidence of occlusion?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "right SVC caliber",
+        "claim_text": "The right superior vena cava is relatively large in caliber compared with other mediastinal veins.",
+        "presence_question": "Does the model's response discuss right SVC caliber?",
+        "correctness_question": "Does the model's response correctly assert that The right superior vena cava is relatively large in caliber compared with other mediastinal veins?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "bridging vein caliber",
+        "claim_text": "The bridging (innominate) vein is smaller in caliber than the right superior vena cava.",
+        "presence_question": "Does the model's response discuss bridging vein caliber?",
+        "correctness_question": "Does the model's response correctly assert that The bridging (innominate) vein is smaller in caliber than the right superior vena cava?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "bridging vein caliber comparison",
+        "claim_text": "The bridging (innominate) vein is of lesser caliber than the right superior vena cava.",
+        "presence_question": "Does the model's response discuss bridging vein caliber comparison?",
+        "correctness_question": "Does the model's response correctly assert that The bridging (innominate) vein is of lesser caliber than the right superior vena cava?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "patent superior vena cava",
+        "claim_text": "A patent superior vena cava typically allows passage of transvenous cardiac device leads into the heart.",
+        "presence_question": "Does the model's response discuss patent superior vena cava?",
+        "correctness_question": "Does the model's response correctly state that a patent superior vena cava typically allows passage of transvenous cardiac device leads into the heart?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "dextrocardia",
+        "claim_text": "Dextrocardia is a condition in which the heart is located on the right side of the chest.",
+        "presence_question": "Does the model's response discuss dextrocardia?",
+        "correctness_question": "Does the model's response correctly state that dextrocardia is a condition in which the heart is located on the right side of the chest?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "small-caliber central vein",
+        "claim_text": "A small-caliber central vein typically limits the passage of transvenous devices or leads.",
+        "presence_question": "Does the model's response discuss a small-caliber central vein?",
+        "correctness_question": "Does the model's response correctly state that a small-caliber central vein typically limits the passage of transvenous devices or leads?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "RSVC suitability as venous conduit",
+        "claim_text": "The observed patent, relatively large-caliber right superior vena cava (RSVC) coursing to the right-sided cardiac silhouette supports that the RSVC is a suitable venous conduit in this case for passage of transvenous defibrillator leads to the heart.",
+        "presence_question": "Does the model's response make an inferential link about RSVC suitability as venous conduit?",
+        "correctness_question": "Does the model's response correctly conclude that The observed patent, relatively large-caliber right superior vena cava (RSVC) coursing to the right-sided cardiac silhouette supports that the RSVC is a suitable venous conduit in this case for passage of transvenous defibrillator leads to the heart.?",
+        "premise_perception_ids": [
+          "p3",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Bridging/innominate vein suitability",
+        "claim_text": "The bridging/innominate vein's smaller caliber compared with the RSVC argues against the bridging/innominate vein being a suitable venous conduit in this case for passage of transvenous leads.",
+        "presence_question": "Does the model's response make an inferential link about Bridging/innominate vein suitability?",
+        "correctness_question": "Does the model's response correctly conclude that The bridging/innominate vein's smaller caliber compared with the RSVC argues against the bridging/innominate vein being a suitable venous conduit in this case for passage of transvenous leads.?",
+        "premise_perception_ids": [
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Right-sided transvenous lead placement justified",
+        "claim_text": "Because the heart is right-sided and a patent RSVC on the right provides a continuous channel to the cardiac region, attempting right-sided transvenous lead placement is justified in this case.",
+        "presence_question": "Does the model's response make an inferential link about Right-sided transvenous lead placement justified?",
+        "correctness_question": "Does the model's response correctly conclude that Because the heart is right-sided and a patent RSVC on the right provides a continuous channel to the cardiac region, attempting right-sided transvenous lead placement is justified in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

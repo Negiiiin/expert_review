@@ -27,5 +27,119 @@
   "caption": "Hyaluronic acid deposits (HA) visible in the parotid gland. Nodules (*) visible seen by chronic parotid inflammation. The total distance from skin to SMAS including the subcutaneous layer is 3.21 mm",
   "sub_caption": "Hyaluronic acid deposits (HA) visible in the parotid gland. Nodules (*) visible seen by chronic parotid inflammation. The total distance from skin to SMAS including the subcutaneous layer is 3.21 mm",
   "image_context": "On physical examination, the patient showed no swelling of the parotid‐masseteric region. Ultrasound images (Philips Affiniti 70, 18 MHz linear probe) displayed multiple anechoic pockets in the parotid gland on both sides of the face, matching with nodules seen with chronic parotitis (Figure <xref rid=\"JOCD-22-173-g001\" ref-type=\"fig\">3</xref>). Two pockets of hyaluronic acid fillers were seen in the parotid gland with ultrasound. The patient was treated with hyaluronidase intralesional injections (150 units divided over the two pockets) under ultrasound guidance. At follow‐up 4 weeks later, swelling and tenderness had disappeared.). Two pockets of hyaluronic acid fillers were seen in the parotid gland with ultrasound. The patient was treated with hyaluronidase intralesional injections (150 units divided over the two pockets) under ultrasound guidance. At follow‐up 4 weeks later, swelling and tenderness had disappeared.",
-  "relevant_image_context": "Ultrasound images displayed multiple anechoic pockets in the parotid gland on both sides of the face, matching with nodules seen with chronic parotitis. Two pockets of hyaluronic acid fillers were seen in the parotid gland with ultrasound. The patient was treated with hyaluronidase intralesional injections (150 units divided over the two pockets) under ultrasound guidance. At follow-up 4 weeks later, swelling and tenderness had disappeared."
+  "relevant_image_context": "Ultrasound images displayed multiple anechoic pockets in the parotid gland on both sides of the face, matching with nodules seen with chronic parotitis. Two pockets of hyaluronic acid fillers were seen in the parotid gland with ultrasound. The patient was treated with hyaluronidase intralesional injections (150 units divided over the two pockets) under ultrasound guidance. At follow-up 4 weeks later, swelling and tenderness had disappeared.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_129_19-PMC10088009-3-JOCD-22-173-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_129_19-PMC10088009-3-JOCD-22-173-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "parotid gland",
+        "claim_text": "The parotid gland is present in the facial region.",
+        "presence_question": "Does the model's response discuss parotid gland?",
+        "correctness_question": "Does the model's response correctly assert that The parotid gland is present in the facial region?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "masseter muscle",
+        "claim_text": "The masseter muscle is present in the facial region.",
+        "presence_question": "Does the model's response discuss masseter muscle?",
+        "correctness_question": "Does the model's response correctly assert that The masseter muscle is present in the facial region?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "mandible",
+        "claim_text": "The mandible is present in the facial region.",
+        "presence_question": "Does the model's response discuss mandible?",
+        "correctness_question": "Does the model's response correctly assert that The mandible is present in the facial region?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "ovoid focus",
+        "claim_text": "An ovoid focus is present within the facial soft tissue.",
+        "presence_question": "Does the model's response discuss ovoid focus?",
+        "correctness_question": "Does the model's response correctly assert that An ovoid focus is present within the facial soft tissue?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "ovoid focus shape",
+        "claim_text": "The focus is ovoid in shape within the facial soft tissue.",
+        "presence_question": "Does the model's response discuss ovoid focus shape?",
+        "correctness_question": "Does the model's response correctly assert that The focus is ovoid in shape within the facial soft tissue?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "HA label",
+        "claim_text": "A label 'HA' is present on the image within the facial soft tissue.",
+        "presence_question": "Does the model's response discuss HA label?",
+        "correctness_question": "Does the model's response correctly assert that A label 'HA' is present on the image within the facial soft tissue?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "ovoid focus location",
+        "claim_text": "The ovoid focus is located in the facial soft tissue.",
+        "presence_question": "Does the model's response discuss ovoid focus location?",
+        "correctness_question": "Does the model's response correctly assert that The ovoid focus is located in the facial soft tissue?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "ovoid focus count",
+        "claim_text": "There is a single ovoid focus in the facial soft tissue.",
+        "presence_question": "Does the model's response discuss ovoid focus count?",
+        "correctness_question": "Does the model's response correctly assert that There is a single ovoid focus in the facial soft tissue?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "abbreviation HA",
+        "claim_text": "HA is an abbreviation for hyaluronic acid.",
+        "presence_question": "Does the model's response discuss abbreviation HA?",
+        "correctness_question": "Does the model's response correctly state that HA is an abbreviation for hyaluronic acid?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "hyaluronic acid filler",
+        "claim_text": "Hyaluronic acid fillers can be treated with hyaluronidase, an enzyme that degrades hyaluronic acid.",
+        "presence_question": "Does the model's response discuss hyaluronic acid filler?",
+        "correctness_question": "Does the model's response correctly state that hyaluronic acid fillers can be treated with hyaluronidase, an enzyme that degrades hyaluronic acid?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "HA filler identification",
+        "claim_text": "The ovoid focus labeled 'HA' within the facial soft tissue on ultrasound likely represents hyaluronic acid filler, which supports the conclusion that hyaluronic acid filler is present in this case.",
+        "presence_question": "Does the model's response make an inferential link about HA filler identification?",
+        "correctness_question": "Does the model's response correctly conclude that the ovoid focus labeled 'HA' within the facial soft tissue on ultrasound likely represents hyaluronic acid filler, which supports the conclusion that hyaluronic acid filler is present in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Justification of hyaluronidase therapy",
+        "claim_text": "Because the identified filler corresponds to hyaluronic acid and hyaluronidase degrades hyaluronic acid, intralesional hyaluronidase therapy is justified to remove the filler in this case.",
+        "presence_question": "Does the model's response make an inferential link about Justification of hyaluronidase therapy?",
+        "correctness_question": "Does the model's response correctly conclude that because the identified filler corresponds to hyaluronic acid and hyaluronidase degrades hyaluronic acid, intralesional hyaluronidase therapy is justified to remove the filler in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

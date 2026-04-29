@@ -27,5 +27,149 @@
   "caption": "The fovea vessel density (FVDS) measured in superficial capillary plexus (SCP) using a density function on the imaging software.Notes: In vascular density color perfusion maps, bright red represents a density of greater than 50% perfused vessels, dark blue represents no perfused vessels, and intermediate perfusion densities are color coded accordingly. In presented case example of 82-year-old male patient, the increase of FVDS from 29.83% to 38.73% after surgery is to observe. The ischemic areas decreased significantly. We observe a reduction of central retinal thickness from 531 to 253 µm postoperatively.",
   "sub_caption": "The fovea vessel density (FVDS) measured in superficial capillary plexus (SCP) using a density function on the imaging software. Notes: In vascular density color perfusion maps, bright red represents a density of greater than 50% perfused vessels, dark blue represents no perfused vessels, and intermediate perfusion densities are color coded accordingly. In presented case example of 82-year-old male patient, the increase of FVDS from 29.83% to 38.73% after surgery is to observe. The ischemic areas decreased significantly. We observe a reduction of central retinal thickness from 531 to 253 µm postoperatively.",
   "image_context": "The fovea vessel density (FVDS) was measured on SCP images using a density function on the AngioAnalytics software. Qualitative data consisted of retinal vascular density color perfusion maps generated for each microvascular layer. In the color maps, bright red represents a density of greater than 50% perfused vessels, dark blue represents no perfused vessels, and intermediate perfusion densities are color coded accordingly. From OCT thickness inner limiting membrane:retinal pigment epithelium (ILM-RPE) and Vessel Density Report, we obtained the data about FVDS (in % perfused vessels) as well as a central retinal thickness (CRT) values (in µm) (<xref ref-type=\"fig\" rid=\"cia-14-505Fig2\">Figure 2</xref>).).",
-  "relevant_image_context": "The fovea vessel density (FVDS) was measured on SCP images using a density function on the AngioAnalytics software. Qualitative data consisted of retinal vascular density color perfusion maps generated for each microvascular layer. In the color maps, bright red represents a density of greater than 50% perfused vessels, dark blue represents no perfused vessels, and intermediate perfusion densities are color coded accordingly. From OCT thickness ILM-RPE and Vessel Density Report, we obtained the data about FVDS (in % perfused vessels) as well as a central retinal thickness (CRT) values (in µm). In presented case example of 82-year-old male patient, the increase of FVDS from 29.83% to 38.73% after surgery is to observe. The ischemic areas decreased significantly. We observe a reduction of central retinal thickness from 531 to 253 µm postoperatively."
+  "relevant_image_context": "The fovea vessel density (FVDS) was measured on SCP images using a density function on the AngioAnalytics software. Qualitative data consisted of retinal vascular density color perfusion maps generated for each microvascular layer. In the color maps, bright red represents a density of greater than 50% perfused vessels, dark blue represents no perfused vessels, and intermediate perfusion densities are color coded accordingly. From OCT thickness ILM-RPE and Vessel Density Report, we obtained the data about FVDS (in % perfused vessels) as well as a central retinal thickness (CRT) values (in µm). In presented case example of 82-year-old male patient, the increase of FVDS from 29.83% to 38.73% after surgery is to observe. The ischemic areas decreased significantly. We observe a reduction of central retinal thickness from 531 to 253 µm postoperatively.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_65_4-PMC6413747-2-cia-14-505Fig2.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_65_4-PMC6413747-2-cia-14-505Fig2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "central foveal dark oval",
+        "claim_text": "A central dark oval area is present in the foveal region.",
+        "presence_question": "Does the model's response discuss central foveal dark oval?",
+        "correctness_question": "Does the model's response correctly assert that A central dark oval area is present in the foveal region?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "capillary network around fovea",
+        "claim_text": "A network of capillaries surrounds the central dark oval area in the foveal/macular region.",
+        "presence_question": "Does the model's response discuss capillary network around fovea?",
+        "correctness_question": "Does the model's response correctly assert that A network of capillaries surrounds the central dark oval area in the foveal/macular region?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "larger-caliber macular vessels",
+        "claim_text": "Larger-caliber vessels are present in the macular region.",
+        "presence_question": "Does the model's response discuss larger-caliber macular vessels?",
+        "correctness_question": "Does the model's response correctly assert that Larger-caliber vessels are present in the macular region?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "radial orientation of macular vessels",
+        "claim_text": "The larger-caliber vessels in the macula have a radial orientation.",
+        "presence_question": "Does the model's response discuss radial orientation of macular vessels?",
+        "correctness_question": "Does the model's response correctly assert that The larger-caliber vessels in the macula have a radial orientation?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "straight shape of macular vessels",
+        "claim_text": "The larger-caliber vessels in the macula are straight in shape.",
+        "presence_question": "Does the model's response discuss straight shape of macular vessels?",
+        "correctness_question": "Does the model's response correctly assert that The larger-caliber vessels in the macula are straight in shape?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "vessels overlying capillary mesh",
+        "claim_text": "The larger-caliber vessels overlie the capillary mesh in the macula.",
+        "presence_question": "Does the model's response discuss vessels overlying capillary mesh?",
+        "correctness_question": "Does the model's response correctly assert that The larger-caliber vessels overlie the capillary mesh in the macula?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "absence of fine granular macular pattern",
+        "claim_text": "A uniform fine granular pattern is absent in the macular region.",
+        "presence_question": "Does the model's response discuss absence of fine granular macular pattern?",
+        "correctness_question": "Does the model's response correctly assert that A uniform fine granular pattern is absent in the macular region?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "superficial appearance of macular vessels",
+        "claim_text": "The larger-caliber vessels appear superficial on the retinal surface in the macula.",
+        "presence_question": "Does the model's response discuss superficial appearance of macular vessels?",
+        "correctness_question": "Does the model's response correctly assert that The larger-caliber vessels appear superficial on the retinal surface in the macula?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Foveal avascular zone appearance",
+        "claim_text": "The foveal avascular zone appears as a central dark oval area surrounded by capillaries.",
+        "presence_question": "Does the model's response discuss Foveal avascular zone appearance?",
+        "correctness_question": "Does the model's response correctly state that The foveal avascular zone appears as a central dark oval area surrounded by capillaries?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Superficial capillary plexus anatomy",
+        "claim_text": "The superficial capillary plexus is composed of larger superficial retinal arterioles and venules that course on the retinal surface.",
+        "presence_question": "Does the model's response discuss Superficial capillary plexus anatomy?",
+        "correctness_question": "Does the model's response correctly state that The superficial capillary plexus is composed of larger superficial retinal arterioles and venules that course on the retinal surface?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Superficial capillary plexus pattern",
+        "claim_text": "The superficial capillary plexus is characterized by visible larger-caliber, radially oriented vessels overlying a capillary mesh rather than a uniform fine granular pattern.",
+        "presence_question": "Does the model's response discuss Superficial capillary plexus pattern?",
+        "correctness_question": "Does the model's response correctly state that The superficial capillary plexus is characterized by visible larger-caliber, radially oriented vessels overlying a capillary mesh rather than a uniform fine granular pattern?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Foveal avascular zone presence",
+        "claim_text": "A central dark oval in the foveal region surrounded by capillaries supports that a foveal avascular zone is present in this image.",
+        "presence_question": "Does the model's response make an inferential link about Foveal avascular zone presence?",
+        "correctness_question": "Does the model's response correctly conclude that A central dark oval in the foveal region surrounded by capillaries supports that a foveal avascular zone is present in this image?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Superficial capillary plexus plausibility",
+        "claim_text": "The presence of larger-caliber, superficial-appearing, straight vessels with radial orientation overlying a capillary mesh supports that the vascular pattern is produced by the superficial capillary plexus in this case.",
+        "presence_question": "Does the model's response make an inferential link about Superficial capillary plexus plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of larger-caliber, superficial-appearing, straight vessels with radial orientation overlying a capillary mesh supports that the vascular pattern is produced by the superficial capillary plexus in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p8",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Superficial capillary plexus consistency",
+        "claim_text": "Combining a foveal dark oval surrounded by capillaries with visible larger superficial radial vessels over a capillary mesh makes the overall image most consistent with visualization of the superficial capillary plexus.",
+        "presence_question": "Does the model's response make an inferential link about Superficial capillary plexus consistency?",
+        "correctness_question": "Does the model's response correctly conclude that Combining a foveal dark oval surrounded by capillaries with visible larger superficial radial vessels over a capillary mesh makes the overall image most consistent with visualization of the superficial capillary plexus?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p6",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

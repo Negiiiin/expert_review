@@ -27,5 +27,129 @@
   "caption": "Chest and abdominal CT.Chest and abdominal contrast-enhanced CT show a Stanford type B aortic dissection and abdominal aortic aneurysm.CT: computed tomography",
   "sub_caption": "Chest and abdominal contrast-enhanced CT show a Stanford type B aortic dissection and abdominal aortic aneurysm.",
   "image_context": "A 67-year-old man, with no significant past medical history, presented to our emergency department with severe chest and back pain. He awakened early in the morning with sudden onset of pain in the left chest, which gradually radiated to his back and abdomen. Computed tomography (CT) findings revealed the presence of an AAA and thrombosed dissected lumen from the descending aorta to above the abdominal aorta (Figure <xref rid=\"cureus-0014-00000024761-i01\" ref-type=\"fig\">1</xref>). The patient was diagnosed with Stanford type B acute aortic dissection because of the sudden onset of symptoms. There was no gastrointestinal tract dilatation or gastrointestinal obstruction (Figure ). The patient was diagnosed with Stanford type B acute aortic dissection because of the sudden onset of symptoms. There was no gastrointestinal tract dilatation or gastrointestinal obstruction (Figure <xref rid=\"cureus-0014-00000024761-i02\" ref-type=\"fig\">2A</xref>). He had bilateral lower extremity weakness of manual muscle testing (MMT) 3, with flaccid paralysis and hypoesthesia in the left leg. He had a sensory disorder below the sixth level of the thoracic spinal cord. He was clinically diagnosed with spinal cord ischemia due to malperfusion of aortic dissection. He received liberal antihypertensives for complicated spinal cord ischemia to achieve a systolic blood pressure below 130 mmHg. On day six, his appetite reduced, followed by vomiting without abdominal pain. Abdominal examination revealed normal bowel sounds, no distension, and no tenderness. CT revealed that the maximum diameter of AAA had increased from 7.4 to 8.0 cm (Figures ). He had bilateral lower extremity weakness of manual muscle testing (MMT) 3, with flaccid paralysis and hypoesthesia in the left leg. He had a sensory disorder below the sixth level of the thoracic spinal cord. He was clinically diagnosed with spinal cord ischemia due to malperfusion of aortic dissection. He received liberal antihypertensives for complicated spinal cord ischemia to achieve a systolic blood pressure below 130 mmHg. On day six, his appetite reduced, followed by vomiting without abdominal pain. Abdominal examination revealed normal bowel sounds, no distension, and no tenderness. CT revealed that the maximum diameter of AAA had increased from 7.4 to 8.0 cm (Figures <xref rid=\"cureus-0014-00000024761-i03\" ref-type=\"fig\">3A</xref>, , <xref rid=\"cureus-0014-00000024761-i03\" ref-type=\"fig\">3B</xref>) and the duodenum was dilated (Figure ) and the duodenum was dilated (Figure <xref rid=\"cureus-0014-00000024761-i02\" ref-type=\"fig\">2B</xref>). The third portion was compressed between the SMA and AAA (Figure ). The third portion was compressed between the SMA and AAA (Figure <xref rid=\"cureus-0014-00000024761-i04\" ref-type=\"fig\">4</xref>). On day eight, although the nasogastric tube could decompress the gastric and duodenal dilatation, abdominal radiography showed retention of contrast media in the stomach. The patient was diagnosed with SMA syndrome. Gastrointestinal endoscopy posed a risk of aneurysm rupture. Due to the large AAA having a risk of rupture, and the possibility of malnutrition developing due to duodenal obstruction unless the SMA syndrome resolved, we determined that the AAA warranted surgery. On day 17, a thoracoabdominal aortic replacement was performed. The portion from the descending aorta to the site above the aortic bifurcation was replaced. This portion had the segment of aortic dissection and aneurysm. The postoperative course was uneventful. The patient was able to intake foods orally. The lower extremity paralysis of MMT 3 persisted. One month after the surgery, he was transferred to the rehabilitation hospital. The postoperative CT showed that the duodenum had been decompressed (Figure ). On day eight, although the nasogastric tube could decompress the gastric and duodenal dilatation, abdominal radiography showed retention of contrast media in the stomach. The patient was diagnosed with SMA syndrome. Gastrointestinal endoscopy posed a risk of aneurysm rupture. Due to the large AAA having a risk of rupture, and the possibility of malnutrition developing due to duodenal obstruction unless the SMA syndrome resolved, we determined that the AAA warranted surgery. On day 17, a thoracoabdominal aortic replacement was performed. The portion from the descending aorta to the site above the aortic bifurcation was replaced. This portion had the segment of aortic dissection and aneurysm. The postoperative course was uneventful. The patient was able to intake foods orally. The lower extremity paralysis of MMT 3 persisted. One month after the surgery, he was transferred to the rehabilitation hospital. The postoperative CT showed that the duodenum had been decompressed (Figure <xref rid=\"cureus-0014-00000024761-i03\" ref-type=\"fig\">3C</xref>).).",
-  "relevant_image_context": "CT findings revealed the presence of an AAA and thrombosed dissected lumen from the descending aorta to above the abdominal aorta. The patient was diagnosed with Stanford type B acute aortic dissection because of the sudden onset of symptoms."
+  "relevant_image_context": "CT findings revealed the presence of an AAA and thrombosed dissected lumen from the descending aorta to above the abdominal aorta. The patient was diagnosed with Stanford type B acute aortic dissection because of the sudden onset of symptoms.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_121_78-PMC9167146-3-cureus-0014-00000024761-i01.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_121_78-PMC9167146-3-cureus-0014-00000024761-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Presence of contrast-opacified tubular structure",
+        "claim_text": "A contrast-opacified tubular structure is present on the image.",
+        "presence_question": "Does the model's response discuss Presence of contrast-opacified tubular structure?",
+        "correctness_question": "Does the model's response correctly assert that A contrast-opacified tubular structure is present on the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Number of contrast-opacified tubular structures",
+        "claim_text": "There is a single contrast-opacified tubular structure present on the image.",
+        "presence_question": "Does the model's response discuss Number of contrast-opacified tubular structures?",
+        "correctness_question": "Does the model's response correctly assert that There is a single contrast-opacified tubular structure present on the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Shape of contrast-opacified tubular structure",
+        "claim_text": "The contrast-opacified tubular structure has a tubular shape on imaging.",
+        "presence_question": "Does the model's response discuss Shape of contrast-opacified tubular structure?",
+        "correctness_question": "Does the model's response correctly assert that The contrast-opacified tubular structure has a tubular shape on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Brightness of contrast-opacified tubular structure",
+        "claim_text": "The contrast-opacified tubular structure appears bright due to contrast opacification on imaging.",
+        "presence_question": "Does the model's response discuss Brightness of contrast-opacified tubular structure?",
+        "correctness_question": "Does the model's response correctly assert that The contrast-opacified tubular structure appears bright due to contrast opacification on imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Origin at thoracic aortic arch",
+        "claim_text": "The contrast-opacified tubular structure begins at the level of the thoracic aortic arch.",
+        "presence_question": "Does the model's response discuss Origin at thoracic aortic arch?",
+        "correctness_question": "Does the model's response correctly assert that The contrast-opacified tubular structure begins at the level of the thoracic aortic arch?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Central chest (midline) location",
+        "claim_text": "The contrast-opacified tubular structure is located centrally in the chest, descending along the midline.",
+        "presence_question": "Does the model's response discuss Central chest (midline) location?",
+        "correctness_question": "Does the model's response correctly assert that The contrast-opacified tubular structure is located centrally in the chest, descending along the midline?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Inferior extension into abdomen",
+        "claim_text": "The contrast-opacified tubular structure continues inferiorly into the abdomen.",
+        "presence_question": "Does the model's response discuss Inferior extension into abdomen?",
+        "correctness_question": "Does the model's response correctly assert that The contrast-opacified tubular structure continues inferiorly into the abdomen?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Prominent midline column anterior to vertebral column",
+        "claim_text": "The contrast-opacified tubular structure forms a prominent midline column anterior to the vertebral column.",
+        "presence_question": "Does the model's response discuss Prominent midline column anterior to vertebral column?",
+        "correctness_question": "Does the model's response correctly assert that The contrast-opacified tubular structure forms a prominent midline column anterior to the vertebral column?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "vascular appearance on contrast-enhanced CT",
+        "claim_text": "On contrast-enhanced CT, vascular structures typically appear contrast-opacified and bright.",
+        "presence_question": "Does the model's response discuss vascular appearance on contrast-enhanced CT?",
+        "correctness_question": "Does the model's response correctly state that On contrast-enhanced CT, vascular structures typically appear contrast-opacified and bright?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "aorta anatomical position",
+        "claim_text": "The aorta typically courses midline from the thoracic aortic arch into the abdomen anterior to the vertebral column.",
+        "presence_question": "Does the model's response discuss aorta anatomical position?",
+        "correctness_question": "Does the model's response correctly state that The aorta typically courses midline from the thoracic aortic arch into the abdomen anterior to the vertebral column?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "midline contrast-filled tubular structure",
+        "claim_text": "A continuous large midline contrast-filled tubular structure connecting the thorax and abdomen is typically the aorta.",
+        "presence_question": "Does the model's response discuss midline contrast-filled tubular structure?",
+        "correctness_question": "Does the model's response correctly state that A continuous large midline contrast-filled tubular structure connecting the thorax and abdomen is typically the aorta?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "vascular structure inference",
+        "claim_text": "The structure's bright, contrast-opacified appearance on contrast-enhanced CT supports that it is a vascular structure.",
+        "presence_question": "Does the model's response make an inferential link about vascular structure inference?",
+        "correctness_question": "Does the model's response correctly conclude that The structure's bright, contrast-opacified appearance on contrast-enhanced CT supports that it is a vascular structure?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "descending aorta identification",
+        "claim_text": "A single, continuous, large midline contrast-opacified tubular structure that begins at the thoracic aortic arch, descends centrally through the chest, extends into the abdomen, and lies anterior to the vertebral column supports that this structure is the descending thoracic aorta continuing into the abdominal aorta.",
+        "presence_question": "Does the model's response make an inferential link about descending aorta identification?",
+        "correctness_question": "Does the model's response correctly conclude that A single, continuous, large midline contrast-opacified tubular structure that begins at the thoracic aortic arch, descends centrally through the chest, extends into the abdomen, and lies anterior to the vertebral column supports that this structure is the descending thoracic aorta continuing into the abdominal aorta?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

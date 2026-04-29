@@ -28,5 +28,197 @@
   "caption": "Contrast-enhanced CT of the neck. A Liquefaction in the adhesion and fusion regions of cervical lymph nodes. B Right supraclavicular lymph nodes with necrosis in their center. C Necrosis in the adhesion and fusion regions of anterior mediastinal lymph nodes. D Uneven density in the adhesion and fusion region of posterior mediastinal lymph nodes",
   "sub_caption": "A Liquefaction in the adhesion and fusion regions of cervical lymph nodes.",
   "image_context": "Multiple enlarged lymph nodes (the largest sized 27.1 mm × 23.3 mm) were observed in the mediastinal space, thoracic entrance, and left axilla. Inhomogeneous annular enhancement was observed with a CT value of 36 HU. A lymph node of size 28.2 mm × 26.5 mm was detected in the right hilum with a CT value of 40 HU. Contrast-enhanced CT revealed inhomogeneous annular enhancement with a higher CT value of 65 HU (Fig. <xref rid=\"12879_2021_6859_Fig1_HTML\" ref-type=\"fig\">1</xref>A–D). Color ultrasound images showed multiple enlarged lymph nodes in the bilateral neck, left axilla, and bilateral groin. The number, distribution, diameter, and manifestation of enlarged lymph nodes are presented in Table A–D). Color ultrasound images showed multiple enlarged lymph nodes in the bilateral neck, left axilla, and bilateral groin. The number, distribution, diameter, and manifestation of enlarged lymph nodes are presented in Table 1.",
-  "relevant_image_context": "Multiple enlarged lymph nodes (the largest sized 27.1 mm × 23.3 mm) were observed in the mediastinal space, thoracic entrance, and left axilla. Inhomogeneous annular enhancement was observed with a CT value of 36 HU. A lymph node of size 28.2 mm × 26.5 mm was detected in the right hilum with a CT value of 40 HU. Contrast-enhanced CT revealed inhomogeneous annular enhancement with a higher CT value of 65 HU (Fig 1 A–D). Color ultrasound images showed multiple enlarged lymph nodes in the bilateral neck, left axilla, and bilateral groin. The number, distribution, diameter, and manifestation of enlarged lymph nodes are presented in Table 1. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Multiple enlarged lymph nodes (the largest sized 27.1 mm × 23.3 mm) were observed in the mediastinal space, thoracic entrance, and left axilla. Inhomogeneous annular enhancement was observed with a CT value of 36 HU. A lymph node of size 28.2 mm × 26.5 mm was detected in the right hilum with a CT value of 40 HU. Contrast-enhanced CT revealed inhomogeneous annular enhancement with a higher CT value of 65 HU (Fig 1 A–D). Color ultrasound images showed multiple enlarged lymph nodes in the bilateral neck, left axilla, and bilateral groin. The number, distribution, diameter, and manifestation of enlarged lymph nodes are presented in Table 1. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_149_0-PMC10224999-1-AJUM-26-118-g002.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_149_0-PMC10224999-1-AJUM-26-118-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Right kidney lesions",
+        "claim_text": "There are two lesions in the right kidney.",
+        "presence_question": "Does the model's response discuss Right kidney lesions?",
+        "correctness_question": "Does the model's response correctly assert that There are two lesions in the right kidney.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right renal lesion appearance",
+        "claim_text": "Right renal lesions are well-circumscribed, rounded, low-attenuation lesions within the renal cortex.",
+        "presence_question": "Does the model's response discuss Right renal lesion appearance?",
+        "correctness_question": "Does the model's response correctly assert that Right renal lesions are well-circumscribed, rounded, low-attenuation lesions within the renal cortex.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Left renal mass presence",
+        "claim_text": "A left renal mass is present on the coronal CT abdomen images.",
+        "presence_question": "Does the model's response discuss Left renal mass presence?",
+        "correctness_question": "Does the model's response correctly assert that A left renal mass is present on the coronal CT abdomen images.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Left renal mass location",
+        "claim_text": "The left renal mass is located within the renal parenchyma.",
+        "presence_question": "Does the model's response discuss Left renal mass location?",
+        "correctness_question": "Does the model's response correctly assert that The left renal mass is located within the renal parenchyma.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Left renal mass extent",
+        "claim_text": "The left renal mass extends into much of the renal parenchyma.",
+        "presence_question": "Does the model's response discuss Left renal mass extent?",
+        "correctness_question": "Does the model's response correctly assert that The left renal mass extends into much of the renal parenchyma.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Left renal mass exophytic extension",
+        "claim_text": "The left renal mass extends beyond the renal contour with an exophytic component.",
+        "presence_question": "Does the model's response discuss Left renal mass exophytic extension?",
+        "correctness_question": "Does the model's response correctly assert that The left renal mass extends beyond the renal contour with an exophytic component.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Left renal mass margins",
+        "claim_text": "The left renal mass has irregular, lobulated margins.",
+        "presence_question": "Does the model's response discuss Left renal mass margins?",
+        "correctness_question": "Does the model's response correctly assert that The left renal mass has irregular, lobulated margins.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Left renal mass density",
+        "claim_text": "The left renal mass demonstrates heterogeneous mixed higher and lower attenuation.",
+        "presence_question": "Does the model's response discuss Left renal mass density?",
+        "correctness_question": "Does the model's response correctly assert that The left renal mass demonstrates heterogeneous mixed higher and lower attenuation.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Fat within left renal mass",
+        "claim_text": "There is no discrete fat-density component within the left renal mass.",
+        "presence_question": "Does the model's response discuss Fat within left renal mass?",
+        "correctness_question": "Does the model's response correctly assert that There is no discrete fat-density component within the left renal mass.?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Simple fluid collection in left renal cortex",
+        "claim_text": "There is no simple unilocular fluid collection confined to the left renal cortex.",
+        "presence_question": "Does the model's response discuss Simple fluid collection in left renal cortex?",
+        "correctness_question": "Does the model's response correctly assert that There is no simple unilocular fluid collection confined to the left renal cortex.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "simple renal cyst",
+        "claim_text": "A simple renal cyst typically appears as a smooth, uniformly low-attenuation round lesion.",
+        "presence_question": "Does the model's response discuss simple renal cyst?",
+        "correctness_question": "Does the model's response correctly state that a simple renal cyst typically appears as a smooth, uniformly low-attenuation round lesion?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "angiomyolipoma macroscopic fat",
+        "claim_text": "Angiomyolipoma typically contains visible macroscopic fat that appears as very low attenuation within the lesion on imaging.",
+        "presence_question": "Does the model's response discuss angiomyolipoma macroscopic fat?",
+        "correctness_question": "Does the model's response correctly state that angiomyolipoma typically contains visible macroscopic fat that appears as very low attenuation within the lesion on imaging?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "renal abscess imaging appearance",
+        "claim_text": "A renal abscess typically appears as a rim-enhancing fluid collection with central low attenuation.",
+        "presence_question": "Does the model's response discuss renal abscess imaging appearance?",
+        "correctness_question": "Does the model's response correctly state that a renal abscess typically appears as a rim-enhancing fluid collection with central low attenuation?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "transitional cell carcinoma location",
+        "claim_text": "Transitional cell carcinoma of the renal pelvis typically arises in the collecting system and more often produces a filling defect in the renal pelvis or ureter than a large exophytic parenchymal mass.",
+        "presence_question": "Does the model's response discuss transitional cell carcinoma location?",
+        "correctness_question": "Does the model's response correctly state that transitional cell carcinoma of the renal pelvis typically arises in the collecting system and more often produces a filling defect in the renal pelvis or ureter than a large exophytic parenchymal mass?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "left renal mass characterization",
+        "claim_text": "The left renal lesion's parenchymal location with large exophytic bulging, irregular margins, and heterogeneous internal density is consistent with a solid renal parenchymal mass rather than a simple benign-appearing cyst.",
+        "presence_question": "Does the model's response make an inferential link about left renal mass characterization?",
+        "correctness_question": "Does the model's response correctly conclude that The left renal lesion's parenchymal location with large exophytic bulging, irregular margins, and heterogeneous internal density is consistent with a solid renal parenchymal mass rather than a simple benign-appearing cyst?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "angiomyolipoma exclusion",
+        "claim_text": "The absence of a discrete macroscopic fat component within the left renal mass argues against a diagnosis of renal angiomyolipoma in this case.",
+        "presence_question": "Does the model's response make an inferential link about angiomyolipoma exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of a discrete macroscopic fat component within the left renal mass argues against a diagnosis of renal angiomyolipoma in this case?",
+        "premise_perception_ids": [
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "simple renal cyst exclusion",
+        "claim_text": "The left lesion's heterogeneous internal density, irregular margins, and absence of a simple unilocular low-attenuation round morphology make a simple renal cyst an unlikely explanation for the imaging findings.",
+        "presence_question": "Does the model's response make an inferential link about simple renal cyst exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that The left lesion's heterogeneous internal density, irregular margins, and absence of a simple unilocular low-attenuation round morphology make a simple renal cyst an unlikely explanation for the imaging findings?",
+        "premise_perception_ids": [
+          "p7",
+          "p8",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "renal abscess exclusion",
+        "claim_text": "There is no imaging evidence of a rim-enhancing central fluid collection characteristic of a renal abscess on this image, making an abscess less likely.",
+        "presence_question": "Does the model's response make an inferential link about renal abscess exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that There is no imaging evidence of a rim-enhancing central fluid collection characteristic of a renal abscess on this image, making an abscess less likely?",
+        "premise_perception_ids": [
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "renal cell carcinoma favored",
+        "claim_text": "Given a large, exophytic, heterogeneous solid-appearing parenchymal renal mass on the left and the absence of imaging features typical of other entities (no macroscopic fat to suggest angiomyolipoma, not a simple cyst, and not a central collecting-system mass as typical for transitional cell carcinoma), the imaging appearance is most consistent with a primary solid renal parenchymal malignancy such as renal cell carcinoma.",
+        "presence_question": "Does the model's response make an inferential link about renal cell carcinoma favored?",
+        "correctness_question": "Does the model's response correctly conclude that Given a large, exophytic, heterogeneous solid-appearing parenchymal renal mass on the left and the absence of imaging features typical of other entities (no macroscopic fat to suggest angiomyolipoma, not a simple cyst, and not a central collecting-system mass as typical for transitional cell carcinoma), the imaging appearance is most consistent with a primary solid renal parenchymal malignancy such as renal cell carcinoma?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

@@ -27,5 +27,105 @@
   "caption": "52-year-old male with subcutaneous panniculitis. Two axial (a, b) CT images through the upper abdomen demonstrate increased attenuation and inflammatory changes in the anterior abdominal wall subcutaneous fat (arrows), consistent with subcutaneous panniculitis",
   "sub_caption": "Two axial (a, b) CT images through the upper abdomen demonstrate increased attenuation and inflammatory changes in the anterior abdominal wall subcutaneous fat (arrows), consistent with subcutaneous panniculitis.",
   "image_context": "Panniculitis is a nonspecific histopathologic term to describe inflammation of adipose tissue. Panniculitis most commonly affects subcutaneous fat; however, intra-abdominal forms such as mesenteric panniculitis are widely recognized. There are many etiologies for panniculitis, including inflammation, infection (including COVID-19 infection), trauma, and malignancy, among others [39, 40]. On CT imaging, increased attenuation and “fat stranding” may be seen within the subcutaneous adipose tissues, consistent with the clinical diagnosis of erythema nodosum (Fig. <xref rid=\"261_2023_3830_Fig20_HTML\" ref-type=\"fig\">20</xref>).).Fig. 2052-year-old male with subcutaneous panniculitis. Two axial (a, b) CT images through the upper abdomen demonstrate increased attenuation and inflammatory changes in the anterior abdominal wall subcutaneous fat (arrows), consistent with subcutaneous panniculitis",
-  "relevant_image_context": "Panniculitis is a nonspecific histopathologic term to describe inflammation of adipose tissue. Panniculitis most commonly affects subcutaneous fat; however, intra-abdominal forms such as mesenteric panniculitis are widely recognized. There are many etiologies for panniculitis, including inflammation, infection (including COVID-19 infection), trauma, and malignancy, among others [39, 40]. On CT imaging, increased attenuation and “fat stranding” may be seen within the subcutaneous adipose tissues, consistent with the clinical diagnosis of erythema nodosum (Fig. 20)).).Fig. 2052-year-old male with subcutaneous panniculitis. Two axial (a, b) CT images through the upper abdomen demonstrate increased attenuation and inflammatory changes in the anterior abdominal wall subcutaneous fat (arrows), consistent with subcutaneous panniculitis First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Panniculitis is a nonspecific histopathologic term to describe inflammation of adipose tissue. Panniculitis most commonly affects subcutaneous fat; however, intra-abdominal forms such as mesenteric panniculitis are widely recognized. There are many etiologies for panniculitis, including inflammation, infection (including COVID-19 infection), trauma, and malignancy, among others [39, 40]. On CT imaging, increased attenuation and “fat stranding” may be seen within the subcutaneous adipose tissues, consistent with the clinical diagnosis of erythema nodosum (Fig. 20)).).Fig. 2052-year-old male with subcutaneous panniculitis. Two axial (a, b) CT images through the upper abdomen demonstrate increased attenuation and inflammatory changes in the anterior abdominal wall subcutaneous fat (arrows), consistent with subcutaneous panniculitis First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_115_12-PMC9930021-16-261_2023_3830_Fig20_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_115_12-PMC9930021-16-261_2023_3830_Fig20_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "superficial area beneath the skin",
+        "claim_text": "An arrow marks a superficial area immediately beneath the skin.",
+        "presence_question": "Does the model's response discuss superficial area beneath the skin?",
+        "correctness_question": "Does the model's response correctly assert that An arrow marks a superficial area immediately beneath the skin.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "subcutaneous fat of the anterior abdominal wall",
+        "claim_text": "The targeted region is located in the subcutaneous fat layer of the anterior abdominal wall.",
+        "presence_question": "Does the model's response discuss subcutaneous fat of the anterior abdominal wall?",
+        "correctness_question": "Does the model's response correctly assert that The targeted region is located in the subcutaneous fat layer of the anterior abdominal wall.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "increased attenuation in subcutaneous fat",
+        "claim_text": "The targeted subcutaneous fat in the anterior abdominal wall demonstrates increased attenuation.",
+        "presence_question": "Does the model's response discuss increased attenuation in subcutaneous fat?",
+        "correctness_question": "Does the model's response correctly assert that The targeted subcutaneous fat in the anterior abdominal wall demonstrates increased attenuation.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "fat stranding in subcutaneous fat",
+        "claim_text": "The targeted subcutaneous fat in the anterior abdominal wall shows fat stranding.",
+        "presence_question": "Does the model's response discuss fat stranding in subcutaneous fat?",
+        "correctness_question": "Does the model's response correctly assert that The targeted subcutaneous fat in the anterior abdominal wall shows fat stranding.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "increased attenuation compared to surrounding normal fat",
+        "claim_text": "The targeted subcutaneous fat in the anterior abdominal wall has increased attenuation compared with the surrounding normal fat.",
+        "presence_question": "Does the model's response discuss increased attenuation compared to surrounding normal fat?",
+        "correctness_question": "Does the model's response correctly assert that The targeted subcutaneous fat in the anterior abdominal wall has increased attenuation compared with the surrounding normal fat.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "fat stranding on imaging",
+        "claim_text": "Increased fat attenuation or fat stranding on imaging is typically associated with inflammation of fat.",
+        "presence_question": "Does the model's response discuss fat stranding on imaging?",
+        "correctness_question": "Does the model's response correctly state that increased fat attenuation or fat stranding on imaging is typically associated with inflammation of fat?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "subcutaneous fat",
+        "claim_text": "Subcutaneous fat is the layer of fat located immediately beneath the skin of the anterior abdominal wall.",
+        "presence_question": "Does the model's response discuss subcutaneous fat?",
+        "correctness_question": "Does the model's response correctly state that subcutaneous fat is the layer of fat located immediately beneath the skin of the anterior abdominal wall?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "panniculitis",
+        "claim_text": "Panniculitis is inflammation of the subcutaneous fat.",
+        "presence_question": "Does the model's response discuss panniculitis?",
+        "correctness_question": "Does the model's response correctly state that panniculitis is inflammation of the subcutaneous fat?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Abnormality location in subcutaneous fat",
+        "claim_text": "The imaging finding supports that the targeted abnormality is located in the subcutaneous fat layer in this case.",
+        "presence_question": "Does the model's response make an inferential link about Abnormality location in subcutaneous fat?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging finding supports that the targeted abnormality is located in the subcutaneous fat layer in this case?",
+        "premise_perception_ids": [
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Panniculitis as plausible diagnosis",
+        "claim_text": "The imaging findings support that inflammation of the subcutaneous fat (panniculitis) is a plausible diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Panniculitis as plausible diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings support that inflammation of the subcutaneous fat (panniculitis) is a plausible diagnosis in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

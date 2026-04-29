@@ -28,5 +28,95 @@
   "caption": "A selected MRI slice from the postdecalcification scan of the C7–T1 IVD and the corresponding histology micrograph. In both images the circles indicate comparative landmarks, vertical arrows indicate height measurements, and the line across the annulus is for lamellae counting.",
   "sub_caption": "A selected MRI slice from the postdecalcification scan of the C7–T1 IVD and the corresponding histology micrograph. In both images the circles indicate comparative landmarks, vertical arrows indicate height measurements, and the line across the annulus is for lamellae counting.",
   "image_context": "From the postdecalcification MR image stack which consisted of sequential sagittal images between the right and left lateral margins of the specimen, the images representing the sagittal section of the sample at 0.2, 0.4, 0.6, and 0.8 proportional distances between the right and left lateral margins were selected. These were then compared with similarly selected histological micrographs using landmark features and quantitative measurements. (Figures <xref ref-type=\"fig\" rid=\"brs-40-e1315-g001\">1</xref>––<xref ref-type=\"fig\" rid=\"brs-40-e1315-g003\">3</xref>)) The MRI-histology comparison confirmed that the features seen on the MR images were realistically related to the actual structures (Figure <xref ref-type=\"fig\" rid=\"brs-40-e1315-g001\">1</xref>). It was evident from the histology micrographs that lamellae thicknesses vary considerably (Figure ). It was evident from the histology micrographs that lamellae thicknesses vary considerably (Figure <xref ref-type=\"fig\" rid=\"brs-40-e1315-g002\">2</xref>). MR and histology images matched well in terms of the lamellae number, shape, position and orientation. However, due to the relatively low number of voxels across each lamella, attempts were not made in this study to measure the thickness of the lamellae. As such, on the MRI images, peaks and troughs of the grayscale profile along a selected length were used only to interpret the lamellae alternation (Figure ). MR and histology images matched well in terms of the lamellae number, shape, position and orientation. However, due to the relatively low number of voxels across each lamella, attempts were not made in this study to measure the thickness of the lamellae. As such, on the MRI images, peaks and troughs of the grayscale profile along a selected length were used only to interpret the lamellae alternation (Figure <xref ref-type=\"fig\" rid=\"brs-40-e1315-g003\">3</xref>).).",
-  "relevant_image_context": "From the postdecalcification MR image stack which consisted of sequential sagittal images between the right and left lateral margins of the specimen, the images representing the sagittal section of the sample at 0.2, 0.4, 0.6, and 0.8 proportional distances between the right and left lateral margins were selected. These were then compared with similarly selected histological micrographs using landmark features and quantitative measurements. The MRI-histology comparison confirmed that the features seen on the MR images were realistically related to the actual structures. It was evident from the histology micrographs that lamellae thicknesses vary considerably. MR and histology images matched well in terms of the lamellae number, shape, position and orientation. However, due to the relatively low number of voxels across each lamella, attempts were not made in this study to measure the thickness of the lamellae. As such, on the MRI images, peaks and troughs of the grayscale profile along a selected length were used only to interpret the lamellae alternation."
+  "relevant_image_context": "From the postdecalcification MR image stack which consisted of sequential sagittal images between the right and left lateral margins of the specimen, the images representing the sagittal section of the sample at 0.2, 0.4, 0.6, and 0.8 proportional distances between the right and left lateral margins were selected. These were then compared with similarly selected histological micrographs using landmark features and quantitative measurements. The MRI-histology comparison confirmed that the features seen on the MR images were realistically related to the actual structures. It was evident from the histology micrographs that lamellae thicknesses vary considerably. MR and histology images matched well in terms of the lamellae number, shape, position and orientation. However, due to the relatively low number of voxels across each lamella, attempts were not made in this study to measure the thickness of the lamellae. As such, on the MRI images, peaks and troughs of the grayscale profile along a selected length were used only to interpret the lamellae alternation.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_other_batch_43_9-PMC4684101-0-brs-40-e1315-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_43_9-PMC4684101-0-brs-40-e1315-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "sagittal spinal motion segment view",
+        "claim_text": "A sagittal view through a spinal motion segment is present in the image.",
+        "presence_question": "Does the model's response discuss sagittal spinal motion segment view?",
+        "correctness_question": "Does the model's response correctly assert that A sagittal view through a spinal motion segment is present in the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "vertebral bodies count",
+        "claim_text": "There are two vertebral bodies visible in the image.",
+        "presence_question": "Does the model's response discuss vertebral bodies count?",
+        "correctness_question": "Does the model's response correctly assert that There are two vertebral bodies visible in the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "intervertebral disc location",
+        "claim_text": "An intervertebral disc is located between the two vertebral bodies.",
+        "presence_question": "Does the model's response discuss intervertebral disc location?",
+        "correctness_question": "Does the model's response correctly assert that An intervertebral disc is located between the two vertebral bodies?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "central disc signal",
+        "claim_text": "The central region of the intervertebral disc has a relatively homogeneous bright signal.",
+        "presence_question": "Does the model's response discuss central disc signal?",
+        "correctness_question": "Does the model's response correctly assert that The central region of the intervertebral disc has a relatively homogeneous bright signal?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "peripheral disc tissue appearance",
+        "claim_text": "The tissue surrounding the central region of the disc appears darker and lamellar-appearing.",
+        "presence_question": "Does the model's response discuss peripheral disc tissue appearance?",
+        "correctness_question": "Does the model's response correctly assert that The tissue surrounding the central region of the disc appears darker and lamellar-appearing?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "thin disc boundaries presence",
+        "claim_text": "Thin boundaries above and below the disc are present in the image.",
+        "presence_question": "Does the model's response discuss thin disc boundaries presence?",
+        "correctness_question": "Does the model's response correctly assert that Thin boundaries above and below the disc are present in the image?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "thin boundary location",
+        "claim_text": "The thin boundaries are located at the superior and inferior margins of the intervertebral disc.",
+        "presence_question": "Does the model's response discuss thin boundary location?",
+        "correctness_question": "Does the model's response correctly assert that The thin boundaries are located at the superior and inferior margins of the intervertebral disc?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "intervertebral disc",
+        "claim_text": "Intervertebral discs are located between adjacent vertebral bodies.",
+        "presence_question": "Does the model's response discuss intervertebral disc?",
+        "correctness_question": "Does the model's response correctly state that Intervertebral discs are located between adjacent vertebral bodies?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "nucleus pulposus",
+        "claim_text": "The nucleus pulposus is the central, gelatinous core of the intervertebral disc.",
+        "presence_question": "Does the model's response discuss nucleus pulposus?",
+        "correctness_question": "Does the model's response correctly state that The nucleus pulposus is the central, gelatinous core of the intervertebral disc?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "nucleus pulposus identification",
+        "claim_text": "The bright, relatively homogeneous central region of the disc in this image implies that the nucleus pulposus is present.",
+        "presence_question": "Does the model's response make an inferential link about nucleus pulposus identification?",
+        "correctness_question": "Does the model's response correctly conclude that The bright, relatively homogeneous central region of the disc in this image implies that the nucleus pulposus is present?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

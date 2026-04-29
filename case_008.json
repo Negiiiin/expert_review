@@ -28,5 +28,158 @@
   "caption": "CT scan of the chest showing extravasation of oral contrast into the right pleural space, due to an esophageal perforation",
   "sub_caption": "CT scan of the chest showing extravasation of oral contrast into the right pleural space, due to an esophageal perforation",
   "image_context": "A 73-year old female with medical history of hypertension underwent a right lower lobectomy for a T1N0M0 Stage 1A adenocarcinoma of the lung. After 4 years, the patient developed a new primary in the right upper lobe. A completion pneumonectomy and four cycles of adjuvant chemotherapy with cisplatin and paclitaxel were given for this T2N2M0 stage 3 adenocarcinoma of the right upper lobe. The patient did well for 2 years, after which she developed a regional recurrence near the right main stem bronchus stump. The patient was given SBRT to the recurrence site with a Cyber knife Stereotactic Radiosurgery System (Accuracy, Sunnyvale, CA), with a prescription dose of 50 Gy in five fractions given every other day. Seven months after SBRT, the patient presented with a hydropneumothorax in the postpneumonectomy space on routine surveillance chest x-ray. Bronchoscopy showed a well-healed bronchial stump. The CT scan of the chest showed oral contrast extravasation into the right pneumonectomy space [<xref ref-type=\"fig\" rid=\"LI-31-158-g002\">Figure 2</xref>]. An upper esophagogastroscopy confirmed two esophageal perforations at 22 and 37 centimeters from the incisors. Both were treated with a Wall flex fully covered esophageal stents (Boston Scientific, Natick, MA), and the right chest was drained with a tube thoracotomy. The patient did well, with retrieval of the stent at 5 weeks post placement.]. An upper esophagogastroscopy confirmed two esophageal perforations at 22 and 37 centimeters from the incisors. Both were treated with a Wall flex fully covered esophageal stents (Boston Scientific, Natick, MA), and the right chest was drained with a tube thoracotomy. The patient did well, with retrieval of the stent at 5 weeks post placement.",
-  "relevant_image_context": "A 73-year old female with medical history of hypertension underwent a right lower lobectomy for a T1N0M0 Stage 1A adenocarcinoma of the lung. After 4 years, the patient developed a new primary in the right upper lobe. A completion pneumonectomy and four cycles of adjuvant chemotherapy with cisplatin and paclitaxel were given for this T2N2M0 stage 3 adenocarcinoma of the right upper lobe. The patient did well for 2 years, after which she developed a regional recurrence near the right main stem bronchus stump. The patient was given SBRT to the recurrence site with a Cyber knife Stereotactic Radiosurgery System (Accuracy, Sunnyvale, CA), with a prescription dose of 50 Gy in five fractions given every other day. Seven months after SBRT, the patient presented with a hydropneumothorax in the postpneumonectomy space on routine surveillance chest x-ray. Bronchoscopy showed a well-healed bronchial stump. The CT scan of the chest showed oral contrast extravasation into the right pneumonectomy space [Figure 2]. An upper esophagogastroscopy confirmed two esophageal perforations at 22 and 37 centimeters from the incisors. Both were treated with a Wall flex fully covered esophageal stents (Boston Scientific, Natick, MA), and the right chest was drained with a tube thoracotomy. The patient did well, with retrieval of the stent at 5 weeks post placement."
+  "relevant_image_context": "A 73-year old female with medical history of hypertension underwent a right lower lobectomy for a T1N0M0 Stage 1A adenocarcinoma of the lung. After 4 years, the patient developed a new primary in the right upper lobe. A completion pneumonectomy and four cycles of adjuvant chemotherapy with cisplatin and paclitaxel were given for this T2N2M0 stage 3 adenocarcinoma of the right upper lobe. The patient did well for 2 years, after which she developed a regional recurrence near the right main stem bronchus stump. The patient was given SBRT to the recurrence site with a Cyber knife Stereotactic Radiosurgery System (Accuracy, Sunnyvale, CA), with a prescription dose of 50 Gy in five fractions given every other day. Seven months after SBRT, the patient presented with a hydropneumothorax in the postpneumonectomy space on routine surveillance chest x-ray. Bronchoscopy showed a well-healed bronchial stump. The CT scan of the chest showed oral contrast extravasation into the right pneumonectomy space [Figure 2]. An upper esophagogastroscopy confirmed two esophageal perforations at 22 and 37 centimeters from the incisors. Both were treated with a Wall flex fully covered esophageal stents (Boston Scientific, Natick, MA), and the right chest was drained with a tube thoracotomy. The patient did well, with retrieval of the stent at 5 weeks post placement.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_19_35-PMC3999679-0-LI-31-158-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_19_35-PMC3999679-0-LI-31-158-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "air in right postpneumonectomy space",
+        "claim_text": "Air is present within the right hemithorax postpneumonectomy space on axial chest CT.",
+        "presence_question": "Does the model's response discuss air in right postpneumonectomy space?",
+        "correctness_question": "Does the model's response correctly assert that Air is present within the right hemithorax postpneumonectomy space on axial chest CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "dependent fluid level in right postpneumonectomy space",
+        "claim_text": "A dependent fluid level is present in the right hemithorax postpneumonectomy space on axial chest CT.",
+        "presence_question": "Does the model's response discuss dependent fluid level in right postpneumonectomy space?",
+        "correctness_question": "Does the model's response correctly assert that A dependent fluid level is present in the right hemithorax postpneumonectomy space on axial chest CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "high-attenuation material in medial dependent pleural collection",
+        "claim_text": "A region of high-attenuation material is located in the medial, dependent pleural collection of the right hemithorax.",
+        "presence_question": "Does the model's response discuss high-attenuation material in medial dependent pleural collection?",
+        "correctness_question": "Does the model's response correctly assert that A region of high-attenuation material is located in the medial, dependent pleural collection of the right hemithorax?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "intravascular involvement of high-attenuation material",
+        "claim_text": "The high-attenuation material is not inside a vascular structure within the medial dependent pleural collection of the right hemithorax.",
+        "presence_question": "Does the model's response discuss intravascular involvement of high-attenuation material?",
+        "correctness_question": "Does the model's response correctly assert that The high-attenuation material is not inside a vascular structure within the medial dependent pleural collection of the right hemithorax?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "high-attenuation material in postpneumonectomy pleural space",
+        "claim_text": "Probable high-attenuation material is present within the right postpneumonectomy pleural space on axial chest CT.",
+        "presence_question": "Does the model's response discuss high-attenuation material in postpneumonectomy pleural space?",
+        "correctness_question": "Does the model's response correctly assert that Probable high-attenuation material is present within the right postpneumonectomy pleural space on axial chest CT?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "right bronchial stump healing",
+        "claim_text": "The right bronchial stump appears well-healed on bronchoscopic exam.",
+        "presence_question": "Does the model's response discuss right bronchial stump healing?",
+        "correctness_question": "Does the model's response correctly assert that The right bronchial stump appears well-healed on bronchoscopic exam?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "contrast material appearance on CT",
+        "claim_text": "Contrast material is identified by high attenuation on CT.",
+        "presence_question": "Does the model's response discuss contrast material appearance on CT?",
+        "correctness_question": "Does the model's response correctly state that Contrast material is identified by high attenuation on CT?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "contrast in pleural collection",
+        "claim_text": "The presence of contrast within a pleural collection typically suggests communication between a contrast-containing lumen (such as the alimentary tract) and the pleural space.",
+        "presence_question": "Does the model's response discuss contrast in pleural collection?",
+        "correctness_question": "Does the model's response correctly state that The presence of contrast within a pleural collection typically suggests communication between a contrast-containing lumen (such as the alimentary tract) and the pleural space?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "well-healed bronchial stump",
+        "claim_text": "A well-healed bronchial stump argues against a bronchopleural fistula as the source of pleural contrast.",
+        "presence_question": "Does the model's response discuss a well-healed bronchial stump?",
+        "correctness_question": "Does the model's response correctly state that A well-healed bronchial stump argues against a bronchopleural fistula as the source of pleural contrast?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "esophageal perforation and esophagopleural fistula",
+        "claim_text": "Esophageal perforation can form an esophagopleural fistula, creating a communication between the esophagus and the pleural space.",
+        "presence_question": "Does the model's response discuss esophageal perforation and esophagopleural fistula?",
+        "correctness_question": "Does the model's response correctly state that Esophageal perforation can form an esophagopleural fistula, creating a communication between the esophagus and the pleural space?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "hydropneumothorax in postpneumonectomy space",
+        "claim_text": "The co-occurrence of intrathoracic air and a dependent pleural fluid level supports the presence of a hydropneumothorax in the right postpneumonectomy space.",
+        "presence_question": "Does the model's response make an inferential link about hydropneumothorax in postpneumonectomy space?",
+        "correctness_question": "Does the model's response correctly conclude that The co-occurrence of intrathoracic air and a dependent pleural fluid level supports the presence of a hydropneumothorax in the right postpneumonectomy space.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "intrapleural contrast material",
+        "claim_text": "A region of high-attenuation material in the dependent pleural collection that is not intravascular supports the presence of intrapleural contrast material.",
+        "presence_question": "Does the model's response make an inferential link about intrapleural contrast material?",
+        "correctness_question": "Does the model's response correctly conclude that A region of high-attenuation material in the dependent pleural collection that is not intravascular supports the presence of intrapleural contrast material.?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "communication between alimentary tract and pleural space",
+        "claim_text": "The presence of contrast within the pleural space justifies consideration of a communication between the alimentary tract and the pleural cavity.",
+        "presence_question": "Does the model's response make an inferential link about communication between alimentary tract and pleural space?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of contrast within the pleural space justifies consideration of a communication between the alimentary tract and the pleural cavity.?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "bronchopleural fistula unlikely",
+        "claim_text": "A well-healed bronchial stump argues against a bronchopleural fistula as the source of pleural contrast in this case.",
+        "presence_question": "Does the model's response make an inferential link about bronchopleural fistula unlikely?",
+        "correctness_question": "Does the model's response correctly conclude that A well-healed bronchial stump argues against a bronchopleural fistula as the source of pleural contrast in this case.?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "esophagopleural fistula",
+        "claim_text": "Given intrapleural contrast and a well-healed bronchial stump, the findings support an esophageal perforation resulting in an esophagopleural fistula involving the postpneumonectomy space.",
+        "presence_question": "Does the model's response make an inferential link about esophagopleural fistula?",
+        "correctness_question": "Does the model's response correctly conclude that Given intrapleural contrast and a well-healed bronchial stump, the findings support an esophageal perforation resulting in an esophagopleural fistula involving the postpneumonectomy space.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

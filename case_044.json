@@ -27,5 +27,147 @@
   "caption": "(A, B) CT scan of the abdomen demonstrating two adenomas in the left and right adrenal glands, measuring 30 × 17 mm and 15 × 9 mm, respectively.",
   "sub_caption": "(B) CT scan of the abdomen demonstrating two adenomas in the left and right adrenal glands, measuring 30 × 17 mm and 15 × 9 mm, respectively.",
   "image_context": "The patient was referred to a neurosurgeon, and a transsphenoidal pituitary adenomectomy was performed. Immunohistochemical staining was exclusively positive for ACTH. The pathologist's diagnosis was a corticotroph tumor. Ki‐67 was estimated at 2%. Three months after the surgery, the patient still had not noticed any improvement. She was admitted to our department for postoperative assessment. Her physical examination did not show any improvement. Indeed, she still had physical signs of hypercortisolism. Her metabolic and heart pressure features did not improve (Table 1). The laboratory tests confirmed the lack of biochemical remission since her 2‐mg 2‐day DST showed high cortisol at 105 ng/ml and urinary free cortisol remained high. (Table 2). A 3‐month postoperative pituitary MRI scan did not show a remnant pituitary adenoma. Her ACTH decreased to 6 ng/L, which was in favor of a successful surgery. An adrenal computed tomography scan was performed and revealed two adenomas in the right and left adrenal glands, which were both rich in lipids with a 7 HU density. The left and right adenomas measured 30 × 17 mm and 15 × 9 mm, respectively (Figure <xref rid=\"CCR3-10-e05834-g002\" ref-type=\"fig\">2A,B</xref>). Based on a suppressed level of ACTH and adrenal adenomas, we concluded at this point to an ACTH‐independent CS. The patient was referred later to a urologist and underwent bilateral adrenalectomy. Her symptoms improved remarkably. She developed an adrenal insufficiency and was put on hydrocortisone.). Based on a suppressed level of ACTH and adrenal adenomas, we concluded at this point to an ACTH‐independent CS. The patient was referred later to a urologist and underwent bilateral adrenalectomy. Her symptoms improved remarkably. She developed an adrenal insufficiency and was put on hydrocortisone.",
-  "relevant_image_context": "An adrenal computed tomography scan was performed and revealed two adenomas in the right and left adrenal glands, which were both rich in lipids with a 7 HU density. The left and right adenomas measured 30 × 17 mm and 15 × 9 mm, respectively (Figure 2A,B)."
+  "relevant_image_context": "An adrenal computed tomography scan was performed and revealed two adenomas in the right and left adrenal glands, which were both rich in lipids with a 7 HU density. The left and right adenomas measured 30 × 17 mm and 15 × 9 mm, respectively (Figure 2A,B).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_119_65-PMC9083811-0-CCR3-10-e05834-g002.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_119_65-PMC9083811-0-CCR3-10-e05834-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Right suprarenal/upper renal lesion",
+        "claim_text": "There is a focal lesion in the right suprarenal/upper renal region.",
+        "presence_question": "Does the model's response discuss Right suprarenal/upper renal lesion?",
+        "correctness_question": "Does the model's response correctly assert that There is a focal lesion in the right suprarenal/upper renal region.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right suprarenal lesion shape",
+        "claim_text": "The focal lesion in the right suprarenal/upper renal region is rounded.",
+        "presence_question": "Does the model's response discuss Right suprarenal lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The focal lesion in the right suprarenal/upper renal region is rounded.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Right suprarenal lesion margin",
+        "claim_text": "The focal lesion in the right suprarenal/upper renal region is well-circumscribed.",
+        "presence_question": "Does the model's response discuss Right suprarenal lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The focal lesion in the right suprarenal/upper renal region is well-circumscribed.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Right suprarenal lesion density",
+        "claim_text": "The focal lesion in the right suprarenal/upper renal region has low attenuation.",
+        "presence_question": "Does the model's response discuss Right suprarenal lesion density?",
+        "correctness_question": "Does the model's response correctly assert that The focal lesion in the right suprarenal/upper renal region has low attenuation.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Left suprarenal/upper renal lesion",
+        "claim_text": "There is a focal lesion in the left suprarenal/upper renal region.",
+        "presence_question": "Does the model's response discuss Left suprarenal/upper renal lesion?",
+        "correctness_question": "Does the model's response correctly assert that There is a focal lesion in the left suprarenal/upper renal region.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Left suprarenal lesion shape",
+        "claim_text": "The focal lesion in the left suprarenal/upper renal region is rounded.",
+        "presence_question": "Does the model's response discuss Left suprarenal lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The focal lesion in the left suprarenal/upper renal region is rounded.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Left suprarenal lesion margin",
+        "claim_text": "The focal lesion in the left suprarenal/upper renal region is well-circumscribed.",
+        "presence_question": "Does the model's response discuss Left suprarenal lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The focal lesion in the left suprarenal/upper renal region is well-circumscribed.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Left suprarenal lesion density",
+        "claim_text": "The focal lesion in the left suprarenal/upper renal region has low attenuation.",
+        "presence_question": "Does the model's response discuss Left suprarenal lesion density?",
+        "correctness_question": "Does the model's response correctly assert that The focal lesion in the left suprarenal/upper renal region has low attenuation.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Adjacency of right and left suprarenal lesions",
+        "claim_text": "The focal lesion in the right suprarenal/upper renal region is not adjacent to the focal lesion in the left suprarenal/upper renal region.",
+        "presence_question": "Does the model's response discuss Adjacency of right and left suprarenal lesions?",
+        "correctness_question": "Does the model's response correctly assert that The focal lesion in the right suprarenal/upper renal region is not adjacent to the focal lesion in the left suprarenal/upper renal region.?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Number of focal lesions",
+        "claim_text": "There are two focal lesions on the axial CT image of the upper abdomen.",
+        "presence_question": "Does the model's response discuss Number of focal lesions?",
+        "correctness_question": "Does the model's response correctly assert that There are two focal lesions on the axial CT image of the upper abdomen.?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "Additional distinct lesions on axial CT",
+        "claim_text": "No additional distinct focal lesions are present on the axial CT image of the upper abdomen.",
+        "presence_question": "Does the model's response discuss Additional distinct lesions on axial CT?",
+        "correctness_question": "Does the model's response correctly assert that No additional distinct focal lesions are present on the axial CT image of the upper abdomen.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "upper abdominal focal masses",
+        "claim_text": "Discrete focal masses in the upper abdomen are commonly located in the suprarenal and upper renal regions.",
+        "presence_question": "Does the model's response discuss upper abdominal focal masses?",
+        "correctness_question": "Does the model's response correctly state that Discrete focal masses in the upper abdomen are commonly located in the suprarenal and upper renal regions?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "lesion count on an imaging slice",
+        "claim_text": "The count of distinct focal lesions on an imaging slice is defined as the number of clearly separate lesions visible on that image.",
+        "presence_question": "Does the model's response discuss lesion count on an imaging slice?",
+        "correctness_question": "Does the model's response correctly state that The count of distinct focal lesions on an imaging slice is defined as the number of clearly separate lesions visible on that image?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "number of focal lesions",
+        "claim_text": "The axial CT image supports that there are two distinct focal lesions in the suprarenal/upper renal regions.",
+        "presence_question": "Does the model's response make an inferential link about number of focal lesions?",
+        "correctness_question": "Does the model's response correctly conclude that The axial CT image supports that there are two distinct focal lesions in the suprarenal/upper renal regions.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "lesion location consistency",
+        "claim_text": "The observed lesions' location is consistent with common sites for discrete focal masses in the suprarenal/upper renal region.",
+        "presence_question": "Does the model's response make an inferential link about lesion location consistency?",
+        "correctness_question": "Does the model's response correctly conclude that The observed lesions' location is consistent with common sites for discrete focal masses in the suprarenal/upper renal region.?",
+        "premise_perception_ids": [
+          "p1",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -27,5 +27,144 @@
   "caption": "Last esophagogram showing marked improvement at area of stricture with resolution of pre stenotic dilatation.",
   "sub_caption": "Last esophagogram showing marked improvement at area of stricture with resolution of pre stenotic dilatation.",
   "image_context": "In total, the patient had four dilatations in the 3rd, 4.5th, 6th, and 8th months post TEF repair. She has been followed-up in the clinic every 4–6weeks for about 20 months now. She continues to be asymptomatic and tolerating all types of food without any issues (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>).).Fig. 3Last esophagogram showing marked improvement at area of stricture with resolution of pre stenotic dilatation.Fig. 3",
-  "relevant_image_context": "In total, the patient had four dilatations in the 3rd, 4.5th, 6th, and 8th months post TEF repair. She has been followed-up in the clinic every 4–6weeks for about 20 months now. She continues to be asymptomatic and tolerating all types of food without any issues (Fig. 3).).Fig. 3Last esophagogram showing marked improvement at area of stricture with resolution of pre stenotic dilatation.Fig. 3 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "In total, the patient had four dilatations in the 3rd, 4.5th, 6th, and 8th months post TEF repair. She has been followed-up in the clinic every 4–6weeks for about 20 months now. She continues to be asymptomatic and tolerating all types of food without any issues (Fig. 3).).Fig. 3Last esophagogram showing marked improvement at area of stricture with resolution of pre stenotic dilatation.Fig. 3 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_64_15-PMC6372486-2-gr3.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_64_15-PMC6372486-2-gr3.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "lateral contrast radiograph",
+        "claim_text": "A lateral contrast radiograph of the chest and upper abdomen is present.",
+        "presence_question": "Does the model's response discuss lateral contrast radiograph?",
+        "correctness_question": "Does the model's response correctly assert that A lateral contrast radiograph of the chest and upper abdomen is present?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "vertical contrast column",
+        "claim_text": "A vertical contrast column is present within the thorax.",
+        "presence_question": "Does the model's response discuss vertical contrast column?",
+        "correctness_question": "Does the model's response correctly assert that A vertical contrast column is present within the thorax?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "contrast column posterior to the heart",
+        "claim_text": "A contrast column is located posterior to the heart.",
+        "presence_question": "Does the model's response discuss contrast column posterior to the heart?",
+        "correctness_question": "Does the model's response correctly assert that A contrast column is located posterior to the heart?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "contrast column anterior to vertebral bodies",
+        "claim_text": "A contrast column is located anterior to the vertebral bodies.",
+        "presence_question": "Does the model's response discuss contrast column anterior to vertebral bodies?",
+        "correctness_question": "Does the model's response correctly assert that A contrast column is located anterior to the vertebral bodies?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "vertebral bodies and posterior ribs",
+        "claim_text": "Vertebral bodies and posterior ribs are visible on the lateral radiograph.",
+        "presence_question": "Does the model's response discuss vertebral bodies and posterior ribs?",
+        "correctness_question": "Does the model's response correctly assert that Vertebral bodies and posterior ribs are visible on the lateral radiograph?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "contrast-filled tubular structure",
+        "claim_text": "A contrast-filled tubular structure is located within the thorax.",
+        "presence_question": "Does the model's response discuss contrast-filled tubular structure?",
+        "correctness_question": "Does the model's response correctly assert that A contrast-filled tubular structure is located within the thorax?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "contrast column in the neck",
+        "claim_text": "The contrast column is not located in the neck.",
+        "presence_question": "Does the model's response discuss contrast column in the neck?",
+        "correctness_question": "Does the model's response correctly assert that The contrast column is not located in the neck?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "contrast column in the lower abdomen",
+        "claim_text": "The contrast column is not located in the lower abdomen.",
+        "presence_question": "Does the model's response discuss contrast column in the lower abdomen?",
+        "correctness_question": "Does the model's response correctly assert that The contrast column is not located in the lower abdomen?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "contrast column shape",
+        "claim_text": "The contrast column demonstrates a tubular shape throughout the thorax.",
+        "presence_question": "Does the model's response discuss contrast column shape?",
+        "correctness_question": "Does the model's response correctly assert that The contrast column demonstrates a tubular shape throughout the thorax?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "contrast column appearance",
+        "claim_text": "The contrast column is contrast-filled in appearance throughout the thorax.",
+        "presence_question": "Does the model's response discuss contrast column appearance?",
+        "correctness_question": "Does the model's response correctly assert that The contrast column is contrast-filled in appearance throughout the thorax?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "thoracic esophagus",
+        "claim_text": "The thoracic esophagus is located posterior to the heart and anterior to the vertebral column.",
+        "presence_question": "Does the model's response discuss thoracic esophagus?",
+        "correctness_question": "Does the model's response correctly state that The thoracic esophagus is located posterior to the heart and anterior to the vertebral column?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "esophagus on contrast radiograph",
+        "claim_text": "A contrast radiograph (swallow study) identifies the esophagus as a tubular contrast column in the thorax.",
+        "presence_question": "Does the model's response discuss esophagus on contrast radiograph?",
+        "correctness_question": "Does the model's response correctly state that A contrast radiograph (swallow study) identifies the esophagus as a tubular contrast column in the thorax?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "lateral radiograph thoracic landmarks",
+        "claim_text": "Visualization of vertebral bodies and posterior ribs on a lateral radiograph indicates a thoracic imaging orientation useful for localizing intrathoracic structures.",
+        "presence_question": "Does the model's response discuss lateral radiograph thoracic landmarks?",
+        "correctness_question": "Does the model's response correctly state that Visualization of vertebral bodies and posterior ribs on a lateral radiograph indicates a thoracic imaging orientation useful for localizing intrathoracic structures?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Esophagus demonstrated on lateral radiograph",
+        "claim_text": "The presence of a tubular, contrast-filled vertical column located posterior to the heart and anterior to the vertebral bodies supports that the thoracic esophagus is demonstrated on the lateral radiograph.",
+        "presence_question": "Does the model's response make an inferential link about Esophagus demonstrated on lateral radiograph?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of a tubular, contrast-filled vertical column located posterior to the heart and anterior to the vertebral bodies supports that the thoracic esophagus is demonstrated on the lateral radiograph.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Contrast-filled structure located in thorax",
+        "claim_text": "Visualization of vertebral bodies and posterior ribs with the contrast column located in the thorax supports that the contrast-filled tubular structure runs through the thorax rather than the neck or abdomen in this image.",
+        "presence_question": "Does the model's response make an inferential link about Contrast-filled structure located in thorax?",
+        "correctness_question": "Does the model's response correctly conclude that Visualization of vertebral bodies and posterior ribs with the contrast column located in the thorax supports that the contrast-filled tubular structure runs through the thorax rather than the neck or abdomen in this image.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

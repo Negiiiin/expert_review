@@ -27,5 +27,122 @@
   "caption": "CT aorta: arrow points at the differential myocardial enhancement corresponding to large area of infarct.",
   "sub_caption": "CT aorta: arrow points at the differential myocardial enhancement corresponding to large area of infarct.",
   "image_context": "The patient is a 53-year-old man with a history of hypertension. He sustained an out of hospital cardiac arrest secondary to an anterolateral ST elevation myocardial infarction (STEMI). He was loaded with Prasugrel and heparin and was treated with drug eluting stents in the LM, proximal left anterior descending (LAD) and left circumflex coronary arteries. Because of persistent cardiogenic shock, an intra-aortic balloon pump was placed. Transthoracic echocardiogram (TTE) revealed severe left ventricular (LV) dysfunction with an ejection fraction of 25%, moderately severe aortic regurgitation, aortic root dissection and he was subsequently transferred to our institution. Upon arrival, he was mechanically ventilated and required increasing doses of inotropes. He experienced frequent supraventricular and ventricular arrhythmias. CT scan of the thoracic aorta revealed a dilated aortic root (maximum transverse diameter of 5 cm) and a dissection flap involving the non-coronary and left coronary sinuses with concern of transmural hypoperfusion of LAD territory (Fig. <xref ref-type=\"fig\" rid=\"rjx123f01\">1</xref>).\n).",
-  "relevant_image_context": "The patient is a 53-year-old man with a history of hypertension. He sustained an out of hospital cardiac arrest secondary to an anterolateral ST elevation myocardial infarction (STEMI). He was loaded with Prasugrel and heparin and was treated with drug eluting stents in the LM, proximal left anterior descending (LAD) and left circumflex coronary arteries. Because of persistent cardiogenic shock, an intra-aortic balloon pump was placed. Transthoracic echocardiogram (TTE) revealed severe left ventricular (LV) dysfunction with an ejection fraction of 25%, moderately severe aortic regurgitation, aortic root dissection and he was subsequently transferred to our institution. Upon arrival, he was mechanically ventilated and required increasing doses of inotropes. He experienced frequent supraventricular and ventricular arrhythmias. CT scan of the thoracic aorta revealed a dilated aortic root (maximum transverse diameter of 5 cm) and a dissection flap involving the non-coronary and left coronary sinuses with concern of transmural hypoperfusion of LAD territory (Fig. 1)."
+  "relevant_image_context": "The patient is a 53-year-old man with a history of hypertension. He sustained an out of hospital cardiac arrest secondary to an anterolateral ST elevation myocardial infarction (STEMI). He was loaded with Prasugrel and heparin and was treated with drug eluting stents in the LM, proximal left anterior descending (LAD) and left circumflex coronary arteries. Because of persistent cardiogenic shock, an intra-aortic balloon pump was placed. Transthoracic echocardiogram (TTE) revealed severe left ventricular (LV) dysfunction with an ejection fraction of 25%, moderately severe aortic regurgitation, aortic root dissection and he was subsequently transferred to our institution. Upon arrival, he was mechanically ventilated and required increasing doses of inotropes. He experienced frequent supraventricular and ventricular arrhythmias. CT scan of the thoracic aorta revealed a dilated aortic root (maximum transverse diameter of 5 cm) and a dissection flap involving the non-coronary and left coronary sinuses with concern of transmural hypoperfusion of LAD territory (Fig. 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_48_3-PMC5577501-4-rjx123f01.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_48_3-PMC5577501-4-rjx123f01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left lateral ventricular myocardium enhancement",
+        "claim_text": "The lateral/anterolateral left ventricular myocardium shows decreased enhancement compared with surrounding myocardium and blood pool.",
+        "presence_question": "Does the model's response discuss left lateral ventricular myocardium enhancement?",
+        "correctness_question": "Does the model's response correctly assert that The lateral/anterolateral left ventricular myocardium shows decreased enhancement compared with surrounding myocardium and blood pool?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "hypoenhancing region in left lateral myocardium",
+        "claim_text": "A hypoenhancing region is located in the lateral/anterolateral left ventricular myocardium.",
+        "presence_question": "Does the model's response discuss hypoenhancing region in left lateral myocardium?",
+        "correctness_question": "Does the model's response correctly assert that A hypoenhancing region is located in the lateral/anterolateral left ventricular myocardium?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "size of hypoenhancing region",
+        "claim_text": "The hypoenhancing region in the left ventricular lateral myocardium occupies a sizable area.",
+        "presence_question": "Does the model's response discuss size of hypoenhancing region?",
+        "correctness_question": "Does the model's response correctly assert that The hypoenhancing region in the left ventricular lateral myocardium occupies a sizable area?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "myocardial hypoenhancement on contrast CT",
+        "claim_text": "Myocardial hypoenhancement on contrast CT suggests poor myocardial perfusion or infarction.",
+        "presence_question": "Does the model's response discuss myocardial hypoenhancement on contrast CT?",
+        "correctness_question": "Does the model's response correctly state that myocardial hypoenhancement on contrast CT suggests poor myocardial perfusion or infarction?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "large region of non-enhancing myocardium",
+        "claim_text": "A large region of non-enhancing or nonviable myocardium indicates substantial loss of contractile myocardium and limited viable tissue.",
+        "presence_question": "Does the model's response discuss a large region of non-enhancing myocardium?",
+        "correctness_question": "Does the model's response correctly state that a large region of non-enhancing or nonviable myocardium indicates substantial loss of contractile myocardium and limited viable tissue?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "substantial loss of contractile myocardium",
+        "claim_text": "Substantial loss of contractile myocardium makes rapid recovery of left ventricular function unlikely and creates a substrate for ongoing pump failure.",
+        "presence_question": "Does the model's response discuss substantial loss of contractile myocardium?",
+        "correctness_question": "Does the model's response correctly state that substantial loss of contractile myocardium makes rapid recovery of left ventricular function unlikely and creates a substrate for ongoing pump failure?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "myocardial perfusion defect in cardiogenic shock",
+        "claim_text": "A prominent myocardial perfusion defect in the setting of persistent cardiogenic shock is associated with a high risk of progressive heart failure.",
+        "presence_question": "Does the model's response discuss a myocardial perfusion defect in the setting of cardiogenic shock?",
+        "correctness_question": "Does the model's response correctly state that a prominent myocardial perfusion defect in the setting of persistent cardiogenic shock is associated with a high risk of progressive heart failure?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Hypoenhancement implies infarct or poor perfusion",
+        "claim_text": "The hypoenhancing region in the lateral/anterolateral left ventricular myocardium most likely represents an area of poor perfusion or infarction.",
+        "presence_question": "Does the model's response make an inferential link about Hypoenhancement implies infarct or poor perfusion?",
+        "correctness_question": "Does the model's response correctly conclude that The hypoenhancing region in the lateral/anterolateral left ventricular myocardium most likely represents an area of poor perfusion or infarction.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Extent of hypoenhancement implies loss of contractile myocardium",
+        "claim_text": "The sizable extent of myocardial hypoenhancement implies substantial loss of contractile myocardium and limited viable tissue in that territory.",
+        "presence_question": "Does the model's response make an inferential link about Extent of hypoenhancement implies loss of contractile myocardium?",
+        "correctness_question": "Does the model's response correctly conclude that The sizable extent of myocardial hypoenhancement implies substantial loss of contractile myocardium and limited viable tissue in that territory.?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Loss of contractile myocardium implies poor LV recovery",
+        "claim_text": "Substantial loss of contractile myocardium makes rapid recovery of left ventricular function unlikely and provides a substrate for ongoing pump failure.",
+        "presence_question": "Does the model's response make an inferential link about Loss of contractile myocardium implies poor LV recovery?",
+        "correctness_question": "Does the model's response correctly conclude that Substantial loss of contractile myocardium makes rapid recovery of left ventricular function unlikely and provides a substrate for ongoing pump failure.?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Perfusion defect increases risk of progressive heart failure",
+        "claim_text": "A prominent myocardial perfusion defect on CT, in the clinical context of persistent cardiogenic shock, indicates a high risk of progressive heart failure for this patient.",
+        "presence_question": "Does the model's response make an inferential link about Perfusion defect increases risk of progressive heart failure?",
+        "correctness_question": "Does the model's response correctly conclude that A prominent myocardial perfusion defect on CT, in the clinical context of persistent cardiogenic shock, indicates a high risk of progressive heart failure for this patient.?",
+        "premise_perception_ids": [
+          "p1",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

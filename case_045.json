@@ -27,5 +27,153 @@
   "caption": "Fundus photographs of female carriers. A: (F1-II-2) Fine pigment mottling in the midperiphary retina. B: (F2-II-2) Pigmentary clumping changes are found in the posterior pole and peripheral retina. C: (F3-II-2) A ring of retinal and choroidal atrophy is found around the optic disc.",
   "sub_caption": "B: (F2-II-2) Pigmentary clumping changes are found in the posterior pole and peripheral retina.",
   "image_context": "In our study, the female carriers in families 1 and 2 were asymptomatic but had pigmentary changes in the fundus. One older female carrier (age 69) in family 3 showed signs and symptoms similar to affected male patients (<xref ref-type=\"fig\" rid=\"mv-v18-309-f7\">Figure 7</xref>). This may be due to skewed ). This may be due to skewed X-chromosome inactivation. Even though female carriers are generally asymptomatic, careful fundus examination can reveal signs of chorioretinal degeneration after the second decade [16]. Results (to be published) from the Internet-based survey (Qi Zhou and Ian MacDonald) indicate that age is a significant factor in predicting symptoms and signs in female CHM carriers. In family 3, the 69-year-old carrier showed significant CHM signs and symptoms, while the younger carrier (age 17) did not show any signs and symptoms. The difference in phenotype between the two carriers is likely related to age and the progressive nature of signs in female carriers. Compared to Caucasian patients, Chinese patients have significantly more pigment in the RPE and choroid, making detecting fundus changes in asymptomatic Chinese patients more difficult; therefore, asymptomatic but mildly affected females are likely under-reported. Since signs and symptoms manifest with time, careful examination and close follow-up should be conducted in CHM carriers.",
-  "relevant_image_context": "Sub-caption: B: (F2-II-2) Pigmentary clumping changes are found in the posterior pole and peripheral retina. In our study, the female carriers in families 1 and 2 were asymptomatic but had pigmentary changes in the fundus. One older female carrier (age 69) in family 3 showed signs and symptoms similar to affected male patients (Figure 7). This may be due to skewed ). This may be due to skewed X-chromosome inactivation. Even though female carriers are generally asymptomatic, careful fundus examination can reveal signs of chorioretinal degeneration after the second decade [16]. Results (to be published) from the Internet-based survey (Qi Zhou and Ian MacDonald) indicate that age is a significant factor in predicting symptoms and signs in female CHM carriers. In family 3, the 69-year-old carrier showed significant CHM signs and symptoms, while the younger carrier (age 17) did not show any signs and symptoms. The difference in phenotype between the two carriers is likely related to age and the progressive nature of signs in female carriers. Compared to Caucasian patients, Chinese patients have significantly more pigment in the RPE and choroid, making detecting fundus changes in asymptomatic Chinese patients more difficult; therefore, asymptomatic but mildly affected females are likely under-reported. Since signs and symptoms manifest with time, careful examination and close follow-up should be conducted in CHM carriers. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Sub-caption: B: (F2-II-2) Pigmentary clumping changes are found in the posterior pole and peripheral retina. In our study, the female carriers in families 1 and 2 were asymptomatic but had pigmentary changes in the fundus. One older female carrier (age 69) in family 3 showed signs and symptoms similar to affected male patients (Figure 7). This may be due to skewed ). This may be due to skewed X-chromosome inactivation. Even though female carriers are generally asymptomatic, careful fundus examination can reveal signs of chorioretinal degeneration after the second decade [16]. Results (to be published) from the Internet-based survey (Qi Zhou and Ian MacDonald) indicate that age is a significant factor in predicting symptoms and signs in female CHM carriers. In family 3, the 69-year-old carrier showed significant CHM signs and symptoms, while the younger carrier (age 17) did not show any signs and symptoms. The difference in phenotype between the two carriers is likely related to age and the progressive nature of signs in female carriers. Compared to Caucasian patients, Chinese patients have significantly more pigment in the RPE and choroid, making detecting fundus changes in asymptomatic Chinese patients more difficult; therefore, asymptomatic but mildly affected females are likely under-reported. Since signs and symptoms manifest with time, careful examination and close follow-up should be conducted in CHM carriers. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_2_filelist_commercial_batch_9_86-PMC3283217-4-mv-v18-309-f7.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_9_86-PMC3283217-4-mv-v18-309-f7.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Retinal pigmentary changes",
+        "claim_text": "Pigmentary changes are present in the retina on examination.",
+        "presence_question": "Does the model's response discuss Retinal pigmentary changes?",
+        "correctness_question": "Does the model's response correctly assert that Pigmentary changes are present in the retina on examination?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Posterior pole pigmentary changes",
+        "claim_text": "Pigmentary changes are located at the posterior pole of the retina.",
+        "presence_question": "Does the model's response discuss Posterior pole pigmentary changes?",
+        "correctness_question": "Does the model's response correctly assert that Pigmentary changes are located at the posterior pole of the retina?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Peripheral retinal pigmentary extension",
+        "claim_text": "The pigmentary changes extend into the peripheral retina.",
+        "presence_question": "Does the model's response discuss Peripheral retinal pigmentary extension?",
+        "correctness_question": "Does the model's response correctly assert that The pigmentary changes extend into the peripheral retina?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Mosaic carrier-like pigment pattern",
+        "claim_text": "The retinal pigmentary changes demonstrate a mosaic, carrier-like pattern.",
+        "presence_question": "Does the model's response discuss Mosaic carrier-like pigment pattern?",
+        "correctness_question": "Does the model's response correctly assert that The retinal pigmentary changes demonstrate a mosaic, carrier-like pattern?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Asymmetric pigmentary pattern",
+        "claim_text": "The retinal pigmentary changes are asymmetric in distribution.",
+        "presence_question": "Does the model's response discuss Asymmetric pigmentary pattern?",
+        "correctness_question": "Does the model's response correctly assert that The retinal pigmentary changes are asymmetric in distribution?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Retinal small flecks",
+        "claim_text": "Small flecks are present in the retina on examination.",
+        "presence_question": "Does the model's response discuss Retinal small flecks?",
+        "correctness_question": "Does the model's response correctly assert that Small flecks are present in the retina on examination?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Posterior pole small flecks",
+        "claim_text": "Small flecks are located at the posterior pole of the retina.",
+        "presence_question": "Does the model's response discuss Posterior pole small flecks?",
+        "correctness_question": "Does the model's response correctly assert that Small flecks are located at the posterior pole of the retina?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Peripheral extension of small flecks",
+        "claim_text": "The small flecks extend into the peripheral retina.",
+        "presence_question": "Does the model's response discuss Peripheral extension of small flecks?",
+        "correctness_question": "Does the model's response correctly assert that The small flecks extend into the peripheral retina?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Nonuniform retinal involvement",
+        "claim_text": "The retina is not uniformly affected across its surface on examination.",
+        "presence_question": "Does the model's response discuss Nonuniform retinal involvement?",
+        "correctness_question": "Does the model's response correctly assert that The retina is not uniformly affected across its surface on examination?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "X-linked recessive inheritance",
+        "claim_text": "When a mother is an X-linked recessive carrier, each son has a 50% chance of inheriting the affected X chromosome.",
+        "presence_question": "Does the model's response discuss X-linked recessive inheritance?",
+        "correctness_question": "Does the model's response correctly state that when a mother is an X-linked recessive carrier, each son has a 50% chance of inheriting the affected X chromosome?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Parental sex chromosome inheritance",
+        "claim_text": "Sons inherit an X chromosome from their mother and a Y chromosome from their father, so fathers do not transmit their X chromosome to their sons.",
+        "presence_question": "Does the model's response discuss Parental sex chromosome inheritance?",
+        "correctness_question": "Does the model's response correctly state that sons inherit an X chromosome from their mother and a Y chromosome from their father, so fathers do not transmit their X chromosome to their sons?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Female carriers of X-linked retinal disorders",
+        "claim_text": "Female carriers of X-linked retinal disorders may show patchy or mosaic retinal pigmentary changes on fundus examination.",
+        "presence_question": "Does the model's response discuss Female carriers of X-linked retinal disorders?",
+        "correctness_question": "Does the model's response correctly state that female carriers of X-linked retinal disorders may show patchy or mosaic retinal pigmentary changes on fundus examination?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Genetic testing for carrier confirmation",
+        "claim_text": "Genetic testing is required to definitively establish carrier status when ophthalmic imaging suggests a carrier state.",
+        "presence_question": "Does the model's response discuss Genetic testing for carrier confirmation?",
+        "correctness_question": "Does the model's response correctly state that genetic testing is required to definitively establish carrier status when ophthalmic imaging suggests a carrier state?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Retinal appearance suggesting carrier status",
+        "claim_text": "The observed mosaic, patchy, asymmetric retinal pigmentary changes and scattered flecks support that the woman could be a carrier of an X-linked retinal disorder.",
+        "presence_question": "Does the model's response make an inferential link about Retinal appearance suggesting carrier status?",
+        "correctness_question": "Does the model's response correctly conclude that The observed mosaic, patchy, asymmetric retinal pigmentary changes and scattered flecks support that the woman could be a carrier of an X-linked retinal disorder.?",
+        "premise_perception_ids": [
+          "p1",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Carrier status implying sons' 50% risk",
+        "claim_text": "If the woman is a carrier of an X-linked recessive condition and the partner is unaffected, this implies that each son has a 50% chance of inheriting the affected X chromosome.",
+        "presence_question": "Does the model's response make an inferential link about Carrier status implying sons' 50% risk?",
+        "correctness_question": "Does the model's response correctly conclude that If the woman is a carrier of an X-linked recessive condition and the partner is unaffected, this implies that each son has a 50% chance of inheriting the affected X chromosome.?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Imaging insufficient to confirm carrier status",
+        "claim_text": "The imaging appearance alone is insufficient to definitively prove carrier status, and genetic testing would be needed for confirmation.",
+        "presence_question": "Does the model's response make an inferential link about Imaging insufficient to confirm carrier status?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging appearance alone is insufficient to definitively prove carrier status, and genetic testing would be needed for confirmation.?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

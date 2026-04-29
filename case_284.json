@@ -28,5 +28,140 @@
   "caption": "Axial section CT demonstrating diffuse brain edema evident by effacement of cortical sulci and the subarachnoid hemorrhage in both Sylvian fissures (yellow arrows) with seeding into the ventricular system (red arrows).",
   "sub_caption": "Axial section CT demonstrating diffuse brain edema evident by effacement of cortical sulci and the subarachnoid hemorrhage in both Sylvian fissures (yellow arrows) with seeding into the ventricular system (red arrows).",
   "image_context": "A 59-year-old Saudi woman presented with a deteriorated level of consciousness after 2 days of severe headaches and multiple episodes of vomiting. A non-enhanced brain CT scan showed a subarachnoid hemorrhage (SAH) (Hunt and Hess grade 4–5), intraventricular hemorrhage, and generalized brain edema (Figure <xref ref-type=\"fig\" rid=\"fneur-08-00382-g001\">1</xref>). Angiographic series delineated a cerebellar AVM with a nidus of 14 mm × 20 mm in diameter, situated on the post meatal segment of AICA and draining superficially into the transverse sinus (Spetzler–Martin grade II). The nidus was primarily supplied by the AICA, which developed a pre-nidal saccular aneurysm measuring 7 mm × 3 mm (Figure ). Angiographic series delineated a cerebellar AVM with a nidus of 14 mm × 20 mm in diameter, situated on the post meatal segment of AICA and draining superficially into the transverse sinus (Spetzler–Martin grade II). The nidus was primarily supplied by the AICA, which developed a pre-nidal saccular aneurysm measuring 7 mm × 3 mm (Figure <xref ref-type=\"fig\" rid=\"fneur-08-00382-g002\">2</xref>). The aneurysm was the source of bleeding.). The aneurysm was the source of bleeding.",
-  "relevant_image_context": "A 59-year-old Saudi woman presented with a deteriorated level of consciousness after 2 days of severe headaches and multiple episodes of vomiting. A non-enhanced brain CT scan showed a subarachnoid hemorrhage (SAH) (Hunt and Hess grade 4–5), intraventricular hemorrhage, and generalized brain edema (Figure 1)."
+  "relevant_image_context": "A 59-year-old Saudi woman presented with a deteriorated level of consciousness after 2 days of severe headaches and multiple episodes of vomiting. A non-enhanced brain CT scan showed a subarachnoid hemorrhage (SAH) (Hunt and Hess grade 4–5), intraventricular hemorrhage, and generalized brain edema (Figure 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_46_66-PMC5539170-2-fneur-08-00382-g001.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_46_66-PMC5539170-2-fneur-08-00382-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "hyperdense material in Sylvian fissures",
+        "claim_text": "There is hyperdense material present in the bilateral Sylvian fissures on imaging",
+        "presence_question": "Does the model's response discuss hyperdense material in Sylvian fissures?",
+        "correctness_question": "Does the model's response correctly assert that There is hyperdense material present in the bilateral Sylvian fissures on imaging?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "layering of hyperdense material in Sylvian fissures",
+        "claim_text": "The hyperdense material in the bilateral Sylvian fissures demonstrates a layering appearance on imaging",
+        "presence_question": "Does the model's response discuss layering of hyperdense material in Sylvian fissures?",
+        "correctness_question": "Does the model's response correctly assert that The hyperdense material in the bilateral Sylvian fissures demonstrates a layering appearance on imaging?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "extension of hyperdense material to ventricles",
+        "claim_text": "Hyperdense material extends into the ventricular system on imaging",
+        "presence_question": "Does the model's response discuss extension of hyperdense material to ventricles?",
+        "correctness_question": "Does the model's response correctly assert that Hyperdense material extends into the ventricular system on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "effacement of cortical sulci",
+        "claim_text": "There is effacement of the cortical sulci visible on imaging",
+        "presence_question": "Does the model's response discuss effacement of cortical sulci?",
+        "correctness_question": "Does the model's response correctly assert that There is effacement of the cortical sulci visible on imaging?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "intravenous alteplase",
+        "claim_text": "Intravenous alteplase increases the risk of bleeding.",
+        "presence_question": "Does the model's response discuss intravenous alteplase?",
+        "correctness_question": "Does the model's response correctly state that Intravenous alteplase increases the risk of bleeding?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "intracranial hemorrhage on imaging",
+        "claim_text": "Intravenous thrombolysis with alteplase is contraindicated if intracranial hemorrhage is present on neuroimaging.",
+        "presence_question": "Does the model's response discuss intracranial hemorrhage on imaging?",
+        "correctness_question": "Does the model's response correctly state that Intravenous thrombolysis with alteplase is contraindicated if intracranial hemorrhage is present on neuroimaging?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "subarachnoid hyperdensity on CT",
+        "claim_text": "Hyperdense material layering within subarachnoid spaces on noncontrast CT is characteristic of acute subarachnoid hemorrhage.",
+        "presence_question": "Does the model's response discuss subarachnoid hyperdensity on CT?",
+        "correctness_question": "Does the model's response correctly state that Hyperdense material layering within subarachnoid spaces on noncontrast CT is characteristic of acute subarachnoid hemorrhage?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "ventricular hyperdensity on CT",
+        "claim_text": "Hyperdensity within the ventricular system on noncontrast CT is characteristic of intraventricular hemorrhage.",
+        "presence_question": "Does the model's response discuss ventricular hyperdensity on CT?",
+        "correctness_question": "Does the model's response correctly state that Hyperdensity within the ventricular system on noncontrast CT is characteristic of intraventricular hemorrhage?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "cortical sulci effacement",
+        "claim_text": "Effacement of cortical sulci on imaging is seen with diffuse cerebral swelling and raised intracranial pressure.",
+        "presence_question": "Does the model's response discuss cortical sulci effacement?",
+        "correctness_question": "Does the model's response correctly state that Effacement of cortical sulci on imaging is seen with diffuse cerebral swelling and raised intracranial pressure?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "acute subarachnoid hemorrhage diagnosis",
+        "claim_text": "The imaging findings (hyperdense layering in the sylvian fissures and hyperdensity extending into the ventricles) support acute subarachnoid hemorrhage with intraventricular extension in this case.",
+        "presence_question": "Does the model's response make an inferential link about acute subarachnoid hemorrhage diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings (hyperdense layering in the sylvian fissures and hyperdensity extending into the ventricles) support acute subarachnoid hemorrhage with intraventricular extension in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "diffuse cerebral swelling",
+        "claim_text": "Effacement of the cortical sulci on the scan supports the presence of diffuse cerebral swelling in this case.",
+        "presence_question": "Does the model's response make an inferential link about diffuse cerebral swelling?",
+        "correctness_question": "Does the model's response correctly conclude that Effacement of the cortical sulci on the scan supports the presence of diffuse cerebral swelling in this case?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "raised intracranial pressure",
+        "claim_text": "Effaced cortical sulci are consistent with raised intracranial pressure in this patient.",
+        "presence_question": "Does the model's response make an inferential link about raised intracranial pressure?",
+        "correctness_question": "Does the model's response correctly conclude that Effaced cortical sulci are consistent with raised intracranial pressure in this patient?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "contraindication to intravenous thrombolysis",
+        "claim_text": "Because the scan demonstrates intracranial hemorrhage and thrombolysis increases bleeding risk and is contraindicated when intracranial hemorrhage is present, intravenous thrombolysis (alteplase) is contraindicated in this patient.",
+        "presence_question": "Does the model's response make an inferential link about contraindication to intravenous thrombolysis?",
+        "correctness_question": "Does the model's response correctly conclude that Because the scan demonstrates intracranial hemorrhage and thrombolysis increases bleeding risk and is contraindicated when intracranial hemorrhage is present, intravenous thrombolysis (alteplase) is contraindicated in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

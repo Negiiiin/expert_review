@@ -27,5 +27,134 @@
   "caption": "Control X-ray showing reduction of the dislocation with combined fixation.",
   "sub_caption": "Control X-ray showing reduction of the dislocation with combined fixation.",
   "image_context": "He was admitted to the emergency room following a motor vehicle accident with an occipital impact point. On admission, the patient was conscious, well oriented, and hemodynamically stable. The neurological examination found a preserved mortice and sensory function (FRANKEL E). He complained of only moderate neck pain. We noticed during the examination that his neck was fixed with imoprtante stiffness, movements in the lateral direction and flexion extension was impossible. The X-ray of the cervical spine showed a transverse fracture-dislocation C5–C6 on a pathological spine (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). The cerebral CT scan was normal. The patient was admitted to the neurosurgery department after immobilization with a neck brace, and a cervical CT scan was requested (). The cerebral CT scan was normal. The patient was admitted to the neurosurgery department after immobilization with a neck brace, and a cervical CT scan was requested (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>).).Fig. 1Cervical X RAY profile shows a dislocation fracture of c5-c6.Fig. 1Fig. 2Cervical CT-SCAN shows a dislocation fracture of C5–C6.Fig. 2",
-  "relevant_image_context": "Fig. 1 Cervical X RAY profile shows a dislocation fracture of c5-c6."
+  "relevant_image_context": "Fig. 1 Cervical X RAY profile shows a dislocation fracture of c5-c6.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_99_34-PMC8429921-2-gr10.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_99_34-PMC8429921-2-gr10.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Lateral cervical radiograph",
+        "claim_text": "A lateral cervical radiograph image of the cervical spine is present on the study",
+        "presence_question": "Does the model's response discuss Lateral cervical radiograph?",
+        "correctness_question": "Does the model's response correctly assert that A lateral cervical radiograph image of the cervical spine is present on the study?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Metallic rods count",
+        "claim_text": "Two metallic rods are present in the cervical vertebral column on the radiograph",
+        "presence_question": "Does the model's response discuss Metallic rods count?",
+        "correctness_question": "Does the model's response correctly assert that Two metallic rods are present in the cervical vertebral column on the radiograph?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Location of metallic rods",
+        "claim_text": "The two metallic rods are located along the posterior cervical vertebral column on the lateral radiograph",
+        "presence_question": "Does the model's response discuss Location of metallic rods?",
+        "correctness_question": "Does the model's response correctly assert that The two metallic rods are located along the posterior cervical vertebral column on the lateral radiograph?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Curved metallic rods",
+        "claim_text": "The metallic rods demonstrate a curved shape along the cervical vertebral column",
+        "presence_question": "Does the model's response discuss Curved metallic rods?",
+        "correctness_question": "Does the model's response correctly assert that The metallic rods demonstrate a curved shape along the cervical vertebral column?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Parallel metallic rods",
+        "claim_text": "The metallic rods run parallel to each other in the cervical vertebral column",
+        "presence_question": "Does the model's response discuss Parallel metallic rods?",
+        "correctness_question": "Does the model's response correctly assert that The metallic rods run parallel to each other in the cervical vertebral column?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Continuous metallic rods",
+        "claim_text": "The metallic rods appear continuous without interruption along the cervical vertebral column",
+        "presence_question": "Does the model's response discuss Continuous metallic rods?",
+        "correctness_question": "Does the model's response correctly assert that The metallic rods appear continuous without interruption along the cervical vertebral column?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Screw heads and connectors",
+        "claim_text": "Screw heads and connectors are present along the posterior elements of the cervical spine on the radiograph",
+        "presence_question": "Does the model's response discuss Screw heads and connectors?",
+        "correctness_question": "Does the model's response correctly assert that Screw heads and connectors are present along the posterior elements of the cervical spine on the radiograph?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Screw heads attached to rods",
+        "claim_text": "The screw heads and connectors are attached to the metallic rods in the posterior cervical spine",
+        "presence_question": "Does the model's response discuss Screw heads attached to rods?",
+        "correctness_question": "Does the model's response correctly assert that The screw heads and connectors are attached to the metallic rods in the posterior cervical spine?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Additional rods absent",
+        "claim_text": "No additional long linear metallic elements representing a third or fourth rod are present in the cervical spine",
+        "presence_question": "Does the model's response discuss Additional rods absent?",
+        "correctness_question": "Does the model's response correctly assert that No additional long linear metallic elements representing a third or fourth rod are present in the cervical spine?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "spinal fixation rods appearance",
+        "claim_text": "Spinal fixation rods typically appear as long, linear, high-density structures along the posterior cervical spine on radiographs.",
+        "presence_question": "Does the model's response discuss spinal fixation rods appearance?",
+        "correctness_question": "Does the model's response correctly state that Spinal fixation rods typically appear as long, linear, high-density structures along the posterior cervical spine on radiographs?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "spinal fixation rod connections",
+        "claim_text": "Spinal fixation rods are typically joined to vertebrae by screw heads and connectors.",
+        "presence_question": "Does the model's response discuss spinal fixation rod connections?",
+        "correctness_question": "Does the model's response correctly state that Spinal fixation rods are typically joined to vertebrae by screw heads and connectors?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "counting fixation rods on radiograph",
+        "claim_text": "The number of visible fixation rods on a radiograph is determined by counting continuous long metallic rods on the image.",
+        "presence_question": "Does the model's response discuss counting fixation rods on radiograph?",
+        "correctness_question": "Does the model's response correctly state that The number of visible fixation rods on a radiograph is determined by counting continuous long metallic rods on the image?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "spinal fixation rod count",
+        "claim_text": "Counting the continuous long metallic rods visible on the lateral cervical radiograph supports that there are two spinal fixation rods in this case.",
+        "presence_question": "Does the model's response make an inferential link about spinal fixation rod count?",
+        "correctness_question": "Does the model's response correctly conclude that Counting the continuous long metallic rods visible on the lateral cervical radiograph supports that there are two spinal fixation rods in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p6",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "metallic rods as fixation hardware",
+        "claim_text": "The presence of screw heads and connectors located at the metallic rods supports that these metallic rods represent spinal fixation hardware in this case.",
+        "presence_question": "Does the model's response make an inferential link about metallic rods as fixation hardware?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of screw heads and connectors located at the metallic rods supports that these metallic rods represent spinal fixation hardware in this case?",
+        "premise_perception_ids": [
+          "p7",
+          "p8",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

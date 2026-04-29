@@ -28,5 +28,91 @@
   "caption": "CT head.Cranial CT scan demonstrating a midline round hyperdense lesion located near the foramen of Monro (arrow) with prominent lateral ventricles.",
   "sub_caption": "CT head.Cranial CT scan demonstrating a midline round hyperdense lesion located near the foramen of Monro (arrow) with prominent lateral ventricles.",
   "image_context": "In view of the aforementioned clinical features, the patient underwent CT of the brain to rule out any space-occupying lesion. The CT demonstrated a homogenously hyperdense well-defined round lesion located in the midline at the approximate location of the foramen of Monro with prominent lateral ventricles (Figure <xref rid=\"cureus-0013-00000018424-i01\" ref-type=\"fig\">1</xref>). This finding prompted a further investigation with MRI which redemonstrated the lesion as having an increased T1 and iso T2 signal intensity with the mass (Figure ). This finding prompted a further investigation with MRI which redemonstrated the lesion as having an increased T1 and iso T2 signal intensity with the mass (Figure <xref rid=\"cureus-0013-00000018424-i02\" ref-type=\"fig\">2</xref>). Such findings conferred the diagnosis of a colloid cyst.). Such findings conferred the diagnosis of a colloid cyst.",
-  "relevant_image_context": "In view of the aforementioned clinical features, the patient underwent CT of the brain to rule out any space-occupying lesion. The CT demonstrated a homogenously hyperdense well-defined round lesion located in the midline at the approximate location of the foramen of Monro with prominent lateral ventricles."
+  "relevant_image_context": "In view of the aforementioned clinical features, the patient underwent CT of the brain to rule out any space-occupying lesion. The CT demonstrated a homogenously hyperdense well-defined round lesion located in the midline at the approximate location of the foramen of Monro with prominent lateral ventricles.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_106_97-PMC8557790-0-cureus-0013-00000018424-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_106_97-PMC8557790-0-cureus-0013-00000018424-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "lateral ventricles count",
+        "claim_text": "There are two lateral ventricles present in the brain.",
+        "presence_question": "Does the model's response discuss lateral ventricles count?",
+        "correctness_question": "Does the model's response correctly assert that There are two lateral ventricles present in the brain.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lateral ventricles density",
+        "claim_text": "The lateral ventricles are hypodense, low in attenuation, consistent with cerebrospinal fluid.",
+        "presence_question": "Does the model's response discuss lateral ventricles density?",
+        "correctness_question": "Does the model's response correctly assert that The lateral ventricles are hypodense, low in attenuation, consistent with cerebrospinal fluid.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "midline hyperdense focus",
+        "claim_text": "A small round hyperdense focus is located at the midline where the medial walls of the lateral ventricles approach.",
+        "presence_question": "Does the model's response discuss midline hyperdense focus?",
+        "correctness_question": "Does the model's response correctly assert that A small round hyperdense focus is located at the midline where the medial walls of the lateral ventricles approach.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "midline arrow location",
+        "claim_text": "An arrow marks the midline opening at the region of the foramen of Monro.",
+        "presence_question": "Does the model's response discuss midline arrow location?",
+        "correctness_question": "Does the model's response correctly assert that An arrow marks the midline opening at the region of the foramen of Monro.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "ventricular extension to midline",
+        "claim_text": "The lateral ventricles extend to the medial midline opening where they join.",
+        "presence_question": "Does the model's response discuss ventricular extension to midline?",
+        "correctness_question": "Does the model's response correctly assert that The lateral ventricles extend to the medial midline opening where they join.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "foramen of Monro",
+        "claim_text": "The foramen of Monro is the channel that connects the lateral ventricle to the third ventricle.",
+        "presence_question": "Does the model's response discuss foramen of Monro?",
+        "correctness_question": "Does the model's response correctly state that The foramen of Monro is the channel that connects the lateral ventricle to the third ventricle?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "cerebrospinal fluid on CT",
+        "claim_text": "Cerebrospinal fluid typically appears hypodense (relatively dark) on CT images.",
+        "presence_question": "Does the model's response discuss cerebrospinal fluid on CT?",
+        "correctness_question": "Does the model's response correctly state that Cerebrospinal fluid typically appears hypodense (relatively dark) on CT images?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "ventricle medial to foramen of Monro",
+        "claim_text": "The ventricle immediately medial to the foramen of Monro is the third ventricle.",
+        "presence_question": "Does the model's response discuss ventricle medial to foramen of Monro?",
+        "correctness_question": "Does the model's response correctly state that The ventricle immediately medial to the foramen of Monro is the third ventricle?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "ventricle communication via foramen of Monro",
+        "claim_text": "The observed midline opening corresponding to the foramen of Monro implies that the third ventricle communicates with the lateral ventricle in this case.",
+        "presence_question": "Does the model's response make an inferential link about ventricle communication via foramen of Monro?",
+        "correctness_question": "Does the model's response correctly conclude that The observed midline opening corresponding to the foramen of Monro implies that the third ventricle communicates with the lateral ventricle in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

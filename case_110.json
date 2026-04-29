@@ -28,5 +28,111 @@
   "caption": "Brain CT scan findings of the patient. The red arrow shows ventricular dilatation of the left lateral ventricle.The blue arrow shows gliotic changes in the temporoparietal and occipital lobes.CT, computed tomography",
   "sub_caption": "The red arrow shows ventricular dilatation of the left lateral ventricle. The blue arrow shows gliotic changes in the temporoparietal and occipital lobes.",
   "image_context": "The patient’s vital signs were within normal limits. She was conscious and oriented. Her higher mental function was normal, and her sensory function appeared to be intact. However, she displayed reduced bulk and power on the right side, as well as hypertonia and a plantar extensor response on the same side. In addition, she exhibited a circumduction gait. Brain CT scan results demonstrated left temporoparietal and occipital gliotic changes, likely related to the patient’s prior stroke, along with ex vacuo dilatation of the ipsilateral ventricle (Figure <xref rid=\"cureus-0015-00000041101-i01\" ref-type=\"fig\">1</xref>).).",
-  "relevant_image_context": "Brain CT scan results demonstrated left temporoparietal and occipital gliotic changes, likely related to the patient’s prior stroke, along with ex vacuo dilatation of the ipsilateral ventricle."
+  "relevant_image_context": "Brain CT scan results demonstrated left temporoparietal and occipital gliotic changes, likely related to the patient’s prior stroke, along with ex vacuo dilatation of the ipsilateral ventricle.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_152_114-PMC10382186-1-cureus-0015-00000041101-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_152_114-PMC10382186-1-cureus-0015-00000041101-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "red arrow on axial CT",
+        "claim_text": "A red arrow is present on the axial CT image.",
+        "presence_question": "Does the model's response discuss red arrow on axial CT?",
+        "correctness_question": "Does the model's response correctly assert that A red arrow is present on the axial CT image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "arrow marking CSF-filled cavity",
+        "claim_text": "The red arrow marks a well-defined hypodense CSF-filled cavity in the hemisphere adjacent to the midline.",
+        "presence_question": "Does the model's response discuss arrow marking CSF-filled cavity?",
+        "correctness_question": "Does the model's response correctly assert that The red arrow marks a well-defined hypodense CSF-filled cavity in the hemisphere adjacent to the midline?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "cavity hypodense density consistent with CSF",
+        "claim_text": "The cavity is hypodense (dark) in density, consistent with cerebrospinal fluid.",
+        "presence_question": "Does the model's response discuss cavity hypodense density consistent with CSF?",
+        "correctness_question": "Does the model's response correctly assert that The cavity is hypodense (dark) in density, consistent with cerebrospinal fluid?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "cavity adjacent to midline",
+        "claim_text": "The cavity is located adjacent to the midline within the cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss cavity adjacent to midline?",
+        "correctness_question": "Does the model's response correctly assert that The cavity is located adjacent to the midline within the cerebral hemisphere?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "cavity shaped like lateral ventricle",
+        "claim_text": "The cavity has the shape and position of a lateral ventricle.",
+        "presence_question": "Does the model's response discuss cavity shaped like lateral ventricle?",
+        "correctness_question": "Does the model's response correctly assert that The cavity has the shape and position of a lateral ventricle?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "cavity larger than contralateral ventricle",
+        "claim_text": "The cavity is larger than the contralateral ventricle.",
+        "presence_question": "Does the model's response discuss cavity larger than contralateral ventricle?",
+        "correctness_question": "Does the model's response correctly assert that The cavity is larger than the contralateral ventricle?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "lateral ventricle",
+        "claim_text": "The lateral ventricle is a cerebrospinal fluid (CSF)-filled cavity.",
+        "presence_question": "Does the model's response discuss lateral ventricle?",
+        "correctness_question": "Does the model's response correctly state that The lateral ventricle is a cerebrospinal fluid (CSF)-filled cavity?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "CSF appearance on CT",
+        "claim_text": "Cerebrospinal fluid (CSF) typically appears hypodense (dark) on CT.",
+        "presence_question": "Does the model's response discuss CSF appearance on CT?",
+        "correctness_question": "Does the model's response correctly state that Cerebrospinal fluid (CSF) typically appears hypodense (dark) on CT?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "lateral ventricles location",
+        "claim_text": "The lateral ventricles are located in deep midline structures within the cerebral hemispheres.",
+        "presence_question": "Does the model's response discuss lateral ventricles location?",
+        "correctness_question": "Does the model's response correctly state that The lateral ventricles are located in deep midline structures within the cerebral hemispheres?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "lateral ventricle identification",
+        "claim_text": "The imaged well-defined hypodense CSF-filled cavity targeted by the arrow is consistent with being a lateral ventricle.",
+        "presence_question": "Does the model's response make an inferential link about lateral ventricle identification?",
+        "correctness_question": "Does the model's response correctly conclude that The imaged well-defined hypodense CSF-filled cavity targeted by the arrow is consistent with being a lateral ventricle?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p5",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "unilateral ventricular enlargement",
+        "claim_text": "The targeted lateral ventricular cavity is larger than the contralateral ventricle, which indicates unilateral ventricular enlargement is present in this case.",
+        "presence_question": "Does the model's response make an inferential link about unilateral ventricular enlargement?",
+        "correctness_question": "Does the model's response correctly conclude that The targeted lateral ventricular cavity is larger than the contralateral ventricle, which indicates unilateral ventricular enlargement is present in this case?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

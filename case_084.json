@@ -28,5 +28,117 @@
   "caption": "Computed tomography thorax without contrast showing inflammation around chest device prior to explantation.",
   "sub_caption": "Computed tomography thorax without contrast showing inflammation around chest device prior to explantation.",
   "image_context": "A 71-year-old male with past medical history significant for obstructive sleep apnea underwent implantation of an Inspire® hypoglossal nerve stimulator. The post-operative course was uncomplicated until postop day #14 when the patient noted increased serous drainage from his chest surgical incision. The patient was promptly seen in Otorhinolaryngology outpatient clinic, where a superficial abscess was found and ∼ 10 ccs of serosanguinous fluid were expressed from the device pocket. Patient was prescribed a 7-day course of Trimethoprim/Sulfamethoxazole (TMP/SMX); however, purulent discharge from the chest wall surgical site persisted on postop day #17. Drainage from the device was cultured after 3 days of TMP/SMX use. This wound culture grew gram-variable rods. VITEK ® mass spectrometry identified this organism as T. otitidis. Patient then presented to the emergency department on postop day #21 with complaints of drainage from not only the device pocket, but also from his neck incision. On exam, patient was afebrile and hemodynamically stable with no leukocytosis. On exam, there was noted to be induration with purulent drainage from both the device pocket and right lateral neck incisions. Both were packed with gauze, and blood and wound cultures were sent from both neck and chest wall surgical sites. Patient was admitted and started on empiric IV antibiotic therapy with vancomycin and piperacillin-tazobactam. Neck surgical site and device pocket cultures on admission also grew T. otitidis. Blood cultures drawn on hospital admission were negative. Computed Tomography Scan of neck soft tissue and thorax with contrast was notable for soft tissue thickening and stranding around implanted chest device as well as associated pockets of subcutaneous gas and enlarged cervical lymph nodes (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). On postop day #22, patient underwent surgical removal of the hypoglossal implant plus incision and drainage of chest and neck surgical sites with Jackson-Pratt drain placement. Intraoperatively, wound cultures were taken from both neck and chest wall surgical sites. Intraoperative cultures taken from neck and chest wall sites grew normal skin flora with no isolation of anaerobes. Patient was deescalated to vancomycin alone once blood cultures and operative wound cultures showed no gram-negative growth. Patient was then discharged three days after device explantation with six days of amoxicillin/clavulanic acid for total 10-day antibiotic course. Patient was evaluated in outpatient Infectious Disease clinic one week after hospital discharge. Patient had completed oral antibiotic course. Patient reported persistent clear drainage from chest wall surgical wound, which had been present but decreased since hospital discharge. Patient denied any systemic signs of infection or increased pain, purulent drainage, swelling, or erythema around surgical sites. Patient was instructed to continue to monitor surgical incision sites and discharged from clinic with no further antibiotics. On telephone follow up, patient had denied any recurrence of drainage three months after discharge.). On postop day #22, patient underwent surgical removal of the hypoglossal implant plus incision and drainage of chest and neck surgical sites with Jackson-Pratt drain placement. Intraoperatively, wound cultures were taken from both neck and chest wall surgical sites. Intraoperative cultures taken from neck and chest wall sites grew normal skin flora with no isolation of anaerobes. Patient was deescalated to vancomycin alone once blood cultures and operative wound cultures showed no gram-negative growth. Patient was then discharged three days after device explantation with six days of amoxicillin/clavulanic acid for total 10-day antibiotic course. Patient was evaluated in outpatient Infectious Disease clinic one week after hospital discharge. Patient had completed oral antibiotic course. Patient reported persistent clear drainage from chest wall surgical wound, which had been present but decreased since hospital discharge. Patient denied any systemic signs of infection or increased pain, purulent drainage, swelling, or erythema around surgical sites. Patient was instructed to continue to monitor surgical incision sites and discharged from clinic with no further antibiotics. On telephone follow up, patient had denied any recurrence of drainage three months after discharge.Fig. 1Computed tomography thorax without contrast showing inflammation around chest device prior to explantation.Fig. 1",
-  "relevant_image_context": "Fig. 1 Computed tomography thorax without contrast showing inflammation around chest device prior to explantation."
+  "relevant_image_context": "Fig. 1 Computed tomography thorax without contrast showing inflammation around chest device prior to explantation.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_150_27-PMC11101673-0-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_150_27-PMC11101673-0-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "implanted generator location",
+        "claim_text": "A metallic implanted generator is located in the anterior chest wall subcutaneous tissues.",
+        "presence_question": "Does the model's response discuss implanted generator location?",
+        "correctness_question": "Does the model's response correctly assert that A metallic implanted generator is located in the anterior chest wall subcutaneous tissues?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "device leads location",
+        "claim_text": "Leads are located in the anterior chest wall subcutaneous tissues.",
+        "presence_question": "Does the model's response discuss device leads location?",
+        "correctness_question": "Does the model's response correctly assert that Leads are located in the anterior chest wall subcutaneous tissues?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "soft-tissue swelling around generator",
+        "claim_text": "Asymmetric soft-tissue swelling surrounds the generator in the anterior chest wall subcutaneous tissues.",
+        "presence_question": "Does the model's response discuss soft-tissue swelling around generator?",
+        "correctness_question": "Does the model's response correctly assert that Asymmetric soft-tissue swelling surrounds the generator in the anterior chest wall subcutaneous tissues?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "low-attenuation collection near generator",
+        "claim_text": "A focal low-attenuation collection is adjacent to the generator in the anterior chest wall subcutaneous tissues.",
+        "presence_question": "Does the model's response discuss low-attenuation collection near generator?",
+        "correctness_question": "Does the model's response correctly assert that A focal low-attenuation collection is adjacent to the generator in the anterior chest wall subcutaneous tissues?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "fat stranding around generator",
+        "claim_text": "Fat stranding surrounds the generator in the anterior chest wall subcutaneous tissues.",
+        "presence_question": "Does the model's response discuss fat stranding around generator?",
+        "correctness_question": "Does the model's response correctly assert that Fat stranding surrounds the generator in the anterior chest wall subcutaneous tissues?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "implanted generator pocket infection",
+        "claim_text": "A fluid collection with adjacent soft-tissue inflammatory changes around an implanted generator typically suggests a pocket infection or abscess.",
+        "presence_question": "Does the model's response discuss implanted generator pocket infection?",
+        "correctness_question": "Does the model's response correctly state that A fluid collection with adjacent soft-tissue inflammatory changes around an implanted generator typically suggests a pocket infection or abscess?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "fat stranding on CT",
+        "claim_text": "Fat stranding on CT typically indicates adjacent inflammatory change.",
+        "presence_question": "Does the model's response discuss fat stranding on CT?",
+        "correctness_question": "Does the model's response correctly state that Fat stranding on CT typically indicates adjacent inflammatory change?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "low-attenuation collection on noncontrast CT",
+        "claim_text": "A low-attenuation collection on noncontrast CT typically represents a fluid collection.",
+        "presence_question": "Does the model's response discuss low-attenuation collection on noncontrast CT?",
+        "correctness_question": "Does the model's response correctly state that A low-attenuation collection on noncontrast CT typically represents a fluid collection?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "focal low-attenuation as fluid collection",
+        "claim_text": "The focal low-attenuation collection adjacent to the generator supports the presence of a fluid collection in this case.",
+        "presence_question": "Does the model's response make an inferential link about focal low-attenuation as fluid collection?",
+        "correctness_question": "Does the model's response correctly conclude that The focal low-attenuation collection adjacent to the generator supports the presence of a fluid collection in this case.?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "peri-generator inflammatory change",
+        "claim_text": "Peri-generator fat stranding and asymmetric soft-tissue swelling support the presence of adjacent inflammatory change in this case.",
+        "presence_question": "Does the model's response make an inferential link about peri-generator inflammatory change?",
+        "correctness_question": "Does the model's response correctly conclude that Peri-generator fat stranding and asymmetric soft-tissue swelling support the presence of adjacent inflammatory change in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "pocket infection or abscess",
+        "claim_text": "The combination of a fluid collection and adjacent soft-tissue inflammatory change around the generator is consistent with a pocket infection or abscess in this case.",
+        "presence_question": "Does the model's response make an inferential link about pocket infection or abscess?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a fluid collection and adjacent soft-tissue inflammatory change around the generator is consistent with a pocket infection or abscess in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

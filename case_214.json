@@ -28,5 +28,115 @@
   "caption": "CT scan of the abdomen in 2020 showing size reduction of the right adrenal mass 9.8 x 8.8 x 13.2 cm (yellow arrow) and paraspinal mass (red arrow).",
   "sub_caption": "CT scan of the abdomen in 2020 showing size reduction of the right adrenal mass 9.8 x 8.8 x 13.2 cm (yellow arrow) and paraspinal mass (red arrow).",
   "image_context": "A multidisciplinary discussion was held between endocrinologists and haematologists and they concluded that the patient was not suitable for operation owing to high bleeding risk. Subsequently, she was given hypertransfusion, with the aim of achieving a level more than 12 g/dL. Furthermore, this patient was started on iron chelating agent due to iron overload. Hydroxyurea was commenced as part of the treatment for extramedullary haematopoiesis. Computed tomography scan of the abdomen was repeated in year 2020 and showed size reduction of the right adrenal mass and paraspinal mass (<xref ref-type=\"fig\" rid=\"JAFES-36-1-080-g004\">Figure 4</xref>).).",
-  "relevant_image_context": "A multidisciplinary discussion was held between endocrinologists and haematologists and they concluded that the patient was not suitable for operation owing to high bleeding risk. Subsequently, she was given hypertransfusion, with the aim of achieving a level more than 12 g/dL. Furthermore, this patient was started on iron chelating agent due to iron overload. Hydroxyurea was commenced as part of the treatment for extramedullary haematopoiesis. Computed tomography scan of the abdomen was repeated in year 2020 and showed size reduction of the right adrenal mass and paraspinal mass. Figure 4. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "A multidisciplinary discussion was held between endocrinologists and haematologists and they concluded that the patient was not suitable for operation owing to high bleeding risk. Subsequently, she was given hypertransfusion, with the aim of achieving a level more than 12 g/dL. Furthermore, this patient was started on iron chelating agent due to iron overload. Hydroxyurea was commenced as part of the treatment for extramedullary haematopoiesis. Computed tomography scan of the abdomen was repeated in year 2020 and showed size reduction of the right adrenal mass and paraspinal mass. Figure 4. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_95_32-PMC8214356-3-JAFES-36-1-080-g004.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_95_32-PMC8214356-3-JAFES-36-1-080-g004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "posterior paraspinal soft-tissue mass",
+        "claim_text": "A soft-tissue mass is located in the posterior paraspinal region.",
+        "presence_question": "Does the model's response discuss posterior paraspinal soft-tissue mass?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue mass is located in the posterior paraspinal region?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "upper abdomen soft-tissue lesion near adrenal/hepatic region",
+        "claim_text": "A soft-tissue lesion is located in the upper abdomen near the adrenal/hepatic region.",
+        "presence_question": "Does the model's response discuss upper abdomen soft-tissue lesion near adrenal/hepatic region?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue lesion is located in the upper abdomen near the adrenal/hepatic region?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "number of soft-tissue masses",
+        "claim_text": "There are two soft-tissue masses seen on the axial CT.",
+        "presence_question": "Does the model's response discuss number of soft-tissue masses?",
+        "correctness_question": "Does the model's response correctly assert that There are two soft-tissue masses seen on the axial CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "rounded upper abdomen lesion",
+        "claim_text": "The upper abdomen soft-tissue lesion is rounded in shape.",
+        "presence_question": "Does the model's response discuss rounded upper abdomen lesion?",
+        "correctness_question": "Does the model's response correctly assert that The upper abdomen soft-tissue lesion is rounded in shape?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "soft-tissue attenuation of masses",
+        "claim_text": "The identified masses in the posterior paraspinal and upper abdomen demonstrate soft-tissue attenuation.",
+        "presence_question": "Does the model's response discuss soft-tissue attenuation of masses?",
+        "correctness_question": "Does the model's response correctly assert that The identified masses in the posterior paraspinal and upper abdomen demonstrate soft-tissue attenuation?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "paraspinal and abdominal soft-tissue masses",
+        "claim_text": "Paraspinal and abdominal soft-tissue masses are typically associated with extramedullary hematopoiesis.",
+        "presence_question": "Does the model's response discuss paraspinal and abdominal soft-tissue masses?",
+        "correctness_question": "Does the model's response correctly state that paraspinal and abdominal soft-tissue masses are typically associated with extramedullary hematopoiesis?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "chronic anemia or chronic marrow stress",
+        "claim_text": "Chronic anemia or chronic marrow stress typically results from compensatory extramedullary hematopoiesis.",
+        "presence_question": "Does the model's response discuss chronic anemia or chronic marrow stress?",
+        "correctness_question": "Does the model's response correctly state that chronic anemia or chronic marrow stress typically results from compensatory extramedullary hematopoiesis?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "extramedullary hematopoiesis (EMH) masses",
+        "claim_text": "Extramedullary hematopoiesis (EMH) masses are typically treated with hydroxyurea, which can suppress EMH and reduce mass size.",
+        "presence_question": "Does the model's response discuss extramedullary hematopoiesis (EMH) masses?",
+        "correctness_question": "Does the model's response correctly state that extramedullary hematopoiesis (EMH) masses are typically treated with hydroxyurea, which can suppress EMH and reduce mass size?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "systemic pharmacologic therapy",
+        "claim_text": "Systemic pharmacologic therapy is typically used to reduce extramedullary hematopoiesis masses when surgery is not feasible.",
+        "presence_question": "Does the model's response discuss systemic pharmacologic therapy?",
+        "correctness_question": "Does the model's response correctly state that systemic pharmacologic therapy is typically used to reduce extramedullary hematopoiesis masses when surgery is not feasible?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "EMH diagnosis from CT masses",
+        "claim_text": "The presence of distinct posterior paraspinal and upper abdominal soft-tissue masses on CT supports that these lesions are most consistent with extramedullary hematopoiesis.",
+        "presence_question": "Does the model's response make an inferential link about EMH diagnosis from CT masses?",
+        "correctness_question": "Does the model's response correctly conclude that the presence of distinct posterior paraspinal and upper abdominal soft-tissue masses on CT supports that these lesions are most consistent with extramedullary hematopoiesis?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Hydroxyurea as treatment for EMH masses",
+        "claim_text": "The consistency of the paraspinal and abdominal masses with extramedullary hematopoiesis, together with evidence that hydroxyurea suppresses EMH and reduces mass size, justifies hydroxyurea as a non-surgical therapeutic option to attempt reduction of these lesions.",
+        "presence_question": "Does the model's response make an inferential link about Hydroxyurea as treatment for EMH masses?",
+        "correctness_question": "Does the model's response correctly conclude that the consistency of the paraspinal and abdominal masses with extramedullary hematopoiesis, together with evidence that hydroxyurea suppresses EMH and reduces mass size, justifies hydroxyurea as a non-surgical therapeutic option to attempt reduction of these lesions?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

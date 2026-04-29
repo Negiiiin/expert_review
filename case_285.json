@@ -27,5 +27,156 @@
   "caption": "Magnetic resonance imaging of the brain, showing subcortical signal changes in the left occipital and right temporoparietal area",
   "sub_caption": "Magnetic resonance imaging of the brain, showing subcortical signal changes in the left occipital and right temporoparietal area",
   "image_context": "About 4 months ago, the patient was first diagnosed with nausea and headache, which gradually worsened along with progressive blurred vision, paresis, and paresthesia on the left side of the body. On brain magnetic resonance imaging (MRI), subcortical lesions in the left occipital and right temporoparietal area (Fig. <xref rid=\"13256_2022_3333_Fig1_HTML\" ref-type=\"fig\">1</xref>), as well as the involvement of parts of the corpus callosum and thalamus (Fig. ), as well as the involvement of parts of the corpus callosum and thalamus (Fig. <xref rid=\"13256_2022_3333_Fig2_HTML\" ref-type=\"fig\">2</xref>), suggested the possibility of diseases involving cerebral white matter, such as posterior reversible encephalopathy syndrome (PRES) or PML. To confirm the diagnosis, the patient underwent a more accurate workup. The combination of clinical and radiological findings, along with positive polymerase chain reaction (PCR) for JCV in a cerebrospinal fluid (CSF) sample, confirmed the PML diagnosis. Other tests that were performed on the CSF sample, including glucose, protein, and inflammatory cell counts, were reported to be normal. To determine the risk factors for PML, other than PID, in the patient, human immunodeficiency virus (HIV) Ribonucleic acid (RNA) Polymerase chain reaction (PCR) testing was performed, which was reported negative. In general, the patient’s PID can be considered the most important risk factor for PML. Despite the treatments, our patient died within a month of diagnosis. He was the first case reported with PML due to mutations in the ), suggested the possibility of diseases involving cerebral white matter, such as posterior reversible encephalopathy syndrome (PRES) or PML. To confirm the diagnosis, the patient underwent a more accurate workup. The combination of clinical and radiological findings, along with positive polymerase chain reaction (PCR) for JCV in a cerebrospinal fluid (CSF) sample, confirmed the PML diagnosis. Other tests that were performed on the CSF sample, including glucose, protein, and inflammatory cell counts, were reported to be normal. To determine the risk factors for PML, other than PID, in the patient, human immunodeficiency virus (HIV) Ribonucleic acid (RNA) Polymerase chain reaction (PCR) testing was performed, which was reported negative. In general, the patient’s PID can be considered the most important risk factor for PML. Despite the treatments, our patient died within a month of diagnosis. He was the first case reported with PML due to mutations in the RAC2 gene.Fig. 1Magnetic resonance imaging of the brain, showing subcortical signal changes in the left occipital and right temporoparietal areaFig. 2Magnetic resonance imaging of the brain, indicting subcortical signal changes in the left side of the splenium corpus callosum and the right side of the thalamus",
-  "relevant_image_context": "About 4 months ago, the patient was first diagnosed with nausea and headache, which gradually worsened along with progressive blurred vision, paresis, and paresthesia on the left side of the body. On brain magnetic resonance imaging (MRI), subcortical lesions in the left occipital and right temporoparietal area (Fig. 1), as well as the involvement of parts of the corpus callosum and thalamus, suggested the possibility of diseases involving cerebral white matter, such as posterior reversible encephalopathy syndrome (PRES) or PML. To confirm the diagnosis, the patient underwent a more accurate workup. The combination of clinical and radiological findings, along with positive polymerase chain reaction (PCR) for JCV in a cerebrospinal fluid (CSF) sample, confirmed the PML diagnosis. Other tests that were performed on the CSF sample, including glucose, protein, and inflammatory cell counts, were reported to be normal. To determine the risk factors for PML, other than PID, in the patient, HIV RNA PCR testing was performed, which was reported negative. In general, the patient’s PID can be considered the most important risk factor for PML. Despite the treatments, our patient died within a month of diagnosis. He was the first case reported with PML due to mutations in the RAC2 gene. Fig. 1 Magnetic resonance imaging of the brain, showing subcortical signal changes in the left occipital and right temporoparietal area First image below: full compound figure (all panels)."
+  "relevant_image_context": "About 4 months ago, the patient was first diagnosed with nausea and headache, which gradually worsened along with progressive blurred vision, paresis, and paresthesia on the left side of the body. On brain magnetic resonance imaging (MRI), subcortical lesions in the left occipital and right temporoparietal area (Fig. 1), as well as the involvement of parts of the corpus callosum and thalamus, suggested the possibility of diseases involving cerebral white matter, such as posterior reversible encephalopathy syndrome (PRES) or PML. To confirm the diagnosis, the patient underwent a more accurate workup. The combination of clinical and radiological findings, along with positive polymerase chain reaction (PCR) for JCV in a cerebrospinal fluid (CSF) sample, confirmed the PML diagnosis. Other tests that were performed on the CSF sample, including glucose, protein, and inflammatory cell counts, were reported to be normal. To determine the risk factors for PML, other than PID, in the patient, HIV RNA PCR testing was performed, which was reported negative. In general, the patient’s PID can be considered the most important risk factor for PML. Despite the treatments, our patient died within a month of diagnosis. He was the first case reported with PML due to mutations in the RAC2 gene. Fig. 1 Magnetic resonance imaging of the brain, showing subcortical signal changes in the left occipital and right temporoparietal area First image below: full compound figure (all panels).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_15_filelist_commercial_batch_122_25-PMC9188039-0-13256_2022_3333_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_122_25-PMC9188039-0-13256_2022_3333_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "FLAIR hyperintense lesions",
+        "claim_text": "Multiple hyperintense lesions are present on the axial FLAIR-type sequence.",
+        "presence_question": "Does the model's response discuss FLAIR hyperintense lesions?",
+        "correctness_question": "Does the model's response correctly assert that Multiple hyperintense lesions are present on the axial FLAIR-type sequence?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "multiple lesions",
+        "claim_text": "There are multiple, multifocal lesions visible on the imaging study.",
+        "presence_question": "Does the model's response discuss multiple lesions?",
+        "correctness_question": "Does the model's response correctly assert that There are multiple, multifocal lesions visible on the imaging study?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "subcortical and deep white matter lesions",
+        "claim_text": "The lesions are located in the subcortical and deep white matter.",
+        "presence_question": "Does the model's response discuss subcortical and deep white matter lesions?",
+        "correctness_question": "Does the model's response correctly assert that The lesions are located in the subcortical and deep white matter?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "right temporoparietal lesions",
+        "claim_text": "Lesions are present in the right temporoparietal region.",
+        "presence_question": "Does the model's response discuss right temporoparietal lesions?",
+        "correctness_question": "Does the model's response correctly assert that Lesions are present in the right temporoparietal region?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "posterior hemispheric lesions",
+        "claim_text": "Lesions are located in the posterior cerebral hemispheres on imaging.",
+        "presence_question": "Does the model's response discuss posterior hemispheric lesions?",
+        "correctness_question": "Does the model's response correctly assert that Lesions are located in the posterior cerebral hemispheres on imaging?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "confluent asymmetric lesion appearance",
+        "claim_text": "The lesions have a confluent and asymmetric appearance on imaging.",
+        "presence_question": "Does the model's response discuss confluent asymmetric lesion appearance?",
+        "correctness_question": "Does the model's response correctly assert that The lesions have a confluent and asymmetric appearance on imaging?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "single white matter mass",
+        "claim_text": "No single mass is identified in the white matter.",
+        "presence_question": "Does the model's response discuss single white matter mass?",
+        "correctness_question": "Does the model's response correctly assert that No single mass is identified in the white matter?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "multifocal white-matter lesions",
+        "claim_text": "Multifocal white-matter lesions in immunocompromised patients are suggestive of an opportunistic viral leukoencephalopathy caused by JC virus (progressive multifocal leukoencephalopathy).",
+        "presence_question": "Does the model's response discuss multifocal white-matter lesions?",
+        "correctness_question": "Does the model's response correctly state that Multifocal white-matter lesions in immunocompromised patients are suggestive of an opportunistic viral leukoencephalopathy caused by JC virus (progressive multifocal leukoencephalopathy)?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "CSF JC virus PCR",
+        "claim_text": "JC virus PCR testing of cerebrospinal fluid can demonstrate JC virus infection and help establish the diagnosis of progressive multifocal leukoencephalopathy.",
+        "presence_question": "Does the model's response discuss CSF JC virus PCR?",
+        "correctness_question": "Does the model's response correctly state that JC virus PCR testing of cerebrospinal fluid can demonstrate JC virus infection and help establish the diagnosis of progressive multifocal leukoencephalopathy?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "right temporoparietal disease",
+        "claim_text": "Lesions in the right temporoparietal region can cause left-sided weakness and paresthesia.",
+        "presence_question": "Does the model's response discuss right temporoparietal disease?",
+        "correctness_question": "Does the model's response correctly state that Lesions in the right temporoparietal region can cause left-sided weakness and paresthesia?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "posterior hemisphere involvement",
+        "claim_text": "Involvement of the posterior cerebral hemisphere can produce visual blurring.",
+        "presence_question": "Does the model's response discuss posterior hemisphere involvement?",
+        "correctness_question": "Does the model's response correctly state that Involvement of the posterior cerebral hemisphere can produce visual blurring?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "FLAIR white-matter pattern suggesting PML",
+        "claim_text": "The presence of multiple confluent asymmetric white-matter lesions on FLAIR in this immunodeficient patient supports progressive multifocal leukoencephalopathy due to JC virus as a plausible diagnosis.",
+        "presence_question": "Does the model's response make an inferential link about FLAIR white-matter pattern suggesting PML?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of multiple confluent asymmetric white-matter lesions on FLAIR in this immunodeficient patient supports progressive multifocal leukoencephalopathy due to JC virus as a plausible diagnosis?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "CSF JC virus PCR as next diagnostic test",
+        "claim_text": "Because CSF JC virus PCR can demonstrate the viral etiology that characterizes progressive multifocal leukoencephalopathy, performing CSF JC virus PCR is justified as the next test to establish the suspected diagnosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about CSF JC virus PCR as next diagnostic test?",
+        "correctness_question": "Does the model's response correctly conclude that Because CSF JC virus PCR can demonstrate the viral etiology that characterizes progressive multifocal leukoencephalopathy, performing CSF JC virus PCR is justified as the next test to establish the suspected diagnosis in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Right temporoparietal lesions causing left-sided symptoms",
+        "claim_text": "The right temporoparietal predominance of lesions is consistent with and can account for the patient's left-sided weakness and paresthesia.",
+        "presence_question": "Does the model's response make an inferential link about Right temporoparietal lesions causing left-sided symptoms?",
+        "correctness_question": "Does the model's response correctly conclude that The right temporoparietal predominance of lesions is consistent with and can account for the patient's left-sided weakness and paresthesia?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Posterior hemisphere involvement explaining visual blurring",
+        "claim_text": "The involvement of the posterior hemispheres is consistent with and can explain the patient's visual blurring.",
+        "presence_question": "Does the model's response make an inferential link about Posterior hemisphere involvement explaining visual blurring?",
+        "correctness_question": "Does the model's response correctly conclude that The involvement of the posterior hemispheres is consistent with and can explain the patient's visual blurring?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

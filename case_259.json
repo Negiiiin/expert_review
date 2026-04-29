@@ -27,5 +27,92 @@
   "caption": "Left anterior oblique view with cranial angulation showing multiple and critical coronary artery stenosis",
   "sub_caption": "Left anterior oblique view with cranial angulation showing multiple and critical coronary artery stenosis",
   "image_context": "Mr A, one of those who benefited from the surgery is an obese hypertensive patient having shortness of breath in very mild physical exertion, with retrosternal chest pains without irradiation. No documented history of myocardial infarction, but the patient remembered some episodes of severe chest pains relieved spontaneously few years ago. The ECG done was showing an aspect of antero septal and apical scar, the cardiac echo was showing a poor global contractility with hypokinetic left ventricular apex, interventricular septum. The diagnosis of ischemic cardiomyopathy was done and a coronarography requested. On the angiography, we found a tritroncular stenosis of more than 75% (<xref ref-type=\"fig\" rid=\"pamj-8-46-g001\">Figure 1</xref>). The coronary bypass grafting procedure was indicated. The surgery was performed on February 10 2011 with success. The patient was transferred to the intensive care unit where his two days of stay were without event. He was then transferred to the ward and discharged a week after.). The coronary bypass grafting procedure was indicated. The surgery was performed on February 10 2011 with success. The patient was transferred to the intensive care unit where his two days of stay were without event. He was then transferred to the ward and discharged a week after.",
-  "relevant_image_context": "Left anterior oblique view with cranial angulation showing multiple and critical coronary artery stenosis. On the angiography, we found a tritroncular stenosis of more than 75%."
+  "relevant_image_context": "Left anterior oblique view with cranial angulation showing multiple and critical coronary artery stenosis. On the angiography, we found a tritroncular stenosis of more than 75%.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_8_84-PMC3201609-0-pamj-8-46-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_8_84-PMC3201609-0-pamj-8-46-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Left coronary artery narrowing",
+        "claim_text": "There is a focal reduction in luminal caliber within the left coronary artery territory",
+        "presence_question": "Does the model's response discuss Left coronary artery narrowing?",
+        "correctness_question": "Does the model's response correctly assert that There is a focal reduction in luminal caliber within the left coronary artery territory?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Left mid-to-proximal coronary narrowing",
+        "claim_text": "There is a focal reduction in luminal caliber in the left mid-to-proximal coronary segment",
+        "presence_question": "Does the model's response discuss Left mid-to-proximal coronary narrowing?",
+        "correctness_question": "Does the model's response correctly assert that There is a focal reduction in luminal caliber in the left mid-to-proximal coronary segment?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Residual lumen much smaller than 50%",
+        "claim_text": "The residual lumen at the left coronary lesion is much smaller than 50% of the reference vessel diameter",
+        "presence_question": "Does the model's response discuss Residual lumen much smaller than 50%?",
+        "correctness_question": "Does the model's response correctly assert that The residual lumen at the left coronary lesion is much smaller than 50% of the reference vessel diameter?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Lumen decreased compared to adjacent segment",
+        "claim_text": "The lumen at the left coronary lesion is decreased compared to the adjacent normal-caliber segment",
+        "presence_question": "Does the model's response discuss Lumen decreased compared to adjacent segment?",
+        "correctness_question": "Does the model's response correctly assert that The lumen at the left coronary lesion is decreased compared to the adjacent normal-caliber segment?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Distal vessel opacified with contrast",
+        "claim_text": "The vessel distal to the left coronary lesion is opacified with contrast",
+        "presence_question": "Does the model's response discuss Distal vessel opacified with contrast?",
+        "correctness_question": "Does the model's response correctly assert that The vessel distal to the left coronary lesion is opacified with contrast?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "severe coronary artery stenosis",
+        "claim_text": "Severe coronary artery stenosis is defined as a diameter narrowing of ≥70%.",
+        "presence_question": "Does the model's response discuss severe coronary artery stenosis?",
+        "correctness_question": "Does the model's response correctly state that Severe coronary artery stenosis is defined as a diameter narrowing of ≥70%?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "distal contrast opacification",
+        "claim_text": "Distal contrast opacification beyond a lesion indicates the presence of antegrade flow distal to the lesion.",
+        "presence_question": "Does the model's response discuss distal contrast opacification?",
+        "correctness_question": "Does the model's response correctly state that Distal contrast opacification beyond a lesion indicates the presence of antegrade flow distal to the lesion?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "percent diameter stenosis on angiography",
+        "claim_text": "Percent diameter stenosis on angiography is the reduction in lumen diameter relative to the adjacent reference vessel diameter.",
+        "presence_question": "Does the model's response discuss percent diameter stenosis on angiography?",
+        "correctness_question": "Does the model's response correctly state that Percent diameter stenosis on angiography is the reduction in lumen diameter relative to the adjacent reference vessel diameter?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Support for severe coronary stenosis",
+        "claim_text": "The angiogram's focal coronary lesion supports a diagnosis of severe coronary artery stenosis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Support for severe coronary stenosis?",
+        "correctness_question": "Does the model's response correctly conclude that The angiogram's focal coronary lesion supports a diagnosis of severe coronary artery stenosis in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

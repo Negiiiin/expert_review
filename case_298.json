@@ -28,5 +28,99 @@
   "caption": "The contrast enhanced computer tomography picture of the 87‐year‐old female patient (#14) with sinonasal oncocytic papilloma (asterisk) in the right maxillary sinus and nasal cavity. The middle part of the mass showed contrast enhancement and also lamellar structures, which raised the suspicion of sinonasal papilloma. The tumor had caused bone remodellation at the region of ostiomeatal complex (ellipse). Perioperatively several pus accumulations were found among tumor mass.",
   "sub_caption": "The contrast enhanced computer tomography picture of the 87‐year‐old female patient (#14) with sinonasal oncocytic papilloma (asterisk) in the right maxillary sinus and nasal cavity. The middle part of the mass showed contrast enhancement and also lamellar structures, which raised the suspicion of sinonasal papilloma. The tumor had caused bone remodellation at the region of ostiomeatal complex (ellipse). Perioperatively several pus accumulations were found among tumor mass.",
   "image_context": "Table 4 shows the patients divided into two subgroups; those with a recurrence and those without. The distribution of the different factors among these groups is presented. Smokers had more recurrences (75%) than nonsmokers (31%) (former smokers and never smokers combined), but the difference did not reach statistical significance (P = .445). Recurrences were most uncommon in cases primarily located in the nasal cavity, but this finding was not statistically significant (P = .603). Patients with purulent rhinosinusitis during the primary surgery showed a higher recurrence rate than patients without, but the difference was not statistically significant (P = .326). Figure <xref rid=\"LIO2-4-567-g001\" ref-type=\"fig\">1</xref> shows the contrast enhanced computer tomography image of a 87‐year‐old female patient (patient #14) with SNOP in the right maxillary sinus and nasal cavity. Patient had an acute infection at the time of tumor removal, and she later had a tumor recurrence. Patients with Krouse stage 1 or 3 had recurrences during the follow‐up (50% and 45%, respectively), but patients with Krouse stage 2 had not ( shows the contrast enhanced computer tomography image of a 87‐year‐old female patient (patient #14) with SNOP in the right maxillary sinus and nasal cavity. Patient had an acute infection at the time of tumor removal, and she later had a tumor recurrence. Patients with Krouse stage 1 or 3 had recurrences during the follow‐up (50% and 45%, respectively), but patients with Krouse stage 2 had not (P = .421). Surgical technique and further treatment modalities to the tumor site showed no effect on the recurrence rate.",
-  "relevant_image_context": "Figure 1 shows the contrast enhanced computer tomography image of a 87‐year‐old female patient (patient #14) with SNOP in the right maxillary sinus and nasal cavity. Patient had an acute infection at the time of tumor removal, and she later had a tumor recurrence. Patients with Krouse stage 1 or 3 had recurrences during the follow‐up (50% and 45%, respectively), but patients with Krouse stage 2 had not (P = .421)."
+  "relevant_image_context": "Figure 1 shows the contrast enhanced computer tomography image of a 87‐year‐old female patient (patient #14) with SNOP in the right maxillary sinus and nasal cavity. Patient had an acute infection at the time of tumor removal, and she later had a tumor recurrence. Patients with Krouse stage 1 or 3 had recurrences during the follow‐up (50% and 45%, respectively), but patients with Krouse stage 2 had not (P = .421).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_73_48-PMC6929580-0-LIO2-4-567-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_73_48-PMC6929580-0-LIO2-4-567-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Soft tissue in right maxillary sinus",
+        "claim_text": "A soft-tissue density is present in the right maxillary sinus.",
+        "presence_question": "Does the model's response discuss Soft tissue in right maxillary sinus?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue density is present in the right maxillary sinus?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right maxillary sinus extension toward nasal cavity",
+        "claim_text": "The soft-tissue density in the right maxillary sinus extends medially toward the nasal cavity.",
+        "presence_question": "Does the model's response discuss Right maxillary sinus extension toward nasal cavity?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue density in the right maxillary sinus extends medially toward the nasal cavity?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Ostiomeatal region remodeling",
+        "claim_text": "The ostiomeatal region shows remodeling or pressure-related change.",
+        "presence_question": "Does the model's response discuss Ostiomeatal region remodeling?",
+        "correctness_question": "Does the model's response correctly assert that The ostiomeatal region shows remodeling or pressure-related change?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Single right maxillary soft-tissue density",
+        "claim_text": "There is a single unilateral soft-tissue density in the right maxillary sinus.",
+        "presence_question": "Does the model's response discuss Single right maxillary soft-tissue density?",
+        "correctness_question": "Does the model's response correctly assert that There is a single unilateral soft-tissue density in the right maxillary sinus?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "medial maxillectomy",
+        "claim_text": "Medial maxillectomy provides direct access to the maxillary sinus and to a lesion's medial and lateral attachments, permitting more complete removal.",
+        "presence_question": "Does the model's response discuss medial maxillectomy?",
+        "correctness_question": "Does the model's response correctly state that Medial maxillectomy provides direct access to the maxillary sinus and to a lesion's medial and lateral attachments, permitting more complete removal?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "complete excision",
+        "claim_text": "Complete excision of a lesion leads to a lower risk of recurrence.",
+        "presence_question": "Does the model's response discuss complete excision?",
+        "correctness_question": "Does the model's response correctly state that Complete excision of a lesion leads to a lower risk of recurrence?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "ostiomeatal remodeling",
+        "claim_text": "Remodeling or pressure change of the ostiomeatal region suggests an expansile lesion arising from an adjacent sinus or the lateral nasal wall rather than simple bilateral inflammatory change.",
+        "presence_question": "Does the model's response discuss ostiomeatal remodeling?",
+        "correctness_question": "Does the model's response correctly state that Remodeling or pressure change of the ostiomeatal region suggests an expansile lesion arising from an adjacent sinus or the lateral nasal wall rather than simple bilateral inflammatory change?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Maxillary sinus origin inference",
+        "claim_text": "The unilateral right maxillary sinus soft-tissue mass that extends medially to the nasal cavity and the adjacent ostiomeatal remodeling is consistent with a lesion arising from or involving the maxillary sinus or lateral nasal wall rather than a simple bilateral inflammatory process.",
+        "presence_question": "Does the model's response make an inferential link about Maxillary sinus origin inference?",
+        "correctness_question": "Does the model's response correctly conclude that The unilateral right maxillary sinus soft-tissue mass that extends medially to the nasal cavity and the adjacent ostiomeatal remodeling is consistent with a lesion arising from or involving the maxillary sinus or lateral nasal wall rather than a simple bilateral inflammatory process?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Medial maxillectomy treatment justification",
+        "claim_text": "Endoscopic endonasal resection including a medial maxillectomy is justified to best enable removal of the lesion and its origin in this case because medial maxillectomy provides direct access to the maxillary sinus and its medial/lateral attachments enabling more complete removal, and complete excision lowers recurrence risk.",
+        "presence_question": "Does the model's response make an inferential link about Medial maxillectomy treatment justification?",
+        "correctness_question": "Does the model's response correctly conclude that Endoscopic endonasal resection including a medial maxillectomy is justified to best enable removal of the lesion and its origin in this case because medial maxillectomy provides direct access to the maxillary sinus and its medial/lateral attachments enabling more complete removal, and complete excision lowers recurrence risk?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

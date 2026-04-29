@@ -29,5 +29,90 @@
   "caption": "Head CT images of case 1 and case 2 with ruptured aneurysm and subarachnoid hemorrhage. 2.1: case 1; 2.2: case 2.",
   "sub_caption": "Head CT images of case 1 and case 2 with ruptured aneurysm and subarachnoid hemorrhage. 2.1: case 1; 2.2: case 2.",
   "image_context": "Case 1, an adult patient in 60 s, was admitted to the hospital due to bilateral posterior communicating artery aneurysm (PcoAA) found by head and neck CTA examination during physical examination. The left aneurysm was about 5.3 * 6.6 mm in size, and the right aneurysm was about 7.6 * 7.5 mm in size. It is planned to improve the head whole-brain angiography. During hospitalization, the aneurysm ruptured with a subarachnoid hemorrhage. According to the head CT (<xref rid=\"fneur-14-1277278-g002\" ref-type=\"fig\">Figure 2</xref>) of the patient when the aneurysm ruptured, the right PcoAA was considered to be the responsible aneurysm.) of the patient when the aneurysm ruptured, the right PcoAA was considered to be the responsible aneurysm. Case 2, an adult patient in 70 s. Head and neck CTA examination revealed a left PcoAA in 2019, about 3.0 * 5.0 mm in size. The patient chose conservative treatment. In 2021, the patient was admitted to the hospital due to a sudden explosive headache, and the head CT (<xref rid=\"fneur-14-1277278-g002\" ref-type=\"fig\">Figure 2</xref>) showed subarachnoid hemorrhage. According to the CT results, the left PcoAA was judged to be the responsible aneurysm, with a size of 5.0 * 5.3 mm.) showed subarachnoid hemorrhage. According to the CT results, the left PcoAA was judged to be the responsible aneurysm, with a size of 5.0 * 5.3 mm.",
-  "relevant_image_context": "Case 1, an adult patient in 60s, was admitted to the hospital due to bilateral posterior communicating artery aneurysm (PcoAA) found by head and neck CTA examination during physical examination. The left aneurysm was about 5.3 × 6.6 mm in size, and the right aneurysm was about 7.6 × 7.5 mm. During hospitalization, the aneurysm ruptured with a subarachnoid hemorrhage. According to the head CT (Figure 2) of the patient when the aneurysm ruptured, the right PcoAA was considered to be the responsible aneurysm. Case 2, an adult patient in 70s. Head and neck CTA examination revealed a left PcoAA in 2019, about 3.0 × 5.0 mm in size. The patient chose conservative treatment. In 2021, the patient was admitted to the hospital due to a sudden explosive headache, and the head CT showed subarachnoid hemorrhage. According to the CT results, the left PcoAA was judged to be the responsible aneurysm, with a size of 5.0 × 5.3 mm."
+  "relevant_image_context": "Case 1, an adult patient in 60s, was admitted to the hospital due to bilateral posterior communicating artery aneurysm (PcoAA) found by head and neck CTA examination during physical examination. The left aneurysm was about 5.3 × 6.6 mm in size, and the right aneurysm was about 7.6 × 7.5 mm. During hospitalization, the aneurysm ruptured with a subarachnoid hemorrhage. According to the head CT (Figure 2) of the patient when the aneurysm ruptured, the right PcoAA was considered to be the responsible aneurysm. Case 2, an adult patient in 70s. Head and neck CTA examination revealed a left PcoAA in 2019, about 3.0 × 5.0 mm in size. The patient chose conservative treatment. In 2021, the patient was admitted to the hospital due to a sudden explosive headache, and the head CT showed subarachnoid hemorrhage. According to the CT results, the left PcoAA was judged to be the responsible aneurysm, with a size of 5.0 × 5.3 mm.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_163_24-PMC10771834-3-fneur-14-1277278-g002.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_163_24-PMC10771834-3-fneur-14-1277278-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Basal cisterns",
+        "claim_text": "There is hyperdense material within the basal cisterns.",
+        "presence_question": "Does the model's response discuss Basal cisterns?",
+        "correctness_question": "Does the model's response correctly assert that There is hyperdense material within the basal cisterns.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Sylvian fissures",
+        "claim_text": "There is hyperdense material within the sylvian fissures.",
+        "presence_question": "Does the model's response discuss Sylvian fissures?",
+        "correctness_question": "Does the model's response correctly assert that There is hyperdense material within the sylvian fissures.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Subarachnoid spaces",
+        "claim_text": "Non-contrast axial head CT shows hyperdense material within the subarachnoid spaces.",
+        "presence_question": "Does the model's response discuss Subarachnoid spaces?",
+        "correctness_question": "Does the model's response correctly assert that Non-contrast axial head CT shows hyperdense material within the subarachnoid spaces.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "blood in the subarachnoid space",
+        "claim_text": "Blood in the subarachnoid space typically causes meningeal irritation.",
+        "presence_question": "Does the model's response discuss blood in the subarachnoid space?",
+        "correctness_question": "Does the model's response correctly state that Blood in the subarachnoid space typically causes meningeal irritation?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "meningeal irritation",
+        "claim_text": "Meningeal irritation typically causes neck stiffness (nuchal rigidity).",
+        "presence_question": "Does the model's response discuss meningeal irritation?",
+        "correctness_question": "Does the model's response correctly state that Meningeal irritation typically causes neck stiffness (nuchal rigidity)?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "hyperdense material in subarachnoid spaces on CT",
+        "claim_text": "Hyperdense material within the subarachnoid spaces on non-contrast head CT typically indicates acute subarachnoid hemorrhage.",
+        "presence_question": "Does the model's response discuss hyperdense material in subarachnoid spaces on CT?",
+        "correctness_question": "Does the model's response correctly state that Hyperdense material within the subarachnoid spaces on non-contrast head CT typically indicates acute subarachnoid hemorrhage?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Hyperdense basal cisterns indicating SAH",
+        "claim_text": "Hyperdense material in the basal cisterns and sylvian fissures on non-contrast head CT supports the presence of acute subarachnoid hemorrhage in this case.",
+        "presence_question": "Does the model's response make an inferential link about Hyperdense basal cisterns indicating SAH?",
+        "correctness_question": "Does the model's response correctly conclude that Hyperdense material in the basal cisterns and sylvian fissures on non-contrast head CT supports the presence of acute subarachnoid hemorrhage in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Subarachnoid blood implies neck stiffness",
+        "claim_text": "The presence of blood in the subarachnoid spaces on CT, combined with the facts that blood causes meningeal irritation and meningeal irritation is associated with neck stiffness, implies that neck stiffness (nuchal rigidity) would most likely accompany this finding in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Subarachnoid blood implies neck stiffness?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of blood in the subarachnoid spaces on CT, combined with the facts that blood causes meningeal irritation and meningeal irritation is associated with neck stiffness, implies that neck stiffness (nuchal rigidity) would most likely accompany this finding in this patient?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

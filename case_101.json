@@ -28,5 +28,154 @@
   "caption": "Abdominal CT scan reveals large bilateral masses of low attenuation in the region of the adrenal glands without involvement of other areas",
   "sub_caption": "Abdominal CT scan reveals large bilateral masses of low attenuation in the region of the adrenal glands without involvement of other areas",
   "image_context": "Chest radiology was normal, but abdominal US demonstrated large bilateral adrenal masses of homogeneous hypoechoic texture. Abdominal CT scan showed large bilateral masses in the region of the adrenal glands. The mass on the right measured 6×4×6.5 cm, and the mass on the left measured 10×6×10.5 cm. The masses were of homogeneous low attenuation. There was no evidence of abdominal or pelvic lymphadenopathy (<xref ref-type=\"fig\" rid=\"kjim-15-1-51-9f3\">Figure 3</xref>).).",
-  "relevant_image_context": "Abdominal US demonstrated large bilateral adrenal masses of homogeneous hypoechoic texture. Abdominal CT scan showed large bilateral masses in the region of the adrenal glands. The mass on the right measured 6×4×6.5 cm, and the mass on the left measured 10×6×10.5 cm. The masses were of homogeneous low attenuation. There was no evidence of abdominal or pelvic lymphadenopathy."
+  "relevant_image_context": "Abdominal US demonstrated large bilateral adrenal masses of homogeneous hypoechoic texture. Abdominal CT scan showed large bilateral masses in the region of the adrenal glands. The mass on the right measured 6×4×6.5 cm, and the mass on the left measured 10×6×10.5 cm. The masses were of homogeneous low attenuation. There was no evidence of abdominal or pelvic lymphadenopathy.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_27_4-PMC4531734-1-kjim-15-1-51-9f3.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_27_4-PMC4531734-1-kjim-15-1-51-9f3.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "vertebral body midline position",
+        "claim_text": "The vertebral body is located at the midline of the axial abdomen.",
+        "presence_question": "Does the model's response discuss vertebral body midline position?",
+        "correctness_question": "Does the model's response correctly assert that The vertebral body is located at the midline of the axial abdomen?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "abdominal organs adjacent to vertebral body",
+        "claim_text": "Abdominal organs are adjacent to the vertebral body on axial abdominal images.",
+        "presence_question": "Does the model's response discuss abdominal organs adjacent to vertebral body?",
+        "correctness_question": "Does the model's response correctly assert that Abdominal organs are adjacent to the vertebral body on axial abdominal images?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "two masses in upper retroperitoneal region",
+        "claim_text": "There are two masses in the upper retroperitoneal and upper abdominal region.",
+        "presence_question": "Does the model's response discuss two masses in upper retroperitoneal region?",
+        "correctness_question": "Does the model's response correctly assert that There are two masses in the upper retroperitoneal and upper abdominal region?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "right-sided retroperitoneal mass",
+        "claim_text": "A discrete mass is located right of midline in the upper retroperitoneal region.",
+        "presence_question": "Does the model's response discuss right-sided retroperitoneal mass?",
+        "correctness_question": "Does the model's response correctly assert that A discrete mass is located right of midline in the upper retroperitoneal region?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "left-sided retroperitoneal mass",
+        "claim_text": "A discrete mass is located left of midline in the upper retroperitoneal region.",
+        "presence_question": "Does the model's response discuss left-sided retroperitoneal mass?",
+        "correctness_question": "Does the model's response correctly assert that A discrete mass is located left of midline in the upper retroperitoneal region?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesion shape",
+        "claim_text": "The lesions in the upper retroperitoneal region have a rounded shape.",
+        "presence_question": "Does the model's response discuss lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesions in the upper retroperitoneal region have a rounded shape?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "lesion margins",
+        "claim_text": "The lesions in the upper retroperitoneal region have clear margins.",
+        "presence_question": "Does the model's response discuss lesion margins?",
+        "correctness_question": "Does the model's response correctly assert that The lesions in the upper retroperitoneal region have clear margins?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "lesions absent in liver",
+        "claim_text": "No lesions are present in the liver on this abdominal image.",
+        "presence_question": "Does the model's response discuss lesions absent in liver?",
+        "correctness_question": "Does the model's response correctly assert that No lesions are present in the liver on this abdominal image?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "lesions absent in spleen",
+        "claim_text": "No lesions are present in the spleen on this abdominal image.",
+        "presence_question": "Does the model's response discuss lesions absent in spleen?",
+        "correctness_question": "Does the model's response correctly assert that No lesions are present in the spleen on this abdominal image?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "no additional masses on this slice",
+        "claim_text": "There are no additional separate masses visible on this image slice.",
+        "presence_question": "Does the model's response discuss no additional masses on this slice?",
+        "correctness_question": "Does the model's response correctly assert that There are no additional separate masses visible on this image slice?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "axial abdominal CT anatomy",
+        "claim_text": "On axial abdominal CT images, the vertebral body typically appears centrally with abdominal organs arranged around it.",
+        "presence_question": "Does the model's response discuss axial abdominal CT anatomy?",
+        "correctness_question": "Does the model's response correctly state that On axial abdominal CT images, the vertebral body typically appears centrally with abdominal organs arranged around it?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "CT appearance of a distinct mass",
+        "claim_text": "A distinct mass on CT typically appears as a well-defined, rounded lesion with clear margins.",
+        "presence_question": "Does the model's response discuss CT appearance of a distinct mass?",
+        "correctness_question": "Does the model's response correctly state that A distinct mass on CT typically appears as a well-defined, rounded lesion with clear margins?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "count of distinct masses",
+        "claim_text": "The count of distinct masses on an image is the number of separate discrete lesions visible on that slice.",
+        "presence_question": "Does the model's response discuss count of distinct masses?",
+        "correctness_question": "Does the model's response correctly state that The count of distinct masses on an image is the number of separate discrete lesions visible on that slice?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Presence of two distinct masses",
+        "claim_text": "The image shows two separate discrete masses on this axial slice, which supports that two distinct masses are present on this image.",
+        "presence_question": "Does the model's response make an inferential link about Presence of two distinct masses?",
+        "correctness_question": "Does the model's response correctly conclude that The image shows two separate discrete masses on this axial slice, which supports that two distinct masses are present on this image?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Lesions separate from liver and spleen",
+        "claim_text": "Both lesions have well-defined, rounded morphology and clear margins and are not within the liver or spleen, which supports that these are distinct masses separate from those organs on this slice.",
+        "presence_question": "Does the model's response make an inferential link about Lesions separate from liver and spleen?",
+        "correctness_question": "Does the model's response correctly conclude that Both lesions have well-defined, rounded morphology and clear margins and are not within the liver or spleen, which supports that these are distinct masses separate from those organs on this slice?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Absence of additional masses on slice",
+        "claim_text": "No additional separate masses or smaller nodules are apparent on this slice, which supports that there are no other distinct masses visible on this image.",
+        "presence_question": "Does the model's response make an inferential link about Absence of additional masses on slice?",
+        "correctness_question": "Does the model's response correctly conclude that No additional separate masses or smaller nodules are apparent on this slice, which supports that there are no other distinct masses visible on this image?",
+        "premise_perception_ids": [
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -27,5 +27,127 @@
   "caption": "Patient with severe subarachnoid hemorrhage, who underwent a cerebral CT-perfusion (CTP) on day 2. White circle indicated the region of interest (ROI) for CTP analysis of regional cerebral blood flow (rCBF); rCBF was estimated at 12.8 mL/100 g × min, while intracranial pressure and cerebral perfusion pressure were 16 mmHg and 73 mmHg, respectively, and baseline PbtO2 was 22 mmHg (for a PaO2 of 119 mmHg). Measured OxR was 0.14",
   "sub_caption": "Patient with severe subarachnoid hemorrhage, who underwent a cerebral CT-perfusion (CTP) on day 2. White circle indicated the region of interest (ROI) for CTP analysis of regional cerebral blood flow (rCBF); rCBF was estimated at 12.8 mL/100 g × min, while intracranial pressure and cerebral perfusion pressure were 16 mmHg and 73 mmHg, respectively, and baseline PbtO2 was 22 mmHg (for a PaO2 of 119 mmHg). Measured OxR was 0.14",
   "image_context": "Cerebral CTP was performed using a multidetector row CT (FORCE Dual Energy, Siemens Healthcare, Erlangen, Germany) and considered the reference method to identify areas of cerebral hypoperfusion. The indication for CTP was based on the decision of the attending ICU physician after discussion with a senior radiologist and, in general, based on the suspicion of cerebral vasospasm (SAH) or to assess the extension of cerebral hypoperfusion (TBI, ICH); the decision to perform CTP was independent from the results of the dynamic hyperoxia test. All available CTPs paired by a dynamic oxygen challenge were considered for the final analysis. The method of acquisition was similar to what previously described by Bouzat et al. [15]; scanning was initiated 5 s after injection of 50 mL of iohexol (300 mg/mL of iodine; GE Healthcare, Milwaukee, WI), at a rate of 5 mL/s, with the following variables: 80 kV, 240 mAs, 0.4 rotations/s, and total duration of 50 s. The series evaluated 16 adjacent 5-mm-thick sections of brain parenchyma. Post-processing of CTP data was performed by two experienced neuroradiologists, using a dedicated software (Brilliance Workspace Portal; Philips Medical Systems, Cleveland, OH), focusing on one region of interest (ROI), which was manually drawn around the probe (surface area, ~ 50 mm2) to calculate regional CBF (Fig. <xref rid=\"13054_2022_3918_Fig1_HTML\" ref-type=\"fig\">1</xref>). Assessment of regional CBF was performed blindly to ICP and PbtO). Assessment of regional CBF was performed blindly to ICP and PbtO2 data. Low regional cerebral blood flow (rCBF) was defined by a value below 35 mL/100 g × min [15].Fig. 1Patient with severe subarachnoid hemorrhage, who underwent a cerebral CT-perfusion (CTP) on day 2. White circle indicated the region of interest (ROI) for CTP analysis of regional cerebral blood flow (rCBF); rCBF was estimated at 12.8 mL/100 g × min, while intracranial pressure and cerebral perfusion pressure were 16 mmHg and 73 mmHg, respectively, and baseline PbtO2 was 22 mmHg (for a PaO2 of 119 mmHg). Measured OxR was 0.14",
-  "relevant_image_context": "Cerebral CTP was performed using a multidetector row CT (FORCE Dual Energy, Siemens Healthcare, Erlangen, Germany) and considered the reference method to identify areas of cerebral hypoperfusion. The indication for CTP was based on the decision of the attending ICU physician after discussion with a senior radiologist and, in general, based on the suspicion of cerebral vasospasm (SAH) or to assess the extension of cerebral hypoperfusion (TBI, ICH); the decision to perform CTP was independent from the results of the dynamic hyperoxia test. All available CTPs paired by a dynamic oxygen challenge were considered for the final analysis. The method of acquisition was similar to what previously described by Bouzat et al. [15]; scanning was initiated 5 s after injection of 50 mL of iohexol (300 mg/mL of iodine; GE Healthcare, Milwaukee, WI), at a rate of 5 mL/s, with the following variables: 80 kV, 240 mAs, 0.4 rotations/s, and total duration of 50 s. The series evaluated 16 adjacent 5-mm-thick sections of brain parenchyma. Post-processing of CTP data was performed by two experienced neuroradiologists, using a dedicated software (Brilliance Workspace Portal; Philips Medical Systems, Cleveland, OH), focusing on one region of interest (ROI), which was manually drawn around the probe (surface area, ~ 50 mm2) to calculate regional CBF (Fig. 1). Assessment of regional CBF was performed blindly to ICP and PbtO). Assessment of regional CBF was performed blindly to ICP and PbtO2 data. Low regional cerebral blood flow (rCBF) was defined by a value below 35 mL/100 g × min [15].Fig. 1Patient with severe subarachnoid hemorrhage, who underwent a cerebral CT-perfusion (CTP) on day 2. White circle indicated the region of interest (ROI) for CTP analysis of regional cerebral blood flow (rCBF); rCBF was estimated at 12.8 mL/100 g × min, while intracranial pressure and cerebral perfusion pressure were 16 mmHg and 73 mmHg, respectively, and baseline PbtO2 was 22 mmHg (for a PaO2 of 119 mmHg). Measured OxR was 0.14"
+  "relevant_image_context": "Cerebral CTP was performed using a multidetector row CT (FORCE Dual Energy, Siemens Healthcare, Erlangen, Germany) and considered the reference method to identify areas of cerebral hypoperfusion. The indication for CTP was based on the decision of the attending ICU physician after discussion with a senior radiologist and, in general, based on the suspicion of cerebral vasospasm (SAH) or to assess the extension of cerebral hypoperfusion (TBI, ICH); the decision to perform CTP was independent from the results of the dynamic hyperoxia test. All available CTPs paired by a dynamic oxygen challenge were considered for the final analysis. The method of acquisition was similar to what previously described by Bouzat et al. [15]; scanning was initiated 5 s after injection of 50 mL of iohexol (300 mg/mL of iodine; GE Healthcare, Milwaukee, WI), at a rate of 5 mL/s, with the following variables: 80 kV, 240 mAs, 0.4 rotations/s, and total duration of 50 s. The series evaluated 16 adjacent 5-mm-thick sections of brain parenchyma. Post-processing of CTP data was performed by two experienced neuroradiologists, using a dedicated software (Brilliance Workspace Portal; Philips Medical Systems, Cleveland, OH), focusing on one region of interest (ROI), which was manually drawn around the probe (surface area, ~ 50 mm2) to calculate regional CBF (Fig. 1). Assessment of regional CBF was performed blindly to ICP and PbtO). Assessment of regional CBF was performed blindly to ICP and PbtO2 data. Low regional cerebral blood flow (rCBF) was defined by a value below 35 mL/100 g × min [15].Fig. 1Patient with severe subarachnoid hemorrhage, who underwent a cerebral CT-perfusion (CTP) on day 2. White circle indicated the region of interest (ROI) for CTP analysis of regional cerebral blood flow (rCBF); rCBF was estimated at 12.8 mL/100 g × min, while intracranial pressure and cerebral perfusion pressure were 16 mmHg and 73 mmHg, respectively, and baseline PbtO2 was 22 mmHg (for a PaO2 of 119 mmHg). Measured OxR was 0.14",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_113_13-PMC8822803-2-13054_2022_3918_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_113_13-PMC8822803-2-13054_2022_3918_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "cerebral perfusion map",
+        "claim_text": "A cerebral perfusion map is present for evaluation of the brain.",
+        "presence_question": "Does the model's response discuss cerebral perfusion map?",
+        "correctness_question": "Does the model's response correctly assert that A cerebral perfusion map is present for evaluation of the brain?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "color scale",
+        "claim_text": "A color scale is located on the right side of the image labeled 0.00–100.00 mL/100mL/min.",
+        "presence_question": "Does the model's response discuss color scale?",
+        "correctness_question": "Does the model's response correctly assert that A color scale is located on the right side of the image labeled 0.00–100.00 mL/100mL/min?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "circular region of interest",
+        "claim_text": "A circular region of interest is located in the left cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss circular region of interest?",
+        "correctness_question": "Does the model's response correctly assert that A circular region of interest is located in the left cerebral hemisphere?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "ROI mean perfusion value",
+        "claim_text": "The ROI mean perfusion value in the left hemisphere is 12.81 mL/100mL/min.",
+        "presence_question": "Does the model's response discuss ROI mean perfusion value?",
+        "correctness_question": "Does the model's response correctly assert that The ROI mean perfusion value in the left hemisphere is 12.81 mL/100mL/min?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "ROI color",
+        "claim_text": "The ROI appears purple/blue, corresponding to the low end of the color scale.",
+        "presence_question": "Does the model's response discuss ROI color?",
+        "correctness_question": "Does the model's response correctly assert that The ROI appears purple/blue, corresponding to the low end of the color scale?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "other brain regions color",
+        "claim_text": "Other brain regions display warmer colors, indicating higher values on the color scale.",
+        "presence_question": "Does the model's response discuss other brain regions color?",
+        "correctness_question": "Does the model's response correctly assert that Other brain regions display warmer colors, indicating higher values on the color scale?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "ROI mean value vs scale maximum",
+        "claim_text": "The ROI mean value is decreased compared to the scale maximum of 100.00 mL/100mL/min.",
+        "presence_question": "Does the model's response discuss ROI mean value vs scale maximum?",
+        "correctness_question": "Does the model's response correctly assert that The ROI mean value is decreased compared to the scale maximum of 100.00 mL/100mL/min?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "perfusion color maps",
+        "claim_text": "Perfusion color maps use a numeric color scale (values in mL/100mL/min) where colors correspond to numeric perfusion values.",
+        "presence_question": "Does the model's response discuss perfusion color maps?",
+        "correctness_question": "Does the model's response correctly state that Perfusion color maps use a numeric color scale (values in mL/100mL/min) where colors correspond to numeric perfusion values?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "numeric perfusion values",
+        "claim_text": "Numeric perfusion values represent the degree of perfusion, with lower numeric values indicating lower perfusion.",
+        "presence_question": "Does the model's response discuss numeric perfusion values?",
+        "correctness_question": "Does the model's response correctly state that Numeric perfusion values represent the degree of perfusion, with lower numeric values indicating lower perfusion?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "low-end perfusion scale colors",
+        "claim_text": "Colors at the low end of a perfusion color scale (for example, purple or blue) indicate lower perfusion values.",
+        "presence_question": "Does the model's response discuss low-end perfusion scale colors?",
+        "correctness_question": "Does the model's response correctly state that Colors at the low end of a perfusion color scale (for example, purple or blue) indicate lower perfusion values?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "relative perfusion magnitude",
+        "claim_text": "Lower measured perfusion corresponds to greater severity of perfusion reduction.",
+        "presence_question": "Does the model's response discuss relative perfusion magnitude?",
+        "correctness_question": "Does the model's response correctly state that Lower measured perfusion corresponds to greater severity of perfusion reduction?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Severe reduction in ROI perfusion",
+        "claim_text": "The measured ROI perfusion value of 12.81 mL/100mL/min supports a severe reduction in perfusion in this case because it is numerically low on the displayed 0–100 mL/100mL/min scale and lower perfusion values indicate greater severity.",
+        "presence_question": "Does the model's response make an inferential link about Severe reduction in ROI perfusion?",
+        "correctness_question": "Does the model's response correctly conclude that The measured ROI perfusion value of 12.81 mL/100mL/min supports a severe reduction in perfusion in this case because it is numerically low on the displayed 0–100 mL/100mL/min scale and lower perfusion values indicate greater severity?",
+        "premise_perception_ids": [
+          "p4",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "ROI color indicates decreased perfusion",
+        "claim_text": "The ROI's purple/blue color relative to warmer colors in other brain regions is consistent with decreased perfusion in the ROI compared with other brain regions because low-end colors on the perfusion scale correspond to lower perfusion.",
+        "presence_question": "Does the model's response make an inferential link about ROI color indicates decreased perfusion?",
+        "correctness_question": "Does the model's response correctly conclude that The ROI's purple/blue color relative to warmer colors in other brain regions is consistent with decreased perfusion in the ROI compared with other brain regions because low-end colors on the perfusion scale correspond to lower perfusion?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -27,5 +27,150 @@
   "caption": "Posterior prostatic dissection plane. Yellow arrow means vas deferens; blue arrows mean Denonvillier fascia; asterisk means seminal vesicles.",
   "sub_caption": "Yellow arrow means vas deferens; blue arrows mean Denonvillier fascia; asterisk means seminal vesicles.",
   "image_context": "In the antegrade approach of the intrafascial dissection starting from the 6 o'clock position, the surgeon may perform an easier plane because the Denonvilliers' fascia is thicker and is as a single layer at this level (<xref ref-type=\"fig\" rid=\"icu-57-S172-g004\">Fig. 4</xref>). During a ). During a high lateral approach, this plane can be more difficult to dissect due to the multilayered position of the fascias mainly at the posterolateral side of the prostate [17].",
-  "relevant_image_context": "In the antegrade approach of the intrafascial dissection starting from the 6 o'clock position, the surgeon may perform an easier plane because the Denonvilliers' fascia is thicker and is as a single layer at this level (Fig. 4). During a ). During a high lateral approach, this plane can be more difficult to dissect due to the multilayered position of the fascias mainly at the posterolateral side of the prostate [17]. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "In the antegrade approach of the intrafascial dissection starting from the 6 o'clock position, the surgeon may perform an easier plane because the Denonvilliers' fascia is thicker and is as a single layer at this level (Fig. 4). During a ). During a high lateral approach, this plane can be more difficult to dissect due to the multilayered position of the fascias mainly at the posterolateral side of the prostate [17]. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_37_46-PMC5161020-9-icu-57-S172-g004.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_37_46-PMC5161020-9-icu-57-S172-g004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "thin shiny membranous layer",
+        "claim_text": "A thin shiny membranous layer is present within the field of view.",
+        "presence_question": "Does the model's response discuss thin shiny membranous layer?",
+        "correctness_question": "Does the model's response correctly assert that A thin shiny membranous layer is present within the field of view?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "thin shiny membranous layer",
+        "claim_text": "The thin shiny membranous layer is located along the midline.",
+        "presence_question": "Does the model's response discuss thin shiny membranous layer?",
+        "correctness_question": "Does the model's response correctly assert that The thin shiny membranous layer is located along the midline?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "thin shiny membranous layer",
+        "claim_text": "The thin shiny membranous layer forms a distinct fascial plane at the midline.",
+        "presence_question": "Does the model's response discuss thin shiny membranous layer?",
+        "correctness_question": "Does the model's response correctly assert that The thin shiny membranous layer forms a distinct fascial plane at the midline?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "thin shiny membranous layer",
+        "claim_text": "The thin shiny membranous layer is highlighted by multiple blue arrows at the midline.",
+        "presence_question": "Does the model's response discuss thin shiny membranous layer?",
+        "correctness_question": "Does the model's response correctly assert that The thin shiny membranous layer is highlighted by multiple blue arrows at the midline?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "tubular cord-like structure",
+        "claim_text": "A tubular cord-like structure is present on the right side.",
+        "presence_question": "Does the model's response discuss tubular cord-like structure?",
+        "correctness_question": "Does the model's response correctly assert that A tubular cord-like structure is present on the right side?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "tubular cord-like structure",
+        "claim_text": "The tubular cord-like structure is located on the right side near an instrument.",
+        "presence_question": "Does the model's response discuss tubular cord-like structure?",
+        "correctness_question": "Does the model's response correctly assert that The tubular cord-like structure is located on the right side near an instrument?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "rounded lobulated mass",
+        "claim_text": "A rounded lobulated mass is present in the left upper area.",
+        "presence_question": "Does the model's response discuss rounded lobulated mass?",
+        "correctness_question": "Does the model's response correctly assert that A rounded lobulated mass is present in the left upper area?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "rounded lobulated mass",
+        "claim_text": "The rounded lobulated mass is located in the left upper area.",
+        "presence_question": "Does the model's response discuss rounded lobulated mass?",
+        "correctness_question": "Does the model's response correctly assert that The rounded lobulated mass is located in the left upper area?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "tubular cord-like structure",
+        "claim_text": "The tubular cord-like structure on the right is smaller than the thin shiny membranous layer.",
+        "presence_question": "Does the model's response discuss tubular cord-like structure?",
+        "correctness_question": "Does the model's response correctly assert that The tubular cord-like structure on the right is smaller than the thin shiny membranous layer?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "rounded lobulated mass",
+        "claim_text": "The rounded lobulated mass in the left upper area is smaller than the thin shiny membranous layer.",
+        "presence_question": "Does the model's response discuss rounded lobulated mass?",
+        "correctness_question": "Does the model's response correctly assert that The rounded lobulated mass in the left upper area is smaller than the thin shiny membranous layer?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "fascial plane appearance",
+        "claim_text": "Fascial planes typically appear as thin, shiny membranous layers.",
+        "presence_question": "Does the model's response discuss fascial plane appearance?",
+        "correctness_question": "Does the model's response correctly state that Fascial planes typically appear as thin, shiny membranous layers?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "clear visualization of structures",
+        "claim_text": "Consistently clear visualization of a structure typically suggests that it is the best-identified feature on an image.",
+        "presence_question": "Does the model's response discuss clear visualization of structures?",
+        "correctness_question": "Does the model's response correctly state that Consistently clear visualization of a structure typically suggests that it is the best-identified feature on an image?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "midline fascial plane identification",
+        "claim_text": "The visual evidence supports that the midline fascial plane is the best-identified structure in this image.",
+        "presence_question": "Does the model's response make an inferential link about midline fascial plane identification?",
+        "correctness_question": "Does the model's response correctly conclude that The visual evidence supports that the midline fascial plane is the best-identified structure in this image.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "tubular cord-like structure identification",
+        "claim_text": "The visual evidence argues against the tubular cord-like structure on the right being the best-identified structure in the image.",
+        "presence_question": "Does the model's response make an inferential link about tubular cord-like structure identification?",
+        "correctness_question": "Does the model's response correctly conclude that The visual evidence argues against the tubular cord-like structure on the right being the best-identified structure in the image.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "left rounded lobulated mass identification",
+        "claim_text": "The visual evidence argues against the rounded lobulated mass in the left upper area being the best-identified structure in the image.",
+        "presence_question": "Does the model's response make an inferential link about left rounded lobulated mass identification?",
+        "correctness_question": "Does the model's response correctly conclude that The visual evidence argues against the rounded lobulated mass in the left upper area being the best-identified structure in the image.?",
+        "premise_perception_ids": [
+          "p7",
+          "p8",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

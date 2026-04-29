@@ -28,5 +28,165 @@
   "caption": "Neuroimaging findings. A: February 20, 2016 Preoperative image of enhanced right frontal parietal lobe space-occupying lesion, maximum diameter about 5 cm; B: June 3, 2016 End of chemoradiation. Enhanced right frontal parietal lobe space-occupying lesion, maximum diameter about 3.5 cm; C: September 14, 2016 Enhanced lesion at the junction of the right frontal and parietal lobes, maximum diameter about 2 cm, after taking Kangliu pill for 3 mo; and D: April 29, 2019 Enhanced lesion at the junction of the right frontal and parietal lobes, maximum diameter about 1 cm, after taking Kangliu pill for nearly 3 years.",
   "sub_caption": "C: September 14, 2016 Enhanced lesion at the junction of the right frontal and parietal lobes, maximum diameter about 2 cm, after taking Kangliu pill for 3 mo;",
   "image_context": "Computed tomography examination in a local hospital showed no obvious abnormalities, but magnetic resonance imaging indicated a space-occupying lesion in the right frontal lobe. The patient did not receive any treatment at that time. However, headache, limb weakness, and left hemiplegia returned 4 mo later, and repeat computed tomography suggested a right frontal parietal lobe cerebral hemorrhage. He presented to the hospital for re-examination on February 18, 2016. Cranial magnetic resonance imaging showed that the right frontal-parietal lobe was occupied by a mass, with a maximum diameter of about 5 cm, irregular enhancement of the parenchyma ring, and the necrotic center was not enhanced, indicating a possible high-grade glioma (Figure <xref ref-type=\"fig\" rid=\"WJCC-9-2845-g001\">1A</xref>). ). There was a clear indication for surgery, with no contraindications in the preoperative examination, and the patient underwent partial resection on February 23, 2016. The postoperative pathological report confirmed GBM. After surgery, the patient started concurrent chemoradiation therapy until April 2016, with 75 mg/m2 TMZ once daily for 45 d combined with focal radiotherapy of 60 Gy administered in 30 fractions. However, he opted to discontinue the chemoradiotherapy due to intolerable adverse reactions, including nausea, vomiting, and loss of appetite. Two months later, the patient attended the hospital for postoperative review (Figure <xref ref-type=\"fig\" rid=\"WJCC-9-2845-g001\">1B</xref>) and was prescribed KLP 7.5 g three times/d.) and was prescribed KLP 7.5 g three times/d. After taking KLP for nearly 3 mo, the tumor had shrunk significantly (from about 3.5 to about 2 cm) (Figure <xref ref-type=\"fig\" rid=\"WJCC-9-2845-g001\">1C</xref>), and he therefore continued to take KLP as prescribed for the next 3 years. A subsequent examination showed that the tumor had shrunk to about 1 cm after 3 years (Figure ), and he therefore continued to take KLP as prescribed for the next 3 years. A subsequent examination showed that the tumor had shrunk to about 1 cm after 3 years (Figure <xref ref-type=\"fig\" rid=\"WJCC-9-2845-g001\">1D</xref>). No adverse reactions were detected throughout the course of KLP treatment, and the patient’s symptoms of headache, limb weakness, and left hemiplegia were relieved (Table ). No adverse reactions were detected throughout the course of KLP treatment, and the patient’s symptoms of headache, limb weakness, and left hemiplegia were relieved (Table 1).",
-  "relevant_image_context": "After taking KLP for nearly 3 mo, the tumor had shrunk significantly (from about 3.5 to about 2 cm) (Figure 1C)."
+  "relevant_image_context": "After taking KLP for nearly 3 mo, the tumor had shrunk significantly (from about 3.5 to about 2 cm) (Figure 1C).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_noncommercial_batch_92_39-PMC8058673-1-WJCC-9-2845-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_92_39-PMC8058673-1-WJCC-9-2845-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "lesion on MRI",
+        "claim_text": "A lesion is present on the brain MRI images.",
+        "presence_question": "Does the model's response discuss lesion on MRI?",
+        "correctness_question": "Does the model's response correctly assert that A lesion is present on the brain MRI images?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "rounded lesion shape",
+        "claim_text": "The lesion in the superior convexity region has a rounded shape.",
+        "presence_question": "Does the model's response discuss rounded lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the superior convexity region has a rounded shape?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "well-defined lesion margin",
+        "claim_text": "The lesion in the superior convexity region has a well-defined margin.",
+        "presence_question": "Does the model's response discuss well-defined lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the superior convexity region has a well-defined margin?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "contrast-enhancing lesion",
+        "claim_text": "The lesion in the superior convexity region is contrast-enhancing on imaging.",
+        "presence_question": "Does the model's response discuss contrast-enhancing lesion?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the superior convexity region is contrast-enhancing on imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "lesion at superior convexity",
+        "claim_text": "The lesion is located at the superior convexity of the cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss lesion at superior convexity?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located at the superior convexity of the cerebral hemisphere?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesion seen on multiple imaging planes",
+        "claim_text": "The lesion is visible on multiple contiguous axial slices and on sagittal views.",
+        "presence_question": "Does the model's response discuss lesion seen on multiple imaging planes?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is visible on multiple contiguous axial slices and on sagittal views?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "superior-lateral cortical/subcortical location",
+        "claim_text": "The lesion is located in cortical and subcortical tissue near the superior-lateral surface.",
+        "presence_question": "Does the model's response discuss superior-lateral cortical/subcortical location?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located in cortical and subcortical tissue near the superior-lateral surface?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "deep brain structures involvement",
+        "claim_text": "The lesion is not located in deep brain structures.",
+        "presence_question": "Does the model's response discuss deep brain structures involvement?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is not located in deep brain structures?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "temporal lobe involvement",
+        "claim_text": "The lesion is not located in the temporal lobe.",
+        "presence_question": "Does the model's response discuss temporal lobe involvement?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is not located in the temporal lobe?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "right hemisphere abnormality",
+        "claim_text": "The abnormality is located in the right cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss right hemisphere abnormality?",
+        "correctness_question": "Does the model's response correctly assert that The abnormality is located in the right cerebral hemisphere?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "left hemisphere involvement",
+        "claim_text": "The left-sided hemisphere region is not involved on imaging.",
+        "presence_question": "Does the model's response discuss left hemisphere involvement?",
+        "correctness_question": "Does the model's response correctly assert that The left-sided hemisphere region is not involved on imaging?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "lesion adjacent to frontal-parietal cortex",
+        "claim_text": "The lesion is adjacent to cortex at the border between the frontal and parietal lobes on the right.",
+        "presence_question": "Does the model's response discuss lesion adjacent to frontal-parietal cortex?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is adjacent to cortex at the border between the frontal and parietal lobes on the right?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "multiplanar imaging",
+        "claim_text": "Multiplanar imaging helps confirm whether a lesion is cortical versus subcortical and whether it is superficial versus deep.",
+        "presence_question": "Does the model's response discuss multiplanar imaging?",
+        "correctness_question": "Does the model's response correctly state that Multiplanar imaging helps confirm whether a lesion is cortical versus subcortical and whether it is superficial versus deep?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "superior convexity",
+        "claim_text": "The superior convexity refers to the superior-lateral surface of the cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss superior convexity?",
+        "correctness_question": "Does the model's response correctly state that The superior convexity refers to the superior-lateral surface of the cerebral hemisphere?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "frontoparietal junction",
+        "claim_text": "A lesion abutting cortex at the border of the frontal and parietal lobes indicates location at the frontoparietal junction.",
+        "presence_question": "Does the model's response discuss frontoparietal junction?",
+        "correctness_question": "Does the model's response correctly state that A lesion abutting cortex at the border of the frontal and parietal lobes indicates location at the frontoparietal junction?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Localization to right frontoparietal junction",
+        "claim_text": "The lesion's abutment of cortex at the frontal–parietal border combined with its confinement to the right hemisphere implies that the lesion is located at the right frontoparietal junction in this case.",
+        "presence_question": "Does the model's response make an inferential link about Localization to right frontoparietal junction?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's abutment of cortex at the frontal–parietal border combined with its confinement to the right hemisphere implies that the lesion is located at the right frontoparietal junction in this case?",
+        "premise_perception_ids": [
+          "p12",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Superficial cortical/subcortical localization",
+        "claim_text": "The lesion's visibility on multiple contiguous axial slices and sagittal views supports that it is located in a cortical/subcortical superficial location rather than being a deep lesion in this case.",
+        "presence_question": "Does the model's response make an inferential link about Superficial cortical/subcortical localization?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's visibility on multiple contiguous axial slices and sagittal views supports that it is located in a cortical/subcortical superficial location rather than being a deep lesion in this case?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Superior-lateral cortical surface localization",
+        "claim_text": "The lesion's location along the superior convexity is consistent with it being on the superior-lateral cortical surface in this case.",
+        "presence_question": "Does the model's response make an inferential link about Superior-lateral cortical surface localization?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's location along the superior convexity is consistent with it being on the superior-lateral cortical surface in this case?",
+        "premise_perception_ids": [
+          "p5",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,109 @@
   "caption": "Intraoperative photograph. Laparoscopic enucleation was performed, and the uncinated process of the pancreas and the surrounding vessels (superior mesenteric vein: SMV; superior mesenteric artery: SMA; inferior pancreaticoduodenal artery: IPDA) are exposed but the known lesion in the uncinated process could be identified by observation from the surface",
   "sub_caption": "Intraoperative photograph. Laparoscopic enucleation was performed, and the uncinated process of the pancreas and the surrounding vessels (superior mesenteric vein: SMV; superior mesenteric artery: SMA; inferior pancreaticoduodenal artery: IPDA) are exposed but the known lesion in the uncinated process could be identified by observation from the surface",
   "image_context": "The operation began with insertion of a subumbilical 12‐mm port. Then, four ports were inserted in the epigastrium under direct vision. The hepatic flexure was mobilized, and the gastrocolic ligament was opened, allowing entrance into the greater sac. The gastrocolic trunk was divided, and vessel loops were placed around the SMV. The UP of the pancreas was exposed, but the known lesion in the UP could be identified by observation from the surface (Figure <xref rid=\"ASES-15-211-g004\" ref-type=\"fig\">2</xref>). The lesion was identified using intraoperative CEUS (Figure ). The lesion was identified using intraoperative CEUS (Figure <xref rid=\"ASES-15-211-g003\" ref-type=\"fig\">3</xref>), which confirmed a strongly enhanced tumor without extension into the portal vein or bile ducts. Enucleation was completed with a Harmonic® scalpel. Enucleation of the Pt lesion was similarly performed after confirming with intraoperative US that the metastatic tumor was 5 mm away from the main pancreatic duct. The incision was closed after inserting two Blake drains around the defect spaces in the UP and Pt. Total operation time was 458 min, and estimated blood loss was small.), which confirmed a strongly enhanced tumor without extension into the portal vein or bile ducts. Enucleation was completed with a Harmonic® scalpel. Enucleation of the Pt lesion was similarly performed after confirming with intraoperative US that the metastatic tumor was 5 mm away from the main pancreatic duct. The incision was closed after inserting two Blake drains around the defect spaces in the UP and Pt. Total operation time was 458 min, and estimated blood loss was small.",
-  "relevant_image_context": "The UP of the pancreas was exposed, but the known lesion in the UP could be identified by observation from the surface. The lesion was identified using intraoperative CEUS, which confirmed a strongly enhanced tumor without extension into the portal vein or bile ducts. Enucleation was completed with a Harmonic scalpel. The incision was closed after inserting two Blake drains around the defect spaces in the UP and Pt. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "The UP of the pancreas was exposed, but the known lesion in the UP could be identified by observation from the surface. The lesion was identified using intraoperative CEUS, which confirmed a strongly enhanced tumor without extension into the portal vein or bile ducts. Enucleation was completed with a Harmonic scalpel. The incision was closed after inserting two Blake drains around the defect spaces in the UP and Pt. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_115_4-PMC9292423-1-ASES-15-211-g004.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_115_4-PMC9292423-1-ASES-15-211-g004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "SMA and SMV in pancreatic uncinate",
+        "claim_text": "The superior mesenteric artery and superior mesenteric vein are located in the pancreatic uncinate region.",
+        "presence_question": "Does the model's response discuss SMA and SMV in pancreatic uncinate?",
+        "correctness_question": "Does the model's response correctly assert that The superior mesenteric artery and superior mesenteric vein are located in the pancreatic uncinate region?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "inferior pancreaticoduodenal artery in uncinate",
+        "claim_text": "The inferior pancreaticoduodenal artery is located in the pancreatic uncinate region.",
+        "presence_question": "Does the model's response discuss inferior pancreaticoduodenal artery in uncinate?",
+        "correctness_question": "Does the model's response correctly assert that The inferior pancreaticoduodenal artery is located in the pancreatic uncinate region?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "exposed superior mesenteric vessels",
+        "claim_text": "The superior mesenteric artery and superior mesenteric vein appear exposed in the pancreatic uncinate region.",
+        "presence_question": "Does the model's response discuss exposed superior mesenteric vessels?",
+        "correctness_question": "Does the model's response correctly assert that The superior mesenteric artery and superior mesenteric vein appear exposed in the pancreatic uncinate region?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "exposed inferior pancreaticoduodenal artery",
+        "claim_text": "The inferior pancreaticoduodenal artery appears exposed in the pancreatic uncinate region.",
+        "presence_question": "Does the model's response discuss exposed inferior pancreaticoduodenal artery?",
+        "correctness_question": "Does the model's response correctly assert that The inferior pancreaticoduodenal artery appears exposed in the pancreatic uncinate region?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "surgical drains adjacent to dissection bed",
+        "claim_text": "Two surgical drains are present adjacent to the dissection bed.",
+        "presence_question": "Does the model's response discuss surgical drains adjacent to the dissection bed?",
+        "correctness_question": "Does the model's response correctly assert that Two surgical drains are present adjacent to the dissection bed?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "surgical drains adjacent to dissection bed",
+        "claim_text": "Surgical drains are located adjacent to the dissection bed.",
+        "presence_question": "Does the model's response discuss surgical drains adjacent to the dissection bed?",
+        "correctness_question": "Does the model's response correctly assert that Surgical drains are located adjacent to the dissection bed?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "contrast-enhanced CT angiography",
+        "claim_text": "Contrast-enhanced CT angiography is typically better for demonstrating arterial anatomy and for identifying active contrast extravasation or arterial abnormalities.",
+        "presence_question": "Does the model's response discuss contrast-enhanced CT angiography?",
+        "correctness_question": "Does the model's response correctly state that contrast-enhanced CT angiography is typically better for demonstrating arterial anatomy and for identifying active contrast extravasation or arterial abnormalities?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "operative exposure of major mesenteric arteries",
+        "claim_text": "Operative exposure of major mesenteric arteries is associated with an increased risk of arterial injury or early postoperative arterial bleeding.",
+        "presence_question": "Does the model's response discuss operative exposure of major mesenteric arteries?",
+        "correctness_question": "Does the model's response correctly state that operative exposure of major mesenteric arteries is associated with an increased risk of arterial injury or early postoperative arterial bleeding?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Exposed SMA/SMV/IPDA increase bleeding risk",
+        "claim_text": "Clearly exposed SMA, SMV, and IPDA in the pancreatic uncinate region increase the likelihood of arterial injury or early postoperative arterial bleeding in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Exposed SMA/SMV/IPDA increase bleeding risk?",
+        "correctness_question": "Does the model's response correctly conclude that Clearly exposed SMA, SMV, and IPDA in the pancreatic uncinate region increase the likelihood of arterial injury or early postoperative arterial bleeding in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "CT angiography justified for exposed mesenteric arteries",
+        "claim_text": "Contrast-enhanced CT angiography is justified to evaluate arterial anatomy and to identify ongoing contrast extravasation or arterial lesions given exposed mesenteric arteries in the pancreatic uncinate region and surgical drains adjacent to the dissection bed.",
+        "presence_question": "Does the model's response make an inferential link about CT angiography justified for exposed mesenteric arteries?",
+        "correctness_question": "Does the model's response correctly conclude that Contrast-enhanced CT angiography is justified to evaluate arterial anatomy and to identify ongoing contrast extravasation or arterial lesions given exposed mesenteric arteries in the pancreatic uncinate region and surgical drains adjacent to the dissection bed?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

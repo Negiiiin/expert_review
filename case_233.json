@@ -28,5 +28,144 @@
   "caption": "Axial image of a computed tomography (CT) of the abdomen with intravenous and oral contrast, in the portal venous phase. A non-occlusive thrombus can be seen within the superior mesenteric vein at the level of the pancreatic head (shown by the arrow).",
   "sub_caption": "Axial image of a computed tomography (CT) of the abdomen with intravenous and oral contrast, in the portal venous phase. A non-occlusive thrombus can be seen within the superior mesenteric vein at the level of the pancreatic head (shown by the arrow).",
   "image_context": "The patient was treated with antibiotics for presumed infection, pending a follow-up appointment with gastroenterology. However, over the following 5 weeks, the patient attended the emergency department on 2 more occasions with similar symptoms. A second intravenous and oral contrast-enhanced CT of the abdomen and pelvis was performed (<xref rid=\"radcr283-fig-0003\" ref-type=\"fig\">Fig. 3</xref>, , <xref rid=\"radcr283-fig-0004\" ref-type=\"fig\">Fig. 4</xref>), 40 days after the initial CT examination. This revealed resolution of the previous jejunal wall thickening and a reduction in the inflammatory changes in the adjacent mesentery, although minimal stranding and smaller mesenteric lymph nodes persisted. Of note, there were new filling defects consistent with thrombosis in the splenic vein adjacent to the splenic hilum, in the superior mesenteric vein at the junction of the superior mesenteric and portal veins, in the main portal vein, and in the left portal vein. The liver demonstrated a heterogenous attenuation with poorly defined hypodensities in the right and left lobes. No other abnormalities were evident.), 40 days after the initial CT examination. This revealed resolution of the previous jejunal wall thickening and a reduction in the inflammatory changes in the adjacent mesentery, although minimal stranding and smaller mesenteric lymph nodes persisted. Of note, there were new filling defects consistent with thrombosis in the splenic vein adjacent to the splenic hilum, in the superior mesenteric vein at the junction of the superior mesenteric and portal veins, in the main portal vein, and in the left portal vein. The liver demonstrated a heterogenous attenuation with poorly defined hypodensities in the right and left lobes. No other abnormalities were evident.Fig. 3Axial image of a computed tomography (CT) of the abdomen with intravenous and oral contrast, in the portal venous phase. A non-occlusive thrombus can be seen within the superior mesenteric vein at the level of the pancreatic head (shown by the arrow).Fig. 3Fig. 4Coronal reformat of a computed tomography (CT) of the abdomen with intravenous and oral contrast, in the portal venous phase. Thrombosis can be seen at the confluence of the superior and inferior mesenteric veins (shown by the arrow).Fig. 4",
-  "relevant_image_context": "Fig. 3 Axial image of a computed tomography (CT) of the abdomen with intravenous and oral contrast, in the portal venous phase. A non-occlusive thrombus can be seen within the superior mesenteric vein at the level of the pancreatic head (shown by the arrow)."
+  "relevant_image_context": "Fig. 3 Axial image of a computed tomography (CT) of the abdomen with intravenous and oral contrast, in the portal venous phase. A non-occlusive thrombus can be seen within the superior mesenteric vein at the level of the pancreatic head (shown by the arrow).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_52_52-PMC5823304-2-radcr283-fig-0003.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_52_52-PMC5823304-2-radcr283-fig-0003.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "portal venous phase CT",
+        "claim_text": "A contrast-enhanced axial CT image in the portal venous phase is present.",
+        "presence_question": "Does the model's response discuss portal venous phase CT?",
+        "correctness_question": "Does the model's response correctly assert that A contrast-enhanced axial CT image in the portal venous phase is present?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "central low-attenuation filling defect",
+        "claim_text": "A central low-attenuation filling defect is present within the vessel lumen.",
+        "presence_question": "Does the model's response discuss central low-attenuation filling defect?",
+        "correctness_question": "Does the model's response correctly assert that A central low-attenuation filling defect is present within the vessel lumen?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "filling defect in superior mesenteric vein",
+        "claim_text": "The filling defect is located in the superior mesenteric vein at the level of the pancreatic head.",
+        "presence_question": "Does the model's response discuss filling defect in superior mesenteric vein?",
+        "correctness_question": "Does the model's response correctly assert that The filling defect is located in the superior mesenteric vein at the level of the pancreatic head?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "intravenous contrast surrounding filling defect",
+        "claim_text": "Intravenous contrast surrounds the filling defect in the superior mesenteric vein.",
+        "presence_question": "Does the model's response discuss intravenous contrast surrounding the filling defect?",
+        "correctness_question": "Does the model's response correctly assert that Intravenous contrast surrounds the filling defect in the superior mesenteric vein?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "bowel pneumatosis",
+        "claim_text": "There is no pneumatosis identified in the bowel on imaging.",
+        "presence_question": "Does the model's response discuss bowel pneumatosis?",
+        "correctness_question": "Does the model's response correctly assert that There is no pneumatosis identified in the bowel on imaging?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "gross bowel wall discontinuity",
+        "claim_text": "There is no gross bowel wall discontinuity identified on imaging.",
+        "presence_question": "Does the model's response discuss gross bowel wall discontinuity?",
+        "correctness_question": "Does the model's response correctly assert that There is no gross bowel wall discontinuity identified on imaging?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "venous filling defect",
+        "claim_text": "A central low-attenuation filling defect within a contrast-opacified vein indicates venous thrombus.",
+        "presence_question": "Does the model's response discuss venous filling defect?",
+        "correctness_question": "Does the model's response correctly state that A central low-attenuation filling defect within a contrast-opacified vein indicates venous thrombus?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "contrast around venous filling defect",
+        "claim_text": "Contrast visible around a venous filling defect indicates a partial (non-occlusive) thrombus.",
+        "presence_question": "Does the model's response discuss contrast around venous filling defect?",
+        "correctness_question": "Does the model's response correctly state that Contrast visible around a venous filling defect indicates a partial (non-occlusive) thrombus?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "pneumatosis or bowel wall discontinuity",
+        "claim_text": "Pneumatosis or gross bowel wall discontinuity is seen in bowel infarction.",
+        "presence_question": "Does the model's response discuss pneumatosis or bowel wall discontinuity?",
+        "correctness_question": "Does the model's response correctly state that Pneumatosis or gross bowel wall discontinuity is seen in bowel infarction?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "treatment for established venous thrombosis",
+        "claim_text": "Established venous thrombosis is treated with therapeutic anticoagulation rather than only prophylaxis or antiplatelet therapy.",
+        "presence_question": "Does the model's response discuss treatment for established venous thrombosis?",
+        "correctness_question": "Does the model's response correctly state that Established venous thrombosis is treated with therapeutic anticoagulation rather than only prophylaxis or antiplatelet therapy?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Superior mesenteric vein thrombus presence",
+        "claim_text": "The central low-attenuation filling defect seen within the superior mesenteric vein on this portal venous phase CT supports the presence of a venous thrombus in this case.",
+        "presence_question": "Does the model's response make an inferential link about Superior mesenteric vein thrombus presence?",
+        "correctness_question": "Does the model's response correctly conclude that The central low-attenuation filling defect seen within the superior mesenteric vein on this portal venous phase CT supports the presence of a venous thrombus in this case.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Thrombus non-occlusive status",
+        "claim_text": "Contrast seen flowing around the filling defect implies the superior mesenteric vein thrombus is partial/non-occlusive on this image.",
+        "presence_question": "Does the model's response make an inferential link about Thrombus non-occlusive status?",
+        "correctness_question": "Does the model's response correctly conclude that Contrast seen flowing around the filling defect implies the superior mesenteric vein thrombus is partial/non-occlusive on this image.?",
+        "premise_perception_ids": [
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Radiographic evidence of bowel infarction",
+        "claim_text": "Absence of pneumatosis and gross bowel wall discontinuity on this image argues against radiographic evidence of bowel infarction in this case.",
+        "presence_question": "Does the model's response make an inferential link about Radiographic evidence of bowel infarction?",
+        "correctness_question": "Does the model's response correctly conclude that Absence of pneumatosis and gross bowel wall discontinuity on this image argues against radiographic evidence of bowel infarction in this case.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Therapeutic anticoagulation justification",
+        "claim_text": "An established venous thrombosis of the superior mesenteric vein on imaging justifies therapeutic anticoagulation in this patient rather than only prophylaxis or antiplatelet therapy.",
+        "presence_question": "Does the model's response make an inferential link about Therapeutic anticoagulation justification?",
+        "correctness_question": "Does the model's response correctly conclude that An established venous thrombosis of the superior mesenteric vein on imaging justifies therapeutic anticoagulation in this patient rather than only prophylaxis or antiplatelet therapy.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

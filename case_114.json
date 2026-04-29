@@ -27,5 +27,105 @@
   "caption": "Normal anatomical structures of the anterior aspect of the hip. Ultrasound image with the transducer in a sagittal oblique plane: the femoral head (1), the femoral neck (2), the anterior capsule (3)",
   "sub_caption": "Ultrasound image with the transducer in a sagittal oblique plane: the femoral head (1), the femoral neck (2), the anterior capsule (3)",
   "image_context": "During dynamic ultrasound evaluation of internal snapping, the transducer should be placed in the anterior part of the hip. At the beginning when scanning the hip in a sagittal oblique plane, the femoral head and neck are the landmark structures (<xref ref-type=\"fig\" rid=\"JoU-2016-0030-g003\">Fig. 3</xref>). Then, the transducer can be turned transversely over the femoral head to evaluate the iliopsoas tendon and muscle (). Then, the transducer can be turned transversely over the femoral head to evaluate the iliopsoas tendon and muscle (<xref ref-type=\"fig\" rid=\"JoU-2016-0030-g004\">Fig. 4</xref>). To evaluate the rectus femoris, the transducer should be moved laterally at the level of the anterior inferior iliac spine). To evaluate the rectus femoris, the transducer should be moved laterally at the level of the anterior inferior iliac spine(6, 10, 15).",
-  "relevant_image_context": "During dynamic ultrasound evaluation of internal snapping, the transducer should be placed in the anterior part of the hip. At the beginning when scanning the hip in a sagittal oblique plane, the femoral head and neck are the landmark structures (Fig. 3)."
+  "relevant_image_context": "During dynamic ultrasound evaluation of internal snapping, the transducer should be placed in the anterior part of the hip. At the beginning when scanning the hip in a sagittal oblique plane, the femoral head and neck are the landmark structures (Fig. 3).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_46_15-PMC5034024-3-JoU-2016-0030-g003.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_46_15-PMC5034024-3-JoU-2016-0030-g003.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "femoral head",
+        "claim_text": "A femoral head is present within the hip",
+        "presence_question": "Does the model's response discuss femoral head?",
+        "correctness_question": "Does the model's response correctly assert that A femoral head is present within the hip?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "femoral neck",
+        "claim_text": "A femoral neck is present within the hip",
+        "presence_question": "Does the model's response discuss femoral neck?",
+        "correctness_question": "Does the model's response correctly assert that A femoral neck is present within the hip?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "anterior capsule",
+        "claim_text": "An anterior capsule is present in the anterior hip",
+        "presence_question": "Does the model's response discuss anterior capsule?",
+        "correctness_question": "Does the model's response correctly assert that An anterior capsule is present in the anterior hip?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "sagittal oblique plane",
+        "claim_text": "The image is located in a sagittal oblique plane of the hip",
+        "presence_question": "Does the model's response discuss sagittal oblique plane?",
+        "correctness_question": "Does the model's response correctly assert that The image is located in a sagittal oblique plane of the hip?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "single static sonographic frame",
+        "claim_text": "The image has the appearance of a single static sonographic frame",
+        "presence_question": "Does the model's response discuss single static sonographic frame?",
+        "correctness_question": "Does the model's response correctly assert that The image has the appearance of a single static sonographic frame?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "anterior capsular soft-tissue structures",
+        "claim_text": "Anterior capsular and soft-tissue structures are adjacent to the femoral head and neck",
+        "presence_question": "Does the model's response discuss anterior capsular soft-tissue structures?",
+        "correctness_question": "Does the model's response correctly assert that Anterior capsular and soft-tissue structures are adjacent to the femoral head and neck?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "dynamic ultrasound",
+        "claim_text": "Dynamic ultrasound is better for real-time visualization of soft-tissue movement during provocative maneuvers.",
+        "presence_question": "Does the model's response discuss dynamic ultrasound?",
+        "correctness_question": "Does the model's response correctly state that Dynamic ultrasound is better for real-time visualization of soft-tissue movement during provocative maneuvers?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "intermittent anterior hip snapping",
+        "claim_text": "Intermittent anterior hip snapping is typically caused by motion of soft tissues over the femoral head or neck.",
+        "presence_question": "Does the model's response discuss intermittent anterior hip snapping?",
+        "correctness_question": "Does the model's response correctly state that Intermittent anterior hip snapping is typically caused by motion of soft tissues over the femoral head or neck?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "indication for dynamic ultrasound",
+        "claim_text": "Because the image is a single static sonographic frame and the suspected snapping is due to motion of soft tissues over the femoral head/neck, dynamic ultrasound is indicated to evaluate the mechanism.",
+        "presence_question": "Does the model's response make an inferential link about indication for dynamic ultrasound?",
+        "correctness_question": "Does the model's response correctly conclude that Because the image is a single static sonographic frame and the suspected snapping is due to motion of soft tissues over the femoral head/neck, dynamic ultrasound is indicated to evaluate the mechanism?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "sufficiency of static sonographic frame",
+        "claim_text": "Although the static sagittal oblique image demonstrates the anterior capsule adjacent to the femoral head/neck, the single static sonographic frame is insufficient to determine the snapping mechanism in this case because snapping is intermittent and results from motion.",
+        "presence_question": "Does the model's response make an inferential link about sufficiency of static sonographic frame?",
+        "correctness_question": "Does the model's response correctly conclude that Although the static sagittal oblique image demonstrates the anterior capsule adjacent to the femoral head/neck, the single static sonographic frame is insufficient to determine the snapping mechanism in this case because snapping is intermittent and results from motion?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

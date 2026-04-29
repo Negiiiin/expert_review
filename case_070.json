@@ -28,5 +28,113 @@
   "caption": "The computed tomography (CT) scan axial image at the level of the upper thorax, after oesophagectomy showing hypodense fluid collection (asterix) in the posterior mediastinum causing anterior displacement of the trachea (white arrow) with partial luminal narrowing",
   "sub_caption": "The computed tomography (CT) scan axial image at the level of the upper thorax, after oesophagectomy showing hypodense fluid collection (asterix) in the posterior mediastinum causing anterior displacement of the trachea (white arrow) with partial luminal narrowing",
   "image_context": "A 44-years-old female (60 kg) who was a known case of carcinoma of the oesophagus involving the middle one-third of the oesophagus was posted for minimally invasive oesophagectomy. Intra-operatively, adhesions were encountered at the level of the carina; however, en bloc oesophagectomy with safeguarding of the azygous vein with gastric pull-up was performed successfully. Her immediate post-operative period was uneventful; however, on the 2nd post-operative day, after commencing feed through jejunostomy tube, there was increased intercostal drain tube (ICDT) output with milky texture. Iatrogenic injury to the thoracic duct was suspected and was confirmed with increased triglycerides in the pleural drain fluid (250 mg/100 mL) as well as by the presence of chylomicrons. Another ICDT was also placed on the left side in view of increasing pleural effusion. The total output through both the tubes was approximately 800 mL/day. Nutrition through feeding jejunostomy was completely stopped, and parenteral nutrition was started. Despite adequate conservative measures, ICDT output did not decrease. On the post-operative day 4, the patient complained of difficulty in breathing. On examination, prominent use of the accessory muscles was noted, and auscultation revealed decreased air entry on the right side with the presence of rhonchi. The patient was intermittently nebulised with levosalbutamol, and injection hydrocortisone 100 mg was given, after which she had symptomatic relief. Subsequently, urgent lymphangiography and computed tomography (CT) chest were planned. Anomalous course of the thoracic duct and a leak from the left posterior segment of the mid-thoracic duct at the level of the carina were visualised during lymphangiography. The CT of the patient revealed fluid collection in the posterior mediastinum causing anterior displacement of the trachea with partial luminal narrowing [<xref ref-type=\"fig\" rid=\"IJA-65-345-g001\">Figure 1</xref>]. A CT-guided percutaneous embolisation of the thoracic duct was attempted but was not successful. The patient was thereafter shifted to the intensive care unit for meticulous monitoring. The next day, the patient developed acute respiratory stridor. The neck sutures were immediately opened to drain the collection; however, symptoms did not improve, and the patient was thereafter intubated, and urgent surgical intervention was planned. Thoracoscopic-guided drainage of the collection was done followed by thoracic duct ligation. The patient was extubated after few hours of monitoring. Her further post-operative course was uneventful with the saturation of 98%–100% on room air, and feeding jejunostomy was started.\n]. A CT-guided percutaneous embolisation of the thoracic duct was attempted but was not successful. The patient was thereafter shifted to the intensive care unit for meticulous monitoring. The next day, the patient developed acute respiratory stridor. The neck sutures were immediately opened to drain the collection; however, symptoms did not improve, and the patient was thereafter intubated, and urgent surgical intervention was planned. Thoracoscopic-guided drainage of the collection was done followed by thoracic duct ligation. The patient was extubated after few hours of monitoring. Her further post-operative course was uneventful with the saturation of 98%–100% on room air, and feeding jejunostomy was started.",
-  "relevant_image_context": "The CT of the patient revealed fluid collection in the posterior mediastinum causing anterior displacement of the trachea with partial luminal narrowing."
+  "relevant_image_context": "The CT of the patient revealed fluid collection in the posterior mediastinum causing anterior displacement of the trachea with partial luminal narrowing.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_94_45-PMC8174585-0-IJA-65-345-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_94_45-PMC8174585-0-IJA-65-345-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "posterior mediastinal fluid collection",
+        "claim_text": "A fluid/soft-tissue-attenuation collection is present in the posterior mediastinum.",
+        "presence_question": "Does the model's response discuss posterior mediastinal fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that A fluid/soft-tissue-attenuation collection is present in the posterior mediastinum?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "collection in posterior mediastinum",
+        "claim_text": "The collection is located in the posterior mediastinum.",
+        "presence_question": "Does the model's response discuss collection in posterior mediastinum?",
+        "correctness_question": "Does the model's response correctly assert that The collection is located in the posterior mediastinum?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "collection attenuation",
+        "claim_text": "The collection in the posterior mediastinum demonstrates fluid/soft-tissue attenuation.",
+        "presence_question": "Does the model's response discuss collection attenuation?",
+        "correctness_question": "Does the model's response correctly assert that The collection in the posterior mediastinum demonstrates fluid/soft-tissue attenuation?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "tracheal narrowing at the thoracic inlet",
+        "claim_text": "The tracheal lumen at the thoracic inlet shows marked narrowing.",
+        "presence_question": "Does the model's response discuss tracheal narrowing at the thoracic inlet?",
+        "correctness_question": "Does the model's response correctly assert that The tracheal lumen at the thoracic inlet shows marked narrowing?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "tracheal compression by collection",
+        "claim_text": "The collection in the posterior mediastinum compresses the tracheal lumen at the thoracic inlet.",
+        "presence_question": "Does the model's response discuss tracheal compression by the collection?",
+        "correctness_question": "Does the model's response correctly assert that The collection in the posterior mediastinum compresses the tracheal lumen at the thoracic inlet?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "thoracoscopic mediastinal drainage",
+        "claim_text": "Thoracoscopic mediastinal drainage allows evacuation of intrathoracic collections.",
+        "presence_question": "Does the model's response discuss thoracoscopic mediastinal drainage?",
+        "correctness_question": "Does the model's response correctly state that Thoracoscopic mediastinal drainage allows evacuation of intrathoracic collections?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "thoracic duct ligation",
+        "claim_text": "Thoracic duct ligation provides definitive control of a leaking thoracic duct.",
+        "presence_question": "Does the model's response discuss thoracic duct ligation?",
+        "correctness_question": "Does the model's response correctly state that Thoracic duct ligation provides definitive control of a leaking thoracic duct?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "mediastinal collection airway compression",
+        "claim_text": "Mediastinal collections can compress the airway and narrow the trachea, causing stridor or respiratory compromise.",
+        "presence_question": "Does the model's response discuss mediastinal collection airway compression?",
+        "correctness_question": "Does the model's response correctly state that Mediastinal collections can compress the airway and narrow the trachea, causing stridor or respiratory compromise?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "percutaneous embolisation for thoracic duct leak",
+        "claim_text": "Thoracic duct leaks can be treated with percutaneous embolisation as a non-surgical option.",
+        "presence_question": "Does the model's response discuss percutaneous embolisation for thoracic duct leak?",
+        "correctness_question": "Does the model's response correctly state that Thoracic duct leaks can be treated with percutaneous embolisation as a non-surgical option?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "mediastinal collection causing stridor",
+        "claim_text": "The posterior mediastinal collection compressing and markedly narrowing the tracheal lumen is consistent with and a plausible cause of the patient's acute respiratory stridor.",
+        "presence_question": "Does the model's response make an inferential link about mediastinal collection causing stridor?",
+        "correctness_question": "Does the model's response correctly conclude that The posterior mediastinal collection compressing and markedly narrowing the tracheal lumen is consistent with and a plausible cause of the patient's acute respiratory stridor?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "justification for thoracoscopic drainage and ligation",
+        "claim_text": "Thoracoscopic mediastinal drainage combined with thoracic duct ligation is a justified therapeutic option in this case because it would evacuate the intrathoracic collection to relieve the mass effect and provide definitive control of a leaking thoracic duct.",
+        "presence_question": "Does the model's response make an inferential link about justification for thoracoscopic drainage and ligation?",
+        "correctness_question": "Does the model's response correctly conclude that Thoracoscopic mediastinal drainage combined with thoracic duct ligation is a justified therapeutic option in this case because it would evacuate the intrathoracic collection to relieve the mass effect and provide definitive control of a leaking thoracic duct?",
+        "premise_perception_ids": [
+          "p1",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

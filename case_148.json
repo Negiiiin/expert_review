@@ -28,5 +28,165 @@
   "caption": "a, b CT revealed a 72 × 68 mm metastatic liver tumor in segment VI containing a 9-mm pseudoaneurysm (black arrow) and fluid collection around the hepatic edge (white arrow)",
   "sub_caption": "b CT revealed a 72 × 68 mm metastatic liver tumor in segment VI containing a 9-mm pseudoaneurysm (black arrow) and fluid collection around the hepatic edge (white arrow)",
   "image_context": "A 59-year-old male patient underwent a distal gastrectomy and D2 lymph node dissection for gastric cancer. The final pathological stage was T4aN3aM0 Stage IIIC according to the Japanese Gastric Cancer Association Classification, 14th Edition [2]. Postoperative adjuvant chemotherapy with S-1 (100 mg/day p.o., twice daily for 28 consecutive days) was administered for 1 year in accordance with treatment guidelines. One and a half years after surgery, computed tomography (CT) revealed a liver metastasis in hepatic segment VI. The recurrence was detected within 6 months after adjuvant chemotherapy with S-1, and combination therapy with ramucirumab (RAM: 8 mg/kg on days 1 and 15) and paclitaxel (PTX: 80 mg/m2 on days 1, 8, and 15) was administered as first-line chemotherapy, with the regimen repeated at 28-day intervals. After eight cycles with RAM plus PTX, follow-up CT revealed a new liver metastasis in segments VI and VIII. Nivolumab (3 mg/kg, biweekly) was administered as second-line treatment. Five days after the 4th cycle of nivolumab injections, the patient visited our emergency room due to right abdominal pain. Guarding and rebound tenderness were denied. On initial physical examination, the blood pressure was 100/64 mmHg and the heart rate was 109 beats per min. Serum biochemistry showed a white blood cell count of 8.1 × 103/μL, red blood cell count of 478 × 104/μL, and hemoglobin 14.2 g/dL. CT showed a 72 × 68 mm metastatic liver tumor in segment VI. The tumor rim was enhanced, but the center was not, and thus considered to consist of necrotic tissue. The tumor contained a 9-mm pseudoaneurysm, and fluid collection was visible around hepatic edge (Fig. <xref rid=\"40792_2020_806_Fig1_HTML\" ref-type=\"fig\">1</xref>). An intrahepatic artery pseudoaneurysm within the metastatic liver tumor was diagnosed, with the surrounding fluid indicating potential, active bleeding. An emergency angiography confirmed the presence of a pseudoaneurysm stemming from a branch of the hepatic artery in segment VI (Fig. ). An intrahepatic artery pseudoaneurysm within the metastatic liver tumor was diagnosed, with the surrounding fluid indicating potential, active bleeding. An emergency angiography confirmed the presence of a pseudoaneurysm stemming from a branch of the hepatic artery in segment VI (Fig. <xref rid=\"40792_2020_806_Fig2_HTML\" ref-type=\"fig\">2</xref>). The pseudoaneurysm was cannulated and successfully embolized using microcoils. After embolization, there were no clinical signs, and the patient was discharged 9 days after the angiography without any recurrence of bleeding. Follow-up CT 1 month after the angiography detected enlarged liver and bone metastasis. In accordance with the wishes of the patient and his family, palliative care was begun. The patient remains alive with palliative care 5 months after the angiography.\n). The pseudoaneurysm was cannulated and successfully embolized using microcoils. After embolization, there were no clinical signs, and the patient was discharged 9 days after the angiography without any recurrence of bleeding. Follow-up CT 1 month after the angiography detected enlarged liver and bone metastasis. In accordance with the wishes of the patient and his family, palliative care was begun. The patient remains alive with palliative care 5 months after the angiography.\nFig. 1a, b CT revealed a 72 × 68 mm metastatic liver tumor in segment VI containing a 9-mm pseudoaneurysm (black arrow) and fluid collection around the hepatic edge (white arrow)Fig. 2a, b Emergency angiography showed a pseudoaneurysm stemming from a branch of the hepatic artery in segment VI. c The pseudoaneurysm was cannulated and successfully embolized using microcoils (white arrow)",
-  "relevant_image_context": "CT revealed a 72 × 68 mm metastatic liver tumor in segment VI. The tumor rim was enhanced, but the center was not, and thus considered to consist of necrotic tissue. The tumor contained a 9-mm pseudoaneurysm, and fluid collection was visible around hepatic edge."
+  "relevant_image_context": "CT revealed a 72 × 68 mm metastatic liver tumor in segment VI. The tumor rim was enhanced, but the center was not, and thus considered to consist of necrotic tissue. The tumor contained a 9-mm pseudoaneurysm, and fluid collection was visible around hepatic edge.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_75_52-PMC7028880-0-40792_2020_806_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_75_52-PMC7028880-0-40792_2020_806_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "coronal contrast-enhanced CT study",
+        "claim_text": "A coronal contrast-enhanced CT image of the upper abdomen is included in the study.",
+        "presence_question": "Does the model's response discuss coronal contrast-enhanced CT study?",
+        "correctness_question": "Does the model's response correctly assert that A coronal contrast-enhanced CT image of the upper abdomen is included in the study?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "right hepatic mass",
+        "claim_text": "There is a large hepatic mass in the right lobe of the liver.",
+        "presence_question": "Does the model's response discuss right hepatic mass?",
+        "correctness_question": "Does the model's response correctly assert that There is a large hepatic mass in the right lobe of the liver?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "low attenuation of hepatic mass",
+        "claim_text": "The hepatic mass demonstrates predominantly low attenuation on imaging.",
+        "presence_question": "Does the model's response discuss low attenuation of hepatic mass?",
+        "correctness_question": "Does the model's response correctly assert that The hepatic mass demonstrates predominantly low attenuation on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "peripheral enhancing rim of hepatic mass",
+        "claim_text": "The hepatic mass shows a peripheral enhancing rim.",
+        "presence_question": "Does the model's response discuss peripheral enhancing rim of hepatic mass?",
+        "correctness_question": "Does the model's response correctly assert that The hepatic mass shows a peripheral enhancing rim?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "central non-enhancing zone in hepatic mass",
+        "claim_text": "The hepatic mass contains a central non-enhancing zone.",
+        "presence_question": "Does the model's response discuss central non-enhancing zone in hepatic mass?",
+        "correctness_question": "Does the model's response correctly assert that The hepatic mass contains a central non-enhancing zone?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "small round focus within hepatic mass",
+        "claim_text": "A small round focus (black-arrowed) is located within the hepatic mass.",
+        "presence_question": "Does the model's response discuss small round focus within hepatic mass?",
+        "correctness_question": "Does the model's response correctly assert that A small round focus (black-arrowed) is located within the hepatic mass?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "spherical shape of small focus",
+        "claim_text": "The small round focus within the mass is spherical in shape.",
+        "presence_question": "Does the model's response discuss spherical shape of small focus?",
+        "correctness_question": "Does the model's response correctly assert that The small round focus within the mass is spherical in shape?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "sharply demarcated margin of small focus",
+        "claim_text": "The small round focus is sharply demarcated from surrounding tissue.",
+        "presence_question": "Does the model's response discuss sharply demarcated margin of small focus?",
+        "correctness_question": "Does the model's response correctly assert that The small round focus is sharply demarcated from surrounding tissue?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "markedly hyperdense focus within mass center",
+        "claim_text": "Within the central zone of the hepatic mass, the small round focus is markedly hyperdense.",
+        "presence_question": "Does the model's response discuss markedly hyperdense focus within mass center?",
+        "correctness_question": "Does the model's response correctly assert that Within the central zone of the hepatic mass, the small round focus is markedly hyperdense?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "focus denser than necrotic tumor center",
+        "claim_text": "The small round focus demonstrates increased attenuation compared with the surrounding necrotic tumor center.",
+        "presence_question": "Does the model's response discuss focus denser than necrotic tumor center?",
+        "correctness_question": "Does the model's response correctly assert that The small round focus demonstrates increased attenuation compared with the surrounding necrotic tumor center?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "avid enhancement of small focus",
+        "claim_text": "The small round focus shows avid enhancement on the contrast-enhanced images.",
+        "presence_question": "Does the model's response discuss avid enhancement of small focus?",
+        "correctness_question": "Does the model's response correctly assert that The small round focus shows avid enhancement on the contrast-enhanced images?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "contrast-enhanced CT",
+        "claim_text": "On contrast-enhanced CT, enhancing tissue appears hyperdense relative to non-enhancing tissue.",
+        "presence_question": "Does the model's response discuss contrast-enhanced CT?",
+        "correctness_question": "Does the model's response correctly state that on contrast-enhanced CT, enhancing tissue appears hyperdense relative to non-enhancing tissue?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "central non-enhancing zone in a mass",
+        "claim_text": "A central non-enhancing zone within a mass suggests necrosis.",
+        "presence_question": "Does the model's response discuss central non-enhancing zone in a mass?",
+        "correctness_question": "Does the model's response correctly state that a central non-enhancing zone within a mass suggests necrosis?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "intralesional enhancing nodule",
+        "claim_text": "A small, well-defined, avidly enhancing rounded focus within a lesion suggests an enhancing intralesional nodule rather than simple fluid or non-enhancing material.",
+        "presence_question": "Does the model's response discuss intralesional enhancing nodule?",
+        "correctness_question": "Does the model's response correctly state that a small, well-defined, avidly enhancing rounded focus within a lesion suggests an enhancing intralesional nodule rather than simple fluid or non-enhancing material?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "intratumoral enhancing nodule",
+        "claim_text": "The small, round, sharply demarcated hyperdense focus within the hepatic mass supports the presence of an avidly enhancing intratumoral nodule.",
+        "presence_question": "Does the model's response make an inferential link about intratumoral enhancing nodule?",
+        "correctness_question": "Does the model's response correctly conclude that The small, round, sharply demarcated hyperdense focus within the hepatic mass supports the presence of an avidly enhancing intratumoral nodule.?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "hepatic mass central necrosis",
+        "claim_text": "The hepatic mass's peripheral enhancing rim with a central non-enhancing zone supports that the mass contains a necrotic center.",
+        "presence_question": "Does the model's response make an inferential link about hepatic mass central necrosis?",
+        "correctness_question": "Does the model's response correctly conclude that The hepatic mass's peripheral enhancing rim with a central non-enhancing zone supports that the mass contains a necrotic center.?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "enhancing nodule vs simple fluid",
+        "claim_text": "The marked hyperdensity and avid enhancement of the small intralesional focus favor an enhancing nodule over simple fluid.",
+        "presence_question": "Does the model's response make an inferential link about enhancing nodule vs simple fluid?",
+        "correctness_question": "Does the model's response correctly conclude that The marked hyperdensity and avid enhancement of the small intralesional focus favor an enhancing nodule over simple fluid.?",
+        "premise_perception_ids": [
+          "p9",
+          "p11",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

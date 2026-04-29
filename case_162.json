@@ -27,5 +27,149 @@
   "caption": "Three-dimensional reconstruction of the thoracic inlet using the computed tomography angiogram of the head and neck demonstrates fracture of the right clavicular head with an anterior fracture fragment posterior displacement of the clavicle with abutment of the pseudoaneurysm/contained rupture (arrows). The connecting neck extending from the brachiocephalic artery is also depicted.",
   "sub_caption": "Three-dimensional reconstruction of the thoracic inlet using the computed tomography angiogram of the head and neck demonstrates fracture of the right clavicular head with an anterior fracture fragment posterior displacement of the clavicle with abutment of the pseudoaneurysm/contained rupture (arrows). The connecting neck extending from the brachiocephalic artery is also depicted.",
   "image_context": "A non-occlusive filling defect in the proximal right subclavian artery was suggestive of thrombus and raised concern for an embolic process. Decreased flow in the right distal second segment and third segments of the right vertebral artery supported a concern for a thrombus. There were no large vessel occlusions or significant stenoses of the major intracranial arteries. Finally, a Salter-Harris I fracture of the right clavicular head with surrounding contusion/hematoma was noted, along with dislocation of the sternoclavicular joint. The posteriorly displaced clavicle was noted to abut the pseudoaneurysm/contained rupture (<xref rid=\"cpcem-8-120-g002\" ref-type=\"fig\">Image 2</xref>).).",
-  "relevant_image_context": "Finally, a Salter-Harris I fracture of the right clavicular head with surrounding contusion/hematoma was noted, along with dislocation of the sternoclavicular joint. The posteriorly displaced clavicle was noted to abut the pseudoaneurysm/contained rupture."
+  "relevant_image_context": "Finally, a Salter-Harris I fracture of the right clavicular head with surrounding contusion/hematoma was noted, along with dislocation of the sternoclavicular joint. The posteriorly displaced clavicle was noted to abut the pseudoaneurysm/contained rupture.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_172_112-PMC11166058-1-cpcem-8-120-g002.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_172_112-PMC11166058-1-cpcem-8-120-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "3D CT angiogram",
+        "claim_text": "A 3D CT angiogram of the thoracic inlet was obtained.",
+        "presence_question": "Does the model's response discuss 3D CT angiogram?",
+        "correctness_question": "Does the model's response correctly assert that A 3D CT angiogram of the thoracic inlet was obtained?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right clavicle fracture",
+        "claim_text": "There is a fracture of the right clavicle.",
+        "presence_question": "Does the model's response discuss Right clavicle fracture?",
+        "correctness_question": "Does the model's response correctly assert that There is a fracture of the right clavicle?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Right clavicular fracture fragment",
+        "claim_text": "A fragment of the right clavicular fracture extends posteriorly into the thoracic inlet.",
+        "presence_question": "Does the model's response discuss Right clavicular fracture fragment?",
+        "correctness_question": "Does the model's response correctly assert that A fragment of the right clavicular fracture extends posteriorly into the thoracic inlet?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Posterior displacement of right clavicle",
+        "claim_text": "The right clavicular fracture shows substantial posterior displacement.",
+        "presence_question": "Does the model's response discuss Posterior displacement of right clavicle?",
+        "correctness_question": "Does the model's response correctly assert that The right clavicular fracture shows substantial posterior displacement?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Contrast-filled vascular outpouching",
+        "claim_text": "A focal contrast-filled outpouching is present in the vascular territory immediately posterior to the fractured right clavicle.",
+        "presence_question": "Does the model's response discuss Contrast-filled vascular outpouching?",
+        "correctness_question": "Does the model's response correctly assert that A focal contrast-filled outpouching is present in the vascular territory immediately posterior to the fractured right clavicle?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Outpouching posterior to right clavicle",
+        "claim_text": "The focal contrast-filled outpouching is located immediately posterior to the fractured right clavicle.",
+        "presence_question": "Does the model's response discuss Outpouching posterior to right clavicle?",
+        "correctness_question": "Does the model's response correctly assert that The focal contrast-filled outpouching is located immediately posterior to the fractured right clavicle?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "High-density material adjacent to outpouching",
+        "claim_text": "High-density material is adjacent to the focal contrast-filled outpouching posterior to the right clavicle.",
+        "presence_question": "Does the model's response discuss High-density material adjacent to outpouching?",
+        "correctness_question": "Does the model's response correctly assert that High-density material is adjacent to the focal contrast-filled outpouching posterior to the right clavicle?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "High-density material",
+        "claim_text": "The high-density material adjacent to the outpouching has high density.",
+        "presence_question": "Does the model's response discuss High-density material?",
+        "correctness_question": "Does the model's response correctly assert that The high-density material adjacent to the outpouching has high density?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Vascular abnormality adjacent to fracture",
+        "claim_text": "A contrast-containing vascular abnormality lies adjacent to the right clavicular fracture fragment.",
+        "presence_question": "Does the model's response discuss Vascular abnormality adjacent to fracture?",
+        "correctness_question": "Does the model's response correctly assert that A contrast-containing vascular abnormality lies adjacent to the right clavicular fracture fragment?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "contrast-filled vascular outpouching",
+        "claim_text": "A contrast-filled outpouching on angiography suggests a pseudoaneurysm or contained vascular rupture.",
+        "presence_question": "Does the model's response discuss contrast-filled vascular outpouching?",
+        "correctness_question": "Does the model's response correctly state that a contrast-filled outpouching on angiography suggests a pseudoaneurysm or contained vascular rupture?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "bone fragment contacting a vessel",
+        "claim_text": "A bone fragment contacting a vessel increases the risk of significant hemorrhage.",
+        "presence_question": "Does the model's response discuss bone fragment contacting a vessel?",
+        "correctness_question": "Does the model's response correctly state that a bone fragment contacting a vessel increases the risk of significant hemorrhage?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "high-density material adjacent to a vascular abnormality on CT",
+        "claim_text": "High-density material adjacent to a vascular abnormality on CT suggests local hemorrhage or a contained vascular collection.",
+        "presence_question": "Does the model's response discuss high-density material adjacent to a vascular abnormality on CT?",
+        "correctness_question": "Does the model's response correctly state that high-density material adjacent to a vascular abnormality on CT suggests local hemorrhage or a contained vascular collection?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Hemorrhage risk from displaced clavicular fragment",
+        "claim_text": "The combination of a posteriorly displaced right clavicular fragment that abuts a contrast-containing vascular abnormality and adjacent high-density material increases the immediate risk of significant hemorrhage in this case.",
+        "presence_question": "Does the model's response make an inferential link about Hemorrhage risk from displaced clavicular fragment?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a posteriorly displaced right clavicular fragment that abuts a contrast-containing vascular abnormality and adjacent high-density material increases the immediate risk of significant hemorrhage in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p6",
+          "p7",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Vessel wall injury from focal contrast outpouching",
+        "claim_text": "The focal contrast-filled outpouching immediately posterior to the fractured clavicle is consistent with a vessel wall injury such as a pseudoaneurysm or contained rupture in this case.",
+        "presence_question": "Does the model's response make an inferential link about Vessel wall injury from focal contrast outpouching?",
+        "correctness_question": "Does the model's response correctly conclude that The focal contrast-filled outpouching immediately posterior to the fractured clavicle is consistent with a vessel wall injury such as a pseudoaneurysm or contained rupture in this case.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "High-density material suggests local hemorrhage",
+        "claim_text": "The adjacent high-density material likely represents local hemorrhage or a contained vascular collection in this case.",
+        "presence_question": "Does the model's response make an inferential link about High-density material suggests local hemorrhage?",
+        "correctness_question": "Does the model's response correctly conclude that The adjacent high-density material likely represents local hemorrhage or a contained vascular collection in this case.?",
+        "premise_perception_ids": [
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

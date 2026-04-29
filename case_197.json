@@ -28,5 +28,163 @@
   "caption": "(a) Electrocardiogram of patient showing sinus rhythm, borderline left ventricular hypertrophy, and P pulmonale. (b) Diffuse subendocardial and transmural late gadolinium enhancement (LGE) of the left ventricular myocardium is present. Extensive LGE of right ventricular myocardium, atrial walls, and atrial septum is also noted",
   "sub_caption": "(b) Diffuse subendocardial and transmural late gadolinium enhancement (LGE) of the left ventricular myocardium is present. Extensive LGE of right ventricular myocardium, atrial walls, and atrial septum is also noted.",
   "image_context": "A 59‐year‐old gentleman presented with symptoms of bilateral numbness of the extremities and dysautonomia symptoms of postural dizziness. He also had orthopnea and lower limb swelling. He was found to have ATTR and familial amyloid polyneuropathy (FAP) that was diagnosed on sural nerve biopsy. This was on a background of known family history of FAP (father and paternal aunts). His ECG showed sinus rhythm, borderline left LVH, and P pulmonale. Average QRS size on precordial leads was 9 mm, and the average QRS size on the limb leads was 20 mm. PR interval was 164 ms, QRS duration was 98 ms, and QTc was prolonged at 505 ms. (Figure <xref rid=\"ANEC-27-e12967-g004\" ref-type=\"fig\">3a</xref>) CMR revealed LVH, mildly impaired left ventricular ejection fraction, and diffuse subendocardial enhancement of bilateral atria and ventricles, which was in keeping with the diagnosis of CA. (Figure ) CMR revealed LVH, mildly impaired left ventricular ejection fraction, and diffuse subendocardial enhancement of bilateral atria and ventricles, which was in keeping with the diagnosis of CA. (Figure <xref rid=\"ANEC-27-e12967-g004\" ref-type=\"fig\">3b</xref>). He underwent genetic testing, which came back positive for pathogenic variant Arg54Thr. He is being treated with tafamidis, frusemide, and spironolactone. He remains well on therapy.). He underwent genetic testing, which came back positive for pathogenic variant Arg54Thr. He is being treated with tafamidis, frusemide, and spironolactone. He remains well on therapy.",
-  "relevant_image_context": "CMR revealed LVH, mildly impaired left ventricular ejection fraction, and diffuse subendocardial enhancement of bilateral atria and ventricles, which was in keeping with the diagnosis of CA. (Figure 3b)."
+  "relevant_image_context": "CMR revealed LVH, mildly impaired left ventricular ejection fraction, and diffuse subendocardial enhancement of bilateral atria and ventricles, which was in keeping with the diagnosis of CA. (Figure 3b).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_124_113-PMC9296797-1-ANEC-27-e12967-g004.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_124_113-PMC9296797-1-ANEC-27-e12967-g004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "ECG rhythm",
+        "claim_text": "The ECG (top panel) shows a regular heart rhythm.",
+        "presence_question": "Does the model's response discuss ECG rhythm?",
+        "correctness_question": "Does the model's response correctly assert that The ECG (top panel) shows a regular heart rhythm?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Cardiac conduction changes",
+        "claim_text": "The ECG (top panel) shows conduction changes in the cardiac conduction system.",
+        "presence_question": "Does the model's response discuss Cardiac conduction changes?",
+        "correctness_question": "Does the model's response correctly assert that The ECG (top panel) shows conduction changes in the cardiac conduction system?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Left ventricular myocardium thickening",
+        "claim_text": "The left ventricular myocardium on the bottom panel shows marked thickening.",
+        "presence_question": "Does the model's response discuss Left ventricular myocardium thickening?",
+        "correctness_question": "Does the model's response correctly assert that The left ventricular myocardium on the bottom panel shows marked thickening?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Concentric left ventricular shape",
+        "claim_text": "The left ventricular myocardium appears concentric in shape on the bottom panel.",
+        "presence_question": "Does the model's response discuss Concentric left ventricular shape?",
+        "correctness_question": "Does the model's response correctly assert that The left ventricular myocardium appears concentric in shape on the bottom panel?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Subendocardial myocardial brightness",
+        "claim_text": "The subendocardial layer of myocardium shows diffuse bright signal on the bottom panel.",
+        "presence_question": "Does the model's response discuss Subendocardial myocardial brightness?",
+        "correctness_question": "Does the model's response correctly assert that The subendocardial layer of myocardium shows diffuse bright signal on the bottom panel?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Biventricular subendocardial signal",
+        "claim_text": "Both ventricles' myocardium shows diffuse bright subendocardial signal on the bottom panel.",
+        "presence_question": "Does the model's response discuss Biventricular subendocardial signal?",
+        "correctness_question": "Does the model's response correctly assert that Both ventricles' myocardium shows diffuse bright subendocardial signal on the bottom panel?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Atrial subendocardial signal",
+        "claim_text": "Both atria show diffuse bright subendocardial signal on the bottom panel.",
+        "presence_question": "Does the model's response discuss Atrial subendocardial signal?",
+        "correctness_question": "Does the model's response correctly assert that Both atria show diffuse bright subendocardial signal on the bottom panel?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Progressive peripheral neuropathy",
+        "claim_text": "Progressive peripheral neuropathy affecting the peripheral nervous system is present.",
+        "presence_question": "Does the model's response discuss Progressive peripheral neuropathy?",
+        "correctness_question": "Does the model's response correctly assert that Progressive peripheral neuropathy affecting the peripheral nervous system is present?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Autonomic symptoms",
+        "claim_text": "Autonomic symptoms are present affecting the autonomic nervous system.",
+        "presence_question": "Does the model's response discuss Autonomic symptoms?",
+        "correctness_question": "Does the model's response correctly assert that Autonomic symptoms are present affecting the autonomic nervous system?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Affected paternal relatives",
+        "claim_text": "Affected relatives on the paternal side, including the father and paternal aunts, are present.",
+        "presence_question": "Does the model's response discuss Affected paternal relatives?",
+        "correctness_question": "Does the model's response correctly assert that Affected relatives on the paternal side, including the father and paternal aunts, are present?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "Paternal-side multigenerational affected individuals",
+        "claim_text": "Affected individuals in successive generations and both sexes on the paternal side are present.",
+        "presence_question": "Does the model's response discuss Paternal-side multigenerational affected individuals?",
+        "correctness_question": "Does the model's response correctly assert that Affected individuals in successive generations and both sexes on the paternal side are present?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "autosomal dominant inheritance pattern",
+        "claim_text": "A pattern of affected individuals in successive generations affecting both sexes on one parental side suggests autosomal dominant transmission.",
+        "presence_question": "Does the model's response discuss autosomal dominant inheritance pattern?",
+        "correctness_question": "Does the model's response correctly state that a pattern of affected individuals in successive generations affecting both sexes on one parental side suggests autosomal dominant transmission?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "autosomal dominant carrier risk",
+        "claim_text": "A heterozygous carrier of an autosomal dominant pathogenic variant has approximately a 50% chance of passing the variant to each biological child if the other parent does not carry it.",
+        "presence_question": "Does the model's response discuss autosomal dominant carrier risk?",
+        "correctness_question": "Does the model's response correctly state that a heterozygous carrier of an autosomal dominant pathogenic variant has approximately a 50% chance of passing the variant to each biological child if the other parent does not carry it?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "infiltrative cardiomyopathy MRI appearance",
+        "claim_text": "Concentric left ventricular thickening with diffuse bright subendocardial myocardial signal on cardiac MRI is characteristic of infiltrative cardiomyopathy.",
+        "presence_question": "Does the model's response discuss infiltrative cardiomyopathy MRI appearance?",
+        "correctness_question": "Does the model's response correctly state that concentric left ventricular thickening with diffuse bright subendocardial myocardial signal on cardiac MRI is characteristic of infiltrative cardiomyopathy?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "infiltrative cardiomyopathy",
+        "claim_text": "The cardiac MRI findings support the presence of an infiltrative cardiomyopathy in this case.",
+        "presence_question": "Does the model's response make an inferential link about infiltrative cardiomyopathy?",
+        "correctness_question": "Does the model's response correctly conclude that The cardiac MRI findings support the presence of an infiltrative cardiomyopathy in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "autosomal dominant paternal inheritance",
+        "claim_text": "The family pattern together with the clinical findings is most consistent with a heritable disorder transmitted in an autosomal dominant fashion from the paternal line.",
+        "presence_question": "Does the model's response make an inferential link about autosomal dominant paternal inheritance?",
+        "correctness_question": "Does the model's response correctly conclude that The family pattern together with the clinical findings is most consistent with a heritable disorder transmitted in an autosomal dominant fashion from the paternal line?",
+        "premise_perception_ids": [
+          "p8",
+          "p9",
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "offspring inheritance probability",
+        "claim_text": "The genetic situation implies that each biological child has approximately a 50% chance of inheriting the pathogenic variant.",
+        "presence_question": "Does the model's response make an inferential link about offspring inheritance probability?",
+        "correctness_question": "Does the model's response correctly conclude that The genetic situation implies that each biological child has approximately a 50% chance of inheriting the pathogenic variant?",
+        "premise_perception_ids": [
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

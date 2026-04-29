@@ -27,5 +27,154 @@
   "caption": "Chest computed tomography (CT) images at the level of the lower lobe of the lung in chronological order. A was taken on the day of admission. The image shows a massive pleural effusion with slight bubbles, air in the left pleural cavity, collapse of the left lung, and mediastinal shift to the right. However, a pulmonary fistula that may have caused the left lung to collapse was not observed. B was taken 9 days after drainage. This image shows the modest expansion of the left lung, with remaining pleural gas, pulmonary consolidation, and fibrosis. C was taken 8 months after discharge. This image shows the improvement of the consolidation with the full expansion of the left lung.",
   "sub_caption": "The image shows a massive pleural effusion with slight bubbles, air in the left pleural cavity, collapse of the left lung, and mediastinal shift to the right. However, a pulmonary fistula that may have caused the left lung to collapse was not observed.",
   "image_context": "Whole-body computed tomography (CT) showed extensive pleural effusion with slight bubbles and air in the left pleural cavity, which caused the collapse of the left lung and mediastinal shift to the right (<xref rid=\"gr1a\" ref-type=\"fig\">Fig. 1</xref>A). We could not detect the presence of a pulmonary fistula that may have caused the left lung to collapse. There was no evidence of gastrointestinal to thoracic fistula or herniation of the stomach and colon into the thoracic cavity. She was admitted to the intensive care unit immediately due to tension pyopneumothorax, suggested by a loss of respiratory variability with a 15 mm diameter of the inferior vena cava (IVC) measured by an echocardiography and a lactate level of 10.6 mmol/L indicated by an arterial blood gas analysis.A). We could not detect the presence of a pulmonary fistula that may have caused the left lung to collapse. There was no evidence of gastrointestinal to thoracic fistula or herniation of the stomach and colon into the thoracic cavity. She was admitted to the intensive care unit immediately due to tension pyopneumothorax, suggested by a loss of respiratory variability with a 15 mm diameter of the inferior vena cava (IVC) measured by an echocardiography and a lactate level of 10.6 mmol/L indicated by an arterial blood gas analysis.Fig. 1Chest computed tomography (CT) images at the level of the lower lobe of the lung in chronological order. A was taken on the day of admission. The image shows a massive pleural effusion with slight bubbles, air in the left pleural cavity, collapse of the left lung, and mediastinal shift to the right. However, a pulmonary fistula that may have caused the left lung to collapse was not observed. B was taken 9 days after drainage. This image shows the modest expansion of the left lung, with remaining pleural gas, pulmonary consolidation, and fibrosis. C was taken 8 months after discharge. This image shows the improvement of the consolidation with the full expansion of the left lung.Fig. 1 We administered intravenous sulbactam and ampicillin and washed the thoracic cavity on day 3–5. Although intrapleural use of tissue plasminogen activator and DNase are effective to pyothorax, we used urokinase instead because they are not permitted by the Japanese insurance system [2]. The patient took analgesics as needed only for the first few days after the chest tube was placed; however, she had no fever since the admission. Chest CT performed on day 9 showed no pulmonary or bronchopleural fistula (<xref rid=\"gr1a\" ref-type=\"fig\">Fig. 1</xref>B). The thoracostomy tube was removed on day 17, and antibiotics were discontinued on day 18 because of a drug-induced rash. The patient was discharged on day 21 and recovered from pyopneumothorax without recurrence. Chest CT taken 8 months after the discharge showed full expansion of the left lung, with only slight fibrosis in the lung (B). The thoracostomy tube was removed on day 17, and antibiotics were discontinued on day 18 because of a drug-induced rash. The patient was discharged on day 21 and recovered from pyopneumothorax without recurrence. Chest CT taken 8 months after the discharge showed full expansion of the left lung, with only slight fibrosis in the lung (<xref rid=\"gr1a\" ref-type=\"fig\">Fig. 1</xref>C).C).",
-  "relevant_image_context": "Whole-body computed tomography (CT) showed extensive pleural effusion with slight bubbles and air in the left pleural cavity, which caused the collapse of the left lung and mediastinal shift to the right (Fig. 1A). We could not detect the presence of a pulmonary fistula that may have caused the left lung to collapse. There was no evidence of gastrointestinal to thoracic fistula or herniation of the stomach and colon into the thoracic cavity. Fig. 1 Chest CT images at the level of the lower lobe of the lung in chronological order. A was taken on the day of admission. The image shows a massive pleural effusion with slight bubbles, air in the left pleural cavity, collapse of the left lung, and mediastinal shift to the right. However, a pulmonary fistula that may have caused the left lung to collapse was not observed."
+  "relevant_image_context": "Whole-body computed tomography (CT) showed extensive pleural effusion with slight bubbles and air in the left pleural cavity, which caused the collapse of the left lung and mediastinal shift to the right (Fig. 1A). We could not detect the presence of a pulmonary fistula that may have caused the left lung to collapse. There was no evidence of gastrointestinal to thoracic fistula or herniation of the stomach and colon into the thoracic cavity. Fig. 1 Chest CT images at the level of the lower lobe of the lung in chronological order. A was taken on the day of admission. The image shows a massive pleural effusion with slight bubbles, air in the left pleural cavity, collapse of the left lung, and mediastinal shift to the right. However, a pulmonary fistula that may have caused the left lung to collapse was not observed.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_90_38-PMC7941028-0-gr1a.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_90_38-PMC7941028-0-gr1a.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Pleural collection location",
+        "claim_text": "A pleural collection is located in a single hemithorax.",
+        "presence_question": "Does the model's response discuss Pleural collection location?",
+        "correctness_question": "Does the model's response correctly assert that A pleural collection is located in a single hemithorax?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Pleural collection density",
+        "claim_text": "The pleural collection demonstrates a dense internal attenuation on imaging.",
+        "presence_question": "Does the model's response discuss Pleural collection density?",
+        "correctness_question": "Does the model's response correctly assert that The pleural collection demonstrates a dense internal attenuation on imaging?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Pleural collection homogeneity",
+        "claim_text": "The pleural collection has a homogeneous internal appearance on imaging.",
+        "presence_question": "Does the model's response discuss Pleural collection homogeneity?",
+        "correctness_question": "Does the model's response correctly assert that The pleural collection has a homogeneous internal appearance on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Air–fluid level in pleural collection",
+        "claim_text": "The pleural collection demonstrates an air–fluid level pattern within the hemithorax.",
+        "presence_question": "Does the model's response discuss Air–fluid level in pleural collection?",
+        "correctness_question": "Does the model's response correctly assert that The pleural collection demonstrates an air–fluid level pattern within the hemithorax?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Intrapleural air bubbles",
+        "claim_text": "Scattered intrapleural air bubbles are present within the ipsilateral pleural space.",
+        "presence_question": "Does the model's response discuss Intrapleural air bubbles?",
+        "correctness_question": "Does the model's response correctly assert that Scattered intrapleural air bubbles are present within the ipsilateral pleural space?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Extent of pleural collection",
+        "claim_text": "The pleural collection extends to occupy nearly the entire hemithorax.",
+        "presence_question": "Does the model's response discuss Extent of pleural collection?",
+        "correctness_question": "Does the model's response correctly assert that The pleural collection extends to occupy nearly the entire hemithorax?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Ipsilateral lung compression",
+        "claim_text": "The ipsilateral lung is compressed into a thin peripheral rim by the collection.",
+        "presence_question": "Does the model's response discuss Ipsilateral lung compression?",
+        "correctness_question": "Does the model's response correctly assert that The ipsilateral lung is compressed into a thin peripheral rim by the collection?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Ipsilateral lung aeration and markings",
+        "claim_text": "The ipsilateral lung shows loss of normal aeration and pulmonary markings.",
+        "presence_question": "Does the model's response discuss Ipsilateral lung aeration and markings?",
+        "correctness_question": "Does the model's response correctly assert that The ipsilateral lung shows loss of normal aeration and pulmonary markings?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Contralateral lung aeration and expansion",
+        "claim_text": "The contralateral lung is aerated and relatively expanded.",
+        "presence_question": "Does the model's response discuss Contralateral lung aeration and expansion?",
+        "correctness_question": "Does the model's response correctly assert that The contralateral lung is aerated and relatively expanded?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Compression of central thoracic structures",
+        "claim_text": "The pleural collection compresses central thoracic structures, causing mass effect.",
+        "presence_question": "Does the model's response discuss Compression of central thoracic structures?",
+        "correctness_question": "Does the model's response correctly assert that The pleural collection compresses central thoracic structures, causing mass effect?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "volume of pleural or intrathoracic collection",
+        "claim_text": "The volume of an intrathoracic or pleural collection is typically associated with the severity of the abnormality.",
+        "presence_question": "Does the model's response discuss volume of pleural or intrathoracic collection?",
+        "correctness_question": "Does the model's response correctly state that the volume of an intrathoracic or pleural collection is typically associated with the severity of the abnormality?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "compression of lung by adjacent mass",
+        "claim_text": "Compression of the lung by an adjacent mass or collection typically leads to loss of aeration and reduced lung function.",
+        "presence_question": "Does the model's response discuss compression of lung by adjacent mass?",
+        "correctness_question": "Does the model's response correctly state that compression of the lung by an adjacent mass or collection typically leads to loss of aeration and reduced lung function?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "aerated and expanded lung on imaging",
+        "claim_text": "An aerated and expanded lung on imaging is typically associated with relatively preserved lung function.",
+        "presence_question": "Does the model's response discuss aerated and expanded lung on imaging?",
+        "correctness_question": "Does the model's response correctly state that an aerated and expanded lung on imaging is typically associated with relatively preserved lung function?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "pleural collection severity inference",
+        "claim_text": "The imaging findings are consistent with the pleural collection being severe because it occupies nearly the entire hemithorax, produces marked ipsilateral lung compression with loss of aeration, and exerts mass effect on central thoracic structures.",
+        "presence_question": "Does the model's response make an inferential link about pleural collection severity inference?",
+        "correctness_question": "Does the model's response correctly conclude that the imaging findings are consistent with the pleural collection being severe because it occupies nearly the entire hemithorax, produces marked ipsilateral lung compression with loss of aeration, and exerts mass effect on central thoracic structures?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "ipsilateral lung functional status inference",
+        "claim_text": "The imaging findings support that the ipsilateral lung is likely nonfunctional or has major functional impairment because it is compressed to a thin peripheral rim with loss of normal aeration.",
+        "presence_question": "Does the model's response make an inferential link about ipsilateral lung functional status inference?",
+        "correctness_question": "Does the model's response correctly conclude that the imaging findings support that the ipsilateral lung is likely nonfunctional or has major functional impairment because it is compressed to a thin peripheral rim with loss of normal aeration?",
+        "premise_perception_ids": [
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "contralateral lung preservation inference",
+        "claim_text": "The imaging findings are consistent with the contralateral lung being relatively preserved because it is aerated and relatively expanded on imaging.",
+        "presence_question": "Does the model's response make an inferential link about contralateral lung preservation inference?",
+        "correctness_question": "Does the model's response correctly conclude that the imaging findings are consistent with the contralateral lung being relatively preserved because it is aerated and relatively expanded on imaging?",
+        "premise_perception_ids": [
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

@@ -27,5 +27,121 @@
   "caption": "Graf’s method for ultrasound evaluation of developmental dysplasia of the hip shows a normal hip. Case courtesy of Mr Sandeep Hemmadi, Radiopaedia.org, rID: 45301",
   "sub_caption": "Graf’s method for ultrasound evaluation of developmental dysplasia of the hip shows a normal hip. Case courtesy of Mr Sandeep Hemmadi, Radiopaedia.org, rID: 45301",
   "image_context": "The sensitivity of the physical exam in detecting hip dislocation is only 37%, which is even lower in hip instability. This can be augmented to 89% by utilizing ultrasound, which allows for capture of dynamic images [2]. Ultrasound has been used in DDH since the 1980s. It is mainly used before 6 months of age when the femoral head ossification has not yet appeared [7, 8]. There are variations in screening practices globally, with some European countries performing universal ultrasound screening for DDH [2, 8, 9]. In the USA, screening is only recommended for those with a positive physical exam or are considered high risk (e.g., breech presentation or pertinent family history), as studies suggest that universal screening only results to increased treatment, which may result in increased iatrogenic complications, and does not necessarily decrease rates of late diagnosis or corrective surgery [1, 2, 6, 8]. Ultrasound evaluation should be performed at 6 weeks of life as evaluations performed within the first 4 weeks may yield false positive results due to physiologic laxity [1, 10]. Graf’s method is most commonly performed due to its high sensitivity, specificity, and reproducibility. This method distinguishes between pathologic hip instability and normal hip laxity based on the static morphology on the coronal plane. It also measures the alpha angle which corresponds to the acetabular bony roof (considered normal if > 60 degrees), and the beta angle that corresponds to the acetabular cartilaginous roof [2, 8, 11]. (Fig. <xref rid=\"12178_2022_9788_Fig1_HTML\" ref-type=\"fig\">1</xref>). Graf’s method may be limited due to emphasis on procedural technique and high intraobserver and interobserver variability in interpretation, and since ultrasound evaluation is operator dependent, insufficient training amongst clinicians may lead to decreased utilization in the clinical setting. A transcontinental survey of orthopaedic surgeons revealed that 57% of Pediatric Orthopaedic Society of North America (POSNA) members relied on radiology technicians for DDH ultrasound evaluations compared to only 7% of European Orthopaedic Society (EPOS) members [). Graf’s method may be limited due to emphasis on procedural technique and high intraobserver and interobserver variability in interpretation, and since ultrasound evaluation is operator dependent, insufficient training amongst clinicians may lead to decreased utilization in the clinical setting. A transcontinental survey of orthopaedic surgeons revealed that 57% of Pediatric Orthopaedic Society of North America (POSNA) members relied on radiology technicians for DDH ultrasound evaluations compared to only 7% of European Orthopaedic Society (EPOS) members [9]. Other less technical methods have also been described. An example is Harcke’s method of dynamic ultrasound that provides objective information and reproducible evaluations that allows for some variation in operator technique. It allows real-time assessment with or without stress maneuvers [8]. These less technical methods might be considered subjective due to operator dependence, but may increase clinicians’ confidence in performing such procedures. A prospective study on the interobserver reliability of an ultrasound-enhanced physical examination revealed very high agreement between learners (pediatric orthopaedic surgeon, orthopaedic resident, and a pediatrician) and an experienced pediatric orthopaedic surgeon in diagnosing abnormal hips (including dysplasia, instability, or dislocation) after completing a 2-hour course, suggesting the feasibility in implementing this skill in orthopaedic and pediatric residency training [7].\nFig. 1Graf’s method for ultrasound evaluation of developmental dysplasia of the hip shows a normal hip. Case courtesy of Mr Sandeep Hemmadi, Radiopaedia.org, rID: 45301",
-  "relevant_image_context": "Graf’s method distinguishes normal hip laxity from pathologic instability based on static morphology in the coronal plane and uses measured angles; the alpha angle (A) corresponds to the acetabular bony roof and is considered normal when greater than 60 degrees, while the beta angle (B) relates to the acetabular cartilaginous roof. The subfigure caption indicates Graf’s method shows a normal hip; in this image the labels A=60 and B=78 reflect the measured angles typical of a normal hip. The broader discussion notes that ultrasound evaluation is operator dependent and that there can be variability in interpretation and training requirements."
+  "relevant_image_context": "Graf’s method distinguishes normal hip laxity from pathologic instability based on static morphology in the coronal plane and uses measured angles; the alpha angle (A) corresponds to the acetabular bony roof and is considered normal when greater than 60 degrees, while the beta angle (B) relates to the acetabular cartilaginous roof. The subfigure caption indicates Graf’s method shows a normal hip; in this image the labels A=60 and B=78 reflect the measured angles typical of a normal hip. The broader discussion notes that ultrasound evaluation is operator dependent and that there can be variability in interpretation and training requirements.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_137_100-PMC9789252-5-12178_2022_9788_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_137_100-PMC9789252-5-12178_2022_9788_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "sagittal hip view",
+        "claim_text": "The sagittal view demonstrates the infant hip anatomy on the image.",
+        "presence_question": "Does the model's response discuss sagittal hip view?",
+        "correctness_question": "Does the model's response correctly assert that The sagittal view demonstrates the infant hip anatomy on the image.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "angle A measurement",
+        "claim_text": "Angle A measures 60 degrees on the image of the infant hip.",
+        "presence_question": "Does the model's response discuss angle A measurement?",
+        "correctness_question": "Does the model's response correctly assert that Angle A measures 60 degrees on the image of the infant hip.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "angle B measurement",
+        "claim_text": "Angle B measures 78 degrees on the image of the infant hip.",
+        "presence_question": "Does the model's response discuss angle B measurement?",
+        "correctness_question": "Does the model's response correctly assert that Angle B measures 78 degrees on the image of the infant hip.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "femoral head location",
+        "claim_text": "The femoral head is located within the acetabular contour on the image.",
+        "presence_question": "Does the model's response discuss femoral head location?",
+        "correctness_question": "Does the model's response correctly assert that The femoral head is located within the acetabular contour on the image.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "sonographic subluxation",
+        "claim_text": "There is no sonographic subluxation on the image.",
+        "presence_question": "Does the model's response discuss sonographic subluxation?",
+        "correctness_question": "Does the model's response correctly assert that There is no sonographic subluxation on the image.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "sonographic dislocation",
+        "claim_text": "There is no sonographic dislocation on the image.",
+        "presence_question": "Does the model's response discuss sonographic dislocation?",
+        "correctness_question": "Does the model's response correctly assert that There is no sonographic dislocation on the image.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "clinical hip examination",
+        "claim_text": "The clinical hip examination has a normal appearance.",
+        "presence_question": "Does the model's response discuss clinical hip examination?",
+        "correctness_question": "Does the model's response correctly assert that The clinical hip examination has a normal appearance.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "femoral head position on ultrasound",
+        "claim_text": "Ultrasound identifies the position of the femoral head relative to the acetabular contour.",
+        "presence_question": "Does the model's response discuss femoral head position on ultrasound?",
+        "correctness_question": "Does the model's response correctly state that Ultrasound identifies the position of the femoral head relative to the acetabular contour?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "hip subluxation/dislocation on ultrasound",
+        "claim_text": "Ultrasound typically identifies hip subluxation or dislocation.",
+        "presence_question": "Does the model's response discuss hip subluxation/dislocation on ultrasound?",
+        "correctness_question": "Does the model's response correctly state that Ultrasound typically identifies hip subluxation or dislocation?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "normal hip ultrasound with normal exam",
+        "claim_text": "A normal hip ultrasound together with a normal clinical hip examination typically indicates that no immediate additional imaging is required.",
+        "presence_question": "Does the model's response discuss normal hip ultrasound with normal exam?",
+        "correctness_question": "Does the model's response correctly state that A normal hip ultrasound together with a normal clinical hip examination typically indicates that no immediate additional imaging is required?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "sonographic hip instability",
+        "claim_text": "The sonographic appearance of a femoral head seated within the acetabular contour with no visible subluxation or dislocation argues against sonographic hip instability in this case.",
+        "presence_question": "Does the model's response make an inferential link about sonographic hip instability?",
+        "correctness_question": "Does the model's response correctly conclude that The sonographic appearance of a femoral head seated within the acetabular contour with no visible subluxation or dislocation argues against sonographic hip instability in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "need for immediate additional imaging",
+        "claim_text": "In the context of a normal clinical hip examination and an ultrasound without imaging abnormalities, immediate additional imaging is not required for this patient.",
+        "presence_question": "Does the model's response make an inferential link about need for immediate additional imaging?",
+        "correctness_question": "Does the model's response correctly conclude that In the context of a normal clinical hip examination and an ultrasound without imaging abnormalities, immediate additional imaging is not required for this patient?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,132 @@
   "caption": "Case 1 Noncontrast CT scan of the head with a large acute right middle cerebral artery (MCA) territory infarct (small arrows), midline shift resulting in indentation of the contralateral cerebral crus by the tentorium cerebelli (large arrow), and left sided unilateral, noncommunicating hydrocephalus (arrowheads).",
   "sub_caption": "Noncontrast CT scan of the head with a large acute right middle cerebral artery (MCA) territory infarct (small arrows), midline shift resulting in indentation of the contralateral cerebral crus by the tentorium cerebelli (large arrow), and left sided unilateral, noncommunicating hydrocephalus (arrowheads).",
   "image_context": "A 59-year old male with hypertension, diabetes, hyperlipidemia, and atrial fibrillation presented to an outside hospital with sudden onset of slurred speech, left hemiparalysis, and right gaze preference. CT head revealed a large acute right middle cerebral artery territory infact with 3 mm of leftward midline shift. Patient was transferred to a tertiary care facility and experienced declining status requiring intubation with inability to follow commands and physical exam limited to reflexes. Repeat CT scan of the head revealed progressive leftward midline shift (up to 16 mm), indentation of the contralateral cerebral crus by the tentorium cerebelli, and left sided unilateral, noncommunicating hydrocephalus (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). An emergent right hemicraniectomy was performed with little improvement in patient status. A subsequent MRI of the head revealed diffusion restriction and fluid attenuated inversion recovery (FLAIR) hyperintensity diffusely involving the left SCA territory, right posterior cerebral artery (PCA) territory, and within the left lateral mesencephalon (including the crus cerebri, lateral tegmentum, and upper tectum) (). An emergent right hemicraniectomy was performed with little improvement in patient status. A subsequent MRI of the head revealed diffusion restriction and fluid attenuated inversion recovery (FLAIR) hyperintensity diffusely involving the left SCA territory, right posterior cerebral artery (PCA) territory, and within the left lateral mesencephalon (including the crus cerebri, lateral tegmentum, and upper tectum) (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>A-E). A tiny acute hematoma was also present within the left lateral tegmentum (A-E). A tiny acute hematoma was also present within the left lateral tegmentum (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>B-C). The patient made little progress in the ensuing days and expired shortly after being switched to comfort measures only.B-C). The patient made little progress in the ensuing days and expired shortly after being switched to comfort measures only.Fig. 1Case 1 Noncontrast CT scan of the head with a large acute right middle cerebral artery (MCA) territory infarct (small arrows), midline shift resulting in indentation of the contralateral cerebral crus by the tentorium cerebelli (large arrow), and left sided unilateral, noncommunicating hydrocephalus (arrowheads).Fig. 1Fig. 2Case 1 MRI of the head post right hemicraniectomy with evolving subacute right MCA territory infarct, new ipsilateral PCA territory infarct, and new contralateral SCA territory infarct and Kernohan notch phenomenon type mesencephalic injury. (A) Coronal T2 image demonstrating large evolving subacute right MCA territory infarct with mild petechial type hemorrhagic conversion (small arrows) and T2 hyperintense signal abnormality within the left crus cerebri and lateral tegmentum (big arrows) suggestive of Kernohan notch phenomenon type injury. (B) Axial FLAIR image demonstrating abnormal FLAIR hyperintense signal within the left crus cerebri, lateral tegmentum, and upper tectum (big arrows) and superimposed FLAIR hypointense hemorrhage within the left upper tectum suggestive of Kernohan notch phenomenon type injury. (C) Axial diffusion weighted Imaging (DWI) image demonstrating high DWI signal within the left crus cerebri, lateral tegmentum, and upper tectum (big arrows), right PCA territory (arrowheads), and left SCA territory (small arrows). (D) Axial DWI image demonstrating high DWI signal within the left crus cerebri, lateral tegmentum, and upper tectum (big arrows), right PCA territory (arrowheads), and left SCA territory (small arrows).(E) Axial apparent diffusion coefficient (ADC) image demonstrating low ADC signal, consistent with diffusion restriction, within the left lateral mesencephalon (big arrows), right PCA territory (arrowheads), and left SCA territory (small arrows). PCA, posterior cerebral artery; SCA, superior cerebellar artery.Fig. 2",
-  "relevant_image_context": "Fig. 1Case 1 Noncontrast CT scan of the head with a large acute right middle cerebral artery (MCA) territory infarct (small arrows), midline shift resulting in indentation of the contralateral cerebral crus by the tentorium cerebelli (large arrow), and left sided unilateral, noncommunicating hydrocephalus (arrowheads)."
+  "relevant_image_context": "Fig. 1Case 1 Noncontrast CT scan of the head with a large acute right middle cerebral artery (MCA) territory infarct (small arrows), midline shift resulting in indentation of the contralateral cerebral crus by the tentorium cerebelli (large arrow), and left sided unilateral, noncommunicating hydrocephalus (arrowheads).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_74_23-PMC6957800-0-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_74_23-PMC6957800-0-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Right cerebral hemisphere hypodensity",
+        "claim_text": "There is a hypodense region in the right cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss Right cerebral hemisphere hypodensity?",
+        "correctness_question": "Does the model's response correctly assert that There is a hypodense region in the right cerebral hemisphere.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Hypodense region at right lateral convexity",
+        "claim_text": "A hypodense region is located at the lateral convexity of the right cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss Hypodense region at right lateral convexity?",
+        "correctness_question": "Does the model's response correctly assert that A hypodense region is located at the lateral convexity of the right cerebral hemisphere.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Loss of right cerebral sulcal markings",
+        "claim_text": "There is loss of normal sulcal markings in the right cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss Loss of right cerebral sulcal markings?",
+        "correctness_question": "Does the model's response correctly assert that There is loss of normal sulcal markings in the right cerebral hemisphere.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Leftward midline shift",
+        "claim_text": "The intracranial midline structures are shifted toward the left side.",
+        "presence_question": "Does the model's response discuss Leftward midline shift?",
+        "correctness_question": "Does the model's response correctly assert that The intracranial midline structures are shifted toward the left side.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Asymmetric ventricular system",
+        "claim_text": "The ventricular system appears asymmetric in size and shape.",
+        "presence_question": "Does the model's response discuss Asymmetric ventricular system?",
+        "correctness_question": "Does the model's response correctly assert that The ventricular system appears asymmetric in size and shape.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Intracranial mass effect",
+        "claim_text": "There is intracranial mass effect noted on imaging.",
+        "presence_question": "Does the model's response discuss Intracranial mass effect?",
+        "correctness_question": "Does the model's response correctly assert that There is intracranial mass effect noted on imaging.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "motor cortex lesions",
+        "claim_text": "Lesion involving the motor cortex or adjacent subcortical structures typically causes contralateral motor deficits such as weakness or hemiparesis.",
+        "presence_question": "Does the model's response discuss motor cortex lesions?",
+        "correctness_question": "Does the model's response correctly state that Lesion involving the motor cortex or adjacent subcortical structures typically causes contralateral motor deficits such as weakness or hemiparesis?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "motor cortex location",
+        "claim_text": "The motor cortex is located on the lateral convexity of the cerebral hemisphere.",
+        "presence_question": "Does the model's response discuss motor cortex location?",
+        "correctness_question": "Does the model's response correctly state that The motor cortex is located on the lateral convexity of the cerebral hemisphere?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "intracranial mass effect",
+        "claim_text": "Mass effect typically leads to shift of midline structures and ventricular asymmetry.",
+        "presence_question": "Does the model's response discuss intracranial mass effect?",
+        "correctness_question": "Does the model's response correctly state that Mass effect typically leads to shift of midline structures and ventricular asymmetry?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "hypodense region on noncontrast head CT",
+        "claim_text": "A hypodense region on noncontrast head CT typically indicates a cerebral infarct.",
+        "presence_question": "Does the model's response discuss hypodense region on noncontrast head CT?",
+        "correctness_question": "Does the model's response correctly state that A hypodense region on noncontrast head CT typically indicates a cerebral infarct?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Lesion causing contralateral motor weakness",
+        "claim_text": "The large right lateral convexity lesion likely involves the right motor cortex and therefore supports contralateral (left-sided) motor weakness in this case.",
+        "presence_question": "Does the model's response make an inferential link about Lesion causing contralateral motor weakness?",
+        "correctness_question": "Does the model's response correctly conclude that The large right lateral convexity lesion likely involves the right motor cortex and therefore supports contralateral (left-sided) motor weakness in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Midline shift indicating mass effect",
+        "claim_text": "The observed leftward midline shift and ventricular asymmetry are consistent with secondary intracranial mass effect from the large right hemispheric lesion in this case.",
+        "presence_question": "Does the model's response make an inferential link about Midline shift indicating mass effect?",
+        "correctness_question": "Does the model's response correctly conclude that The observed leftward midline shift and ventricular asymmetry are consistent with secondary intracranial mass effect from the large right hemispheric lesion in this case.?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Hypodense region indicating infarct",
+        "claim_text": "The large hypodense region on noncontrast CT most plausibly represents a right hemispheric cerebral infarct in this case.",
+        "presence_question": "Does the model's response make an inferential link about Hypodense region indicating infarct?",
+        "correctness_question": "Does the model's response correctly conclude that The large hypodense region on noncontrast CT most plausibly represents a right hemispheric cerebral infarct in this case.?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

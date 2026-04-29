@@ -28,5 +28,126 @@
   "caption": "Numerous retinal crystals and chorioretinal atrophy are visible on the fundus photos of the patients with Bietti crystalline corneoretinal dystrophy.",
   "sub_caption": "Numerous retinal crystals and chorioretinal atrophy are visible on the fundus photos of the patients with Bietti crystalline corneoretinal dystrophy.",
   "image_context": "Fifteen patients were examined in total. Nine patients were affected, and the remaining six asymptomatic individuals were examined in the genetic counseling setting. The clinical findings from the nine affected patients are summarized in Table 2. Eight were female. Two were asymptomatic, three had visual complaints related to nyctalopia, and four complained of decreased visual acuity (VA). Three of the patients had blindness, while in the others, visual acuity was preserved even in severe cases since the central vision had remained normal at first particularly for near, before decreasing gradually. Best-corrected visual acuity (BCVA) in these individuals ranged from light perception to Snellen 20/20. Color vision testing using Ishihara plates ranged between normal and severe color vision deficiency. Automated visual fields when performed gave results ranging between paracentral scotoma and severe uniform alteration. The slit lamp exam did not show any corneal deposits, and the anterior segments were within normal limits in all examined patients. Fundus photos showed chorioretinal atrophy in all affected patients and crystalline deposits in some cases (<xref ref-type=\"fig\" rid=\"mv-v18-1182-f2\">Figure 2</xref>). When performed, electroretinography (ERG) remained within normal limits, and electrooculography (EOG) showed an additional decrease in the Arden ratio that was either moderately or severely affected.). When performed, electroretinography (ERG) remained within normal limits, and electrooculography (EOG) showed an additional decrease in the Arden ratio that was either moderately or severely affected. Functional tests can vary widely in the presence of identical morphologic changes in the fundus. In our cases, fluorescein angiography (FA) performed in the two sisters from the first family confirmed the diagnosis by revealing geographic areas of the retinal pigment epithelium and choriocapillaris atrophy involving the macular, perimacular, and peripapillary regions in both eyes (<xref ref-type=\"fig\" rid=\"mv-v18-1182-f2\">Figure 2</xref>). ERG within the normal range, such as in the two affected sisters in F1, has rarely been reported [). ERG within the normal range, such as in the two affected sisters in F1, has rarely been reported [13]. The most striking findings were those of the first family with two sisters having decreased visual acuity and progressive disease while maintaining a normal ERG. Usually, ERG is borderline to moderately abnormal in the localized form, and severely abnormal in the diffuse form. Abnormalities involve the photopic and scotopic systems. Researchers have suggested that cones might be less involved than rods in BCD, and that progression of BCD is consistent with a rod-cone dystrophy pattern [14].",
-  "relevant_image_context": "Fifteen patients were examined in total. Nine patients were affected, and the remaining six asymptomatic individuals were examined in the genetic counseling setting. The clinical findings from the nine affected patients are summarized in Table 2. Fundus photos showed chorioretinal atrophy in all affected patients and crystalline deposits in some cases (Figure 2). Fluorescein angiography (FA) performed in the two sisters from the first family confirmed the diagnosis by revealing geographic areas of the retinal pigment epithelium and choriocapillaris atrophy involving the macular, perimacular, and peripapillary regions in both eyes (Figure 2)."
+  "relevant_image_context": "Fifteen patients were examined in total. Nine patients were affected, and the remaining six asymptomatic individuals were examined in the genetic counseling setting. The clinical findings from the nine affected patients are summarized in Table 2. Fundus photos showed chorioretinal atrophy in all affected patients and crystalline deposits in some cases (Figure 2). Fluorescein angiography (FA) performed in the two sisters from the first family confirmed the diagnosis by revealing geographic areas of the retinal pigment epithelium and choriocapillaris atrophy involving the macular, perimacular, and peripapillary regions in both eyes (Figure 2).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_10_74-PMC3351416-4-mv-v18-1182-f2.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_10_74-PMC3351416-4-mv-v18-1182-f2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "punctate bright deposits",
+        "claim_text": "Small punctate bright deposits are present at the posterior pole.",
+        "presence_question": "Does the model's response discuss punctate bright deposits?",
+        "correctness_question": "Does the model's response correctly assert that Small punctate bright deposits are present at the posterior pole?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "numerous punctate bright deposits",
+        "claim_text": "Numerous small punctate bright deposits are present at the posterior pole.",
+        "presence_question": "Does the model's response discuss numerous punctate bright deposits?",
+        "correctness_question": "Does the model's response correctly assert that Numerous small punctate bright deposits are present at the posterior pole?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "irregular retinal pigmentary alteration",
+        "claim_text": "An irregular area of retinal or pigmentary alteration may be present in the central macular posterior pole.",
+        "presence_question": "Does the model's response discuss irregular retinal pigmentary alteration?",
+        "correctness_question": "Does the model's response correctly assert that An irregular area of retinal or pigmentary alteration may be present in the central macular posterior pole?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "macular irregular alteration location",
+        "claim_text": "The irregular retinal or pigmentary alteration is located in the central posterior pole involving the macular region.",
+        "presence_question": "Does the model's response discuss macular irregular alteration location?",
+        "correctness_question": "Does the model's response correctly assert that The irregular retinal or pigmentary alteration is located in the central posterior pole involving the macular region?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "round atrophic depigmented area",
+        "claim_text": "A distinct round area of localized atrophy and depigmentation is present temporal to the center.",
+        "presence_question": "Does the model's response discuss round atrophic depigmented area?",
+        "correctness_question": "Does the model's response correctly assert that A distinct round area of localized atrophy and depigmentation is present temporal to the center?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "temporal atrophy location",
+        "claim_text": "The distinct round area of localized atrophy and depigmentation is located temporal to the center.",
+        "presence_question": "Does the model's response discuss temporal atrophy location?",
+        "correctness_question": "Does the model's response correctly assert that The distinct round area of localized atrophy and depigmentation is located temporal to the center?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "optic disc",
+        "claim_text": "The optic disc is present and located superiorly in the image.",
+        "presence_question": "Does the model's response discuss the optic disc?",
+        "correctness_question": "Does the model's response correctly assert that The optic disc is present and located superiorly in the image?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "vascular pattern",
+        "claim_text": "The vascular pattern at the posterior pole appears preserved.",
+        "presence_question": "Does the model's response discuss vascular pattern?",
+        "correctness_question": "Does the model's response correctly assert that The vascular pattern at the posterior pole appears preserved?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "central retinal architecture",
+        "claim_text": "The central retinal architecture in the macula is disrupted.",
+        "presence_question": "Does the model's response discuss central retinal architecture?",
+        "correctness_question": "Does the model's response correctly assert that The central retinal architecture in the macula is disrupted?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "macular atrophy or degenerative changes",
+        "claim_text": "Macular atrophic or degenerative changes are associated with an increased risk of loss of central visual acuity and fine-detail vision.",
+        "presence_question": "Does the model's response discuss macular atrophy or degenerative changes?",
+        "correctness_question": "Does the model's response correctly state that Macular atrophic or degenerative changes are associated with an increased risk of loss of central visual acuity and fine-detail vision?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "widespread punctate retinal deposits and central atrophy",
+        "claim_text": "Widespread punctate retinal deposits combined with central atrophy typically suggest a degenerative retinal process rather than a transient or purely peripheral condition.",
+        "presence_question": "Does the model's response discuss widespread punctate retinal deposits and central atrophy?",
+        "correctness_question": "Does the model's response correctly state that Widespread punctate retinal deposits combined with central atrophy typically suggest a degenerative retinal process rather than a transient or purely peripheral condition?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "central visual acuity risk",
+        "claim_text": "Atrophic-appearing changes involving the central posterior pole (macula) together with disrupted central retinal architecture in this image support that the patient's central visual acuity and fine-detail vision are at increased risk.",
+        "presence_question": "Does the model's response make an inferential link about central visual acuity risk?",
+        "correctness_question": "Does the model's response correctly conclude that Atrophic-appearing changes involving the central posterior pole (macula) together with disrupted central retinal architecture in this image support that the patient's central visual acuity and fine-detail vision are at increased risk?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "degenerative retinal process",
+        "claim_text": "The combination of numerous punctate bright deposits across the posterior pole and central macular atrophy in this image favors a degenerative retinal process in this patient rather than a transient or strictly peripheral condition.",
+        "presence_question": "Does the model's response make an inferential link about degenerative retinal process?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of numerous punctate bright deposits across the posterior pole and central macular atrophy in this image favors a degenerative retinal process in this patient rather than a transient or strictly peripheral condition?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

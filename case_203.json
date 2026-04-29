@@ -27,5 +27,147 @@
   "caption": "The tumor still has residual after the first TACE, the right portal vein embolization materials can be seen in the image.",
   "sub_caption": "The tumor still has residual after the first TACE, the right portal vein embolization materials can be seen in the image.",
   "image_context": "Four weeks after the LVD procedure, the patient underwent a follow-up abdominal CT scan. There was an increase by 16.7% of the remaining left liver volume to 441 cc. The ratio of remaining liver volume (cc) to body weight (kg) was 441cc/65kg, approximately 0.68%, which was still insufficient for a major hepatectomy surgery. In addition, the tumor was still vascularized on the CT scan (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 5</xref>). Therefore, we decided to perform an additional artery embolization on December 4, 2023.). Therefore, we decided to perform an additional artery embolization on December 4, 2023.Fig. 5The tumor still has residual after the first TACE, the right portal vein embolization materials can be seen in the image.Fig 5",
-  "relevant_image_context": "Fig. 5 The tumor still has residual after the first TACE, the right portal vein embolization materials can be seen in the image. In addition, the tumor was still vascularized on the CT scan (Fig. 5). Therefore, we decided to perform an additional artery embolization on December 4, 2023."
+  "relevant_image_context": "Fig. 5 The tumor still has residual after the first TACE, the right portal vein embolization materials can be seen in the image. In addition, the tumor was still vascularized on the CT scan (Fig. 5). Therefore, we decided to perform an additional artery embolization on December 4, 2023.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_153_3-PMC11228651-0-gr3.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_153_3-PMC11228651-0-gr3.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Right hepatic lobe mass",
+        "claim_text": "There is a mass located in the right hepatic lobe.",
+        "presence_question": "Does the model's response discuss Right hepatic lobe mass?",
+        "correctness_question": "Does the model's response correctly assert that There is a mass located in the right hepatic lobe.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Irregular mass shape",
+        "claim_text": "The mass in the right hepatic lobe has an irregular shape.",
+        "presence_question": "Does the model's response discuss Irregular mass shape?",
+        "correctness_question": "Does the model's response correctly assert that The mass in the right hepatic lobe has an irregular shape.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Peripheral nodular higher-attenuation areas",
+        "claim_text": "The mass demonstrates peripheral and nodular areas of higher attenuation in the right liver.",
+        "presence_question": "Does the model's response discuss Peripheral nodular higher-attenuation areas?",
+        "correctness_question": "Does the model's response correctly assert that The mass demonstrates peripheral and nodular areas of higher attenuation in the right liver.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Central low attenuation",
+        "claim_text": "The mass contains central low attenuation in the right hepatic lobe.",
+        "presence_question": "Does the model's response discuss Central low attenuation?",
+        "correctness_question": "Does the model's response correctly assert that The mass contains central low attenuation in the right hepatic lobe.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Right hepatic very high-attenuation foci",
+        "claim_text": "There are foci of very high attenuation material in the right hepatic region.",
+        "presence_question": "Does the model's response discuss Right hepatic very high-attenuation foci?",
+        "correctness_question": "Does the model's response correctly assert that There are foci of very high attenuation material in the right hepatic region.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Multiple very high-attenuation foci",
+        "claim_text": "Multiple foci of very high attenuation are present in the right hepatic region.",
+        "presence_question": "Does the model's response discuss Multiple very high-attenuation foci?",
+        "correctness_question": "Does the model's response correctly assert that Multiple foci of very high attenuation are present in the right hepatic region.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Axial contrast-enhanced CT of upper abdomen",
+        "claim_text": "An axial contrast-enhanced CT of the upper abdomen focusing on the liver is present.",
+        "presence_question": "Does the model's response discuss Axial contrast-enhanced CT of upper abdomen?",
+        "correctness_question": "Does the model's response correctly assert that An axial contrast-enhanced CT of the upper abdomen focusing on the liver is present.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "arterial enhancement in hepatic masses",
+        "claim_text": "Residual arterial enhancement within a hepatic mass indicates the presence of viable arterialized tumor tissue.",
+        "presence_question": "Does the model's response discuss arterial enhancement in hepatic masses?",
+        "correctness_question": "Does the model's response correctly state that residual arterial enhancement within a hepatic mass indicates the presence of viable arterialized tumor tissue?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "embolization material on imaging",
+        "claim_text": "The presence of embolization coils or embolic material on imaging indicates prior endovascular embolization therapy.",
+        "presence_question": "Does the model's response discuss embolization material on imaging?",
+        "correctness_question": "Does the model's response correctly state that the presence of embolization coils or embolic material on imaging indicates prior endovascular embolization therapy?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "embolization treatment for hepatic tumors",
+        "claim_text": "Arterialized viable hepatic tumor tissue is typically treated with endovascular embolization (devascularization).",
+        "presence_question": "Does the model's response discuss embolization treatment for hepatic tumors?",
+        "correctness_question": "Does the model's response correctly state that arterialized viable hepatic tumor tissue is typically treated with endovascular embolization (devascularization)?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "central low attenuation within a mass",
+        "claim_text": "Central low attenuation within a mass on contrast-enhanced CT suggests necrosis.",
+        "presence_question": "Does the model's response discuss central low attenuation within a mass?",
+        "correctness_question": "Does the model's response correctly state that central low attenuation within a mass on contrast-enhanced CT suggests necrosis?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "prior endovascular embolization",
+        "claim_text": "Prior endovascular embolization may be associated with persistent residual enhancing tumor and does not guarantee complete devascularization.",
+        "presence_question": "Does the model's response discuss prior endovascular embolization?",
+        "correctness_question": "Does the model's response correctly state that prior endovascular embolization may be associated with persistent residual enhancing tumor and does not guarantee complete devascularization?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Peripheral nodular high-attenuation areas",
+        "claim_text": "The peripheral and nodular higher-attenuation areas within the right hepatic mass support the presence of residual arterialized (viable) tumor tissue in this case.",
+        "presence_question": "Does the model's response make an inferential link about Peripheral nodular high-attenuation areas?",
+        "correctness_question": "Does the model's response correctly conclude that The peripheral and nodular higher-attenuation areas within the right hepatic mass support the presence of residual arterialized (viable) tumor tissue in this case?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Multiple high-attenuation foci as emboli",
+        "claim_text": "The multiple foci of very high attenuation material in the right hepatic/portal distribution support the presence of embolic material consistent with prior endovascular therapy in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Multiple high-attenuation foci as emboli?",
+        "correctness_question": "Does the model's response correctly conclude that The multiple foci of very high attenuation material in the right hepatic/portal distribution support the presence of embolic material consistent with prior endovascular therapy in this patient?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Residual arterial enhancement justifying devascularization",
+        "claim_text": "A sizable right hepatic tumor that demonstrates residual arterial enhancement despite the presence of embolic material justifies proceeding with further endovascular devascularization as the next operative management in this case.",
+        "presence_question": "Does the model's response make an inferential link about Residual arterial enhancement justifying devascularization?",
+        "correctness_question": "Does the model's response correctly conclude that A sizable right hepatic tumor that demonstrates residual arterial enhancement despite the presence of embolic material justifies proceeding with further endovascular devascularization as the next operative management in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k5",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -28,5 +28,161 @@
   "caption": "Pre-operative computed tomography (CT) of anterior chest wall chondrosarcoma arising from the sternum with internal calcification",
   "sub_caption": "Pre-operative computed tomography (CT) of anterior chest wall chondrosarcoma arising from the sternum with internal calcification",
   "image_context": "A 60-year-old male patient, known to have hypertension, diabetes mellitus, and a history of cardiac catheterization and cholecystectomy, was referred to the hospital with painful enlarging swelling of the anterior chest. The patient also developed at that time progressive shortness of breath and a productive cough. He denied any history of relevant trauma to the area. The physical examination revealed a hard anterior chest mass measuring 8 × 8 × 8 cm. The abdomen was soft and lax with no palpable organomegaly. Chest computed tomography (CT) showed an extensive, destructive lesion involving the whole manubrium with a soft tissue component of 8 × 8 × 6 cm. The destructive osseous lesion with internal calcification in the sternum was associated with an anterior parasternal soft tissue component and another posterior intrathoracic state intermediate soft tissue component, which was abutting with the left brachiocephalic vein (Fig. <xref rid=\"13019_2023_2213_Fig1_HTML\" ref-type=\"fig\">1</xref>). There was evidence of a few bilateral non-specific pulmonary lesions. The patient underwent three cycles of chemotherapy without response. Findings raised the possibility of a primary bone tumor without definite pulmonary metastasis. Chondrosarcoma was a top differential. Positron emission tomography PET-CT demonstrated a heterogeneous mildly hypermetabolic (low FDG-avid) large expansive destructive manubrial mass with intrathoracic (superior anterior mediastinal) and extrathoracic soft tissue components. This was compatible with the primary chondrosarcoma. Biopsy showed grade II chondrosarcoma. Therefore, the patient was referred to a neoplasm specialized center, King Hussein Cancer Center.). There was evidence of a few bilateral non-specific pulmonary lesions. The patient underwent three cycles of chemotherapy without response. Findings raised the possibility of a primary bone tumor without definite pulmonary metastasis. Chondrosarcoma was a top differential. Positron emission tomography PET-CT demonstrated a heterogeneous mildly hypermetabolic (low FDG-avid) large expansive destructive manubrial mass with intrathoracic (superior anterior mediastinal) and extrathoracic soft tissue components. This was compatible with the primary chondrosarcoma. Biopsy showed grade II chondrosarcoma. Therefore, the patient was referred to a neoplasm specialized center, King Hussein Cancer Center.Fig. 1Pre-operative computed tomography (CT) of anterior chest wall chondrosarcoma arising from the sternum with internal calcification",
-  "relevant_image_context": "A 60-year-old male patient presented with a painful enlarging swelling of the anterior chest. Chest computed tomography (CT) showed an extensive, destructive lesion involving the whole manubrium with a soft tissue component of 8 × 8 × 6 cm. The destructive osseous lesion with internal calcification in the sternum was associated with an anterior parasternal soft tissue component and another posterior intrathoracic component, which was abutting the left brachiocephalic vein. There was evidence of a few bilateral non-specific pulmonary lesions. The patient underwent three cycles of chemotherapy without response. Findings raised the possibility of a primary bone tumor without definite pulmonary metastasis. Chondrosarcoma was a top differential. Positron emission tomography PET-CT demonstrated a heterogeneous mildly hypermetabolic (low FDG-avid) large expansive destructive manubrial mass with intrathoracic and extrathoracic soft tissue components. Biopsy showed grade II chondrosarcoma."
+  "relevant_image_context": "A 60-year-old male patient presented with a painful enlarging swelling of the anterior chest. Chest computed tomography (CT) showed an extensive, destructive lesion involving the whole manubrium with a soft tissue component of 8 × 8 × 6 cm. The destructive osseous lesion with internal calcification in the sternum was associated with an anterior parasternal soft tissue component and another posterior intrathoracic component, which was abutting the left brachiocephalic vein. There was evidence of a few bilateral non-specific pulmonary lesions. The patient underwent three cycles of chemotherapy without response. Findings raised the possibility of a primary bone tumor without definite pulmonary metastasis. Chondrosarcoma was a top differential. Positron emission tomography PET-CT demonstrated a heterogeneous mildly hypermetabolic (low FDG-avid) large expansive destructive manubrial mass with intrathoracic and extrathoracic soft tissue components. Biopsy showed grade II chondrosarcoma.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_145_50-PMC10082493-0-13019_2023_2213_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_145_50-PMC10082493-0-13019_2023_2213_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "manubrium and upper sternum mass",
+        "claim_text": "A large lobulated destructive mass is centered on the manubrium and upper sternum.",
+        "presence_question": "Does the model's response discuss manubrium and upper sternum mass?",
+        "correctness_question": "Does the model's response correctly assert that A large lobulated destructive mass is centered on the manubrium and upper sternum?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "cortical destruction of the manubrium",
+        "claim_text": "The manubrium and upper sternum demonstrate cortical destruction.",
+        "presence_question": "Does the model's response discuss cortical destruction of the manubrium?",
+        "correctness_question": "Does the model's response correctly assert that The manubrium and upper sternum demonstrate cortical destruction?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "punctate calcifications within the mass",
+        "claim_text": "There are internal punctate calcified densities within the mass.",
+        "presence_question": "Does the model's response discuss punctate calcifications within the mass?",
+        "correctness_question": "Does the model's response correctly assert that There are internal punctate calcified densities within the mass?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "bulky soft-tissue component of the mass",
+        "claim_text": "The mass demonstrates a bulky soft-tissue component in the anterior chest wall.",
+        "presence_question": "Does the model's response discuss bulky soft-tissue component of the mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass demonstrates a bulky soft-tissue component in the anterior chest wall?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "anterior extension into subcutaneous and pectoral region",
+        "claim_text": "The bulky soft-tissue component extends anteriorly into the subcutaneous and pectoral region.",
+        "presence_question": "Does the model's response discuss anterior extension into subcutaneous and pectoral region?",
+        "correctness_question": "Does the model's response correctly assert that The bulky soft-tissue component extends anteriorly into the subcutaneous and pectoral region?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "posterior extension toward the mediastinum",
+        "claim_text": "The bulky soft-tissue component extends posteriorly toward the mediastinum.",
+        "presence_question": "Does the model's response discuss posterior extension toward the mediastinum?",
+        "correctness_question": "Does the model's response correctly assert that The bulky soft-tissue component extends posteriorly toward the mediastinum?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "adjacency to mediastinal structures",
+        "claim_text": "The mass and soft-tissue component are adjacent to mediastinal structures.",
+        "presence_question": "Does the model's response discuss adjacency to mediastinal structures?",
+        "correctness_question": "Does the model's response correctly assert that The mass and soft-tissue component are adjacent to mediastinal structures?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "adjacency to mediastinal vascular structures",
+        "claim_text": "The mass and soft-tissue component are adjacent to mediastinal vascular structures.",
+        "presence_question": "Does the model's response discuss adjacency to mediastinal vascular structures?",
+        "correctness_question": "Does the model's response correctly assert that The mass and soft-tissue component are adjacent to mediastinal vascular structures?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "cortical bone destruction",
+        "claim_text": "Cortical bone destruction typically indicates tumor involvement of bone.",
+        "presence_question": "Does the model's response discuss cortical bone destruction?",
+        "correctness_question": "Does the model's response correctly state that Cortical bone destruction typically indicates tumor involvement of bone?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "tumor with bone destruction and intrathoracic extension",
+        "claim_text": "The combination of large tumor size, bone destruction, and intrathoracic extension typically suggests a multi-compartment chest-wall lesion.",
+        "presence_question": "Does the model's response discuss tumor with bone destruction and intrathoracic extension?",
+        "correctness_question": "Does the model's response correctly state that The combination of large tumor size, bone destruction, and intrathoracic extension typically suggests a multi-compartment chest-wall lesion?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "multi-compartment chest-wall tumors",
+        "claim_text": "Multi-compartment chest-wall tumors are typically treated with en bloc resection of involved bone and contiguous soft tissue with chest-wall reconstruction.",
+        "presence_question": "Does the model's response discuss multi-compartment chest-wall tumors?",
+        "correctness_question": "Does the model's response correctly state that Multi-compartment chest-wall tumors are typically treated with en bloc resection of involved bone and contiguous soft tissue with chest-wall reconstruction?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "chest-wall reconstruction",
+        "claim_text": "Chest-wall reconstruction typically restores structural integrity and protects intrathoracic contents.",
+        "presence_question": "Does the model's response discuss chest-wall reconstruction?",
+        "correctness_question": "Does the model's response correctly state that Chest-wall reconstruction typically restores structural integrity and protects intrathoracic contents?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "lack of tumor regression after systemic therapy",
+        "claim_text": "Lack of tumor regression after systemic therapy typically justifies consideration of surgical resection.",
+        "presence_question": "Does the model's response discuss lack of tumor regression after systemic therapy?",
+        "correctness_question": "Does the model's response correctly state that Lack of tumor regression after systemic therapy typically justifies consideration of surgical resection?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "multi-compartment chest-wall lesion with intrathoracic extension",
+        "claim_text": "The combination of a large destructive sternal mass with bulky anterior and posterior soft-tissue components that abut mediastinal structures is consistent with a multi-compartment chest-wall lesion that extends into the thorax.",
+        "presence_question": "Does the model's response make an inferential link about multi-compartment chest-wall lesion with intrathoracic extension?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of a large destructive sternal mass with bulky anterior and posterior soft-tissue components that abut mediastinal structures is consistent with a multi-compartment chest-wall lesion that extends into the thorax?",
+        "premise_perception_ids": [
+          "p1",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "bone involvement",
+        "claim_text": "Cortical destruction of the manubrium on CT indicates that the tumor involves the bone in this case.",
+        "presence_question": "Does the model's response make an inferential link about bone involvement?",
+        "correctness_question": "Does the model's response correctly conclude that Cortical destruction of the manubrium on CT indicates that the tumor involves the bone in this case?",
+        "premise_perception_ids": [
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "single-stage en bloc resection with chest-wall reconstruction",
+        "claim_text": "A single-stage oncologic en bloc resection with planned chest-wall reconstruction is supported for this case.",
+        "presence_question": "Does the model's response make an inferential link about single-stage en bloc resection with chest-wall reconstruction?",
+        "correctness_question": "Does the model's response correctly conclude that A single-stage oncologic en bloc resection with planned chest-wall reconstruction is supported for this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -27,5 +27,153 @@
   "caption": "The chest radiograph showed cardiomegaly with sternal wire present. A prosthetic mitral valve was seen. The pacemaker generator and lead were in position. Enlargement and cloudiness of the pacemaker wound were noted.",
   "sub_caption": "The chest radiograph showed cardiomegaly with sternal wire present. A prosthetic mitral valve was seen. The pacemaker generator and lead were in position. Enlargement and cloudiness of the pacemaker wound were noted.",
   "image_context": "A chest radiograph showed soft tissue swelling at the pacemaker pocket site (<xref rid=\"gr2\" ref-type=\"fig\">Figure 2</xref>). Laboratory results indicated normal platelet counts without leukocytosis, but elevated serum creatinine levels of 2.09 mg/dL (reference range: 0.67–1.17 mg/dL) and an elevated international normalized ratio level of 3.43 were observed. Additional laboratory data are presented in ). Laboratory results indicated normal platelet counts without leukocytosis, but elevated serum creatinine levels of 2.09 mg/dL (reference range: 0.67–1.17 mg/dL) and an elevated international normalized ratio level of 3.43 were observed. Additional laboratory data are presented in Table 1. The patient underwent pacemaker pocket revision, which revealed bloody content with chalk-like material. Following wound exploration and evacuation, the patient’s symptoms resolved. Analysis of the content revealed clotted blood without evidence of bacterial infection. Polarized light microscopy demonstrated needle-shaped crystals with negative birefringence, consistent with uric acid crystals (<xref rid=\"gr3\" ref-type=\"fig\">Figure 3</xref>). After 2 months of intensive serum uric acid control, the wound healed without recurrent pocket swelling.). After 2 months of intensive serum uric acid control, the wound healed without recurrent pocket swelling.Figure 2The chest radiograph showed cardiomegaly with sternal wire present. A prosthetic mitral valve was seen. The pacemaker generator and lead were in position. Enlargement and cloudiness of the pacemaker wound were noted.Table 1Blood test resultsBlood testValueReferenceBUN (mg/dL)346–20Creatinine (mg/dL)2.090.67–1.17Uric acid (mg/dL)11.03.4–7.0Calcium (mg/dL)9.38.4–10.2Magnesium (mg/dL)2.41.6–2.6Phosphorus (mg/dL)2.72.3–4.7White blood cell (/μL)45004400–11,300Hemoglobin (g/dL)11.014.0–17.4Hematocrit (%)35.441.5–50.4MCV (fL)72.280.0–96.0Platelet (/μL)130,000150,000–450,000Neutrophil (%)42.745–75Lymphocyte (%)41.920–45BUN = blood urea nitrogen; MCV = mean corpuscular volume.Figure 3The polarized microscope of fluid obtained from the pacemaker pocket demonstrated a needle-shaped crystal with strong negative birefringence.",
-  "relevant_image_context": "A chest radiograph showed soft tissue swelling at the pacemaker pocket site (Figure 2). The chest radiograph showed cardiomegaly with sternal wire present. A prosthetic mitral valve was seen. The pacemaker generator and lead were in position. Enlargement and cloudiness of the pacemaker wound were noted."
+  "relevant_image_context": "A chest radiograph showed soft tissue swelling at the pacemaker pocket site (Figure 2). The chest radiograph showed cardiomegaly with sternal wire present. A prosthetic mitral valve was seen. The pacemaker generator and lead were in position. Enlargement and cloudiness of the pacemaker wound were noted.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_141_46-PMC10691936-1-gr2.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_141_46-PMC10691936-1-gr2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left subclavian pacemaker generator",
+        "claim_text": "A pacemaker generator is present in the left subclavian region.",
+        "presence_question": "Does the model's response discuss left subclavian pacemaker generator?",
+        "correctness_question": "Does the model's response correctly assert that A pacemaker generator is present in the left subclavian region.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "left subclavian pacemaker location",
+        "claim_text": "The pacemaker generator is located in the left subclavian region.",
+        "presence_question": "Does the model's response discuss left subclavian pacemaker location?",
+        "correctness_question": "Does the model's response correctly assert that The pacemaker generator is located in the left subclavian region.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "transvenous pacemaker leads",
+        "claim_text": "Transvenous pacemaker leads are present within the chest and venous system.",
+        "presence_question": "Does the model's response discuss transvenous pacemaker leads?",
+        "correctness_question": "Does the model's response correctly assert that Transvenous pacemaker leads are present within the chest and venous system.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "pacemaker leads in heart",
+        "claim_text": "Pacemaker leads are located within the heart and cardiac silhouette.",
+        "presence_question": "Does the model's response discuss pacemaker leads in heart?",
+        "correctness_question": "Does the model's response correctly assert that Pacemaker leads are located within the heart and cardiac silhouette.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "prosthetic mitral valve",
+        "claim_text": "A radiopaque prosthetic mitral valve is present within the cardiac silhouette.",
+        "presence_question": "Does the model's response discuss prosthetic mitral valve?",
+        "correctness_question": "Does the model's response correctly assert that A radiopaque prosthetic mitral valve is present within the cardiac silhouette.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "soft-tissue opacity over pacemaker pocket",
+        "claim_text": "There is increased soft-tissue opacity over the left pacemaker pocket region.",
+        "presence_question": "Does the model's response discuss soft-tissue opacity over pacemaker pocket?",
+        "correctness_question": "Does the model's response correctly assert that There is increased soft-tissue opacity over the left pacemaker pocket region.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "pacemaker pocket region opacity",
+        "claim_text": "Soft-tissue opacity is located at the left pacemaker pocket region.",
+        "presence_question": "Does the model's response discuss pacemaker pocket region opacity?",
+        "correctness_question": "Does the model's response correctly assert that Soft-tissue opacity is located at the left pacemaker pocket region.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "opacity corresponding to wound enlargement and cloudiness",
+        "claim_text": "The soft-tissue opacity over the left pacemaker pocket corresponds to reported wound enlargement and cloudiness.",
+        "presence_question": "Does the model's response discuss opacity corresponding to wound enlargement and cloudiness?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue opacity over the left pacemaker pocket corresponds to reported wound enlargement and cloudiness.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "pacemaker pocket enlargement or wound cloudiness",
+        "claim_text": "Pacemaker pocket enlargement or wound cloudiness suggests pacemaker pocket infection.",
+        "presence_question": "Does the model's response discuss pacemaker pocket enlargement or wound cloudiness?",
+        "correctness_question": "Does the model's response correctly state that Pacemaker pocket enlargement or wound cloudiness suggests pacemaker pocket infection?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "transvenous cardiac device leads",
+        "claim_text": "Transvenous cardiac device leads increase the risk of bloodstream infection and hematogenous spread.",
+        "presence_question": "Does the model's response discuss transvenous cardiac device leads?",
+        "correctness_question": "Does the model's response correctly state that Transvenous cardiac device leads increase the risk of bloodstream infection and hematogenous spread?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "prosthetic heart valves",
+        "claim_text": "Prosthetic heart valves are at risk of hematogenous seeding from distant infections.",
+        "presence_question": "Does the model's response discuss prosthetic heart valves?",
+        "correctness_question": "Does the model's response correctly state that Prosthetic heart valves are at risk of hematogenous seeding from distant infections?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "retaining infected implanted cardiac hardware",
+        "claim_text": "Retaining infected implanted cardiac hardware while using antibiotics alone can lead to persistent or recurrent infection and to seeding of other prosthetic material.",
+        "presence_question": "Does the model's response discuss retaining infected implanted cardiac hardware?",
+        "correctness_question": "Does the model's response correctly state that Retaining infected implanted cardiac hardware while using antibiotics alone can lead to persistent or recurrent infection and to seeding of other prosthetic material?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "pacemaker pocket infection plausibility",
+        "claim_text": "The increased soft-tissue opacity over the left pacemaker pocket with wound enlargement and cloudiness, along with visible pacemaker hardware, supports that a pacemaker pocket infection is plausible in this patient.",
+        "presence_question": "Does the model's response make an inferential link about pacemaker pocket infection plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that The increased soft-tissue opacity over the left pacemaker pocket with wound enlargement and cloudiness, along with visible pacemaker hardware, supports that a pacemaker pocket infection is plausible in this patient?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8",
+          "p1",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "prosthetic valve hematogenous seeding risk",
+        "claim_text": "The presence of transvenous leads coursing into the heart and a prosthetic mitral valve increases the risk that an infected pacemaker pocket or device could hematogenously seed the prosthetic valve in this case.",
+        "presence_question": "Does the model's response make an inferential link about prosthetic valve hematogenous seeding risk?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of transvenous leads coursing into the heart and a prosthetic mitral valve increases the risk that an infected pacemaker pocket or device could hematogenously seed the prosthetic valve in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "antibiotics-only with retained hardware contraindication",
+        "claim_text": "Given imaging-supported suspicion of pacemaker pocket infection with retained transvenous hardware and an existing prosthetic mitral valve, treating with antibiotics alone while leaving the device and leads in place is contraindicated because it risks persistent infection and potential seeding of the prosthetic valve.",
+        "presence_question": "Does the model's response make an inferential link about antibiotics-only with retained hardware contraindication?",
+        "correctness_question": "Does the model's response correctly conclude that Given imaging-supported suspicion of pacemaker pocket infection with retained transvenous hardware and an existing prosthetic mitral valve, treating with antibiotics alone while leaving the device and leads in place is contraindicated because it risks persistent infection and potential seeding of the prosthetic valve?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p3",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

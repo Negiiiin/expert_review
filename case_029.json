@@ -27,5 +27,106 @@
   "caption": "Axial computed tomography of a 60-year-old man showing a large abscess in segment IV of the liver near the porta hepatis. Note the duct dilation (arrows) that resulted from rupture of the abscess into the central bile ducts. He was managed with catheter drainage. Bilious fluid draining through the catheter was observed for several weeks in this patient.",
   "sub_caption": "Axial computed tomography of a 60-year-old man showing a large abscess in segment IV of the liver near the porta hepatis. Note the duct dilation (arrows) that resulted from rupture of the abscess into the central bile ducts. He was managed with catheter drainage. Bilious fluid draining through the catheter was observed for several weeks in this patient.",
   "image_context": "A common cause of drug failure is the presence of biliary complications, which has been reported to occur in up to 27% of refractory cases[12,22,77]. This occurs either from ductal communication with the abscess or from external compression by a large abscess[12,41]. When the liver parenchyma is destroyed by an aggressive abscess, the bile ducts are also damaged, producing ductal communications[12]. Usually, the communication is subtle, and therefore, ductal dilatation may not be evident on imaging. In several cases, the diagnosis is made only during percutaneous drainage when the initial aspirated fluid is bilious or when bile (usually persistent) appears thereafter[11,22,77]. Uncommonly, an abscess, particularly when large and aggressive, can rupture into the central bile ducts, causing duct dilation (Figure <xref rid=\"WJR-14-272-g004\" ref-type=\"fig\">4</xref>). In such cases, the diagnosis may be confirmed when endoscopic retrograde cholangiopancreatography (ERCP) or cavitogram demonstrates contrast extravasation into the abscess cavity[). In such cases, the diagnosis may be confirmed when endoscopic retrograde cholangiopancreatography (ERCP) or cavitogram demonstrates contrast extravasation into the abscess cavity[22,55]. Usually, the bile ducts are compressed by a large abscess, resulting in biliary duct dilation; these cases are evident on ultrasound or CT. The size and location of an abscess on imaging can provide anatomic clues to the presence of a biliary complication. The large (> 5 to 10 cm) and centrally located abscesses (near porta hepatis) are more likely to have biliary compilations than those smaller and with subcapsular locations[12]. Clinically, the presence of high jaundice may indicate biliary complications. Agarwal et al[22] compared the abscesses with and without biliary communications and found that total bilirubin levels > 2 mg/dL were present only in the patients with biliary complications.",
-  "relevant_image_context": "A common cause of drug failure is the presence of biliary complications, which has been reported to occur in up to 27% of refractory cases[12,22,77]. This occurs either from ductal communication with the abscess or from external compression by a large abscess[12,41]. When the liver parenchyma is destroyed by an aggressive abscess, the bile ducts are also damaged, producing ductal communications[12]. Usually, the communication is subtle, and therefore, ductal dilatation may not be evident on imaging. In several cases, the diagnosis is made only during percutaneous drainage when the initial aspirated fluid is bilious or when bile (usually persistent) appears thereafter[11,22,77]. Uncommonly, an abscess, particularly when large and aggressive, can rupture into the central bile ducts, causing duct dilation (Figure 4). In such cases, the diagnosis may be confirmed when endoscopic retrograde cholangiopancreatography (ERCP) or cavitogram demonstrates contrast extravasation into the abscess cavity[22,55]. Usually, the bile ducts are compressed by a large abscess, resulting in biliary duct dilation; these cases are evident on ultrasound or CT. The size and location of an abscess on imaging can provide anatomic clues to the presence of a biliary complication. The large (> 5 to 10 cm) and centrally located abscesses (near porta hepatis) are more likely to have biliary compilations than those smaller and with subcapsular locations[12]. Clinically, the presence of high jaundice may indicate biliary complications. Agarwal et al[22] compared the abscesses with and without biliary communications and found that total bilirubin levels > 2 mg/dL were present only in the patients with biliary complications."
+  "relevant_image_context": "A common cause of drug failure is the presence of biliary complications, which has been reported to occur in up to 27% of refractory cases[12,22,77]. This occurs either from ductal communication with the abscess or from external compression by a large abscess[12,41]. When the liver parenchyma is destroyed by an aggressive abscess, the bile ducts are also damaged, producing ductal communications[12]. Usually, the communication is subtle, and therefore, ductal dilatation may not be evident on imaging. In several cases, the diagnosis is made only during percutaneous drainage when the initial aspirated fluid is bilious or when bile (usually persistent) appears thereafter[11,22,77]. Uncommonly, an abscess, particularly when large and aggressive, can rupture into the central bile ducts, causing duct dilation (Figure 4). In such cases, the diagnosis may be confirmed when endoscopic retrograde cholangiopancreatography (ERCP) or cavitogram demonstrates contrast extravasation into the abscess cavity[22,55]. Usually, the bile ducts are compressed by a large abscess, resulting in biliary duct dilation; these cases are evident on ultrasound or CT. The size and location of an abscess on imaging can provide anatomic clues to the presence of a biliary complication. The large (> 5 to 10 cm) and centrally located abscesses (near porta hepatis) are more likely to have biliary compilations than those smaller and with subcapsular locations[12]. Clinically, the presence of high jaundice may indicate biliary complications. Agarwal et al[22] compared the abscesses with and without biliary communications and found that total bilirubin levels > 2 mg/dL were present only in the patients with biliary complications.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_118_17-PMC9453321-2-WJR-14-272-g004.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_118_17-PMC9453321-2-WJR-14-272-g004.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "single hepatic collection",
+        "claim_text": "There is a single hepatic collection in the liver",
+        "presence_question": "Does the model's response discuss single hepatic collection?",
+        "correctness_question": "Does the model's response correctly assert that There is a single hepatic collection in the liver?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "central liver location",
+        "claim_text": "A hepatic collection is located in the central portion of the liver on axial CT",
+        "presence_question": "Does the model's response discuss central liver location?",
+        "correctness_question": "Does the model's response correctly assert that A hepatic collection is located in the central portion of the liver on axial CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "adjacency to porta hepatis",
+        "claim_text": "The hepatic collection is adjacent to the porta hepatis (central hepatic hilum) on axial CT",
+        "presence_question": "Does the model's response discuss adjacency to porta hepatis?",
+        "correctness_question": "Does the model's response correctly assert that The hepatic collection is adjacent to the porta hepatis (central hepatic hilum) on axial CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "collection hypodensity",
+        "claim_text": "The hepatic collection is hypodense on axial CT",
+        "presence_question": "Does the model's response discuss collection hypodensity?",
+        "correctness_question": "Does the model's response correctly assert that The hepatic collection is hypodense on axial CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "well-circumscribed collection margin",
+        "claim_text": "The hepatic collection is well-circumscribed on axial CT",
+        "presence_question": "Does the model's response discuss well-circumscribed collection margin?",
+        "correctness_question": "Does the model's response correctly assert that The hepatic collection is well-circumscribed on axial CT?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "collection larger than 5 cm",
+        "claim_text": "The hepatic collection measures greater than 5 cm in size on axial CT",
+        "presence_question": "Does the model's response discuss collection larger than 5 cm?",
+        "correctness_question": "Does the model's response correctly assert that The hepatic collection measures greater than 5 cm in size on axial CT?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "left of midline location",
+        "claim_text": "The hepatic collection is left of midline in this axial slice",
+        "presence_question": "Does the model's response discuss left of midline location?",
+        "correctness_question": "Does the model's response correctly assert that The hepatic collection is left of midline in this axial slice?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "hepatic collections on axial CT",
+        "claim_text": "Axial CT typically identifies the size and location of hepatic collections.",
+        "presence_question": "Does the model's response discuss hepatic collections on axial CT?",
+        "correctness_question": "Does the model's response correctly state that axial CT typically identifies the size and location of hepatic collections?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "porta hepatis anatomy",
+        "claim_text": "The porta hepatis is the central hepatic hilum.",
+        "presence_question": "Does the model's response discuss porta hepatis anatomy?",
+        "correctness_question": "Does the model's response correctly state that the porta hepatis is the central hepatic hilum?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "hepatic collection size and biliary risk",
+        "claim_text": "Hepatic collections that are centrally located and larger than 5 cm are associated with an increased risk of biliary complications.",
+        "presence_question": "Does the model's response discuss hepatic collection size and biliary risk?",
+        "correctness_question": "Does the model's response correctly state that hepatic collections that are centrally located and larger than 5 cm are associated with an increased risk of biliary complications?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "hepatic collection effect on biliary risk",
+        "claim_text": "The hepatic collection's central location adjacent to the porta hepatis and size greater than 5 cm supports an increased risk of biliary complications for this patient.",
+        "presence_question": "Does the model's response make an inferential link about hepatic collection effect on biliary risk?",
+        "correctness_question": "Does the model's response correctly conclude that the hepatic collection's central location adjacent to the porta hepatis and size greater than 5 cm supports an increased risk of biliary complications for this patient?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p6",
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

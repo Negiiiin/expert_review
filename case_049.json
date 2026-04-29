@@ -29,5 +29,176 @@
   "caption": "Enhanced computed tomography (CT) shows the presence of a cystic lesion in the tail of the pancreas.",
   "sub_caption": "Enhanced computed tomography (CT) shows the presence of a cystic lesion in the tail of the pancreas.",
   "image_context": "A 63-year-old Caucasian woman was admitted to our hospital with a one-week history of nausea and vomiting after meals. Her medical history included surgery for a peptic ulcer at the age of 48 years. Physical examination was essentially unremarkable. Laboratory data showed normal values. Enhanced-contrast abdominal computed tomography (CT) revealed a mass lesion with solid and cystic components detected in the tail of the pancreas (Figure \n<xref ref-type=\"fig\" rid=\"1477-7819-12-92-1\">1</xref>). As concerns serum tumor markers, carbohydrate antigen (CA) 19-9 levels had increased to 222 U/ml (reference range 0 to 27 U/ml). Because a malignant tumor of the pancreas was suspected, the patient underwent a distal pancreatectomy and splenectomy.). As concerns serum tumor markers, carbohydrate antigen (CA) 19-9 levels had increased to 222 U/ml (reference range 0 to 27 U/ml). Because a malignant tumor of the pancreas was suspected, the patient underwent a distal pancreatectomy and splenectomy.",
-  "relevant_image_context": "A 63-year-old Caucasian woman was admitted to our hospital with a one-week history of nausea and vomiting after meals. Her medical history included surgery for a peptic ulcer at the age of 48 years. Physical examination was essentially unremarkable. Laboratory data showed normal values. Enhanced-contrast abdominal computed tomography (CT) revealed a mass lesion with solid and cystic components detected in the tail of the pancreas (Figure 1). As concerns serum tumor markers, carbohydrate antigen (CA) 19-9 levels had increased to 222 U/ml (reference range 0 to 27 U/ml). Because a malignant tumor of the pancreas was suspected, the patient underwent a distal pancreatectomy and splenectomy."
+  "relevant_image_context": "A 63-year-old Caucasian woman was admitted to our hospital with a one-week history of nausea and vomiting after meals. Her medical history included surgery for a peptic ulcer at the age of 48 years. Physical examination was essentially unremarkable. Laboratory data showed normal values. Enhanced-contrast abdominal computed tomography (CT) revealed a mass lesion with solid and cystic components detected in the tail of the pancreas (Figure 1). As concerns serum tumor markers, carbohydrate antigen (CA) 19-9 levels had increased to 222 U/ml (reference range 0 to 27 U/ml). Because a malignant tumor of the pancreas was suspected, the patient underwent a distal pancreatectomy and splenectomy.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_19_108-PMC3986436-0-1477-7819-12-92-1.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_19_108-PMC3986436-0-1477-7819-12-92-1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left pancreatic tail mass",
+        "claim_text": "A very large mass is present in the left upper quadrant involving the pancreatic tail.",
+        "presence_question": "Does the model's response discuss left pancreatic tail mass?",
+        "correctness_question": "Does the model's response correctly assert that A very large mass is present in the left upper quadrant involving the pancreatic tail?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "well-circumscribed pancreatic tail mass",
+        "claim_text": "The mass in the left pancreatic tail is well-circumscribed.",
+        "presence_question": "Does the model's response discuss well-circumscribed pancreatic tail mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass in the left pancreatic tail is well-circumscribed?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "low-attenuation pancreatic tail mass",
+        "claim_text": "The mass in the left pancreatic tail demonstrates low-attenuation, fluid-density.",
+        "presence_question": "Does the model's response discuss low-attenuation pancreatic tail mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass in the left pancreatic tail demonstrates low-attenuation, fluid-density?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "homogeneous mass appearance",
+        "claim_text": "The mass in the left pancreatic tail appears homogeneous on imaging.",
+        "presence_question": "Does the model's response discuss homogeneous mass appearance?",
+        "correctness_question": "Does the model's response correctly assert that The mass in the left pancreatic tail appears homogeneous on imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "mass adjacent to stomach",
+        "claim_text": "The mass lies adjacent to the stomach in the left upper quadrant.",
+        "presence_question": "Does the model's response discuss mass adjacent to stomach?",
+        "correctness_question": "Does the model's response correctly assert that The mass lies adjacent to the stomach in the left upper quadrant?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "mass adjacent to spleen",
+        "claim_text": "The mass lies adjacent to the spleen in the left upper quadrant.",
+        "presence_question": "Does the model's response discuss mass adjacent to spleen?",
+        "correctness_question": "Does the model's response correctly assert that The mass lies adjacent to the spleen in the left upper quadrant?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "mass compressing adjacent organs",
+        "claim_text": "The mass compresses adjacent structures, including the stomach and spleen.",
+        "presence_question": "Does the model's response discuss mass compressing adjacent organs?",
+        "correctness_question": "Does the model's response correctly assert that The mass compresses adjacent structures, including the stomach and spleen?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "irregular invasion of surrounding organs",
+        "claim_text": "There is no irregular invasion of surrounding organs in the left upper quadrant.",
+        "presence_question": "Does the model's response discuss irregular invasion of surrounding organs?",
+        "correctness_question": "Does the model's response correctly assert that There is no irregular invasion of surrounding organs in the left upper quadrant?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "enhancing mural nodule within cyst",
+        "claim_text": "There is no clearly enhancing solid mural nodule within the cyst in the left pancreatic tail.",
+        "presence_question": "Does the model's response discuss enhancing mural nodule within cyst?",
+        "correctness_question": "Does the model's response correctly assert that There is no clearly enhancing solid mural nodule within the cyst in the left pancreatic tail?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "postprandial nausea and vomiting",
+        "claim_text": "The patient has had postprandial nausea and vomiting for one week.",
+        "presence_question": "Does the model's response discuss postprandial nausea and vomiting?",
+        "correctness_question": "Does the model's response correctly assert that The patient has had postprandial nausea and vomiting for one week?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "elevated CA19-9",
+        "claim_text": "The CA19-9 level is 222 U/mL, which is markedly elevated.",
+        "presence_question": "Does the model's response discuss elevated CA19-9?",
+        "correctness_question": "Does the model's response correctly assert that The CA19-9 level is 222 U/mL, which is markedly elevated?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Elevated CA19-9",
+        "claim_text": "Elevated CA19-9 is associated with increased concern for pancreatic neoplastic processes.",
+        "presence_question": "Does the model's response discuss Elevated CA19-9?",
+        "correctness_question": "Does the model's response correctly state that Elevated CA19-9 is associated with increased concern for pancreatic neoplastic processes?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Large pancreatic masses",
+        "claim_text": "Large pancreatic masses can cause mass-effect symptoms such as postprandial nausea and vomiting.",
+        "presence_question": "Does the model's response discuss Large pancreatic masses?",
+        "correctness_question": "Does the model's response correctly state that Large pancreatic masses can cause mass-effect symptoms such as postprandial nausea and vomiting?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Absence of irregular organ invasion on CT",
+        "claim_text": "Absence of irregular invasion of surrounding organs on CT suggests potential resectability on imaging.",
+        "presence_question": "Does the model's response discuss Absence of irregular organ invasion on CT?",
+        "correctness_question": "Does the model's response correctly state that Absence of irregular invasion of surrounding organs on CT suggests potential resectability on imaging?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Pancreatic tail lesions",
+        "claim_text": "Pancreatic tail lesions are typically treated with distal pancreatectomy with splenectomy as definitive surgical resection.",
+        "presence_question": "Does the model's response discuss Pancreatic tail lesions?",
+        "correctness_question": "Does the model's response correctly state that Pancreatic tail lesions are typically treated with distal pancreatectomy with splenectomy as definitive surgical resection?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Mass causing symptoms via mass effect",
+        "claim_text": "The mass is likely producing symptoms in this case through mass effect on adjacent organs.",
+        "presence_question": "Does the model's response make an inferential link about Mass causing symptoms via mass effect?",
+        "correctness_question": "Does the model's response correctly conclude that The mass is likely producing symptoms in this case through mass effect on adjacent organs?",
+        "premise_perception_ids": [
+          "p7",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Elevated CA19-9 favoring neoplasm",
+        "claim_text": "The markedly elevated CA19-9 in this patient supports that the pancreatic cystic lesion is a neoplastic process rather than a simple benign cyst.",
+        "presence_question": "Does the model's response make an inferential link about Elevated CA19-9 favoring neoplasm?",
+        "correctness_question": "Does the model's response correctly conclude that The markedly elevated CA19-9 in this patient supports that the pancreatic cystic lesion is a neoplastic process rather than a simple benign cyst?",
+        "premise_perception_ids": [
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Findings justify distal pancreatectomy with splenectomy",
+        "claim_text": "A very large, well-circumscribed, fluid-density pancreatic tail cystic mass that displaces but does not invade adjacent organs, is symptomatic, and occurs with an elevated CA19-9 justifies proceeding to distal pancreatectomy with splenectomy as the most appropriate next step in this case.",
+        "presence_question": "Does the model's response make an inferential link about Findings justify distal pancreatectomy with splenectomy?",
+        "correctness_question": "Does the model's response correctly conclude that A very large, well-circumscribed, fluid-density pancreatic tail cystic mass that displaces but does not invade adjacent organs, is symptomatic, and occurs with an elevated CA19-9 justifies proceeding to distal pancreatectomy with splenectomy as the most appropriate next step in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p8",
+          "p9",
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3",
+          "k4",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

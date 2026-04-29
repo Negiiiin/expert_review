@@ -27,5 +27,130 @@
   "caption": "Symptomatic pseudocyst.",
   "sub_caption": "Symptomatic pseudocyst.",
   "image_context": "A 60-year-old woman presented with acute pancreatitis complicated by the development of acute pancreatic fluid collection, which later organized into a large peripancreatic pseudocyst (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). This was drained endoscopically with a lumen-apposing metal stent inserted under EUS guidance (). This was drained endoscopically with a lumen-apposing metal stent inserted under EUS guidance (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>). The patient experienced a gastric perforation after the procedure, possibly resulting from an immature cyst wall, which required surgical repair (). The patient experienced a gastric perforation after the procedure, possibly resulting from an immature cyst wall, which required surgical repair (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>). Two months later, she had a residual gastric fistula along the posterior gastric wall communicating with the pancreatic bed (). Two months later, she had a residual gastric fistula along the posterior gastric wall communicating with the pancreatic bed (<xref rid=\"gr4\" ref-type=\"fig\">Figure 4</xref>, , <xref rid=\"gr5\" ref-type=\"fig\">Figure 5</xref>, , <xref rid=\"gr6\" ref-type=\"fig\">Figure 6</xref>). The opening was too big to be closed with over-the-scope clips. We performed endoscopic suturing, which failed to close the fistula despite the achievement of good mucosal approximation.). The opening was too big to be closed with over-the-scope clips. We performed endoscopic suturing, which failed to close the fistula despite the achievement of good mucosal approximation.Figure 1Symptomatic pseudocyst.Figure 2EUS-guided lumen-apposing metal stent.Figure 3CT showing postcystogastrostomy gastric perforation.Figure 4Fistula in the posterior gastric wall communicating with the pancreatic bed.Figure 5Gastric fistula.Figure 6Upper-GI study showing leak.",
-  "relevant_image_context": "A 60-year-old woman presented with acute pancreatitis complicated by the development of acute pancreatic fluid collection, which later organized into a large peripancreatic pseudocyst (Fig. 1). Figure 1 Symptomatic pseudocyst."
+  "relevant_image_context": "A 60-year-old woman presented with acute pancreatitis complicated by the development of acute pancreatic fluid collection, which later organized into a large peripancreatic pseudocyst (Fig. 1). Figure 1 Symptomatic pseudocyst.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_61_50-PMC6251969-6-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_61_50-PMC6251969-6-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "left posterior gastric fluid collection",
+        "claim_text": "A left-sided fluid collection in the posterior gastric region demonstrates low attenuation on axial CT",
+        "presence_question": "Does the model's response discuss left posterior gastric fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that A left-sided fluid collection in the posterior gastric region demonstrates low attenuation on axial CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "left upper abdominal fluid collection",
+        "claim_text": "There is a fluid collection located in the left upper abdomen posterior to the stomach on axial CT",
+        "presence_question": "Does the model's response discuss left upper abdominal fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that There is a fluid collection located in the left upper abdomen posterior to the stomach on axial CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "collection adjacent to posterior stomach wall",
+        "claim_text": "The fluid collection is adjacent to the posterior wall of the stomach in the left posterior gastric region",
+        "presence_question": "Does the model's response discuss collection adjacent to posterior stomach wall?",
+        "correctness_question": "Does the model's response correctly assert that The fluid collection is adjacent to the posterior wall of the stomach in the left posterior gastric region?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "posterior gastric wall margin",
+        "claim_text": "The posterior gastric wall demonstrates an irregular margin on axial CT",
+        "presence_question": "Does the model's response discuss posterior gastric wall margin?",
+        "correctness_question": "Does the model's response correctly assert that The posterior gastric wall demonstrates an irregular margin on axial CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "posterior stomach wall discontinuity",
+        "claim_text": "There is a focal discontinuity or indentation of the posterior gastric wall at the site contacting the collection",
+        "presence_question": "Does the model's response discuss posterior stomach wall discontinuity?",
+        "correctness_question": "Does the model's response correctly assert that There is a focal discontinuity or indentation of the posterior gastric wall at the site contacting the collection?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "extension to gastric wall discontinuity",
+        "claim_text": "The left fluid collection probably extends to the area of gastric wall discontinuity in the posterior stomach",
+        "presence_question": "Does the model's response discuss extension to gastric wall discontinuity?",
+        "correctness_question": "Does the model's response correctly assert that The left fluid collection probably extends to the area of gastric wall discontinuity in the posterior stomach?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "endoscopic closure success",
+        "claim_text": "Successful endoscopic closure is typically associated with a relatively small defect.",
+        "presence_question": "Does the model's response discuss endoscopic closure success?",
+        "correctness_question": "Does the model's response correctly state that Successful endoscopic closure is typically associated with a relatively small defect?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "mature cavity wall",
+        "claim_text": "Successful endoscopic closure is typically associated with a mature, well-formed cavity wall capable of holding sutures or clips.",
+        "presence_question": "Does the model's response discuss mature cavity wall?",
+        "correctness_question": "Does the model's response correctly state that Successful endoscopic closure is typically associated with a mature, well-formed cavity wall capable of holding sutures or clips?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "immature cavity wall or large defect",
+        "claim_text": "An immature or unstable cavity wall or a large defect typically increases the risk of endoscopic closure failure.",
+        "presence_question": "Does the model's response discuss immature cavity wall or large defect?",
+        "correctness_question": "Does the model's response correctly state that An immature or unstable cavity wall or a large defect typically increases the risk of endoscopic closure failure?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "gastric wall defect or cavity",
+        "claim_text": "The axial CT findings support that a sizable gastric wall defect or cavity communicating with the collection is present in this case.",
+        "presence_question": "Does the model's response make an inferential link about gastric wall defect or cavity?",
+        "correctness_question": "Does the model's response correctly conclude that the axial CT findings support that a sizable gastric wall defect or cavity communicating with the collection is present in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "cavity wall maturity for closure",
+        "claim_text": "The irregular posterior gastric wall margin with a focal discontinuity where the collection contacts the stomach, together with the requirement that closure needs a mature cavity wall to hold sutures or clips, argues against the cavity wall being mature enough for endoscopic closure in this case.",
+        "presence_question": "Does the model's response make an inferential link about cavity wall maturity for closure?",
+        "correctness_question": "Does the model's response correctly conclude that the irregular posterior gastric wall margin with a focal discontinuity, together with the requirement that closure needs a mature cavity wall, argues against the cavity wall being mature enough for endoscopic closure in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "durable endoscopic closure feasibility",
+        "claim_text": "Because imaging shows a large defect/cavity communicating with the stomach and features suggesting an immature cavity wall, a durable endoscopic closure is unlikely to be feasible and is unsafe to attempt now.",
+        "presence_question": "Does the model's response make an inferential link about durable endoscopic closure feasibility?",
+        "correctness_question": "Does the model's response correctly conclude that, because imaging shows a large defect communicating with the stomach and features suggesting an immature cavity wall, a durable endoscopic closure is unlikely to be feasible and is unsafe to attempt now?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

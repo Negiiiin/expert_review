@@ -27,5 +27,176 @@
   "caption": "Axial CT scan of the orbit showing both horizontal recti muscles attached to the globe; while exploration showed that medial rectus (MR) was lost and lateral rectus (LR) attached in a recessed position.",
   "sub_caption": "Axial CT scan of the orbit showing both horizontal recti muscles attached to the globe; while exploration showed that medial rectus (MR) was lost and lateral rectus (LR) attached in a recessed position.",
   "image_context": "In CT scanning, the medial and lateral recti were irregular, stretched back, and humped in the posterior orbital space, but it seemed that a thin band connected both muscles to the sclera (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>).).Fig. 2Axial CT scan of the orbit showing both horizontal recti muscles attached to the globe; while exploration showed that medial rectus (MR) was lost and lateral rectus (LR) attached in a recessed position.Fig. 2",
-  "relevant_image_context": "In CT scanning, the medial and lateral recti were irregular, stretched back, and humped in the posterior orbital space, but it seemed that a thin band connected both muscles to the sclera (Fig. 2). Fig. 2 Axial CT scan of the orbit showing both horizontal recti muscles attached to the globe; while exploration showed that medial rectus (MR) was lost and lateral rectus (LR) attached in a recessed position."
+  "relevant_image_context": "In CT scanning, the medial and lateral recti were irregular, stretched back, and humped in the posterior orbital space, but it seemed that a thin band connected both muscles to the sclera (Fig. 2). Fig. 2 Axial CT scan of the orbit showing both horizontal recti muscles attached to the globe; while exploration showed that medial rectus (MR) was lost and lateral rectus (LR) attached in a recessed position.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_70_34-PMC6742604-1-gr2.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_70_34-PMC6742604-1-gr2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "ocular globes",
+        "claim_text": "The ocular globes are present within the bony orbits on imaging.",
+        "presence_question": "Does the model's response discuss ocular globes?",
+        "correctness_question": "Does the model's response correctly assert that The ocular globes are present within the bony orbits on imaging?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "extraocular muscles",
+        "claim_text": "Extraocular muscles are present within the orbits on imaging.",
+        "presence_question": "Does the model's response discuss extraocular muscles?",
+        "correctness_question": "Does the model's response correctly assert that Extraocular muscles are present within the orbits on imaging?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "horizontal rectus muscle bulk",
+        "claim_text": "The bulk of the horizontal rectus muscle tissue is located posteriorly in both orbits.",
+        "presence_question": "Does the model's response discuss horizontal rectus muscle bulk?",
+        "correctness_question": "Does the model's response correctly assert that The bulk of the horizontal rectus muscle tissue is located posteriorly in both orbits?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "anterior horizontal rectus attachments",
+        "claim_text": "The anterior attachments of the horizontal rectus muscles appear thin and attenuated at the scleral insertions bilaterally.",
+        "presence_question": "Does the model's response discuss anterior horizontal rectus attachments?",
+        "correctness_question": "Does the model's response correctly assert that The anterior attachments of the horizontal rectus muscles appear thin and attenuated at the scleral insertions bilaterally?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "horizontal rectus muscle bellies",
+        "claim_text": "The horizontal rectus muscle bellies are small bilaterally within the orbits on imaging.",
+        "presence_question": "Does the model's response discuss horizontal rectus muscle bellies?",
+        "correctness_question": "Does the model's response correctly assert that The horizontal rectus muscle bellies are small bilaterally within the orbits on imaging?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "diffuse extraocular muscle enlargement",
+        "claim_text": "There is no diffuse enlargement of the extraocular muscles within the orbits.",
+        "presence_question": "Does the model's response discuss diffuse extraocular muscle enlargement?",
+        "correctness_question": "Does the model's response correctly assert that There is no diffuse enlargement of the extraocular muscles within the orbits?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "discrete orbital soft-tissue mass",
+        "claim_text": "No discrete focal soft-tissue mass is seen displacing orbital structures within the orbits.",
+        "presence_question": "Does the model's response discuss a discrete orbital soft-tissue mass?",
+        "correctness_question": "Does the model's response correctly assert that No discrete focal soft-tissue mass is seen displacing orbital structures within the orbits?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "horizontal rectus muscles anterior insertions",
+        "claim_text": "Horizontal rectus muscles typically have bulky anterior insertions on the sclera at the anterior orbit.",
+        "presence_question": "Does the model's response discuss horizontal rectus muscles anterior insertions?",
+        "correctness_question": "Does the model's response correctly state that Horizontal rectus muscles typically have bulky anterior insertions on the sclera at the anterior orbit?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "diffuse enlargement of extraocular muscles",
+        "claim_text": "Diffuse enlargement of extraocular muscles appears on imaging as thickened or swollen muscle bellies throughout their course.",
+        "presence_question": "Does the model's response discuss diffuse enlargement of extraocular muscles?",
+        "correctness_question": "Does the model's response correctly state that Diffuse enlargement of extraocular muscles appears on imaging as thickened or swollen muscle bellies throughout their course?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "discrete focal orbital soft-tissue mass",
+        "claim_text": "A discrete focal orbital soft-tissue mass is a focal soft-tissue lesion that displaces adjacent orbital structures.",
+        "presence_question": "Does the model's response discuss a discrete focal orbital soft-tissue mass?",
+        "correctness_question": "Does the model's response correctly state that A discrete focal orbital soft-tissue mass is a focal soft-tissue lesion that displaces adjacent orbital structures?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "posterior displacement (retraction) of muscles",
+        "claim_text": "Posterior displacement (retraction) of extraocular muscles means the muscle bellies are located more posteriorly than their normal anterior insertions.",
+        "presence_question": "Does the model's response discuss posterior displacement (retraction) of muscles?",
+        "correctness_question": "Does the model's response correctly state that Posterior displacement (retraction) of extraocular muscles means the muscle bellies are located more posteriorly than their normal anterior insertions?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "small extraocular muscle bellies",
+        "claim_text": "Small extraocular muscle bellies indicate decreased muscle bulk on imaging.",
+        "presence_question": "Does the model's response discuss small extraocular muscle bellies?",
+        "correctness_question": "Does the model's response correctly state that Small extraocular muscle bellies indicate decreased muscle bulk on imaging?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Horizontal rectus muscle retraction",
+        "claim_text": "The imaging findings support posterior displacement (retraction) of the horizontal rectus muscle bellies in this case.",
+        "presence_question": "Does the model's response make an inferential link about Horizontal rectus muscle retraction?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings support posterior displacement (retraction) of the horizontal rectus muscle bellies in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Decreased bulk of horizontal rectus muscles",
+        "claim_text": "The observed small size of the horizontal rectus muscle bellies supports that the horizontal rectus muscles have decreased bulk in this case.",
+        "presence_question": "Does the model's response make an inferential link about Decreased bulk of horizontal rectus muscles?",
+        "correctness_question": "Does the model's response correctly conclude that The observed small size of the horizontal rectus muscle bellies supports that the horizontal rectus muscles have decreased bulk in this case?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Diffuse extraocular muscle enlargement",
+        "claim_text": "The lack of imaging evidence of extraocular muscle thickening or swelling argues against diffuse enlargement of the extraocular muscles in this case.",
+        "presence_question": "Does the model's response make an inferential link about Diffuse extraocular muscle enlargement?",
+        "correctness_question": "Does the model's response correctly conclude that The lack of imaging evidence of extraocular muscle thickening or swelling argues against diffuse enlargement of the extraocular muscles in this case?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Discrete focal orbital soft-tissue mass",
+        "claim_text": "The absence of a focal soft-tissue mass on imaging argues against a discrete focal orbital soft-tissue mass displacing orbital structures in this case.",
+        "presence_question": "Does the model's response make an inferential link about Discrete focal orbital soft-tissue mass?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of a focal soft-tissue mass on imaging argues against a discrete focal orbital soft-tissue mass displacing orbital structures in this case?",
+        "premise_perception_ids": [
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "Horizontal rectus muscle retraction over diffuse enlargement",
+        "claim_text": "The combination of posterior muscle bulk, attenuated anterior attachments, small muscle size, and absence of diffuse muscle thickening favors muscle retraction of the horizontal rectus muscles over diffuse extraocular muscle enlargement in this case.",
+        "presence_question": "Does the model's response make an inferential link about Horizontal rectus muscle retraction over diffuse enlargement?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of posterior muscle bulk, attenuated anterior attachments, small muscle size, and absence of diffuse muscle thickening favors muscle retraction of the horizontal rectus muscles over diffuse extraocular muscle enlargement in this case?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k4",
+          "k5"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

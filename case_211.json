@@ -28,5 +28,121 @@
   "caption": "CT angiography image.Normal meningeal vessel enhancement can be seen. No obvious feeding artery was detected.",
   "sub_caption": "CT angiography image. Normal meningeal vessel enhancement can be seen. No obvious feeding artery was detected.",
   "image_context": "Post-contrast images showed normal meningeal and cerebral vessel enhancement (Figure <xref ref-type=\"fig\" rid=\"cureus-0013-00000014917-i02\">2</xref>).).",
-  "relevant_image_context": "Post-contrast images showed normal meningeal and cerebral vessel enhancement."
+  "relevant_image_context": "Post-contrast images showed normal meningeal and cerebral vessel enhancement.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_98_49-PMC8189271-1-cureus-0013-00000014917-i02.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_98_49-PMC8189271-1-cureus-0013-00000014917-i02.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Axial brain image contrast enhancement",
+        "claim_text": "The axial brain image demonstrates contrast enhancement on the study.",
+        "presence_question": "Does the model's response discuss Axial brain image contrast enhancement?",
+        "correctness_question": "Does the model's response correctly assert that The axial brain image demonstrates contrast enhancement on the study.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right lateral cerebral convexity mass",
+        "claim_text": "A mass is present along the right lateral cerebral convexity.",
+        "presence_question": "Does the model's response discuss Right lateral cerebral convexity mass?",
+        "correctness_question": "Does the model's response correctly assert that A mass is present along the right lateral cerebral convexity.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Shape of right lateral convexity mass",
+        "claim_text": "The mass in the right lateral cerebral convexity is round in shape.",
+        "presence_question": "Does the model's response discuss Shape of right lateral convexity mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass in the right lateral cerebral convexity is round in shape.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Mass margin at right lateral convexity",
+        "claim_text": "The mass along the right lateral cerebral convexity has well-circumscribed margins.",
+        "presence_question": "Does the model's response discuss Mass margin at right lateral convexity?",
+        "correctness_question": "Does the model's response correctly assert that The mass along the right lateral cerebral convexity has well-circumscribed margins.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Contrast enhancement of right convexity mass",
+        "claim_text": "The mass along the right lateral cerebral convexity demonstrates contrast enhancement.",
+        "presence_question": "Does the model's response discuss Contrast enhancement of right convexity mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass along the right lateral cerebral convexity demonstrates contrast enhancement.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Right lateral cerebral convexity mass location",
+        "claim_text": "The mass is located at the right lateral cerebral convexity on axial images.",
+        "presence_question": "Does the model's response discuss Right lateral cerebral convexity mass location?",
+        "correctness_question": "Does the model's response correctly assert that The mass is located at the right lateral cerebral convexity on axial images.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Mass adjacent to inner skull table",
+        "claim_text": "The mass abuts the inner table of the skull on the right.",
+        "presence_question": "Does the model's response discuss Mass adjacent to inner skull table?",
+        "correctness_question": "Does the model's response correctly assert that The mass abuts the inner table of the skull on the right.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Compression of adjacent cortex and sulci",
+        "claim_text": "The mass compresses the adjacent cortex and sulci on the right.",
+        "presence_question": "Does the model's response discuss Compression of adjacent cortex and sulci?",
+        "correctness_question": "Does the model's response correctly assert that The mass compresses the adjacent cortex and sulci on the right.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Flattening of adjacent cortex and sulci",
+        "claim_text": "The adjacent cortex and sulci are flattened on the right adjacent to the mass.",
+        "presence_question": "Does the model's response discuss Flattening of adjacent cortex and sulci?",
+        "correctness_question": "Does the model's response correctly assert that The adjacent cortex and sulci are flattened on the right adjacent to the mass.?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Intraparenchymal involvement of the mass",
+        "claim_text": "The mass does not lie within the brain substance and is not intraparenchymal.",
+        "presence_question": "Does the model's response discuss Intraparenchymal involvement of the mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass does not lie within the brain substance and is not intraparenchymal.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "extra-axial dural convexity lesion",
+        "claim_text": "Extra-axial dural convexity lesions typically lie on the cerebral convexity, abut the inner table of the skull, and compress adjacent cortex and sulci rather than being embedded within the brain parenchyma.",
+        "presence_question": "Does the model's response discuss extra-axial dural convexity lesion?",
+        "correctness_question": "Does the model's response correctly state that Extra-axial dural convexity lesions typically lie on the cerebral convexity, abut the inner table of the skull, and compress adjacent cortex and sulci rather than being embedded within the brain parenchyma?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "flattening of adjacent cortex",
+        "claim_text": "Flattening of adjacent cortex suggests external compression consistent with an extra-axial location rather than intraparenchymal embedding.",
+        "presence_question": "Does the model's response discuss flattening of adjacent cortex?",
+        "correctness_question": "Does the model's response correctly state that Flattening of adjacent cortex suggests external compression consistent with an extra-axial location rather than intraparenchymal embedding?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "extra-axial dural convexity localization",
+        "claim_text": "The lesion's location on the right lateral cerebral convexity, abutment of the inner skull table, compression and flattening of the adjacent cortex, and lack of intraparenchymal embedding support that the lesion is an extra-axial dural convexity lesion in this case.",
+        "presence_question": "Does the model's response make an inferential link about extra-axial dural convexity localization?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion's location on the right lateral cerebral convexity, abutment of the inner skull table, compression and flattening of the adjacent cortex, and lack of intraparenchymal embedding support that the lesion is an extra-axial dural convexity lesion in this case?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

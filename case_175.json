@@ -27,5 +27,150 @@
   "caption": "CT images showing lung metastasis and the primary tumor and tumor thrombus in the right atrium. a Before treatment. b After 2 cycles of nivolumab and ipilimumab. c Before surgery",
   "sub_caption": "a Before treatment.",
   "image_context": "A 71-year-old female presented with 8 kg weight loss over several months, appetite loss, and leg edema for several weeks. An enhanced computed tomography (CT) scan revealed a 94-mm right renal mass with a bulky tumor thrombus within the IVC to the junction of the IVC and the right atrium, maximum thrombus diameter of 37 mm, a few lung nodules, and para-aortic adenopathy (Fig. <xref rid=\"12894_2021_891_Fig1_HTML\" ref-type=\"fig\">1</xref>a). A transthoracic echocardiogram revealed no tumor within the right atrium. A bone scan revealed no metastasis. A core needle biopsy of the renal mass showed mostly necrotic tissue with a region of clear-cell RCC (ccRCC) (Fig. a). A transthoracic echocardiogram revealed no tumor within the right atrium. A bone scan revealed no metastasis. A core needle biopsy of the renal mass showed mostly necrotic tissue with a region of clear-cell RCC (ccRCC) (Fig. <xref rid=\"12894_2021_891_Fig2_HTML\" ref-type=\"fig\">2</xref>a). Immunohistochemical analysis revealed that PD-L1 was not expressed on tumor cells (Fig. a). Immunohistochemical analysis revealed that PD-L1 was not expressed on tumor cells (Fig. <xref rid=\"12894_2021_891_Fig2_HTML\" ref-type=\"fig\">2</xref>b). The patient was not appropriate for radical surgery because her Karnofsky performance status (KPS) was 40. Systemic immunotherapy was administered for metastatic RCC based on International Metastatic RCC Database Consortium (IMDC) poor-risk classification including KPS &lt; 80%, diagnosis to treatment interval &lt; 1 year, anemia, and hyper calcemia. After 2 cycles of nivolumab and ipilimumab therapy, CT revealed that the primary tumor was stable at 94 mm in diameter and lung nodules were undetectable except for the one in the right lower lobe, but the tumor thrombus was extended within the right atrium. Nivolumab and ipilimumab therapy was changed to pazopanib monotherapy due to disease progression (Fig. b). The patient was not appropriate for radical surgery because her Karnofsky performance status (KPS) was 40. Systemic immunotherapy was administered for metastatic RCC based on International Metastatic RCC Database Consortium (IMDC) poor-risk classification including KPS < 80%, diagnosis to treatment interval < 1 year, anemia, and hyper calcemia. After 2 cycles of nivolumab and ipilimumab therapy, CT revealed that the primary tumor was stable at 94 mm in diameter and lung nodules were undetectable except for the one in the right lower lobe, but the tumor thrombus was extended within the right atrium. Nivolumab and ipilimumab therapy was changed to pazopanib monotherapy due to disease progression (Fig. <xref rid=\"12894_2021_891_Fig1_HTML\" ref-type=\"fig\">1</xref>b). She had marked improvement in Karnofsky performance status to 70 and resolution of leg edema and appetite loss.b). She had marked improvement in Karnofsky performance status to 70 and resolution of leg edema and appetite loss.Fig. 1CT images showing lung metastasis and the primary tumor and tumor thrombus in the right atrium. a Before treatment. b After 2 cycles of nivolumab and ipilimumab. c Before surgeryFig. 2Pathological findings on needle biopsy. a Hematoxylin–eosin (HE) staining of the primary tumor (×40). b Immunohistochemical analysis of the primary tumor (×40) Follow-up CT at 4 months after treatment revealed that the renal mass had decreased to 84 mm in diameter, and all lung nodules were undetectable. The tumor thrombus in the right atrium was also undetectable, but the tip of the thrombus remained at level 3. The diameter of the IVC at the renal vein ostium was 15.6 mm. Complete occlusion of the IVC was not observed (Figs. <xref rid=\"12894_2021_891_Fig1_HTML\" ref-type=\"fig\">1</xref>c, c, <xref rid=\"12894_2021_891_Fig4_HTML\" ref-type=\"fig\">4</xref>). She underwent right nephrectomy and IVC thrombectomy after 2 cycles of nivolumab and ipilimumab therapy and pazopanib therapy for 5 months.). She underwent right nephrectomy and IVC thrombectomy after 2 cycles of nivolumab and ipilimumab therapy and pazopanib therapy for 5 months.",
-  "relevant_image_context": "An enhanced computed tomography (CT) scan revealed a 94-mm right renal mass with a bulky tumor thrombus within the IVC to the junction of the IVC and the right atrium, maximum thrombus diameter of 37 mm, a few lung nodules, and para-aortic adenopathy (Fig. 1a). Fig. 1 CT images showing lung metastasis and the primary tumor and tumor thrombus in the right atrium. a Before treatment."
+  "relevant_image_context": "An enhanced computed tomography (CT) scan revealed a 94-mm right renal mass with a bulky tumor thrombus within the IVC to the junction of the IVC and the right atrium, maximum thrombus diameter of 37 mm, a few lung nodules, and para-aortic adenopathy (Fig. 1a). Fig. 1 CT images showing lung metastasis and the primary tumor and tumor thrombus in the right atrium. a Before treatment.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_103_77-PMC8425168-0-12894_2021_891_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_103_77-PMC8425168-0-12894_2021_891_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "vertebral body location",
+        "claim_text": "The vertebral body is located at the midline posterior aspect on the axial abdominal image.",
+        "presence_question": "Does the model's response discuss vertebral body location?",
+        "correctness_question": "Does the model's response correctly assert that the vertebral body is located at the midline posterior aspect on the axial abdominal image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "bowel loops and mesentery",
+        "claim_text": "Bowel loops and mesentery are positioned anterior to the vertebral body on the axial abdominal image.",
+        "presence_question": "Does the model's response discuss bowel loops and mesentery?",
+        "correctness_question": "Does the model's response correctly assert that bowel loops and mesentery are positioned anterior to the vertebral body on the axial abdominal image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "kidney count",
+        "claim_text": "There are two kidneys present, one on each side (bilateral) in the abdomen.",
+        "presence_question": "Does the model's response discuss kidney count?",
+        "correctness_question": "Does the model's response correctly assert that there are two kidneys present, one on each side (bilateral) in the abdomen?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "kidney shape",
+        "claim_text": "Both kidneys have a rounded shape on the abdominal axial image.",
+        "presence_question": "Does the model's response discuss kidney shape?",
+        "correctness_question": "Does the model's response correctly assert that both kidneys have a rounded shape on the abdominal axial image?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "kidney location relative to spine",
+        "claim_text": "The kidneys are located lateral to the spine on the axial abdominal image, bilaterally.",
+        "presence_question": "Does the model's response discuss kidney location relative to spine?",
+        "correctness_question": "Does the model's response correctly assert that the kidneys are located lateral to the spine on the axial abdominal image, bilaterally?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "abdominal mass presence",
+        "claim_text": "A mass is present in the abdomen on the axial image.",
+        "presence_question": "Does the model's response discuss abdominal mass presence?",
+        "correctness_question": "Does the model's response correctly assert that a mass is present in the abdomen on the axial image?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "mass margin",
+        "claim_text": "The mass has a well-demarcated margin on the axial abdominal image.",
+        "presence_question": "Does the model's response discuss mass margin?",
+        "correctness_question": "Does the model's response correctly assert that the mass has a well-demarcated margin on the axial abdominal image?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "mass heterogeneity",
+        "claim_text": "The mass demonstrates a heterogeneous appearance on the axial abdominal image.",
+        "presence_question": "Does the model's response discuss mass heterogeneity?",
+        "correctness_question": "Does the model's response correctly assert that the mass demonstrates a heterogeneous appearance on the axial abdominal image?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "mass left-sided location",
+        "claim_text": "The mass is located on the left side of the axial abdominal image.",
+        "presence_question": "Does the model's response discuss mass left-sided location?",
+        "correctness_question": "Does the model's response correctly assert that the mass is located on the left side of the axial abdominal image?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "mass location near left kidney",
+        "claim_text": "The mass is located in the region where the left kidney is expected, in the left renal region.",
+        "presence_question": "Does the model's response discuss mass location near left kidney?",
+        "correctness_question": "Does the model's response correctly assert that the mass is located in the region where the left kidney is expected, in the left renal region?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "lesion upper left quadrant location",
+        "claim_text": "There is a lesion in the upper left quadrant, left lateral to midline and above the vertebral body level.",
+        "presence_question": "Does the model's response discuss lesion upper left quadrant location?",
+        "correctness_question": "Does the model's response correctly assert that there is a lesion in the upper left quadrant, left lateral to midline and above the vertebral body level?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "vertebral body",
+        "claim_text": "On axial abdominal images, the vertebral body is typically located in the posterior midline.",
+        "presence_question": "Does the model's response discuss vertebral body?",
+        "correctness_question": "Does the model's response correctly state that On axial abdominal images, the vertebral body is typically located in the posterior midline?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "bowel loops and mesentery",
+        "claim_text": "On axial abdominal images, bowel loops and mesentery are typically located anterior to the vertebral body.",
+        "presence_question": "Does the model's response discuss bowel loops and mesentery?",
+        "correctness_question": "Does the model's response correctly state that On axial abdominal images, bowel loops and mesentery are typically located anterior to the vertebral body?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "kidneys",
+        "claim_text": "On axial abdominal images, the kidneys are typically located lateral to the spine.",
+        "presence_question": "Does the model's response discuss kidneys?",
+        "correctness_question": "Does the model's response correctly state that On axial abdominal images, the kidneys are typically located lateral to the spine?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "axial image quadrants",
+        "claim_text": "On axial images, a location left lateral to midline and above the vertebral body corresponds to the upper left quadrant of the image.",
+        "presence_question": "Does the model's response discuss axial image quadrants?",
+        "correctness_question": "Does the model's response correctly state that On axial images, a location left lateral to midline and above the vertebral body corresponds to the upper left quadrant of the image?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "lesion upper-left quadrant location",
+        "claim_text": "The lesion is likely located in the upper left quadrant of the image, a conclusion consistent with its being left lateral to the midline and above the vertebral body.",
+        "presence_question": "Does the model's response make an inferential link about lesion upper-left quadrant location?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion is likely located in the upper left quadrant of the image, a conclusion consistent with its being left lateral to the midline and above the vertebral body.?",
+        "premise_perception_ids": [
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "mass left renal region location",
+        "claim_text": "The mass is likely located in the left renal region, a conclusion supported by its position where the left kidney is expected and by the general fact that kidneys lie lateral to the spine.",
+        "presence_question": "Does the model's response make an inferential link about mass left renal region location?",
+        "correctness_question": "Does the model's response correctly conclude that The mass is likely located in the left renal region, a conclusion supported by its position where the left kidney is expected and by the general fact that kidneys lie lateral to the spine.?",
+        "premise_perception_ids": [
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

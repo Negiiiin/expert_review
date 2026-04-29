@@ -27,5 +27,86 @@
   "caption": "Axial CTA showing the aortic ductus diverticulum as a focal convex bulge (arrows) along the anterior-inferior aspect of the aortic isthmus.",
   "sub_caption": "Axial CTA showing the aortic ductus diverticulum as a focal convex bulge (arrows) along the anterior-inferior aspect of the aortic isthmus.",
   "image_context": "A CTA was performed, which ruled out an aortic dissection. The CTA showed an incidental aortic ductus diverticulum at the aortic isthmus creating an irregular surface (<xref rid=\"4183_Fig2\" ref-type=\"fig\">Fig. 2</xref>) that likely produced a flow vortex that gave rise to the flow jet seen on TTE. The patient was assured that this is benign finding by itself, and she did not need further investigations or follow-up for this specific finding, so no intervention was done; the patient remains asymptomatic.) that likely produced a flow vortex that gave rise to the flow jet seen on TTE. The patient was assured that this is benign finding by itself, and she did not need further investigations or follow-up for this specific finding, so no intervention was done; the patient remains asymptomatic.",
-  "relevant_image_context": "A CTA was performed, which ruled out an aortic dissection. The CTA showed an incidental aortic ductus diverticulum at the aortic isthmus creating an irregular surface that likely produced a flow vortex that gave rise to the flow jet seen on TTE. The patient was assured that this is benign finding by itself, and she did not need further investigations or follow-up for this specific finding, so no intervention was done; the patient remains asymptomatic."
+  "relevant_image_context": "A CTA was performed, which ruled out an aortic dissection. The CTA showed an incidental aortic ductus diverticulum at the aortic isthmus creating an irregular surface that likely produced a flow vortex that gave rise to the flow jet seen on TTE. The patient was assured that this is benign finding by itself, and she did not need further investigations or follow-up for this specific finding, so no intervention was done; the patient remains asymptomatic.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_143_44-PMC10783454-0-4183_Fig2.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_143_44-PMC10783454-0-4183_Fig2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Aortic isthmus outpouching",
+        "claim_text": "A focal outpouching is located at the aortic isthmus on axial CT.",
+        "presence_question": "Does the model's response discuss aortic isthmus outpouching?",
+        "correctness_question": "Does the model's response correctly assert that a focal outpouching is located at the aortic isthmus on axial CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Convex aortic outpouching shape",
+        "claim_text": "The aortic outpouching at the isthmus has a convex shape on axial CT.",
+        "presence_question": "Does the model's response discuss convex aortic outpouching shape?",
+        "correctness_question": "Does the model's response correctly assert that the aortic outpouching at the isthmus has a convex shape on axial CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Diverticular bulge of aortic wall",
+        "claim_text": "A diverticular bulge is present on the aortic wall at the isthmus on axial CT.",
+        "presence_question": "Does the model's response discuss diverticular bulge of the aortic wall?",
+        "correctness_question": "Does the model's response correctly assert that a diverticular bulge is present on the aortic wall at the isthmus on axial CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Luminal narrowing at outpouching site",
+        "claim_text": "There is no luminal narrowing at the site of the outpouching on axial CT.",
+        "presence_question": "Does the model's response discuss luminal narrowing at the outpouching site?",
+        "correctness_question": "Does the model's response correctly assert that there is no luminal narrowing at the site of the outpouching on axial CT?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "abrupt vessel contour change",
+        "claim_text": "Abrupt changes in vessel contour typically result from flow separation and turbulent eddy formation.",
+        "presence_question": "Does the model's response discuss abrupt vessel contour change?",
+        "correctness_question": "Does the model's response correctly state that Abrupt changes in vessel contour typically result from flow separation and turbulent eddy formation?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "flow separation at bulge edge",
+        "claim_text": "Flow separation at the edge of a wall bulge produces localized high-velocity jets and turbulent eddies adjacent to the bulge.",
+        "presence_question": "Does the model's response discuss flow separation at bulge edge?",
+        "correctness_question": "Does the model's response correctly state that Flow separation at the edge of a wall bulge produces localized high-velocity jets and turbulent eddies adjacent to the bulge?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "echocardiography detection of high-velocity jets",
+        "claim_text": "Echocardiography identifies localized high-velocity flow jets caused by local flow disturbances.",
+        "presence_question": "Does the model's response discuss echocardiography detection of high-velocity jets?",
+        "correctness_question": "Does the model's response correctly state that Echocardiography identifies localized high-velocity flow jets caused by local flow disturbances?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Focal diverticular outpouching causes flow separation",
+        "claim_text": "The focal convex diverticular outpouching at the aortic isthmus would disturb laminar flow and, via flow separation, generate localized high-velocity jets and turbulent eddies that can explain the high-velocity jet seen on echocardiography.",
+        "presence_question": "Does the model's response make an inferential link about Focal diverticular outpouching causes flow separation?",
+        "correctness_question": "Does the model's response correctly conclude that The focal convex diverticular outpouching at the aortic isthmus would disturb laminar flow and, via flow separation, generate localized high-velocity jets and turbulent eddies that can explain the high-velocity jet seen on echocardiography.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

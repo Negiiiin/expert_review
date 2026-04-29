@@ -29,5 +29,135 @@
   "caption": "Non-contrast brain CT scan of the same patient, which was done about 2 hours after the re-bleed. The second hemorrhage lies at the left deep dentate nuclei and is not surrounded by edema, implying a very recent development. The first hematoma at the right cerebellar hemisphere had resolved, leaving a small slit.",
   "sub_caption": "Non-contrast brain CT scan of the same patient, which was done about 2 hours after the re-bleed. The second hemorrhage lies at the left deep dentate nuclei and is not surrounded by edema, implying a very recent development. The first hematoma at the right cerebellar hemisphere had resolved, leaving a small slit.",
   "image_context": "Eight weeks later, the patient presented with drowsiness, slurring of speech, vomiting, and inability to sit and stand unaided for one hour to our A & E. Her blood pressure was 190/100 mmHg. Her routine blood tests were within their normal reference range. An emergency non-contrast brain CT scan showed left-sided acute deep cerebellar hematoma, a contralateral site to the first hematoma (Figure <xref ref-type=\"fig\" rid=\"1752-1947-5-360-2\">2</xref>). The patient was treated medically and improved gradually over a two week period. On discharge, her speech was scanning and her gait was wide-based and ataxic. She could stand and walk alone with minor assistance. Because of the lack of expertise in our radiology department, conventional cerebral angiography was not ordered; however, a brain magnetic resonance angiogram (MRA) was done two weeks later and the result was unremarkable. We assume that our patient's hemorrhages were hypertensive in etiology.). The patient was treated medically and improved gradually over a two week period. On discharge, her speech was scanning and her gait was wide-based and ataxic. She could stand and walk alone with minor assistance. Because of the lack of expertise in our radiology department, conventional cerebral angiography was not ordered; however, a brain magnetic resonance angiogram (MRA) was done two weeks later and the result was unremarkable. We assume that our patient's hemorrhages were hypertensive in etiology.",
-  "relevant_image_context": "An emergency non-contrast brain CT scan showed left-sided acute deep cerebellar hematoma, a contralateral site to the first hematoma (Figure 2)."
+  "relevant_image_context": "An emergency non-contrast brain CT scan showed left-sided acute deep cerebellar hematoma, a contralateral site to the first hematoma (Figure 2).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_8_49-PMC3177913-1-1752-1947-5-360-2.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_8_49-PMC3177913-1-1752-1947-5-360-2.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "non-contrast head CT image",
+        "claim_text": "A non-contrast axial head CT image is present.",
+        "presence_question": "Does the model's response discuss non-contrast head CT image?",
+        "correctness_question": "Does the model's response correctly assert that A non-contrast axial head CT image is present?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "hyperdense focus in cerebellum",
+        "claim_text": "A hyperdense rounded focus is present in the posterior fossa/cerebellum.",
+        "presence_question": "Does the model's response discuss hyperdense focus in cerebellum?",
+        "correctness_question": "Does the model's response correctly assert that A hyperdense rounded focus is present in the posterior fossa/cerebellum?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "rounded lesion shape",
+        "claim_text": "The focus in the posterior fossa/cerebellum is rounded in shape.",
+        "presence_question": "Does the model's response discuss rounded lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The focus in the posterior fossa/cerebellum is rounded in shape?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "well-circumscribed lesion margin",
+        "claim_text": "The rounded focus in the posterior fossa/cerebellum has well-circumscribed margins.",
+        "presence_question": "Does the model's response discuss well-circumscribed lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The rounded focus in the posterior fossa/cerebellum has well-circumscribed margins?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "cerebellar lesion location",
+        "claim_text": "The rounded focus is located in the cerebellum, slightly left of midline.",
+        "presence_question": "Does the model's response discuss cerebellar lesion location?",
+        "correctness_question": "Does the model's response correctly assert that The rounded focus is located in the cerebellum, slightly left of midline?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "large supratentorial hemorrhage absence",
+        "claim_text": "There is no large hemorrhage in the supratentorial compartment.",
+        "presence_question": "Does the model's response discuss large supratentorial hemorrhage absence?",
+        "correctness_question": "Does the model's response correctly assert that There is no large hemorrhage in the supratentorial compartment?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "global midline shift absence",
+        "claim_text": "There is no global midline shift of the brain.",
+        "presence_question": "Does the model's response discuss global midline shift absence?",
+        "correctness_question": "Does the model's response correctly assert that There is no global midline shift of the brain?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "surrounding edema prominence",
+        "claim_text": "Surrounding low-density edema around the cerebellar focus is not prominent.",
+        "presence_question": "Does the model's response discuss surrounding edema prominence?",
+        "correctness_question": "Does the model's response correctly assert that Surrounding low-density edema around the cerebellar focus is not prominent?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "hyperdense focus on head CT",
+        "claim_text": "A hyperdense rounded focus on non-contrast head CT suggests an acute intracranial hemorrhage.",
+        "presence_question": "Does the model's response discuss hyperdense focus on head CT?",
+        "correctness_question": "Does the model's response correctly state that A hyperdense rounded focus on non-contrast head CT suggests an acute intracranial hemorrhage?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "intravenous antihypertensive therapy",
+        "claim_text": "Intravenous antihypertensive therapy to lower systolic blood pressure can limit hematoma expansion and further bleeding in acute intracerebral hemorrhage.",
+        "presence_question": "Does the model's response discuss intravenous antihypertensive therapy?",
+        "correctness_question": "Does the model's response correctly state that Intravenous antihypertensive therapy to lower systolic blood pressure can limit hematoma expansion and further bleeding in acute intracerebral hemorrhage?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "hematoma expansion in intracerebral hemorrhage",
+        "claim_text": "Hematoma expansion in intracerebral hemorrhage increases the risk of further clinical deterioration.",
+        "presence_question": "Does the model's response discuss hematoma expansion in intracerebral hemorrhage?",
+        "correctness_question": "Does the model's response correctly state that Hematoma expansion in intracerebral hemorrhage increases the risk of further clinical deterioration?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "blood pressure and hematoma expansion",
+        "claim_text": "Blood pressure is a modifiable factor that affects bleeding and hematoma expansion.",
+        "presence_question": "Does the model's response discuss blood pressure and hematoma expansion?",
+        "correctness_question": "Does the model's response correctly state that Blood pressure is a modifiable factor that affects bleeding and hematoma expansion?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "CT finding supports cerebellar hemorrhage",
+        "claim_text": "The hyperdense, well-circumscribed, rounded focus in the cerebellum on non-contrast CT supports the diagnosis of an acute cerebellar hemorrhage in this case.",
+        "presence_question": "Does the model's response make an inferential link about CT finding supports cerebellar hemorrhage?",
+        "correctness_question": "Does the model's response correctly conclude that The hyperdense, well-circumscribed, rounded focus in the cerebellum on non-contrast CT supports the diagnosis of an acute cerebellar hemorrhage in this case.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "IV BP lowering to limit hematoma expansion",
+        "claim_text": "Because the imaging is most consistent with an acute cerebellar hemorrhage and hematoma expansion increases the risk of deterioration, lowering systolic blood pressure with IV antihypertensive therapy is justified to reduce the risk of further clinical deterioration in this patient by limiting hematoma expansion.",
+        "presence_question": "Does the model's response make an inferential link about IV BP lowering to limit hematoma expansion?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging is most consistent with an acute cerebellar hemorrhage and hematoma expansion increases the risk of deterioration, lowering systolic blood pressure with IV antihypertensive therapy is justified to reduce the risk of further clinical deterioration in this patient by limiting hematoma expansion.?",
+        "premise_perception_ids": [
+          "p2",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

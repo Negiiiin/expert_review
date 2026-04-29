@@ -29,5 +29,133 @@
   "caption": "Inflammatory and profibrotic signatures of monocytes in myopericarditis.(A and B) Box plots showing the average proportions of non-classical (CD14dim CD16+) and classical (CD14+ CD16−) monocyte subsets across the groups. The boxes denote the interquartile range (IQR), horizontal bars represent the median, whiskers extend to 1.5 × IQR, and dots show the values of each donor. Statistical significance was determined using the Bayesian model scCODA (49) accounting for the compositional dependencies between cell subsets in the scRNA-seq data while controlling for false discoveries (FDR < 0.05 in myopericarditis vs. E-YVC). (C and D) Average expression score of (C) inflammatory genes from the S100A family of alarmins (S100A8–12; FDR < 0.05, LogFC > 0.1 in myopericarditis vs. E-YVC) and (D) 238 genes from a published dataset of extracellular matrix (ECM) remodeling (GSEA Molecular Signatures Database M3468) in the same classical monocyte subset shown in (B) across groups. Statistical significance between scores was determined using the unpaired two-sided Wilcoxon rank-sum test comparing the E-YVC and myopericarditis groups. (E) Dot plot showing top differentially expressed and upregulated genes in the same classical monocyte subset shown in (B) across donors (FDR < 0.05, LogFC > 0.1 in myopericarditis vs. E-YVC). (F) Enzyme-linked immunosorbent assay (ELISA) measurement of soluble CD163 (sCD163) in serum across the groups. Statistical significance was determined using the unpaired two-tailed t-test between the E-YVC and myopericarditis groups, and error bars represent the standard error (SE). (G) Representative cardiac magnetic resonance (CMR) images of acute myopericarditis and follow-up/recovery (191 days for P1 and 82 days for P3 after vaccination) showing persistent late gadolinium enhancement (LGE; yellow arrows) seen in a subset of patients (from 17 patients included in our cohort, at admission, 11 were LGE +, 4 were LGE −, and 2 had no CMR). Particularly, for P1, four chamber phase sequence inversion recovery (PSIR) demonstrating patch sub-epicardial LGE along the left ventricular lateral wall from base to apex (acute), with improvement in both quantity and intensity at follow-up (recovered). For P3, mid ventricle short axis PSIR demonstrating sub-epicardial to nearly transmural LGE sparing the sub-endocardial region (acute), which is mildly improved in intensity and quantity at follow-up (recovered). (H) Stacked bar plots depicting the percentage of patients categorized by CMR LGE changes at two follow-ups after vaccination/first admission (median days (IQR)). For exact patients with LGE at admission and follow-up as well as details of imaging findings, see Table S1.",
   "sub_caption": "(G) Representative cardiac magnetic resonance (CMR) images of acute myopericarditis and follow-up/recovery (191 days for P1 and 82 days for P3 after vaccination) showing persistent late gadolinium enhancement (LGE; yellow arrows) seen in a subset of patients (from 17 patients included in our cohort, at admission, 11 were LGE +, 4 were LGE −, and 2 had no CMR). Particularly, for P1, four chamber phase sequence inversion recovery (PSIR) demonstrating patch sub-epicardial LGE along the left ventricular lateral wall from base to apex (acute), with improvement in both quantity and intensity at follow-up (recovered). For P3, mid ventricle short axis PSIR demonstrating sub-epicardial to nearly transmural LGE sparing the sub-endocardial region (acute), which is mildly improved in intensity and quantity at follow-up (recovered).",
   "image_context": "With the extensive inflammatory profile observed in myopericarditis and signs of cardiac injury and LGE on CMR imaging, we lastly investigated changes in the innate myeloid compartment. Compositional analysis (scCODA, FDR < 0.05) revealed a significant decrease in CD14dim CD16+ non-classical monocytes, which are commonly anti-inflammatory (65, 66), paired with an increase in inflammatory CD14+ CD16− classical monocytes (<xref rid=\"nihms-1914947-f0005\" ref-type=\"fig\">Fig. 5A</xref> and  and <xref rid=\"nihms-1914947-f0005\" ref-type=\"fig\">B</xref>). These classical monocytes further showed increased expression of genes from the S100A family of alarmins in myopericarditis (). These classical monocytes further showed increased expression of genes from the S100A family of alarmins in myopericarditis (<xref rid=\"nihms-1914947-f0005\" ref-type=\"fig\">Fig. 5C</xref>), supporting their role in the inflammatory response and consistent with the elevations we saw in IL-1β (), supporting their role in the inflammatory response and consistent with the elevations we saw in IL-1β (39, 67, 68). Importantly, such classical monocytes can further differentiate into tissue macrophages and contribute to chronic disease (65). To better define this possibility in myopericarditis, we used a published dataset of 238 genes (GSEA Molecular Signatures Database M3468) encoding enzymes/proteins and regulators involved in extracellular matrix remodeling. We observed an upregulation of this remodeling and profibrotic signature in classical monocytes of myopericarditis patients (<xref rid=\"nihms-1914947-f0005\" ref-type=\"fig\">Fig. 5D</xref>), consistent with our earlier serum protein/enzyme analysis in these patients (), consistent with our earlier serum protein/enzyme analysis in these patients (<xref rid=\"nihms-1914947-f0003\" ref-type=\"fig\">Fig. 3A</xref>). Additionally, we performed differential gene expression analysis (FDR &lt; 0.05, LogFC &gt; 0.1), revealing the upregulation of various specific genes shared across patients (). Additionally, we performed differential gene expression analysis (FDR < 0.05, LogFC > 0.1), revealing the upregulation of various specific genes shared across patients (<xref rid=\"nihms-1914947-f0005\" ref-type=\"fig\">Fig. 5E</xref>). Notably, these genes included ). Notably, these genes included CD163, which marks tissue-resident macrophages (69) and has been associated with a profibrotic phenotype (70). Interestingly, positive CD163 immunostaining was previously reported on myocardial inflammatory infiltrates in myocarditis after COVID-19 (71, 72) and adenovirus-vectored (Ad26.COV2.S) SARS-CoV-2 vaccination (73). These monocytes also expressed CCR2 (<xref rid=\"nihms-1914947-f0005\" ref-type=\"fig\">Fig. 5E</xref>), which enables migration to sites of tissue injury as well as differentiation into inflammatory cardiac macrophages, including in myocarditis (), which enables migration to sites of tissue injury as well as differentiation into inflammatory cardiac macrophages, including in myocarditis (66, 74–76). Indeed, the abundance of CCR2+ macrophages has been associated with cardiac remodeling and fibrosis (74, 77). These results are in agreement with the elevations in various MMPs shown by our earlier serum analysis of the patient cohort (<xref rid=\"nihms-1914947-f0003\" ref-type=\"fig\">Fig. 3A</xref>). Other upregulated genes included ones involved in procollagen processing (). Other upregulated genes included ones involved in procollagen processing (ADAMTS2), adhesion and migration (ITGAM, also known as MAC-1 or CD11b), as well as likely inflammation and oxidative stress (CLEC4E, RNASE2, FKBP5, GSR, MARC1, SULT1A1) (<xref rid=\"nihms-1914947-f0005\" ref-type=\"fig\">Fig. 5E</xref>). Upon monocyte/macrophage activation, CD163 is shed from the cell surface and its serum levels can be further associated with fibrosis (). Upon monocyte/macrophage activation, CD163 is shed from the cell surface and its serum levels can be further associated with fibrosis (78, 79). In our patients, soluble CD163 (sCD163) was confirmed to be significantly elevated in serum (<xref rid=\"nihms-1914947-f0005\" ref-type=\"fig\">Fig. 5F</xref>). Taken together, our findings potentially provide a mechanistic link to the LGE findings in the majority of patients in our cohort (). Taken together, our findings potentially provide a mechanistic link to the LGE findings in the majority of patients in our cohort (<xref rid=\"nihms-1914947-f0005\" ref-type=\"fig\">Fig. 5G</xref>), which can persist for months after vaccination (), which can persist for months after vaccination (<xref rid=\"nihms-1914947-f0005\" ref-type=\"fig\">Fig. 5H</xref>). These results may further suggest the need for careful long-term monitoring of myocarditis and/or pericarditis patients exhibiting signs of cardiac fibrosis.). These results may further suggest the need for careful long-term monitoring of myocarditis and/or pericarditis patients exhibiting signs of cardiac fibrosis.",
-  "relevant_image_context": "Taken together, our findings potentially provide a mechanistic link to the LGE findings in the majority of patients in our cohort (Fig. 5G), which can persist for months after vaccination (Fig. 5H). These results may further suggest the need for careful long-term monitoring of myocarditis and/or pericarditis patients exhibiting signs of cardiac fibrosis."
+  "relevant_image_context": "Taken together, our findings potentially provide a mechanistic link to the LGE findings in the majority of patients in our cohort (Fig. 5G), which can persist for months after vaccination (Fig. 5H). These results may further suggest the need for careful long-term monitoring of myocarditis and/or pericarditis patients exhibiting signs of cardiac fibrosis.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_2_filelist_commercial_batch_124_109-PMC9295365-0-12872_2022_2768_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_124_109-PMC9295365-0-12872_2022_2768_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "sagittal thoracoabdominal aorta",
+        "claim_text": "The CT image shows the thoracoabdominal aorta in the sagittal plane.",
+        "presence_question": "Does the model's response discuss sagittal thoracoabdominal aorta?",
+        "correctness_question": "Does the model's response correctly assert that The CT image shows the thoracoabdominal aorta in the sagittal plane.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "aortic lumen contrast opacification",
+        "claim_text": "The aortic lumen of the thoracoabdominal aorta is opacified with contrast on CT.",
+        "presence_question": "Does the model's response discuss aortic lumen contrast opacification?",
+        "correctness_question": "Does the model's response correctly assert that The aortic lumen of the thoracoabdominal aorta is opacified with contrast on CT.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "linear curvilinear low-attenuation line",
+        "claim_text": "A linear curvilinear low-attenuation line is present within the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss linear curvilinear low-attenuation line?",
+        "correctness_question": "Does the model's response correctly assert that A linear curvilinear low-attenuation line is present within the thoracoabdominal aorta.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "line within aortic lumen",
+        "claim_text": "The linear curvilinear low-attenuation line is located within the aortic lumen.",
+        "presence_question": "Does the model's response discuss line within aortic lumen?",
+        "correctness_question": "Does the model's response correctly assert that The linear curvilinear low-attenuation line is located within the aortic lumen.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "line extent along aorta",
+        "claim_text": "The linear curvilinear low-attenuation line extends along the length of the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss line extent along aorta?",
+        "correctness_question": "Does the model's response correctly assert that The linear curvilinear low-attenuation line extends along the length of the thoracoabdominal aorta.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "aortic lumen channels",
+        "claim_text": "The aortic lumen demonstrates two channels within the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss aortic lumen channels?",
+        "correctness_question": "Does the model's response correctly assert that The aortic lumen demonstrates two channels within the thoracoabdominal aorta.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "contrast-opacified channel",
+        "claim_text": "One channel of the thoracoabdominal aortic lumen is fully opacified with contrast.",
+        "presence_question": "Does the model's response discuss contrast-opacified channel?",
+        "correctness_question": "Does the model's response correctly assert that One channel of the thoracoabdominal aortic lumen is fully opacified with contrast.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "crescent of non-opacified material",
+        "claim_text": "The adjacent channel contains a crescent of non-opacified material within the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss crescent of non-opacified material?",
+        "correctness_question": "Does the model's response correctly assert that The adjacent channel contains a crescent of non-opacified material within the thoracoabdominal aorta.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "normal contrast-enhanced aorta",
+        "claim_text": "A normal contrast-enhanced aorta shows a single smooth, uniformly opacified lumen without an intraluminal linear flap or a non-opacified crescent.",
+        "presence_question": "Does the model's response discuss normal contrast-enhanced aorta?",
+        "correctness_question": "Does the model's response correctly state that a normal contrast-enhanced aorta shows a single smooth, uniformly opacified lumen without an intraluminal linear flap or a non-opacified crescent?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "intraluminal linear flap",
+        "claim_text": "An intraluminal linear flap with an adjacent partially non-opacified lumen suggests an intimal flap creating a true lumen and a partially thrombosed false lumen.",
+        "presence_question": "Does the model's response discuss intraluminal linear flap?",
+        "correctness_question": "Does the model's response correctly state that an intraluminal linear flap with an adjacent partially non-opacified lumen suggests an intimal flap creating a true lumen and a partially thrombosed false lumen?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "aortic lumen opacification on CT",
+        "claim_text": "Opacification of the aortic lumen on CT results from administration of intravenous contrast.",
+        "presence_question": "Does the model's response discuss aortic lumen opacification on CT?",
+        "correctness_question": "Does the model's response correctly state that opacification of the aortic lumen on CT results from administration of intravenous contrast?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Intimal flap with partially thrombosed false lumen",
+        "claim_text": "The imaging findings support the presence of an intimal flap producing a true lumen and a partially thrombosed false lumen in this case.",
+        "presence_question": "Does the model's response make an inferential link about Intimal flap with partially thrombosed false lumen?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings support the presence of an intimal flap producing a true lumen and a partially thrombosed false lumen in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Aortic lumen abnormality",
+        "claim_text": "The observed intraluminal linear flap and the split opacified and non-opacified channels support that the aortic lumen is abnormal in this case.",
+        "presence_question": "Does the model's response make an inferential link about Aortic lumen abnormality?",
+        "correctness_question": "Does the model's response correctly conclude that The observed intraluminal linear flap and the split opacified and non-opacified channels support that the aortic lumen is abnormal in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

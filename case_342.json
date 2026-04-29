@@ -28,5 +28,136 @@
   "caption": "CT of the abdomen: Large cystic lesion measuring 8 cm in the tail of the pancreas",
   "sub_caption": "CT of the abdomen: Large cystic lesion measuring 8 cm in the tail of the pancreas",
   "image_context": "A 53-year-old male presented with upper abdominal pain of 3 months duration. On clinical examination, a vague lump was palpable in the epigastric region. Contrast-enhanced computed tomography (CECT) of the abdomen revealed a large cystic lesion measuring 8 cm near the tail of the pancreas [<xref ref-type=\"fig\" rid=\"EUS-4-351-g001\">Figure 1</xref>]. It had an enhancing solid component in the periphery of the cyst []. It had an enhancing solid component in the periphery of the cyst [<xref ref-type=\"fig\" rid=\"EUS-4-351-g002\">Figure 2</xref>]. Upper gastrointestinal endoscopy revealed normal gastric mucosa. A possibility of cystic pancreatic neoplasm was kept and the patient underwent endoscopic ultrasound (EUS). The EUS revealed a heteroechoic lesion arising from the stomach wall with solid and cystic areas []. Upper gastrointestinal endoscopy revealed normal gastric mucosa. A possibility of cystic pancreatic neoplasm was kept and the patient underwent endoscopic ultrasound (EUS). The EUS revealed a heteroechoic lesion arising from the stomach wall with solid and cystic areas [<xref ref-type=\"fig\" rid=\"EUS-4-351-g003\">Figure 3</xref>]. There were small anechoic areas in the solid component of the lesion suggestive of necrosis []. There were small anechoic areas in the solid component of the lesion suggestive of necrosis [<xref ref-type=\"fig\" rid=\"EUS-4-351-g004\">Figure 4</xref>]. The lesion could be seen arising from the ]. The lesion could be seen arising from the muscularis propria. EUS-guided fine-needle aspiration (FNA) was performed from the solid component and the cytology revealed features suggestive of a spindle cell tumor [<xref ref-type=\"fig\" rid=\"EUS-4-351-g005\">Figure 5</xref>]. The patient underwent surgical excision of the tumor and the histopathological examination confirmed the presence of gastrointestinal stromal tumor (GIST).]. The patient underwent surgical excision of the tumor and the histopathological examination confirmed the presence of gastrointestinal stromal tumor (GIST).",
-  "relevant_image_context": "A 53-year-old male presented with upper abdominal pain of 3 months duration. Contrast-enhanced computed tomography (CECT) of the abdomen revealed a large cystic lesion measuring 8 cm near the tail of the pancreas. It had an enhancing solid component in the periphery of the cyst."
+  "relevant_image_context": "A 53-year-old male presented with upper abdominal pain of 3 months duration. Contrast-enhanced computed tomography (CECT) of the abdomen revealed a large cystic lesion measuring 8 cm near the tail of the pancreas. It had an enhancing solid component in the periphery of the cyst.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_29_4-PMC4672597-4-EUS-4-351-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_29_4-PMC4672597-4-EUS-4-351-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Mass presence",
+        "claim_text": "A mass is present within the imaged region on this study.",
+        "presence_question": "Does the model's response discuss Mass presence?",
+        "correctness_question": "Does the model's response correctly assert that A mass is present within the imaged region on this study?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Large mass size",
+        "claim_text": "The mass is large in size on the imaging study.",
+        "presence_question": "Does the model's response discuss Large mass size?",
+        "correctness_question": "Does the model's response correctly assert that The mass is large in size on the imaging study?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Well-circumscribed margin",
+        "claim_text": "The mass has a well-circumscribed margin on imaging.",
+        "presence_question": "Does the model's response discuss Well-circumscribed margin?",
+        "correctness_question": "Does the model's response correctly assert that The mass has a well-circumscribed margin on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Low-attenuation cystic appearance",
+        "claim_text": "The mass demonstrates low attenuation, giving a cystic-appearing internal density.",
+        "presence_question": "Does the model's response discuss Low-attenuation cystic appearance?",
+        "correctness_question": "Does the model's response correctly assert that The mass demonstrates low attenuation, giving a cystic-appearing internal density?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Pancreatic tail location",
+        "claim_text": "The mass is located in the pancreatic tail on the left side.",
+        "presence_question": "Does the model's response discuss Pancreatic tail location?",
+        "correctness_question": "Does the model's response correctly assert that The mass is located in the pancreatic tail on the left side?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Left upper quadrant location",
+        "claim_text": "The mass is located in the left upper quadrant of the abdomen.",
+        "presence_question": "Does the model's response discuss Left upper quadrant location?",
+        "correctness_question": "Does the model's response correctly assert that The mass is located in the left upper quadrant of the abdomen?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Mural solid component",
+        "claim_text": "A mural solid component is present along the medial wall of the cystic mass.",
+        "presence_question": "Does the model's response discuss Mural solid component?",
+        "correctness_question": "Does the model's response correctly assert that A mural solid component is present along the medial wall of the cystic mass?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Enhancing mural component",
+        "claim_text": "The mural solid component shows higher attenuation, appearing enhancing relative to the cyst.",
+        "presence_question": "Does the model's response discuss Enhancing mural component?",
+        "correctness_question": "Does the model's response correctly assert that The mural solid component shows higher attenuation, appearing enhancing relative to the cyst?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Mural component location",
+        "claim_text": "The mural solid component is located along the medial wall adjacent to the cyst.",
+        "presence_question": "Does the model's response discuss Mural component location?",
+        "correctness_question": "Does the model's response correctly assert that The mural solid component is located along the medial wall adjacent to the cyst?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "low attenuation on CT",
+        "claim_text": "Low attenuation on CT typically indicates a cystic appearance.",
+        "presence_question": "Does the model's response discuss low attenuation on CT?",
+        "correctness_question": "Does the model's response correctly state that Low attenuation on CT typically indicates a cystic appearance?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "pancreatic cystic lesion with solid component",
+        "claim_text": "A pancreatic cystic lesion with a solid or mural component typically requires characterization and sampling of the cyst fluid and/or the solid component.",
+        "presence_question": "Does the model's response discuss pancreatic cystic lesion with solid component?",
+        "correctness_question": "Does the model's response correctly state that A pancreatic cystic lesion with a solid or mural component typically requires characterization and sampling of the cyst fluid and/or the solid component?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "endoscopic ultrasound with fine-needle aspiration (EUS-FNA)",
+        "claim_text": "Endoscopic ultrasound with fine-needle aspiration (EUS-FNA) provides high-resolution imaging of the pancreas and allows aspiration of cyst fluid and sampling of solid components.",
+        "presence_question": "Does the model's response discuss endoscopic ultrasound with fine-needle aspiration (EUS-FNA)?",
+        "correctness_question": "Does the model's response correctly state that Endoscopic ultrasound with fine-needle aspiration (EUS-FNA) provides high-resolution imaging of the pancreas and allows aspiration of cyst fluid and sampling of solid components?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "EUS-FNA as next test",
+        "claim_text": "Endoscopic ultrasound with FNA is the most appropriate additional test for a predominantly cystic pancreatic mass with a discrete enhancing solid (mural) component on CT.",
+        "presence_question": "Does the model's response make an inferential link about EUS-FNA as next test?",
+        "correctness_question": "Does the model's response correctly conclude that Endoscopic ultrasound with FNA is the most appropriate additional test for a predominantly cystic pancreatic mass with a discrete enhancing solid (mural) component on CT?",
+        "premise_perception_ids": [
+          "p4",
+          "p7",
+          "p8",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Sampling cyst fluid and solid mural component",
+        "claim_text": "Diagnostic sampling should target both the cyst fluid and the solid mural component for a lesion that demonstrates cystic (low-attenuation) content and a focal enhancing solid mural component to allow characterization and diagnosis.",
+        "presence_question": "Does the model's response make an inferential link about Sampling cyst fluid and solid mural component?",
+        "correctness_question": "Does the model's response correctly conclude that Diagnostic sampling should target both the cyst fluid and the solid mural component for a lesion that demonstrates cystic (low-attenuation) content and a focal enhancing solid mural component to allow characterization and diagnosis?",
+        "premise_perception_ids": [
+          "p4",
+          "p7",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

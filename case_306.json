@@ -28,5 +28,218 @@
   "caption": "Gastroscopy, using position in retroflection, revealed a protruding mass with overlying normal mucosa in the stomach (redarrow).",
   "sub_caption": "Gastroscopy, using position in retroflection, revealed a protruding mass with overlying normal mucosa in the stomach (red arrow).",
   "image_context": "A 63-year-old man came to our observation complaining of symptoms referable to gastroesophageal reflux disease. No epigastric pain, postprandial fullness, or vomiting were present during clinical examination. His history did not show noteworthy pathologies. The patient did not follow any pharmacological therapy, and there was no family history for neoplasia of the digestive system. An esophagogastroduodenoscopy was performed, which showed, in the insufflation phase, a ‘bombè’ lesion occurring in the fundus driven to subepithelial lesions (SELs), settled along the little curve and miming an extrinsic compression [<xref ref-type=\"fig\" rid=\"OMJ-36-02-1900141-f1\">Figure 1</xref>]. Laboratory tests were all normal, including liver function tests, while the oncological markers (carcinoembryonic antigen and serum carbohydrate antigen 19-9) were both negative. An abdominal computed tomography (CT) with contrast agent was performed, highlighting two fluid collections, of which the larger mass (48 × 43 mm) lay in the right lobe and the smaller mass (33 × 27 mm), responsible for compression on the gastric wall, in the left lobe []. Laboratory tests were all normal, including liver function tests, while the oncological markers (carcinoembryonic antigen and serum carbohydrate antigen 19-9) were both negative. An abdominal computed tomography (CT) with contrast agent was performed, highlighting two fluid collections, of which the larger mass (48 × 43 mm) lay in the right lobe and the smaller mass (33 × 27 mm), responsible for compression on the gastric wall, in the left lobe [<xref ref-type=\"fig\" rid=\"OMJ-36-02-1900141-f2\">Figure 2</xref>].].",
-  "relevant_image_context": "An esophagogastroduodenoscopy was performed, which showed, in the insufflation phase, a ‘bombè’ lesion occurring in the fundus driven to subepithelial lesions (SELs), settled along the little curve and miming an extrinsic compression."
+  "relevant_image_context": "An esophagogastroduodenoscopy was performed, which showed, in the insufflation phase, a ‘bombè’ lesion occurring in the fundus driven to subepithelial lesions (SELs), settled along the little curve and miming an extrinsic compression.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_92_50-PMC8076767-0-OMJ-36-02-1900141-f1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_92_50-PMC8076767-0-OMJ-36-02-1900141-f1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Endoscope tip location",
+        "claim_text": "The endoscope tip is located at the top center of the image",
+        "presence_question": "Does the model's response discuss Endoscope tip location?",
+        "correctness_question": "Does the model's response correctly assert that The endoscope tip is located at the top center of the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Endoscope shaft shape",
+        "claim_text": "The endoscope shaft has a curved shape within the image",
+        "presence_question": "Does the model's response discuss Endoscope shaft shape?",
+        "correctness_question": "Does the model's response correctly assert that The endoscope shaft has a curved shape within the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Gastric mucosa appearance",
+        "claim_text": "The visible gastric mucosa has a smooth appearance in the image",
+        "presence_question": "Does the model's response discuss Gastric mucosa appearance?",
+        "correctness_question": "Does the model's response correctly assert that The visible gastric mucosa has a smooth appearance in the image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Rugal folds size",
+        "claim_text": "The rugal folds in the visible stomach are short",
+        "presence_question": "Does the model's response discuss Rugal folds size?",
+        "correctness_question": "Does the model's response correctly assert that The rugal folds in the visible stomach are short?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Subepithelial-appearing bulge presence",
+        "claim_text": "A subepithelial-appearing bulge is present in the visible stomach field",
+        "presence_question": "Does the model's response discuss Subepithelial-appearing bulge presence?",
+        "correctness_question": "Does the model's response correctly assert that A subepithelial-appearing bulge is present in the visible stomach field?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Bulge shape",
+        "claim_text": "The bulge seen in the stomach appears rounded in shape",
+        "presence_question": "Does the model's response discuss Bulge shape?",
+        "correctness_question": "Does the model's response correctly assert that The bulge seen in the stomach appears rounded in shape?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Bulge appearance",
+        "claim_text": "The bulge in the stomach appears subepithelial in appearance",
+        "presence_question": "Does the model's response discuss Bulge appearance?",
+        "correctness_question": "Does the model's response correctly assert that The bulge in the stomach appears subepithelial in appearance?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Overlying mucosa appearance",
+        "claim_text": "The overlying mucosa over the stomach lesion is intact",
+        "presence_question": "Does the model's response discuss Overlying mucosa appearance?",
+        "correctness_question": "Does the model's response correctly assert that The overlying mucosa over the stomach lesion is intact?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Squamocolumnar junction absence",
+        "claim_text": "The squamocolumnar junction is not visible in the proximal field",
+        "presence_question": "Does the model's response discuss Squamocolumnar junction absence?",
+        "correctness_question": "Does the model's response correctly assert that The squamocolumnar junction is not visible in the proximal field?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Esophageal mucosa visibility",
+        "claim_text": "The esophageal mucosa is not visible in the proximal field",
+        "presence_question": "Does the model's response discuss Esophageal mucosa visibility?",
+        "correctness_question": "Does the model's response correctly assert that The esophageal mucosa is not visible in the proximal field?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "Pyloric ring visibility",
+        "claim_text": "The pyloric ring is not visible in the distal stomach field",
+        "presence_question": "Does the model's response discuss Pyloric ring visibility?",
+        "correctness_question": "Does the model's response correctly assert that The pyloric ring is not visible in the distal stomach field?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "Antral canal configuration visibility",
+        "claim_text": "An antral canal configuration is not visible in the distal stomach field",
+        "presence_question": "Does the model's response discuss Antral canal configuration visibility?",
+        "correctness_question": "Does the model's response correctly assert that An antral canal configuration is not visible in the distal stomach field?"
+      },
+      {
+        "claim_id": "p13",
+        "topic": "Upper dome-like stomach portion visibility",
+        "claim_text": "The upper dome-like portion of the stomach is visible in the field",
+        "presence_question": "Does the model's response discuss Upper dome-like stomach portion visibility?",
+        "correctness_question": "Does the model's response correctly assert that The upper dome-like portion of the stomach is visible in the field?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Retroflexed endoscopic view",
+        "claim_text": "A retroflexed endoscopic view is typically seen in the upper part of the stomach, including the fundus and body.",
+        "presence_question": "Does the model's response discuss Retroflexed endoscopic view?",
+        "correctness_question": "Does the model's response correctly state that A retroflexed endoscopic view is typically seen in the upper part of the stomach, including the fundus and body?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Subepithelial lesion",
+        "claim_text": "Subepithelial lesions typically appear as rounded bulges with intact overlying mucosa.",
+        "presence_question": "Does the model's response discuss Subepithelial lesion?",
+        "correctness_question": "Does the model's response correctly state that Subepithelial lesions typically appear as rounded bulges with intact overlying mucosa?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Fundic stomach region",
+        "claim_text": "The fundic region of the stomach is typically characterized by short rugal folds and a dome-like upper stomach appearance.",
+        "presence_question": "Does the model's response discuss Fundic stomach region?",
+        "correctness_question": "Does the model's response correctly state that The fundic region of the stomach is typically characterized by short rugal folds and a dome-like upper stomach appearance?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Squamocolumnar junction and esophageal mucosa",
+        "claim_text": "The squamocolumnar junction and esophageal mucosa are typically located at the gastroesophageal junction and within the esophagus.",
+        "presence_question": "Does the model's response discuss Squamocolumnar junction and esophageal mucosa?",
+        "correctness_question": "Does the model's response correctly state that The squamocolumnar junction and esophageal mucosa are typically located at the gastroesophageal junction and within the esophagus?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "Pyloric ring and antral canal",
+        "claim_text": "The pyloric ring and antral canal configuration are typically seen in the antrum (the distal stomach).",
+        "presence_question": "Does the model's response discuss Pyloric ring and antral canal?",
+        "correctness_question": "Does the model's response correctly state that The pyloric ring and antral canal configuration are typically seen in the antrum (the distal stomach)?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "retroflexed view interpretation",
+        "claim_text": "The curved endoscope shaft with the tip at the top center supports that the image is a retroflexed view looking back toward the upper stomach.",
+        "presence_question": "Does the model's response make an inferential link about retroflexed view interpretation?",
+        "correctness_question": "Does the model's response correctly conclude that The curved endoscope shaft with the tip at the top center supports that the image is a retroflexed view looking back toward the upper stomach.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "fundic region identification",
+        "claim_text": "Smooth mucosa with relatively short rugal folds and a dome-like upper stomach appearance supports that the fundic region is in view.",
+        "presence_question": "Does the model's response make an inferential link about fundic region identification?",
+        "correctness_question": "Does the model's response correctly conclude that Smooth mucosa with relatively short rugal folds and a dome-like upper stomach appearance supports that the fundic region is in view.?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p13"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "subepithelial lesion identification",
+        "claim_text": "A rounded, subepithelial-appearing bulge with intact overlying mucosa supports that the lesion represents a subepithelial lesion in this case.",
+        "presence_question": "Does the model's response make an inferential link about subepithelial lesion identification?",
+        "correctness_question": "Does the model's response correctly conclude that A rounded, subepithelial-appearing bulge with intact overlying mucosa supports that the lesion represents a subepithelial lesion in this case.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "esophageal location exclusion",
+        "claim_text": "The absence of the squamocolumnar junction and esophageal mucosa argues against the image representing the esophagus or gastroesophageal junction.",
+        "presence_question": "Does the model's response make an inferential link about esophageal location exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of the squamocolumnar junction and esophageal mucosa argues against the image representing the esophagus or gastroesophageal junction.?",
+        "premise_perception_ids": [
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "antral location exclusion",
+        "claim_text": "The absence of the pyloric ring and antral canal configuration argues against the image representing the antrum or distal stomach.",
+        "presence_question": "Does the model's response make an inferential link about antral location exclusion?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of the pyloric ring and antral canal configuration argues against the image representing the antrum or distal stomach.?",
+        "premise_perception_ids": [
+          "p11",
+          "p12"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

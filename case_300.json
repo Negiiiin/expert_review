@@ -27,5 +27,123 @@
   "caption": "The intraoperative view of the intercostal nerve.The anterior intercostal nerve branch (Th10) between the transverse abdominal muscle and the internal abdominal oblique muscle was marked with indocyanine green.",
   "sub_caption": "The intraoperative view of the intercostal nerve. The anterior intercostal nerve branch (Th10) between the transverse abdominal muscle and the internal abdominal oblique muscle was marked with indocyanine green.",
   "image_context": "Ultrasound-guided pulse stimulation was attempted to induce target pain in the transverse abdominal muscle on the median side of the tender point. This nerve was determined to be responsible and was blocked by marking 1 ml of 2% xylocaine mixed with indocyanine green (ICG) around this nerve. The NRS score was observed to decrease to zero or one within five minutes following the implementation of the block. General anesthesia was introduced after confirming that the TAP block had eliminated the pain. The 5 mm trocars for an endoscope were inserted through the umbilicus. Two 5 mm ports were placed on the contralateral abdominal wall of the upper and lower abdomen, respectively, to begin the procedure. The intra-abdominal insufflation pressure was meticulously regulated at 8 mmHg to minimize potential irritation to the abdominal wall. An ICG was observed through the peritoneum. A 3-cm incision was made perpendicular to the peritoneal nerve pathway. The transversus abdominis muscle was split along the muscle fibers to reach the dorsal surface of the internal oblique abdominal muscle. The nerve running between the transversus abdominis and internal oblique muscle was identified using a dye as a marker (Figure <xref rid=\"cureus-0015-00000039366-i01\" ref-type=\"fig\">1</xref>). The nerve was ligated and excised at a width of approximately 1 cm. Ideally, the nerve should be transected without ligation or clipping, while the accompanying vasculature should be ligated or clipped. Nonetheless, in the present case, the intricacy of vessel-nerve separation necessitated ligation. The peritoneum was repaired with absorbable thread, and the abdomen was closed to complete the procedure.). The nerve was ligated and excised at a width of approximately 1 cm. Ideally, the nerve should be transected without ligation or clipping, while the accompanying vasculature should be ligated or clipped. Nonetheless, in the present case, the intricacy of vessel-nerve separation necessitated ligation. The peritoneum was repaired with absorbable thread, and the abdomen was closed to complete the procedure.",
-  "relevant_image_context": "Ultrasound-guided pulse stimulation was attempted to induce target pain in the transverse abdominal muscle on the median side of the tender point. This nerve was determined to be responsible and was blocked by marking 1 ml of 2% xylocaine mixed with indocyanine green (ICG) around this nerve. The NRS score was observed to decrease to zero or one within five minutes following the implementation of the block. General anesthesia was introduced after confirming that the TAP block had eliminated the pain. The 5 mm trocars for an endoscope were inserted through the umbilicus. Two 5 mm ports were placed on the contralateral abdominal wall of the upper and lower abdomen, respectively, to begin the procedure. The intra-abdominal insufflation pressure was meticulously regulated at 8 mmHg to minimize potential irritation to the abdominal wall. An ICG was observed through the peritoneum. A 3-cm incision was made perpendicular to the peritoneal nerve pathway. The transversus abdominis muscle was split along the muscle fibers to reach the dorsal surface of the internal oblique abdominal muscle. The nerve running between the transversus abdominis and internal oblique muscle was identified using a dye as a marker (Figure 1). The nerve was ligated and excised at a width of approximately 1 cm. Ideally, the nerve should be transected without ligation or clipping, while the accompanying vasculature should be ligated or clipped. Nonetheless, in the present case, the intricacy of vessel-nerve separation necessitated ligation. The peritoneum was repaired with absorbable thread, and the abdomen was closed to complete the procedure.). The nerve was ligated and excised at a width of approximately 1 cm. Ideally, the nerve should be transected without ligation or clipping, while the accompanying vasculature should be ligated or clipped. Nonetheless, in the present case, the intricacy of vessel-nerve separation necessitated ligation. The peritoneum was repaired with absorbable thread, and the abdomen was closed to complete the procedure. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Ultrasound-guided pulse stimulation was attempted to induce target pain in the transverse abdominal muscle on the median side of the tender point. This nerve was determined to be responsible and was blocked by marking 1 ml of 2% xylocaine mixed with indocyanine green (ICG) around this nerve. The NRS score was observed to decrease to zero or one within five minutes following the implementation of the block. General anesthesia was introduced after confirming that the TAP block had eliminated the pain. The 5 mm trocars for an endoscope were inserted through the umbilicus. Two 5 mm ports were placed on the contralateral abdominal wall of the upper and lower abdomen, respectively, to begin the procedure. The intra-abdominal insufflation pressure was meticulously regulated at 8 mmHg to minimize potential irritation to the abdominal wall. An ICG was observed through the peritoneum. A 3-cm incision was made perpendicular to the peritoneal nerve pathway. The transversus abdominis muscle was split along the muscle fibers to reach the dorsal surface of the internal oblique abdominal muscle. The nerve running between the transversus abdominis and internal oblique muscle was identified using a dye as a marker (Figure 1). The nerve was ligated and excised at a width of approximately 1 cm. Ideally, the nerve should be transected without ligation or clipping, while the accompanying vasculature should be ligated or clipped. Nonetheless, in the present case, the intricacy of vessel-nerve separation necessitated ligation. The peritoneum was repaired with absorbable thread, and the abdomen was closed to complete the procedure.). The nerve was ligated and excised at a width of approximately 1 cm. Ideally, the nerve should be transected without ligation or clipping, while the accompanying vasculature should be ligated or clipped. Nonetheless, in the present case, the intricacy of vessel-nerve separation necessitated ligation. The peritoneum was repaired with absorbable thread, and the abdomen was closed to complete the procedure. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_5_filelist_noncommercial_batch_65_42-PMC6452235-3-WJG-25-1531-g002.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_65_42-PMC6452235-3-WJG-25-1531-g002.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "arrow marker",
+        "claim_text": "An arrow marker is present in the image.",
+        "presence_question": "Does the model's response discuss arrow marker?",
+        "correctness_question": "Does the model's response correctly assert that An arrow marker is present in the image?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "tubular structure",
+        "claim_text": "A tubular structure is present in the image.",
+        "presence_question": "Does the model's response discuss tubular structure?",
+        "correctness_question": "Does the model's response correctly assert that A tubular structure is present in the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "arrow pointing to tubular structure",
+        "claim_text": "An arrow in the image is located at a tubular structure.",
+        "presence_question": "Does the model's response discuss arrow pointing to tubular structure?",
+        "correctness_question": "Does the model's response correctly assert that An arrow in the image is located at a tubular structure?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Cystic duct annotation",
+        "claim_text": "An annotation labeled 'Cystic duct' is present in the image.",
+        "presence_question": "Does the model's response discuss Cystic duct annotation?",
+        "correctness_question": "Does the model's response correctly assert that An annotation labeled 'Cystic duct' is present in the image?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Cystic duct annotation location",
+        "claim_text": "An annotation labeled 'Cystic duct' is located at a tubular structure in the image.",
+        "presence_question": "Does the model's response discuss Cystic duct annotation location?",
+        "correctness_question": "Does the model's response correctly assert that An annotation labeled 'Cystic duct' is located at a tubular structure in the image?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Gallbladder annotation",
+        "claim_text": "An annotation labeled 'Gallbladder' is present in the image.",
+        "presence_question": "Does the model's response discuss Gallbladder annotation?",
+        "correctness_question": "Does the model's response correctly assert that An annotation labeled 'Gallbladder' is present in the image?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Gallbladder clip annotation",
+        "claim_text": "An annotation labeled 'Clip on the gallbladder' is present in the image.",
+        "presence_question": "Does the model's response discuss Gallbladder clip annotation?",
+        "correctness_question": "Does the model's response correctly assert that An annotation labeled 'Clip on the gallbladder' is present in the image?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "gallbladder adjacent to cystic duct",
+        "claim_text": "An annotation labeled 'Gallbladder' may be adjacent to the annotation labeled 'Cystic duct'.",
+        "presence_question": "Does the model's response discuss gallbladder adjacent to cystic duct?",
+        "correctness_question": "Does the model's response correctly assert that An annotation labeled 'Gallbladder' may be adjacent to the annotation labeled 'Cystic duct'?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "image annotation",
+        "claim_text": "An image annotation indicates the labeled structure in an image.",
+        "presence_question": "Does the model's response discuss image annotation?",
+        "correctness_question": "Does the model's response correctly state that an image annotation indicates the labeled structure in an image?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "arrow marker",
+        "claim_text": "An arrow marker indicates the structure to which it points.",
+        "presence_question": "Does the model's response discuss arrow marker?",
+        "correctness_question": "Does the model's response correctly state that an arrow marker indicates the structure to which it points?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Arrow indicates cystic duct",
+        "claim_text": "Because an arrow in the image is located at a tubular structure and the annotation 'Cystic duct' is located at that same tubular structure, these observations support that the arrow is indicating the cystic duct in this image.",
+        "presence_question": "Does the model's response make an inferential link about Arrow indicates cystic duct?",
+        "correctness_question": "Does the model's response correctly conclude that Because an arrow in the image is located at a tubular structure and the annotation 'Cystic duct' is located at that same tubular structure, these observations support that the arrow is indicating the cystic duct in this image?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Cystic duct localized near gallbladder",
+        "claim_text": "Nearby annotations labeling the gallbladder and a clip on the gallbladder are consistent with the localization of the labeled tubular structure as the cystic duct adjacent to the gallbladder in this image.",
+        "presence_question": "Does the model's response make an inferential link about Cystic duct localized near gallbladder?",
+        "correctness_question": "Does the model's response correctly conclude that Nearby annotations labeling the gallbladder and a clip on the gallbladder are consistent with the localization of the labeled tubular structure as the cystic duct adjacent to the gallbladder in this image?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

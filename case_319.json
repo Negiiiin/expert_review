@@ -27,5 +27,121 @@
   "caption": "Chest computed tomography. The diameter of the trachea is decreased due to an enlarged right paratracheal lymph node. Red arrow: enlarged lymph node, White arrow: narrowed trachea (internal diameter 7.3 mm).",
   "sub_caption": "Red arrow: enlarged lymph node, White arrow: narrowed trachea (internal diameter 7.3 mm).",
   "image_context": "The patient had an enlarged lymph node (4.9 × 4.1 cm) in the right paratracheal area on chest CT, resulting in tracheal narrowing (7.3 mm) (<xref rid=\"apm-23085f1\" ref-type=\"fig\">Fig. 1</xref>). No problems were encountered while inserting the flexible bronchoscope (BF-H290, Olympus), which had a 5.7 mm diameter, and no specific abnormalities were found in the entire bronchus. During the subsequent EBUS (BF-UC260FW, Olympus) insertion with a 6.9 mm diameter, mild resistance was encountered. The procedure started with bronchial suctioning for secretion removal to ensure a clear visual field. About 3 min after the insertion of the EBUS, the patient’s spontaneous breathing was maintained, but SpO). No problems were encountered while inserting the flexible bronchoscope (BF-H290, Olympus), which had a 5.7 mm diameter, and no specific abnormalities were found in the entire bronchus. During the subsequent EBUS (BF-UC260FW, Olympus) insertion with a 6.9 mm diameter, mild resistance was encountered. The procedure started with bronchial suctioning for secretion removal to ensure a clear visual field. About 3 min after the insertion of the EBUS, the patient’s spontaneous breathing was maintained, but SpO2 began to decrease below 90%. The procedure was stopped, and we applied a jaw thrust maneuver. However, as the saturation decreased, the EBUS bronchoscope was removed, and a jaw thrust was continued. However, the patient exhibited weak self-respiration, and SpO2 rapidly decreased to approximately 30%. Bag-mask ventilation was immediately started, but the inspiratory pressure was high, and end-tidal CO2 (EtCO2) was also inconsistent, indicating inefficient ventilation. Within 1–2 min, SpO2 slowly increased to 90%, but it did not increase further despite FiO2 of 1.0. No secretions were observed on oral suction. We planned to reinsert the flexible bronchoscope to evaluate the cause of hypoxia. However, because SpO2 was maintained at approximately 90% with positive-pressure mask ventilation, we thought it would be difficult to advance the bronchoscope with MAC, which has an insecure airway and depends on self-respiration. Therefore, we decided to proceed with bronchoscopy under mechanical ventilation after intubation. Because the biopsy site was not easily accessible after endotracheal tube (ETT) insertion owing to its location close to the vocal cord, the operator asked for a supraglottic airway device. However, the authors decided to use an ETT, considering the patient might require high positive airway pressure. To facilitate intubation, we administered an additional 50 mg of propofol and 40 mg of succinylcholine. After successful intubation with an ETT with an internal diameter of 7.5 mm, a large amount of pink frothy fluid was regurgitated through the ETT, and SpO2 was restored to 95% after tracheal suction. Although continuous secretion was regurgitated, SpO2 was maintained at approximately 90–95% with FiO2 of 1.0. A bronchoscopic exam revealed a large amount of frothy fluid throughout the bronchi (<xref rid=\"apm-23085f2\" ref-type=\"fig\">Fig. 2</xref>), and sufficient suction was performed. The patient could maintain SpO), and sufficient suction was performed. The patient could maintain SpO2 without high positive-pressure ventilation after sufficient suction during bronchoscopy. The peak inspiratory pressure was reduced from 26 to 20 mmHg after bronchoscopic toileting of the secretion, at a tidal volume of 450 ml, respiratory rate of 14/min, and positive end-expiratory pressure (PEEP) of 5 cmH2O. Subsequently, for the paratracheal lymph node biopsy, we administered propofol 20 mg and succinylcholine 30 mg, followed by the replacement of the ETT with a size 4 supraglottic airway device (i-gel, Intersurgical Ltd.). Biopsy using an EBUS bronchoscope was performed while maintaining positive-pressure ventilation through a supraglottic airway device. SpO2 was maintained around 90% with FiO2 of 1.0 for the duration of the procedure. After the procedure, the patient was extubated, and HFNC with FiO2 of 1.0 and flow rate of 40 L was applied, maintaining SpO2 above 90%. In the post-anesthesia care unit, the patient coughed severely and expectorated pink frothy sputum in a sitting position, but SpO2 was maintained at approximately 95%. We gradually reduced the FiO2 and flow rate to 0.75 and 30 L in 30 min while maintaining SpO2 of 95%. The patient was transferred to the intensive care unit. Chest radiography after transfer showed bilateral pulmonary edema (<xref rid=\"apm-23085f3\" ref-type=\"fig\">Fig. 3</xref>).).",
-  "relevant_image_context": "The patient had an enlarged lymph node (4.9 × 4.1 cm) in the right paratracheal area on chest CT, resulting in tracheal narrowing (7.3 mm) (Fig. 1)."
+  "relevant_image_context": "The patient had an enlarged lymph node (4.9 × 4.1 cm) in the right paratracheal area on chest CT, resulting in tracheal narrowing (7.3 mm) (Fig. 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_140_41-PMC10635853-2-apm-23085f1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_140_41-PMC10635853-2-apm-23085f1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "right paratracheal lesion shape",
+        "claim_text": "A lesion in the right paratracheal region is rounded.",
+        "presence_question": "Does the model's response discuss right paratracheal lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that A lesion in the right paratracheal region is rounded?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "right paratracheal lesion margin",
+        "claim_text": "The lesion in the right paratracheal region has well-defined margins.",
+        "presence_question": "Does the model's response discuss right paratracheal lesion margin?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the right paratracheal region has well-defined margins?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "right paratracheal lesion density",
+        "claim_text": "The lesion in the right paratracheal region has soft-tissue density.",
+        "presence_question": "Does the model's response discuss right paratracheal lesion density?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the right paratracheal region has soft-tissue density?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "adjacent to right lateral trachea",
+        "claim_text": "The lesion is adjacent to the right lateral aspect of the trachea.",
+        "presence_question": "Does the model's response discuss adjacent to right lateral trachea?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is adjacent to the right lateral aspect of the trachea?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "tracheal lumen appearance",
+        "claim_text": "The tracheal lumen at the thoracic inlet appears as an air-filled circle.",
+        "presence_question": "Does the model's response discuss tracheal lumen appearance?",
+        "correctness_question": "Does the model's response correctly assert that The tracheal lumen at the thoracic inlet appears as an air-filled circle?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "tracheal compression by lesion",
+        "claim_text": "The right paratracheal lesion compresses the tracheal lumen medially.",
+        "presence_question": "Does the model's response discuss tracheal compression by lesion?",
+        "correctness_question": "Does the model's response correctly assert that The right paratracheal lesion compresses the tracheal lumen medially?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "right paratracheal lesion location",
+        "claim_text": "The lesion is located in the right paratracheal region.",
+        "presence_question": "Does the model's response discuss right paratracheal lesion location?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is located in the right paratracheal region?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "lesion not in tracheal wall",
+        "claim_text": "The lesion is not located in the tracheal wall.",
+        "presence_question": "Does the model's response discuss lesion not in tracheal wall?",
+        "correctness_question": "Does the model's response correctly assert that The lesion is not located in the tracheal wall?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "paratracheal soft-tissue mass",
+        "claim_text": "A paratracheal soft-tissue mass typically suggests an enlarged paratracheal lymph node.",
+        "presence_question": "Does the model's response discuss paratracheal soft-tissue mass?",
+        "correctness_question": "Does the model's response correctly state that \"A paratracheal soft-tissue mass typically suggests an enlarged paratracheal lymph node.\"?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "medial tracheal compression",
+        "claim_text": "Medial compression of the tracheal lumen by an adjacent lesion typically indicates external (extrinsic) mass effect rather than an intraluminal tracheal lesion.",
+        "presence_question": "Does the model's response discuss medial tracheal compression?",
+        "correctness_question": "Does the model's response correctly state that \"Medial compression of the tracheal lumen by an adjacent lesion typically indicates external (extrinsic) mass effect rather than an intraluminal tracheal lesion.\"?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Extrinsic right paratracheal mass effect",
+        "claim_text": "The lesion adjacent to the right lateral trachea that compresses the tracheal lumen medially is consistent with an extrinsic right paratracheal mass producing external mass effect on the trachea.",
+        "presence_question": "Does the model's response make an inferential link about extrinsic right paratracheal mass effect?",
+        "correctness_question": "Does the model's response correctly conclude that The lesion adjacent to the right lateral trachea that compresses the tracheal lumen medially is consistent with an extrinsic right paratracheal mass producing external mass effect on the trachea.?",
+        "premise_perception_ids": [
+          "p4",
+          "p6",
+          "p5",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Right paratracheal lymph node diagnosis",
+        "claim_text": "The rounded, well-defined soft-tissue density in the right paratracheal region supports an enlarged right paratracheal lymph node as a plausible diagnosis.",
+        "presence_question": "Does the model's response make an inferential link about right paratracheal lymph node diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The rounded, well-defined soft-tissue density in the right paratracheal region supports an enlarged right paratracheal lymph node as a plausible diagnosis.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

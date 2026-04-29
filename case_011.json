@@ -27,5 +27,153 @@
   "caption": "Computerised tomography scan image in Patient 2 showing previous right hemihepatectomy and dilated left intrahepatic ducts.",
   "sub_caption": "Computerised tomography scan image in Patient 2 showing previous right hemihepatectomy and dilated left intrahepatic ducts.",
   "image_context": "Patient 2 received broad-spectrum antibiotics and intravenous fluid resuscitation, then CT scanning showed dilated left intrahepatic ducts Figure <xref ref-type=\"fig\" rid=\"WJGE-11-298-g003\">3</xref>. USS-guided PTC in Patient 2 showed multiple calculi in the dilated left intrahepatic ducts Figure . USS-guided PTC in Patient 2 showed multiple calculi in the dilated left intrahepatic ducts Figure <xref ref-type=\"fig\" rid=\"WJGE-11-298-g004\">4</xref> and a hepaticojejunostomy stricture. and a hepaticojejunostomy stricture.",
-  "relevant_image_context": "Patient 2 received broad-spectrum antibiotics and intravenous fluid resuscitation, then CT scanning showed dilated left intrahepatic ducts Figure 3."
+  "relevant_image_context": "Patient 2 received broad-spectrum antibiotics and intravenous fluid resuscitation, then CT scanning showed dilated left intrahepatic ducts Figure 3.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_66_7-PMC6475703-8-WJGE-11-298-g003.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_66_7-PMC6475703-8-WJGE-11-298-g003.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "right hepatic parenchyma",
+        "claim_text": "The right hepatic parenchyma is largely absent on imaging.",
+        "presence_question": "Does the model's response discuss right hepatic parenchyma?",
+        "correctness_question": "Does the model's response correctly assert that the right hepatic parenchyma is largely absent on imaging?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "postoperative fluid-containing space",
+        "claim_text": "A postoperative fluid-containing space is present in the right hepatic region on imaging.",
+        "presence_question": "Does the model's response discuss postoperative fluid-containing space?",
+        "correctness_question": "Does the model's response correctly assert that a postoperative fluid-containing space is present in the right hepatic region on imaging?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "postoperative fluid-containing space location",
+        "claim_text": "The postoperative fluid-containing space is located in the right hepatic region on imaging.",
+        "presence_question": "Does the model's response discuss postoperative fluid-containing space location?",
+        "correctness_question": "Does the model's response correctly assert that the postoperative fluid-containing space is located in the right hepatic region on imaging?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "central branching tubular structures in left liver",
+        "claim_text": "The left hepatic lobe shows central branching low-attenuation tubular structures on imaging.",
+        "presence_question": "Does the model's response discuss central branching tubular structures in left liver?",
+        "correctness_question": "Does the model's response correctly assert that the left hepatic lobe shows central branching low-attenuation tubular structures on imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "increased branching tubular structures in left liver",
+        "claim_text": "Branching low-attenuation tubular structures in the central left hepatic lobe are increased compared to a normal liver on imaging.",
+        "presence_question": "Does the model's response discuss increased branching tubular structures in left liver?",
+        "correctness_question": "Does the model's response correctly assert that branching low-attenuation tubular structures in the central left hepatic lobe are increased compared to a normal liver on imaging?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "extension of left intrahepatic ductal dilatation",
+        "claim_text": "Central left intrahepatic ductal dilatation likely extends to the extrahepatic biliary tree on imaging.",
+        "presence_question": "Does the model's response discuss extension of left intrahepatic ductal dilatation?",
+        "correctness_question": "Does the model's response correctly assert that central left intrahepatic ductal dilatation likely extends to the extrahepatic biliary tree on imaging?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "left-sided ductal dilation",
+        "claim_text": "Left-sided intrahepatic ductal dilation persists on CT imaging.",
+        "presence_question": "Does the model's response discuss left-sided ductal dilation?",
+        "correctness_question": "Does the model's response correctly assert that left-sided intrahepatic ductal dilation persists on CT imaging?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "biliary ductal dilation",
+        "claim_text": "Biliary ductal dilation indicates obstruction or impaired biliary drainage.",
+        "presence_question": "Does the model's response discuss biliary ductal dilation?",
+        "correctness_question": "Does the model's response correctly state that Biliary ductal dilation indicates obstruction or impaired biliary drainage?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "ERCP for biliary drainage",
+        "claim_text": "ERCP is typically better for establishing internal biliary drainage when the ducts are accessible via the ampulla of Vater.",
+        "presence_question": "Does the model's response discuss ERCP for biliary drainage?",
+        "correctness_question": "Does the model's response correctly state that ERCP is typically better for establishing internal biliary drainage when the ducts are accessible via the ampulla of Vater?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "intrahepatic and extrahepatic duct communication",
+        "claim_text": "Communication between the intrahepatic ducts and the extrahepatic biliary tree indicates that endoscopic access via the ampulla is feasible.",
+        "presence_question": "Does the model's response discuss intrahepatic and extrahepatic duct communication?",
+        "correctness_question": "Does the model's response correctly state that Communication between the intrahepatic ducts and the extrahepatic biliary tree indicates that endoscopic access via the ampulla is feasible?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "right hemihepatectomy biliary drainage",
+        "claim_text": "After a right hemihepatectomy, the left ductal system typically becomes the main biliary drainage pathway.",
+        "presence_question": "Does the model's response discuss right hemihepatectomy biliary drainage?",
+        "correctness_question": "Does the model's response correctly state that After a right hemihepatectomy, the left ductal system typically becomes the main biliary drainage pathway?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Left-sided biliary obstruction",
+        "claim_text": "Persistent left-sided intrahepatic ductal dilation on CT supports the presence of ongoing left-sided biliary obstruction or impaired drainage in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Left-sided biliary obstruction?",
+        "correctness_question": "Does the model's response correctly conclude that Persistent left-sided intrahepatic ductal dilation on CT supports the presence of ongoing left-sided biliary obstruction or impaired drainage in this patient?",
+        "premise_perception_ids": [
+          "p7",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Left ductal system as main drain",
+        "claim_text": "Absence of right hepatic parenchyma with a postoperative fluid-containing space is consistent with prior right hemihepatectomy, which in turn means the left ductal system is now the main draining system for hepatic bile in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Left ductal system as main drain?",
+        "correctness_question": "Does the model's response correctly conclude that Absence of right hepatic parenchyma with a postoperative fluid-containing space is consistent with prior right hemihepatectomy, which in turn means the left ductal system is now the main draining system for hepatic bile in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Endoscopic access via ampulla feasibility",
+        "claim_text": "The imaging finding that the central left intrahepatic ductal dilatation likely extends to the extrahepatic biliary tree supports that endoscopic access via the ampulla is feasible in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Endoscopic access via ampulla feasibility?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging finding that the central left intrahepatic ductal dilatation likely extends to the extrahepatic biliary tree supports that endoscopic access via the ampulla is feasible in this patient?",
+        "premise_perception_ids": [
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Urgent ERCP biliary decompression indication",
+        "claim_text": "Given persistent left-sided biliary dilation consistent with likely obstruction and the apparent communication with the extrahepatic biliary tree, urgent biliary decompression via endoscopic (ERCP) drainage is indicated in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Urgent ERCP biliary decompression indication?",
+        "correctness_question": "Does the model's response correctly conclude that Given persistent left-sided biliary dilation consistent with likely obstruction and the apparent communication with the extrahepatic biliary tree, urgent biliary decompression via endoscopic (ERCP) drainage is indicated in this patient?",
+        "premise_perception_ids": [
+          "p7",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

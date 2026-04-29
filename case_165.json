@@ -28,5 +28,146 @@
   "caption": "Abdominal computed tomography (coronal view) demonstrating a large metastatic tumor occupying a significant part of the liver parenchyma, and multiple tumors in a number of loops of the small intestine (arrows) infiltrating the bowel wall.",
   "sub_caption": "Abdominal computed tomography (coronal view) demonstrating a large metastatic tumor occupying a significant part of the liver parenchyma, and multiple tumors in a number of loops of the small intestine (arrows) infiltrating the bowel wall.",
   "image_context": "An 81-year-old woman was admitted to the emergency department of our institution due to fatigue and malaise. Upon admission the patient was hemodynamically stable. The patient's history of atrial fibrillation was significant and a Coumadin analog was administered. Additionally, the patient had a history of a locally advanced non-small cell carcinoma of the right lung (stage IIIB); her lesion was considered unresectable at the time and the patient received cisplatin and etoposide combined with radiotherapy, showing a significant response. Approximately 1.5 years later, she was diagnosed with a metastatic lesion of the left lung during follow-up. Chemotherapy was restarted, but the patient was lost to follow-up in the next year. The patient reported mild abdominal discomfort, which had started 2 weeks prior to the current presentation. Upon admission, she presented with severe anemia (Hct 18.5%), leucopenia (WBC 2,330 K/µl), thrombocytopenia (PLT 55,000 K/µl), and a protracted INR of 6.41. Chest X-ray showed diffuse pulmonary infiltrations and lobular pneumonia at the right lower lobe. The abdominal ultrasound showed multiple focal lesions in both hepatic lobes, with features of metastasis. At 2 days post-admission, the patient presented with diffuse abdominal pain combined with fever (38.1°C), and surgical consultation was demanded. At physical examination the patient had diffuse abdominal tenderness and guarding, rebound tenderness, abdominal distention and obstipation. Her blood test revealed Hct 22.1%, WBC 20,000 K/µl, PLT 47,000 K/µl, whereas the biochemical tests were within normal limits. An abdominal CT revealed wall thickening at the level of the mid-sigmoid and the presence of free air in the peritoneal cavity, likely due to perforation of the gastrointestinal tract. Several round lesions were infiltrating the wall of the small bowel, 2–3 cm in diameter, and large metastatic lesions were also revealed within the liver parenchyma. A moderate quantity of ascitic fluid, and multiple enlarged lymph nodes within the mesentery were also identified (<xref rid=\"ol-17-04-3862-g00\" ref-type=\"fig\">Fig. 1</xref>). The patient was urgently led to surgery for an exploratory laparotomy. Upon entering the peritoneal cavity, diffuse feculent peritonitis, due to perforation of the jejunum 1 m from the ligament of Treitz, was found. In addition, six distinct tumors of the jejunum close to the perforation site were found, as well as two more similar lesions caudally at the ileum (). The patient was urgently led to surgery for an exploratory laparotomy. Upon entering the peritoneal cavity, diffuse feculent peritonitis, due to perforation of the jejunum 1 m from the ligament of Treitz, was found. In addition, six distinct tumors of the jejunum close to the perforation site were found, as well as two more similar lesions caudally at the ileum (<xref rid=\"ol-17-04-3862-g01\" ref-type=\"fig\">Fig. 2A</xref>). The tumors were round, hard and protruding from the bowel wall, with dimensions &lt;4 cm. A separate stenotic tumor at the wall of the mid-sigmoid was identified, which caused moderate dilation of the proximal intestine (). The tumors were round, hard and protruding from the bowel wall, with dimensions <4 cm. A separate stenotic tumor at the wall of the mid-sigmoid was identified, which caused moderate dilation of the proximal intestine (<xref rid=\"ol-17-04-3862-g01\" ref-type=\"fig\">Fig. 2B</xref>). Enterectomy, including the perforation site and the proximal six tumors, was first performed, followed by limited enterectomies for the distal two tumors (). Enterectomy, including the perforation site and the proximal six tumors, was first performed, followed by limited enterectomies for the distal two tumors (<xref rid=\"ol-17-04-3862-g01\" ref-type=\"fig\">Fig. 2C and D</xref>). The continuity of the gastrointestinal tract was reinstated with side-to-side anastomoses of the small intestine using a linear stapler. For the sigmoid tumor, a Hartmann procedure with limited resection of the mid-sigmoid was performed. The patient remained in a severe septic condition following surgery and succumbed the next day.). The continuity of the gastrointestinal tract was reinstated with side-to-side anastomoses of the small intestine using a linear stapler. For the sigmoid tumor, a Hartmann procedure with limited resection of the mid-sigmoid was performed. The patient remained in a severe septic condition following surgery and succumbed the next day.",
-  "relevant_image_context": "An abdominal CT revealed wall thickening at the level of the mid-sigmoid and the presence of free air in the peritoneal cavity, likely due to perforation of the gastrointestinal tract. Several round lesions were infiltrating the wall of the small bowel, 2–3 cm in diameter, and large metastatic lesions were also revealed within the liver parenchyma."
+  "relevant_image_context": "An abdominal CT revealed wall thickening at the level of the mid-sigmoid and the presence of free air in the peritoneal cavity, likely due to perforation of the gastrointestinal tract. Several round lesions were infiltrating the wall of the small bowel, 2–3 cm in diameter, and large metastatic lesions were also revealed within the liver parenchyma.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_64_48-PMC6403519-3-ol-17-04-3862-g00.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_64_48-PMC6403519-3-ol-17-04-3862-g00.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "extraluminal gas",
+        "claim_text": "There is extraluminal gas identified on the imaging study.",
+        "presence_question": "Does the model's response discuss extraluminal gas?",
+        "correctness_question": "Does the model's response correctly assert that There is extraluminal gas identified on the imaging study.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "multiple small extraluminal gas collections",
+        "claim_text": "Multiple small extraluminal gas collections are present on the imaging study.",
+        "presence_question": "Does the model's response discuss multiple small extraluminal gas collections?",
+        "correctness_question": "Does the model's response correctly assert that Multiple small extraluminal gas collections are present on the imaging study.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "extraluminal gas adjacent to left lower pelvic bowel",
+        "claim_text": "Extraluminal gas is adjacent to the lower abdominal and left pelvic bowel.",
+        "presence_question": "Does the model's response discuss extraluminal gas adjacent to left lower pelvic bowel?",
+        "correctness_question": "Does the model's response correctly assert that Extraluminal gas is adjacent to the lower abdominal and left pelvic bowel.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "inflammatory stranding around extraluminal gas",
+        "claim_text": "Inflammatory stranding surrounds the extraluminal gas collections adjacent to the lower left pelvis.",
+        "presence_question": "Does the model's response discuss inflammatory stranding around extraluminal gas?",
+        "correctness_question": "Does the model's response correctly assert that Inflammatory stranding surrounds the extraluminal gas collections adjacent to the lower left pelvis.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "peritoneal fluid-density material",
+        "claim_text": "There is peritoneal fluid-density material within the peritoneal cavity on the imaging study.",
+        "presence_question": "Does the model's response discuss peritoneal fluid-density material?",
+        "correctness_question": "Does the model's response correctly assert that There is peritoneal fluid-density material within the peritoneal cavity on the imaging study.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Free intraperitoneal air on CT",
+        "claim_text": "Free intraperitoneal air on CT typically indicates bowel perforation with peritoneal contamination.",
+        "presence_question": "Does the model's response discuss Free intraperitoneal air on CT?",
+        "correctness_question": "Does the model's response correctly state that Free intraperitoneal air on CT typically indicates bowel perforation with peritoneal contamination?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "CT: free intraperitoneal air with inflammatory change",
+        "claim_text": "CT showing free intraperitoneal air with inflammatory changes typically indicates a surgical source-control problem that commonly explains a peritonitic abdominal exam.",
+        "presence_question": "Does the model's response discuss CT: free intraperitoneal air with inflammatory change?",
+        "correctness_question": "Does the model's response correctly state that CT showing free intraperitoneal air with inflammatory changes typically indicates a surgical source-control problem that commonly explains a peritonitic abdominal exam?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Fresh intestinal anastomosis with active peritonitis",
+        "claim_text": "Performing a fresh intestinal anastomosis in the setting of active peritonitis and a contaminated or unprepared field is generally contraindicated because it increases anastomotic risk and is unsafe.",
+        "presence_question": "Does the model's response discuss Fresh intestinal anastomosis with active peritonitis?",
+        "correctness_question": "Does the model's response correctly state that Performing a fresh intestinal anastomosis in the setting of active peritonitis and a contaminated or unprepared field is generally contraindicated because it increases anastomotic risk and is unsafe?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Hartmann procedure for contaminated colorectal perforation",
+        "claim_text": "Segmental colon resection with end colostomy (Hartmann procedure) addresses source control while minimizing anastomotic risk in contaminated colorectal perforation.",
+        "presence_question": "Does the model's response discuss Hartmann procedure for contaminated colorectal perforation?",
+        "correctness_question": "Does the model's response correctly state that Segmental colon resection with end colostomy (Hartmann procedure) addresses source control while minimizing anastomotic risk in contaminated colorectal perforation?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "presence of bowel perforation",
+        "claim_text": "The CT findings of multiple extraluminal gas collections adjacent to lower abdominal/left pelvic bowel with surrounding inflammatory stranding and peritoneal fluid support the presence of bowel perforation with peritoneal contamination in this case.",
+        "presence_question": "Does the model's response make an inferential link about the presence of bowel perforation?",
+        "correctness_question": "Does the model's response correctly conclude that The CT findings of multiple extraluminal gas collections adjacent to lower abdominal/left pelvic bowel with surrounding inflammatory stranding and peritoneal fluid support the presence of bowel perforation with peritoneal contamination in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "need for surgical source control",
+        "claim_text": "The combination of free intraperitoneal air and inflammatory change on CT indicates that this presentation represents a surgical source-control problem rather than a purely medical condition.",
+        "presence_question": "Does the model's response make an inferential link about the need for surgical source control?",
+        "correctness_question": "Does the model's response correctly conclude that The combination of free intraperitoneal air and inflammatory change on CT indicates that this presentation represents a surgical source-control problem rather than a purely medical condition?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "suitability of fresh intestinal anastomosis",
+        "claim_text": "Given imaging evidence of intra-abdominal contamination and active peritonitis, a fresh intestinal anastomosis is not advised in this case because an unprepared contaminated field increases anastomotic risk.",
+        "presence_question": "Does the model's response make an inferential link about the suitability of a fresh intestinal anastomosis?",
+        "correctness_question": "Does the model's response correctly conclude that Given imaging evidence of intra-abdominal contamination and active peritonitis, a fresh intestinal anastomosis is not advised in this case because an unprepared contaminated field increases anastomotic risk?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "justification for Hartmann procedure",
+        "claim_text": "Performing an emergency laparotomy with segmental colon resection and end colostomy (Hartmann procedure) is justified in this case to achieve source control while minimizing anastomotic risk.",
+        "presence_question": "Does the model's response make an inferential link about the justification for a Hartmann procedure?",
+        "correctness_question": "Does the model's response correctly conclude that Performing an emergency laparotomy with segmental colon resection and end colostomy (Hartmann procedure) is justified in this case to achieve source control while minimizing anastomotic risk?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -27,5 +27,123 @@
   "caption": "Kawasaki disease and right coronary artery aneurysms in an 8-year-old boy. a Curved planar reformat from CT angiography of the right coronary artery (RCA) demonstrates a smaller aneurysm proximally (arrow) and a large aneurysm with coarse calcifications distally (arrowhead). b Three-dimensional reconstruction from CT angiography viewed from the right anterior also demonstrates a proximal aneurysm (arrow) and distal aneurysm with calcifications (arrowhead). c Curved planar reformat from CT angiography on follow-up 6 years later at 14 years old demonstrates increased calcification peripherally in both aneurysms as well as new high-grade stenosis just proximal to the proximal aneurysm (arrow) and a nearly non-opacified coronary artery segment between the aneurysms (arrowhead). d Coronal oblique reconstruction from CT angiography demonstrates high-grade stenosis (arrowhead) and near occlusion of the artery between the aneurysms (arrow)",
   "sub_caption": "b Three-dimensional reconstruction from CT angiography viewed from the right anterior also demonstrates a proximal aneurysm (arrow) and distal aneurysm with calcifications (arrowhead).",
   "image_context": "Kawasaki disease is a febrile vasculitis of unknown origin that occurs primarily in children younger than 5 years and is now the most common cause of acquired heart disease in children in the United States [39]. During the acute illness, some children experience necrotizing arteritis, predominantly of the coronary arteries. A combination of destruction of the arterial walls, ongoing inflammation, and development of thrombus leads to acute and chronic cardiovascular complications [39]. As a result, up to 25% of these children develop coronary artery aneurysms, which can thrombose or develop significant stenosis [8, 39]. With treatment, the prevalence of coronary artery abnormalities can be reduced to 4–8% [40, 41]. Prognosis and management of these children require detection and quantification of coronary artery aneurysms and stenoses, typically with echocardiography, which has high sensitivity and specificity for detecting abnormalities in the proximal coronary artery segments [39]. However, the utility of echocardiography is more limited for detecting distal coronary artery stenoses, thrombi and distal coronary involvement [39]. CT is widely used to obtain high-resolution imaging of the entire coronary anatomy [8]. Figure <xref rid=\"247_2021_5209_Fig4_HTML\" ref-type=\"fig\">4</xref> demonstrates multiple coronary artery aneurysms in the right coronary artery in a child with Kawasaki disease as well as progression with development of stenoses on follow-up. demonstrates multiple coronary artery aneurysms in the right coronary artery in a child with Kawasaki disease as well as progression with development of stenoses on follow-up.Fig. 4Kawasaki disease and right coronary artery aneurysms in an 8-year-old boy. a Curved planar reformat from CT angiography of the right coronary artery (RCA) demonstrates a smaller aneurysm proximally (arrow) and a large aneurysm with coarse calcifications distally (arrowhead). b Three-dimensional reconstruction from CT angiography viewed from the right anterior also demonstrates a proximal aneurysm (arrow) and distal aneurysm with calcifications (arrowhead). c Curved planar reformat from CT angiography on follow-up 6 years later at 14 years old demonstrates increased calcification peripherally in both aneurysms as well as new high-grade stenosis just proximal to the proximal aneurysm (arrow) and a nearly non-opacified coronary artery segment between the aneurysms (arrowhead). d Coronal oblique reconstruction from CT angiography demonstrates high-grade stenosis (arrowhead) and near occlusion of the artery between the aneurysms (arrow)",
-  "relevant_image_context": "Kawasaki disease is a febrile vasculitis of unknown origin that occurs primarily in children younger than 5 years and is now the most common cause of acquired heart disease in children in the United States [39]. During the acute illness, some children experience necrotizing arteritis, predominantly of the coronary arteries. A combination of destruction of the arterial walls, ongoing inflammation, and development of thrombus leads to acute and chronic cardiovascular complications [39]. As a result, up to 25% of these children develop coronary artery aneurysms, which can thrombose or develop significant stenosis [8, 39]. With treatment, the prevalence of coronary artery abnormalities can be reduced to 4–8% [40, 41]. Prognosis and management of these children require detection and quantification of coronary artery aneurysms and stenoses, typically with echocardiography, which has high sensitivity and specificity for detecting abnormalities in the proximal coronary artery segments [39]. However, the utility of echocardiography is more limited for detecting distal coronary artery stenoses, thrombi and distal coronary involvement [39]. CT is widely used to obtain high-resolution imaging of the entire coronary anatomy [8]. Figure 4 demonstrates multiple coronary artery aneurysms in the right coronary artery in a child with Kawasaki disease as well as progression with development of stenoses on follow-up. Fig. 4 Kawasaki disease and right coronary artery aneurysms in an 8-year-old boy. b Three-dimensional reconstruction from CT angiography viewed from the right anterior also demonstrates a proximal aneurysm (arrow) and distal aneurysm with calcifications (arrowhead)."
+  "relevant_image_context": "Kawasaki disease is a febrile vasculitis of unknown origin that occurs primarily in children younger than 5 years and is now the most common cause of acquired heart disease in children in the United States [39]. During the acute illness, some children experience necrotizing arteritis, predominantly of the coronary arteries. A combination of destruction of the arterial walls, ongoing inflammation, and development of thrombus leads to acute and chronic cardiovascular complications [39]. As a result, up to 25% of these children develop coronary artery aneurysms, which can thrombose or develop significant stenosis [8, 39]. With treatment, the prevalence of coronary artery abnormalities can be reduced to 4–8% [40, 41]. Prognosis and management of these children require detection and quantification of coronary artery aneurysms and stenoses, typically with echocardiography, which has high sensitivity and specificity for detecting abnormalities in the proximal coronary artery segments [39]. However, the utility of echocardiography is more limited for detecting distal coronary artery stenoses, thrombi and distal coronary involvement [39]. CT is widely used to obtain high-resolution imaging of the entire coronary anatomy [8]. Figure 4 demonstrates multiple coronary artery aneurysms in the right coronary artery in a child with Kawasaki disease as well as progression with development of stenoses on follow-up. Fig. 4 Kawasaki disease and right coronary artery aneurysms in an 8-year-old boy. b Three-dimensional reconstruction from CT angiography viewed from the right anterior also demonstrates a proximal aneurysm (arrow) and distal aneurysm with calcifications (arrowhead).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_96_10-PMC8566193-2-247_2021_5209_Fig4_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_96_10-PMC8566193-2-247_2021_5209_Fig4_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Proximal coronary artery dilation",
+        "claim_text": "There is a focal dilation of the proximal coronary artery.",
+        "presence_question": "Does the model's response discuss Proximal coronary artery dilation?",
+        "correctness_question": "Does the model's response correctly assert that There is a focal dilation of the proximal coronary artery?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Distal coronary artery dilation",
+        "claim_text": "There is a separate dilation of the distal coronary artery segment.",
+        "presence_question": "Does the model's response discuss Distal coronary artery dilation?",
+        "correctness_question": "Does the model's response correctly assert that There is a separate dilation of the distal coronary artery segment?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Distal coronary artery wall calcification",
+        "claim_text": "There is calcification in the distal coronary artery wall.",
+        "presence_question": "Does the model's response discuss Distal coronary artery wall calcification?",
+        "correctness_question": "Does the model's response correctly assert that There is calcification in the distal coronary artery wall?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "coronary artery aneurysms",
+        "claim_text": "Coronary artery aneurysms carry an increased risk of thrombus formation within the aneurysmal lumen.",
+        "presence_question": "Does the model's response discuss coronary artery aneurysms?",
+        "correctness_question": "Does the model's response correctly state that Coronary artery aneurysms carry an increased risk of thrombus formation within the aneurysmal lumen?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "coronary artery wall calcification",
+        "claim_text": "Coronary artery wall calcification suggests chronic aneurysmal change.",
+        "presence_question": "Does the model's response discuss coronary artery wall calcification?",
+        "correctness_question": "Does the model's response correctly state that Coronary artery wall calcification suggests chronic aneurysmal change?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "treatment of coronary artery aneurysms",
+        "claim_text": "Coronary artery aneurysms are typically managed with combined systemic anticoagulation and antiplatelet therapy.",
+        "presence_question": "Does the model's response discuss treatment of coronary artery aneurysms?",
+        "correctness_question": "Does the model's response correctly state that Coronary artery aneurysms are typically managed with combined systemic anticoagulation and antiplatelet therapy?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "focal coronary artery dilation on angiography",
+        "claim_text": "Focal coronary artery dilation on angiography is characteristic of a coronary artery aneurysm.",
+        "presence_question": "Does the model's response discuss focal coronary artery dilation on angiography?",
+        "correctness_question": "Does the model's response correctly state that Focal coronary artery dilation on angiography is characteristic of a coronary artery aneurysm?"
+      },
+      {
+        "knowledge_id": "k6",
+        "topic": "childhood febrile vasculitis (e.g., Kawasaki disease)",
+        "claim_text": "Childhood febrile vasculitis, such as Kawasaki disease, can cause coronary artery aneurysms.",
+        "presence_question": "Does the model's response discuss childhood febrile vasculitis (e.g., Kawasaki disease)?",
+        "correctness_question": "Does the model's response correctly state that Childhood febrile vasculitis, such as Kawasaki disease, can cause coronary artery aneurysms?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Coronary artery aneurysm diagnosis",
+        "claim_text": "The image findings of focal proximal and separate distal coronary dilations with distal wall calcification are consistent with coronary artery aneurysms in this case.",
+        "presence_question": "Does the model's response make an inferential link about Coronary artery aneurysm diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The image findings of focal proximal and separate distal coronary dilations with distal wall calcification are consistent with coronary artery aneurysms in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k5",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Increased coronary thrombosis risk",
+        "claim_text": "The presence of coronary artery aneurysms on imaging implies an increased risk of coronary thrombosis for this patient.",
+        "presence_question": "Does the model's response make an inferential link about Increased coronary thrombosis risk?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of coronary artery aneurysms on imaging implies an increased risk of coronary thrombosis for this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Combined anticoagulation and antiplatelet therapy",
+        "claim_text": "Given the imaging evidence of coronary aneurysms and their thrombotic risk, combined systemic anticoagulation plus antiplatelet therapy is an appropriate long-term approach to reduce thrombosis risk in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Combined anticoagulation and antiplatelet therapy?",
+        "correctness_question": "Does the model's response correctly conclude that Given the imaging evidence of coronary aneurysms and their thrombotic risk, combined systemic anticoagulation plus antiplatelet therapy is an appropriate long-term approach to reduce thrombosis risk in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

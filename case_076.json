@@ -28,5 +28,123 @@
   "caption": "Doppler ultrasonography examination showing an obstructed artery.",
   "sub_caption": "Doppler ultrasonography examination showing an obstructed artery.",
   "image_context": "Regarding clinical and ultrasound evaluations, we found that both the Allen test and the handheld Doppler evaluation were reliable for determining arterial patency when they indicated positive results (patent artery), resulting in a high positive predictive value. However, the Doppler ultrasonography results were not well correlated with clinical test results showing a nonpatent artery (\n<xref rid=\"10-1055-s-0041-1729574-i2000240en-7\" ref-type=\"fig\">Fig. 7</xref>\n), resulting in a large number of false negatives. Our sample size was small, but we propose that the clinical evaluations are sufficient to assess vascular repair.\n\n), resulting in a large number of false negatives. Our sample size was small, but we propose that the clinical evaluations are sufficient to assess vascular repair.\n4",
-  "relevant_image_context": "Regarding clinical and ultrasound evaluations, we found that both the Allen test and the handheld Doppler evaluation were reliable for determining arterial patency when they indicated positive results (patent artery), resulting in a high positive predictive value. However, the Doppler ultrasonography results were not well correlated with clinical test results showing a nonpatent artery (Fig. 7), resulting in a large number of false negatives. Our sample size was small, but we propose that the clinical evaluations are sufficient to assess vascular repair."
+  "relevant_image_context": "Regarding clinical and ultrasound evaluations, we found that both the Allen test and the handheld Doppler evaluation were reliable for determining arterial patency when they indicated positive results (patent artery), resulting in a high positive predictive value. However, the Doppler ultrasonography results were not well correlated with clinical test results showing a nonpatent artery (Fig. 7), resulting in a large number of false negatives. Our sample size was small, but we propose that the clinical evaluations are sufficient to assess vascular repair.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_114_3-PMC9246535-11-10-1055-s-0041-1729574-i2000240en-7.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_114_3-PMC9246535-11-10-1055-s-0041-1729574-i2000240en-7.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "upper-extremity artery flow",
+        "claim_text": "Color Doppler signal is located in an upper-extremity artery.",
+        "presence_question": "Does the model's response discuss upper-extremity artery flow?",
+        "correctness_question": "Does the model's response correctly assert that Color Doppler signal is located in an upper-extremity artery?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "short-segment color flow",
+        "claim_text": "Color flow is confined to a short segment.",
+        "presence_question": "Does the model's response discuss short-segment color flow?",
+        "correctness_question": "Does the model's response correctly assert that Color flow is confined to a short segment?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "abrupt color-flow change on right image side",
+        "claim_text": "There is an abrupt change in color flow pattern at the right side of the image.",
+        "presence_question": "Does the model's response discuss abrupt color-flow change on right image side?",
+        "correctness_question": "Does the model's response correctly assert that There is an abrupt change in color flow pattern at the right side of the image?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "flow beyond abrupt change",
+        "claim_text": "Flow beyond the abrupt change appears limited or noncontinuous.",
+        "presence_question": "Does the model's response discuss flow beyond abrupt change?",
+        "correctness_question": "Does the model's response correctly assert that Flow beyond the abrupt change appears limited or noncontinuous?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "bedside arterial patency tests",
+        "claim_text": "Positive bedside tests indicating arterial flow are typically associated with arterial patency.",
+        "presence_question": "Does the model's response discuss bedside arterial patency tests?",
+        "correctness_question": "Does the model's response correctly state that positive bedside tests indicating arterial flow are typically associated with arterial patency?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "duplex ultrasonography",
+        "claim_text": "Duplex ultrasonography is less sensitive than digital subtraction angiography for detecting arterial occlusion.",
+        "presence_question": "Does the model's response discuss duplex ultrasonography?",
+        "correctness_question": "Does the model's response correctly state that duplex ultrasonography is less sensitive than digital subtraction angiography for detecting arterial occlusion?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "digital subtraction angiography visualization",
+        "claim_text": "Digital subtraction angiography provides superior direct angiographic visualization of the arterial tree.",
+        "presence_question": "Does the model's response discuss digital subtraction angiography visualization?",
+        "correctness_question": "Does the model's response correctly state that digital subtraction angiography provides superior direct angiographic visualization of the arterial tree?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "digital subtraction angiography localization and intervention",
+        "claim_text": "Digital subtraction angiography is better for defining the exact site and extent of arterial occlusion and for enabling immediate endovascular intervention.",
+        "presence_question": "Does the model's response discuss digital subtraction angiography localization and intervention?",
+        "correctness_question": "Does the model's response correctly state that digital subtraction angiography is better for defining the exact site and extent of arterial occlusion and for enabling immediate endovascular intervention?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "arterial occlusion possibility",
+        "claim_text": "The confined color flow in a short segment with an abrupt change and limited or noncontinuous distal appearance supports the possibility of an arterial occlusion in this case.",
+        "presence_question": "Does the model's response make an inferential link about arterial occlusion possibility?",
+        "correctness_question": "Does the model's response correctly conclude that The confined color flow in a short segment with an abrupt change and limited or noncontinuous distal appearance supports the possibility of an arterial occlusion in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "need for definitive imaging",
+        "claim_text": "Because duplex ultrasonography can miss occlusion and the ultrasound here shows limited or confined flow, a more definitive imaging study is indicated to confirm occlusion and to guide revascularization planning.",
+        "presence_question": "Does the model's response make an inferential link about need for definitive imaging?",
+        "correctness_question": "Does the model's response correctly conclude that Because duplex ultrasonography can miss occlusion and the ultrasound here shows limited or confined flow, a more definitive imaging study is indicated to confirm occlusion and to guide revascularization planning?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "DSA as most appropriate next test",
+        "claim_text": "Digital subtraction angiography provides direct angiographic visualization, better defines the site and extent of occlusion, and enables immediate endovascular intervention; therefore DSA is the most appropriate next diagnostic test to definitively assess arterial patency and to allow possible revascularization in this case.",
+        "presence_question": "Does the model's response make an inferential link about DSA as most appropriate next test?",
+        "correctness_question": "Does the model's response correctly conclude that Digital subtraction angiography provides direct angiographic visualization, better defines the site and extent of occlusion, and enables immediate endovascular intervention; therefore DSA is the most appropriate next diagnostic test to definitively assess arterial patency and to allow possible revascularization in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

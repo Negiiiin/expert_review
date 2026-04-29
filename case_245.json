@@ -27,5 +27,126 @@
   "caption": "Axial section of high-resolution computed tomography of the chest showing patch of ground glass opacity in the apical segment of the left lower lobe.",
   "sub_caption": "Axial section of high-resolution computed tomography of the chest showing patch of ground glass opacity in the apical segment of the left lower lobe.",
   "image_context": "His COVID-19 recovery were confirmed via negative RNA-PCR testing. During his active infection, he had an initial D-dimer of more than 1000 ng/mL, and his electrocardiogram (ECG) showed sinus tachycardia. In addition, high-resolution computed tomography (CT) scan revealed bilateral, multifocal, and ill-defined ground-glass opacification (GGO), mainly involving the lower lobes with absence of PE (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>).).Fig. 1Axial section of high-resolution computed tomography of the chest showing patch of ground glass opacity in the apical segment of the left lower lobe.Fig. 1",
-  "relevant_image_context": "His COVID-19 recovery were confirmed via negative RNA-PCR testing. During his active infection, he had an initial D-dimer of more than 1000 ng/mL, and his electrocardiogram (ECG) showed sinus tachycardia. In addition, high-resolution computed tomography (CT) scan revealed bilateral, multifocal, and ill-defined ground-glass opacification (GGO), mainly involving the lower lobes with absence of PE (Fig. 1).Fig. 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "His COVID-19 recovery were confirmed via negative RNA-PCR testing. During his active infection, he had an initial D-dimer of more than 1000 ng/mL, and his electrocardiogram (ECG) showed sinus tachycardia. In addition, high-resolution computed tomography (CT) scan revealed bilateral, multifocal, and ill-defined ground-glass opacification (GGO), mainly involving the lower lobes with absence of PE (Fig. 1).Fig. 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_105_39-PMC8791848-2-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_105_39-PMC8791848-2-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "CT lung-window image panel",
+        "claim_text": "An axial chest CT lung-window image panel is present in the study.",
+        "presence_question": "Does the model's response discuss CT lung-window image panel?",
+        "correctness_question": "Does the model's response correctly assert that An axial chest CT lung-window image panel is present in the study.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "patchy lung abnormalities",
+        "claim_text": "There are patchy areas of abnormality in the lungs.",
+        "presence_question": "Does the model's response discuss patchy lung abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that There are patchy areas of abnormality in the lungs.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "hazy lung abnormalities",
+        "claim_text": "The areas of abnormality in the lungs have a hazy appearance.",
+        "presence_question": "Does the model's response discuss hazy lung abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that The areas of abnormality in the lungs have a hazy appearance.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "increased lung attenuation",
+        "claim_text": "The areas of abnormality in the lungs show increased attenuation.",
+        "presence_question": "Does the model's response discuss increased lung attenuation?",
+        "correctness_question": "Does the model's response correctly assert that The areas of abnormality in the lungs show increased attenuation.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "bilateral lung involvement",
+        "claim_text": "The areas of abnormality are located in both lungs bilaterally.",
+        "presence_question": "Does the model's response discuss bilateral lung involvement?",
+        "correctness_question": "Does the model's response correctly assert that The areas of abnormality are located in both lungs bilaterally.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "multiple lung abnormalities",
+        "claim_text": "There are multiple areas of abnormality in the lungs.",
+        "presence_question": "Does the model's response discuss multiple lung abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that There are multiple areas of abnormality in the lungs.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "non-dense lung abnormalities",
+        "claim_text": "The areas of abnormality in the lungs are not dense.",
+        "presence_question": "Does the model's response discuss non-dense lung abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that The areas of abnormality in the lungs are not dense.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "bronchovascular markings seen through opacities",
+        "claim_text": "Underlying bronchovascular markings are visible through the areas of abnormality in the lungs.",
+        "presence_question": "Does the model's response discuss bronchovascular markings seen through opacities?",
+        "correctness_question": "Does the model's response correctly assert that Underlying bronchovascular markings are visible through the areas of abnormality in the lungs.?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "ill-defined margins of lung abnormalities",
+        "claim_text": "The areas of abnormality in the lungs have ill-defined margins.",
+        "presence_question": "Does the model's response discuss ill-defined margins of lung abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that The areas of abnormality in the lungs have ill-defined margins.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Ground-glass opacity (lung)",
+        "claim_text": "A ground-glass opacity is a hazy increased-attenuation lung opacity that preserves underlying bronchovascular markings.",
+        "presence_question": "Does the model's response discuss Ground-glass opacity (lung)?",
+        "correctness_question": "Does the model's response correctly state that A ground-glass opacity is a hazy increased-attenuation lung opacity that preserves underlying bronchovascular markings?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Lung window setting on chest CT",
+        "claim_text": "The lung window setting on chest CT is used to assess pulmonary parenchymal patterns.",
+        "presence_question": "Does the model's response discuss Lung window setting on chest CT?",
+        "correctness_question": "Does the model's response correctly state that The lung window setting on chest CT is used to assess pulmonary parenchymal patterns?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "ground-glass opacity predominance",
+        "claim_text": "The combination of patchy, hazy areas of increased attenuation that are not dense, with preservation of underlying bronchovascular markings and ill-defined margins, supports that the predominant parenchymal pattern is ground-glass opacity in this case.",
+        "presence_question": "Does the model's response make an inferential link about ground-glass opacity predominance?",
+        "correctness_question": "Does the model's response correctly conclude that the combination of patchy, hazy areas of increased attenuation that are not dense, with preservation of underlying bronchovascular markings and ill-defined margins, supports that the predominant parenchymal pattern is ground-glass opacity in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p7",
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "bilateral, multifocal distribution",
+        "claim_text": "The opacities are present in both lungs and in multiple separate regions, which supports that the abnormality has a bilateral, multifocal distribution in this case.",
+        "presence_question": "Does the model's response make an inferential link about bilateral, multifocal distribution?",
+        "correctness_question": "Does the model's response correctly conclude that the opacities are present in both lungs and in multiple separate regions, which supports that the abnormality has a bilateral, multifocal distribution in this case?",
+        "premise_perception_ids": [
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

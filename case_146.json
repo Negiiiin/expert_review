@@ -27,5 +27,204 @@
   "caption": "Triphasic CT (Arterial Phase): Enhanced tumor (arrow) with hypodense center and fatty liver.",
   "sub_caption": "Enhanced tumor (arrow) with hypodense center and fatty liver.",
   "image_context": "A triple-phase CT scan showed a 9 x 9 cm mass in segments V/VI of the liver and two smaller lesions in segments III/IV with arterial enhancement, portal venous washout consistent with multifocal HCC, as well as hepatic steatosis (<xref ref-type=\"fig\" rid=\"gr-03-223-g001\">Fig.1</xref>). There were no signs of portal hypertension or cirrhosis. The liver biopsy confirmed the diagnosis of HCC, and the patient then underwent resection of liver segments III and V/VI and intraoperative radiofrequency of the remaining lesion.). There were no signs of portal hypertension or cirrhosis. The liver biopsy confirmed the diagnosis of HCC, and the patient then underwent resection of liver segments III and V/VI and intraoperative radiofrequency of the remaining lesion.",
-  "relevant_image_context": "A triple-phase CT scan showed a 9 x 9 cm mass in segments V/VI of the liver and two smaller lesions in segments III/IV with arterial enhancement, portal venous washout consistent with multifocal HCC, as well as hepatic steatosis. There were no signs of portal hypertension or cirrhosis. The liver biopsy confirmed the diagnosis of HCC, and the patient then underwent resection of liver segments III and V/VI and intraoperative radiofrequency of the remaining lesion."
+  "relevant_image_context": "A triple-phase CT scan showed a 9 x 9 cm mass in segments V/VI of the liver and two smaller lesions in segments III/IV with arterial enhancement, portal venous washout consistent with multifocal HCC, as well as hepatic steatosis. There were no signs of portal hypertension or cirrhosis. The liver biopsy confirmed the diagnosis of HCC, and the patient then underwent resection of liver segments III and V/VI and intraoperative radiofrequency of the remaining lesion.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_39_42-PMC5139721-0-gr-03-223-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_39_42-PMC5139721-0-gr-03-223-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Right hepatic lobe mass",
+        "claim_text": "A mass is present in the right hepatic lobe on axial CT.",
+        "presence_question": "Does the model's response discuss Right hepatic lobe mass?",
+        "correctness_question": "Does the model's response correctly assert that A mass is present in the right hepatic lobe on axial CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Mass in right hepatic lobe",
+        "claim_text": "The mass is located in the right hepatic lobe on axial CT.",
+        "presence_question": "Does the model's response discuss Mass in right hepatic lobe?",
+        "correctness_question": "Does the model's response correctly assert that The mass is located in the right hepatic lobe on axial CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Heterogeneous mass appearance",
+        "claim_text": "The mass in the right hepatic lobe has a heterogeneous appearance on axial CT.",
+        "presence_question": "Does the model's response discuss Heterogeneous mass appearance?",
+        "correctness_question": "Does the model's response correctly assert that The mass in the right hepatic lobe has a heterogeneous appearance on axial CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Extent of right hepatic lobe mass",
+        "claim_text": "The mass extends through much of the right hepatic lobe on axial CT.",
+        "presence_question": "Does the model's response discuss Extent of right hepatic lobe mass?",
+        "correctness_question": "Does the model's response correctly assert that The mass extends through much of the right hepatic lobe on axial CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Left hepatic lobe lesion count",
+        "claim_text": "There is at least one lesion in the left hepatic lobe on axial CT.",
+        "presence_question": "Does the model's response discuss Left hepatic lobe lesion count?",
+        "correctness_question": "Does the model's response correctly assert that There is at least one lesion in the left hepatic lobe on axial CT?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Lesion in left hepatic lobe",
+        "claim_text": "A lesion is located in the left hepatic lobe on axial CT.",
+        "presence_question": "Does the model's response discuss Lesion in left hepatic lobe?",
+        "correctness_question": "Does the model's response correctly assert that A lesion is located in the left hepatic lobe on axial CT?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Discrete lesion appearance",
+        "claim_text": "The lesion in the left hepatic lobe appears discrete on axial CT.",
+        "presence_question": "Does the model's response discuss Discrete lesion appearance?",
+        "correctness_question": "Does the model's response correctly assert that The lesion in the left hepatic lobe appears discrete on axial CT?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Multifocal liver tumors",
+        "claim_text": "Multifocal tumors are present in the liver on axial CT.",
+        "presence_question": "Does the model's response discuss Multifocal liver tumors?",
+        "correctness_question": "Does the model's response correctly assert that Multifocal tumors are present in the liver on axial CT?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Tumors in separate liver segments/lobes",
+        "claim_text": "Tumors are located in separate liver segments and lobes, involving both right and left sides on axial CT.",
+        "presence_question": "Does the model's response discuss Tumors in separate liver segments/lobes?",
+        "correctness_question": "Does the model's response correctly assert that Tumors are located in separate liver segments and lobes, involving both right and left sides on axial CT?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "Absence of cirrhosis",
+        "claim_text": "There is no cirrhosis of the liver according to the clinical statement.",
+        "presence_question": "Does the model's response discuss Absence of cirrhosis?",
+        "correctness_question": "Does the model's response correctly assert that There is no cirrhosis of the liver according to the clinical statement?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "Absence of portal hypertension",
+        "claim_text": "There is no portal hypertension according to the clinical statement.",
+        "presence_question": "Does the model's response discuss Absence of portal hypertension?",
+        "correctness_question": "Does the model's response correctly assert that There is no portal hypertension according to the clinical statement?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "Preserved liver function",
+        "claim_text": "Liver function is preserved according to the clinical statement.",
+        "presence_question": "Does the model's response discuss Preserved liver function?",
+        "correctness_question": "Does the model's response correctly assert that Liver function is preserved according to the clinical statement?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "anatomic segmental liver resection",
+        "claim_text": "Anatomic segmental liver resection typically preserves uninvolved liver parenchyma.",
+        "presence_question": "Does the model's response discuss anatomic segmental liver resection?",
+        "correctness_question": "Does the model's response correctly state that anatomic segmental liver resection typically preserves uninvolved liver parenchyma?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "intraoperative ablation of small hepatic nodules",
+        "claim_text": "Smaller hepatic nodules are often treated with intraoperative ablation.",
+        "presence_question": "Does the model's response discuss intraoperative ablation of small hepatic nodules?",
+        "correctness_question": "Does the model's response correctly state that smaller hepatic nodules are often treated with intraoperative ablation?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "parenchymal-preserving strategies",
+        "claim_text": "Parenchymal-preserving strategies are better for patients with preserved liver function (noncirrhotic) when definitive therapy for multiple focal tumors is pursued.",
+        "presence_question": "Does the model's response discuss parenchymal-preserving strategies?",
+        "correctness_question": "Does the model's response correctly state that parenchymal-preserving strategies are better for patients with preserved liver function (noncirrhotic) when definitive therapy for multiple focal tumors is pursued?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "combined anatomic resection and focal ablation",
+        "claim_text": "Combining targeted anatomic resections and focal ablation maximizes tumor clearance while preserving liver parenchyma.",
+        "presence_question": "Does the model's response discuss combined anatomic resection and focal ablation?",
+        "correctness_question": "Does the model's response correctly state that combining targeted anatomic resections and focal ablation maximizes tumor clearance while preserving liver parenchyma?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Parenchymal-preserving therapy recommendation",
+        "claim_text": "The imaging demonstration of separate tumors in different liver segments combined with preserved liver function supports the use of parenchymal-preserving therapy rather than extensive hepatectomy in this case.",
+        "presence_question": "Does the model's response make an inferential link about Parenchymal-preserving therapy recommendation?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging demonstration of separate tumors in different liver segments combined with preserved liver function supports the use of parenchymal-preserving therapy rather than extensive hepatectomy in this case?",
+        "premise_perception_ids": [
+          "p8",
+          "p9",
+          "p12",
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Feasibility of anatomic segmental resections",
+        "claim_text": "The tumors' location in separate liver segments is consistent with the feasibility of targeted anatomic segmental resections that can remove resectable lesions while preserving uninvolved parenchyma in this case.",
+        "presence_question": "Does the model's response make an inferential link about Feasibility of anatomic segmental resections?",
+        "correctness_question": "Does the model's response correctly conclude that The tumors' location in separate liver segments is consistent with the feasibility of targeted anatomic segmental resections that can remove resectable lesions while preserving uninvolved parenchyma in this case?",
+        "premise_perception_ids": [
+          "p9",
+          "p1",
+          "p2",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Use of intraoperative ablation",
+        "claim_text": "The presence of at least one smaller discrete lesion supports incorporating intraoperative ablation to treat those nodules in order to maximize tumor clearance while preserving liver tissue in this case.",
+        "presence_question": "Does the model's response make an inferential link about Use of intraoperative ablation?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of at least one smaller discrete lesion supports incorporating intraoperative ablation to treat those nodules in order to maximize tumor clearance while preserving liver tissue in this case?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Combined resection plus ablation approach",
+        "claim_text": "Combining targeted anatomic segmental resections for resectable lesions with intraoperative ablation for smaller nodules is the treatment approach most consistent with the imaging and preserved liver function in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Combined resection plus ablation approach?",
+        "correctness_question": "Does the model's response correctly conclude that Combining targeted anatomic segmental resections for resectable lesions with intraoperative ablation for smaller nodules is the treatment approach most consistent with the imaging and preserved liver function in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p12"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2",
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -27,5 +27,105 @@
   "caption": "Irritant contact dermatitis in an anaesthesiologist after repetitive hand sanitising that developed in April 2020 during the coronavirus disease 2019 (COVID-19) pandemic. The contact dermatitis was complicated by Staphylococcus aureus superinfection.",
   "sub_caption": "Irritant contact dermatitis in an anaesthesiologist after repetitive hand sanitising that developed in April 2020 during the coronavirus disease 2019 (COVID-19) pandemic. The contact dermatitis was complicated by Staphylococcus aureus superinfection.",
   "image_context": "Survey evidence before COVID-19 suggests that contact dermatitis affects ∼4% of healthcare workers and comprises 70–90% of skin diseases among them.3,4 Risk stratification is based on several factors. Those who have a history of atopy are at higher risk of developing contact dermatitis.3 Although Black and Hispanic populations may have a higher incidence of severe atopic dermatitis, studies on skin barrier function in different racial or ethnic groups have not shown consistent differences in epidermal structure or the development of contact dermatitis with exposure to irritants.5\n,\n6 Extrinsic risk factors for contact dermatitis include prolonged glove use and hand washing. Thus, the prevalence of dermatitis is expected to increase during a pandemic as a result of excessive precautionary measures.3\n,\n4 Hand hygiene techniques have a broad spectrum of potential adverse effects, ranging from cutaneous xerosis (abnormally dry skin) to severe allergic or irritant reactions. Acutely, contact dermatitis may present with skin erythema, oozing, scaling, crusting, or vesicles (<xref rid=\"gr1_lrg\" ref-type=\"fig\">Fig. 1</xref>\n). If chronic, contact dermatitis can lead to lichenification and fissures.\n). If chronic, contact dermatitis can lead to lichenification and fissures.4 About 80% of contact dermatitis is irritant in nature and the remainder true type IV hypersensitivity reactions. Soaps and detergents are a common cause of irritant contact dermatitis.4\nFig 1Irritant contact dermatitis in an anaesthesiologist after repetitive hand sanitising that developed in April 2020 during the coronavirus disease 2019 (COVID-19) pandemic. The contact dermatitis was complicated by Staphylococcus aureus superinfection.Fig 1",
-  "relevant_image_context": "Fig 1: Irritant contact dermatitis in an anaesthesiologist after repetitive hand sanitising that developed in April 2020 during the coronavirus disease 2019 (COVID-19) pandemic. The contact dermatitis was complicated by Staphylococcus aureus superinfection. Fig 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context. Acutely, contact dermatitis may present with skin erythema, oozing, scaling, crusting, or vesicles."
+  "relevant_image_context": "Fig 1: Irritant contact dermatitis in an anaesthesiologist after repetitive hand sanitising that developed in April 2020 during the coronavirus disease 2019 (COVID-19) pandemic. The contact dermatitis was complicated by Staphylococcus aureus superinfection. Fig 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context. Acutely, contact dermatitis may present with skin erythema, oozing, scaling, crusting, or vesicles.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_76_14-PMC7467089-0-gr1_lrg.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_76_14-PMC7467089-0-gr1_lrg.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "erythema on dorsal hand",
+        "claim_text": "Erythema is present on the dorsal hand skin.",
+        "presence_question": "Does the model's response discuss erythema on dorsal hand?",
+        "correctness_question": "Does the model's response correctly assert that Erythema is present on the dorsal hand skin?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "multiple crusted erosions",
+        "claim_text": "There are multiple crusted erosions on the dorsal hand.",
+        "presence_question": "Does the model's response discuss multiple crusted erosions?",
+        "correctness_question": "Does the model's response correctly assert that There are multiple crusted erosions on the dorsal hand?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "yellowish crusts on dorsal hand",
+        "claim_text": "Yellowish crusts are present on the dorsal hand.",
+        "presence_question": "Does the model's response discuss yellowish crusts on dorsal hand?",
+        "correctness_question": "Does the model's response correctly assert that Yellowish crusts are present on the dorsal hand?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "scaly dry background skin on dorsal hand",
+        "claim_text": "The background skin on the dorsal hand is scaly and dry.",
+        "presence_question": "Does the model's response discuss scaly dry background skin on dorsal hand?",
+        "correctness_question": "Does the model's response correctly assert that The background skin on the dorsal hand is scaly and dry?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "superficial lesions on dorsal hand",
+        "claim_text": "The lesions on the dorsal hand have a superficial appearance.",
+        "presence_question": "Does the model's response discuss superficial lesions on dorsal hand?",
+        "correctness_question": "Does the model's response correctly assert that The lesions on the dorsal hand have a superficial appearance?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "dried exudate and crusting on dorsal hand",
+        "claim_text": "Dried exudate and crusting are present at several discrete points on the irritated dorsal hand skin.",
+        "presence_question": "Does the model's response discuss dried exudate and crusting on dorsal hand?",
+        "correctness_question": "Does the model's response correctly assert that Dried exudate and crusting are present at several discrete points on the irritated dorsal hand skin?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "irritant dermatitis",
+        "claim_text": "Irritant dermatitis typically compromises the skin barrier.",
+        "presence_question": "Does the model's response discuss irritant dermatitis?",
+        "correctness_question": "Does the model's response correctly state that Irritant dermatitis typically compromises the skin barrier?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "compromised skin barrier",
+        "claim_text": "A compromised skin barrier typically increases the risk of secondary bacterial skin infection.",
+        "presence_question": "Does the model's response discuss compromised skin barrier?",
+        "correctness_question": "Does the model's response correctly state that A compromised skin barrier typically increases the risk of secondary bacterial skin infection?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "yellow crusts and crusted erosions",
+        "claim_text": "Yellow crusts and superficial crusted erosions are characteristic findings of secondary bacterial skin infection.",
+        "presence_question": "Does the model's response discuss yellow crusts and crusted erosions?",
+        "correctness_question": "Does the model's response correctly state that Yellow crusts and superficial crusted erosions are characteristic findings of secondary bacterial skin infection?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "dried exudate and crusting",
+        "claim_text": "Dried exudate and crusting can suggest bacterial skin infection.",
+        "presence_question": "Does the model's response discuss dried exudate and crusting?",
+        "correctness_question": "Does the model's response correctly state that Dried exudate and crusting can suggest bacterial skin infection?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Secondary bacterial infection plausibility",
+        "claim_text": "The presence of yellowish crusts, multiple superficial crusted erosions, and focal dried exudate/crusting in the hand image supports that a secondary bacterial skin infection is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about Secondary bacterial infection plausibility?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of yellowish crusts, multiple superficial crusted erosions, and focal dried exudate/crusting in the hand image supports that a secondary bacterial skin infection is plausible in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

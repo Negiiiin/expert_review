@@ -28,5 +28,122 @@
   "caption": "MRI image of CS7. A Axial T1 weighted-image, B, C axial T2 weighted-images, and D, E axial FLAIR weighted-images showing isointensity of periventricular white matter on T1, and hyperintensity on T2. FLAIR is suggestive of hypomyelinating leukodystrophy (red arrows). F Sagittal T2 weighted-image showing cerebellar atrophy (yellow arrow)",
   "sub_caption": "F Sagittal T2 weighted-image showing cerebellar atrophy (yellow arrow)",
   "image_context": "We first screened the eight patients with Sanger sequencing of ERCC8 exon 7 (NM_000082.3), which revealed that six (CS2, both CS6, CS7, CS11, and CS16) out of eight CS patients were homozygous carriers for the variant c. 598_600delinsAA; p.(Tyr200Lysfs*12). This variant that introduces a stop codon and therefore a truncated protein has been previously described in several unrelated CS patients from North Africa [14, 15] (and unpublished data). We confirmed parental segregation of the mutation in all cases (Fig. <xref rid=\"13023_2022_2257_Fig3_HTML\" ref-type=\"fig\">3</xref>). Conversely, this recurrent variant was absent in the affected siblings of the CS1 family.). Conversely, this recurrent variant was absent in the affected siblings of the CS1 family.Fig. 3MRI image of CS7. A Axial T1 weighted-image, B, C axial T2 weighted-images, and D, E axial FLAIR weighted-images showing isointensity of periventricular white matter on T1, and hyperintensity on T2. FLAIR is suggestive of hypomyelinating leukodystrophy (red arrows). F Sagittal T2 weighted-image showing cerebellar atrophy (yellow arrow) In one patient of the CS1A family, screening of 17 genes involved in NER pathway using targeted gene sequencing revealed a homozygous transversion in ERCC8 at the position of the locus reference genomic (LRG)_466t1: c.843 + 1G > C (Fig. <xref rid=\"13023_2022_2257_Fig3_HTML\" ref-type=\"fig\">3</xref>). This variant represents a transversion from a guanine to a cytosine at the donor splice site of intron 9, and has been previously reported in a LebaneseCS patient [). This variant represents a transversion from a guanine to a cytosine at the donor splice site of intron 9, and has been previously reported in a LebaneseCS patient [16]. Sanger sequencing confirmed that this mutation was homozygous in the two affected siblings in the CS1 family, and heterozygous in their parents, as expected.",
-  "relevant_image_context": "F Sagittal T2 weighted-image showing cerebellar atrophy (yellow arrow)"
+  "relevant_image_context": "F Sagittal T2 weighted-image showing cerebellar atrophy (yellow arrow)",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_73_0-PMC6873057-0-crg-0013-0430-g04.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_73_0-PMC6873057-0-crg-0013-0430-g04.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "endoscopic view shape",
+        "claim_text": "The endoscopic view in the image has a circular shape.",
+        "presence_question": "Does the model's response discuss endoscopic view shape?",
+        "correctness_question": "Does the model's response correctly assert that The endoscopic view in the image has a circular shape?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "rugal folds of gastric mucosa",
+        "claim_text": "The gastric mucosa shows rugal folds in the stomach.",
+        "presence_question": "Does the model's response discuss rugal folds of gastric mucosa?",
+        "correctness_question": "Does the model's response correctly assert that The gastric mucosa shows rugal folds in the stomach?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "linear metallic object",
+        "claim_text": "A linear metallic object is present traversing the visible field.",
+        "presence_question": "Does the model's response discuss linear metallic object?",
+        "correctness_question": "Does the model's response correctly assert that A linear metallic object is present traversing the visible field?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "appearance of metallic object",
+        "claim_text": "The linear metallic object appears bright in the visible field.",
+        "presence_question": "Does the model's response discuss appearance of metallic object?",
+        "correctness_question": "Does the model's response correctly assert that The linear metallic object appears bright in the visible field?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "metallic clips along object",
+        "claim_text": "Small metallic clips or fasteners are visible along the linear metallic object in the visible field.",
+        "presence_question": "Does the model's response discuss metallic clips along object?",
+        "correctness_question": "Does the model's response correctly assert that Small metallic clips or fasteners are visible along the linear metallic object in the visible field?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "object location in upper-left quadrant",
+        "claim_text": "The bulk of the metallic object and the most conspicuous clip are located in the upper-left quadrant of the visible field.",
+        "presence_question": "Does the model's response discuss object location in upper-left quadrant?",
+        "correctness_question": "Does the model's response correctly assert that The bulk of the metallic object and the most conspicuous clip are located in the upper-left quadrant of the visible field?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Rugal folds",
+        "claim_text": "Rugal folds are characteristic features of the gastric mucosa.",
+        "presence_question": "Does the model's response discuss Rugal folds?",
+        "correctness_question": "Does the model's response correctly state that Rugal folds are characteristic features of the gastric mucosa?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Metallic clips",
+        "claim_text": "Metallic clips are a type of metallic fastener.",
+        "presence_question": "Does the model's response discuss Metallic clips?",
+        "correctness_question": "Does the model's response correctly state that Metallic clips are a type of metallic fastener?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Endoscopic images",
+        "claim_text": "Endoscopic images typically have a circular field of view.",
+        "presence_question": "Does the model's response discuss Endoscopic images?",
+        "correctness_question": "Does the model's response correctly state that Endoscopic images typically have a circular field of view?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Upper-left object localization",
+        "claim_text": "The evidence supports that the linear metallic object with associated clips is localized to the upper-left quadrant of the image.",
+        "presence_question": "Does the model's response make an inferential link about Upper-left object localization?",
+        "correctness_question": "Does the model's response correctly conclude that The evidence supports that the linear metallic object with associated clips is localized to the upper-left quadrant of the image.?",
+        "premise_perception_ids": [
+          "p3",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Gastric mucosal localization",
+        "claim_text": "The image findings are consistent with the metallic linear object being located on or within the gastric mucosal field in this image.",
+        "presence_question": "Does the model's response make an inferential link about Gastric mucosal localization?",
+        "correctness_question": "Does the model's response correctly conclude that The image findings are consistent with the metallic linear object being located on or within the gastric mucosal field in this image.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Clips identified as fasteners",
+        "claim_text": "The evidence supports that the small metallic clips seen along the linear object are metallic fasteners.",
+        "presence_question": "Does the model's response make an inferential link about Clips identified as fasteners?",
+        "correctness_question": "Does the model's response correctly conclude that The evidence supports that the small metallic clips seen along the linear object are metallic fasteners.?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

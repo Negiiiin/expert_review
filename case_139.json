@@ -27,5 +27,102 @@
   "caption": "Pancreatic tumor at time of presentation to radiation oncology. Axial, coronal, and sagittal diagnostic (A–C) as well as simulation (D–F) CT images of the patient at time of presentation to radiation oncology. The primary tumor is indicated on the diagnostic images by the red arrow and a liver metastasis is indacted by the yellow arrow. The GTV (red contour) and PTV (cyan contour) are delineated on the CT simulation images",
   "sub_caption": "The primary tumor is indicated on the diagnostic images by the red arrow and a liver metastasis is indicated by the yellow arrow.",
   "image_context": "A 61-year-old woman presented following an episode of abdominal pain due to acute pancreatitis. During the patient’s work up, a CT chest/abdomen/pelvis demonstrated a mass in the pancreatic body. Biopsy of the mass confirmed pancreatic adenocarcinoma. The patient met with medical oncology and was recommended neo-adjuvant systemic therapy but declined and pursued alternative therapies. The patient returned to clinic several months later with abdominal pain and interval imaging demonstrating progression of local disease with encasement of the splenic and superior mesenteric veins (Fig. <xref rid=\"13014_2022_2125_Fig1_HTML\" ref-type=\"fig\">1</xref>) as well as the development of liver metastases. The primary mass measured 4.8 × 3.8 cm. The patient was referred to radiation oncology for consideration of palliative radiotherapy. On interview, the patient reported left upper quadrant and back pain as well as malaise and weight loss. Physical exam was otherwise unremarkable. The patient was recommended SBRT to her primary mass for durable palliation, 35 Gy in 5 fractions, 7 Gy per fraction. Given the high dose per fraction and adjacent critical organs at risk, the treating radiation oncologist elected to use daily online adaptation with cone beam CT-guidance.) as well as the development of liver metastases. The primary mass measured 4.8 × 3.8 cm. The patient was referred to radiation oncology for consideration of palliative radiotherapy. On interview, the patient reported left upper quadrant and back pain as well as malaise and weight loss. Physical exam was otherwise unremarkable. The patient was recommended SBRT to her primary mass for durable palliation, 35 Gy in 5 fractions, 7 Gy per fraction. Given the high dose per fraction and adjacent critical organs at risk, the treating radiation oncologist elected to use daily online adaptation with cone beam CT-guidance.Fig. 1Pancreatic tumor at time of presentation to radiation oncology. Axial, coronal, and sagittal diagnostic (A–C) as well as simulation (D–F) CT images of the patient at time of presentation to radiation oncology. The primary tumor is indicated on the diagnostic images by the red arrow and a liver metastasis is indacted by the yellow arrow. The GTV (red contour) and PTV (cyan contour) are delineated on the CT simulation images",
-  "relevant_image_context": "Fig. 1 Pancreatic tumor at time of presentation to radiation oncology. Axial, coronal, and sagittal diagnostic (A–C) as well as simulation (D–F) CT images of the patient at time of presentation to radiation oncology. The primary tumor is indicated on the diagnostic images by the red arrow and a liver metastasis is indacted by the yellow arrow."
+  "relevant_image_context": "Fig. 1 Pancreatic tumor at time of presentation to radiation oncology. Axial, coronal, and sagittal diagnostic (A–C) as well as simulation (D–F) CT images of the patient at time of presentation to radiation oncology. The primary tumor is indicated on the diagnostic images by the red arrow and a liver metastasis is indacted by the yellow arrow.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_129_56-PMC9472353-3-13014_2022_2125_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_129_56-PMC9472353-3-13014_2022_2125_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "scan coverage",
+        "claim_text": "The sagittal CT image covers the upper abdomen and lower chest.",
+        "presence_question": "Does the model's response discuss scan coverage?",
+        "correctness_question": "Does the model's response correctly assert that The sagittal CT image covers the upper abdomen and lower chest?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "count of focal abdominal abnormalities",
+        "claim_text": "There are two focal abdominal abnormalities in the upper abdomen on the image.",
+        "presence_question": "Does the model's response discuss count of focal abdominal abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that There are two focal abdominal abnormalities in the upper abdomen on the image?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "location of superior focal abnormality",
+        "claim_text": "A superior focal abnormality is located in the subdiaphragmatic anterosuperior abdomen just below the diaphragm.",
+        "presence_question": "Does the model's response discuss location of superior focal abnormality?",
+        "correctness_question": "Does the model's response correctly assert that A superior focal abnormality is located in the subdiaphragmatic anterosuperior abdomen just below the diaphragm?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "shape of superior focal abnormality",
+        "claim_text": "The superior focal abnormality is rounded in shape.",
+        "presence_question": "Does the model's response discuss shape of superior focal abnormality?",
+        "correctness_question": "Does the model's response correctly assert that The superior focal abnormality is rounded in shape?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "location of inferior focal abnormality",
+        "claim_text": "An inferior focal abnormality is located in the mid-epigastric upper abdominal region.",
+        "presence_question": "Does the model's response discuss location of inferior focal abnormality?",
+        "correctness_question": "Does the model's response correctly assert that An inferior focal abnormality is located in the mid-epigastric upper abdominal region?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "adjacency of superior and inferior abnormalities",
+        "claim_text": "The superior focal abnormality is not adjacent to the inferior focal abnormality.",
+        "presence_question": "Does the model's response discuss adjacency of superior and inferior abnormalities?",
+        "correctness_question": "Does the model's response correctly assert that The superior focal abnormality is not adjacent to the inferior focal abnormality?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "CT imaging findings",
+        "claim_text": "CT imaging typically identifies discrete lesions or abnormal densities in the liver, diaphragm, and upper abdominal soft tissues.",
+        "presence_question": "Does the model's response discuss CT imaging findings?",
+        "correctness_question": "Does the model's response correctly state that CT imaging typically identifies discrete lesions or abnormal densities in the liver, diaphragm, and upper abdominal soft tissues?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Shape descriptors in imaging",
+        "claim_text": "Imaging descriptions typically use shape descriptors (for example, 'rounded') to describe focal abnormalities.",
+        "presence_question": "Does the model's response discuss shape descriptors in imaging?",
+        "correctness_question": "Does the model's response correctly state that imaging descriptions typically use shape descriptors (for example, 'rounded') to describe focal abnormalities?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Number of focal abnormalities",
+        "claim_text": "The image supports that there are two separate focal abnormalities on the sagittal CT of the upper abdomen/lower chest.",
+        "presence_question": "Does the model's response make an inferential link about Number of focal abnormalities?",
+        "correctness_question": "Does the model's response correctly conclude that The image supports that there are two separate focal abnormalities on the sagittal CT of the upper abdomen/lower chest?",
+        "premise_perception_ids": [
+          "p1",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Anatomic distinctness of foci",
+        "claim_text": "The scan supports that the two foci are anatomically distinct abnormal lesions rather than a single contiguous lesion.",
+        "presence_question": "Does the model's response make an inferential link about Anatomic distinctness of foci?",
+        "correctness_question": "Does the model's response correctly conclude that The scan supports that the two foci are anatomically distinct abnormal lesions rather than a single contiguous lesion?",
+        "premise_perception_ids": [
+          "p3",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

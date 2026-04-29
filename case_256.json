@@ -25,5 +25,133 @@
   "caption": "The ESD procedure. A, Representative image of a remnant stomach tumor confirmed at the suture line. Marking dots are placed on the normal mucosa at approximately 5 mm from tumor margin. B, The extensive fibrosis and surgical staples (yellow arrows) were found during ESD. C and D, The lesion was resected en bloc.",
   "sub_caption": "C and D, The lesion was resected en bloc.",
   "image_context": "The ESD procedure was performed using a Dual Knife (KD650Q; Olympus Medical Systems Corp, Tokyo, Japan). A VIO 300D system (ERBE, Tübingen, Germany) was used as the electrosurgical unit. During the dissection, extensive fibrosis and staples were found in the suture line. The staples were removed one by one using the knife in EndoCut mode while pulling out the staple so that it could be removed immediately (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>A-D). There was no perforation or bleeding due to electrification of the staples. The lesion was resected en bloc in 160 minutes with a total operating time of 180 minutes. ESD was completed without adverse events. The post-ESD defect did not close after the procedure, and the patient was discharged on postoperative day 6 after satisfactory wound examination results.A-D). There was no perforation or bleeding due to electrification of the staples. The lesion was resected en bloc in 160 minutes with a total operating time of 180 minutes. ESD was completed without adverse events. The post-ESD defect did not close after the procedure, and the patient was discharged on postoperative day 6 after satisfactory wound examination results.Figure 2The ESD procedure. A, Representative image of a remnant stomach tumor confirmed at the suture line. Marking dots are placed on the normal mucosa at approximately 5 mm from tumor margin. B, The extensive fibrosis and surgical staples (yellow arrows) were found during ESD. C and D, The lesion was resected en bloc.",
-  "relevant_image_context": "Figure 2 The ESD procedure. C and D, The lesion was resected en bloc. The lesion was resected en bloc in 160 minutes with a total operating time of 180 minutes. ESD was completed without adverse events. The post-ESD defect did not close after the procedure, and the patient was discharged on postoperative day 6 after satisfactory wound examination results."
+  "relevant_image_context": "Figure 2 The ESD procedure. C and D, The lesion was resected en bloc. The lesion was resected en bloc in 160 minutes with a total operating time of 180 minutes. ESD was completed without adverse events. The post-ESD defect did not close after the procedure, and the patient was discharged on postoperative day 6 after satisfactory wound examination results.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_2_filelist_commercial_batch_124_109-PMC9295365-0-12872_2022_2768_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_124_109-PMC9295365-0-12872_2022_2768_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "sagittal thoracoabdominal aorta",
+        "claim_text": "The CT image shows the thoracoabdominal aorta in the sagittal plane.",
+        "presence_question": "Does the model's response discuss sagittal thoracoabdominal aorta?",
+        "correctness_question": "Does the model's response correctly assert that The CT image shows the thoracoabdominal aorta in the sagittal plane.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "aortic lumen contrast opacification",
+        "claim_text": "The aortic lumen of the thoracoabdominal aorta is opacified with contrast on CT.",
+        "presence_question": "Does the model's response discuss aortic lumen contrast opacification?",
+        "correctness_question": "Does the model's response correctly assert that The aortic lumen of the thoracoabdominal aorta is opacified with contrast on CT.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "linear curvilinear low-attenuation line",
+        "claim_text": "A linear curvilinear low-attenuation line is present within the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss linear curvilinear low-attenuation line?",
+        "correctness_question": "Does the model's response correctly assert that A linear curvilinear low-attenuation line is present within the thoracoabdominal aorta.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "line within aortic lumen",
+        "claim_text": "The linear curvilinear low-attenuation line is located within the aortic lumen.",
+        "presence_question": "Does the model's response discuss line within aortic lumen?",
+        "correctness_question": "Does the model's response correctly assert that The linear curvilinear low-attenuation line is located within the aortic lumen.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "line extent along aorta",
+        "claim_text": "The linear curvilinear low-attenuation line extends along the length of the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss line extent along aorta?",
+        "correctness_question": "Does the model's response correctly assert that The linear curvilinear low-attenuation line extends along the length of the thoracoabdominal aorta.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "aortic lumen channels",
+        "claim_text": "The aortic lumen demonstrates two channels within the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss aortic lumen channels?",
+        "correctness_question": "Does the model's response correctly assert that The aortic lumen demonstrates two channels within the thoracoabdominal aorta.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "contrast-opacified channel",
+        "claim_text": "One channel of the thoracoabdominal aortic lumen is fully opacified with contrast.",
+        "presence_question": "Does the model's response discuss contrast-opacified channel?",
+        "correctness_question": "Does the model's response correctly assert that One channel of the thoracoabdominal aortic lumen is fully opacified with contrast.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "crescent of non-opacified material",
+        "claim_text": "The adjacent channel contains a crescent of non-opacified material within the thoracoabdominal aorta.",
+        "presence_question": "Does the model's response discuss crescent of non-opacified material?",
+        "correctness_question": "Does the model's response correctly assert that The adjacent channel contains a crescent of non-opacified material within the thoracoabdominal aorta.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "normal contrast-enhanced aorta",
+        "claim_text": "A normal contrast-enhanced aorta shows a single smooth, uniformly opacified lumen without an intraluminal linear flap or a non-opacified crescent.",
+        "presence_question": "Does the model's response discuss normal contrast-enhanced aorta?",
+        "correctness_question": "Does the model's response correctly state that a normal contrast-enhanced aorta shows a single smooth, uniformly opacified lumen without an intraluminal linear flap or a non-opacified crescent?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "intraluminal linear flap",
+        "claim_text": "An intraluminal linear flap with an adjacent partially non-opacified lumen suggests an intimal flap creating a true lumen and a partially thrombosed false lumen.",
+        "presence_question": "Does the model's response discuss intraluminal linear flap?",
+        "correctness_question": "Does the model's response correctly state that an intraluminal linear flap with an adjacent partially non-opacified lumen suggests an intimal flap creating a true lumen and a partially thrombosed false lumen?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "aortic lumen opacification on CT",
+        "claim_text": "Opacification of the aortic lumen on CT results from administration of intravenous contrast.",
+        "presence_question": "Does the model's response discuss aortic lumen opacification on CT?",
+        "correctness_question": "Does the model's response correctly state that opacification of the aortic lumen on CT results from administration of intravenous contrast?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Intimal flap with partially thrombosed false lumen",
+        "claim_text": "The imaging findings support the presence of an intimal flap producing a true lumen and a partially thrombosed false lumen in this case.",
+        "presence_question": "Does the model's response make an inferential link about Intimal flap with partially thrombosed false lumen?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings support the presence of an intimal flap producing a true lumen and a partially thrombosed false lumen in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Aortic lumen abnormality",
+        "claim_text": "The observed intraluminal linear flap and the split opacified and non-opacified channels support that the aortic lumen is abnormal in this case.",
+        "presence_question": "Does the model's response make an inferential link about Aortic lumen abnormality?",
+        "correctness_question": "Does the model's response correctly conclude that The observed intraluminal linear flap and the split opacified and non-opacified channels support that the aortic lumen is abnormal in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

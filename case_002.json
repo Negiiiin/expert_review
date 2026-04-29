@@ -27,5 +27,104 @@
   "caption": "Pelvic MRI scan performed 6 weeks after the interruption of the radiochemotherapy. Compatibly with the different exam, a moderate thickening of the ileal walls can still be noticed.",
   "sub_caption": "Pelvic MRI scan performed 6 weeks after the interruption of the radiochemotherapy. Compatibly with the different exam, a moderate thickening of the ileal walls can still be noticed.",
   "image_context": "Six weeks after the interruption of concurrent RT-CHT, a pelvic MRI was performed to restage the disease prior to surgery which, compatibly with the different diagnostic methods, collaterally showed a persistence, although reduced in severity, of the ileal walls edema (as shown in <xref rid=\"curroncol-30-00655-g003\" ref-type=\"fig\">Figure 3</xref>). Thereafter, the patient underwent an anterior rectal resection with total mesorectal excision, which, according to the pathological report, showed a partial response to the preoperative treatment (ypT2 ypN0, with negative surgical margins). After multidisciplinary discussion, adjuvant capecitabin was initiated at lower doses, with close monitoring of the potential gastrointestinal toxicity. The patient completed six cycles of adjuvant capecitabine at a total daily dose of 3000 mg (reduced to 80% accounting for the previous severe toxicity), with no major gastrointestinal and hematological events. Six months after completion of adjuvant chemotherapy, she is alive and free from disease.). Thereafter, the patient underwent an anterior rectal resection with total mesorectal excision, which, according to the pathological report, showed a partial response to the preoperative treatment (ypT2 ypN0, with negative surgical margins). After multidisciplinary discussion, adjuvant capecitabin was initiated at lower doses, with close monitoring of the potential gastrointestinal toxicity. The patient completed six cycles of adjuvant capecitabine at a total daily dose of 3000 mg (reduced to 80% accounting for the previous severe toxicity), with no major gastrointestinal and hematological events. Six months after completion of adjuvant chemotherapy, she is alive and free from disease.",
-  "relevant_image_context": "Six weeks after the interruption of concurrent RT-CHT, a pelvic MRI was performed to restage the disease prior to surgery which, compatibly with the different diagnostic methods, collaterally showed a persistence, although reduced in severity, of the ileal walls edema (as shown in Figure 3)."
+  "relevant_image_context": "Six weeks after the interruption of concurrent RT-CHT, a pelvic MRI was performed to restage the disease prior to surgery which, compatibly with the different diagnostic methods, collaterally showed a persistence, although reduced in severity, of the ileal walls edema (as shown in Figure 3).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_158_76-PMC10605187-1-curroncol-30-00655-g003.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_158_76-PMC10605187-1-curroncol-30-00655-g003.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "anterior midline pelvic fluid collection",
+        "claim_text": "A rounded fluid-filled structure is located at the anterior midline of the pelvis.",
+        "presence_question": "Does the model's response discuss anterior midline pelvic fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that A rounded fluid-filled structure is located at the anterior midline of the pelvis?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "midline posterior soft-tissue structure",
+        "claim_text": "A soft-tissue structure lies in the midline posterior to the anterior fluid-filled structure.",
+        "presence_question": "Does the model's response discuss midline posterior soft-tissue structure?",
+        "correctness_question": "Does the model's response correctly assert that A soft-tissue structure lies in the midline posterior to the anterior fluid-filled structure?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "left lateral pelvic ovoid structure",
+        "claim_text": "An ovoid soft-tissue structure is present in the left lateral pelvis.",
+        "presence_question": "Does the model's response discuss left lateral pelvic ovoid structure?",
+        "correctness_question": "Does the model's response correctly assert that An ovoid soft-tissue structure is present in the left lateral pelvis?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "right lateral pelvic ovoid structure",
+        "claim_text": "An ovoid soft-tissue structure is present in the right lateral pelvis.",
+        "presence_question": "Does the model's response discuss right lateral pelvic ovoid structure?",
+        "correctness_question": "Does the model's response correctly assert that An ovoid soft-tissue structure is present in the right lateral pelvis?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "bilateral ovoid pelvic structures",
+        "claim_text": "There are two ovoid soft-tissue structures in the pelvis, one on each side.",
+        "presence_question": "Does the model's response discuss bilateral ovoid pelvic structures?",
+        "correctness_question": "Does the model's response correctly assert that There are two ovoid soft-tissue structures in the pelvis, one on each side?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "bilateral matching pelvic ovoid structures",
+        "claim_text": "The ovoid soft-tissue structures show matching appearance on both sides of the pelvis.",
+        "presence_question": "Does the model's response discuss bilateral matching pelvic ovoid structures?",
+        "correctness_question": "Does the model's response correctly assert that The ovoid soft-tissue structures show matching appearance on both sides of the pelvis?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Urinary bladder",
+        "claim_text": "The urinary bladder is located in the anterior midline of the pelvis and typically appears as a fluid-filled structure.",
+        "presence_question": "Does the model's response discuss Urinary bladder?",
+        "correctness_question": "Does the model's response correctly state that the urinary bladder is located in the anterior midline of the pelvis and typically appears as a fluid-filled structure?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Ovaries",
+        "claim_text": "The ovaries are paired ovoid soft-tissue structures located in the bilateral lateral pelvic compartments adjacent to the pelvic sidewalls.",
+        "presence_question": "Does the model's response discuss Ovaries?",
+        "correctness_question": "Does the model's response correctly state that the ovaries are paired ovoid soft-tissue structures located in the bilateral lateral pelvic compartments adjacent to the pelvic sidewalls?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Bilateral ovoid pelvic structures as ovaries",
+        "claim_text": "The presence of two matching ovoid soft-tissue structures, one in the left lateral pelvis and one in the right lateral pelvis, supports that these structures are ovaries in this case.",
+        "presence_question": "Does the model's response make an inferential link about bilateral ovoid pelvic structures as ovaries?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of two matching ovoid soft-tissue structures, one in the left lateral pelvis and one in the right lateral pelvis, supports that these structures are ovaries in this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Midline rounded fluid-filled structure as bladder",
+        "claim_text": "A rounded fluid-filled structure located in the anterior midline of the pelvis supports that this structure is the urinary bladder in this case.",
+        "presence_question": "Does the model's response make an inferential link about midline rounded fluid-filled structure as bladder?",
+        "correctness_question": "Does the model's response correctly conclude that A rounded fluid-filled structure located in the anterior midline of the pelvis supports that this structure is the urinary bladder in this case.?",
+        "premise_perception_ids": [
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

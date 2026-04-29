@@ -27,5 +27,142 @@
   "caption": "Sagittal view of the CT abdomen and pelvis with severe urinary bladder distention. The urinary bladder measures 259.89 mm by 150.71 mm.",
   "sub_caption": "Sagittal view of the CT abdomen and pelvis with severe urinary bladder distention. The urinary bladder measures 259.89 mm by 150.71 mm.",
   "image_context": "His admission labs were notable for creatinine of 2.68 mg/dL from a baseline of 1.0 mg/dL. The timeline for the decline in kidney function correlated with the new heart failure diagnosis and initiation of the diuretic. A bedside bladder scanner was unable to detect a bladder volume due to enlarged size and abdominal edema. A computed tomography scan of the abdomen and pelvis was remarkable for significant distention of the urinary bladder, measuring 26 x 15 x 17 cm, with secondary severe bilateral hydroureteronephrosis and prostate gland enlargement [Figures <xref rid=\"cureus-0014-00000029626-i01\" ref-type=\"fig\">1</xref>, , <xref rid=\"cureus-0014-00000029626-i02\" ref-type=\"fig\">2</xref>].].",
-  "relevant_image_context": "His admission labs were notable for creatinine of 2.68 mg/dL from a baseline of 1.0 mg/dL. The timeline for the decline in kidney function correlated with the new heart failure diagnosis and initiation of the diuretic. A bedside bladder scanner was unable to detect a bladder volume due to enlarged size and abdominal edema. A computed tomography scan of the abdomen and pelvis was remarkable for significant distention of the urinary bladder, measuring 26 x 15 x 17 cm, with secondary severe bilateral hydroureteronephrosis and prostate gland enlargement [Figures 1, 2]."
+  "relevant_image_context": "His admission labs were notable for creatinine of 2.68 mg/dL from a baseline of 1.0 mg/dL. The timeline for the decline in kidney function correlated with the new heart failure diagnosis and initiation of the diuretic. A bedside bladder scanner was unable to detect a bladder volume due to enlarged size and abdominal edema. A computed tomography scan of the abdomen and pelvis was remarkable for significant distention of the urinary bladder, measuring 26 x 15 x 17 cm, with secondary severe bilateral hydroureteronephrosis and prostate gland enlargement [Figures 1, 2].",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_130_62-PMC9512517-0-cureus-0014-00000029626-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_130_62-PMC9512517-0-cureus-0014-00000029626-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "pelvic and lower abdominal fluid collection",
+        "claim_text": "A fluid-attenuation structure is present in the pelvis and lower abdomen.",
+        "presence_question": "Does the model's response discuss pelvic and lower abdominal fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that A fluid-attenuation structure is present in the pelvis and lower abdomen?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "location of pelvic and lower abdominal fluid",
+        "claim_text": "The fluid-attenuation structure is located in the pelvis and lower abdomen.",
+        "presence_question": "Does the model's response discuss location of pelvic and lower abdominal fluid?",
+        "correctness_question": "Does the model's response correctly assert that The fluid-attenuation structure is located in the pelvis and lower abdomen?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "density of pelvic and lower abdominal fluid",
+        "claim_text": "The structure demonstrates fluid-attenuation density in the pelvis and lower abdomen.",
+        "presence_question": "Does the model's response discuss density of pelvic and lower abdominal fluid?",
+        "correctness_question": "Does the model's response correctly assert that The structure demonstrates fluid-attenuation density in the pelvis and lower abdomen?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "craniocaudal measurement of fluid collection",
+        "claim_text": "The fluid-attenuation structure measures approximately 260 mm in craniocaudal length.",
+        "presence_question": "Does the model's response discuss craniocaudal measurement of the fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that The fluid-attenuation structure measures approximately 260 mm in craniocaudal length?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "anteroposterior measurement of fluid collection",
+        "claim_text": "The fluid-attenuation structure measures approximately 151 mm in anteroposterior dimension.",
+        "presence_question": "Does the model's response discuss anteroposterior measurement of the fluid collection?",
+        "correctness_question": "Does the model's response correctly assert that The fluid-attenuation structure measures approximately 151 mm in anteroposterior dimension?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "superior extent of pelvic/lower abdominal fluid",
+        "claim_text": "The fluid-attenuation structure extends to a high level within the lower abdomen.",
+        "presence_question": "Does the model's response discuss the superior extent of pelvic or lower abdominal fluid?",
+        "correctness_question": "Does the model's response correctly assert that The fluid-attenuation structure extends to a high level within the lower abdomen?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "fluid attenuation on CT",
+        "claim_text": "Fluid attenuation on CT indicates the presence of fluid content, such as urine.",
+        "presence_question": "Does the model's response discuss fluid attenuation on CT?",
+        "correctness_question": "Does the model's response correctly state that Fluid attenuation on CT indicates the presence of fluid content, such as urine?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "marked bladder distention",
+        "claim_text": "Marked bladder distention suggests urinary retention or bladder outlet obstruction.",
+        "presence_question": "Does the model's response discuss marked bladder distention?",
+        "correctness_question": "Does the model's response correctly state that Marked bladder distention suggests urinary retention or bladder outlet obstruction?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "bladder outlet obstruction",
+        "claim_text": "Bladder outlet obstruction causes backpressure on the urinary tract and impairs renal drainage.",
+        "presence_question": "Does the model's response discuss bladder outlet obstruction?",
+        "correctness_question": "Does the model's response correctly state that Bladder outlet obstruction causes backpressure on the urinary tract and impairs renal drainage?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "diuretic escalation with urinary obstruction",
+        "claim_text": "Escalation of diuretics is contraindicated in patients with untreated urinary obstruction until the obstruction is relieved and adequate drainage is established.",
+        "presence_question": "Does the model's response discuss diuretic escalation with urinary obstruction?",
+        "correctness_question": "Does the model's response correctly state that Escalation of diuretics is contraindicated in patients with untreated urinary obstruction until the obstruction is relieved and adequate drainage is established?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "bladder distention suggesting urinary retention",
+        "claim_text": "The very large, fluid-attenuation pelvic structure on imaging supports the presence of marked bladder distention consistent with urinary retention or bladder outlet obstruction in this case.",
+        "presence_question": "Does the model's response make an inferential link about bladder distention suggesting urinary retention?",
+        "correctness_question": "Does the model's response correctly conclude that the very large, fluid-attenuation pelvic structure on imaging supports the presence of marked bladder distention consistent with urinary retention or bladder outlet obstruction in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "renal drainage impairment from bladder outlet obstruction",
+        "claim_text": "A bladder outlet obstruction, supported by the imaging demonstration of a massively distended fluid-filled bladder, would produce backpressure on the urinary tract and impaired renal drainage in this patient.",
+        "presence_question": "Does the model's response make an inferential link about renal drainage impairment from bladder outlet obstruction?",
+        "correctness_question": "Does the model's response correctly conclude that a bladder outlet obstruction, supported by the imaging demonstration of a massively distended fluid-filled bladder, would produce backpressure on the urinary tract and impaired renal drainage in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "escalation of loop diuretics",
+        "claim_text": "Given the imaging-documented massive bladder retention consistent with obstructed outflow, escalating loop diuretics is contraindicated in this case until the obstruction is relieved and bladder drainage is established.",
+        "presence_question": "Does the model's response make an inferential link about escalation of loop diuretics?",
+        "correctness_question": "Does the model's response correctly conclude that given the imaging-documented massive bladder retention consistent with obstructed outflow, escalating loop diuretics is contraindicated in this case until the obstruction is relieved and bladder drainage is established?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k4",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

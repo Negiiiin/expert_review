@@ -27,5 +27,164 @@
   "caption": "The typical zonal structure of the growth plates. The thickness of the hypertrophic zone (hz) was defined as the distance from the top edge of the most cephalic qualifying cell to the bottom edge of the most caudal one. Magnification: ×200; H: hypertrophic zone; M: mineralization zone; P: proliferative zone.",
   "sub_caption": "The typical zonal structure of the growth plates. The thickness of the hypertrophic zone (hz) was defined as the distance from the top edge of the most cephalic qualifying cell to the bottom edge of the most caudal one. Magnification: ×200; H: hypertrophic zone; M: mineralization zone; P: proliferative zone.",
   "image_context": "Three well-stained sections were selected for each subject and imaged by light microscopy. All sections were histomorphometrically analyzed by two separate pathologists independently, and the results from the two evaluations were averaged. The inter-observer reliability was accessed by calculating the intraclass correlation coefficient (ICCC) and the average ICCC values which represented interobserver variability was 0.900. The resting, proliferative, and hypertrophic zones of the growth plate were identified on the images according to the cellular morphology of the chondrocytes [27]. The hypertrophic zone was defined as the area in which the chondrocytes were larger and lighter-stained than those in the proliferative zone [27]. The thickness of the hypertrophic zone was defined as the distance along the longitudinal axis of the local growth plate boundaries in the direction of the cell columns from the top edge of the most cranial cell to the bottom edge of the most caudal cell. It was well-documented by several studies [16–18] that the rate of longitudinal bone growth is determined primarily by the activity of the chondrocytes in the proliferative and hypertrophic zones. Therefore, we quantified those two zones here. To quantify the differences between groups, the thickness of the hypertrophic zone and the area of the cell-nests within this zone were measured with Image-Pro Plus software (version 6.0, Media Cybernetics, Inc., USA) (Figure <xref rid=\"12891_2013_Article_2388_Fig1_HTML\" ref-type=\"fig\">1</xref>). The area and number of chondrocytes in each cell-nest and the number of chondrocytes in the proliferative zone were calculated. Only cells with clear boundaries were included.). The area and number of chondrocytes in each cell-nest and the number of chondrocytes in the proliferative zone were calculated. Only cells with clear boundaries were included.Figure 1\nThe typical zonal structure of the growth plates. The thickness of the hypertrophic zone (hz) was defined as the distance from the top edge of the most cephalic qualifying cell to the bottom edge of the most caudal one. Magnification: ×200; H: hypertrophic zone; M: mineralization zone; P: proliferative zone.",
-  "relevant_image_context": "The resting, proliferative, and hypertrophic zones of the growth plate were identified on the images according to the cellular morphology of the chondrocytes [27]. The hypertrophic zone was defined as the area in which the chondrocytes were larger and lighter-stained than those in the proliferative zone [27]. The thickness of the hypertrophic zone was defined as the distance along the longitudinal axis of the local growth plate boundaries in the direction of the cell columns from the top edge of the most cranial cell to the bottom edge of the most caudal cell. It was well-documented by several studies [16–18] that the rate of longitudinal bone growth is determined primarily by the activity of the chondrocytes in the proliferative and hypertrophic zones. Therefore, we quantified those two zones here. To quantify the differences between groups, the thickness of the hypertrophic zone and the area of the cell-nests within this zone were measured with Image-Pro Plus software (version 6.0, Media Cybernetics, Inc., USA) (Figure 1). The area and number of chondrocytes in each cell-nest and the number of chondrocytes in the proliferative zone were calculated. Only cells with clear boundaries were included.). The area and number of chondrocytes in each cell-nest and the number of chondrocytes in the proliferative zone were calculated. Only cells with clear boundaries were included. Figure 1 The typical zonal structure of the growth plates. The thickness of the hypertrophic zone (hz) was defined as the distance from the top edge of the most cephalic qualifying cell to the bottom edge of the most caudal one. Magnification: ×200; H: hypertrophic zone; M: mineralization zone; P: proliferative zone. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "The resting, proliferative, and hypertrophic zones of the growth plate were identified on the images according to the cellular morphology of the chondrocytes [27]. The hypertrophic zone was defined as the area in which the chondrocytes were larger and lighter-stained than those in the proliferative zone [27]. The thickness of the hypertrophic zone was defined as the distance along the longitudinal axis of the local growth plate boundaries in the direction of the cell columns from the top edge of the most cranial cell to the bottom edge of the most caudal cell. It was well-documented by several studies [16–18] that the rate of longitudinal bone growth is determined primarily by the activity of the chondrocytes in the proliferative and hypertrophic zones. Therefore, we quantified those two zones here. To quantify the differences between groups, the thickness of the hypertrophic zone and the area of the cell-nests within this zone were measured with Image-Pro Plus software (version 6.0, Media Cybernetics, Inc., USA) (Figure 1). The area and number of chondrocytes in each cell-nest and the number of chondrocytes in the proliferative zone were calculated. Only cells with clear boundaries were included.). The area and number of chondrocytes in each cell-nest and the number of chondrocytes in the proliferative zone were calculated. Only cells with clear boundaries were included. Figure 1 The typical zonal structure of the growth plates. The thickness of the hypertrophic zone (hz) was defined as the distance from the top edge of the most cephalic qualifying cell to the bottom edge of the most caudal one. Magnification: ×200; H: hypertrophic zone; M: mineralization zone; P: proliferative zone. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_24_94-PMC4301996-0-12891_2013_Article_2388_Fig1_HTML.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_24_94-PMC4301996-0-12891_2013_Article_2388_Fig1_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "band of chondrocytes in growth plate",
+        "claim_text": "A band of chondrocytes in the growth plate consists of small cells.",
+        "presence_question": "Does the model's response discuss band of chondrocytes in growth plate?",
+        "correctness_question": "Does the model's response correctly assert that A band of chondrocytes in the growth plate consists of small cells?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "chondrocytes arranged in columns",
+        "claim_text": "A band of chondrocytes in the growth plate is regularly arranged in columns.",
+        "presence_question": "Does the model's response discuss chondrocytes arranged in columns?",
+        "correctness_question": "Does the model's response correctly assert that A band of chondrocytes in the growth plate is regularly arranged in columns?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "densely packed chondrocytes",
+        "claim_text": "The band of chondrocytes in the growth plate is densely packed.",
+        "presence_question": "Does the model's response discuss densely packed chondrocytes?",
+        "correctness_question": "Does the model's response correctly assert that The band of chondrocytes in the growth plate is densely packed?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "eosinophilic compact matrix",
+        "claim_text": "A region of tissue in the growth plate has an eosinophilic compact matrix.",
+        "presence_question": "Does the model's response discuss eosinophilic compact matrix?",
+        "correctness_question": "Does the model's response correctly assert that A region of tissue in the growth plate has an eosinophilic compact matrix?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "irregular cell remnants",
+        "claim_text": "Irregular cell remnants are located within the region that has an eosinophilic compact matrix in the growth plate.",
+        "presence_question": "Does the model's response discuss irregular cell remnants?",
+        "correctness_question": "Does the model's response correctly assert that Irregular cell remnants are located within the region that has an eosinophilic compact matrix in the growth plate?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "eosinophilic region opposite chondrocyte band",
+        "claim_text": "The region with eosinophilic compact matrix is located on the side opposite the band of small chondrocytes in the growth plate.",
+        "presence_question": "Does the model's response discuss eosinophilic region opposite chondrocyte band?",
+        "correctness_question": "Does the model's response correctly assert that The region with eosinophilic compact matrix is located on the side opposite the band of small chondrocytes in the growth plate?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "distinct intermediate zone",
+        "claim_text": "A distinct intermediate zone is present in the growth plate.",
+        "presence_question": "Does the model's response discuss distinct intermediate zone?",
+        "correctness_question": "Does the model's response correctly assert that A distinct intermediate zone is present in the growth plate?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "enlarged chondrocyte lacunae",
+        "claim_text": "Chondrocyte lacunae in the intermediate zone are markedly enlarged.",
+        "presence_question": "Does the model's response discuss enlarged chondrocyte lacunae?",
+        "correctness_question": "Does the model's response correctly assert that Chondrocyte lacunae in the intermediate zone are markedly enlarged?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "swollen paler chondrocytes",
+        "claim_text": "Chondrocytes in the intermediate zone appear swollen and paler.",
+        "presence_question": "Does the model's response discuss swollen paler chondrocytes?",
+        "correctness_question": "Does the model's response correctly assert that Chondrocytes in the intermediate zone appear swollen and paler?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "intermediate zone location",
+        "claim_text": "The intermediate zone is located between the band of small columnar chondrocytes and the region with eosinophilic compact matrix.",
+        "presence_question": "Does the model's response discuss intermediate zone location?",
+        "correctness_question": "Does the model's response correctly assert that The intermediate zone is located between the band of small columnar chondrocytes and the region with eosinophilic compact matrix?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "proliferative zone chondrocytes",
+        "claim_text": "The proliferative zone contains small, regularly arranged chondrocytes organized in densely packed columns.",
+        "presence_question": "Does the model's response discuss proliferative zone chondrocytes?",
+        "correctness_question": "Does the model's response correctly state that the proliferative zone contains small, regularly arranged chondrocytes organized in densely packed columns?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "mineralization/ossification zone matrix",
+        "claim_text": "The mineralization/ossification zone contains an eosinophilic, compact matrix that contains irregular cell remnants.",
+        "presence_question": "Does the model's response discuss mineralization/ossification zone matrix?",
+        "correctness_question": "Does the model's response correctly state that the mineralization/ossification zone contains an eosinophilic, compact matrix that contains irregular cell remnants?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "hypertrophic zone chondrocytes",
+        "claim_text": "The hypertrophic zone contains enlarged, swollen, paler chondrocytes with markedly enlarged lacunae.",
+        "presence_question": "Does the model's response discuss hypertrophic zone chondrocytes?",
+        "correctness_question": "Does the model's response correctly state that the hypertrophic zone contains enlarged, swollen, paler chondrocytes with markedly enlarged lacunae?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "hypertrophic zone location",
+        "claim_text": "The hypertrophic zone is located between the proliferative zone and the mineralization/ossification zone.",
+        "presence_question": "Does the model's response discuss hypertrophic zone location?",
+        "correctness_question": "Does the model's response correctly state that the hypertrophic zone is located between the proliferative zone and the mineralization/ossification zone?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Proliferative zone identification",
+        "claim_text": "The observed band of small, regularly columnar, densely packed chondrocytes supports that the proliferative zone is present in this case.",
+        "presence_question": "Does the model's response make an inferential link about Proliferative zone identification?",
+        "correctness_question": "Does the model's response correctly conclude that The observed band of small, regularly columnar, densely packed chondrocytes supports that the proliferative zone is present in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Mineralization/ossification zone identification",
+        "claim_text": "The region with an eosinophilic compact matrix containing irregular cell remnants supports that the mineralization/ossification zone is present in this case.",
+        "presence_question": "Does the model's response make an inferential link about Mineralization/ossification zone identification?",
+        "correctness_question": "Does the model's response correctly conclude that The region with an eosinophilic compact matrix containing irregular cell remnants supports that the mineralization/ossification zone is present in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Hypertrophic zone identification",
+        "claim_text": "The distinct intermediate zone with markedly enlarged lacunae and swollen, paler chondrocytes located between the proliferative-like band and the mineralizing-like region supports that the hypertrophic zone is present between the proliferative and mineralization regions in this case.",
+        "presence_question": "Does the model's response make an inferential link about Hypertrophic zone identification?",
+        "correctness_question": "Does the model's response correctly conclude that The distinct intermediate zone with markedly enlarged lacunae and swollen, paler chondrocytes located between the proliferative-like band and the mineralizing-like region supports that the hypertrophic zone is present between the proliferative and mineralization regions in this case?",
+        "premise_perception_ids": [
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k4"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

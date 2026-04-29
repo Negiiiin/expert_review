@@ -28,5 +28,121 @@
   "caption": "Contrast-enhanced computed tomography scan showing a diffusely thickened aortic wall with inflammatory changes and air foci within the native aneurysm.",
   "sub_caption": "Contrast-enhanced computed tomography scan showing a diffusely thickened aortic wall with inflammatory changes and air foci within the native aneurysm.",
   "image_context": "A 69-year-old man with a medical history of hypertension, coronary artery disease, and congestive heart failure had presented to an outside facility with worsening low back pain, weight loss, malaise, melena, and fevers. His surgical history was significant for exploratory laparotomy and right hemicolectomy 4 years prior because of numerous tubular adenomas and high-grade dysplasia. He had also undergone infrarenal EVAR 3 years earlier to treat an asymptomatic 6.3-cm abdominal aortic aneurysm. The aneurysm had been repaired using a Gore Excluder endoprosthesis (W. L. Gore & Associates, Flagstaff, AZ) and had required a 32-mm × 45-mm Gore Aortic Extender proximal extension cuff to treat a type Ia endoleak that resolved with deployment. He had been evaluated at an urgent care center for low back pain on multiple occasions in the month preceding his presentation to us. The laboratory results from those visits revealed anemia; however, no further workup had been pursued. An initial computed tomography scan had demonstrated dilated small bowel and a thickened, inflamed aortic wall with air foci within the native aneurysm sac (<xref rid=\"gr1\" ref-type=\"fig\">Fig 1</xref>). This finding was concerning for an infected endograft with a possible aortoenteric fistula, and the patient was subsequently transferred to our facility.). This finding was concerning for an infected endograft with a possible aortoenteric fistula, and the patient was subsequently transferred to our facility.Fig 1Contrast-enhanced computed tomography scan showing a diffusely thickened aortic wall with inflammatory changes and air foci within the native aneurysm.",
-  "relevant_image_context": "A 69-year-old man with a medical history of hypertension, coronary artery disease, and congestive heart failure had presented to an outside facility with worsening low back pain, weight loss, malaise, melena, and fevers. His surgical history was significant for exploratory laparotomy and right hemicolectomy 4 years prior because of numerous tubular adenomas and high-grade dysplasia. He had also undergone infrarenal EVAR 3 years earlier to treat an asymptomatic 6.3-cm abdominal aortic aneurysm. The aneurysm had been repaired using a Gore Excluder endoprosthesis (W. L. Gore & Associates, Flagstaff, AZ) and had required a 32-mm × 45-mm Gore Aortic Extender proximal extension cuff to treat a type Ia endoleak that resolved with deployment. He had been evaluated at an urgent care center for low back pain on multiple occasions in the month preceding his presentation to us. The laboratory results from those visits revealed anemia; however, no further workup had been pursued. An initial computed tomography scan had demonstrated dilated small bowel and a thickened, inflamed aortic wall with air foci within the native aneurysm sac (Fig 1). This finding was concerning for an infected endograft with a possible aortoenteric fistula, and the patient was subsequently transferred to our facility.). This finding was concerning for an infected endograft with a possible aortoenteric fistula, and the patient was subsequently transferred to our facility.Fig 1Contrast-enhanced computed tomography scan showing a diffusely thickened aortic wall with inflammatory changes and air foci within the native aneurysm. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "A 69-year-old man with a medical history of hypertension, coronary artery disease, and congestive heart failure had presented to an outside facility with worsening low back pain, weight loss, malaise, melena, and fevers. His surgical history was significant for exploratory laparotomy and right hemicolectomy 4 years prior because of numerous tubular adenomas and high-grade dysplasia. He had also undergone infrarenal EVAR 3 years earlier to treat an asymptomatic 6.3-cm abdominal aortic aneurysm. The aneurysm had been repaired using a Gore Excluder endoprosthesis (W. L. Gore & Associates, Flagstaff, AZ) and had required a 32-mm × 45-mm Gore Aortic Extender proximal extension cuff to treat a type Ia endoleak that resolved with deployment. He had been evaluated at an urgent care center for low back pain on multiple occasions in the month preceding his presentation to us. The laboratory results from those visits revealed anemia; however, no further workup had been pursued. An initial computed tomography scan had demonstrated dilated small bowel and a thickened, inflamed aortic wall with air foci within the native aneurysm sac (Fig 1). This finding was concerning for an infected endograft with a possible aortoenteric fistula, and the patient was subsequently transferred to our facility.). This finding was concerning for an infected endograft with a possible aortoenteric fistula, and the patient was subsequently transferred to our facility.Fig 1Contrast-enhanced computed tomography scan showing a diffusely thickened aortic wall with inflammatory changes and air foci within the native aneurysm. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_117_2-PMC9391504-2-gr1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_117_2-PMC9391504-2-gr1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Endovascular aortic graft",
+        "claim_text": "An endovascular aortic graft is present within the imaged aortic region.",
+        "presence_question": "Does the model's response discuss Endovascular aortic graft?",
+        "correctness_question": "Does the model's response correctly assert that An endovascular aortic graft is present within the imaged aortic region.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Endovascular graft location",
+        "claim_text": "The endovascular aortic graft is located in the expected aortic region.",
+        "presence_question": "Does the model's response discuss Endovascular graft location?",
+        "correctness_question": "Does the model's response correctly assert that The endovascular aortic graft is located in the expected aortic region.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Graft metallic appearance",
+        "claim_text": "The endovascular aortic graft has a hyperdense metallic appearance on CT.",
+        "presence_question": "Does the model's response discuss Graft metallic appearance?",
+        "correctness_question": "Does the model's response correctly assert that The endovascular aortic graft has a hyperdense metallic appearance on CT.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Periaortic soft-tissue stranding",
+        "claim_text": "Periaortic soft-tissue stranding is present around the graft and aneurysm sac.",
+        "presence_question": "Does the model's response discuss Periaortic soft-tissue stranding?",
+        "correctness_question": "Does the model's response correctly assert that Periaortic soft-tissue stranding is present around the graft and aneurysm sac.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Small periaortic gas foci",
+        "claim_text": "Multiple small foci of gas or air are present in the periaortic and graft region.",
+        "presence_question": "Does the model's response discuss Small periaortic gas foci?",
+        "correctness_question": "Does the model's response correctly assert that Multiple small foci of gas or air are present in the periaortic and graft region.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Gas adjacent to graft material",
+        "claim_text": "Small foci of gas or air are adjacent to the graft material.",
+        "presence_question": "Does the model's response discuss Gas adjacent to graft material?",
+        "correctness_question": "Does the model's response correctly assert that Small foci of gas or air are adjacent to the graft material.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "metallic endovascular grafts",
+        "claim_text": "Metallic endovascular grafts typically appear hyperdense on CT.",
+        "presence_question": "Does the model's response discuss metallic endovascular grafts?",
+        "correctness_question": "Does the model's response correctly state that Metallic endovascular grafts typically appear hyperdense on CT?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "periaortic soft-tissue stranding and peri-graft gas",
+        "claim_text": "Periaortic soft-tissue stranding and peri-graft gas on CT typically indicate vascular graft infection.",
+        "presence_question": "Does the model's response discuss periaortic soft-tissue stranding and peri-graft gas?",
+        "correctness_question": "Does the model's response correctly state that Periaortic soft-tissue stranding and peri-graft gas on CT typically indicate vascular graft infection?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "aortoenteric fistula",
+        "claim_text": "Aortoenteric fistula is a communication between an aortic graft or aneurysm sac and the bowel.",
+        "presence_question": "Does the model's response discuss aortoenteric fistula?",
+        "correctness_question": "Does the model's response correctly state that Aortoenteric fistula is a communication between an aortic graft or aneurysm sac and the bowel?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "fever",
+        "claim_text": "Fever is commonly associated with infectious processes.",
+        "presence_question": "Does the model's response discuss fever?",
+        "correctness_question": "Does the model's response correctly state that Fever is commonly associated with infectious processes?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Peri-graft stranding and gas indicating graft infection",
+        "claim_text": "The presence of periaortic soft-tissue stranding together with peri-graft gas on CT supports that the endovascular graft is infected in this case.",
+        "presence_question": "Does the model's response make an inferential link about Peri-graft stranding and gas indicating graft infection?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of periaortic soft-tissue stranding together with peri-graft gas on CT supports that the endovascular graft is infected in this case?",
+        "premise_perception_ids": [
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Graft-associated gas and inflammation indicating aortoenteric fistula",
+        "claim_text": "Graft-associated gas and surrounding inflammation on CT are findings that are consistent with an aortoenteric fistula involving the graft in this case.",
+        "presence_question": "Does the model's response make an inferential link about Graft-associated gas and inflammation indicating aortoenteric fistula?",
+        "correctness_question": "Does the model's response correctly conclude that Graft-associated gas and surrounding inflammation on CT are findings that are consistent with an aortoenteric fistula involving the graft in this case?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

@@ -27,5 +27,116 @@
   "caption": "Computed tomography (CT) scan of the abdomen and pelvis with intravenous contrast showing multiple nodules in liver and spleen.",
   "sub_caption": "Computed tomography (CT) scan of the abdomen and pelvis with intravenous contrast showing multiple nodules in liver and spleen.",
   "image_context": "A 37-year-old female came to the hospital with complaint of right upper quadrant abdominal pain associated with high-grade fever, shaking chills, nausea and vomiting for four days. She also reported 70 pounds weight loss over four months duration. On physical examination, she was febrile with temperature of 101 F, tachycardic but normotensive. Her abdomen was soft, tenderness present in right upper quadrant without guarding, rigidity or organomegaly. Lab workup showed that she was leukopenic, 3.7 x 109 cells/L (normal range: 3.7-11 x 109 cells/L). She also had mild elevation of alkaline phosphatase. Other liver enzymes were within normal limit. Human immunodeficiency virus (HIV) serology was negative. After obtaining blood culture, the patient was treated with broad-spectrum antibiotic for sepsis related to intra-abdominal pathology. Her symptoms did not improve. Subsequently, the patient had computed tomography (CT) scan of the chest, abdomen and pelvis with contrast which revealed innumerable lesions scattered throughout in liver and spleen (Figure <xref ref-type=\"fig\" rid=\"cureus-0011-00000005366-i01\">1</xref>).).",
-  "relevant_image_context": "Subsequently, the patient had computed tomography (CT) scan of the chest, abdomen and pelvis with contrast which revealed innumerable lesions scattered throughout in liver and spleen (Figure 1)."
+  "relevant_image_context": "Subsequently, the patient had computed tomography (CT) scan of the chest, abdomen and pelvis with contrast which revealed innumerable lesions scattered throughout in liver and spleen (Figure 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_70_26-PMC6783217-0-cureus-0011-00000005366-i01.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_70_26-PMC6783217-0-cureus-0011-00000005366-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "large abdominal organ size",
+        "claim_text": "A large solid abdominal organ occupies the majority of the upper abdomen on the imaged slice.",
+        "presence_question": "Does the model's response discuss large abdominal organ size?",
+        "correctness_question": "Does the model's response correctly assert that A large solid abdominal organ occupies the majority of the upper abdomen on the imaged slice?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "rounded nodules count",
+        "claim_text": "Multiple rounded nodules are present on the axial CT images.",
+        "presence_question": "Does the model's response discuss rounded nodules count?",
+        "correctness_question": "Does the model's response correctly assert that Multiple rounded nodules are present on the axial CT images?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "nodules within organ",
+        "claim_text": "The rounded nodules are located within the large solid abdominal organ.",
+        "presence_question": "Does the model's response discuss nodules within organ?",
+        "correctness_question": "Does the model's response correctly assert that The rounded nodules are located within the large solid abdominal organ?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "nodules lower attenuation",
+        "claim_text": "The rounded nodules show lower attenuation on the axial CT images.",
+        "presence_question": "Does the model's response discuss nodules lower attenuation?",
+        "correctness_question": "Does the model's response correctly assert that The rounded nodules show lower attenuation on the axial CT images?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "nodules rounded shape",
+        "claim_text": "The nodules have a rounded shape on the axial CT images.",
+        "presence_question": "Does the model's response discuss nodules rounded shape?",
+        "correctness_question": "Does the model's response correctly assert that The nodules have a rounded shape on the axial CT images?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "second smaller organ presence",
+        "claim_text": "A second smaller solid organ is present on the axial CT images.",
+        "presence_question": "Does the model's response discuss second smaller organ presence?",
+        "correctness_question": "Does the model's response correctly assert that A second smaller solid organ is present on the axial CT images?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "second organ lateral location",
+        "claim_text": "The second smaller solid organ is located laterally on one side of the abdomen.",
+        "presence_question": "Does the model's response discuss second organ lateral location?",
+        "correctness_question": "Does the model's response correctly assert that The second smaller solid organ is located laterally on one side of the abdomen?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "second organ smaller than first",
+        "claim_text": "The area of the second smaller solid organ is less than that of the large solid abdominal organ.",
+        "presence_question": "Does the model's response discuss second organ smaller than first?",
+        "correctness_question": "Does the model's response correctly assert that The area of the second smaller solid organ is less than that of the large solid abdominal organ?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "organ homogeneous parenchyma",
+        "claim_text": "The large solid abdominal organ demonstrates homogeneous parenchyma in the upper abdomen.",
+        "presence_question": "Does the model's response discuss organ homogeneous parenchyma?",
+        "correctness_question": "Does the model's response correctly assert that The large solid abdominal organ demonstrates homogeneous parenchyma in the upper abdomen?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "internal vascular structures in organ",
+        "claim_text": "The large solid abdominal organ contains internal vascular structures within its parenchyma.",
+        "presence_question": "Does the model's response discuss internal vascular structures in organ?",
+        "correctness_question": "Does the model's response correctly assert that The large solid abdominal organ contains internal vascular structures within its parenchyma?"
+      }
+    ],
+    "knowledge": [],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Primary organ identification",
+        "claim_text": "The observed large solid abdominal organ occupying the majority of the upper-abdomen slice supports that the large solid abdominal organ is the organ primarily shown in the image.",
+        "presence_question": "Does the model's response make an inferential link about Primary organ identification?",
+        "correctness_question": "Does the model's response correctly conclude that The observed large solid abdominal organ occupying the majority of the upper-abdomen slice supports that the large solid abdominal organ is the organ primarily shown in the image?",
+        "premise_perception_ids": [
+          "p1",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Nodular lesions in large organ",
+        "claim_text": "The multiple rounded, lower-attenuation nodules within the large solid abdominal organ are consistent with the large solid abdominal organ containing multiple nodular lesions.",
+        "presence_question": "Does the model's response make an inferential link about Nodular lesions in large organ?",
+        "correctness_question": "Does the model's response correctly conclude that The multiple rounded, lower-attenuation nodules within the large solid abdominal organ are consistent with the large solid abdominal organ containing multiple nodular lesions?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

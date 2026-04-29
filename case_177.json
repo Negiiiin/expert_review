@@ -27,5 +27,128 @@
   "caption": "Distribution of CT and choroidal vessels. Extended macular ETDRS grid (using the right eye as an example). The measurement of choroidal thickness and choroidal vascularity and choriocapillaris blood perfusion. The macular region was divided into four concentric circles with diameters of 1 mm (central fovea), 3 mm (parafovea), 6 mm (perifovea), and 9 mm (extended). The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants. C: central fovea",
   "sub_caption": "Extended macular ETDRS grid (using the right eye as an example). The measurement of choroidal thickness and choroidal vascularity and choriocapillaris blood perfusion. The macular region was divided into four concentric circles with diameters of 1 mm (central fovea), 3 mm (parafovea), 6 mm (perifovea), and 9 mm (extended). The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants. C: central fovea",
   "image_context": "Using the Early Treatment Diabetic Retinopathy Study (ETDRS) grid, the macular region was divided into three concentric circles with diameters of 1 mm (central fovea), 3 mm (parafovea), and 6 mm (perifovea) (Fig. <xref rid=\"12886_2024_3616_Fig2_HTML\" ref-type=\"fig\">2</xref>). We here extended this grid to a 9-mm (extended) range. The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants (Fig. ). We here extended this grid to a 9-mm (extended) range. The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants (Fig. <xref rid=\"12886_2024_3616_Fig2_HTML\" ref-type=\"fig\">2</xref>).).",
-  "relevant_image_context": "Using the Early Treatment Diabetic Retinopathy Study (ETDRS) grid, the macular region was divided into three concentric circles with diameters of 1 mm (central fovea), 3 mm (parafovea), and 6 mm (perifovea). We here extended this grid to a 9-mm (extended) range. The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants. C: central fovea"
+  "relevant_image_context": "Using the Early Treatment Diabetic Retinopathy Study (ETDRS) grid, the macular region was divided into three concentric circles with diameters of 1 mm (central fovea), 3 mm (parafovea), and 6 mm (perifovea). We here extended this grid to a 9-mm (extended) range. The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants. C: central fovea",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_154_46-PMC11304658-3-12886_2024_3616_Fig2_HTML.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_154_46-PMC11304658-3-12886_2024_3616_Fig2_HTML.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "macular concentric rings",
+        "claim_text": "Concentric circular grid rings are present over the macula.",
+        "presence_question": "Does the model's response discuss macular concentric rings?",
+        "correctness_question": "Does the model's response correctly assert that Concentric circular grid rings are present over the macula?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "macular ring color",
+        "claim_text": "The macular grid rings are blue in color.",
+        "presence_question": "Does the model's response discuss macular ring color?",
+        "correctness_question": "Does the model's response correctly assert that The macular grid rings are blue in color?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "macular rings centered on the fovea",
+        "claim_text": "The macular grid rings are centered on the fovea.",
+        "presence_question": "Does the model's response discuss macular rings centered on the fovea?",
+        "correctness_question": "Does the model's response correctly assert that The macular grid rings are centered on the fovea?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "radial crosshair lines",
+        "claim_text": "Radial crosshair lines are present overlaid on the macular grid.",
+        "presence_question": "Does the model's response discuss radial crosshair lines?",
+        "correctness_question": "Does the model's response correctly assert that Radial crosshair lines are present overlaid on the macular grid?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Parafovea text label",
+        "claim_text": "A text label reading 'Parafovea' is present between the macular rings.",
+        "presence_question": "Does the model's response discuss Parafovea text label?",
+        "correctness_question": "Does the model's response correctly assert that A text label reading 'Parafovea' is present between the macular rings?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Perifovea text label",
+        "claim_text": "A text label reading 'Perifovea' is present between the macular rings.",
+        "presence_question": "Does the model's response discuss Perifovea text label?",
+        "correctness_question": "Does the model's response correctly assert that A text label reading 'Perifovea' is present between the macular rings?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "number of concentric rings",
+        "claim_text": "There are four concentric circular rings within the macula.",
+        "presence_question": "Does the model's response discuss number of concentric rings?",
+        "correctness_question": "Does the model's response correctly assert that There are four concentric circular rings within the macula?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "concentric circular ring shape",
+        "claim_text": "The macular rings have a concentric circular shape.",
+        "presence_question": "Does the model's response discuss concentric circular ring shape?",
+        "correctness_question": "Does the model's response correctly assert that The macular rings have a concentric circular shape?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "ETDRS macular grid",
+        "claim_text": "The ETDRS macular grid is composed of concentric circular rings centered on the fovea.",
+        "presence_question": "Does the model's response discuss ETDRS macular grid?",
+        "correctness_question": "Does the model's response correctly state that The ETDRS macular grid is composed of concentric circular rings centered on the fovea?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "ETDRS annular regions",
+        "claim_text": "The ETDRS macular grid includes named annular regions such as the Parafovea and Perifovea located between the concentric rings.",
+        "presence_question": "Does the model's response discuss ETDRS annular regions?",
+        "correctness_question": "Does the model's response correctly state that The ETDRS macular grid includes named annular regions such as the Parafovea and Perifovea located between the concentric rings?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Counting concentric rings",
+        "claim_text": "Counting rings means enumerating distinct concentric circles from the center outward to yield the number of circles present.",
+        "presence_question": "Does the model's response discuss Counting concentric rings?",
+        "correctness_question": "Does the model's response correctly state that Counting rings means enumerating distinct concentric circles from the center outward to yield the number of circles present?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Macular ETDRS grid ring count",
+        "claim_text": "The observed image supports that the macular ETDRS grid contains four concentric circular rings.",
+        "presence_question": "Does the model's response make an inferential link about Macular ETDRS grid ring count?",
+        "correctness_question": "Does the model's response correctly conclude that The observed image supports that the macular ETDRS grid contains four concentric circular rings.?",
+        "premise_perception_ids": [
+          "p7",
+          "p1",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Parafovea and Perifovea label correspondence",
+        "claim_text": "The observed image is consistent with the labels 'Parafovea' and 'Perifovea' corresponding to annular ETDRS zones located between the concentric rings visible in the image.",
+        "presence_question": "Does the model's response make an inferential link about Parafovea and Perifovea label correspondence?",
+        "correctness_question": "Does the model's response correctly conclude that The observed image is consistent with the labels 'Parafovea' and 'Perifovea' corresponding to annular ETDRS zones located between the concentric rings visible in the image.?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p1"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

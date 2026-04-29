@@ -27,5 +27,100 @@
   "caption": "CT-lower extremity angiography (contrast) showing Right external iliac artery 80% luminal stenosis (arrow).",
   "sub_caption": "CT-lower extremity angiography (contrast) showing Right external iliac artery 80% luminal stenosis (arrow).",
   "image_context": "There are several causes for low back and leg pain. Peripheral artery occlusive disease (PAOD) is also one cause of leg pain and is a disease that causes occlusion in the lower limb artery. PAOD can require even amputation if diagnosis is delayed, so proactive diagnosis and treatment is needed. Many ways of diagnosis have been developed by several researchers. One of these methods is the ankle-brachial index (ABI), a noninvasive, very simple and useful method that is widely used through blood pressure measurement of the lower and upper extremities [1,2]. The authors diagnosed a patient who visited the outpatient office of the pain clinic in our hospital due to low back and leg pain as peripheral vascular disease using the ABI. The patient was a 78-years old male with low back pain and both leg pain for seven years. The patient was 170 cm, 63 kg, with no sign of obesity, had been taking 2 mg of warfarin once daily because of hypertension and arterial fibrillation. He was diagnosed with coronary artery occlusive disease (CAOD) 3 vessel disease 2 years ago and had received a stent insertion for two times. The patient was a farmer with a history of falling from a cultivator twice several years ago, and since those incidences, had continuous pain in his lower back and bilateral legs. He had received a selective transforaminal epidural block at a private clinic 3 years ago but it was not effective. The patient had complained of severe pain rated as 70/100 mm by the visual analogue scale for pain at the time of visit to the pain clinic and also informed that when rested, he had less pain, but after walking about 50 to 100 m, the leg would swell and be painful. He did not show any other specific signs or symptoms other than direct tenderness of L4 and L5 from the physical examination, and motor nerve as well as sensory nerve was intact. He had never had a spine MRI, but from a simple radiograph taken a year ago, the finding of L1 and L2 compression fracture as well as L4/5, L5/S1 spinal stenosis had been observed. He was under concomitant medication of torasemide 5 mg, warfarin 2 mg, telmisartan 40 mg and clopidogrel 100 mg currently. After considering the symptoms reported and observed and the findings from physical examination as well as x-ray, the patient was suspected as having the spinal nerve compression-induced radiculopathy. Therefore, we considered performing a diagnostic nerve block but since the patient was taking warfarin and clopidogrel we been decided to perform the nerve block after discontinuing the medication. And taking into account that he was older, had hypertension and CAOD, and had been smoked one pack of cigarette daily for 50 years, we could not rule out vascular origin pain, so we decided to implement the comparatively simple and noninvasive ABI. First, we measured the blood pressure (BP) of the patient's brachial artery as well as posterior tibial artery by cuffing a non-invasive sphygmomanometer on both upper arm and ankle. The BP of upper limbs was measured as 118/64 mmHg on the right side, and 123/60 mmHg on the left side, whereas the BP of lower limbs was measured very low as 57/49 mmHg on the right side for the first time and as 84/59 mmHg at the second time. From the left side lower limb, his BP was measured as 120/52 mmHg. When we calculated the ABI of the right side leg, the first result was 0.48, and the second was 0.71. Therefore, immediate interdisciplinary medical care to the Cardiology Department was requested since the patient was suspected to have PAOD. A CT-lower extremity angiography with contrast was implemented in the patient. Narrowing of vascular inner diameter over the image of CT angiography was observed over right anterior tibial artery and external iliac artery (<xref ref-type=\"fig\" rid=\"kjae-65-278-g001\">Fig. 1</xref>). Patient was then admitted to the hospital via the Cardiology Department and underwent a percutaneous angioplasty.). Patient was then admitted to the hospital via the Cardiology Department and underwent a percutaneous angioplasty.",
-  "relevant_image_context": "CT-lower extremity angiography with contrast was performed in the patient. Narrowing of the vascular lumen on CT angiography was observed in the right anterior tibial artery and the right external iliac artery. The sub-caption specifies CT-lower extremity angiography showing the right external iliac artery with 80% luminal stenosis (arrow). The broader context discusses PAOD, ABI measurements, and the patient's vascular symptoms that led to the imaging and subsequent angioplasty."
+  "relevant_image_context": "CT-lower extremity angiography with contrast was performed in the patient. Narrowing of the vascular lumen on CT angiography was observed in the right anterior tibial artery and the right external iliac artery. The sub-caption specifies CT-lower extremity angiography showing the right external iliac artery with 80% luminal stenosis (arrow). The broader context discusses PAOD, ABI measurements, and the patient's vascular symptoms that led to the imaging and subsequent angioplasty.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_16_51-PMC3790045-0-kjae-65-278-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_16_51-PMC3790045-0-kjae-65-278-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "CT angiographic 3D reconstruction",
+        "claim_text": "A CT angiographic 3D reconstruction of the abdomen and pelvis is present.",
+        "presence_question": "Does the model's response discuss CT angiographic 3D reconstruction?",
+        "correctness_question": "Does the model's response correctly assert that A CT angiographic 3D reconstruction of the abdomen and pelvis is present?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Right external iliac artery high-grade narrowing",
+        "claim_text": "There is a focal high-grade narrowing of the lumen of the right external iliac artery.",
+        "presence_question": "Does the model's response discuss Right external iliac artery high-grade narrowing?",
+        "correctness_question": "Does the model's response correctly assert that There is a focal high-grade narrowing of the lumen of the right external iliac artery?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Narrowing just distal to common iliac bifurcation",
+        "claim_text": "The narrowing is located just distal to the right common iliac bifurcation in the external iliac artery.",
+        "presence_question": "Does the model's response discuss Narrowing just distal to common iliac bifurcation?",
+        "correctness_question": "Does the model's response correctly assert that The narrowing is located just distal to the right common iliac bifurcation in the external iliac artery?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Right distal arterial segments decreased",
+        "claim_text": "Distal arterial segments of the right lower extremity are decreased compared with the contralateral side.",
+        "presence_question": "Does the model's response discuss Right distal arterial segments decreased?",
+        "correctness_question": "Does the model's response correctly assert that Distal arterial segments of the right lower extremity are decreased compared with the contralateral side?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "progressive claudication",
+        "claim_text": "Progressive claudication typically indicates symptomatic peripheral arterial disease.",
+        "presence_question": "Does the model's response discuss progressive claudication?",
+        "correctness_question": "Does the model's response correctly state that Progressive claudication typically indicates symptomatic peripheral arterial disease?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "iliac artery stenosis",
+        "claim_text": "Iliac artery stenosis is typically associated with lower-extremity claudication.",
+        "presence_question": "Does the model's response discuss iliac artery stenosis?",
+        "correctness_question": "Does the model's response correctly state that Iliac artery stenosis is typically associated with lower-extremity claudication?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "endovascular revascularization for iliac stenosis",
+        "claim_text": "Symptomatic focal high-grade iliac stenosis is typically treated with endovascular revascularization that restores arterial flow and improves symptoms and limb perfusion.",
+        "presence_question": "Does the model's response discuss endovascular revascularization for iliac stenosis?",
+        "correctness_question": "Does the model's response correctly state that Symptomatic focal high-grade iliac stenosis is typically treated with endovascular revascularization that restores arterial flow and improves symptoms and limb perfusion?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Right external iliac stenosis as cause of claudication",
+        "claim_text": "The focal high-grade narrowing of the right external iliac artery just distal to the common iliac bifurcation supports that proximal right external iliac high-grade stenosis is a likely cause of the patient's progressive exertional lower-extremity claudication.",
+        "presence_question": "Does the model's response make an inferential link about Right external iliac stenosis as cause of claudication?",
+        "correctness_question": "Does the model's response correctly conclude that The focal high-grade narrowing of the right external iliac artery just distal to the common iliac bifurcation supports that proximal right external iliac high-grade stenosis is a likely cause of the patient's progressive exertional lower-extremity claudication.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Endovascular revascularization justification for iliac stenosis",
+        "claim_text": "Given a symptomatic focal high-grade iliac stenosis visible on CTA, the imaging findings likely justify endovascular revascularization to restore flow and improve symptoms and limb perfusion.",
+        "presence_question": "Does the model's response make an inferential link about Endovascular revascularization justification for iliac stenosis?",
+        "correctness_question": "Does the model's response correctly conclude that Given a symptomatic focal high-grade iliac stenosis visible on CTA, the imaging findings likely justify endovascular revascularization to restore flow and improve symptoms and limb perfusion.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

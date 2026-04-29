@@ -28,5 +28,98 @@
   "caption": "(a) Coronal slice from a CT scan of the abdomen and pelvis showing the left hip gridlestone with the presence of air in the joint space. (b and c) Axial images demonstrating air in the lower rectum with involvement of the left ischial fossa and passage along the obturator canal to the left hip joint.",
   "sub_caption": "(a) Coronal slice from a CT scan of the abdomen and pelvis showing the left hip gridlestone with the presence of air in the joint space.",
   "image_context": "The patient's condition deteriorated and complained of increasing left sided lower abdominal and hip pain. Despite vigorous administration of intravenous fluids, serial lactate levels demonstrated a rapid increase. A computed tomography (CT) scan of the abdomen and pelvis demonstrated a moderate collection involving the musculature surrounding the left hip with gas within the soft tissue, extending to the left ischiorectal fossa and left obturator internus muscle, suggesting a communication between the bowel and hip joint. There were no features of IBD, DD or bowel carcinoma (Fig. <xref ref-type=\"fig\" rid=\"rju04301\">1</xref>).\n).\nFigure 1:(a) Coronal slice from a CT scan of the abdomen and pelvis showing the left hip gridlestone with the presence of air in the joint space. (b and c) Axial images demonstrating air in the lower rectum with involvement of the left ischial fossa and passage along the obturator canal to the left hip joint.",
-  "relevant_image_context": "The patient's condition deteriorated and complained of increasing left sided lower abdominal and hip pain. Despite vigorous administration of intravenous fluids, serial lactate levels demonstrated a rapid increase. A computed tomography (CT) scan of the abdomen and pelvis demonstrated a moderate collection involving the musculature surrounding the left hip with gas within the soft tissue, extending to the left ischiorectal fossa and left obturator internus muscle, suggesting a communication between the bowel and hip joint. There were no features of IBD, DD or bowel carcinoma. Figure 1: (a) Coronal slice from a CT scan of the abdomen and pelvis showing the left hip gridlestone with the presence of air in the joint space. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "The patient's condition deteriorated and complained of increasing left sided lower abdominal and hip pain. Despite vigorous administration of intravenous fluids, serial lactate levels demonstrated a rapid increase. A computed tomography (CT) scan of the abdomen and pelvis demonstrated a moderate collection involving the musculature surrounding the left hip with gas within the soft tissue, extending to the left ischiorectal fossa and left obturator internus muscle, suggesting a communication between the bowel and hip joint. There were no features of IBD, DD or bowel carcinoma. Figure 1: (a) Coronal slice from a CT scan of the abdomen and pelvis showing the left hip gridlestone with the presence of air in the joint space. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_19_49-PMC4021383-0-rju04301.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_19_49-PMC4021383-0-rju04301.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Left pelvic air collection",
+        "claim_text": "An air-containing collection is present in the soft tissues of the left pelvis.",
+        "presence_question": "Does the model's response discuss Left pelvic air collection?",
+        "correctness_question": "Does the model's response correctly assert that An air-containing collection is present in the soft tissues of the left pelvis.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Air collection in left perirectal/ischial region",
+        "claim_text": "The air-containing collection extends medially to the left perirectal and ischial region.",
+        "presence_question": "Does the model's response discuss Air collection in left perirectal/ischial region?",
+        "correctness_question": "Does the model's response correctly assert that The air-containing collection extends medially to the left perirectal and ischial region.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Air collection extending to left hip region",
+        "claim_text": "The air-containing collection extends laterally to the expected region of the left hip.",
+        "presence_question": "Does the model's response discuss Air collection extending to left hip region?",
+        "correctness_question": "Does the model's response correctly assert that The air-containing collection extends laterally to the expected region of the left hip.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Gas at native joint communication site",
+        "claim_text": "Gas is present at the left region where the native joint would communicate with adjacent pelvic soft tissues.",
+        "presence_question": "Does the model's response discuss Gas at native joint communication site?",
+        "correctness_question": "Does the model's response correctly assert that Gas is present at the left region where the native joint would communicate with adjacent pelvic soft tissues.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Soft-tissue fluid at native joint communication site",
+        "claim_text": "Soft-tissue fluid is present at the left region where the native joint would communicate with adjacent pelvic soft tissues.",
+        "presence_question": "Does the model's response discuss Soft-tissue fluid at native joint communication site?",
+        "correctness_question": "Does the model's response correctly assert that Soft-tissue fluid is present at the left region where the native joint would communicate with adjacent pelvic soft tissues.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "worsening localized pain and rising lactate",
+        "claim_text": "Worsening localized pain with clinical deterioration and rising lactate despite fluid resuscitation typically indicates a spreading infectious process causing systemic compromise.",
+        "presence_question": "Does the model's response discuss worsening localized pain and rising lactate?",
+        "correctness_question": "Does the model's response correctly state that Worsening localized pain with clinical deterioration and rising lactate despite fluid resuscitation typically indicates a spreading infectious process causing systemic compromise?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "gas tracking between pelvis/perirectal region and hip",
+        "claim_text": "Gas tracking between the lower pelvic or perirectal region and the hip typically indicates communication between bowel or enteric contents and hip soft tissues.",
+        "presence_question": "Does the model's response discuss gas tracking between the pelvis/perirectal region and the hip?",
+        "correctness_question": "Does the model's response correctly state that Gas tracking between the lower pelvic or perirectal region and the hip typically indicates communication between bowel or enteric contents and hip soft tissues?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "spreading infectious process",
+        "claim_text": "The presence of an air-containing soft-tissue collection and gas/soft-tissue fluid tracking between the lower pelvis and left hip, together with clinical deterioration and rising lactate, supports that a spreading infectious process with systemic compromise is plausible in this case.",
+        "presence_question": "Does the model's response make an inferential link about spreading infectious process?",
+        "correctness_question": "Does the model's response correctly conclude that the presence of an air-containing soft-tissue collection and gas/soft-tissue fluid tracking between the lower pelvis and left hip, together with clinical deterioration and rising lactate, supports that a spreading infectious process with systemic compromise is plausible in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "communication between bowel and hip soft tissues",
+        "claim_text": "Gas tracking that extends from the lower pelvis/perirectal region to the left hip region on CT supports a communication between the bowel/enteric region and the hip soft tissues in this case.",
+        "presence_question": "Does the model's response make an inferential link about communication between bowel and hip soft tissues?",
+        "correctness_question": "Does the model's response correctly conclude that gas tracking extending from the lower pelvis/perirectal region to the left hip region on CT supports a communication between the bowel/enteric region and the hip soft tissues in this case?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

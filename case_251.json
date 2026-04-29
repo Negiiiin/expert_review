@@ -27,5 +27,115 @@
   "caption": "Intraoperative photograph showing in situ reconstruction with aortobifemoral graft of bovine pericardium.",
   "sub_caption": "Intraoperative photograph showing in situ reconstruction with aortobifemoral graft of bovine pericardium.",
   "image_context": "In consideration of the subsequent dehiscence of both groin accesses with pus leakage on the right and the strong suspicion of infectious involvement of both prostheses (axillobifemoral bypass and previous aortic graft), explantation of both existing prostheses and placement of a new biological aortobifemoral graft of bovine pericardium were performed (<xref rid=\"gr3\" ref-type=\"fig\">Fig 3</xref>). Both explanted prostheses were subsequently found to be involved in the BCG infectious process on microbiological analysis. In the right side of the groin, from which the mass was removed, a negative pressure dressing was initially placed for 15 days, with empiric antibiotic therapy with piperacillin-tazobactam. Subsequently, in collaboration with a plastic surgeon, the groin was reconstructed by performing a skin rotation flap.). Both explanted prostheses were subsequently found to be involved in the BCG infectious process on microbiological analysis. In the right side of the groin, from which the mass was removed, a negative pressure dressing was initially placed for 15 days, with empiric antibiotic therapy with piperacillin-tazobactam. Subsequently, in collaboration with a plastic surgeon, the groin was reconstructed by performing a skin rotation flap.Fig 3Intraoperative photograph showing in situ reconstruction with aortobifemoral graft of bovine pericardium.",
-  "relevant_image_context": "In consideration of the subsequent dehiscence of both groin accesses with pus leakage on the right and the strong suspicion of infectious involvement of both prostheses (axillobifemoral bypass and previous aortic graft), explantation of both existing prostheses and placement of a new biological aortobifemoral graft of bovine pericardium were performed (Fig 3). Both explanted prostheses were subsequently found to be involved in the BCG infectious process on microbiological analysis. In the right side of the groin, from which the mass was removed, a negative pressure dressing was initially placed for 15 days, with empiric antibiotic therapy with piperacillin-tazobactam. Subsequently, in collaboration with a plastic surgeon, the groin was reconstructed by performing a skin rotation flap.). Both explanted prostheses were subsequently found to be involved in the BCG infectious process on microbiological analysis. In the right side of the groin, from which the mass was removed, a negative pressure dressing was initially placed for 15 days, with empiric antibiotic therapy with piperacillin-tazobactam. Subsequently, in collaboration with a plastic surgeon, the groin was reconstructed by performing a skin rotation flap.Fig 3Intraoperative photograph showing in situ reconstruction with aortobifemoral graft of bovine pericardium. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "In consideration of the subsequent dehiscence of both groin accesses with pus leakage on the right and the strong suspicion of infectious involvement of both prostheses (axillobifemoral bypass and previous aortic graft), explantation of both existing prostheses and placement of a new biological aortobifemoral graft of bovine pericardium were performed (Fig 3). Both explanted prostheses were subsequently found to be involved in the BCG infectious process on microbiological analysis. In the right side of the groin, from which the mass was removed, a negative pressure dressing was initially placed for 15 days, with empiric antibiotic therapy with piperacillin-tazobactam. Subsequently, in collaboration with a plastic surgeon, the groin was reconstructed by performing a skin rotation flap.). Both explanted prostheses were subsequently found to be involved in the BCG infectious process on microbiological analysis. In the right side of the groin, from which the mass was removed, a negative pressure dressing was initially placed for 15 days, with empiric antibiotic therapy with piperacillin-tazobactam. Subsequently, in collaboration with a plastic surgeon, the groin was reconstructed by performing a skin rotation flap.Fig 3Intraoperative photograph showing in situ reconstruction with aortobifemoral graft of bovine pericardium. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_151_9-PMC11137581-2-gr3.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_151_9-PMC11137581-2-gr3.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "prosthetic graft",
+        "claim_text": "A prosthetic graft is present in the surgical field.",
+        "presence_question": "Does the model's response discuss prosthetic graft?",
+        "correctness_question": "Does the model's response correctly assert that A prosthetic graft is present in the surgical field?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "prosthetic graft shape",
+        "claim_text": "The prosthetic graft has a tubular shape within the surgical field.",
+        "presence_question": "Does the model's response discuss prosthetic graft shape?",
+        "correctness_question": "Does the model's response correctly assert that The prosthetic graft has a tubular shape within the surgical field?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "graft sutures",
+        "claim_text": "The prosthetic graft appears stitched with visible sutures in the surgical field.",
+        "presence_question": "Does the model's response discuss graft sutures?",
+        "correctness_question": "Does the model's response correctly assert that The prosthetic graft appears stitched with visible sutures in the surgical field?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "graft location",
+        "claim_text": "The prosthetic graft is located at the top-middle of the surgical field.",
+        "presence_question": "Does the model's response discuss graft location?",
+        "correctness_question": "Does the model's response correctly assert that The prosthetic graft is located at the top-middle of the surgical field?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "graft near upper image edge",
+        "claim_text": "The prosthetic graft is located just beneath the upper edge of the image.",
+        "presence_question": "Does the model's response discuss graft near upper image edge?",
+        "correctness_question": "Does the model's response correctly assert that The prosthetic graft is located just beneath the upper edge of the image?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "graft adjacent to retractors",
+        "claim_text": "The prosthetic graft lies adjacent to two metal retractors in the surgical field.",
+        "presence_question": "Does the model's response discuss graft adjacent to retractors?",
+        "correctness_question": "Does the model's response correctly assert that The prosthetic graft lies adjacent to two metal retractors in the surgical field?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "two metal retractors",
+        "claim_text": "There are two metal retractors bilaterally framing the surgical field.",
+        "presence_question": "Does the model's response discuss two metal retractors?",
+        "correctness_question": "Does the model's response correctly assert that There are two metal retractors bilaterally framing the surgical field?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "metallic retractors",
+        "claim_text": "The retractors in the surgical field have a metallic appearance.",
+        "presence_question": "Does the model's response discuss metallic retractors?",
+        "correctness_question": "Does the model's response correctly assert that The retractors in the surgical field have a metallic appearance?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "retractors laterally framing field",
+        "claim_text": "The metal retractors are located laterally, framing the surgical field on both sides.",
+        "presence_question": "Does the model's response discuss retractors laterally framing field?",
+        "correctness_question": "Does the model's response correctly assert that The metal retractors are located laterally, framing the surgical field on both sides?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "visible sutures",
+        "claim_text": "Visible sutures typically indicate stitching of a surgical prosthesis.",
+        "presence_question": "Does the model's response discuss visible sutures?",
+        "correctness_question": "Does the model's response correctly state that visible sutures typically indicate stitching of a surgical prosthesis?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Visible sutures indicate graft stitching",
+        "claim_text": "Visible sutures on the prosthetic graft indicate that the graft is stitched in this case.",
+        "presence_question": "Does the model's response make an inferential link about Visible sutures indicate graft stitching?",
+        "correctness_question": "Does the model's response correctly conclude that Visible sutures on the prosthetic graft indicate that the graft is stitched in this case?",
+        "premise_perception_ids": [
+          "p3"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Graft located between lateral retractors",
+        "claim_text": "The prosthetic graft lies between two laterally placed metal retractors that frame the surgical field, indicating the graft is centered between lateral retractors in the exposed field.",
+        "presence_question": "Does the model's response make an inferential link about Graft located between lateral retractors?",
+        "correctness_question": "Does the model's response correctly conclude that The prosthetic graft lies between two laterally placed metal retractors that frame the surgical field, indicating the graft is centered between lateral retractors in the exposed field?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p9"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

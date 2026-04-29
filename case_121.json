@@ -28,5 +28,111 @@
   "caption": "An abdominal computed tomography scan demonstrated multi-cystic involvements of the right kidney, which measured 126 × 88 × 84 mm and extended into the pelvis. No further cystic involvement of the contralateral kidney or other abdominal organs was detected.",
   "sub_caption": "An abdominal computed tomography scan demonstrated multi-cystic involvements of the right kidney, which measured 126 × 88 × 84 mm and extended into the pelvis. No further cystic involvement of the contralateral kidney or other abdominal organs was detected.",
   "image_context": "A 52-year-old male, who noticed a sudden onset of general fatigue and appetite loss, visited our hospital. No other family member had a history of renal disease. He had been diagnosed with alcoholic hepatopathy 10 years before. His blood pressure was 112/72 mmHg. His right kidney was felt during palpation at the upper right abdominal area. Laboratory findings showed elevated levels of liver enzymes, but renal function was normal (serum creatinine 1.01 mg/dL). On urinalysis, occult blood and urine protein were negative. Abdominal computed tomography revealed multiple large cysts in the right kidney, a normal left kidney, and no evidence of further cystic disease in other organs (<xref ref-type=\"fig\" rid=\"sfq189fig1\">Figure 1</xref>). A diffuse low-density area in his liver was interpreted as fatty liver due to alcoholic hepatopathy. There was no evidence of urinary tract malformation. ). A diffuse low-density area in his liver was interpreted as fatty liver due to alcoholic hepatopathy. There was no evidence of urinary tract malformation. 99mTc-DTPA renal scintigraphy showed asymmetrical accumulation, and the right kidney was non-functioning on scintigraphy (<xref ref-type=\"fig\" rid=\"sfq189fig2\">Figure 2</xref>).).",
-  "relevant_image_context": "A 52-year-old male, who noticed a sudden onset of general fatigue and appetite loss, visited our hospital. No other family member had a history of renal disease. He had been diagnosed with alcoholic hepatopathy 10 years before. His blood pressure was 112/72 mmHg. His right kidney was felt during palpation at the upper right abdominal area. Abdominal computed tomography revealed multiple large cysts in the right kidney, a normal left kidney, and no evidence of further cystic disease in other organs (Figure 1). A diffuse low-density area in his liver was interpreted as fatty liver due to alcoholic hepatopathy. There was no evidence of urinary tract malformation."
+  "relevant_image_context": "A 52-year-old male, who noticed a sudden onset of general fatigue and appetite loss, visited our hospital. No other family member had a history of renal disease. He had been diagnosed with alcoholic hepatopathy 10 years before. His blood pressure was 112/72 mmHg. His right kidney was felt during palpation at the upper right abdominal area. Abdominal computed tomography revealed multiple large cysts in the right kidney, a normal left kidney, and no evidence of further cystic disease in other organs (Figure 1). A diffuse low-density area in his liver was interpreted as fatty liver due to alcoholic hepatopathy. There was no evidence of urinary tract malformation.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_25_34-PMC4421641-0-sfq189fig1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_25_34-PMC4421641-0-sfq189fig1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Right renal cystic structures",
+        "claim_text": "Well-defined fluid-density cystic structures are present in the right renal parenchyma.",
+        "presence_question": "Does the model's response discuss Right renal cystic structures?",
+        "correctness_question": "Does the model's response correctly assert that Well-defined fluid-density cystic structures are present in the right renal parenchyma?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Multiple cysts in the right kidney",
+        "claim_text": "There are multiple cystic structures in the right kidney.",
+        "presence_question": "Does the model's response discuss Multiple cysts in the right kidney?",
+        "correctness_question": "Does the model's response correctly assert that There are multiple cystic structures in the right kidney?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Left kidney appearance",
+        "claim_text": "The left kidney appears morphologically normal on this single axial slice.",
+        "presence_question": "Does the model's response discuss Left kidney appearance?",
+        "correctness_question": "Does the model's response correctly assert that The left kidney appears morphologically normal on this single axial slice?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Bilateral renal cystic involvement",
+        "claim_text": "Bilateral renal cystic involvement is absent on the examined images.",
+        "presence_question": "Does the model's response discuss Bilateral renal cystic involvement?",
+        "correctness_question": "Does the model's response correctly assert that Bilateral renal cystic involvement is absent on the examined images?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Additional cystic lesions in other organs",
+        "claim_text": "No additional cystic lesions are seen in other organs on the examined images.",
+        "presence_question": "Does the model's response discuss Additional cystic lesions in other organs?",
+        "correctness_question": "Does the model's response correctly assert that No additional cystic lesions are seen in other organs on the examined images?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "unilateral isolated renal cystic disease",
+        "claim_text": "Unilateral isolated renal cystic disease typically indicates a sporadic or localized process rather than a widespread heritable cystic disorder.",
+        "presence_question": "Does the model's response discuss unilateral isolated renal cystic disease?",
+        "correctness_question": "Does the model's response correctly state that unilateral isolated renal cystic disease typically indicates a sporadic or localized process rather than a widespread heritable cystic disorder?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "heritable cystic kidney disorders",
+        "claim_text": "Heritable or widespread cystic kidney disorders are typically characterized by bilateral or widespread renal involvement and often a positive family history.",
+        "presence_question": "Does the model's response discuss heritable cystic kidney disorders?",
+        "correctness_question": "Does the model's response correctly state that heritable or widespread cystic kidney disorders are typically characterized by bilateral or widespread renal involvement and often a positive family history?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "familial risk in unilateral renal cystic disease",
+        "claim_text": "Unilateral isolated renal cystic disease without features of hereditary disease typically confers a low risk to first-degree relatives or offspring, similar to the general population.",
+        "presence_question": "Does the model's response discuss familial risk in unilateral renal cystic disease?",
+        "correctness_question": "Does the model's response correctly state that unilateral isolated renal cystic disease without features of hereditary disease typically confers a low risk to first-degree relatives or offspring, similar to the general population?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Unilateral/sporadic renal cystic disease",
+        "claim_text": "The imaging pattern of multiple well-defined fluid-density cysts confined to the right renal parenchyma, with the left kidney morphologically normal and no cysts in other organs, supports a unilateral/sporadic renal cystic process in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Unilateral/sporadic renal cystic disease?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging pattern of multiple well-defined fluid-density cysts confined to the right renal parenchyma, with the left kidney morphologically normal and no cysts in other organs, supports a unilateral/sporadic renal cystic process in this patient?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Risk to first-degree relatives",
+        "claim_text": "Because the imaging is consistent with a unilateral/sporadic cystic process rather than a bilateral heritable disorder, the findings imply that the risk to first-degree relatives or offspring is low and similar to the general population.",
+        "presence_question": "Does the model's response make an inferential link about Risk to first-degree relatives?",
+        "correctness_question": "Does the model's response correctly conclude that Because the imaging is consistent with a unilateral/sporadic cystic process rather than a bilateral heritable disorder, the findings imply that the risk to first-degree relatives or offspring is low and similar to the general population?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

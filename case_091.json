@@ -27,5 +27,119 @@
   "caption": "Axial magnetic resonance angiogram demonstrating the scoring system used to quantify the degree of collateral flow through the posterior communicating arteries (PCOM). In this case the right PCOM (arrow) is dominant (score of 2), and the left PCOM is hypoplastic (arrowhead) (score of 1). Absence of PCOM: score of 0.",
   "sub_caption": "Axial magnetic resonance angiogram demonstrating the scoring system used to quantify the degree of collateral flow through the posterior communicating arteries (PCOM). In this case the right PCOM (arrow) is dominant (score of 2), and the left PCOM is hypoplastic (arrowhead) (score of 1). Absence of PCOM: score of 0.",
   "image_context": "A score was assigned according to the presence and diameter of PCOMs (<xref ref-type=\"fig\" rid=\"svn-2019-000246f03\">figure 3</xref>): dominant=2 points; hypoplastic=1 point; and absent=0 point. The total score ranged from 0 (ie, no PCOMs) to 4 (ie, two dominant PCOMs), with 0–1 points considered ‘low/poor’ collateral flow and 2–4 points ‘high/good’ collateral flow.): dominant=2 points; hypoplastic=1 point; and absent=0 point. The total score ranged from 0 (ie, no PCOMs) to 4 (ie, two dominant PCOMs), with 0–1 points considered ‘low/poor’ collateral flow and 2–4 points ‘high/good’ collateral flow.",
-  "relevant_image_context": "A score was assigned according to the presence and diameter of PCOMs (figure 3): dominant=2 points; hypoplastic=1 point; and absent=0 point. The total score ranged from 0 (ie, no PCOMs) to 4 (ie, two dominant PCOMs), with 0–1 points considered ‘low/poor’ collateral flow and 2–4 points ‘high/good’ collateral flow."
+  "relevant_image_context": "A score was assigned according to the presence and diameter of PCOMs (figure 3): dominant=2 points; hypoplastic=1 point; and absent=0 point. The total score ranged from 0 (ie, no PCOMs) to 4 (ie, two dominant PCOMs), with 0–1 points considered ‘low/poor’ collateral flow and 2–4 points ‘high/good’ collateral flow.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_74_40-PMC6979872-4-svn-2019-000246f03.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_74_40-PMC6979872-4-svn-2019-000246f03.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "circle of Willis",
+        "claim_text": "The angiographic image shows the circle of Willis.",
+        "presence_question": "Does the model's response discuss circle of Willis?",
+        "correctness_question": "Does the model's response correctly assert that The angiographic image shows the circle of Willis.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "internal carotid arteries",
+        "claim_text": "Both internal carotid arteries are visualized on the angiogram.",
+        "presence_question": "Does the model's response discuss internal carotid arteries?",
+        "correctness_question": "Does the model's response correctly assert that Both internal carotid arteries are visualized on the angiogram.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "posterior circulation",
+        "claim_text": "The posterior circulation is visualized on the angiographic image.",
+        "presence_question": "Does the model's response discuss posterior circulation?",
+        "correctness_question": "Does the model's response correctly assert that The posterior circulation is visualized on the angiographic image.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "arrowed vessel",
+        "claim_text": "An arrowed vessel is present in the circle of Willis.",
+        "presence_question": "Does the model's response discuss arrowed vessel?",
+        "correctness_question": "Does the model's response correctly assert that An arrowed vessel is present in the circle of Willis.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "arrowed vessel location",
+        "claim_text": "The arrowed vessel is located at the posterolateral aspect of the internal carotid artery.",
+        "presence_question": "Does the model's response discuss arrowed vessel location?",
+        "correctness_question": "Does the model's response correctly assert that The arrowed vessel is located at the posterolateral aspect of the internal carotid artery.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "posterior course of arrowed vessel",
+        "claim_text": "The arrowed vessel courses posteriorly toward the posterior circulation.",
+        "presence_question": "Does the model's response discuss posterior course of arrowed vessel?",
+        "correctness_question": "Does the model's response correctly assert that The arrowed vessel courses posteriorly toward the posterior circulation.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "arrowed vessel size",
+        "claim_text": "The arrowed vessel is short in the circle of Willis region.",
+        "presence_question": "Does the model's response discuss arrowed vessel size?",
+        "correctness_question": "Does the model's response correctly assert that The arrowed vessel is short in the circle of Willis region.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "posterior communicating artery",
+        "claim_text": "The posterior communicating artery typically arises from the posterolateral aspect of the internal carotid artery and courses posteriorly toward the posterior circulation.",
+        "presence_question": "Does the model's response discuss posterior communicating artery?",
+        "correctness_question": "Does the model's response correctly state that The posterior communicating artery typically arises from the posterolateral aspect of the internal carotid artery and courses posteriorly toward the posterior circulation?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "posterior communicating artery connection",
+        "claim_text": "The posterior communicating artery typically connects the internal carotid arterial system with the posterior circulation.",
+        "presence_question": "Does the model's response discuss posterior communicating artery connection?",
+        "correctness_question": "Does the model's response correctly state that The posterior communicating artery typically connects the internal carotid arterial system with the posterior circulation?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "angiography",
+        "claim_text": "Angiography is better for visualizing cerebral arterial anatomy, including the circle of Willis.",
+        "presence_question": "Does the model's response discuss angiography?",
+        "correctness_question": "Does the model's response correctly state that Angiography is better for visualizing cerebral arterial anatomy, including the circle of Willis?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Posterior communicating artery identification",
+        "claim_text": "The vessel's origin from the posterolateral internal carotid and its posterior course support identifying the arrowed vessel as the posterior communicating artery",
+        "presence_question": "Does the model's response make an inferential link about Posterior communicating artery identification?",
+        "correctness_question": "Does the model's response correctly conclude that The vessel's origin from the posterolateral internal carotid and its posterior course support identifying the arrowed vessel as the posterior communicating artery?",
+        "premise_perception_ids": [
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Angiographic vessel identification",
+        "claim_text": "The angiographic view that visualizes the circle of Willis justifies using the vessel's origin and course on the image to identify a named arterial branch",
+        "presence_question": "Does the model's response make an inferential link about Angiographic vessel identification?",
+        "correctness_question": "Does the model's response correctly conclude that The angiographic view that visualizes the circle of Willis justifies using the vessel's origin and course on the image to identify a named arterial branch?",
+        "premise_perception_ids": [
+          "p1",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

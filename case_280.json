@@ -28,5 +28,172 @@
   "caption": "Postoperative chest CT with gastrografin showed the gastric tubulization (arrow).",
   "sub_caption": "Postoperative chest CT with gastrografin showed the gastric tubulization (arrow).",
   "image_context": "The patient had a regular course of recovery; however, on the day 15 post-surgery, when the patient was switched to a semisolid diet, loss of food bolus from the pleural drainage tubes was observed. She then underwent a re-thoracotomy with detection of the fistula, closure of the leak, and affixation of a muscle flap from the intercostal muscle to protect the anastomosis. The patient then had a regular post-surgical course. A chest CT with contrast enhancement and gastrografin after 10 days from surgery (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>) showed no spreading of contrast.) showed no spreading of contrast.Fig. 3Postoperative chest CT with gastrografin showed the gastric tubulization (arrow).Fig. 3",
-  "relevant_image_context": "A chest CT with contrast enhancement and gastrografin after 10 days from surgery showed no spreading of contrast. Fig. 3 Postoperative chest CT with gastrografin showed the gastric tubulization (arrow)."
+  "relevant_image_context": "A chest CT with contrast enhancement and gastrografin after 10 days from surgery showed no spreading of contrast. Fig. 3 Postoperative chest CT with gastrografin showed the gastric tubulization (arrow).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_58_4-PMC6040926-0-mejdd-10-117-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_58_4-PMC6040926-0-mejdd-10-117-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "liver lesions",
+        "claim_text": "Numerous well-defined lesions are present in the liver on the CT.",
+        "presence_question": "Does the model's response discuss liver lesions?",
+        "correctness_question": "Does the model's response correctly assert that Numerous well-defined lesions are present in the liver on the CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lesions in hepatic parenchyma",
+        "claim_text": "The lesions are located within the hepatic parenchyma on the CT.",
+        "presence_question": "Does the model's response discuss lesions in the hepatic parenchyma?",
+        "correctness_question": "Does the model's response correctly assert that The lesions are located within the hepatic parenchyma on the CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "lesion shape",
+        "claim_text": "The lesions are round to ovoid in shape on the CT.",
+        "presence_question": "Does the model's response discuss lesion shape?",
+        "correctness_question": "Does the model's response correctly assert that The lesions are round to ovoid in shape on the CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "lesion size variability",
+        "claim_text": "The lesions are of varying sizes within the liver.",
+        "presence_question": "Does the model's response discuss lesion size variability?",
+        "correctness_question": "Does the model's response correctly assert that The lesions are of varying sizes within the liver?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "lesion distribution",
+        "claim_text": "The lesions are scattered throughout the hepatic parenchyma.",
+        "presence_question": "Does the model's response discuss lesion distribution?",
+        "correctness_question": "Does the model's response correctly assert that The lesions are scattered throughout the hepatic parenchyma?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "lesion margins",
+        "claim_text": "The lesions demonstrate thin walls along their margins on the CT images.",
+        "presence_question": "Does the model's response discuss lesion margins?",
+        "correctness_question": "Does the model's response correctly assert that The lesions demonstrate thin walls along their margins on the CT images?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "lesion attenuation",
+        "claim_text": "The lesions show homogeneous low (fluid) attenuation on the CT.",
+        "presence_question": "Does the model's response discuss lesion attenuation?",
+        "correctness_question": "Does the model's response correctly assert that The lesions show homogeneous low (fluid) attenuation on the CT?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "internal septations",
+        "claim_text": "There are no internal septations within the lesions on this CT slice.",
+        "presence_question": "Does the model's response discuss internal septations?",
+        "correctness_question": "Does the model's response correctly assert that There are no internal septations within the lesions on this CT slice?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "solid nodules",
+        "claim_text": "There are no solid nodules within the lesions on this CT slice.",
+        "presence_question": "Does the model's response discuss solid nodules?",
+        "correctness_question": "Does the model's response correctly assert that There are no solid nodules within the lesions on this CT slice?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "calcifications",
+        "claim_text": "There are no calcifications within the lesions on this CT slice.",
+        "presence_question": "Does the model's response discuss calcifications?",
+        "correctness_question": "Does the model's response correctly assert that There are no calcifications within the lesions on this CT slice?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "porta hepatis compression",
+        "claim_text": "The lesions compress central structures near the porta hepatis, producing mass effect and displacement.",
+        "presence_question": "Does the model's response discuss porta hepatis compression?",
+        "correctness_question": "Does the model's response correctly assert that The lesions compress central structures near the porta hepatis, producing mass effect and displacement?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "cystic lesions on CT",
+        "claim_text": "Cystic lesions on CT typically have thin walls and homogeneous fluid attenuation.",
+        "presence_question": "Does the model's response discuss cystic lesions on CT?",
+        "correctness_question": "Does the model's response correctly state that Cystic lesions on CT typically have thin walls and homogeneous fluid attenuation?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "simple hepatic cysts",
+        "claim_text": "The absence of internal septations, solid nodules, or calcifications on imaging is compatible with simple cystic hepatic lesions.",
+        "presence_question": "Does the model's response discuss simple hepatic cysts?",
+        "correctness_question": "Does the model's response correctly state that The absence of internal septations, solid nodules, or calcifications on imaging is compatible with simple cystic hepatic lesions?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "mass effect from hepatic lesions",
+        "claim_text": "When hepatic lesions are numerous or large, they can cause mass effect or displacement of adjacent central hepatic structures.",
+        "presence_question": "Does the model's response discuss mass effect from hepatic lesions?",
+        "correctness_question": "Does the model's response correctly state that When hepatic lesions are numerous or large, they can cause mass effect or displacement of adjacent central hepatic structures?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "diffuse multifocal cystic replacement",
+        "claim_text": "Multiple scattered cysts of varying sizes throughout the liver constitute diffuse multifocal cystic replacement of the liver.",
+        "presence_question": "Does the model's response discuss diffuse multifocal cystic replacement?",
+        "correctness_question": "Does the model's response correctly state that Multiple scattered cysts of varying sizes throughout the liver constitute diffuse multifocal cystic replacement of the liver?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Cystic hepatic lesion identification",
+        "claim_text": "The lesions' thin walls, homogeneous fluid attenuation, and lack of internal septations, nodules, or calcifications support that these are cystic hepatic lesions.",
+        "presence_question": "Does the model's response make an inferential link about Cystic hepatic lesion identification?",
+        "correctness_question": "Does the model's response correctly conclude that The lesions' thin walls, homogeneous fluid attenuation, and lack of internal septations, nodules, or calcifications support that these are cystic hepatic lesions.?",
+        "premise_perception_ids": [
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Diffuse multifocal cystic replacement",
+        "claim_text": "The presence of numerous, round-to-ovoid lesions of varying sizes scattered throughout the hepatic parenchyma supports that diffuse multifocal cystic replacement of the liver is a plausible diagnosis.",
+        "presence_question": "Does the model's response make an inferential link about Diffuse multifocal cystic replacement?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of numerous, round-to-ovoid lesions of varying sizes scattered throughout the hepatic parenchyma supports that diffuse multifocal cystic replacement of the liver is a plausible diagnosis.?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Lesion mass effect implication",
+        "claim_text": "The observed mass effect and displacement of central structures near the porta hepatis implies the lesions are sufficiently numerous or large to produce space-occupying effects.",
+        "presence_question": "Does the model's response make an inferential link about Lesion mass effect implication?",
+        "correctness_question": "Does the model's response correctly conclude that The observed mass effect and displacement of central structures near the porta hepatis implies the lesions are sufficiently numerous or large to produce space-occupying effects.?",
+        "premise_perception_ids": [
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_ambiguous_first"
+  }
 }

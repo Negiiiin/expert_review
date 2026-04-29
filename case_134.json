@@ -27,5 +27,140 @@
   "caption": "Computed tomography on admission showing tension pneumoventricles (red arrow)",
   "sub_caption": "Computed tomography on admission showing tension pneumoventricles (red arrow)",
   "image_context": "On day two, he neurologically deteriorated and became confused, and his GCS decreased to 8/15. His pupils became unequal (left 5 mm and right 2 mm), and an urgent CT brain done showed increased left lateral ventricular distension due to pneumoventricle and still distended frontal ventricle with significant brain edema (<xref ref-type=\"fig\" rid=\"qmj-2021-015-g001\">Figure 1</xref>). The patient was pushed to the operating theater, and EVD was inserted. Gush of air with pressure came out during the procedure, and he was shifted to the surgical intensive care unit. In the six hours postoperative period, he was awake and still aphasic, but his pupils were equal and reactive to light. EVD continued to drain air, and he remained hemodynamically stable.). The patient was pushed to the operating theater, and EVD was inserted. Gush of air with pressure came out during the procedure, and he was shifted to the surgical intensive care unit. In the six hours postoperative period, he was awake and still aphasic, but his pupils were equal and reactive to light. EVD continued to drain air, and he remained hemodynamically stable.",
-  "relevant_image_context": "On day two, he neurologically deteriorated and became confused, and his GCS decreased to 8/15. His pupils became unequal (left 5 mm and right 2 mm), and an urgent CT brain done showed increased left lateral ventricular distension due to pneumoventricle and still distended frontal ventricle with significant brain edema (Figure 1)."
+  "relevant_image_context": "On day two, he neurologically deteriorated and became confused, and his GCS decreased to 8/15. His pupils became unequal (left 5 mm and right 2 mm), and an urgent CT brain done showed increased left lateral ventricular distension due to pneumoventricle and still distended frontal ventricle with significant brain edema (Figure 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_95_102-PMC8067619-1-qmj-2021-015-g001.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_95_102-PMC8067619-1-qmj-2021-015-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "air in the ventricular system",
+        "claim_text": "There is an air collection within the intracranial ventricular system.",
+        "presence_question": "Does the model's response discuss air in the ventricular system?",
+        "correctness_question": "Does the model's response correctly assert that There is an air collection within the intracranial ventricular system.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "hypodense space in lateral ventricle",
+        "claim_text": "An abnormal hypodense space is present within the lateral ventricle.",
+        "presence_question": "Does the model's response discuss hypodense space in lateral ventricle?",
+        "correctness_question": "Does the model's response correctly assert that An abnormal hypodense space is present within the lateral ventricle.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "intraventricular hypodense collection",
+        "claim_text": "An intraventricular collection is hypodense and represents air.",
+        "presence_question": "Does the model's response discuss intraventricular hypodense collection?",
+        "correctness_question": "Does the model's response correctly assert that An intraventricular collection is hypodense and represents air.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "intracranial distortion with mass effect",
+        "claim_text": "The brain appears distorted with significant intracranial mass effect.",
+        "presence_question": "Does the model's response discuss intracranial distortion with mass effect?",
+        "correctness_question": "Does the model's response correctly assert that The brain appears distorted with significant intracranial mass effect.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "GCS score of 8",
+        "claim_text": "The patient's Glasgow Coma Scale (GCS) score is 8, indicating decreased consciousness.",
+        "presence_question": "Does the model's response discuss GCS score of 8?",
+        "correctness_question": "Does the model's response correctly assert that The patient's Glasgow Coma Scale (GCS) score is 8, indicating decreased consciousness.?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "left pupil size",
+        "claim_text": "The left pupil measures 5 mm in diameter on exam.",
+        "presence_question": "Does the model's response discuss left pupil size?",
+        "correctness_question": "Does the model's response correctly assert that The left pupil measures 5 mm in diameter on exam.?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "right pupil size",
+        "claim_text": "The right pupil measures 2 mm in diameter on exam.",
+        "presence_question": "Does the model's response discuss right pupil size?",
+        "correctness_question": "Does the model's response correctly assert that The right pupil measures 2 mm in diameter on exam.?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "left pupil larger than right pupil",
+        "claim_text": "The left pupil is larger than the right pupil.",
+        "presence_question": "Does the model's response discuss left pupil larger than right pupil?",
+        "correctness_question": "Does the model's response correctly assert that The left pupil is larger than the right pupil.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Ipsilateral pupillary dilation",
+        "claim_text": "Ipsilateral pupillary dilation typically suggests compression of structures controlling the third cranial (oculomotor) nerve.",
+        "presence_question": "Does the model's response discuss ipsilateral pupillary dilation?",
+        "correctness_question": "Does the model's response correctly state that Ipsilateral pupillary dilation typically suggests compression of structures controlling the third cranial (oculomotor) nerve.?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Uncal/medial temporal or brainstem compression",
+        "claim_text": "Compression of the medial temporal/uncal region or adjacent brainstem structures typically compresses motor pathways and produces contralateral motor weakness.",
+        "presence_question": "Does the model's response discuss uncal/medial temporal or brainstem compression?",
+        "correctness_question": "Does the model's response correctly state that Compression of the medial temporal/uncal region or adjacent brainstem structures typically compresses motor pathways and produces contralateral motor weakness.?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Significant intracranial mass effect",
+        "claim_text": "Significant intracranial mass effect typically leads to a decreased level of consciousness.",
+        "presence_question": "Does the model's response discuss significant intracranial mass effect?",
+        "correctness_question": "Does the model's response correctly state that Significant intracranial mass effect typically leads to a decreased level of consciousness.?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Left-sided compression localization",
+        "claim_text": "The asymmetric and newly dilated left pupil supports that left-sided compression is likely in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Left-sided compression localization?",
+        "correctness_question": "Does the model's response correctly conclude that The asymmetric and newly dilated left pupil supports that left-sided compression is likely in this patient?",
+        "premise_perception_ids": [
+          "p6",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Mass effect explaining decreased consciousness",
+        "claim_text": "The imaging appearance of significant intracranial mass effect likely explains the patient's decreased level of consciousness (GCS 8).",
+        "presence_question": "Does the model's response make an inferential link about Mass effect explaining decreased consciousness?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging appearance of significant intracranial mass effect likely explains the patient's decreased level of consciousness (GCS 8)?",
+        "premise_perception_ids": [
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Contralateral motor weakness implication",
+        "claim_text": "Left-sided compressive signs and CT evidence of mass effect imply that left-sided compression or herniation would most likely produce contralateral (right-sided) motor weakness in this patient.",
+        "presence_question": "Does the model's response make an inferential link about Contralateral motor weakness implication?",
+        "correctness_question": "Does the model's response correctly conclude that Left-sided compressive signs and CT evidence of mass effect imply that left-sided compression or herniation would most likely produce contralateral (right-sided) motor weakness in this patient?",
+        "premise_perception_ids": [
+          "p4",
+          "p6",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

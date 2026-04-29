@@ -27,5 +27,155 @@
   "caption": "MRI of the brain, T2-weighted coronal section, showing left frontal cyst with hypointense cystic wall and significant perilesional edema (thin arrow).",
   "sub_caption": "MRI of the brain, T2-weighted coronal section, showing left frontal cyst with hypointense cystic wall and significant perilesional edema (thin arrow).",
   "image_context": "The left frontal cysts are similar to those in Figure <xref rid=\"cureus-0016-00000066231-i02\" ref-type=\"fig\">2</xref>..",
-  "relevant_image_context": "The left frontal cysts are similar to those in Figure 2.. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "The left frontal cysts are similar to those in Figure 2.. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_178_28-PMC11374755-4-cureus-0016-00000066231-i02.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_178_28-PMC11374755-4-cureus-0016-00000066231-i02.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "rounded lesion in superior frontal cortex",
+        "claim_text": "A rounded lesion is present in the superior frontal cortex.",
+        "presence_question": "Does the model's response discuss rounded lesion in superior frontal cortex?",
+        "correctness_question": "Does the model's response correctly assert that A rounded lesion is present in the superior frontal cortex?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "lesion location in superior frontal cortex",
+        "claim_text": "The rounded lesion is located in the superior frontal cortex.",
+        "presence_question": "Does the model's response discuss lesion location in superior frontal cortex?",
+        "correctness_question": "Does the model's response correctly assert that The rounded lesion is located in the superior frontal cortex?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "lesion near cortical surface",
+        "claim_text": "The rounded lesion is located near the cortical surface.",
+        "presence_question": "Does the model's response discuss lesion near cortical surface?",
+        "correctness_question": "Does the model's response correctly assert that The rounded lesion is located near the cortical surface?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "rounded shape of lesion",
+        "claim_text": "The lesion demonstrates an overall rounded shape on imaging.",
+        "presence_question": "Does the model's response discuss rounded shape of lesion?",
+        "correctness_question": "Does the model's response correctly assert that The lesion demonstrates an overall rounded shape on imaging?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "defined rim margin of lesion",
+        "claim_text": "The rounded lesion has a defined rim margin.",
+        "presence_question": "Does the model's response discuss defined rim margin of lesion?",
+        "correctness_question": "Does the model's response correctly assert that The rounded lesion has a defined rim margin?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "central component within lesion",
+        "claim_text": "The rounded lesion contains a central component on imaging.",
+        "presence_question": "Does the model's response discuss central component within lesion?",
+        "correctness_question": "Does the model's response correctly assert that The rounded lesion contains a central component on imaging?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "altered signal in adjacent white matter",
+        "claim_text": "An area of altered signal is present in the adjacent white matter.",
+        "presence_question": "Does the model's response discuss altered signal in adjacent white matter?",
+        "correctness_question": "Does the model's response correctly assert that An area of altered signal is present in the adjacent white matter?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "altered signal adjacent to lesion",
+        "claim_text": "The area of altered signal is adjacent to the rounded lesion.",
+        "presence_question": "Does the model's response discuss altered signal adjacent to lesion?",
+        "correctness_question": "Does the model's response correctly assert that The area of altered signal is adjacent to the rounded lesion?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "symmetry of cerebral hemispheres",
+        "claim_text": "The remainder of the cerebral hemispheres demonstrates symmetric appearance bilaterally.",
+        "presence_question": "Does the model's response discuss symmetry of cerebral hemispheres?",
+        "correctness_question": "Does the model's response correctly assert that The remainder of the cerebral hemispheres demonstrates symmetric appearance bilaterally?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "absence of other discrete rounded lesions",
+        "claim_text": "No other discrete rounded lesions are present in the cerebral hemispheres bilaterally.",
+        "presence_question": "Does the model's response discuss absence of other discrete rounded lesions?",
+        "correctness_question": "Does the model's response correctly assert that No other discrete rounded lesions are present in the cerebral hemispheres bilaterally?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "absence of additional focal changes in ventricles and midline",
+        "claim_text": "No additional focal changes are identified in the ventricles and midline structures.",
+        "presence_question": "Does the model's response discuss absence of additional focal changes in ventricles and midline?",
+        "correctness_question": "Does the model's response correctly assert that No additional focal changes are identified in the ventricles and midline structures?"
+      },
+      {
+        "claim_id": "p12",
+        "topic": "single focal abnormality on image slice",
+        "claim_text": "A single focal abnormality is identified on the image slice.",
+        "presence_question": "Does the model's response discuss single focal abnormality on image slice?",
+        "correctness_question": "Does the model's response correctly assert that A single focal abnormality is identified on the image slice?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "discrete rounded lesion with surrounding signal change",
+        "claim_text": "A discrete rounded lesion with surrounding signal change is a focal abnormality on imaging.",
+        "presence_question": "Does the model's response discuss discrete rounded lesion with surrounding signal change?",
+        "correctness_question": "Does the model's response correctly state that A discrete rounded lesion with surrounding signal change is a focal abnormality on imaging?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "focal abnormality presence",
+        "claim_text": "The described rounded lesion with a defined rim, central component, and surrounding altered white matter supports the conclusion that a focal abnormality is present on this image.",
+        "presence_question": "Does the model's response make an inferential link about focal abnormality presence?",
+        "correctness_question": "Does the model's response correctly conclude that The described rounded lesion with a defined rim, central component, and surrounding altered white matter supports the conclusion that a focal abnormality is present on this image?",
+        "premise_perception_ids": [
+          "p1",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "lesion location",
+        "claim_text": "The image findings are consistent with the focal abnormality being located in the superior frontal cortex near the cortical surface.",
+        "presence_question": "Does the model's response make an inferential link about lesion location?",
+        "correctness_question": "Does the model's response correctly conclude that The image findings are consistent with the focal abnormality being located in the superior frontal cortex near the cortical surface?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p1"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "single isolated lesion",
+        "claim_text": "The image shows a single isolated focal abnormality with no other discrete rounded lesions or additional focal changes, supporting that the focal abnormality is isolated in this case.",
+        "presence_question": "Does the model's response make an inferential link about single isolated lesion?",
+        "correctness_question": "Does the model's response correctly conclude that The image shows a single isolated focal abnormality with no other discrete rounded lesions or additional focal changes, supporting that the focal abnormality is isolated in this case?",
+        "premise_perception_ids": [
+          "p12",
+          "p10",
+          "p11",
+          "p9"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

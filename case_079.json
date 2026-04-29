@@ -25,5 +25,136 @@
   "caption": "Abdominal and pelvic contrast-enhanced computed tomography showing fluid collection in pelvic cavity (arrow).",
   "sub_caption": "Abdominal and pelvic contrast-enhanced computed tomography showing fluid collection in pelvic cavity (arrow).",
   "image_context": "Typically, patients undergoing LEEP in our hospital are discharged one day after the procedure. We postponed discharge because her clinical course was not usual. Abdominal and pelvic contrast-enhanced computed tomography (CT) was performed to assess the cause of her abdominal discomfort. Imaging studies revealed a moderate amount of blood collection in the pelvic cavity and no observable active bleeding site (<xref ref-type=\"fig\" rid=\"ogs-62-138-g001\">Fig. 1</xref>). Ectopic pregnancy was excluded as her beta human chorionic gonadotropin levels were less than 0.100 mIU/mL. Transvaginal ultrasonography found fluid collection in the posterior cul-de-sac and no abnormal findings in the uterus and adnexa.). Ectopic pregnancy was excluded as her beta human chorionic gonadotropin levels were less than 0.100 mIU/mL. Transvaginal ultrasonography found fluid collection in the posterior cul-de-sac and no abnormal findings in the uterus and adnexa.",
-  "relevant_image_context": "Abdominal and pelvic contrast-enhanced computed tomography (CT) was performed to assess the cause of her abdominal discomfort. Imaging studies revealed a moderate amount of blood collection in the pelvic cavity and no observable active bleeding site. Ectopic pregnancy was excluded as her beta human chorionic gonadotropin levels were less than 0.100 mIU/mL. Transvaginal ultrasonography found fluid collection in the posterior cul-de-sac and no abnormal findings in the uterus and adnexa."
+  "relevant_image_context": "Abdominal and pelvic contrast-enhanced computed tomography (CT) was performed to assess the cause of her abdominal discomfort. Imaging studies revealed a moderate amount of blood collection in the pelvic cavity and no observable active bleeding site. Ectopic pregnancy was excluded as her beta human chorionic gonadotropin levels were less than 0.100 mIU/mL. Transvaginal ultrasonography found fluid collection in the posterior cul-de-sac and no abnormal findings in the uterus and adnexa.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_65_11-PMC6422840-0-ogs-62-138-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_65_11-PMC6422840-0-ogs-62-138-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "fluid in posterior cul-de-sac",
+        "claim_text": "There is a fluid collection in the posterior cul-de-sac (pouch of Douglas).",
+        "presence_question": "Does the model's response discuss fluid in posterior cul-de-sac?",
+        "correctness_question": "Does the model's response correctly assert that There is a fluid collection in the posterior cul-de-sac (pouch of Douglas)?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "increased posterior cul-de-sac fluid",
+        "claim_text": "The fluid collection in the posterior cul-de-sac is increased in amount compared to simple fluid.",
+        "presence_question": "Does the model's response discuss increased posterior cul-de-sac fluid?",
+        "correctness_question": "Does the model's response correctly assert that The fluid collection in the posterior cul-de-sac is increased in amount compared to simple fluid?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "high-attenuation pelvic fluid",
+        "claim_text": "The fluid collection in the posterior cul-de-sac has relatively high attenuation.",
+        "presence_question": "Does the model's response discuss high-attenuation pelvic fluid?",
+        "correctness_question": "Does the model's response correctly assert that The fluid collection in the posterior cul-de-sac has relatively high attenuation?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "heterogeneous denser pelvic fluid",
+        "claim_text": "The fluid collection in the posterior cul-de-sac has a heterogeneous, denser appearance.",
+        "presence_question": "Does the model's response discuss heterogeneous denser pelvic fluid?",
+        "correctness_question": "Does the model's response correctly assert that The fluid collection in the posterior cul-de-sac has a heterogeneous, denser appearance?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "contrast extravasation (contrast blush)",
+        "claim_text": "No focal contrast extravasation (contrast blush) is identified in the pelvis on the imaged slices.",
+        "presence_question": "Does the model's response discuss contrast extravasation (contrast blush)?",
+        "correctness_question": "Does the model's response correctly assert that No focal contrast extravasation (contrast blush) is identified in the pelvis on the imaged slices?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "enhancing adnexal mass",
+        "claim_text": "There is no obviously enhancing adnexal mass seen in the adnexa on this slice.",
+        "presence_question": "Does the model's response discuss enhancing adnexal mass?",
+        "correctness_question": "Does the model's response correctly assert that There is no obviously enhancing adnexal mass seen in the adnexa on this slice?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "high-attenuation pelvic free fluid",
+        "claim_text": "High-attenuation pelvic free fluid on imaging typically suggests hemoperitoneum (blood).",
+        "presence_question": "Does the model's response discuss high-attenuation pelvic free fluid?",
+        "correctness_question": "Does the model's response correctly state that high-attenuation pelvic free fluid on imaging typically suggests hemoperitoneum (blood)?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "very low or undetectable serum beta-hCG",
+        "claim_text": "Very low or undetectable serum beta-hCG typically excludes pregnancy, including ectopic pregnancy.",
+        "presence_question": "Does the model's response discuss very low or undetectable serum beta-hCG?",
+        "correctness_question": "Does the model's response correctly state that very low or undetectable serum beta-hCG typically excludes pregnancy, including ectopic pregnancy?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "ruptured hemorrhagic ovarian cyst",
+        "claim_text": "A ruptured hemorrhagic ovarian cyst is typically associated with pelvic hemorrhage (hemoperitoneum).",
+        "presence_question": "Does the model's response discuss ruptured hemorrhagic ovarian cyst?",
+        "correctness_question": "Does the model's response correctly state that a ruptured hemorrhagic ovarian cyst is typically associated with pelvic hemorrhage (hemoperitoneum)?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "focal contrast extravasation on contrast-enhanced CT",
+        "claim_text": "Focal contrast extravasation on contrast-enhanced CT typically indicates active bleeding.",
+        "presence_question": "Does the model's response discuss focal contrast extravasation on contrast-enhanced CT?",
+        "correctness_question": "Does the model's response correctly state that focal contrast extravasation on contrast-enhanced CT typically indicates active bleeding?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Pelvic hemoperitoneum",
+        "claim_text": "The dependent pelvic fluid collection with relatively high attenuation and heterogeneous/denser appearance supports hemoperitoneum (blood) as the most likely explanation.",
+        "presence_question": "Does the model's response make an inferential link about Pelvic hemoperitoneum?",
+        "correctness_question": "Does the model's response correctly conclude that The dependent pelvic fluid collection with relatively high attenuation and heterogeneous/denser appearance supports hemoperitoneum (blood) as the most likely explanation.?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p4",
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Active bleeding on CT",
+        "claim_text": "The absence of focal contrast extravasation (no contrast blush) on the contrast-enhanced CT argues against active bleeding visualized as contrast extravasation on this study.",
+        "presence_question": "Does the model's response make an inferential link about Active bleeding on CT?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of focal contrast extravasation (no contrast blush) on the contrast-enhanced CT argues against active bleeding visualized as contrast extravasation on this study.?",
+        "premise_perception_ids": [
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Ruptured hemorrhagic ovarian cyst source",
+        "claim_text": "Given imaging evidence compatible with hemoperitoneum and a very low/undetectable serum beta-hCG that excludes pregnancy/ectopic pregnancy, a ruptured hemorrhagic ovarian cyst is a plausible and likely source of the pelvic blood in this case.",
+        "presence_question": "Does the model's response make an inferential link about Ruptured hemorrhagic ovarian cyst source?",
+        "correctness_question": "Does the model's response correctly conclude that Given imaging evidence compatible with hemoperitoneum and a very low/undetectable serum beta-hCG that excludes pregnancy/ectopic pregnancy, a ruptured hemorrhagic ovarian cyst is a plausible and likely source of the pelvic blood in this case.?",
+        "premise_perception_ids": [
+          "p1",
+          "p3",
+          "p4",
+          "p6"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

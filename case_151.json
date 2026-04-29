@@ -28,5 +28,228 @@
   "caption": "CT abdomen and pelvis showing inflammation in the whole pancreas",
   "sub_caption": "CT abdomen and pelvis showing inflammation in the whole pancreas",
   "image_context": "A 70-year-old man with a past medical history of diabetes mellitus and hypertension presented to the emergency department complaining of excruciating epigastric abdominal pain, associated with nausea and vomiting. Home medications included alogliptin taken for the past four years and hydrochlorothiazide taken for around 10 years. The patient reported a remote history of alcohol abuse, having quit 20 years prior. Initial workup was notable for a white cell count of 19.1 k/uL, lipase of 19,144 U/L, creatinine 2.23 mg/dL, blood urea nitrogen (BUN) 53 mg/dL, and triglycerides at 138 mg/dL. Abdominal imaging, including ultrasound and noncontrast computerized tomography (CT), was obtained. Ultrasound showed no evidence of cholelithiasis or cholecystitis. CT showed findings consistent with extensive acute pancreatitis (Figure <xref rid=\"cureus-0015-00000037754-i01\" ref-type=\"fig\">1</xref>). The patient was admitted to the medical floor and was started on intravenous fluids, a total of 5 liters were administered as well as analgesia with morphine, but eventually, he was transitioned to the intensive care unit due to worsening metabolic acidosis. There, the patient’s condition continued to decline, with progressively worsening renal and respiratory failure. Subsequently, dialysis was initiated and the patient was intubated and placed on mechanical ventilation. A follow-up CT of the abdomen with contrast showed changes now consistent with necrotizing pancreatitis (Figure ). The patient was admitted to the medical floor and was started on intravenous fluids, a total of 5 liters were administered as well as analgesia with morphine, but eventually, he was transitioned to the intensive care unit due to worsening metabolic acidosis. There, the patient’s condition continued to decline, with progressively worsening renal and respiratory failure. Subsequently, dialysis was initiated and the patient was intubated and placed on mechanical ventilation. A follow-up CT of the abdomen with contrast showed changes now consistent with necrotizing pancreatitis (Figure <xref rid=\"cureus-0015-00000037754-i02\" ref-type=\"fig\">2</xref>). The patient was initially on cefepime for five days and then transitioned to meropenem, due to worsening status. There were no drainable collections at this time. Surgical intervention was not pursued due to the patient’s critically ill state. The patient’s condition continued to worsen after 12 days of treatment. Upon discussion of the patient's condition and poor prognosis, the patient’s code status was changed to do not resuscitate. He subsequently succumbed to his illness.). The patient was initially on cefepime for five days and then transitioned to meropenem, due to worsening status. There were no drainable collections at this time. Surgical intervention was not pursued due to the patient’s critically ill state. The patient’s condition continued to worsen after 12 days of treatment. Upon discussion of the patient's condition and poor prognosis, the patient’s code status was changed to do not resuscitate. He subsequently succumbed to his illness.",
-  "relevant_image_context": "Abdominal imaging, including ultrasound and noncontrast computerized tomography (CT), was obtained. Ultrasound showed no evidence of cholelithiasis or cholecystitis. CT showed findings consistent with extensive acute pancreatitis (Figure 1)."
+  "relevant_image_context": "Abdominal imaging, including ultrasound and noncontrast computerized tomography (CT), was obtained. Ultrasound showed no evidence of cholelithiasis or cholecystitis. CT showed findings consistent with extensive acute pancreatitis (Figure 1).",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_commercial_batch_148_18-PMC10193513-1-cureus-0015-00000037754-i01.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/final_commercial/filelist_commercial_batch_148_18-PMC10193513-1-cureus-0015-00000037754-i01.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "pancreas enlargement",
+        "claim_text": "The pancreas is enlarged in the upper abdomen on axial CT",
+        "presence_question": "Does the model's response discuss pancreas enlargement?",
+        "correctness_question": "Does the model's response correctly assert that The pancreas is enlarged in the upper abdomen on axial CT?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "pancreas heterogeneity",
+        "claim_text": "The pancreas appears heterogeneous in the upper abdomen on axial CT",
+        "presence_question": "Does the model's response discuss pancreas heterogeneity?",
+        "correctness_question": "Does the model's response correctly assert that The pancreas appears heterogeneous in the upper abdomen on axial CT?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "peripancreatic fat stranding",
+        "claim_text": "There is stranding of the peripancreatic fat around the pancreas on axial CT",
+        "presence_question": "Does the model's response discuss peripancreatic fat stranding?",
+        "correctness_question": "Does the model's response correctly assert that There is stranding of the peripancreatic fat around the pancreas on axial CT?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "peripancreatic fluid",
+        "claim_text": "Peripancreatic fluid is present around the pancreas on axial CT",
+        "presence_question": "Does the model's response discuss peripancreatic fluid?",
+        "correctness_question": "Does the model's response correctly assert that Peripancreatic fluid is present around the pancreas on axial CT?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "peripancreatic edema",
+        "claim_text": "Peripancreatic edema is present around the pancreas on axial CT",
+        "presence_question": "Does the model's response discuss peripancreatic edema?",
+        "correctness_question": "Does the model's response correctly assert that Peripancreatic edema is present around the pancreas on axial CT?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "peripancreatic fluid margins",
+        "claim_text": "Peripancreatic fluid around the pancreas has ill-defined margins on axial CT",
+        "presence_question": "Does the model's response discuss peripancreatic fluid margins?",
+        "correctness_question": "Does the model's response correctly assert that Peripancreatic fluid around the pancreas has ill-defined margins on axial CT?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "peripancreatic fluid adjacency",
+        "claim_text": "Peripancreatic fluid is adjacent to the pancreas in the upper abdomen on axial CT",
+        "presence_question": "Does the model's response discuss peripancreatic fluid adjacency?",
+        "correctness_question": "Does the model's response correctly assert that Peripancreatic fluid is adjacent to the pancreas in the upper abdomen on axial CT?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "peripancreatic gas locule",
+        "claim_text": "No peripancreatic gas locule is present in the peripancreatic region on axial CT",
+        "presence_question": "Does the model's response discuss peripancreatic gas locule?",
+        "correctness_question": "Does the model's response correctly assert that No peripancreatic gas locule is present in the peripancreatic region on axial CT?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "rim-enhancing peripancreatic collection",
+        "claim_text": "No well-defined rim-enhancing peripancreatic collection is present in the peripancreatic region on axial CT",
+        "presence_question": "Does the model's response discuss rim-enhancing peripancreatic collection?",
+        "correctness_question": "Does the model's response correctly assert that No well-defined rim-enhancing peripancreatic collection is present in the peripancreatic region on axial CT?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "bowel obstruction",
+        "claim_text": "There is no bowel obstruction in the upper abdomen on this slice of axial CT",
+        "presence_question": "Does the model's response discuss bowel obstruction?",
+        "correctness_question": "Does the model's response correctly assert that There is no bowel obstruction in the upper abdomen on this slice of axial CT?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "bowel perforation",
+        "claim_text": "There is no bowel perforation in the upper abdomen on this slice of axial CT",
+        "presence_question": "Does the model's response discuss bowel perforation?",
+        "correctness_question": "Does the model's response correctly assert that There is no bowel perforation in the upper abdomen on this slice of axial CT?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Peripancreatic fat stranding",
+        "claim_text": "Peripancreatic fat stranding, peripancreatic fluid or edema, and pancreatic enlargement or heterogeneity are typical imaging findings associated with acute pancreatitis.",
+        "presence_question": "Does the model's response discuss Peripancreatic fat stranding?",
+        "correctness_question": "Does the model's response correctly state that Peripancreatic fat stranding, peripancreatic fluid or edema, and pancreatic enlargement or heterogeneity are typical imaging findings associated with acute pancreatitis?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Peripancreatic gas or rim-enhancing collections",
+        "claim_text": "Intraperitoneal or peripancreatic gas locules or well-defined rim-enhancing collections typically suggest an infected peripancreatic collection or infected pancreatic necrosis.",
+        "presence_question": "Does the model's response discuss Peripancreatic gas or rim-enhancing collections?",
+        "correctness_question": "Does the model's response correctly state that Intraperitoneal or peripancreatic gas locules or well-defined rim-enhancing collections typically suggest an infected peripancreatic collection or infected pancreatic necrosis?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Infected peripancreatic collection",
+        "claim_text": "Infected peripancreatic collections are typically treated with antibiotics.",
+        "presence_question": "Does the model's response discuss Infected peripancreatic collection?",
+        "correctness_question": "Does the model's response correctly state that Infected peripancreatic collections are typically treated with antibiotics?"
+      },
+      {
+        "knowledge_id": "k4",
+        "topic": "Fluid resuscitation in severe pancreatitis",
+        "claim_text": "Severe acute pancreatitis or marked pancreatic inflammation with systemic signs is typically managed with prompt fluid resuscitation as part of supportive care.",
+        "presence_question": "Does the model's response discuss Fluid resuscitation in severe pancreatitis?",
+        "correctness_question": "Does the model's response correctly state that Severe acute pancreatitis or marked pancreatic inflammation with systemic signs is typically managed with prompt fluid resuscitation as part of supportive care?"
+      },
+      {
+        "knowledge_id": "k5",
+        "topic": "Enteral feeding contraindications",
+        "claim_text": "Enteral feeding is contraindicated in patients with bowel obstruction or gastrointestinal perforation.",
+        "presence_question": "Does the model's response discuss Enteral feeding contraindications?",
+        "correctness_question": "Does the model's response correctly state that Enteral feeding is contraindicated in patients with bowel obstruction or gastrointestinal perforation?"
+      },
+      {
+        "knowledge_id": "k6",
+        "topic": "Analgesia for severe abdominal pain",
+        "claim_text": "Severe abdominal pain is typically treated with appropriate analgesia.",
+        "presence_question": "Does the model's response discuss Analgesia for severe abdominal pain?",
+        "correctness_question": "Does the model's response correctly state that Severe abdominal pain is typically treated with appropriate analgesia?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Acute pancreatitis diagnosis",
+        "claim_text": "The imaging findings of an enlarged, heterogeneous pancreas with peripancreatic fat stranding and peripancreatic fluid/edema support the diagnosis of acute pancreatitis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Acute pancreatitis diagnosis?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging findings of an enlarged, heterogeneous pancreas with peripancreatic fat stranding and peripancreatic fluid/edema support the diagnosis of acute pancreatitis in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Infected peripancreatic collection absence",
+        "claim_text": "Because there is no peripancreatic gas locule and no well-defined rim-enhancing collection on this slice, imaging does not demonstrate a clearly established infected peripancreatic collection in this case.",
+        "presence_question": "Does the model's response make an inferential link about Infected peripancreatic collection absence?",
+        "correctness_question": "Does the model's response correctly conclude that Because there is no peripancreatic gas locule and no well-defined rim-enhancing collection on this slice, imaging does not demonstrate a clearly established infected peripancreatic collection in this case?",
+        "premise_perception_ids": [
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Routine antibiotics justification",
+        "claim_text": "Since imaging does not demonstrate an infected peripancreatic collection and infected collections are an indication for antibiotics, routine administration of antibiotics without evidence of infection is not justified in this case.",
+        "presence_question": "Does the model's response make an inferential link about Routine antibiotics justification?",
+        "correctness_question": "Does the model's response correctly conclude that Since imaging does not demonstrate an infected peripancreatic collection and infected collections are an indication for antibiotics, routine administration of antibiotics without evidence of infection is not justified in this case?",
+        "premise_perception_ids": [
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Enteral feeding contraindication",
+        "claim_text": "There is no imaging evidence of bowel obstruction or perforation on this slice, and because obstruction or perforation contraindicate enteral feeding, enteral feeding is not contraindicated by the imaging and can be considered as supportive care in this case.",
+        "presence_question": "Does the model's response make an inferential link about Enteral feeding contraindication?",
+        "correctness_question": "Does the model's response correctly conclude that There is no imaging evidence of bowel obstruction or perforation on this slice, and because obstruction or perforation contraindicate enteral feeding, enteral feeding is not contraindicated by the imaging and can be considered as supportive care in this case?",
+        "premise_perception_ids": [
+          "p10",
+          "p11"
+        ],
+        "premise_knowledge_ids": [
+          "k5"
+        ]
+      },
+      {
+        "reasoning_id": "r5",
+        "topic": "Fluid resuscitation justification",
+        "claim_text": "Imaging shows pancreatic inflammatory and edematous changes consistent with pancreatitis, and because prompt fluid resuscitation is recommended supportive care for severe pancreatitis, fluid resuscitation is justified in this case.",
+        "presence_question": "Does the model's response make an inferential link about Fluid resuscitation justification?",
+        "correctness_question": "Does the model's response correctly conclude that Imaging shows pancreatic inflammatory and edematous changes consistent with pancreatitis, and because prompt fluid resuscitation is recommended supportive care for severe pancreatitis, fluid resuscitation is justified in this case?",
+        "premise_perception_ids": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ],
+        "premise_knowledge_ids": [
+          "k4"
+        ]
+      },
+      {
+        "reasoning_id": "r6",
+        "topic": "Analgesia for abdominal pain",
+        "claim_text": "Analgesia is an appropriate symptomatic treatment for severe abdominal pain in this case.",
+        "presence_question": "Does the model's response make an inferential link about Analgesia for abdominal pain?",
+        "correctness_question": "Does the model's response correctly conclude that Analgesia is an appropriate symptomatic treatment for severe abdominal pain in this case?",
+        "premise_perception_ids": [],
+        "premise_knowledge_ids": [
+          "k6"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

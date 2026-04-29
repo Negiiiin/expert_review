@@ -28,5 +28,159 @@
   "caption": "Abdomen CT scan. Day of admission",
   "sub_caption": "Abdomen CT scan. Day of admission",
   "image_context": "An 18-year-old patient was admitted to the hospital due to severe abdominal pain. The medical interview revealed that the day before admission, the patient suffered blunt abdominal trauma during workout. Pain, which was located mainly in the epigastric region, was accompanied by nausea, vomiting and stoppage of bowel movements. The physical examination revealed severe flatulence coexisting with marked peritoneal signs. Pre-operative investigations showed WBC 19.3 × 103/µl (4.0–11.0) with increased total neutrophil count of 16.27 × 103 (2.20–4.80) and total bilirubin level 25.5 µmol/l (5.0–21.0). There were no other abnormalities. Because of the severe general condition of the patient, we decided to perform an abdominal CT scan, which revealed the presence of a non-homogeneous area of size 8.2 × 8.5 × 5 cm extending between the pancreas, transverse colon, the right lobe of the liver, aorta and vena cava. The lesion was initially described as hematoma, which caused oppression of adjacent organs. In addition, a description of the CT suggested the possibility of damage to the anterior wall of the inferior vena cava at a length of about 2 cm below the mouth of the renal vein. After administration of contrast, radiology test suggested that there were some features indicating the possibility of continuous bleeding. Moreover, near the descending colon there were some features indicating free air in the abdominal cavity, the CT image indicating the possibility of post-traumatic rupture of the intestine (<xref ref-type=\"fig\" rid=\"WO-17-20413-g001\">Fig. 1</xref>). Therefore there was no more time for additional examinations and the patient was qualified for urgent laparotomy. To our great surprise, intraoperatively we found an enormous, disintegrating retroperitoneal tumor. The tumor infiltrated the wall of the aorta and vena cava. We performed a cytoreductive procedure. The biological material was sent for pathological examination. On the first day after the operation we assessed serum tumor markers which revealed LDH (lactate dehydrogenase) 344 U/l (80–240 U/l), AFP (α-fetoprotein) 12 270 ng/ml (&lt; 8 ng/ml). β-hCG (β-human chorionic gonadotropin) and CEA (carcinoembryonic antigen) were within normal limits. We did not detect any focal lesions in testicular ultrasound examination. The final pathological examination was established after one week (mixed germ cell tumor: embryonal carcinoma and yolk sac tumor).). Therefore there was no more time for additional examinations and the patient was qualified for urgent laparotomy. To our great surprise, intraoperatively we found an enormous, disintegrating retroperitoneal tumor. The tumor infiltrated the wall of the aorta and vena cava. We performed a cytoreductive procedure. The biological material was sent for pathological examination. On the first day after the operation we assessed serum tumor markers which revealed LDH (lactate dehydrogenase) 344 U/l (80–240 U/l), AFP (α-fetoprotein) 12 270 ng/ml (< 8 ng/ml). β-hCG (β-human chorionic gonadotropin) and CEA (carcinoembryonic antigen) were within normal limits. We did not detect any focal lesions in testicular ultrasound examination. The final pathological examination was established after one week (mixed germ cell tumor: embryonal carcinoma and yolk sac tumor).",
-  "relevant_image_context": "An 18-year-old patient was admitted to the hospital due to severe abdominal pain. The physical examination revealed severe flatulence coexisting with marked peritoneal signs. Because of the severe general condition of the patient, we decided to perform an abdominal CT scan, which revealed the presence of a non-homogeneous area of size 8.2 × 8.5 × 5 cm extending between the pancreas, transverse colon, the right lobe of the liver, aorta and vena cava. The lesion was initially described as hematoma, which caused oppression of adjacent organs. In addition, a description of the CT suggested the possibility of damage to the anterior wall of the inferior vena cava at a length of about 2 cm below the mouth of the renal vein. After administration of contrast, radiology test suggested that there were some features indicating the possibility of continuous bleeding. Moreover, near the descending colon there were some features indicating free air in the abdominal cavity, the CT image indicating the possibility of post-traumatic rupture of the intestine."
+  "relevant_image_context": "An 18-year-old patient was admitted to the hospital due to severe abdominal pain. The physical examination revealed severe flatulence coexisting with marked peritoneal signs. Because of the severe general condition of the patient, we decided to perform an abdominal CT scan, which revealed the presence of a non-homogeneous area of size 8.2 × 8.5 × 5 cm extending between the pancreas, transverse colon, the right lobe of the liver, aorta and vena cava. The lesion was initially described as hematoma, which caused oppression of adjacent organs. In addition, a description of the CT suggested the possibility of damage to the anterior wall of the inferior vena cava at a length of about 2 cm below the mouth of the renal vein. After administration of contrast, radiology test suggested that there were some features indicating the possibility of continuous bleeding. Moreover, near the descending colon there were some features indicating free air in the abdominal cavity, the CT image indicating the possibility of post-traumatic rupture of the intestine.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_15_31-PMC3685352-3-WO-17-20413-g001.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_15_31-PMC3685352-3-WO-17-20413-g001.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Large heterogeneous fluid and soft-tissue collection",
+        "claim_text": "There is a large heterogeneous fluid and soft-tissue collection.",
+        "presence_question": "Does the model's response discuss Large heterogeneous fluid and soft-tissue collection?",
+        "correctness_question": "Does the model's response correctly assert that There is a large heterogeneous fluid and soft-tissue collection?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Upper abdomen location",
+        "claim_text": "The collection is located in the upper abdomen.",
+        "presence_question": "Does the model's response discuss Upper abdomen location?",
+        "correctness_question": "Does the model's response correctly assert that The collection is located in the upper abdomen?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Adjacency to great vessels",
+        "claim_text": "The collection is adjacent to the great vessels in the upper abdomen.",
+        "presence_question": "Does the model's response discuss Adjacency to great vessels?",
+        "correctness_question": "Does the model's response correctly assert that The collection is adjacent to the great vessels in the upper abdomen?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Compression of great vessels",
+        "claim_text": "The collection compresses the great vessels in the upper abdomen.",
+        "presence_question": "Does the model's response discuss Compression of great vessels?",
+        "correctness_question": "Does the model's response correctly assert that The collection compresses the great vessels in the upper abdomen?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Adjacency to bowel",
+        "claim_text": "The collection is adjacent to bowel in the upper abdomen.",
+        "presence_question": "Does the model's response discuss Adjacency to bowel?",
+        "correctness_question": "Does the model's response correctly assert that The collection is adjacent to bowel in the upper abdomen?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Compression of bowel",
+        "claim_text": "The collection compresses the bowel in the upper abdomen.",
+        "presence_question": "Does the model's response discuss Compression of bowel?",
+        "correctness_question": "Does the model's response correctly assert that The collection compresses the bowel in the upper abdomen?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Regions of higher attenuation",
+        "claim_text": "There are regions of higher attenuation within and around the collection.",
+        "presence_question": "Does the model's response discuss Regions of higher attenuation?",
+        "correctness_question": "Does the model's response correctly assert that There are regions of higher attenuation within and around the collection?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Extraluminal gas pockets",
+        "claim_text": "Small pockets of extraluminal gas are clearly present.",
+        "presence_question": "Does the model's response discuss Extraluminal gas pockets?",
+        "correctness_question": "Does the model's response correctly assert that Small pockets of extraluminal gas are clearly present?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Extraluminal gas adjacent to colon",
+        "claim_text": "Extraluminal gas is present adjacent to the colon in the peritoneal cavity.",
+        "presence_question": "Does the model's response discuss Extraluminal gas adjacent to colon?",
+        "correctness_question": "Does the model's response correctly assert that Extraluminal gas is present adjacent to the colon in the peritoneal cavity?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Systemic anticoagulation",
+        "claim_text": "Systemic anticoagulation (e.g., IV heparin) increases the risk of bleeding and can worsen active hemorrhage.",
+        "presence_question": "Does the model's response discuss Systemic anticoagulation?",
+        "correctness_question": "Does the model's response correctly state that Systemic anticoagulation (e.g., IV heparin) increases the risk of bleeding and can worsen active hemorrhage?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Free intraperitoneal air",
+        "claim_text": "Extraluminal free intraperitoneal air adjacent to the bowel suggests bowel perforation and peritonitis.",
+        "presence_question": "Does the model's response discuss Free intraperitoneal air?",
+        "correctness_question": "Does the model's response correctly state that Extraluminal free intraperitoneal air adjacent to the bowel suggests bowel perforation and peritonitis?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Hyperattenuating regions in fluid collections",
+        "claim_text": "Regions of higher attenuation within or around a fluid collection indicate recent or ongoing hemorrhage.",
+        "presence_question": "Does the model's response discuss Hyperattenuating regions in fluid collections?",
+        "correctness_question": "Does the model's response correctly state that Regions of higher attenuation within or around a fluid collection indicate recent or ongoing hemorrhage?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Intra-abdominal hemorrhage inference",
+        "claim_text": "The regions of higher attenuation within and around the upper-abdominal collection support the presence of recent or ongoing intra-abdominal hemorrhage in this case.",
+        "presence_question": "Does the model's response make an inferential link about Intra-abdominal hemorrhage inference?",
+        "correctness_question": "Does the model's response correctly conclude that The regions of higher attenuation within and around the upper-abdominal collection support the presence of recent or ongoing intra-abdominal hemorrhage in this case.?",
+        "premise_perception_ids": [
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Bowel perforation inference",
+        "claim_text": "The presence of extraluminal gas adjacent to the colon supports the likelihood of bowel perforation in this case.",
+        "presence_question": "Does the model's response make an inferential link about Bowel perforation inference?",
+        "correctness_question": "Does the model's response correctly conclude that The presence of extraluminal gas adjacent to the colon supports the likelihood of bowel perforation in this case.?",
+        "premise_perception_ids": [
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Peritonitis inference",
+        "claim_text": "The imaging finding of extraluminal air adjacent to the colon supports the presence of peritonitis in this case.",
+        "presence_question": "Does the model's response make an inferential link about Peritonitis inference?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging finding of extraluminal air adjacent to the colon supports the presence of peritonitis in this case.?",
+        "premise_perception_ids": [
+          "p8",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r4",
+        "topic": "Anticoagulation contraindication due to hemorrhage",
+        "claim_text": "The imaging evidence suggesting ongoing intra-abdominal hemorrhage argues against systemic anticoagulation (eg IV heparin) in this case because it would increase bleeding risk and could worsen the hemorrhage.",
+        "presence_question": "Does the model's response make an inferential link about Anticoagulation contraindication due to hemorrhage?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging evidence suggesting ongoing intra-abdominal hemorrhage argues against systemic anticoagulation (eg IV heparin) in this case because it would increase bleeding risk and could worsen the hemorrhage.?",
+        "premise_perception_ids": [
+          "p1",
+          "p7"
+        ],
+        "premise_knowledge_ids": [
+          "k3",
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

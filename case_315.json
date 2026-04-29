@@ -27,5 +27,150 @@
   "caption": "Gross examination of the resected colon with obstructing polyps.",
   "sub_caption": "Gross examination of the resected colon with obstructing polyps.",
   "image_context": "Although biopsies suggested inflammatory polyps, a large mass underlying dysplastic and malignant alterations could not be ruled out. In most cases, most biopsies in a large mass can be superficial. For that reason, a multidisciplinary team, including a colorectal surgeon, discussed the case in detail regarding the best care for the patient. The recommended plan was shared with the patient, who agreed to undergo a total colectomy. She then underwent a total colectomy with ileorectal anastomosis, and her recovery was uneventful (Figure <xref rid=\"cureus-0015-00000045535-i03\" ref-type=\"fig\">3</xref>). The patient was seen in follow-up with good recovery and total resolution of previous symptoms.). The patient was seen in follow-up with good recovery and total resolution of previous symptoms.",
-  "relevant_image_context": "Although biopsies suggested inflammatory polyps, a large mass underlying dysplastic and malignant alterations could not be ruled out. In most cases, most biopsies in a large mass can be superficial. For that reason, a multidisciplinary team, including a colorectal surgeon, discussed the case in detail regarding the best care for the patient. The recommended plan was shared with the patient, who agreed to undergo a total colectomy. She then underwent a total colectomy with ileorectal anastomosis, and her recovery was uneventful (Figure 3). The patient was seen in follow-up with good recovery and total resolution of previous symptoms.). The patient was seen in follow-up with good recovery and total resolution of previous symptoms. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+  "relevant_image_context": "Although biopsies suggested inflammatory polyps, a large mass underlying dysplastic and malignant alterations could not be ruled out. In most cases, most biopsies in a large mass can be superficial. For that reason, a multidisciplinary team, including a colorectal surgeon, discussed the case in detail regarding the best care for the patient. The recommended plan was shared with the patient, who agreed to undergo a total colectomy. She then underwent a total colectomy with ileorectal anastomosis, and her recovery was uneventful (Figure 3). The patient was seen in follow-up with good recovery and total resolution of previous symptoms.). The patient was seen in follow-up with good recovery and total resolution of previous symptoms. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_1_filelist_commercial_batch_158_20-PMC10585189-1-cureus-0015-00000045535-i03.jpg",
+  "source_full_fig_path": "/datasets/pmc-15m/BIOMEDICA/final_commercial/filelist_commercial_batch_158_20-PMC10585189-1-cureus-0015-00000045535-i03.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "Colonic mucosa",
+        "claim_text": "Colonic mucosa is present in the examined colon.",
+        "presence_question": "Does the model's response discuss Colonic mucosa?",
+        "correctness_question": "Does the model's response correctly assert that Colonic mucosa is present in the examined colon?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "Multiple polyps",
+        "claim_text": "Multiple polyps are present in the colonic mucosa.",
+        "presence_question": "Does the model's response discuss Multiple polyps?",
+        "correctness_question": "Does the model's response correctly assert that Multiple polyps are present in the colonic mucosa?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "Location of polyps",
+        "claim_text": "The polyps are located in the colonic mucosa.",
+        "presence_question": "Does the model's response discuss the location of polyps?",
+        "correctness_question": "Does the model's response correctly assert that The polyps are located in the colonic mucosa?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "Polyp clustering pattern",
+        "claim_text": "The polyps are clustered across the mucosal surface.",
+        "presence_question": "Does the model's response discuss Polyp clustering pattern?",
+        "correctness_question": "Does the model's response correctly assert that The polyps are clustered across the mucosal surface?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "Erythematous mucosa",
+        "claim_text": "The colonic mucosa appears erythematous throughout the examined colon.",
+        "presence_question": "Does the model's response discuss Erythematous mucosa?",
+        "correctness_question": "Does the model's response correctly assert that The colonic mucosa appears erythematous throughout the examined colon?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "Inflamed mucosa",
+        "claim_text": "The colonic mucosa appears inflamed on endoscopic examination of the colon.",
+        "presence_question": "Does the model's response discuss Inflamed mucosa?",
+        "correctness_question": "Does the model's response correctly assert that The colonic mucosa appears inflamed on endoscopic examination of the colon?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "Sessile broad-based polyps",
+        "claim_text": "The polyps are broad-based and sessile in morphology.",
+        "presence_question": "Does the model's response discuss Sessile broad-based polyps?",
+        "correctness_question": "Does the model's response correctly assert that The polyps are broad-based and sessile in morphology?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "Pedunculated lesions absent",
+        "claim_text": "There are no single discrete pedunculated lesions in the colon.",
+        "presence_question": "Does the model's response discuss Pedunculated lesions absent?",
+        "correctness_question": "Does the model's response correctly assert that There are no single discrete pedunculated lesions in the colon?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "Diffuse polyp distribution",
+        "claim_text": "The polyps have a widespread, diffuse distribution across the colon.",
+        "presence_question": "Does the model's response discuss Diffuse polyp distribution?",
+        "correctness_question": "Does the model's response correctly assert that The polyps have a widespread, diffuse distribution across the colon?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "Superficial endoscopic biopsies",
+        "claim_text": "Superficial endoscopic biopsies are insufficient to exclude deeper dysplasia or malignancy.",
+        "presence_question": "Does the model's response discuss superficial endoscopic biopsies?",
+        "correctness_question": "Does the model's response correctly state that superficial endoscopic biopsies are insufficient to exclude deeper dysplasia or malignancy?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "Multiple or diffuse colonic polyps",
+        "claim_text": "Multiple or diffuse colonic polyps reduce the reliability of focal sampling to detect all neoplastic areas.",
+        "presence_question": "Does the model's response discuss multiple or diffuse colonic polyps?",
+        "correctness_question": "Does the model's response correctly state that multiple or diffuse colonic polyps reduce the reliability of focal sampling to detect all neoplastic areas?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "Total colectomy with ileorectal anastomosis",
+        "claim_text": "Total colectomy with ileorectal anastomosis removes at-risk colonic mucosa and allows full pathological assessment.",
+        "presence_question": "Does the model's response discuss total colectomy with ileorectal anastomosis?",
+        "correctness_question": "Does the model's response correctly state that total colectomy with ileorectal anastomosis removes at-risk colonic mucosa and allows full pathological assessment?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "missed deeper neoplasia",
+        "claim_text": "The image findings and the limitation that superficial biopsies can miss deeper dysplasia support that deeper or additional neoplastic change may have been missed in this patient.",
+        "presence_question": "Does the model's response make an inferential link about missed deeper neoplasia?",
+        "correctness_question": "Does the model's response correctly conclude that The image findings and the limitation that superficial biopsies can miss deeper dysplasia support that deeper or additional neoplastic change may have been missed in this patient.?",
+        "premise_perception_ids": [
+          "p2",
+          "p4",
+          "p7",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "total colectomy justification",
+        "claim_text": "Total colectomy with ileorectal anastomosis is justified in this case to both treat and fully evaluate the colon because focal sampling may miss neoplastic areas in the setting of multiple, diffuse polyps.",
+        "presence_question": "Does the model's response make an inferential link about total colectomy justification?",
+        "correctness_question": "Does the model's response correctly conclude that Total colectomy with ileorectal anastomosis is justified in this case to both treat and fully evaluate the colon because focal sampling may miss neoplastic areas in the setting of multiple, diffuse polyps.?",
+        "premise_perception_ids": [
+          "p2",
+          "p7",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k2",
+          "k3",
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "superficial biopsy insufficiency",
+        "claim_text": "Because superficial endoscopic biopsies can fail to exclude dysplasia or malignancy, the existing superficial biopsy results are insufficient to rule out dysplasia or cancer in this patient with multiple colonic polyps.",
+        "presence_question": "Does the model's response make an inferential link about superficial biopsy insufficiency?",
+        "correctness_question": "Does the model's response correctly conclude that Because superficial endoscopic biopsies can fail to exclude dysplasia or malignancy, the existing superficial biopsy results are insufficient to rule out dysplasia or cancer in this patient with multiple colonic polyps.?",
+        "premise_perception_ids": [
+          "p2"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

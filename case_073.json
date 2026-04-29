@@ -27,5 +27,151 @@
   "caption": "Scanning electron micrograph of an isolate from peripheral blood of a healthy human donor (male, 28 years). A mass of microparticles and numerous residual erythrocytes can be seen. The image was taken using a Quanta TM 250 FEG (FEI, Hillsboro, OR) scanning electron microscope at FEI Quanta, Eindhoven, The Netherlands, by applying 1.5 kV.",
   "sub_caption": "Scanning electron micrograph of an isolate from peripheral blood of a healthy human donor (male, 28 years). A mass of microparticles and numerous residual erythrocytes can be seen. The image was taken using a Quanta TM 250 FEG (FEI, Hillsboro, OR) scanning electron microscope at FEI Quanta, Eindhoven, The Netherlands, by applying 1.5 kV.",
   "image_context": "<xref ref-type=\"fig\" rid=\"ijn-6-2737f1\">Figure 1</xref> shows a typical scanning electron micrograph of an isolate from the blood of a healthy human donor, exhibiting a mass of nanoparticles and many residual erythrocytes.  shows a typical scanning electron micrograph of an isolate from the blood of a healthy human donor, exhibiting a mass of nanoparticles and many residual erythrocytes. <xref ref-type=\"fig\" rid=\"ijn-6-2737f2\">Figure 2</xref> shows scanning electron micrographs of chosen regions of an isolate from the blood of a healthy human donor. Heparin (A–D) and trisodium citrate (E, F) were used as the anticoagulants. Numerous nanoparticles can be seen, while residual cells such as erythrocytes (A, black arrow) and activated platelets (A, white arrow) were also present in the isolate. The nanoparticles had diverse shapes and sizes. Tubular structures of different lengths were found (B–F), which were more abundant with heparin than with trisodium citrate as the anticoagulant. Peculiar structures such as a torus (E, white arrows) and starfish (F, black arrow) were found. The white arrow in  shows scanning electron micrographs of chosen regions of an isolate from the blood of a healthy human donor. Heparin (A–D) and trisodium citrate (E, F) were used as the anticoagulants. Numerous nanoparticles can be seen, while residual cells such as erythrocytes (A, black arrow) and activated platelets (A, white arrow) were also present in the isolate. The nanoparticles had diverse shapes and sizes. Tubular structures of different lengths were found (B–F), which were more abundant with heparin than with trisodium citrate as the anticoagulant. Peculiar structures such as a torus (E, white arrows) and starfish (F, black arrow) were found. The white arrow in <xref ref-type=\"fig\" rid=\"ijn-6-2737f1\">Figure 1F</xref> identifies a cell which formed protrusions with bulbous ends. identifies a cell which formed protrusions with bulbous ends.",
-  "relevant_image_context": "The white arrow in Figure 1F identifies a cell which formed protrusions with bulbous ends."
+  "relevant_image_context": "The white arrow in Figure 1F identifies a cell which formed protrusions with bulbous ends.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_other_batch_23_9-PMC3225219-5-ijn-6-2737f1.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/other/filelist_other_batch_23_9-PMC3225219-5-ijn-6-2737f1.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "scale bar length",
+        "claim_text": "The image includes a scale bar indicating a length of 10 µm",
+        "presence_question": "Does the model's response discuss scale bar length?",
+        "correctness_question": "Does the model's response correctly assert that The image includes a scale bar indicating a length of 10 µm?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "central structure appearance",
+        "claim_text": "A central structure appears to be a cellular surface or process at the plasma membrane",
+        "presence_question": "Does the model's response discuss central structure appearance?",
+        "correctness_question": "Does the model's response correctly assert that A central structure appears to be a cellular surface or process at the plasma membrane?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "plasma membrane surface pattern",
+        "claim_text": "The plasma membrane surface is densely covered with many rounded vesicle-like protrusions",
+        "presence_question": "Does the model's response discuss plasma membrane surface pattern?",
+        "correctness_question": "Does the model's response correctly assert that The plasma membrane surface is densely covered with many rounded vesicle-like protrusions?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "number of bulbous protrusions",
+        "claim_text": "There are several bulbous protrusions present on the cell surface",
+        "presence_question": "Does the model's response discuss number of bulbous protrusions?",
+        "correctness_question": "Does the model's response correctly assert that There are several bulbous protrusions present on the cell surface?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "bulbous protrusion shape",
+        "claim_text": "The protrusions have distinct bulbous shapes on the cell surface",
+        "presence_question": "Does the model's response discuss bulbous protrusion shape?",
+        "correctness_question": "Does the model's response correctly assert that The protrusions have distinct bulbous shapes on the cell surface?"
+      },
+      {
+        "claim_id": "p6",
+        "topic": "bulbous protrusion location",
+        "claim_text": "The bulbous protrusions are located at the plasma membrane",
+        "presence_question": "Does the model's response discuss bulbous protrusion location?",
+        "correctness_question": "Does the model's response correctly assert that The bulbous protrusions are located at the plasma membrane?"
+      },
+      {
+        "claim_id": "p7",
+        "topic": "narrow neck attachments",
+        "claim_text": "The bulbous protrusions are attached to the plasma membrane by narrow necks",
+        "presence_question": "Does the model's response discuss narrow neck attachments?",
+        "correctness_question": "Does the model's response correctly assert that The bulbous protrusions are attached to the plasma membrane by narrow necks?"
+      },
+      {
+        "claim_id": "p8",
+        "topic": "small particulate bodies adjacent",
+        "claim_text": "Smaller particulate bodies lie adjacent to the cell surface",
+        "presence_question": "Does the model's response discuss small particulate bodies adjacent?",
+        "correctness_question": "Does the model's response correctly assert that Smaller particulate bodies lie adjacent to the cell surface?"
+      },
+      {
+        "claim_id": "p9",
+        "topic": "rounded buds location",
+        "claim_text": "Rounded buds are located at the plasma membrane",
+        "presence_question": "Does the model's response discuss rounded buds location?",
+        "correctness_question": "Does the model's response correctly assert that Rounded buds are located at the plasma membrane?"
+      },
+      {
+        "claim_id": "p10",
+        "topic": "absence of thin elongated extensions",
+        "claim_text": "Thin elongated extensions are absent from the cell surface in the image",
+        "presence_question": "Does the model's response discuss absence of thin elongated extensions?",
+        "correctness_question": "Does the model's response correctly assert that Thin elongated extensions are absent from the cell surface in the image?"
+      },
+      {
+        "claim_id": "p11",
+        "topic": "absence of wholesale cell fragmentation",
+        "claim_text": "There is no wholesale cell fragmentation visible in the image",
+        "presence_question": "Does the model's response discuss absence of wholesale cell fragmentation?",
+        "correctness_question": "Does the model's response correctly assert that There is no wholesale cell fragmentation visible in the image?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "plasma membrane outward budding",
+        "claim_text": "Plasma membrane outward budding is the process in which membrane-derived vesicles bud outward from the cell surface.",
+        "presence_question": "Does the model's response discuss plasma membrane outward budding?",
+        "correctness_question": "Does the model's response correctly state that Plasma membrane outward budding is the process in which membrane-derived vesicles bud outward from the cell surface?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "microvesicle morphology",
+        "claim_text": "Microvesicles typically appear as rounded bulbous buds that remain attached to the plasma membrane by narrow necks.",
+        "presence_question": "Does the model's response discuss microvesicle morphology?",
+        "correctness_question": "Does the model's response correctly state that Microvesicles typically appear as rounded bulbous buds that remain attached to the plasma membrane by narrow necks?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "Plasma membrane outward budding (microvesicle shedding)",
+        "claim_text": "The image's multiple discrete rounded vesicles budding outward from the plasma membrane and remaining attached by narrow necks support plasma membrane outward budding (microvesicle shedding) as a plausible explanation.",
+        "presence_question": "Does the model's response make an inferential link about Plasma membrane outward budding (microvesicle shedding)?",
+        "correctness_question": "Does the model's response correctly conclude that The image's multiple discrete rounded vesicles budding outward from the plasma membrane and remaining attached by narrow necks support plasma membrane outward budding (microvesicle shedding) as a plausible explanation?",
+        "premise_perception_ids": [
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p9"
+        ],
+        "premise_knowledge_ids": [
+          "k1",
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Thin protrusive extensions (filopodia)",
+        "claim_text": "The absence of thin, elongated extensions on the imaged surface argues against a mechanism based on thin protrusive extensions (such as filopodia) being responsible for the observed rounded buds.",
+        "presence_question": "Does the model's response make an inferential link about Thin protrusive extensions (filopodia)?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of thin, elongated extensions on the imaged surface argues against a mechanism based on thin protrusive extensions (such as filopodia) being responsible for the observed rounded buds?",
+        "premise_perception_ids": [
+          "p10"
+        ],
+        "premise_knowledge_ids": []
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Wholesale cell fragmentation",
+        "claim_text": "The absence of wholesale cell fragmentation in the image argues against a mechanism that would involve large-scale cell fragmentation producing the observed surface particles.",
+        "presence_question": "Does the model's response make an inferential link about Wholesale cell fragmentation?",
+        "correctness_question": "Does the model's response correctly conclude that The absence of wholesale cell fragmentation in the image argues against a mechanism that would involve large-scale cell fragmentation producing the observed surface particles?",
+        "premise_perception_ids": [
+          "p11"
+        ],
+        "premise_knowledge_ids": []
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }

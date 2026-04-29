@@ -27,5 +27,119 @@
   "caption": "CT reveals an anterior mediastinal tumor 47 mm in diameter, invading the superior vena cava.",
   "sub_caption": "CT reveals an anterior mediastinal tumor 47 mm in diameter, invading the superior vena cava.",
   "image_context": "The patient was a 51-year-old woman. In 2004, she had been diagnosed with MG (MGFA I) based on eyelid ptosis and detection of ARAB. Ten years after diagnosis of MG, elevation of the diaphragm was detected on chest X-ray. CT revealed an anterior mediastinal tumor 47 mm in diameter. We suspected tumor invasion to the right phrenic nerve, right atrium, and superior vena cava (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>), and preoperative radiotherapy (total 40 Gy) was therefore selected. Although the tumor showed a reduction in diameter from 47 mm to 37 mm, invasion to the pericardium remained. At this point, the decision was made to perform surgery. Extended thymectomy and partial resection of the right upper lobe (segments S), and preoperative radiotherapy (total 40 Gy) was therefore selected. Although the tumor showed a reduction in diameter from 47 mm to 37 mm, invasion to the pericardium remained. At this point, the decision was made to perform surgery. Extended thymectomy and partial resection of the right upper lobe (segments S2 and S3), right phrenic nerve, pericardium, and right pulmonary vein (V2b and V3) were therefore performed. Pathological examination revealed squamous cell carcinoma invading into the pericardium and lung (Masaoka stage III), pT3N0M0 WHO stage III. In this case, the type B3 thymoma was slightly observed within the squamous cell carcinoma (<xref rid=\"gr4\" ref-type=\"fig\">Fig. 4</xref>).).",
-  "relevant_image_context": "CT revealed an anterior mediastinal tumor 47 mm in diameter. We suspected tumor invasion to the right phrenic nerve, right atrium, and superior vena cava."
+  "relevant_image_context": "CT revealed an anterior mediastinal tumor 47 mm in diameter. We suspected tumor invasion to the right phrenic nerve, right atrium, and superior vena cava.",
+  "source_subfig_path": "/datasets/PMC-15M/filtered_biomedica/filtered_v4/subfigures_final/subfig_0_filelist_noncommercial_batch_34_28-PMC5021770-0-gr3.jpg",
+  "source_full_fig_path": "/datasets/biomedica/processed/noncommercial/filelist_noncommercial_batch_34_28-PMC5021770-0-gr3.jpg",
+  "pkr_questions": {
+    "perception": [
+      {
+        "claim_id": "p1",
+        "topic": "anterior mediastinal soft-tissue mass",
+        "claim_text": "There is a soft-tissue mass in the anterior mediastinum.",
+        "presence_question": "Does the model's response discuss anterior mediastinal soft-tissue mass?",
+        "correctness_question": "Does the model's response correctly assert that There is a soft-tissue mass in the anterior mediastinum.?"
+      },
+      {
+        "claim_id": "p2",
+        "topic": "mass along right heart border",
+        "claim_text": "There is a soft-tissue mass immediately anterior and lateral to the right heart border.",
+        "presence_question": "Does the model's response discuss mass along right heart border?",
+        "correctness_question": "Does the model's response correctly assert that There is a soft-tissue mass immediately anterior and lateral to the right heart border.?"
+      },
+      {
+        "claim_id": "p3",
+        "topic": "mass adjacent to pericardium",
+        "claim_text": "The soft-tissue mass is adjacent to the pericardial surface.",
+        "presence_question": "Does the model's response discuss mass adjacent to pericardium?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass is adjacent to the pericardial surface.?"
+      },
+      {
+        "claim_id": "p4",
+        "topic": "mass adjacent to superior medial lung",
+        "claim_text": "The soft-tissue mass is adjacent to the superior medial lung.",
+        "presence_question": "Does the model's response discuss mass adjacent to superior medial lung?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass is adjacent to the superior medial lung.?"
+      },
+      {
+        "claim_id": "p5",
+        "topic": "extension beyond thymic location",
+        "claim_text": "The soft-tissue mass extends beyond a small central thymic location.",
+        "presence_question": "Does the model's response discuss extension beyond thymic location?",
+        "correctness_question": "Does the model's response correctly assert that The soft-tissue mass extends beyond a small central thymic location.?"
+      }
+    ],
+    "knowledge": [
+      {
+        "knowledge_id": "k1",
+        "topic": "en bloc oncologic resection",
+        "claim_text": "En bloc oncologic resection addresses tumors adherent to adjacent structures such as the pericardium and lung.",
+        "presence_question": "Does the model's response discuss en bloc oncologic resection?",
+        "correctness_question": "Does the model's response correctly state that En bloc oncologic resection addresses tumors adherent to adjacent structures such as the pericardium and lung?"
+      },
+      {
+        "knowledge_id": "k2",
+        "topic": "en bloc resection extent",
+        "claim_text": "En bloc resection may require resection of involved pericardium and portions of lung, which can include the right upper lobe, involved pulmonary veins, and the phrenic nerve when necessary.",
+        "presence_question": "Does the model's response discuss en bloc resection extent?",
+        "correctness_question": "Does the model's response correctly state that En bloc resection may require resection of involved pericardium and portions of lung, which can include the right upper lobe, involved pulmonary veins, and the phrenic nerve when necessary?"
+      },
+      {
+        "knowledge_id": "k3",
+        "topic": "limited thymectomy contraindications",
+        "claim_text": "Limited thymectomy or purely minimally invasive approaches are contraindicated for tumors that extend beyond a central thymic location or that are adherent to adjacent cardiopulmonary structures.",
+        "presence_question": "Does the model's response discuss limited thymectomy contraindications?",
+        "correctness_question": "Does the model's response correctly state that Limited thymectomy or purely minimally invasive approaches are contraindicated for tumors that extend beyond a central thymic location or that are adherent to adjacent cardiopulmonary structures?"
+      }
+    ],
+    "reasoning": [
+      {
+        "reasoning_id": "r1",
+        "topic": "En bloc oncologic resection indication",
+        "claim_text": "The imaging evidence that the anterior mediastinal mass is contiguous with the pericardial surface and adjacent lung supports that an en bloc oncologic resection is indicated for this case.",
+        "presence_question": "Does the model's response make an inferential link about En bloc oncologic resection indication?",
+        "correctness_question": "Does the model's response correctly conclude that The imaging evidence that the anterior mediastinal mass is contiguous with the pericardial surface and adjacent lung supports that an en bloc oncologic resection is indicated for this case.?",
+        "premise_perception_ids": [
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k1"
+        ]
+      },
+      {
+        "reasoning_id": "r2",
+        "topic": "Pericardium and right pulmonary resection justified",
+        "claim_text": "Because the mass lies anterior/lateral to the right heart border and is contiguous with the pericardium and adjacent lung, resection of the pericardium and involved right-sided pulmonary structures (including right upper lobe, involved pulmonary veins, and possibly the phrenic nerve) is justified in this case.",
+        "presence_question": "Does the model's response make an inferential link about Pericardium and right pulmonary resection justified?",
+        "correctness_question": "Does the model's response correctly conclude that Because the mass lies anterior/lateral to the right heart border and is contiguous with the pericardium and adjacent lung, resection of the pericardium and involved right-sided pulmonary structures (including right upper lobe, involved pulmonary veins, and possibly the phrenic nerve) is justified in this case.?",
+        "premise_perception_ids": [
+          "p2",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k2"
+        ]
+      },
+      {
+        "reasoning_id": "r3",
+        "topic": "Limited thymectomy/minimally invasive approach not appropriate",
+        "claim_text": "Because the mass extends beyond a small central thymic location and is adherent to adjacent structures, a limited thymectomy or a purely minimally invasive approach is not appropriate for this case.",
+        "presence_question": "Does the model's response make an inferential link about Limited thymectomy/minimally invasive approach not appropriate?",
+        "correctness_question": "Does the model's response correctly conclude that Because the mass extends beyond a small central thymic location and is adherent to adjacent structures, a limited thymectomy or a purely minimally invasive approach is not appropriate for this case.?",
+        "premise_perception_ids": [
+          "p5",
+          "p3",
+          "p4"
+        ],
+        "premise_knowledge_ids": [
+          "k3"
+        ]
+      }
+    ]
+  },
+  "pkr_questions_match": {
+    "matched": true,
+    "method": "question_unique"
+  }
 }
