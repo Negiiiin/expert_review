@@ -174,11 +174,9 @@
     font-size: 10px; background: #eef1f5; color: #41484f;
     padding: 2px 6px; border-radius: 4px; font-weight: 700; letter-spacing: .5px;
   }
-  .pkr-claim .claim-text {
-    margin: 4px 0 6px; font-size: 13px; color: #2a2f36; line-height: 1.5;
-  }
   .pkr-claim .pkr-q { font-size: 12.5px; color: var(--muted); margin: 2px 0; line-height: 1.4; }
   .pkr-claim .pkr-q b { color: var(--text); font-weight: 600; margin-right: 4px; }
+  .pkr-claim .pkr-q.ref { color: #2a2f36; font-size: 13px; margin: 4px 0 6px; }
   .premise-tags { font-size: 11px; color: var(--muted); margin-top: 4px; }
   .premise-tags span { display: inline-block; background: #eef1f5; padding: 1px 6px;
     border-radius: 4px; margin-right: 4px; font-weight: 600; color: #41484f; }
@@ -331,8 +329,8 @@
     },
     {
       id: "question_well_formed",
-      label: "Is the question grammatically and semantically well-formed and unambiguous?",
-      help: "Is the wording clear, complete, and free of ambiguity?",
+      label: "Is the question medically meaningful and clinically well-posed?",
+      help: "Setting wording aside, does the question make sense as a clinical question — i.e., something an expert would reasonably ask given this image and context?",
       options: YN,
     },
     {
@@ -521,7 +519,7 @@
               <span class="id-tag">${escapeHtml(idKey)}</span>
               <span>${escapeHtml(cl.topic || "")}</span>
             </div>
-            <div class="claim-text">${escapeHtml(cl.claim_text || "")}</div>
+            ${cl.claim_text ? `<div class="pkr-q ref"><b>Reference text:</b>${escapeHtml(cl.claim_text)}</div>` : ""}
             ${cl.presence_question ? `<div class="pkr-q"><b>Presence:</b>${escapeHtml(cl.presence_question)}</div>` : ""}
             ${cl.correctness_question ? `<div class="pkr-q"><b>Correctness:</b>${escapeHtml(cl.correctness_question)}</div>` : ""}
             ${premiseHtml ? `<div class="premise-tags">${premiseHtml}</div>` : ""}
