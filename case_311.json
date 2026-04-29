@@ -1,0 +1,32 @@
+{
+  "case_id": 311,
+  "images": {
+    "subfig": "case_311_subfig.jpg",
+    "full": "case_311_full.jpg"
+  },
+  "question": "Genetic testing identified a heterozygous entire deletion of a single copy of a gene associated with an autosomal dominant renal–pancreatic syndrome in this patient. What is the most appropriate estimate of the probability that a biological child will inherit the same deletion?",
+  "question_scope": "subfigure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "About 50% (≈1 in 2) chance",
+    "B": "About 25% (≈1 in 4) chance",
+    "C": "Only if both parents carry the deletion",
+    "D": "No increased risk to offspring",
+    "E": "100% chance for all children"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial CT image. I see bilateral renal abnormalities: multiple cortical cystic areas and dilation of the collecting systems (arrows), which visually support a renal–pancreatic syndrome phenotype but do not provide genetic data.\n\nNext, I relate these observations to the question, which states that genetic testing identified a heterozygous entire deletion of a single copy of a gene associated with an autosomal dominant renal–pancreatic syndrome. The question asks for the most appropriate estimate of the probability that a biological child will inherit that same deletion.\n\nThen, I consider the inheritance implications of a heterozygous deletion in an autosomal dominant condition. With one affected copy and one normal copy in the parent, each gamete has an independent chance of carrying the deleted allele, so each child has about a 1 in 2 chance of inheriting the deletion.\n\nFinally, I compare that conclusion to the answer choices: about 50% (≈1 in 2) best matches the expected transmission probability for a heterozygous autosomal dominant lesion. The imaging findings support the clinical context but do not alter the Mendelian inheritance probability.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Contrast agent‐enhanced computed tomography scan of the abdominal plane. Bilateral multiple renal cysts and pyelectasis were visualized. Pancreatic and genital tract were spared.",
+  "sub_caption": "Contrast agent‐enhanced computed tomography scan of the abdominal plane. Bilateral multiple renal cysts and pyelectasis were visualized. Pancreatic and genital tract were spared.",
+  "image_context": "Abdominal computed tomography showed bilateral multiple renal cysts and pyelectasis (Figure <xref rid=\"JDI-13-923-g004\" ref-type=\"fig\">1</xref>). Based on these clinical observations, MODY5 was suspected. Furthermore, the ). Based on these clinical observations, MODY5 was suspected. Furthermore, the HNF1B score, a pivotal tool for rational genetic testing\n5\n, was 19, confirming a high level of clinical suspicion for HNF1B‐related disease. We carried out multiplex ligation probe amplification using patient‐derived lymphocyte, and identified heterozygous entire deletion of the HNF1B gene (Figure <xref rid=\"JDI-13-923-g003\" ref-type=\"fig\">2</xref>).).",
+  "relevant_image_context": "Abdominal computed tomography showed bilateral multiple renal cysts and pyelectasis (Figure 1). Based on these clinical observations, MODY5 was suspected. Furthermore, the HNF1B score, a pivotal tool for rational genetic testing, was 19, confirming a high level of clinical suspicion for HNF1B-related disease. We carried out multiplex ligation probe amplification using patient-derived lymphocyte, and identified heterozygous entire deletion of the HNF1B gene (Figure 2)."
+}

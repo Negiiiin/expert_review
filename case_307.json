@@ -1,0 +1,33 @@
+{
+  "case_id": 307,
+  "images": {
+    "subfig": "case_307_subfig.jpg",
+    "full": "case_307_full.jpg"
+  },
+  "question": "A 50-year-old man with immunosuppression (CD4 320 cells/μL) undergoes contrast-enhanced CT for evaluation of lower gastrointestinal symptoms. Based on the imaging, which of the following diagnoses is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Kaposi sarcoma",
+    "B": "Rectal adenocarcinoma",
+    "C": "Non-Hodgkin lymphoma",
+    "D": "Cytomegalovirus proctitis",
+    "E": "Ulcerative colitis"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for key findings. On this axial contrast-enhanced CT through the pelvis I see circumferential thickening of the rectal wall with heterogeneous enhancement and a small enhancing mesorectal soft-tissue node just lateral to the rectum. No large bulky nodal masses or markedly asymmetric eccentric mass is evident in this slice.\n\nNext, I relate what I see to the question, which asks for the most likely diagnosis in a 50-year-old man who is immunosuppressed (CD4 320) with lower GI symptoms. The image shows a focal rectal process with an adjacent enhancing mesorectal node in an immunosuppressed patient, so I need the diagnosis that best explains both the rectal wall abnormality and nodal involvement in that clinical context.\n\nThen, I consider how each option lines up with those observations. Kaposi sarcoma (A) is compatible with an immunosuppressed patient and can present as rectal wall lesions with associated small mesorectal nodal enhancement, so the combination of concentric rectal thickening and a nearby enhancing node fits. Rectal adenocarcinoma (B) often produces an irregular, focal asymmetric mass or annular stenosing lesion; the more smooth, concentric thickening seen here is less typical for a classic focal adenocarcinoma. Non‑Hodgkin lymphoma (C) can cause wall thickening and nodal disease as well, but would more commonly show bulkier nodal masses or more extensive lymphadenopathy than the single small enhancing node seen here. Cytomegalovirus proctitis (D) or ulcerative colitis (E) could produce rectal wall thickening, but isolated mucosal or inflammatory processes are less likely to produce a discrete enhancing mesorectal lymph node as seen on this study.\n\nFinally, integrating the imaging appearance (concentric rectal thickening with a small enhancing mesorectal node) and the patient’s immunosuppressed state, the findings most strongly favor Kaposi sarcoma.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Axial reconstruction, portovenous-enhanced CT imaging of a 50-year-old male patient. The image demonstrates rectal thickening (dashed arrow) and an enhancing mesorectal node (solid arrow).",
+  "sub_caption": "Axial reconstruction, portovenous-enhanced CT imaging of a 50-year-old male patient. The image demonstrates rectal thickening (dashed arrow) and an enhancing mesorectal node (solid arrow).",
+  "image_context": "<xref ref-type=\"fig\" rid=\"SAJR-21-1233-g009\">Figures 9</xref> and  and <xref ref-type=\"fig\" rid=\"SAJR-21-1233-g010\">10</xref> demonstrate a 50-year-old male patient, with CD4 count of 320 cells/μL at initial presentation, with rectal thickening and an enhancing mesorectal node. The diagnosis of rectal KS was made upon transrectal biopsy. demonstrate a 50-year-old male patient, with CD4 count of 320 cells/μL at initial presentation, with rectal thickening and an enhancing mesorectal node. The diagnosis of rectal KS was made upon transrectal biopsy.",
+  "relevant_image_context": "Figures 9 and 10 demonstrate a 50-year-old male patient, with CD4 count of 320 cells/μL at initial presentation, with rectal thickening and an enhancing mesorectal node. The diagnosis of rectal KS was made upon transrectal biopsy."
+}

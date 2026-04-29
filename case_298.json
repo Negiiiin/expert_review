@@ -1,0 +1,32 @@
+{
+  "case_id": 298,
+  "images": {
+    "subfig": "case_298_subfig.jpg",
+    "full": "case_298_full.jpg"
+  },
+  "question": "An elderly patient with a unilateral sinonasal lesion is scheduled for operative removal. At surgery there is active infection with purulent material present, and complete excision is desired to reduce recurrence risk. Which operative strategy is most appropriate?",
+  "question_scope": "subfigure",
+  "question_category": "Surgery / operative management",
+  "options": {
+    "A": "Endoscopic endonasal resection including medial maxillectomy",
+    "B": "External radical maxillectomy via Caldwell‑Luc approach",
+    "C": "Limited endoscopic polypectomy only",
+    "D": "Endoscopic drainage and antibiotics without excision",
+    "E": "Primary radiotherapy instead of surgery"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided coronal CT image. There is a unilateral soft-tissue density filling the right maxillary sinus and extending medially toward the nasal cavity (asterisk). The adjacent ostiomeatal region shows remodeling/pressure change (oval), suggesting the lesion arises from or involves the maxillary sinus/lateral nasal wall rather than being a simple bilateral inflammatory change.\n\nNext, I relate those imaging findings to the clinical stem: an elderly patient with a unilateral sinonasal lesion scheduled for removal, with intraoperative active infection and purulent material present, and a stated goal of complete excision to reduce recurrence.\n\nThen I consider how each operative strategy aligns with those observations. An approach that enables removal of the lesion and its origin within the maxillary sinus/lateral wall is required to achieve complete excision and lower recurrence risk. Endoscopic endonasal resection that includes a medial maxillectomy provides direct access to the maxillary sinus and the lesion’s medial/lateral attachments, permitting more complete removal than a limited polypectomy or drainage alone. Limited polypectomy would risk leaving the sinus-based lesion behind; drainage and antibiotics alone would not excise the lesion. An external radical maxillectomy is more invasive and appears disproportionate given a unilateral, localized sinus-confined process without gross destructive bone loss on the image. Primary radiotherapy does not accomplish operative excision, which the stem specifies is desired.\n\nTherefore, given a unilateral maxillary-sinus–based lesion that requires complete excision despite active infection, the endoscopic endonasal resection including medial maxillectomy best matches the goal of removing the lesion and its origin while addressing the image findings.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "The contrast enhanced computer tomography picture of the 87‐year‐old female patient (#14) with sinonasal oncocytic papilloma (asterisk) in the right maxillary sinus and nasal cavity. The middle part of the mass showed contrast enhancement and also lamellar structures, which raised the suspicion of sinonasal papilloma. The tumor had caused bone remodellation at the region of ostiomeatal complex (ellipse). Perioperatively several pus accumulations were found among tumor mass.",
+  "sub_caption": "The contrast enhanced computer tomography picture of the 87‐year‐old female patient (#14) with sinonasal oncocytic papilloma (asterisk) in the right maxillary sinus and nasal cavity. The middle part of the mass showed contrast enhancement and also lamellar structures, which raised the suspicion of sinonasal papilloma. The tumor had caused bone remodellation at the region of ostiomeatal complex (ellipse). Perioperatively several pus accumulations were found among tumor mass.",
+  "image_context": "Table 4 shows the patients divided into two subgroups; those with a recurrence and those without. The distribution of the different factors among these groups is presented. Smokers had more recurrences (75%) than nonsmokers (31%) (former smokers and never smokers combined), but the difference did not reach statistical significance (P = .445). Recurrences were most uncommon in cases primarily located in the nasal cavity, but this finding was not statistically significant (P = .603). Patients with purulent rhinosinusitis during the primary surgery showed a higher recurrence rate than patients without, but the difference was not statistically significant (P = .326). Figure <xref rid=\"LIO2-4-567-g001\" ref-type=\"fig\">1</xref> shows the contrast enhanced computer tomography image of a 87‐year‐old female patient (patient #14) with SNOP in the right maxillary sinus and nasal cavity. Patient had an acute infection at the time of tumor removal, and she later had a tumor recurrence. Patients with Krouse stage 1 or 3 had recurrences during the follow‐up (50% and 45%, respectively), but patients with Krouse stage 2 had not ( shows the contrast enhanced computer tomography image of a 87‐year‐old female patient (patient #14) with SNOP in the right maxillary sinus and nasal cavity. Patient had an acute infection at the time of tumor removal, and she later had a tumor recurrence. Patients with Krouse stage 1 or 3 had recurrences during the follow‐up (50% and 45%, respectively), but patients with Krouse stage 2 had not (P = .421). Surgical technique and further treatment modalities to the tumor site showed no effect on the recurrence rate.",
+  "relevant_image_context": "Figure 1 shows the contrast enhanced computer tomography image of a 87‐year‐old female patient (patient #14) with SNOP in the right maxillary sinus and nasal cavity. Patient had an acute infection at the time of tumor removal, and she later had a tumor recurrence. Patients with Krouse stage 1 or 3 had recurrences during the follow‐up (50% and 45%, respectively), but patients with Krouse stage 2 had not (P = .421)."
+}

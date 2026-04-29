@@ -1,0 +1,32 @@
+{
+  "case_id": 154,
+  "images": {
+    "subfig": "case_154_subfig.jpg",
+    "full": "case_154_full.jpg"
+  },
+  "question": "Based on this image, which anatomic region is primarily involved?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Right frontal lobe",
+    "B": "Right parietal lobe",
+    "C": "Right frontoparietal junction",
+    "D": "Right temporal lobe",
+    "E": "Left frontoparietal region"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the MRI images to localize the abnormality: there is a well-defined, contrast-enhancing rounded lesion located along the superior convexity of the cerebral hemisphere. The lesion is seen on multiple contiguous axial slices and on sagittal views, confirming it is cortical/subcortical and located near the superior-lateral surface rather than deep or in the temporal lobe.\n\nNext, I determine laterality and relationship to lobar anatomy. The abnormality is confined to the right hemisphere and sits at the border between the anterior (frontal) and superior-posterior (parietal) cortical territories — it abuts cortex in a position consistent with the junction of the frontal and parietal lobes rather than solely within one lobe.\n\nThen, I relate these observations to the answer choices. Options that specify only frontal or only parietal lobes are less precise because the lesion visibly straddles the frontal–parietal boundary. The temporal lobe and left-sided region are not involved on the images.\n\nTherefore, the imaging appearance — a right-sided, cortical/subcortical enhancing lesion located at the meeting point of the frontal and parietal cortices — best corresponds to the right frontoparietal junction.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "functional magnetic resonance"
+  ],
+  "caption": "Neuroimaging findings. A: February 20, 2016 Preoperative image of enhanced right frontal parietal lobe space-occupying lesion, maximum diameter about 5 cm; B: June 3, 2016 End of chemoradiation. Enhanced right frontal parietal lobe space-occupying lesion, maximum diameter about 3.5 cm; C: September 14, 2016 Enhanced lesion at the junction of the right frontal and parietal lobes, maximum diameter about 2 cm, after taking Kangliu pill for 3 mo; and D: April 29, 2019 Enhanced lesion at the junction of the right frontal and parietal lobes, maximum diameter about 1 cm, after taking Kangliu pill for nearly 3 years.",
+  "sub_caption": "C: September 14, 2016 Enhanced lesion at the junction of the right frontal and parietal lobes, maximum diameter about 2 cm, after taking Kangliu pill for 3 mo;",
+  "image_context": "Computed tomography examination in a local hospital showed no obvious abnormalities, but magnetic resonance imaging indicated a space-occupying lesion in the right frontal lobe. The patient did not receive any treatment at that time. However, headache, limb weakness, and left hemiplegia returned 4 mo later, and repeat computed tomography suggested a right frontal parietal lobe cerebral hemorrhage. He presented to the hospital for re-examination on February 18, 2016. Cranial magnetic resonance imaging showed that the right frontal-parietal lobe was occupied by a mass, with a maximum diameter of about 5 cm, irregular enhancement of the parenchyma ring, and the necrotic center was not enhanced, indicating a possible high-grade glioma (Figure <xref ref-type=\"fig\" rid=\"WJCC-9-2845-g001\">1A</xref>). ). There was a clear indication for surgery, with no contraindications in the preoperative examination, and the patient underwent partial resection on February 23, 2016. The postoperative pathological report confirmed GBM. After surgery, the patient started concurrent chemoradiation therapy until April 2016, with 75 mg/m2 TMZ once daily for 45 d combined with focal radiotherapy of 60 Gy administered in 30 fractions. However, he opted to discontinue the chemoradiotherapy due to intolerable adverse reactions, including nausea, vomiting, and loss of appetite. Two months later, the patient attended the hospital for postoperative review (Figure <xref ref-type=\"fig\" rid=\"WJCC-9-2845-g001\">1B</xref>) and was prescribed KLP 7.5 g three times/d.) and was prescribed KLP 7.5 g three times/d. After taking KLP for nearly 3 mo, the tumor had shrunk significantly (from about 3.5 to about 2 cm) (Figure <xref ref-type=\"fig\" rid=\"WJCC-9-2845-g001\">1C</xref>), and he therefore continued to take KLP as prescribed for the next 3 years. A subsequent examination showed that the tumor had shrunk to about 1 cm after 3 years (Figure ), and he therefore continued to take KLP as prescribed for the next 3 years. A subsequent examination showed that the tumor had shrunk to about 1 cm after 3 years (Figure <xref ref-type=\"fig\" rid=\"WJCC-9-2845-g001\">1D</xref>). No adverse reactions were detected throughout the course of KLP treatment, and the patient’s symptoms of headache, limb weakness, and left hemiplegia were relieved (Table ). No adverse reactions were detected throughout the course of KLP treatment, and the patient’s symptoms of headache, limb weakness, and left hemiplegia were relieved (Table 1).",
+  "relevant_image_context": "After taking KLP for nearly 3 mo, the tumor had shrunk significantly (from about 3.5 to about 2 cm) (Figure 1C)."
+}

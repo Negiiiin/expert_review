@@ -1,0 +1,32 @@
+{
+  "case_id": 46,
+  "images": {
+    "subfig": "case_046_subfig.jpg",
+    "full": "case_046_full.jpg"
+  },
+  "question": "A patient with a prior left hip excision arthroplasty (Girdlestone) presents with worsening left lower abdominal and hip pain and clinical deterioration with rising lactate despite intravenous fluids. CT of the abdomen and pelvis was obtained. Which postoperative complication most likely explains this patient's clinical course and the imaging results?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Enteric fistula causing hip joint infection",
+    "B": "Necrotizing soft-tissue infection of thigh",
+    "C": "Aseptic periprosthetic loosening",
+    "D": "Deep vein thrombosis of left leg",
+    "E": "Pyelonephritis with systemic sepsis"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the coronal CT image of the abdomen and pelvis, focusing on the left hemipelvis and hip. I observe an abnormal air-containing collection in the soft tissues on the left side of the pelvis that projects medially toward the perirectal/ischial region and laterally toward the expected region of the left hip. The left hip has prior excision arthroplasty per the clinical history, and the CT appearance shows gas and soft-tissue fluid tracking in the region where the native joint would communicate with adjacent pelvic soft tissues.\n\nNext, I relate these imaging findings to the clinical presentation: worsening left lower abdominal and hip pain with clinical deterioration and rising lactate despite fluids — a pattern consistent with a spreading infectious process with systemic compromise. The presence of gas tracking between the lower pelvic/perirectal region and the left hip region supports a connection between the bowel/enteric region and the hip soft tissues.\n\nThen, I consider the answer choices in light of the image and presentation. An enteric fistula to the hip (option A) directly explains gas in the soft tissues adjacent to both the pelvis/perirectal region and the left hip, and fits the clinical sepsis picture. Necrotizing soft-tissue infection of the thigh (B) could produce gas but would not as readily explain the pelvic/perirectal-to-hip distribution visible here. Aseptic loosening (C) and deep vein thrombosis (D) would not produce soft-tissue gas collections. Pyelonephritis (E) would localize to the kidneys/urinary tract and not produce the pelvic-to-hip gas seen on this scan.\n\nIn summary, the imaging shows an air-containing soft-tissue collection tracking between the lower pelvis/perirectal region and the left hip in a patient with prior left hip excision and systemic deterioration, which is most consistent with an enteric fistula causing hip joint infection.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "(a) Coronal slice from a CT scan of the abdomen and pelvis showing the left hip gridlestone with the presence of air in the joint space. (b and c) Axial images demonstrating air in the lower rectum with involvement of the left ischial fossa and passage along the obturator canal to the left hip joint.",
+  "sub_caption": "(a) Coronal slice from a CT scan of the abdomen and pelvis showing the left hip gridlestone with the presence of air in the joint space.",
+  "image_context": "The patient's condition deteriorated and complained of increasing left sided lower abdominal and hip pain. Despite vigorous administration of intravenous fluids, serial lactate levels demonstrated a rapid increase. A computed tomography (CT) scan of the abdomen and pelvis demonstrated a moderate collection involving the musculature surrounding the left hip with gas within the soft tissue, extending to the left ischiorectal fossa and left obturator internus muscle, suggesting a communication between the bowel and hip joint. There were no features of IBD, DD or bowel carcinoma (Fig. <xref ref-type=\"fig\" rid=\"rju04301\">1</xref>).\n).\nFigure 1:(a) Coronal slice from a CT scan of the abdomen and pelvis showing the left hip gridlestone with the presence of air in the joint space. (b and c) Axial images demonstrating air in the lower rectum with involvement of the left ischial fossa and passage along the obturator canal to the left hip joint.",
+  "relevant_image_context": "The patient's condition deteriorated and complained of increasing left sided lower abdominal and hip pain. Despite vigorous administration of intravenous fluids, serial lactate levels demonstrated a rapid increase. A computed tomography (CT) scan of the abdomen and pelvis demonstrated a moderate collection involving the musculature surrounding the left hip with gas within the soft tissue, extending to the left ischiorectal fossa and left obturator internus muscle, suggesting a communication between the bowel and hip joint. There were no features of IBD, DD or bowel carcinoma. Figure 1: (a) Coronal slice from a CT scan of the abdomen and pelvis showing the left hip gridlestone with the presence of air in the joint space. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

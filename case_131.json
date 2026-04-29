@@ -1,0 +1,29 @@
+{
+  "case_id": 131,
+  "images": {
+    "subfig": "case_131_subfig.jpg",
+    "full": "case_131_full.jpg"
+  },
+  "question": "Based on this image, does the dominant neck lesion appear cystic (fluid-filled)?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Yes",
+    "B": "No"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for lesion characteristics. The arrow marks a well-circumscribed, round-oval mass in the right lateral neck. The lesion has a smooth, thin margin and a uniformly bright internal signal relative to adjacent neck musculature, without visible internal solid nodularity or heterogeneous internal architecture.\n\nNext, I relate what I see to the question, which asks whether the dominant neck lesion appears cystic (fluid-filled). On cross-sectional imaging, a cystic/fluid-filled lesion typically appears as a sharply marginated structure with homogeneous internal signal and lack of internal solid components; that description matches the appearance here. There is no obvious irregularity, septation, or heterogeneous solid tissue within the lesion to suggest a predominantly solid mass.\n\nThen, I consider the two answer choices. The imaging features observed—well-defined border, thin wall, and homogeneous internal signal—are most consistent with a cystic (fluid-filled) lesion.\n\nTherefore, the visual findings support that the dominant neck lesion appears cystic.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Contrast-enhanced MRI showing the cyst located on the right side behind the jugular vein and lateral to the thyroid gland (arrow).MRI: magnetic resonance imaging",
+  "sub_caption": "Contrast-enhanced MRI showing the cyst located on the right side behind the jugular vein and lateral to the thyroid gland (arrow).",
+  "image_context": "Upon physical examination, an overweight female patient was found to have a soft, mobile, painless mass on the right side of her neck with no additional masses or lymphadenopathy present. The rest of the physical exam was within normal limits. The patient underwent a contrast-enhanced neck magnetic resonance imaging (MRI) study, which revealed a large cyst possibly derived from the fourth branchial cleft on the right side, behind the jugular vein and lateral to the thyroid, almost submerged in that area, with smooth and thin walls (Figure <xref rid=\"cureus-0015-00000036913-i01\" ref-type=\"fig\">1</xref>).).",
+  "relevant_image_context": "Upon physical examination, an overweight female patient was found to have a soft, mobile, painless mass on the right side of her neck with no additional masses or lymphadenopathy present. The rest of the physical exam was within normal limits. The patient underwent a contrast-enhanced neck magnetic resonance imaging (MRI) study, which revealed a large cyst possibly derived from the fourth branchial cleft on the right side, behind the jugular vein and lateral to the thyroid, almost submerged in that area, with smooth and thin walls (Figure 1)."
+}

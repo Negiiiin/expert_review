@@ -1,0 +1,31 @@
+{
+  "case_id": 61,
+  "images": {
+    "subfig": "case_061_subfig.jpg",
+    "full": "case_061_full.jpg"
+  },
+  "question": "Which region of the displayed image contains the primary finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper left quadrant of image",
+    "B": "Upper central region of image",
+    "C": "Lower left quadrant of image",
+    "D": "Lower central region of image"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for any focal abnormality and its relation to the image coordinate system. The probe surface (skin) is at the top of the image, and I see a clearly demarcated ovoid lesion just below that superficial line. The lesion is centered beneath the skin in the midline of the image and is outlined by the dotted measurement calipers.\n\nNext, I relate what I see to the question, which asks which region contains the primary finding. The mass sits in the upper portion of the field and is centered horizontally, so it is not towards the left side or toward the lower half of the image. \n\nThen, I compare this observation to the provided options: the lesion is not in the upper left quadrant (it is midline), not in any lower quadrant (it is superior), and matches the upper central region. Therefore, the primary finding is located in the upper central region of the image.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "A 56-year-old female with history of trauma and lump. USG shows an ill-defined hyperechoic mass with anechoic component at the site of the palpable lump quite superficial in location. Note the displacement of the tissue planes and the parallel orientation of the lesion suggesting benignity. BIRADS 3",
+  "sub_caption": "USG shows an ill-defined hyperechoic mass with anechoic component at the site of the palpable lump quite superficial in location. Note the displacement of the tissue planes and the parallel orientation of the lesion suggesting benignity. BIRADS 3",
+  "image_context": "Parallel orientation, an USG feature supportive of benign etiology, is very important to note in cases with solid abnormality [<xref ref-type=\"fig\" rid=\"IJRI-23-366-g009\">Figure 9</xref>]. Lack of flow on Doppler []. Lack of flow on Doppler [<xref ref-type=\"fig\" rid=\"IJRI-23-366-g010\">Figure 10</xref>] is a supportive feature of fat necrosis,[] is a supportive feature of fat necrosis,[2] but literature suggests that it is not a reliable discriminator between benign and malignant nodules.[11]",
+  "relevant_image_context": "Parallel orientation, an USG feature supportive of benign etiology, is very important to note in cases with solid abnormality [Figure 9]. Lack of flow on Doppler []. Lack of flow on Doppler [Figure 10] is a supportive feature of fat necrosis,[] is a supportive feature of fat necrosis,[2] but literature suggests that it is not a reliable discriminator between benign and malignant nodules.[11] First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

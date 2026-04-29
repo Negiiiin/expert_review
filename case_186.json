@@ -1,0 +1,31 @@
+{
+  "case_id": 186,
+  "images": {
+    "subfig": "case_186_subfig.jpg",
+    "full": "case_186_full.jpg"
+  },
+  "question": "What structure is indicated by the arrow?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Cystic duct",
+    "B": "Gallbladder neck",
+    "C": "Common hepatic duct",
+    "D": "Cystic artery"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image carefully for visible labels and structures. I see an arrow pointing to a tubular structure that is explicitly annotated in the image as \"Cystic duct.\" Nearby annotations also label the \"Gallbladder\" and a \"Clip on the gallbladder,\" which helps localize the structure.\n\nNext, I relate what I see to the question, which asks: \"What structure is indicated by the arrow?\" The arrow corresponds directly to the part of the image annotated \"Cystic duct.\"\n\nThen I consider the answer choices in light of the image. Option A, \"Cystic duct,\" matches the annotation pointed to by the arrow. Option B, \"Gallbladder neck,\" is a region of the gallbladder that is separately labeled as \"Gallbladder\" in the image and is not what the arrow indicates. Option C, \"Common hepatic duct,\" and option D, \"Cystic artery,\" are not labeled at the arrowed location and do not match the annotation visible in the image.\n\nFinally, based on the direct visual annotation and the arrow placement, the image supports selecting \"Cystic duct\" as the correct structure indicated by the arrow.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "laparoscopy",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "surgical procedure"
+  ],
+  "caption": "Actual surgical procedures of laparoscopic choledocholithotomy. A and B: Critical view of safety is established in the anterior (A, arrow) and posterior (B, arrow) aspects; C: A semi-circular incision is made in the cystic duct; D: Heister’s valves are carefully destroyed; E: Stones in the cystic duct are removed; F: The golden-brown bile flows from the extrahepatic bile duct. The C-tube is cannulated. CHD: Common hepatic duct; CBD: Common bile duct.",
+  "sub_caption": "D: Heister’s valves are carefully destroyed;",
+  "image_context": "The cystic duct is straightened and a semicircular incision is made on the cystic duct near the gallbladder (Figure <xref ref-type=\"fig\" rid=\"WJG-25-1531-g002\">2C</xref>). Full cutting with removal of the gallbladder disturbs further procedures. Heister’s valves are carefully destroyed before transcystic placement of a C-tube into the EHBD (Figure ). Full cutting with removal of the gallbladder disturbs further procedures. Heister’s valves are carefully destroyed before transcystic placement of a C-tube into the EHBD (Figure <xref ref-type=\"fig\" rid=\"WJG-25-1531-g002\">2D</xref>) and removal of stones from the cystic duct (Figure ) and removal of stones from the cystic duct (Figure <xref ref-type=\"fig\" rid=\"WJG-25-1531-g002\">2E</xref>). Careless stabbing procedures to destroy Heister’s valves can easily result in severe injury to the posterior walls of the biliary confluence or EHBD. The golden brown bile flows from the EHBD, after which the C-tube is cannulated (Figure ). Careless stabbing procedures to destroy Heister’s valves can easily result in severe injury to the posterior walls of the biliary confluence or EHBD. The golden brown bile flows from the EHBD, after which the C-tube is cannulated (Figure <xref ref-type=\"fig\" rid=\"WJG-25-1531-g002\">2F</xref>). The C-tube can be used as a cholangiographic tube for intraoperative cholangiography. Elastic suture is not ligated directly to avoid overtightening of the C-tube; insufficient drainage will trigger postoperative complications. Optimal transcystic fixation of the C-tube is completed with elastic suture and clips[). The C-tube can be used as a cholangiographic tube for intraoperative cholangiography. Elastic suture is not ligated directly to avoid overtightening of the C-tube; insufficient drainage will trigger postoperative complications. Optimal transcystic fixation of the C-tube is completed with elastic suture and clips[7] (Figure <xref ref-type=\"fig\" rid=\"WJG-25-1531-g003\">3A</xref>-C); the second clip prevents slippage of the first clip[-C); the second clip prevents slippage of the first clip[7] (Figure <xref ref-type=\"fig\" rid=\"WJG-25-1531-g003\">3D</xref>).).",
+  "relevant_image_context": "Heister’s valves are carefully destroyed before transcystic placement of a C-tube into the EHBD (Figure 2D). Careless stabbing procedures to destroy Heister’s valves can easily result in severe injury to the posterior walls of the biliary confluence or EHBD."
+}

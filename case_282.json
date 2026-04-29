@@ -1,0 +1,32 @@
+{
+  "case_id": 282,
+  "images": {
+    "subfig": "case_282_subfig.jpg",
+    "full": "case_282_full.jpg"
+  },
+  "question": "Based on this image, which pathophysiologic mechanism most likely produced the abnormalities?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Artery-to-artery embolization of atherosclerotic/plaque debris during endovascular manipulation",
+    "B": "Global hypoperfusion from reduced carotid flow (watershed ischemia)",
+    "C": "Cardioembolic thromboembolism from an intracardiac source",
+    "D": "Small-vessel lipohyalinosis causing lacunar infarctions",
+    "E": "Air embolism introduced during the procedure"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for the pattern, location, and size of abnormalities. On the diffusion-weighted images there are multiple small, punctate areas of bright signal involving the cortical ribbon and adjacent subcortical white matter on the shown axial slices (scattered, cortical/subcortical foci rather than single large territorial or deep small-vessel lacunar lesions). These foci represent acute restricted diffusion and therefore acute ischemic infarcts.\n\nNext, I relate those imaging findings to the question asking which pathophysiologic mechanism most likely produced them. The key imaging clue is a shower of small cortical/subcortical infarcts consistent with multiple embolic fragments lodging in distal cortical branches.\n\nThen I consider how each listed mechanism fits that pattern. Global hypoperfusion/watershed ischemia (B) typically produces symmetric borderzone infarcts between major vascular territories, not multiple discrete cortical punctate lesions, so B is unlikely. Small-vessel lipohyalinosis causing lacunar infarctions (D) produces small deep (<15 mm) subcortical lacunes in characteristic locations (basal ganglia, internal capsule, pons), not multiple cortical/subcortical cortical ribbon foci, so D is unlikely. A single large cardioembolic clot (C) more often produces a large territorial infarct; while cardioembolism can also produce multiple emboli, the pattern here of many tiny cortical/subcortical foci is more typical of showering debris. Air embolism during a procedure (E) can cause multiple cortical infarcts but is less specifically suggested by the appearance than particulate plaque/atheromatous debris and is a less likely diagnosis compared with artery-to-artery plaque embolization when small cortical embolic foci are seen.\n\nFinally, among the options, the mechanism that best matches a shower of small cortical/subcortical diffusion-positive lesions is embolization of particulate plaque debris to distal cortical branches — described in option A. Therefore the imaging pattern is most consistent with artery-to-artery embolization of atherosclerotic/plaque debris during endovascular manipulation as the cause of these acute punctate cortical infarcts.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "diffusion-weighted MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "MRI the day after treatment (a: diffusion-weighted MRI, b: MRA). Diffusion-weighted MRI the day after treatment showed embolic microinfarction in the left cerebral hemisphere (a). On MRA, the visualization of the left internal carotid artery to middle cerebral artery was better than on MRA before treatment (b).",
+  "sub_caption": "Diffusion-weighted MRI the day after treatment showed embolic microinfarction in the left cerebral hemisphere (a).",
+  "image_context": "Diffusion-weighted MRI the day after surgery demonstrated asymptomatic microinfarction in the left cerebral hemisphere, but visualization of the left internal carotid artery to middle cerebral artery was favorable on MRA (<xref rid=\"jnet-15-665-g005\" ref-type=\"fig\"><bold>Fig. 5a</bold></xref> and Fig. 5a and <xref rid=\"jnet-15-665-g005\" ref-type=\"fig\"><bold>5b</bold></xref>). The course was favorable and the patient was discharged 8 days after surgery. After discharge, the oral administration of the two antiplatelet drugs was continued and follow-up was conducted using carotid ultrasonography. On examination 6 months after surgery, in-stent plaque was not observed and the peak systolic flow velocity (PSV) of the common carotid artery was 107 cm/s. However, carotid ultrasonography 8 months after surgery revealed isoechoic in-stent plaque, with a PSV of 319 cm/s. Under a diagnosis of restenosis, the oral administration of the two antiplatelet drugs was continued and percutaneous transluminal angioplasty (PTA) was performed via a right brachial approach 9 months after surgery.5b). The course was favorable and the patient was discharged 8 days after surgery. After discharge, the oral administration of the two antiplatelet drugs was continued and follow-up was conducted using carotid ultrasonography. On examination 6 months after surgery, in-stent plaque was not observed and the peak systolic flow velocity (PSV) of the common carotid artery was 107 cm/s. However, carotid ultrasonography 8 months after surgery revealed isoechoic in-stent plaque, with a PSV of 319 cm/s. Under a diagnosis of restenosis, the oral administration of the two antiplatelet drugs was continued and percutaneous transluminal angioplasty (PTA) was performed via a right brachial approach 9 months after surgery.",
+  "relevant_image_context": "The course was favorable and the patient was discharged 8 days after surgery. After discharge, the oral administration of the two antiplatelet drugs was continued and follow-up was conducted using carotid ultrasonography. On examination 6 months after surgery, in-stent plaque was not observed and the peak systolic flow velocity (PSV) of the common carotid artery was 107 cm/s. However, carotid ultrasonography 8 months after surgery revealed isoechoic in-stent plaque, with a PSV of 319 cm/s. Under a diagnosis of restenosis, the oral administration of the two antiplatelet drugs was continued and percutaneous transluminal angioplasty (PTA) was performed via a right brachial approach 9 months after surgery. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

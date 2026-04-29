@@ -1,0 +1,32 @@
+{
+  "case_id": 86,
+  "images": {
+    "subfig": "case_086_subfig.jpg",
+    "full": "case_086_full.jpg"
+  },
+  "question": "An 83-year-old man is being evaluated prior to transcatheter aortic valve replacement for severe aortic stenosis. Preprocedural CT was obtained to plan vascular access. Based on this image, which of the following prognostic concerns is most increased during transfemoral TAVR?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "Increased risk of periprocedural ischemic stroke",
+    "B": "Increased risk of aortic annular rupture",
+    "C": "Increased risk of coronary ostial obstruction",
+    "D": "Increased risk of access-site major bleeding",
+    "E": "Increased risk of permanent pacemaker implantation"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image at the level of the mid–thoracic aorta. The descending thoracic aortic wall shows irregular, eccentric atherosclerotic/plaque calcification that projects into the aortic lumen along the expected catheter path from the femoral artery toward the aortic valve.\n\nNext, I relate these findings to the question, which asks which prognostic concern is most increased during transfemoral TAVR based on this image. Transfemoral TAVR requires passage and manipulation of large-bore sheaths and catheters through the descending aorta and aortic arch en route to the valve.\n\nThen, I consider how each option aligns with the observed aortic plaque. Option A (periprocedural ischemic stroke): the plaque in the descending aorta is on the catheter route and could be disrupted by device passage, producing emboli that travel to cerebral circulation — this directly increases stroke risk. Option B (aortic annular rupture): that complication relates to valve sizing and annular anatomy at the aortic root, which is not what is shown here. Option C (coronary ostial obstruction): this depends on valve–coronary relationships at the root and is unrelated to descending aortic plaque. Option D (access-site major bleeding): that is a general femoral access risk and is not specifically increased by aortic atheroma seen in the thorax. Option E (permanent pacemaker implantation): that risk stems from conduction system injury during valve deployment and is not linked to descending aortic plaque.\n\nTherefore, the imaging finding of irregular aortic atherosclerotic plaque along the transfemoral catheter route most directly increases the risk of embolic events, i.e., periprocedural ischemic stroke.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Preprocedural computed tomography showing protruding plaques into the descending aortic lumen.",
+  "sub_caption": "Preprocedural computed tomography showing protruding plaques into the descending aortic lumen.",
+  "image_context": "An 83-year-old male was scheduled for transcatheter aortic valve replacement for severe aortic valve stenosis. Although preprocedural computed tomography demonstrated atherosclerotic plaques protruding into the descending aortic lumen (<xref rid=\"gr1\" ref-type=\"fig\">Figure 1</xref>), we concluded a transfemoral approach was feasible. However, while advancing the valve system through the descending aorta, the echocardiographer detected a fragment detached from the protruding plaque on transesophageal echocardiography (not recorded). A 26-mm Sapien 3 (Edwards Lifesciences, Irvine, California) was successfully implanted (), we concluded a transfemoral approach was feasible. However, while advancing the valve system through the descending aorta, the echocardiographer detected a fragment detached from the protruding plaque on transesophageal echocardiography (not recorded). A 26-mm Sapien 3 (Edwards Lifesciences, Irvine, California) was successfully implanted (<xref rid=\"gr2\" ref-type=\"fig\">Figure 2</xref>) while transesophageal echocardiography delineated a contrasting configuration of the plaque () while transesophageal echocardiography delineated a contrasting configuration of the plaque (<xref rid=\"gr3\" ref-type=\"fig\">Figure 3</xref>a and b, a and b, Supplemental Video 1). Emergency superior mesenteric artery angiography demonstrated an embolic partial obstruction (<xref rid=\"gr4\" ref-type=\"fig\">Figure 4</xref>a), and an intravascular aspiration procedure, using an Export Advance catheter (Medtronic, Minneapolis, Minnesota), restored blood flow to the ileocolic territory (a), and an intravascular aspiration procedure, using an Export Advance catheter (Medtronic, Minneapolis, Minnesota), restored blood flow to the ileocolic territory (<xref rid=\"gr4\" ref-type=\"fig\">Figure 4</xref>b). His post-transcatheter aortic valve replacement course was uneventful with no signs of bowel ischemia. Pathology showed the retrieved material was a fragment of atherosclerotic plaque with typical cholesterol clefts and foamy macrophages (b). His post-transcatheter aortic valve replacement course was uneventful with no signs of bowel ischemia. Pathology showed the retrieved material was a fragment of atherosclerotic plaque with typical cholesterol clefts and foamy macrophages (<xref rid=\"gr5\" ref-type=\"fig\">Figure 5</xref>a and b).a and b).Figure 1Preprocedural computed tomography showing protruding plaques into the descending aortic lumen.Figure 2Aortography after Sapien 3 implantation.Figure 3Transesophageal echocardiography (TEE) showing a guidewire (arrow) with the protruding plaque (arrowhead) before (a) and after (b) device advancement.Figure 4Superior mesenteric artery angiography showing embolic partial obstruction of the mid portion before the aspiration procedure (a) and restoration of blood flow to ileocolic territory after the procedure (b). Arrow heads indicate partially improved blood flow to iliocolic territory.Figure 5Pathology of the aspirate showing cholesterol clefts (green arrows), foamy macrophages (blue arrows), and calcification (yellow arrow) in low (a) and high (b) magnifications.",
+  "relevant_image_context": "An 83-year-old male was scheduled for transcatheter aortic valve replacement for severe aortic valve stenosis. Although preprocedural computed tomography demonstrated atherosclerotic plaques protruding into the descending aortic lumen (Figure 1), we concluded a transfemoral approach was feasible."
+}

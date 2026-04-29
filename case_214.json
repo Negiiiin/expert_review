@@ -1,0 +1,32 @@
+{
+  "case_id": 214,
+  "images": {
+    "subfig": "case_214_subfig.jpg",
+    "full": "case_214_full.jpg"
+  },
+  "question": "A patient with transfusion-dependent chronic anemia who is not a surgical candidate has been managed with regular hypertransfusion and iron chelation for iron overload. The clinical team is considering additional pharmacologic therapy given the current imaging. Based on the imaging, which of the following agents is most appropriate?",
+  "question_scope": "subfigure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Hydroxyurea",
+    "B": "Iron chelator (deferasirox)",
+    "C": "Erythropoietin-stimulating agent",
+    "D": "High-dose systemic corticosteroid",
+    "E": "Androgen therapy (oxymetholone)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image. I see two distinct soft-tissue masses: one posterior/paraspinal soft-tissue mass (red arrow) and another rounded soft-tissue lesion in the upper abdomen/near the adrenal/hepatic region (yellow arrow). These are focal soft-tissue masses visible on the scan.\n\nNext, I relate these imaging findings to the clinical stem: the patient has transfusion-dependent chronic anemia and is not a surgical candidate. In that clinical context, such paraspinal and abdominal soft-tissue masses are most consistent with extramedullary hematopoietic masses arising from chronic marrow stress. Because surgery is not an option, the team is appropriately considering systemic pharmacologic options to reduce these masses.\n\nThen I consider how each answer lines up with the imaging and clinical situation. Hydroxyurea (option A) is an agent used to suppress extramedullary hematopoiesis and can reduce the size of EMH masses, making it a targeted non‑surgical therapy for the lesions seen. Iron chelation (option B, deferasirox) is already being used for iron overload per the stem, so it does not address the need to reduce EMH masses. Erythropoietin‑stimulating agents (option C) and androgen therapy (option E) are systemic stimulators of erythropoiesis and are less appropriate choices for treating established extramedullary masses in a transfusion‑dependent patient. High‑dose systemic corticosteroid (option D) is not a standard targeted therapy for focal extramedullary hematopoietic masses visible on imaging.\n\nIn summary, the CT shows extramedullary hematopoietic masses in a patient unsuitable for surgery; the most appropriate additional pharmacologic therapy to directly reduce these masses is hydroxyurea.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT scan of the abdomen in 2020 showing size reduction of the right adrenal mass 9.8 x 8.8 x 13.2 cm (yellow arrow) and paraspinal mass (red arrow).",
+  "sub_caption": "CT scan of the abdomen in 2020 showing size reduction of the right adrenal mass 9.8 x 8.8 x 13.2 cm (yellow arrow) and paraspinal mass (red arrow).",
+  "image_context": "A multidisciplinary discussion was held between endocrinologists and haematologists and they concluded that the patient was not suitable for operation owing to high bleeding risk. Subsequently, she was given hypertransfusion, with the aim of achieving a level more than 12 g/dL. Furthermore, this patient was started on iron chelating agent due to iron overload. Hydroxyurea was commenced as part of the treatment for extramedullary haematopoiesis. Computed tomography scan of the abdomen was repeated in year 2020 and showed size reduction of the right adrenal mass and paraspinal mass (<xref ref-type=\"fig\" rid=\"JAFES-36-1-080-g004\">Figure 4</xref>).).",
+  "relevant_image_context": "A multidisciplinary discussion was held between endocrinologists and haematologists and they concluded that the patient was not suitable for operation owing to high bleeding risk. Subsequently, she was given hypertransfusion, with the aim of achieving a level more than 12 g/dL. Furthermore, this patient was started on iron chelating agent due to iron overload. Hydroxyurea was commenced as part of the treatment for extramedullary haematopoiesis. Computed tomography scan of the abdomen was repeated in year 2020 and showed size reduction of the right adrenal mass and paraspinal mass. Figure 4. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

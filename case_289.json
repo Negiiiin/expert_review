@@ -1,0 +1,31 @@
+{
+  "case_id": 289,
+  "images": {
+    "subfig": "case_289_subfig.jpg",
+    "full": "case_289_full.jpg"
+  },
+  "question": "Which region of the displayed image best localizes the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper left of image",
+    "B": "Upper right of image",
+    "C": "Lower left of image",
+    "D": "Lower right of image"
+  },
+  "ground_truth_answer": "D",
+  "ground_truth_reasoning": "First, I examine the image for consistent landmarks: the tongue occupies the central field, a series of lower molars and premolars lie along the right side of the image, and a metal cheek retractor exposes the buccal vestibule. These features establish the oral orientation within the photograph.\n\nNext, I inspect for the abnormality to be localized. There is a focal area of erythematous, slightly swollen gingiva immediately adjacent to the posterior lower molars on the right side of the image. The discoloration and gingival inflammation are concentrated in that region rather than toward the midline or the upper portions of the photo.\n\nThen, I relate those observations to the answer choices, which reference image quadrants. The visible pathology is clearly situated in the lower portion of the image and on its right-hand side. The other quadrant choices (upper left, upper right, lower left) do not correspond to where the inflamed buccal gingiva and adjacent posterior teeth are seen.\n\nTherefore, based on the position of the inflamed gingiva adjacent to the posterior teeth in the lower right quadrant of the photograph, the finding is best localized to the lower right of the image.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Intraoral photography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "intraoral imaging"
+  ],
+  "caption": "Intraoral view",
+  "sub_caption": "Intraoral view",
+  "image_context": "A systemically healthy, 55-year-old countryside female reported to the emergency department complaining about pain and swelling for 5 months with a history of dull aching, poorly localized, progressively intensifying pain of the lower left back region of the jaw radiating to the left preauricular, and temporal region. At the time of presentation, a single, large, tender, and diffuse swelling measuring 4 cm × 2 cm was noted along the left half of the mandible with intact overlying skin. Intra-oral examination revealed moderate gingival inflammation with a periodontal pocket of 4 mm in the left mandibular second molar without any history of pus discharge. An expansion of the buccal cortical plate over the molar region was noted [<xref ref-type=\"fig\" rid=\"AMS-10-525-g001\">Figure 1</xref>]. The patient reported no former history of trauma, surgery, or infection at the same local site. Orthopantomograph and cone-beam computed tomography demonstrated multiple ill-defined radiolucencies from the symphyseal region extending posteriorly involving the condyle. The lower border of the mandible appeared intact with no root resorption or displacement of the tooth [Figure ]. The patient reported no former history of trauma, surgery, or infection at the same local site. Orthopantomograph and cone-beam computed tomography demonstrated multiple ill-defined radiolucencies from the symphyseal region extending posteriorly involving the condyle. The lower border of the mandible appeared intact with no root resorption or displacement of the tooth [Figure <xref ref-type=\"fig\" rid=\"AMS-10-525-g002\">2a</xref> and  and <xref ref-type=\"fig\" rid=\"AMS-10-525-g002\">b</xref>]. The differential diagnosis included malignancy, osteosarcoma, chronic relapsing multifocal osteomyelitis, and granulomatous diseases.]. The differential diagnosis included malignancy, osteosarcoma, chronic relapsing multifocal osteomyelitis, and granulomatous diseases.",
+  "relevant_image_context": "Intraoral examination revealed moderate gingival inflammation with a periodontal pocket of 4 mm in the left mandibular second molar without any history of pus discharge. An expansion of the buccal cortical plate over the molar region was noted."
+}

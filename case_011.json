@@ -1,0 +1,31 @@
+{
+  "case_id": 11,
+  "images": {
+    "subfig": "case_011_subfig.jpg",
+    "full": "case_011_full.jpg"
+  },
+  "question": "A patient with a history of right hemihepatectomy received broad-spectrum antibiotics and intravenous fluids. The imaging shown has been obtained. Which of the following is the most appropriate next-step management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Urgent endoscopic biliary decompression (ERCP)",
+    "B": "Percutaneous transhepatic biliary drainage (PTBD)",
+    "C": "Continue IV antibiotics and observation",
+    "D": "Elective MRCP and outpatient follow-up"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image. The right hepatic parenchyma is largely absent and replaced by a postoperative fluid-containing space consistent with prior right hemihepatectomy. The remaining left hepatic lobe shows branching, low-attenuation tubular structures centrally that are conspicuous compared with normal liver—these are most consistent with dilated left intrahepatic bile ducts.\n\nNext, I relate these imaging findings to the clinical stem. The patient has already received broad-spectrum antibiotics and IV fluids, yet the CT demonstrates persistent biliary dilation of the left-sided ductal system. Given that the left ductal system is now the main draining system after right hemihepatectomy, persistent dilation implies ongoing obstruction or impaired drainage that has not been corrected by supportive care alone.\n\nThen, I consider the management options in light of the image. Observation or delayed outpatient imaging would leave a clearly dilated biliary system untreated. Percutaneous transhepatic biliary drainage is an external drainage route that is usually chosen when endoscopic access is not feasible. Endoscopic retrograde cholangiopancreatography (ERCP) provides internal biliary decompression and is appropriate when the dilated ducts can be accessed via the ampulla. The CT shows central left intrahepatic ductal dilatation that likely communicates with the extrahepatic biliary tree, suggesting endoscopic access is feasible.\n\nFinally, tying these points together: the image documents ongoing left-sided intrahepatic biliary dilatation after right hepatectomy despite antibiotics/fluids, so urgent biliary decompression is indicated, and endoscopic decompression (ERCP) is the most appropriate next-step management.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Computerised tomography scan image in Patient 2 showing previous right hemihepatectomy and dilated left intrahepatic ducts.",
+  "sub_caption": "Computerised tomography scan image in Patient 2 showing previous right hemihepatectomy and dilated left intrahepatic ducts.",
+  "image_context": "Patient 2 received broad-spectrum antibiotics and intravenous fluid resuscitation, then CT scanning showed dilated left intrahepatic ducts Figure <xref ref-type=\"fig\" rid=\"WJGE-11-298-g003\">3</xref>. USS-guided PTC in Patient 2 showed multiple calculi in the dilated left intrahepatic ducts Figure . USS-guided PTC in Patient 2 showed multiple calculi in the dilated left intrahepatic ducts Figure <xref ref-type=\"fig\" rid=\"WJGE-11-298-g004\">4</xref> and a hepaticojejunostomy stricture. and a hepaticojejunostomy stricture.",
+  "relevant_image_context": "Patient 2 received broad-spectrum antibiotics and intravenous fluid resuscitation, then CT scanning showed dilated left intrahepatic ducts Figure 3."
+}

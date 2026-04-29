@@ -1,0 +1,32 @@
+{
+  "case_id": 194,
+  "images": {
+    "subfig": "case_194_subfig.jpg",
+    "full": "case_194_full.jpg"
+  },
+  "question": "Which region of the displayed image best localizes the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Lower posterior (posterior-inferior)",
+    "B": "Upper posterior (posterior-superior)",
+    "C": "Lower anterior (anterior-inferior)",
+    "D": "Upper anterior (anterior-superior)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for orientation and anatomy: this is a midline sagittal brain MRI. The face and frontal lobes are on the left of the image (anterior) and the occiput and posterior fossa are on the right; the cerebellum sits in the posterior-inferior compartment beneath the occipital lobes.\n\nNext, I relate what I see to the question, which asks which region best localizes the finding. There is a focal area of abnormal appearance located within the cerebellum low in the posterior fossa, immediately posterior to the brainstem and inferior relative to the cerebrum.\n\nThen, I consider how each option lines up with those observations. The description \"lower posterior (posterior-inferior)\" corresponds to a lesion located in the inferior part of the cerebellum in the back of the skull, which matches the visible location. The other choices (upper posterior, lower anterior, upper anterior) would place the finding higher in the cerebellum or toward the front (nearer the brainstem/frontal direction), which does not match the image.\n\nTherefore, the best localization of the finding on this sagittal image is the lower posterior (posterior-inferior) region.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "MRI image of CS7. A Axial T1 weighted-image, B, C axial T2 weighted-images, and D, E axial FLAIR weighted-images showing isointensity of periventricular white matter on T1, and hyperintensity on T2. FLAIR is suggestive of hypomyelinating leukodystrophy (red arrows). F Sagittal T2 weighted-image showing cerebellar atrophy (yellow arrow)",
+  "sub_caption": "F Sagittal T2 weighted-image showing cerebellar atrophy (yellow arrow)",
+  "image_context": "We first screened the eight patients with Sanger sequencing of ERCC8 exon 7 (NM_000082.3), which revealed that six (CS2, both CS6, CS7, CS11, and CS16) out of eight CS patients were homozygous carriers for the variant c. 598_600delinsAA; p.(Tyr200Lysfs*12). This variant that introduces a stop codon and therefore a truncated protein has been previously described in several unrelated CS patients from North Africa [14, 15] (and unpublished data). We confirmed parental segregation of the mutation in all cases (Fig. <xref rid=\"13023_2022_2257_Fig3_HTML\" ref-type=\"fig\">3</xref>). Conversely, this recurrent variant was absent in the affected siblings of the CS1 family.). Conversely, this recurrent variant was absent in the affected siblings of the CS1 family.Fig. 3MRI image of CS7. A Axial T1 weighted-image, B, C axial T2 weighted-images, and D, E axial FLAIR weighted-images showing isointensity of periventricular white matter on T1, and hyperintensity on T2. FLAIR is suggestive of hypomyelinating leukodystrophy (red arrows). F Sagittal T2 weighted-image showing cerebellar atrophy (yellow arrow) In one patient of the CS1A family, screening of 17 genes involved in NER pathway using targeted gene sequencing revealed a homozygous transversion in ERCC8 at the position of the locus reference genomic (LRG)_466t1: c.843 + 1G > C (Fig. <xref rid=\"13023_2022_2257_Fig3_HTML\" ref-type=\"fig\">3</xref>). This variant represents a transversion from a guanine to a cytosine at the donor splice site of intron 9, and has been previously reported in a LebaneseCS patient [). This variant represents a transversion from a guanine to a cytosine at the donor splice site of intron 9, and has been previously reported in a LebaneseCS patient [16]. Sanger sequencing confirmed that this mutation was homozygous in the two affected siblings in the CS1 family, and heterozygous in their parents, as expected.",
+  "relevant_image_context": "F Sagittal T2 weighted-image showing cerebellar atrophy (yellow arrow)"
+}

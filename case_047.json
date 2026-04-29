@@ -1,0 +1,29 @@
+{
+  "case_id": 47,
+  "images": {
+    "subfig": "case_047_subfig.jpg",
+    "full": "case_047_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for visible findings. I see a lower leg from knee to ankle with dozens of small, pinpoint red-to-purple macules scattered across the anterior and lateral shin. There are also a few slightly larger, darker patches that appear like small ecchymoses mixed in with the pinpoint lesions.\n\nNext, I relate what I see to the question, which asks whether these findings are normal or abnormal. Normal skin would not show a diffuse distribution of numerous pinpoint red macules and scattered bruising over this extent of the lower leg.\n\nThen, I consider the two answer choices in light of the observed features. The presence of widespread petechial-like spots and focal ecchymoses is a clear deviation from normal-appearing skin. Therefore, the image findings align with the \"Abnormal\" option.\n\nIn summary, based on the visible diffuse pinpoint hemorrhagic-appearing lesions and scattered bruises on the lower leg, the correct choice is that the findings are abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "dermatology",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "skin lesion"
+  ],
+  "caption": "Petechial rash on bilateral lower extremities",
+  "sub_caption": "Petechial rash on bilateral lower extremities",
+  "image_context": "On examination, the patient had a diffuse petechial rash most notably on bilateral lower legs but also present on bilateral arms, chest, forehead, and hard palate (Figure <xref rid=\"CCR3-9-e04689-g002\" ref-type=\"fig\">1</xref>). There were small hemorrhagic vesicles located on the patient's fingers and on the lateral aspect of her tongue. Additionally, fresh ecchymoses on the patient's anterior legs were noted on the patient's integument examination. The patient's vital signs and remainder of her physical examination were unremarkable. Of note, there was no evidence of splenomegaly.). There were small hemorrhagic vesicles located on the patient's fingers and on the lateral aspect of her tongue. Additionally, fresh ecchymoses on the patient's anterior legs were noted on the patient's integument examination. The patient's vital signs and remainder of her physical examination were unremarkable. Of note, there was no evidence of splenomegaly.",
+  "relevant_image_context": "On examination, the patient had a diffuse petechial rash most notably on bilateral lower legs. Fresh ecchymoses on the anterior legs were noted."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 93,
+  "images": {
+    "subfig": "case_093_subfig.jpg",
+    "full": "case_093_full.jpg"
+  },
+  "question": "Based on this image, which description best fits the lesion?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Central stellate scar with delayed peripheral enhancement",
+    "B": "Angiomyolipoma with macroscopic fat",
+    "C": "Simple unilocular renal cyst",
+    "D": "Multilocular cystic renal neoplasm",
+    "E": "Solid hypervascular tumor without central scar"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the coronal abdominal image to characterize the renal lesion. I see a large, predominantly solid mass replacing most of the right kidney. Within the mass there is a central, stellate low‑signal area (a star-shaped central scar) surrounded by higher‑signal peripheral tumor tissue.\n\nNext, I relate those visible features to the question, which asks which description best fits the lesion. The lesion is not a simple, homogeneous fluid-filled cyst because it contains solid-appearing enhancing tissue and a central scar rather than uniform fluid signal. I do not see multiple discrete cystic locules or internal septations that would indicate a multilocular cystic neoplasm. I also do not see areas of macroscopic fat within the mass (no focal fat signal), so an angiomyolipoma with macroscopic fat is not supported. Finally, the mass is solid but clearly contains a central stellate scar, so it is not a solid tumor lacking a central scar.\n\nThen I consider the option wording: option A describes a central stellate scar with peripheral enhancement, which matches the image findings of a central low‑signal scar and more avid peripheral/outer enhancement. Therefore the visible features are best described by option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Chromophobe renal cell carcinoma. (A) Single-shot T2-weighted scan of a chromophobe renal cell carcinoma (chRCC). Note how the mass is well circumscribed with homogenous, low-intensity signal. (B) T1-weighted post-gadolinium enhanced fat-suppressed three-dimensional gradient-echo (T1WI FS 3D GRE), delayed phase image. Note the characteristic “spoke-wheel” enhancement pattern (arrowheads). (C) T1WI FS 3D GRE, delayed phase image demonstrating central scarring of the tumor (small arrowhead) and capsular enhancement (large arrowhead). Patient underwent nephrectomy; diagnosis of chRCC was confirmed on surgical pathology.",
+  "sub_caption": "(C) T1WI FS 3D GRE, delayed phase image demonstrating central scarring of the tumor (small arrowhead) and capsular enhancement (large arrowhead). Patient underwent nephrectomy; diagnosis of chRCC was confirmed on surgical pathology.",
+  "image_context": "Given the similarities between chRCC and oncocytoma, differentiation in MR imaging is challenging. ChRCCs are generally peripherally located, well circumscribed, homogenous, and lacking in perinephric fat or renal vein invasion [9]. Cystic changes and necrosis are uncommon even in large chRCCs [48]. Although chRCCs tend to have low to intermediate T2-weighted signal intensity, this finding can vary significantly [30]. Gadolinium administration will result in intermediate, delayed enhancement of chRCCs, less than ccRCCs but greater than pRCCs [1,30]. Additional enhancement patterns include a central, stellate scar (30–40% of cases) and “spoke wheel” enhancement, although these features may also be present in oncocytomas (<xref rid=\"cancers-15-02799-g006\" ref-type=\"fig\">Figure 6</xref>) [) [38].",
+  "relevant_image_context": "MR imaging features of chromophobe RCC (chRCC) include central stellate scar patterns and delayed enhancement after gadolinium. ChRCCs are generally peripherally located, well circumscribed, and may show central, stellate scar in a subset of cases. Gadolinium administration yields intermediate, delayed enhancement for chRCCs (less than ccRCCs but greater than pRCCs). Additional enhancement patterns include a central, stellate scar (30–40% of cases) and “spoke wheel” enhancement, though these features may also be seen in oncocytomas."
+}

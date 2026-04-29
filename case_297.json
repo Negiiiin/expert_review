@@ -1,0 +1,31 @@
+{
+  "case_id": 297,
+  "images": {
+    "subfig": "case_297_subfig.jpg",
+    "full": "case_297_full.jpg"
+  },
+  "question": "Based on this image, what is the severity grade of the pulmonary involvement?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild",
+    "B": "Moderate",
+    "C": "Severe",
+    "D": "Critical"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the axial chest CT image for the pattern and extent of lung abnormality. I note bilateral, predominantly basilar and peripheral patchy air-space opacities and ground-glass change occupying large portions of both lower lungs. These areas are multifocal and confluent rather than being limited to a single small focus.\n\nNext, I relate these imaging findings to the question, which asks for the severity grade of pulmonary involvement. The abnormality is widespread and involves both lungs extensively; this indicates a high degree of pulmonary involvement on imaging.\n\nThen, I consider how the options align with these observations. “Mild” or “moderate” would imply limited or partial involvement of one or few segments, which is inconsistent with the bilateral, multilobar distribution seen here. “Critical” would imply near-complete lung involvement or additional immediate life‑threatening complications apparent on the scan, which are not present. The pattern and large extent of bilateral disease best fit the “severe” category.\n\nTherefore, based on the extensive bilateral multilobar opacities visible on this CT, the pulmonary involvement is most consistent with a severe grade.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "The patient’s thoracic CT scan showing bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion.",
+  "sub_caption": "The patient’s thoracic CT scan showing bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion.",
+  "image_context": "Approximately five months later, the patient developed a cough and fever, leading to hospitalization on August 8th (day 0). An abdominal CT scan revealed mild dilatation of the renal pelvis and hydronephrosis. Meanwhile, a thoracic CT scan showed bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). Blood samples were collected for laboratory examination during the hospitalization, and significant indicators during the treatment are displayed in ). Blood samples were collected for laboratory examination during the hospitalization, and significant indicators during the treatment are displayed in Table 1.Fig. 1The patient’s thoracic CT scan showing bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion.Fig. 1Table 1Part of the blood indicators during the treatment.Table 1DAY1DAY4DAY5DAY9DAY14Reference Range1,3-β-D-glucan(pg/ml)246.15399.71426.45/154.310.00-60.00CRP(mg/L)66.9432.3371.9684.36255.230.00-8.00PCT（ng/ml）1.870.51.760.845.230.00-0.50Creatinine（μmol/L）382394638858057.00-97.00",
+  "relevant_image_context": "Approximately five months later, the patient developed a cough and fever, leading to hospitalization on August 8th (day 0). Meanwhile, a thoracic CT scan showed bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion (Fig. 1). The patient’s thoracic CT scan showing bilateral diffuse pulmonary infiltrates, slight pleural effusion, and pericardial effusion."
+}

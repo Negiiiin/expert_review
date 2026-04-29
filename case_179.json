@@ -1,0 +1,32 @@
+{
+  "case_id": 179,
+  "images": {
+    "subfig": "case_179_subfig.jpg",
+    "full": "case_179_full.jpg"
+  },
+  "question": "Several months after surgical repair of an abdominal wall lesion, a patient presents with new abdominal pain. CT imaging was obtained and demonstrates an abnormality near the repair site. Which postoperative complication best explains the imaging and clinical findings?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Postoperative seroma",
+    "B": "Incisional hernia",
+    "C": "Recurrent tumor at repair site",
+    "D": "Wound infection with abscess",
+    "E": "Postsurgical hematoma"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the axial CT image for key findings. I see a well-defined soft-tissue density mass located at the level of the anterior abdominal wall that projects inward into the peritoneal cavity. The lesion is contiguous with the abdominal wall at the site of the prior repair and abuts/displaces adjacent bowel loops; there is no obvious fascial discontinuity with bowel protruding through a defect, no central low-density fluid collection, no internal gas, and no marked acute blood density.\n\nNext, I relate these observations to the clinical question, which asks which postoperative complication best explains a new abdominal mass/pain near a recent repair.\n\nThen I consider how each option aligns with the imaging:\n- Postoperative seroma (A) would appear as a low-attenuation fluid collection rather than a soft-tissue density mass.\n- Incisional hernia (B) would show a defect in the abdominal wall with protrusion of fat or bowel through that defect; the image instead shows a solid-appearing mass contiguous with the wall rather than bowel protruding through a fascial gap.\n- Recurrent tumor at repair site (C) is consistent with a soft-tissue mass arising from the repair site and extending into the abdomen, displacing bowel.\n- Wound infection with abscess (D) usually appears as a rim-enhancing fluid collection with central low attenuation and may show gas; those features are not seen here.\n- Postsurgical hematoma (E) would typically present as a fluid or mixed-density collection whose appearance evolves over time, not a homogeneous soft-tissue mass months after surgery.\n\nFinally, tying the imaging findings and the clinical scenario together: a solid soft-tissue mass contiguous with the repaired abdominal wall and extending into the peritoneal cavity is most consistent with a recurrent tumor at the repair site.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT scan shows intra-abdominal extension of the desmoid tumor, which is adherent to the abdominal bowel.",
+  "sub_caption": "CT scan shows intra-abdominal extension of the desmoid tumor, which is adherent to the abdominal bowel.",
+  "image_context": "However, at 1 year after abdominoplasty, the patient presented with vague complains; she had a feeling of heaviness and discomfort in her abdomen. An abdominal examination was un-remarkable. A CT scan was performed, which showed a large abdominal mass (8×9×4 cm) arising from the abdominal wall and extending intra-abdominally (<xref ref-type=\"fig\" rid=\"amjcaserep-20-953-g001\">Figure 1</xref>). A second surgery was planned in collaboration with a general surgery team. The previous abdominoplasty scar was re-incised to give a better aesthetic outcome. A solid mass was found arising from the repaired abdominal wall, with an intra-abdominal extension that was adherent to the small bowel but easily dissectible from the tumor (). A second surgery was planned in collaboration with a general surgery team. The previous abdominoplasty scar was re-incised to give a better aesthetic outcome. A solid mass was found arising from the repaired abdominal wall, with an intra-abdominal extension that was adherent to the small bowel but easily dissectible from the tumor (<xref ref-type=\"fig\" rid=\"amjcaserep-20-953-g002\">Figures 2</xref>, , <xref ref-type=\"fig\" rid=\"amjcaserep-20-953-g003\">3</xref>).).",
+  "relevant_image_context": "A CT scan was performed, which showed a large abdominal mass arising from the abdominal wall and extending intra-abdominally. A solid mass was found arising from the repaired abdominal wall, with an intra-abdominal extension that was adherent to the small bowel but easily dissectible from the tumor."
+}

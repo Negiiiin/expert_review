@@ -1,0 +1,31 @@
+{
+  "case_id": 344,
+  "images": {
+    "subfig": "case_344_subfig.jpg",
+    "full": "case_344_full.jpg"
+  },
+  "question": "Based on this image, which side of the fetal thorax contains the cardiac apex?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Left hemithorax",
+    "B": "Right hemithorax",
+    "C": "Midline",
+    "D": "Unable to determine"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the ultrasound image for orientation and labeled structures. I see labeled arrows for the cardiac apex, aorta, spine, and stomach. The cardiac apex arrow points to the cardiac silhouette located toward the right side of the fetal thorax in the image, while the stomach arrow points to a structure on the opposite (left) side.\n\nNext, I relate these observations to the question, which asks which side of the fetal thorax contains the cardiac apex. The image shows the apex clearly displaced to one hemithorax rather than midline.\n\nThen, I compare that observation to the answer choices. The apex is not midline, and it is visually located on the right side of the thorax, so “Right hemithorax” matches the image. There is no ambiguity in the labeling or in the relative positions of the stomach and spine that would force an “Unable to determine” answer.\n\nTherefore, based on the visible labeled position of the cardiac apex on the right side of the fetal thorax, the correct choice is the right hemithorax.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Four-chamber view shows stomach on the left side and cardiac apex on the right side. Both stomach shadow and cardiac chambers are visible in the four chamber view",
+  "sub_caption": "Four-chamber view shows stomach on the left side and cardiac apex on the right side. Both stomach shadow and cardiac chambers are visible in the four chamber view.",
+  "image_context": "In the four-chamber view, a hypoechoic structure was seen in the left fetal thoracic cavity, and the heart was visible in the right thoracic cavity in the transverse view [<xref ref-type=\"fig\" rid=\"APC-13-167-g002\">Figure 2</xref>]. The total lung area measured in four-chamber view was within normal limits for gestational age. There was no mediastinal shift, and the diaphragm had a normal appearance, thus excluding the possibility of a congenital diaphragmatic hernia. Fetal abdominal examination showed isolated complete herniation of the stomach and gastroesophageal junction (GEJ) []. The total lung area measured in four-chamber view was within normal limits for gestational age. There was no mediastinal shift, and the diaphragm had a normal appearance, thus excluding the possibility of a congenital diaphragmatic hernia. Fetal abdominal examination showed isolated complete herniation of the stomach and gastroesophageal junction (GEJ) [<xref ref-type=\"fig\" rid=\"APC-13-167-g005\">Figure 5</xref>]. Thus, the possibility of a sliding hiatus hernia was considered. An open neural tube defect in the occipital region suggestive of occipital meningomyelocele with kyphosis was noted []. Thus, the possibility of a sliding hiatus hernia was considered. An open neural tube defect in the occipital region suggestive of occipital meningomyelocele with kyphosis was noted [<xref ref-type=\"fig\" rid=\"APC-13-167-g006\">Figure 6</xref>]. Complexity of the CHD and the extracardiac abnormalities were explained to the parents, and they opted for medical termination of pregnancy. Fetal autopsy was not performed because the parents refused for the same.]. Complexity of the CHD and the extracardiac abnormalities were explained to the parents, and they opted for medical termination of pregnancy. Fetal autopsy was not performed because the parents refused for the same.",
+  "relevant_image_context": "In the four-chamber view, a hypoechoic structure was seen in the left fetal thoracic cavity, and the heart was visible in the right thoracic cavity in the transverse view [Figure 2]. The total lung area measured in the four-chamber view was within normal limits for gestational age. There was no mediastinal shift, and the diaphragm had a normal appearance, thus excluding the possibility of a congenital diaphragmatic hernia."
+}

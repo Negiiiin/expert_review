@@ -1,0 +1,31 @@
+{
+  "case_id": 215,
+  "images": {
+    "subfig": "case_215_subfig.jpg",
+    "full": "case_215_full.jpg"
+  },
+  "question": "How many discrete findings are visible on this ultrasound image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the ultrasound image for distinct, separable features. I can see normal anatomic landmarks (a vessel consistent with the jugular vein, another vessel consistent with the carotid artery, and the trachea) as well as procedural/lesion findings: a localized echogenic focus identified as a \"charcoal puddle\" and a separate focal area labeled \"cancer recurrence.\" A needle path is also visible leading to the charcoal puddle.\n\nNext, I relate these observations to the question, which asks for the number of discrete findings visible. To answer this clearly, I separate routine anatomic landmarks (jugular vein, carotid artery, trachea) from discrete findings of clinical interest. The image shows two distinct, non-anatomic findings: the charcoal puddle (procedural marker) and the cancer recurrence (lesion).\n\nThen, I consider the options and choose the one matching that count. Two discrete, clinically relevant findings are visible on the image, so the correct choice is the option for two.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "US performed just before surgery showing localization of the lymph node, its anatomical relationships, the \"puddle\" of charcoal and the path of the injection.",
+  "sub_caption": "US performed just before surgery showing localization of the lymph node, its anatomical relationships, the \"puddle\" of charcoal and the path of the injection.",
+  "image_context": "Immediately before surgery, we performed US examination in the operating theatre to have a better conception of lesion localization (<xref ref-type=\"fig\" rid=\"0392-100X-32-87-g003\">Fig. 3</xref>). Preoperative US was especially helpful in defining the anatomical relationships of metastatic lesions, whereas for identification in a surgical field with diffuse scar tissue the trace of charcoal was also highly useful. Suspected lesions were removed successfully in all patients, even if in 1 case we had to perform a second reoperation to localize the metastasis.). Preoperative US was especially helpful in defining the anatomical relationships of metastatic lesions, whereas for identification in a surgical field with diffuse scar tissue the trace of charcoal was also highly useful. Suspected lesions were removed successfully in all patients, even if in 1 case we had to perform a second reoperation to localize the metastasis.",
+  "relevant_image_context": "Immediately before surgery, we performed US examination in the operating theatre to have a better conception of lesion localization (Fig. 3). Preoperative US was especially helpful in defining the anatomical relationships of metastatic lesions, whereas for identification in a surgical field with diffuse scar tissue the trace of charcoal was also highly useful. Suspected lesions were removed successfully in all patients, even if in 1 case we had to perform a second reoperation to localize the metastasis.). Preoperative US was especially helpful in defining the anatomical relationships of metastatic lesions, whereas for identification in a surgical field with diffuse scar tissue the trace of charcoal was also highly useful. Suspected lesions were removed successfully in all patients, even if in 1 case we had to perform a second reoperation to localize the metastasis. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

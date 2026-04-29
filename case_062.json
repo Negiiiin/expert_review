@@ -1,0 +1,33 @@
+{
+  "case_id": 62,
+  "images": {
+    "subfig": "case_062_subfig.jpg",
+    "full": "case_062_full.jpg"
+  },
+  "question": "A patient with recurrent vulvar ulceration underwent evaluation; local ultrasonography and MRI did not show colonic connections. A repeat skin biopsy was performed and the corresponding histology is shown. Which of the following is the most appropriate initial systemic pharmacologic therapy to induce remission?",
+  "question_scope": "subfigure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Oral systemic corticosteroids",
+    "B": "Sulfasalazine",
+    "C": "Colchicine",
+    "D": "Azathioprine",
+    "E": "Topical corticosteroids"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided histology image. The section shows well-formed aggregates of epithelioid histiocytes and multinucleated giant cells within the dermis, with an accompanying chronic inflammatory infiltrate of lymphocytes and plasma cells — features consistent with granulomatous inflammation.\n\nNext, I relate those findings to the clinical stem. The patient has recurrent vulvar ulceration and imaging specifically did not show any colonic connections, so the presentation is of a primary granulomatous vulvar lesion (i.e., cutaneous granulomatous disease of the vulva) rather than a fistulous extension from bowel.\n\nThen I consider the question, which asks for the most appropriate initial systemic pharmacologic therapy to induce remission, and I compare the nature of the lesion (granulomatous, inflamed, symptomatic) with the listed options. Among the options, oral systemic corticosteroids are the systemic therapy most suited for rapid suppression of active granulomatous inflammation and for induction of remission. Topical corticosteroids are local rather than systemic and therefore less appropriate for inducing systemic remission of a recurrent, biopsy-proven granulomatous vulvar process. Azathioprine is an immunomodulatory agent typically used as a slower-onset maintenance therapy rather than the immediate induction choice. Sulfasalazine and colchicine are less directly matched to acute systemic induction in this granulomatous vulvar context.\n\nTherefore, given the biopsy-proven granulomatous inflammation in the vulva and the need for initial systemic induction of remission, oral systemic corticosteroids are the most appropriate initial systemic pharmacologic therapy.",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "histology",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "Histopathological examination showing granulomatous inflammation with multinucleated giant cells of foreign body type",
+  "sub_caption": "Histopathological examination showing granulomatous inflammation with multinucleated giant cells of foreign body type",
+  "image_context": "Local ultrasonography and magnetic resonance imaging did not reveal any colonic connections. A repeat skin biopsy from the vulvar ulcers showed granulomatous inflammation with multinucleated giant cells, histiocytes, lymphocytes, and plasma cells [<xref rid=\"IJSTD-45-54-g006\" ref-type=\"fig\">Figure 6</xref>]. Based on this clinical and investigational profile, we reached the final diagnosis of cutaneous CD. She was treated with monthly methylprednisolone pulse along with oral prednisolone, sulfasalazine, and colchicine, with adequate remission and residual window-like defect in labia minora, []. Based on this clinical and investigational profile, we reached the final diagnosis of cutaneous CD. She was treated with monthly methylprednisolone pulse along with oral prednisolone, sulfasalazine, and colchicine, with adequate remission and residual window-like defect in labia minora, [<xref rid=\"IJSTD-45-54-g007\" ref-type=\"fig\">Figure 7a</xref> and  and <xref rid=\"IJSTD-45-54-g007\" ref-type=\"fig\">b</xref>] however, with relapsed episodes.] however, with relapsed episodes.",
+  "relevant_image_context": "Local ultrasonography and magnetic resonance imaging did not reveal any colonic connections. A repeat skin biopsy from the vulvar ulcers showed granulomatous inflammation with multinucleated giant cells, histiocytes, lymphocytes, and plasma cells [Figure 6]. Based on this clinical and investigational profile, we reached the final diagnosis of cutaneous CD. She was treated with monthly methylprednisolone pulse along with oral prednisolone, sulfasalazine, and colchicine, with adequate remission and residual window-like defect in labia minora."
+}

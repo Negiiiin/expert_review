@@ -1,0 +1,31 @@
+{
+  "case_id": 63,
+  "images": {
+    "subfig": "case_063_subfig.jpg",
+    "full": "case_063_full.jpg"
+  },
+  "question": "Based on this image, how many distinct vascular structures are visible?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the axial contrast-enhanced CT image through the upper thorax and focus on the central mediastinum where vascular structures are expected. I look for distinct contrast-filled luminal structures separated by visible walls or intervening soft tissue.\n\nNext, I identify three separate, rounded contrast-filled vascular lumens encircling the tracheal air column: one located anterior/left of midline, one posterior/inferior, and one on the right lateral aspect. Each of these lumens has its own contrast-filled boundary and is clearly separate from the others, so they appear as three distinct vascular structures rather than branches of a single contiguous lumen.\n\nThen, I relate this observation to the question asking how many distinct vascular structures are visible. Comparing the options (one, two, three, four), the image most closely matches the “three” option because I can count three separate contrast-filled vessels and I do not see a fourth separate lumen.\n\nTherefore, based on the visible anatomy in the image, there are three distinct vascular structures present.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT angiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Oblique-axial MIP view of angiographic-CT-scan, showing evidence of a vascular ring surrounding the middle tract of the trachea and esophagus (white arrowhead), determined by the right aortic arch (white arrow nº1), the aortic diverticulum (white arrow nº2) and the residual left arch (white arrow nº3).",
+  "sub_caption": "Oblique-axial MIP view of angiographic-CT-scan, showing evidence of a vascular ring surrounding the middle tract of the trachea and esophagus (white arrowhead), determined by the right aortic arch (white arrow nº1), the aortic diverticulum (white arrow nº2) and the residual left arch (white arrow nº3).",
+  "image_context": "The esophagus appeared compressed due to the presence of a vascular ring formed by the right-posterior aortic arch, the dilatation of the descending aorta, and the distal portion of the left arch, in the absence of significant tracheal stenosis (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>).).Fig. 1Oblique-axial MIP view of angiographic-CT-scan, showing evidence of a vascular ring surrounding the middle tract of the trachea and esophagus (white arrowhead), determined by the right aortic arch (white arrow nº1), the aortic diverticulum (white arrow nº2) and the residual left arch (white arrow nº3).Fig 1",
+  "relevant_image_context": "The esophagus appeared compressed due to the presence of a vascular ring formed by the right-posterior aortic arch, the dilatation of the descending aorta, and the distal portion of the left arch, in the absence of significant tracheal stenosis. Fig. 1 Oblique-axial MIP view of angiographic-CT-scan, showing evidence of a vascular ring surrounding the middle tract of the trachea and esophagus (white arrowhead), determined by the right aortic arch (white arrow nº1), the aortic diverticulum (white arrow nº2) and the residual left arch (white arrow nº3). Fig 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

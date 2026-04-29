@@ -1,0 +1,29 @@
+{
+  "case_id": 123,
+  "images": {
+    "subfig": "case_123_subfig.jpg",
+    "full": "case_123_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "full_figure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the provided color Doppler ultrasound image and note the labeled structures: LPV1 (a left portal vein branch), LHV (left hepatic vein), LPVs (smaller left portal branches), AO (aorta), and SP (spleen). The color Doppler overlay shows red and blue flow within the LPV1 and LHV regions, and there is an arrow pointing to a focal area where color signals from the portal branch and the hepatic vein appear to meet.\n\nNext, I relate these visual findings to the question, which asks whether the image is normal or abnormal. A depiction of continuous or directly communicating color flow between a portal vein branch (LPV1) and the left hepatic vein (LHV) is visible at the arrowed site, with mixed color signals suggesting a direct vascular connection rather than two separate, noncommunicating vessels.\n\nThen, I consider how the two answer choices align with those observations. The \"Normal\" option would imply no direct communication between portal and hepatic venous channels on Doppler imaging; the \"Abnormal\" option aligns with the clear focal connection of flow seen at the arrow. Because the image demonstrates a focal connection of color flow between LPV1 and LHV, this represents an abnormal vascular finding.\n\nTherefore, based on the visible direct communication of color flow between the portal branch and hepatic vein, the findings are abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "A representative sonogram of case 8. A transverse scan shows a shunt (arrow) between the LPVi and LHV. LHV was enlarged and triphasic waveforms were detected at the shunt site (inserted at the right-upper corner). AO = aorta, LHV = the left hepatic vein, LPVi = inferior branch of the left portal vein, LPVs = superior branch of the left portal vein, SP = spine.",
+  "sub_caption": "A representative sonogram of case 8. A transverse scan shows a shunt (arrow) between the LPVi and LHV. LHV was enlarged and triphasic waveforms were detected at the shunt site (inserted at the right-upper corner). AO = aorta, LHV = the left hepatic vein, LPVi = inferior branch of the left portal vein, LPVs = superior branch of the left portal vein, SP = spine.",
+  "image_context": "A shunt between the inferior branch of the left portal vein and the left hepatic vein was detected in Case 8 (Fig. <xref ref-type=\"fig\" rid=\"medi-98-e14125-g004\">3</xref>). Additionally, turbulent blood flow and an enlarged left hepatic vein were detected at the shunt site (Fig. ). Additionally, turbulent blood flow and an enlarged left hepatic vein were detected at the shunt site (Fig. <xref ref-type=\"fig\" rid=\"medi-98-e14125-g004\">3</xref>). The baby was born full term with hypoglycemia that disappeared 1 month after birth. Case 9 had multiple left/middle hepatic/portal vein shunts (Fig. ). The baby was born full term with hypoglycemia that disappeared 1 month after birth. Case 9 had multiple left/middle hepatic/portal vein shunts (Fig. <xref ref-type=\"fig\" rid=\"medi-98-e14125-g005\">4</xref>) with a karyotype of 46, XY, inv (9) (p12q13); the baby was born full term with jaundice and abnormal liver function. The baby was hospitalized for 1 month and recovered. Typical triphasic waveforms were detected at the shunt site of the left portal vein of cases 8 and 9 (Figs. ) with a karyotype of 46, XY, inv (9) (p12q13); the baby was born full term with jaundice and abnormal liver function. The baby was hospitalized for 1 month and recovered. Typical triphasic waveforms were detected at the shunt site of the left portal vein of cases 8 and 9 (Figs. <xref ref-type=\"fig\" rid=\"medi-98-e14125-g004\">3</xref> and  and <xref ref-type=\"fig\" rid=\"medi-98-e14125-g005\">4</xref>, inserted, respectively). Case 10 had a shunt between the inferior branch of the left portal vein and middle hepatic vein, the baby was born full term and surgery was performed 12-days post birth to repair the shunt. Intrauterine growth restriction was observed in all cases of Type IIIa UPSVS. The portal-hepatic venous shunt in cases 8 and 9 was not closed at the 6-month follow-up as shown by sonography examination. The 3-month follow-up of case 10 showed that the infant was healthy., inserted, respectively). Case 10 had a shunt between the inferior branch of the left portal vein and middle hepatic vein, the baby was born full term and surgery was performed 12-days post birth to repair the shunt. Intrauterine growth restriction was observed in all cases of Type IIIa UPSVS. The portal-hepatic venous shunt in cases 8 and 9 was not closed at the 6-month follow-up as shown by sonography examination. The 3-month follow-up of case 10 showed that the infant was healthy.",
+  "relevant_image_context": "A shunt between the inferior branch of the left portal vein and the left hepatic vein was detected in Case 8 (Fig. 3). Additionally, turbulent blood flow and an enlarged left hepatic vein were detected at the shunt site. Typical triphasic waveforms were detected at the shunt site of the left portal vein of cases 8 and 9. The portal-hepatic venous shunt in cases 8 and 9 was not closed at the 6-month follow-up as shown by sonography examination."
+}

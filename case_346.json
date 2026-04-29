@@ -1,0 +1,31 @@
+{
+  "case_id": 346,
+  "images": {
+    "subfig": "case_346_subfig.jpg",
+    "full": "case_346_full.jpg"
+  },
+  "question": "Which region of the displayed image best localizes the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper anterior of image",
+    "B": "Upper posterior of image",
+    "C": "Lower anterior of image",
+    "D": "Lower posterior of image"
+  },
+  "ground_truth_answer": "D",
+  "ground_truth_reasoning": "First, I examine the provided sagittal brain image for the location of the abnormality. I see a small, roughly circular abnormality with a brighter rim located in the lower portion of the intracranial image, situated toward the back of the head near the dorsal aspect of the brainstem/cerebellar region.\n\nNext, I relate these observations to the question, which asks whether the finding is in the upper vs lower and anterior vs posterior part of the image. On a sagittal view, anterior corresponds to the forehead/frontal lobes (front of the image) and posterior corresponds to the occipital/cerebellar region (back of the image). The lesion is clearly inferior (in the lower half) and dorsal/posterior (closer to the back of the head) rather than anterior.\n\nThen, I map that location to the answer choices: “lower posterior” matches an abnormality that is both in the lower (inferior) part of the image and toward the posterior margin. The appearance and position on the sagittal slice are consistent with that quadrant.\n\nTherefore, the best localization of the finding on this image is the lower posterior region.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Cryptococcomas caused by Cryptococcus gattii. Gadolinium contrastenhanced sagittal T1-weighted MRI sequence showing a hypointense lesion with peripheral ring enhancement in the bulb (arrow), with signs of edema in the surrounding tissues.",
+  "sub_caption": "Gadolinium contrast-enhanced sagittal T1-weighted MRI sequence showing a hypointense lesion with peripheral ring enhancement in the bulb (arrow), with signs of edema in the surrounding tissues.",
+  "image_context": "In cases of cryptococcal meningitis, invasion of the adjacent brain parenchyma may give rise to cryptococcomas, which are chronic granulomas composed of lymphocytes, macrophages, and giant cells(2). Cryptococcomas have been reported to demonstrate intermediate to low signal intensity on T1-weighted images and high signal intensity on T2-weighted images, with peripheral contrast enhancement (<xref ref-type=\"fig\" rid=\"rb-54-03-0198-g03\">Figure 3</xref>) in some cases) in some cases(2,5). Most cryptococcomas are found in the basal ganglia or diffusely in the brain parenchyma(2). In immunocompromised patients, these lesions rarely demonstrate enhancement after the administration of intravenous contrast(2,3).",
+  "relevant_image_context": "In cases of cryptococcal meningitis, invasion of the adjacent brain parenchyma may give rise to cryptococcomas, which are chronic granulomas composed of lymphocytes, macrophages, and giant cells(2). Cryptococcomas have been reported to demonstrate intermediate to low signal intensity on T1-weighted images and high signal intensity on T2-weighted images, with peripheral contrast enhancement (Figure 3) in some cases(2,5). Most cryptococcomas are found in the basal ganglia or diffusely in the brain parenchyma(2). In immunocompromised patients, these lesions rarely demonstrate enhancement after the administration of intravenous contrast(2,3)."
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": 221,
+  "images": {
+    "subfig": "case_221_subfig.jpg",
+    "full": "case_221_full.jpg"
+  },
+  "question": "Based on this image, what is the severity of the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild",
+    "B": "Moderate",
+    "C": "Severe",
+    "D": "Indeterminate"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for visible tissue characteristics. The exposed flap is uniformly dark maroon to almost black in color, with a glossy, blood‑filled appearance and loss of the normal pink hue expected in well-perfused tissue. The surface looks swollen and congested rather than pale or only mildly discolored.\n\nNext, I relate those observations to the question, which asks about the severity of the finding. Mild or moderate changes would usually show only slight pallor, patchy discoloration, or limited areas of concern. In contrast, the image demonstrates extensive, diffuse discoloration and overt venous congestion across the entire flap, without areas that appear normally perfused.\n\nThen I consider how the visual evidence aligns with the available answer choices. The marked, widespread dark congestion is most consistent with a severe finding rather than mild or moderate. There is enough clear visual abnormality to rule out “indeterminate.”\n\nTherefore, based on the extensive, diffuse dark discoloration and congestion visible in the image, the severity is best classified as severe.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "surgical photography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "specimen"
+  ],
+  "caption": "Intraoperative findings revealed severe flap congestion with extensive venous thrombi.",
+  "sub_caption": "Intraoperative findings revealed severe flap congestion with extensive venous thrombi.",
+  "image_context": "Intraoperative findings included kinking and narrowing of thoracodorsal vessels due to LD flap positioning and extensive venous thrombi within the flap, but no thrombi in pedicle vessels (Fig. <xref ref-type=\"fig\" rid=\"gox-8-e3299-g002\">2</xref>). After correcting the kinked pedicles by repositioning the flap, we administered a thrombolytic agent. One serratus anterior branch of the thoracodorsal artery was identified and cut off, and thoracodorsal vessels were clamped just cephalad to the bifurcation. Before clamping, we confirmed that there were no other identifiable thoracodorsal vessel branches caudally from the clamp, such as other serratus anterior branches, teres major branches, or subscapularis branches. Urokinase (60,000 IU) was injected through the serratus anterior branch of the thoracodorsal artery, followed by irrigation with heparinized saline and evacuation of the thrombolytic agent and thrombi from the serratus anterior branch of the thoracodorsal vein (Fig. ). After correcting the kinked pedicles by repositioning the flap, we administered a thrombolytic agent. One serratus anterior branch of the thoracodorsal artery was identified and cut off, and thoracodorsal vessels were clamped just cephalad to the bifurcation. Before clamping, we confirmed that there were no other identifiable thoracodorsal vessel branches caudally from the clamp, such as other serratus anterior branches, teres major branches, or subscapularis branches. Urokinase (60,000 IU) was injected through the serratus anterior branch of the thoracodorsal artery, followed by irrigation with heparinized saline and evacuation of the thrombolytic agent and thrombi from the serratus anterior branch of the thoracodorsal vein (Fig. <xref ref-type=\"fig\" rid=\"gox-8-e3299-g003\">3</xref>). The main pedicle was released from the clamp, allowing blood flow into the muscle flap and leading to a significant improvement of flap color (Fig. ). The main pedicle was released from the clamp, allowing blood flow into the muscle flap and leading to a significant improvement of flap color (Fig. <xref ref-type=\"fig\" rid=\"gox-8-e3299-g004\">4</xref>).).",
+  "relevant_image_context": "Intraoperative findings included kinking and narrowing of thoracodorsal vessels due to LD flap positioning and extensive venous thrombi within the flap, but no thrombi in pedicle vessels (Fig. 2)."
+}

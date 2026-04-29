@@ -1,0 +1,31 @@
+{
+  "case_id": 324,
+  "images": {
+    "subfig": "case_324_subfig.jpg",
+    "full": "case_324_full.jpg"
+  },
+  "question": "A competitive athlete who performs repetitive forceful plantar-flexion activities presents with several weeks of activity-related ankle complaints. An MRI was obtained (image provided) to evaluate the problem. Which symptom or clinical sign would be most likely, based on the imaging?",
+  "question_scope": "subfigure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Posterior ankle pain aggravated by plantar flexion",
+    "B": "Lateral ankle instability with recurrent giving way",
+    "C": "Anterior ankle pain worsened by dorsiflexion",
+    "D": "Paresthesia over the plantar toes"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the MRI image in the sagittal plane looking at the posterior ankle region. I see a separate ossicle immediately posterior to the talar posterior process (an os trigonum or accessory posterior talar fragment) with surrounding increased signal intensity within the ossicle and adjacent talar bone/soft tissues, consistent with local bone marrow/fluid signal and inflammation.\n\nNext, I relate those findings to the clinical stem: the athlete performs repetitive forceful plantar-flexion and has activity-related ankle complaints for several weeks. A posterior ossicle with marrow/soft-tissue edema would be mechanically compressed between the calcaneus and posterior talus during plantar flexion, producing focal posterior impingement and pain that is worse with plantar flexion.\n\nThen I compare this scenario to the answer choices. Option A (posterior ankle pain aggravated by plantar flexion) directly matches the anatomic location and expected symptom from an inflamed posterior ossicle. Option B (lateral instability) would require abnormalities of the lateral ligament complex, which are not seen here. Option C (anterior ankle pain with dorsiflexion) implicates anterior structures, not the posterior ossicle imaged. Option D (plantar toe paresthesia) would imply nerve entrapment in the tarsal tunnel or similar, which is not suggested by the posterior ossicle and surrounding marrow edema.\n\nIn summary, the image shows a posterior accessory ossicle with edema consistent with posterior impingement, which would most likely cause posterior ankle pain worsened by plantar flexion.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "a Sagittal T2 MRI image depicting inflammatory signs and bony oedema over the os trigonum complex (white arrow). b Axial T2 MRI image depicting inflammatory signs and bony oedema over the os trigonum (red arrow) in an athlete with a combined chronic injury to the lateral ligament complex (white arrow)",
+  "sub_caption": "a Sagittal T2 MRI image depicting inflammatory signs and bony oedema over the os trigonum complex (white arrow).",
+  "image_context": "An MRI study in athletes with os trigonum syndrome (sagittal T1-weighted and fat-suppressed T2-weighted images) observed abnormal signal intensity in the lateral talar tubercle and/or os trigonum, consistent with bone marrow edema [11]. Considering the mechanisms of injury, this abnormal signal intensity could be the result of bone impaction which represents micro-trabecular fractures, edema, and/or hemorrhage of the bone marrow without disruption of the cortex. Most ankle sprains occur in plantar flexion and inversion [10, 20]. When considering the repetitive dynamic movements involved in agility sports, this ankle position in those athletes with a deficient lateral ligament might explain why the os trigonum undergoes increased mechanical overload, becoming painful compared to incidental findings of os trigonum. This is supported with MRI findings of bone marrow edema over the os trigonum after hyper plantar flexion injury of the ankle (Fig. <xref rid=\"167_2018_5183_Fig2_HTML\" ref-type=\"fig\">2</xref>a, b).a, b).",
+  "relevant_image_context": "An MRI study in athletes with os trigonum syndrome (sagittal T1-weighted and fat-suppressed T2-weighted images) observed abnormal signal intensity in the lateral talar tubercle and/or os trigonum, consistent with bone marrow edema [11]. Considering the mechanisms of injury, this abnormal signal intensity could be the result of bone impaction which represents micro-trabecular fractures, edema, and/or hemorrhage of the bone marrow without disruption of the cortex. Most ankle sprains occur in plantar flexion and inversion [10, 20]. When considering the repetitive dynamic movements involved in agility sports, this ankle position in those athletes with a deficient lateral ligament might explain why the os trigonum undergoes increased mechanical overload, becoming painful compared to incidental findings of os trigonum. This is supported with MRI findings of bone marrow edema over the os trigonum after hyper plantar flexion injury of the ankle (Fig. 2a, b).a, b). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

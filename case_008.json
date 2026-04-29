@@ -1,0 +1,32 @@
+{
+  "case_id": 8,
+  "images": {
+    "subfig": "case_008_subfig.jpg",
+    "full": "case_008_full.jpg"
+  },
+  "question": "A 73-year-old woman with a prior right pneumonectomy followed by stereotactic radiotherapy to a right hilar recurrence presents 7 months after radiotherapy with a hydropneumothorax in the postpneumonectomy space on chest radiograph. Bronchoscopy demonstrates a well-healed bronchial stump. Based on this presentation and the displayed imaging, which complication most likely explains the findings?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Esophageal perforation with esophagopleural fistula",
+    "B": "Bronchopleural fistula from bronchial stump breakdown",
+    "C": "Postoperative empyema (infected pleural space)",
+    "D": "Recurrent tumor invading the pleura",
+    "E": "Pulmonary embolism with infarction"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial chest CT image. The right hemithorax (postpneumonectomy space) contains both air and a dependent fluid level consistent with a hydropneumothorax. Along the medial/dependent pleural collection there is a region of high-attenuation material that is not within a vascular structure — consistent with contrast material within the pleural space.\n\nNext, I relate these imaging findings to the clinical question, which notes a hydropneumothorax 7 months after radiotherapy and a bronchoscopic exam showing a well-healed bronchial stump. The presence of high-attenuation material within the pleural fluid implies extravasation of contrast from the alimentary tract into the pleural cavity, indicating a communication between the esophagus and the postpneumonectomy space.\n\nThen, I consider how each option fits the observations. Option A (esophageal perforation with esophagopleural fistula) directly explains contrast seen in the pleural space. Option B (bronchopleural fistula) is unlikely given the documented healed bronchial stump and would not explain oral contrast in the pleural fluid. Options C (empyema), D (recurrent tumor), and E (pulmonary embolism with infarction) do not account for contrast extravasation into the pleural cavity.\n\nTherefore, the imaging appearance of contrast within the postpneumonectomy pleural space combined with a healed bronchial stump most strongly supports an esophageal perforation forming an esophagopleural fistula.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT scan of the chest showing extravasation of oral contrast into the right pleural space, due to an esophageal perforation",
+  "sub_caption": "CT scan of the chest showing extravasation of oral contrast into the right pleural space, due to an esophageal perforation",
+  "image_context": "A 73-year old female with medical history of hypertension underwent a right lower lobectomy for a T1N0M0 Stage 1A adenocarcinoma of the lung. After 4 years, the patient developed a new primary in the right upper lobe. A completion pneumonectomy and four cycles of adjuvant chemotherapy with cisplatin and paclitaxel were given for this T2N2M0 stage 3 adenocarcinoma of the right upper lobe. The patient did well for 2 years, after which she developed a regional recurrence near the right main stem bronchus stump. The patient was given SBRT to the recurrence site with a Cyber knife Stereotactic Radiosurgery System (Accuracy, Sunnyvale, CA), with a prescription dose of 50 Gy in five fractions given every other day. Seven months after SBRT, the patient presented with a hydropneumothorax in the postpneumonectomy space on routine surveillance chest x-ray. Bronchoscopy showed a well-healed bronchial stump. The CT scan of the chest showed oral contrast extravasation into the right pneumonectomy space [<xref ref-type=\"fig\" rid=\"LI-31-158-g002\">Figure 2</xref>]. An upper esophagogastroscopy confirmed two esophageal perforations at 22 and 37 centimeters from the incisors. Both were treated with a Wall flex fully covered esophageal stents (Boston Scientific, Natick, MA), and the right chest was drained with a tube thoracotomy. The patient did well, with retrieval of the stent at 5 weeks post placement.]. An upper esophagogastroscopy confirmed two esophageal perforations at 22 and 37 centimeters from the incisors. Both were treated with a Wall flex fully covered esophageal stents (Boston Scientific, Natick, MA), and the right chest was drained with a tube thoracotomy. The patient did well, with retrieval of the stent at 5 weeks post placement.",
+  "relevant_image_context": "A 73-year old female with medical history of hypertension underwent a right lower lobectomy for a T1N0M0 Stage 1A adenocarcinoma of the lung. After 4 years, the patient developed a new primary in the right upper lobe. A completion pneumonectomy and four cycles of adjuvant chemotherapy with cisplatin and paclitaxel were given for this T2N2M0 stage 3 adenocarcinoma of the right upper lobe. The patient did well for 2 years, after which she developed a regional recurrence near the right main stem bronchus stump. The patient was given SBRT to the recurrence site with a Cyber knife Stereotactic Radiosurgery System (Accuracy, Sunnyvale, CA), with a prescription dose of 50 Gy in five fractions given every other day. Seven months after SBRT, the patient presented with a hydropneumothorax in the postpneumonectomy space on routine surveillance chest x-ray. Bronchoscopy showed a well-healed bronchial stump. The CT scan of the chest showed oral contrast extravasation into the right pneumonectomy space [Figure 2]. An upper esophagogastroscopy confirmed two esophageal perforations at 22 and 37 centimeters from the incisors. Both were treated with a Wall flex fully covered esophageal stents (Boston Scientific, Natick, MA), and the right chest was drained with a tube thoracotomy. The patient did well, with retrieval of the stent at 5 weeks post placement."
+}

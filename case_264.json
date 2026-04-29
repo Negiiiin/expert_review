@@ -1,0 +1,32 @@
+{
+  "case_id": 264,
+  "images": {
+    "subfig": "case_264_subfig.jpg",
+    "full": "case_264_full.jpg"
+  },
+  "question": "Based on this image, which description best fits the dominant vascular pattern?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Enlarged foveal avascular zone with perifoveal capillary rarefaction",
+    "B": "Intact perifoveal capillary network",
+    "C": "Type 2 macular neovascularization",
+    "D": "Diffuse macular capillary obliteration",
+    "E": "Focal microaneurysms with telangiectasia"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for the pattern of retinal vessels. There is a central, well-defined dark zone in the macular region that lacks visible capillary detail, surrounded by a ring of sparser, thinner capillaries compared with the more peripheral larger vessels. The perifoveal capillary network immediately around that dark center appears reduced in density (fewer fine capillary loops) rather than densely intact.\n\nNext, I relate these findings to the answer choices. The central dark area corresponds to an enlarged foveal avascular zone (FAZ), and the surrounding reduction in small-caliber capillaries corresponds to perifoveal capillary rarefaction — both described in option A. The image does not show a uniformly preserved, dense perifoveal capillary network (so B is inconsistent). It also lacks a focal tuft or abnormal dense neovascular complex suggestive of type 2 neovascularization (so C is unlikely). The vessel loss is concentrated around the fovea rather than showing complete widespread capillary loss across the macula, so it does not match diffuse macular capillary obliteration (D). Finally, there are no localized punctate dilations or clusters of tiny outpouchings to indicate focal microaneurysms with telangiectasia (E).\n\nTherefore, the observed dominant vascular pattern — a central enlarged avascular zone with surrounding reduction in capillary density — best matches option A.",
+  "modality": "Radiology",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "OCT angiography (OCTA)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "optical coherence tomography"
+  ],
+  "caption": "Observations in patient 2. Right eye: Perifoveal superficial vascular plexus in a 3 × 3 mm fovea-centered OCTA image with inferior interruption of the capillary network (upper right). Hyperreflective retinal abnormalities (ie, microvascular protrusions; red circles) within enlarged foveal avascular zone in the pDVP en face OCTA and B-scan images (lower band of images). Note the vascular retinal abnormality at the boundary between pSVP and pDVP on the upper B-scan image (red circle). Copyright © 2016 Karger Publishers, Basel, Switzerland. Adapted with permission from Stanga PE, Papayannis A, Tsamis E, et al. Swept-source optical coherence tomography angiography of paediatric macular diseases. Dev Ophthalmol. 2016;56:166–173.25Abbreviations: OCTA, optical coherence tomography angiography; pDVP, perifoveal deep vascular plexus; pSVP, perifoveal superficial vascular plexus.",
+  "sub_caption": "Right eye: Perifoveal superficial vascular plexus in a 3 × 3 mm fovea-centered OCTA image with inferior interruption of the capillary network (upper right). Hyperreflective retinal abnormalities (ie, microvascular protrusions; red circles) within enlarged foveal avascular zone in the pDVP en face OCTA and B-scan images (lower band of images). Note the vascular retinal abnormality at the boundary between pSVP and pDVP on the upper B-scan image (red circle).",
+  "image_context": "This patient presented with the RS1 gene mutation c.590 G>A (p.R197H) (Exon 6). Imaging analysis of the data acquired from the left eye was unsuccessful because of retinal detachment involving the fovea. In the right eye, BCVA was 6/12, and fundoscopy examination showed stellate spoke-like maculopathy with perimacular exudation. Inferior peripheral retinoschisis with bridging vessels between retinal leaflets was also present. Structural OCT B-scans showed high retinal disruption and foveal schistic cysts localized in the GCL, INL (bigger in the INL) and ONL. Right eye’s CRT was 340 µm. OCTA images were acquired with Atlantis. There were no microvascular changes in the pSVP. Vessels with abnormal protrusion and course were identified in pDVP. A single vascular abnormality has been observed at the boundary between the pSVP and pDVP. The FAZ shape was abnormal in both plexuses (<xref ref-type=\"fig\" rid=\"imcrj-10-329Fig2\">Figure 2</xref>).).",
+  "relevant_image_context": "This patient presented with the RS1 gene mutation c.590 G>A (p.R197H) (Exon 6). Imaging analysis of the data acquired from the left eye was unsuccessful because of retinal detachment involving the fovea. In the right eye, BCVA was 6/12, and fundoscopy examination showed stellate spoke-like maculopathy with perimacular exudation. Inferior peripheral retinoschisis with bridging vessels between retinal leaflets was also present. Structural OCT B-scans showed high retinal disruption and foveal schistic cysts localized in the GCL, INL (bigger in the INL) and ONL. Right eye’s CRT was 340 µm. OCTA images were acquired with Atlantis. There were no microvascular changes in the pSVP. Vessels with abnormal protrusion and course were identified in pDVP. A single vascular abnormality has been observed at the boundary between the pSVP and pDVP. The FAZ shape was abnormal in both plexuses (Figure 2.).)."
+}

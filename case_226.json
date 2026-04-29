@@ -1,0 +1,31 @@
+{
+  "case_id": 226,
+  "images": {
+    "subfig": "case_226_subfig.jpg",
+    "full": "case_226_full.jpg"
+  },
+  "question": "Based on this image, which of the following best describes the dominant imaging finding?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Inflamed appendix containing a fecalith",
+    "B": "Perforated sigmoid diverticulitis",
+    "C": "Ileal Crohn disease with phlegmon",
+    "D": "Ovarian torsion with hemorrhagic cyst"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image for anatomic structures and abnormalities. I see a tubular, blind-ending structure in the lower abdomen/pelvis with a thickened wall and surrounding fat stranding, indicating local inflammation. Within the lumen of that tubular structure there is a small, round, hyperdense focus consistent with an intraluminal calcified/opaque concretion.\n\nNext, I relate these observations to the question, which asks for the dominant imaging finding. The combination of a thick-walled, inflamed tubular structure plus an intraluminal hyperdense focus is most consistent with an inflamed appendix containing a fecalith.\n\nThen I consider the other answer choices against what is visible on this image. There are no clear findings of perforated sigmoid diverticulitis on this slice (no focal sigmoid wall defect, extraluminal air, or the typical focal sigmoid wall thickening/adjacent abscess in the region shown). There is no obvious segmental ileal wall thickening or inflammatory mass to suggest ileal Crohn disease with phlegmon. The adnexal structures/ovaries are not seen here as having an enlarged, hemorrhagic cyst or torsion-related changes on this slice.\n\nFinally, tying these image findings to the options, the visually dominant abnormality is an inflamed appendix with an intraluminal fecalith, which corresponds to option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial CT-scan section showing a swollen appendix with a 17 mm fecalith (yellow arrow) and suspicion of contact between the tip of the appendix and the sigmoid colon (red circle).",
+  "sub_caption": "Axial CT-scan section showing a swollen appendix with a 17 mm fecalith (yellow arrow) and suspicion of contact between the tip of the appendix and the sigmoid colon (red circle).",
+  "image_context": "The CT scan confirmed acute appendicitis complicated by localized peritonitis and a probable appendiculo-sigmoid fistula. The internal lateral cecal appendix was swollen to 2 cm with a 17 mm stercolith, and the appendiceal tip was in contact with the sigmoid (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). No scannographic signs of Crohn's disease were observed. A midline subumbilical laparotomy was performed. Exploration revealed a phlegmonous internal lateral cecal appendix, swollen to 4 cm, with a phlegmonous base dilated to about 2 cm. The appendiceal tip adhered to the last ileal loop and the sigmoid (). No scannographic signs of Crohn's disease were observed. A midline subumbilical laparotomy was performed. Exploration revealed a phlegmonous internal lateral cecal appendix, swollen to 4 cm, with a phlegmonous base dilated to about 2 cm. The appendiceal tip adhered to the last ileal loop and the sigmoid (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>). Careful dissection identified a fistula between the appendix and the sigmoid measuring 4 mm (). Careful dissection identified a fistula between the appendix and the sigmoid measuring 4 mm (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>). Exploration of the small intestine also found an uncomplicated Meckel's diverticulum 60 cm from the ileocecal valve (). Exploration of the small intestine also found an uncomplicated Meckel's diverticulum 60 cm from the ileocecal valve (<xref rid=\"gr4\" ref-type=\"fig\">Fig. 4</xref>).).Fig. 1Axial CT-scan section showing a swollen appendix with a 17 mm fecalith (yellow arrow) and suspicion of contact between the tip of the appendix and the sigmoid colon (red circle).Fig. 1Fig. 2Fibrous capsule of the abscess (green circle) formed by the appendix (blue arrow), the last ileal loop (pink arrow), and the sigmoid (yellow arrow). The white arrow indicates the appendiceal base.Fig. 2Fig. 3The yellow arrow shows the sigmoid fistula allowing the introduction of the jaws of the dissecting forceps.Fig. 3Fig. 4Meckel's diverticulum.Fig. 4",
+  "relevant_image_context": "The CT scan confirmed acute appendicitis complicated by localized peritonitis and a probable appendiculo-sigmoid fistula. The internal lateral cecal appendix was swollen to 2 cm with a 17 mm stercolith, and the appendiceal tip was in contact with the sigmoid (Fig. 1). No scannographic signs of Crohn's disease were observed. A midline subumbilical laparotomy was performed."
+}

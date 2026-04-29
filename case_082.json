@@ -1,0 +1,31 @@
+{
+  "case_id": 82,
+  "images": {
+    "subfig": "case_082_subfig.jpg",
+    "full": "case_082_full.jpg"
+  },
+  "question": "How many pigment epithelial detachments are visible on this OCT image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the OCT cross-sectional image to identify the retinal pigment epithelium (RPE) contour and any focal elevations of that hyperreflective RPE band. The question asks for the number of pigment epithelial detachments (PEDs), which appear as dome-shaped elevations of the RPE with a relatively hyporeflective space beneath the elevated RPE.\n\nNext, I scan the entire B-scan from left to right for separate dome-shaped RPE elevations. I see a single, centrally located dome-shaped elevation of the RPE with a clear hyporeflective space beneath it, consistent with one PED. The surrounding RPE elsewhere remains relatively flat without additional separate dome-like detachments.\n\nThen, I confirm there are no other distinct, separate elevations elsewhere on the scan—only the one central dome. Therefore, based on the visible RPE contour and the single clear dome-shaped detachment, the image shows one PED.\n\nThis supports the choice of one pigment epithelial detachment.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "OCT (optical coherence tomography)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "optical coherence tomography"
+  ],
+  "caption": "Dome-shaped PED.Abbreviations: PED, pigment epithelial detachment; N, nasal; T, temporal.",
+  "sub_caption": "Dome-shaped PED. Abbreviations: PED, pigment epithelial detachment; N, nasal; T, temporal.",
+  "image_context": "The analyzed OCT characteristics included the central macular thickness (CMT), the presence of dome-shaped pigment epithelial detachment (PED), the presence of an obvious RPE discontinuity, and the presence of subretinal or intraretinal fluid. The dome-shaped PED was defined as a domed space formed between the RPE and Bruch’s membrane filled with mixed hyperreflective and hyporeflective materials. RPE discontinuity was defined as a hyporeflective gap in the hyperreflective line corresponding to the RPE in OCT. <xref ref-type=\"fig\" rid=\"opth-10-1117Fig1\">Figure 1</xref> shows the presence of a dome-shaped PED, and  shows the presence of a dome-shaped PED, and <xref ref-type=\"fig\" rid=\"opth-10-1117Fig2\">Figure 2</xref> shows the presence of RPE discontinuity and subretinal fluid.  shows the presence of RPE discontinuity and subretinal fluid. <xref ref-type=\"fig\" rid=\"opth-10-1117Fig3\">Figure 3</xref> shows the presence of intraretinal fluid. A single grader assessed all the macula scans for the presence of the characteristics mentioned above. A reproducibility study was conducted before the beginning of the study, and it did not show significant variability in the grading outcomes. More specifically, ten randomly selected OCT scans from the AMD patients were graded twice (2 weeks apart) by the grader of the study, and the results were compared. The results showed high accordance for the grading. shows the presence of intraretinal fluid. A single grader assessed all the macula scans for the presence of the characteristics mentioned above. A reproducibility study was conducted before the beginning of the study, and it did not show significant variability in the grading outcomes. More specifically, ten randomly selected OCT scans from the AMD patients were graded twice (2 weeks apart) by the grader of the study, and the results were compared. The results showed high accordance for the grading.",
+  "relevant_image_context": "The analyzed OCT characteristics included the central macular thickness (CMT), the presence of dome-shaped PED, the presence of an obvious RPE discontinuity, and the presence of subretinal or intraretinal fluid. The dome-shaped PED was defined as a domed space formed between the RPE and Bruch’s membrane filled with mixed hyperreflective and hyporeflective materials. RPE discontinuity was defined as a hyporeflective gap in the hyperreflective line corresponding to the RPE in OCT. Figure 1 shows the presence of a dome-shaped PED. A single grader assessed all the macula scans for the presence of the characteristics mentioned above. A reproducibility study was conducted before the beginning of the study, and it did not show significant variability in the grading outcomes. More specifically, ten randomly selected OCT scans from the AMD patients were graded twice (2 weeks apart) by the grader of the study, and the results were compared. The results showed high accordance for the grading."
+}

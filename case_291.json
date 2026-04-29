@@ -1,0 +1,31 @@
+{
+  "case_id": 291,
+  "images": {
+    "subfig": "case_291_subfig.jpg",
+    "full": "case_291_full.jpg"
+  },
+  "question": "How many distinct foci are present on this image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the provided axial cross-sectional image and locate the yellow arrow. The arrow points to a single, well-defined area of low signal intensity within the joint region (an irregular dark focus) that is distinct from surrounding tissues.\n\nNext, I survey the remainder of the image for any additional separate low-signal foci. I note surrounding higher-signal fluid in the joint recesses, but I do not see any other discrete dark foci elsewhere in the field of view that match the appearance of the marked lesion.\n\nThen, I relate these observations to the question, which asks how many distinct foci are present. The image shows one clearly demarcated low-signal focus (the one indicated by the arrow) and no other similar, separate foci.\n\nTherefore, the visual findings support a single distinct focus on this image.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial T2-weighted fast spin echo (FSE) MR image demonstrates a focus of irregular low signal intensity (arrow) anterior to the coronoid fossa, representing an intra-articular body. This is made more conspicuous by the small joint effusion surrounding the loose body. [Powerpoint Slide]",
+  "sub_caption": "Axial T2-weighted fast spin echo (FSE) MR image demonstrates a focus of irregular low signal intensity (arrow) anterior to the coronoid fossa, representing an intra-articular body. This is made more conspicuous by the small joint effusion surrounding the loose body.",
+  "image_context": "MR image of the elbow was then ordered to validate and characterize location, consistency and mobility of the loose body and provide more diagnostic information before referral to the orthopedic varsity team consultant. Axial and coronal T2-weighted Fast Spin Echo images demonstrated an irregular low signal intensity anterior to the coronoid fossa and surrounded by fluid (<xref rid=\"gr2a\" ref-type=\"fig\">Figure 2A</xref>, , <xref rid=\"gr2b\" ref-type=\"fig\">Figure 2B</xref>).).",
+  "relevant_image_context": "MR image of the elbow was ordered to validate and characterize location, consistency and mobility of the loose body and provide more diagnostic information before referral to the orthopedic varsity team consultant. Axial and coronal T2-weighted Fast Spin Echo images demonstrated an irregular low signal intensity anterior to the coronoid fossa and surrounded by fluid, consistent with an intra-articular loose body."
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": 135,
+  "images": {
+    "subfig": "case_135_subfig.jpg",
+    "full": "case_135_full.jpg"
+  },
+  "question": "Based on this image, which mediastinal compartment is most likely involved?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Anterior (prevascular) mediastinum",
+    "B": "Middle (visceral) mediastinum",
+    "C": "Posterior (paravertebral) mediastinum",
+    "D": "Superior (suprasternal) mediastinum"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial chest CT image for the lesion's location relative to visible landmarks. I see a rounded soft-tissue density immediately behind the anterior chest wall/sternum and directly in front of the cardiac silhouette; the mass occupies the space between the sternum and the heart and displaces adjacent aerated lung posteriorly.\n\nNext, I relate these observations to the question, which asks which mediastinal compartment is involved. The key imaging finding is that the abnormality lies anterior to the heart and great vessel region rather than within the central cardiac silhouette or adjacent to the spine.\n\nThen I consider how each option aligns with that position. A lesion anterior to the heart/sternum corresponds to the anterior (prevascular) mediastinum (option A). A middle/visceral process would be centered within or around the heart and great vessels, which is not the case here. A posterior/paravertebral process would abut the vertebral column, posterior to the cardiac silhouette, and a superior/suprasternal lesion would be above the level of the heart; neither matches the current image.\n\nTherefore, based on the mass being located anterior to the heart and immediately posterior to the sternum, the most consistent compartment is the anterior (prevascular) mediastinum.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Thymoma and myasthenia gravis. Contrast-enhanced CT shows right prevascular mediastinal mass (arrow). CT, computed tomography.",
+  "sub_caption": "Contrast-enhanced CT shows right prevascular mediastinal mass (arrow).",
+  "image_context": "Thymoma typically presents as a smooth or lobular mass involving one lobe of the thymus, although bilateral involvement can occur (39). Most thymomas demonstrate homogeneous enhancement, although, approximately one third can be heterogeneous due to areas of hemorrhage, necrosis, cystic change, or calcification (1) (<xref rid=\"med-07-28-f8\" ref-type=\"fig\"><italic>Figures 8,9</italic></xref>Figures 8,9<xref rid=\"med-07-28-f9\" ref-type=\"fig\" />). Imaging characteristics can vary according to WHO histological classification, with vascular invasion and pleural/pericardial involvement more common with more aggressive histology (). Imaging characteristics can vary according to WHO histological classification, with vascular invasion and pleural/pericardial involvement more common with more aggressive histology (<xref rid=\"med-07-28-f2\" ref-type=\"fig\"><italic>Figure 2</italic></xref>). The thymomas with the more aggressive histologies tend to be larger, more lobular or irregular, have cystic or necrotic change, areas of calcification, or evidence of infiltration into surrounding fat (Figure 2). The thymomas with the more aggressive histologies tend to be larger, more lobular or irregular, have cystic or necrotic change, areas of calcification, or evidence of infiltration into surrounding fat (40-42) (<xref rid=\"med-07-28-f10\" ref-type=\"fig\"><italic>Figure 10</italic></xref>).Figure 10).",
+  "relevant_image_context": "Thymoma typically presents as a smooth or lobular mass involving one lobe of the thymus, although bilateral involvement can occur (39). Most thymomas demonstrate homogeneous enhancement, although, approximately one third can be heterogeneous due to areas of hemorrhage, necrosis, cystic change, or calcification (1) (<xref rid=\"med-07-28-f8\" ref-type=\"fig\"><italic>Figures 8,9</italic></xref>Figures 8,9<xref rid=\"med-07-28-f9\" ref-type=\"fig\" />). Imaging characteristics can vary according to WHO histological classification, with vascular invasion and pleural/pericardial involvement more common with more aggressive histology (). Imaging characteristics can vary according to WHO histological classification, with vascular invasion and pleural/pericardial involvement more common with more aggressive histology (<xref rid=\"med-07-28-f2\" ref-type=\"fig\"><italic>Figure 2</italic></xref>). The thymomas with the more aggressive histologies tend to be larger, more lobular or irregular, have cystic or necrotic change, areas of calcification, or evidence of infiltration into surrounding fat (Figure 2). The thymomas with the more aggressive histologies tend to be larger, more lobular or irregular, have cystic or necrotic change, areas of calcification, or evidence of infiltration into surrounding fat (40-42) (<xref rid=\"med-07-28-f10\" ref-type=\"fig\"><italic>Figure 10</italic></xref>).Figure 10). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

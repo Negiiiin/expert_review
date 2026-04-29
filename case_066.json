@@ -1,0 +1,32 @@
+{
+  "case_id": 66,
+  "images": {
+    "subfig": "case_066_subfig.jpg",
+    "full": "case_066_full.jpg"
+  },
+  "question": "Based on the image, are the findings normal or abnormal?",
+  "question_scope": "full_figure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the clinical photographs. One shows the eyelid with a large crusted, ulcerated plaque with surrounding erythema and swelling; this appearance is not consistent with normal intact skin. Another clinical photo shows a small raised skin lesion with central depression, again abnormal for normal skin.\n\nNext, I inspect the microscopic images. Several skin histology fields demonstrate loss/ulceration of the epidermal surface with a dense inflammatory cell infiltrate in the superficial dermis composed predominantly of neutrophils. Another skin section shows marked dermal inflammation with hyperplastic-appearing epidermis overlying a heavy inflammatory infiltrate. These histologic patterns indicate active tissue injury and acute inflammation rather than normal histology.\n\nI also review the intestinal mucosa image: the colonic mucosal biopsy displays increased inflammatory cells in the lamina propria with focal crypt architectural distortion and mucosal injury, features that differ from normal colonic mucosa.\n\nThen I relate these observations to the question, which asks whether the findings are normal or abnormal. The combination of clinical ulceration/crusting, visible tissue destruction, and multiple histologic samples showing dense inflammatory infiltrates and mucosal damage are all pathologic findings.\n\nTherefore, based on the visible clinical and histopathologic abnormalities, the findings are abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "histology",
+  "image_primary_label": [
+    "Clinical Imaging",
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "skin lesion",
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "A– Initial clinical presentation with right eyelid ulceration and necrosis. B – Histopathology of eyelid ulceration (20x) demonstrates collection of neutrophils within the dermis (arrow) and epidermal acanthosis. C– Clinical photograph of the indurated chin lesion. D– Histopathology of chin lesion (20x) reveals dense sheets of neutrophils in the dermis (arrow). E– H&E stain of transverse colon biopsy (20x) shows active colitis with ulceration, neutrophilic infiltration (arrow) and architectural changes. F– Clinical improvement in the eyelid after initiation of steroids.",
+  "sub_caption": "D– Histopathology of chin lesion (20x) reveals dense sheets of neutrophils in the dermis (arrow).",
+  "image_context": "A 63 year old male with a history of recurrent ulcerations and presumed cellulitis on bilateral lower extremities presented to the emergency room with right upper eyelid edema and erythema that progressed rapidly over one week. Despite systemic and topical antibiotics, the eyelid became necrotic (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>A). A new lesion on the chin prompted biopsy of both locations, which demonstrated sheets of neutrophils in the dermis suggestive of pyoderma gangrenosum (A). A new lesion on the chin prompted biopsy of both locations, which demonstrated sheets of neutrophils in the dermis suggestive of pyoderma gangrenosum (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>B,C,D). He underwent systemic workup to evaluate for malignancy, vasculitic processes, and rheumatologic conditions. A positron emission tomography/computed tomography scan revealed colonic thickening which was further investigated with a colonoscopy. The colonoscopy revealed colitis with ulceration and neutrophilic inflammation consistent with Crohn's disease (B,C,D). He underwent systemic workup to evaluate for malignancy, vasculitic processes, and rheumatologic conditions. A positron emission tomography/computed tomography scan revealed colonic thickening which was further investigated with a colonoscopy. The colonoscopy revealed colitis with ulceration and neutrophilic inflammation consistent with Crohn's disease (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>E). Upon treatment with systemic steroids, there was brisk improvement in his eyelid condition (E). Upon treatment with systemic steroids, there was brisk improvement in his eyelid condition (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>F). He has since been transitioned to infliximab, an anti-TNF agent, with good response and continues to do well at 6 months follow up.F). He has since been transitioned to infliximab, an anti-TNF agent, with good response and continues to do well at 6 months follow up.Fig. 1A– Initial clinical presentation with right eyelid ulceration and necrosis. B – Histopathology of eyelid ulceration (20x) demonstrates collection of neutrophils within the dermis (arrow) and epidermal acanthosis. C– Clinical photograph of the indurated chin lesion. D– Histopathology of chin lesion (20x) reveals dense sheets of neutrophils in the dermis (arrow). E– H&E stain of transverse colon biopsy (20x) shows active colitis with ulceration, neutrophilic infiltration (arrow) and architectural changes. F– Clinical improvement in the eyelid after initiation of steroids.Fig. 1",
+  "relevant_image_context": "A new lesion on the chin prompted biopsy of both locations, which demonstrated sheets of neutrophils in the dermis suggestive of pyoderma gangrenosum (B,C,D). D– Histopathology of chin lesion (20x) reveals dense sheets of neutrophils in the dermis (arrow)."
+}

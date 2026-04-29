@@ -1,0 +1,33 @@
+{
+  "case_id": 157,
+  "images": {
+    "subfig": "case_157_subfig.jpg",
+    "full": "case_157_full.jpg"
+  },
+  "question": "A 25-year-old woman with four months of headache is referred for neurosurgical biopsy after neuroimaging did not provide a definitive diagnosis. While awaiting histopathologic confirmation, which pharmacologic agent is most appropriate to start to reduce mass-associated cerebral edema and improve neurologic symptoms?",
+  "question_scope": "subfigure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Dexamethasone (corticosteroid)",
+    "B": "Levetiracetam (prophylactic antiepileptic)",
+    "C": "Intravenous mannitol",
+    "D": "Bevacizumab (anti-VEGF monoclonal antibody)",
+    "E": "Phenytoin (prophylactic antiepileptic)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial brain MRI. I see a lobulated, contrast-enhancing intra-axial mass in the right frontoparietal region with a broad zone of surrounding low-signal consistent with substantial peritumoral edema and a leftward midline shift, indicating mass effect.\n\nNext, I relate these imaging findings to the question, which asks which pharmacologic agent to start now to reduce mass-associated cerebral edema and improve neurologic symptoms while awaiting histopathologic confirmation. The patient has subacute symptoms (4 months of headache) and imaging evidence of tumor-associated edema and mass effect, so an agent that rapidly reduces peritumoral edema and improves symptoms is indicated.\n\nThen I consider how each option lines up with that goal. Option A, dexamethasone (a corticosteroid), is intended to reduce peritumoral edema and thereby relieve mass effect and neurologic symptoms. Options B and E are labeled prophylactic antiepileptics (levetiracetam and phenytoin), which address seizure prevention but do not directly reduce edema. Option C, intravenous mannitol, is an osmotic agent typically used for acute intracranial hypertension or herniation syndromes rather than routine peritumoral edema management while awaiting biopsy. Option D, bevacizumab (an anti-VEGF monoclonal antibody), is not an immediate empiric treatment to start before a confirmed diagnosis and is not the standard first-line measure for rapid symptomatic edema reduction.\n\nFinally, tying the imaging and clinical context to the choice: given the clear peritumoral edema and mass effect on the MRI and the need for symptomatic edema reduction before histologic confirmation, starting dexamethasone is the most appropriate immediate pharmacologic step.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Radiologic examination shows a lobulated intra-axial mass in the right frontoparietal lobe with heterogeneous enhancement and mild peripheral edema. Shift of falx cerebri to the left side is seen",
+  "sub_caption": "Radiologic examination shows a lobulated intra-axial mass in the right frontoparietal lobe with heterogeneous enhancement and mild peripheral edema. Shift of falx cerebri to the left side is seen.",
+  "image_context": "A 25-year-old female referred to the Department of Neurosurgery in Sina Hospital affiliated to TUMS with a four months history of generalized headache. At first, the outpatient examination finding was unremarkable. The patient’s family history and past medical history was also unremarkable. No neurological sign was found. The patient underwent plain radiography, which showed a calcified lesion on the right frontoparietal lobe. The brain MRI (magnetic resonance imaging) with and without contrast showed a lobulated intra-axial mass in the right frontoparietal lobe with heterogeneous enhancement and mild peripheral edema. Shift of falx cerebri to the left side was seen. The radiological diagnosis was low grade glioma or meningioma (<xref ref-type=\"fig\" rid=\"ijp-16-222-g001\">Figure 1</xref>). The diagnosis required histopathologic confirmation. The patient underwent an excisional surgery. She well tolerated the procedure without complications. The received specimen for pathology examination consisted of multiple pieces of tan firm tissue totally measuring 12×8×2.5 cm. Histological examinations revealed portions of mature cartilage with lobular architecture. No atypia or mitotic figures and necrosis were seen (). The diagnosis required histopathologic confirmation. The patient underwent an excisional surgery. She well tolerated the procedure without complications. The received specimen for pathology examination consisted of multiple pieces of tan firm tissue totally measuring 12×8×2.5 cm. Histological examinations revealed portions of mature cartilage with lobular architecture. No atypia or mitotic figures and necrosis were seen (<xref ref-type=\"fig\" rid=\"ijp-16-222-g002\">Figure 2</xref>). Therefore, our case was compatible with chondroma and diagnosis was confirmed. Based on the diagnosis, the patient received no additional treatment. After 6 months of follow-up examinations, no recurrence was observed and the patient is still asymptomatic.). Therefore, our case was compatible with chondroma and diagnosis was confirmed. Based on the diagnosis, the patient received no additional treatment. After 6 months of follow-up examinations, no recurrence was observed and the patient is still asymptomatic.",
+  "relevant_image_context": "A 25-year-old female with four months of generalized headache. The brain MRI with and without contrast showed a lobulated intra-axial mass in the right frontoparietal lobe with heterogeneous enhancement and mild peripheral edema. Shift of falx cerebri to the left side was seen. The radiological diagnosis was low grade glioma or meningioma. The diagnosis required histopathologic confirmation."
+}

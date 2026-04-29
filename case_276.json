@@ -1,0 +1,31 @@
+{
+  "case_id": 276,
+  "images": {
+    "subfig": "case_276_subfig.jpg",
+    "full": "case_276_full.jpg"
+  },
+  "question": "A patient with a known gastrointestinal malignancy undergoes endoscopic ultrasound for locoregional staging. The endoscopic ultrasound image is provided. Based on the image, which prognostic implication is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "High probability of nodal metastasis",
+    "B": "Low probability of nodal involvement",
+    "C": "No change to tumor staging",
+    "D": "Favourable long-term prognosis"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the endoscopic ultrasound image. I locate the structure labeled by the arrow as a lymph node; it appears as a well-defined, round, hypoechoic (darker) focus relative to surrounding tissue with sharp, distinct borders on the EUS image.\n\nNext, I relate these imaging features to the clinical question, which asks about the prognostic implication in a patient with a known gastrointestinal malignancy undergoing locoregional staging. In this clinical context, a lymph node that is round, hypoechoic, and has sharp margins on EUS is more suspicious for malignant involvement than for benign/reactive changes.\n\nThen, I consider how each option aligns with the observed features. The image findings argue against a low probability of nodal involvement (option B) and against no change in staging or a favourable prognosis (options C and D), because suspicious-appearing nodes in a patient with known malignancy raise concern for nodal metastasis. Therefore the most consistent prognostic implication based on the image is a high probability of nodal metastasis.\n\nIn summary, the sonographic appearance of the lymph node (round, hypoechoic, sharply marginated) in the setting of known GI cancer supports option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Endoscopic ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ambiguous"
+  ],
+  "caption": "Endoscopic ultrasound view of a malignant peritumor lymph node. It is hypoechoic, round, and greater than 1 cm in size and has distinct borders.",
+  "sub_caption": "Endoscopic ultrasound view of a malignant peritumor lymph node. It is hypoechoic, round, and greater than 1 cm in size and has distinct borders.",
+  "image_context": "Endosonographic characteristics of lymph nodes that suggest malignant potential include size greater than 1 cm, round shape, sharp and demarcated borders, and hypoechoic echotexture (Figure <xref rid=\"WJGE-14-205-g007\" ref-type=\"fig\">7</xref>). When a lymph node is found to possess all four of these aforementioned features, the accuracy of predicting a malignant lymph node is 80%-100%[). When a lymph node is found to possess all four of these aforementioned features, the accuracy of predicting a malignant lymph node is 80%-100%[14,15]. The location of the lymph node may also be informative in differentiation of benign and malignant. For example, the presence of celiac lymph nodes usually indicates pathology since they are not usually present. In one study, 89% of endosonographically detectable celiac lymph nodes were confirmed to be malignant on FNA[16]. Another predictor of malignant lymph node status includes association with T3-T4 staged lesions[17].",
+  "relevant_image_context": "Endosonographic characteristics of lymph nodes that suggest malignant potential include size greater than 1 cm, round shape, sharp and demarcated borders, and hypoechoic echotexture (Figure 7). When a lymph node is found to possess all four of these aforementioned features, the accuracy of predicting a malignant lymph node is 80%-100%[14,15]. The location of the lymph node may also be informative in differentiation of benign and malignant. For example, the presence of celiac lymph nodes usually indicates pathology since they are not usually present. In one study, 89% of endosonographically detectable celiac lymph nodes were confirmed to be malignant on FNA[16]. Another predictor of malignant lymph node status includes association with T3-T4 staged lesions[17]."
+}

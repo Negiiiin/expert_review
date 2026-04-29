@@ -1,0 +1,32 @@
+{
+  "case_id": 178,
+  "images": {
+    "subfig": "case_178_subfig.jpg",
+    "full": "case_178_full.jpg"
+  },
+  "question": "A patient has an elevated serum alpha‑fetoprotein level and mildly low lymphocyte and immunoglobulin counts and is referred for genetic counseling. Imaging is available as shown. Based on the imaging and clinical findings, which of the following best describes the likely hereditary recurrence risk for future children?",
+  "question_scope": "full_figure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "Autosomal recessive — one in four risk if both parents are carriers",
+    "B": "Autosomal dominant — one in two (50%) risk",
+    "C": "X‑linked recessive — carrier mother transmits to sons only",
+    "D": "Mitochondrial (maternal) — all children affected if mother affected",
+    "E": "Sporadic/low familial risk — negligible increased recurrence"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the images for abnormalities of the posterior fossa and cerebellum. On the axial (A, D) and coronal (B) images the cerebellar hemispheres and vermis appear reduced in volume with widened folia/interfolial CSF spaces. The sagittal image (C) confirms loss of cerebellar bulk, most obvious in the vermis and superior cerebellum, consistent with diffuse cerebellar atrophy.\n\nNext, I relate these imaging findings to the clinical data in the question, which specify an elevated serum alpha‑fetoprotein level and mildly low lymphocyte and immunoglobulin counts. The combination of progressive cerebellar atrophy on MRI plus elevated AFP and immunologic abnormalities points to a hereditary cerebellar degenerative disorder with immune dysfunction.\n\nThen, I consider the inheritance options listed and how they align with these observations. The pattern suggested by a hereditary syndrome with systemic immune findings and early-onset cerebellar degeneration is most consistent with an autosomal recessive disorder, which occurs when both parents are carriers. Therefore the appropriate recurrence risk description is autosomal recessive — one in four (25%) risk for each future child if both parents are carriers.\n\nIn summary, the imaging and laboratory clues support a recessive hereditary disorder, so the best answer is the autosomal recessive recurrence risk as stated in option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Various MRI of the head are presented, showcasing features suggestive of cerebellar atrophy. The images include: (A) T2-weighted MRI axial section, (B) T2-weighted MRI coronal section, (C) T1-weighted MRI sagittal section, and (D) FLARE axial section of the head.",
+  "sub_caption": "(B) T2-weighted MRI coronal section",
+  "image_context": "During routine laboratory investigations, her complete blood count, serum B12 level, vitamin E level, and electrolytes all were in normal range. However, her serum alpha-fetoprotein (AFP) level was elevated, measuring 144.79 ng/ml. Her lymphocyte count and serum immunoglobulin levels were slightly towards the lower margin of the normal range. A plain MRI of the brain and spinal cord was performed, revealing diffuse cerebellar atrophy and straightening of cervical and lumbar lordosis due to muscle spasm. In Figure <xref rid=\"ms9-86-2149-g003\" ref-type=\"fig\">3</xref> (A–D), we illustrate cerebral atrophy observed in T2-weighted axial sections of the head, coronal T2-weighted section, T1-weighted section, and axial FLARE section. Figure  (A–D), we illustrate cerebral atrophy observed in T2-weighted axial sections of the head, coronal T2-weighted section, T1-weighted section, and axial FLARE section. Figure <xref rid=\"ms9-86-2149-g004\" ref-type=\"fig\">4</xref> (A, B) highlights straightening of cervical and lumbar lordosis respectively in T2-weighted sagittal sections of the cervical and lumbar regions. The elevated AFP levels, along with typical features on MRI of the brain, confirmed A-T. (A, B) highlights straightening of cervical and lumbar lordosis respectively in T2-weighted sagittal sections of the cervical and lumbar regions. The elevated AFP levels, along with typical features on MRI of the brain, confirmed A-T.",
+  "relevant_image_context": "During routine laboratory investigations, her complete blood count, serum B12 level, vitamin E level, and electrolytes all were in normal range. However, her serum alpha-fetoprotein (AFP) level was elevated, measuring 144.79 ng/ml. Her lymphocyte count and serum immunoglobulin levels were slightly towards the lower margin of the normal range. A plain MRI of the brain and spinal cord was performed, revealing diffuse cerebellar atrophy and straightening of cervical and lumbar lordosis due to muscle spasm. In Figure 3 (A–D), we illustrate cerebral atrophy observed in T2-weighted axial sections of the head, coronal T2-weighted section, T1-weighted section, and axial FLARE section. Figure (A–D), we illustrate cerebral atrophy observed in T2-weighted axial sections of the head, coronal T2-weighted section, T1-weighted section, and axial FLARE section. Figure 4 (A, B) highlights straightening of cervical and lumbar lordosis respectively in T2-weighted sagittal sections of the cervical and lumbar regions. The elevated AFP levels, along with typical features on MRI of the brain, confirmed A-T. (A, B) highlights straightening of cervical and lumbar lordosis respectively in T2-weighted sagittal sections of the cervical and lumbar regions. The elevated AFP levels, along with typical features on MRI of the brain, confirmed A-T. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

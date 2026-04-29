@@ -1,0 +1,31 @@
+{
+  "case_id": 331,
+  "images": {
+    "subfig": "case_331_subfig.jpg",
+    "full": "case_331_full.jpg"
+  },
+  "question": "Two hours after initial evaluation the patient's hemoglobin fell to 3.7 g/dL and systolic blood pressure decreased to 90/43 mmHg while receiving rapid blood transfusion. A contrast-enhanced abdominal CT was obtained during resuscitation. Which complication most likely explains the acute clinical deterioration and the imaging findings?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Active arterial bleeding",
+    "B": "Contrast-induced nephropathy",
+    "C": "Intra-abdominal abscess",
+    "D": "Hollow viscus perforation"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial contrast-enhanced abdominal CT for acute findings. I see a large, right-sided retroperitoneal collection of heterogeneous high attenuation material consistent with a hematoma; within that collection there is a focal, very high-attenuation area that matches the enhancement of the nearby vessels, consistent with active contrast extravasation.\n\nNext, I relate these imaging findings to the clinical data in the question. The patient has a precipitous drop in hemoglobin to 3.7 g/dL and new hypotension (systolic 90/43) despite ongoing transfusion, which indicates ongoing, significant blood loss and hemodynamic instability.\n\nThen I consider how each answer lines up with the image and clinical picture. Active arterial bleeding explains both the focal contrast leak on the CT (active extravasation into the retroperitoneal hematoma) and the rapidly falling hemoglobin with hypotension. Contrast-induced nephropathy would not produce focal contrast extravasation or an acute massive drop in hemoglobin. An intra-abdominal abscess or hollow viscus perforation would have different CT appearances (for example, rim-enhancing fluid collections, gas, or free intraperitoneal air) and would not account for acute hemorrhage with contrast pooling.\n\nTherefore, the imaging appearance of focal intravascular contrast leaking into a retroperitoneal hematoma together with rapid hemodynamic deterioration most likely represents active arterial bleeding.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "The abdominal CT image shows retroperitoneal hematoma with contrast leakage (white arrows).",
+  "sub_caption": "The abdominal CT image shows retroperitoneal hematoma with contrast leakage (white arrows).",
+  "image_context": "A 48-year-old woman underwent kidney transplant for end stage renal disease due to IgA nephropathy. She was hospitalizes 2 weeks before transplantation and performed immunosuppressive therapy. For ABO-incompatible transplantation, induction therapy consisted of basiliximab, rituximab, plasma exchange (PE) and double-filtration plasmapheresis (DFPP) followed by maintenance immunosuppression with tacrolimus, mycophenolate mofetil, and methylprednisolone. Because of delayed renal function, hemodialysis restart was needed in five days after transplantation. On the eighth day after transplant, spike wave form was recognized with Doppler echo in renal allograft. As a result of renal biopsy, we diagnosed acute antibody mediated rejection, and steroid pulse, intravenous immunoglobulin, PE, and rituximab injection was performed. Fifteen days later after transplant, she presented strong abdominal and back pain in the right side and hemoglobin dropped to 4.1 g/dl from 7.5 g/dl. Two hours later, hemoglobin further dropped to 3.7 g/dl and her systolic blood pressure decreased to 90/43 mmHg, we took a computerized tomography (CT) of the abdomen with rapid blood transfusion. A contrast-enhanced CT showed a large retroperitoneal hematoma and leakage of contrast medium (<xref rid=\"egi10NLJGW8PT0\" ref-type=\"fig\">Fig. 1</xref>). Angiography was performed, which showed extravasation from the lumbar artery (). Angiography was performed, which showed extravasation from the lumbar artery (<xref rid=\"egi10X8K0J1RL4\" ref-type=\"fig\">Fig. 2</xref>). Selective angiographic embolization of the lumbar artery was performed and patient received 4 units of RBC, hemoglobin increased to 7.6 g/dl. Then her renal function began to improve gradually, it was able to stop dialysis after this day. Six days later after embolization, the hemoglobin level decreased from 7.6 g/dl to 6.9 g/dl and abdominal CT revealed pseudo aneurysm of the lumbar artery, it was performed embolization again. She was discharged on the 41st postoperative day without progression of anemia.). Selective angiographic embolization of the lumbar artery was performed and patient received 4 units of RBC, hemoglobin increased to 7.6 g/dl. Then her renal function began to improve gradually, it was able to stop dialysis after this day. Six days later after embolization, the hemoglobin level decreased from 7.6 g/dl to 6.9 g/dl and abdominal CT revealed pseudo aneurysm of the lumbar artery, it was performed embolization again. She was discharged on the 41st postoperative day without progression of anemia.Fig. 1The abdominal CT image shows retroperitoneal hematoma with contrast leakage (white arrows).Fig. 1Fig. 2The angiography shows contrast extravasation from the right forth lumbar arteries (white arrows).Fig. 2",
+  "relevant_image_context": "Two hours later, hemoglobin further dropped to 3.7 g/dl and her systolic blood pressure decreased to 90/43 mmHg, we took a computerized tomography (CT) of the abdomen with rapid blood transfusion. A contrast-enhanced CT showed a large retroperitoneal hematoma and leakage of contrast medium. The abdominal CT image shows retroperitoneal hematoma with contrast leakage (white arrows).Fig. 1"
+}

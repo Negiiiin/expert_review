@@ -1,0 +1,32 @@
+{
+  "case_id": 72,
+  "images": {
+    "subfig": "case_072_subfig.jpg",
+    "full": "case_072_full.jpg"
+  },
+  "question": "What finding do the arrows indicate on this CT image?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Impacted gallstone within the duodenum",
+    "B": "Pancreatic head mass",
+    "C": "Enlarged peripancreatic lymph node",
+    "D": "Duodenal neoplasm (GIST)",
+    "E": "Stone within the common bile duct"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image for the location, attenuation, and relation of the lesion indicated by the arrows. I see a well-defined, rounded, high-attenuation (hyperdense) structure that projects into the lumen at the junction of the second and third portions of the duodenum; there is luminal material and some proximal bowel gas/fluid visible just above it.\n\nNext, I relate these imaging findings to the question asking what the arrows indicate. The key features to match are intraluminal location within the duodenum and the dense, stone-like attenuation of the lesion.\n\nThen, I consider how each option lines up with those observations. A pancreatic head mass or an enlarged peripancreatic lymph node would be soft-tissue density structures located in the pancreatic/peripancreatic region, not a sharply marginated dense object centered inside the duodenal lumen. A duodenal neoplasm (GIST) would typically appear as a soft-tissue mass arising from the bowel wall rather than a calcified, intraluminal stone. A stone within the common bile duct would be located within the biliary tree (medial to the duodenum), not projecting as an intraluminal duodenal density.\n\nBecause the lesion is intraluminal, sharply defined, and hyperdense—consistent with a calcified/stone fragment lodged in the duodenal lumen—the imaging appearance best matches an impacted gallstone within the duodenum.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Computed tomography image of the impacted gallstone (yellow arrows) at the intersection of the second and the third parts of the duodenum, which was causing gastric outlet obstruction.",
+  "sub_caption": "Computed tomography image of the impacted gallstone (yellow arrows) at the intersection of the second and the third parts of the duodenum, which was causing gastric outlet obstruction.",
+  "image_context": "A 69-year-old woman attended the emergency department with severe nausea, vomiting, and abdominal pain, and an absence of flatulence and defecation. Abdominal computed tomography examination showed a cholecystoduodenal fistula and a 56 × 59-mm stone at the intersection of the second and third parts of the duodenum (\n<xref rid=\"10-1055-a-1887-5539-i3199ev1\" ref-type=\"fig\">Fig. 1</xref>\n). Endoscopic evaluation was performed with a CF170Q endoscope (Olympus, Japan), and the orifice of the cholecystoduodenal fistula was observed at the apex of the duodenal bulb. In addition, a giant stone was seen at the intersection of the second and third parts of the duodenum (\n\n). Endoscopic evaluation was performed with a CF170Q endoscope (Olympus, Japan), and the orifice of the cholecystoduodenal fistula was observed at the apex of the duodenal bulb. In addition, a giant stone was seen at the intersection of the second and third parts of the duodenum (\n<xref rid=\"10-1055-a-1887-5539-i3199ev2\" ref-type=\"fig\">Fig. 2</xref>\n). Enterographic examination obtained by the endoscopic administration of radiopaque contrast medium showed almost complete intestinal obstruction (\n\n). Enterographic examination obtained by the endoscopic administration of radiopaque contrast medium showed almost complete intestinal obstruction (\n<xref rid=\"10-1055-a-1887-5539-i3199ev3\" ref-type=\"fig\">Fig. 3</xref>\n).\n\n).",
+  "relevant_image_context": "A 69-year-old woman attended the emergency department with severe nausea, vomiting, and abdominal pain, and an absence of flatulence and defecation. Abdominal computed tomography examination showed a cholecystoduodenal fistula and a 56 × 59-mm stone at the intersection of the second and third parts of the duodenum."
+}

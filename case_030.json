@@ -1,0 +1,32 @@
+{
+  "case_id": 30,
+  "images": {
+    "subfig": "case_030_subfig.jpg",
+    "full": "case_030_full.jpg"
+  },
+  "question": "A patient undergoes thyroid ultrasound; the images are shown. Two experienced radiologists independently reviewed and reached similar interpretations of the sonographic features. Based on the imaging, what is the most appropriate next-step management?",
+  "question_scope": "full_figure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Ultrasound-guided fine-needle aspiration biopsy",
+    "B": "Short-interval ultrasound follow-up",
+    "C": "Diagnostic thyroid lobectomy",
+    "D": "Empiric levothyroxine suppression therapy",
+    "E": "Radioiodine ablation therapy"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided images. Panel A (color Doppler) shows a right thyroid lobe lesion with marked internal and peripheral vascular flow. Panel B (grayscale) shows a large, predominantly solid, hypoechoic nodule in the right lobe that has been measured with calipers (dotted line) and contains internal heterogeneity consistent with a solid component or mural nodule.\n\nNext, I relate these imaging findings to the question, which asks for the most appropriate next-step management. The important imaging features I note are a clearly visualized solid, hypoechoic thyroid nodule with internal vascularity and substantial size on measurement. The question also states that two experienced radiologists independently reached similar interpretations, supporting that these sonographic features are real and not artifactual.\n\nThen, I consider the management options in light of those observations. A tissue diagnosis obtained by ultrasound-guided fine-needle aspiration (FNA) directly addresses the concern raised by a solid, vascular, and sizable nodule. Short-interval ultrasound follow-up is typically chosen for nodules with benign-appearing, low-risk features, which is not the case here. Surgical lobectomy would be premature without cytologic information unless there were other clinical indications. Empiric levothyroxine suppression or radioiodine ablation are therapeutic measures that are not justified based solely on these suspicious sonographic features without a cytologic diagnosis.\n\nIn summary, because the images demonstrate a sizable, solid, hypoechoic nodule with internal vascularity and concordant expert reads, obtaining cytology via ultrasound-guided FNA is the most appropriate next step.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "A 56-year-old woman with papillary thyroid carcinoma. Ultrasound images (A and B) show a heterogeneous nodule in the right thyroid lobe with high vascularity. This nodule was interpreted similarly by both observers and has a substantial agreement for US features.",
+  "sub_caption": "Ultrasound images (A and B) show a heterogeneous nodule in the right thyroid lobe with high vascularity. This nodule was interpreted similarly by both observers and has a substantial agreement for US features.",
+  "image_context": "Thyroid ultrasound images of 75 nodules were independently reviewed by 2 radiologists. Each radiologist had 6 years of experience in ultrasound imaging. The ultrasound images were evaluated blindly on the same liquid crystal display monitor, and the different ultrasound imaging features identified by the observers were recorded. They assessed nodules based on the 5 feature categories (echogenicity, shape; margin, vascularity, and calcification), in which ultrasound findings correspond to their association with malignancy (Fig. <xref rid=\"medi-101-e31106-g001\" ref-type=\"fig\">1</xref>).).",
+  "relevant_image_context": "Thyroid ultrasound images of 75 nodules were independently reviewed by 2 radiologists. Each radiologist had 6 years of experience in ultrasound imaging. The ultrasound images were evaluated blindly on the same liquid crystal display monitor, and the different ultrasound imaging features identified by the observers were recorded. They assessed nodules based on the 5 feature categories (echogenicity, shape; margin, vascularity, and calcification), in which ultrasound findings correspond to their association with malignancy (Fig. 1)."
+}

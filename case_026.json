@@ -1,0 +1,31 @@
+{
+  "case_id": 26,
+  "images": {
+    "subfig": "case_026_subfig.jpg",
+    "full": "case_026_full.jpg"
+  },
+  "question": "A patient is being evaluated for a suspected inherited endocrine tumor syndrome; cross-sectional imaging of the neck and abdomen is shown. The clinical team is concerned about a hereditary predisposition that classically involves parathyroid, pituitary, and pancreatic/adrenal tumors. Based on the imaging and the likely syndrome, what is the most probable risk that a first-degree relative carries the causative germline mutation?",
+  "question_scope": "full_figure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "About 50% (autosomal dominant)",
+    "B": "No meaningful increased risk",
+    "C": "Risk only if both parents carry it (recessive)",
+    "D": "Low (~10%) risk"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the images for relevant abnormalities. On the axial abdominal image I see pancreatic calcifications and a well-defined left adrenal lesion labeled as an adenoma; on the coronal neck image there is a discrete enhancing lesion adjacent to the thyroid consistent with a parathyroid adenoma.\n\nNext, I relate these imaging findings to the question, which specifies an inherited endocrine tumor syndrome that classically involves parathyroid, pituitary, and pancreatic/adrenal tumors. The combination of a parathyroid lesion plus pancreatic and adrenal involvement on imaging fits that described hereditary syndrome.\n\nThen I consider how the answer choices align with that syndrome. One choice explicitly states \"About 50% (autosomal dominant),\" which corresponds to an inheritance pattern in which each first-degree relative has roughly a 1-in-2 chance of carrying the causative germline mutation. The other choices (no increased risk, recessive requiring both parents, or low ~10% risk) do not match the typical dominant inheritance implied by the scenario and the available options.\n\nTherefore, based on the imaging pattern matching the described syndrome and the inheritance options provided, the most probable risk for a first-degree relative to carry the mutation is about 50%.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "A- abdominal CT showing the pancreatic calcifications and the left surrenal gland adenoma B-neck CT showing the parathyroid adenoma.",
+  "sub_caption": "B-neck CT showing the parathyroid adenoma.",
+  "image_context": "In compliance with the scare guidelines [10] We present a case of an acute pancreatitis on a background of chronic calcific pancreatitis bringing out into open a multiple endocrine neoplasia type 1 with a parathyroid adenoma, pituitary adenoma and surrenal gland adenoma, giving birth to an analytical and interesting case of endocrine diseases, we believe that we have the first ever case aligning such associations (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>, , <xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>, , <xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>, , <xref rid=\"gr4\" ref-type=\"fig\">Fig. 4</xref>).).Fig. 1A- abdominal CT showing the pancreatic calcifications and the left surrenal gland adenoma B-neck CT showing the parathyroid adenoma.Fig. 1Fig. 2Cerebral pituitary MRI showing the pituitary gland adenoma.Fig. 2Fig. 3Operative view after the resection of the parathyroid adenoma – specimen of parathyroidectomy.Fig. 3Fig. 4Histological image of the parathyroid adenoma.A- Microphotography showing a cellular, homogenous lesions, made of oxyphil cells in delicate capillary network. (HE, 100X).B- Microphotography showing bland appearing cells. There were no capsular invasion, no vascular invasion, or invasion of adjacent tissue (HE, 400X).Fig. 4",
+  "relevant_image_context": "B-neck CT showing the parathyroid adenoma."
+}

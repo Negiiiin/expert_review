@@ -1,0 +1,32 @@
+{
+  "case_id": 284,
+  "images": {
+    "subfig": "case_284_subfig.jpg",
+    "full": "case_284_full.jpg"
+  },
+  "question": "A 59-year-old woman presented with severe headache, vomiting, and progressive decline in consciousness over 2 days. A noncontrast head CT scan was obtained. Based on the imaging, which of the following interventions is contraindicated?",
+  "question_scope": "subfigure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Intravenous thrombolysis (alteplase)",
+    "B": "Oral nimodipine therapy",
+    "C": "External ventricular drain placement",
+    "D": "Urgent cerebrovascular angiography and coiling",
+    "E": "Osmotherapy with hypertonic saline"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial noncontrast head CT. I see hyperdense material layering within the sylvian fissures bilaterally and hyperdensity tracking into the ventricular system; the cortical sulci are effaced, suggesting diffuse cerebral swelling and abnormal intracranial blood products.\n\nNext, I relate those imaging findings to the clinical question: the scan demonstrates acute subarachnoid hemorrhage with intraventricular extension and features of raised intracranial pressure. The question asks which listed intervention is contraindicated given this imaging.\n\nThen I consider each option in light of the CT appearance. Intravenous thrombolysis (alteplase) would act to lyse clots systemically and would be expected to increase bleeding risk; because there is clear intracranial hemorrhage on imaging, thrombolysis is contraindicated. Oral nimodipine is an option that would not be ruled out by the presence of subarachnoid blood on CT. External ventricular drain placement is a reasonable intervention when intraventricular blood and raised intracranial pressure are present. Urgent cerebrovascular angiography and endovascular treatment are procedures that would be considered to identify and secure a ruptured source of subarachnoid bleeding. Osmotherapy with hypertonic saline is an intervention used to treat cerebral edema and raised intracranial pressure seen here.\n\nFinally, tying the observations to the choices: because the scan shows acute intracranial hemorrhage (subarachnoid and intraventricular), administering systemic thrombolytic therapy is contraindicated.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial section CT demonstrating diffuse brain edema evident by effacement of cortical sulci and the subarachnoid hemorrhage in both Sylvian fissures (yellow arrows) with seeding into the ventricular system (red arrows).",
+  "sub_caption": "Axial section CT demonstrating diffuse brain edema evident by effacement of cortical sulci and the subarachnoid hemorrhage in both Sylvian fissures (yellow arrows) with seeding into the ventricular system (red arrows).",
+  "image_context": "A 59-year-old Saudi woman presented with a deteriorated level of consciousness after 2 days of severe headaches and multiple episodes of vomiting. A non-enhanced brain CT scan showed a subarachnoid hemorrhage (SAH) (Hunt and Hess grade 4–5), intraventricular hemorrhage, and generalized brain edema (Figure <xref ref-type=\"fig\" rid=\"fneur-08-00382-g001\">1</xref>). Angiographic series delineated a cerebellar AVM with a nidus of 14 mm × 20 mm in diameter, situated on the post meatal segment of AICA and draining superficially into the transverse sinus (Spetzler–Martin grade II). The nidus was primarily supplied by the AICA, which developed a pre-nidal saccular aneurysm measuring 7 mm × 3 mm (Figure ). Angiographic series delineated a cerebellar AVM with a nidus of 14 mm × 20 mm in diameter, situated on the post meatal segment of AICA and draining superficially into the transverse sinus (Spetzler–Martin grade II). The nidus was primarily supplied by the AICA, which developed a pre-nidal saccular aneurysm measuring 7 mm × 3 mm (Figure <xref ref-type=\"fig\" rid=\"fneur-08-00382-g002\">2</xref>). The aneurysm was the source of bleeding.). The aneurysm was the source of bleeding.",
+  "relevant_image_context": "A 59-year-old Saudi woman presented with a deteriorated level of consciousness after 2 days of severe headaches and multiple episodes of vomiting. A non-enhanced brain CT scan showed a subarachnoid hemorrhage (SAH) (Hunt and Hess grade 4–5), intraventricular hemorrhage, and generalized brain edema (Figure 1)."
+}

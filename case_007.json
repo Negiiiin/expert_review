@@ -1,0 +1,31 @@
+{
+  "case_id": 7,
+  "images": {
+    "subfig": "case_007_subfig.jpg",
+    "full": "case_007_full.jpg"
+  },
+  "question": "A 71-year-old woman with end-stage renal disease on intermittent hemodialysis is concerned about the risk to her biological children. Based on the imaging and the most likely hereditary pattern, which of the following best describes the probability that each child will inherit her condition?",
+  "question_scope": "subfigure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "About 1 in 2 chance (autosomal dominant)",
+    "B": "About 1 in 4 chance (autosomal recessive)",
+    "C": "Minimal unless both parents carry mutation",
+    "D": "No increased heritable risk (acquired)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for objective findings: the coronal CT shows both kidneys markedly enlarged and replaced by numerous well-defined fluid-density rounded cysts throughout the renal parenchyma (arrows pointing to each kidney). The cystic change is bilateral and diffuse rather than focal or unilateral.\n\nNext, I relate what I see to the question, which asks about the heritable risk to her biological children based on the imaging and the most likely hereditary pattern. The image demonstrates a diffuse bilateral cystic kidney disease in an older adult, which is most consistent with an inherited cystic disorder rather than a solitary acquired cyst or a unilateral process.\n\nThen, I consider how each answer option aligns with those observations. Option A states a 1 in 2 chance (autosomal dominant) — this corresponds to a dominant hereditary disorder that would commonly present as bilateral, diffuse cystic kidneys in an adult and would confer roughly a 50% risk to each child. Option B (1 in 4, autosomal recessive) and option C (minimal unless both parents carry mutation) imply recessive inheritance, which is less consistent with an adult-onset bilateral diffuse cystic pattern. Option D (no increased heritable risk, acquired) is less likely because the image shows symmetric diffuse disease affecting both kidneys, which suggests a hereditary process rather than an isolated acquired lesion.\n\nFinally, tying the imaging pattern (bilateral, diffuse renal cystic replacement) to the most likely hereditary inheritance among the choices leads to the autosomal dominant probability described in option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT abdomen showing the severe cystic appearance of both kidneys (white arrows)CT: computed tomography",
+  "sub_caption": "CT abdomen showing the severe cystic appearance of both kidneys (white arrows)",
+  "image_context": "We present a 71-year-old female, with a past medical history of hypertension, hyperlipidemia, end-stage renal disease (secondary to polycystic kidney disease, Figure <xref ref-type=\"fig\" rid=\"cureus-0012-00000009031-i01\">1</xref>), on intermittent hemodialysis who was admitted to the hospital with a hypertensive emergency, with systolic blood pressure (SBP) &gt; 200, complicated with non-ST-elevation myocardial infarction (NSTEMI) type 2, diastolic heart failure, pericardial effusion, hypertensive retinopathy, headache, and tinnitus. The patient's elevated BP was resistant to the oral antihypertensive regimen and daily hemodialysis sessions. The patient had a previous admission with a hypertensive emergency that resolved with multiple sessions of hemodialysis. The patient's antihypertensive regimen included clonidine 0.6 mg PO TID, hydralazine 100 mg PO BID, labetalol 800 mg BID, lisinopril 10 mg QD, nifedipine XL 240 QD, and spironolactone 100 mg QD. Minoxidil was relatively contraindicated in this patient given the current pericardial effusion. The patient's BP was controlled with the addition of intravenous (IV) nicardipine drip with the goal of SBP &lt; 180 and was transferred to the critical care unit for close monitoring.), on intermittent hemodialysis who was admitted to the hospital with a hypertensive emergency, with systolic blood pressure (SBP) > 200, complicated with non-ST-elevation myocardial infarction (NSTEMI) type 2, diastolic heart failure, pericardial effusion, hypertensive retinopathy, headache, and tinnitus. The patient's elevated BP was resistant to the oral antihypertensive regimen and daily hemodialysis sessions. The patient had a previous admission with a hypertensive emergency that resolved with multiple sessions of hemodialysis. The patient's antihypertensive regimen included clonidine 0.6 mg PO TID, hydralazine 100 mg PO BID, labetalol 800 mg BID, lisinopril 10 mg QD, nifedipine XL 240 QD, and spironolactone 100 mg QD. Minoxidil was relatively contraindicated in this patient given the current pericardial effusion. The patient's BP was controlled with the addition of intravenous (IV) nicardipine drip with the goal of SBP < 180 and was transferred to the critical care unit for close monitoring.",
+  "relevant_image_context": "We present a 71-year-old female with end-stage renal disease (secondary to polycystic kidney disease, Figure 1) on intermittent hemodialysis."
+}

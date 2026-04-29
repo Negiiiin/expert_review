@@ -1,0 +1,29 @@
+{
+  "case_id": 340,
+  "images": {
+    "subfig": "case_340_subfig.jpg",
+    "full": "case_340_full.jpg"
+  },
+  "question": "Based on this image, is an acute abnormality present?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Yes",
+    "B": "No"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image for symmetry, focal collections, and bone or soft-tissue disruption. I note an asymmetric, relatively high-attenuation heterogeneous collection in the left pelvic/left lower quadrant soft tissues that is not present on the contralateral side. There is surrounding soft-tissue stranding and mild mass effect on adjacent bowel loops, while the visualized pelvic bones and sacrum do not show an obvious acute fracture.\n\nNext, I relate these findings to the question, which asks whether an acute abnormality is present. A new asymmetric high-attenuation collection with adjacent fat stranding in the pelvis is not a normal appearance and is most consistent with an acute process (for example, acute hemorrhage/hematoma or acute extravasation).\n\nThen, I consider the two answer choices. The imaging demonstrates an acute-appearing abnormality (the high-attenuation pelvic collection with surrounding stranding), so the option \"Yes\" aligns with the observed findings. There is no convincing normal study appearance to support \"No.\"\n\nIn summary, the image shows a clear acute abnormality in the pelvis (asymmetric high-attenuation collection with surrounding inflammatory change), supporting the choice \"Yes.\"",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Ruptured left iliac bifurcation, CT scan.",
+  "sub_caption": "CT scan showing a ruptured left iliac bifurcation.",
+  "image_context": "The patient presented to an outside facility with acute left lower abdominal pain that extended to his lower extremity. The patient stated he could not move his leg along with significant paresthesia. Computed tomography angiography demonstrated dissection of distal left common iliac artery extending into the external iliac artery with occlusion to the level of the proximal superficial femoral artery. An associated rupture of the distal common iliac artery was also identified with a large retroperitoneal hematoma (<xref rid=\"gr1\" ref-type=\"fig\">Fig 1</xref>). Prior to transfer, the patient was initiated on pharmacological impulse control with goal systolic blood pressure less than 120 mmHg. Upon arrival, the patient was taken immediately to the operating room for intervention. The patient was alert and oriented, tachycardic with stable systolic blood pressures. Physical exam of left lower extremity without dopplerable signals and decreased motor and sensory consistent with Rutherford IIB.). Prior to transfer, the patient was initiated on pharmacological impulse control with goal systolic blood pressure less than 120 mmHg. Upon arrival, the patient was taken immediately to the operating room for intervention. The patient was alert and oriented, tachycardic with stable systolic blood pressures. Physical exam of left lower extremity without dopplerable signals and decreased motor and sensory consistent with Rutherford IIB.Fig 1Ruptured left iliac bifurcation, CT scan.",
+  "relevant_image_context": "The patient presented to an outside facility with acute left lower abdominal pain that extended to his lower extremity. The patient stated he could not move his leg along with significant paresthesia. Computed tomography angiography demonstrated dissection of distal left common iliac artery extending into the external iliac artery with occlusion to the level of the proximal superficial femoral artery. An associated rupture of the distal common iliac artery was also identified with a large retroperitoneal hematoma (Fig 1). Prior to transfer, the patient was initiated on pharmacological impulse control with goal systolic blood pressure less than 120 mmHg. Upon arrival, the patient was taken immediately to the operating room for intervention. The patient was alert and oriented, tachycardic with stable systolic blood pressures. Physical exam of left lower extremity without dopplerable signals and decreased motor and sensory consistent with Rutherford IIB.). Prior to transfer, the patient was initiated on pharmacological impulse control with goal systolic blood pressure less than 120 mmHg. Upon arrival, the patient was taken immediately to the operating room for intervention. The patient was alert and oriented, tachycardic with stable systolic blood pressures. Physical exam of left lower extremity without dopplerable signals and decreased motor and sensory consistent with Rutherford IIB.Fig 1Ruptured left iliac bifurcation, CT scan. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": 237,
+  "images": {
+    "subfig": "case_237_subfig.jpg",
+    "full": "case_237_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image: this is an axial CT of the head at the level of the basal ganglia and lateral ventricles.\n\nNext, I inspect the brain parenchyma for symmetry and focal abnormalities. On the right side in the region of the basal ganglia there are multiple small, rounded hypodense (low-attenuation) foci clustered together; these are not seen on the contralateral side. The cortical sulci and lateral ventricles appear otherwise preserved and there is no obvious midline shift.\n\nThen I relate these observations to the question, which asks whether the findings are normal or abnormal. Focal, unilateral clusters of rounded hypodense lesions in deep gray matter are not a normal finding.\n\nFinally, I conclude that the image demonstrates an abnormal focal process in the right basal ganglia region, so the correct answer is that the findings are abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Classical soap bubble lesion in the right basal ganglia seen on this contrast-enhanced axial image.",
+  "sub_caption": "Classical soap bubble lesion in the right basal ganglia seen on this contrast-enhanced axial image.",
+  "image_context": "We analysed in this retrospective spin-off study, the CT scans of 30 HIV patients with confirmed CM. For better comparability, we divided our positive findings into cryptococcal-related radiological pathology and ‘other’ abnormalities. Our study correlates with previous results in terms of qualitative findings. Consistent with When et al.,16 Tien et al.,12 Loyse et al.5 and others, we found dilated VR spaces the most common cryptococcosis-related radiological finding at almost 27%. In view of the assumed pathophysiology with the fungus spreading haematologically from the lungs to the brain, this is reasonable. Perivascular spaces are small areas with interstitial fluid created by blood vessels entering the meninges, usually only visualised when dilated, and they are the ‘first station’ for the fungus entering the CNS. VR spaces are predominantly found in the basal ganglia. When the fungal burden increases and mucous substances from the capsule of the organism are accumulating, dilated VR spaces expand to gelatinous pseudocysts, which by some authors are considered as specific for the disease.17 If clusters of these cysts develop, so called ‘soap bubble’ (<xref ref-type=\"fig\" rid=\"SAJR-21-1215-g003\">Figure 3</xref>) lesions are found.) lesions are found.18 Cryptococcomas (<xref ref-type=\"fig\" rid=\"SAJR-21-1215-g002\">Figure 2</xref>) are intraparenchymal lesions representing a more chronic granulomatous reaction to the infection and, therefore, often not seen in the advanced stages of AIDS as there is little immune response.) are intraparenchymal lesions representing a more chronic granulomatous reaction to the infection and, therefore, often not seen in the advanced stages of AIDS as there is little immune response.19 Radiologically, they are larger than the VR spaces and cysts and might be less hypodense. Contrast enhancement and surrounding oedema might be present in cryptococcomas in contrast to the latter. None of our patients had intraventricular cysts and only one had a cluster of cysts (soap bubbles). We also did not have any scan detecting meningeal contrast enhancement, which is also regarded as a feature of active disease. This is consistent with previous reports,8 and we believe it mirrors the fact of severe immunosuppression in our cohort with little inflammatory response and also reflects that there were no cases of IRIS amongst our patients.",
+  "relevant_image_context": "In view of the assumed pathophysiology with the fungus spreading haematologically from the lungs to the brain, this is reasonable. Perivascular spaces are small areas with interstitial fluid created by blood vessels entering the meninges, usually only visualised when dilated, and they are the ‘first station’ for the fungus entering the CNS. VR spaces are predominantly found in the basal ganglia. When the fungal burden increases and mucous substances from the capsule of the organism are accumulating, dilated VR spaces expand to gelatinous pseudocysts, which by some authors are considered as specific for the disease. If clusters of these cysts develop, so called ‘soap bubble’ lesions are found."
+}

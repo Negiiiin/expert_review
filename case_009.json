@@ -1,0 +1,29 @@
+{
+  "case_id": 9,
+  "images": {
+    "subfig": "case_009_subfig.jpg",
+    "full": "case_009_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for anatomic and attenuation features. This is a sagittal contrast-enhanced CT image through the thoracoabdominal aorta; the aortic lumen is opacified with contrast. I then look for abnormalities within that lumen and note a linear, curvilinear low-attenuation line running along the length of the aorta that separates the contrast-filled lumen into two channels—one channel is fully opacified while the adjacent channel contains a crescent of non-opacified material.\n\nNext, I relate these observations to the question, which asks whether the findings are normal or abnormal. A normal aorta on a contrast-enhanced study would show a single, smooth, uniformly opacified lumen without an intraluminal linear flap or a non-opacified crescent. The presence of a cleft-like linear structure dividing the lumen and a partially non-opacified channel represents an abnormal intraluminal process (consistent with an intimal flap and a partially thrombosed adjacent lumen).\n\nThen, I consider the answer choices: option A (Normal) does not match the image findings, whereas option B (Abnormal) does. Therefore the image demonstrates abnormal aortic findings.",
+  "modality": "Microscopy",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT angiography",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "microscopy"
+  ],
+  "caption": "Historical images before admission. A CTA shows type B aortic dissection extending from the left subclavian artery to the bilateral iliac artery with partial thrombosis. B, C Images of angiography during TEVAR",
+  "sub_caption": "A CTA shows type B aortic dissection extending from the left subclavian artery to the bilateral iliac artery with partial thrombosis.",
+  "image_context": "A 65-year-old man who had undergone branched TEVAR (Fig. <xref rid=\"12872_2022_2768_Fig1_HTML\" ref-type=\"fig\">1</xref>) for type B aortic dissection 1.5 months previously was admitted to our hospital because of a 5-day history of gingival bleeding and multiple subcutaneous petechiae on his trunk and extremities (Fig. ) for type B aortic dissection 1.5 months previously was admitted to our hospital because of a 5-day history of gingival bleeding and multiple subcutaneous petechiae on his trunk and extremities (Fig. <xref rid=\"12872_2022_2768_Fig2_HTML\" ref-type=\"fig\">2</xref>). His initial laboratory examination showed a hemoglobin concentration of 10.2 g/dL (reference range, 13–17.5 g/dL), platelet count of 37 × 10). His initial laboratory examination showed a hemoglobin concentration of 10.2 g/dL (reference range, 13–17.5 g/dL), platelet count of 37 × 109/L (reference range, 125–350 × 109/L), fibrinogen concentration of 50 mg/dL (reference range, 200–400 mg/dL), D-dimer concentration of 79.6 μg/mL (reference range, 0–0.55 μg/mL), activated partial thromboplastin time (APTT) of 45.9 s (reference range, 24.9–37.3 s), prothrombin time (PT) of 29 s (reference range, 9.8–13.2 s), and international normalized ratio (INR) of 2.66 (reference range, 0.52–1.2). Computed tomography angiography (CTA) on admission revealed persistent flow in the residual false lumen with partial thrombosis (Fig. <xref rid=\"12872_2022_2768_Fig3_HTML\" ref-type=\"fig\">3</xref>A). No hematologic disorder was observed on bone marrow biopsy. The score for diagnosis of overt DIC as proposed by the International Society on Thrombosis and Hemostasis (ISTH) was 8. On the basis of the post-TEVAR clinical presentation of a decreased platelet count and fibrinogen concentration and an increased D-dimer concentration, the patient was considered to have DIC secondary to consumption of coagulation factors after TEVAR.A). No hematologic disorder was observed on bone marrow biopsy. The score for diagnosis of overt DIC as proposed by the International Society on Thrombosis and Hemostasis (ISTH) was 8. On the basis of the post-TEVAR clinical presentation of a decreased platelet count and fibrinogen concentration and an increased D-dimer concentration, the patient was considered to have DIC secondary to consumption of coagulation factors after TEVAR.Fig. 1Historical images before admission. A CTA shows type B aortic dissection extending from the left subclavian artery to the bilateral iliac artery with partial thrombosis. B, C Images of angiography during TEVARFig. 2Physical examination shows multiple subcutaneous petechiae on the trunk and extremities upon admissionFig. 3CTA on admission and during follow-up. A CTA shows persistent flow in the residual false lumen with partial thrombosis at the first admission. B CTA at readmission shows subtle progression of the thrombosis in the false lumen compared with the last admission. C CTA shows progression of the thrombosis in the false lumen without expansion at the 9-month follow-up",
+  "relevant_image_context": "A CTA shows type B aortic dissection extending from the left subclavian artery to the bilateral iliac artery with partial thrombosis."
+}

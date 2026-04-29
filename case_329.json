@@ -1,0 +1,31 @@
+{
+  "case_id": 329,
+  "images": {
+    "subfig": "case_329_subfig.jpg",
+    "full": "case_329_full.jpg"
+  },
+  "question": "Based on this image, how many spinal fixation rods are visible?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the lateral cervical radiograph for metallic fixation hardware. I look specifically for long, linear, high‑density structures that follow the posterior cervical spine and are joined by screw heads and connectors.\n\nNext, I identify two distinct curved metallic rods running parallel along the cervical vertebral column; both rods are continuous and joined to the vertebrae by multiple screws and connectors. I scan the image for any additional similar rods and do not find any other long linear metallic elements that would represent a third or fourth rod.\n\nThen, I relate these observations to the question, which asks for the number of spinal fixation rods visible. Comparing the count seen (two rods) against the provided choices (1, 2, 3, 4) shows that the image corresponds to two rods.\n\nTherefore, based on the visible hardware in the image, the correct choice is the option indicating two rods.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "X-ray",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Control X-ray showing reduction of the dislocation with combined fixation.",
+  "sub_caption": "Control X-ray showing reduction of the dislocation with combined fixation.",
+  "image_context": "He was admitted to the emergency room following a motor vehicle accident with an occipital impact point. On admission, the patient was conscious, well oriented, and hemodynamically stable. The neurological examination found a preserved mortice and sensory function (FRANKEL E). He complained of only moderate neck pain. We noticed during the examination that his neck was fixed with imoprtante stiffness, movements in the lateral direction and flexion extension was impossible. The X-ray of the cervical spine showed a transverse fracture-dislocation C5–C6 on a pathological spine (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). The cerebral CT scan was normal. The patient was admitted to the neurosurgery department after immobilization with a neck brace, and a cervical CT scan was requested (). The cerebral CT scan was normal. The patient was admitted to the neurosurgery department after immobilization with a neck brace, and a cervical CT scan was requested (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>).).Fig. 1Cervical X RAY profile shows a dislocation fracture of c5-c6.Fig. 1Fig. 2Cervical CT-SCAN shows a dislocation fracture of C5–C6.Fig. 2",
+  "relevant_image_context": "Fig. 1 Cervical X RAY profile shows a dislocation fracture of c5-c6."
+}

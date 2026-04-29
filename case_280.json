@@ -1,0 +1,32 @@
+{
+  "case_id": 280,
+  "images": {
+    "subfig": "case_280_subfig.jpg",
+    "full": "case_280_full.jpg"
+  },
+  "question": "Based on this image, what is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Tubular gastric conduit (gastric pull-up)",
+    "B": "Tracheoesophageal fistula",
+    "C": "Mediastinal abscess",
+    "D": "Intrathoracic colon interposition",
+    "E": "Esophageal perforation with leak"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image for key anatomic and contrast findings. I see a single, well-defined tubular structure in the mediastinum that is opacified with contrast; the airway (tracheal lumen) is seen separately and does not contain contrast. There is no obvious extraluminal contrast, no rim-enhancing fluid collection, and no dispersed air pocket around the tubular structure.\n\nNext, I relate those observations to the diagnostic choices. A tubular, contrast-filled structure coursing through the mediastinum is most consistent with a surgically created intrathoracic conduit (option A). A tracheoesophageal fistula (B) would show contrast passing into the trachea/airway, which is not present. A mediastinal abscess (C) would appear as a localized fluid/air collection with surrounding inflammatory change, which is not seen. Intrathoracic colon interposition (D) would commonly show colonic morphology (haustral pattern or gas-fluid levels), not a smooth contrast-filled tube. Esophageal perforation with leak (E) would show extraluminal contrast or surrounding leak, which is absent.\n\nTherefore, the imaging appearance—an isolated, smooth, contrast-opacified tubular structure in the mediastinum—best fits a tubular gastric conduit (gastric pull-up).",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Postoperative chest CT with gastrografin showed the gastric tubulization (arrow).",
+  "sub_caption": "Postoperative chest CT with gastrografin showed the gastric tubulization (arrow).",
+  "image_context": "The patient had a regular course of recovery; however, on the day 15 post-surgery, when the patient was switched to a semisolid diet, loss of food bolus from the pleural drainage tubes was observed. She then underwent a re-thoracotomy with detection of the fistula, closure of the leak, and affixation of a muscle flap from the intercostal muscle to protect the anastomosis. The patient then had a regular post-surgical course. A chest CT with contrast enhancement and gastrografin after 10 days from surgery (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>) showed no spreading of contrast.) showed no spreading of contrast.Fig. 3Postoperative chest CT with gastrografin showed the gastric tubulization (arrow).Fig. 3",
+  "relevant_image_context": "A chest CT with contrast enhancement and gastrografin after 10 days from surgery showed no spreading of contrast. Fig. 3 Postoperative chest CT with gastrografin showed the gastric tubulization (arrow)."
+}

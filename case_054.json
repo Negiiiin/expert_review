@@ -1,0 +1,31 @@
+{
+  "case_id": 54,
+  "images": {
+    "subfig": "case_054_subfig.jpg",
+    "full": "case_054_full.jpg"
+  },
+  "question": "Which pathophysiologic process most likely produces absent internal microvascular perfusion within a tumor?",
+  "question_scope": "full_figure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Coagulative ischemic infarction of tissue",
+    "B": "High-flow arteriovenous shunting",
+    "C": "Cystic (liquefactive) degeneration",
+    "D": "Central abscess with purulence"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the images for vascularity and internal structure. On grayscale ultrasound the lesion is large and heterogeneous with a central region that differs from the periphery. Color/Doppler views (right side of panel b) show little or no internal flow signals within that central region. On the contrast-enhanced ultrasound image (left of panel b) there is marked enhancement of the peripheral tissue while the central core remains non-enhancing (yellow arrows), indicating absent microbubble contrast within the center. The axial MR image (panel c, red arrow) shows a corresponding central zone distinct from the enhancing/solid rim, consistent with loss of internal perfusion.\n\nNext, I relate those imaging observations to the question: it asks which pathophysiologic process most likely produces absent internal microvascular perfusion within a tumor. The imaging demonstrates a central area with no detectable microvascular flow or contrast uptake surrounded by enhancing peripheral tissue — a pattern most consistent with tissue that has lost its blood supply and become infarcted/necrotic.\n\nThen I consider the answer choices relative to the images. High-flow arteriovenous shunting (B) would produce increased internal flow signals and early enhancement, which conflicts with absent central perfusion. Cystic (liquefactive) degeneration (C) or a central abscess with purulence (D) can produce fluid-filled non-enhancing areas, but the overall appearance here (large non-enhancing central core within an otherwise solid tumor and absent microvascular signal on Doppler/CEUS) is more characteristic of ischemic/coagulative infarction of tumor tissue leading to absent microvascular perfusion. Therefore the imaging findings most directly support coagulative ischemic infarction as the cause of the absent internal microvascular perfusion.\n\nIn summary, the multimodality imaging shows a non-enhancing, non-perfused central core within a tumor, best explained by coagulative ischemic infarction.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound (contrast-enhanced ultrasound)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Necrotic uterine fibroid, 25 weeks of pregnancy. (a) Inhomogeneous, hypo-/hyperechoic lesion of the uterus with 15 cm in diameter in B-mode (yellow arrows; red arrow: uterus). (b) Only a slightly marginal contrast enhancement was detected in CEUS (yellow arrow). (c) In adjunct MRI, a predominantly T2-hypointense, inhomogeneous lesion of the left uterine wall was visualized (red arrowhead).",
+  "sub_caption": "(b) Only a slightly marginal contrast enhancement was detected in CEUS (yellow arrow).",
+  "image_context": "Due to an incidentally detected unclear uterine tumor, a 34-year-old patient at 25 weeks of gestational age was referred to our department by her caring obstetrician. The woman suffered lower abdominal pain with blood tests having revealed elevated markers of inflammation. Contrast-enhanced ultrasound was performed for the definitive characterization of the uterine lesion. A 15 cm inhomogeneous tumor at the left uterine wall could be visualized in B-mode ultrasound (<xref ref-type=\"fig\" rid=\"medicina-56-00675-g002\">Figure 2</xref>a). The lesion showed no hypervascularization in Doppler mode and only a slight contrast enhancement in CEUS (a). The lesion showed no hypervascularization in Doppler mode and only a slight contrast enhancement in CEUS (<xref ref-type=\"fig\" rid=\"medicina-56-00675-g002\">Figure 2</xref>b). The morphological findings led to the diagnosis of necrotic uterine fibroid confirmed by MRI (b). The morphological findings led to the diagnosis of necrotic uterine fibroid confirmed by MRI (<xref ref-type=\"fig\" rid=\"medicina-56-00675-g002\">Figure 2</xref>c). Under calculated antibiotic therapy, the serum inflammatory markers returned to normal levels and the patient was discharged to ambulatory care after a hospitalization period of five days.c). Under calculated antibiotic therapy, the serum inflammatory markers returned to normal levels and the patient was discharged to ambulatory care after a hospitalization period of five days.",
+  "relevant_image_context": "The lesion showed no hypervascularization in Doppler mode and only a slight contrast enhancement in CEUS (b). The morphological findings led to the diagnosis of necrotic uterine fibroid confirmed by MRI (b)."
+}

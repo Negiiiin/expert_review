@@ -1,0 +1,31 @@
+{
+  "case_id": 6,
+  "images": {
+    "subfig": "case_006_subfig.jpg",
+    "full": "case_006_full.jpg"
+  },
+  "question": "How many distinct lesions are visible in the image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "Zero",
+    "B": "One",
+    "C": "Two",
+    "D": "Three or more"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for visible abnormalities. The image shows a single, well-circumscribed, raised polypoid lesion centered in the field; it has distinct borders and a lobulated surface texture that contrasts with the surrounding mucosal folds and vascular pattern.\n\nNext, I relate what I see to the question, which asks how many distinct lesions are visible. I scan the surrounding mucosa carefully: there are small white specks and mucosal folds, but no other raised or clearly demarcated lesions similar to the central one.\n\nThen, I compare these observations to the answer choices. Because only one clearly defined lesion is present and no second comparable lesion can be identified, the count corresponds to a single lesion.\n\nTherefore, based on the visible findings in the image, the correct choice is one distinct lesion.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "endoscopy",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "endoscopy"
+  ],
+  "caption": "(A) Screen shot of the model during the evaluation of a NICE type 1 lesion (hyperplastic polyp). The display shows the type determined by the model (type 1) and the probability (100%). (B) Screen shot of the model in the evaluation of a NICE type 2 lesion (conventional adenoma). The display shows the type 2 determined by the model and the probability (100%) (see video). NICE, narrow band imaging International Colorectal Endoscopic.",
+  "sub_caption": "(B) Screen shot of the model in the evaluation of a NICE type 2 lesion (conventional adenoma). The display shows the type 2 determined by the model and the probability (100%) (see video). NICE, narrow band imaging International Colorectal Endoscopic.",
+  "image_context": "Accordingly, 125 polyp videos were evaluated using the AI model. The final pathology of the 125 lesions was 51 hyperplastic polyps and 74 adenomas. Of these, the model did not build enough confidence to predict the histology in 19 polyps, leaving 106 in which the model made a high confidence prediction. Table 1 shows the predictions of the model for these 106 diminutive polyps compared with the histologies of the polyps. <xref ref-type=\"fig\" rid=\"gutjnl-2017-314547f04\">Figure 4</xref> shows screenshots of the model as it appears in real-time in the evaluation of NICE type 1 and 2 lesions (unaltered) and for which the model reached high confidence. The video shows the model as it appears during colonoscopy (online  shows screenshots of the model as it appears in real-time in the evaluation of NICE type 1 and 2 lesions (unaltered) and for which the model reached high confidence. The video shows the model as it appears during colonoscopy (online supplementary video 1). For the 106 polyps, the accuracy of the model was 94% (95% CI 86% to 97%), the sensitivity for identification of adenomas was 98% (95% CI 92% to 100%), specificity was 83% (95% CI 67% to 93%), negative predictive value was 97% and positive predictive value was 90%.",
+  "relevant_image_context": "Accordingly, 125 polyp videos were evaluated using the AI model. The final pathology of the 125 lesions was 51 hyperplastic polyps and 74 adenomas. Of these, the model did not build enough confidence to predict the histology in 19 polyps, leaving 106 in which the model made a high confidence prediction. Table 1 shows the predictions of the model for these 106 diminutive polyps compared with the histologies of the polyps. Figure 4 shows screenshots of the model as it appears in real-time in the evaluation of NICE type 1 and 2 lesions (unaltered) and for which the model reached high confidence. The video shows the model as it appears during colonoscopy (online supplementary video 1). For the 106 polyps, the accuracy of the model was 94% (95% CI 86% to 97%), the sensitivity for identification of adenomas was 98% (95% CI 92% to 100%), specificity was 83% (95% CI 67% to 93%), negative predictive value was 97% and positive predictive value was 90%. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

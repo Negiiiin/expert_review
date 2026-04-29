@@ -1,0 +1,31 @@
+{
+  "case_id": 308,
+  "images": {
+    "subfig": "case_308_subfig.jpg",
+    "full": "case_308_full.jpg"
+  },
+  "question": "On the displayed image, in which region is the finding located?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper right of image",
+    "B": "Upper left of image",
+    "C": "Lower right of image",
+    "D": "Lower left of image"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for the location of the abnormality. The axial CT slice shows a single large, well-defined lesion outlined in red on the image.\n\nNext, I relate what I see to the question, which asks in which image region the finding is located among the four quadrant options (upper right, upper left, lower right, lower left).\n\nThen, I determine the lesion's position relative to the image center and vertical/horizontal axes. The bulk of the outlined lesion lies on the right-hand side of the image and extends into the lower half of the field of view. There is no comparable abnormality in the left side or in the upper half of the image.\n\nFinally, I compare these visual observations to the provided options and select the quadrant that matches the lesion’s position: lower right of the image.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Post contrast neck computed tomography scan; axial and coronal reformat images, demonstrates a very large cystic cervical mass (46 × 23 mm) with papillary projections in its antero-lateral aspect, in left neck zone Vb (a, c). Moreover, there is a small heterogeneously enhancing nodule with small central cystic component in left pre-auricular region, in the site of prior parotidectomy (b)",
+  "sub_caption": "axial and coronal reformat images, demonstrates a very large cystic cervical mass (46 × 23 mm) with papillary projections in its antero-lateral aspect, in left neck zone Vb (a, c).",
+  "image_context": "Post-contrast neck computed tomography (CT) scan; demonstrated a very large cystic cervical mass (46 × 23 mm) with papillary projections in the antero-lateral aspect of the left neck zone Vb (Fig. <xref rid=\"13256_2024_4364_Fig1_HTML\" ref-type=\"fig\">1</xref>a, c). Moreover, there was a small heterogeneously enhancing nodule with small central cystic components in the left pre-auricular region (at the site of the prior surgical bed) (Fig. a, c). Moreover, there was a small heterogeneously enhancing nodule with small central cystic components in the left pre-auricular region (at the site of the prior surgical bed) (Fig. <xref rid=\"13256_2024_4364_Fig1_HTML\" ref-type=\"fig\">1</xref>b). In order to complete the restaging workup, a spiral lung CT was taken, which showed no distant metastases.b). In order to complete the restaging workup, a spiral lung CT was taken, which showed no distant metastases.Fig. 1Post contrast neck computed tomography scan; axial and coronal reformat images, demonstrates a very large cystic cervical mass (46 × 23 mm) with papillary projections in its antero-lateral aspect, in left neck zone Vb (a, c). Moreover, there is a small heterogeneously enhancing nodule with small central cystic component in left pre-auricular region, in the site of prior parotidectomy (b)",
+  "relevant_image_context": "Post-contrast neck CT scan; axial and coronal reform images, demonstrates a very large cystic cervical mass (46 × 23 mm) with papillary projections in its antero-lateral aspect, in left neck zone Vb (a, c). Moreover, there is a small heterogeneously enhancing nodule with small central cystic components in left pre-auricular region, in the site of prior parotidectomy (a, c)."
+}

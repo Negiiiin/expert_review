@@ -1,0 +1,32 @@
+{
+  "case_id": 110,
+  "images": {
+    "subfig": "case_110_subfig.jpg",
+    "full": "case_110_full.jpg"
+  },
+  "question": "What does the red arrow indicate on this CT image?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Left lateral ventricle",
+    "B": "Right lateral ventricle",
+    "C": "Acute subdural hematoma",
+    "D": "Cortical gliotic change"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the CT axial image and locate the red arrow. The red arrow points to a well-defined, dark (hypodense) CSF-filled cavity adjacent to the midline within the hemisphere. This cavity has the shape and position of a lateral ventricle and appears larger than the contralateral ventricle.\n\nNext, I relate these observations to the question, which asks what the red arrow indicates and lists left/right lateral ventricle, acute subdural hematoma, and cortical gliotic change as choices.\n\nThen, I consider how each option fits the image findings. The pointed structure is fluid-density and intraparenchymal (a ventricular cavity), which matches a lateral ventricle. An acute subdural hematoma would appear as a hyperdense (bright) crescent along the brain surface, not as a dark intracerebral cavity, so option C is inconsistent. Cortical gliotic change would be a cortical hypodense area at the brain surface, whereas the arrow targets a deep CSF space rather than cortex, so option D is unlikely. The arrow clearly marks the left-sided lateral ventricular cavity rather than the right.\n\nTherefore, based on the image appearance and location of the dark CSF-filled space, the red arrow indicates the left lateral ventricle.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Brain CT scan findings of the patient. The red arrow shows ventricular dilatation of the left lateral ventricle.The blue arrow shows gliotic changes in the temporoparietal and occipital lobes.CT, computed tomography",
+  "sub_caption": "The red arrow shows ventricular dilatation of the left lateral ventricle. The blue arrow shows gliotic changes in the temporoparietal and occipital lobes.",
+  "image_context": "The patient’s vital signs were within normal limits. She was conscious and oriented. Her higher mental function was normal, and her sensory function appeared to be intact. However, she displayed reduced bulk and power on the right side, as well as hypertonia and a plantar extensor response on the same side. In addition, she exhibited a circumduction gait. Brain CT scan results demonstrated left temporoparietal and occipital gliotic changes, likely related to the patient’s prior stroke, along with ex vacuo dilatation of the ipsilateral ventricle (Figure <xref rid=\"cureus-0015-00000041101-i01\" ref-type=\"fig\">1</xref>).).",
+  "relevant_image_context": "Brain CT scan results demonstrated left temporoparietal and occipital gliotic changes, likely related to the patient’s prior stroke, along with ex vacuo dilatation of the ipsilateral ventricle."
+}

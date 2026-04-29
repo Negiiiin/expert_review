@@ -1,0 +1,31 @@
+{
+  "case_id": 42,
+  "images": {
+    "subfig": "case_042_subfig.jpg",
+    "full": "case_042_full.jpg"
+  },
+  "question": "Which region of the displayed image best localizes the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper right of the image",
+    "B": "Upper left of the image",
+    "C": "Lower right of the image",
+    "D": "Lower left of the image"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for the abnormality. I see two large red arrows pointing to a prominent air- and soft-tissue-containing rounded structure that occupies the upper portion of the image on the viewer’s right side.\n\nNext, I relate what I see to the question, which asks which region of the displayed image best localizes the finding (options: upper right, upper left, lower right, lower left).\n\nThen, I consider how each option lines up with the observation. The marked structure is clearly in the superior half of the image (not the lower half) and is located on the right side of the image (not the left). There are no comparable findings in the lower quadrants to suggest a lower localization.\n\nFinally, tying these observations to the choices, the finding is best localized to the upper right region of the image.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Transverse segment of a CT scan showing a distended stomach, with a suggestion of gastric volvulus in the intrathoracic segment.The arrows show the stomach within the thoracic cavity.",
+  "sub_caption": "Transverse segment of a CT scan showing a distended stomach, with a suggestion of gastric volvulus in the intrathoracic segment. The arrows show the stomach within the thoracic cavity.",
+  "image_context": "A contrast abdominal and pelvic CT scan allowed the visualization of a very large herniation of the oesophageal hiatus with herniation of a large part of the stomach to the intrathoracic topography, as depicted in the two pictures below (Figures <xref ref-type=\"fig\" rid=\"cureus-0013-00000013285-i03\">3</xref> and 4). The stomach was very distended, with a suggestion of gastric volvulus in the intrathoracic segment, suggestive of a type 1 gastric volvulus (organoaxial rotation). No other significant alterations were found, including focal thickening of the gastric wall. and 4). The stomach was very distended, with a suggestion of gastric volvulus in the intrathoracic segment, suggestive of a type 1 gastric volvulus (organoaxial rotation). No other significant alterations were found, including focal thickening of the gastric wall.",
+  "relevant_image_context": "A contrast abdominal and pelvic CT scan allowed the visualization of a very large herniation of the oesophageal hiatus with herniation of a large part of the stomach to the intrathoracic topography, as depicted in the two pictures below (Figures 3 and 4). The stomach was very distended, with a suggestion of gastric volvulus in the intrathoracic segment, suggestive of a type 1 gastric volvulus (organoaxial rotation). No other significant alterations were found, including focal thickening of the gastric wall."
+}

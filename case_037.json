@@ -1,0 +1,32 @@
+{
+  "case_id": 37,
+  "images": {
+    "subfig": "case_037_subfig.jpg",
+    "full": "case_037_full.jpg"
+  },
+  "question": "On hospital day 4 a patient with an acute abdominal illness developed leukocytosis (WBC 18.0 × 10^9/L) and tachycardia (HR 110). A repeat contrast-enhanced abdominal CT is shown. Which of the following is contraindicated at this time because it is associated with increased early mortality/adverse outcomes?",
+  "question_scope": "subfigure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Immediate open surgical necrosectomy",
+    "B": "Percutaneous catheter drainage",
+    "C": "Broad-spectrum intravenous antibiotics",
+    "D": "Early enteral tube feeding",
+    "E": "Endoscopic retrograde cholangiopancreatography (ERCP)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the CT image. The pancreas appears heterogeneous with a large nonhomogeneous, hypodense region in the pancreatic bed (red arrow) and a sizable adjacent peripancreatic fluid collection that extends anteriorly (yellow and blue arrows). There is no obvious intralesional gas or a clearly walled-off, organized collection on this early study.\n\nNext, I relate these imaging findings to the clinical stem: the patient is on hospital day 4 with new leukocytosis and tachycardia, consistent with worsening acute pancreatitis with suspected necrosis and a large peripancreatic fluid collection, but no definite imaging sign of an established mature, encapsulated collection.\n\nThen I consider how each option aligns with those observations. Immediate open surgical necrosectomy (A) would require debridement at an early time point when necrosis is poorly demarcated and collections are not yet organized; performing major open surgery in this early phase is associated with worse early outcomes and higher mortality. Percutaneous catheter drainage (B) is a less invasive option that can be used to control infected or symptomatic collections and is compatible with the presence of a large fluid collection on CT. Broad-spectrum IV antibiotics (C) are reasonable if infection is suspected given leukocytosis and clinical deterioration. Early enteral tube feeding (D) is supported in patients with severe pancreatitis to maintain nutrition. ERCP (E) would be targeted therapy if there were biliary obstruction, which is not evident on this image.\n\nIn summary, given the early time point (day 4), large but not well-organized peripancreatic collections, and lack of clear imaging evidence that would mandate immediate open surgery, immediate open surgical necrosectomy is contraindicated because it is associated with increased early mortality/adverse outcomes at this stage.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Severe pancreatitis with (new) occlusion of the splenic vein and new suspected areas of pancreatic necrosis. Prominent increase in peripancreatic fluid and fluid extending along the left paracolic gutter suspicious for early pseudocyst formation. A: Severe pancreatitis (red arrow) with interval increase in peripancreatic fluid collection (yellow arrow), with suspected area of pancreatic necrosis (blue arrow). The fluid collection is seen anteriorly between the pancreas and the stomach which measures approximately 4.6 × 13.2 × 7.2 cm. B: Splenic vein thrombosis.",
+  "sub_caption": "A: Severe pancreatitis (red arrow) with interval increase in peripancreatic fluid collection (yellow arrow), with suspected area of pancreatic necrosis (blue arrow). The fluid collection is seen anteriorly between the pancreas and the stomach which measures approximately 4.6 × 13.2 × 7.2 cm.",
+  "image_context": "On day 4 patient’s white blood cell count increased to WBC: 18.0 × 109/L with tachycardia HR 110. A repeat CT scan of the abdomen and pelvis revealed worsening pancreatitis with small areas of low attenuation within the pancreatic parenchyma suspicious for necrosis. A prominent fluid collection was noted anteriorly between the pancreas and the stomach which measured approximately 4.6 × 13.2 × 7.2 cm. Another large fluid collection also developed along the left paracolic gutter measuring 6.2 × 5.0 × 19 cm. In addition, this imaging not only confirmed an early formation of pseudocyst (<xref rid=\"jchimp-12-01-075f2\" ref-type=\"fig\">Fig. 2</xref>), but also demonstrated a new occlusion and thrombosis of the splenic vein.), but also demonstrated a new occlusion and thrombosis of the splenic vein.",
+  "relevant_image_context": "On day 4 patient’s white blood cell count increased to WBC: 18.0 × 10^9/L with tachycardia HR 110. A repeat CT scan of the abdomen and pelvis revealed worsening pancreatitis with small areas of low attenuation within the pancreatic parenchyma suspicious for necrosis. A prominent fluid collection was noted anteriorly between the pancreas and the stomach which measured approximately 4.6 × 13.2 × 7.2 cm."
+}

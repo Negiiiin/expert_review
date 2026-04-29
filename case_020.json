@@ -1,0 +1,33 @@
+{
+  "case_id": 20,
+  "images": {
+    "subfig": "case_020_subfig.jpg",
+    "full": "case_020_full.jpg"
+  },
+  "question": "An adult patient in their 60s presented to the emergency department with sudden-onset severe headache and underwent non-contrast head CT to evaluate the cause. Which symptom or clinical sign would be most likely to accompany the imaging appearance?",
+  "question_scope": "subfigure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Nuchal rigidity (neck stiffness)",
+    "B": "Ipsilateral oculomotor nerve palsy",
+    "C": "Focal right-sided limb weakness",
+    "D": "New persistent visual field defect",
+    "E": "Gradual progressive cognitive decline"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the non-contrast axial head CT. There are areas of increased attenuation within the basal cisterns and along the sylvian fissures (hyperdense material in the subarachnoid spaces), which is most consistent with acute subarachnoid blood.\n\nNext, I relate that imaging appearance to the clinical question asking which symptom or sign would most likely accompany it in a patient with sudden severe headache. Blood in the subarachnoid space produces meningeal irritation, which commonly manifests as neck stiffness (nuchal rigidity).\n\nThen I consider how each option aligns with the imaging and acute presentation. Option A (nuchal rigidity) directly matches meningeal irritation from subarachnoid blood and therefore fits the image and acute presentation. Option B (ipsilateral oculomotor nerve palsy) describes a focal cranial nerve deficit not specifically suggested by the diffuse subarachnoid distribution seen here. Option C (focal right-sided limb weakness) implies a focal parenchymal lesion causing motor deficit, which is not evident on this scan. Option D (new persistent visual field defect) would require involvement of visual pathways or occipital cortex, not supported by the current image. Option E (gradual progressive cognitive decline) describes a chronic process incompatible with this acute finding.\n\nIn summary, the CT shows acute subarachnoid blood, and the most likely accompanying clinical sign among the choices is nuchal rigidity.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Head CT images of case 1 and case 2 with ruptured aneurysm and subarachnoid hemorrhage. 2.1: case 1; 2.2: case 2.",
+  "sub_caption": "Head CT images of case 1 and case 2 with ruptured aneurysm and subarachnoid hemorrhage. 2.1: case 1; 2.2: case 2.",
+  "image_context": "Case 1, an adult patient in 60 s, was admitted to the hospital due to bilateral posterior communicating artery aneurysm (PcoAA) found by head and neck CTA examination during physical examination. The left aneurysm was about 5.3 * 6.6 mm in size, and the right aneurysm was about 7.6 * 7.5 mm in size. It is planned to improve the head whole-brain angiography. During hospitalization, the aneurysm ruptured with a subarachnoid hemorrhage. According to the head CT (<xref rid=\"fneur-14-1277278-g002\" ref-type=\"fig\">Figure 2</xref>) of the patient when the aneurysm ruptured, the right PcoAA was considered to be the responsible aneurysm.) of the patient when the aneurysm ruptured, the right PcoAA was considered to be the responsible aneurysm. Case 2, an adult patient in 70 s. Head and neck CTA examination revealed a left PcoAA in 2019, about 3.0 * 5.0 mm in size. The patient chose conservative treatment. In 2021, the patient was admitted to the hospital due to a sudden explosive headache, and the head CT (<xref rid=\"fneur-14-1277278-g002\" ref-type=\"fig\">Figure 2</xref>) showed subarachnoid hemorrhage. According to the CT results, the left PcoAA was judged to be the responsible aneurysm, with a size of 5.0 * 5.3 mm.) showed subarachnoid hemorrhage. According to the CT results, the left PcoAA was judged to be the responsible aneurysm, with a size of 5.0 * 5.3 mm.",
+  "relevant_image_context": "Case 1, an adult patient in 60s, was admitted to the hospital due to bilateral posterior communicating artery aneurysm (PcoAA) found by head and neck CTA examination during physical examination. The left aneurysm was about 5.3 × 6.6 mm in size, and the right aneurysm was about 7.6 × 7.5 mm. During hospitalization, the aneurysm ruptured with a subarachnoid hemorrhage. According to the head CT (Figure 2) of the patient when the aneurysm ruptured, the right PcoAA was considered to be the responsible aneurysm. Case 2, an adult patient in 70s. Head and neck CTA examination revealed a left PcoAA in 2019, about 3.0 × 5.0 mm in size. The patient chose conservative treatment. In 2021, the patient was admitted to the hospital due to a sudden explosive headache, and the head CT showed subarachnoid hemorrhage. According to the CT results, the left PcoAA was judged to be the responsible aneurysm, with a size of 5.0 × 5.3 mm."
+}

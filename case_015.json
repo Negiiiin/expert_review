@@ -1,0 +1,31 @@
+{
+  "case_id": 15,
+  "images": {
+    "subfig": "case_015_subfig.jpg",
+    "full": "case_015_full.jpg"
+  },
+  "question": "What structure does the asterisk on the image indicate?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Radiohumeral (radiocapitellar) joint space",
+    "B": "Common extensor tendon",
+    "C": "Radial collateral ligament",
+    "D": "Needle trajectory path"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for labeled anatomy and the position of the asterisk. I see labeled structures: NT (needle trajectory) coursing obliquely near the top, CET (common extensor tendon) superficial and curvilinear, RCL (radial collateral ligament) just deep to the CET, LE (lateral epicondyle) at the left, and RH (radial head) at the right. The asterisk is placed deep and slightly medial to the RCL and immediately adjacent to the RH in a small, relatively hypoechoic cleft.\n\nNext, I relate these observations to the question, which asks which structure the asterisk indicates. I compare the asterisk location to each option: the CET (option B) is labeled and visibly superficial to the asterisk, so that does not match. The RCL (option C) is labeled directly above the asterisk, so the asterisk is not marking the ligament itself. The NT (option D) is the echogenic linear path near the top, clearly separate from the asterisk’s site.\n\nThen I consider option A (radiohumeral/radiocapitellar joint space). The asterisk lies in the small space immediately adjacent to the radial head (RH), consistent with an articular joint space at the radiohumeral interface. This spatial relationship fits the asterisk’s position better than the other labeled structures.\n\nTherefore, based on the image anatomy and relative positions, the asterisk indicates the radiohumeral (radiocapitellar) joint space.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "The needle trajectory (NT) in the forearm direction used to deliver the drug above CET and between CET and RCL is shown*joint space. LE: lateral epicondyle; CET: common extensor tendon; RCL: radial collateral ligament; RH: radial head",
+  "sub_caption": "The needle trajectory (NT) in the forearm direction used to deliver the drug above CET and between CET and RCL is shown*joint space. LE: lateral epicondyle; CET: common extensor tendon; RCL: radial collateral ligament; RH: radial head",
+  "image_context": "A 70-year-old woman with normal body mass index (BMI) and no relevant medical history presented to our hospital complaining of right LE with a numerical rating score (NRS) of 5, lasting for 10 months. Treatment from her general practitioner comprised ibuprofen, 600 mg twice a day per os for 14 days, and transcutaneous electrical nerve stimulation (TENS) with a transient reduction of pain. Subsequently, she was submitted to 3 local corticosteroid injections, once per week for 3 consecutive weeks. The pain disappeared for 15 days after the last injection, and then recurred (NRS=5). We selected US-guided prolotherapy with 2 mL of 16.5% dextrose. The US scan was performed with a linear transducer 13–6 MHz Mylab One (Esaote, Genova, Italy) and we used an in-plane approach to inject distally to the bone insertion site in the forearm direction, above and below the insertion of the ECRB component of the common extensor tendon (<xref ref-type=\"fig\" rid=\"TJAR-48-6-509-g01\">Figure 1</xref>). Before the injections, the maximal thickness of ECRB at the proximal insertion was 5 mm compared to 4 mm of the unaffected arm, and the colour Doppler US examination showed a mild vascularization (severity was classified as follows: 0=No vascularization, 1=Mild, 2=Moderate, and 3=Severe), according to Hoksrud et al. (). Before the injections, the maximal thickness of ECRB at the proximal insertion was 5 mm compared to 4 mm of the unaffected arm, and the colour Doppler US examination showed a mild vascularization (severity was classified as follows: 0=No vascularization, 1=Mild, 2=Moderate, and 3=Severe), according to Hoksrud et al. (5).",
+  "relevant_image_context": "The US scan was performed with a linear transducer 13–6 MHz Mylab One (Esaote, Genova, Italy) and we used an in-plane approach to inject distally to the bone insertion site in the forearm direction, above and below the insertion of the ECRB component of the common extensor tendon."
+}

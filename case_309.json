@@ -1,0 +1,32 @@
+{
+  "case_id": 309,
+  "images": {
+    "subfig": "case_309_subfig.jpg",
+    "full": "case_309_full.jpg"
+  },
+  "question": "A patient presents with progressive paresthesias and gait disturbance. Laboratory testing shows low serum vitamin B12 (116 pg/mL) and low RBC folate; other routine blood tests are unremarkable. Which pharmacologic therapy is most appropriate to initiate?",
+  "question_scope": "full_figure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Intramuscular vitamin B12 injections",
+    "B": "High‑dose oral vitamin B12",
+    "C": "High‑dose folic acid alone",
+    "D": "Intravenous corticosteroids",
+    "E": "Intravenous immunoglobulin (IVIG)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for focal findings: the sagittal T2-weighted spinal MRI shows bilateral, symmetric hyperintense signal within the dorsal (posterior) columns of the cervical and upper thoracic cord (arrows mark the abnormal signal). The abnormality is longitudinally extensive along the posterior cord.\n\nNext, I relate what I see to the clinical question, which asks about a patient with progressive paresthesias and gait disturbance and laboratory evidence of low serum vitamin B12 and low RBC folate. The combination of posterior column spinal cord signal changes on MRI, sensory symptoms, gait disturbance, and a low B12 level supports that the neurologic process is due to vitamin B12 deficiency.\n\nThen, I consider how each treatment option aligns with those observations. Options D and E (intravenous corticosteroids, IVIG) are directed at inflammatory/immune causes and do not address an identified vitamin B12 deficiency. Option C (high‑dose folic acid alone) does not replace vitamin B12 and therefore would not treat the documented B12 deficiency that correlates with the MRI and symptoms. Options A and B both provide vitamin B12 replacement; given the presence of clear neurologic involvement on exam and imaging, the most appropriate initial therapy is the form intended to promptly and reliably correct the deficiency.\n\nFinally, tying these points together: because the imaging and labs show neurologic disease from vitamin B12 deficiency, the correct initial pharmacologic therapy is intramuscular vitamin B12 injections.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ambiguous"
+  ],
+  "caption": "– Sagittal T2-weighted MRI image showing increased signal intensity (arrows) in posterior columns of the spinal cord extending from cervico-medullary junction to the upper border of the T12 vertebra",
+  "sub_caption": "Sagittal T2-weighted MRI image showing increased signal intensity (arrows) in posterior columns of the spinal cord extending from cervico-medullary junction to the upper border of the T12 vertebra",
+  "image_context": "Based on the megaloblastic changes and neurological manifestations, vitamin B12 deficiency was suspected. Subsequent investigations revealed; low serum vitamin B12 (116 pg/ml; normal 187–883 pg/ml) and RBC folate (91 µg/L; normal 126–650 µg/L) levels. MRI of the spine revealed symmetrical T2-weighted high signal intensity in the posterior column from cervico-medullary junction to the 12th thoracic vertebra suggesting subacute combined degeneration of the spinal cord (Fig. <xref rid=\"12887_2021_2499_Fig3_HTML\" ref-type=\"fig\">3</xref>). Axial T2-weighted images showed ‘inverted V sign’ with symmetrical bilateral hyperintense signal in posterior columns (Fig. ). Axial T2-weighted images showed ‘inverted V sign’ with symmetrical bilateral hyperintense signal in posterior columns (Fig. <xref rid=\"12887_2021_2499_Fig4_HTML\" ref-type=\"fig\">4</xref>). MRI of the brain revealed multiple bilateral patchy T2-weighted high signal intensity in the centrum semiovale and deep white matter areas with mild cerebral and cerebellar atrophy. The ventricular system, extra-axial cerebrospinal fluid spaces and cerebellar folia were prominent. His nerve conduction study was normal, anti-intrinsic factor antibody titre was 14.7U (Normal &lt; 20.0), and anti-parietal cell antibodies were negative. Urine analysis revealed urine albumin 2 + with normal microscopy. Urine protein: creatinine ratio was 225 mg/mmol suggesting non-nephrotic range proteinuria. His liver and renal function tests, serum electrolytes, serum calcium, serum protein and renal ultrasonography were normal; however, 25-hydroxy vitamin D level was 27.3 ng/mL (normal 30–100 ng/mL).). MRI of the brain revealed multiple bilateral patchy T2-weighted high signal intensity in the centrum semiovale and deep white matter areas with mild cerebral and cerebellar atrophy. The ventricular system, extra-axial cerebrospinal fluid spaces and cerebellar folia were prominent. His nerve conduction study was normal, anti-intrinsic factor antibody titre was 14.7U (Normal < 20.0), and anti-parietal cell antibodies were negative. Urine analysis revealed urine albumin 2 + with normal microscopy. Urine protein: creatinine ratio was 225 mg/mmol suggesting non-nephrotic range proteinuria. His liver and renal function tests, serum electrolytes, serum calcium, serum protein and renal ultrasonography were normal; however, 25-hydroxy vitamin D level was 27.3 ng/mL (normal 30–100 ng/mL).",
+  "relevant_image_context": "Based on the megaloblastic changes and neurological manifestations, vitamin B12 deficiency was suspected. Subacute combined degeneration of the spinal cord was identified. MRI of the spine revealed symmetrical T2-weighted high signal intensity in the posterior column from cervico-medullary junction to the 12th thoracic vertebra suggesting subacute combined degeneration of the spinal cord (Fig. 3)."
+}

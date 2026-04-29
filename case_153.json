@@ -1,0 +1,31 @@
+{
+  "case_id": 153,
+  "images": {
+    "subfig": "case_153_subfig.jpg",
+    "full": "case_153_full.jpg"
+  },
+  "question": "A previously healthy 30-year-old man presents with sudden, severe back pain after lifting a heavy object. Neurologic examination is otherwise normal except for mild left foot numbness. Based on the imaging, which symptom or clinical sign would be most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Decreased patellar (knee-jerk) reflex",
+    "B": "Weakness of ankle plantarflexion",
+    "C": "Weakness of great-toe dorsiflexion",
+    "D": "Saddle anesthesia with urinary retention"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided sagittal CT of the lumbar spine. The image shows a comminuted fracture of the mid-lumbar vertebral body with inward/retropulsed bone fragments projecting into the spinal canal at the level of the fractured vertebra (appearing at the L4 level).\n\nNext, I relate those imaging findings to the clinical stem. The patient has sudden severe back pain after lifting and only mild left foot numbness on exam, with otherwise normal neurologic exam. The imaging demonstrates focal canal compromise at the level of the fractured vertebra rather than diffuse or multilevel compression.\n\nThen, I consider how each answer aligns with a focal L4-level vertebral fracture that impinges nerve structures at that level. Option A (decreased patellar reflex) is the sign most directly linked to dysfunction at the L4 nerve root/level and would be expected with focal compression near L4. Options B (ankle plantarflexion weakness) and C (great-toe dorsiflexion weakness) correspond to more caudal roots and are less likely with a single focal lesion at the L4 level. Option D (saddle anesthesia with urinary retention) describes severe, multilevel cauda equina compression and would typically present with bilateral and sphincter dysfunction; the image shows a single-level retropulsion and the patient’s deficits are mild and unilateral, making D unlikely.\n\nTherefore, the imaging and the mild unilateral sensory deficit point to focal L4-level root compromise, making a decreased patellar (knee-jerk) reflex the most likely clinical sign.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Computed tomography scan of the lumbar spine showing an L4 burst fracture.",
+  "sub_caption": "Computed tomography scan of the lumbar spine showing an L4 burst fracture.",
+  "image_context": "A previously healthy 30-year-old man presented with sudden and intense back pain after lifting a heavy object. Radiological investigation demonstrated an L4 burst fracture with presence of bone fragments in the spinal canal (Fig. <xref ref-type=\"fig\" rid=\"rjw063f01\">1</xref>). Clinical examination was normal except for a mild left foot numbness. His routine laboratory assessment revealed hypochromic microcytic anemia.\n). Clinical examination was normal except for a mild left foot numbness. His routine laboratory assessment revealed hypochromic microcytic anemia.\nFigure 1:Computed tomography scan of the lumbar spine showing an L4 burst fracture.",
+  "relevant_image_context": "A previously healthy 30-year-old man presented with sudden and intense back pain after lifting a heavy object. Radiological investigation demonstrated an L4 burst fracture with presence of bone fragments in the spinal canal (Fig. 1). Clinical examination was normal except for a mild left foot numbness. His routine laboratory assessment revealed hypochromic microcytic anemia. Figure 1: Computed tomography scan of the lumbar spine showing an L4 burst fracture. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

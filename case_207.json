@@ -1,0 +1,31 @@
+{
+  "case_id": 207,
+  "images": {
+    "subfig": "case_207_subfig.jpg",
+    "full": "case_207_full.jpg"
+  },
+  "question": "Which of the following best describes the primary imaging finding?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Residual erectile tissue (corpora cavernosum and spongiosum)",
+    "B": "Postoperative pelvic abscess",
+    "C": "Postoperative hematoma",
+    "D": "Urethral diverticulum"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial pelvic MRI for lesion morphology, signal characteristics, location, and symmetry. I observe two symmetric, elongated, parallel tubular/ovoid soft-tissue structures in the midline anterior pelvis that show relatively high signal compared with surrounding musculature; a smaller ovoid high-signal focus lies just inferior to them. The appearance is of organized, paired tubular structures rather than a single amorphous collection.\n\nNext, I relate these observations to the question, which asks which diagnosis best describes the primary imaging finding. Option A names residual erectile tissue (corpora cavernosum and spongiosum), which anatomically would appear as paired longitudinal structures in this region and matches the observed symmetry and tubular morphology. Option B (postoperative pelvic abscess) would typically present as an irregular fluid collection with surrounding inflammatory change and mass effect, which is not seen here. Option C (postoperative hematoma) would more likely be a focal, heterogeneous collection rather than symmetric paired tubular structures. Option D (urethral diverticulum) would present as a focal sac-like outpouching adjacent to the urethra, not as bilateral elongated structures.\n\nTherefore, based on the location, symmetric paired tubular morphology, and internal high signal, the imaging finding is best described as residual erectile tissue (corpora cavernosum and spongiosum).",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Residual erectile tissue. An asymptomatic 49-year-old transfeminine patient underwent pelvic magnetic resonance (MR) several years after penoscrotal inversion vaginoplasty. Axial T2-weighted image incidentally showed T2-hyperintense residual corpora cavernosum (arrows) and spongiosum (arrowhead), consistent with residual erectile tissue.",
+  "sub_caption": "Axial T2-weighted image incidentally showed T2-hyperintense residual corpora cavernosum (arrows) and spongiosum (arrowhead), consistent with residual erectile tissue.",
+  "image_context": "An asymptomatic 49-year-old transfeminine patient underwent pelvic MR after vaginoplasty (<xref rid=\"atm-09-07-609-f7\" ref-type=\"fig\"><italic>Figure 7</italic></xref>). Incidentally noted was a large volume of residual erectile tissues. Although this patient had no symptoms or complications related to the residual erectile tissue, it is important to note in case she might later develop bleeding, unexplained pelvic discomfort, or urethral stenosis.Figure 7). Incidentally noted was a large volume of residual erectile tissues. Although this patient had no symptoms or complications related to the residual erectile tissue, it is important to note in case she might later develop bleeding, unexplained pelvic discomfort, or urethral stenosis.",
+  "relevant_image_context": "An asymptomatic 49-year-old transfeminine patient underwent pelvic MR after vaginoplasty. Incidentally noted was a large volume of residual erectile tissues. Although this patient had no symptoms or complications related to the residual erectile tissue, it is important to note in case she might later develop bleeding, unexplained pelvic discomfort, or urethral stenosis."
+}

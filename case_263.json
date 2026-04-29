@@ -1,0 +1,31 @@
+{
+  "case_id": 263,
+  "images": {
+    "subfig": "case_263_subfig.jpg",
+    "full": "case_263_full.jpg"
+  },
+  "question": "Based on this image, which mechanism most likely explains the MRI artifact shown?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Magnetic susceptibility–induced field inhomogeneity",
+    "B": "Fat–water chemical shift artifact",
+    "C": "CSF flow–related motion artifact",
+    "D": "Aliasing (wrap-around) from undersampling"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for the appearance and location of the artifact. This is a sagittal lumbar spine MRI showing a focal area of marked signal loss/distortion in the posterior elements and posterior spinal canal at about the L4–L5 level. Within the posterior elements there are linear very low–signal structures consistent with surgical fixation hardware (pedicle screws), and the surrounding tissues show localized signal void/distortion.\n\nNext, I relate what I see to the question, which asks which mechanism most likely explains the MRI artifact. The artifact is focal, centered on and immediately adjacent to the metallic hardware, and appears as loss of signal and geometric distortion around that hardware.\n\nThen, I consider how each option lines up with those observations. Magnetic susceptibility–induced field inhomogeneity (A) produces focal signal loss and distortion near metal and therefore matches a localized artifact centered on screws. Fat–water chemical shift (B) typically produces thin, uniform banding at fat–water interfaces rather than a focal, hardware-centered signal void; that pattern is not seen here. CSF flow–related motion artifact (C) would produce ghosting or smearing along the CSF column, which is not evident—the CSF signal is not diffusely ghosted. Aliasing/wrap-around from undersampling (D) would produce replicated anatomy from outside the field of view, producing wrap-around patterns at image edges, which are not present.\n\nTherefore, the imaging findings — focal signal void/distortion localized to metallic posterior fixation — are best explained by magnetic susceptibility–induced field inhomogeneity from the hardware.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "The magnetic resonance imaging (T2-weighted imaging sequence) performed in 2020 following the second surgery involving L4-L5 Laminectomy and L2-L5 transpedicular fixation. A: Sagittal plane. Position of titanium screws following the transpedicular fixation. Titanium-induced artefacts prevent from reliable evaluation of the spinal canal and its contents; B: Axial plane at L3-L4 segment level. Note the additional space available in the central canal following the extended decompression.",
+  "sub_caption": "A: Sagittal plane. Position of titanium screws following the transpedicular fixation. Titanium-induced artefacts prevent from reliable evaluation of the spinal canal and its contents;",
+  "image_context": "Given the marked progression of symptoms and a radiological evidence of segmental stenosis, an operative treatment was proposed for the patient. Initially, patient decided to delay the intervention and wait, but neurological condition continued to worsen and 2 mo later he agreed to comply with the surgical management option. Patient underwent a L4-L5 Laminectomy with a caudal extension of previous duraplasty and L2-L5 transpedicular fixation (Figure <xref rid=\"WJCC-10-4519-g006\" ref-type=\"fig\">6</xref>). Hypertrophied ligamenta flava, facet joints, and visible adhesions were maximally removed from the spinal canal to accommodate the thecal sac. The post-operative period was uneventful, and patient’s pre-operative symptoms in terms of ambulation and pain improved dramatically following the operation. However, the problem of urinary retention remained unaffected, without the significant changes observed between the pre-operative and post-operative status.). Hypertrophied ligamenta flava, facet joints, and visible adhesions were maximally removed from the spinal canal to accommodate the thecal sac. The post-operative period was uneventful, and patient’s pre-operative symptoms in terms of ambulation and pain improved dramatically following the operation. However, the problem of urinary retention remained unaffected, without the significant changes observed between the pre-operative and post-operative status.",
+  "relevant_image_context": "Given the marked progression of symptoms and a radiological evidence of segmental stenosis, an operative treatment was proposed for the patient. Initially, patient decided to delay the intervention and wait, but neurological condition continued to worsen and 2 mo later he agreed to comply with the surgical management option. Patient underwent a L4-L5 Laminectomy with a caudal extension of previous duraplasty and L2-L5 transpedicular fixation (Figure 6). Hypertrophied ligamenta flava, facet joints, and visible adhesions were maximally removed from the spinal canal to accommodate the thecal sac. The post-operative period was uneventful, and patient’s pre-operative symptoms in terms of ambulation and pain improved dramatically following the operation. However, the problem of urinary retention remained unaffected, without the significant changes observed between the pre-operative and post-operative status.). Hypertrophied ligamenta flava, facet joints, and visible adhesions were maximally removed from the spinal canal to accommodate the thecal sac. The post-operative period was uneventful, and patient’s pre-operative symptoms in terms of ambulation and pain improved dramatically following the operation. However, the problem of urinary retention remained unaffected, without the significant changes observed between the pre-operative and post-operative status. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

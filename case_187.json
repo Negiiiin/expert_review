@@ -1,0 +1,32 @@
+{
+  "case_id": 187,
+  "images": {
+    "subfig": "case_187_subfig.jpg",
+    "full": "case_187_full.jpg"
+  },
+  "question": "Which pathophysiologic mechanism most likely produces this histologic pattern?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Epithelial hyperplasia with crypt branching",
+    "B": "APC mutation causing Wnt pathway dysregulation",
+    "C": "Chronic inflammatory crypt architectural distortion",
+    "D": "Mucosal prolapse with fibromuscular hyperplasia"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the histologic image for salient morphological features. I see crypts with prominent luminal serration (a \"sawtooth\" appearance) and branching of crypt epithelium. The epithelium contains abundant mucin/goblet cells and does not show obvious high-grade cytologic atypia or a dense inflammatory cell infiltrate in the surrounding lamina propria. I also do not see expansion of smooth muscle within the lamina propria between crypts.\n\nNext, I relate these observations to the question, which asks which pathophysiologic mechanism most likely produces this histologic pattern.\n\nThen I consider each option in light of the image:\n- A (epithelial hyperplasia with crypt branching) directly accounts for the observed features: increased epithelial proliferation with branching and resulting serrated luminal contours fits the sawtooth/branched crypt architecture seen here.\n- B (APC mutation causing Wnt pathway dysregulation) describes a molecular mechanism that would more typically be expected to produce conventional adenomatous architecture with cytologic dysplasia, which is not evident in this image.\n- C (chronic inflammatory crypt architectural distortion) would usually be accompanied by a marked chronic inflammatory infiltrate and irregular, damaged crypts; those inflammatory changes are not present here.\n- D (mucosal prolapse with fibromuscular hyperplasia) would show smooth-muscle extension into the lamina propria and fibromuscular cores between crypts, which I do not observe.\n\nFinally, tying the observations to the choices, the pattern of serrated/branched crypts with epithelial hyperplasia is best explained by option A.",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "histology",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "Histology of a serrated polypArrows highlight the sawtooth configuration.",
+  "sub_caption": "Arrows highlight the sawtooth configuration.",
+  "image_context": "Colon cancer is the fourth most common cause of cancer and is second only to lung cancer as a cause of cancer mortality in the United States [1]. Colon cancers are believed to develop from polyps and, until recently, the adenoma was considered the exclusive precursor lesion while hyperplastic polyps (HPPs) were deemed to have no malignant potential. However, accumulated evidence suggested that a subset of HPPs are associated with cancers. Such evidence includes the finding of hyperplastic tissue at the margin of adenomas and the association of larger HPPs, particularly in the right colon, with carcinoma [2-4]. In 1990, Longacre and Fenoglio-Preiser [5] analyzed a group of polyps with features similar to HPPs and adenomas and concluded that most of these cases were actually adenomas with a serrated morphology, which led to the term ‘serrated adenoma’. These serrated polyps have a sawtooth pattern of crypt infolding as a distinct histological feature (<xref ref-type=\"fig\" rid=\"medrep-02-89-g001\">Figure 1</xref>).). There are distinct histological and genetic differences between serrated polyps and conventional adenomas (<xref ref-type=\"fig\" rid=\"medrep-02-89-g001\">Figure 1</xref> and  and <xref ref-type=\"fig\" rid=\"medrep-02-89-g003\">Figure 3</xref>). Histologically and by definition, all conventional adenomas show epithelial dysplasia, whereas SSAs often display cytological atypia or dysplasia but not the classical dysplastic morphology of conventional adenomas [). Histologically and by definition, all conventional adenomas show epithelial dysplasia, whereas SSAs often display cytological atypia or dysplasia but not the classical dysplastic morphology of conventional adenomas [9-11]. TSAs and mixed polyps also show classical epithelial dysplasia, but can be differentiated from conventional adenomas by their histology [10,11]. In recent years, there has been a heightened interest in the serrated adenoma pathway, but the lack of uniform terminology and histological interobserver agreement has hampered accurate estimates of the frequency of serrated polyps [10]. Chromoendoscopy has been shown to enhance mucosal detail and lesion detection [24, 25]. In two recent studies, one of which utilized chromoendoscopy, the frequency of serrated polyps was estimated to be as follows: HPPs were seen in ~30% of patients, SSAs in 4-9%, TSAs in ~0.7%, and mixed polyps in 0.7-1.7% [16,26].",
+  "relevant_image_context": "These serrated polyps have a sawtooth pattern of crypt infolding as a distinct histological feature. There are distinct histological and genetic differences between serrated polyps and conventional adenomas. Histologically and by definition, all conventional adenomas show epithelial dysplasia, whereas SSAs often display cytological atypia or dysplasia but not the classical dysplastic morphology of conventional adenomas."
+}

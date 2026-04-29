@@ -1,0 +1,31 @@
+{
+  "case_id": 25,
+  "images": {
+    "subfig": "case_025_subfig.jpg",
+    "full": "case_025_full.jpg"
+  },
+  "question": "How many distinct abnormal areas are visible on this image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for focal differences in attenuation or texture compared with the surrounding soft tissues. I scan the cross-sectional soft-tissue compartment and look for discrete regions that are clearly darker or lighter than the adjacent muscle.\n\nNext, I relate what I see to the question, which asks how many distinct abnormal areas are visible. In the image there is one clearly demarcated, rounded area of lower attenuation within the muscle belly that stands out from the otherwise relatively homogeneous muscle. I do not identify any additional separate low-attenuation or high-attenuation foci elsewhere in the visible soft tissues.\n\nThen, I consider how the options line up with those observations: the finding corresponds to a single distinct abnormal region rather than multiple separate abnormalities. Therefore, based on the visible findings, the correct count is one distinct abnormal area.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "clinical imaging"
+  ],
+  "caption": "CT of the left upper extremity without contrast showing a 4 × 6 × 10 cm hypoattenuating mass in the biceps muscles showing possible hematoma.",
+  "sub_caption": "CT of the left upper extremity without contrast showing a 4 × 6 × 10 cm hypoattenuating mass in the biceps muscles showing possible hematoma.",
+  "image_context": "A CT of the left upper extremity was also done which showed a 4 × 6 × 10 cm hypoattenuating mass in the biceps muscle most likely representing a hematoma (Figure <xref rid=\"cureus-0014-00000024811-i04\" ref-type=\"fig\">4</xref>).).",
+  "relevant_image_context": "A CT of the left upper extremity was also done which showed a 4 × 6 × 10 cm hypoattenuating mass in the biceps muscle most likely representing a hematoma."
+}

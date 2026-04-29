@@ -1,0 +1,31 @@
+{
+  "case_id": 219,
+  "images": {
+    "subfig": "case_219_subfig.jpg",
+    "full": "case_219_full.jpg"
+  },
+  "question": "A 53-year-old man with recent out-of-hospital cardiac arrest underwent coronary stenting and remains mechanically ventilated with cardiogenic shock supported by an intra-aortic balloon pump and inotropes. A CT aorta was obtained. Based on the imaging, which of the following prognostic statements is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "High risk of progressive heart failure",
+    "B": "Likely rapid recovery of LV function",
+    "C": "Low risk of ventricular arrhythmias",
+    "D": "Low risk of mechanical complications"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image at the level of the heart. There is a clearly visible region of reduced contrast enhancement along the lateral/anterolateral left ventricular myocardium (arrowed), which stands out compared with the surrounding myocardium and blood pool. This finding is consistent with a sizable area of poor perfusion or infarction.\n\nNext, I relate these imaging findings to the clinical question, which asks which prognostic statement is most likely given the scan in a patient who remains in cardiogenic shock after recent coronary intervention. A large region of hypoenhancing myocardium implies substantial loss of contractile myocardium and limited viable tissue in that territory. Such an imaging pattern makes rapid recovery of left ventricular function unlikely and provides a substrate for ongoing pump failure.\n\nThen, I consider the answer choices against these observations. A large infarct burden on imaging argues against a likely rapid recovery of LV function (so B is unlikely). It also does not support a low risk of ventricular arrhythmias or mechanical complications, because extensive infarction creates both electrical instability and structural vulnerability (making C and D unlikely). The most directly supported prognostic statement, based on a prominent perfusion defect and the clinical picture of persistent cardiogenic shock, is a high risk of progressive heart failure.\n\nIn summary, the CT shows a substantial area of myocardial hypoenhancement consistent with a large infarct or severely underperfused myocardium, which most strongly predicts progressive ventricular dysfunction and worsening heart failure.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT aorta: arrow points at the differential myocardial enhancement corresponding to large area of infarct.",
+  "sub_caption": "CT aorta: arrow points at the differential myocardial enhancement corresponding to large area of infarct.",
+  "image_context": "The patient is a 53-year-old man with a history of hypertension. He sustained an out of hospital cardiac arrest secondary to an anterolateral ST elevation myocardial infarction (STEMI). He was loaded with Prasugrel and heparin and was treated with drug eluting stents in the LM, proximal left anterior descending (LAD) and left circumflex coronary arteries. Because of persistent cardiogenic shock, an intra-aortic balloon pump was placed. Transthoracic echocardiogram (TTE) revealed severe left ventricular (LV) dysfunction with an ejection fraction of 25%, moderately severe aortic regurgitation, aortic root dissection and he was subsequently transferred to our institution. Upon arrival, he was mechanically ventilated and required increasing doses of inotropes. He experienced frequent supraventricular and ventricular arrhythmias. CT scan of the thoracic aorta revealed a dilated aortic root (maximum transverse diameter of 5 cm) and a dissection flap involving the non-coronary and left coronary sinuses with concern of transmural hypoperfusion of LAD territory (Fig. <xref ref-type=\"fig\" rid=\"rjx123f01\">1</xref>).\n).",
+  "relevant_image_context": "The patient is a 53-year-old man with a history of hypertension. He sustained an out of hospital cardiac arrest secondary to an anterolateral ST elevation myocardial infarction (STEMI). He was loaded with Prasugrel and heparin and was treated with drug eluting stents in the LM, proximal left anterior descending (LAD) and left circumflex coronary arteries. Because of persistent cardiogenic shock, an intra-aortic balloon pump was placed. Transthoracic echocardiogram (TTE) revealed severe left ventricular (LV) dysfunction with an ejection fraction of 25%, moderately severe aortic regurgitation, aortic root dissection and he was subsequently transferred to our institution. Upon arrival, he was mechanically ventilated and required increasing doses of inotropes. He experienced frequent supraventricular and ventricular arrhythmias. CT scan of the thoracic aorta revealed a dilated aortic root (maximum transverse diameter of 5 cm) and a dissection flap involving the non-coronary and left coronary sinuses with concern of transmural hypoperfusion of LAD territory (Fig. 1)."
+}

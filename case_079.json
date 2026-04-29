@@ -1,0 +1,29 @@
+{
+  "case_id": 79,
+  "images": {
+    "subfig": "case_079_subfig.jpg",
+    "full": "case_079_full.jpg"
+  },
+  "question": "A woman with abdominal discomfort underwent contrast-enhanced abdominal and pelvic CT as part of the workup. Serum beta-human chorionic gonadotropin was <0.100 mIU/mL, excluding ectopic pregnancy. Based on the imaging, is a ruptured hemorrhagic ovarian cyst the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "True",
+    "B": "False"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for anatomic and pathologic findings. This axial contrast-enhanced pelvic CT demonstrates a dependent fluid collection in the posterior cul-de-sac (pouch of Douglas) indicated by the arrow. The collection is of relatively high attenuation compared with simple fluid on this image, producing a heterogeneous/denser appearance that is most consistent with blood rather than simple serous fluid. I do not see a focal area of contrast extravasation (no active contrast blush) or an obviously enhancing adnexal mass on this slice.\n\nNext, I relate these imaging findings to the clinical question, which states serum beta-hCG is <0.100 mIU/mL (excluding ectopic pregnancy) and asks whether a ruptured hemorrhagic ovarian cyst is the most likely diagnosis. The combination of dependent high-attenuation pelvic fluid (compatible with hemoperitoneum) and exclusion of pregnancy points toward an intra-ovarian source of bleeding. A ruptured hemorrhagic ovarian cyst is a plausible and likely cause of the observed pelvic blood in this setting.\n\nThen, I consider the available answer choices (True/False) in light of the image findings. Given the localized posterior cul-de-sac hemorrhagic-appearing fluid, absence of active extravasation on this image, and exclusion of ectopic pregnancy, a ruptured hemorrhagic ovarian cyst is the most consistent diagnosis on the provided imaging. Therefore, the correct response is True.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Abdominal and pelvic contrast-enhanced computed tomography showing fluid collection in pelvic cavity (arrow).",
+  "sub_caption": "Abdominal and pelvic contrast-enhanced computed tomography showing fluid collection in pelvic cavity (arrow).",
+  "image_context": "Typically, patients undergoing LEEP in our hospital are discharged one day after the procedure. We postponed discharge because her clinical course was not usual. Abdominal and pelvic contrast-enhanced computed tomography (CT) was performed to assess the cause of her abdominal discomfort. Imaging studies revealed a moderate amount of blood collection in the pelvic cavity and no observable active bleeding site (<xref ref-type=\"fig\" rid=\"ogs-62-138-g001\">Fig. 1</xref>). Ectopic pregnancy was excluded as her beta human chorionic gonadotropin levels were less than 0.100 mIU/mL. Transvaginal ultrasonography found fluid collection in the posterior cul-de-sac and no abnormal findings in the uterus and adnexa.). Ectopic pregnancy was excluded as her beta human chorionic gonadotropin levels were less than 0.100 mIU/mL. Transvaginal ultrasonography found fluid collection in the posterior cul-de-sac and no abnormal findings in the uterus and adnexa.",
+  "relevant_image_context": "Abdominal and pelvic contrast-enhanced computed tomography (CT) was performed to assess the cause of her abdominal discomfort. Imaging studies revealed a moderate amount of blood collection in the pelvic cavity and no observable active bleeding site. Ectopic pregnancy was excluded as her beta human chorionic gonadotropin levels were less than 0.100 mIU/mL. Transvaginal ultrasonography found fluid collection in the posterior cul-de-sac and no abnormal findings in the uterus and adnexa."
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": 85,
+  "images": {
+    "subfig": "case_085_subfig.jpg",
+    "full": "case_085_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the coronal MRI image focusing on the lower neck/supraclavicular region and the expected course of the brachial plexus. In the image there is an irregular, lobulated soft-tissue lesion located in the supraclavicular area adjacent to the lower cervical/upper thoracic spine. This lesion produces obvious local mass effect: it displaces and indents the adjacent soft-tissue structures in the supraclavicular fossa and alters the normal smooth course of the neurovascular bundle in that region.\n\nNext, I relate these observations to the question, which asks whether the findings are normal or abnormal. A focal lobulated mass with mass effect and distortion of the expected anatomy is not a normal appearance for the supraclavicular/brachial plexus region on MRI.\n\nThen I consider the two answer choices. Choice A (\"Normal\") would require an absence of abnormal mass or distortion; that is not what the image shows. Choice B (\"Abnormal\") matches the clear presence of an abnormal soft-tissue mass producing displacement and compression of adjacent structures.\n\nTherefore, based on the visible lobulated lesion and its mass effect on the supraclavicular region and nearby neurovascular structures, the imaging findings are abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Coronal MRI demonstrating mass effect on bilateral brachial plexuses.",
+  "sub_caption": "Coronal MRI demonstrating mass effect on bilateral brachial plexuses.",
+  "image_context": "Three weeks following surgery, she presented with tender bilateral supraclavicular swelling, coldness, and numbness in both arms and hands, which felt “dead” on waking but were relieved by shaking. Examination revealed altered sensation and reduced power in C4-T2 distribution and positive Adson’s and Roos’ provocative tests for thoracic outlet compression. MRI images were unchanged. The majority of the mass effect was exerted at the level of the brachial plexus divisions and cords (Fig. <xref ref-type=\"fig\" rid=\"gox-3-e331-g003\">3</xref>). Given the severity and progressive nature of her symptoms, along with the radiological findings and after discussion with the hematologist, we recommended she undergo targeted excision of enlarged lymph nodes in the proximity of the brachial plexus. This was performed via supraclavicular to deltopectoral incisions and axillary incisions (Fig. ). Given the severity and progressive nature of her symptoms, along with the radiological findings and after discussion with the hematologist, we recommended she undergo targeted excision of enlarged lymph nodes in the proximity of the brachial plexus. This was performed via supraclavicular to deltopectoral incisions and axillary incisions (Fig. <xref ref-type=\"fig\" rid=\"gox-3-e331-g004\">4</xref>). On the right, the clavicle was split for access and later osteosynthesised (Fig. ). On the right, the clavicle was split for access and later osteosynthesised (Fig. <xref ref-type=\"fig\" rid=\"gox-3-e331-g005\">5</xref>). Bilateral brachial plexuses were exposed at level V and enlarged nodes excised. In addition, a bulky level IV node was excised on the right, and bulky level III/IV nodes were excised on the left. Enlarged nodes from bilateral axillary level II and III were excised. Histology revealed silicone lymphadenopathy with no evidence of malignancy. Within a day of surgery, her hand sensation improved and provocative tests were negative. Over the following 3 months, she regained normal sensation, power, and range of motion.). Bilateral brachial plexuses were exposed at level V and enlarged nodes excised. In addition, a bulky level IV node was excised on the right, and bulky level III/IV nodes were excised on the left. Enlarged nodes from bilateral axillary level II and III were excised. Histology revealed silicone lymphadenopathy with no evidence of malignancy. Within a day of surgery, her hand sensation improved and provocative tests were negative. Over the following 3 months, she regained normal sensation, power, and range of motion.",
+  "relevant_image_context": "Three weeks following surgery, she presented with tender bilateral supraclavicular swelling, coldness, and numbness in both arms and hands, which felt \"dead\" on waking but were relieved by shaking. Examination revealed altered sensation and reduced power in C4-T2 distribution and positive Adson’s and Roos’ provocative tests for thoracic outlet compression. MRI images were unchanged. The majority of the mass effect was exerted at the level of the brachial plexus divisions and cords (Fig. 3)."
+}

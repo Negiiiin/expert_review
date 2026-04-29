@@ -1,0 +1,31 @@
+{
+  "case_id": 90,
+  "images": {
+    "subfig": "case_090_subfig.jpg",
+    "full": "case_090_full.jpg"
+  },
+  "question": "Based on this image, what is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Vestibular schwannoma (acoustic neuroma)",
+    "B": "Meningioma",
+    "C": "Epidermoid cyst",
+    "D": "Metastatic lesion"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for lesion location and appearance. The axial post-contrast image shows a well-demarcated extra-axial mass centered in the left cerebellopontine angle that produces mass effect on the adjacent cerebellum. The lesion demonstrates vivid peripheral/solid enhancement with a nonenhancing central component, giving it a partly solid–partly cystic/necrotic appearance.\n\nNext, I relate what I see to the question, which asks for the most likely diagnosis among lesions that commonly occur in the cerebellopontine angle. The key imaging features to use are: an extra-axial CPA location, strong peripheral/solid enhancement, and absence of an obvious dural tail or broad dural attachment on this image.\n\nThen, I consider how each option lines up with those observations. Vestibular schwannoma classically arises in the CPA region and can appear as a well-circumscribed enhancing mass with cystic change; the lesion’s CPA location and enhancing solid rim are consistent with this. Meningioma would more typically show a broad-based dural attachment and often homogeneous dural-based enhancement (dural tail), which is not evident here. An epidermoid cyst usually follows CSF-like signal and does not enhance, so the bright enhancement seen argues against an epidermoid. Metastasis can ring-enhance, but a solitary, smoothly marginated extra-axial CPA mass that fits the expected location for cranial nerve VIII involvement favors a schwannoma over metastasis.\n\nTherefore, tying these observations together, the imaging appearance — an enhancing extra-axial mass in the CPA without a clear dural base and with a cystic component — is most consistent with a vestibular schwannoma.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "T1-weighed MRI demonstrates a 26-millimeter peripherally enhancing extra-axial lesion (arrow) in the left cerebellopontine angle with adjacent edema and mild mass effect in the left cerebellum. MRI, magnetic resonance imaging.",
+  "sub_caption": "T1-weighed MRI demonstrates a 26-millimeter peripherally enhancing extra-axial lesion (arrow) in the left cerebellopontine angle with adjacent edema and mild mass effect in the left cerebellum. MRI, magnetic resonance imaging.",
+  "image_context": "Magnetic resonance imaging demonstrated an extra-axial peripherally enhancing lesion measuring 26 mm in maximum diameter in the left cerebellopontine angle. There was adjacent edema and mild mass effect in the left cerebellum, with no evidence of hydrocephalus or midline shift (Fig. <xref rid=\"crn-0014-0191-g01\" ref-type=\"fig\">1</xref>).).",
+  "relevant_image_context": "Magnetic resonance imaging demonstrated an extra-axial peripherally enhancing lesion measuring 26 mm in maximum diameter in the left cerebellopontine angle. There was adjacent edema and mild mass effect in the left cerebellum, with no evidence of hydrocephalus or midline shift (Fig. 1)."
+}

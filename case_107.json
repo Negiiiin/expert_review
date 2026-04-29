@@ -1,0 +1,31 @@
+{
+  "case_id": 107,
+  "images": {
+    "subfig": "case_107_subfig.jpg",
+    "full": "case_107_full.jpg"
+  },
+  "question": "Based on this image, what is the severity category?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild",
+    "B": "Moderately severe",
+    "C": "Severe",
+    "D": "Indeterminate from image"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for anatomic and pathologic findings. This is an axial contrast-enhanced abdominal CT slice at the level of the pancreas. The pancreatic head/body region is enlarged and heterogeneous with areas of lower attenuation compared with the remainder of the gland, and there is an adjacent multiloculated fluid-density collection immediately anterior/superior to the pancreas (white arrow).\n\nNext, I relate these imaging findings to the question, which asks for the severity category based on this image. The key image findings I can directly observe are: (1) focal non-homogeneous pancreatic parenchyma consistent with necrotic-appearing change in the pancreatic head/body, and (2) a peripancreatic loculated fluid collection. These are local pancreatic complications visible on this study.\n\nThen, I consider how each labeled severity category aligns with those observations. The image clearly shows more than a simple, homogeneous inflamed pancreas (so “Mild” is not supported). The image demonstrates local pancreatic necrosis and a peripancreatic fluid collection, but there is no radiographic evidence on this single axial image of distant or systemic organ failure or additional complications (for example, no obvious intraperitoneal free air or clearly separate infected gas-containing collections are seen here).\n\nFinally, integrating these points: because the CT shows pancreatic necrosis with a peripancreatic fluid collection (local complications) but does not demonstrate imaging evidence of systemic organ failure on this image, the best severity category to choose from the provided options is moderately severe.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT scan of the abdomen showing extensive necrosis of the head of the pancreas with peripancreatic fluid collectionCT: computed tomography",
+  "sub_caption": "CT scan of the abdomen showing extensive necrosis of the head of the pancreas with peripancreatic fluid collection",
+  "image_context": "However, the patient again presented to the emergency with a similar clinical picture 12 days later. An ultrasound was inconclusive due to overlying bowel gasses; however, an abdominal CT scan with contrast showed an edematous pancreas with necrosis of the pancreatic head and multiloculated prepancreatic fluid collection, denoting a pancreatic pseudocyst (Figure <xref rid=\"cureus-0016-00000054437-i04\" ref-type=\"fig\">4</xref>).).",
+  "relevant_image_context": "an abdominal CT scan with contrast showed an edematous pancreas with necrosis of the pancreatic head and multiloculated prepancreatic fluid collection, denoting a pancreatic pseudocyst."
+}

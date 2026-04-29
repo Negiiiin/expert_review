@@ -1,0 +1,31 @@
+{
+  "case_id": 114,
+  "images": {
+    "subfig": "case_114_subfig.jpg",
+    "full": "case_114_full.jpg"
+  },
+  "question": "A patient presents with intermittent anterior hip ‘‘snapping.’’ Initial ultrasound is performed with the transducer in a sagittal oblique plane as shown. Which diagnostic imaging step is most appropriate next to evaluate the mechanism of the snapping?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Dynamic ultrasound with provocative maneuvers",
+    "B": "Magnetic resonance imaging of the hip",
+    "C": "Computed tomography of the pelvis",
+    "D": "Plain radiographs of the hip"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided ultrasound image and note the labeled anatomy in the sagittal oblique plane: 1 is the femoral head, 2 the femoral neck, and 3 the anterior capsule. The image is a single static sonographic frame showing the spatial relationship of the anterior capsular/soft-tissue structures relative to the femoral head/neck.\n\nNext, I relate these observations to the clinical question, which asks how best to evaluate the mechanism of intermittent anterior hip \"snapping.\" The phenomenon being queried is intermittent and involves motion of soft tissues over the femoral head/neck region, so understanding the mechanism requires assessment of real-time movement between these structures.\n\nThen, I consider how each imaging option aligns with that need. Magnetic resonance imaging, computed tomography, and plain radiographs provide static anatomic detail but do not document real-time dynamic interaction during a snapping event on their own. Dynamic ultrasound, in contrast, can be performed in real time while the patient performs provocative maneuvers, allowing direct visualization of soft-tissue or capsular structures as they move over the femoral head/neck and reproduce the snapping.\n\nFinally, because the initial image is a static ultrasound frame and the clinical issue is a dynamic, intermittent snapping, the most appropriate next diagnostic step is to perform dynamic ultrasound with provocative maneuvers to visualize the snapping mechanism directly.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Normal anatomical structures of the anterior aspect of the hip. Ultrasound image with the transducer in a sagittal oblique plane: the femoral head (1), the femoral neck (2), the anterior capsule (3)",
+  "sub_caption": "Ultrasound image with the transducer in a sagittal oblique plane: the femoral head (1), the femoral neck (2), the anterior capsule (3)",
+  "image_context": "During dynamic ultrasound evaluation of internal snapping, the transducer should be placed in the anterior part of the hip. At the beginning when scanning the hip in a sagittal oblique plane, the femoral head and neck are the landmark structures (<xref ref-type=\"fig\" rid=\"JoU-2016-0030-g003\">Fig. 3</xref>). Then, the transducer can be turned transversely over the femoral head to evaluate the iliopsoas tendon and muscle (). Then, the transducer can be turned transversely over the femoral head to evaluate the iliopsoas tendon and muscle (<xref ref-type=\"fig\" rid=\"JoU-2016-0030-g004\">Fig. 4</xref>). To evaluate the rectus femoris, the transducer should be moved laterally at the level of the anterior inferior iliac spine). To evaluate the rectus femoris, the transducer should be moved laterally at the level of the anterior inferior iliac spine(6, 10, 15).",
+  "relevant_image_context": "During dynamic ultrasound evaluation of internal snapping, the transducer should be placed in the anterior part of the hip. At the beginning when scanning the hip in a sagittal oblique plane, the femoral head and neck are the landmark structures (Fig. 3)."
+}

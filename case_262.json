@@ -1,0 +1,31 @@
+{
+  "case_id": 262,
+  "images": {
+    "subfig": "case_262_subfig.jpg",
+    "full": "case_262_full.jpg"
+  },
+  "question": "What does the arrow indicate?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Subcutaneous panniculitis (inflamed subcutaneous fat)",
+    "B": "Rectus abdominis muscle",
+    "C": "Anterior abdominal wall abscess",
+    "D": "Omental/mesenteric fat"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image to identify the exact anatomic location the arrow points to. The arrow targets a superficial area immediately beneath the skin on the anterior abdominal wall, within the subcutaneous fat layer. This region shows increased attenuation/stranding of the fat compared with the surrounding normal fat, suggesting inflammation of the subcutaneous fat.\n\nNext, I relate these findings to the question, which asks what the arrow indicates. I compare the appearance and location with the answer choices: the rectus abdominis muscle would be a deeper, more organized muscle band along the midline beneath the subcutaneous layer and is not what the arrow overlies; omental/mesenteric fat would be intraperitoneal and lie deeper and more centrally around the viscera, not in the superficial anterior wall; an anterior abdominal wall abscess would usually appear as a circumscribed fluid collection, which is not seen here.\n\nThen, I consider that the combination of the superficial location in subcutaneous fat and the increased fat attenuation/stranding is most consistent with inflammation of the subcutaneous fat (panniculitis). Therefore, the imaging appearance and location best match subcutaneous panniculitis.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "52-year-old male with subcutaneous panniculitis. Two axial (a, b) CT images through the upper abdomen demonstrate increased attenuation and inflammatory changes in the anterior abdominal wall subcutaneous fat (arrows), consistent with subcutaneous panniculitis",
+  "sub_caption": "Two axial (a, b) CT images through the upper abdomen demonstrate increased attenuation and inflammatory changes in the anterior abdominal wall subcutaneous fat (arrows), consistent with subcutaneous panniculitis.",
+  "image_context": "Panniculitis is a nonspecific histopathologic term to describe inflammation of adipose tissue. Panniculitis most commonly affects subcutaneous fat; however, intra-abdominal forms such as mesenteric panniculitis are widely recognized. There are many etiologies for panniculitis, including inflammation, infection (including COVID-19 infection), trauma, and malignancy, among others [39, 40]. On CT imaging, increased attenuation and “fat stranding” may be seen within the subcutaneous adipose tissues, consistent with the clinical diagnosis of erythema nodosum (Fig. <xref rid=\"261_2023_3830_Fig20_HTML\" ref-type=\"fig\">20</xref>).).Fig. 2052-year-old male with subcutaneous panniculitis. Two axial (a, b) CT images through the upper abdomen demonstrate increased attenuation and inflammatory changes in the anterior abdominal wall subcutaneous fat (arrows), consistent with subcutaneous panniculitis",
+  "relevant_image_context": "Panniculitis is a nonspecific histopathologic term to describe inflammation of adipose tissue. Panniculitis most commonly affects subcutaneous fat; however, intra-abdominal forms such as mesenteric panniculitis are widely recognized. There are many etiologies for panniculitis, including inflammation, infection (including COVID-19 infection), trauma, and malignancy, among others [39, 40]. On CT imaging, increased attenuation and “fat stranding” may be seen within the subcutaneous adipose tissues, consistent with the clinical diagnosis of erythema nodosum (Fig. 20)).).Fig. 2052-year-old male with subcutaneous panniculitis. Two axial (a, b) CT images through the upper abdomen demonstrate increased attenuation and inflammatory changes in the anterior abdominal wall subcutaneous fat (arrows), consistent with subcutaneous panniculitis First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 252,
+  "images": {
+    "subfig": "case_252_subfig.jpg",
+    "full": "case_252_full.jpg"
+  },
+  "question": "An 82-year-old woman presented after a fall with persistent right buttock pain. Bone mineral density testing shows a T-score of -3.3 at L1–L4, and she has not received prior pharmacologic treatment for low bone density. Based on this image and the clinical data, which pharmacologic therapy is most appropriate to initiate?",
+  "question_scope": "subfigure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Oral alendronate plus calcium and vitamin D",
+    "B": "Subcutaneous denosumab",
+    "C": "Teriparatide (parathyroid hormone analog)",
+    "D": "Raloxifene",
+    "E": "No pharmacologic therapy; conservative measures"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for acute findings relevant to the question. The AP pelvis radiograph shows a fracture of the right pubic ramus (black arrow) consistent with a pelvic fragility fracture; the hips and femoral necks appear intact on this view.\n\nNext, I relate these imaging findings to the clinical data. The patient is an 82-year-old woman with a T-score of -3.3 at L1–L4 (osteoporotic range) and she sustained a fracture after a fall. She has not received prior pharmacologic treatment for low bone density. Together, the radiographic fragility fracture and the low T-score indicate active osteoporotic disease that warrants pharmacologic therapy rather than observation alone.\n\nThen I consider how each treatment option aligns with this scenario. Option A (oral alendronate plus calcium and vitamin D) provides an antiresorptive, oral agent plus supplementation; this is an appropriate initial pharmacologic approach for a patient with untreated osteoporosis who has sustained a fragility fracture and has no stated contraindication to oral bisphosphonates. Option B (denosumab) is an alternative antiresorptive given by injection and would be reasonable if oral bisphosphonates were contraindicated or not tolerated, but no such contraindication is provided. Option C (teriparatide) is an anabolic agent typically reserved for patients with very high fracture burden or those who have failed or cannot take standard antiresorptives; nothing in the case mandates starting with an anabolic agent. Option D (raloxifene) is less suitable here because the patient has a recent nonvertebral fragility fracture and raloxifene is not the preferred agent in that context. Option E (no pharmacologic therapy) is not appropriate given the combination of severe low bone density and a fragility fracture.\n\nFinally, integrating the image (pubic ramus fragility fracture), the severe T-score, and the fact that she is treatment-naive, the most appropriate initial pharmacologic choice from the options presented is oral alendronate plus calcium and vitamin D supplementation.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "X-ray",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "(A) Pelvis anteroposterior radiograph view demonstrats right superior and inferior rami fractures (black arrow), (B) Axial computed tomography image shows cortical disruption of left sacral alar (black arrow).",
+  "sub_caption": "Pelvis anteroposterior radiograph view demonstrates right superior and inferior rami fractures (black arrow),",
+  "image_context": "Eighty two years old female visited outpatient clinic due to the pain on the right buttock that was occurred after a fall (slip down) on her behind. Simple radiograph at the time of her visiting indicated fractures in right pubic ramus and CT scan showed fractures in sacrum left side (<xref ref-type=\"fig\" rid=\"jbm-19-147-g003\">Fig. 3</xref>). Osteoporosis with T-score -3.3 (L1-4) was observed, but the patient had never diagnosed and treated for osteoporosis before the injury.). Osteoporosis with T-score -3.3 (L1-4) was observed, but the patient had never diagnosed and treated for osteoporosis before the injury.",
+  "relevant_image_context": "Eighty two years old female visited outpatient clinic due to the pain on the right buttock that was occurred after a fall (slip down) on her behind. Simple radiograph at the time of her visiting indicated fractures in right pubic ramus. Osteoporosis with T-score -3.3 (L1-4) was observed, but the patient had never diagnosed and treated for osteoporosis before the injury."
+}

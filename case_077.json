@@ -1,0 +1,31 @@
+{
+  "case_id": 77,
+  "images": {
+    "subfig": "case_077_subfig.jpg",
+    "full": "case_077_full.jpg"
+  },
+  "question": "A patient underwent endoscopic therapy for high‑grade esophageal varices. Because there was no history or ultrasound evidence of liver disease, thoracic CT was performed for further evaluation. Based on the imaging, which symptom would be most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Progressive dysphagia to solids",
+    "B": "Persistent cough",
+    "C": "New-onset hoarseness",
+    "D": "Bilateral lower-extremity edema"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial thoracic CT image. I see a large posterior/retrocardiac soft-tissue mass abutting the posterior aspect of the heart and producing clear mass effect on the adjacent mediastinal structures; arrows indicate the displaced esophagus being pushed laterally from its expected position.\n\nNext, I relate these imaging findings to the question, which asks which symptom would be most likely given this CT appearance. The key imaging finding is focal external compression/displacement of the esophagus by the posterior mediastinal mass.\n\nThen I consider how each answer option aligns with that finding. Progressive dysphagia to solids (A) is a classic clinical consequence of an extrinsic mass compressing the esophagus, because mechanical narrowing more readily impairs passage of solids than liquids. Persistent cough (B) would be more likely if the airway or bronchi were compressed or invaded; that is not evident on this slice. New-onset hoarseness (C) would imply involvement of the recurrent laryngeal nerve or laryngeal structures higher in the neck, which is not suggested by this retrocardiac mass on the image. Bilateral lower-extremity edema (D) reflects systemic or cardiac venous congestion, for which there is no direct imaging evidence here.\n\nTherefore, given the visible mass compressing and displacing the esophagus, progressive dysphagia to solids best matches the imaging findings.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Thoracic computer tomography with cardiac imaging and retrocardial accessory spleen (A). Oesopageal displacement to the left of the tumor (B)",
+  "sub_caption": "Thoracic computer tomography with cardiac imaging and retrocardial accessory spleen (A). Oesopageal displacement to the left of the tumor (B)",
+  "image_context": "An oesophagoscopy was performed and revealed varices grade 3 [2]. Nine consecutive ligatures were placed. Furthermore, since there was no history or ultrasonic findings of liver disease, a thoracic CT scan was performed, revealing a large retrocardial mass (12 × 12 × 6 cm, Fig. <xref rid=\"134_2009_1696_Fig1_HTML\" ref-type=\"fig\">1</xref>) between the main bronchi displacing the oesophagus.) between the main bronchi displacing the oesophagus.Fig. 1Thoracic computer tomography with cardiac imaging and retrocardial accessory spleen (A). Oesopageal displacement to the left of the tumor (B)",
+  "relevant_image_context": "An oesophagoscopy was performed and revealed varices grade 3 [2]. Nine consecutive ligatures were placed. Furthermore, since there was no history or ultrasonic findings of liver disease, a thoracic CT scan was performed, revealing a large retrocardial mass (12 × 12 × 6 cm, Fig. 1) between the main bronchi displacing the oesophagus. Fig. 1 Thoracic computer tomography with cardiac imaging and retrocardial accessory spleen (A)."
+}

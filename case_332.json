@@ -1,0 +1,29 @@
+{
+  "case_id": 332,
+  "images": {
+    "subfig": "case_332_subfig.jpg",
+    "full": "case_332_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "full_figure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for obvious anatomy and labels. The ultrasound image is labeled \"Right BYPASS\" and shows a rounded, well-defined anechoic (dark) lumen consistent with a vascular channel or fluid-filled sac.\n\nNext, I look for abnormal features within and around that lumen. There is a focal saccular-appearing dilation rather than a straight tubular conduit, and along the inferior wall there is a crescent of more echogenic material abutting the lumen, which is compatible with mural thrombus or wall irregularity. The surrounding tissue and graft wall also appear thickened and heterogeneous rather than uniformly thin.\n\nThen, I relate these imaging findings to the question, which asks whether the findings are normal or abnormal. A bypass graft should typically appear as a tubular, regularly contoured vascular channel; the focal aneurysmal dilation and internal echogenic material seen here are deviations from that expected normal appearance.\n\nTherefore, based on the clearly abnormal sac-like dilation of the bypass conduit with associated internal echogenic material, the correct characterization is abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Duplex ultrasound demonstrating a 3.5-cm aneurysmal dilation of the midportion of the bypass graft from October 2016.",
+  "sub_caption": "Duplex ultrasound demonstrating a 3.5-cm aneurysmal dilation of the midportion of the bypass graft from October 2016.",
+  "image_context": "The patient is an 87-year-old white woman who was transferred to our institution from an outside facility with complaints of acute vaginal bleeding and a pulsatile mass in the mons pubis. Her history was significant for aortoiliac occlusive disease, coronary artery disease, renal artery stenosis, atrial fibrillation on warfarin, and hypertension. In the 1990s, the patient received a cardiac catheterization complicated by a significant injury to her common femoral artery requiring a left to right femorofemoral bypass with polytetrafluoroethylene graft. She then presented to our institution in 2004 with infection of the polytetrafluoroethylene bypass graft and underwent complete excision of the graft and replacement of the left to right femorofemoral bypass graft with autologous deep vein. The patient was observed as an outpatient with duplex ultrasound for routine surveillance. A 2.2-cm aneurysmal dilation of the midportion of the deep vein graft was first noted on duplex ultrasound in October 2013, which was 9 years after the creation of the bypass. The patient was asymptomatic at the time and had no changes in her ankle-brachial indices. As she did not complain of pain or exhibit signs of mass effect or distal embolization, she was managed nonoperatively with annual ultrasound examinations to monitor for aneurysmal growth. The aneurysm size remained stable on yearly ultrasound examination until 2016, when it was noted to be 3.5 cm in size (<xref rid=\"gr1\" ref-type=\"fig\">Fig 1</xref>). The patient remained asymptomatic with no significant findings on physical examination. Because of her advanced age and poor functional status, the decision was made to continue with conservative management without operative repair. The patient and family were repeatedly educated on the signs and symptoms of aneurysm rupture during their clinic appointments.). The patient remained asymptomatic with no significant findings on physical examination. Because of her advanced age and poor functional status, the decision was made to continue with conservative management without operative repair. The patient and family were repeatedly educated on the signs and symptoms of aneurysm rupture during their clinic appointments.Fig 1Duplex ultrasound demonstrating a 3.5-cm aneurysmal dilation of the midportion of the bypass graft from October 2016.",
+  "relevant_image_context": "Fig 1Duplex ultrasound demonstrating a 3.5-cm aneurysmal dilation of the midportion of the bypass graft from October 2016. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

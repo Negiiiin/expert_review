@@ -1,0 +1,31 @@
+{
+  "case_id": 144,
+  "images": {
+    "subfig": "case_144_subfig.jpg",
+    "full": "case_144_full.jpg"
+  },
+  "question": "A patient underwent recent vascular surgery and now has a postoperative CT performed for routine surveillance. Based on this image, which of the following is the most appropriate next-step management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Conservative medical therapy and interval CT surveillance",
+    "B": "Immediate endovascular re-intervention",
+    "C": "Urgent open surgical repair",
+    "D": "No further follow-up or therapy"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for postoperative aortic anatomy. On this coronal CT there is a central, contrast-opacified tubular aortic channel running from the thoracoabdominal region into the pelvis; adjacent to this central lumen along the lateral wall there is a thin, crescentic area of nonopacified material consistent with a residual false lumen that is markedly diminished in caliber.\n\nNext, I relate what I see to the question, which asks for the appropriate next-step management after recent vascular surgery on routine surveillance imaging. The key imaging findings are a patent, well-opacified true lumen and only a small, attenuated residual false lumen on this postoperative scan. I do not see convincing focal contrast extravasation, a large new periaortic hematoma, or a substantially enlarging sac on this image to suggest acute failure or rupture.\n\nThen, I consider how each option lines up with those observations. Immediate endovascular re-intervention or urgent open surgical repair would be indicated if there were ongoing leak, expanding false lumen/aneurysm, or other acute complications visible on imaging; those features are not present here. Conversely, completely stopping follow-up (no further follow-up) would risk missing later changes. Conservative medical therapy with interval CT surveillance aligns with an imaging appearance showing marked reduction of the false lumen and no acute worrying findings.\n\nIn summary, the image demonstrates postoperative stability with a markedly reduced false lumen and no acute imaging signs of failure, so the appropriate next step is conservative medical therapy with interval CT surveillance.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "A, Preoperative computed tomography scan with extent of false lumen to zone 8 proximally and zone 10 distally highlighted. B, Three-dimensional reconstruction of preoperative computerized tomography, demonstrating extravasation of contrast from the true lumen (white) into the false lumen (red) through fenestrations in zones 9 and 10. C, Postoperative computed tomography scan showing significant shrinkage of the false lumen, highlighted. D, Postoperative three-dimensional reconstruction demonstrating cessation of false lumen flow.",
+  "sub_caption": "C, Postoperative computed tomography scan showing significant shrinkage of the false lumen, highlighted.",
+  "image_context": "On examination, her abdomen was minimally tender to deep palpation of a pulsatile, left periumbilical mass. Distal pulses were intact. Computed tomography angiography demonstrated a TBAD with aneurysmal degeneration to 4.7 cm (<xref rid=\"gr1\" ref-type=\"fig\">Fig 1</xref>). Multiple large fenestrations feeding the false lumen were identified in mid to distal zone 9, and proximal zone 10 on the left. There was aneurysmal degeneration of bilateral common iliac arteries to 2.0 cm (right) and 2.4 cm (left). There was a 1-cm splenic artery aneurysm. Ascending aorta was non-aneurysmal. No prior CT scans were available for review.). Multiple large fenestrations feeding the false lumen were identified in mid to distal zone 9, and proximal zone 10 on the left. There was aneurysmal degeneration of bilateral common iliac arteries to 2.0 cm (right) and 2.4 cm (left). There was a 1-cm splenic artery aneurysm. Ascending aorta was non-aneurysmal. No prior CT scans were available for review.Fig 1A, Preoperative computed tomography scan with extent of false lumen to zone 8 proximally and zone 10 distally highlighted. B, Three-dimensional reconstruction of preoperative computerized tomography, demonstrating extravasation of contrast from the true lumen (white) into the false lumen (red) through fenestrations in zones 9 and 10. C, Postoperative computed tomography scan showing significant shrinkage of the false lumen, highlighted. D, Postoperative three-dimensional reconstruction demonstrating cessation of false lumen flow.",
+  "relevant_image_context": "C, Postoperative computed tomography scan showing significant shrinkage of the false lumen, highlighted."
+}

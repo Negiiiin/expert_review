@@ -1,0 +1,32 @@
+{
+  "case_id": 258,
+  "images": {
+    "subfig": "case_258_subfig.jpg",
+    "full": "case_258_full.jpg"
+  },
+  "question": "A patient with known dextrocardia requires transvenous ICD implantation. Initial right-sided axillary venous access attempts were unsuccessful and cardiac MRI was obtained (shown). Based on the imaging, what is the most appropriate next step to achieve transvenous defibrillator lead placement?",
+  "question_scope": "full_figure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Place transvenous lead via right persistent SVC",
+    "B": "Continue attempts through the innominate vein",
+    "C": "Convert to surgical epicardial lead placement",
+    "D": "Implant a subcutaneous ICD system",
+    "E": "Use a leadless right ventricular pacemaker"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the MRI for central venous anatomy and cardiac position. The heart is located on the right (dextrocardia). Three venous structures are labeled and visualized: a right-sided SVC (RSVC) coursing to the right-sided cardiac silhouette, a left SVC (LSVC) on the opposite side, and a bridging/innominate vein connecting them.\n\nNext, I relate these findings to the clinical question, which states that initial right axillary venous access attempts were unsuccessful and that prior attempts via the innominate vein were limited by inadequate caliber. On the image the RSVC is a clearly patent, relatively large-caliber vessel providing a continuous channel into the cardiac region, whereas the bridging/innominate vein appears smaller in caliber.\n\nThen, I consider how each management option aligns with the anatomic picture. Continuing attempts through the small-caliber innominate vein is unlikely to solve the access problem seen on imaging. The image demonstrates a suitable transvenous venous conduit on the right (the RSVC), which would permit passage of transvenous defibrillator lead(s) to the heart. The other choices (surgical epicardial lead placement, subcutaneous ICD, or leadless RV device) are alternative strategies but are not required if a viable transvenous route is present on imaging.\n\nFinally, tying these observations together: given dextrocardia with a clearly patent right SVC on imaging and inadequate innominate caliber, the most appropriate next step to achieve transvenous lead placement is to use the right persistent SVC route.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Coronal Cardiac MRI image of the patient showing the presence of the right persistent superior vena, left superior vena cava and bridging inominate vein.",
+  "sub_caption": "Coronal Cardiac MRI image of the patient showing the presence of the right persistent superior vena, left superior vena cava and bridging inominate vein.",
+  "image_context": "Given the dextrocardia, a right sided approach was undertaken to optimize defibrillation vectors. Triple cannulation of the right axillary vein was performed. Cardiac MRI had revealed the presence of a right persistent superior vena cava (RPSVC) and innominate vein bridging to the proper (given the diagnosis of situs inversus totalis) left superior vena cava (LSVC) (<xref ref-type=\"fig\" rid=\"ipej100058-01\">Figure 1</xref>).). An initial attempt was made to introduce an active fixation dual coil ventricular defibrillation lead (Endotak Reliance Goretex™, model 0184, Boston Scientific Corp., St. Paul, MN) and an active fixation bipolar atrial lead (Medtronic Capsurefix Novus 5076™, Medtronic Corp.) via the innominate vein draining into the left superior vena cava. This approach failed as there was inadequate innominate vessel caliber to allow free movement of the leads. Subsequent venography showed that the right PSVC drained into the right atrium via the coronary sinus. (<xref ref-type=\"fig\" rid=\"ipej100058-01\">Figure 1</xref> and  and <xref ref-type=\"fig\" rid=\"ipej100058-02\">Figure 2</xref>). The dual coil lead defibrillator lead was redirected via the right PSVC and was placed in the RV apex. Capture threshold measured 0.6 V at 0.5ms with an impedence of 675Ω, sensing amplitude was 30.0mV with a slew rate of 4.0 V/s and high-voltage shock impedance was 44Ω.). The dual coil lead defibrillator lead was redirected via the right PSVC and was placed in the RV apex. Capture threshold measured 0.6 V at 0.5ms with an impedence of 675Ω, sensing amplitude was 30.0mV with a slew rate of 4.0 V/s and high-voltage shock impedance was 44Ω.",
+  "relevant_image_context": "Given the dextrocardia, a right sided approach was undertaken to optimize defibrillation vectors. Triple cannulation of the right axillary vein was performed. Cardiac MRI had revealed the presence of a right persistent superior vena cava (RPSVC) and innominate vein bridging to the proper (given the diagnosis of situs inversus totalis) left superior vena cava (LSVC) (Figure 1). Subsequently venography showed that the right PSVC drained into the right atrium via the coronary sinus (Figure 1 and  Figure 2)."
+}

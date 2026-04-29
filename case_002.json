@@ -1,0 +1,31 @@
+{
+  "case_id": 2,
+  "images": {
+    "subfig": "case_002_subfig.jpg",
+    "full": "case_002_full.jpg"
+  },
+  "question": "Based on this axial pelvic MRI, which structure occupies the bilateral lateral pelvic compartments?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Ovaries",
+    "B": "Urinary bladder",
+    "C": "Rectum",
+    "D": "Uterus"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial pelvic MRI to identify the major visible structures and their locations relative to the midline and pelvic sidewalls. I note a single rounded fluid-filled structure in the anterior midline (likely bladder) and midline soft-tissue posterior to it, while on both the left and right lateral pelvis there are similar ovoid soft-tissue structures adjacent to the pelvic sidewalls.\n\nNext, I relate these observations to the question, which asks which structure occupies the bilateral lateral pelvic compartments. The key image finding is the presence of two matching ovoid structures, one on each side, located laterally in the pelvis rather than in the midline.\n\nThen I consider the answer choices relative to the image: the urinary bladder and rectum appear as midline structures in this axial slice, and the uterus is also located in the central pelvis. Those options therefore do not correspond to the paired lateral structures seen. The only option that fits a paired structure occupying both lateral pelvic compartments is the ovaries.\n\nFinally, tying the image findings to the question: because the image shows paired ovoid structures in the bilateral lateral pelvic compartments, the correct choice is the ovaries.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Pelvic MRI scan performed 6 weeks after the interruption of the radiochemotherapy. Compatibly with the different exam, a moderate thickening of the ileal walls can still be noticed.",
+  "sub_caption": "Pelvic MRI scan performed 6 weeks after the interruption of the radiochemotherapy. Compatibly with the different exam, a moderate thickening of the ileal walls can still be noticed.",
+  "image_context": "Six weeks after the interruption of concurrent RT-CHT, a pelvic MRI was performed to restage the disease prior to surgery which, compatibly with the different diagnostic methods, collaterally showed a persistence, although reduced in severity, of the ileal walls edema (as shown in <xref rid=\"curroncol-30-00655-g003\" ref-type=\"fig\">Figure 3</xref>). Thereafter, the patient underwent an anterior rectal resection with total mesorectal excision, which, according to the pathological report, showed a partial response to the preoperative treatment (ypT2 ypN0, with negative surgical margins). After multidisciplinary discussion, adjuvant capecitabin was initiated at lower doses, with close monitoring of the potential gastrointestinal toxicity. The patient completed six cycles of adjuvant capecitabine at a total daily dose of 3000 mg (reduced to 80% accounting for the previous severe toxicity), with no major gastrointestinal and hematological events. Six months after completion of adjuvant chemotherapy, she is alive and free from disease.). Thereafter, the patient underwent an anterior rectal resection with total mesorectal excision, which, according to the pathological report, showed a partial response to the preoperative treatment (ypT2 ypN0, with negative surgical margins). After multidisciplinary discussion, adjuvant capecitabin was initiated at lower doses, with close monitoring of the potential gastrointestinal toxicity. The patient completed six cycles of adjuvant capecitabine at a total daily dose of 3000 mg (reduced to 80% accounting for the previous severe toxicity), with no major gastrointestinal and hematological events. Six months after completion of adjuvant chemotherapy, she is alive and free from disease.",
+  "relevant_image_context": "Six weeks after the interruption of concurrent RT-CHT, a pelvic MRI was performed to restage the disease prior to surgery which, compatibly with the different diagnostic methods, collaterally showed a persistence, although reduced in severity, of the ileal walls edema (as shown in Figure 3)."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 247,
+  "images": {
+    "subfig": "case_247_subfig.jpg",
+    "full": "case_247_full.jpg"
+  },
+  "question": "A patient underwent laparoscopic enucleation of a pancreatic uncinate process lesion; the procedure exposed adjacent mesenteric vessels and two surgical drains were placed. Which postoperative imaging study is most appropriate to evaluate for early arterial bleeding or other vascular complications in this situation?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Contrast-enhanced CT angiography",
+    "B": "Abdominal MRI with MRCP",
+    "C": "Transabdominal ultrasound with Doppler",
+    "D": "Endoscopic retrograde cholangiopancreatography",
+    "E": "Noncontrast CT abdomen"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for operative findings that matter for postoperative imaging: the laparoscopic view shows the pancreatic uncinate region with clearly exposed mesenteric vessels labeled SMA and SMV and the inferior pancreaticoduodenal artery (IPDA). Two surgical drains are visible adjacent to the dissection bed. These findings indicate a high-risk area for arterial injury or early postoperative arterial bleeding.\n\nNext, I relate what I see to the question, which asks which postoperative imaging study is most appropriate to evaluate for early arterial bleeding or other vascular complications. The clinical concern is active arterial bleeding or vascular lesions in an area where major mesenteric arteries were exposed. An ideal study should demonstrate arterial anatomy and identify ongoing contrast extravasation or arterial lesions.\n\nThen I consider how each option aligns with that need. Contrast-enhanced CT angiography (CTA) directly images arterial-phase contrast and can show active extravasation or arterial abnormalities. Abdominal MRI with MRCP focuses on biliary/pancreatic ductal anatomy and is less suited for rapid arterial-phase assessment. Transabdominal ultrasound with Doppler can assess flow but is operator-dependent and limited by postoperative gas and drains. ERCP is an endoscopic ductal study, not a vascular study. Noncontrast CT lacks vascular-phase information to detect active arterial bleeding. Given the exposed mesenteric arteries and the need to identify active arterial bleeding or vascular complications promptly, contrast-enhanced CT angiography best matches the clinical requirement.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Endoscopy",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "surgical procedure"
+  ],
+  "caption": "Intraoperative photograph. Laparoscopic enucleation was performed, and the uncinated process of the pancreas and the surrounding vessels (superior mesenteric vein: SMV; superior mesenteric artery: SMA; inferior pancreaticoduodenal artery: IPDA) are exposed but the known lesion in the uncinated process could be identified by observation from the surface",
+  "sub_caption": "Intraoperative photograph. Laparoscopic enucleation was performed, and the uncinated process of the pancreas and the surrounding vessels (superior mesenteric vein: SMV; superior mesenteric artery: SMA; inferior pancreaticoduodenal artery: IPDA) are exposed but the known lesion in the uncinated process could be identified by observation from the surface",
+  "image_context": "The operation began with insertion of a subumbilical 12‐mm port. Then, four ports were inserted in the epigastrium under direct vision. The hepatic flexure was mobilized, and the gastrocolic ligament was opened, allowing entrance into the greater sac. The gastrocolic trunk was divided, and vessel loops were placed around the SMV. The UP of the pancreas was exposed, but the known lesion in the UP could be identified by observation from the surface (Figure <xref rid=\"ASES-15-211-g004\" ref-type=\"fig\">2</xref>). The lesion was identified using intraoperative CEUS (Figure ). The lesion was identified using intraoperative CEUS (Figure <xref rid=\"ASES-15-211-g003\" ref-type=\"fig\">3</xref>), which confirmed a strongly enhanced tumor without extension into the portal vein or bile ducts. Enucleation was completed with a Harmonic® scalpel. Enucleation of the Pt lesion was similarly performed after confirming with intraoperative US that the metastatic tumor was 5 mm away from the main pancreatic duct. The incision was closed after inserting two Blake drains around the defect spaces in the UP and Pt. Total operation time was 458 min, and estimated blood loss was small.), which confirmed a strongly enhanced tumor without extension into the portal vein or bile ducts. Enucleation was completed with a Harmonic® scalpel. Enucleation of the Pt lesion was similarly performed after confirming with intraoperative US that the metastatic tumor was 5 mm away from the main pancreatic duct. The incision was closed after inserting two Blake drains around the defect spaces in the UP and Pt. Total operation time was 458 min, and estimated blood loss was small.",
+  "relevant_image_context": "The UP of the pancreas was exposed, but the known lesion in the UP could be identified by observation from the surface. The lesion was identified using intraoperative CEUS, which confirmed a strongly enhanced tumor without extension into the portal vein or bile ducts. Enucleation was completed with a Harmonic scalpel. The incision was closed after inserting two Blake drains around the defect spaces in the UP and Pt. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

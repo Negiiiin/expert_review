@@ -1,0 +1,32 @@
+{
+  "case_id": 242,
+  "images": {
+    "subfig": "case_242_subfig.jpg",
+    "full": "case_242_full.jpg"
+  },
+  "question": "Based on this image, which diagnosis is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Coronary artery calcification",
+    "B": "Aortic valve calcification",
+    "C": "Pericardial calcification",
+    "D": "Myocardial dystrophic calcification",
+    "E": "Cardiac myxoma"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial CT image for the location and appearance of abnormality. I see a single, well-defined, high-density (bright) round focus indicated by the arrow at the superior aspect of the cardiac silhouette, lying along the expected epicardial contour.\n\nNext, I describe the lesion's features: it is small, focal, and sharply calcified rather than a large soft-tissue mass or a broad curvilinear rim. Its size and punctate, nodular morphology suggest a focal calcified plaque rather than diffuse wall or intracavitary pathology.\n\nThen I relate these observations to the diagnostic choices. Aortic valve calcification would be located at the aortic root/valve region and typically involve the valve leaflets; that location and appearance are not seen here. Pericardial calcification usually appears as a linear or curvilinear calcified rim tracking the pericardial sac, not as a solitary punctate focus. Myocardial dystrophic calcification would appear within the myocardium more diffusely or as irregular intramyocardial foci, not as a tiny epicardial plaque. A cardiac myxoma would present as a soft-tissue mass, not a discrete dense calcification.\n\nFinally, the image finding—a small, focal, dense calcified nodule along the epicardial contour—is most consistent with calcification within a coronary artery (coronary artery calcification). Therefore, the best choice is A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "clinical imaging"
+  ],
+  "caption": "CT images of the right coronary artery in an 83-year-old male corpse. The scans were obtained in (a) NR- and (b) in SHR mode. On the scan obtained in SHR mode, small spotty calcifications are clearly identified (arrows).",
+  "sub_caption": "On the scan obtained in SHR mode, small spotty calcifications are clearly identified (arrows).",
+  "image_context": "Our evaluation of the CAC volume on U-HRCT images of a phantom and of five human cadavers showed that on phantom scans, small calcifications were more accurately detectable on SHR- than NR images. In the cadaver study, the mean volume score of the coronary arteries was significantly higher on SHR- than NR scans, probably because the spatial resolution is higher on SHR- than NR-, i.e. conventional CT images. Representative images are shown in <xref rid=\"gr5\" ref-type=\"fig\">Fig. 5</xref>..Fig. 5CT images of the right coronary artery in an 83-year-old male corpse. The scans were obtained in (a) NR- and (b) in SHR mode. On the scan obtained in SHR mode, small spotty calcifications are clearly identified (arrows).Fig. 5",
+  "relevant_image_context": "Our evaluation of the CAC volume on U-HRCT images of a phantom and of five human cadavers showed that on phantom scans, small calcifications were more accurately detectable on SHR- than NR images. In the cadaver study, the mean volume score of the coronary arteries was significantly higher on SHR- than NR scans, probably because the spatial resolution is higher on SHR- than NR-, i.e. conventional CT images. Representative images are shown in Fig. 5. Fig. 5CT images of the right coronary artery in an 83-year-old male corpse. The scans were obtained in (a) NR- and (b) in SHR mode. On the scan obtained in SHR mode, small spotty calcifications are clearly identified (arrows).Fig. 5 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

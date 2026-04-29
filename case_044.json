@@ -1,0 +1,31 @@
+{
+  "case_id": 44,
+  "images": {
+    "subfig": "case_044_subfig.jpg",
+    "full": "case_044_full.jpg"
+  },
+  "question": "How many distinct focal lesions are visible on this image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the axial CT image for discrete focal masses in the upper abdomen, scanning both sides of the midline and the suprarenal/upper renal regions where such lesions commonly appear.\n\nNext, I identify the visible abnormalities: there are two separate, well-circumscribed rounded low-attenuation focal lesions, one on each side of the midline in the suprarenal/upper renal regions. Each lesion is distinct and spatially separate from the other on this slice. I do not see any additional distinct focal lesions elsewhere on the image.\n\nThen, I relate these observations to the question, which asks how many distinct focal lesions are visible. Counting the two clearly separate lesions seen on the image gives a total of two.\n\nTherefore, the image-supported answer is the option corresponding to two distinct focal lesions.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "(A, B) CT scan of the abdomen demonstrating two adenomas in the left and right adrenal glands, measuring 30 × 17 mm and 15 × 9 mm, respectively.",
+  "sub_caption": "(B) CT scan of the abdomen demonstrating two adenomas in the left and right adrenal glands, measuring 30 × 17 mm and 15 × 9 mm, respectively.",
+  "image_context": "The patient was referred to a neurosurgeon, and a transsphenoidal pituitary adenomectomy was performed. Immunohistochemical staining was exclusively positive for ACTH. The pathologist's diagnosis was a corticotroph tumor. Ki‐67 was estimated at 2%. Three months after the surgery, the patient still had not noticed any improvement. She was admitted to our department for postoperative assessment. Her physical examination did not show any improvement. Indeed, she still had physical signs of hypercortisolism. Her metabolic and heart pressure features did not improve (Table 1). The laboratory tests confirmed the lack of biochemical remission since her 2‐mg 2‐day DST showed high cortisol at 105 ng/ml and urinary free cortisol remained high. (Table 2). A 3‐month postoperative pituitary MRI scan did not show a remnant pituitary adenoma. Her ACTH decreased to 6 ng/L, which was in favor of a successful surgery. An adrenal computed tomography scan was performed and revealed two adenomas in the right and left adrenal glands, which were both rich in lipids with a 7 HU density. The left and right adenomas measured 30 × 17 mm and 15 × 9 mm, respectively (Figure <xref rid=\"CCR3-10-e05834-g002\" ref-type=\"fig\">2A,B</xref>). Based on a suppressed level of ACTH and adrenal adenomas, we concluded at this point to an ACTH‐independent CS. The patient was referred later to a urologist and underwent bilateral adrenalectomy. Her symptoms improved remarkably. She developed an adrenal insufficiency and was put on hydrocortisone.). Based on a suppressed level of ACTH and adrenal adenomas, we concluded at this point to an ACTH‐independent CS. The patient was referred later to a urologist and underwent bilateral adrenalectomy. Her symptoms improved remarkably. She developed an adrenal insufficiency and was put on hydrocortisone.",
+  "relevant_image_context": "An adrenal computed tomography scan was performed and revealed two adenomas in the right and left adrenal glands, which were both rich in lipids with a 7 HU density. The left and right adenomas measured 30 × 17 mm and 15 × 9 mm, respectively (Figure 2A,B)."
+}

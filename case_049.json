@@ -1,0 +1,33 @@
+{
+  "case_id": 49,
+  "images": {
+    "subfig": "case_049_subfig.jpg",
+    "full": "case_049_full.jpg"
+  },
+  "question": "A 63-year-old woman presents with one week of postprandial nausea and vomiting. Her serum CA19-9 is 222 U/mL and contrast-enhanced abdominal CT was obtained. Based on the imaging, which of the following is the most appropriate next step in management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Endoscopic ultrasound with FNA and cyst fluid analysis",
+    "B": "Percutaneous cyst drainage",
+    "C": "Distal (left) pancreatectomy with splenectomy",
+    "D": "Observation with interval imaging",
+    "E": "Systemic chemotherapy"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for the lesion's appearance and anatomic relationships. On this axial contrast-enhanced CT there is a very large, well-circumscribed, homogeneous low-attenuation (fluid-density) mass in the left upper quadrant consistent with a pancreatic tail cystic lesion; it displaces adjacent structures (stomach and spleen) but on this slice there is no obvious irregular invasion of surrounding organs or clearly enhancing solid mural nodule visible within the cyst.\n\nNext, I relate what I see to the question, which asks the most appropriate next step given the patient is 63 years old, has one week of postprandial nausea/vomiting, and a markedly elevated CA19-9 (222 U/mL). The mass is large and is producing symptoms from mass effect (postprandial symptoms), and the tumor marker elevation increases concern for a neoplastic process rather than a simple incidental cyst.\n\nThen, I consider how each option lines up with those observations. Endoscopic ultrasound with FNA and cyst fluid analysis (A) is diagnostic but would delay definitive management for a large symptomatic lesion; percutaneous cyst drainage (B) is a temporizing measure for symptom relief and does not address a potentially neoplastic mass; observation with interval imaging (D) is discordant with a large symptomatic lesion and an elevated tumor marker; systemic chemotherapy (E) would be for proven unresectable or metastatic disease and is not indicated based on this single imaging slice.\n\nGiven a large, symptomatic, apparently localized cystic mass in the pancreatic tail with an elevated CA19-9 and no obvious unresectability on the available CT image, proceeding to definitive surgical resection of the tail (distal pancreatectomy with splenectomy) is the most appropriate next step.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Enhanced computed tomography (CT) shows the presence of a cystic lesion in the tail of the pancreas.",
+  "sub_caption": "Enhanced computed tomography (CT) shows the presence of a cystic lesion in the tail of the pancreas.",
+  "image_context": "A 63-year-old Caucasian woman was admitted to our hospital with a one-week history of nausea and vomiting after meals. Her medical history included surgery for a peptic ulcer at the age of 48 years. Physical examination was essentially unremarkable. Laboratory data showed normal values. Enhanced-contrast abdominal computed tomography (CT) revealed a mass lesion with solid and cystic components detected in the tail of the pancreas (Figure \n<xref ref-type=\"fig\" rid=\"1477-7819-12-92-1\">1</xref>). As concerns serum tumor markers, carbohydrate antigen (CA) 19-9 levels had increased to 222 U/ml (reference range 0 to 27 U/ml). Because a malignant tumor of the pancreas was suspected, the patient underwent a distal pancreatectomy and splenectomy.). As concerns serum tumor markers, carbohydrate antigen (CA) 19-9 levels had increased to 222 U/ml (reference range 0 to 27 U/ml). Because a malignant tumor of the pancreas was suspected, the patient underwent a distal pancreatectomy and splenectomy.",
+  "relevant_image_context": "A 63-year-old Caucasian woman was admitted to our hospital with a one-week history of nausea and vomiting after meals. Her medical history included surgery for a peptic ulcer at the age of 48 years. Physical examination was essentially unremarkable. Laboratory data showed normal values. Enhanced-contrast abdominal computed tomography (CT) revealed a mass lesion with solid and cystic components detected in the tail of the pancreas (Figure 1). As concerns serum tumor markers, carbohydrate antigen (CA) 19-9 levels had increased to 222 U/ml (reference range 0 to 27 U/ml). Because a malignant tumor of the pancreas was suspected, the patient underwent a distal pancreatectomy and splenectomy."
+}

@@ -1,0 +1,33 @@
+{
+  "case_id": 132,
+  "images": {
+    "subfig": "case_132_subfig.jpg",
+    "full": "case_132_full.jpg"
+  },
+  "question": "A patient with continuous high fever and progressive left-sided weakness (muscle strength 3/5) underwent cranial CT early in admission. Based on the imaging, which of the following is contraindicated because it would most increase the risk of intracranial adverse events?",
+  "question_scope": "subfigure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Systemic intravenous thrombolysis (alteplase)",
+    "B": "Therapeutic low-molecular-weight heparin",
+    "C": "Endovascular thrombectomy/thrombolysis",
+    "D": "Antiplatelet therapy alone (aspirin)",
+    "E": "Urgent surgical hematoma evacuation"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial non-contrast head CT. There is a focal, relatively hyperdense ovoid structure along the lateral skull base in the expected course of a transverse/sigmoid venous sinus (yellow arrow), distinct from the adjacent mastoid air cells and bone.\n\nNext, I relate that imaging finding to the clinical question, which asks which intervention would be contraindicated because it most increases the risk of intracranial adverse events. The CT abnormality is most consistent with an intraluminal hyperdensity in a venous sinus (i.e., an acute thrombus/occlusion of a lateral venous sinus), which implies a venous thrombosis process localized to the posterior-lateral dural sinuses rather than a large surgical hematoma.\n\nThen, I consider how each option aligns with that imaging appearance. Systemic intravenous thrombolysis (alteplase) is a diffuse systemic fibrinolytic intervention and therefore carries the greatest potential to precipitate or worsen intracranial bleeding when there is an intravascular venous thrombus or any unstable intracranial vascular abnormality visible on CT. Therapeutic low-molecular-weight heparin and antiplatelet therapy are more targeted anticoagulant/antiplatelet approaches and are less likely to cause the widespread fibrinolytic effect of systemic alteplase. Endovascular thrombectomy/thrombolysis is a localized mechanical or catheter-directed approach that can be performed selectively. Urgent surgical evacuation would be considered only if there were a large mass hemorrhage on the scan, which is not seen here.\n\nTherefore, given the focal hyperdense venous sinus abnormality on CT and the high bleeding risk posed by systemic fibrinolysis, systemic intravenous thrombolysis (alteplase) is the treatment most contraindicated in this scenario.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Computed tomography (CT) of the brain.(A) Thrombosis of the superior sagittal sinus (yellow arrow) and cerebral vessel with normal contrast enhancement (red arrow). (B) Thrombosis of the right transverse sinus (yellow arrow). (C) Thrombosis of the superior sagittal sinus (yellow arrow). (D) Intracranial hemorrhage in the left frontal and parietal lobe (red arrow).",
+  "sub_caption": "(B) Thrombosis of the right transverse sinus (yellow arrow).",
+  "image_context": "The patient experienced a continuous high fever, along with progressive weakness with muscle strength was 3/5 on the left side of the body and during all movements. Cranial computed tomography (CT) was performed on Day 1 of admission, which revealed filling defects in the superior sagittal sinus and right transverse sinus representing cerebral venous sinus thrombosis, possibly cerebral edema and ICH in the left frontal lobe and left parietal lobe (Figure <xref rid=\"cureus-0016-00000064220-i01\" ref-type=\"fig\">1</xref>).).",
+  "relevant_image_context": "The patient experienced a continuous high fever, along with progressive weakness with muscle strength was 3/5 on the left side of the body and during all movements. Cranial computed tomography (CT) was performed on Day 1 of admission, which revealed filling defects in the superior sagittal sinus and right transverse sinus representing cerebral venous sinus thrombosis, possibly cerebral edema and ICH in the left frontal lobe and left parietal lobe (Figure 1)."
+}

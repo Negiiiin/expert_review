@@ -1,0 +1,31 @@
+{
+  "case_id": 248,
+  "images": {
+    "subfig": "case_248_subfig.jpg",
+    "full": "case_248_full.jpg"
+  },
+  "question": "A 71-year-old woman with COVID-19 ARDS complicated by stroke and deep venous thrombosis is receiving systemic anticoagulation and develops mass-like swelling of the leg. Based on the imaging, which symptom or clinical sign would be most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Acute localized pain and tenderness",
+    "B": "High fever with rigors",
+    "C": "Exertional calf claudication",
+    "D": "Diffuse pitting leg edema"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for anatomic and morphologic details. The coronal calf image demonstrates a single, well-defined, rounded mass-like collection located within the musculature of the lower leg that displaces adjacent muscle fibers and produces a focal contour bulge rather than diffuse enlargement of the entire limb.\n\nNext, I relate what I see to the clinical stem, which states the patient is on systemic anticoagulation and developed mass-like swelling of the leg. A focal intramuscular collection in a patient receiving anticoagulation is most consistent with a localized hemorrhagic collection (hematoma) within the muscle compartment.\n\nThen, I consider how each answer option lines up with those observations. Acute localized pain and tenderness (A) is the expected clinical sign for a focal intramuscular hematoma because the lesion is localized and would produce focal tissue stretch, swelling, and pain. High fever with rigors (B) would point toward a systemic infectious process, which is not suggested by a solitary intramuscular mass on imaging. Exertional calf claudication (C) implies activity-related ischemic leg pain from chronic arterial disease and would not present as a discrete mass. Diffuse pitting leg edema (D) describes generalized, soft, bilateral or dependent swelling, which does not match the focal, nonpitting mass seen on the image.\n\nTherefore, the imaging appearance of a localized intramuscular collection in an anticoagulated patient most strongly predicts acute localized pain and tenderness on exam.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "A 71-year-old female with COVID-19 ARDS complicated by stroke and deep venous thrombosis, treated with systemic anticoagulation. She developed mass-like swelling of the leg. a Axial T2-weighted fat-saturated and b coronal T1-weighted images demonstrate an intramuscular hematoma (arrows)",
+  "sub_caption": "b coronal T1-weighted images demonstrate an intramuscular hematoma (arrows)",
+  "image_context": "Bleeding complications can occur in COVID-19 patients secondary to virus-induced bleeding coagulopathy and/or anticoagulation therapy administered for treatment or prevention of the more commonly occurring thrombotic coagulopathy [41]. Hematomas may develop in subcutaneous soft tissues or within muscles. Complications from hematomas include compressive neuropathy, increased compartment pressure, and superimposed infection. CT, ultrasound, or MR imaging may be utilized for evaluation of hematomas, including diagnosis and follow-up imaging to ensure resolution (Figs. <xref rid=\"256_2021_3734_Fig9_HTML\" ref-type=\"fig\">9</xref> and  and <xref rid=\"256_2021_3734_Fig10_HTML\" ref-type=\"fig\">10</xref>). Hematomas appear as heterogeneous hypoechoic fluid collections on ultrasound, with potential development of septa or calcifications in the chronic stage. MR imaging findings of hematomas include variable signal intensity due to different stages of blood degradation. In the subacute phase, a T1 hyperintense peripheral ring is distinctive [). Hematomas appear as heterogeneous hypoechoic fluid collections on ultrasound, with potential development of septa or calcifications in the chronic stage. MR imaging findings of hematomas include variable signal intensity due to different stages of blood degradation. In the subacute phase, a T1 hyperintense peripheral ring is distinctive [9].Fig. 9A 71-year-old female with COVID-19 ARDS complicated by stroke and deep venous thrombosis, treated with systemic anticoagulation. She developed mass-like swelling of the leg. a Axial T2-weighted fat-saturated and b coronal T1-weighted images demonstrate an intramuscular hematoma (arrows)Fig. 10A 76-year-old male with COVID-19 on therapeutic anti-coagulation who developed right femoral and obturator neuropathies. a, b Axial CT demonstrates a large hematoma of the proximal right thigh musculature extending into the retroperitoneum along the right iliopsoas muscle (arrows)",
+  "relevant_image_context": "Fig. 9A 71-year-old female with COVID-19 ARDS complicated by stroke and deep venous thrombosis, treated with systemic anticoagulation. She developed mass-like swelling of the leg. a Axial T2-weighted fat-saturated and b coronal T1-weighted images demonstrate an intramuscular hematoma (arrows)."
+}

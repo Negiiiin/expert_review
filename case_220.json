@@ -1,0 +1,31 @@
+{
+  "case_id": 220,
+  "images": {
+    "subfig": "case_220_subfig.jpg",
+    "full": "case_220_full.jpg"
+  },
+  "question": "A patient with worsening exertional symptoms and a reduced ejection fraction (EF 40%) with new regional wall motion abnormalities underwent diagnostic coronary angiography (image shown). Based on the clinical context and the angiographic image, which of the following is the most appropriate next-step management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Percutaneous coronary intervention with stenting to both lesions",
+    "B": "Urgent coronary artery bypass grafting",
+    "C": "Maximal medical therapy alone",
+    "D": "Percutaneous coronary intervention to the LAD only"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the angiographic image. This left coronary angiogram (LAO caudal view) shows two focal, high-grade stenoses: one at the ostium/proximal left anterior descending (LAD) territory (yellow arrow) and a second at the ostium/proximal left circumflex (LCx) territory (red arrow). The downstream branches of both vessels are visualized, and the stenoses are located proximally where they would jeopardize a large left ventricular territory.\n\nNext, I relate these imaging findings to the clinical question. The patient has worsening exertional symptoms, a reduced ejection fraction (EF 40%), and new regional wall motion abnormalities spanning multiple mid and apical segments — findings that indicate substantial ischemia and myocardial dysfunction affecting a large portion of the left ventricle. Proximal multivessel disease in this setting is likely the cause of the extensive ischemia.\n\nThen I consider how the management options align with those observations. Option C (medical therapy alone) would not directly revascularize the two proximal, high-grade lesions causing the large ischemic burden and reduced EF. Option D (PCI to the LAD only) would leave the significant LCx ostial/proximal lesion untreated, likely leaving residual ischemia. Option A (PCI to both lesions) could acutely relieve both stenoses percutaneously, but in a patient with proximal multivessel disease and reduced LV function the objective is durable, complete revascularization of a large ischemic territory.\n\nFinally, integrating the image and clinical context, the presence of two proximal/ostial high-grade lesions supplying a large portion of the left ventricle with associated reduced EF and new regional dysfunction favors surgical revascularization to achieve complete revascularization. Therefore the most appropriate next-step management is urgent coronary artery bypass grafting.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Coronary angiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "angiography"
+  ],
+  "caption": "Left anterior oblique caudal view of left coronary systemOstium to proximal left anterior descending 99% stenosis (yellow arrow) and ostium to proximal left circumflex 90% stenosis (red arrow) are seen.",
+  "sub_caption": "Left anterior oblique caudal view of left coronary systemOstium to proximal left anterior descending 99% stenosis (yellow arrow) and ostium to proximal left circumflex 90% stenosis (red arrow) are seen.",
+  "image_context": "A transthoracic echocardiogram was performed showing an ejection fraction (EF) of 40% (prior 50%) with systolic function being moderately reduced, left atrium dilation, and new hypokinetic regions including mid anterior, mid inferoseptal, mid anterolateral, apical anterior, apical septal, apical lateral, and apex. Due to these findings as well as the patient’s symptoms, cardiac catheterization was performed. Results included: ostium LAD to proximal LAD 99% stenosed, ostium to proximal Circumflex 90% stenosed, Ramus 10% stenosis, distal right coronary artery (RCA) 50% stenosed, right posterior descending artery (RPDA) 70% stenosed, and mid RCA 30% stenosed (Figure <xref rid=\"cureus-0015-00000033527-i01\" ref-type=\"fig\">1</xref>). ).",
+  "relevant_image_context": "A transthoracic echocardiogram was performed showing an ejection fraction (EF) of 40% (prior 50%) with systolic function being moderately reduced, left atrium dilation, and new hypokinetic regions including mid anterior, mid inferoseptal, mid anterolateral, apical anterior, apical septal, apical lateral, and apex. Due to these findings as well as the patient’s symptoms, cardiac catheterization was performed. Results included: ostium LAD to proximal LAD 99% stenosed, ostium to proximal Circumflex 90% stenosed, Ramus 10% stenosis, distal right coronary artery (RCA) 50% stenosed, right posterior descending artery (RPDA) 70% stenosed, and mid RCA 30% stenosed (Figure 1). First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

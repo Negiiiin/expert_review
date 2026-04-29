@@ -1,0 +1,32 @@
+{
+  "case_id": 250,
+  "images": {
+    "subfig": "case_250_subfig.jpg",
+    "full": "case_250_full.jpg"
+  },
+  "question": "A patient was referred to an urgent two-week-wait clinic for evaluation of a left supraclavicular neck lump. Ultrasound images are provided; which of the following is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Reactive lymphadenopathy",
+    "B": "Metastatic supraclavicular lymph node",
+    "C": "Primary nodal lymphoma",
+    "D": "Tuberculous lymphadenitis",
+    "E": "Suppurative bacterial abscess"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the ultrasound image for the lesion's sonographic appearance. I see an oval, well circumscribed, hypoechoic structure in the left supraclavicular region with a central linear/echogenic area consistent with a preserved hilum. The cortex does not appear markedly thickened or heterogeneous, there is no obvious internal cystic/necrotic change, calcification, or surrounding fluid collection in the immediate field.\n\nNext, I relate what I see to the question, which asks which diagnosis among the listed options best explains this sonographic appearance of a supraclavicular lump.\n\nThen, I consider how the image aligns with each option. Reactive lymphadenopathy fits the observed findings because the node is small/oval, well defined, and retains a central echogenic hilum. Metastatic supraclavicular node is less likely given the preserved hilum and absence of irregular/round morphology or necrotic change. Primary nodal lymphoma is less favored because the node is not bulky or diffusely homogeneous without a hilum. Tuberculous lymphadenitis often shows necrosis or matting/calcification, which are not evident here. A suppurative bacterial abscess would be expected to show a complex fluid collection with loss of normal nodal architecture, which is not seen.\n\nIn summary, the ultrasound features—oval shape, well-defined borders, and preserved central echogenic hilum—most consistently support reactive lymphadenopathy among the given choices.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "4.5mm reactive lymph node in the left supraclavicular fossa.",
+  "sub_caption": "4.5mm reactive lymph node in the left supraclavicular fossa.",
+  "image_context": "We report two cases of reactive supraclavicular lymphadenopathy following COVID-19 vaccination presenting at the same two-week wait neck lump clinic. A 47-year-old and a 55-year-old female, both otherwise fit and well, had received the COVID vaccination in their left arms three weeks previously. They both then developed a swollen left supraclavicular lymph node about three days later and were referred to the urgent neck lump clinic on the two-week wait cancer pathway to exclude malignancy. One of the patients reported that the lump had since reduced in size. Clinical and ultrasonographic examination confirmed the lumps as reactive lymph nodes (<xref rid=\"gr1_lrg\" ref-type=\"fig\">Fig. 1</xref>\n). No other neck lymphadenopathy was identified and both patients were reassured and discharged.\n). No other neck lymphadenopathy was identified and both patients were reassured and discharged.Fig. 14.5mm reactive lymph node in the left supraclavicular fossa.Fig. 1",
+  "relevant_image_context": "We report two cases of reactive supraclavicular lymphadenopathy following COVID-19 vaccination presenting at the same two-week wait neck lump clinic. A 47-year-old and a 55-year-old female, both otherwise fit and well, had received the COVID vaccination in their left arms three weeks previously. They both then developed a swollen left supraclavicular lymph node about three days later and were referred to the urgent neck lump clinic on the two-week wait cancer pathway to exclude malignancy. One of the patients reported that the lump had since reduced in size. Clinical and ultrasonographic examination confirmed the lumps as reactive lymph nodes (Fig. 1). No other neck lymphadenopathy was identified and both patients were reassured and discharged. Fig. 14.5mm reactive lymph node in the left supraclavicular fossa. Fig. 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

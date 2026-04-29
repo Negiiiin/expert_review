@@ -1,0 +1,31 @@
+{
+  "case_id": 92,
+  "images": {
+    "subfig": "case_092_subfig.jpg",
+    "full": "case_092_full.jpg"
+  },
+  "question": "Which pathophysiologic process best explains the vascular pattern seen on this image?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Focal stromal/glandular proliferation with central arterial pedicle",
+    "B": "Diffuse endometrial hyperplasia with capillary proliferation",
+    "C": "Subendometrial venous stasis causing mucosal protrusion",
+    "D": "Endometrial scarring with collateral vessel formation"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for salient features. The ultrasound shows a well-defined, rounded intracavitary mass projecting from the endometrial surface. Color Doppler demonstrates a single, relatively concentrated vessel coursing into the substance of this focal lesion (a clear feeding vessel/pedicle) rather than diffuse, scattered flow throughout the endometrium.\n\nNext, I relate what I see to the question, which asks which pathophysiologic process best explains the vascular pattern. The key imaging findings to explain are: (1) a focal, smooth-appearing endometrial mass and (2) a single dominant vessel entering that mass.\n\nThen, I consider how each option lines up with those observations. Option A (focal stromal/glandular proliferation with central arterial pedicle) directly accounts for a localized lesion supplied by a single feeding vessel entering its core; this matches the focal mass with a central vascular pedicle seen on color Doppler. Option B (diffuse endometrial hyperplasia with capillary proliferation) would be expected to produce more diffuse, widespread endometrial thickening and scattered capillary flow rather than a solitary lesion with one dominant vessel, so it does not fit the image. Option C (subendometrial venous stasis causing mucosal protrusion) implies venous congestion and mucosal bulging; the image shows a focal lesion with an organized feeding vessel rather than a pattern of venous stasis. Option D (endometrial scarring with collateral vessel formation) would likely produce irregular, tethered mucosa and multiple collateral channels rather than a smooth focal mass with a single central feeder.\n\nIn summary, the image shows a focal endometrial lesion with a single feeding vessel entering it, which is most consistent with focal stromal/glandular proliferation with a central arterial pedicle.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "color Doppler ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Smooth polyp with feeding vessel at hydrosonography.",
+  "sub_caption": "Subfigure showing a smooth polyp with a feeding vessel visualized at hydrosonography.",
+  "image_context": "Timmerman and co‐workers showed that “feeding vessels” are predictive of polyps and focally growing lesions, <xref rid=\"AJUM-12-24-g005\" ref-type=\"fig\">Fig. 4</xref>, , \n31\n. The question is can this method replace SIS? The feeding vessel has been reported to have an excellent accuracy for the prediction of polyps\n31\n\n,\n\n32\n. The method however seems to be less good for the over all prediction of focally growing lesions. In our own unpublished material comprising 224 women with PMB, we found a high detection rate (90%), but a lower specificity (48%) indicating that the absence of a feeding vessel will not exclude a focal lesion (Epstein, unpublished). One should be aware that top of the line Doppler equipment is needed for adequate assessment of endometrial vascularity.",
+  "relevant_image_context": "Timmerman and co‐workers showed that “feeding vessels” are predictive of polyps and focally growing lesions. The feeding vessel has been reported to have an excellent accuracy for the prediction of polyps. The method however seems to be less good for the overall prediction of focally growing lesions. In our own unpublished material comprising 224 women with PMB, we found a high detection rate (90%), but a lower specificity (48%) indicating that the absence of a feeding vessel will not exclude a focal lesion. One should be aware that top of the line Doppler equipment is needed for adequate assessment of endometrial vascularity."
+}

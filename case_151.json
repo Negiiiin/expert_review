@@ -1,0 +1,32 @@
+{
+  "case_id": 151,
+  "images": {
+    "subfig": "case_151_subfig.jpg",
+    "full": "case_151_full.jpg"
+  },
+  "question": "A patient presents with severe upper abdominal pain and systemic inflammatory signs. Abdominal imaging was obtained (image shown). Which of the following is contraindicated as routine management for this presentation?",
+  "question_scope": "subfigure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Routine prophylactic IV antibiotics",
+    "B": "Aggressive IV crystalloid resuscitation",
+    "C": "Early enteral nutrition",
+    "D": "Adequate opioid analgesia"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial CT image of the upper abdomen. The pancreas appears enlarged and heterogeneous with surrounding stranding and ill-defined peripancreatic fluid/edema, consistent with acute pancreatic inflammation. There is no obvious gas locule or a well-defined rim-enhancing collection on this slice to indicate a clearly established infected fluid collection.\n\nNext, I relate what I see to the clinical stem, which describes severe upper abdominal pain with systemic inflammatory signs and asks which intervention is contraindicated as routine management. The image supports a diagnosis of acute pancreatitis with inflammatory change but does not by itself demonstrate proven infection.\n\nThen, I consider each option in turn relative to those observations. Routine prophylactic IV antibiotics (A): because the imaging shows inflammatory/edematous changes rather than a definite infected collection, giving antibiotics routinely without evidence of infection would be inappropriate as a routine measure. Aggressive IV crystalloid resuscitation (B): given the systemic inflammatory picture and pancreatic inflammation on imaging, prompt fluid resuscitation is a reasonable supportive step to address possible hypovolemia and organ perfusion. Early enteral nutrition (C): there is no imaging sign here that would preclude enteral feeding (no obstruction or perforation evident on this slice), so early feeding can be part of supportive care. Adequate opioid analgesia (D): the patient has severe abdominal pain, and analgesia is an appropriate symptomatic treatment.\n\nIn summary, the image shows inflammatory pancreatitis without clear evidence of infection, so routine prophylactic IV antibiotics are contraindicated as a routine intervention in this setting.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "CT abdomen and pelvis showing inflammation in the whole pancreas",
+  "sub_caption": "CT abdomen and pelvis showing inflammation in the whole pancreas",
+  "image_context": "A 70-year-old man with a past medical history of diabetes mellitus and hypertension presented to the emergency department complaining of excruciating epigastric abdominal pain, associated with nausea and vomiting. Home medications included alogliptin taken for the past four years and hydrochlorothiazide taken for around 10 years. The patient reported a remote history of alcohol abuse, having quit 20 years prior. Initial workup was notable for a white cell count of 19.1 k/uL, lipase of 19,144 U/L, creatinine 2.23 mg/dL, blood urea nitrogen (BUN) 53 mg/dL, and triglycerides at 138 mg/dL. Abdominal imaging, including ultrasound and noncontrast computerized tomography (CT), was obtained. Ultrasound showed no evidence of cholelithiasis or cholecystitis. CT showed findings consistent with extensive acute pancreatitis (Figure <xref rid=\"cureus-0015-00000037754-i01\" ref-type=\"fig\">1</xref>). The patient was admitted to the medical floor and was started on intravenous fluids, a total of 5 liters were administered as well as analgesia with morphine, but eventually, he was transitioned to the intensive care unit due to worsening metabolic acidosis. There, the patient’s condition continued to decline, with progressively worsening renal and respiratory failure. Subsequently, dialysis was initiated and the patient was intubated and placed on mechanical ventilation. A follow-up CT of the abdomen with contrast showed changes now consistent with necrotizing pancreatitis (Figure ). The patient was admitted to the medical floor and was started on intravenous fluids, a total of 5 liters were administered as well as analgesia with morphine, but eventually, he was transitioned to the intensive care unit due to worsening metabolic acidosis. There, the patient’s condition continued to decline, with progressively worsening renal and respiratory failure. Subsequently, dialysis was initiated and the patient was intubated and placed on mechanical ventilation. A follow-up CT of the abdomen with contrast showed changes now consistent with necrotizing pancreatitis (Figure <xref rid=\"cureus-0015-00000037754-i02\" ref-type=\"fig\">2</xref>). The patient was initially on cefepime for five days and then transitioned to meropenem, due to worsening status. There were no drainable collections at this time. Surgical intervention was not pursued due to the patient’s critically ill state. The patient’s condition continued to worsen after 12 days of treatment. Upon discussion of the patient's condition and poor prognosis, the patient’s code status was changed to do not resuscitate. He subsequently succumbed to his illness.). The patient was initially on cefepime for five days and then transitioned to meropenem, due to worsening status. There were no drainable collections at this time. Surgical intervention was not pursued due to the patient’s critically ill state. The patient’s condition continued to worsen after 12 days of treatment. Upon discussion of the patient's condition and poor prognosis, the patient’s code status was changed to do not resuscitate. He subsequently succumbed to his illness.",
+  "relevant_image_context": "Abdominal imaging, including ultrasound and noncontrast computerized tomography (CT), was obtained. Ultrasound showed no evidence of cholelithiasis or cholecystitis. CT showed findings consistent with extensive acute pancreatitis (Figure 1)."
+}

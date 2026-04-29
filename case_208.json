@@ -1,0 +1,31 @@
+{
+  "case_id": 208,
+  "images": {
+    "subfig": "case_208_subfig.jpg",
+    "full": "case_208_full.jpg"
+  },
+  "question": "A patient with a history of treated malignancy presents with flank pain and is being evaluated for adrenalectomy; the imaging shown is under review before surgery. Which preoperative safety measure is most important to reduce perioperative risk?",
+  "question_scope": "subfigure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Screen for pheochromocytoma and give alpha blockade if positive",
+    "B": "Image-guided percutaneous biopsy prior to surgery",
+    "C": "Empiric high-dose perioperative glucocorticoids",
+    "D": "Proceed to surgery without additional testing"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for what is relevant to the question. The coronal CT shows a large, heterogeneous mass in the left adrenal/upper pole region; the right adrenal appears unremarkable. The mass is sizable and clearly visible adjacent to the left kidney.\n\nNext, I relate these imaging findings to the clinical question, which asks which preoperative safety measure most reduces perioperative risk before an adrenalectomy. The image demonstrates an adrenal mass, but imaging alone cannot determine whether the lesion is hormonally active.\n\nThen, I consider the implications of a functional adrenal tumor for surgery. A catecholamine-secreting tumor (pheochromocytoma) can release large amounts of catecholamines during manipulation, producing severe intraoperative cardiovascular instability. Identifying such a tumor before surgery and providing appropriate alpha blockade if positive directly reduces that perioperative risk.\n\nI then compare this to the other options in the context of the image and question. Percutaneous biopsy does not address the immediate risk of catecholamine release and can introduce other risks; empiric high-dose glucocorticoids target adrenal insufficiency rather than catecholamine excess and are not indicated solely on the basis of this mass; proceeding without testing would risk missing a functional tumor.\n\nTherefore, given the visible adrenal mass and the need to reduce intraoperative cardiovascular risk, screening for pheochromocytoma and instituting alpha blockade if positive is the most important preoperative safety measure.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Solitary adrenal metastasis in a patient with previous history of treated ovarian carcinoma. Patient was symptomatic with flank pain necessitating an open adrenalectomy.",
+  "sub_caption": "Solitary adrenal metastasis in a patient with previous history of treated ovarian carcinoma. Patient was symptomatic with flank pain necessitating an open adrenalectomy.",
+  "image_context": "The adrenal is a common site of metastatic disease in patients with cancers of other organs. The most common primary sites of origin are the lung, breast, kidney, gastrointestinal tract, and melanoma. About half of patients with an adrenal mass in the setting of known malignancy were found to have a metastasis to the adrenal gland [27]. With this in mind, careful evaluation for other adrenal primary tumours is still warranted to exclude functioning tumours. Most patients with metastases to the adrenal gland will also be found to have multiple sites of metastatic disease, but occasionally the adrenal will be the site of a solitary metastasis. Most patients are asymptomatic with the adrenal mass noted incidentally on imaging, but occasionally patients will experience back or flank pain from a large adrenal lesion (<xref rid=\"gr4\" ref-type=\"fig\">Fig. 4</xref>).).",
+  "relevant_image_context": "The adrenal is a common site of metastatic disease in patients with cancers of other organs. The most common primary sites of origin are the lung, breast, kidney, gastrointestinal tract, and melanoma. About half of patients with an adrenal mass in the setting of known malignancy were found to have a metastasis to the adrenal gland [27]. With this in mind, careful evaluation for other adrenal primary tumours is still warranted to exclude functioning tumours. Most patients with metastases to the adrenal gland will also be found to have multiple sites of metastatic disease, but occasionally the adrenal will be the site of a solitary metastasis. Most patients are asymptomatic with the adrenal mass noted incidentally on imaging, but occasionally patients will experience back or flank pain from a large adrenal lesion (Fig. 4).)."
+}

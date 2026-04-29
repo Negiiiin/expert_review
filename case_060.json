@@ -1,0 +1,31 @@
+{
+  "case_id": 60,
+  "images": {
+    "subfig": "case_060_subfig.jpg",
+    "full": "case_060_full.jpg"
+  },
+  "question": "Based on this image, which diagnosis is most likely?",
+  "question_scope": "full_figure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Patent reconstructed hypopharynx",
+    "B": "Zenker diverticulum",
+    "C": "Cervical esophageal stricture",
+    "D": "Tracheoesophageal fistula"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for the appearance of the contrast-filled pharynx and cervical esophagus. On this lateral contrast study there is a smooth, continuous column of contrast extending from the oropharyngeal region down through the cervical esophagus. The lumen has relatively uniform caliber with well-defined margins and no obvious extraluminal pooling of contrast.\n\nNext, I relate these findings to the question, which asks which diagnosis best fits the image among the listed options.\n\nThen I consider how the imaging findings align with the choices. A Zenker diverticulum would appear as a focal posterior outpouching with contrast collection outside the expected lumen — there is no such outpouching here. A cervical esophageal stricture would produce a localized narrowing or abrupt caliber change, which is not seen. A tracheoesophageal fistula would show contrast tracking into the airway or an abnormal communication, and I see no contrast entering the trachea or extraluminal leakage. The observed finding — a patent, smooth contrast-filled hypopharyngeal/cervical esophageal lumen without leak, outpouching, or focal stricture — is most consistent with a patent reconstructed hypopharynx.\n\nTherefore, the image most strongly supports option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "X-ray (contrast oesophageal radiography / oesophagram)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Postoperative oesophageal X-ray imaging showing a new well functioning hypopharynx.",
+  "sub_caption": "Postoperative oesophageal X-ray imaging showing a new well functioning hypopharynx.",
+  "image_context": "All patients underwent contrast oesophageal X-ray imaging on postoperative day 10 to evaluate the absence of fistulas and the calibre of the reconstructed hypopharynx (<xref ref-type=\"fig\" rid=\"0392-100X-32-93-g004\">Fig. 4</xref>); if no fistula was found, oral intake would start on the same day. All patients without complications were discharged between postoperative days 10-12; patients experiencing minor complications were discharged as soon as complications healed, with the longest in-hospital stay of 21 days in one patient.); if no fistula was found, oral intake would start on the same day. All patients without complications were discharged between postoperative days 10-12; patients experiencing minor complications were discharged as soon as complications healed, with the longest in-hospital stay of 21 days in one patient.",
+  "relevant_image_context": "All patients underwent contrast oesophageal X-ray imaging on postoperative day 10 to evaluate the absence of fistulas and the calibre of the reconstructed hypopharynx (Fig. 4); if no fistula was found, oral intake would start on the same day."
+}

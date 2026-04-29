@@ -1,0 +1,31 @@
+{
+  "case_id": 338,
+  "images": {
+    "subfig": "case_338_subfig.jpg",
+    "full": "case_338_full.jpg"
+  },
+  "question": "What does the arrow indicate?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Exophytic right renal mass",
+    "B": "Right adrenal mass",
+    "C": "Simple right renal cyst",
+    "D": "Perinephric hematoma"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image and locate the arrowed lesion. The arrow points to a rounded lesion at the lateral border of the right kidney that projects outward beyond the normal renal contour.\n\nNext, I assess the lesion's relationship to the kidney and its internal appearance. The lesion is continuous with the renal parenchyma (it abuts and bulges from the cortex) rather than lying separately in the adjacent fat, and it has soft-tissue attenuation rather than the homogeneously low attenuation characteristic of a simple fluid-filled cyst.\n\nThen I relate these observations to the answer choices. A lesion that protrudes from the kidney surface and is continuous with renal cortex fits an exophytic renal mass (option A). The lesion is not separate from the kidney in the perinephric space, making a perinephric hematoma (D) less likely. It does not have the imaging appearance of a simple cyst (C). Because the mass is arising from the kidney itself rather than being a distinct structure adjacent to it, a right adrenal mass (B) is less consistent with what I see.\n\nIn summary, the image shows a solid-appearing lesion continuous with and protruding from the right renal cortex, which is most consistent with an exophytic right renal mass.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial CT demonstrating the position of the tumor. Tumor measured 4 × 3.5 × 2 cm and was present on the lateral aspect of the right kidney.",
+  "sub_caption": "Axial CT demonstrating the position of the tumor. Tumor measured 4 × 3.5 × 2 cm and was present on the lateral aspect of the right kidney.",
+  "image_context": "37-year-old female presented with recurrent urinary tract infections and groin pain. The patient's primary care physician ordered an ultrasound scan to evaluate her recurrent urinary tract infections. The ultrasound scan showed a solid renal mass or a complicated cyst in the lower lateral aspect of her right kidney. A computerized tomography (CT) scan was ordered to evaluate the mass further. CT revealed an exophytic 4 × 3.5 × 2 cm mass on the inferior aspect of the right kidney (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). The patient was referred to urology. In view of likely malignant nature of the mass the patient was advised to undergo partial nephrectomy. Patient underwent robotic-assisted partial nephrectomy, which was uneventful. Histological analysis of the excised renal mass showed a well-circumscribed tumor with pushing borders (). The patient was referred to urology. In view of likely malignant nature of the mass the patient was advised to undergo partial nephrectomy. Patient underwent robotic-assisted partial nephrectomy, which was uneventful. Histological analysis of the excised renal mass showed a well-circumscribed tumor with pushing borders (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>). Neoplastic cells were uniform containing low-grade nuclei and cytoplasmic vacuoles with pale eosinophilic material. Cells were arranged in a nested and tubular pattern. Tumor was interspersed with cysts containing pale eosinophilic material (). Neoplastic cells were uniform containing low-grade nuclei and cytoplasmic vacuoles with pale eosinophilic material. Cells were arranged in a nested and tubular pattern. Tumor was interspersed with cysts containing pale eosinophilic material (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>).).Fig. 1Axial CT demonstrating the position of the tumor. Tumor measured 4 × 3.5 × 2 cm and was present on the lateral aspect of the right kidney.Fig. 1Fig. 2Low power tumor histology. On low power, the tumor is well encapsulated.Fig. 2Fig. 3High power tumor histology. On high power, the tumor is solid with abundant eosinophilic cytoplasm and partial vacuolization of cytoplasm (denoted by arrowheads). Nuclei are round and low grade without any mitoses. Pleomorphism and tumor necrosis is not seen. Immunohistochemistry staining (image not available) reveals loss of SdhB staining of tumor cells diagnostic of SDH deficient RCC.Fig. 3",
+  "relevant_image_context": "37-year-old female presented with recurrent urinary tract infections and groin pain. The ultrasound scan showed a solid renal mass or a complicated cyst in the lower lateral aspect of her right kidney. A computerized tomography (CT) scan was ordered to evaluate the mass further. CT revealed an exophytic 4 × 3.5 × 2 cm mass on the inferior aspect of the right kidney (Fig. 1). Fig. 1 Axial CT demonstrating the position of the tumor. Tumor measured 4 × 3.5 × 2 cm and was present on the lateral aspect of the right kidney."
+}

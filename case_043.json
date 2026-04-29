@@ -1,0 +1,32 @@
+{
+  "case_id": 43,
+  "images": {
+    "subfig": "case_043_subfig.jpg",
+    "full": "case_043_full.jpg"
+  },
+  "question": "A hospitalized patient on day 9 underwent pulmonary CT angiography after lack of response to therapy and rising D-dimer levels. Based on the imaging, which of the following is the most appropriate initial pharmacologic treatment?",
+  "question_scope": "subfigure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Therapeutic low-molecular-weight heparin",
+    "B": "Systemic thrombolytic therapy",
+    "C": "Immediate rivaroxaban monotherapy",
+    "D": "Inferior vena cava filter placement alone",
+    "E": "Antiplatelet therapy with aspirin"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial pulmonary CT angiogram carefully. The image shows contrast-opacified pulmonary arteries with discrete filling defects in multiple segmental branches on both sides, consistent with pulmonary emboli; I do not see a single large central or saddle thrombus on this slice. The cardiac silhouette on this section does not appear grossly dilated to suggest marked right ventricular enlargement.\n\nNext, I relate these imaging findings to the question, which asks for the most appropriate initial pharmacologic treatment for the patient with new pulmonary emboli. The relevant choices include anticoagulation (therapeutic LMWH or rivaroxaban), systemic thrombolysis, antiplatelet therapy, or IVC filter placement alone.\n\nThen, I consider how each option matches the imaging and clinical scenario. Systemic thrombolytic therapy is typically reserved for patients with massive PE and hemodynamic compromise; there is no imaging evidence here of a massive central clot or overt right-heart strain on this image. An IVC filter alone would be chosen when anticoagulation is contraindicated or has failed, but no contraindication to anticoagulation is provided. Antiplatelet therapy with aspirin is not appropriate for treating acute venous thromboembolism seen here. Although an oral direct factor Xa inhibitor is an effective anticoagulant class, an initial therapeutic parenteral anticoagulant is the most appropriate immediate pharmacologic choice in a hospitalized patient with acute PE on imaging.\n\nTherefore, synthesizing the image (segmental bilateral PE without clear massive clot or right-heart failure) and the treatment options, therapeutic low-molecular-weight heparin is the most appropriate initial pharmacologic treatment.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT angiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Images of a 38-year-old man with COVID-19 pneumonia: (A) Axial unenhanced chest CT obtained at the first day of admission revealing bilateral ground glass opacities and areas of crazy paving; (B) Axial pulmonary CT angiogram showing filling defects in segmental branches of the pulmonary artery bilaterally",
+  "sub_caption": "(B) Axial pulmonary CT angiogram showing filling defects in segmental branches of the pulmonary artery bilaterally",
+  "image_context": "<xref ref-type=\"fig\" rid=\"ijccm-24-873-g003\">Figure 3</xref> belongs to a 38-year-old man hospitalized for 13 days. He presented with progressive dyspnea. On admission, he had WBC count of 4.9 (10 belongs to a 38-year-old man hospitalized for 13 days. He presented with progressive dyspnea. On admission, he had WBC count of 4.9 (103/μL) with 67% neutrophils and 24.1% lymphocytes, 120,000 platelets per micro liter, and elevated ESR (56 mm/hour) and CRP (58 mg/L). On the ninth day of admission, the patient became a candidate for pulmonary CT angiography because of lack of response to therapies and rising d-dimer levels (14,269 ng/mL on the sixth day vs >15,000 ng/mL on the eighth day). CT angiogram confirmed APE.",
+  "relevant_image_context": "On the ninth day of admission, the patient became a candidate for pulmonary CT angiography because of lack of response to therapies and rising d-dimer levels. CT angiogram confirmed APE."
+}

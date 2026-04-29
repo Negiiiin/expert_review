@@ -1,0 +1,31 @@
+{
+  "case_id": 158,
+  "images": {
+    "subfig": "case_158_subfig.jpg",
+    "full": "case_158_full.jpg"
+  },
+  "question": "How many dental implants are visible on this image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for radiographic signs of dental implants: I scan the entire cross-sectional image for distinct, high-density, implant-shaped structures within the alveolar bone.\n\nNext, I relate what I see to the question, which asks how many dental implants are visible. In the central region of the image there is one clear, high-density vertical structure occupying the tooth/implant position in the bone. I do not observe any other similar high-density, implant-like structures elsewhere in the field of view.\n\nThen, I consider how each option lines up with these observations. Option A (0 implants) is inconsistent because one implant-like object is present. Options C (2) and D (3) are inconsistent because there are no additional implant-shaped densities to raise the count above one.\n\nFinally, tying these observations to the available choices, the image shows a single dental implant, so the correct choice is B (1).",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Cone-beam computed tomography (CBCT)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "CBCT shows implant after 6 months from its placement",
+  "sub_caption": "CBCT shows implant after 6 months from its placement.",
+  "image_context": "Cone beam computerized tomography was taken immediately after implant installation, and 6 months later (Fig. <xref rid=\"12903_2021_1847_Fig2_HTML\" ref-type=\"fig\">2</xref>) to evaluate the change in bone density and marginal bone level about the dental implant.) to evaluate the change in bone density and marginal bone level about the dental implant.Fig. 2CBCT shows implant after 6 months from its placement",
+  "relevant_image_context": "Cone beam computerized tomography was taken immediately after implant installation, and 6 months later (Fig. 2) to evaluate the change in bone density and marginal bone level about the dental implant."
+}

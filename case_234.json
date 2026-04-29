@@ -1,0 +1,31 @@
+{
+  "case_id": 234,
+  "images": {
+    "subfig": "case_234_subfig.jpg",
+    "full": "case_234_full.jpg"
+  },
+  "question": "How many distinct layers are visible in the ultrasound image?",
+  "question_scope": "full_figure",
+  "question_category": "Counting",
+  "options": {
+    "A": "Three",
+    "B": "Four",
+    "C": "Five",
+    "D": "Six"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the ultrasound image for visible layer structure. I look for parallel bands and any text or arrows annotating the image.\n\nNext, I note that the image shows a sequence of parallel bands across the wall, and there are five labeled arrows reading \"Layer 1\", \"Layer 2\", \"Layer 3\", \"Layer 4\", and \"Layer 5\", each pointing to a distinct band. Visually, I can follow the arrows from left to right and identify five separate layers indicated on the image.\n\nThen, I relate these observations to the question, which asks how many distinct layers are visible. I compare the count I obtained (five labeled layers) to the provided options (three, four, five, six).\n\nFinally, because the image clearly marks and shows five separate layers, the correct choice is the option corresponding to five layers.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "The 5-layer structure of the normal gastric wall on ultrasonography. The 5-layer structure of the normal gastric wall is numbered from the luminal side. Layer 1 is the interface echo between the gastric lumen and the mucosa, layer 2 is the rest of the mucosa, layer 3 is the submucosa, layer 4 is the muscularis propria, and layer 5 is the serosa.",
+  "sub_caption": "The 5-layer structure of the normal gastric wall on ultrasonography. The 5-layer structure of the normal gastric wall is numbered from the luminal side. Layer 1 is the interface echo between the gastric lumen and the mucosa, layer 2 is the rest of the mucosa, layer 3 is the submucosa, layer 4 is the muscularis propria, and layer 5 is the serosa.",
+  "image_context": "Normal gastric wall consists of five layers, mucosa, submucosa, muscularis propria, subserosa and serosa. The five layers, including the interface echo between the gastric lumen and the mucosa, the rest of the mucosa, submucosa, muscularis propria, and serosa[15] , can be visualized by US (Figure <xref rid=\"WJG-30-3005-g002\" ref-type=\"fig\">2</xref>). The outer serosa enhances first in the CEUS examination, followed rapidly by the submucosa and mucosa, completing the enhancement of the entire gastric wall. The layers of the mucosa and particularly the submucosa, exhibit early and intense enhancement whereas muscularis propria layer shows lesser and delayed enhancement[). The outer serosa enhances first in the CEUS examination, followed rapidly by the submucosa and mucosa, completing the enhancement of the entire gastric wall. The layers of the mucosa and particularly the submucosa, exhibit early and intense enhancement whereas muscularis propria layer shows lesser and delayed enhancement[16] (Video 1). GCs manifest as the thickening and disruption of normal gastric wall structures on US, “hyper-enhancement” in the arterial phase and “hypo-enhancement” in the venous phase on CEUS. Therefore, the 5-layer gastric wall structure of US and perfusion characteristics of CEUS give detailed information for T staging.",
+  "relevant_image_context": "Normal gastric wall consists of five layers, mucosa, submucosa, muscularis propria, subserosa and serosa. The five layers, including the interface echo between the gastric lumen and the mucosa, the rest of the mucosa, submucosa, muscularis propria, and serosa, can be visualized by US. The outer serosa enhances first in CEUS, followed rapidly by the submucosa and mucosa, completing the enhancement of the entire gastric wall. The layers of the mucosa and particularly the submucosa, exhibit early and intense enhancement whereas muscularis propria layer shows lesser and delayed enhancement. Therefore, the 5-layer gastric wall structure of US and perfusion characteristics of CEUS give detailed information for T staging."
+}

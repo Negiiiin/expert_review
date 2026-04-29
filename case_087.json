@@ -1,0 +1,32 @@
+{
+  "case_id": 87,
+  "images": {
+    "subfig": "case_087_subfig.jpg",
+    "full": "case_087_full.jpg"
+  },
+  "question": "A woman underwent an emergency cesarean delivery at 34 weeks 5 days for an abnormal fetal heart tracing; estimated blood loss was approximately 700 mL and she was discharged on postoperative day 5. The intraoperative photograph above is provided. For a subsequent pregnancy, which of the following is the most appropriate recommendation regarding delivery management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Planned elective cesarean before labor (~37 weeks)",
+    "B": "Trial of labor with continuous monitoring",
+    "C": "Attempt vaginal birth after cesarean at term",
+    "D": "Recommend permanent sterilization before discharge",
+    "E": "Schedule hysterectomy prior to future conception"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the intraoperative photograph. I see a uterus with a large, full‑thickness defect in the uterine wall (a clear rupture) with blood present and the uterine cavity visible through the defect. The image is consistent with an intraoperative uterine rupture encountered and managed at the time of the cesarean.\n\nNext, I relate these findings to the clinical question, which states the patient had an emergency cesarean at 34 weeks 5 days with ~700 mL blood loss and was discharged on postoperative day 5. The image therefore documents a significant uterine wall disruption during that surgery.\n\nThen, I consider how that observation affects delivery planning for a subsequent pregnancy. A prior full‑thickness uterine rupture represents a structural uterine scar at risk of reopening during labor. To avoid exposing the scar to the stress of labor and reduce the chance of recurrent rupture, delivery before spontaneous labor begins would be the safer approach.\n\nFinally, I compare that reasoning to the options provided. Planning an elective cesarean before labor (option A, around 37 weeks) is the strategy that most directly prevents labor‑associated stress on the repaired uterine wall. Allowing a trial of labor or attempting VBAC would expose the scar to labor stress; permanent sterilization or preconception hysterectomy are excessive given the patient was discharged and no such indications are provided. Therefore, scheduling an elective cesarean before labor best aligns with the image and clinical scenario.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Intraoperative photograph",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "surgical procedure"
+  ],
+  "caption": "Operative photos showing the posterior transverse uterine rupture of 10 cm before and after being repaired.",
+  "sub_caption": "Operative photos showing the posterior transverse uterine rupture of 10 cm before and after being repaired.",
+  "image_context": "One year later, she conceived after oocyte donation in Spain with embryo transfer. At 34 weeks and 5 days of gestation, she was admitted to the hospital for acute abdominal pain. Non Stress Test revealed an abnormal fetal heartrate without contractions. Consequently, an emergency caesarian delivery was performed, and she gave birth to a female infant weighing 1,775 grams, with Apgar scores of 7, 8, and 10, at 1, 5, and 10 minutes, respectively. During manual exploration of the uterus, a posterior isthmic transverse uterine rupture measuring10 cm was noted and repaired using a running-X suture technique with a total blood loss estimated at 700 mL (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). The patient was discharged 5 days later with an uneventful follow-up evaluation.). The patient was discharged 5 days later with an uneventful follow-up evaluation.Figure 1Operative photos showing the posterior transverse uterine rupture of 10 cm before and after being repaired.",
+  "relevant_image_context": "One year later, she conceived after oocyte donation in Spain with embryo transfer. At 34 weeks and 5 days of gestation, she was admitted to the hospital for acute abdominal pain. Non Stress Test revealed an abnormal fetal heartrate without contractions. Consequently, an emergency caesarian delivery was performed, and she gave birth to a female infant weighing 1,775 grams, with Apgar scores of 7, 8, and 10, at 1, 5, and 10 minutes, respectively. During manual exploration of the uterus, a posterior isthmic transverse uterine rupture measuring 10 cm was noted and repaired using a running-X suture technique with a total blood loss estimated at 700 mL (Fig. 1). The patient was discharged 5 days later with an uneventful follow-up evaluation."
+}

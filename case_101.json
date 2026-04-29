@@ -1,0 +1,32 @@
+{
+  "case_id": 101,
+  "images": {
+    "subfig": "case_101_subfig.jpg",
+    "full": "case_101_full.jpg"
+  },
+  "question": "Based on this image, how many distinct masses are present?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four",
+    "E": "More than four"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the axial abdominal CT image for distinct focal lesions. The vertebral body is central, with abdominal organs around it; I see two well-defined, rounded masses located symmetrically on each side of the midline in the upper retroperitoneal/upper abdominal region. Both lesions are visually separate from the liver and spleen and have clear margins, so they appear as two distinct masses on this slice.\n\nNext, I relate what I see to the question, which asks how many distinct masses are present. I focus on counting separate lesions visible in this image: I can identify one discrete mass on the right side of the midline and one discrete mass on the left side of the midline. I do not see any additional separate masses in this image slice (no third or multiple smaller nodules are apparent).\n\nThen, I consider how the available answer choices line up with that observation. The image shows two distinct masses, which corresponds directly to option B. Therefore, based on the appearance of this CT slice, there are two distinct masses present.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Abdominal CT scan reveals large bilateral masses of low attenuation in the region of the adrenal glands without involvement of other areas",
+  "sub_caption": "Abdominal CT scan reveals large bilateral masses of low attenuation in the region of the adrenal glands without involvement of other areas",
+  "image_context": "Chest radiology was normal, but abdominal US demonstrated large bilateral adrenal masses of homogeneous hypoechoic texture. Abdominal CT scan showed large bilateral masses in the region of the adrenal glands. The mass on the right measured 6×4×6.5 cm, and the mass on the left measured 10×6×10.5 cm. The masses were of homogeneous low attenuation. There was no evidence of abdominal or pelvic lymphadenopathy (<xref ref-type=\"fig\" rid=\"kjim-15-1-51-9f3\">Figure 3</xref>).).",
+  "relevant_image_context": "Abdominal US demonstrated large bilateral adrenal masses of homogeneous hypoechoic texture. Abdominal CT scan showed large bilateral masses in the region of the adrenal glands. The mass on the right measured 6×4×6.5 cm, and the mass on the left measured 10×6×10.5 cm. The masses were of homogeneous low attenuation. There was no evidence of abdominal or pelvic lymphadenopathy."
+}

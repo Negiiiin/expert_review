@@ -1,0 +1,32 @@
+{
+  "case_id": 166,
+  "images": {
+    "subfig": "case_166_subfig.jpg",
+    "full": "case_166_full.jpg"
+  },
+  "question": "Based on this image, what is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Severe chronic periodontitis",
+    "B": "Localized aggressive periodontitis",
+    "C": "Periapical abscess",
+    "D": "External root resorption",
+    "E": "Normal periodontal status"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the radiograph for the condition of the alveolar bone and tooth roots. The image is an anterior periapical radiograph showing the maxillary and mandibular anterior teeth; the interdental crestal bone is markedly reduced and the alveolar bone level is well down the root surfaces on multiple adjacent teeth.\n\nNext, I relate these findings to the question, which asks for the most likely diagnosis among periodontal and endodontic/resorptive options. The key visual findings are generalized, severe loss of alveolar crest height across several neighboring teeth rather than a single isolated radiolucency at a root apex.\n\nThen I consider how each option lines up with those observations. A periapical abscess would be expected to show a focal, well‑defined radiolucency at the apex of one tooth; that focal apical radiolucency is not present. External root resorption would show irregular loss of root structure; the root outlines here remain intact without obvious external irregular resorptive defects. Localized aggressive periodontitis would be suggested by a very limited, localized area of severe bone loss, but the radiograph shows widespread anterior bone loss across multiple teeth rather than a single localized defect. Normal periodontal status is inconsistent with the clearly reduced bone heights visible.\n\nFinally, the pattern most consistent with the image is widespread, severe alveolar bone loss affecting the supporting structures of several teeth, which corresponds best to severe chronic periodontitis.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "periapical radiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "A X-ray film showing upper anterior alveolar bone loss.",
+  "sub_caption": "A X-ray film showing upper anterior alveolar bone loss.",
+  "image_context": "Comprehensive measures were taken, including oral health education, chlorhexidine mouthwash, simple periodontal scaling, intravenous piperacillin sodium and tazobactam sodium, and metronidazole and folic acid prescription. About one 1 later, her swollen lips, mucosal ulcerations, and congestive gingival were alleviated and she could open her mouth wide. Therefore, standard periodontal scaling was applied to promote the recovery of periodontal tissue. Meanwhile, periapical X-rays of the anterior teeth were taken, which revealed severe alveolar bone resorption both in the upper and lower anterior areas. Alveolar bone loss in tooth 41 had almost even reached the apical area (<xref rid=\"tp-09-05-720-f4\" ref-type=\"fig\"><italic>Figures 4,5</italic></xref>Figures 4,5<xref rid=\"tp-09-05-720-f5\" ref-type=\"fig\" />).).",
+  "relevant_image_context": "periapical X-rays of the anterior teeth were taken, which revealed severe alveolar bone resorption both in the upper and lower anterior areas. Alveolar bone loss in tooth 41 had almost even reached the apical area."
+}

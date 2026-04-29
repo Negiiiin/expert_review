@@ -1,0 +1,32 @@
+{
+  "case_id": 302,
+  "images": {
+    "subfig": "case_302_subfig.jpg",
+    "full": "case_302_full.jpg"
+  },
+  "question": "Based on this image, which of the following best describes the predominant finding?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Left posterior fossa epidural hematoma",
+    "B": "Left posterior fossa subdural hematoma",
+    "C": "Left cerebellar intraparenchymal hemorrhage",
+    "D": "Diffuse subarachnoid hemorrhage"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image focusing on the posterior fossa. I see a well‑defined hyperdense collection along the left posterior skull base/petrous region that is extra‑axial (it sits adjacent to the inner table of the skull rather than within the cerebellar parenchyma). The collection has a relatively lentiform/rounded, localized appearance and produces focal mass effect on the adjacent cerebellar hemisphere.\n\nNext, I relate these imaging features to the question asking for the predominant finding. An epidural hematoma classically appears as a localized, lens‑shaped extra‑axial hyperdensity abutting the skull. A subdural hematoma would more typically be crescent‑shaped and spread along the surface; that morphology is not seen here. An intraparenchymal hemorrhage would be centered within the brain tissue without a sharp extra‑axial border; this collection clearly abuts the inner table. Diffuse subarachnoid hemorrhage would show blood layering in the sulci and basal cisterns rather than a single focal extra‑axial mass.\n\nThen, I consider how the options map to the observed appearance: the imaging best matches a left‑sided posterior fossa extra‑axial, lens‑shaped hyperdensity consistent with an epidural hematoma. Therefore the most appropriate choice is the left posterior fossa epidural hematoma.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "A plain axial CT scan of the brain showing mild interval regression of the left-sided posterior fossa/cerebellar epidural hematoma",
+  "sub_caption": "A plain axial CT scan of the brain showing mild interval regression of the left-sided posterior fossa/cerebellar epidural hematoma",
+  "image_context": "The patient arrived at the emergency department 2 hours after experiencing head trauma from falling on wet ground. He suffered from post-traumatic headaches and acute vomiting. On arriving at the emergency department of Maternity and Children’s Hospital, Alhassa, he was conscious, attentive, agitated, and with stable vital signs, including heart rate, blood pressure, temperature, and respiratory rate. Laboratory investigations showed that his hemoglobin was 9.7 g/dL, hematocrit was 30.7%, mean corpuscular volume was 54 fL, reticulocyte count was 1.1%, and white blood cell count was 9.86 × 109/L. On clinical examination, there were no neurological deficiencies regarding reflexes, sensation, mental, cognitive, visual, speech, gait, or motor functions. A computerized tomography (CT) scan of the brain was requested as a part of the routine evaluation and revealed a left-sided posterior fossa cerebellar epidural hematoma (Fig. <xref rid=\"13256_2023_3783_Fig1_HTML\" ref-type=\"fig\">1</xref>). The patient was admitted and closely monitored in the intensive care unit and received 24 doses of rFVII (120 µg/kg) for the first 2 days, then six doses daily for 4 days, with tranexamic acid (10 mg/kg) given every 6 hours. Brain CT scans were repeated after 2 days, revealing bleeding cessation. Accordingly, no interventional neurosurgical procedures were recommended. The patient showed stable vital signs and normal neurological examination throughout his admission. The patient was discharged after 10 days, in good health, with no neurological complications. One week after discharge, the patient was followed up by the hospital’s neurosurgeon for reassurance.). The patient was admitted and closely monitored in the intensive care unit and received 24 doses of rFVII (120 µg/kg) for the first 2 days, then six doses daily for 4 days, with tranexamic acid (10 mg/kg) given every 6 hours. Brain CT scans were repeated after 2 days, revealing bleeding cessation. Accordingly, no interventional neurosurgical procedures were recommended. The patient showed stable vital signs and normal neurological examination throughout his admission. The patient was discharged after 10 days, in good health, with no neurological complications. One week after discharge, the patient was followed up by the hospital’s neurosurgeon for reassurance.Fig. 1A plain axial CT scan of the brain showing mild interval regression of the left-sided posterior fossa/cerebellar epidural hematoma",
+  "relevant_image_context": "The CT scan of the brain revealed a left-sided posterior fossa cerebellar epidural hematoma (Fig. 1). Brain CT scans were repeated after 2 days, revealing bleeding cessation. Accordingly, no interventional neurosurgical procedures were recommended. The patient arrived at the emergency department 2 hours after experiencing head trauma from falling on wet ground with post-traumatic headaches and acute vomiting. On examination, there were no neurological deficiencies regarding reflexes, sensation, mental status, visual function, or motor function. The patient was admitted and closely monitored in the intensive care unit and received treatment; brain CT scans were repeated after 2 days, revealing cessation of bleeding."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 293,
+  "images": {
+    "subfig": "case_293_subfig.jpg",
+    "full": "case_293_full.jpg"
+  },
+  "question": "A 70-year-old man sustained a minor head injury and had an initially normal CT scan. He returned one month later with worsening headache and new left-sided weakness. Repeat brain imaging is shown; which complication best explains the clinical presentation and imaging?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Acute-on-chronic subdural hematoma",
+    "B": "Epidural (extradural) hematoma",
+    "C": "Subarachnoid hemorrhage",
+    "D": "Large ischemic (MCA) infarct"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for key radiologic findings. This axial non-contrast head CT shows bilateral, crescent-shaped extra-axial collections along the cerebral convexities that conform to the brain surface. Within these collections there are regions of differing attenuation — some areas appear relatively hyperdense and others relatively hypodense — and the collections are asymmetric with greater thickness on one side producing mild mass effect with sulcal effacement and slight midline shift.\n\nNext, I relate what I see to the clinical question, which asks which complication best explains a 70-year-old man who had a minor head injury, an initially normal CT, and then returned one month later with worsening headache and new left-sided weakness. The image demonstrates mixed-density, crescentic extra-axial collections causing mass effect; this pattern on CT explains a delayed deterioration and a focal neurological deficit by compression of the hemisphere opposite the side of greater collection.\n\nThen, I consider how each answer option aligns with those imaging findings. Option A (acute-on-chronic subdural hematoma) matches the image: subdural collections classically layer as crescentic extra-axial densities along the convexities, and mixed attenuation within the collection is consistent with blood of different ages (older and more recent) — fitting an acute re-bleed on a chronic subdural. Option B (epidural hematoma) is less consistent because the image shows bilateral, concavo-convex, surface-conforming crescent collections rather than a focal lentiform extradural collection. Option C (subarachnoid hemorrhage) would manifest as blood tracking in the sulci and basal cisterns rather than a crescentic extra-axial collection. Option D (large ischemic MCA infarct) would produce intraparenchymal low attenuation in an arterial territory, not bilateral extra-axial, crescent-shaped collections.\n\nIn summary, the imaging appearance — bilateral, crescentic, mixed-density extra-axial collections with mass effect and asymmetric thickness — is best explained by an acute-on-chronic subdural hematoma.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Computed Tomography (CT)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Axial non-contrast computed tomography scan of the brainShowing bilateral acute-on-chronic subdural haemorrhages.",
+  "sub_caption": "Axial non-contrast computed tomography scan of the brain Showing bilateral acute-on-chronic subdural haemorrhages.",
+  "image_context": "A 70-year-old male initially presented to the local hospital following an alleged assault in which he sustained a minor head injury. The Glasgow coma score (GCS) on presentation was 15. Initial computed tomography (CT) scan of his brain was unremarkable. He was discharged but developed worsening headache and left-sided weakness one month later. He represented to the hospital and a repeat CT showed bilateral acute on chronic subdural haemorrhages (Figure <xref ref-type=\"fig\" rid=\"cureus-0009-00000001358-i01\">1</xref>).).",
+  "relevant_image_context": "A 70-year-old male initially presented to the local hospital following an alleged assault in which he sustained a minor head injury. The Glasgow coma score (GCS) on presentation was 15. Initial computed tomography (CT) scan of his brain was unremarkable. He was discharged but developed worsening headache and left-sided weakness one month later. He represented to the hospital and a repeat CT showed bilateral acute on chronic subdural haemorrhages (Figure 1)."
+}

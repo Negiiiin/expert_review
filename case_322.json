@@ -1,0 +1,32 @@
+{
+  "case_id": 322,
+  "images": {
+    "subfig": "case_322_subfig.jpg",
+    "full": "case_322_full.jpg"
+  },
+  "question": "A patient is asymptomatic after surgical teams reviewed the case and judged that a displaced component of an intravascular filter is likely embedded and endothelialized and poses minimal risk. Which of the following is the most appropriate management strategy?",
+  "question_scope": "subfigure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Urgent open surgical removal",
+    "B": "Endovascular retrieval attempt",
+    "C": "Conservative management with periodic imaging surveillance",
+    "D": "Anticoagulation without planned surveillance",
+    "E": "Immediate systemic thrombolysis"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the provided CT image: an axial abdominal CT through the region of the inferior vena cava (IVC) shows an IVC filter with multiple circumferential struts; one component appears displaced relative to the main filter body (visualized by the arrows). The image confirms a retained filter with a missing/displaced element but does not show any acute surrounding hemorrhage or large adjacent collection.\n\nNext, I relate these imaging findings to the clinical stem, which states the patient is asymptomatic and the surgical teams judged the displaced component to be embedded and endothelialized and to pose minimal risk. That assessment implies the displaced fragment is likely stable and incorporated into the vessel wall rather than free or actively migrating.\n\nThen, I consider how each management option aligns with those observations and the clinical judgment:\n- Urgent open surgical removal (A) would be invasive and disproportionate for an asymptomatic patient when the fragment is thought to be embedded and low risk.\n- Endovascular retrieval attempt (B) would also be an interventional procedure that may not be indicated if the component is endothelialized and stable.\n- Conservative management with periodic imaging surveillance (C) directly corresponds to observing a stable, embedded fragment and monitoring for any change over time.\n- Anticoagulation without planned surveillance (D) omits the recommended imaging follow-up and therefore does not address the need to monitor the known displaced component.\n- Immediate systemic thrombolysis (E) is unrelated to management of an embedded filter component and is not indicated in an asymptomatic, stable situation.\n\nFinally, synthesizing the image appearance (displaced but appearing stable) with the explicit clinical judgment (embedded/endothelialized, minimal risk) supports nonoperative observation with scheduled imaging checks. Therefore conservative management with periodic imaging surveillance is the most appropriate choice.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT of the abdomen showing only five out of the six struts of the inferior vena cava filter with one strut missing.",
+  "sub_caption": "CT of the abdomen showing only five out of the six struts of the inferior vena cava filter with one strut missing.",
+  "image_context": "Cardiothoracic and vascular surgery teams were consulted, and upon reviewing the CT images they agreed that the IVC filter was off-axis and missing one strut (Figure <xref ref-type=\"fig\" rid=\"cureus-0012-00000009779-i05\">5</xref>). They also stated that the IVC strut was likely embedded in the trabeculae of the right ventricle and endothelialized, posing minimal risk. Since the patient was asymptomatic, they decided to leave the IVC filter and the strut in place and opted for surveillance by regular follow-ups and CT scans. The patient’s right flank pain was likely musculoskeletal and responded well to the muscle relaxant. The patient was discharged home on novel oral anticoagulant with close follow-up as an outpatient. ). They also stated that the IVC strut was likely embedded in the trabeculae of the right ventricle and endothelialized, posing minimal risk. Since the patient was asymptomatic, they decided to leave the IVC filter and the strut in place and opted for surveillance by regular follow-ups and CT scans. The patient’s right flank pain was likely musculoskeletal and responded well to the muscle relaxant. The patient was discharged home on novel oral anticoagulant with close follow-up as an outpatient.",
+  "relevant_image_context": "Cardiothoracic and vascular surgery teams were consulted, and upon reviewing the CT images they agreed that the IVC filter was off-axis and missing one strut. They also stated that the IVC strut was likely embedded in the trabeculae of the right ventricle and endothelialized, posing minimal risk. Since the patient was asymptomatic, they decided to leave the IVC filter and the strut in place and opted for surveillance by regular follow-ups and CT scans. The patient’s right flank pain was likely musculoskeletal and responded well to the muscle relaxant. The patient was discharged home on novel oral anticoagulant with close follow-up as an outpatient."
+}

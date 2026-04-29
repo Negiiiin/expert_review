@@ -1,0 +1,32 @@
+{
+  "case_id": 310,
+  "images": {
+    "subfig": "case_310_subfig.jpg",
+    "full": "case_310_full.jpg"
+  },
+  "question": "How many nodular enhancing foci are visible in the left pontine cistern on this image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the axial post-contrast image and focus on the region of the pontine cistern on the left side. I look for discrete, rounded regions of increased signal intensity that would represent nodular enhancement.\n\nNext, I identify a single well-defined, rounded bright focus immediately adjacent to the left anterolateral aspect of the pons within the expected location of the left pontine cistern. I note its compact nodular appearance and clear contrast relative to surrounding CSF and brain.\n\nThen I systematically scan the remainder of the left pontine cistern on this slice to search for any additional similar nodules. I do not see any other separate rounded enhancing foci in that cisternal space on this image—only the one described.\n\nFinally, relating these observations to the answer choices (0, 1, 2, 3), the image shows one nodular enhancing focus in the left pontine cistern. Therefore the correct count is one.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "MRI revealed nodular enhancement in the left pontine cistern.",
+  "sub_caption": "MRI revealed nodular enhancement in the left pontine cistern.",
+  "image_context": "On the third day of admission, the patient developed lethargy. Considering his persistent fever and refractory hyponatremia since admission, the patient underwent a lumbar puncture with pressure > 40 cmH20. The cerebrospinal fluid (CSF) analysis revealed a WBC count of 66 × 106/L, lymphocyte count of 70%, protein level of 925.1 mg/L, glucose level of 3.0 mmol/L, and chloride level of 103.5 mmol/L. Findings of CSF cryptococcal antigen and bacterial and fungal cultures, as well as results of the purified protein derivation test and sputum cultures, were all negative. High-throughput sequencing of the CSF detected Mycobacterium tuberculosis with high confidence. Re-examination of head MRI enhancement revealed that the left pontine cistern showed nodular enhancement (<xref rid=\"fneur-12-676684-g0003\" ref-type=\"fig\">Figure 3</xref>), and multiple cerebral infarctions with complicated TBM were diagnosed. The patient was thus started on a five-drug treatment for tuberculosis comprising isoniazid, ethambutol, pyrazinamide, rifampicin, and levofloxacin. Intrathecal administration of dexamethasone (4 mg/time) and isoniazid (100 mg/time) were given three times per week. Further CSF examinations showed improved tendencies (), and multiple cerebral infarctions with complicated TBM were diagnosed. The patient was thus started on a five-drug treatment for tuberculosis comprising isoniazid, ethambutol, pyrazinamide, rifampicin, and levofloxacin. Intrathecal administration of dexamethasone (4 mg/time) and isoniazid (100 mg/time) were given three times per week. Further CSF examinations showed improved tendencies (Table 1). The patient had only right facial paralysis when discharged, and he continued anti-tuberculosis treatment at a local hospital.",
+  "relevant_image_context": "Re-examination of head MRI enhancement revealed that the left pontine cistern showed nodular enhancement (Figure 3), and multiple cerebral infarctions with complicated TBM were diagnosed."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 197,
+  "images": {
+    "subfig": "case_197_subfig.jpg",
+    "full": "case_197_full.jpg"
+  },
+  "question": "A 59-year-old man with progressive peripheral neuropathy, autonomic symptoms, and a family history (father and paternal aunts) of a similar disorder underwent cardiac imaging as part of evaluation. Based on the familial pattern and the imaging-supported suspicion of an inherited disorder, what is the most likely probability that a biological child will inherit the causative pathogenic variant?",
+  "question_scope": "full_figure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "Approximately 50% chance per child",
+    "B": "Approximately 25% chance per child",
+    "C": "Only if both parents carry the mutation",
+    "D": "Nearly 100% chance per child"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the images for evidence that this is an inherited cardiac condition. The ECG (top) shows regular rhythm with conduction changes, and the cardiac MRI (bottom) demonstrates marked concentric left ventricular thickening and diffuse, bright subendocardial myocardial signal consistent with an infiltrative cardiomyopathy affecting both ventricles and atria. These imaging findings, together with the stem noting progressive peripheral neuropathy, autonomic symptoms, and multiple affected relatives (father and paternal aunts), support a heritable disorder transmitted through the paternal line.\n\nNext, I relate these observations to the question, which asks about the probability that a biological child will inherit the causative pathogenic variant. The family pattern shows affected individuals in successive generations and in both sexes on the paternal side, which is most consistent with a single-gene dominant transmission from an affected parent rather than a recessive trait that requires two carrier parents.\n\nThen, I consider the possible inheritance probabilities in the answer choices. If an affected parent carries one copy of a dominant pathogenic variant and the other parent does not carry the variant, each child has one chance in two to inherit the mutant allele versus the normal allele — approximately a 50% chance per child. By contrast, ~25% inheritance would fit a recessive scenario requiring both parents to be carriers, and “only if both parents carry the mutation” explicitly describes a recessive requirement, so those options do not fit the observed vertical, single-parent transmission. Nearly 100% would imply transmission to all children, which is not supported by a typical single-allele dominant inheritance pattern evident from the pedigree description.\n\nFinally, tying the observations to the choices: the imaging supports a heritable cardiac syndrome occurring in the paternal line, and the most consistent Mendelian probability for each child of an affected parent is about 50%. Therefore, the best choice is option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "(a) Electrocardiogram of patient showing sinus rhythm, borderline left ventricular hypertrophy, and P pulmonale. (b) Diffuse subendocardial and transmural late gadolinium enhancement (LGE) of the left ventricular myocardium is present. Extensive LGE of right ventricular myocardium, atrial walls, and atrial septum is also noted",
+  "sub_caption": "(b) Diffuse subendocardial and transmural late gadolinium enhancement (LGE) of the left ventricular myocardium is present. Extensive LGE of right ventricular myocardium, atrial walls, and atrial septum is also noted.",
+  "image_context": "A 59‐year‐old gentleman presented with symptoms of bilateral numbness of the extremities and dysautonomia symptoms of postural dizziness. He also had orthopnea and lower limb swelling. He was found to have ATTR and familial amyloid polyneuropathy (FAP) that was diagnosed on sural nerve biopsy. This was on a background of known family history of FAP (father and paternal aunts). His ECG showed sinus rhythm, borderline left LVH, and P pulmonale. Average QRS size on precordial leads was 9 mm, and the average QRS size on the limb leads was 20 mm. PR interval was 164 ms, QRS duration was 98 ms, and QTc was prolonged at 505 ms. (Figure <xref rid=\"ANEC-27-e12967-g004\" ref-type=\"fig\">3a</xref>) CMR revealed LVH, mildly impaired left ventricular ejection fraction, and diffuse subendocardial enhancement of bilateral atria and ventricles, which was in keeping with the diagnosis of CA. (Figure ) CMR revealed LVH, mildly impaired left ventricular ejection fraction, and diffuse subendocardial enhancement of bilateral atria and ventricles, which was in keeping with the diagnosis of CA. (Figure <xref rid=\"ANEC-27-e12967-g004\" ref-type=\"fig\">3b</xref>). He underwent genetic testing, which came back positive for pathogenic variant Arg54Thr. He is being treated with tafamidis, frusemide, and spironolactone. He remains well on therapy.). He underwent genetic testing, which came back positive for pathogenic variant Arg54Thr. He is being treated with tafamidis, frusemide, and spironolactone. He remains well on therapy.",
+  "relevant_image_context": "CMR revealed LVH, mildly impaired left ventricular ejection fraction, and diffuse subendocardial enhancement of bilateral atria and ventricles, which was in keeping with the diagnosis of CA. (Figure 3b)."
+}

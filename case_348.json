@@ -1,0 +1,31 @@
+{
+  "case_id": 348,
+  "images": {
+    "subfig": "case_348_subfig.jpg",
+    "full": "case_348_full.jpg"
+  },
+  "question": "How many distinct masses are visible on this image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "Zero",
+    "B": "One",
+    "C": "Two",
+    "D": "Three"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the axial CT image for focal lesions. I see a single, large, heterogeneous mass occupying much of the right hepatic lobe; it distorts the normal liver contour and has internal variation in attenuation compared with the remainder of the liver.\n\nNext, I relate these visual findings to the question, which asks how many distinct masses are visible. I scan the left liver, spleen and adjacent structures on this slice and do not identify any separate, well-defined additional masses distinct from the large right-sided lesion.\n\nThen, I consider how the answer choices match the observations. \"Zero\" is inconsistent because a clear solitary mass is present. \"Two\" or \"Three\" would require additional separate lesions, which are not evident on this image. Therefore the image shows one distinct mass.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT imaging 21 months after diagnosisImaging continues to demonstrate a large right-sided heterogeneous mass (arrow), appearing larger than that in previous studies. The mass causes marked mass effect upon and narrowing of the inferior vena cava (star, medial to arrow).",
+  "sub_caption": "CT imaging 21 months after diagnosisImaging continues to demonstrate a large right-sided heterogeneous mass (arrow), appearing larger than that in previous studies. The mass causes marked mass effect upon and narrowing of the inferior vena cava (star, medial to arrow).",
+  "image_context": "Six months following the doxorubicin chemoembolization treatment (21 months after diagnosis), CT was significant for a diffusely enlarged liver compared to previous scans, with the right hepatic mass appearing larger and measuring approximately 19.0 x 14.1 x 15.3 cm (Figure <xref ref-type=\"fig\" rid=\"cureus-0012-00000008163-i03\">3</xref>). Calcification in the left lobe was stable, and tumor thrombus at the bifurcation of the main portal vein was appreciated, noted to be causing mass effect and narrowing of the inferior vena cava.). Calcification in the left lobe was stable, and tumor thrombus at the bifurcation of the main portal vein was appreciated, noted to be causing mass effect and narrowing of the inferior vena cava.",
+  "relevant_image_context": "Six months following the doxorubicin chemoembolization treatment (21 months after diagnosis), CT was significant for a diffusely enlarged liver compared to previous scans, with the right hepatic mass appearing larger and measuring approximately 19.0 x 14.1 x 15.3 cm (Figure 3). Calcification in the left lobe was stable, and tumor thrombus at the bifurcation of the main portal vein was appreciated, noted to be causing mass effect and narrowing of the inferior vena cava."
+}

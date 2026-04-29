@@ -1,0 +1,32 @@
+{
+  "case_id": 59,
+  "images": {
+    "subfig": "case_059_subfig.jpg",
+    "full": "case_059_full.jpg"
+  },
+  "question": "Which structure is represented by the tubular structures extending posteriorly from each globe on this axial orbital MR image?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Optic nerve",
+    "B": "Medial rectus muscle",
+    "C": "Superior ophthalmic vein",
+    "D": "Optic chiasm"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial orbital MR image for the described features: I look for tubular structures that originate at the posterior aspect of each globe and extend posteriorly into the orbit. I note two symmetric, relatively thick, elongated structures arising from the back of each eyeball and coursing posteriorly toward the midline.\n\nNext, I relate these observations to the question, which asks which anatomical structure is represented by those bilateral tubular structures. The appearance—paired, tubular, arising directly from the posterior poles of the globes and running posteriorly—matches a structure that connects each globe to the intracranial region as a distinct left and right unit.\n\nThen, I compare the appearance to the answer choices. The optic nerve (A) is a paired structure that extends from the posterior globe posteriorly, so it fits the bilateral tubular configuration seen. The medial rectus muscle (B) would appear adjacent medially near the globe as shorter muscle bellies rather than as long tubular cords extending centrally from the posterior pole. The superior ophthalmic vein (C) would be vascular and typically not seen as the thick symmetric paired cords seen here. The optic chiasm (D) is a single midline structure and would not appear as two separate tubular structures arising from each globe.\n\nTherefore, based on the image appearance and the options, the tubular structures extending posteriorly from each globe are best identified as the optic nerves.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "A 20-year old girl with progressive loss of vision and cafe-au-lait spots on her skin. A.Axial T1-weighted MR image of the orbits. B. Post-contrast axial T1-weighted MR image of the orbits.",
+  "sub_caption": "B. Post-contrast axial T1-weighted MR image of the orbits.",
+  "image_context": "In the axial T1-weighted MR image of the orbits, bilateral thickened optic nerves which were isointense with brain parenchyma were detected (<xref ref-type=\"fig\" rid=\"iranjradiol-08-63-g001\">Fig. 1A</xref>). In the post-contrast axial T1-weighted MR image, bilateral optic nerve gliomas without involvement of the chiasma were seen (). In the post-contrast axial T1-weighted MR image, bilateral optic nerve gliomas without involvement of the chiasma were seen (<xref ref-type=\"fig\" rid=\"iranjradiol-08-63-g001\">Fig. 1B</xref>).).",
+  "relevant_image_context": "In the post-contrast axial T1-weighted MR image, bilateral optic nerve gliomas without involvement of the chiasma were seen (Fig. 1B)."
+}

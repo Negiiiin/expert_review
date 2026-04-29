@@ -1,0 +1,35 @@
+{
+  "case_id": 53,
+  "images": {
+    "subfig": "case_053_subfig.jpg",
+    "full": "case_053_full.jpg"
+  },
+  "question": "The arrow in the image most likely indicates which structure?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Seminal vesicle cyst",
+    "B": "Urinary bladder",
+    "C": "Prostate gland",
+    "D": "Ejaculatory duct",
+    "E": "Rectum"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for anatomy and the lesion's appearance. I see a large midline fluid-filled structure superiorly (the urinary bladder) and, just inferior and slightly posterior to it, a separate elongated ovoid fluid-filled structure on the left side of midline that the arrow points to. This arrowed structure is clearly cystic (uniform fluid signal) and lies lateral/posterior to the bladder and superior/anterior to the central pelvic soft tissue at the level of the prostate.\n\nNext, I relate these observations to the question, which asks which structure the arrow most likely indicates. The arrowed lesion's location — lateral to the midline bladder, in the expected region of the seminal vesicles, and anterior to the rectum — and its cystic appearance guide the differential.\n\nThen I consider each option in light of the image: the urinary bladder (B) is the large midline cavity above the arrow and so is not what the arrow points to; the prostate (C) is a smaller solid-appearing gland inferior to the bladder and not a large cystic structure; the ejaculatory duct (D) is a tiny tubular structure within the prostate and would not appear as this ovoid cyst; the rectum (E) is posterior and contains different signal characteristics and is not the cystic ovoid lesion. The remaining option, a seminal vesicle cyst (A), matches the lesion's lateral/posterior pelvic position adjacent to the bladder and its cystic morphology.\n\nTherefore, based on the lesion's cystic signal, shape, and anatomic relationship to the bladder, prostate, and rectum, the arrow most likely indicates a seminal vesicle cyst.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging",
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "clinical imaging",
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "MRI images demonstrating cystic papillary adenoma of Seminal Vesicle",
+  "sub_caption": "MRI images demonstrating cystic papillary adenoma of Seminal Vesicle",
+  "image_context": "A 35 year old male was referred with an 8 month history of intermittent macroscopic haematuria, associated with mild right sided iliac fossa and groin pain. Past medical history included a prior right inguinal hernia repair and orchidopexy for undescended testis. The patient was also found to have azoospermia and was undergoing assessment in preparation for In vitro fertilization (IVF)/Intracytoplasmic Sperm Injection (ICSI). Examination of genitalia, testes and prostate was essentially unremarkable outside of an old right inguinal scar consistent with the history of orchidopexy and hernia repair. There was some thickening of the tissues around his right testicle consistent with previous orchidopexy. Initial workup of haematuria was performed. Urine microscopy demonstrated nonglomerular microscopic haematuria, cytology revealed atypical cells and the computerized tomography (CT) intravenous pyelogram (IVP) reported normal appearance of the upper urinary tract and bladder. However, it also described the incidental finding of a 7 × 3.5 × 2 cm fluid density mass at the posterior aspect of the bladder continuous with the right seminal vesicle. Blood tests were unremarkable including a PSA of 0.6 ng/ml. The seminal vesicle mass was further investigated with magnetic resonance imaging (MRI) which reported two cystic structures adjacent the bladder and appearing related to the seminal vesicle (Fig. <xref rid=\"12894_2021_830_Fig1_HTML\" ref-type=\"fig\">1</xref>). The larger structure terminated at the level of the verumontanum appearing to be a Müllerian duct remnant, and comment was made on the appearance of debris within the smaller structure. Operatively blood stained debris was seen at the verumontanum meatus and a rigid ureteroscope was used to perform seminal vesiculoscopy to inspect the lesion. A papillary mass was visible macroscopically and biopsies were taken of the mass. The biopsy histology noted atypical epithelial lesion with papillary features. Following discussion of these findings the patient elected to proceed and the cystic structure was excised via a robotic approach and sent for histopathology. The patient made a smooth recovery with normal ejaculation function and volume. The urine cytology also normalized post removal of the seminal vesicle.\n). The larger structure terminated at the level of the verumontanum appearing to be a Müllerian duct remnant, and comment was made on the appearance of debris within the smaller structure. Operatively blood stained debris was seen at the verumontanum meatus and a rigid ureteroscope was used to perform seminal vesiculoscopy to inspect the lesion. A papillary mass was visible macroscopically and biopsies were taken of the mass. The biopsy histology noted atypical epithelial lesion with papillary features. Following discussion of these findings the patient elected to proceed and the cystic structure was excised via a robotic approach and sent for histopathology. The patient made a smooth recovery with normal ejaculation function and volume. The urine cytology also normalized post removal of the seminal vesicle.\nFig. 1MRI images demonstrating cystic papillary adenoma of Seminal Vesicle",
+  "relevant_image_context": "Fig. 1MRI images demonstrating cystic papillary adenoma of Seminal Vesicle First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context. MRI images demonstrating cystic papillary adenoma of Seminal Vesicle. Two cystic structures adjacent the bladder and appearing related to the seminal vesicle (Fig. 1). The larger structure terminated at the level of the verumontanum, appearing to be a Müllerian duct remnant, and comment was made on the appearance of debris within the smaller structure. Operatively blood stained debris was seen at the verumontanum meatus and a rigid ureteroscope was used to perform seminal vesiculoscopy to inspect the lesion. A papillary mass was visible macroscopically and biopsies were taken of the mass."
+}

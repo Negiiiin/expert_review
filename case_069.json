@@ -1,0 +1,32 @@
+{
+  "case_id": 69,
+  "images": {
+    "subfig": "case_069_subfig.jpg",
+    "full": "case_069_full.jpg"
+  },
+  "question": "Based on this image, what is the severity category?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild",
+    "B": "Moderate",
+    "C": "Severe",
+    "D": "Indeterminate from image"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for the distribution and appearance of abnormality. This is an axial chest CT slice showing multiple areas of increased attenuation within the lung parenchyma (arrows marking them). The opacities are patchy-to-confluent and involve large contiguous areas in the lower lungs on both sides, with particularly extensive involvement on one side.\n\nNext, I relate what I see to the question, which asks for the severity category. I focus on the extent and confluence of the consolidative/contusive-appearing regions: they are not small or focal, but occupy large portions of the hemithoraces and traverse multiple lung segments.\n\nThen, I consider how the options line up with those observations. Mild would imply minimal, small, or limited focal involvement, which is not what is seen. Moderate would suggest more than focal but still limited in overall extent, whereas the image demonstrates widespread, confluent involvement across a substantial portion of the lungs. The pattern and large-volume involvement therefore best fit a severe category.\n\nIn summary, because the CT shows large, confluent bilateral lung parenchymal opacities occupying a substantial portion of the lungs, the severity category is most consistent with severe.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Typical blush in lung contusion. Arrows indicate extravasation of contrast media in the lung contusion, which is defined as blush.",
+  "sub_caption": "Typical blush in lung contusion. Arrows indicate extravasation of contrast media in the lung contusion, which is defined as blush.",
+  "image_context": "Blush was defined as active extravasation of intravenous contrast recognized on CECT, similar to previous reports (6–8). A typical blush is shown in <xref rid=\"fmed-09-858511-g001\" ref-type=\"fig\">Figure 1</xref>. Severe lung contusion was defined as ≥5 cm of maximum diameter on computed tomography.. Severe lung contusion was defined as ≥5 cm of maximum diameter on computed tomography.",
+  "relevant_image_context": "Blush was defined as active extravasation of intravenous contrast recognized on CECT, similar to previous reports (6–8). A typical blush is shown in Figure 1. Severe lung contusion was defined as ≥5 cm of maximum diameter on computed tomography."
+}

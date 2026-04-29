@@ -1,0 +1,31 @@
+{
+  "case_id": 102,
+  "images": {
+    "subfig": "case_102_subfig.jpg",
+    "full": "case_102_full.jpg"
+  },
+  "question": "A patient is being evaluated for an osseous surface lesion and referred for genetic counseling. Mutations in EXT1 and EXT2 are associated with a hereditary syndrome that produces multiple similar lesions, whereas isolated lesions are usually sporadic. Based on the imaging provided, what is the most likely risk to first-degree relatives of carrying the hereditary mutation?",
+  "question_scope": "subfigure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "High (≈50%) autosomal dominant risk",
+    "B": "Low; no substantial increase",
+    "C": "Moderate increased familial risk",
+    "D": "Elevated only if multiple lesions present"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for the lesion's appearance and distribution. The axial CT of the chest shows a single, well‑demarcated exophytic bony protuberance arising from the posterior rib (red arrow). There are no additional similar osseous surface lesions visible within the included chest slices.\n\nNext, I relate what I see to the question, which asks about the risk to first‑degree relatives of carrying an EXT1/EXT2 hereditary mutation. The question statement specifies that the hereditary syndrome produces multiple similar lesions, whereas isolated lesions are usually sporadic.\n\nThen, I consider how the imaging findings align with the clinical implications in the options. Because the scan demonstrates a solitary osseous surface lesion without evidence of multiple exostoses, this finding is most consistent with an isolated (sporadic) lesion rather than the hereditary, multiple‑lesion phenotype that would imply a roughly 50% autosomal dominant risk to first‑degree relatives.\n\nTherefore, the imaging appearance (single lesion) supports that there is no substantial increase in familial risk in this patient.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT scan showing an osteochondroma (red arrow) of the rib. CT, computed tomography.",
+  "sub_caption": "CT scan showing an osteochondroma (red arrow) of the rib. CT, computed tomography.",
+  "image_context": "It is a benign bone surface tumor (<xref rid=\"jtd-16-01-722-f1\" ref-type=\"fig\"><italic>Figure 1</italic></xref>). It is made up of mature bone with a cartilage cap, which usually exhibits a growth plate-like morphology (Figure 1). It is made up of mature bone with a cartilage cap, which usually exhibits a growth plate-like morphology (<xref rid=\"jtd-16-01-722-f2\" ref-type=\"fig\"><italic>Figure 2</italic></xref>). It may be solitary or occur as multiple hereditary exostoses and is more often found in children and adolescents. Both sporadic solitary tumors and multiple hereditary exostoses are linked with loss of function (LoF) mutations in the genes EXT1 (8q24) and EXT2 (11p11) (Figure 2). It may be solitary or occur as multiple hereditary exostoses and is more often found in children and adolescents. Both sporadic solitary tumors and multiple hereditary exostoses are linked with loss of function (LoF) mutations in the genes EXT1 (8q24) and EXT2 (11p11) (36). However, in solitary lesions, EXT gene inactivation is substantially restricted to the cartilage cap and is somatic. On the other hand, the multiple exostoses evidence an autosomal dominant inheritance (37). If a cartilaginous cap is identified grossly, the microscopic examination of these tumors reveals a cap composed of mature hyaline cartilage with an overlying fibrous perichondrium. The transition between bone and cartilage cap in children and adolescents looks like a growth plate. It is easy to demonstrate endochondral ossification into mature bone. Cartilage cap diminishes and may basically be lacking later in life.",
+  "relevant_image_context": "Osteochondroma is a benign bone surface tumor composed of mature bone with a cartilage cap that often exhibits a growth plate–like morphology. It may be solitary or occur as multiple hereditary exostoses and is more commonly found in children and adolescents; mutations in EXT1 and EXT2 are associated with these lesions. If a cartilaginous cap is identified grossly, histology shows a cap of mature hyaline cartilage with an overlying fibrous perichondrium. The transition between bone and cartilage cap in children and adolescents resembles a growth plate, and endochondral ossification into mature bone can be demonstrated. The cartilage cap diminishes with age and may be absent later in life."
+}

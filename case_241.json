@@ -1,0 +1,33 @@
+{
+  "case_id": 241,
+  "images": {
+    "subfig": "case_241_subfig.jpg",
+    "full": "case_241_full.jpg"
+  },
+  "question": "An elderly woman with obesity, diabetes mellitus, chronic kidney disease, and rheumatoid arthritis has had a scalp mass since 2019 and is being evaluated for operative management. Based on the imaging provided, which operative approach is most appropriate?",
+  "question_scope": "subfigure",
+  "question_category": "Surgery / operative management",
+  "options": {
+    "A": "Wide excision with 1–2 cm margin",
+    "B": "Local excisional biopsy with primary closure",
+    "C": "Incisional biopsy only",
+    "D": "Needle aspiration in clinic",
+    "E": "Observation with serial imaging"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for anatomic location and lesion characteristics. The axial CT slice shows a small, well-circumscribed ovoid lesion superficial to the calvarium at the posterior scalp (yellow arrow). Measured dimensions are displayed as approximately 18.7 mm by 8.5 mm. There is no obvious cortical defect or intracranial extension visible on this slice — the lesion appears extracranial and confined to the subcutaneous/scalp soft tissues.\n\nNext, I relate what I see to the clinical stem, which states the patient is an elderly woman with multiple comorbidities and a scalp mass present since 2019 that is now being evaluated for operative management. The long duration and the imaging appearance together suggest a small, stable-appearing, localized scalp lesion rather than an obviously aggressive or deeply invasive process on this study.\n\nThen, I consider how each operative option aligns with those observations. Wide excision with 1–2 cm margins would be appropriate for lesions suspected to be aggressive or requiring oncologic margins, but the image shows a small, well-demarcated superficial lesion without signs of deep invasion, so such large margins would likely be overtreatment and increase morbidity. Incisional biopsy alone or needle aspiration would leave the lesion in place or be insufficient for definitive removal and diagnosis for a small accessible mass. Observation could be reasonable for an asymptomatic lesion, but the patient is being actively evaluated for operative management and the lesion is readily accessible surgically.\n\nFinally, balancing the small size, superficial location, long-standing nature, and the patient’s comorbidities (favoring a less morbid definitive procedure), excision of the entire lesion with primary closure to obtain a full specimen for histopathology while minimizing morbidity is the most appropriate approach.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Image of a posterior scalp lesion",
+  "sub_caption": "The provided image shows a posterior scalp lesion as indicated by the yellow arrow. The dimensions labeled as \"A: 18.7 mm\" and \"B: 8.5 mm\" suggest measurements of the lesion's size. This image likely represents a cross-sectional view, possibly from a CT scan, highlighting the lesion's location and characteristics.",
+  "image_context": "An elderly woman with a medical history of obesity, diabetes mellitus, chronic kidney disease, and rheumatoid arthritis first noticed a mass on her vertex scalp in 2019, as visualized by computed tomography (CT) in Figure <xref rid=\"cureus-0015-00000040033-i01\" ref-type=\"fig\">1</xref>. The mass persisted and she sought out a dermatologist in November 2021. She then underwent an excisional biopsy and a histopathologic review demonstrated eccrine spiradenocarcinoma, as seen in Figure . The mass persisted and she sought out a dermatologist in November 2021. She then underwent an excisional biopsy and a histopathologic review demonstrated eccrine spiradenocarcinoma, as seen in Figure <xref rid=\"cureus-0015-00000040033-i02\" ref-type=\"fig\">2</xref>. The lesion was noted to extend to all margins of the biopsy specimen. CT scans of her head and neck, chest, abdomen, and pelvis were performed without contrast due to the patient’s poor renal function, and no evidence of metastasis was found. Given her medical history, the patient and her daughter were concerned about the patient’s ability to tolerate surgical resection and removal of lymph nodes. Radiation therapy was discussed as a possible curative option or as part of a palliative plan. The patient agreed to have her case, including radiologic and pathologic studies, be presented at the multidisciplinary tumor board. The team consisted of medical oncology, radiation oncology, surgery, speech pathology, and dental and oral maxillofacial prosthodontics. The final recommendation of the tumor board was wide local excision of positive margins.. The lesion was noted to extend to all margins of the biopsy specimen. CT scans of her head and neck, chest, abdomen, and pelvis were performed without contrast due to the patient’s poor renal function, and no evidence of metastasis was found. Given her medical history, the patient and her daughter were concerned about the patient’s ability to tolerate surgical resection and removal of lymph nodes. Radiation therapy was discussed as a possible curative option or as part of a palliative plan. The patient agreed to have her case, including radiologic and pathologic studies, be presented at the multidisciplinary tumor board. The team consisted of medical oncology, radiation oncology, surgery, speech pathology, and dental and oral maxillofacial prosthodontics. The final recommendation of the tumor board was wide local excision of positive margins.",
+  "relevant_image_context": "An elderly woman with a history of obesity, diabetes mellitus, chronic kidney disease, and rheumatoid arthritis first noticed a mass on her vertex scalp in 2019, as visualized by computed tomography (CT) in Figure 1."
+}

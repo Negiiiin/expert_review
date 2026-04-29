@@ -1,0 +1,31 @@
+{
+  "case_id": 216,
+  "images": {
+    "subfig": "case_216_subfig.jpg",
+    "full": "case_216_full.jpg"
+  },
+  "question": "A child with the clinical history and imaging shown has a confirmed hereditary skeletal disorder. If the most likely inheritance pattern for this disorder applies, what is the approximate probability that an affected parent will transmit the pathogenic allele to each child?",
+  "question_scope": "subfigure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "About 50% per child",
+    "B": "About 25% per child",
+    "C": "Very low unless both parents carriers",
+    "D": "Only male children affected"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for key skeletal findings. The radiograph shows generalized low bone density, multiple healed or healing fractures (circled ribs and deformities in the femoral regions), and marked spinal curvature with vertebral deformity — all indicating a brittle-bone, generalized skeletal dysplasia in a child.\n\nNext, I relate these imaging features to the question, which states this is a confirmed hereditary skeletal disorder and asks about the transmission probability if the most likely inheritance pattern applies. The radiographic pattern (recurrent fractures, bone fragility and deformity in a pediatric patient) is most consistent with a hereditary brittle-bone disorder that is classically transmitted in an autosomal dominant fashion.\n\nThen I consider how the answer choices map to inheritance patterns: \"About 50% per child\" corresponds to autosomal dominant transmission from an affected parent; \"About 25% per child\" corresponds to typical autosomal recessive transmission; \"Very low unless both parents carriers\" is another way of describing recessive risk; and \"Only male children affected\" implies an X-linked pattern. Given the imaging and the stated diagnosis pointing to the autosomal dominant pattern as the most likely, the expected risk from an affected parent to each child is about 50%.\n\nTherefore, based on the image-supported diagnosis and the standard inheritance implication, the best choice is 50% per child.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "X-ray",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Vertebral column and pelvis (x-ray findings)",
+  "sub_caption": "Vertebral column and pelvis (x-ray findings)",
+  "image_context": "The cardiac ultrasound showed mild mitral and tricuspid valve regurgitation with an ejection fraction of 66%. The radiographic assessment revealed kyphoscoliosis with a Cobb angle of 59.57˚, fractures of the 10th, 11th, and 12th right ribs, protrusion of the acetabular roof projecting toward the pelvis, fracture of the right femoral head, opacification of the growth plate of the left femoral head associated with coxa magna, and neglected intertrochanteric greenstick fracture. It was concluded as progressive OI type 3, in correlation with the clinical history (Figure <xref rid=\"cureus-0014-00000022198-i02\" ref-type=\"fig\">2</xref>).).",
+  "relevant_image_context": "The radiographic assessment revealed kyphoscoliosis with a Cobb angle of 59.57˚, fractures of the 10th, 11th, and 12th right ribs, protrusion of the acetabular roof projecting toward the pelvis, fracture of the right femoral head, opacification of the growth plate of the left femoral head associated with coxa magna, and neglected intertrochanteric greenstick fracture. It was concluded as progressive OI type 3, in correlation with the clinical history."
+}

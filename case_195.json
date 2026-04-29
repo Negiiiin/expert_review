@@ -1,0 +1,32 @@
+{
+  "case_id": 195,
+  "images": {
+    "subfig": "case_195_subfig.jpg",
+    "full": "case_195_full.jpg"
+  },
+  "question": "The patient was hemodynamically stable and afebrile. On postoperative day 6 they developed pustules at the wound edges and severe wound pain. Based on the image, which initial pharmacologic therapy is most appropriate?",
+  "question_scope": "subfigure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "IV vancomycin + piperacillin–tazobactam",
+    "B": "Oral cephalexin",
+    "C": "IV clindamycin alone",
+    "D": "Topical mupirocin + oral amoxicillin–clavulanate",
+    "E": "IV vancomycin alone"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image carefully. The picture shows a midline postoperative abdominal incision (postoperative day 6) with markedly erythematous, violaceous, scalloped wound edges and multiple small pustules concentrated along the incision margins. The central wound bed contains thick yellow–creamy exudate consistent with purulence, and the surrounding skin is inflamed. These findings correlate with the described severe wound pain.\n\nNext, I relate those observations to the question asking for the most appropriate initial pharmacologic therapy. The wound demonstrates clear purulence and an alarming violaceous, confluent border, which indicate a clinically significant surgical-site infection with potential for deep or polymicrobial involvement. Given the severity of local findings (purulence, pronounced pain, and extensive edge involvement), parenteral therapy that covers both resistant gram-positive organisms and gram-negative/anaerobic organisms is warranted as initial empiric treatment.\n\nThen I consider how each option aligns with the image and clinical severity. Oral or topical regimens (cephalexin; topical mupirocin + oral amoxicillin–clavulanate) are insufficient for a purulent, potentially deep postoperative infection. IV clindamycin alone provides some gram-positive and anaerobic coverage but lacks broad gram-negative coverage. IV vancomycin alone covers MRSA and other gram-positives but would miss gram-negative and anaerobic pathogens commonly implicated in postoperative abdominal wound infections. The combination of IV vancomycin + piperacillin–tazobactam provides broad empiric coverage for MRSA, gram-negative bacilli, and anaerobes, which best matches the severity and appearance of this wound on initial management.\n\nTherefore, the most appropriate initial pharmacologic therapy is the broad-spectrum IV combination that covers both resistant gram-positives and gram-negative/anaerobic organisms.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Dermatology",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "skin lesion"
+  ],
+  "caption": "Sixth postoperative day (POD 6): infraumbilical laparotomy wound with erythematous papules and violaceous confluent wound border",
+  "sub_caption": "Sixth postoperative day (POD 6): infraumbilical laparotomy wound with erythematous papules and violaceous confluent wound border",
+  "image_context": "The patient was hemodynamically stable all the time, without complaints, and was afebrile. On POD 6, pustules appeared on the edges of the wound as well as on the place where the abdominal drain was placed and severe pain in the wound appeared (Figures <xref rid=\"cureus-0015-00000042016-i01\" ref-type=\"fig\">1</xref>, , <xref rid=\"cureus-0015-00000042016-i02\" ref-type=\"fig\">2</xref>).).",
+  "relevant_image_context": "The patient was hemodynamically stable all the time, without complaints, and was afebrile. On POD 6, pustules appeared on the edges of the wound as well as on the place where the abdominal drain was placed and severe pain in the wound appeared."
+}

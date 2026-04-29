@@ -1,0 +1,31 @@
+{
+  "case_id": 177,
+  "images": {
+    "subfig": "case_177_subfig.jpg",
+    "full": "case_177_full.jpg"
+  },
+  "question": "Based on this image, how many concentric circles are present in the macular ETDRS grid?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "Two",
+    "B": "Three",
+    "C": "Four",
+    "D": "Five"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for visible features of the macular grid. I see a set of blue concentric circular rings centered on the fovea, with radial crosshair lines; the image also shows text labels \"Parafovea\" and \"Perifovea\" positioned between rings.\n\nNext, I relate what I see to the question, which asks how many concentric circles are present in the macular ETDRS grid. I focus on counting the distinct circular rings from the center outward. Starting at the center there is a small innermost circle, then a second larger circle, a third larger ring, and an outermost fourth circle — four separate concentric circles are visible.\n\nThen I compare that count to the answer choices provided. The observed number of circles matches option C (Four). Therefore, based on the visible grid rings in the image, the correct choice is Four.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "fundus photography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "optical coherence tomography"
+  ],
+  "caption": "Distribution of CT and choroidal vessels. Extended macular ETDRS grid (using the right eye as an example). The measurement of choroidal thickness and choroidal vascularity and choriocapillaris blood perfusion. The macular region was divided into four concentric circles with diameters of 1 mm (central fovea), 3 mm (parafovea), 6 mm (perifovea), and 9 mm (extended). The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants. C: central fovea",
+  "sub_caption": "Extended macular ETDRS grid (using the right eye as an example). The measurement of choroidal thickness and choroidal vascularity and choriocapillaris blood perfusion. The macular region was divided into four concentric circles with diameters of 1 mm (central fovea), 3 mm (parafovea), 6 mm (perifovea), and 9 mm (extended). The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants. C: central fovea",
+  "image_context": "Using the Early Treatment Diabetic Retinopathy Study (ETDRS) grid, the macular region was divided into three concentric circles with diameters of 1 mm (central fovea), 3 mm (parafovea), and 6 mm (perifovea) (Fig. <xref rid=\"12886_2024_3616_Fig2_HTML\" ref-type=\"fig\">2</xref>). We here extended this grid to a 9-mm (extended) range. The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants (Fig. ). We here extended this grid to a 9-mm (extended) range. The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants (Fig. <xref rid=\"12886_2024_3616_Fig2_HTML\" ref-type=\"fig\">2</xref>).).",
+  "relevant_image_context": "Using the Early Treatment Diabetic Retinopathy Study (ETDRS) grid, the macular region was divided into three concentric circles with diameters of 1 mm (central fovea), 3 mm (parafovea), and 6 mm (perifovea). We here extended this grid to a 9-mm (extended) range. The parafoveal, perifoveal, and extended regions were further divided into superior (S), inferior (I), temporal (T), and nasal (N) quadrants. C: central fovea"
+}

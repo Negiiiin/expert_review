@@ -1,0 +1,31 @@
+{
+  "case_id": 140,
+  "images": {
+    "subfig": "case_140_subfig.jpg",
+    "full": "case_140_full.jpg"
+  },
+  "question": "A patient whose excised kidney is shown here requests genetic counseling before conceiving. Several first-degree relatives have had similar kidney disease, and the partner has no family history. Based on this case, what is the most likely probability that a biologic child will inherit the disorder?",
+  "question_scope": "subfigure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "About 50% (one-half) risk",
+    "B": "About 25% (one-quarter) risk",
+    "C": "Nearly 100% (all offspring)",
+    "D": "Minimal unless both parents carry variant"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image: the kidney is markedly enlarged and replaced by many fluid-filled rounded cysts of varying sizes across the surface, producing a multilocular, cystic appearance.\n\nNext, I relate what I see to the question, which asks about the probability a biologic child will inherit the disorder given that the excised kidney shows this cystic disease and several first-degree relatives have had similar kidney disease while the partner has no family history.\n\nThen I consider the pattern implied by \"several first-degree relatives\" with similar disease. That pattern is most consistent with a dominant inheritance (affected individuals in successive generations), meaning a single copy of an altered gene in an affected parent can be passed to offspring.\n\nI also note the partner has no family history, so there is no indication both parents would contribute a pathogenic variant (i.e., the risk is determined by the affected parent’s chance of transmitting the variant).\n\nFinally, I apply the straightforward transmission probability for a dominant trait from one affected parent to each child: about one-half (50%) chance that any given child will inherit the altered gene and thus the disorder.\n\nTherefore, based on the image and the stated family history, the most likely probability for a biologic child to inherit the disorder is about 50%.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Macroscopy",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "specimen"
+  ],
+  "caption": "Enlarged kidney from a patient with autosomal dominant polycystic kidney disease (ADPKD). Multiple cysts, grossly varying in size, have massively destructed the renal parenchyma",
+  "sub_caption": "Enlarged kidney from a patient with autosomal dominant polycystic kidney disease (ADPKD). Multiple cysts, grossly varying in size, have massively destructed the renal parenchyma.",
+  "image_context": "Renal cysts can vary considerably in size and appearance arising from all segments of the nephron (Fig. <xref rid=\"431_2011_1553_Fig2_HTML\" ref-type=\"fig\">2</xref>). Usually, they show progressive enlargement and may become disconnected from the tubular space. The Consortium for Radiologic Imaging for the Study of Polycystic Kidney Disease recently showed that renal enlargement in ADPKD mimicked exponential growth. Over a 3-year period among more than 200 patients, the renal volume increased by a mean of 63.4 ml (5.3%) per year resulting from the expansion of cysts in a continuous process associated with the decline of renal function. While this leads to progressive destruction of the adjacent renal parenchyma and massive enlargement of the kidneys, renal function can long be preserved as functioning nephrons undergo compensatory hypertrophy [). Usually, they show progressive enlargement and may become disconnected from the tubular space. The Consortium for Radiologic Imaging for the Study of Polycystic Kidney Disease recently showed that renal enlargement in ADPKD mimicked exponential growth. Over a 3-year period among more than 200 patients, the renal volume increased by a mean of 63.4 ml (5.3%) per year resulting from the expansion of cysts in a continuous process associated with the decline of renal function. While this leads to progressive destruction of the adjacent renal parenchyma and massive enlargement of the kidneys, renal function can long be preserved as functioning nephrons undergo compensatory hypertrophy [27]. Chronic renal failure presents in about 50% of patients by the age of 60 years [21]. PKD2 is usually significantly milder than PKD1 with a lower prevalence of arterial hypertension and urinary tract infections [39]. Patients with PKD1 develop end-stage renal disease (ESRD) approximately 20 years earlier than patients with PKD2, with a median age of onset of ESRD at 54.3 and 74.0 years, respectively [33]. The greater severity of PKD1 is due to the development of more cysts at an early age, not to faster cyst growth [30].Fig. 2Enlarged kidney from a patient with autosomal dominant polycystic kidney disease (ADPKD). Multiple cysts, grossly varying in size, have massively destructed the renal parenchyma",
+  "relevant_image_context": "Fig. 2 Enlarged kidney from a patient with autosomal dominant polycystic kidney disease (ADPKD). Multiple cysts, grossly varying in size, have massively destructed the renal parenchyma."
+}

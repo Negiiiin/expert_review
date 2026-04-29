@@ -1,0 +1,32 @@
+{
+  "case_id": 223,
+  "images": {
+    "subfig": "case_223_subfig.jpg",
+    "full": "case_223_full.jpg"
+  },
+  "question": "Based on this image, what is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Acute pulmonary embolism",
+    "B": "Pulmonary artery sarcoma",
+    "C": "Pulmonary arteriovenous malformation",
+    "D": "Left lower lobe consolidation (pneumonia)",
+    "E": "Pulmonary arterial aneurysm"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT pulmonary angiogram image for vascular and parenchymal abnormalities. I see a discrete intraluminal low-attenuation defect within the left pulmonary arterial system: a contrast-filled vessel with a central void extending from the left main pulmonary artery into its lobar branch.\n\nNext, I relate these observations to the question, which asks for the most likely diagnosis among vascular and parenchymal options. The key image finding is an intraluminal filling defect in a pulmonary artery rather than an expansile dilation of the vessel or an area of lung parenchymal consolidation.\n\nThen, I compare the appearance to the available choices. The intravascular filling defect matches the expected appearance for pulmonary embolus (an arterial thrombus producing a contrast void). A pulmonary arterial aneurysm would present as focal vessel dilation rather than an intraluminal defect. A pulmonary arteriovenous malformation would show an abnormal vascular connection or nidus, not an isolated intraluminal filling defect. Left lower lobe consolidation (pneumonia) would appear as increased parenchymal opacity, not an intraluminal contrast void. A pulmonary artery sarcoma is less likely based on this image because the finding is a sharply marginated filling defect within the lumen consistent with an embolus rather than a mass replacing or invading the artery.\n\nTherefore, the imaging appearance (intraluminal contrast void within the left pulmonary artery and its branch) most directly supports acute pulmonary embolism.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT angiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CTPA showing a thrombus in the left main pulmonary artery extending into the left upper and lower lobar branches (yellow arrow).CTPA: computed tomography pulmonary angiography",
+  "sub_caption": "CTPA showing a thrombus in the left main pulmonary artery extending into the left upper and lower lobar branches (yellow arrow). CTPA: computed tomography pulmonary angiography",
+  "image_context": "Consequently, the patient underwent CTPA, confirming new pulmonary emboli in the left main pulmonary artery extending into the left upper and lower lobar branches (Figure <xref rid=\"cureus-0015-00000035273-i03\" ref-type=\"fig\">3</xref>). While transthoracic echocardiogram showed mildly elevated estimated pulmonary arterial systolic pressure (46 mmHg), right heart size and systolic function were normal and troponin I and N-terminal pro-brain natriuretic peptide levels were normal. Doppler ultrasound of the lower extremities revealed acute deep venous thrombosis in the right popliteal vein. For the venous thromboembolism likely provoked by the trauma, he was started on continuous intravenous infusion of heparin followed by a subcutaneous therapeutic dose of enoxaparin. He remained hemodynamically stable and did not have overt hemoptysis. The anticoagulant was switched to oral apixaban for at least three months upon hospital discharge.). While transthoracic echocardiogram showed mildly elevated estimated pulmonary arterial systolic pressure (46 mmHg), right heart size and systolic function were normal and troponin I and N-terminal pro-brain natriuretic peptide levels were normal. Doppler ultrasound of the lower extremities revealed acute deep venous thrombosis in the right popliteal vein. For the venous thromboembolism likely provoked by the trauma, he was started on continuous intravenous infusion of heparin followed by a subcutaneous therapeutic dose of enoxaparin. He remained hemodynamically stable and did not have overt hemoptysis. The anticoagulant was switched to oral apixaban for at least three months upon hospital discharge.",
+  "relevant_image_context": "Consequently, the patient underwent CTPA, confirming new pulmonary emboli in the left main pulmonary artery extending into the left upper and lower lobar branches (Figure 3). While transthoracic echocardiogram showed mildly elevated estimated pulmonary arterial systolic pressure (46 mmHg), right heart size and systolic function were normal and troponin I and N-terminal pro-brain natriuretic peptide levels were normal. Doppler ultrasound of the lower extremities revealed acute deep venous thrombosis in the right popliteal vein. For the venous thromboembolism likely provoked by the trauma, he was started on continuous intravenous infusion of heparin followed by a subcutaneous therapeutic dose of enoxaparin. He remained hemodynamically stable and did not have overt hemoptysis. The anticoagulant was switched to oral apixaban for at least three months upon hospital discharge.). While transthoracic echocardiogram showed mildly elevated estimated pulmonary arterial systolic pressure (46 mmHg), right heart size and systolic function were normal and troponin I and N-terminal pro-brain natriuretic peptide levels were normal. Doppler ultrasound of the lower extremities revealed acute deep venous thrombosis in the right popliteal vein. For the venous thromboembolism likely provoked by the trauma, he was started on continuous intravenous infusion of heparin followed by a subcutaneous therapeutic dose of enoxaparin. He remained hemodynamically stable and did not have overt hemoptysis. The anticoagulant was switched to oral apixaban for at least three months upon hospital discharge. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

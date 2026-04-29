@@ -1,0 +1,32 @@
+{
+  "case_id": 211,
+  "images": {
+    "subfig": "case_211_subfig.jpg",
+    "full": "case_211_full.jpg"
+  },
+  "question": "Based on this image, which intracranial compartment contains the abnormality?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Intraparenchymal (cerebral cortex)",
+    "B": "Extra-axial (dural convexity)",
+    "C": "Intraventricular (ventricular system)",
+    "D": "Subarachnoid cistern"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the axial contrast-enhanced brain image for the lesion's position relative to the brain and skull. I see a well-circumscribed, round, contrast-enhancing mass along the right lateral convexity that abuts the inner table of the skull. The lesion pushes directly on the adjacent cortex/sulci, producing cortical flattening rather than appearing embedded within the brain substance.\n\nNext, I relate these observations to the question asking which intracranial compartment contains the abnormality. An intraparenchymal lesion would be surrounded by brain tissue and lie within the cortical or subcortical substance; that is not the case here because there is a clear interface between the mass and the cortex. An intraventricular lesion would be centered within the ventricular system — the mass is peripheral and not within the ventricles. A lesion in the subarachnoid cisterns would be located in the deep basal cisterns or along expected cisternal spaces; this mass is instead on the convexity adjacent to the dura and skull.\n\nThen I consider the extra-axial (dural convexity) option: the mass lies on the cerebral convexity, abutting the inner skull surface and compressing the cortical surface, consistent with an extra-axial/dural convexity location. Therefore, the imaging appearance most closely matches an extra-axial lesion along the dural convexity rather than intraparenchymal, intraventricular, or cisternal locations.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT angiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "CT angiography image.Normal meningeal vessel enhancement can be seen. No obvious feeding artery was detected.",
+  "sub_caption": "CT angiography image. Normal meningeal vessel enhancement can be seen. No obvious feeding artery was detected.",
+  "image_context": "Post-contrast images showed normal meningeal and cerebral vessel enhancement (Figure <xref ref-type=\"fig\" rid=\"cureus-0013-00000014917-i02\">2</xref>).).",
+  "relevant_image_context": "Post-contrast images showed normal meningeal and cerebral vessel enhancement."
+}

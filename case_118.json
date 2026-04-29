@@ -1,0 +1,32 @@
+{
+  "case_id": 118,
+  "images": {
+    "subfig": "case_118_subfig.jpg",
+    "full": "case_118_full.jpg"
+  },
+  "question": "Which region of the displayed image contains the primary finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper left quadrant of the image",
+    "B": "Upper right quadrant of the image",
+    "C": "Lower left quadrant of the image",
+    "D": "Lower right quadrant of the image"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the axial CT image for abnormal findings. I see a large, well-demarcated low-density collection along the right cortical convexity of the image that occupies much of the right hemisphere in the upper portion of the scan. This collection compresses the adjacent brain parenchyma and displaces midline structures toward the left side of the image, indicating mass effect.\n\nNext, I relate these observations to the question, which asks which quadrant of the displayed image contains the primary finding. The prominent low-density collection is located in the upper right quadrant of the displayed image.\n\nThen I compare this observation to the answer choices: the description clearly matches “Upper right quadrant of the image.” Therefore the correct choice is the upper right quadrant.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Brain computed tomographyBrain computed tomography in axial view showing a large left fronto-parieto-temporal extra-axial fluid collection measuring 9.5 x 5.1 cm of maximum diameters creating a significant parenchymal and ventricular compression with subfalcine herniation (midline shift). It is also possible to see a 5 mm deviation of midline structures.",
+  "sub_caption": "Brain computed tomography in axial view showing a large left fronto-parieto-temporal extra-axial fluid collection measuring 9.5 x 5.1 cm of maximum diameters creating a significant parenchymal and ventricular compression with subfalcine herniation (midline shift). It is also possible to see a 5 mm deviation of midline structures.",
+  "image_context": "The authors describe a case of a 66-year-old autonomous man with a known history of benign prostatic hypertrophy, who presented to the emergency department for the first time with sudden onset of dysarthria, left central facial palsy, and left hemihypesthesia involving the tongue. No other focal neurological deficits were detected. The patient was hemodynamically stable, with a blood pressure of 153/84 mmHg and heart rate of 80 bpm, with normal peripheral oxygen blood saturation (SpO2 = 97%), and was normoglycemic. Traumatic brain injury and possible toxic exposures were ruled out. Assuming a stoke, a National Institutes of Health Stroke Scale (NIHSS) score of 5 was calculated and the patient promptly underwent a brain CT scan, followed by a brain CT angiography (Figures <xref rid=\"cureus-0014-00000031782-i01\" ref-type=\"fig\">1</xref>, , <xref rid=\"cureus-0014-00000031782-i02\" ref-type=\"fig\">2</xref>), which revealed a large left fronto-parieto-temporal arachnoid cyst, with approximately 9.5 x 5.1 cm of maximum diameters (anteroposterior and transversal, respectably), compressing the brain parenchyma and the ventricular system with a right deviation of the median structures by about 5 mm. During the five-hour stay in the emergency department, the patient had a complete spontaneous resolution of the initial symptoms. He declined admission to the ward for observation and further investigation, choosing to be discharged against medical advice. A few weeks later, the patient was re-admitted to the hospital with the same deficits described at the initial episode but this time with severe dysarthria and new onset of left hemiparesis scoring 10 on the NIHSS. The patient was admitted to the neurosurgery ward and submitted to an emergent cystoperitoneal shunt. The procedure underwent without complications with complete remission of the initial deficits. One year later, the patient remained asymptomatic with follow-up brain CT scans showing no signs of surgery-related complications or cyst relapse.), which revealed a large left fronto-parieto-temporal arachnoid cyst, with approximately 9.5 x 5.1 cm of maximum diameters (anteroposterior and transversal, respectably), compressing the brain parenchyma and the ventricular system with a right deviation of the median structures by about 5 mm. During the five-hour stay in the emergency department, the patient had a complete spontaneous resolution of the initial symptoms. He declined admission to the ward for observation and further investigation, choosing to be discharged against medical advice. A few weeks later, the patient was re-admitted to the hospital with the same deficits described at the initial episode but this time with severe dysarthria and new onset of left hemiparesis scoring 10 on the NIHSS. The patient was admitted to the neurosurgery ward and submitted to an emergent cystoperitoneal shunt. The procedure underwent without complications with complete remission of the initial deficits. One year later, the patient remained asymptomatic with follow-up brain CT scans showing no signs of surgery-related complications or cyst relapse.",
+  "relevant_image_context": "which revealed a large left fronto-parieto-temporal arachnoid cyst, with approximately 9.5 x 5.1 cm of maximum diameters (anteroposterior and transversal, respectably), compressing the brain parenchyma and the ventricular system with a right deviation of the median structures by about 5 mm."
+}

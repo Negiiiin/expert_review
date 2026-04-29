@@ -1,0 +1,31 @@
+{
+  "case_id": 126,
+  "images": {
+    "subfig": "case_126_subfig.jpg",
+    "full": "case_126_full.jpg"
+  },
+  "question": "Based on this image, which severity category best describes the abnormality?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild",
+    "B": "Moderate",
+    "C": "Severe",
+    "D": "Indeterminate"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the axial chest CT for visible abnormalities. I see a large unilateral pleural fluid collection filling most of one hemithorax with a dependent, low-attenuation component and clear mass effect on the adjacent lung. Along the same side there is confluent soft-tissue density near the hilum and irregular, nodular pleural-based soft tissue lining the chest wall, indicating extensive pleural and hilar involvement. The adjacent lung is markedly compressed with airspace loss consistent with compressive atelectasis.\n\nNext, I relate these image findings to the question, which asks which severity category best describes the abnormality. The key features to weigh are the extent of involvement (nearly the entire hemithorax), presence of a large effusion producing mass effect, and confluent/nodular pleural and hilar soft-tissue abnormality causing substantial lung compression.\n\nThen, I consider how each severity label fits those observations. A mild abnormality would be limited or small in extent; a moderate abnormality would be more than minimal but not causing near-complete hemithoracic replacement or major mass effect. The image shows extensive disease occupying most of the hemithorax with mass effect and marked compressive atelectasis, which exceeds mild or moderate severity and is clearly classifiable rather than indeterminate.\n\nTherefore, based on the large unilateral effusion with mass effect plus confluent hilar/pleural disease and marked lung compression, the best severity category is severe.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT chest with contrast, axial view CT chest shows large confluent right hilar mass, mass-like pleural thickening in addition to nodular pleural thickening throughout the right hemithorax. Large right-sided pleural effusion with significant mass-effect and compressive atelectasis on the right lower and middle lung lobes.",
+  "sub_caption": "CT chest with contrast, axial view CT chest shows large confluent right hilar mass, mass-like pleural thickening in addition to nodular pleural thickening throughout the right hemithorax. Large right-sided pleural effusion with significant mass-effect and compressive atelectasis on the right lower and middle lung lobes.",
+  "image_context": "Due to concerns of association of unilateral pleural effusion with malignancy, CT chest with contrast was done and it showed a large confluent right hilar mass, mass-like pleural thickening in addition to nodular pleural thickening throughout the right hemithorax. The imaging also showed large right-sided pleural effusion with significant mass-effect and compressive atelectasis on the right lower and middle lung lobes (Figure <xref ref-type=\"fig\" rid=\"cureus-0013-00000017199-i02\">2</xref>).).",
+  "relevant_image_context": "Due to concerns of association of unilateral pleural effusion with malignancy, CT chest with contrast was done and it showed a large confluent right hilar mass, mass-like pleural thickening in addition to nodular pleural thickening throughout the right hemithorax. The imaging also showed large right-sided pleural effusion with significant mass-effect and compressive atelectasis on the right lower and middle lung lobes."
+}

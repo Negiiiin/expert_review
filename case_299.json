@@ -1,0 +1,32 @@
+{
+  "case_id": 299,
+  "images": {
+    "subfig": "case_299_subfig.jpg",
+    "full": "case_299_full.jpg"
+  },
+  "question": "Based on this image, which is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Right mainstem bronchus rupture",
+    "B": "Traumatic aortic injury",
+    "C": "Esophageal perforation",
+    "D": "Right-sided pulmonary contusion",
+    "E": "Tension pneumothorax"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial chest CT image for anatomic abnormalities. I note a pleural drainage tube in the right pleural space (asterisk), a markedly opacified and volume‑loss right hemithorax consistent with lung collapse, and air dissecting in the mediastinum. I also see a clear discontinuity of the airway at the region of the proximal right main bronchus/carinal level (arrow).\n\nNext, I relate these findings to the question asking for the most likely diagnosis. The image shows a focal defect in the right mainstem bronchus together with ipsilateral lung collapse, pneumothorax (managed with a chest tube), and mediastinal emphysema — a pattern that is most directly explained by a traumatic bronchial rupture.\n\nThen I consider how the other options fit the imaging: traumatic aortic injury would be expected to show an aortic contour abnormality or mediastinal hematoma, which are not evident here; esophageal perforation can produce mediastinal air but would not explain the focal bronchial discontinuity; an isolated pulmonary contusion would produce parenchymal consolidation without a clear airway transection; and tension pneumothorax would account for pleural air and mediastinal shift but not for the observed airway defect. \n\nTherefore, the imaging findings—direct visualization of airway discontinuity at the right main bronchus with resultant ipsilateral collapse and mediastinal emphysema—most strongly support a right mainstem bronchus rupture.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "clinical imaging"
+  ],
+  "caption": "(\nA\n) Clinical appearance of the patient in the trauma bay after intubation and bilateral needle thoracostomy; (\nB\n) computed tomography imaging displaying rupture of the right main stem bronchus (arrow), massive soft tissue and mediastinal emphysema, and significant right pneumothorax and in spite of drainage (*thoracostomy tube).",
+  "sub_caption": "(B) computed tomography imaging displaying rupture of the right main stem bronchus (arrow), massive soft tissue and mediastinal emphysema, and significant right pneumothorax and in spite of drainage (*thoracostomy tube).",
+  "image_context": "A 7-year-old girl presented to our emergency department after horse riding accident. Although the event was unwitnessed, most likely the patient fell off the horse and was stepped onto the chest by one of the hind hoofs. At arrival in the trauma bay, she was placed on a stretcher in prone position, chest propped up on the arms, displaying signs of severe dyspnea with tachypnea, increased work of breathing, and both inspiratory and expiratory stridor. Her oxygen saturation (SaO\n2\n) was stable around 90% after application of supplemental oxygen. The patient was fully aware and conscious (Glasgow Coma Scale 15), but agitated. On physical examination, there were bruises on the throat and right upper chest with massive subcutaneous emphysema of the upper chest, neck, and face. The patient was given sedatives, leading to desaturation. Still, there was no obvious difference in breath sounds on both sides, so bilateral needle thoracostomy was performed, and the patient was endotracheally intubated (\n<xref rid=\"10-1055-s-0039-1681038-i180418cr-1\" ref-type=\"fig\">Fig. 1A</xref>\n). After intubation and positive-pressure ventilation, oxygen saturation and blood pressure dropped. At this time, right tension pneumothorax was diagnosed, and two 17-mm thoracostomy tubes were placed.\n\n). After intubation and positive-pressure ventilation, oxygen saturation and blood pressure dropped. At this time, right tension pneumothorax was diagnosed, and two 17-mm thoracostomy tubes were placed. A massive air leak was appreciated from the chest tubes (\nVideo 1\n). The SaO\n2\nimproved to 84%. Computed tomography (CT) scan showed a complete avulsion of the right main stem bronchus at the level of the carina, a residual pneumothorax with mediastinal shifting, atelectasis of the right lung, as well as emphysema of the mediastinum and soft tissue (\n<xref rid=\"10-1055-s-0039-1681038-i180418cr-1\" ref-type=\"fig\">Fig. 1B</xref>\n). The only skeletal thoracic injury was a fracture of the contralateral left first rib. The blood gas showed acidosis (pH 7.16), and hypercapnia (partial pressure of carbon dioxide 63 mm Hg).\n\n). The only skeletal thoracic injury was a fracture of the contralateral left first rib. The blood gas showed acidosis (pH 7.16), and hypercapnia (partial pressure of carbon dioxide 63 mm Hg).",
+  "relevant_image_context": "Computed tomography (CT) scan showed a complete avulsion of the right main stem bronchus at the level of the carina, a residual pneumothorax with mediastinal shifting, atelectasis of the right lung, as well as emphysema of the mediastinum and soft tissue (Fig. 1B). The only skeletal thoracic injury was a fracture of the contralateral left first rib. The blood gas showed acidosis (pH 7.16), and hypercapnia (partial pressure of carbon dioxide 63 mm Hg)."
+}

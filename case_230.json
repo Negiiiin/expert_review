@@ -1,0 +1,31 @@
+{
+  "case_id": 230,
+  "images": {
+    "subfig": "case_230_subfig.jpg",
+    "full": "case_230_full.jpg"
+  },
+  "question": "Which retinal vascular plexus is primarily depicted in this image?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Superficial capillary plexus",
+    "B": "Deep capillary plexus",
+    "C": "Radial peripapillary capillary plexus",
+    "D": "Choriocapillaris"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for gross anatomical landmarks. I see a central dark oval area consistent with a foveal avascular zone, surrounded by a network of capillaries and several more prominent, straight vessels radiating outward.\n\nNext, I relate these findings to the question, which asks which retinal vascular plexus is primarily depicted. The image shows distinct larger-caliber, radially oriented vessels overlying a capillary mesh, rather than a uniform fine granular pattern. These larger, superficial-appearing vessels are characteristic of the plexus that includes retinal arterioles and venules coursing on the retinal surface.\n\nThen, I consider how the other options compare to the observed image. The deep capillary plexus would appear as a denser, more compact lace-like network without prominent straight superficial vessels. The radial peripapillary capillary plexus is centered around the optic nerve head and displays very long radial capillaries near the disc, which are not present here. The choriocapillaris produces a more diffuse, fine granular pattern beneath the retina rather than discrete surface vessels with a clear foveal avascular zone.\n\nFinally, combining the presence of a foveal avascular zone plus visible larger superficial radial vessels and an overlying capillary mesh, the image is most consistent with the superficial capillary plexus.",
+  "modality": "Microscopy",
+  "primary_modality": "Radiology",
+  "secondary_modality": "OCT angiography",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "confocal microscopy"
+  ],
+  "caption": "The fovea vessel density (FVDS) measured in superficial capillary plexus (SCP) using a density function on the imaging software.Notes: In vascular density color perfusion maps, bright red represents a density of greater than 50% perfused vessels, dark blue represents no perfused vessels, and intermediate perfusion densities are color coded accordingly. In presented case example of 82-year-old male patient, the increase of FVDS from 29.83% to 38.73% after surgery is to observe. The ischemic areas decreased significantly. We observe a reduction of central retinal thickness from 531 to 253 µm postoperatively.",
+  "sub_caption": "The fovea vessel density (FVDS) measured in superficial capillary plexus (SCP) using a density function on the imaging software. Notes: In vascular density color perfusion maps, bright red represents a density of greater than 50% perfused vessels, dark blue represents no perfused vessels, and intermediate perfusion densities are color coded accordingly. In presented case example of 82-year-old male patient, the increase of FVDS from 29.83% to 38.73% after surgery is to observe. The ischemic areas decreased significantly. We observe a reduction of central retinal thickness from 531 to 253 µm postoperatively.",
+  "image_context": "The fovea vessel density (FVDS) was measured on SCP images using a density function on the AngioAnalytics software. Qualitative data consisted of retinal vascular density color perfusion maps generated for each microvascular layer. In the color maps, bright red represents a density of greater than 50% perfused vessels, dark blue represents no perfused vessels, and intermediate perfusion densities are color coded accordingly. From OCT thickness inner limiting membrane:retinal pigment epithelium (ILM-RPE) and Vessel Density Report, we obtained the data about FVDS (in % perfused vessels) as well as a central retinal thickness (CRT) values (in µm) (<xref ref-type=\"fig\" rid=\"cia-14-505Fig2\">Figure 2</xref>).).",
+  "relevant_image_context": "The fovea vessel density (FVDS) was measured on SCP images using a density function on the AngioAnalytics software. Qualitative data consisted of retinal vascular density color perfusion maps generated for each microvascular layer. In the color maps, bright red represents a density of greater than 50% perfused vessels, dark blue represents no perfused vessels, and intermediate perfusion densities are color coded accordingly. From OCT thickness ILM-RPE and Vessel Density Report, we obtained the data about FVDS (in % perfused vessels) as well as a central retinal thickness (CRT) values (in µm). In presented case example of 82-year-old male patient, the increase of FVDS from 29.83% to 38.73% after surgery is to observe. The ischemic areas decreased significantly. We observe a reduction of central retinal thickness from 531 to 253 µm postoperatively."
+}

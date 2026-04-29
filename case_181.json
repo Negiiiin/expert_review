@@ -1,0 +1,31 @@
+{
+  "case_id": 181,
+  "images": {
+    "subfig": "case_181_subfig.jpg",
+    "full": "case_181_full.jpg"
+  },
+  "question": "A 30-year-old woman with a 6-year history of a painful midline lower abdominal wall lump and prior cesarean delivery is scheduled for surgical excision after radiologic evaluation. Based on the imaging, which feature would most strongly predict a higher risk of local recurrence after surgical resection?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "Extension into overlying skin and subcutaneous tissue",
+    "B": "Small, well-circumscribed intramuscular lesion",
+    "C": "Lesion confined to a single rectus muscle",
+    "D": "Superficial lesion sparing muscle"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image: there is a large, midline lower anterior abdominal wall soft-tissue mass with ill-defined margins. The mass is broad-based, crosses the midline, and clearly extends superficially into the subcutaneous fat and up to/abutting the skin at the anterior surface (arrows point to this superficial extension).\n\nNext, I relate these imaging findings to the question, which asks which feature most strongly predicts higher risk of local recurrence after surgical resection. The relevant imaging features in the answer choices are (A) extension into overlying skin and subcutaneous tissue, (B) a small, well-circumscribed intramuscular lesion, (C) lesion confined to a single rectus muscle, and (D) a superficial lesion sparing muscle.\n\nThen I consider how each option lines up with the image: option A is directly demonstrated by the image (superficial extension into subcutaneous tissue and skin). Options B, C, and D describe more limited, well-circumscribed, or muscle-confined lesions, none of which match the appearance here—the lesion is neither small nor confined to a single muscle and does not spare the subcutaneous tissue. A lesion that invades the overlying skin/subcutaneous tissue, as seen on the image, represents more extensive local involvement that would make complete excision more difficult.\n\nTherefore, based on the image and the question, extension into the overlying skin and subcutaneous tissue (option A) is the feature that most strongly predicts a higher risk of local recurrence after surgical resection.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT scan revealing a 10 × 8 × 5 cm ill-defined heterogeneous soft tissue density mass lesion in the anterior abdominal wall involving rectus abdominis muscle, skin, and subcutaneous tissue (arrows)",
+  "sub_caption": "CT scan revealing a 10 × 8 × 5 cm ill-defined heterogeneous soft tissue density mass lesion in the anterior abdominal wall involving rectus abdominis muscle, skin, and subcutaneous tissue (arrows)",
+  "image_context": "A 30-year-old woman presented with a gradually increasing painful abdominal lump for the past six years. The pain was not associated with menstruation. Seven years back, she had undergone caesarean section for cephalo-pelvic disproportion. Physical examination revealed a 12 × 10 cm tender firm midline abdominal lump. The overlying skin was discoloured, with a dark brown scar. Ultrasound revealed a large firm mass lesion in the lower anterior abdominal wall in the midline extending up to the pubic region and showing hypoechoic and isoechoic components. CT scan revealed a 10 × 8 × 5 cm ill-defined heterogeneous soft tissue density mass lesion in the anterior abdominal wall, infraumbilical region predominantly epicentred at the right rectus abdominis muscle with extensions into opposite rectus muscle, skin, and subcutaneous tissue [<xref ref-type=\"fig\" rid=\"JCAS-4-141-g001\">Figure 1</xref>]. Based on the clinical and radiological findings, a desmoid tumour was considered. The mass was excised and sent for histopathological examination.]. Based on the clinical and radiological findings, a desmoid tumour was considered. The mass was excised and sent for histopathological examination.",
+  "relevant_image_context": "A 30-year-old woman presented with a gradually increasing painful abdominal lump for the past six years. The pain was not associated with menstruation. Seven years back, she had undergone caesarean section for cephalo-pelvic disproportion. Physical examination revealed a 12 × 10 cm tender firm midline abdominal lump. The overlying skin was discoloured, with a dark brown scar. Ultrasound revealed a large firm mass lesion in the lower anterior abdominal wall in the midline extending up to the pubic region and showing hypoechoic and isoechoic components. CT scan revealed a 10 × 8 × 5 cm ill-defined heterogeneous soft tissue density mass lesion in the anterior abdominal wall, infraumbilical region predominantly epicentred at the right rectus abdominis muscle with extensions into opposite rectus muscle, skin, and subcutaneous tissue [Figure 1]. Based on the clinical and radiological findings, a desmoid tumour was considered. The mass was excised and sent for histopathological examination."
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": 349,
+  "images": {
+    "subfig": "case_349_subfig.jpg",
+    "full": "case_349_full.jpg"
+  },
+  "question": "A 41-year-old man has multiple cutaneous neurofibromas and iris Lisch nodules consistent with an autosomal dominant neurocutaneous disorder. He is planning to father children. What is the most likely probability that each biological child will inherit the causative mutation?",
+  "question_scope": "subfigure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "About one-half (≈50%) chance",
+    "B": "About one-quarter (≈25%) chance",
+    "C": "Essentially zero unless a new mutation occurs",
+    "D": "Nearly certain (close to 100%)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for any findings that might affect the question: the sagittal CT shows a large abdominal cystic-appearing mass (arrowed). This imaging finding is visible but does not provide information about familial transmission of a genetic trait.\n\nNext, I relate what I see to the question, which states the patient has multiple cutaneous neurofibromas and iris Lisch nodules consistent with an autosomal dominant neurocutaneous disorder and asks about the chance each biological child will inherit the causative mutation.\n\nThen, I apply the inheritance concept given in the stem. An autosomal dominant disorder is described as one in which a single mutated allele in an affected parent can be passed to offspring. For each pregnancy, the affected parent transmits either the mutated allele or the normal allele, so the probability that a child inherits the mutation is approximately one-half.\n\nFinally, I compare this conclusion to the answer choices: the choice stating about one-half (~50%) directly matches the expected transmission risk for an autosomal dominant condition. The imaging does not change this genetic probability, so the correct choice is the option indicating a roughly 50% chance per child.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging",
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "clinical imaging",
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "Computed tomography images (coronal and sagital cut) showing the abdominal cystic mass mimicking a hydatid cyst of the abdomen.",
+  "sub_caption": "Computed tomography images (coronal and sagital cut) showing the abdominal cystic mass mimicking a hydatid cyst of the abdomen.",
+  "image_context": "A 41 years old male patient, with no significant pathological history consulting the emergencies for Acute abdominal pain with a giant abdominal mass evolving for 04 months on clinical examination: dehydrated patient, with skin nodes: NF I, and ophthalmoscopic fundus examination confirmed typical lisch nodules; the biological check-up was completely normal the computed tomography objectified a cystic mass 13.9 * 16.5 cm, sticking nose into the aorta with no encroachment likely A hydatid peritoneal cyst (<xref rid=\"gr5\" ref-type=\"fig\">Fig. 6</xref>). At that stage no vital emergency was detected and the patient was scheduled for a midline laparotomy 2 days after being prepped and hydrated with isotonic saline solution. The open laparotomy discovered a giant cystic mass adherent to the small intestine and to the bladder with medium abundance ascites with no peritoneal nodules (). At that stage no vital emergency was detected and the patient was scheduled for a midline laparotomy 2 days after being prepped and hydrated with isotonic saline solution. The open laparotomy discovered a giant cystic mass adherent to the small intestine and to the bladder with medium abundance ascites with no peritoneal nodules (<xref rid=\"gr6\" ref-type=\"fig\">Fig. 7</xref>, , <xref rid=\"gr7\" ref-type=\"fig\">Fig. 8</xref>). The complete Resection of the mass with the intestinal bowl invaded using a linear cutter with 3D staples (NTLC © Ethicon) was done but tricky when we had to dissect it from the bladder and the Aorta with no iatrogenic lesions. The histopathology study finds a GIST of 18 cm with high metastatic risk according to the classification of Miettinen (). The complete Resection of the mass with the intestinal bowl invaded using a linear cutter with 3D staples (NTLC © Ethicon) was done but tricky when we had to dissect it from the bladder and the Aorta with no iatrogenic lesions. The histopathology study finds a GIST of 18 cm with high metastatic risk according to the classification of Miettinen (<xref rid=\"gr8\" ref-type=\"fig\">Fig. 9</xref>). The patient undergoing an adjuvant imatinib therapy, at 08 months follow up with no signs of recurrence.). The patient undergoing an adjuvant imatinib therapy, at 08 months follow up with no signs of recurrence.Fig. 6Computed tomography images (coronal and sagital cut) showing the abdominal cystic mass mimicking a hydatid cyst of the abdomen.Fig. 6Fig. 7Preoperative image showing the first look at the cystic tumor after the open abdomen.Fig. 7Fig. 8Specimen after complete resection of the cystic mass.Fig. 8Fig. 9Microscopic images of the histological and immunohistochemistry study of the cystic mass showing its real origin: A stromal tumor of the small intestine.Fig. 9",
+  "relevant_image_context": "A 41 years old male patient, with no significant pathological history consulting the emergencies for Acute abdominal pain with a giant abdominal mass evolving for 04 months on clinical examination: dehydrated patient, with skin nodes: NF I, and ophthalmoscopic fundus examination confirmed typical lisch nodules; the biological check-up was completely normal the computed tomography objectified a cystic mass 13.9 * 16.5 cm, sticking nose into the aorta with no encroachment likely A hydatid peritoneal cyst. At that stage no vital emergency was detected and the patient was scheduled for a midline laparotomy 2 days after being prepped and hydrated with isotonic saline solution. The open laparotomy discovered a giant cystic mass adherent to the small intestine and to the bladder with medium abundance ascites with no peritoneal nodules. The complete Resection of the mass with the intestinal bowl invaded using a linear cutter with 3D staples (NTLC © Ethicon) was done but tricky when we had to dissect it from the bladder and the Aorta with no iatrogenic lesions."
+}

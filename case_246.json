@@ -1,0 +1,32 @@
+{
+  "case_id": 246,
+  "images": {
+    "subfig": "case_246_subfig.jpg",
+    "full": "case_246_full.jpg"
+  },
+  "question": "On hospital day 15 a patient with worsening neurologic status underwent noncontrast head CT. Based on this image, which of the following interventions is contraindicated because it could precipitate or worsen intracranial pressure–related deterioration?",
+  "question_scope": "subfigure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Lumbar puncture",
+    "B": "Urgent decompressive craniectomy",
+    "C": "Hyperosmolar therapy",
+    "D": "Intubation with controlled hyperventilation"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the CT image for signs of intracranial pathology. I see a large hyperdense intraparenchymal collection centered in the left cerebral hemisphere with extension of hyperdensity into the lateral ventricle (intraventricular blood). There is surrounding low-density tissue suggesting edema, effacement of the cortical sulci and ventricular contours, and obvious mass effect with shift of midline structures.\n\nNext, I relate those observations to the question, which asks which intervention is contraindicated because it could precipitate or worsen intracranial pressure–related deterioration. The imaging demonstrates a space-occupying lesion with raised intracranial pressure and mass effect.\n\nThen I consider how each option lines up with those findings. A lumbar puncture (option A) would remove CSF and, in the setting of a large mass lesion and mass effect, can create a pressure gradient that risks precipitating downward herniation; this makes lumbar puncture contraindicated here. The other options (urgent decompressive craniectomy, hyperosmolar therapy, and intubation with controlled hyperventilation) are interventions aimed at relieving or temporizing elevated intracranial pressure or relieving mass effect, and therefore are not contraindicated by the CT findings.\n\nGiven the image evidence of a large hemorrhagic mass with ventricular extension and mass effect, performing a lumbar puncture could worsen intracranial pressure–related deterioration and is contraindicated.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "A large left-sided intraparenchymal hemorrhage with intraventricular extension, superficial subarachnoid blood, and left-sided cerebral swelling",
+  "sub_caption": "A large left-sided intraparenchymal hemorrhage with intraventricular extension, superficial subarachnoid blood, and left-sided cerebral swelling",
+  "image_context": "A 59-year-old woman with hypertension was admitted with COVID-19 pneumonia and intubated for hypoxic respiratory failure. Prophylactic anticoagulation with apixaban was started and then switched on day 6 to therapeutic enoxaparin due to rising d-dimer levels. She remained comatose despite being off intravenous sedation for 1 week. CT scan of the head on day 15 revealed a large intraparenchymal hemorrhage and cerebral edema, with transtentorial-herniation causing brainstem compression (Fig. <xref rid=\"13365_2020_869_Fig3_HTML\" ref-type=\"fig\">3</xref>). Neurological exam and apnea test were consistent with brain death. Throughout the hospital stay, systolic blood pressure ranged between 125 and 140 mmHg.). Neurological exam and apnea test were consistent with brain death. Throughout the hospital stay, systolic blood pressure ranged between 125 and 140 mmHg.Fig. 3A large left-sided intraparenchymal hemorrhage with intraventricular extension, superficial subarachnoid blood, and left-sided cerebral swelling",
+  "relevant_image_context": "A large left-sided intraparenchymal hemorrhage with intraventricular extension, superficial subarachnoid blood, and left-sided cerebral swelling. CT scan of the head on day 15 revealed a large intraparenchymal hemorrhage and cerebral edema, with transtentorial-herniation causing brainstem compression."
+}

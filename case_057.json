@@ -1,0 +1,32 @@
+{
+  "case_id": 57,
+  "images": {
+    "subfig": "case_057_subfig.jpg",
+    "full": "case_057_full.jpg"
+  },
+  "question": "A patient treated with radiotherapy returns 8 weeks later with persistent dermatitis despite topical corticosteroids and has developed several superficial bullae outside the radiation field. A skin punch biopsy has been performed and the histologic slide is shown. Based on the clinical presentation and the image, which is the most appropriate next diagnostic test?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Direct immunofluorescence (perilesional skin)",
+    "B": "Serum BP180/BP230 ELISA",
+    "C": "Patch testing for contact dermatitis",
+    "D": "Bacterial culture of lesional swab"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the histologic image. The section shows an epidermis with basal layer damage (vacuolar change) and numerous necrotic keratinocytes (dyskeratoses/colloid bodies), with a dense, band-like lymphocytic infiltrate hugging the dermoepidermal junction and pigment incontinence in the superficial dermis. There is no obvious predominance of neutrophils or a clear subepidermal blister with abundant eosinophils on this H&E.\n\nNext, I relate these observations to the clinical stem. The patient has persistent dermatitis after radiotherapy and now superficial bullae outside the radiation field — a pattern that raises concern for an immune-mediated/lichenoid or autoimmune blistering process rather than simple contact allergy or bacterial infection.\n\nThen I consider how each diagnostic option fits the biopsy and presentation. Patch testing (C) targets allergic contact dermatitis and is not the best next step when the biopsy shows an interface/lichenoid pattern. Bacterial culture (D) would be appropriate only if there were clinical or histologic signs of infection, which are absent. Serum BP180/BP230 ELISA (B) tests for circulating autoantibodies in specific bullous pemphigoid cases, but serology is generally less immediately informative than demonstrating tissue-bound immunoreactants when the biopsy shows interface changes and new bullae.\n\nDirect immunofluorescence on perilesional skin (A) directly assesses for tissue-bound immunoreactants at the dermoepidermal junction and is the most appropriate next diagnostic test to evaluate for an autoimmune/immune-complex–mediated process that could explain the interface changes and new blistering. Therefore, based on the image and clinical picture, perilesional direct immunofluorescence is the best next test.",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "histology",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "Mild spongiosis, acanthosis, focal basal vacuolar degeneration, dyskeratosis, and mild lichenoid infiltrate with melanin incontinence. (Hematoxylin-eosin stain; original magnification: ×40).",
+  "sub_caption": "Mild spongiosis, acanthosis, focal basal vacuolar degeneration, dyskeratosis, and mild lichenoid infiltrate with melanin incontinence. (Hematoxylin-eosin stain; original magnification: ×40).",
+  "image_context": "The patient returned 8 weeks later with persistent symptoms despite using topical corticosteroids and was noted to have progression of the dermatitis with several superficial bullae involving skin outside the radiation field. Biopsy revealed lichenoid interface dermatitis (<xref rid=\"gr3\" ref-type=\"fig\">Fig 3</xref>). Direct immunofluorescence testing revealed granular deposition of IgG, IgA, IgM, and fibrinogen at the basement membrane. There was also antikeratinocyte nuclear labeling by IgG, which is nonspecific but often correlates with a positive antinuclear antibody test. Direct immunofluorescence revealed a positive lupus band (). Direct immunofluorescence testing revealed granular deposition of IgG, IgA, IgM, and fibrinogen at the basement membrane. There was also antikeratinocyte nuclear labeling by IgG, which is nonspecific but often correlates with a positive antinuclear antibody test. Direct immunofluorescence revealed a positive lupus band (<xref rid=\"gr4\" ref-type=\"fig\">Fig 4</xref>). Additional workup included white blood cell count (2.68 × 10). Additional workup included white blood cell count (2.68 × 103 cells/mm3; normal range, 3.7-10.4 × 103 cells/mm3), hemoglobin (11.4 g/dL; normal range, 13.6-16.7 g/dL), and documentation of antinuclear antibodies (1:160, speckled and antiSjögren's-syndrome-related antigen A autoantibody patterns), as well as anti-double-stranded DNA antibodies (56; normal, <40), antiSjögren's syndrome-related antigen A autoantibodies (>8; normal, <1), antiSjögren's syndrome-related antigen B autoantibodies (>8; normal, <1), and ribonucleoprotein (1.7; normal, <1). Taking all these results into account, the patient was diagnosed with lupus and started on hydroxychloroquine. After a short course of therapy, the skin lesions resolved (<xref rid=\"gr5\" ref-type=\"fig\">Fig 5</xref>), and no recurrence was noted over the next 15 months of follow-up.), and no recurrence was noted over the next 15 months of follow-up.Fig 3Mild spongiosis, acanthosis, focal basal vacuolar degeneration, dyskeratosis, and mild lichenoid infiltrate with melanin incontinence. (Hematoxylin-eosin stain; original magnification: ×40).Fig 4Direct immunofluorescence of IgG demonstrates antikeratinocyte nuclear deposition and irregular basement membrane deposition. (Original magnification: ×40).Fig 5Representative image of right breast after 6 months of hydroxychloroquine therapy.",
+  "relevant_image_context": "The patient returned 8 weeks later with persistent symptoms despite using topical corticosteroids and was noted to have progression of the dermatitis with several superficial bullae involving skin outside the radiation field. Biopsy revealed lichenoid interface dermatitis (Fig 3). Fig 3Mild spongiosis, acanthosis, focal basal vacuolar degeneration, dyskeratosis, and mild lichenoid infiltrate with melanin incontinence. (Hematoxylin-eosin stain; original magnification: ×40)."
+}

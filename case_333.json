@@ -1,0 +1,31 @@
+{
+  "case_id": 333,
+  "images": {
+    "subfig": "case_333_subfig.jpg",
+    "full": "case_333_full.jpg"
+  },
+  "question": "A child with a suspected connective tissue disorder presents with respiratory symptoms and undergoes chest CT. Based on the imaging, which of the following prognostic statements is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "Increased risk of pulmonary arterial hypertension",
+    "B": "Reduced likelihood of pulmonary arterial hypertension",
+    "C": "High risk of pleural or pericardial effusions",
+    "D": "Imminent progression to respiratory failure"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the axial chest CT image focusing on the lung parenchyma and mediastinal structures. The scan shows bilateral, predominantly peripheral (posterior/lower lobe) reticular and ground-glass–type abnormalities with mild bronchial/bronchiolar distortion centrally within those abnormal zones. There is no visible pleural fluid layer and no obvious pericardial fluid on this slice. The cardiac silhouette and central pulmonary arteries that are visible on this level do not appear markedly enlarged.\n\nNext, I relate these imaging observations to the clinical question that asks which prognostic statement is most likely for a child with a suspected connective tissue disorder. The scan demonstrates an interstitial/fibrosing pattern localized to the lower lobes rather than widespread alveolar consolidation or acute edema, and there are no imaging features here to suggest acute decompensation.\n\nThen, I consider each option in light of the image: a high risk of pleural or pericardial effusions (option C) is not supported because no effusions are seen on this image; imminent progression to respiratory failure (option D) is unlikely given the chronic-appearing, localized interstitial changes without diffuse airspace collapse or acute consolidation; increased risk of pulmonary arterial hypertension (option A) is not supported because the central pulmonary arteries and cardiac size are not visibly enlarged on this slice.\n\nFinally, synthesizing these points, the imaging favors chronic interstitial lung involvement without radiographic signs of pulmonary hypertension or acute cardiopulmonary failure. Therefore the most consistent prognostic statement from the provided options is a reduced likelihood of pulmonary arterial hypertension given the lack of imaging evidence for it on this study.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "13-year-old female with mixed connective tissue disease. a, b Axial CT images without intravenous contrast showing ground-glass opacity, reticulation, and bronchiolectasis in the lower lobes and anterior upper lobes with areas of subpleural sparing in the lower lobes (black arrows) suggesting nonspecific interstitial pneumonia",
+  "sub_caption": "b Axial CT images without intravenous contrast showing ground-glass opacity, reticulation, and bronchiolectasis in the lower lobes and anterior upper lobes with areas of subpleural sparing in the lower lobes (black arrows) suggesting nonspecific interstitial pneumonia",
+  "image_context": "Thoracic manifestations include a combination of features seen with systemic sclerosis, SLE, and juvenile dermatomyositis. Lung disease is common and typically manifests as NSIP, OP, or overlapping NSIP/OP patterns of disease [1, 10, 104, 106–111] (Fig. <xref rid=\"247_2024_5962_Fig13_HTML\" ref-type=\"fig\">13</xref>). Pleuritis and/or pericarditis in the presence or absence of effusions can also be seen [). Pleuritis and/or pericarditis in the presence or absence of effusions can also be seen [104, 112, 113]. Accompanying pulmonary hypertension is rare in children, but is a serious complication associated with increased mortality [101, 102, 104, 114]. Pulmonary arterial hypertension in the setting of MCTD pathologically manifests as pulmonary arterial intimal proliferation and medial hyperplasia that is accompanied by little or no interstitial fibrosis in the surrounding lung parenchyma [1, 102].",
+  "relevant_image_context": "Thoracic manifestations include a combination of features seen with systemic sclerosis, SLE, and juvenile dermatomyositis. Lung disease is common and typically manifests as NSIP, OP, or overlapping NSIP/OP patterns of disease [1, 10, 104, 106–111] (Fig. 13). Pleuritis and/or pericarditis in the presence or absence of effusions can also be seen [104, 112, 113]. Accompanying pulmonary hypertension is rare in children, but is a serious complication associated with increased mortality [101, 102, 104, 114]. Pulmonary arterial hypertension in the setting of MCTD pathologically manifests as pulmonary arterial intimal proliferation and medial hyperplasia that is accompanied by little or no interstitial fibrosis in the surrounding lung parenchyma [1, 102]."
+}

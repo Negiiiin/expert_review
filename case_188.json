@@ -1,0 +1,31 @@
+{
+  "case_id": 188,
+  "images": {
+    "subfig": "case_188_subfig.jpg",
+    "full": "case_188_full.jpg"
+  },
+  "question": "Based on this image, which of the following best describes the predominant imaging finding?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Posteriorly retracted horizontal rectus muscles",
+    "B": "Normal extraocular muscles",
+    "C": "Diffuse extraocular muscle enlargement (thyroid orbitopathy)",
+    "D": "Focal orbital soft-tissue mass"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT through the orbits and identify the globes and the extraocular muscles. The expected anterior insertions of the horizontal rectus muscles on the sclera are not seen as bulky muscle bellies at the anterior orbits. Instead, the bulk of the horizontal rectus tissue on both sides is located more posteriorly within the orbit, with only thin/attenuated attachments extending toward the globes.\n\nNext, I relate these observations to the question asking for the predominant imaging finding. The key visual finding is posterior displacement/retraction of the horizontal rectus muscle bellies — they are small and more posterior than normal rather than enlarged at their anterior insertions. I do not see diffuse enlargement of the extraocular muscles; the muscles are not thickened or swollen throughout their course. I also do not see a discrete focal soft-tissue mass displacing orbital structures.\n\nThen, I compare the image findings to the provided options. Option A (posteriorly retracted horizontal rectus muscles) directly matches the posteriorly displaced, attenuated-appearing horizontal rectus bellies seen on this scan. Option B (normal muscles) is inconsistent with the clear abnormal posterior location of the horizontal recti. Option C (diffuse enlargement) is not supported because the muscles are not enlarged. Option D (focal orbital mass) is not supported because no localized mass lesion is visible.\n\nTherefore, the imaging appearance is best described as posteriorly retracted horizontal rectus muscles.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial CT scan of the orbit showing both horizontal recti muscles attached to the globe; while exploration showed that medial rectus (MR) was lost and lateral rectus (LR) attached in a recessed position.",
+  "sub_caption": "Axial CT scan of the orbit showing both horizontal recti muscles attached to the globe; while exploration showed that medial rectus (MR) was lost and lateral rectus (LR) attached in a recessed position.",
+  "image_context": "In CT scanning, the medial and lateral recti were irregular, stretched back, and humped in the posterior orbital space, but it seemed that a thin band connected both muscles to the sclera (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>).).Fig. 2Axial CT scan of the orbit showing both horizontal recti muscles attached to the globe; while exploration showed that medial rectus (MR) was lost and lateral rectus (LR) attached in a recessed position.Fig. 2",
+  "relevant_image_context": "In CT scanning, the medial and lateral recti were irregular, stretched back, and humped in the posterior orbital space, but it seemed that a thin band connected both muscles to the sclera (Fig. 2). Fig. 2 Axial CT scan of the orbit showing both horizontal recti muscles attached to the globe; while exploration showed that medial rectus (MR) was lost and lateral rectus (LR) attached in a recessed position."
+}

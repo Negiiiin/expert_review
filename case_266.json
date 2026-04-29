@@ -1,0 +1,32 @@
+{
+  "case_id": 266,
+  "images": {
+    "subfig": "case_266_subfig.jpg",
+    "full": "case_266_full.jpg"
+  },
+  "question": "A 42-year-old man presents with acute left flank pain; abdominal ultrasound was performed and cross-sectional imaging is available. Which additional diagnostic imaging study is most appropriate to confirm and localize a suspected urinary collecting-system leak?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Contrast-enhanced CT with delayed excretory phase (CT urography)",
+    "B": "Retrograde pyelography",
+    "C": "Radionuclide renal scintigraphy (MAG3 renogram)",
+    "D": "Conventional intravenous pyelography (IVP)",
+    "E": "CT cystography"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided cross-sectional image: an axial CT slice through the abdomen labeled \"Perirenal urinoma.\" The image shows a fluid collection tracking around the left kidney consistent with a urinoma; the left renal collecting region is adjacent to this fluid collection.\n\nNext, I relate these observations to the question, which asks which imaging study is most appropriate to confirm and localize a suspected urinary collecting-system leak. The key requirement is an imaging test that opacifies the urinary collecting system and demonstrates any contrast extravasation into the perirenal space so the precise site of the leak can be identified.\n\nThen I consider how each option aligns with that requirement. Option A (contrast-enhanced CT with delayed excretory phase / CT urography) provides intravenous contrast and delayed imaging during urinary excretion, which will show contrast within the collecting system and any extravasation into the perirenal urinoma. Option B (retrograde pyelography) also opacifies the collecting system directly via ureteral catheterization and can localize leaks, but it is an invasive endoscopic procedure rather than a noninvasive confirmatory cross-sectional study. Option C (radionuclide MAG3 renogram) assesses renal function and drainage dynamics but does not provide the high-resolution anatomic localization of small collecting-system leaks on CT. Option D (conventional IVP) uses intravenous contrast with radiographs but gives less anatomic detail than cross-sectional delayed CT images. Option E (CT cystography) specifically evaluates bladder filling and bladder/vesical leaks and would not target a perirenal collecting-system leak near the kidney.\n\nFinally, tying these points together: because the image demonstrates a perirenal urinoma adjacent to the left kidney and the clinical question is to confirm and localize a collecting-system leak, the best next imaging test is one that opacifies the renal collecting system and directly demonstrates extravasation on delayed images — i.e., contrast-enhanced CT with delayed excretory phase (CT urography).",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Abdominopelvic CT scan.",
+  "sub_caption": "Perirenal urinoma",
+  "image_context": "A 42 years old man was admitted to Department of emergency medicine at Sina Hospital because of left flank pain, which was lasted at least for 2 hours. The pain awakened the patient at 4 a.m. and the patient's pain, which was spread to suprapubic, worsened. The patient had no complications of fever, hematuria, urinary obstructive symptoms, and urinary irritation symptoms. He also had no history of renal or ureteral stone and renal trauma. He noticed that 6 hours before flank pain had been initiated, about 3 L of fluid was consumed by him in less than an hour, following of a 16-h-fasting. An abdominal sonography was performed and a massive perirenal urinoma around the left kidney, was detected. Thereafter, the patient was undergone abdominopelvic computed tomography (CT) (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>) and in addition to urinoma, a small 3mm stone in the distal of left ureter was seen. Meanwhile, serological and urine tests were carried out and the results were as follows: WBC = 8000, Hb = 15.1, PLT = 25,200, Cr = 1.0, Bun = 17, U/A: WBC = 10–15, RBC = many, Bacteria: negative.) and in addition to urinoma, a small 3mm stone in the distal of left ureter was seen. Meanwhile, serological and urine tests were carried out and the results were as follows: WBC = 8000, Hb = 15.1, PLT = 25,200, Cr = 1.0, Bun = 17, U/A: WBC = 10–15, RBC = many, Bacteria: negative.Fig. 1Abdominopelvic CT scan.Fig. 1",
+  "relevant_image_context": "A 42 years old man was admitted to Department of emergency medicine at Sina Hospital because of left flank pain, which was lasted at least for 2 hours. The pain awakened the patient at 4 a.m. and the patient's pain, which was spread to suprapubic, worsened. The patient had no complications of fever, hematuria, urinary obstructive symptoms, and urinary irritation symptoms. He also had no history of renal or ureteral stone and renal trauma. He noticed that 6 hours before flank pain had been initiated, about 3 L of fluid was consumed by him in less than an hour, following a 16-h-fasting. An abdominal sonography was performed and a massive perirenal urinoma around the left kidney, was detected. Fig. 1 Abdominopelvic CT scan."
+}

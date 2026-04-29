@@ -1,0 +1,32 @@
+{
+  "case_id": 116,
+  "images": {
+    "subfig": "case_116_subfig.jpg",
+    "full": "case_116_full.jpg"
+  },
+  "question": "Which ventricular structure communicates with the lateral ventricle through the foramen of Monro?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Third ventricle",
+    "B": "Fourth ventricle",
+    "C": "Cerebral aqueduct",
+    "D": "Subarachnoid space"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for the relevant anatomy. This is an axial CT of the brain showing both lateral ventricles (dark CSF-filled spaces) and a small, hyperdense round lesion at the midline where the medial walls of the lateral ventricles approach each other; the arrow points directly to that midline opening (the region of the foramen of Monro). The lateral ventricles are clearly separated laterally and join medially at that opening.\n\nNext, I relate what I see to the question, which asks which ventricular structure communicates with the lateral ventricle through the foramen of Monro. The foramen of Monro is the midline connection at the spot indicated by the arrow; whatever ventricle lies immediately medial to that opening is the communicating structure.\n\nThen, I consider the options in light of the image. Option A (third ventricle) corresponds to a midline ventricular cavity immediately medial to the foramen of Monro, which fits the location shown. Options B (fourth ventricle) and C (cerebral aqueduct) are posterior/inferior structures and are not at the midline opening between the lateral ventricles shown here. Option D (subarachnoid space) is extracerebral and not a ventricular cavity.\n\nFinally, tying the image observations to the choices: the CT shows the midline communication at the foramen of Monro, which connects the lateral ventricle to the third ventricle. Therefore the correct answer is A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "CT head.Cranial CT scan demonstrating a midline round hyperdense lesion located near the foramen of Monro (arrow) with prominent lateral ventricles.",
+  "sub_caption": "CT head.Cranial CT scan demonstrating a midline round hyperdense lesion located near the foramen of Monro (arrow) with prominent lateral ventricles.",
+  "image_context": "In view of the aforementioned clinical features, the patient underwent CT of the brain to rule out any space-occupying lesion. The CT demonstrated a homogenously hyperdense well-defined round lesion located in the midline at the approximate location of the foramen of Monro with prominent lateral ventricles (Figure <xref rid=\"cureus-0013-00000018424-i01\" ref-type=\"fig\">1</xref>). This finding prompted a further investigation with MRI which redemonstrated the lesion as having an increased T1 and iso T2 signal intensity with the mass (Figure ). This finding prompted a further investigation with MRI which redemonstrated the lesion as having an increased T1 and iso T2 signal intensity with the mass (Figure <xref rid=\"cureus-0013-00000018424-i02\" ref-type=\"fig\">2</xref>). Such findings conferred the diagnosis of a colloid cyst.). Such findings conferred the diagnosis of a colloid cyst.",
+  "relevant_image_context": "In view of the aforementioned clinical features, the patient underwent CT of the brain to rule out any space-occupying lesion. The CT demonstrated a homogenously hyperdense well-defined round lesion located in the midline at the approximate location of the foramen of Monro with prominent lateral ventricles."
+}

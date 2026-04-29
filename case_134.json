@@ -1,0 +1,31 @@
+{
+  "case_id": 134,
+  "images": {
+    "subfig": "case_134_subfig.jpg",
+    "full": "case_134_full.jpg"
+  },
+  "question": "On hospital day two the patient acutely deteriorated with decreased consciousness to GCS 8 and new unequal pupils (left 5 mm, right 2 mm). CT brain is shown. Which of the following additional neurological signs is most likely to be present?",
+  "question_scope": "subfigure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Right-sided hemiparesis",
+    "B": "Left-sided hemiparesis",
+    "C": "Expressive aphasia",
+    "D": "New-onset generalized seizures"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the CT image: there is a large dark (air) collection within the ventricular system, producing obvious mass effect on surrounding brain structures (the arrow points to the abnormal hypodense space within the lateral ventricle). The anatomy is distorted, consistent with significant intracranial mass effect.\n\nNext, I relate these imaging findings to the clinical signs: the patient has a decreased level of consciousness (GCS 8) and asymmetric pupils with the left pupil 5 mm and the right pupil 2 mm. A newly dilated left pupil localizes the compressive phenomenon to the left side (ipsilateral pupillary dilation suggests left-sided compression of structures controlling the third nerve).\n\nThen I consider how that localization predicts other focal neurological signs. Mass effect on the left medial temporal/uncal region or left-sided brainstem structures would compress pathways that produce contralateral motor weakness. Therefore left-sided compressive herniation would most likely produce weakness on the right side of the body.\n\nFinally, I compare this expected sign to the answer choices. Right-sided hemiparesis is the sign that best fits a left-sided compressive process producing an ipsilateral dilated pupil and global decline in consciousness. The other options (left hemiparesis, expressive aphasia, generalized seizures) are less directly predicted by the combination of left pupillary dilation and the left-sided mass effect seen on imaging.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Computed tomography on admission showing tension pneumoventricles (red arrow)",
+  "sub_caption": "Computed tomography on admission showing tension pneumoventricles (red arrow)",
+  "image_context": "On day two, he neurologically deteriorated and became confused, and his GCS decreased to 8/15. His pupils became unequal (left 5 mm and right 2 mm), and an urgent CT brain done showed increased left lateral ventricular distension due to pneumoventricle and still distended frontal ventricle with significant brain edema (<xref ref-type=\"fig\" rid=\"qmj-2021-015-g001\">Figure 1</xref>). The patient was pushed to the operating theater, and EVD was inserted. Gush of air with pressure came out during the procedure, and he was shifted to the surgical intensive care unit. In the six hours postoperative period, he was awake and still aphasic, but his pupils were equal and reactive to light. EVD continued to drain air, and he remained hemodynamically stable.). The patient was pushed to the operating theater, and EVD was inserted. Gush of air with pressure came out during the procedure, and he was shifted to the surgical intensive care unit. In the six hours postoperative period, he was awake and still aphasic, but his pupils were equal and reactive to light. EVD continued to drain air, and he remained hemodynamically stable.",
+  "relevant_image_context": "On day two, he neurologically deteriorated and became confused, and his GCS decreased to 8/15. His pupils became unequal (left 5 mm and right 2 mm), and an urgent CT brain done showed increased left lateral ventricular distension due to pneumoventricle and still distended frontal ventricle with significant brain edema (Figure 1)."
+}

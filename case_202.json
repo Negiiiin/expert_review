@@ -1,0 +1,31 @@
+{
+  "case_id": 202,
+  "images": {
+    "subfig": "case_202_subfig.jpg",
+    "full": "case_202_full.jpg"
+  },
+  "question": "Based on this image, what is the most appropriate severity grade?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild stenosis",
+    "B": "Moderate stenosis",
+    "C": "Severe stenosis",
+    "D": "Complete occlusion"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for salient features. This is an intravascular ultrasound (IVUS) cross-section: a central catheter sheath is visible as the dark circular core, surrounded by a patent lumen that is roughly circular. Around the lumen there are areas of heterogeneous echogenicity along the vessel wall, but no focal area that nearly obliterates the lumen.\n\nNext, I relate what I see to the question, which asks for the most appropriate severity grade (mild, moderate, severe stenosis, or complete occlusion). I look specifically for evidence of critical narrowing or absence of lumen: the lumen is clearly present and occupies a substantial portion of the vessel cross-section, so a complete occlusion is not supported. I also assess whether the lumen is markedly reduced or only slightly narrowed: the lumen does not appear critically small or crescentic, which would indicate severe stenosis; nor does it show an intermediate but substantial reduction that would favor moderate stenosis.\n\nThen, I consider how each option lines up with these observations. Complete occlusion (D) is excluded because a patent lumen is visible. Severe stenosis (C) is unlikely because the lumen is not critically narrowed. Moderate stenosis (B) would require a more pronounced luminal compromise than is seen. The image most consistently shows only minor luminal encroachment by surrounding echogenic material, corresponding best to mild stenosis.\n\nTherefore, based on the IVUS appearance of a largely preserved lumen with only limited encroachment, the most appropriate severity grade is mild stenosis.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ambiguous"
+  ],
+  "caption": "IVUS of the LAD, showing a well-expanded LAD stent with a widely patent diagonal branch ostium.",
+  "sub_caption": "IVUS of the LAD, showing a well-expanded LAD stent with a widely patent diagonal branch ostium.",
+  "image_context": "Following stenting, the intravascular ultrasound (IVUS) showed a well-expanded and well-positioned stent in the LAD, with the preservation of a widely patent diagonal ostium. The ostium of the LAD had atherosclerosis with a minimal luminal area of 5 mm2, which was considered not to be significant (<xref rid=\"jcm-13-02645-g004\" ref-type=\"fig\">Figure 4</xref>).).",
+  "relevant_image_context": "Following stenting, the intravascular ultrasound (IVUS) showed a well-expanded and well-positioned stent in the LAD, with the preservation of a widely patent diagonal ostium. The ostium of the LAD had atherosclerosis with a minimal luminal area of 5 mm2, which was considered not to be significant."
+}

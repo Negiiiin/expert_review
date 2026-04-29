@@ -1,0 +1,29 @@
+{
+  "case_id": 256,
+  "images": {
+    "subfig": "case_256_subfig.jpg",
+    "full": "case_256_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for visible features. I see a large, well-demarcated mucosal defect occupying most of the visualized lumen. The surface within the defect appears dark brown/black with irregular, clumped material consistent with coagulum or eschar, and the surrounding mucosa is reddened and disrupted rather than smooth and glistening.\n\nNext, I relate what I see to the question, which asks whether the findings are normal or abnormal. Normal mucosa would show an intact, pale-pink, glistening surface with a preserved vascular/mucosal pattern. In contrast, this image shows ulceration or a resection-type defect with devitalized material and surrounding erythema — findings that represent tissue injury rather than a normal appearance.\n\nThen, I consider how the options line up with these observations. The clear presence of an open defect, nonviable-appearing surface material, and loss of normal mucosal architecture are all signs of abnormality on endoscopic inspection.\n\nIn summary, the visual evidence (large mucosal defect with dark eschar/coagulum and surrounding inflammation) supports that the findings are abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "endoscopy",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "endoscopy"
+  ],
+  "caption": "The ESD procedure. A, Representative image of a remnant stomach tumor confirmed at the suture line. Marking dots are placed on the normal mucosa at approximately 5 mm from tumor margin. B, The extensive fibrosis and surgical staples (yellow arrows) were found during ESD. C and D, The lesion was resected en bloc.",
+  "sub_caption": "C and D, The lesion was resected en bloc.",
+  "image_context": "The ESD procedure was performed using a Dual Knife (KD650Q; Olympus Medical Systems Corp, Tokyo, Japan). A VIO 300D system (ERBE, Tübingen, Germany) was used as the electrosurgical unit. During the dissection, extensive fibrosis and staples were found in the suture line. The staples were removed one by one using the knife in EndoCut mode while pulling out the staple so that it could be removed immediately (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>A-D). There was no perforation or bleeding due to electrification of the staples. The lesion was resected en bloc in 160 minutes with a total operating time of 180 minutes. ESD was completed without adverse events. The post-ESD defect did not close after the procedure, and the patient was discharged on postoperative day 6 after satisfactory wound examination results.A-D). There was no perforation or bleeding due to electrification of the staples. The lesion was resected en bloc in 160 minutes with a total operating time of 180 minutes. ESD was completed without adverse events. The post-ESD defect did not close after the procedure, and the patient was discharged on postoperative day 6 after satisfactory wound examination results.Figure 2The ESD procedure. A, Representative image of a remnant stomach tumor confirmed at the suture line. Marking dots are placed on the normal mucosa at approximately 5 mm from tumor margin. B, The extensive fibrosis and surgical staples (yellow arrows) were found during ESD. C and D, The lesion was resected en bloc.",
+  "relevant_image_context": "Figure 2 The ESD procedure. C and D, The lesion was resected en bloc. The lesion was resected en bloc in 160 minutes with a total operating time of 180 minutes. ESD was completed without adverse events. The post-ESD defect did not close after the procedure, and the patient was discharged on postoperative day 6 after satisfactory wound examination results."
+}

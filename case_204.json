@@ -1,0 +1,32 @@
+{
+  "case_id": 204,
+  "images": {
+    "subfig": "case_204_subfig.jpg",
+    "full": "case_204_full.jpg"
+  },
+  "question": "Based on this image, what is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Bilateral adrenal metastases",
+    "B": "Bilateral adrenal cortical adenomas",
+    "C": "Bilateral adrenal hemorrhage",
+    "D": "Pheochromocytomas",
+    "E": "Bilateral adrenal hyperplasia"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for the anatomy and abnormal findings. This is an axial contrast-enhanced CT through the upper abdomen. In the expected adrenal locations on both sides there are relatively large, discrete, nodular soft-tissue masses replacing the normal adrenal contours (each arrowed). The lesions are solid-appearing and mass-like rather than diffusely thickened adrenal glands.\n\nNext, I relate these imaging findings to the diagnostic question, which asks for the most likely cause of bilateral adrenal masses. The key imaging features to use are: bilateral involvement, discrete mass-like lesions in the adrenal beds, and solid soft-tissue attenuation without obvious macroscopic fat.\n\nThen, I consider how each option lines up with those observations. Bilateral adrenal cortical adenomas (B) are typically small, well-circumscribed, often homogeneous and can contain intracellular fat producing low attenuation — the large, solid-appearing masses here are not typical for simple adenomas. Bilateral adrenal hemorrhage (C) commonly shows acute high attenuation blood or ill-defined periadrenal stranding/hematoma, which are not seen here; these lesions look like solid masses rather than acute hemorrhage. Pheochromocytomas (D) are usually unilateral solitary masses; bilateral pheochromocytomas can occur but are less common and typically have specific enhancement patterns not clearly shown here. Bilateral adrenal hyperplasia (E) produces diffuse, relatively symmetric enlargement of both glands rather than discrete, mass-like lesions.\n\nFinally, the imaging pattern—bilateral, discrete solid adrenal masses replacing the normal glands—most closely matches bilateral adrenal metastases (A). The bilateral mass-like appearance makes metastases the most likely diagnosis.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Abdominopelvic computed tomography with contrast showing bilateral adrenal metastasis from gastric leiomyosarcoma, as shown with the lines.",
+  "sub_caption": "Abdominopelvic computed tomography with contrast showing bilateral adrenal metastasis from gastric leiomyosarcoma, as shown with the lines.",
+  "image_context": "On admission, CT scans of the chest, abdomen, and pelvis revealed new lung nodules, a stable left adrenal mass, enlarging right adrenal mass, and a new mass of 1.4 cm in diameter in the right kidney (Figure <xref rid=\"ac9-9-e00764-g001\" ref-type=\"fig\">1</xref>). Overall, these changes represented progressive disease on gemcitabine and docetaxel. The patient's presentation was consistent with primary adrenal insufficiency that lead to adrenal crisis secondary to her metastatic disease involving both of her adrenal glands. She was treated with hydrocortisone and fludrocortisone, with improvement in her symptoms. The patient died 2 months later because of complications from her metastatic disease.). Overall, these changes represented progressive disease on gemcitabine and docetaxel. The patient's presentation was consistent with primary adrenal insufficiency that lead to adrenal crisis secondary to her metastatic disease involving both of her adrenal glands. She was treated with hydrocortisone and fludrocortisone, with improvement in her symptoms. The patient died 2 months later because of complications from her metastatic disease.",
+  "relevant_image_context": "On admission, CT scans of the chest, abdomen, and pelvis revealed new lung nodules, a stable left adrenal mass, enlarging right adrenal mass, and a new mass of 1.4 cm in diameter in the right kidney (Figure 1). Overall, these changes represented progressive disease on gemcitabine and docetaxel. The patient's presentation was consistent with primary adrenal insufficiency that lead to adrenal crisis secondary to her metastatic disease involving both of her adrenal glands. She was treated with hydrocortisone and fludrocortisone, with improvement in her symptoms."
+}

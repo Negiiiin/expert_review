@@ -1,0 +1,32 @@
+{
+  "case_id": 50,
+  "images": {
+    "subfig": "case_050_subfig.jpg",
+    "full": "case_050_full.jpg"
+  },
+  "question": "Based on this image, which severity category best applies?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild",
+    "B": "Moderate",
+    "C": "Severe",
+    "D": "Indeterminate"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for macroscopic histologic features. The inner surface shows a broad, dense band of tissue that is markedly thickened compared with a normal thin endocardial lining. This band is relatively acellular in appearance and stains differently from the deeper myocardium; it extends broadly and irregularly along the inner surface rather than as a thin focal deposit. The 100 µm scale bar is visible, and the abnormal band clearly spans several times that distance in thickness.\n\nNext, I relate what I see to the question, which asks which severity category best applies (Mild, Moderate, Severe, Indeterminate). Severity here should reflect the extent and degree of the endocardial/subendocardial abnormality visible in the image.\n\nThen, I consider how each category lines up with the observations. A mild change would be only a thin or focal thickening; a moderate change would be more prominent but limited in extent; a severe change would be a broad, extensive, and markedly thickened band as seen here. The image demonstrates an extensive, pronounced endocardial/subendocardial thickening occupying a large portion of the field, with little normal thin lining remaining.\n\nTherefore, based on the pronounced thickness and wide extent of the abnormal band visible on this section, the best-fitting severity category is severe.",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "Histology",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "Severe irregular endocardial thickening is shown in photomicrography of a ventricle affected by advanced endomyocardial fibrosis (10X Alcian Blue).",
+  "sub_caption": "Severe irregular endocardial thickening is shown in photomicrography of a ventricle affected by advanced endomyocardial fibrosis (10X Alcian Blue).",
+  "image_context": "The hallmark of EMF is endocardial thickening due to acellular fibro-collagen tissue deposition underneath the endothelial layer of the endocardium (<xref ref-type=\"fig\" rid=\"gcsp-2012-11-g001\">Fig. 1</xref>). A marked degree of myocardial loss is rare, although subendocardial myocytolytic lesions are seen ). A marked degree of myocardial loss is rare, although subendocardial myocytolytic lesions are seen [45]. Mild inflammatory infiltrates, predominantly with lymphocytes, are frequent but intense eosinophilic infiltrates and small vessel disease are unusual [52,53].",
+  "relevant_image_context": "The hallmark of EMF is endocardial thickening due to acellular fibro-collagen tissue deposition underneath the endothelial layer of the endocardium. A marked degree of myocardial loss is rare, although subendocardial myocytolytic lesions are seen. Mild inflammatory infiltrates, predominantly with lymphocytes, are frequent but intense eosinophilic infiltrates and small vessel disease are unusual."
+}

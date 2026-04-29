@@ -1,0 +1,31 @@
+{
+  "case_id": 270,
+  "images": {
+    "subfig": "case_270_subfig.jpg",
+    "full": "case_270_full.jpg"
+  },
+  "question": "On the displayed image, in which region is the finding located?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper central of the image",
+    "B": "Upper left quadrant of the image",
+    "C": "Lower central of the image",
+    "D": "Lower right quadrant of the image"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image for gross landmarks: a roughly circular vertebral body is centered in the image, with posterior elements and spinous process located inferiorly in the frame and paraspinal soft tissues laterally.\n\nNext, I search for the conspicuous finding: there are two round, high-density (metallic-appearing) objects situated within the vertebral body. They are positioned close together near the top half of the vertebral body and lie on the midline (central) rather than to either side.\n\nThen I relate this observation to the answer choices, which divide the image into upper vs lower and left vs right regions. The objects are above the horizontal midline and centered on the vertical midline of the image.\n\nTherefore, the finding is located in the upper central region of the image, which corresponds to option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Coronal (a) and axial (b) CT Thoracic Spine Without IV Contrast at 6-month follow up showing arthrodesis across the corpectomy defect",
+  "sub_caption": "axial (b) CT Thoracic Spine Without IV Contrast at 6-month follow up showing arthrodesis across the corpectomy defect",
+  "image_context": "At the one year follow-up, adequate thoracic spine stabilization was maintained without cage migration or subsidence observed radiographically (<xref rid=\"gr5\" ref-type=\"fig\">Fig. 5</xref>). No neurological deficits were reported at that time.). No neurological deficits were reported at that time.Fig. 5Coronal (a) and axial (b) CT Thoracic Spine Without IV Contrast at 6-month follow up showing arthrodesis across the corpectomy defectFig. 5",
+  "relevant_image_context": "axial (b) CT Thoracic Spine Without IV Contrast at 6-month follow up showing arthrodesis across the corpectomy defect"
+}

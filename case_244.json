@@ -1,0 +1,34 @@
+{
+  "case_id": 244,
+  "images": {
+    "subfig": "case_244_subfig.jpg",
+    "full": "case_244_full.jpg"
+  },
+  "question": "Which mechanism most likely explains exclusion of large cytoplasmic macromolecules from the reassembling nucleus during mitotic exit?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Transient size-exclusion by nascent nuclear envelope",
+    "B": "Active Exportin-1–mediated export",
+    "C": "Importin-dependent nuclear pore transport",
+    "D": "Cytoskeletal anchoring of particles in cytoplasm",
+    "E": "Proteasomal degradation of incoming complexes"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for relevant features. The magenta signal marks condensed chromatin and the green signal fills the surrounding cytoplasm but is largely absent from the interior of the reassembling nucleus; a sharp boundary of green signal is visible at the edge of the chromatin mass. The zoom panels emphasize that large green particles are concentrated outside that boundary and are excluded from within the nascent nuclear compartment.\n\nNext, I relate these observations to the question, which asks how large cytoplasmic macromolecules are kept out of the reassembling nucleus during mitotic exit. The key image finding is a clear, physical exclusion of green-labeled material from the interior defined by chromatin and the forming nuclear boundary.\n\nThen I consider how each option matches those image features. Option A (transient size-exclusion by nascent nuclear envelope) directly accounts for a physical barrier that would prevent large particles from entering while the nucleus is reassembling; this fits the observed sharp exclusion at the chromatin boundary. Option B (active Exportin-1–mediated export) would require active removal of material from the nuclear interior rather than a barrier preventing entry and therefore does not naturally explain the observed exclusion pattern. Option C (Importin-dependent nuclear pore transport) describes active import through transport machinery, which would tend to bring cargo into the nucleus rather than create a passive exclusion; it does not explain why large particles remain outside. Option D (cytoskeletal anchoring) would predict particles tethered in specific cytoplasmic locations or along filaments, but the image shows a continuous exclusion around the chromatin rather than localized anchoring. Option E (proteasomal degradation) would imply disappearance of material rather than accumulation outside a boundary; the strong cytoplasmic signal argues against bulk degradation at the nuclear rim.\n\nFinally, tying the observations to an answer: the most parsimonious explanation for the sharp exclusion of large green macromolecules from the reassembling nucleus is a transient, physical size-exclusion property of the nascent nuclear envelope (option A).",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "immunofluorescence",
+  "image_primary_label": [
+    "Microscopy",
+    "Plots and Charts"
+  ],
+  "image_secondary_label": [
+    "microscopy",
+    "plot"
+  ],
+  "caption": "Ribosomes are excluded from the nucleus in the absence of nuclear envelope transport.a, HeLa cell expressing the mature ribosome marker L10-EGFP and H2B-mCherry progressing through anaphase in the presence of Leptomycin B. b, Quantification of L10-EGFP mean fluorescence within the chromosomal region normalized to surrounding cytoplasm, in anaphase cells as in (a). n =16 cells. c, d, Validation of Exportin-1 inhibition by Leptomycin B. c, Live HeLa cells expressing fluorescently labeled H2B and NES-GFP were imaged during mitotic progression by time-lapse microscopy, either untreated (control) or in presence of leptomycin B. Time point 0 min refers to anaphase onset. d, Quantification of NES-GFP mean fluorescence intensity within the chromosomal region normalized to pre-anaphase in control and leptomycin B treated cells, as in (c). n = 18 cells (control), n = 15 cells (leptomycin B). Lines indicate mean and shaded areas represent ± SD. Scale bars, 10 μm.",
+  "sub_caption": "a, HeLa cell expressing the mature ribosome marker L10-EGFP and H2B-mCherry progressing through anaphase in the presence of Leptomycin B.",
+  "image_context": "The timing of L10-GFP exclusion from the reassembling nucleus prior to the onset of transport through nuclear pores suggested that this exclusion should be independent of Exportin-1, the transport receptor mediating export of pre-ribosomal subunits during biogenesis12. Consistent with this hypothesis, we found that the exclusion of L10-GFP was unaffected by Leptomycin B treatment (<xref rid=\"nihms-1602249-f0006\" ref-type=\"fig\">Extended Data Fig. 2a</xref>, , <xref rid=\"nihms-1602249-f0006\" ref-type=\"fig\">b</xref>), an inhibitor of Exportin-1), an inhibitor of Exportin-113 (<xref rid=\"nihms-1602249-f0006\" ref-type=\"fig\">Extended Data Fig. 2c</xref>, , <xref rid=\"nihms-1602249-f0006\" ref-type=\"fig\">d</xref>). Thus, exclusion of ribosomes and other large cytoplasmic particles during nuclear assembly appears to be independent of nuclear pore-mediated transport.). Thus, exclusion of ribosomes and other large cytoplasmic particles during nuclear assembly appears to be independent of nuclear pore-mediated transport.",
+  "relevant_image_context": "The timing of L10-GFP exclusion from the reassembling nucleus prior to the onset of transport through nuclear pores suggested that this exclusion should be independent of Exportin-1, the transport receptor mediating export of pre-ribosomal subunits during biogenesis12. Consistent with this hypothesis, we found that the exclusion of L10-GFP was unaffected by Leptomycin B treatment (Extended Data Fig. 2a, , b), an inhibitor of Exportin-1), an inhibitor of Exportin-113 (Extended Data Fig. 2c, , d). Thus, exclusion of ribosomes and other large cytoplasmic particles during nuclear assembly appears to be independent of nuclear pore-mediated transport.). Thus, exclusion of ribosomes and other large cytoplasmic particles during nuclear assembly appears to be independent of nuclear pore-mediated transport. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

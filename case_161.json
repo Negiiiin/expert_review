@@ -1,0 +1,29 @@
+{
+  "case_id": 161,
+  "images": {
+    "subfig": "case_161_subfig.jpg",
+    "full": "case_161_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for visible features. I see a single very large, rounded specimen placed in a metal basin; it occupies most of the basin and is clearly much larger than normal anatomic structures expected in such a container. The surface is irregular and lobulated with heterogeneous color and texture, and there is visible blood/serous fluid collecting in the basin.\n\nNext, I relate what I see to the question, which asks whether the findings are normal or abnormal. Normal anatomy would not present as a discrete, resected mass with an irregular, nodular surface and pooled blood in a basin. The specimen in the image appears to be a pathological mass rather than normal tissue.\n\nThen, I consider how the two options align with these observations. Option A (Normal) conflicts with the obvious presence of a large, abnormal-appearing mass. Option B (Abnormal) matches the visual evidence of a resected lesion with abnormal size and morphology.\n\nTherefore, based on the image showing a large, irregular, resected mass, the findings are best classified as abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Gross pathology",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "clinical imaging"
+  ],
+  "caption": "(a) Right subhepatic tumor and a pelvic tumor. (b): A 4.5 kg tumor that was infiltrating hepatic segment VII",
+  "sub_caption": "(b): A 4.5 kg tumor that was infiltrating hepatic segment VII",
+  "image_context": "A 23-year-old woman with a history of an immature teratoma of the right ovary, who was treated 5 years ago with surgical resection of the mass, followed by 6 cycles of a combined chemotherapy with bleomycin, etoposide and cisplatin. Presented to the hospital with abdominal pain associated with early satiety. Abdominal distension and a palpable mass at the right upper quadrant were noted on physical examination. Serum alpha-fetoprotein and human chorionic gonadotropin values were within reference values. Computed tomography of the abdomen revealed a right subhepatic tumor and a pelvic tumor (<xref rid=\"omaa090f1\" ref-type=\"fig\">Fig. 1a</xref>). The patient underwent successful surgical removal of a 4.5 kg tumor that was infiltrating hepatic segment VII (). The patient underwent successful surgical removal of a 4.5 kg tumor that was infiltrating hepatic segment VII (<xref rid=\"omaa090f1\" ref-type=\"fig\">Fig. 1b</xref>) and of a 1.1 kg pelvic tumor that did not invade surrounding organs. Histopathological examination of both tumors revealed mature teratomas. One year after the surgical procedure, patient remains asymptomatic with no evidence of recurrence.) and of a 1.1 kg pelvic tumor that did not invade surrounding organs. Histopathological examination of both tumors revealed mature teratomas. One year after the surgical procedure, patient remains asymptomatic with no evidence of recurrence.",
+  "relevant_image_context": "The patient underwent successful surgical removal of a 4.5 kg tumor that was infiltrating hepatic segment VII (Fig. 1b) and of a 1.1 kg pelvic tumor that did not invade surrounding organs. Histopathological examination of both tumors revealed mature teratomas."
+}

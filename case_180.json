@@ -1,0 +1,30 @@
+{
+  "case_id": 180,
+  "images": {
+    "subfig": "case_180_subfig.jpg",
+    "full": "case_180_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the axial CT image of the brain and note the orientation markers (A anterior, P posterior) to interpret anatomy consistently.\n\nNext, I inspect symmetry and the appearance of ventricles and cortical sulci. The region indicated by the red arrow shows a focal abnormality in the periventricular/deep white-matter region adjacent to the lateral ventricle: the tissue there differs in density from the surrounding brain and from the corresponding contralateral side.\n\nThen I look for secondary signs: the local ventricular margin and nearby sulcal contours appear slightly distorted compared with the rest of the hemisphere, suggesting a local mass effect or regional change rather than a normal, symmetric appearance.\n\nI compare these observations to what a normal CT would show (symmetrical density of brain parenchyma and ventricles with no focal distortion), and the focal asymmetric density and mild local distortion are not features of a normal scan.\n\nTherefore, relating the image findings to the question (normal vs abnormal), the scan demonstrates focal abnormality and mild local mass effect, so the correct characterization is abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Computed tomography (CT)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Axial cut of the plain computed tomography image showed a mass compressed on the left lateral ventricle (red arrow).",
+  "sub_caption": "Axial cut of the plain computed tomography image showed a mass compressed on the left lateral ventricle (red arrow).",
+  "image_context": "A healthy 54-year-old man presented with an acute progressive blurring of vision in both eyes. It started with generalized blurring and he became totally blind within six weeks. He experienced horizontal diplopia before total blindness. Otherwise, there was no eye pain, eye redness, or proptosis. He started to develop headaches only one week after becoming blind. The headache was described as frontal, throbbing in nature, and aggravated on straining. However, there was no nausea or vomiting. He also had lethargy, loss of appetite, and loss of weight. His ocular history was unremarkable. On examination, the visual acuity in both eyes was no perception of light (NPL) in all four quadrants. The anterior segment in both eyes was normal. Bilateral pupils were dilated 5 mm in diameter and not responsive to light. The intraocular pressure (ICP) was normal in both eyes. There was left esotropia on the primary gaze with restriction in abduction. Fundoscopy examination revealed a pale optic disc in both eyes. Computed tomography (CT) scan and magnetic resonance imaging (MRI) revealed a suprasellar mass consistent with craniopharyngioma that compressed the optic chiasma and adjacent brain structures with the presence of hydrocephalus (Figures <xref rid=\"cureus-0014-00000026880-i01\" ref-type=\"fig\">1</xref>, , <xref rid=\"cureus-0014-00000026880-i02\" ref-type=\"fig\">2</xref>). He underwent uneventful tumor debulking surgery. Postoperatively, the patient was stable. However, his visual acuity of both eyes remained NPL.). He underwent uneventful tumor debulking surgery. Postoperatively, the patient was stable. However, his visual acuity of both eyes remained NPL.",
+  "relevant_image_context": "A healthy 54-year-old man presented with an acute progressive blurring of vision in both eyes. It started with generalized blurring and he became totally blind within six weeks. He experienced horizontal diplopia before total blindness. Otherwise, there was no eye pain, eye redness, or proptosis. He started to develop headaches only one week after becoming blind. The headache was described as frontal, throbbing in nature, and aggravated on straining. However, there was no nausea or vomiting. He also had lethargy, loss of appetite, and loss of weight. His ocular history was unremarkable. On examination, the visual acuity in both eyes was no perception of light (NPL) in all four quadrants. The anterior segment in both eyes was normal. Bilateral pupils were dilated 5 mm in diameter and not responsive to light. The intraocular pressure (ICP) was normal in both eyes. There was left esotropia on the primary gaze with restriction in abduction. Fundoscopy examination revealed a pale optic disc in both eyes. Computed tomography (CT) scan and magnetic resonance imaging (MRI) revealed a suprasellar mass consistent with craniopharyngioma that compressed the optic chiasma and adjacent brain structures with the presence of hydrocephalus (Figures 1, 2). He underwent uneventful tumor debulking surgery. Postoperatively, the patient was stable. However, his visual acuity of both eyes remained NPL.). He underwent uneventful tumor debulking surgery. Postoperatively, the patient was stable. However, his visual acuity of both eyes remained NPL. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

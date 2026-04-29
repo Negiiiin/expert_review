@@ -1,0 +1,31 @@
+{
+  "case_id": 228,
+  "images": {
+    "subfig": "case_228_subfig.jpg",
+    "full": "case_228_full.jpg"
+  },
+  "question": "A patient who previously underwent pancreatic resection followed by adjuvant chemotherapy is under routine surveillance and has a rising CA 19-9 level. Cross-sectional abdominal imaging has been obtained (images shown). Which additional diagnostic test is most appropriate to obtain a tissue diagnosis?",
+  "question_scope": "full_figure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Endoscopic ultrasound with fine-needle aspiration",
+    "B": "18F-FDG PET/CT",
+    "C": "CT-guided percutaneous biopsy",
+    "D": "Short-interval (3-month) surveillance CT"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided images. Image A (contrast-enhanced CT) and image B (MRI) both show a small nodular focus in the expected region of the pancreatic tail (arrows point to the same discrete ~9 mm lesion in the left upper quadrant, adjacent to the stomach and medial to the spleen). The lesion is subtle but clearly identified on both cross-sectional studies.\n\nNext, I relate these findings to the question, which asks for the most appropriate diagnostic test to obtain a tissue diagnosis in a patient with prior pancreatic resection and rising CA 19-9. A tissue-confirming procedure is indicated because a discrete recurrent lesion is visualized.\n\nThen, I consider how each option aligns with the imaging findings. Option B (18F-FDG PET/CT) and option D (short-interval CT surveillance) do not obtain tissue samples: PET/CT provides metabolic imaging and surveillance CT delays histologic confirmation, so neither directly answers the need for a tissue diagnosis. Option C (CT-guided percutaneous biopsy) can obtain tissue but, given the lesion’s small size and its location in the pancreatic tail abutting the posterior stomach and lying close to the spleen, a percutaneous trajectory on the images would likely be technically challenging and could require traversing other organs.\n\nOption A (endoscopic ultrasound with fine-needle aspiration) allows real-time, targeted sampling of small pancreatic lesions that are adjacent to the stomach, as seen on these images. Because the lesion is small and lies immediately next to the gastric wall on cross-section, an endoscopic/transgastric route provides direct access for tissue sampling.\n\nTherefore, based on the lesion’s size and its anatomic relationship to the stomach and spleen on the images, endoscopic ultrasound-guided fine-needle aspiration is the most appropriate next test to obtain tissue.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Images of the second operation. A Contrast-enhanced CT showing a small low-density lesion (10 mm in diameter) in the tail of the residual pancreas (arrow). B MRI showing small nodules in the tail of the pancreas (arrow), which had a low intensity on a T1-weighted image and iso-intensity on a T2-weighted image. The nodule was not enhanced by gadolinium EDTA.",
+  "sub_caption": "MRI showing small nodules in the tail of the pancreas (arrow), which had a low intensity on a T1-weighted image and iso-intensity on a T2-weighted image. The nodule was not enhanced by gadolinium EDTA.",
+  "image_context": "The postoperative course was uneventful after the first operation, and adjuvant chemotherapy with gemcitabine (1,400 mg/body) was administered every 2 weeks for 36 courses. Subsequently, the titer of carbohydrate antigen 19-9 increased up to 70.4 ng/mL. Moreover, a small nodular lesion measuring 9 mm in diameter was observed in the tail of the residual pancreas on computed tomography (CT) (Fig. <xref ref-type=\"fig\" rid=\"cro-0013-0392-g02\">2A</xref>) and magnetic resonance imaging (MRI) (Fig. ) and magnetic resonance imaging (MRI) (Fig. <xref ref-type=\"fig\" rid=\"cro-0013-0392-g02\">2B</xref>). ). 19F-deoxyglucose positron emission tomography (FDG-PET) revealed a very small hot spot in the tail of the pancreas. In April 2010, we resected the pancreas tail while preserving the pancreas body and stomach. The second resected tumor was diagnosed as a well-differentiated tubular adenocarcinoma (Fig. <xref ref-type=\"fig\" rid=\"cro-0013-0392-g01\">1B</xref>), T1, N0, M0, R0 Stage 1. The surgical margin was free from cancer cells, and no surrounding tissue invasion or regional lymph node metastasis was noted.), T1, N0, M0, R0 Stage 1. The surgical margin was free from cancer cells, and no surrounding tissue invasion or regional lymph node metastasis was noted.",
+  "relevant_image_context": "The text notes a small nodular lesion measuring 9 mm in diameter in the tail of the residual pancreas observed on computed tomography (CT) (Fig. 2A) and magnetic resonance imaging (MRI) (Fig. 2B). 19F-deoxyglucose positron emission tomography (FDG-PET) revealed a very small hot spot in the tail of the pancreas."
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": 112,
+  "images": {
+    "subfig": "case_112_subfig.jpg",
+    "full": "case_112_full.jpg"
+  },
+  "question": "Which of the following best describes the dominant imaging pattern on this axial T2-weighted brain MRI?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Occipital encephalocele",
+    "B": "Occipital meningocele",
+    "C": "Posterior fossa neoplasm",
+    "D": "Communicating hydrocephalus"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial T2-weighted brain MRI for salient structural abnormalities. I note prominent bilateral globe protrusion (proptosis) and relatively wide interorbital spacing. In the posterior cranial region there is a focal outpouching of tissue through the occipital skull with signal continuity between intracranial parenchyma and the extracranial component, consistent with brain substance extending beyond the calvarium. Additionally, the lateral ventricles are markedly enlarged, indicating ventriculomegaly.\n\nNext, I relate these observations to the question, which asks for the dominant imaging pattern. The image demonstrates a defect in the occipital calvarium with herniation of brain tissue into an extracranial sac — a pattern that corresponds to encephalocele (herniation of brain and meninges). The presence of brain signal within the extracranial component argues against a pure meningocele, which would show only cerebrospinal fluid without brain parenchyma. There is no discrete mass lesion within the posterior fossa to suggest a neoplasm as the primary finding. While communicating hydrocephalus could explain the ventriculomegaly, the focal occipital skull defect with herniated brain is the dominant abnormality on this image.\n\nTherefore, synthesizing the imaging features — occipital calvarial defect with herniation of brain tissue and associated ventriculomegaly — the best description is an occipital encephalocele.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial T2-weighted MRI of the brain demonstrates extension of the left occipital lobe into the space created by the calvarial protrusion (white arrow). Bilateral proptosis and hypertelorism is also noted (black arrows), and there is marked ventriculomegaly (asterisks).",
+  "sub_caption": "Axial T2-weighted MRI of the brain demonstrates extension of the left occipital lobe into the space created by the calvarial protrusion (white arrow). Bilateral proptosis and hypertelorism is also noted (black arrows), and there is marked ventriculomegaly (asterisks).",
+  "image_context": "The patient then underwent MRI of the brain which revealed bilateral proptosis (<xref rid=\"gr5\" ref-type=\"fig\">Fig. 5</xref>), ventriculomegaly, and marked compression of the hindbrain structures (), ventriculomegaly, and marked compression of the hindbrain structures (<xref rid=\"gr6\" ref-type=\"fig\">Fig. 6</xref>) with complete effacement of the prepontine cistern. Cerebellar tonsillar tissue was translated minimally below the level of the foramen magnum, and the obex was also displaced inferiorly.) with complete effacement of the prepontine cistern. Cerebellar tonsillar tissue was translated minimally below the level of the foramen magnum, and the obex was also displaced inferiorly.Fig. 5Axial T2-weighted MRI of the brain demonstrates extension of the left occipital lobe into the space created by the calvarial protrusion (white arrow). Bilateral proptosis and hypertelorism is also noted (black arrows), and there is marked ventriculomegaly (asterisks).Fig 5Fig. 6Sagittal T2-weighted MRI of the brain reveals marked ventriculomegaly (asterisk), severe crowding of the hindbrain structures (white arrow), and extension of the left occipital lobe into the posterior calvarial protrusion (white arrow).Fig 6",
+  "relevant_image_context": "Fig. 5 Axial T2-weighted MRI of the brain demonstrates extension of the left occipital lobe into the space created by the calvarial protrusion (white arrow). Bilateral proptosis and hypertelorism is also noted (black arrows), and there is marked ventriculomegaly (asterisks)."
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": 13,
+  "images": {
+    "subfig": "case_013_subfig.jpg",
+    "full": "case_013_full.jpg"
+  },
+  "question": "This patient has chronic symptomatic shoulder instability and is being evaluated for operative management. Based on the provided imaging, which surgical procedure is most appropriate?",
+  "question_scope": "subfigure",
+  "question_category": "Surgery / operative management",
+  "options": {
+    "A": "Open reduction with anatomic coracoclavicular reconstruction",
+    "B": "Nonoperative management with sling and physiotherapy",
+    "C": "Closed reduction with percutaneous K-wire fixation",
+    "D": "Distal clavicle excision (Mumford procedure)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for objective findings. This is a right scapular Y-view radiograph of the shoulder. The acromioclavicular articulation is disrupted: the distal clavicle is displaced relative to the acromion with a clear step-off and abnormal relationship at the AC joint. I do not see an acute fracture of the clavicle or proximal humerus on this view.\n\nNext, I relate what I see to the question, which asks which surgical procedure is most appropriate for a patient with chronic symptomatic shoulder instability. The image demonstrates persistent displacement and loss of normal AC/CC alignment, indicating structural instability of the AC region that is unlikely to be resolved by simple immobilization.\n\nThen, I consider how each option aligns with the imaging and clinical context. Option B (nonoperative sling/physiotherapy) does not address the obvious anatomic displacement seen on the radiograph and is inconsistent with the fact the patient is being evaluated for operative management. Option C (closed reduction with percutaneous K-wire fixation) implies a closed, temporary fixation approach that would not restore chronic, displaced AC/CC anatomy shown on the image. Option D (distal clavicle excision) removes the lateral clavicle but does not re-establish the displaced clavicle’s relationship to the acromion/coracoid or correct coracoclavicular instability evident here.\n\nFinally, Option A (open reduction with anatomic coracoclavicular reconstruction) directly targets restoration of the AC/CC relationship and realignment of the displaced distal clavicle seen on the radiograph. Given the chronic symptomatic instability and the persistent anatomic displacement on imaging, open anatomic reconstruction best addresses the pathology visible on this image.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "X-ray (scapular Y-view)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Preoperative initial radiograph of the patient showed a disruption of AC joint with posterior dislocation of the clavicle.",
+  "sub_caption": "Preoperative initial radiograph of the patient showed a disruption of AC joint with posterior dislocation of the clavicle.",
+  "image_context": "On examination, there was a marked deformity on the right back. The right shoulder range of motion was limited due to pain and resistance. The neurovascular examination was normal. Radiograph examination (scapular Y view) showed a disruption of the AC joint with the posterior clavicle dislocation (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). The patient was diagnosed with neglected AC joint dislocation Rockwood type IV and was advised to receive further treatment with AC and CC reconstruction procedures followed by physical therapy.). The patient was diagnosed with neglected AC joint dislocation Rockwood type IV and was advised to receive further treatment with AC and CC reconstruction procedures followed by physical therapy.Fig. 1Preoperative initial radiograph of the patient showed a disruption of AC joint with posterior dislocation of the clavicle.Fig. 1",
+  "relevant_image_context": "Radiograph examination (scapular Y view) showed a disruption of the AC joint with the posterior clavicle dislocation (Fig. 1). The patient was diagnosed with neglected AC joint dislocation Rockwood type IV and was advised to receive further treatment with AC and CC reconstruction procedures followed by physical therapy. Fig. 1 Preoperative initial radiograph of the patient showed a disruption of AC joint with posterior dislocation of the clavicle."
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": 164,
+  "images": {
+    "subfig": "case_164_subfig.jpg",
+    "full": "case_164_full.jpg"
+  },
+  "question": "Based on this image, what is the severity of the abnormality?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Normal",
+    "B": "Mild",
+    "C": "Moderate",
+    "D": "Severe"
+  },
+  "ground_truth_answer": "D",
+  "ground_truth_reasoning": "First, I examine the image for anatomic and lesion features. The provided 3D CT view of the pelvis shows the right-sided iliac and femoral arterial pathway with dense, confluent calcified material tracking along the vessel course. The calcifications are bulky and irregular and appear to encroach on the expected vessel lumen, with areas of abrupt loss of the normal tubular arterial contour consistent with flow‑limiting narrowing or occlusion.\n\nNext, I relate what I see to the question, which asks about the severity of the abnormality (Normal, Mild, Moderate, Severe). The key image findings that determine severity are the extent of calcification, the degree of luminal encroachment, and the presence of an abrupt cutoff of the arterial channel.\n\nThen, I consider how each option lines up with those observations. \"Normal\" and \"Mild\" would show little or no calcification and preserved smooth vessel caliber, which is not the case here. \"Moderate\" would show some focal calcification or stenosis but with partial preserved lumen; the current image shows much more extensive, confluent calcified plaque with near-complete loss of the normal arterial contour, which is beyond moderate. These features are most consistent with a severe abnormality because the calcified plaque is large, confluent, and produces marked luminal compromise.\n\nIn summary, the image demonstrates extensive, confluent arterial calcification with marked luminal encroachment and apparent occlusive change on the right side, findings that correspond to severe disease.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Computed tomography (CT)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Computed tomography (CT) images showing heavily calcified obstruction of the right common iliac artery and right common femoral artery (CFA; arrows).",
+  "sub_caption": "Computed tomography (CT) images showing heavily calcified obstruction of the right common iliac artery and right common femoral artery (CFA; arrows).",
+  "image_context": "A 72-year-old male patient presented with chronic limb threatening ischemia of the right lower extremity (rest pain, Rutherford classification stage IV). His medical history included current smoking (70 pack-years), arterial hypertension, dyslipidemia, and coronary artery disease. The patient underwent CT angiography, which revealed a coral reef aorta, a heavily calcified occlusion of the right common iliac artery (CIA), a heavily calcified occlusion of the right common femoral artery (CFA; GLASS Global Limb Anatomic Staging System. stage IIB), femoropopliteal occlusion (GLASS grade 3), and below-the-knee arterial disease (GLASS grade 3). Additionally, there was atherosclerosis of the left CIA without significant stenosis, left femoropopliteal occlusion (GLASS grade 3), and below-the-knee arterial disease (GLASS grade 3; <xref rid=\"gr1\" ref-type=\"fig\">Fig 1</xref>). The right CFA was not palpable, although the left CFA was palpable. The patient provided written informed consent for the report of his case details and imaging studies.). The right CFA was not palpable, although the left CFA was palpable. The patient provided written informed consent for the report of his case details and imaging studies.Fig 1Computed tomography (CT) images showing heavily calcified obstruction of the right common iliac artery and right common femoral artery (CFA; arrows).",
+  "relevant_image_context": "Fig 1 Computed tomography (CT) images showing heavily calcified obstruction of the right common iliac artery and right common femoral artery (CFA; arrows). A 72-year-old male patient presented with chronic limb threatening ischemia of the right lower extremity (rest pain, Rutherford classification stage IV). His medical history included current smoking (70 pack-years), arterial hypertension, dyslipidemia, and coronary artery disease. The patient underwent CT angiography, which revealed a coral reef aorta, a heavily calcified occlusion of the right common iliac artery (CIA), a heavily calcified occlusion of the right common femoral artery (CFA; GLASS Global Limb Anatomic Staging System. stage IIB), femoropopliteal occlusion (GLASS grade 3), and below-the-knee arterial disease (GLASS grade 3). Additionally, there was atherosclerosis of the left CIA without significant stenosis, left femoropopliteal occlusion (GLASS grade 3), and below-the-knee arterial disease (GLASS grade 3; Fig 1). The right CFA was not palpable, although the left CFA was palpable. The patient provided written informed consent for the report of his case details and imaging studies.). The right CFA was not palpable, although the left CFA was palpable. The patient provided written informed consent for the report of his case details and imaging studies."
+}

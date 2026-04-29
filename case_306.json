@@ -1,0 +1,32 @@
+{
+  "case_id": 306,
+  "images": {
+    "subfig": "case_306_subfig.jpg",
+    "full": "case_306_full.jpg"
+  },
+  "question": "Which region of the stomach is visualized in this endoscopic image?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Fundus",
+    "B": "Gastric body",
+    "C": "Gastric antrum",
+    "D": "Pyloric canal",
+    "E": "Cardia"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for endoscopic landmarks and instrument position. I can see the endoscope tip near the top center of the image and the shaft is curved, consistent with a retroflexed view looking back toward the upper part of the stomach.\n\nNext, I describe the mucosal appearance and the lesion. The mucosa is smooth with relatively short rugal folds and there is a rounded, subepithelial-appearing bulge with intact overlying mucosa indicated by the red arrow. There is no visible squamocolumnar junction or esophageal mucosa in the field, and I do not see the pyloric ring or the characteristic antral canal configuration.\n\nThen I relate these observations to the anatomic choices. A view obtained in retroflexion that shows the upper, dome-like portion of the stomach with short folds and a protruding lesion is most consistent with the fundic region. The gastric antrum or pyloric canal would show different distal landmarks (pyloric ring/canal) which are not present, and the cardia would show the gastroesophageal junction which is not seen here.\n\nTherefore, based on the retroflexed endoscopic view, the appearance of the mucosa and folds, and the absence of distal pyloric or esophageal landmarks, the region visualized is the fundus.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "endoscopy",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "laryngoscopy"
+  ],
+  "caption": "Gastroscopy, using position in retroflection, revealed a protruding mass with overlying normal mucosa in the stomach (redarrow).",
+  "sub_caption": "Gastroscopy, using position in retroflection, revealed a protruding mass with overlying normal mucosa in the stomach (red arrow).",
+  "image_context": "A 63-year-old man came to our observation complaining of symptoms referable to gastroesophageal reflux disease. No epigastric pain, postprandial fullness, or vomiting were present during clinical examination. His history did not show noteworthy pathologies. The patient did not follow any pharmacological therapy, and there was no family history for neoplasia of the digestive system. An esophagogastroduodenoscopy was performed, which showed, in the insufflation phase, a ‘bombè’ lesion occurring in the fundus driven to subepithelial lesions (SELs), settled along the little curve and miming an extrinsic compression [<xref ref-type=\"fig\" rid=\"OMJ-36-02-1900141-f1\">Figure 1</xref>]. Laboratory tests were all normal, including liver function tests, while the oncological markers (carcinoembryonic antigen and serum carbohydrate antigen 19-9) were both negative. An abdominal computed tomography (CT) with contrast agent was performed, highlighting two fluid collections, of which the larger mass (48 × 43 mm) lay in the right lobe and the smaller mass (33 × 27 mm), responsible for compression on the gastric wall, in the left lobe []. Laboratory tests were all normal, including liver function tests, while the oncological markers (carcinoembryonic antigen and serum carbohydrate antigen 19-9) were both negative. An abdominal computed tomography (CT) with contrast agent was performed, highlighting two fluid collections, of which the larger mass (48 × 43 mm) lay in the right lobe and the smaller mass (33 × 27 mm), responsible for compression on the gastric wall, in the left lobe [<xref ref-type=\"fig\" rid=\"OMJ-36-02-1900141-f2\">Figure 2</xref>].].",
+  "relevant_image_context": "An esophagogastroduodenoscopy was performed, which showed, in the insufflation phase, a ‘bombè’ lesion occurring in the fundus driven to subepithelial lesions (SELs), settled along the little curve and miming an extrinsic compression."
+}

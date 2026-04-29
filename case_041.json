@@ -1,0 +1,33 @@
+{
+  "case_id": 41,
+  "images": {
+    "subfig": "case_041_subfig.jpg",
+    "full": "case_041_full.jpg"
+  },
+  "question": "Based on this image, which diagnosis is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Xanthogranulomatous pyelonephritis",
+    "B": "Renal cell carcinoma",
+    "C": "Emphysematous pyelonephritis",
+    "D": "Pyonephrosis",
+    "E": "Perinephric abscess"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image for anatomic and pathologic findings. I see the left kidney is enlarged and heterogeneous with multiple low-attenuation areas replacing much of the parenchyma. There is a focal high-density rounded calculus within the renal collecting region on the left (visible bright calcification). Surrounding the left kidney there is stranding and a small fluid collection along the anterior lower pole, but I do not see intraparenchymal gas.\n\nNext, I relate these imaging findings to the diagnostic choices. The combination of a large renal stone with extensive destructive-appearing replacement of renal parenchyma and adjacent inflammatory/abscess-like collection argues for a chronic suppurative process rather than a discrete tumor. A renal cell carcinoma would more typically appear as a focal enhancing mass rather than diffuse parenchymal destruction with an associated stone. Emphysematous pyelonephritis would be expected to show gas within the collecting system or parenchyma, which is not present here. Pyonephrosis is usually dominated by pus-filled dilated collecting system; here the parenchyma is diffusely replaced and there is perinephric inflammatory change rather than isolated collecting-system distension. A localized perinephric abscess would show a collection around a relatively preserved kidney, but this kidney itself is abnormal and largely replaced by low-attenuation inflammatory change.\n\nThen, I conclude which option best fits the observed pattern. The imaging pattern—staghorn-like calculus, diffuse renal parenchymal destruction with low-attenuation areas and perinephric inflammatory change/collection—most closely matches a chronic inflammatory destructive process, making xanthogranulomatous pyelonephritis the most likely diagnosis.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "CT scan of abdomen showing XPGN: used to make a presumptive diagnosis of XGPN.",
+  "sub_caption": "CT scan of abdomen showing XPGN: used to make a presumptive diagnosis of XGPN.",
+  "image_context": "She had leukocytosis with a left shift on the CBC. Urinalysis showed evidence of a urinary tract infection and later cultures were positive for E.coli. CT scan with contrast (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>) confirmed a staghorn calculus with dilatation of the calyces, cortical thinning, perinephric abscess, perinephric stranding, and collection along the anterior lower pole of the left kidney consistent with XGPN. Another calculus at the proximal left ureter resulted in severe left hydronephrosis () confirmed a staghorn calculus with dilatation of the calyces, cortical thinning, perinephric abscess, perinephric stranding, and collection along the anterior lower pole of the left kidney consistent with XGPN. Another calculus at the proximal left ureter resulted in severe left hydronephrosis (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). Reactive lymphadenopathy was also seen adjacent to left renal vein.). Reactive lymphadenopathy was also seen adjacent to left renal vein.Fig. 2CT scan of abdomen showing XPGN: used to make a presumptive diagnosis of XGPN.Fig. 2Fig. 1Plain radiograph of left-sided struvite stone: obtained upon arrival to the ED to identify the struvite stone.Fig. 1",
+  "relevant_image_context": "Fig. 2 CT scan of abdomen showing XPGN: used to make a presumptive diagnosis of XGPN. CT scan with contrast (Fig. 2) confirmed a staghorn calculus with dilatation of the calyces, cortical thinning, perinephric abscess, perinephric stranding, and collection along the anterior lower pole of the left kidney consistent with XGPN."
+}

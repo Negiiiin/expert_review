@@ -1,0 +1,31 @@
+{
+  "case_id": 125,
+  "images": {
+    "subfig": "case_125_subfig.jpg",
+    "full": "case_125_full.jpg"
+  },
+  "question": "A patient with suspected acute lower gastrointestinal bleeding underwent CT angiography and was referred to interventional radiology. Diagnostic catheter angiography performed subsequently did not demonstrate active bleeding, and interventionalists are concerned about ischemic risk from non‑super‑selective embolization. Based on the imaging, which of the following is the most appropriate next-step management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Conservative management with blood product transfusion and observation",
+    "B": "Empiric non-super-selective arterial embolization",
+    "C": "Immediate exploratory laparotomy",
+    "D": "Repeat catheter angiography to attempt re-localization"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided CT angiography image. I see an axial abdominal slice with a focal pocket of high attenuation within a distal small-bowel loop in the right lower quadrant that is consistent with contrast extravasation/active contrast pooling in the bowel lumen.\n\nNext, I relate those imaging findings to the clinical details in the question: the CTA suggested active lower GI bleeding in the distal ileum, but subsequent diagnostic catheter angiography did not demonstrate active extravasation. The interventional team is also explicitly concerned about ischemic risk from non‑super‑selective arterial embolization.\n\nThen I consider how each management option aligns with those observations and constraints. Empiric non‑super‑selective embolization (option B) would treat without angiographic confirmation but is stated to carry ischemic risk and is therefore undesirable here. Immediate exploratory laparotomy (option C) is an invasive surgical step that is not clearly indicated when bleeding is not confirmed on angiography and no other surgical signs are provided. Repeat catheter angiography (option D) could be reasonable if there were ongoing massive hemorrhage or hemodynamic instability, but the question frames the situation as one where angiography was negative and embolization is being avoided because of ischemic risk.\n\nGiven a CTA suggesting a focal bleed but negative catheter angiography and a high risk from empiric embolization, the most appropriate immediate step is conservative management: stabilize with blood product transfusion and close clinical observation while monitoring for recurrent or worsening bleeding. This approach minimizes ischemic risk from inappropriate embolization and reserves invasive or repeat angiographic interventions for patients who continue to bleed or become unstable.\n\nTherefore, conservative management with transfusion and observation is the most appropriate next step.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Abdominal CT angiography depicting contrast extravasation in the distant ileum (indicated by red arrow)",
+  "sub_caption": "Abdominal CT angiography depicting contrast extravasation in the distant ileum (indicated by red arrow)",
+  "image_context": "The patient underwent CT angiography on admission, which suggested contrast extravasation in the distal ileum (Figure <xref rid=\"cureus-0016-00000051744-i01\" ref-type=\"fig\">1</xref>). No pathologically enlarged lymph nodes or free fluid in the peritoneal and pelvic cavity were detected. Interventional radiologists were consulted for emergency embolization. However, at the time of angiography, active bleeding was not confirmed. Hence, we opted against performing a non-super-selective embolization to a patient of this age, in view of possible complications, namely bowel ischemia. Instead, our patient was supported with transfusions of two packs of fresh frozen plasma (FFP) and three units of packed red blood cells (RBC).). No pathologically enlarged lymph nodes or free fluid in the peritoneal and pelvic cavity were detected. Interventional radiologists were consulted for emergency embolization. However, at the time of angiography, active bleeding was not confirmed. Hence, we opted against performing a non-super-selective embolization to a patient of this age, in view of possible complications, namely bowel ischemia. Instead, our patient was supported with transfusions of two packs of fresh frozen plasma (FFP) and three units of packed red blood cells (RBC).",
+  "relevant_image_context": "The patient underwent CT angiography on admission, which suggested contrast extravasation in the distal ileum. No pathologically enlarged lymph nodes or free fluid in the peritoneal and pelvic cavity were detected. Interventional radiologists were consulted for emergency embolization. However, at the time of angiography, active bleeding was not confirmed. Hence, we opted against performing a non-super-selective embolization to a patient of this age, in view of possible complications, namely bowel ischemia. Instead, our patient was supported with transfusions of two packs of fresh frozen plasma (FFP) and three units of packed red blood cells (RBC)."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 277,
+  "images": {
+    "subfig": "case_277_subfig.jpg",
+    "full": "case_277_full.jpg"
+  },
+  "question": "A 59-year-old woman has had a minimally itchy, slowly enlarging plaque on the dorsum of her left hand for 4 years after a prior skin puncture. She is a long-standing insulin-treated diabetic and topical antibiotic therapy produced no improvement. Based on the clinical presentation and the photograph, what is the most appropriate next step in management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Perform punch/incisional skin biopsy",
+    "B": "Empiric oral antibiotics",
+    "C": "Topical high-potency corticosteroid",
+    "D": "Cryotherapy in clinic",
+    "E": "Wide local excision without biopsy"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the photograph and note the lesion's morphology. On the dorsum of the hand there is a solitary, well-demarcated plaque with a central crusted, scabbed area that looks indurated and slightly irregular. The surrounding skin shows erythema with a darker hyperpigmented rim; the lesion appears chronic rather than an acute, diffuse rash.\n\nNext, I relate these visual findings to the clinical stem: a 4-year history of a slowly enlarging, minimally itchy plaque that began after a puncture and did not improve with topical antibiotic therapy in an insulin-treated diabetic. The long duration, focal induration, central crusting, and failure of topical antibiotics together suggest this is not a straightforward acute bacterial infection that would reliably respond to more topical measures.\n\nThen, I consider how each management option aligns with these observations. A biopsy (punch/incisional) would provide tissue for definitive diagnosis and guide therapy for a chronic, atypical lesion that has not responded to conservative topical treatment. Empiric oral antibiotics are unlikely to be helpful given prior topical antibiotic failure and the chronic, localized morphology. High-potency topical corticosteroid could mask or worsen an underlying infectious or neoplastic process and is therefore not appropriate without a diagnosis. Cryotherapy is typically used for small benign surface lesions and is not appropriate for a chronic, crusted, indurated plaque. Wide local excision without first obtaining a diagnosis is unnecessarily aggressive.\n\nTherefore, obtaining a punch or incisional skin biopsy is the most appropriate next step to establish a diagnosis and direct further management.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Dermatology",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "skin lesion"
+  ],
+  "caption": "Well-defined erythematous plaque with hyperpigmented borders and overlying crust present on the dorsum of the left hand",
+  "sub_caption": "Well-defined erythematous plaque with hyperpigmented borders and overlying crust present on the dorsum of the left hand",
+  "image_context": "A 59-year-old woman presented with a minimally itchy and tender plaque on the dorsum of the left hand since last 4 years. According to the patient it started as a small papule following blood collection at the site and gradually increased in size. She was a known diabetic; controlled on insulin for the past 15 years. She had used a topical antibiotic intermittently with no relief. On clinical examination, there was a well-defined erythematous plaque with hyperpigmented borders and overlying crust [<xref ref-type=\"fig\" rid=\"IDOJ-6-62-g001\">Figure 1</xref>]. Rest of the dermatological and systemic examination of the patient was normal.]. Rest of the dermatological and systemic examination of the patient was normal.",
+  "relevant_image_context": "A 59-year-old woman presented with a minimally itchy and tender plaque on the dorsum of the left hand since last 4 years. According to the patient it started as a small papule following blood collection at the site and gradually increased in size. She was a known diabetic; controlled on insulin for the past 15 years. She had used a topical antibiotic intermittently with no relief. On clinical examination, there was a well-defined erythematous plaque with hyperpigmented borders and overlying crust. Rest of the dermatological and systemic examination of the patient was normal."
+}

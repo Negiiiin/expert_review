@@ -1,0 +1,32 @@
+{
+  "case_id": 213,
+  "images": {
+    "subfig": "case_213_subfig.jpg",
+    "full": "case_213_full.jpg"
+  },
+  "question": "Which region of the displayed image contains the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper right quadrant of the image",
+    "B": "Upper left quadrant of the image",
+    "C": "Lower right quadrant of the image",
+    "D": "Lower left quadrant of the image"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for any marked finding. I see an axial CT of the head with a yellow arrow pointing to a focal area of altered density near the cortical surface.\n\nNext, I relate what I see to the question, which asks which quadrant of the displayed image contains the finding. To determine this I mentally divide the image into four quadrants using a vertical midline and a horizontal midline through the center of the image.\n\nThen I localize the arrow relative to those midlines. The arrowed finding lies to the right of the vertical midline and above the horizontal midline of the displayed image, placing it in the upper right section.\n\nFinally, I compare this localization to the answer choices and select the option that corresponds to the upper right quadrant. Therefore the finding is in the upper right quadrant of the image.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Follow-up brain computed tomography scan showing hypodensity after absorption of bleeding in the basal ganglia",
+  "sub_caption": "Follow-up brain computed tomography scan showing hypodensity after absorption of bleeding in the basal ganglia.",
+  "image_context": "On follow-up, the patient progressively improved in general. She was immediately mobilized on day 7, with good satisfaction. Her neurological, cognitive, and pulmonary functions had improved before she was discharged from the hospital. Brain CT scans performed in the first week after her release showed hemorrhagic absorption, and she was symptom-free at this period and returned to her normal duties (Figure <xref ref-type=\"fig\" rid=\"cureus-0012-00000007869-i04\">4</xref>).).",
+  "relevant_image_context": "On follow-up, the patient progressively improved in general. She was immediately mobilized on day 7, with good satisfaction. Her neurological, cognitive, and pulmonary functions had improved before she was discharged from the hospital. Brain CT scans performed in the first week after her release showed hemorrhagic absorption, and she was symptom-free at this period and returned to her normal duties (Figure 4)."
+}

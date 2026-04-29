@@ -1,0 +1,32 @@
+{
+  "case_id": 24,
+  "images": {
+    "subfig": "case_024_subfig.jpg",
+    "full": "case_024_full.jpg"
+  },
+  "question": "A 63-year-old man presents with 4 days of right-sided loin-to-groin pain. Urine culture shows mixed growth but renal function and electrolytes are at baseline. Using the imaging provided plus this clinical information, which pharmacologic therapy is most appropriate initially?",
+  "question_scope": "full_figure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Alpha-1 blocker (tamsulosin)",
+    "B": "Intravenous broad-spectrum antibiotics",
+    "C": "NSAID analgesia (e.g., ketorolac)",
+    "D": "Oral opioid analgesic",
+    "E": "Empiric oral antibiotics"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image. The coronal non-contrast pelvic CT shows multiple high‑attenuation foci along the right distal ureter with mild dilatation of the right pelvicalyceal system, consistent with obstructing right ureteric calculi. The left kidney also contains small calcifications but no comparable dilatation.\n\nNext, I relate those findings to the clinical stem. The patient is a 63‑year‑old man with 4 days of right loin‑to‑groin pain. Urine culture shows mixed growth, and renal function and electrolytes are reported at baseline. No systemic features of sepsis or abnormal renal function are provided in the question.\n\nThen, I consider how each pharmacologic option aligns with the image and clinical data. Intravenous broad‑spectrum antibiotics (B) would be indicated if there were evidence of an infected, obstructed system or systemic sepsis, which is not shown or reported here. Empiric oral antibiotics (E) are less clearly justified by “mixed growth” alone when there are no systemic signs in the information given. An alpha‑1 blocker (A) is a treatment aimed at promoting stone passage but does not address acute pain and its benefit depends on stone characteristics; the immediate issue in this presentation is symptomatic pain from an obstructing stone. Between analgesic choices, NSAID analgesia (C) addresses ureteric colic pain directly and is appropriate given that renal function is reported as baseline; oral opioid analgesic (D) is an alternative if NSAIDs are contraindicated or inadequate.\n\nTherefore, tying the imaging and clinical findings together, the most appropriate initial pharmacologic therapy for this patient’s acute presentation is NSAID analgesia (e.g., ketorolac).",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "CT scan demonstrating contiguous right distal ureteric calculi measuring 7 mm by 22 mm.",
+  "sub_caption": "CT scan demonstrating contiguous right distal ureteric calculi measuring 7 mm by 22 mm.",
+  "image_context": "A 63-year-old man presented with a 4-day history of right sided loin to groin pain. Non-contrast CT of the urinary tract (KUB) revealed multiple right distal ureteric calculi measuring 7 mm by 22 mm with mild dilatation of the right pelvicalyceal system (Fig. <xref ref-type=\"fig\" rid=\"rjy252f01\">1</xref>). There were multiple bilateral renal calculi, the largest measuring 7 mm. Urine culture revealed mixed growth. His renal function was not altered from baseline and electrolytes were unremarkable.). There were multiple bilateral renal calculi, the largest measuring 7 mm. Urine culture revealed mixed growth. His renal function was not altered from baseline and electrolytes were unremarkable.",
+  "relevant_image_context": "A 63-year-old man presented with a 4-day history of right-sided loin-to-groin pain. Non-contrast CT of the urinary tract revealed right distal ureteric calculi measuring 7 mm by 22 mm with mild dilatation of the right pelvicalyceal system."
+}

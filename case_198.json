@@ -1,0 +1,32 @@
+{
+  "case_id": 198,
+  "images": {
+    "subfig": "case_198_subfig.jpg",
+    "full": "case_198_full.jpg"
+  },
+  "question": "A patient with fever, pancytopenia, and elevated CRP underwent ultrasound-guided biopsy of a left popliteal lymph node for suspected lymphoma; the biopsy was nondiagnostic. The patient remains febrile and the provided imaging now shows new abnormalities in the spleen. Which of the following complications of the prior procedure best explains the current clinical and imaging findings?",
+  "question_scope": "full_figure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Bacteremia with splenic abscesses",
+    "B": "Splenic rupture with hemoperitoneum",
+    "C": "Tumor seeding to the spleen",
+    "D": "Contrast-induced acute kidney injury",
+    "E": "Localized hematoma at biopsy site"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial contrast-enhanced CT image of the upper abdomen. The spleen is enlarged and contains multiple well-defined, round hypodense lesions; several show a higher-attenuation rim compared with their centers. I do not see perisplenic high-attenuation fluid or widespread intraperitoneal fluid that would indicate active hemorrhage.\n\nNext, I relate these imaging findings to the clinical picture given: the patient remains febrile with pancytopenia and elevated CRP, and the splenic abnormalities are newly present after a recent ultrasound-guided biopsy of a left popliteal lymph node.\n\nThen I consider how each listed complication aligns with the observations. Bacteremia with secondary splenic abscesses (A) fits the combination of fever, inflammatory markers, and multiple rim-enhancing hypodense splenic lesions — a pattern compatible with infected/necrotic foci. Splenic rupture with hemoperitoneum (B) would be expected to show perisplenic or intraperitoneal high-attenuation blood, which is not seen. Tumor seeding to the spleen (C) is less consistent because the lesions appear necrotic with peripheral enhancement and the patient has systemic inflammatory signs rather than an isolated tumor burden. Contrast-induced acute kidney injury (D) does not explain focal splenic lesions. A localized hematoma at the popliteal biopsy site (E) is anatomically remote from the spleen and would not account for multiple splenic lesions and persistent fever.\n\nIn summary, the imaging appearance of multiple rim-enhancing hypodense splenic lesions together with fever and raised inflammatory markers is best explained by bacteremia with splenic abscesses following the prior procedure.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Post-contrast CT at late portal phase. There was mild splenomegaly and multiple hypodense nodular lesions with slight ring-like enhancement.",
+  "sub_caption": "Post-contrast CT at late portal phase. There was mild splenomegaly and multiple hypodense nodular lesions with slight ring-like enhancement.",
+  "image_context": "The patient was once admitted to local hospital with fever for a week. Physical examination had no positive signs except for the mild epigastric pain. Labboratory findings indicated pancytopenia and increased C-reaction protein (CRP). An abdominal ultrasonography (USG) revealed slight enlarged spleen with heterogeneous parenchyma due to multiple hypoechoic nodules. CT showed mild splenomegaly on plain scan, after intravenous administration of contrast medium, multiple hypodense nodular lesions with mild ring-like enhancement were displayed in the spleen, in which was unenhanced dot (Figure <xref ref-type=\"fig\" rid=\"medi-93-e272-g001\">1</xref>). There was increased metabolism of 18F-FDG in the spleen on PET-CT. No other anomalies were found on USG, CT and PET-CT. Lymphoma was suspected at first. However, there was no evidence of lymphoma found by USG guided biopsy of lymph node in the left popliteal space.). There was increased metabolism of 18F-FDG in the spleen on PET-CT. No other anomalies were found on USG, CT and PET-CT. Lymphoma was suspected at first. However, there was no evidence of lymphoma found by USG guided biopsy of lymph node in the left popliteal space.",
+  "relevant_image_context": "CT showed mild splenomegaly on plain scan, after intravenous administration of contrast medium, multiple hypodense nodular lesions with mild ring-like enhancement were displayed in the spleen, in which was unenhanced dot (Figure 1)."
+}

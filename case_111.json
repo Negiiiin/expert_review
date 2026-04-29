@@ -1,0 +1,33 @@
+{
+  "case_id": 111,
+  "images": {
+    "subfig": "case_111_subfig.jpg",
+    "full": "case_111_full.jpg"
+  },
+  "question": "Based on this image, which pathophysiologic mechanism best explains the appearance?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Mucin-producing neoplasm seeding peritoneum",
+    "B": "Portal hypertension with transudative ascites",
+    "C": "Lymphatic obstruction producing chylous ascites",
+    "D": "Acute hemoperitoneum from organ rupture",
+    "E": "Inflammatory peritonitis with fibrinous exudate"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial abdominal CT for the appearance of intraperitoneal material and the relationship of that material to bowel and solid organs. I see multiple heterogeneous, lobulated/loculated soft-tissue–attenuation collections occupying the peritoneal cavity and indenting/displacing bowel and visceral surfaces rather than a simple, anechoic layer of fluid. The liver and bowel contours appear scalloped by these collections, and there is no single large homogeneous fluid level.\n\nNext, I relate those imaging features to the question, which asks which pathophysiologic mechanism best explains this appearance. The predominant finding is gelatinous/loculated intra‑abdominal material that conforms to and indents organ surfaces — a pattern most consistent with intraperitoneal accumulation of mucinous material from surface seeding.\n\nThen I compare that pattern to the listed options. A mucin‑producing neoplasm seeding the peritoneum would produce loculated, gelatinous mucinous collections that indent organs, matching the image. Portal hypertension with transudative ascites or chylous/lymphatic ascites would more likely produce free, relatively homogeneous fluid layering in dependent spaces rather than these multifocal loculated gelatinous masses. Acute hemoperitoneum from rupture would produce more diffuse fluid or blood layering, often with higher attenuation or acute fluid distribution, not the lobulated mucinous-appearing pockets seen here. Inflammatory peritonitis with fibrinous exudate can produce stranding and thickening but typically does not produce the bulky, lobulated mucinous collections that scallop visceral surfaces.\n\nTherefore, the imaging appearance is best explained by mucinous neoplasm seeding of the peritoneum.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "CT Abdomen of patient 1, here at kidney–level, showing the dense mucous masses initially interpreted as pseudomyxoma peritonei filling the abdominal cavity, making the individual organs difficult to see. On this second CT-scan from day 2, the masses are increasingly dense, now measuring around 50 HU. There are no obvious signs of bowel ischemia.",
+  "sub_caption": "CT Abdomen of patient 1, here at kidney–level, showing the dense mucous masses initially interpreted as pseudomyxoma peritonei filling the abdominal cavity, making the individual organs difficult to see. On this second CT-scan from day 2, the masses are increasingly dense, now measuring around 50 HU. There are no obvious signs of bowel ischemia.",
+  "image_context": "He was transferred to the Intensive Care Unit where he expressed fulminant septic shock with multi-organ failure needing immediate fluid resuscitation, assisted ventilation and high doses of noradrenaline. He was severely hypothermic with a core temperature of 35 degrees Celsius, blood pressure 84/52 mmHg and mean arterial pressure of 61 mmHg on noradrenalin infusion of 0.2 microgram per kilogram per minute. His arterial blood gas analysis showed severe metabolic acidosis, pH 6.99, standard base excess −16, and plasma lactate concentration of 10.1 millimoles per litre. He required a FiO2 of 1.0 to keep PaO2 over 8 kPa. There were no secretions or mucus in the trachea or bronchus and no pleural effusions, but severe oedema of the lungs on chest x-ray. The cardiac status was assessed to be normal using trans-oesophageal echocardiography. The disseminated intravascular coagulation (DIC)-score was 6\n[6]. He had a rigid peritoneal abdomen wall and a swollen, upper right leg. The abdominal rigidity and intra-abdominal pressure increased in the following hours. The swelling of the abdominal wall was moderate, but the patient had severe abdominal compartment syndrome with intra-abdominal pressure of 25 mmHg. A new computed tomography (CT) scan of the abdomen was performed which showed increasing masses of suspected mucus with no signs of ileus or perforation (Figures \n<xref ref-type=\"fig\" rid=\"1471-2334-13-408-1\">1</xref>,\n,\n<xref ref-type=\"fig\" rid=\"1471-2334-13-408-2\">2</xref> and\n and\n<xref ref-type=\"fig\" rid=\"1471-2334-13-408-3\">3</xref>). An ultrasound-guided needle aspiration was performed; the ultrasound revealed that the fluid seen on the CT scan represented thickened peritoneum and an abnormally distended oedematous mesentery. There were only insignificant amounts of intraperitoneal fluid. Nevertheless, two samples of slightly milky fluid were extracted and sent for microbiological analysis. The abdominal surgeon concluded that surgical intervention was not possible.). An ultrasound-guided needle aspiration was performed; the ultrasound revealed that the fluid seen on the CT scan represented thickened peritoneum and an abnormally distended oedematous mesentery. There were only insignificant amounts of intraperitoneal fluid. Nevertheless, two samples of slightly milky fluid were extracted and sent for microbiological analysis. The abdominal surgeon concluded that surgical intervention was not possible.",
+  "relevant_image_context": "A new computed tomography (CT) scan of the abdomen was performed which showed increasing masses of suspected mucus with no signs of ileus or perforation (Figures 1, 2 and 3). An ultrasound-guided needle aspiration was performed; the ultrasound revealed that the fluid seen on the CT scan represented thickened peritoneum and an abnormally distended oedematous mesentery. There were only insignificant amounts of intraperitoneal fluid."
+}

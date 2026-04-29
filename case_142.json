@@ -1,0 +1,30 @@
+{
+  "case_id": 142,
+  "images": {
+    "subfig": "case_142_subfig.jpg",
+    "full": "case_142_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for anatomy and signal characteristics. This is an axial MRI brain slice showing the lateral ventricles centrally and the surrounding cerebral white matter.\n\nNext, I look for focal abnormalities: there are small, well-defined areas of increased signal intensity in the periventricular and adjacent subcortical frontal white matter on both sides. These focal hyperintense foci stand out against the normally lower-signal white matter and are asymmetric in appearance relative to what would be expected for a normal brain MRI.\n\nThen, I relate these observations to the question, which asks whether the findings are normal or abnormal. A scan without pathology would not show these discrete hyperintense lesions in the periventricular/subcortical white matter.\n\nFinally, comparing the two options, the presence of these abnormal signal foci supports the choice that the findings are abnormal. Therefore, the image findings are best classified as abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "In September 2019.year, our patient had brain MRI (A,D) on which there were no pathological lesions (A,D). In March 2021.year, now 24-year-old same patient, 61 days after onset of moderate SARS-CoV-2 infection, had brain MRI who showed a hyperintensive lesions located bilaterally frontally subcortically and periventricularly on the FLAIR sequence (B,E).",
+  "sub_caption": "(B,E). In March 2021.year, now 24-year-old same patient, 61 days after onset of moderate SARS-CoV-2 infection, had brain MRI who showed a hyperintensive lesions located bilaterally frontally subcortically and periventricularly on the FLAIR sequence (B,E).",
+  "image_context": "One month after the onset of the infection, sleep and overeating occurred as it was in 2017. He slept again for more than 18 hours per day, in a wake state he felt constant fatigue and lethargy, he had increased appetite and overeating resulted in a significant increase in body weight. In addition, he lost interest in work and family, completely withdrawing into himself without interest in the environment with occasional outbursts of uncontrolled anger. His father and wife brought him in again for an examination. Apart from somnolence and disinterest, neurological status was normal, and brain MRI showed numerous changes in white matter (<xref ref-type=\"fig\" rid=\"neurolint-13-00033-g002\">Figure 2</xref>B,E). EEG was completely normal. B,E). EEG was completely normal.",
+  "relevant_image_context": "brain MRI showed numerous changes in white matter (Figure 2 B,E)."
+}

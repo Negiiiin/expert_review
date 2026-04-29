@@ -1,0 +1,35 @@
+{
+  "case_id": 136,
+  "images": {
+    "subfig": "case_136_subfig.jpg",
+    "full": "case_136_full.jpg"
+  },
+  "question": "Based on this image, which of the following is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Kommerell diverticulum from aberrant LSA",
+    "B": "Saccular aortic arch aneurysm",
+    "C": "Traumatic aortic isthmus pseudoaneurysm",
+    "D": "Thoracic aortic dissection with false lumen",
+    "E": "Esophageal duplication cyst"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the coronal contrast-enhanced CT image for aortic arch anatomy, the presence and appearance of any focal outpouching, and the enhancement pattern. I note the aortic arch courses to the right side of the trachea (right-sided aortic arch) and there is a rounded, contrast-opacified outpouching arising from the posterior/leftward aspect of the arch at the origin of a vessel (arrows). The outpouching fills with contrast uniformly, indicating it communicates with the arterial lumen and is vascular rather than cystic.\n\nNext, I relate these observations to the question, which asks for the most likely diagnosis among vascular and nonvascular options. The key image features to match are: (1) a right-sided arch, (2) an aberrant vessel origin coursing posteriorly from the arch, and (3) a fusiform/rounded dilatation at that origin that enhances with contrast.\n\nThen I consider how each option fits the image. Option A (Kommerell diverticulum from aberrant LSA) fits because the lesion is a contrast-filled dilatation at the site where an aberrant subclavian-type vessel originates from a right-sided arch and the vessel courses posteriorly. Option B (saccular aortic arch aneurysm) is less consistent because the dilatation is not a discrete saccular pouch separate from a branch origin but is located at a branch origin and is fusiform in contour. Option C (traumatic aortic isthmus pseudoaneurysm) typically involves the aortic isthmus just distal to a normal left-sided arch configuration rather than an outpouching at an aberrant branch origin on a right-sided arch. Option D (thoracic aortic dissection) would show an intimal flap or double lumen, which is not seen. Option E (esophageal duplication cyst) would be a non-enhancing cystic mass distinct from the contrast-opacified aortic lumen.\n\nFinally, tying these points together: the image demonstrates a contrast-filled fusiform dilatation at the origin of an aberrant vessel from a right-sided aortic arch, matching the pattern described by option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging",
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "clinical imaging",
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "68-year-old male with a large Kommerell diverticulum.\n(a) Axial and (b) coronal post-IV contrast-enhanced MDCT showed a right-sided\naortic arch with an aberrant left subclavian artery. There was fusiform\ndilatation of the origin of the aberrant left subclavian artery\n(arrows), in keeping with a Kommerell diverticulum.\nNote the absence of mural thrombus within the outpouching.",
+  "sub_caption": "(b) coronal post-IV contrast-enhanced MDCT showed a right-sided aortic arch with an aberrant left subclavian artery. There was fusiform dilatation of the origin of the aberrant left subclavian artery (arrows), in keeping with a Kommerell diverticulum. Note the absence of mural thrombus within the outpouching.",
+  "image_context": "A 68-year-old male presented with an incidental lung\nnodule detected on chest radiograph. CT thorax was performed using a\n320-slice single-source scanner (Aquilion ONE; Toshiba Medical Systems\nCorporation, Tochigi, Japan) with an injection of 50 ml of\na low-osmolar contrast agent, iohexol (Omnipaque 350, GE Healthcare Inc.) at\n1.5 ml/s. The study showed a right-sided aortic arch\nwith an aberrant left subclavian artery. There was fusiform dilatation of\nthe origin of the aberrant left subclavian artery from the aorta, measuring\n2.3 cm, in keeping with a large Kommerell diverticulum\n(<xref rid=\"gr3\" ref-type=\"fig\">Fig.\n3</xref>).).Fig. 368-year-old male with a large Kommerell diverticulum.\n(a) Axial and (b) coronal post-IV contrast-enhanced MDCT showed a right-sided\naortic arch with an aberrant left subclavian artery. There was fusiform\ndilatation of the origin of the aberrant left subclavian artery\n(arrows), in keeping with a Kommerell diverticulum.\nNote the absence of mural thrombus within the outpouching.Fig. 3",
+  "relevant_image_context": "Fig. 3 68-year-old male with a large Kommerell diverticulum. (a) Axial and (b) coronal post-IV contrast-enhanced MDCT showed a right-sided aortic arch with an aberrant left subclavian artery. There was fusiform dilatation of the origin of the aberrant left subclavian artery (arrows), in keeping with a Kommerell diverticulum. Note the absence of mural thrombus within the outpouching."
+}

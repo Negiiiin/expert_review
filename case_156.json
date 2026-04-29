@@ -1,0 +1,31 @@
+{
+  "case_id": 156,
+  "images": {
+    "subfig": "case_156_subfig.jpg",
+    "full": "case_156_full.jpg"
+  },
+  "question": "On the displayed image, which region best localizes the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper left of the image",
+    "B": "Upper right of the image",
+    "C": "Lower left of the image",
+    "D": "Lower right of the image"
+  },
+  "ground_truth_answer": "D",
+  "ground_truth_reasoning": "First, I examine the image to locate any focal abnormality. This coronal PET-CT shows a single very bright, round focus of tracer activity in the pelvis consistent with the urinary bladder, seen near the bottom of the image.\n\nNext, I relate this to the question, which asks which region of the image best localizes the finding among the four quadrants (upper/lower left/right). The intense uptake is clearly in the lower half of the image (so the “upper” options are not consistent).\n\nThen I assess left versus right within the lower half: the bright pelvic focus lies slightly to the right side of the image rather than the left. The surrounding pelvic bones and soft tissues confirm the focus is in the lower-right quadrant on this coronal display.\n\nFinally, based on these image observations (bright pelvic focus located in the lower-right quadrant), the best answer is the lower right of the image.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "PET-CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Positron emission tomography-computed tomography showing asymmetric thickening of the bladder wall.",
+  "sub_caption": "Positron emission tomography-computed tomography showing asymmetric thickening of the bladder wall.",
+  "image_context": "PET-CT showed asymmetrical thickening of the left posterolateral bladder wall, causing obstruction of the left ureterovesical junction, and associated with moderate hydroureteronephrosis of the left kidney, as shown in Figure <xref rid=\"ms9-86-3652-g002\" ref-type=\"fig\">2</xref>. This extended to the right ureterovesical junction, causing mild hydroureteronephrosis of the right kidney. There was a focal increase in FDG uptake along the bladder wall measuring up to 3 cm; the SUV was 28.5 cm greater than the background. Hologic urine activity within the bladder. Adjacent soft-tissue stranding was identified. No suspicious FDG intake; avid abdominal or pelvic lymphadenopathy.. This extended to the right ureterovesical junction, causing mild hydroureteronephrosis of the right kidney. There was a focal increase in FDG uptake along the bladder wall measuring up to 3 cm; the SUV was 28.5 cm greater than the background. Hologic urine activity within the bladder. Adjacent soft-tissue stranding was identified. No suspicious FDG intake; avid abdominal or pelvic lymphadenopathy.",
+  "relevant_image_context": "PET-CT showed asymmetrical thickening of the left posterolateral bladder wall, causing obstruction of the left ureterovesical junction, and associated with moderate hydroureteronephrosis of the left kidney. This extended to the right ureterovesical junction, causing mild hydroureteronephrosis of the right kidney. There was a focal increase in FDG uptake along the bladder wall measuring up to 3 cm; the SUV was 28.5 cm greater than the background. Hologic urine activity within the bladder. Adjacent soft-tissue stranding was identified. No suspicious FDG intake; avid abdominal or pelvic lymphadenopathy."
+}

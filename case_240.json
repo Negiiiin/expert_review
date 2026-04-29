@@ -1,0 +1,31 @@
+{
+  "case_id": 240,
+  "images": {
+    "subfig": "case_240_subfig.jpg",
+    "full": "case_240_full.jpg"
+  },
+  "question": "Based on this image, what is the severity category?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Normal",
+    "B": "Mild",
+    "C": "Moderate",
+    "D": "Severe"
+  },
+  "ground_truth_answer": "D",
+  "ground_truth_reasoning": "First, I examine the image to determine orientation and sequence: this is a sagittal T2-weighted MRI of the cervical spine (the cerebrospinal fluid is bright around the cord).\n\nNext, I inspect the spinal canal and cord contour. There is a focal anterior indentation and flattening of the cervical cord with marked loss of the normal CSF space at the site of maximal narrowing, indicating substantial canal compromise and direct cord deformation.\n\nThen, I look for intramedullary signal abnormality. At the level of maximal compression there is a well-defined area of T2 hyperintensity within the spinal cord, consistent with intramedullary cord signal change (edema/early myelopathic change).\n\nNow I relate these image findings to the severity categories given. A normal or mild category would not show significant cord deformation or intramedullary T2 signal change; moderate stenosis typically produces canal narrowing without definite cord signal abnormality. The combination here of marked cord compression with intramedullary T2 hyperintensity indicates advanced/severe involvement.\n\nTherefore, based on the pronounced cord compression and internal T2 signal change visible on the image, the severity category is best classified as severe.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "A) T2 weighted sagittal MRI of a 68 year old gentleman with significant spinal cord compression and signal change. B) T2 weighted sagittal MRI of a 56 year old patient with significant spinal cord compression without signal change.",
+  "sub_caption": "T2 weighted sagittal MRI of a 68 year old gentleman with significant spinal cord compression and signal change.",
+  "image_context": "The study group was composed of twenty-one patients who were evaluated at a Neurosurgery clinic for signs and symptoms related to cervical spondylosis. There were twelve women and nine men, and the mean age was fifty-nine years. Baseline history and physical examinations were performed on each patient. Conventional MRI demonstrated advanced cervical spondylosis, with at least moderate central spinal canal stenosis in each case. Ten of the patients had increased T2 weighted signal within the spinal cord (<xref ref-type=\"fig\" rid=\"nihms457576f1\">Fig. 1A</xref>), and the other eleven had normal signal intensity throughout the spinal cord (), and the other eleven had normal signal intensity throughout the spinal cord (<xref ref-type=\"fig\" rid=\"nihms457576f1\">Fig. 1B</xref>).).",
+  "relevant_image_context": "The study group was composed of twenty-one patients who were evaluated at a Neurosurgery clinic for signs and symptoms related to cervical spondylosis. There were twelve women and nine men, and the mean age was fifty-nine years. Baseline history and physical examinations were performed on each patient. Conventional MRI demonstrated advanced cervical spondylosis, with at least moderate central spinal canal stenosis in each case. Ten of the patients had increased T2 weighted signal within the spinal cord (Fig. 1A)."
+}

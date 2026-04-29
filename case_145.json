@@ -1,0 +1,31 @@
+{
+  "case_id": 145,
+  "images": {
+    "subfig": "case_145_subfig.jpg",
+    "full": "case_145_full.jpg"
+  },
+  "question": "Based on this image, what is the severity grade?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild",
+    "B": "Mild–moderate",
+    "C": "Moderate",
+    "D": "Severe"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the coronal PET/CT image for visible findings. I see multiple discrete and segmental areas of increased radiotracer uptake located in the mid/lower abdomen along the expected distribution of small and large bowel; these areas are shown as green-yellow to red foci against lower background activity.\n\nNext, I relate those visual features to the question, which asks for the severity grade (choices: Mild, Mild–moderate, Moderate, Severe). The uptake in the bowel is clearly above low-level/background activity (so not \"Mild\"), but it is not uniformly intensely confluent or overwhelmingly extensive throughout the abdomen that would suggest the highest grade (\"Severe\"). The pattern and color intensity on the image appear consistently intermediate — stronger than mild but not maximal.\n\nThen, I consider how the remaining options fit the observations. \"Mild–moderate\" implies only borderline or slightly increased activity, whereas the image demonstrates a clear, multiple-segment pattern of intermediate intensity more consistent with a single clear grade. The visual impression therefore best matches the middle category, \"Moderate.\"\n\nIn summary, based on the presence of multiple segmental bowel foci with intermediate (neither faint nor maximal) radiotracer intensity, the imaging severity grade corresponds to Moderate.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "FDG-PET/CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Whole body 18FDG PET/CT scan. A Diffuse moderate-intensity of FDG uptake by small and large bowels. B Mild hypermetabolic focus at apical aspect of interventricular septum",
+  "sub_caption": "A Diffuse moderate-intensity of FDG uptake by small and large bowels.",
+  "image_context": "Based on the CMRI findings, both perimyocarditis and sarcoidosis were possible differentials. Therefore, we arranged for a whole-body 18Fluorodeoxyglucose Positron Emission Tomography/Computed Tomography (18FDG PET/CT) scan. The patient was prepared with a high fat/very low carbohydrate diet 2 meals before scan followed by a fast of at least 4 h to suppress 18FDG uptake from normal myocardium. The 18FDG PET/CT scan showed a hypermetabolic focus at apical of interventricular septum (maximum Standardized Uptake Value/ SUV max = 3.8), favoring myocarditis rather than cardiac sarcoidosis. In addition, the presence of diffuse moderate-intensity of FDG uptake by small and large bowels (SUV max = 12.2) on the 18FDG PET—scan (Fig. <xref rid=\"12872_2021_2232_Fig3_HTML\" ref-type=\"fig\">3</xref>) further reinforced our initial suspicion of an active inflammatory process in the intestinal tract leading to acute perimyocarditis.) further reinforced our initial suspicion of an active inflammatory process in the intestinal tract leading to acute perimyocarditis.Fig. 3Whole body 18FDG PET/CT scan. A Diffuse moderate-intensity of FDG uptake by small and large bowels. B Mild hypermetabolic focus at apical aspect of interventricular septum",
+  "relevant_image_context": "Fig. 3 Whole body 18FDG PET/CT scan. A Diffuse moderate-intensity of FDG uptake by small and large bowels. The 18FDG PET/CT scan showed a diffuse uptake in the bowels (SUV max = 12.2), supporting an active inflammatory process in the intestinal tract."
+}

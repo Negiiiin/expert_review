@@ -1,0 +1,32 @@
+{
+  "case_id": 342,
+  "images": {
+    "subfig": "case_342_subfig.jpg",
+    "full": "case_342_full.jpg"
+  },
+  "question": "A 53-year-old man has had intermittent upper abdominal pain for 3 months and underwent contrast-enhanced CT of the abdomen. Based on the imaging, which additional diagnostic test or imaging is most appropriate to further characterize the finding and obtain tissue/fluid for diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Endoscopic ultrasound with FNA",
+    "B": "Contrast-enhanced MRI with MRCP",
+    "C": "Percutaneous core-needle biopsy",
+    "D": "Serum tumor markers (CA 19-9)",
+    "E": "FDG-PET/CT"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the CT image carefully. I see a large, well‑circumscribed, low‑attenuation (cystic-appearing) mass in the left upper quadrant at the expected location of the pancreatic tail. Along its medial wall there is a focal area of higher attenuation consistent with an enhancing solid/mural component adjacent to the cyst.\n\nNext, I relate these findings to the question, which asks for the most appropriate additional test to both further characterize the lesion and obtain tissue or fluid for diagnosis. The image shows a predominantly cystic lesion in the pancreas with a solid component — therefore a diagnostic approach must allow characterization and sampling of cyst fluid and/or the solid part.\n\nThen, I consider how each option aligns with that need. Options that do not obtain tissue/fluid (B: MRI/MRCP, D: serum CA 19‑9, E: FDG‑PET/CT) cannot by themselves provide material for cytology or fluid analysis, so they do not meet the question’s requirement. Two options can obtain samples: A (endoscopic ultrasound with FNA) and C (percutaneous core‑needle biopsy). Between these, the name and intent of A (endoscopic ultrasound with fine‑needle aspiration) explicitly indicate the ability to image the pancreas closely and to aspirate cyst fluid and sample small solid mural nodules. Option C (percutaneous core‑needle biopsy) implies obtaining core tissue, which may be less suited to aspirating cyst fluid and to targeted sampling of a mural nodule in a cystic pancreatic lesion.\n\nFinally, tying the observations to the best choice: because the lesion is predominantly cystic with a discrete solid/mural component and the question requires obtaining tissue/fluid, an approach that provides high‑resolution imaging of the pancreas and allows aspiration of cyst contents and sampling of the solid component is most appropriate — endoscopic ultrasound with FNA.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT of the abdomen: Large cystic lesion measuring 8 cm in the tail of the pancreas",
+  "sub_caption": "CT of the abdomen: Large cystic lesion measuring 8 cm in the tail of the pancreas",
+  "image_context": "A 53-year-old male presented with upper abdominal pain of 3 months duration. On clinical examination, a vague lump was palpable in the epigastric region. Contrast-enhanced computed tomography (CECT) of the abdomen revealed a large cystic lesion measuring 8 cm near the tail of the pancreas [<xref ref-type=\"fig\" rid=\"EUS-4-351-g001\">Figure 1</xref>]. It had an enhancing solid component in the periphery of the cyst []. It had an enhancing solid component in the periphery of the cyst [<xref ref-type=\"fig\" rid=\"EUS-4-351-g002\">Figure 2</xref>]. Upper gastrointestinal endoscopy revealed normal gastric mucosa. A possibility of cystic pancreatic neoplasm was kept and the patient underwent endoscopic ultrasound (EUS). The EUS revealed a heteroechoic lesion arising from the stomach wall with solid and cystic areas []. Upper gastrointestinal endoscopy revealed normal gastric mucosa. A possibility of cystic pancreatic neoplasm was kept and the patient underwent endoscopic ultrasound (EUS). The EUS revealed a heteroechoic lesion arising from the stomach wall with solid and cystic areas [<xref ref-type=\"fig\" rid=\"EUS-4-351-g003\">Figure 3</xref>]. There were small anechoic areas in the solid component of the lesion suggestive of necrosis []. There were small anechoic areas in the solid component of the lesion suggestive of necrosis [<xref ref-type=\"fig\" rid=\"EUS-4-351-g004\">Figure 4</xref>]. The lesion could be seen arising from the ]. The lesion could be seen arising from the muscularis propria. EUS-guided fine-needle aspiration (FNA) was performed from the solid component and the cytology revealed features suggestive of a spindle cell tumor [<xref ref-type=\"fig\" rid=\"EUS-4-351-g005\">Figure 5</xref>]. The patient underwent surgical excision of the tumor and the histopathological examination confirmed the presence of gastrointestinal stromal tumor (GIST).]. The patient underwent surgical excision of the tumor and the histopathological examination confirmed the presence of gastrointestinal stromal tumor (GIST).",
+  "relevant_image_context": "A 53-year-old male presented with upper abdominal pain of 3 months duration. Contrast-enhanced computed tomography (CECT) of the abdomen revealed a large cystic lesion measuring 8 cm near the tail of the pancreas. It had an enhancing solid component in the periphery of the cyst."
+}

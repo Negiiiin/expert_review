@@ -1,0 +1,31 @@
+{
+  "case_id": 162,
+  "images": {
+    "subfig": "case_162_subfig.jpg",
+    "full": "case_162_full.jpg"
+  },
+  "question": "A patient underwent computed tomography angiography of the head and neck to evaluate the thoracic inlet. Based on the imaging, which of the following best describes the patient's short-term risk?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "High immediate risk of life-threatening hemorrhage",
+    "B": "Low short-term hemorrhage risk; observe",
+    "C": "High risk of delayed thromboembolic stroke",
+    "D": "Isolated orthopedic injury without vascular threat"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for anatomic and vascular findings. This 3D CT angiogram of the thoracic inlet shows a right clavicular fracture with substantial posterior displacement. Multiple arrows mark a focal contrast-filled outpouching/abnormality in the vascular territory immediately posterior to the fractured clavicle, with adjacent high-density material that is consistent with local hemorrhage or a contained vascular collection.\n\nNext, I relate these observations to the question, which asks about the patient’s short-term risk. The key imaging findings are (1) displaced clavicle fragment directed posteriorly toward the thoracic inlet, and (2) a contrast-containing vascular abnormality directly abutting that fragment, consistent with a vessel wall injury/pseudoaneurysm or contained rupture.\n\nThen, I consider how each option lines up with those observations. Option D (isolated orthopedic injury) is inconsistent because there is a clear vascular abnormality on angiography. Option C (high risk of delayed thromboembolic stroke) is not supported by the image, which demonstrates a local vessel breach/collection rather than an intracranial or embolic source. Option B (low short-term hemorrhage risk; observe) is unlikely because a displaced bone fragment abutting a contrast-filled vascular defect suggests an unstable vascular injury that could rupture or bleed imminently.\n\nFinally, tying these points together: a displaced clavicular fragment in direct contact with a focal contrast-filled vascular defect indicates a high immediate risk of significant hemorrhage from the injured vessel. This imaging pattern therefore best supports the choice of high immediate risk of life‑threatening hemorrhage.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "computed tomography angiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Three-dimensional reconstruction of the thoracic inlet using the computed tomography angiogram of the head and neck demonstrates fracture of the right clavicular head with an anterior fracture fragment posterior displacement of the clavicle with abutment of the pseudoaneurysm/contained rupture (arrows). The connecting neck extending from the brachiocephalic artery is also depicted.",
+  "sub_caption": "Three-dimensional reconstruction of the thoracic inlet using the computed tomography angiogram of the head and neck demonstrates fracture of the right clavicular head with an anterior fracture fragment posterior displacement of the clavicle with abutment of the pseudoaneurysm/contained rupture (arrows). The connecting neck extending from the brachiocephalic artery is also depicted.",
+  "image_context": "A non-occlusive filling defect in the proximal right subclavian artery was suggestive of thrombus and raised concern for an embolic process. Decreased flow in the right distal second segment and third segments of the right vertebral artery supported a concern for a thrombus. There were no large vessel occlusions or significant stenoses of the major intracranial arteries. Finally, a Salter-Harris I fracture of the right clavicular head with surrounding contusion/hematoma was noted, along with dislocation of the sternoclavicular joint. The posteriorly displaced clavicle was noted to abut the pseudoaneurysm/contained rupture (<xref rid=\"cpcem-8-120-g002\" ref-type=\"fig\">Image 2</xref>).).",
+  "relevant_image_context": "Finally, a Salter-Harris I fracture of the right clavicular head with surrounding contusion/hematoma was noted, along with dislocation of the sternoclavicular joint. The posteriorly displaced clavicle was noted to abut the pseudoaneurysm/contained rupture."
+}

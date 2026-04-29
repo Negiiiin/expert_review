@@ -1,0 +1,31 @@
+{
+  "case_id": 225,
+  "images": {
+    "subfig": "case_225_subfig.jpg",
+    "full": "case_225_full.jpg"
+  },
+  "question": "Which pathophysiologic mechanism best explains the distribution of the finding on this image?",
+  "question_scope": "full_figure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Lymphatic transport to facial nodes",
+    "B": "Intravascular embolization via artery",
+    "C": "Extravascular migration along perivascular/fascial planes",
+    "D": "Diffuse infectious cellulitis with necrosis"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for the pattern and location of the abnormality. On this axial head MRI there is an asymmetric, relatively well‑defined curvilinear area of abnormal signal intensity following the nasolabial fold/cheek soft tissues on one side. The abnormal signal is elongated and tracks along a linear anatomic plane in the superficial face rather than appearing as multiple discrete nodules or a diffuse, confluent swelling.\n\nNext, I relate these imaging findings to the question, which asks which pathophysiologic mechanism best explains the distribution. The key observations to use are the localized, linear/plane‑following distribution confined to the soft‑tissue plane of the nasolabial region and the absence of a diffuse, ill‑defined edematous change or widespread multifocal lesions.\n\nThen I consider how each listed mechanism aligns with those observations. Lymphatic transport would more likely produce diffuse or segmental edema or nodal/chain patterns rather than a single linear tract limited to a fascial plane. Intravascular embolization would be expected to produce distal, often multifocal ischemic/embolic findings at sites remote from the injection area, not a contiguous linear spread in the immediate soft tissues. Diffuse infectious cellulitis with necrosis would produce broader ill‑defined soft tissue swelling, skin thickening, and possibly gas or necrotic change rather than a neat tract along a plane.\n\nFinally, the observed contiguous, linear tracking of abnormal signal along the superficial soft‑tissue plane is most consistent with material or fluid having moved outside the vessel and migrating along perivascular or fascial planes. This pattern matches extravascular migration along perivascular/fascial planes.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial T2 image showing HA in nasolabial folds.Notes: A slight extension of the product in the subcutaneous fat of the cheek and along branches of the facial vein and artery on the left side of the face can also be observed.Abbreviation: HA, hyaluronic acid.",
+  "sub_caption": "Axial T2 image showing HA in nasolabial folds. Notes: A slight extension of the product in the subcutaneous fat of the cheek and along branches of the facial vein and artery on the left side of the face can also be observed. Abbreviation: HA, hyaluronic acid.",
+  "image_context": "In Subject 2, a large amount of HA was visible in the nasolabial folds, possibly due to additional treatment in 2014. A slight extension of the product was visible in the subcutaneous fat of the cheek, and also a slight extension of the product along branches of the facial vein and artery on the left side of the face (<xref ref-type=\"fig\" rid=\"ccid-12-001Fig3\">Figure 3</xref>).).",
+  "relevant_image_context": "In Subject 2, a large amount of HA was visible in the nasolabial folds, possibly due to additional treatment in 2014. A slight extension of the product was visible in the subcutaneous fat of the cheek, and also a slight extension of the product along branches of the facial vein and artery on the left side of the face (Figure 3)."
+}

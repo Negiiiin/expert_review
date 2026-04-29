@@ -1,0 +1,32 @@
+{
+  "case_id": 335,
+  "images": {
+    "subfig": "case_335_subfig.jpg",
+    "full": "case_335_full.jpg"
+  },
+  "question": "Based on this image, which severity category best applies?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild",
+    "B": "Moderate",
+    "C": "Severe",
+    "D": "Indeterminate"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for architectural and cytologic features. The H&E field shows a highly cellular tissue with numerous cells that have variably sized, irregular, and darkly staining (hyperchromatic) nuclei. The background has a somewhat fibrillary appearance and I can also see a few large multinucleated/giant-appearing cells and some cells with more vacuolated or foamy cytoplasm.\n\nNext, I relate what I see to the question, which asks which severity category best applies. Severity on histology is typically judged by the degree of cellular atypia, presence of mitotic activity, and presence of necrosis or other aggressive features. In this image there is clearly marked nuclear pleomorphism and hyperchromasia (suggesting substantial atypia), but there are no obvious mitotic figures and no overt areas of necrosis visible in this field.\n\nThen, I consider how each severity label lines up with those observations. \"Mild\" would imply minimal atypia and a largely bland appearance, which is not consistent with the marked pleomorphism here. \"Severe\" would usually require both marked atypia plus active mitoses and/or necrosis; those latter aggressive features are not seen in this image. Therefore the pattern — substantial atypia without clear mitotic activity or necrosis — best fits an intermediate category.\n\nIn summary, the image shows pronounced cellular atypia but lacks clear mitotic activity or necrosis in this field, which aligns with a moderate severity assessment.",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "histology",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "Low power view (×10): Histopathology (H and E) showing highly cellular and fibrillary background. Cells are highly pleomorphic with hyper chromatic nuclei. Multinucleate giant cells and few xanthomatous cells with foamy cytoplasm can also be seen. There is no evidence of mitosis or necrosis suggestive of pleomorphic xanthoastrocytoma",
+  "sub_caption": "Low power view (×10): Histopathology (H and E) showing highly cellular and fibrillary background. Cells are highly pleomorphic with hyperchromatic nuclei. Multinucleate giant cells and few xanthomatous cells with foamy cytoplasm can also be seen. There is no evidence of mitosis or necrosis suggestive of pleomorphic xanthoastrocytoma.",
+  "image_context": "Histopathology (hematoxylin and eosin stain) showed highly cellular and fibrillary background. Cellular areas consist of small cells with highly pleomorphic and hyperchromatic nuclei. Numerous multinucleated giant cells and few xanthomatous cells with foamy cytoplasm were present with no evidence of mitosis or necrosis. These features were suggestive of PXA (WHO grade 2) [Figures <xref ref-type=\"fig\" rid=\"AJNS-12-566-g005\">4</xref> and  and <xref ref-type=\"fig\" rid=\"AJNS-12-566-g006\">5</xref>].]. High-power view (×40) showing histological features mentioned in <xref ref-type=\"fig\" rid=\"AJNS-12-566-g005\">Figure 4</xref> using H and E, Red arrow showing a multinucleate giant cell and blue arrows showing cells with hyperchromatic nuclei using H and E, Red arrow showing a multinucleate giant cell and blue arrows showing cells with hyperchromatic nuclei",
+  "relevant_image_context": "Histopathology (hematoxylin and eosin stain) showed highly cellular and fibrillary background. Cellular areas consist of small cells with highly pleomorphic and hyperchromatic nuclei. Numerous multinucleated giant cells and few xanthomatous cells with foamy cytoplasm were present with no evidence of mitosis or necrosis. These features were suggestive of PXA (WHO grade 2)."
+}

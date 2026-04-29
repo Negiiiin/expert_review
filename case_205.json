@@ -1,0 +1,32 @@
+{
+  "case_id": 205,
+  "images": {
+    "subfig": "case_205_subfig.jpg",
+    "full": "case_205_full.jpg"
+  },
+  "question": "What does the arrow on this CT most likely indicate?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Acute thrombus in the right middle cerebral artery (dense MCA sign)",
+    "B": "Subarachnoid hemorrhage in the Sylvian fissure",
+    "C": "Cortical contusion",
+    "D": "Atherosclerotic vessel wall calcification"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the CT image for location and appearance of the abnormality. This is a noncontrast axial head CT; the arrow points to a focal, relatively linear hyperdensity coursing in the right lateral sulcus region consistent with the expected course of the right middle cerebral artery. The finding is unilateral and follows a vascular distribution rather than being an amorphous parenchymal focus.\n\nNext, I relate these observations to the question, which asks which diagnosis the arrow most likely indicates. I compare the visual features with each option: a subarachnoid hemorrhage in the Sylvian fissure (option B) would appear as hyperdensity filling the fissure space more diffusely rather than a distinct linear intravascular density; the image does not show a diffuse layering of blood throughout the fissure. A cortical contusion (option C) would produce a localized parenchymal abnormality with irregular, nonvascular geometry and often associated edema—this finding instead tracks along a vessel. Atherosclerotic vessel wall calcification (option D) is typically more punctate or curvilinear along the vessel wall and often chronic/multifocal; the appearance here is a single, dense intraluminal line.\n\nThen, I consider which option best matches a single, focal hyperdense line within the expected MCA territory on noncontrast CT. The most consistent interpretation is an intravascular hyperdensity representing an acute thrombus within the right middle cerebral artery.\n\nIn summary, the imaging appearance — a unilateral, linear hyperdensity following the MCA course rather than diffuse fissural blood or parenchymal contusion — supports the diagnosis in option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Noncontrast head computed tomography demonstrates markedly asymmetric density in the distal right middle cerebral artery (arrow) compatible with the dense middle cerebral artery sign",
+  "sub_caption": "Noncontrast head computed tomography demonstrates markedly asymmetric density in the distal right middle cerebral artery (arrow) compatible with the dense middle cerebral artery sign",
+  "image_context": "A 58-year-old woman with a history of chronic obstructive pulmonary disease, hypertension, and smoking presented to the emergency department two hours after the onset of severe left-sided weakness with facial droop, dysarthria, right gaze preference, and weakness. Her initial National Institutes of Health Stroke Scale (NIHSS) was 8 by the tele-neurology exam using the spoke and hub robot. The patient was administered intravenous rtPA (IV-rtPA) and transferred to our high-volume comprehensive stroke center for endovascular stroke therapy. The initial head computerized tomography (CT) demonstrated a dense MCA sign on the right (Figure <xref ref-type=\"fig\" rid=\"cureus-0010-00000002254-i01\">1</xref>).).",
+  "relevant_image_context": "The initial head computed tomography (CT) demonstrated a dense MCA sign on the right."
+}

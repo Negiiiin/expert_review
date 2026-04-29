@@ -1,0 +1,32 @@
+{
+  "case_id": 127,
+  "images": {
+    "subfig": "case_127_subfig.jpg",
+    "full": "case_127_full.jpg"
+  },
+  "question": "A patient has been treated with sirolimus for metastatic disease. After 8 months, restaging imaging demonstrates progression confined to the liver with increased number and size of hepatic lesions and no new extrahepatic sites. Which of the following operative management strategies is most appropriate?",
+  "question_scope": "subfigure",
+  "question_category": "Surgery / operative management",
+  "options": {
+    "A": "Complete hepatic metastasectomy",
+    "B": "Orthotopic liver transplantation",
+    "C": "Percutaneous image-guided ablation",
+    "D": "Change systemic medical therapy",
+    "E": "Hepatic radioembolization"
+  },
+  "ground_truth_answer": "D",
+  "ground_truth_reasoning": "First, I examine the image for the pattern and extent of disease. This coronal contrast CT shows the liver replaced by multiple, variably sized round hypodense lesions occupying a large portion of hepatic parenchyma (numerous small lesions plus several large dominant nodules). On this image there are no obvious extrahepatic metastatic deposits visible, consistent with the question statement that progression is confined to the liver.\n\nNext, I relate what I see to the clinical stem: the patient has been on sirolimus for 8 months and now has clear hepatic progression (increased number and size of lesions) without new extrahepatic disease. The question asks which operative management strategy is most appropriate given this scenario.\n\nThen I consider how each option aligns with those observations. Complete hepatic metastasectomy (A) would require the lesions to be resectable with acceptable residual liver — the image shows diffuse, multifocal, bilobar tumor burden, which argues against the feasibility of a complete surgical clearance. Orthotopic liver transplantation (B) would be an extensive operative approach but the liver is heavily replaced by numerous metastases on imaging, making transplantation an impractical immediate operative solution for widespread intrahepatic progression. Percutaneous image-guided ablation (C) is generally applicable to a small number of limited-size lesions, but here the number and size of lesions visible make comprehensive ablation unlikely to control the overall hepatic burden. Hepatic radioembolization (E) is a liver-directed option for multifocal disease, but the image alone shows very extensive tumor burden and the clinical stem indicates systemic therapy has already failed, so focal or regional procedures are unlikely to be definitive without addressing systemic control.\n\nFinally, tying these observations together: because the patient demonstrates clear progression while on sirolimus (systemic therapy no longer controlling disease) and the liver disease is extensive and not amenable to complete resection or limited ablation, the next appropriate step is to change systemic medical therapy rather than pursue an operative local therapy. Therefore option D is most appropriate.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT abdomen/pelvis with contrast demonstrating worsening of PEComa metastatic liver lesions 8 months after starting sirolimus.",
+  "sub_caption": "CT abdomen/pelvis with contrast demonstrating worsening of PEComa metastatic liver lesions 8 months after starting sirolimus.",
+  "image_context": "Patient continued to do well on Sirolimus for 8 months at which time restaging CT scan showed hepatic metastases increasing in both number and size, with no additional new sites of metastatic disease (<xref rid=\"omaa013f7\" ref-type=\"fig\">Fig. 7</xref>).).",
+  "relevant_image_context": "Patient continued to do well on Sirolimus for 8 months at which time restaging CT scan showed hepatic metastases increasing in both number and size, with no additional new sites of metastatic disease."
+}

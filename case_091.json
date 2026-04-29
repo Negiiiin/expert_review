@@ -1,0 +1,31 @@
+{
+  "case_id": 91,
+  "images": {
+    "subfig": "case_091_subfig.jpg",
+    "full": "case_091_full.jpg"
+  },
+  "question": "The arrow in the image points to which vascular structure?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Posterior communicating artery (PCOM)",
+    "B": "Anterior communicating artery (ACOM)",
+    "C": "Posterior cerebral artery (PCA)",
+    "D": "Basilar artery"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image: this is an angiographic view of the circle of Willis showing both internal carotid arteries and posterior circulation. The arrow points to a short vessel arising from the posterolateral aspect of the internal carotid artery and coursing posteriorly toward the posterior circulation.\n\nNext, I relate this appearance to the question, which asks which vascular structure is indicated by the arrow. I consider each option in turn relative to the observed location and orientation of the vessel.\n\nThe anterior communicating artery (ACOM) would be an anterior, midline connection between the anterior cerebral arteries; the arrowed vessel is not midline or anterior, so B is unlikely. The posterior cerebral artery (PCA) is a larger posterior trunk more distal and lateral in the posterior circulation; the arrowed vessel is a short connector arising from the ICA rather than the PCA trunk, making C unlikely. The basilar artery is a midline, longitudinal vessel formed by vertebral arteries and would appear in the midline posterior fossa, which does not match the lateral short connector seen here, so D is unlikely.\n\nThe arrowed vessel’s location—originating from the posterolateral internal carotid and running posteriorly toward the posterior circulation—matches the expected position of the posterior communicating artery (PCOM). Therefore, the image findings support option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Axial magnetic resonance angiogram demonstrating the scoring system used to quantify the degree of collateral flow through the posterior communicating arteries (PCOM). In this case the right PCOM (arrow) is dominant (score of 2), and the left PCOM is hypoplastic (arrowhead) (score of 1). Absence of PCOM: score of 0.",
+  "sub_caption": "Axial magnetic resonance angiogram demonstrating the scoring system used to quantify the degree of collateral flow through the posterior communicating arteries (PCOM). In this case the right PCOM (arrow) is dominant (score of 2), and the left PCOM is hypoplastic (arrowhead) (score of 1). Absence of PCOM: score of 0.",
+  "image_context": "A score was assigned according to the presence and diameter of PCOMs (<xref ref-type=\"fig\" rid=\"svn-2019-000246f03\">figure 3</xref>): dominant=2 points; hypoplastic=1 point; and absent=0 point. The total score ranged from 0 (ie, no PCOMs) to 4 (ie, two dominant PCOMs), with 0–1 points considered ‘low/poor’ collateral flow and 2–4 points ‘high/good’ collateral flow.): dominant=2 points; hypoplastic=1 point; and absent=0 point. The total score ranged from 0 (ie, no PCOMs) to 4 (ie, two dominant PCOMs), with 0–1 points considered ‘low/poor’ collateral flow and 2–4 points ‘high/good’ collateral flow.",
+  "relevant_image_context": "A score was assigned according to the presence and diameter of PCOMs (figure 3): dominant=2 points; hypoplastic=1 point; and absent=0 point. The total score ranged from 0 (ie, no PCOMs) to 4 (ie, two dominant PCOMs), with 0–1 points considered ‘low/poor’ collateral flow and 2–4 points ‘high/good’ collateral flow."
+}

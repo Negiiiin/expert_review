@@ -1,0 +1,32 @@
+{
+  "case_id": 129,
+  "images": {
+    "subfig": "case_129_subfig.jpg",
+    "full": "case_129_full.jpg"
+  },
+  "question": "What does the arrow indicate on this CT image?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Percutaneous drainage catheter in right psoas",
+    "B": "Ureteral stent",
+    "C": "Iliac arterial stent",
+    "D": "Surgical clip"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image to localize the object marked by the arrow. The arrow points to a linear, tubular, relatively hyperdense structure lying within the substance of the right psoas muscle (the ovoid muscle lateral to the vertebral body on the right side).\n\nNext, I relate that appearance and location to the question asking what the arrow indicates. The object is long and tubular in shape and follows a course inside the psoas muscle belly rather than being a tiny focal metallic density or confined to a vascular lumen.\n\nThen I compare that observation to the answer choices:\n- A (percutaneous drainage catheter in right psoas) matches the image: a catheter appears as a linear tubular device coursing within the psoas muscle.\n- B (ureteral stent) would be expected along the ureteral path adjacent to the collecting system and not centered within the psoas muscle on this axial slice; the structure here is intramuscular.\n- C (iliac arterial stent) would lie within an arterial lumen near the iliac vessels, which is a different location and typically shows an intravascular stent configuration, not a device running through muscle.\n- D (surgical clip) would appear as a small, discrete metallic focus rather than a long tubular structure.\n\nFinally, because the object's shape (tubular) and intramuscular location in the right psoas most closely match a percutaneous drainage catheter, the best answer is A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "CT abdomen without contrast showing resolution of the fluid collection within the right psoas muscle after placement of a second catheter (blue arrow).",
+  "sub_caption": "CT abdomen without contrast showing resolution of the fluid collection within the right psoas muscle after placement of a second catheter (blue arrow).",
+  "image_context": "It was at this point that post-procedure imaging showed collapsed right psoas abscess with no residual fluid accumulation (Figure <xref rid=\"cureus-0013-00000018715-i03\" ref-type=\"fig\">3</xref>).).",
+  "relevant_image_context": "It was at this point that post-procedure imaging showed collapsed right psoas abscess with no residual fluid accumulation (Figure 3)."
+}

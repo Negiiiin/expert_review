@@ -1,0 +1,32 @@
+{
+  "case_id": 350,
+  "images": {
+    "subfig": "case_350_subfig.jpg",
+    "full": "case_350_full.jpg"
+  },
+  "question": "A 4-year-old boy recently returned from travel and underwent extraction of multiple scalp lesions. Several days later he developed shortness of breath and chest imaging demonstrates a pleural effusion. Which complication most likely explains this new presentation?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Eosinophilic pleural effusion from parasitic infection",
+    "B": "Bacterial empyema",
+    "C": "Drug-induced hypersensitivity pleuritis",
+    "D": "Pulmonary embolism with infarction",
+    "E": "Congestive heart failure (transudative effusion)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image: a close-up of the scalp shows a small erythematous, raised nodule with a central punctum or pore and surrounding crusted/serous material. This appearance is consistent with localized scalp lesions that were plausibly removed, as the question states the child had multiple scalp lesions extracted after travel.\n\nNext, I relate those findings to the new clinical problem the question poses: the child developed shortness of breath and imaging shows a pleural effusion several days after lesion extraction. The key diagnostic link to seek is which listed complication can connect a recent travel-associated scalp lesion extraction to a new pleural effusion.\n\nThen I consider how each option aligns with the image and timeline. Option A (eosinophilic pleural effusion from parasitic infection) directly links a parasitic skin process — suggested by the focal lesion with a central pore and the travel history — to an inflammatory pleural effusion characterized by eosinophils. This provides a plausible unifying explanation that connects the skin findings and the new chest effusion soon after extraction.\n\nBy contrast, the other options lack supporting features in the provided information: bacterial empyema would usually present with systemic or pulmonary infectious signs and purulent pleural fluid; drug-induced hypersensitivity pleuritis would require a recent new medication exposure not mentioned; pulmonary embolism with infarction is less directly related to recent scalp lesion extraction and is uncommon in this age without other risk factors; congestive heart failure causing a transudative effusion would be unexpected in a previously well 4-year-old and does not link to the recent scalp procedure.\n\nFinally, given the image evidence of likely parasitic cutaneous lesions plus the temporal association with development of a pleural effusion, the option that most directly and plausibly connects these findings is an eosinophilic pleural effusion secondary to parasitic infection.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Dermatology",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "skin lesion"
+  ],
+  "caption": "Multiple botfly furuncles found on the scalp of a 4-year-old boy.",
+  "sub_caption": "Multiple botfly furuncles found on the scalp of a 4-year-old boy.",
+  "image_context": "Diagnosis relies on the combination of the proper identification of the lesion and knowledge of the patient's recent travel history. A furuncular lesion that releases bloody, nonpus, discharge from a central pore is indicative of furuncular cutaneous myiasis. Multiple furuncles may be found (<xref rid=\"gr4_lrg\" ref-type=\"fig\">Fig 4</xref>\n). Dermoscopy, which can be used to help identify \n). Dermoscopy, which can be used to help identify D hominis within the lesion, may be an additional useful tool for diagnosis.62 The posterior end of the larvae is visualized as “creamy-white bodies,” and respiratory spiracles resemble “birds’ legs with digitated feet.” The peripheral skin may be hypopigmented and has dilated capillaries.63 If desiring the aid of imaging in diagnosis, ultrasound with or without color Doppler is recommended.64 In addition, myiasis can stimulate a hypereosinophilic immune response resulting in pleural effusions.65\nFigure 4Multiple botfly furuncles found on the scalp of a 4-year-old boy.Figure 4",
+  "relevant_image_context": "Diagnosis relies on the combination of the proper identification of the lesion and knowledge of the patient's recent travel history. A furuncular lesion that releases bloody, nonpus, discharge from a central pore is indicative of furuncular cutaneous myiasis. Multiple furuncles may be found (Fig 4). Dermoscopy, which can be used to help identify D hominis within the lesion, may be an additional useful tool for diagnosis.62 The posterior end of the larvae is visualized as “creamy-white bodies,” and respiratory spiracles resemble “birds’ legs with digitated feet.” The peripheral skin may be hypopigmented and has dilated capillaries.63 If desiring the aid of imaging in diagnosis, ultrasound with or without color Doppler is recommended.64 In addition, myiasis can stimulate a hypereosinophilic immune response resulting in pleural effusions.65\n\nFigure 4Multiple botfly furuncles found on the scalp of a 4-year-old boy."
+}

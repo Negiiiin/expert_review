@@ -1,0 +1,31 @@
+{
+  "case_id": 206,
+  "images": {
+    "subfig": "case_206_subfig.jpg",
+    "full": "case_206_full.jpg"
+  },
+  "question": "Based on this image, which hemodynamic mechanism most likely produced a localized high-velocity flow jet seen on echocardiography?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Flow separation with turbulent eddy formation",
+    "B": "High-pressure left-to-right shunt",
+    "C": "Accelerated flow through a focal stenosis",
+    "D": "Backward jet from valvular regurgitation"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for the relevant anatomy and lesion. The axial CT shows the aortic arch and proximal descending aorta with a focal convex outpouching along the aortic isthmus, marked by arrows — a localized diverticular bulge rather than a narrowed lumen.\n\nNext, I relate those findings to the question, which asks which hemodynamic mechanism most likely produced a localized high-velocity flow jet seen on echocardiography. The imaging finding to explain is a focal structural irregularity on the aortic wall that could disturb local blood flow.\n\nThen, I consider how each option aligns with the observed anatomy. Option A (flow separation with turbulent eddy formation) fits because a sudden change in vessel contour (a focal outpouching) commonly produces local flow disturbance: the main flow stream can separate at the edge of the bulge and create localized high-velocity jets and turbulent eddies adjacent to the diverticulum. Option C (accelerated flow through a focal stenosis) would require a discrete narrowing of the lumen producing increased velocity; the image shows an outward bulge rather than a narrowed segment, so this mechanism is not supported by the anatomy. Option B (high-pressure left-to-right shunt) implies an abnormal communicating defect causing directional shunt flow, which is not evident on this aortic axial image. Option D (backward jet from valvular regurgitation) would originate at a valve and be directed retrograde from that valve; the localized aortic-wall outpouching seen here does not indicate valvular origin.\n\nTherefore, given the visible focal diverticular bulge that would disturb laminar flow and produce separation and eddies, the mechanism that best explains a localized high-velocity jet on echocardiography is flow separation with turbulent eddy formation.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT angiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial CTA showing the aortic ductus diverticulum as a focal convex bulge (arrows) along the anterior-inferior aspect of the aortic isthmus.",
+  "sub_caption": "Axial CTA showing the aortic ductus diverticulum as a focal convex bulge (arrows) along the anterior-inferior aspect of the aortic isthmus.",
+  "image_context": "A CTA was performed, which ruled out an aortic dissection. The CTA showed an incidental aortic ductus diverticulum at the aortic isthmus creating an irregular surface (<xref rid=\"4183_Fig2\" ref-type=\"fig\">Fig. 2</xref>) that likely produced a flow vortex that gave rise to the flow jet seen on TTE. The patient was assured that this is benign finding by itself, and she did not need further investigations or follow-up for this specific finding, so no intervention was done; the patient remains asymptomatic.) that likely produced a flow vortex that gave rise to the flow jet seen on TTE. The patient was assured that this is benign finding by itself, and she did not need further investigations or follow-up for this specific finding, so no intervention was done; the patient remains asymptomatic.",
+  "relevant_image_context": "A CTA was performed, which ruled out an aortic dissection. The CTA showed an incidental aortic ductus diverticulum at the aortic isthmus creating an irregular surface that likely produced a flow vortex that gave rise to the flow jet seen on TTE. The patient was assured that this is benign finding by itself, and she did not need further investigations or follow-up for this specific finding, so no intervention was done; the patient remains asymptomatic."
+}

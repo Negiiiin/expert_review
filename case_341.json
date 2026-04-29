@@ -1,0 +1,31 @@
+{
+  "case_id": 341,
+  "images": {
+    "subfig": "case_341_subfig.jpg",
+    "full": "case_341_full.jpg"
+  },
+  "question": "A patient receiving rivaroxaban for acute pulmonary embolism undergoes CT pulmonary angiography to evaluate for recurrence. The clinical team is concerned about possible anticoagulation-related complications and asks how to manage anticoagulation given the imaging. Based on this image, which of the following is the most appropriate immediate action regarding anticoagulation?",
+  "question_scope": "subfigure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Continue rivaroxaban without change",
+    "B": "Temporarily hold anticoagulation and observe",
+    "C": "Stop rivaroxaban and administer reversal therapy",
+    "D": "Switch to intravenous unfractionated heparin for titration"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the axial CT image of the chest. I see a large fluid collection layering in the pleural space on one side and an adjacent, relatively hyperdense collection in the mediastinal region next to the heart and great vessels. The hyperdensity within the mediastinum and the high-attenuation component of the pleural collection are most consistent with blood/hematoma rather than simple clear effusion.\n\nNext, I relate these findings to the clinical question: the patient is on rivaroxaban and the team is concerned about anticoagulation-related complications. The image demonstrates imaging evidence of thoracic bleeding (mediastinal hematoma with associated pleural blood), which represents a significant hemorrhagic complication while anticoagulated.\n\nThen I consider the available management options against those observations. Continuing the oral anticoagulant (option A) would risk progression of the apparent bleeding. Simply holding anticoagulation and observing (option B) might be insufficient if active or significant bleeding is present. Switching to intravenous heparin for titration (option D) maintains anticoagulation and does not address the immediate need to reverse anticoagulant effect. Stopping the anticoagulant and administering reversal therapy (option C) directly addresses the imaging evidence of significant thoracic hemorrhage.\n\nTherefore, because the CT shows likely mediastinal and pleural bleeding while the patient is anticoagulated, the most appropriate immediate action is to stop rivaroxaban and give reversal therapy to control the hemorrhage.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Chest CT reveals right‐side pleural effusion and mediastinal hematoma.",
+  "sub_caption": "Chest CT reveals right‐side pleural effusion and mediastinal hematoma.",
+  "image_context": "The differential diagnosis on admission was PE recurrence; pleural effusion is not related to PE, so the team continued rivaroxaban and CT pulmonary angiogram (CTPA) showed left lung lower lobe segmental pulmonary arterial thromboembolism and moderate right‐side pleural effusion associated with atelectatic changes (Figure <xref rid=\"CCR3-11-e8333-g004\" ref-type=\"fig\">1</xref>). Further evaluation showed moderate pleural effusion on the right side. Then the repeated CTPA did not show any new changes suggestive of recurrent PE. The pleural effusion was minimal to mild severity compared to the previous X‐ray.). Further evaluation showed moderate pleural effusion on the right side. Then the repeated CTPA did not show any new changes suggestive of recurrent PE. The pleural effusion was minimal to mild severity compared to the previous X‐ray.",
+  "relevant_image_context": "The differential diagnosis on admission was PE recurrence; pleural effusion is not related to PE, so the team continued rivaroxaban and CT pulmonary angiogram (CTPA) showed left lung lower lobe segmental pulmonary arterial thromboembolism and moderate right-side pleural effusion associated with atelectatic changes (Figure 1). Further evaluation showed moderate pleural effusion on the right side. Then the repeated CTPA did not show any new changes suggestive of recurrent PE. The pleural effusion was minimal to mild severity compared to the previous X-ray."
+}

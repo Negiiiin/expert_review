@@ -1,0 +1,31 @@
+{
+  "case_id": 128,
+  "images": {
+    "subfig": "case_128_subfig.jpg",
+    "full": "case_128_full.jpg"
+  },
+  "question": "Based on this angiographic image, which diagnosis is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Spontaneous coronary artery dissection (LCX)",
+    "B": "Atherosclerotic plaque rupture with thrombosis",
+    "C": "Distal coronary embolism",
+    "D": "Coronary artery vasospasm"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the angiographic image for visible abnormalities. The left coronary system is labeled (LAD, LCX, D1). A white arrow marks a focal linear filling defect in the distal LCX, and two white arrowheads mark a region more distally where the vessel abruptly lacks contrast opacification (an abrupt cutoff/occlusion).\n\nNext, I relate these findings to the question, which asks which diagnosis best fits the angiographic appearance from the given options.\n\nThen, I consider the imaging features in relation to each option. The focal linear defect at the site indicated by the arrow looks like a flap or intraluminal linear filling defect with downstream loss of flow, which is characteristic of an intimal disruption leading to distal occlusion. There is no obvious diffuse atherosclerotic narrowing or multiple calcified plaques visible in this image to suggest widespread plaque rupture with overlying thrombus as the primary lesion. The pattern is also not a single sudden cutoff without any proximal lesion (which would be more typical for an isolated distal embolus), and it does not show the diffuse, smooth, reversible narrowing expected with vasospasm.\n\nFinally, tying the observations together: a focal linear intraluminal defect in the distal LCX with consequent distal occlusion on this angiogram most closely corresponds to spontaneous coronary artery dissection of the LCX.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "coronary angiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ambiguous"
+  ],
+  "caption": "Second Angiogram of Patient 1: Type I SCAD of LCXThe second angiogram of Patient 1 shows type I SCAD of the distal portion of the LCX (white arrow) with subsequent occlusion (white arrowheads). Abbreviations as in Figure 1.",
+  "sub_caption": "Second Angiogram of Patient 1: Type I SCAD of LCXThe second angiogram of Patient 1 shows type I SCAD of the distal portion of the LCX (white arrow) with subsequent occlusion (white arrowheads). Abbreviations as in Figure 1.",
+  "image_context": "During admission, the patient suffered repeated mild attacks of angina, despite declining troponin levels. TTE on the third day showed dyskinesia in the basal and mid portions of the inferolateral and inferior walls. On day 5, Q-waves formed in the inferior leads, suggesting ischemia in the LCX or RCA territory. Due to these evolving signs of ischemia on ECG and TTE, angiography was repeated on the seventh day, revealing type I spontaneous coronary artery dissection (SCAD) of the LCX (<xref rid=\"gr4\" ref-type=\"fig\">Figure 4</xref>) with subsequent occlusion and type IIb SCAD of the RCA () with subsequent occlusion and type IIb SCAD of the RCA (<xref rid=\"gr5\" ref-type=\"fig\">Figure 5</xref>) with partial occlusion of the distal portion. The caliber of the distal portion of the LAD () with partial occlusion of the distal portion. The caliber of the distal portion of the LAD (<xref rid=\"gr6\" ref-type=\"fig\">Figure 6</xref>) was normal. Optical coherence tomography and intravascular ultrasonography were not attempted because of the risk that dissection would worsen with subsequent occlusion. Computed tomography angiography of the cerebral blood vessels showed no signs of fibromuscular dysplasia (FMD). Computed tomography angiography of the renal blood vessels was not performed.) was normal. Optical coherence tomography and intravascular ultrasonography were not attempted because of the risk that dissection would worsen with subsequent occlusion. Computed tomography angiography of the cerebral blood vessels showed no signs of fibromuscular dysplasia (FMD). Computed tomography angiography of the renal blood vessels was not performed.Figure 4Second Angiogram of Patient 1: Type I SCAD of LCXThe second angiogram of Patient 1 shows type I SCAD of the distal portion of the LCX (white arrow) with subsequent occlusion (white arrowheads). Abbreviations as in <xref rid=\"gr1\" ref-type=\"fig\">Figure 1</xref>..Figure 5Second Angiogram of Patient 1: Type IIb SCAD of RCAThe second angiogram of Patient 1 shows type IIb SCAD of the distal portion of the RCA with partial occlusion. (white arrowheads) Abbreviations as in <xref rid=\"gr1\" ref-type=\"fig\">Figures 1</xref> and  and <xref rid=\"gr2\" ref-type=\"fig\">2</xref>. .. .Figure 6Second Angiogram of Patient 1: No SCAD of LADThe second angiogram of Patient 1 shows normal caliber of the distal part of the LAD (white arrows). Abbreviations as in <xref rid=\"gr1\" ref-type=\"fig\">Figure 1</xref>..",
+  "relevant_image_context": "Figure 4 Second Angiogram of Patient 1: Type I SCAD of LCX The second angiogram of Patient 1 shows type I SCAD of the distal portion of the LCX (white arrow) with subsequent occlusion (white arrowheads). Abbreviations as in Figure 1."
+}

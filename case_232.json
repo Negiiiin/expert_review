@@ -1,0 +1,31 @@
+{
+  "case_id": 232,
+  "images": {
+    "subfig": "case_232_subfig.jpg",
+    "full": "case_232_full.jpg"
+  },
+  "question": "Which region of the displayed image best localizes the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper right quadrant of image",
+    "B": "Upper left quadrant of image",
+    "C": "Lower right quadrant of image",
+    "D": "Lower left quadrant of image"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the coronal CT image for the site of abnormality. I see a large, rounded soft-tissue mass that occupies the upper portion of the abdomen in the image and is shifted toward the viewer’s right side. A yellow arrow directly marks the lateral margin of this mass.\n\nNext, I relate what I see to the question, which asks which region of the displayed image best localizes the finding. The mass’s center and greatest bulk lie in the upper half of the image and on the right-hand side of the image field.\n\nThen, I compare that observation to the available answer choices. The description “upper right quadrant of image” exactly matches the visible location of the marked mass.\n\nTherefore, the lesion is best localized to the upper right quadrant of the displayed image.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Coronal CT image of primary Ewing sarcoma of the left kidney measuring 25 cm x 18 cm x 18 cm (arrow)CT: computed tomography",
+  "sub_caption": "Coronal CT image of primary Ewing sarcoma of the left kidney measuring 25 cm x 18 cm x 18 cm (arrow)CT: computed tomography",
+  "image_context": "A CT scan was performed, which showed a large heterogenous non-calcific left renal exophytic mass measuring approximately 25 x 18 x 18 cm (Figures <xref rid=\"cureus-0016-00000052970-i01\" ref-type=\"fig\">1</xref>, , <xref rid=\"cureus-0016-00000052970-i02\" ref-type=\"fig\">2</xref>). Retroperitoneal adenopathies and multiple bilateral pulmonary nodules were also noted with the largest located in the posterior basal segment of the right lower lobe measuring 32 x 31 mm. This raised suspicion of a left renal cell carcinoma (RCC) prompting further workup.). Retroperitoneal adenopathies and multiple bilateral pulmonary nodules were also noted with the largest located in the posterior basal segment of the right lower lobe measuring 32 x 31 mm. This raised suspicion of a left renal cell carcinoma (RCC) prompting further workup.",
+  "relevant_image_context": "A CT scan was performed, which showed a large heterogenous non-calcific left renal exophytic mass measuring approximately 25 x 18 x 18 cm. Retroperitoneal adenopathies and multiple bilateral pulmonary nodules were also noted with the largest located in the posterior basal segment of the right lower lobe measuring 32 x 31 mm. This raised suspicion of a left renal cell carcinoma (RCC) prompting further workup. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

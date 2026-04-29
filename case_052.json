@@ -1,0 +1,29 @@
+{
+  "case_id": 52,
+  "images": {
+    "subfig": "case_052_subfig.jpg",
+    "full": "case_052_full.jpg"
+  },
+  "question": "Based on this image, is acute pulmonary embolism the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "True",
+    "B": "False"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the CT image for signs of intravascular thrombus and for right heart size/contour. On this contrast-enhanced axial image, there is a low-attenuation filling defect within the right-sided pulmonary arterial tree that is surrounded by contrast, indicating an intraluminal clot in the right pulmonary artery branch(es).\n\nNext, I assess cardiac morphology visible on this slice. The right-sided cardiac chamber appears relatively enlarged compared with the left ventricle, suggesting right ventricular dilation/strain on imaging.\n\nThen I relate these imaging findings to the question, which also states the patient has impaired right ventricular function and an elevated BNP (299 pg/mL). Those clinical data are concordant with right heart strain, which can be caused by an acute, large pulmonary arterial embolus.\n\nFinally, I consider whether the image and clinical data together support acute pulmonary embolism as the most likely diagnosis. The presence of a filling defect in the pulmonary artery on contrast CT plus imaging and laboratory evidence of right heart strain is most consistent with an acute pulmonary embolism.\n\nTherefore, the image and provided clinical information support the conclusion that acute pulmonary embolism is the most likely diagnosis.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Computed tomography (CT) scan with contrast showing predominantly right-sided pulmonary embolism and a left-sided status with post-upper lobe lobectomy.",
+  "sub_caption": "Computed tomography (CT) scan with contrast showing predominantly right-sided pulmonary embolism and a left-sided status with post-upper lobe lobectomy.",
+  "image_context": "The patient underwent uncomplicated minimally invasive (left upper) lobectomy and mediastinal lymphadenectomy in the setting of standard video-assisted thoracic surgery with three ports. The final histopathological diagnosis confirmed the diagnosis and showed a barely differentiated squamous cell carcinoma (G3, pT2a, pN0) according to the staging system by the Union for International Cancer Control. The patient returned to standard postoperative care and only slight hoarseness as a possible sign of recurrent nerve paralysis was recognized. On the second postoperative day, the patient developed syncope, dyspnea, and decrease of saturation to 73%. A computed tomography (CT) scan revealed a large right-sided PE including the right upper and middle pulmonary arteries, with additional thrombotic material in the right lower pulmonary artery (\n<xref rid=\"10-1055-s-0043-1762551-i1020220451crt-1\" ref-type=\"fig\">Fig. 1</xref>\n). Additionally, we observed impaired RV function and elevated brain natriuretic peptide of 299 pg/mL.\n\n). Additionally, we observed impaired RV function and elevated brain natriuretic peptide of 299 pg/mL.",
+  "relevant_image_context": "A computed tomography (CT) scan revealed a large right-sided PE including the right upper and middle pulmonary arteries, with additional thrombotic material in the right lower pulmonary artery. Additionally, we observed impaired RV function and elevated brain natriuretic peptide of 299 pg/mL."
+}

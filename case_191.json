@@ -1,0 +1,32 @@
+{
+  "case_id": 191,
+  "images": {
+    "subfig": "case_191_subfig.jpg",
+    "full": "case_191_full.jpg"
+  },
+  "question": "A 25-year-old woman presents after blunt facial trauma. Noncontrast CT of the head and face was obtained to evaluate possible fractures. Based on the imaging, which clinical symptom or sign would be most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Malocclusion (altered bite)",
+    "B": "Ipsilateral conductive hearing loss",
+    "C": "Facial nerve paralysis",
+    "D": "Numbness of the lower lip",
+    "E": "Inability to open mouth (trismus)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial noncontrast CT through the lower face. The image (and its visible label) shows a left mandibular fracture with displacement/dislocation at the condylar/ramus region (arrowed), confirming a displaced left mandible injury.\n\nNext, I relate that finding to the clinical question asking which symptom is most likely. A displaced mandibular fracture that alters the position of the mandibular condyle/ramus will change the relationship of the dental arches and jaw alignment, which directly produces malocclusion (an altered bite).\n\nThen I consider the other options in light of the image. Ipsilateral conductive hearing loss would require obvious involvement of the middle ear/ossicles or a temporal bone fracture; the tympanic cavities and mastoid air cells on this slice appear aerated and there is no clear middle-ear destruction to suggest conductive loss. Facial nerve paralysis is not indicated on this CT slice because there is no visible fracture through the facial canal region. Numbness of the lower lip would be expected with a fracture through the body near the mental foramen or inferior alveolar canal; the visible fracture is at the condylar/ramus, not the mental region, so lower-lip numbness is less likely. Trismus (inability to open the mouth) can occur with condylar injuries but the most direct and specific consequence of the displaced mandible seen here is altered occlusion.\n\nTherefore, the imaging most strongly supports malocclusion as the expected clinical sign.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "A decompression effect by the bony fracture. (A) The clear left middle ear space is noted. A soft tissue density is mainly shown in the temporomandibular joint area (white arrow). (B) The soft tissue density (white arrow) only fills the middle ear space.Lt. = left, Rt. = right.",
+  "sub_caption": "Lt. mandible fracture and dislocation",
+  "image_context": "When a TB fracture occurs, the tympanic membrane and mastoid cavities are filled with a bloody discharge; this is called hemotympanum. Similarly, discharge fill of the tympanic cavity is seen in acute otitis media (AOM). In severe cases of AOM, facial palsy and vertigo can occur.20 For the same reason as cases of AOM, patients with a TB fracture may only experience either delayed facial palsy or posttraumatic vertigo. <xref rid=\"jkms-38-e215-g002\" ref-type=\"fig\">Fig. 2A</xref> shows an axial image of a patient with fracture and dislocation of the mandible, as well as a TB fracture; blood discharge fills the temporomandibular joint area, but the tympanic cavity remains relatively well-aerated.  shows an axial image of a patient with fracture and dislocation of the mandible, as well as a TB fracture; blood discharge fills the temporomandibular joint area, but the tympanic cavity remains relatively well-aerated. <xref rid=\"jkms-38-e215-g002\" ref-type=\"fig\">Fig. 2B</xref>, on the other hand, shows a soft tissue lesion filling mainly the tympanic cavity and external auditory canal; this patient actually experienced posttraumatic vertigo. One more hypothesis we would like to suggest is a decompression effect by the bony fracture. Similar to “compartment syndrome,” when the internal pressure becomes elevated due to the discharge caused by trauma, it could damage the surrounding tissue. If only a TB fracture is present, then the high internal pressure caused by bleeding should be fully covered only by tympanic cavity, similar to that shown in , on the other hand, shows a soft tissue lesion filling mainly the tympanic cavity and external auditory canal; this patient actually experienced posttraumatic vertigo. One more hypothesis we would like to suggest is a decompression effect by the bony fracture. Similar to “compartment syndrome,” when the internal pressure becomes elevated due to the discharge caused by trauma, it could damage the surrounding tissue. If only a TB fracture is present, then the high internal pressure caused by bleeding should be fully covered only by tympanic cavity, similar to that shown in <xref rid=\"jkms-38-e215-g002\" ref-type=\"fig\">Fig. 2B</xref>. However, when FB fractures occur together with a TB fracture, the pressure may be dispersed, as shown in . However, when FB fractures occur together with a TB fracture, the pressure may be dispersed, as shown in <xref rid=\"jkms-38-e215-g002\" ref-type=\"fig\">Fig. 2A</xref>, in which there is no internal pressure, and the risk of facial palsy and posttraumatic vertigo would be low. It might be another hypothesis to explain the results; we acknowledge that the data was insufficient to fully prove the effect. However, this should be taken into consideration for future studies., in which there is no internal pressure, and the risk of facial palsy and posttraumatic vertigo would be low. It might be another hypothesis to explain the results; we acknowledge that the data was insufficient to fully prove the effect. However, this should be taken into consideration for future studies.",
+  "relevant_image_context": "Fig. 2A shows an axial image of a patient with fracture and dislocation of the mandible, as well as a TB fracture; blood discharge fills the temporomandibular joint area, but the tympanic cavity remains relatively well-aerated. A F/25, Lt. temporal bone fracture with Lt. mandible fracture and dislocation."
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": 288,
+  "images": {
+    "subfig": "case_288_subfig.jpg",
+    "full": "case_288_full.jpg"
+  },
+  "question": "Based on this image, which diagnosis is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Spinal dural arteriovenous fistula",
+    "B": "Intramedullary neoplasm",
+    "C": "Transverse myelitis",
+    "D": "Epidural venous thrombosis/venous engorgement"
+  },
+  "ground_truth_answer": "D",
+  "ground_truth_reasoning": "First, I examine the image: this is a sagittal T2-weighted MRI of the lumbosacral spine including the distal cord/conus. I note multiple tubular/serpiginous signal abnormalities in the posterior epidural space extending over several levels, which indent the dorsal thecal sac. The distal cord/conus shows a mild, nonfocal T2 hyperintensity but no clear expansile intramedullary mass.\n\nNext, I relate these findings to the question, which asks which diagnosis best fits the image. The predominant abnormality visible is enlargement of epidural vascular structures posterior to the thecal sac with secondary mass effect on the CSF space and mild cord T2 change.\n\nThen I consider how each option aligns with those observations. An intramedullary neoplasm would be expected to produce a focal, expansile intrinsic cord lesion rather than prominent posterior epidural vascular structures. Transverse myelitis typically presents as a longitudinal T2 hyperintense signal within the cord without marked epidural vessel enlargement. A spinal dural arteriovenous fistula can produce vascular serpiginous flow-voids and cord signal change, but the image shows prominent epidural venous enlargement compressing the thecal sac, which is most directly explained by engorged or thrombosed epidural veins.\n\nFinally, tying the image findings to the options: the visible dilated epidural venous plexus with secondary thecal sac compression and mild cord T2 signal is most consistent with epidural venous engorgement/thrombosis.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Sagittal T2-weighted MRI image showing regression of the conus medullaris lesion and the engorged epidural vessels presenting significant evidence suggesting DVT.",
+  "sub_caption": "Sagittal T2-weighted MRI image showing regression of the conus medullaris lesion and the engorged epidural vessels presenting significant evidence suggesting DVT.",
+  "image_context": "The electrophysiologic studies (electromyography and nerve conduction studies) were performed at admission and were reported normal. Because of the patient’s condition, an inferior vena cava filter was inserted to prevent pulmonary embolism and avoid further complications. The patient received multiple rounds of intravenous immunoglobulins based on the initial differential diagnosis. However, her condition continued to deteriorate. One month after admission, a repeat whole-spine MRI showed improvement of the intramedullary lesions and epidural venous plexus engorgement (<xref ref-type=\"fig\" rid=\"amjcaserep-19-694-g004\">Figures 4</xref>, , <xref ref-type=\"fig\" rid=\"amjcaserep-19-694-g005\">5</xref>). No evidence of an arteriovenous malformation or fistula (AVM/AVF) was detected on spinal MRI, which was confirmed by angiography. The characteristic radiological pattern on MRI raised the possibility of epidural venous engorgement. Treatment with anticoagulants was continued and endovascular stenting of the thrombosed veins was considered. Unfortunately, 4 weeks after admission, she developed hospital-acquired pneumonia and acute respiratory distress syndrome. Resuscitative efforts were initiated but proved to be futile.). No evidence of an arteriovenous malformation or fistula (AVM/AVF) was detected on spinal MRI, which was confirmed by angiography. The characteristic radiological pattern on MRI raised the possibility of epidural venous engorgement. Treatment with anticoagulants was continued and endovascular stenting of the thrombosed veins was considered. Unfortunately, 4 weeks after admission, she developed hospital-acquired pneumonia and acute respiratory distress syndrome. Resuscitative efforts were initiated but proved to be futile.",
+  "relevant_image_context": "The electrophysiologic studies (electromyography and nerve conduction studies) were performed at admission and were reported normal. Because of the patient’s condition, an inferior vena cava filter was inserted to prevent pulmonary embolism and avoid further complications. The patient received multiple rounds of intravenous immunoglobulins based on the initial differential diagnosis. However, her condition continued to deteriorate. One month after admission, a repeat whole-spine MRI showed improvement of the intramedullary lesions and epidural venous plexus engorgement. No evidence of an arteriovenous malformation or fistula (AVM/AVF) was detected on spinal MRI, which was confirmed by angiography. The characteristic radiological pattern on MRI raised the possibility of epidural venous engorgement. Treatment with anticoagulants was continued and endovascular stenting of the thrombosed veins was considered. Unfortunately, 4 weeks after admission, she developed hospital-acquired pneumonia and acute respiratory distress syndrome. Resuscitative efforts were initiated but proved to be futile. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

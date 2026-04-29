@@ -1,0 +1,32 @@
+{
+  "case_id": 343,
+  "images": {
+    "subfig": "case_343_subfig.jpg",
+    "full": "case_343_full.jpg"
+  },
+  "question": "A patient is evaluated for subacute neurologic symptoms. Laboratory testing showed normal blood counts, an elevated ESR, a negative Mantoux test, and a normal chest radiograph; brain MRI was obtained. Based solely on the imaging, which clinical sign would be most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Upward vertical gaze palsy",
+    "B": "Ipsilateral limb ataxia",
+    "C": "Oculomotor nerve palsy with ptosis",
+    "D": "Contralateral hemiparesis",
+    "E": "Expressive (Broca) aphasia"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for lesion location and characteristics. The coronal post-contrast brain MRI shows a single, well-defined ring-enhancing lesion centered in the posterior (dorsal) midbrain at the midline (yellow arrow), with a surrounding region of abnormal signal that is most consistent with local edema extending into adjacent dorsal brainstem structures.\n\nNext, I relate what I see to the clinical question, which asks which sign would be most likely based solely on the imaging. The lesion is dorsal and midline within the midbrain rather than ventral, lateral, or cortical.\n\nThen, I consider how each option lines up with that anatomic location. Upward vertical gaze function is mediated by dorsal midbrain structures (tectal/posterior midbrain region); a lesion in this exact dorsal midbrain location would be expected to impair upward gaze. Ipsilateral limb ataxia would require primary involvement of the cerebellum or cerebellar peduncles, which are not the main site of this lesion. Oculomotor (III) nerve palsy with ptosis usually results from damage to the oculomotor nerve fascicles or nucleus located more ventrally/laterally in the midbrain, not from a dorsally centered lesion. Contralateral hemiparesis would reflect corticospinal tract (ventral cerebral peduncle) involvement, also not matching this dorsal midbrain lesion. Expressive (Broca) aphasia localizes to the dominant frontal cortex and is unrelated to a focal dorsal midbrain lesion.\n\nTherefore, based on the lesion’s dorsal midbrain location and its likely effect on vertical gaze centers, the most consistent clinical sign from the choices provided is impaired upward vertical gaze.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Magnetic resonance imaging of brain (T1-weighted image; contrast-enhanced) showing single ring-enhancing lesion (yellow arrow) in the dorsal part of the midbrain with significant perifocal edema in adjacent part of brainstem, right cerebellar peduncle, adjacent thalamocortical tract, and periventricular region",
+  "sub_caption": "Magnetic resonance imaging of brain (T1-weighted image; contrast-enhanced) showing single ring-enhancing lesion (yellow arrow) in the dorsal part of the midbrain with significant perifocal edema in adjacent part of brainstem, right cerebellar peduncle, adjacent thalamocortical tract, and periventricular region",
+  "image_context": "Investigations revealed normal blood counts and raised erythrocyte sedimentation rate. Mantoux test was negative and chest radiograph was normal. Magnetic resonance imaging (MRI) of the brain revealed single ring-like enhancing lesion in the dorsal part of the midbrain with significant perifocal edema in adjacent parts of the brainstem, right cerebellar peduncle, adjacent thalamocortical tract, and periventricular region [<xref ref-type=\"fig\" rid=\"JNRP-8-129-g002\">Figure 2</xref>]. MRS at the site of the lesion showed increased lipid peak, decreased N-acetylaspartate (NAA) peak with increased choline/creatinine ratio, suggestive of tuberculoma []. MRS at the site of the lesion showed increased lipid peak, decreased N-acetylaspartate (NAA) peak with increased choline/creatinine ratio, suggestive of tuberculoma [<xref ref-type=\"fig\" rid=\"JNRP-8-129-g003\">Figure 3</xref>].].",
+  "relevant_image_context": "Investigations revealed normal blood counts and raised erythrocyte sedimentation rate. Mantoux test was negative and chest radiograph was normal. Magnetic resonance imaging (MRI) of the brain revealed single ring-like enhancing lesion in the dorsal part of the midbrain with significant perifocal edema in adjacent parts of the brainstem, right cerebellar peduncle, adjacent thalamocortical tract, and periventricular region [Figure 2]."
+}

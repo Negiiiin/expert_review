@@ -1,0 +1,31 @@
+{
+  "case_id": 245,
+  "images": {
+    "subfig": "case_245_subfig.jpg",
+    "full": "case_245_full.jpg"
+  },
+  "question": "Based on this image, which of the following best describes the predominant imaging pattern?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Bilateral multifocal ground-glass opacities",
+    "B": "Lobar consolidation with air bronchograms",
+    "C": "Multiple pulmonary nodules",
+    "D": "Loculated pleural effusion"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial chest CT image in a lung window to identify the predominant parenchymal pattern. I see multiple patchy, hazy areas of increased attenuation in both lungs; these areas are not dense and the underlying bronchovascular markings remain visible through them, which is characteristic of ground-glass opacity.\n\nNext, I relate these findings to the question asking for the predominant imaging pattern. The opacities are present in both lungs (bilateral) and in several separate regions (multifocal), rather than a single lobar process.\n\nThen I compare the image to the other options: there is no dense, homogeneous lobar opacity that would obscure vessels and produce classic consolidation with air bronchograms; I do not see discrete round, well-circumscribed lesions consistent with multiple pulmonary nodules; and there is no dependent fluid collection or crescentic pleural layering to suggest a loculated pleural effusion.\n\nFinally, the visual features—bilateral, multifocal, ill-defined hazy areas with preserved underlying vascular markings—most closely match “bilateral multifocal ground-glass opacities.”",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial section of high-resolution computed tomography of the chest showing patch of ground glass opacity in the apical segment of the left lower lobe.",
+  "sub_caption": "Axial section of high-resolution computed tomography of the chest showing patch of ground glass opacity in the apical segment of the left lower lobe.",
+  "image_context": "His COVID-19 recovery were confirmed via negative RNA-PCR testing. During his active infection, he had an initial D-dimer of more than 1000 ng/mL, and his electrocardiogram (ECG) showed sinus tachycardia. In addition, high-resolution computed tomography (CT) scan revealed bilateral, multifocal, and ill-defined ground-glass opacification (GGO), mainly involving the lower lobes with absence of PE (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>).).Fig. 1Axial section of high-resolution computed tomography of the chest showing patch of ground glass opacity in the apical segment of the left lower lobe.Fig. 1",
+  "relevant_image_context": "His COVID-19 recovery were confirmed via negative RNA-PCR testing. During his active infection, he had an initial D-dimer of more than 1000 ng/mL, and his electrocardiogram (ECG) showed sinus tachycardia. In addition, high-resolution computed tomography (CT) scan revealed bilateral, multifocal, and ill-defined ground-glass opacification (GGO), mainly involving the lower lobes with absence of PE (Fig. 1).Fig. 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

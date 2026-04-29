@@ -1,0 +1,32 @@
+{
+  "case_id": 76,
+  "images": {
+    "subfig": "case_076_subfig.jpg",
+    "full": "case_076_full.jpg"
+  },
+  "question": "A patient is being evaluated for suspected arterial compromise of an upper extremity using bedside vascular tests and duplex ultrasonography. Bedside tests (Allen test and handheld Doppler) have high positive predictive value for patency, while duplex ultrasound can miss occlusion. Based on this imaging, which diagnostic test is the most appropriate next step to definitively assess arterial patency and guide possible revascularization?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Digital subtraction angiography (catheter)",
+    "B": "CT angiography of the limb",
+    "C": "MR angiography with contrast",
+    "D": "Repeat duplex ultrasonography",
+    "E": "Contrast-enhanced ultrasound"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image: this is a color Doppler ultrasound of an upper-extremity artery. The color flow appears confined to a short segment with an abrupt change in color/flow pattern at the right side of the image, which suggests limited / noncontinuous flow beyond that point rather than a long, continuous patent artery.\n\nNext, I relate these observations to the question, which asks for the most appropriate next diagnostic test to definitively assess arterial patency and to guide possible revascularization, given that bedside tests and duplex ultrasound have limitations. The prompt explicitly states bedside tests have high positive predictive value for patency, and that duplex ultrasonography can miss occlusion. Because the duplex image here shows a potentially limited flow segment and duplex can be falsely reassuring, a more definitive imaging study is indicated to confirm whether there is an occlusion and to plan treatment.\n\nThen, I consider how each option aligns with the need for definitive assessment and revascularization planning. Repeat duplex is unlikely to add definitive information if the initial study was inconclusive. CT angiography and MR angiography are noninvasive cross-sectional vascular studies that can define anatomy, but they are not catheter-based procedures. Digital subtraction angiography (catheter angiography) provides direct angiographic visualization of the arterial tree under contrast injection and, importantly, is a catheter-based study that can both define the exact site and extent of an occlusion and permit immediate endovascular intervention if indicated. Contrast-enhanced ultrasound improves Doppler sensitivity but remains an ultrasound-based technique and is less suited to immediate therapeutic planning.\n\nFinally, tying these points together: because the ultrasound image suggests limited/abrupt flow and duplex can miss occlusions, the next step that definitively assesses arterial patency and allows guidance for possible revascularization is catheter-based digital subtraction angiography.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Doppler ultrasonography examination showing an obstructed artery.",
+  "sub_caption": "Doppler ultrasonography examination showing an obstructed artery.",
+  "image_context": "Regarding clinical and ultrasound evaluations, we found that both the Allen test and the handheld Doppler evaluation were reliable for determining arterial patency when they indicated positive results (patent artery), resulting in a high positive predictive value. However, the Doppler ultrasonography results were not well correlated with clinical test results showing a nonpatent artery (\n<xref rid=\"10-1055-s-0041-1729574-i2000240en-7\" ref-type=\"fig\">Fig. 7</xref>\n), resulting in a large number of false negatives. Our sample size was small, but we propose that the clinical evaluations are sufficient to assess vascular repair.\n\n), resulting in a large number of false negatives. Our sample size was small, but we propose that the clinical evaluations are sufficient to assess vascular repair.\n4",
+  "relevant_image_context": "Regarding clinical and ultrasound evaluations, we found that both the Allen test and the handheld Doppler evaluation were reliable for determining arterial patency when they indicated positive results (patent artery), resulting in a high positive predictive value. However, the Doppler ultrasonography results were not well correlated with clinical test results showing a nonpatent artery (Fig. 7), resulting in a large number of false negatives. Our sample size was small, but we propose that the clinical evaluations are sufficient to assess vascular repair."
+}

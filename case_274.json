@@ -1,0 +1,31 @@
+{
+  "case_id": 274,
+  "images": {
+    "subfig": "case_274_subfig.jpg",
+    "full": "case_274_full.jpg"
+  },
+  "question": "A healthcare worker increased use of alcohol-based hand sanitizer during the COVID-19 pandemic and subsequently developed acute hand skin irritation. Based on the photograph, which complication of this presentation is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Secondary bacterial infection (Staphylococcus aureus)",
+    "B": "Allergic contact dermatitis",
+    "C": "Herpes simplex superinfection",
+    "D": "Superficial fungal infection (tinea)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the photograph closely. The dorsal hand shows an area of erythema with multiple small crusted erosions and focal yellowish crusts on an otherwise scaly, dry background. The lesions appear superficial, with dried exudate/crusting at several discrete points within the irritated skin.\n\nNext, I relate these findings to the question, which states the worker developed acute hand skin irritation after increased use of alcohol-based hand sanitizer (i.e., an irritant dermatitis context that compromises the skin barrier). A compromised barrier with visible crusting and dried exudate raises concern for a superimposed bacterial infection.\n\nThen, I consider how each option fits the observed features. The visible yellow crusts and focal superficial crusted erosions are most consistent with secondary bacterial infection (option A). The other choices are less compatible with the image: there are no obvious grouped vesicles or punched-out ulcers to suggest herpes, and there are no annular scaly rings typical for tinea. Allergic contact dermatitis could cause dermatitis but would not itself explain the focal yellow crusted erosions that indicate superinfection.\n\nIn summary, the clinical context (irritant hand dermatitis) plus the image evidence of yellow crusting and superficial erosions point toward secondary bacterial infection as the most likely complication.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Dermatology",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "skin lesion"
+  ],
+  "caption": "Irritant contact dermatitis in an anaesthesiologist after repetitive hand sanitising that developed in April 2020 during the coronavirus disease 2019 (COVID-19) pandemic. The contact dermatitis was complicated by Staphylococcus aureus superinfection.",
+  "sub_caption": "Irritant contact dermatitis in an anaesthesiologist after repetitive hand sanitising that developed in April 2020 during the coronavirus disease 2019 (COVID-19) pandemic. The contact dermatitis was complicated by Staphylococcus aureus superinfection.",
+  "image_context": "Survey evidence before COVID-19 suggests that contact dermatitis affects ∼4% of healthcare workers and comprises 70–90% of skin diseases among them.3,4 Risk stratification is based on several factors. Those who have a history of atopy are at higher risk of developing contact dermatitis.3 Although Black and Hispanic populations may have a higher incidence of severe atopic dermatitis, studies on skin barrier function in different racial or ethnic groups have not shown consistent differences in epidermal structure or the development of contact dermatitis with exposure to irritants.5\n,\n6 Extrinsic risk factors for contact dermatitis include prolonged glove use and hand washing. Thus, the prevalence of dermatitis is expected to increase during a pandemic as a result of excessive precautionary measures.3\n,\n4 Hand hygiene techniques have a broad spectrum of potential adverse effects, ranging from cutaneous xerosis (abnormally dry skin) to severe allergic or irritant reactions. Acutely, contact dermatitis may present with skin erythema, oozing, scaling, crusting, or vesicles (<xref rid=\"gr1_lrg\" ref-type=\"fig\">Fig. 1</xref>\n). If chronic, contact dermatitis can lead to lichenification and fissures.\n). If chronic, contact dermatitis can lead to lichenification and fissures.4 About 80% of contact dermatitis is irritant in nature and the remainder true type IV hypersensitivity reactions. Soaps and detergents are a common cause of irritant contact dermatitis.4\nFig 1Irritant contact dermatitis in an anaesthesiologist after repetitive hand sanitising that developed in April 2020 during the coronavirus disease 2019 (COVID-19) pandemic. The contact dermatitis was complicated by Staphylococcus aureus superinfection.Fig 1",
+  "relevant_image_context": "Fig 1: Irritant contact dermatitis in an anaesthesiologist after repetitive hand sanitising that developed in April 2020 during the coronavirus disease 2019 (COVID-19) pandemic. The contact dermatitis was complicated by Staphylococcus aureus superinfection. Fig 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context. Acutely, contact dermatitis may present with skin erythema, oozing, scaling, crusting, or vesicles."
+}

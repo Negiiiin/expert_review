@@ -1,0 +1,31 @@
+{
+  "case_id": 88,
+  "images": {
+    "subfig": "case_088_subfig.jpg",
+    "full": "case_088_full.jpg"
+  },
+  "question": "Based on this image, what is the most appropriate severity grade?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild",
+    "B": "Moderate",
+    "C": "Severe",
+    "D": "Indeterminate from image"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for salient findings. This is an axial posterior fossa MRI slice showing numerous small, well‑defined hyperintense cystic-appearing foci diffusely involving both cerebellar hemispheres and the vermis. The lesions are confluent in areas and distort the normal cerebellar folial architecture. There is apparent compression/effacement of the midline posterior fossa CSF space (region of the fourth ventricle) consistent with local mass effect.\n\nNext, I relate these observations to the question, which asks for the appropriate severity grade. The image demonstrates a high lesion burden with diffuse cerebellar involvement and evidence of mass effect; these features indicate advanced, extensive pathology on this slice rather than a limited or mild process.\n\nThen, I consider how the options line up with those observations. \"Mild\" would correspond to few, small focal lesions without distortion; \"Moderate\" would imply more lesions but limited or without mass effect; \"Indeterminate\" would apply if the image were non-diagnostic. The current image is diagnostic and shows diffuse, confluent lesions with mass effect.\n\nTherefore, based on the diffuse cerebellar involvement and associated mass effect seen on this image, the most appropriate severity grade is severe.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "(a–c) Axial and sagittal T2 images depict a raise in the number and size of the pseudocystic lesions along the brain and spine.",
+  "sub_caption": "(a–c) Axial and sagittal T2 images depict a raise in the number and size of the pseudocystic lesions along the brain and spine.",
+  "image_context": "He continued to clinically deteriorate despite a change in the anti-tuberculosis treatment and presented in May 2014 with repeated generalized seizures. MRI performed at that moment disclosed a raise in both the number and size of the small T2 hyperintense pseudocystic deposits, some of which were enhanced, along the parenchymal surface of the cerebellum, brainstem, anterior and medial temporal lobes, basal frontal lobes, thalami, and spinal cord (Figure <xref ref-type=\"fig\" rid=\"jbsr-101-1-1012-g3\">3a–c</xref>). The mass effect thereby entailed led to the worsening of the hydrocephalus and resulted into cerebellar herniation. Diffuse leptomeningeal enhancement persisted around the brain and spine. Moreover, a new focal, nodular intramedullary enhancement was observed in the spinal cord at the level of the first and second lumbar vertebrae.). The mass effect thereby entailed led to the worsening of the hydrocephalus and resulted into cerebellar herniation. Diffuse leptomeningeal enhancement persisted around the brain and spine. Moreover, a new focal, nodular intramedullary enhancement was observed in the spinal cord at the level of the first and second lumbar vertebrae.",
+  "relevant_image_context": "He continued to clinically deteriorate despite a change in the anti-tuberculosis treatment and presented in May 2014 with repeated generalized seizures. MRI performed at that moment disclosed a raise in both the number and size of the small T2 hyperintense pseudocystic deposits, some of which were enhanced, along the parenchymal surface of the cerebellum, brainstem, anterior and medial temporal lobes, basal frontal lobes, thalami, and spinal cord (Figure 3a–c). The mass effect thereby entailed led to the worsening of the hydrocephalus and resulted into cerebellar herniation. Diffuse leptomeningeal enhancement persisted around the brain and spine. Moreover, a new focal, nodular intramedullary enhancement was observed in the spinal cord at the level of the first and second lumbar vertebrae. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

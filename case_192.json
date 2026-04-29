@@ -1,0 +1,31 @@
+{
+  "case_id": 192,
+  "images": {
+    "subfig": "case_192_subfig.jpg",
+    "full": "case_192_full.jpg"
+  },
+  "question": "Which organ is primarily shown in this axial CT image?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Liver",
+    "B": "Spleen",
+    "C": "Pancreas",
+    "D": "Left kidney"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image for the predominant structures. I see a large solid abdominal organ occupying the majority of this upper-abdomen slice, with multiple rounded, lower-attenuation nodules scattered throughout (the red arrows point to these nodular areas). A second, smaller solid organ is visible laterally on one side but does not occupy as much area as the large organ.\n\nNext, I relate these observations to the question, which asks which organ is primarily shown. The image’s dominant structure is a large homogeneous parenchymal organ with internal vascular structures and multiple nodular lesions; this organ fills most of the image slice. The pancreas and left kidney are not the dominant structures here (they are not clearly the large, lobulated organ seen), and the smaller lateral organ corresponds to the other option (spleen) but is not the primary organ in the image.\n\nThen, I consider how each option lines up with those observations: the option that matches a large organ occupying most of the upper abdomen slice and showing scattered nodules is the liver. Therefore, the visual findings best correspond to the liver as the primary organ shown in this axial CT image.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Computed tomography (CT) scan of the abdomen and pelvis with intravenous contrast showing multiple nodules in liver and spleen.",
+  "sub_caption": "Computed tomography (CT) scan of the abdomen and pelvis with intravenous contrast showing multiple nodules in liver and spleen.",
+  "image_context": "A 37-year-old female came to the hospital with complaint of right upper quadrant abdominal pain associated with high-grade fever, shaking chills, nausea and vomiting for four days. She also reported 70 pounds weight loss over four months duration. On physical examination, she was febrile with temperature of 101 F, tachycardic but normotensive. Her abdomen was soft, tenderness present in right upper quadrant without guarding, rigidity or organomegaly. Lab workup showed that she was leukopenic, 3.7 x 109 cells/L (normal range: 3.7-11 x 109 cells/L). She also had mild elevation of alkaline phosphatase. Other liver enzymes were within normal limit. Human immunodeficiency virus (HIV) serology was negative. After obtaining blood culture, the patient was treated with broad-spectrum antibiotic for sepsis related to intra-abdominal pathology. Her symptoms did not improve. Subsequently, the patient had computed tomography (CT) scan of the chest, abdomen and pelvis with contrast which revealed innumerable lesions scattered throughout in liver and spleen (Figure <xref ref-type=\"fig\" rid=\"cureus-0011-00000005366-i01\">1</xref>).).",
+  "relevant_image_context": "Subsequently, the patient had computed tomography (CT) scan of the chest, abdomen and pelvis with contrast which revealed innumerable lesions scattered throughout in liver and spleen (Figure 1)."
+}

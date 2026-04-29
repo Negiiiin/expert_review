@@ -1,0 +1,31 @@
+{
+  "case_id": 327,
+  "images": {
+    "subfig": "case_327_subfig.jpg",
+    "full": "case_327_full.jpg"
+  },
+  "question": "Which region of the displayed image best localizes the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper left of the image",
+    "B": "Upper right of the image",
+    "C": "Lower left of the image",
+    "D": "Lower right of the image"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for visible markers and focal abnormalities. This coronal abdominal CT shows three colored arrows (red, yellow, blue) pointing to a clustered abnormality on the left side of the image.\n\nNext, I relate what I see to the question, which asks which region of the image best localizes the finding. The red arrow marks the primary focal lesion, and the yellow and blue arrows are adjacent to it or slightly superior, but all three arrows lie on the left half of the image and are below the mid-vertical level.\n\nThen, I consider the answer choices relative to the image quadrants. The cluster of arrows and the main abnormality clearly project to the lower-left quadrant of the displayed image rather than the upper halves or the right side.\n\nFinally, tying these observations to the options, the lower left region best localizes the finding shown by the arrows.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "A 40-year-old male presented with jaundice, dark urine, pruritus, and a 20 lb unintended weight loss. Initial CT abdomen with IV contrast, coronal image demonstrates a hypo-attenuating pancreatic head mass measuring 2.7 cm (red arrow). There is resultant obstructive pancreatic (yellow arrow) and biliary ductal dilation (blue arrow).",
+  "sub_caption": "A 40-year-old male presented with jaundice, dark urine, pruritus, and a 20 lb unintended weight loss. Initial CT abdomen with IV contrast, coronal image demonstrates a hypo-attenuating pancreatic head mass measuring 2.7 cm (red arrow). There is resultant obstructive pancreatic (yellow arrow) and biliary ductal dilation (blue arrow).",
+  "image_context": "A 40-year-old male presented with jaundice, dark urine, pruritus, and 20 lbs of unintended weight loss. Elevated laboratory values included a bilirubin of 4.7 mg/dL, ALT of 328 U/L, and CA-19-9 of 104 U/mL. A CT abdomen/pelvis demonstrated a 2.7 cm pancreatic head mass with biliary and pancreatic ductal dilation [<xref ref-type=\"fig\" rid=\"JCIS-10-43-g001\">Figure 1</xref>]. An endoscopic ultrasound with fine-needle aspiration yielded moderately-differentiated adenocarcinoma with mucinous features. Two weeks after the biopsy, the patient developed acute cholangitis and sepsis. Three days later, the patient underwent robotic pancreaticoduodenectomy, portal lymph node dissection, cholecystectomy, and intra- abdominal omental flap. One porta hepatis lymph node was positive for metastasis and the final pathology was T2N1. The resection margin was negative. The patient was discharged and had been reportedly feeling well.]. An endoscopic ultrasound with fine-needle aspiration yielded moderately-differentiated adenocarcinoma with mucinous features. Two weeks after the biopsy, the patient developed acute cholangitis and sepsis. Three days later, the patient underwent robotic pancreaticoduodenectomy, portal lymph node dissection, cholecystectomy, and intra- abdominal omental flap. One porta hepatis lymph node was positive for metastasis and the final pathology was T2N1. The resection margin was negative. The patient was discharged and had been reportedly feeling well.",
+  "relevant_image_context": "A 40-year-old male presented with jaundice, dark urine, pruritus, and 20 lbs of unintended weight loss. Elevated laboratory values included a bilirubin of 4.7 mg/dL, ALT of 328 U/L, and CA-19-9 of 104 U/mL. A CT abdomen/pelvis demonstrated a 2.7 cm pancreatic head mass with biliary and pancreatic ductal dilation [Figure 1]. An endoscopic ultrasound with fine-needle aspiration yielded moderately-differentiated adenocarcinoma with mucinous features. Two weeks after the biopsy, the patient developed acute cholangitis and sepsis. Three days later, the patient underwent robotic pancreaticoduodenectomy, portal lymph node dissection, cholecystectomy, and intra- abdominal omental flap. One porta hepatis lymph node was positive for metastasis and the final pathology was T2N1. The resection margin was negative. The patient was discharged and had been reportedly feeling well.]. An endoscopic ultrasound with fine-needle aspiration yielded moderately-differentiated adenocarcinoma with mucinous features. Two weeks after the biopsy, the patient developed acute cholangitis and sepsis. Three days later, the patient underwent robotic pancreaticoduodenectomy, portal lymph node dissection, cholecystectomy, and intra- abdominal omental flap. One porta hepatis lymph node was positive for metastasis and the final pathology was T2N1. The resection margin was negative. The patient was discharged and had been reportedly feeling well. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

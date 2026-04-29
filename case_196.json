@@ -1,0 +1,31 @@
+{
+  "case_id": 196,
+  "images": {
+    "subfig": "case_196_subfig.jpg",
+    "full": "case_196_full.jpg"
+  },
+  "question": "How many phalanges are visible on this image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "Two",
+    "B": "Three",
+    "C": "Four",
+    "D": "Five"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for the bony anatomy visible. I see a single finger in an AP/oblique view with three separate long bone segments in sequence, each separated by a radiolucent joint space.\n\nNext, I relate what I see to the question, which asks how many phalanges are visible. The three osseous segments correspond to the distal phalanx (tip), the middle phalanx (middle segment), and the proximal phalanx (base segment). Each has distinct cortical margins and articulating surfaces that make them countable as separate phalanges on this radiograph.\n\nThen, I consider the answer choices (Two, Three, Four, Five) and compare them to the image finding of three distinct phalanges. There are clearly more than two and fewer than four or five visible.\n\nFinally, based on direct counting of the visible phalangeal segments on the image, the correct choice is three.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "X-ray (plain radiographs)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Plain radiographs showed RSF-PIP joint destruction with osteolysis and an increased soft tissue shadow, AP view.RSF: right small finger, PIP: proximal interphalangeal, AP: anteroposterior view.",
+  "sub_caption": "Plain radiographs showed RSF-PIP joint destruction with osteolysis and an increased soft tissue shadow, AP view. RSF: right small finger, PIP: proximal interphalangeal, AP: anteroposterior view.",
+  "image_context": "At the same time, a neurovascular examination revealed hyperesthesia along the ulnar nerve distribution of his hand, including the RSF. Plain radiographs showed RSF-PIP joint destruction with osteolysis and an increased soft tissue shadow (Figures <xref rid=\"cureus-0015-00000036915-i05\" ref-type=\"fig\">5</xref>--<xref rid=\"cureus-0015-00000036915-i06\" ref-type=\"fig\">6</xref>). The initial differential diagnosis of the finger lesion included a local tumor, osteomyelitis, a soft tissue granuloma, an infection, gout, and arthritis. The patient demonstrated no systemic manifestations of bacterial infection (no fevers or chills), and laboratory findings were unremarkable, with a white blood cell count of 4.1 × 109/L. The infectious disease team was consulted, and leprosy was included as a potential differential diagnosis given the clinical presentation and features of the patient, including hyperesthesia, skin lesions, joint swelling, peripheral neuropathy, and leonine facies. Given that leprosy has negative serological markers and a biopsy is needed, we have decided to proceed surgically to remove the RSF joint lesion and send for histopathological analysis.). The initial differential diagnosis of the finger lesion included a local tumor, osteomyelitis, a soft tissue granuloma, an infection, gout, and arthritis. The patient demonstrated no systemic manifestations of bacterial infection (no fevers or chills), and laboratory findings were unremarkable, with a white blood cell count of 4.1 × 109/L. The infectious disease team was consulted, and leprosy was included as a potential differential diagnosis given the clinical presentation and features of the patient, including hyperesthesia, skin lesions, joint swelling, peripheral neuropathy, and leonine facies. Given that leprosy has negative serological markers and a biopsy is needed, we have decided to proceed surgically to remove the RSF joint lesion and send for histopathological analysis.",
+  "relevant_image_context": "At the same time, a neurovascular examination revealed hyperesthesia along the ulnar nerve distribution of his hand, including the RSF. Plain radiographs showed RSF-PIP joint destruction with osteolysis and an increased soft tissue shadow (Figures 5–6). The initial differential diagnosis of the finger lesion included a local tumor, osteomyelitis, a soft tissue granuloma, an infection, gout, and arthritis. The patient demonstrated no systemic manifestations of bacterial infection (no fevers or chills), and laboratory findings were unremarkable, with a white blood cell count of 4.1 × 10^9/L. The infectious disease team was consulted, and leprosy was included as a potential differential diagnosis given the clinical presentation and features of the patient, including hyperesthesia, skin lesions, joint swelling, peripheral neuropathy, and leonine facies. Given that leprosy has negative serological markers and a biopsy is needed, we have decided to proceed surgically to remove the RSF joint lesion and send for histopathological analysis."
+}

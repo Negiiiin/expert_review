@@ -1,0 +1,31 @@
+{
+  "case_id": 75,
+  "images": {
+    "subfig": "case_075_subfig.jpg",
+    "full": "case_075_full.jpg"
+  },
+  "question": "A 60-year-old woman underwent endoscopic transluminal drainage with a lumen‑apposing metal stent and subsequently required surgical repair of a procedure‑related gastric wall injury. Endoscopic closure attempts have since failed. Based on the imaging, which of the following safety considerations is most important before attempting another endoscopic closure?",
+  "question_scope": "full_figure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Large defect / immature cavity wall precluding durable closure",
+    "B": "Active systemic infection requiring IV antibiotics",
+    "C": "Coagulopathy or bleeding diathesis",
+    "D": "Retained transmural stent requiring removal"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image for features relevant to endoscopic closure of a gastric wall injury. I see a large, low-attenuation fluid collection occupying the left upper abdomen/posterior gastric region that closely abuts the posterior wall of the stomach. The posterior gastric wall appears irregular with a focal discontinuity/indentation where the collection contacts the stomach, consistent with a sizable defect or cavity in continuity with the gastric wall.\n\nNext, I relate these imaging findings to the clinical question, which asks what safety consideration is most important before attempting another endoscopic closure. A successful endoscopic closure requires a relatively small defect and a mature, well-formed cavity wall to hold sutures or clips; the image instead shows a large collection and an apparent wide defect, suggesting an immature cavity margin and a high risk of closure failure.\n\nThen I consider the other options in light of the image. There is no clear CT evidence of active infected gas locules or a rim-enhancing abscess on this slice to indicate uncontrolled local infection (option B is not supported by this image). There is no gross hematoma or imaging sign of bleeding/coagulopathy (option C cannot be assessed from the CT and is not suggested by the image). I also do not see a high‑density metallic stent traversing the wall in this image, so a retained transmural stent is not apparent (option D is not supported).\n\nFinally, synthesizing these observations: the dominant and directly visible safety concern on imaging is the large defect with an immature/unstable cavity wall that would likely preclude a durable endoscopic closure at this time. Therefore option A best matches the imaging findings.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Symptomatic pseudocyst.",
+  "sub_caption": "Symptomatic pseudocyst.",
+  "image_context": "A 60-year-old woman presented with acute pancreatitis complicated by the development of acute pancreatic fluid collection, which later organized into a large peripancreatic pseudocyst (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). This was drained endoscopically with a lumen-apposing metal stent inserted under EUS guidance (). This was drained endoscopically with a lumen-apposing metal stent inserted under EUS guidance (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>). The patient experienced a gastric perforation after the procedure, possibly resulting from an immature cyst wall, which required surgical repair (). The patient experienced a gastric perforation after the procedure, possibly resulting from an immature cyst wall, which required surgical repair (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>). Two months later, she had a residual gastric fistula along the posterior gastric wall communicating with the pancreatic bed (). Two months later, she had a residual gastric fistula along the posterior gastric wall communicating with the pancreatic bed (<xref rid=\"gr4\" ref-type=\"fig\">Figure 4</xref>, , <xref rid=\"gr5\" ref-type=\"fig\">Figure 5</xref>, , <xref rid=\"gr6\" ref-type=\"fig\">Figure 6</xref>). The opening was too big to be closed with over-the-scope clips. We performed endoscopic suturing, which failed to close the fistula despite the achievement of good mucosal approximation.). The opening was too big to be closed with over-the-scope clips. We performed endoscopic suturing, which failed to close the fistula despite the achievement of good mucosal approximation.Figure 1Symptomatic pseudocyst.Figure 2EUS-guided lumen-apposing metal stent.Figure 3CT showing postcystogastrostomy gastric perforation.Figure 4Fistula in the posterior gastric wall communicating with the pancreatic bed.Figure 5Gastric fistula.Figure 6Upper-GI study showing leak.",
+  "relevant_image_context": "A 60-year-old woman presented with acute pancreatitis complicated by the development of acute pancreatic fluid collection, which later organized into a large peripancreatic pseudocyst (Fig. 1). Figure 1 Symptomatic pseudocyst."
+}

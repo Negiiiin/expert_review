@@ -1,0 +1,31 @@
+{
+  "case_id": 212,
+  "images": {
+    "subfig": "case_212_subfig.jpg",
+    "full": "case_212_full.jpg"
+  },
+  "question": "Based on this image, which diagnosis is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Dural arteriovenous fistula (posterior condylar canal)",
+    "B": "Paraganglioma (glomus jugulare tumor)",
+    "C": "Posterior condylar emissary vein varix",
+    "D": "Vertebral artery aneurysm"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the lateral CT angiographic image: there is a markedly enlarged bony channel posterior to the occipital condyle (posterior condylar canal) containing a tubular, enhancing vascular structure indicated by the arrow. The canal is expanded and filled with a vascular lumen rather than showing a discrete soft-tissue mass.\n\nNext, I relate these observations to the question, which asks for the most likely diagnosis among vascular lesions and tumors in this region. The key image findings to use are (1) a dilated posterior condylar canal, (2) an intracanalar enhancing vascular structure, and (3) absence of a distinct soft-tissue mass centered at the jugular foramen.\n\nThen I consider how each option lines up with those findings. A dural arteriovenous fistula localized to the posterior condylar canal (option A) would be expected to produce an enlarged emissary canal with a focal vascular shunt within the canal — this matches the observed dilated canal with an intracanalar vascular channel. A paraganglioma/glomus jugulare tumor (B) would appear as a soft-tissue enhancing mass at the jugular region with bony erosion rather than a tubular vascular filling of a bony canal, which is not seen here. A simple emissary vein varix (C) could cause canal enlargement, but the image shows a distinct focal intracanalar vascular channel suggestive of a shunt nidus rather than a solitary venous sac. A vertebral artery aneurysm (D) would be centered on the vertebral artery itself, not primarily within the posterior condylar canal as shown.\n\nFinally, tying these observations together: the combination of an expanded posterior condylar canal and a focal enhancing vascular structure within it is most consistent with a dural arteriovenous fistula involving the posterior condylar canal.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Frontal (A) and lateral (B) views of a cone-beam CT angiogram of the right side VA shows the dilated posterior condylar canal and vein (arrow). (C) Cone-beam CT implies shunt point to be at the posterior condylar vein. VA: vertebral artery",
+  "sub_caption": "lateral (B) views of a cone-beam CT angiogram of the right side VA shows the dilated posterior condylar canal and vein (arrow).",
+  "image_context": "MRA revealed an abnormal flow signal inside the dilated right PCC, which implied DAVF. Cone-beam CT demonstrated that the location of the shunt point was inside the PCC (<xref rid=\"jnet-16-39-g001\" ref-type=\"fig\"><bold>Fig. 1</bold></xref>). A DSA of the right external carotid artery revealed that the DAVF was fed by multiple fistulous feeders; the right occipital artery, vertebral artery (meningeal branch from the V3–4 portion), ascending pharyngeal artery (jugular and hypoglossal branches), posterior auricular artery, and middle meningeal artery (convexity posterior and petrosquamous branches). Highly dilated feeders and drainers were depicted in the early arterial phase of DSA, implying high-flow shunt. The DAVF was drained by the right suboccipital cavernous sinus (SCS), followed by the deep cervical vein and the vertebral venous plexus without cortical venous reflux (Fig. 1). A DSA of the right external carotid artery revealed that the DAVF was fed by multiple fistulous feeders; the right occipital artery, vertebral artery (meningeal branch from the V3–4 portion), ascending pharyngeal artery (jugular and hypoglossal branches), posterior auricular artery, and middle meningeal artery (convexity posterior and petrosquamous branches). Highly dilated feeders and drainers were depicted in the early arterial phase of DSA, implying high-flow shunt. The DAVF was drained by the right suboccipital cavernous sinus (SCS), followed by the deep cervical vein and the vertebral venous plexus without cortical venous reflux (<xref rid=\"jnet-16-39-g002\" ref-type=\"fig\"><bold>Fig. 2</bold></xref>). Symptoms of stiff shoulder might have been caused by C5 radiculopathy due to the blood stagnation and dilation of the epidural veins.Fig. 2). Symptoms of stiff shoulder might have been caused by C5 radiculopathy due to the blood stagnation and dilation of the epidural veins.",
+  "relevant_image_context": "MRA revealed an abnormal flow signal inside the dilated right PCC, which implied DAVF. Cone-beam CT demonstrated that the location of the shunt point was inside the PCC."
+}

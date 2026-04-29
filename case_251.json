@@ -1,0 +1,31 @@
+{
+  "case_id": 251,
+  "images": {
+    "subfig": "case_251_subfig.jpg",
+    "full": "case_251_full.jpg"
+  },
+  "question": "Which region of the image contains the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper central",
+    "B": "Upper right quadrant",
+    "C": "Lower central",
+    "D": "Lower left quadrant"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for the prominent surgical finding. I see a tubular, stitched prosthetic graft (with visible sutures) located near the top-middle of the surgical field; two metal retractors sit laterally framing the field and the graft lies between them just beneath the upper edge of the image.\n\nNext, I relate what I see to the question, which asks which region contains the finding. The graft is clearly not in the lower half of the picture (the lower central and lower left areas show retracted tissue and deeper exposure but not the prosthetic material). It is also not confined to the upper right quadrant alone, since the graft spans the midline area at the top rather than being isolated to the right side.\n\nThen, I consider the answer choices: the finding is best described as being in the upper central region because it occupies the central portion of the image near the upper border, framed by the retractors. Therefore the visible finding corresponds to the upper central location.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Intraoperative photography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "surgical procedure"
+  ],
+  "caption": "Intraoperative photograph showing in situ reconstruction with aortobifemoral graft of bovine pericardium.",
+  "sub_caption": "Intraoperative photograph showing in situ reconstruction with aortobifemoral graft of bovine pericardium.",
+  "image_context": "In consideration of the subsequent dehiscence of both groin accesses with pus leakage on the right and the strong suspicion of infectious involvement of both prostheses (axillobifemoral bypass and previous aortic graft), explantation of both existing prostheses and placement of a new biological aortobifemoral graft of bovine pericardium were performed (<xref rid=\"gr3\" ref-type=\"fig\">Fig 3</xref>). Both explanted prostheses were subsequently found to be involved in the BCG infectious process on microbiological analysis. In the right side of the groin, from which the mass was removed, a negative pressure dressing was initially placed for 15 days, with empiric antibiotic therapy with piperacillin-tazobactam. Subsequently, in collaboration with a plastic surgeon, the groin was reconstructed by performing a skin rotation flap.). Both explanted prostheses were subsequently found to be involved in the BCG infectious process on microbiological analysis. In the right side of the groin, from which the mass was removed, a negative pressure dressing was initially placed for 15 days, with empiric antibiotic therapy with piperacillin-tazobactam. Subsequently, in collaboration with a plastic surgeon, the groin was reconstructed by performing a skin rotation flap.Fig 3Intraoperative photograph showing in situ reconstruction with aortobifemoral graft of bovine pericardium.",
+  "relevant_image_context": "In consideration of the subsequent dehiscence of both groin accesses with pus leakage on the right and the strong suspicion of infectious involvement of both prostheses (axillobifemoral bypass and previous aortic graft), explantation of both existing prostheses and placement of a new biological aortobifemoral graft of bovine pericardium were performed (Fig 3). Both explanted prostheses were subsequently found to be involved in the BCG infectious process on microbiological analysis. In the right side of the groin, from which the mass was removed, a negative pressure dressing was initially placed for 15 days, with empiric antibiotic therapy with piperacillin-tazobactam. Subsequently, in collaboration with a plastic surgeon, the groin was reconstructed by performing a skin rotation flap.). Both explanted prostheses were subsequently found to be involved in the BCG infectious process on microbiological analysis. In the right side of the groin, from which the mass was removed, a negative pressure dressing was initially placed for 15 days, with empiric antibiotic therapy with piperacillin-tazobactam. Subsequently, in collaboration with a plastic surgeon, the groin was reconstructed by performing a skin rotation flap.Fig 3Intraoperative photograph showing in situ reconstruction with aortobifemoral graft of bovine pericardium. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

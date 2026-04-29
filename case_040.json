@@ -1,0 +1,31 @@
+{
+  "case_id": 40,
+  "images": {
+    "subfig": "case_040_subfig.jpg",
+    "full": "case_040_full.jpg"
+  },
+  "question": "Based on this image, which anatomical structure is located centrally within the displayed thigh cross-section?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Femoral shaft (diaphysis)",
+    "B": "Tibial shaft",
+    "C": "Patella",
+    "D": "Ischial tuberosity"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for salient anatomic features. This is a transverse (cross-sectional) image of the thigh as stated in the question. In the center of the slice there is a single, well-defined round/ovoid structure with a dark rim and a lighter central region—consistent in appearance with the cortex and marrow of a long bone diaphysis. Surrounding that central bone are concentric muscle groups and soft tissues typical of a mid-thigh level.\n\nNext, I relate these observations to the question, which asks which anatomical structure is located centrally within this thigh cross-section. The central, circular osseous structure visible in the image corresponds to a large long-bone shaft located within the thigh.\n\nThen, I consider how each answer option aligns with those image findings. Option A (femoral shaft/diaphysis) corresponds to the large long-bone shaft expected in the mid-thigh and matches the central round cortical structure seen. Option B (tibial shaft) and option C (patella) refer to bones that would not produce a single central long-bone diaphysis appearance at a mid-thigh level on this image. Option D (ischial tuberosity) is a pelvic bony prominence and does not match the centrally placed long-bone shaft seen here.\n\nFinally, tying the image appearance to the options, the centrally located long-bone shaft in this thigh cross-section is best identified as the femoral shaft (diaphysis).",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Leg magnetic resonance image with pulsation blood flow artifact (labeled by yellow arrows). Note the artifacts are in line with the blood vessels in the phase encoding direction.",
+  "sub_caption": "Leg magnetic resonance image with pulsation blood flow artifact (labeled by yellow arrows). Note the artifacts are in line with the blood vessels in the phase encoding direction.",
+  "image_context": "Body tissue motion or fluid flow during an MR scan can produce image artifacts that manifest along the phase-encoding direction and extend over the entire image [<xref rid=\"JCIS-14-33-g009\" ref-type=\"fig\">Figure 9</xref>].].[1-9,12] Motion artifacts may stem from blood vessel pulsations, respiratory/cardiac motion, swallowing, and physical movement of the patient. Random motion such as patient movement tends to produce artifact that has a smear appearance while periodic motion, such as cardiac/vascular pulsation or respiratory motion, typically produces artifacts that are more discrete. Motion artifact may be identified and distinguished from RF interference artifact by observing that the artifact is in line with the moving tissues or flowing vessels in the phase-encoding direction [<xref rid=\"JCIS-14-33-g009\" ref-type=\"fig\">Figure 9</xref>].].",
+  "relevant_image_context": "Body tissue motion or fluid flow during an MR scan can produce image artifacts that manifest along the phase-encoding direction and extend over the entire image [Figure 9]. Motion artifacts may stem from blood vessel pulsations, respiratory/cardiac motion, swallowing, and physical movement of the patient. Random motion such as patient movement tends to produce artifact that has a smear appearance while periodic motion, such as cardiac/vascular pulsation or respiratory motion, typically produces artifacts that are more discrete. Motion artifact may be identified and distinguished from RF interference artifact by observing that the artifact is in line with the moving tissues or flowing vessels in the phase-encoding direction [Figure 9]."
+}

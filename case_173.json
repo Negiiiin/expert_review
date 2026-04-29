@@ -1,0 +1,31 @@
+{
+  "case_id": 173,
+  "images": {
+    "subfig": "case_173_subfig.jpg",
+    "full": "case_173_full.jpg"
+  },
+  "question": "On this axial abdominal CT image, which organ lies immediately posterior to the stomach?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Pancreas",
+    "B": "Spleen",
+    "C": "Left kidney",
+    "D": "Transverse colon"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT: there is a rounded, air-filled (low-density) structure in the upper mid/left abdomen consistent with the stomach, lying anterior in the image. Posterior to that gastric bubble I see a contiguous soft-tissue density that abuts the back wall of the stomach and sits just anterior to the bright circular aorta/vertebral column.\n\nNext, I relate this anatomy to the question, which asks which organ is immediately posterior to the stomach on this image. I compare the location of that soft-tissue structure to the listed options.\n\nThen I consider each option in light of the image: the soft-tissue structure directly behind the stomach (midline/left, anterior to the aorta) corresponds to the pancreas. The spleen is visible but more lateral on the left flank and not directly posterior to the stomach in this slice. The left kidney is more posterolateral and inferior and does not contact the stomach here. The transverse colon is not seen as the structure immediately posterior to the stomach on this slice.\n\nTherefore, the organ immediately posterior to the stomach on this axial CT image is the pancreas.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Solitary gastric neurofibroma with a diameter of 2.0 cm on CT examination. (A) Plain CT showed a soft tissue mass-like lesion in the greater curvature of the stomach in horizontal plane; (B) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in horizontal plane; (C) CT showed a soft tissue mass-like lesion in the greater curvature of the stomach in coronal plane; (D) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in sagittal plane.",
+  "sub_caption": "(B) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in horizontal plane;",
+  "image_context": "All patients underwent abdominal CT examination, including plain and enhanced scans, before endoscopic therapy. These GNs showed round, oval, or spindle-shaped soft tissue shadows in the gastric wall, with equal or slightly low uniform density, clear boundaries, no obvious adhesion to surrounding tissues, and no invasion of adjacent organ (<xref rid=\"IJGM-15-279-g0004\" ref-type=\"fig\">Figure 4</xref>).).Figure 4Solitary gastric neurofibroma with a diameter of 2.0 cm on CT examination. (A) Plain CT showed a soft tissue mass-like lesion in the greater curvature of the stomach in horizontal plane; (B) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in horizontal plane; (C) CT showed a soft tissue mass-like lesion in the greater curvature of the stomach in coronal plane; (D) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in sagittal plane.",
+  "relevant_image_context": "(B) post-contrast abdominal CT shows the same area not representing the contrast-enhanced appearance in horizontal plane;"
+}

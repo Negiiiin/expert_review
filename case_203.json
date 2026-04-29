@@ -1,0 +1,31 @@
+{
+  "case_id": 203,
+  "images": {
+    "subfig": "case_203_subfig.jpg",
+    "full": "case_203_full.jpg"
+  },
+  "question": "A patient who previously underwent transarterial chemoembolization and right portal vein embolization is being evaluated for further operative management. The team is considering repeat endovascular therapy, surgical resection, percutaneous ablation, or systemic therapy. Based on the imaging provided, which operative management is most appropriate?",
+  "question_scope": "subfigure",
+  "question_category": "Surgery / operative management",
+  "options": {
+    "A": "Repeat transarterial embolization",
+    "B": "Hepatic surgical resection",
+    "C": "Percutaneous thermal ablation",
+    "D": "Systemic chemotherapy"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial contrast-enhanced CT image of the upper abdomen focusing on the liver. I see a large, irregular mass occupying the right hepatic lobe with heterogeneous attenuation: peripheral and nodular areas of higher attenuation consistent with residual enhancing tumor and central low attenuation consistent with necrosis. I also note multiple foci of very high attenuation material within the right hepatic region consistent with prior embolic material/coils in the right portal/hepatic distribution.\n\nNext, I relate these imaging findings to the management choices. The mass is sizable and still demonstrates residual enhancement, which indicates ongoing arterialized tumor tissue that could be targeted by another endovascular embolization. The presence of existing embolic material in the right portal/hepatic region confirms prior endovascular therapy has been performed but does not eliminate remaining enhancing tumor on this study.\n\nThen, I consider each option against what the image shows. Percutaneous thermal ablation is generally limited by lesion size and by central necrosis with irregular enhancing margins seen here, making complete ablation less likely for such a large heterogeneous lesion. Hepatic surgical resection could be considered for some tumors, but the image demonstrates a large right-lobar mass with residual vascularity and prior right-sided portal/embolization material, suggesting local tumor remains amenable to further devascularizing endovascular therapy before, instead of or in place of immediate resection. Systemic chemotherapy would be chosen if local control were not feasible, whereas the imaging demonstrates a persistent arterialized target that is accessible to repeat transarterial therapy.\n\nIn summary, the image shows a large right hepatic tumor with residual arterial enhancement and existing embolic material, supporting further endovascular devascularization as the most appropriate next operative management.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "The tumor still has residual after the first TACE, the right portal vein embolization materials can be seen in the image.",
+  "sub_caption": "The tumor still has residual after the first TACE, the right portal vein embolization materials can be seen in the image.",
+  "image_context": "Four weeks after the LVD procedure, the patient underwent a follow-up abdominal CT scan. There was an increase by 16.7% of the remaining left liver volume to 441 cc. The ratio of remaining liver volume (cc) to body weight (kg) was 441cc/65kg, approximately 0.68%, which was still insufficient for a major hepatectomy surgery. In addition, the tumor was still vascularized on the CT scan (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 5</xref>). Therefore, we decided to perform an additional artery embolization on December 4, 2023.). Therefore, we decided to perform an additional artery embolization on December 4, 2023.Fig. 5The tumor still has residual after the first TACE, the right portal vein embolization materials can be seen in the image.Fig 5",
+  "relevant_image_context": "Fig. 5 The tumor still has residual after the first TACE, the right portal vein embolization materials can be seen in the image. In addition, the tumor was still vascularized on the CT scan (Fig. 5). Therefore, we decided to perform an additional artery embolization on December 4, 2023."
+}

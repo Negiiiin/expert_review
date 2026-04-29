@@ -1,0 +1,30 @@
+{
+  "case_id": 294,
+  "images": {
+    "subfig": "case_294_subfig.jpg",
+    "full": "case_294_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the CT image for overall brain morphology and any devices. I note a linear hyperdense tubular structure coursing from the left lateral margin into the intracranial space, consistent with an indwelling catheter/shunt. The central brain is largely replaced by a very large, hypodense fluid-containing space occupying the supratentorial compartment — the cerebral mantle is markedly thinned and cortical sulci are small relative to the large fluid collection.\n\nNext, I relate these observations to the question asking whether findings are normal or abnormal. The image demonstrates gross enlargement of the intracranial CSF spaces/ventricles with thinning of the brain parenchyma, which is not a normal appearance for a brain CT. I see no acute hyperdense collections to suggest hemorrhage and no focal mass lesion, but the degree of ventriculomegaly and reduced cerebral mantle thickness are abnormal structural findings.\n\nThen, I consider the options: because the scan shows marked ventricular enlargement and cortical thinning rather than the expected normal brain morphology, the correct classification is that the findings are abnormal.\n\nTherefore, based on the visible large fluid-filled supratentorial space, thinned cortex, and presence of an intracranial catheter, the scan is abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "A follow-up scan 8 months following shunting. Persistent supratentorial fluid-filled spaces of a comparable size. The longitudinal fissure of the brain and brain sulci are seen more clearly as compared to the preoperative scan, what indicates decreased intracranial hypertension. Nonenhanced CT scan",
+  "sub_caption": "A follow-up scan 8 months following shunting. Persistent supratentorial fluid-filled spaces of a comparable size. The longitudinal fissure of the brain and brain sulci are seen more clearly as compared to the preoperative scan, what indicates decreased intracranial hypertension. Nonenhanced CT scan",
+  "image_context": "In view of the clinical symptoms of intracranial hypertension, the child was implanted a cysto-ventriculoperitoneal shunt (Fig. <xref rid=\"381_2015_2638_Fig8_HTML\" ref-type=\"fig\">10</xref>).).Fig. 10A follow-up scan 8 months following shunting. Persistent supratentorial fluid-filled spaces of a comparable size. The longitudinal fissure of the brain and brain sulci are seen more clearly as compared to the preoperative scan, what indicates decreased intracranial hypertension. Nonenhanced CT scan",
+  "relevant_image_context": "In view of the clinical symptoms of intracranial hypertension, the child was implanted a cysto-ventriculoperitoneal shunt (Fig. 10). Fig. 10A follow-up scan 8 months following shunting. Persistent supratentorial fluid-filled spaces of a comparable size. The longitudinal fissure of the brain and brain sulci are seen more clearly as compared to the preoperative scan, what indicates decreased intracranial hypertension. Nonenhanced CT scan First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

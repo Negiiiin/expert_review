@@ -1,0 +1,32 @@
+{
+  "case_id": 106,
+  "images": {
+    "subfig": "case_106_subfig.jpg",
+    "full": "case_106_full.jpg"
+  },
+  "question": "A 19-month-old male presented with a 3-month history of progressive non-bloody, non-bilious emesis. He had access to a box of small magnets several months earlier and underwent diagnostic imaging. Based on this image, what is the most appropriate next-step management?",
+  "question_scope": "full_figure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Urgent endoscopic removal under general anesthesia",
+    "B": "Urgent surgical exploration and removal",
+    "C": "Observation with serial abdominal radiographs",
+    "D": "Whole-bowel irrigation with polyethylene glycol",
+    "E": "Outpatient laxatives and reassessment"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the radiograph for anatomic and foreign-body details. The image shows a cluster of multiple uniform, radiopaque, rounded/rectangular beads arranged in a contiguous loop/polygonal chain in the central upper-mid abdomen. These beads are clearly intrabdominal (within bowel gas pattern) and distinct from superficial clothing/zippers seen over the pelvis. A gas-filled stomach bubble is visible in the left upper quadrant; the chain of beads lies below that gastric shadow, in the mid-abdomen.\n\nNext, I relate these imaging findings to the clinical question. The history notes a 19-month-old with access to small magnets and a 3-month history of progressive non-bloody, non-bilious vomiting. The radiograph confirms multiple ingested metallic beads arranged as a connected chain and located beyond the stomach. The prolonged, progressive vomiting over months indicates the foreign bodies have not passed and are clinically symptomatic.\n\nThen, I consider how each management option aligns with those observations. Urgent endoscopic removal (A) is appropriate when objects are in the stomach or reachable endoscopically; here the chain projects below the gastric shadow and appears intraluminal in the mid-abdomen, making endoscopic retrieval unlikely to reach and resolve the problem. Observation with serial radiographs (C), whole-bowel irrigation (D), or outpatient laxatives and reassessment (E) would leave a symptomatic child with a persistent, clustered metallic foreign body that has already produced ongoing symptoms for months and therefore are not appropriate.\n\nFinally, integrating the imaging (a connected chain of multiple metallic beads within the bowel, below the stomach) with the chronic progressive vomiting (failure to pass and ongoing obstruction symptoms), the most appropriate next-step is urgent surgical exploration and removal.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "X-ray",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Upper gastrointestinal series shows a series of foreign bodies attached end-to-end and looping from the stomach through the duodenum.",
+  "sub_caption": "Upper gastrointestinal series shows a series of foreign bodies attached end-to-end and looping from the stomach through the duodenum.",
+  "image_context": "A 19-month-old male in his usual state of good heath presented with a three-month history of progressive non-bloody, non-bilious emesis. The mother denied history of fever, diarrhea, or abdominal pain. His growth parameters plotted above the 75th percentile for height and weight, and there was no previous history of gastroesophageal reflux symptoms. He was referred to our institution where an upper GI series (UGI) showed 13 ingested foreign bodies connected end-to-end and looped from the stomach through the pylorus into the duodenum (<xref ref-type=\"fig\" rid=\"pghn-21-336-g001\">Fig. 1</xref>). His mother reported that he had received a box of plastic colored magnets as a gift several months earlier.). His mother reported that he had received a box of plastic colored magnets as a gift several months earlier.",
+  "relevant_image_context": "A 19-month-old male in his usual state of good heath presented with a three-month history of progressive non-bloody, non-bilious emesis. The mother denied history of fever, diarrhea, or abdominal pain. His growth parameters plotted above the 75th percentile for height and weight, and there was no previous history of gastroesophageal reflux symptoms. He was referred to our institution where an upper GI series (UGI) showed 13 ingested foreign bodies connected end-to-end and looped from the stomach through the pylorus into the duodenum (Fig. 1). His mother reported that he had received a box of plastic colored magnets as a gift several months earlier."
+}

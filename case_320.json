@@ -1,0 +1,32 @@
+{
+  "case_id": 320,
+  "images": {
+    "subfig": "case_320_subfig.jpg",
+    "full": "case_320_full.jpg"
+  },
+  "question": "Based on this image, which pathophysiologic mechanism best explains the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Peristaltic invagination of bowel (intussusception)",
+    "B": "Axial twisting of bowel and mesentery (volvulus)",
+    "C": "Extrinsic compression by an adjacent mass",
+    "D": "Intramural hemorrhage causing luminal narrowing",
+    "E": "Adhesive band producing closed-loop obstruction"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial contrast-enhanced CT image for abnormal bowel morphology and surrounding structures. I note a rounded focal soft-tissue mass in the mid-abdomen formed by multiple concentric layers, with adjacent bowel loops around it — appearance consistent with one bowel segment telescoped into another.\n\nNext, I relate this imaging appearance to the question, which asks which pathophysiologic mechanism best explains the finding. The concentric “target/sausage” configuration on the axial slice is a classic pattern of intussusception (peristaltic invagination of one bowel segment into another).\n\nThen I compare the other options to what I see: volvulus (axial twisting) would typically show twisted mesenteric vessels/whirl sign, which are not seen here; an extrinsic mass compressing the lumen would produce an indentation from outside rather than concentric intraluminal layers; intramural hemorrhage would cause focal wall hyperattenuation or thickening without the layered telescoping appearance; an adhesive band producing a closed-loop obstruction would be suggested by two adjacent transition points and dilated closed-loop bowel, which are not present.\n\nFinally, the imaging finding of a short segment with concentric layered bowel is best explained by peristaltic invagination (intussusception), so that mechanism fits the CT appearance.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Computed tomography abdomen/pelvis with PO/intravenous contrast 11/23/2014",
+  "sub_caption": "Computed tomography abdomen/pelvis with PO/intravenous contrast 11/23/2014",
+  "image_context": "On postoperative day 143, the patient again presented to the emergency room with intermittent abdominal pain for the previous 2 weeks. She reported that the pain felt similar to the previous hospitalization. Repeat CT scan revealed short segment small bowel intussusception in the left upper quadrant. There was no bowel dilatation to suggest obstruction [<xref ref-type=\"fig\" rid=\"JMAS-11-271-g002\">Figure 2</xref>]. She was taken back to the operating room for diagnostic laparoscopy. The jejunojejunostomy was bulbous in appearance and felt to be the cause of the recurrent intussusception. The alimentary limb of the jejunojejunostomy was transected laparoscopically with an Endo-GIA stapler and anastomosed to the jejunum 25 cm distal to the previous connection in a side-to-side fashion using the Endo-GIA stapler. The patient was discharged home on postoperative day 5 tolerating a regular diet. Pathology of the enterectomy was unremarkable.]. She was taken back to the operating room for diagnostic laparoscopy. The jejunojejunostomy was bulbous in appearance and felt to be the cause of the recurrent intussusception. The alimentary limb of the jejunojejunostomy was transected laparoscopically with an Endo-GIA stapler and anastomosed to the jejunum 25 cm distal to the previous connection in a side-to-side fashion using the Endo-GIA stapler. The patient was discharged home on postoperative day 5 tolerating a regular diet. Pathology of the enterectomy was unremarkable.",
+  "relevant_image_context": "On postoperative day 143, the patient again presented to the emergency room with intermittent abdominal pain for the previous 2 weeks. She reported that the pain felt similar to the previous hospitalization. Repeat CT scan revealed short segment small bowel intussusception in the left upper quadrant. There was no bowel dilatation to suggest obstruction."
+}

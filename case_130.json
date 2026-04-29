@@ -1,0 +1,32 @@
+{
+  "case_id": 130,
+  "images": {
+    "subfig": "case_130_subfig.jpg",
+    "full": "case_130_full.jpg"
+  },
+  "question": "Based on this image, which underlying mechanism best explains the observed pattern?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Polymicrobial colonization by normal gut flora",
+    "B": "Monoclonal infection by a single pathogen",
+    "C": "Antibiotic-associated selective overgrowth",
+    "D": "Hematogenous bacterial seeding"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for notable features. The specimen is a fecal Gram stain showing a very dense, heterogeneous population of bacteria across the field. I observe multiple bacterial morphologies—both slender rod-shaped forms and shorter/rounder forms—with variation in size and arrangement rather than a single uniform appearance.\n\nNext, I relate these observations to the question, which asks which underlying mechanism best explains this pattern. A truly polymicrobial colonization would produce the mixed morphologies and high organismal density seen here. By contrast, a monoclonal infection (option B) would be expected to show one dominant bacterial morphology and relatively uniform staining, which is not present. Antibiotic-associated selective overgrowth (option C) usually results in overrepresentation of one or a few resistant species, producing decreased diversity rather than the broad diversity visible. Hematogenous bacterial seeding (option D) implies bloodstream dissemination of one or a few strains and would not typically produce this diffuse, mixed fecal bacterial pattern.\n\nThen I consider how each option lines up with the image: the observed variety and even distribution of different bacterial shapes best matches polymicrobial colonization by normal gut flora. Therefore, the image is most consistent with option A.",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "Gram-stain microscopy",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "Pattern classification from fecal Gram stain. In the diverse pattern, numerous kinds of bacteria totally covered the field",
+  "sub_caption": "In the diverse pattern, numerous kinds of bacteria totally covered the field",
+  "image_context": "We classified Gram-stained fecal flora into three patterns in accordance with the patterns of bacteria we could identify (Fig. <xref rid=\"10620_2010_1486_Fig1_HTML\" ref-type=\"fig\">1</xref>). The classification of each sample was certified at the Division of Infection Control and Prevention in our hospital by an infectious disease physician who had no knowledge of the clinical course of each patient. In the diverse pattern, large numbers of multiple kinds of bacteria completely covered the field. In the single pattern, one specific kind of bacteria or fungi predominantly covered the field. Figure ). The classification of each sample was certified at the Division of Infection Control and Prevention in our hospital by an infectious disease physician who had no knowledge of the clinical course of each patient. In the diverse pattern, large numbers of multiple kinds of bacteria completely covered the field. In the single pattern, one specific kind of bacteria or fungi predominantly covered the field. Figure <xref rid=\"10620_2010_1486_Fig2_HTML\" ref-type=\"fig\">2</xref> shows that Gram-positive cocci (GPC), Gram-negative rods (GNR), and fungi dominated the field. In the depleted pattern, most bacteria were diminished in the field (Fig.  shows that Gram-positive cocci (GPC), Gram-negative rods (GNR), and fungi dominated the field. In the depleted pattern, most bacteria were diminished in the field (Fig. <xref rid=\"10620_2010_1486_Fig3_HTML\" ref-type=\"fig\">3</xref>). Alterations in gut flora usually progress from a diverse pattern to a single pattern and then onwards to a depleted pattern.). Alterations in gut flora usually progress from a diverse pattern to a single pattern and then onwards to a depleted pattern.Fig. 1Pattern classification from fecal Gram stain. In the diverse pattern, numerous kinds of bacteria totally covered the field\nFig. 2Pattern classification from fecal Gram stain. In the single pattern, specified bacteria (only one or two kinds of bacteria) dominantly covered the field. These pictures show that Gram-positive coccus (left), Gram-negative rod (middle) and fungus (right) dominantly cover the field\nFig. 3Pattern classification from fecal Gram stain. In the depleted pattern, most bacteria were diminished in the field. The deterioration of gut flora usually occurs from a diverse pattern to a single pattern, and from a single pattern to a depleted pattern",
+  "relevant_image_context": "Fig. 1 Pattern classification from fecal Gram stain. In the diverse pattern, numerous kinds of bacteria totally covered the field."
+}

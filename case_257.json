@@ -1,0 +1,31 @@
+{
+  "case_id": 257,
+  "images": {
+    "subfig": "case_257_subfig.jpg",
+    "full": "case_257_full.jpg"
+  },
+  "question": "A patient with chronic necrotic scrotal tissue underwent surgical debridement and tissue sampling. Relevant history includes a 15–pack-year smoking history, progressive systemic symptoms (fatigue, dyspnea), and severe local pain. Based on this image, which prognostic statement is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "Poor prognosis due to extensive local tissue invasion",
+    "B": "Good prognosis after local debridement alone",
+    "C": "Prognosis mainly determined by tumor grade",
+    "D": "Low risk of recurrence with conservative therapy"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for visible findings. The scrotal tissue shows a large, irregular, ulcerated mass with widespread areas of yellow necrotic slough, active bleeding, and loss of normal anatomic contours across most of the scrotum. The lesion appears extensively destructive and not confined to a small local focus.\n\nNext, I relate those observations to the question, which asks which prognostic statement is most likely given the clinical history (15 pack‑year smoking history, progressive systemic symptoms, severe local pain) and the appearance of the tissue sample. The image demonstrates extensive local tissue destruction and ongoing necrosis/bleeding; the systemic symptoms and risk factor noted in the history indicate more concerning overall disease behavior in this case.\n\nThen, I consider how each option aligns with these findings. Option A (poor prognosis due to extensive local tissue invasion) directly corresponds to the clear, widespread destructive changes seen in the image and to the concerning systemic symptoms. Option B (good prognosis after local debridement alone) and option D (low risk of recurrence with conservative therapy) are not supported by the gross appearance of extensive tissue involvement and necrosis, which imply that limited local measures would be unlikely to be sufficient. Option C (prognosis mainly determined by tumor grade) is a general statement but is less directly supported by the visible, severe local invasion and systemic signs present here.\n\nIn summary, the image shows extensive local tissue invasion and necrosis together with systemic symptoms, which most strongly supports a poor prognosis related to the extent of local disease.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "dermatology",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "surgical procedure"
+  ],
+  "caption": "Preoperative. This photo illustrates the extent of the scrotal abscess and cancer upon presentation. The urethra was obliterated. In addition to multiple areas of infection, there were nodular areas with squamous keratinization.",
+  "sub_caption": "Preoperative. This photo illustrates the extent of the scrotal abscess and cancer upon presentation. The urethra was obliterated. In addition to multiple areas of infection, there were nodular areas with squamous keratinization.",
+  "image_context": "Approximately six months later, he re-presented with Fournier’s gangrene and underwent drainage of the scrotal abscess and further debridement of the chronic necrotic tissue. A sample of necrotic scrotal tissue was sent for differential diagnosis, and pathology revealed invasive moderately differentiated urethral SCC (<xref ref-type=\"fig\" rid=\"ccrep-9-2016-083f1\">Fig. 1</xref>). The patient had a 15 pack year history of smoking and a recent history of feeling weak and tired and having dyspnea. The patient described significant pain, stating that his pain ranged from 6 to 9/10.). The patient had a 15 pack year history of smoking and a recent history of feeling weak and tired and having dyspnea. The patient described significant pain, stating that his pain ranged from 6 to 9/10.",
+  "relevant_image_context": "Approximately six months later, he re-presented with Fournier’s gangrene and underwent drainage of the scrotal abscess and further debridement of the chronic necrotic tissue. A sample of necrotic scrotal tissue was sent for differential diagnosis, and pathology revealed invasive moderately differentiated urethral SCC (Fig. 1). The patient had a 15 pack year history of smoking and a recent history of feeling weak and tired and having dyspnea. The patient described significant pain, stating that his pain ranged from 6 to 9/10.). The patient had a 15 pack year history of smoking and a recent history of feeling weak and tired and having dyspnea. The patient described significant pain, stating that his pain ranged from 6 to 9/10. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

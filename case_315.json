@@ -1,0 +1,31 @@
+{
+  "case_id": 315,
+  "images": {
+    "subfig": "case_315_subfig.jpg",
+    "full": "case_315_full.jpg"
+  },
+  "question": "Multiple colonic polyps were biopsied on endoscopy; pathology reported inflammatory changes but could not exclude underlying dysplasia or malignancy because sampling may be superficial. A multidisciplinary team reviewed the case to determine definitive management. Which of the following is the most appropriate next-step treatment?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Repeat endoscopic biopsies and short-interval surveillance",
+    "B": "Endoscopic polypectomy with EMR (endoscopic mucosal resection)",
+    "C": "Total colectomy with ileorectal anastomosis",
+    "D": "Segmental colectomy (e.g., right or left hemicolectomy)"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for visible features. The specimen shows colonic mucosa with multiple polypoid lesions clustered across the surface; the mucosa appears erythematous and inflamed and several polyps are broad-based/sessile rather than single, discrete pedunculated lesions.\n\nNext, I relate these observations to the question, which states that endoscopic biopsies showed inflammatory change but could not exclude dysplasia or malignancy because sampling may have been superficial. The combination of multiple, widespread-appearing polyps and inconclusive superficial biopsies raises concern that deeper or additional neoplastic change could be missed if management is limited to further sampling or focal removal.\n\nThen I consider how each management option lines up with those findings. Repeat endoscopic biopsies and short-interval surveillance (A) would risk ongoing sampling error across many lesions and delay definitive diagnosis if malignancy is present. Endoscopic polypectomy with EMR (B) can be effective for isolated or limited lesions, but is impractical and unlikely to address numerous, diffuse sessile polyps seen here. Segmental colectomy (D) targets a localized segment, which would leave other polyp-bearing areas behind and therefore could miss synchronous malignancy.\n\nFinally, given the image-supported appearance of multiple, diffuse polyps and the inability of superficial biopsies to exclude deeper dysplasia or cancer, a definitive resection of the colon (total colectomy with ileorectal anastomosis) is the most appropriate next-step treatment to both remove the at-risk mucosa and allow full pathological assessment.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "gross pathology (macroscopic photography)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "surgical procedure"
+  ],
+  "caption": "Gross examination of the resected colon with obstructing polyps.",
+  "sub_caption": "Gross examination of the resected colon with obstructing polyps.",
+  "image_context": "Although biopsies suggested inflammatory polyps, a large mass underlying dysplastic and malignant alterations could not be ruled out. In most cases, most biopsies in a large mass can be superficial. For that reason, a multidisciplinary team, including a colorectal surgeon, discussed the case in detail regarding the best care for the patient. The recommended plan was shared with the patient, who agreed to undergo a total colectomy. She then underwent a total colectomy with ileorectal anastomosis, and her recovery was uneventful (Figure <xref rid=\"cureus-0015-00000045535-i03\" ref-type=\"fig\">3</xref>). The patient was seen in follow-up with good recovery and total resolution of previous symptoms.). The patient was seen in follow-up with good recovery and total resolution of previous symptoms.",
+  "relevant_image_context": "Although biopsies suggested inflammatory polyps, a large mass underlying dysplastic and malignant alterations could not be ruled out. In most cases, most biopsies in a large mass can be superficial. For that reason, a multidisciplinary team, including a colorectal surgeon, discussed the case in detail regarding the best care for the patient. The recommended plan was shared with the patient, who agreed to undergo a total colectomy. She then underwent a total colectomy with ileorectal anastomosis, and her recovery was uneventful (Figure 3). The patient was seen in follow-up with good recovery and total resolution of previous symptoms.). The patient was seen in follow-up with good recovery and total resolution of previous symptoms. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

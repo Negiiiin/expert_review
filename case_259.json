@@ -1,0 +1,31 @@
+{
+  "case_id": 259,
+  "images": {
+    "subfig": "case_259_subfig.jpg",
+    "full": "case_259_full.jpg"
+  },
+  "question": "Based on this angiographic image, which severity category best describes the coronary stenosis?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild (<50% luminal narrowing)",
+    "B": "Moderate (50–69% luminal narrowing)",
+    "C": "Severe (≥70% luminal narrowing)",
+    "D": "Occlusion / total occlusion"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the angiographic image for the vessel course and any focal narrowings. I observe a left coronary artery territory with a focal, prominent reduction in luminal caliber in a mid-to-proximal segment: the lumen at the lesion is markedly narrowed compared with the adjacent normal-caliber segment.\n\nNext, I relate these visual findings to the question, which asks which severity category best describes the stenosis. The image shows a severe focal constriction — the residual lumen at the lesion appears much smaller than about half of the reference vessel diameter, yet contrast clearly opacifies the vessel distal to the lesion, indicating there is still flow through it.\n\nThen I consider how each option aligns with these observations. Options A (mild, <50%) and B (moderate, 50–69%) would show less dramatic narrowing than is present here. Option D (occlusion/total occlusion) would show absence of distal contrast filling, which is not the case. The magnitude of luminal reduction and preserved distal flow fit the severe category (≥70% narrowing).\n\nTherefore, based on the angiographic appearance of a pronounced focal narrowing with continued downstream contrast opacification, the stenosis is best categorized as severe (≥70% luminal narrowing).",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Coronary angiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "angiography"
+  ],
+  "caption": "Left anterior oblique view with cranial angulation showing multiple and critical coronary artery stenosis",
+  "sub_caption": "Left anterior oblique view with cranial angulation showing multiple and critical coronary artery stenosis",
+  "image_context": "Mr A, one of those who benefited from the surgery is an obese hypertensive patient having shortness of breath in very mild physical exertion, with retrosternal chest pains without irradiation. No documented history of myocardial infarction, but the patient remembered some episodes of severe chest pains relieved spontaneously few years ago. The ECG done was showing an aspect of antero septal and apical scar, the cardiac echo was showing a poor global contractility with hypokinetic left ventricular apex, interventricular septum. The diagnosis of ischemic cardiomyopathy was done and a coronarography requested. On the angiography, we found a tritroncular stenosis of more than 75% (<xref ref-type=\"fig\" rid=\"pamj-8-46-g001\">Figure 1</xref>). The coronary bypass grafting procedure was indicated. The surgery was performed on February 10 2011 with success. The patient was transferred to the intensive care unit where his two days of stay were without event. He was then transferred to the ward and discharged a week after.). The coronary bypass grafting procedure was indicated. The surgery was performed on February 10 2011 with success. The patient was transferred to the intensive care unit where his two days of stay were without event. He was then transferred to the ward and discharged a week after.",
+  "relevant_image_context": "Left anterior oblique view with cranial angulation showing multiple and critical coronary artery stenosis. On the angiography, we found a tritroncular stenosis of more than 75%."
+}

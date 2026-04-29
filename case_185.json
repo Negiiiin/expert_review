@@ -1,0 +1,32 @@
+{
+  "case_id": 185,
+  "images": {
+    "subfig": "case_185_subfig.jpg",
+    "full": "case_185_full.jpg"
+  },
+  "question": "Based on this image, what is the most likely diagnosis?",
+  "question_scope": "full_figure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Duodenal adenocarcinoma",
+    "B": "Pancreatic head adenocarcinoma",
+    "C": "Small-bowel gastrointestinal stromal tumor (GIST)",
+    "D": "Retroperitoneal lymphoma",
+    "E": "Metastatic nodal disease"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial contrast-enhanced CT image at the mid-abdominal level. The scan shows the abdominal aorta and vertebral body centrally, both kidneys laterally, and a focal soft-tissue abnormality located just anterior to the aorta and along the expected course of the horizontal/third portion of the duodenum. The abnormality appears as an irregular, eccentric soft-tissue mass involving the bowel wall region rather than a bulky confluent nodal mass alone.\n\nNext, I relate these imaging findings to the diagnostic choices. The lesion is centered in the duodenal/retroperitoneal bowel location rather than within the bulk of the pancreatic head parenchyma, which makes primary pancreatic head adenocarcinoma less likely. The appearance is a focal wall-based soft-tissue mass rather than a large exophytic, well-circumscribed mass projecting from bowel serosa, which argues against a classic GIST as the best fit. There are a few adjacent rounded soft-tissue densities that could represent regional nodes, but the dominant finding is a localized duodenal-region mass rather than widespread bulky nodal conglomerates that would favor lymphoma. Widespread metastatic nodal disease would more typically present with multiple enlarged nodes without a clear primary bowel wall mass.\n\nThen, I weigh these observations: a focal, irregular mural-based lesion at the duodenal level with regional nodal enlargement is most consistent with a primary duodenal malignancy. Therefore, based on the lesion’s location and morphology on this image, the findings most strongly support duodenal adenocarcinoma.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Image of computerized tomography on the patient's first visit to our hospital. The asterisk indicates the cancer in the third portion of the duodenum.",
+  "sub_caption": "The asterisk indicates the cancer in the third portion of the duodenum.",
+  "image_context": "A 46-year-old man visited our Department of Gastroenterology because of aggravating epigastralgia. Upper GI endoscopy revealed a tumor in the third portion of the duodenum, which was diagnosed as duodenal adenocarcinoma by histopathology of the biopsied specimen. Because computerized tomography showed the duodenal cancer with swelling of regional lymph nodes but without distant metastases (fig. <xref ref-type=\"fig\" rid=\"crg-0010-0151-g01\">1</xref>), the disease was judged to be radically resectable. Although we planned to perform a pancreaticoduodenectomy, we gave up on the planned operation after exploration around the tumor because extensive invasion to the superior mesenteric vein was confirmed. We completed the surgery after performing stomach-partitioning gastrojejunostomy to prevent possible malignant obstruction and hemorrhage in the future.), the disease was judged to be radically resectable. Although we planned to perform a pancreaticoduodenectomy, we gave up on the planned operation after exploration around the tumor because extensive invasion to the superior mesenteric vein was confirmed. We completed the surgery after performing stomach-partitioning gastrojejunostomy to prevent possible malignant obstruction and hemorrhage in the future.",
+  "relevant_image_context": "A 46-year-old man visited our Department of Gastroenterology because of aggravating epigastralgia. Upper GI endoscopy revealed a tumor in the third portion of the duodenum, which was diagnosed as duodenal adenocarcinoma by histopathology of the biopsied specimen. Because computerized tomography showed the duodenal cancer with swelling of regional lymph nodes but without distant metastases, the disease was judged to be radically resectable."
+}

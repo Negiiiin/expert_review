@@ -1,0 +1,31 @@
+{
+  "case_id": 337,
+  "images": {
+    "subfig": "case_337_subfig.jpg",
+    "full": "case_337_full.jpg"
+  },
+  "question": "Based on this image, what is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Locally advanced pancreatic ductal adenocarcinoma",
+    "B": "Distal cholangiocarcinoma",
+    "C": "Ampullary carcinoma",
+    "D": "Pancreatic neuroendocrine tumor"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial abdominal CT image for location, morphology, and relationship of the lesion to adjacent structures. I see a focal, relatively hypodense soft-tissue mass centered in the region of the pancreatic head/uncinate process. The lesion is poorly circumscribed and extends posteriorly to closely abut and partially surround the adjacent mesenteric vessels (the artery just anterior to the aorta is encompassed by tumor tissue on this slice).\n\nNext, I relate these imaging findings to the question, which asks for the most likely diagnosis from the listed pancreatic/ampullary/biliary tumors. The mass is intrapancreatic in location (head/uncinate) and demonstrates an infiltrative appearance with involvement of the neighboring mesenteric artery—an imaging pattern consistent with a locally advanced pancreatic primary centered in the pancreatic head/uncinate.\n\nThen I consider how the options align with these observations. A lesion arising from the distal bile duct or ampulla would be expected to be centered at the biliary/ampullary region rather than producing a bulky pancreatic mass that encases mesenteric vessels. The image does not show a small ampullary/wall-centered lesion or an isolated bile-duct mass. The mass here is not a small, well-demarcated, hyperenhancing nodular lesion; instead it is an infiltrative pancreatic parenchymal mass involving adjacent vessels.\n\nFinally, tying these points together: an infiltrative pancreatic head/uncinate mass that encases the mesenteric vessels is most consistent with a locally advanced pancreatic ductal adenocarcinoma from the options provided.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Abdominal computed tomography showing a pancreatic mass at the uncinate process, which entirely surrounds the superior mesenteric artery. A plastic stent was inserted in the bile duct.",
+  "sub_caption": "Abdominal computed tomography showing a pancreatic mass at the uncinate process, which entirely surrounds the superior mesenteric artery. A plastic stent was inserted in the bile duct.",
+  "image_context": "A 61-year-old man was admitted to a local hospital because of fever and jaundice. Abdominal\ncomputed tomography (CT) showed a pancreatic tumor at the uncinate process causing biliary\nobstruction. Emergent endoscopic biliary drainage was performed following the diagnosis of acute\ncholangitis. After improvement of the acute cholangitis, pathological samples were obtained by\nbrushing cytology during endoscopic retrograde cholangiopancreatography. However, only mild atypia was diagnosed from brush cytology. The patient was referred to our hospital for further treatment. The pancreatic mass entirely surrounded the superior mesenteric artery and was suspected to be a locally advanced pancreatic cancer (\n<xref rid=\"10-1055-a-0587-4827-i1121ei1\" ref-type=\"fig\">Fig. 1</xref>\n). Therefore, pathological confirmation by EUS-FNA was performed before starting systemic chemotherapy.\n\n). Therefore, pathological confirmation by EUS-FNA was performed before starting systemic chemotherapy.",
+  "relevant_image_context": "Abdominal computed tomography showed a pancreatic tumor at the uncinate process causing biliary obstruction. The pancreatic mass entirely surrounded the superior mesenteric artery, raising suspicion for locally advanced pancreatic cancer."
+}

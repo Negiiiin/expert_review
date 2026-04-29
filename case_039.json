@@ -1,0 +1,31 @@
+{
+  "case_id": 39,
+  "images": {
+    "subfig": "case_039_subfig.jpg",
+    "full": "case_039_full.jpg"
+  },
+  "question": "A 36-year-old nulliparous woman with known uterine fibroids presents with heavy menstrual bleeding and symptomatic anemia despite a prior transfusion. MRI of the pelvis was obtained to further evaluate her pelvic complaint. Based on the imaging, which symptom or clinical sign would be most likely?",
+  "question_scope": "full_figure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Large palpable mass protruding through the vaginal introitus",
+    "B": "Acute urinary retention",
+    "C": "Fever with purulent vaginal discharge",
+    "D": "Ascites with abdominal distension"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the sagittal pelvic MRI for the size, shape, and location of the lesion. I see a large, well‑defined mass occupying the lower pelvis and extending into the vaginal canal; the image measurements show dimensions of roughly 98–110 mm (about 10 × 11 cm). The mass appears contiguous with the uterine region and projects downward toward the vaginal introitus.\n\nNext, I relate these findings to the question, which asks which symptom or clinical sign would be most likely given the imaging. A mass of this size that extends into the vagina would be expected to be palpable externally at the introitus and could present as a visible/protruding vaginal mass.\n\nThen I consider how each option aligns with the imaging: Option A (large palpable mass protruding through the vaginal introitus) directly matches the observed downward‑projecting 10 cm mass. Option B (acute urinary retention) would require imaging evidence of bladder outlet obstruction or gross bladder distension, which is not seen on this image. Option C (fever with purulent vaginal discharge) implies infection; there are no imaging features here to suggest an active infectious process. Option D (ascites with abdominal distension) would require free intraperitoneal fluid or generalized abdominal fluid on the MRI, which is not present.\n\nTherefore, the imaging most strongly supports a large prolapsing pelvic mass that would be palpable at the vaginal introitus, making option A the most likely clinical sign.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "A sagittal view of MRI pelvis showing the (1) endometrial cavity, (2) the pedicle of the prolapsed fibroid, and the (3) prolapsed fibroid in the vagina.",
+  "sub_caption": "A sagittal view of MRI pelvis showing the (1) endometrial cavity, (2) the pedicle of the prolapsed fibroid, and the (3) prolapsed fibroid in the vagina.",
+  "image_context": "A 36-year-old nulliparous widow was admitted with a history of heavy menstrual bleeding and symptoms of anemia. She gave a history of uterine fibroids and heavy prolonged menstrual flow lasting six months. She had a blood transfusion in another hospital four months before this admission for the same reasons. She was otherwise healthy. At presentation, she was pale and tachycardic with normal blood pressure. On abdominal examination, the uterus was palpable corresponding to 16 weeks pregnancy. On vaginal examination, there was a large friable myoma tightly impacted vaginally with inability to visualize or palpate the cervix. Her hemoglobin was 80 g/L and platelets 260 × 106/L with a normal coagulation profile. Pelvic ultrasound showed three intramural fibroids, 3–5 cm in diameter with a vaginal mass details which were difficult to delineate. Magnetic resonance imaging (MRI) showed a large prolapsed vaginal leiomyoma measuring 10 × 11 cm [<xref ref-type=\"fig\" rid=\"OMJ-D-17-00153-f1\">Figure 1</xref>]. The pedicle of the myoma arose from the fundus of the uterine cavity. The cervix was stretched out but appeared grossly normal. Informed consent was obtained for vaginal myomectomy for the prolapsed fibroid and possible hysteroscopic myomectomy for the submucous fibroid. She agreed to a possible hysterectomy only if it was a necessary lifesaving emergency intervention. Her preoperative anemia was corrected.]. The pedicle of the myoma arose from the fundus of the uterine cavity. The cervix was stretched out but appeared grossly normal. Informed consent was obtained for vaginal myomectomy for the prolapsed fibroid and possible hysteroscopic myomectomy for the submucous fibroid. She agreed to a possible hysterectomy only if it was a necessary lifesaving emergency intervention. Her preoperative anemia was corrected.",
+  "relevant_image_context": "Magnetic resonance imaging (MRI) showed a large prolapsed vaginal leiomyoma measuring 10 × 11 cm. The pedicle of the myoma arose from the fundus of the uterine cavity. The cervix was stretched out but appeared grossly normal."
+}

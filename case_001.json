@@ -1,0 +1,31 @@
+{
+  "case_id": 1,
+  "images": {
+    "subfig": "case_001_subfig.jpg",
+    "full": "case_001_full.jpg"
+  },
+  "question": "An 82-year-old man presents with abdominal pain and jaundice. Laboratory tests show elevated transaminases and bilirubin, and CT imaging was performed as part of the evaluation. Based on the imaging, which additional clinical sign would be most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Fever and rigors",
+    "B": "Right upper quadrant tenderness",
+    "C": "Melena",
+    "D": "Lower-extremity edema"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the axial CT image. I see a rounded, high-attenuation focus at the gallbladder neck/cystic duct region (red arrow) that is closely apposed to the extrahepatic bile duct, producing focal compression of the biliary tract on the image.\n\nNext, I relate these findings to the clinical stem: an elderly man with abdominal pain, jaundice, and elevated liver enzymes and bilirubin—features consistent with obstructive biliary pathology caused by an impacted stone at the gallbladder neck compressing the common bile duct.\n\nThen, I consider how each answer lines up with that scenario. Fever and rigors (A) would suggest superimposed ascending cholangitis, which is a possible complication but is not directly indicated by the imaging or the provided data. Right upper quadrant tenderness (B) is a common and expected physical finding in acute biliary obstruction/inflammation and directly corresponds to a stone impacting the gallbladder neck and causing biliary colic or cholecystitis-type pain. Melena (C) reflects gastrointestinal bleeding, which is unrelated to the obstructing biliary stone seen here. Lower-extremity edema (D) reflects systemic or chronic circulatory/oncotic problems and is not explained by an acute obstructing biliary stone.\n\nFinally, tying the image findings (impacted stone compressing the bile duct causing obstructive jaundice) to the most likely clinical sign, focal right upper quadrant tenderness is the best-supported additional finding.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT scan of suspected a Mirizzi's syndrome with a large stone (red arrow) between the CBD and a badly recognizable gallbladder.\nb\nCholangiography showing Mirizzi's syndrome type III with cholecystobiliary fistula involving up to two-thirds of the CBD diameter with an impacted large stone.",
+  "sub_caption": "CT scan of suspected a Mirizzi's syndrome with a large stone (red arrow) between the CBD and a badly recognizable gallbladder.",
+  "image_context": "An 82-year-old man was admitted due to abdominal pain and jaundice. Biochemistry showed high transaminases and bilirubin levels. Computed tomography was suspicious for Mirizzi’s syndrome with a large stone between the CBD and a badly recognizable gallbladder (\n<xref rid=\"10-1055-a-1197-6725-i1934ei1\" ref-type=\"fig\">Fig. 1a</xref>\n). Considering the patient’s severe comorbidity (chronic obstructive pulmonary disease and heart failure) and the high risks related to surgery and anesthesiology, according to the surgeon, we performed endoscopic retrograde cholangiopancreatography (ERCP).\n\n). Considering the patient’s severe comorbidity (chronic obstructive pulmonary disease and heart failure) and the high risks related to surgery and anesthesiology, according to the surgeon, we performed endoscopic retrograde cholangiopancreatography (ERCP). ERCP showed Mirizzi’s syndrome type III with cholecystobiliary fistula involving up to two-thirds of the CBD diameter with an impacted large stone (\n<xref rid=\"10-1055-a-1197-6725-i1934ei1\" ref-type=\"fig\">Fig. 1b</xref>\n). Stone extraction using both the retrieval balloon and the Dormia basket failed. We decided to use the SpyGlass System (Boston Scientific, Massachusetts, United States) to fragment the impacted stone with holmium laser lithotripsy (Storz 25750220, 365-μm-diameter fiber, 15 Hz/20 W). The green aiming beam allowed the stone to be targeted (\n\n). Stone extraction using both the retrieval balloon and the Dormia basket failed. We decided to use the SpyGlass System (Boston Scientific, Massachusetts, United States) to fragment the impacted stone with holmium laser lithotripsy (Storz 25750220, 365-μm-diameter fiber, 15 Hz/20 W). The green aiming beam allowed the stone to be targeted (\n<xref rid=\"10-1055-a-1197-6725-i1934ei2\" ref-type=\"fig\">Fig. 2a</xref>\n), with the laser fiber in contact with the stone until it was fragmented (\n\n), with the laser fiber in contact with the stone until it was fragmented (\n<xref rid=\"10-1055-a-1197-6725-i1934ei2\" ref-type=\"fig\">Fig. 2b</xref>\n); all fragments were finally removed with the retrieval balloon (\n\n); all fragments were finally removed with the retrieval balloon (\n<xref rid=\"10-1055-a-1197-6725-i1934ei2\" ref-type=\"fig\">Fig. 2c</xref>\n) being able to obtain complete CBD toilette, as confirmed at cholangioscopy and cholangiography (\n\n) being able to obtain complete CBD toilette, as confirmed at cholangioscopy and cholangiography (\n<xref rid=\"10-1055-a-1197-6725-i1934ei2\" ref-type=\"fig\">Fig. 2d</xref>\n). No complications were reported and the patient was discharged after 3 days.\n\n). No complications were reported and the patient was discharged after 3 days.",
+  "relevant_image_context": "An 82-year-old man was admitted due to abdominal pain and jaundice. Biochemistry showed high transaminases and bilirubin levels. Computed tomography was suspicious for Mirizzi’s syndrome with a large stone between the CBD and a badly recognizable gallbladder (Fig. 1a)."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 100,
+  "images": {
+    "subfig": "case_100_subfig.jpg",
+    "full": "case_100_full.jpg"
+  },
+  "question": "Investigations show a normal full blood count and a positive Casoni skin test. Contrast-enhanced chest CT and echocardiography have been performed as part of the evaluation. Which of the following pharmacologic agents is most appropriate as adjunctive medical therapy?",
+  "question_scope": "subfigure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Albendazole",
+    "B": "Praziquantel",
+    "C": "Ivermectin",
+    "D": "Metronidazole",
+    "E": "Amphotericin B"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image and the clinical information provided. The axial contrast-enhanced chest CT shows two well-defined, rounded, low-attenuation masses in the mediastinum: one lying posterior to the heart closely abutting the left ventricular surface and another more anterior/central. The question also states the full blood count is normal and that the Casoni skin test is positive; echocardiography confirmed the posterior lesion is adherent to the left ventricle.\n\nNext, I relate these findings to the clinical question, which asks which pharmacologic agent is the most appropriate adjunctive medical therapy. The combination of cystic-appearing mediastinal masses plus a positive Casoni skin test is most consistent with parasitic cysts of the type targeted by anti-helminthic therapy. Because the lesions are cystic and intimately related to cardiac structures, an adjunctive agent that reduces cyst viability and the risk of dissemination with intervention would be preferred.\n\nThen I consider the answer choices in that context. Among the listed drugs, albendazole is the anti-helminthic agent classically used as adjunctive therapy for parasitic cystic disease of this type. The other options (praziquantel, ivermectin, metronidazole, amphotericin B) are directed at different classes of organisms or indications and are not the standard adjunct for cystic helminthic disease shown here.\n\nTherefore, based on the image findings of mediastinal cysts adherent to the heart and the positive Casoni test, albendazole is the most appropriate adjunctive medical therapy.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Chest CT with contrast showing mediastinal cysts.",
+  "sub_caption": "Chest CT with contrast showing mediastinal cysts.",
+  "image_context": "Investigations initially showed a normal full blood count and a positive Casoni test. A chest CT scan with contrast subsequently revealed two multi-loculated mediastinal cysts. The first was located in the middle mediastinum lateral to the ascending aorta. The second was posterior to the heart attached to the posterolateral surface of the left ventricle (Fig. <xref ref-type=\"fig\" rid=\"rjw01901\">1</xref>). Echocardiography demonstrated that the posterior cyst was adherent to the posterior surface of the left ventricle.\n). Echocardiography demonstrated that the posterior cyst was adherent to the posterior surface of the left ventricle.\nFigure 1:Chest CT with contrast showing mediastinal cysts.",
+  "relevant_image_context": "Investigations initially showed a normal full blood count and a positive Casoni test. A chest CT scan with contrast subsequently revealed two multi-loculated mediastinal cysts. The first was located in the middle mediastinum lateral to the ascending aorta. The second was posterior to the heart attached to the posterolateral surface of the left ventricle. Echocardiography demonstrated that the posterior cyst was adherent to the posterior surface of the left ventricle. Figure 1: Chest CT with contrast showing mediastinal cysts."
+}

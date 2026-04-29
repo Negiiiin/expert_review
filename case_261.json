@@ -1,0 +1,29 @@
+{
+  "case_id": 261,
+  "images": {
+    "subfig": "case_261_subfig.jpg",
+    "full": "case_261_full.jpg"
+  },
+  "question": "Based on this image, is the most likely diagnosis a malignant neoplasm of the larynx?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Yes",
+    "B": "No"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for anatomic location and lesion appearance. This axial CT image demonstrates a large, irregular soft-tissue mass centered at the level of the larynx in the midline/paramidline neck. The lesion is heterogeneous in attenuation with several focal higher-density foci within it and it occupies and expands beyond the expected lumenal confines.\n\nNext, I relate these imaging findings to the question, which asks whether the most likely diagnosis is a malignant neoplasm of the larynx.\n\nThen I consider imaging features that distinguish an aggressive/malignant process from a benign one. The mass has irregular margins, heterogeneous internal density, and clear extension into adjacent soft tissues with apparent involvement of the laryngeal cartilaginous framework — features that represent local invasion. These characteristics are more consistent with malignancy than with a well-circumscribed benign lesion, which would usually be confined and noninvasive.\n\nFinally, synthesizing these observations, the imaging appearance (irregular, infiltrative mass centered at the larynx with extension into surrounding structures) makes a malignant laryngeal neoplasm the most likely diagnosis.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT Scan with contrast. Tumour mass affecting glottic and supraglottic larynx, which involved the thyroid cartilage and the paralaryngeal space. In the context of the mass presence of calcification areas.",
+  "sub_caption": "CT Scan with contrast. Tumour mass affecting glottic and supraglottic larynx, which involved the thyroid cartilage and the paralaryngeal space. In the context of the mass presence of calcification areas.",
+  "image_context": "Tumuor staging by means of total body CT scanning with contrast revealed a tumour mass affecting glottic and supraglottic larynx, which also affected the thyroid and circoid cartilages and extended to the paralaryngeal space (Fig. <xref ref-type=\"fig\" rid=\"1757-1626-1-365-1\">1</xref>). No regional or distant metastases were identified. A new laryngoscopy was performed. The new biopsies confirmed the previous examintions.). No regional or distant metastases were identified. A new laryngoscopy was performed. The new biopsies confirmed the previous examintions.",
+  "relevant_image_context": "Tumuor staging by means of total body CT scanning with contrast revealed a tumour mass affecting glottic and supraglottic larynx, which also affected the thyroid and circoid cartilages and extended to the paralaryngeal space (Fig. 1). No regional or distant metastases were identified. A new laryngoscopy was performed. The new biopsies confirmed the previous examintions."
+}

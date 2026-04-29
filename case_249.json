@@ -1,0 +1,31 @@
+{
+  "case_id": 249,
+  "images": {
+    "subfig": "case_249_subfig.jpg",
+    "full": "case_249_full.jpg"
+  },
+  "question": "On a midsagittal perianal ultrasound, which muscular layer lies immediately internal to the external anal sphincter?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Internal anal sphincter",
+    "B": "Puborectalis muscle",
+    "C": "Submucosa",
+    "D": "Rectal mucosa"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the midsagittal perianal ultrasound image and note the labeled structures: the external anal sphincter (EAS) is shown more superficially, the internal anal sphincter (IAS) is shown immediately medial to it, and the mucosa is labeled as the most internal layer.\n\nNext, I relate these visible labels to the question, which asks specifically which muscular layer lies immediately internal to the EAS.\n\nThen, I compare the options to what is seen: option A (Internal anal sphincter) corresponds to the structure labeled IAS that is directly internal to the EAS on the image. Option B (Puborectalis muscle) is not labeled on this midsagittal image and is not shown immediately adjacent to the EAS here. Option D (Rectal mucosa) is labeled as the innermost layer on the image but is not the layer immediately internal to the EAS; it lies deeper than the IAS. Option C (Submucosa) is not depicted or labeled in this image as the layer immediately internal to the EAS.\n\nFinally, tying the observations together: the image clearly shows the IAS positioned immediately internal to the EAS, so the internal anal sphincter is the muscular layer directly internal to the external anal sphincter.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Perianal ultrasound (PAUS) of the anal canal at rest. a + c Coronal plane, b + d midsagittal plane",
+  "sub_caption": "b + d midsagittal plane",
+  "image_context": "PAUS B-mode pictures and 3D/4D-volumes were done standardly during pelvic floor rest and contraction (Figs. <xref rid=\"12905_2021_1387_Fig2_HTML\" ref-type=\"fig\">2</xref>, , <xref rid=\"12905_2021_1387_Fig3_HTML\" ref-type=\"fig\">3</xref>).).Fig. 2Perianal ultrasound (PAUS) of the anal canal at rest. a + c Coronal plane, b + d midsagittal planeFig. 3Schematic representation of with PAUS imaged structures. a Coronal plane, b midsagittal plane, c axial plane",
+  "relevant_image_context": "PAUS B-mode pictures and 3D/4D-volumes were done standardly during pelvic floor rest and contraction (Figs. 2, 3). Fig. 2 Perianal ultrasound (PAUS) of the anal canal at rest. a + c Coronal plane, b + d midsagittal plane Fig. 3 Schematic representation of with PAUS imaged structures. a Coronal plane, b midsagittal plane, c axial plane First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

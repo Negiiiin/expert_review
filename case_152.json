@@ -1,0 +1,32 @@
+{
+  "case_id": 152,
+  "images": {
+    "subfig": "case_152_subfig.jpg",
+    "full": "case_152_full.jpg"
+  },
+  "question": "The patient is drowsy immediately after craniotomy for intracranial tumor resection. Immediate postoperative noncontrast head CT has been obtained (image). Based on the imaging, which diagnostic test is most appropriate next?",
+  "question_scope": "full_figure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "CT angiography of the head and neck",
+    "B": "Digital subtraction cerebral angiography",
+    "C": "Transcranial Doppler ultrasonography",
+    "D": "MRI brain with contrast",
+    "E": "Repeat noncontrast head CT in 24 hours"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided noncontrast head CT images for acute findings. I see postoperative changes consistent with recent craniotomy and hyperdense material layering within the subarachnoid spaces/cisterns and along cortical sulci—findings most consistent with acute subarachnoid hemorrhage. There is also expected postoperative air and surgical change near the anterior skull base.\n\nNext, I relate what I see to the clinical question: the patient is drowsy immediately after tumor resection, and the CT demonstrates acute subarachnoid blood that could reflect a vascular source or acute vascular complication contributing to the altered mental status. The immediate clinical need is to identify whether there is an underlying vascular lesion (for example an aneurysm or extravasation) or an acute vessel compromise that would change management.\n\nThen, I consider how each test option lines up with these observations. CT angiography (CTA) of the head and neck provides rapid, noninvasive vascular imaging and is well suited as the next step to evaluate for a vascular source of acute subarachnoid blood in the immediate postoperative setting. Digital subtraction angiography is more invasive and typically used when noninvasive studies are inconclusive or when an endovascular intervention is planned. Transcranial Doppler is primarily a bedside monitor for vasospasm over time rather than a first test to define anatomic vascular lesions. MRI with contrast is time-consuming and less practical acutely for detecting the vascular source of fresh subarachnoid blood. Waiting 24 hours for a repeat noncontrast CT would unnecessarily delay vascular evaluation.\n\nTherefore, given the acute subarachnoid hemorrhage on the immediate postoperative CT and the need for prompt vascular assessment, CT angiography of the head and neck is the most appropriate next diagnostic test.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT scan in the immediate postoperative period showing total resection of the tumor and subarachnoid bleeding that extends from the surgical site towards the left sylvian and interhemispheric fissure, modified Fisher 3. CT, computed tomography",
+  "sub_caption": "CT scan in the immediate postoperative period showing total resection of the tumor and subarachnoid bleeding that extends from the surgical site towards the left sylvian and interhemispheric fissure, modified Fisher 3. CT, computed tomography",
+  "image_context": "After surgery, the patient was drowsy and immediate computed tomography (CT) scan confirmed total tumor removal, with associated postoperative changes in addition to a subarachnoid hemorrhage (SAH) modified-Fisher 3 (<xref rid=\"jcen-2023-e2023-08-005f2\" ref-type=\"fig\">Fig. 2</xref>).).",
+  "relevant_image_context": "After surgery, the patient was drowsy and immediate computed tomography (CT) scan confirmed total tumor removal, with associated postoperative changes in addition to a subarachnoid hemorrhage (SAH) modified-Fisher 3."
+}

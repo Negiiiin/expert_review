@@ -1,0 +1,32 @@
+{
+  "case_id": 121,
+  "images": {
+    "subfig": "case_121_subfig.jpg",
+    "full": "case_121_full.jpg"
+  },
+  "question": "A 52-year-old man with new-onset fatigue underwent abdominal CT (image provided). He reports no family history of renal disease. Based on the imaging, which of the following best describes the likely risk to his first-degree relatives or offspring of having a similar renal condition?",
+  "question_scope": "subfigure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "High (~50%) — autosomal dominant inheritance",
+    "B": "Moderate (~25%) — autosomal recessive inheritance",
+    "C": "Low — similar to general population risk",
+    "D": "Increased only if bilateral disease is present",
+    "E": "Uncertain — genetic testing required to assess risk"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the CT image for renal findings. The right kidney shows multiple well-defined, fluid-density cystic structures occupying much of the renal parenchyma, while the left kidney appears morphologically normal on this single axial slice. There is no evident bilateral involvement or additional cystic lesions visible in other organs on this image.\n\nNext, I relate these imaging observations to the question, which asks about the likely risk to first-degree relatives or offspring of having a similar renal condition. The image demonstrates unilateral cystic disease in a 52-year-old man who reports no family history of renal disease. A unilateral, isolated-appearing cystic kidney without a family history is more consistent with a sporadic/localized process on imaging than with a widespread heritable cystic disorder.\n\nThen, I consider how the options align with those observations. Option A and B imply substantial inherited risk (autosomal dominant ~50% or autosomal recessive ~25%), which would be less consistent with an isolated unilateral cystic kidney and absent family history. Option D restricts increased risk to cases with bilateral disease, which is an over-specific claim not supported by the image. Option E (uncertain — genetic testing required) would be appropriate if imaging showed features suspicious for a hereditary syndrome or if family history were positive, but here the imaging and history point toward a nonfamilial presentation.\n\nTherefore, based on unilateral cystic involvement on the CT and no family history, the most consistent choice is that the risk to first-degree relatives or offspring is low and similar to the general population.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "An abdominal computed tomography scan demonstrated multi-cystic involvements of the right kidney, which measured 126 × 88 × 84 mm and extended into the pelvis. No further cystic involvement of the contralateral kidney or other abdominal organs was detected.",
+  "sub_caption": "An abdominal computed tomography scan demonstrated multi-cystic involvements of the right kidney, which measured 126 × 88 × 84 mm and extended into the pelvis. No further cystic involvement of the contralateral kidney or other abdominal organs was detected.",
+  "image_context": "A 52-year-old male, who noticed a sudden onset of general fatigue and appetite loss, visited our hospital. No other family member had a history of renal disease. He had been diagnosed with alcoholic hepatopathy 10 years before. His blood pressure was 112/72 mmHg. His right kidney was felt during palpation at the upper right abdominal area. Laboratory findings showed elevated levels of liver enzymes, but renal function was normal (serum creatinine 1.01 mg/dL). On urinalysis, occult blood and urine protein were negative. Abdominal computed tomography revealed multiple large cysts in the right kidney, a normal left kidney, and no evidence of further cystic disease in other organs (<xref ref-type=\"fig\" rid=\"sfq189fig1\">Figure 1</xref>). A diffuse low-density area in his liver was interpreted as fatty liver due to alcoholic hepatopathy. There was no evidence of urinary tract malformation. ). A diffuse low-density area in his liver was interpreted as fatty liver due to alcoholic hepatopathy. There was no evidence of urinary tract malformation. 99mTc-DTPA renal scintigraphy showed asymmetrical accumulation, and the right kidney was non-functioning on scintigraphy (<xref ref-type=\"fig\" rid=\"sfq189fig2\">Figure 2</xref>).).",
+  "relevant_image_context": "A 52-year-old male, who noticed a sudden onset of general fatigue and appetite loss, visited our hospital. No other family member had a history of renal disease. He had been diagnosed with alcoholic hepatopathy 10 years before. His blood pressure was 112/72 mmHg. His right kidney was felt during palpation at the upper right abdominal area. Abdominal computed tomography revealed multiple large cysts in the right kidney, a normal left kidney, and no evidence of further cystic disease in other organs (Figure 1). A diffuse low-density area in his liver was interpreted as fatty liver due to alcoholic hepatopathy. There was no evidence of urinary tract malformation."
+}

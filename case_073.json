@@ -1,0 +1,31 @@
+{
+  "case_id": 73,
+  "images": {
+    "subfig": "case_073_subfig.jpg",
+    "full": "case_073_full.jpg"
+  },
+  "question": "Which mechanism most likely explains the surface features shown in this image?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Plasma membrane outward budding (microvesicle shedding)",
+    "B": "Exosome release from multivesicular bodies",
+    "C": "Actin-driven filopodia extension",
+    "D": "Apoptotic membrane blebbing and fragmentation"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for salient features. This is a scanning electron micrograph with a 10 µm scale bar; the central structure is a cellular surface or process densely covered with many rounded, vesicle-like protrusions. Several of these protrusions have distinct bulbous shapes and appear attached to the plasma membrane by narrow necks, while many smaller particulate bodies coat the surface nearby.\n\nNext, I relate what I see to the question, which asks which mechanism most likely explains these surface features. The image shows outwardly projecting, rounded buds emerging from the plasma membrane, rather than thin, elongated extensions or wholesale fragmentation of the cell.\n\nThen, I consider how each option lines up with those observations. Option A (plasma membrane outward budding/microvesicle shedding) directly describes membrane-derived vesicles budding outward from the cell surface, which matches the visible bulbous buds and necks on the membrane. Option B (exosome release from multivesicular bodies) involves internal multivesicular bodies fusing with the membrane to release small exosomes; that mechanism typically does not produce prominent, attached surface buds like those seen here. Option C (actin-driven filopodia extension) would produce thin, finger-like projections, but the image shows short, rounded buds rather than long thin filopodia. Option D (apoptotic membrane blebbing and fragmentation) implies widespread irregular blebs and loss of structural integrity; the pictured surface appears to have discrete, intact buds rather than extensive fragmentation.\n\nFinally, synthesizing these observations, the morphology—multiple discrete, rounded vesicles budding outward and remaining attached by narrow necks—is most consistent with plasma membrane outward budding (microvesicle shedding).",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "scanning electron microscopy",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "electron microscopy"
+  ],
+  "caption": "Scanning electron micrograph of an isolate from peripheral blood of a healthy human donor (male, 28 years). A mass of microparticles and numerous residual erythrocytes can be seen. The image was taken using a Quanta TM 250 FEG (FEI, Hillsboro, OR) scanning electron microscope at FEI Quanta, Eindhoven, The Netherlands, by applying 1.5 kV.",
+  "sub_caption": "Scanning electron micrograph of an isolate from peripheral blood of a healthy human donor (male, 28 years). A mass of microparticles and numerous residual erythrocytes can be seen. The image was taken using a Quanta TM 250 FEG (FEI, Hillsboro, OR) scanning electron microscope at FEI Quanta, Eindhoven, The Netherlands, by applying 1.5 kV.",
+  "image_context": "<xref ref-type=\"fig\" rid=\"ijn-6-2737f1\">Figure 1</xref> shows a typical scanning electron micrograph of an isolate from the blood of a healthy human donor, exhibiting a mass of nanoparticles and many residual erythrocytes.  shows a typical scanning electron micrograph of an isolate from the blood of a healthy human donor, exhibiting a mass of nanoparticles and many residual erythrocytes. <xref ref-type=\"fig\" rid=\"ijn-6-2737f2\">Figure 2</xref> shows scanning electron micrographs of chosen regions of an isolate from the blood of a healthy human donor. Heparin (A–D) and trisodium citrate (E, F) were used as the anticoagulants. Numerous nanoparticles can be seen, while residual cells such as erythrocytes (A, black arrow) and activated platelets (A, white arrow) were also present in the isolate. The nanoparticles had diverse shapes and sizes. Tubular structures of different lengths were found (B–F), which were more abundant with heparin than with trisodium citrate as the anticoagulant. Peculiar structures such as a torus (E, white arrows) and starfish (F, black arrow) were found. The white arrow in  shows scanning electron micrographs of chosen regions of an isolate from the blood of a healthy human donor. Heparin (A–D) and trisodium citrate (E, F) were used as the anticoagulants. Numerous nanoparticles can be seen, while residual cells such as erythrocytes (A, black arrow) and activated platelets (A, white arrow) were also present in the isolate. The nanoparticles had diverse shapes and sizes. Tubular structures of different lengths were found (B–F), which were more abundant with heparin than with trisodium citrate as the anticoagulant. Peculiar structures such as a torus (E, white arrows) and starfish (F, black arrow) were found. The white arrow in <xref ref-type=\"fig\" rid=\"ijn-6-2737f1\">Figure 1F</xref> identifies a cell which formed protrusions with bulbous ends. identifies a cell which formed protrusions with bulbous ends.",
+  "relevant_image_context": "The white arrow in Figure 1F identifies a cell which formed protrusions with bulbous ends."
+}

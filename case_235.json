@@ -1,0 +1,32 @@
+{
+  "case_id": 235,
+  "images": {
+    "subfig": "case_235_subfig.jpg",
+    "full": "case_235_full.jpg"
+  },
+  "question": "A patient with resected tumors is referred for genetic counseling because a hereditary syndrome is suspected. Family members ask about the risk to potential offspring. Based on the imaging and clinical suspicion, what is the most likely probability that a first-degree offspring will inherit a pathogenic germline variant?",
+  "question_scope": "subfigure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "~50% (autosomal dominant)",
+    "B": "~25% (autosomal recessive)",
+    "C": "<5% (sporadic, low familial risk)",
+    "D": "10–20% (moderate familial aggregation)",
+    "E": "~100% (guaranteed transmission)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image: it shows resected specimens including an adrenal gland and a labeled 2 x 2 cm fleshy tumor in the pancreatic head (pancreaticoduodenectomy specimen). These are two distinct tumors from different organs removed from the same patient.\n\nNext, I relate what I see to the question, which states a hereditary syndrome is suspected and asks about the probability that a first-degree offspring will inherit a pathogenic germline variant. The image demonstrating multiple primary tumors in separate organs supports the clinical suspicion of an inherited predisposition rather than a single sporadic tumor.\n\nThen, I consider how each inheritance probability option aligns with that observation. The options give clear transmission probabilities: ~50% for autosomal dominant, ~25% for autosomal recessive, <5% for sporadic/low familial risk, 10–20% for moderate aggregation, and ~100% for guaranteed transmission. Multiple tumors in different organs in one affected individual make a sporadic (<5%) explanation less likely, and guaranteed (100%) transmission is not supported by any typical Mendelian scenario.\n\nFinally, given a suspected hereditary tumor syndrome presenting with multiple primary tumors, an autosomal dominant pattern (each child having approximately a 50% chance of inheriting the variant) is the most consistent choice among the options. Therefore the best answer is the autosomal dominant probability.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Visible light photography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "clinical imaging"
+  ],
+  "caption": "(a) CECT abdomen showed enlarged right adrenal gland heterogeneous (red) Pancreatic head solid mass situated posteriorly (blue) and Cyst in pancreatic tail (green), (b) Right Adrenalectomy and Pancreaticoduodenectomy specimen of the same patient",
+  "sub_caption": "Right Adrenalectomy and Pancreaticoduodenectomy specimen of the same patient",
+  "image_context": "On examination patient was found to be hypertensive with postural fall. On hormonal evaluation he was found to have high levels of 24 h urinary normetanephrines. CECT abdomen [<xref ref-type=\"fig\" rid=\"IJEM-23-159-g002\">Figure 2a</xref>] showed enlarged right adrenal gland heterogeneous (red), pancreatic head solid mass situated posteriorly (blue), and cyst in pancreatic tail (green). In order to rule out other NET and tumor in contralateral adrenal functional imaging was done. FDG PET scan showed avid uptake in right adrenal and pancreatic head. Hence, a clinical diagnosis of Vhl was made. With adequate alpha blockade patient was planned for right adrenalectomy and pancreatic surgery. Open transperitoneal anterior adrenalectomy with IOUSG and bidigital palpation of pancreas—tumor located posteriorly, close to main pancreatic duct as enucleation not possible hence decision was taken for pancreaticoduodenectomy [] showed enlarged right adrenal gland heterogeneous (red), pancreatic head solid mass situated posteriorly (blue), and cyst in pancreatic tail (green). In order to rule out other NET and tumor in contralateral adrenal functional imaging was done. FDG PET scan showed avid uptake in right adrenal and pancreatic head. Hence, a clinical diagnosis of Vhl was made. With adequate alpha blockade patient was planned for right adrenalectomy and pancreatic surgery. Open transperitoneal anterior adrenalectomy with IOUSG and bidigital palpation of pancreas—tumor located posteriorly, close to main pancreatic duct as enucleation not possible hence decision was taken for pancreaticoduodenectomy [<xref ref-type=\"fig\" rid=\"IJEM-23-159-g002\">Figure 2b</xref>]. Postoperative course was uneventful. Postoperative urinary normetanephrines were normal on 10]. Postoperative course was uneventful. Postoperative urinary normetanephrines were normal on 10th day. Histopathology showed right adrenal PCC and pancreatic NET with uncertain malignant potential. Mutation analysis revealed positive mutation in exon 3 of VHL gene at 167th position of amino acid Arg (arginine) is replaced by Gln (glutamine) happens due to CGG-CAG a single nucleotide change.",
+  "relevant_image_context": "CECT abdomen showed enlarged right adrenal gland heterogeneous (red), pancreatic head solid mass situated posteriorly (blue), and cyst in pancreatic tail (green). In order to rule out other NET and tumor in contralateral adrenal functional imaging was done. FDG PET scan showed avid uptake in right adrenal and pancreatic head. Hence, a clinical diagnosis of Vhl was made. With adequate alpha blockade patient was planned for right adrenalectomy and pancreatic surgery. Open transperitoneal anterior adrenalectomy with IOUSG and bidigital palpation of pancreas—tumor located posteriorly, close to main pancreatic duct as enucleation not possible hence decision was taken for pancreaticoduodenectomy. Postoperative course was uneventful. Histopathology showed right adrenal PCC and pancreatic NET with uncertain malignant potential."
+}

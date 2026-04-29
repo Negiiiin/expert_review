@@ -1,0 +1,31 @@
+{
+  "case_id": 51,
+  "images": {
+    "subfig": "case_051_subfig.jpg",
+    "full": "case_051_full.jpg"
+  },
+  "question": "A 51-year-old woman with myasthenia gravis received preoperative radiotherapy for an anterior mediastinal tumor that decreased in size but remained adherent to surrounding structures. She is being evaluated for definitive surgical resection. Based on the imaging, which operative strategy is most appropriate?",
+  "question_scope": "full_figure",
+  "question_category": "Surgery / operative management",
+  "options": {
+    "A": "Median sternotomy extended thymectomy alone",
+    "B": "Extended thymectomy with en bloc pericardium and right upper lobe resection including involved pulmonary veins and phrenic nerve",
+    "C": "Video-assisted thoracoscopic thymectomy only",
+    "D": "Extended thymectomy with superior vena cava resection/reconstruction"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for the anatomic relationships of the lesion. On the axial CT there is a soft-tissue mass in the anterior mediastinum that lies immediately anterior/lateral to the right heart border and is contiguous with the pericardial surface and the adjacent superior medial lung. The mass is not confined to a small central thymic location but is closely apposed to pericardium and lung.\n\nNext, I relate those imaging findings to the clinical question, which states the tumor decreased after radiotherapy but remains adherent to surrounding structures. That combination (anterior mediastinal mass with persistent adherence to pericardium and adjacent lung) implies the need to plan for en bloc resection of involved mediastinal and cardiopulmonary structures rather than a limited thymectomy or a purely minimally invasive approach.\n\nThen I consider how the operative options align with the imaging: a median sternotomy extended thymectomy alone (A) or a VATS thymectomy (C) would be insufficient for a mass adherent to pericardium and lung because they do not address resection of involved pericardium or pulmonary parenchyma. Option D (SVC resection/reconstruction) targets caval involvement, but the lesion on this slice appears most closely contiguous with the pericardium and right superior lung rather than centered on the SVC. Option B specifically plans en bloc resection including the pericardium and right upper lobe (and associated pulmonary veins/phrenic nerve if involved), which directly addresses the observed adherence to pericardium and adjacent lung.\n\nTherefore, given the image appearance of pericardial and adjacent pulmonary adherence and the need for an en bloc oncologic resection, option B best matches the operative strategy indicated by the imaging.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT reveals an anterior mediastinal tumor 47 mm in diameter, invading the superior vena cava.",
+  "sub_caption": "CT reveals an anterior mediastinal tumor 47 mm in diameter, invading the superior vena cava.",
+  "image_context": "The patient was a 51-year-old woman. In 2004, she had been diagnosed with MG (MGFA I) based on eyelid ptosis and detection of ARAB. Ten years after diagnosis of MG, elevation of the diaphragm was detected on chest X-ray. CT revealed an anterior mediastinal tumor 47 mm in diameter. We suspected tumor invasion to the right phrenic nerve, right atrium, and superior vena cava (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>), and preoperative radiotherapy (total 40 Gy) was therefore selected. Although the tumor showed a reduction in diameter from 47 mm to 37 mm, invasion to the pericardium remained. At this point, the decision was made to perform surgery. Extended thymectomy and partial resection of the right upper lobe (segments S), and preoperative radiotherapy (total 40 Gy) was therefore selected. Although the tumor showed a reduction in diameter from 47 mm to 37 mm, invasion to the pericardium remained. At this point, the decision was made to perform surgery. Extended thymectomy and partial resection of the right upper lobe (segments S2 and S3), right phrenic nerve, pericardium, and right pulmonary vein (V2b and V3) were therefore performed. Pathological examination revealed squamous cell carcinoma invading into the pericardium and lung (Masaoka stage III), pT3N0M0 WHO stage III. In this case, the type B3 thymoma was slightly observed within the squamous cell carcinoma (<xref rid=\"gr4\" ref-type=\"fig\">Fig. 4</xref>).).",
+  "relevant_image_context": "CT revealed an anterior mediastinal tumor 47 mm in diameter. We suspected tumor invasion to the right phrenic nerve, right atrium, and superior vena cava."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 169,
+  "images": {
+    "subfig": "case_169_subfig.jpg",
+    "full": "case_169_full.jpg"
+  },
+  "question": "Which label best describes the dominant anatomical finding demonstrated in this image?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Neural arborization zone of teres minor",
+    "B": "Suprascapular nerve branch entry",
+    "C": "Subacromial–subdeltoid bursa",
+    "D": "Posterior circumflex humeral artery",
+    "E": "Infraspinatus motor endplate zone"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for anatomic structures and the salient finding. I see a posterior shoulder dissection with a narrow muscle running along the axillary border of the scapula (appearance and location consistent with the teres minor). Two needles/syringes are inserted into the belly of that muscle in parallel, and a blue-shaded rectangular region overlies the midportion of the muscle, indicating a specific targeted zone. Part of the overlying caption text visible at the bottom refers to \"2/3 of axillary border of the scap...\", which corroborates the location along the scapular axillary border.\n\nNext, I relate these observations to the question, which asks which label best describes the dominant anatomical finding. The dominant visual feature is the blue-shaded intramuscular zone within the teres minor that is being targeted by the needles.\n\nThen, I consider how each option lines up with what is shown. A discrete nerve entry point (option B) would appear as a single localized entry rather than a broad shaded intramuscular region. A bursa (option C) or an artery (option D) would not present as an intramuscular rectangular target zone with injection needles placed into muscle fibers. Option E names the infraspinatus motor endplate zone, but the pictured muscle and overlay correspond to the teres minor rather than the infraspinatus.\n\nFinally, tying the observations to the choices: the image best matches a focused intramuscular region within teres minor that is being targeted (blue overlay plus injection placements) — this is best described by \"neural arborization zone of teres minor.\"",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "anatomical photography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "clinical imaging"
+  ],
+  "caption": "The teres minor muscles had the largest arborization patterns (shaded in blue), in the located on 1/5–3/5. The tendinous portion was observed in the 3/5–5/5. The needles in the photograph show ideal injection areas along the teres minor muscle where the largest arborization was observed.",
+  "sub_caption": "The needles in the photograph show ideal injection areas along the teres minor muscle where the largest arborization was observed.",
+  "image_context": "There are limited studies that have investigated the anatomy of the teres minor muscle. Our study identified the location of the intramuscular neural dense area of the nerve branch that connects to the teres minor muscle. This area was found to be located between 1/5 and 3/5 from the reference point and these areas should considered in clinical fields (<xref rid=\"acb-56-3-322-f5\" ref-type=\"fig\">Fig. 5</xref>). This finding could serve as a helpful guideline for injections targeting the teres minor muscle.). This finding could serve as a helpful guideline for injections targeting the teres minor muscle.",
+  "relevant_image_context": "There are limited studies that have investigated the anatomy of the teres minor muscle. Our study identified the location of the intramuscular neural dense area of the nerve branch that connects to the teres minor muscle. This area was found to be located between 1/5 and 3/5 from the reference point and these areas should be considered in clinical fields (Fig. 5). This finding could serve as a helpful guideline for injections targeting the teres minor muscle."
+}

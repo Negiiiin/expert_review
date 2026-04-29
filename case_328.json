@@ -1,0 +1,31 @@
+{
+  "case_id": 328,
+  "images": {
+    "subfig": "case_328_subfig.jpg",
+    "full": "case_328_full.jpg"
+  },
+  "question": "A patient presents with localized facial swelling after cosmetic filler injections. Conservative measures have failed, and the treating clinician plans intralesional enzymatic therapy to remove the injected material. Which pharmacologic agent is most appropriate?",
+  "question_scope": "subfigure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Intralesional hyaluronidase",
+    "B": "Intralesional corticosteroid injection",
+    "C": "Intralesional collagenase injection",
+    "D": "Oral doxycycline therapy"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for relevant findings. The ultrasound image is labeled with anatomical landmarks (parotid gland, masseter muscle, mandible) and shows a distinct ovoid focus labeled \"HA,\" indicating deposited hyaluronic acid filler in the facial soft tissue.\n\nNext, I relate these observations to the clinical question, which specifies a patient with localized facial swelling after cosmetic filler injections and a plan for intralesional enzymatic therapy to remove the injected material.\n\nThen, I evaluate how each option aligns with the image and the planned enzymatic approach. Option A (hyaluronidase) is an enzyme whose name corresponds to hyaluronic acid (HA) seen on the scan, so it directly matches the identified filler substrate. Option B (intralesional corticosteroid) is not an enzymatic agent and would address inflammation rather than chemically degrading a filler. Option C (collagenase) is an enzyme aimed at collagen-based material and therefore does not specifically target HA. Option D (oral doxycycline) is a systemic medication and is neither an intralesional enzyme nor directly targeted at removing filler material.\n\nFinally, tying these points together: because the imaging shows hyaluronic acid filler (HA) and the question asks for an intralesional enzymatic agent to remove the injected material, the most appropriate choice is intralesional hyaluronidase.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Hyaluronic acid deposits (HA) visible in the parotid gland. Nodules (*) visible seen by chronic parotid inflammation. The total distance from skin to SMAS including the subcutaneous layer is 3.21 mm",
+  "sub_caption": "Hyaluronic acid deposits (HA) visible in the parotid gland. Nodules (*) visible seen by chronic parotid inflammation. The total distance from skin to SMAS including the subcutaneous layer is 3.21 mm",
+  "image_context": "On physical examination, the patient showed no swelling of the parotid‐masseteric region. Ultrasound images (Philips Affiniti 70, 18 MHz linear probe) displayed multiple anechoic pockets in the parotid gland on both sides of the face, matching with nodules seen with chronic parotitis (Figure <xref rid=\"JOCD-22-173-g001\" ref-type=\"fig\">3</xref>). Two pockets of hyaluronic acid fillers were seen in the parotid gland with ultrasound. The patient was treated with hyaluronidase intralesional injections (150 units divided over the two pockets) under ultrasound guidance. At follow‐up 4 weeks later, swelling and tenderness had disappeared.). Two pockets of hyaluronic acid fillers were seen in the parotid gland with ultrasound. The patient was treated with hyaluronidase intralesional injections (150 units divided over the two pockets) under ultrasound guidance. At follow‐up 4 weeks later, swelling and tenderness had disappeared.",
+  "relevant_image_context": "Ultrasound images displayed multiple anechoic pockets in the parotid gland on both sides of the face, matching with nodules seen with chronic parotitis. Two pockets of hyaluronic acid fillers were seen in the parotid gland with ultrasound. The patient was treated with hyaluronidase intralesional injections (150 units divided over the two pockets) under ultrasound guidance. At follow-up 4 weeks later, swelling and tenderness had disappeared."
+}

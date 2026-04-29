@@ -1,0 +1,31 @@
+{
+  "case_id": 150,
+  "images": {
+    "subfig": "case_150_subfig.jpg",
+    "full": "case_150_full.jpg"
+  },
+  "question": "Based on this image, which of the following best describes the dominant imaging finding?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Severe thoracic kyphotic deformity with gibbus",
+    "B": "Multi-level cervical spondylotic lordosis",
+    "C": "Normal sagittal spinal alignment",
+    "D": "Thoracic scoliosis with lateral curvature"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for overall spinal alignment and the shape of the vertebral column. I note this is a sagittal MRI view and the thoracic region shows a marked forward (anterior) convexity with a sharp angulated apex in the mid-thoracic spine, producing a prominent kyphotic deformity.\n\nNext, I relate what I see to the question, which asks which choice best describes the dominant imaging finding. The dominant abnormality is the focal, severe thoracic kyphosis with an angular apex (consistent with a gibbus-type deformity) rather than a smooth, normal sagittal contour.\n\nThen, I consider how each option lines up with those observations. Option A directly describes a severe thoracic kyphotic deformity with a gibbus, which matches the sharp angular kyphosis seen. Option B (multi-level cervical spondylotic lordosis) does not fit because the major abnormality is in the thoracic region, not the cervical region. Option C (normal sagittal alignment) is inconsistent with the obvious abnormal kyphotic angulation. Option D (thoracic scoliosis with lateral curvature) describes a coronal-plane lateral curve, which is not what is seen on this sagittal image.\n\nTherefore, the imaging appearance is best described as a severe thoracic kyphotic deformity with gibbus.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "26year old male presented with late onset paralysis due to conservatively treated childhood tuberculosis leading to significant kyphosis. This was treated with posterior stabilization and internal gibbectomy",
+  "sub_caption": "Subfigure-A: Sagittal T2-weighted MRI showing significant kyphosis due to conservatively treated childhood tuberculosis, leading to spinal deformity requiring posterior stabilization and internal gibbectomy.",
+  "image_context": "Treatment of paraplegia in severe kyphosis is anterior transposition of the cord through laminectomy.[12] Laminectomy was performed first, then enough spinal nerve roots were divided on both sides to permit rotation and retraction of the theca so that enough bone from the front of the vertebral canal could be removed. Excellent removal of internal kyphosis can be achieved through the anterolateral approach to permit the cord to lie in a relaxed anterior position.[<xref ref-type=\"fig\" rid=\"JCVJS-1-74-g006\">Figure 4a</xref>––<xref ref-type=\"fig\" rid=\"JCVJS-1-74-g006\">b</xref>] Rajasekaran (2002) suggested stabilization of the spine posteriorly followed by anterior debridement and bone grafting in the active stage of the disease. In the healed stage with rigid deformity, he suggested anterior debridement first to be followed by posterior instrumentation and anterior fusion.] Rajasekaran (2002) suggested stabilization of the spine posteriorly followed by anterior debridement and bone grafting in the active stage of the disease. In the healed stage with rigid deformity, he suggested anterior debridement first to be followed by posterior instrumentation and anterior fusion.",
+  "relevant_image_context": "Subfigure-A: Sagittal T2-weighted MRI showing significant kyphosis due to conservatively treated childhood tuberculosis, leading to spinal deformity requiring posterior stabilization and internal gibbectomy. Treatment of paraplegia in severe kyphosis is anterior transposition of the cord through laminectomy. Laminectomy was performed first, then enough spinal nerve roots were divided on both sides to permit rotation and retraction of the theca so that enough bone from the front of the vertebral canal could be removed. Excellent removal of internal kyphosis can be achieved through the anterolateral approach to permit the cord to lie in a relaxed anterior position. Rajasekaran (2002) suggested stabilization of the spine posteriorly followed by anterior debridement and bone grafting in the active stage of the disease. In the healed stage with rigid deformity, he suggested anterior debridement first to be followed by posterior instrumentation and anterior fusion."
+}

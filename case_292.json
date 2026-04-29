@@ -1,0 +1,32 @@
+{
+  "case_id": 292,
+  "images": {
+    "subfig": "case_292_subfig.jpg",
+    "full": "case_292_full.jpg"
+  },
+  "question": "A patient underwent brain MRI and is referred for genetic counseling to discuss recurrence risk for future children. Which inheritance pattern and recurrence risk is most likely for a congenital disorder classically associated with the imaging appearance seen here?",
+  "question_scope": "subfigure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "Autosomal recessive — 25% per pregnancy",
+    "B": "Autosomal dominant — 50% per pregnancy",
+    "C": "X-linked recessive — ~50% for sons",
+    "D": "Sporadic (low familial recurrence)",
+    "E": "Multifactorial — modestly increased recurrence"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial T2 brain MRI at the level of the posterior fossa. I see a midline cerebellar vermis that appears underdeveloped and a midbrain region with relatively thick, horizontally oriented cerebellar peduncles and a deep interpeduncular cleft — the overall configuration resembles the classic \"molar tooth\" appearance.\n\nNext, I relate these imaging findings to the question, which asks about recurrence risk for the congenital disorder classically associated with this imaging appearance. The question implies that this characteristic imaging sign points to a specific congenital genetic condition, and asks which inheritance pattern/recurrence risk is most likely for that condition.\n\nThen, I compare the imaging-derived diagnosis to the answer choices. The congenital disorder linked to the described molar-tooth configuration is classically inherited in an autosomal recessive manner. For autosomal recessive inheritance, when both parents are carriers, each pregnancy carries a 25% risk of an affected child.\n\nFinally, tying the imaging findings to the genetics choices, the autosomal recessive option with a 25% recurrence risk per pregnancy best matches the disorder suggested by the image.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial T2‐weighted brain MRI taken when the patient was 19 years old. Black arrows point to “molar tooth” sign",
+  "sub_caption": "Axial T2‐weighted brain MRI taken when the patient was 19 years old. Black arrows point to “molar tooth” sign",
+  "image_context": "When the proband turned 18 years old, her primary care provider referred her to the children's clinic. The brain MRI was repeated and the “molar tooth sign” was reported, with note made of hypoplasia of the cerebellar vermis, thick superior cerebellar peduncles, and a particularly deep interpeduncular fossa (Figure <xref rid=\"CCR3-6-2189-g002\" ref-type=\"fig\">2</xref>). The proband was then referred to genetics, which ordered genetic testing and subsequently diagnosed her with Joubert syndrome. Genetics noted her low platelet count and ordered an abdominal ultrasound that revealed hepatosplenomegaly. This was consistent with the COACH phenotype of Joubert syndrome, and genetic testing was ordered to evaluate genes known to be associated with this phenotype.). The proband was then referred to genetics, which ordered genetic testing and subsequently diagnosed her with Joubert syndrome. Genetics noted her low platelet count and ordered an abdominal ultrasound that revealed hepatosplenomegaly. This was consistent with the COACH phenotype of Joubert syndrome, and genetic testing was ordered to evaluate genes known to be associated with this phenotype.",
+  "relevant_image_context": "The brain MRI was repeated and the “molar tooth sign” was reported, with note made of hypoplasia of the cerebellar vermis, thick superior cerebellar peduncles, and a particularly deep interpeduncular fossa (Figure 2)."
+}

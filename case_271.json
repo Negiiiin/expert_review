@@ -1,0 +1,31 @@
+{
+  "case_id": 271,
+  "images": {
+    "subfig": "case_271_subfig.jpg",
+    "full": "case_271_full.jpg"
+  },
+  "question": "A patient presents with recent onset central visual distortion and decreased visual acuity. En-face OCT was obtained (image shown) to evaluate the macula. Based on this imaging, which pharmacologic therapy is the most appropriate initial treatment?",
+  "question_scope": "full_figure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Intravitreal anti-VEGF injections",
+    "B": "Photodynamic therapy with verteporfin",
+    "C": "Intravitreal corticosteroid injection",
+    "D": "Observation with monitoring"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the images for anatomic signs of macular pathology. On the cross-sectional OCT (top) there is a dome-shaped elevation of the retinal pigment epithelium at the fovea containing heterogeneous, hyper-reflective material beneath the RPE, consistent with a pigment epithelial detachment (PED) that contains abnormal tissue. This area corresponds to the patient's central symptoms.\n\nNext, I inspect the en-face OCT (bottom). Within the area of the PED there is a compact, round hyper-reflective network with radiating elements (arrowheads) — a pattern that represents a vascular membrane within the PED rather than simple fluid or isolated RPE elevation. These imaging findings together indicate an active neovascular complex underlying the macula.\n\nThen, I relate these observations to the clinical question. The patient has recent central visual distortion and decreased acuity, and the images show a neovascular membrane consistent with choroidal neovascularization causing the PED. Among the listed options, intravitreal anti-VEGF injections are the pharmacologic therapy directed at neovascular membranes and therefore address the pathology visible on imaging.\n\nFinally, I consider the alternatives briefly: photodynamic therapy is a different treatment modality and not the pharmacologic injection that targets the neovascular complex seen; intravitreal corticosteroid targets inflammatory/mechanical edema rather than neovascular proliferation; and simple observation is not appropriate for a symptomatic, image-confirmed neovascular membrane. Therefore, the most appropriate initial pharmacologic therapy is intravitreal anti-VEGF injections, which directly treat the neovascular lesion demonstrated on the OCT images.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Optical coherence tomography (OCT)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "optical coherence tomography"
+  ],
+  "caption": "Spectral domain optical coherence tomography B-scan showing a type 1 membrane in an eye with occult choroidal neovascularization (top image-arrow). En-face image (bottom image) at the level of retinal pigment epithelium showing the total extent of the occult membrane (arrowheads)",
+  "sub_caption": "En-face image (bottom image) at the level of retinal pigment epithelium showing the total extent of the occult membrane (arrowheads)",
+  "image_context": "En-face imaging can also visualize CNV in FV-PEDs due to exudative AMD. Coscas et al. showed that en-face EDI SD-OCT was able to demonstrate the CNV as a hyper-reflective network within the FV-PED in 30 out of 38 eyes with AMD, with an underlying area of homogeneous hypo-reflectivity consistent with serous exudation. The course of the hyper-reflectivity on OCT corresponded well with the hyper-fluorescent network on ICG. In the other 8 eyes, en-face imaging showed dense, homogenous hyper-reflectivity within the FV-PED, suggestive of fibrous tissue obscuring the CNV. <xref ref-type=\"fig\" rid=\"IJO-63-378-g002\">Fig. 2</xref> is an en-face OCT scan revealing the total extent of occult CNV. With the ability to detect CNV on en-face OCT, it may be possible in future to diagnose type 1 exudative AMD noninvasively, without the need for FA and ICG, both of which require intravenous contrast injection.[ is an en-face OCT scan revealing the total extent of occult CNV. With the ability to detect CNV on en-face OCT, it may be possible in future to diagnose type 1 exudative AMD noninvasively, without the need for FA and ICG, both of which require intravenous contrast injection.[17]",
+  "relevant_image_context": "En-face imaging can also visualize CNV in FV-PEDs due to exudative AMD. Coscas et al. showed that en-face EDI SD-OCT was able to demonstrate the CNV as a hyper-reflective network within the FV-PED in 30 out of 38 eyes with AMD, with an underlying area of homogeneous hypo-reflectivity consistent with serous exudation. The course of the hyper-reflectivity on OCT corresponded well with the hyper-fluorescent network on ICG. In the other 8 eyes, en-face imaging showed dense, homogenous hyper-reflectivity within the FV-PED, suggestive of fibrous tissue obscuring the CNV. Fig. 2 is an en-face OCT scan revealing the total extent of occult CNV. With the ability to detect CNV on en-face OCT, it may be possible in future to diagnose type 1 exudative AMD noninvasively, without the need for FA and ICG, both of which require intravenous contrast injection."
+}

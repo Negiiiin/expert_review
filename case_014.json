@@ -1,0 +1,31 @@
+{
+  "case_id": 14,
+  "images": {
+    "subfig": "case_014_subfig.jpg",
+    "full": "case_014_full.jpg"
+  },
+  "question": "Based on this image, what is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Polycystic liver disease",
+    "B": "Multiple simple hepatic cysts",
+    "C": "Hepatic hydatid disease",
+    "D": "Cystic hepatic metastases"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image of the upper abdomen and focus on the liver. I see numerous well-defined, round to ovoid, low-attenuation lesions of varying sizes scattered throughout the hepatic parenchyma; they have thin walls and homogeneous fluid attenuation without visible internal septations, solid nodules, or calcifications on this slice.\n\nNext, I relate these imaging features to the question asking for the most likely diagnosis. The pattern is one of diffuse, multifocal cystic replacement of the liver with many cysts of different sizes, and there is visible mass effect/displacement of central structures near the porta hepatis.\n\nThen I compare those observations to the provided options: simple hepatic cysts are typically fewer and isolated rather than diffusely numerous; hydatid disease often shows daughter cysts or calcified components which are not seen here; cystic metastases commonly have irregular walls, mural nodularity or enhancing solid components, which are absent. The diffuse, innumerable, well-marginated simple-appearing cysts with mass effect are most consistent with polycystic liver disease.\n\nTherefore, based on the diffuse distribution of multiple simple-appearing hepatic cysts and their mass effect, the most likely diagnosis is polycystic liver disease.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Computed tomogram of the abdomen shows massive polycystic liver disease with compression effect in the biliary tracts.",
+  "sub_caption": "Computed tomogram of the abdomen shows massive polycystic liver disease with compression effect in the biliary tracts.",
+  "image_context": "Computed tomography demonstrated some cysts in the liver with a significant amount of normal residual parenchyma (<xref ref-type=\"fig\" rid=\"mejdd-10-117-g001\">figure 1</xref>). The patient was referred to our unit for further assessment. At fist in our unit endoscopic ultrasonography was done by linear and radial echoendosope (). The patient was referred to our unit for further assessment. At fist in our unit endoscopic ultrasonography was done by linear and radial echoendosope (<xref ref-type=\"fig\" rid=\"mejdd-10-117-g002\">figure 2</xref>) and multiple large cystic lesions were found in the liver, two of which were measured more than 7 cm. The common bile duct (CBD) was compressed by a cyst in the distal part and in the hilum. The CBD was narrowed in distal and was dilated in proximal part, with no stone, sludge, or any lesion. Endoscopic retrograde cholangiopancreatography (ERCP) was performed, which showed that the CBD contained no stones, and the proximal part of the CBD, and right and left hepatic ducts were dilated due to narrowing induced in cystic lesions in distal part of the CBD and bifurcation, respectively. During ERCP cholangioscopy was performed. Filling defect was not seen, but external compression was seen in some areas. Sphincterotomy and brushing cytology were performed, with negative result for cholangiocarcinoma. One 14-cm plastic stent was inserted into the biliary duct. Post-ERCP the patient steadily recovered and jaundice was gradually resolved. He referred to liver transplantation unit.\n) and multiple large cystic lesions were found in the liver, two of which were measured more than 7 cm. The common bile duct (CBD) was compressed by a cyst in the distal part and in the hilum. The CBD was narrowed in distal and was dilated in proximal part, with no stone, sludge, or any lesion. Endoscopic retrograde cholangiopancreatography (ERCP) was performed, which showed that the CBD contained no stones, and the proximal part of the CBD, and right and left hepatic ducts were dilated due to narrowing induced in cystic lesions in distal part of the CBD and bifurcation, respectively. During ERCP cholangioscopy was performed. Filling defect was not seen, but external compression was seen in some areas. Sphincterotomy and brushing cytology were performed, with negative result for cholangiocarcinoma. One 14-cm plastic stent was inserted into the biliary duct. Post-ERCP the patient steadily recovered and jaundice was gradually resolved. He referred to liver transplantation unit.",
+  "relevant_image_context": "Computed tomography demonstrated some cysts in the liver with a significant amount of normal residual parenchyma (figure 1). Two cysts were measured more than 7 cm. The common bile duct (CBD) was compressed by a cyst in the distal part and in the hilum. The CBD was narrowed in distal and was dilated in proximal part, with no stone, sludge, or any lesion."
+}

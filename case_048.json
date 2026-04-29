@@ -1,0 +1,31 @@
+{
+  "case_id": 48,
+  "images": {
+    "subfig": "case_048_subfig.jpg",
+    "full": "case_048_full.jpg"
+  },
+  "question": "A patient underwent contrast-enhanced CT 7 days after total colectomy for slow-transit constipation to evaluate the postoperative course. Based on the imaging, which of the following prognostic implications is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "Likely benign seroma managed conservatively",
+    "B": "High risk of surgical-site infection and delayed healing",
+    "C": "Immediate return to operating room for bowel compromise",
+    "D": "Predominant risk of thromboembolic complication"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the axial contrast-enhanced CT image obtained 7 days after total colectomy. The anterior midline abdominal wall shows a focal separation of the fascial/soft-tissue planes with a lenticular, low-attenuation fluid collection occupying the wound defect. The surrounding subcutaneous tissues adjacent to the defect appear mildly heterogeneous, and bowel loops are present deeper in the pelvis without obvious dilatation or a contained segment within the wound.\n\nNext, I relate these imaging findings to the question, which asks about the most likely prognostic implication. The key imaging features to consider are the midline wound dehiscence (separation of the abdominal wall) and the intra-wound fluid collection.\n\nThen, I consider how each option aligns with those observations. A seroma (option A) could present as a postoperative fluid collection, but a simple benign seroma would be less likely when there is frank separation of the wound edges and surrounding soft-tissue change. Immediate return to the OR for bowel compromise (option C) would require imaging evidence of incarcerated/ischemic bowel within the defect or obstructed bowel loops, which are not present here. Predominant risk of thromboembolic complication (option D) is not suggested by this localized wound appearance and cannot be inferred from the image.\n\nFinally, tying these observations together: a fluid collection in the setting of wound separation increases the risk that the site will become infected and that healing will be delayed or complicated. Therefore the imaging most strongly supports a high risk of surgical-site infection and delayed healing.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Abdominal wound dehiscence.On a contrast-enhanced postoperative CT scan performed 7 days after total colectomy for severe slow transit constipation, separation of the abdominal wall and a fluid collection is identified along the midline incision (arrows).",
+  "sub_caption": "On a contrast-enhanced postoperative CT scan performed 7 days after total colectomy for severe slow transit constipation, separation of the abdominal wall and a fluid collection is identified along the midline incision (arrows).",
+  "image_context": "대장 직장 수술의 상처 감염 혹은 수술 부위 감염(surgical site infections)은 다른 복부 수술에 비해 4배나 더 잘 발생하는 것으로 알려져 있다(35). 수술 부위 감염을 방치하게 되면 시간이 지남에 따라 상처 벌어짐(wound dehiscence)과 절개창 탈장(incisional hernia)이 발생하게 된다(36). 상처 감염과 상처 벌어짐의 영상의학적 소견은 CT상에서 복벽절개창(abdominal wall incision) 내에 생긴 소량의 액체 또는 공기 저류가 보이는 것이다(<xref rid=\"jksr-85-727-g006\" ref-type=\"fig\">Fig. 6</xref>) () (36). 간혹 상처를 닫지 않고 2차 치유(secondary intention wound healing)를 위해 수술적 드레싱으로 상처 부위를 채워 넣은 경우가 있으며, 이것을 상처 부위 벌어짐으로 오해해서는 안 된다(37).",
+  "relevant_image_context": "상처 감염과 상처 벌어짐의 영상의학적 소견은 CT상에서 복벽절개창(abdominal wall incision) 내에 생긴 소량의 액체 또는 공기 저류가 보이는 것이다"
+}

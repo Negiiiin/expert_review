@@ -1,0 +1,31 @@
+{
+  "case_id": 55,
+  "images": {
+    "subfig": "case_055_subfig.jpg",
+    "full": "case_055_full.jpg"
+  },
+  "question": "Which description best classifies the dominant imaging finding?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Simple anechoic adrenal cyst",
+    "B": "Complex cystic adrenal lesion with internal echogenicity (hemorrhagic)",
+    "C": "Solid hypoechoic adrenal mass",
+    "D": "Adrenal myelolipoma"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for sonographic features. The image is labeled \"Long LOW L ADRENAL\" and shows an ovoid lesion in the expected adrenal region marked by cross-hairs. Measured dimensions on the image are approximately 0.87 cm by 0.75 cm. The lesion contains a central anechoic/hypoechoic component but also demonstrates internal echogenic material or an echogenic wall/septation within the cystic space.\n\nNext, I relate these findings to the question, which asks for the best classification of the dominant imaging finding.\n\nThen, I consider how each option aligns with the observed features. Option A (simple anechoic adrenal cyst) would imply a completely anechoic lesion without internal echoes; the pictured lesion, however, displays internal echogenicity, so A is not a good match. Option C (solid hypoechoic adrenal mass) implies a predominantly solid appearance; the lesion here shows a clear cystic/anechoic component rather than a homogeneous solid mass, so C is unlikely. Option D (adrenal myelolipoma) names a specific adrenal lesion type but does not match the observed cystic lesion with internal echoes seen here. Option B (complex cystic adrenal lesion with internal echogenicity [hemorrhagic]) explicitly describes a cystic lesion that contains internal echogenic material, which corresponds directly to the sonographic appearance in this image.\n\nTherefore, based on the image appearance (small cystic lesion with internal echogenicity), the best classification is the complex cystic adrenal lesion described in option B.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Ultrasound completed on day of birth showing bilateral adrenal gland enlargement. The right adrenal gland (1) measured up to 3.2 cm with a maximal limb thickness of 7 mm. The left adrenal gland (2) measured up to 4.3 cm with a maximal limb thickness of 8 mm. There was a hypoechoic cystic structure with an echogenic wall (3) that measured approximately 9 × 8 mm in the left adrenal gland.",
+  "sub_caption": "There was a hypoechoic cystic structure with an echogenic wall (3) that measured approximately 9 × 8 mm in the left adrenal gland.",
+  "image_context": "Upon transfer to the NICU, the patient was noted to be very pale with a soft, full abdomen with LLQ fullness. To assess for potential sources of bleeding, head ultrasound showed small grade I germinal matrix hemorrhages. The abdominal ultrasound was significant for bilateral enlarged adrenal glands, with the right adrenal measuring 3.2 cm with maximal limb thickness 8 mm and left adrenal gland measuring 4.3 cm with maximal limb thickness of 8 mm, in addition to a hypoechoic cystic structure 9 mm × 8 mm in the left adrenal gland concerning for adrenal hemorrhage (<xref rid=\"EDM23-0091fig1\" ref-type=\"fig\">Fig. 1</xref>). Given severe anemia and possible left adrenal hemorrhage, pediatric hematology and endocrinology were consulted within the first 24 h of life.\n). Given severe anemia and possible left adrenal hemorrhage, pediatric hematology and endocrinology were consulted within the first 24 h of life.\nFigure 1Ultrasound completed on day of birth showing bilateral adrenal gland enlargement. The right adrenal gland (1) measured up to 3.2 cm with a maximal limb thickness of 7 mm. The left adrenal gland (2) measured up to 4.3 cm with a maximal limb thickness of 8 mm. There was a hypoechoic cystic structure with an echogenic wall (3) that measured approximately 9 × 8 mm in the left adrenal gland.",
+  "relevant_image_context": "bilateral enlarged adrenal glands, with the right adrenal measuring 3.2 cm with maximal limb thickness 8 mm and left adrenal gland measuring 4.3 cm with maximal limb thickness of 8 mm, in addition to a hypoechoic cystic structure 9 mm × 8 mm in the left adrenal gland concerning for adrenal hemorrhage."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 95,
+  "images": {
+    "subfig": "case_095_subfig.jpg",
+    "full": "case_095_full.jpg"
+  },
+  "question": "A patient who began immune checkpoint inhibitor therapy 8 weeks ago presents with new abdominal pain and diarrhea. Contrast-enhanced CT was obtained (image provided). Based on the clinical context and the imaging, which diagnostic test is most appropriate next to evaluate the patient's condition?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Colonoscopy with full-length biopsy",
+    "B": "Flexible sigmoidoscopy with biopsy",
+    "C": "Stool testing for Clostridioides difficile",
+    "D": "MR enterography",
+    "E": "Empiric high-dose corticosteroids without testing"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the supplied CT image and note focal large-bowel abnormality: there is circumferential wall thickening with mucosal hyperenhancement, adjacent pericolonic fat stranding, and regional vascular engorgement that are confined to the distal colon at the level of the sigmoid and rectum.\n\nNext, I relate those imaging observations to the clinical stem: the patient started immune checkpoint inhibitor therapy 8 weeks ago and now has new abdominal pain and diarrhea, so an ICI-associated colitis localized to the recto‑sigmoid is a leading consideration given the distal inflammatory changes on CT.\n\nThen I consider how each diagnostic option aligns with the observed distribution and the diagnostic needs. Flexible sigmoidoscopy directly visualizes and allows biopsy of the rectum and sigmoid — the exact segments abnormal on CT — and therefore provides mucosal assessment and histologic confirmation with a focused, lower-risk exam. Full colonoscopy would be more extensive but is not necessary as the CT shows distal involvement only. Stool testing for C. difficile can help identify infectious causes but does not provide mucosal visualization or tissue diagnosis and would not localize the disease. MR enterography is targeted to the small bowel and is not helpful for isolated distal colonic inflammation. Empiric high‑dose corticosteroids without any diagnostic testing risks treating an unconfirmed process and missing an infection.\n\nTherefore, given CT evidence of inflammation confined to the recto‑sigmoid in a patient on ICI therapy, the most appropriate next diagnostic test is a focused endoscopic evaluation with biopsy of that distal segment via flexible sigmoidoscopy.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "73-year-old patient with lung squamous cell carcinoma under Pembrolizumab. (A) Axial post-contrast CT image demonstrating colitis after 8 weeks of ICI administration, with diffuse bowel wall thickening (red arrowheads) and mucosal hyperemia (yellow arrow), at the level of sigma and rectus; also associated with peri-visceral fat stranding (blue arrow) and local vascular engorgement (orange arrow). (B) Axial post-contrast CT image showing colitis resolution (green arrow) after Pembrolizumab discontinuation and corticosteroid administration.",
+  "sub_caption": "(A) Axial post-contrast CT image demonstrating colitis after 8 weeks of ICI administration, with diffuse bowel wall thickening (red arrowheads) and mucosal hyperemia (yellow arrow), at the level of sigma and rectus; also associated with peri-visceral fat stranding (blue arrow) and local vascular engorgement (orange arrow).",
+  "image_context": "There are two main CT patterns of immune-related colitis described in the literature, diffuse colitis or segmental colitis associated with diverticulosis (SCAD) which is usually confined to the sigmoid (<xref rid=\"curroncol-30-00355-g001\" ref-type=\"fig\">Figure 1</xref>). A less frequent pattern has been described by Barina et al. which corresponds to isolated recto-sigmoid colitis without diverticulosis (). A less frequent pattern has been described by Barina et al. which corresponds to isolated recto-sigmoid colitis without diverticulosis (Table 3) [36].",
+  "relevant_image_context": "There are two main CT patterns of immune-related colitis described in the literature, diffuse colitis or segmental colitis associated with diverticulosis (SCAD) which is usually confined to the sigmoid. A less frequent pattern has been described by Barina et al. which corresponds to isolated recto-sigmoid colitis without diverticulosis. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 239,
+  "images": {
+    "subfig": "case_239_subfig.jpg",
+    "full": "case_239_full.jpg"
+  },
+  "question": "A 62-year-old woman with 5 months of abdominal pain, nausea, and vomiting has normal CBC, CMP, and serologic testing including IgG and ANCA. CT imaging was obtained. Based on the imaging, which of the following is the most appropriate next-step management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Endoscopic ultrasound-guided FNA",
+    "B": "Immediate surgical resection",
+    "C": "Trial of corticosteroids",
+    "D": "18F-FDG PET/CT for staging",
+    "E": "CT-guided percutaneous biopsy"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial contrast-enhanced CT image of the upper abdomen. The pancreas appears enlarged with a heterogeneous, mass-like soft-tissue attenuation involving a large portion of the gland across the expected head/body region; there is no obvious distant organ mass visible on this single slice.\n\nNext, I relate these imaging findings to the clinical details provided. The patient has 5 months of progressive abdominal symptoms and laboratory testing (CBC, CMP, and serologic testing including IgG and ANCA) is reported as normal, so there is no serologic evidence pointing to an inflammatory or autoimmune etiology that would obviate the need for tissue diagnosis.\n\nThen, I consider how each management option matches the imaging and clinical situation. The image demonstrates a pancreatic mass-like process for which a tissue diagnosis is needed prior to definitive therapy; among the choices, two options obtain tissue (EUS-guided FNA and CT-guided percutaneous biopsy). Immediate surgical resection would be premature without histologic confirmation, a corticosteroid trial would be appropriate only if autoimmune disease were supported by clinical/serologic evidence, and PET/CT is a staging tool rather than a first diagnostic step.\n\nFinally, I weigh the biopsy approaches in the context of a pancreatic lesion visible on CT. Endoscopic ultrasound-guided fine needle aspiration is the most appropriate next-step to obtain a targeted tissue diagnosis of a pancreatic mass seen on cross-sectional imaging before committing to surgery or other therapies.\n\nTherefore, endoscopic ultrasound-guided FNA is the best next step.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT abdomen depicting a diffuse tissue mass in the head and tail of the pancreas.",
+  "sub_caption": "CT abdomen depicting a diffuse tissue mass in the head and tail of the pancreas.",
+  "image_context": "A 62-year-old female with history of Crohn’s was referred to our hospital with abdominal pain that started 5 months ago accompanied by nausea and vomiting. Review of systems was negative for weight loss or loss of appetite. She had no previous history of pancreatitis or family history of pancreatic cancer. The patient’s complete blood count and comprehensive metabolic panel were within normal limits. Her Ig G and ANCA levels were normal, thus ruling out autoimmune pancreatitis. CT revealed a diffuse tissue mass in the head and tail of the pancreas (Fig. <xref ref-type=\"fig\" rid=\"rjy218f02\">2</xref>). Fine needle aspiration of the mass through endoscopic ultrasound yielded only chronic inflammatory cells (lymphocytes, lymphocytic aggregates, macrophages, lympho histiocytic aggregates). A CT-guided percutaneous FNA of a peripancreatic lymph node also revealed no evidence of malignancy.). Fine needle aspiration of the mass through endoscopic ultrasound yielded only chronic inflammatory cells (lymphocytes, lymphocytic aggregates, macrophages, lympho histiocytic aggregates). A CT-guided percutaneous FNA of a peripancreatic lymph node also revealed no evidence of malignancy.",
+  "relevant_image_context": "A 62-year-old female with history of Crohn’s was referred to our hospital with abdominal pain that started 5 months ago accompanied by nausea and vomiting. Review of systems was negative for weight loss or loss of appetite. She had no previous history of pancreatitis or family history of pancreatic cancer. The patient’s complete blood count and comprehensive metabolic panel were within normal limits. Her Ig G and ANCA levels were normal, thus ruling out autoimmune pancreatitis. CT revealed a diffuse tissue mass in the head and tail of the pancreas (Fig. 2)."
+}

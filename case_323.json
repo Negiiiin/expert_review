@@ -1,0 +1,32 @@
+{
+  "case_id": 323,
+  "images": {
+    "subfig": "case_323_subfig.jpg",
+    "full": "case_323_full.jpg"
+  },
+  "question": "A patient underwent CT-guided liver biopsy that revealed adenocarcinoma with immunohistochemical markers suggesting a gastrointestinal primary (CDX2 and CK20 positive; CK7 negative). The image above is part of the current evaluation. Which additional diagnostic test is most appropriate next to identify the primary tumor?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Colonoscopy with biopsy",
+    "B": "Whole-body 18F-FDG PET–CT",
+    "C": "Contrast-enhanced CT chest/abdomen/pelvis",
+    "D": "Esophagogastroduodenoscopy (upper endoscopy)",
+    "E": "Serum tumor marker panel (CEA, CA 19-9)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image: an axial abdominal MRI slice showing a focal solid-appearing lesion in the right hepatic lobe (subcapsular), consistent with the known liver metastasis that was biopsied. The image confirms a discrete hepatic metastatic deposit but does not identify the primary site.\n\nNext, I relate what I see to the question: the CT-guided liver biopsy established adenocarcinoma with immunohistochemistry described as CDX2 positive, CK20 positive, and CK7 negative, explicitly suggesting a gastrointestinal primary. The clinical problem now is to localize that GI primary tumor.\n\nThen, I consider how each diagnostic option aligns with that goal. Colonoscopy (A) provides direct visualization and the ability to biopsy mucosal lesions in the colon and is therefore the definitive test to detect and sample a colorectal primary. Upper endoscopy (D) evaluates the esophagus, stomach, and duodenum (upper GI) and would be the correct choice if the suspicion favored an upper-GI primary, but the provided immunoprofile favors an intestinal-type (lower-GI) origin. Cross-sectional CT (C) or whole-body FDG PET–CT (B) can search for extrahepatic disease but may miss small mucosal primaries and cannot provide tissue diagnosis. Serum tumor markers (E) are non-specific and would not localize or confirm the primary.\n\nFinally, tying these observations together: given a liver metastasis with immunostains pointing to a gastrointestinal (intestinal/colorectal) origin, the most direct and appropriate next diagnostic test to identify and biopsy the primary tumor is colonoscopy.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "A Contrast-enhanced abdominal computed tomography showing an enlarged and heterogeneous liver, with ill-defined hypoattenuating indeterminate lesions (arrow). B Abdominal magnetic resonance (T2-weighted image) depicting a suspicious intermediate signal solid nodule (arrowhead) on right hepatic lobe",
+  "sub_caption": "B Abdominal magnetic resonance (T2-weighted image) depicting a suspicious intermediate signal solid nodule (arrowhead) on right hepatic lobe",
+  "image_context": "Repeated CT in October 2019 showed improvement in pulmonary congestion, signs of pericardiocentesis, and the appearance of indeterminate liver lesions, subsequently confirmed on magnetic resonance as solid nodules (Fig. <xref rid=\"13256_2021_3085_Fig4_HTML\" ref-type=\"fig\">4</xref>). No conspicuous lesions were reported in intestines (although colons were not adequately distended). CT-guided liver biopsy was then performed, revealing adenocarcinoma of probable gastrointestinal origin (immunohistochemical analysis positive for CDX2, CK19, and CK20 and negative for CK7 and TTF1). Colonoscopy was carried out in November 2019, showing a vegetating and stenosing lesion of the sigmoid colon, biopsy-proven adenocarcinoma. The patient underwent laparoscopic rectosigmoidectomy and pelvic and retroperitoneal lymphadenectomy. Anatomopathological result was moderately differentiated invasive tubulopapillary adenocarcinoma. Peritoneal carcinomatosis was also observed. Pathological staging was pT2N2bM1.). No conspicuous lesions were reported in intestines (although colons were not adequately distended). CT-guided liver biopsy was then performed, revealing adenocarcinoma of probable gastrointestinal origin (immunohistochemical analysis positive for CDX2, CK19, and CK20 and negative for CK7 and TTF1). Colonoscopy was carried out in November 2019, showing a vegetating and stenosing lesion of the sigmoid colon, biopsy-proven adenocarcinoma. The patient underwent laparoscopic rectosigmoidectomy and pelvic and retroperitoneal lymphadenectomy. Anatomopathological result was moderately differentiated invasive tubulopapillary adenocarcinoma. Peritoneal carcinomatosis was also observed. Pathological staging was pT2N2bM1.Fig. 4A Contrast-enhanced abdominal computed tomography showing an enlarged and heterogeneous liver, with ill-defined hypoattenuating indeterminate lesions (arrow). B Abdominal magnetic resonance (T2-weighted image) depicting a suspicious intermediate signal solid nodule (arrowhead) on right hepatic lobe",
+  "relevant_image_context": "Repeated CT in October 2019 showed improvement in pulmonary congestion, signs of pericardiocentesis, and the appearance of indeterminate liver lesions, subsequently confirmed on magnetic resonance as solid nodules. No conspicuous lesions were reported in intestines (although colons were not adequately distended). CT-guided liver biopsy was then performed, revealing adenocarcinoma of probable gastrointestinal origin (immunohistochemical analysis positive for CDX2, CK19, and CK20 and negative for CK7 and TTF1). Colonoscopy was carried out in November 2019, showing a vegetating and stenosing lesion of the sigmoid colon, biopsy-proven adenocarcinoma. The patient underwent laparoscopic rectosigmoidectomy and pelvic and retroperitoneal lymphadenectomy. Anatomopathological result was moderately differentiated invasive tubulopapillary adenocarcinoma. Peritoneal carcinomatosis was also observed. Pathological staging was pT2N2bM1. B Abdominal magnetic resonance (T2-weighted image) depicting a suspicious intermediate signal solid nodule (arrowhead) on right hepatic lobe."
+}

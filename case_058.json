@@ -1,0 +1,31 @@
+{
+  "case_id": 58,
+  "images": {
+    "subfig": "case_058_subfig.jpg",
+    "full": "case_058_full.jpg"
+  },
+  "question": "A patient presents with several days of focal foot symptoms and undergoes Doppler ultrasonography to evaluate potential venous causes. Which symptom or clinical sign would be most likely, based on the image?",
+  "question_scope": "subfigure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Localized plantar pain with swelling",
+    "B": "Diffuse lower-leg edema without pain",
+    "C": "Exertional calf claudication",
+    "D": "Isolated neuropathic toe burning"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image. This is a color Doppler ultrasound of the plantar soft tissues of the foot. In the scan I see a round tubular structure in the plantar soft tissue with arrows pointing to it; the lumen shows little to no internal color flow compared with nearby tissue, and there appears to be an intraluminal echogenic focus. These findings indicate a focal venous structure with compromised flow in the plantar region.\n\nNext, I relate what I see to the question, which asks which symptom or sign would be most likely given the image and a workup for venous causes. The image demonstrates a localized venous abnormality in the sole of the foot rather than a diffuse or arterial process.\n\nThen, I consider how each option lines up with those observations. Option A (localized plantar pain with swelling) matches a focal venous lesion confined to the plantar region and would be expected to produce local pain and swelling. Option B (diffuse lower-leg edema without pain) implies more extensive venous obstruction of the leg, which is not supported by this focal plantar finding. Option C (exertional calf claudication) describes an arterial exertional symptom, which does not fit the venous appearance on the Doppler. Option D (isolated neuropathic toe burning) implies a primary nerve problem without a focal venous correlate; the image instead shows a vascular abnormality.\n\nTherefore, the imaging appearance of a focal plantar vein with absent or reduced flow best corresponds to focal plantar pain and swelling.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "– Color flow Doppler image showing venous thrombosis of noncompressible plantar veins without flow.",
+  "sub_caption": "Color flow Doppler image showing venous thrombosis of noncompressible plantar veins without flow.",
+  "image_context": "A TVP pode acometer diversos segmentos venosos em conjunto ou isoladamente. Um exemplo é a trombose de veias plantares, não avaliada com frequência. Deve-se buscar esse diagnóstico quando há a presença de dor aguda e/ou edema no pé. Os aspectos ultrassonográficos da TVP plantar recentemente observados são a dilatação venosa e a presença do trombo luminal com redução da compressibilidade venosa (\n<xref rid=\"0066-782X-abc-118-04-0797-gf12\" ref-type=\"fig\">Figura 12</xref>\n).\n).",
+  "relevant_image_context": "A TVP pode acometer diversos segmentos venosos em conjunto ou isoladamente. Um exemplo é a trombose de veias plantares, não avaliada com frequência. Deve-se buscar esse diagnóstico quando há a presença de dor aguda e/ou edema no pé. Os aspectos ultrassonográficos da TVP plantar recentemente observados são a dilatação venosa e a presença do trombo luminal com redução da compressibilidade venosa (Figura 12)."
+}

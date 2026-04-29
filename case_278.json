@@ -1,0 +1,31 @@
+{
+  "case_id": 278,
+  "images": {
+    "subfig": "case_278_subfig.jpg",
+    "full": "case_278_full.jpg"
+  },
+  "question": "Based on this image, what is the severity category?",
+  "question_scope": "subfigure",
+  "question_category": "Severity grading",
+  "options": {
+    "A": "Mild stenosis",
+    "B": "Moderate stenosis",
+    "C": "Severe stenosis",
+    "D": "Occlusion"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the two image panels. Both panels show the same short focal segment indicated by a red arrow: a sharply narrowed lumen compared with the adjacent vessel segments. The narrowed segment appears markedly constricted (an abrupt \"waist\") rather than a subtle taper.\n\nNext, I relate these observations to the question, which asks for the severity category of stenosis. I consider the practical visual distinctions between the options: \"mild\" would be only a slight luminal narrowing, \"moderate\" a clear but partial reduction in lumen diameter, \"severe\" a near‑complete or very marked reduction in lumen caliber, and \"occlusion\" would show absent contrast/flow beyond the lesion.\n\nThen I compare the image to those categories. The lesion here shows a very marked reduction in lumen diameter (near‑occlusive appearance) but there remains contrast opacification beyond the narrowed point, so flow is present distal to the narrowing. That pattern fits the description of severe stenosis rather than occlusion, and is more pronounced than what would be called mild or moderate narrowing.\n\nFinally, tying these observations together: a short, sharply constricted segment with near‑complete luminal compromise yet preserved distal opacification is most consistent with severe stenosis.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MDCT angiography (MDCTA)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "angiography"
+  ],
+  "caption": "Axial view (a), sagital MPR (b) and corresponding VR views (c, d) illustrate a typical case of high degree compression of the CTK (red arrows) by the MAL of the diaphragm fortuitously diagnosed in a 68-year-old patient. The compression appears well compensated by retrograde arterial supply from the SMA through typical serpiginous hypertrophy of the PDAs (white arrows).",
+  "sub_caption": "Axial view (a), sagital MPR (b) and corresponding VR views (c, d) illustrate a typical case of high degree compression of the CTK (red arrows) by the MAL of the diaphragm fortuitously diagnosed in a 68-year-old patient. The compression appears well compensated by retrograde arterial supply from the SMA through typical serpiginous hypertrophy of the PDAs (white arrows).",
+  "image_context": "During MDCTA the MALS exhibits a characteristic hooked appearance of the focal narrowing of the CTK and the deformation increases during expiration (Figures <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g1\">1</xref> and  and <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g2\">2</xref>). This aspect is clearly distinctive from other causes of stenosis such atherosclerosis [). This aspect is clearly distinctive from other causes of stenosis such atherosclerosis [9]. Poststenotic dilatation of the compressed CTK is also common as well as the development of collaterals which essentially concern serpiginous hypertrophy of the Gastroduodenal Artery (GDA) and of the cephalic pancreatic arcades (CPAs) (Figures <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g1\">1</xref> and  and <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g3\">3</xref>). These antero-inferior and postero-superior CPAs envelop the pancreas head in a circular network [). These antero-inferior and postero-superior CPAs envelop the pancreas head in a circular network [14]. They anastomose the GDA originating from the hepatic artery (HA) with the inferior pancreaticoduodenal artery originating from the SMA usually as its first branch.",
+  "relevant_image_context": "During MDCTA the MALS exhibits a characteristic hooked appearance of the focal narrowing of the CTK and the deformation increases during expiration. This aspect is clearly distinctive from other causes of stenosis such as atherosclerosis. Poststenotic dilatation of the compressed CTK is also common as well as the development of collaterals which essentially concern serpiginous hypertrophy of the Gastroduodenal Artery (GDA) and of the cephalic pancreatic arcades (CPAs). These antero-inferior and postero-superior CPAs envelop the pancreas head in a circular network. They anastomose the GDA originating from the hepatic artery with the inferior pancreaticoduodenal artery originating from the SMA usually as its first branch."
+}

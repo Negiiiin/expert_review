@@ -1,0 +1,31 @@
+{
+  "case_id": 23,
+  "images": {
+    "subfig": "case_023_subfig.jpg",
+    "full": "case_023_full.jpg"
+  },
+  "question": "Which region of the displayed image best localizes the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Spatial location on image (quadrant / region)",
+  "options": {
+    "A": "Upper-left quadrant",
+    "B": "Upper-right quadrant",
+    "C": "Lower-left quadrant",
+    "D": "Lower-right quadrant"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for salient visual features. The circular endoscopic view shows gastric mucosa with rugal folds and a prominent bright, linear metallic object traversing the field; small metallic clips or fasteners are visible along that line.\n\nNext, I relate what I see to the question, which asks which region of the displayed image best localizes the finding. I identify the finding (the metallic line with clips) and note its position within the circular image frame: the bulk of the metallic object and the most conspicuous clip lie in the upper-left quadrant of the visible field.\n\nThen, I consider how the answer choices map to that observation. The four options divide the image into quadrants; the finding clearly projects into the upper-left quadrant rather than the upper-right, lower-left, or lower-right.\n\nFinally, I tie the visual localization to the selected option: because the metallic lead and its clips are most prominent in the upper-left portion of the image, the correct localization is the upper-left quadrant.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Endoscopy",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "endoscopy"
+  ],
+  "caption": "Temporary GES lead is shown clipped against the gastric mucosa.",
+  "sub_caption": "Temporary GES lead is shown clipped against the gastric mucosa.",
+  "image_context": "A radionuclide gastric emptying study demonstrated delayed emptying of liquids (while still taking narcotics). He underwent a temporary stimulator placement on POD 26 via nasal access to the lead wires with the following settings (8 V, 330 μs PW, 14 Hz, 1 s on, 4 s off) (Fig. <xref ref-type=\"fig\" rid=\"crg-0013-0430-g04\">4</xref>). A standard upper gastroscope was used and an external Medtronic Enterra II stimulator with the size of 6.0 × 5.5 × 1.14 cm and 45 g weight was placed. The patient underwent an EGD with the goal of switching lead access from nasal to PEG tube due to nasal discomfort from leads. His G-tube output had markedly decreased from 4 L on admission to 1.9 L by POD 35. The symptoms score improved after placement of the temporary stimulator via nasal access and remained stable after changing the lead access (Table ). A standard upper gastroscope was used and an external Medtronic Enterra II stimulator with the size of 6.0 × 5.5 × 1.14 cm and 45 g weight was placed. The patient underwent an EGD with the goal of switching lead access from nasal to PEG tube due to nasal discomfort from leads. His G-tube output had markedly decreased from 4 L on admission to 1.9 L by POD 35. The symptoms score improved after placement of the temporary stimulator via nasal access and remained stable after changing the lead access (Table 1).",
+  "relevant_image_context": "A radionuclide gastric emptying study demonstrated delayed emptying of liquids (while still taking narcotics). He underwent a temporary stimulator placement on POD 26 via nasal access to the lead wires with the following settings (8 V, 330 μs PW, 14 Hz, 1 s on, 4 s off) (Fig. 4). A standard upper gastroscope was used and an external Medtronic Enterra II stimulator with the size of 6.0 × 5.5 × 1.14 cm and 45 g weight was placed. The patient underwent an EGD with the goal of switching lead access from nasal to PEG tube due to nasal discomfort from leads. His G-tube output had markedly decreased from 4 L on admission to 1.9 L by POD 35. The symptoms score improved after placement of the temporary stimulator via nasal access and remained stable after changing the lead access (Table 1)."
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 21,
+  "images": {
+    "subfig": "case_021_subfig.jpg",
+    "full": "case_021_full.jpg"
+  },
+  "question": "Based on this axial chest CT image, which pulmonary lobe is most likely involved?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Right upper lobe",
+    "B": "Right middle lobe",
+    "C": "Right lower lobe",
+    "D": "Left lower lobe",
+    "E": "Left upper lobe"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the axial chest CT for side and level: the heart is visualized on the left, so the dense abnormality in the opposite hemithorax is on the right. The lesion is located in the dependent, posterior-lateral portion of the right hemithorax near the diaphragm on this lower thoracic cut.\n\nNext, I describe what I see: multiple hyperattenuating particulate densities clustered within a region of air-space consolidation in the dependent posterior portion of the right lung, with surrounding increased soft-tissue attenuation consistent with lobar/segmental consolidation at the lung base.\n\nThen I relate these anatomic observations to the question, which asks which pulmonary lobe is involved. On axial images at this level, a posterior, dependent process at the right lung base corresponds to the right lower lobe rather than the right upper or middle lobes (which are more superior and/or anterior) and not to the left lobes (no corresponding abnormality on the left).\n\nTherefore, the imaging appearance — dependent posterior consolidation with dense particulate material in the right lung base — is most consistent with involvement of the right lower lobe.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Computed tomography (CT)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "A contrast chest computed tomography scan from a 67-year-old male with respiratory failure 1 day after upper gastrointestinal series (barium swallow). There are hyperdensities within the right lower lobe bronchi (arrows) representing aspirated barium with surrounding consolidation.",
+  "sub_caption": "A contrast chest computed tomography scan from a 67-year-old male with respiratory failure 1 day after upper gastrointestinal series (barium swallow). There are hyperdensities within the right lower lobe bronchi (arrows) representing aspirated barium with surrounding consolidation.",
+  "image_context": "A 67-year-old male was brought to hospital (Linda University Medical Center, Loma Linda, CA, USA) after being hit by a car. The patient underwent surgery for a fractured acetabulum. The post-operative course was complicated by 7 days of ileus. An upper gastrointestinal (GI) series (i.e. barium swallow) with small bowel follow-through was requested. There were no immediate complications during the upper GI series. The supine abdominal radiograph at 8 h post-upper GI series (<xref rid=\"err-23-133-396-f01\" ref-type=\"fig\">fig. 1</xref>) showed relatively normal lungs and contrast within the stomach and proximal small bowel. 15 h after the upper GI series, the patient complained of shortness of breath with a respiratory rate of 14 breaths·min) showed relatively normal lungs and contrast within the stomach and proximal small bowel. 15 h after the upper GI series, the patient complained of shortness of breath with a respiratory rate of 14 breaths·min−1 and an arterial oxygen saturation measured by pulse oximetry of 99%. The patient was reassured. The supine abdominal radiograph at 16 h post-upper GI series (<xref rid=\"err-23-133-396-f01\" ref-type=\"fig\">fig. 1</xref>) showed consolidation within the right lung. A contrast chest computed tomography scan was then performed () showed consolidation within the right lung. A contrast chest computed tomography scan was then performed (<xref rid=\"err-23-133-396-f02\" ref-type=\"fig\">fig. 2</xref>) and showed hyperdense round irregular foci within the lung with surrounding consolidation. The densities within the lung represented aspirated barium contrast after the upper GI series while the patient was in his room. Due to the severe ileus, the contrast agent did not pass through the stomach and remained at a location susceptible to aspiration. The patient went on to suffer acute respiratory failure as a result of acute pneumonitis and eventually had a tracheostomy tube inserted. This demonstrates the importance of aspiration precautions for patients with ileus.) and showed hyperdense round irregular foci within the lung with surrounding consolidation. The densities within the lung represented aspirated barium contrast after the upper GI series while the patient was in his room. Due to the severe ileus, the contrast agent did not pass through the stomach and remained at a location susceptible to aspiration. The patient went on to suffer acute respiratory failure as a result of acute pneumonitis and eventually had a tracheostomy tube inserted. This demonstrates the importance of aspiration precautions for patients with ileus.",
+  "relevant_image_context": "A contrast chest computed tomography scan was performed and showed consolidation within the right lung, with hyperdense round irregular foci within the lung with surrounding consolidation. The densities within the lung represented aspirated barium contrast after the upper GI series while the patient was in his room. Due to the severe ileus, the contrast agent did not pass through the stomach and remained at a location susceptible to aspiration."
+}

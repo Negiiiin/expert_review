@@ -1,0 +1,32 @@
+{
+  "case_id": 314,
+  "images": {
+    "subfig": "case_314_subfig.jpg",
+    "full": "case_314_full.jpg"
+  },
+  "question": "The patient underwent surgical clipping of an intracranial vascular lesion and had routine vascular imaging at 6 months postprocedure. Based on this image, which of the following best describes the patient's prognosis regarding the treated lesion?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "Low risk of recurrence; routine surveillance",
+    "B": "High risk of recurrence; retreatment likely",
+    "C": "Immediate endovascular retreatment required",
+    "D": "Elevated ischemic risk from parent vessel occlusion",
+    "E": "No further imaging follow-up needed"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial vascular image and the area circled in red. I see a high-density, star-shaped focal artifact at the midline anterior region consistent with a surgical clip at the prior treatment site; there is no clearly separate contrast-filled outpouching adjacent to the clip.\n\nNext, I relate these imaging findings to the question, which asks about prognosis for the treated lesion at 6 months. The key imaging signs I look for are a residual or recurrent contrast-filled sac near the clip (suggesting recurrence) and evidence of parent vessel compromise (suggesting ischemic risk). On this image I do not see a residual sac or an obvious filling defect of the nearby vessel.\n\nThen, I consider how the options align with these observations. The absence of a visible recurrent sac argues against high risk of recurrence or the need for immediate retreatment (options B and C). There is no imaging sign of parent vessel occlusion or infarction to support elevated ischemic risk (option D). Because a clip artifact is present but no recurrent aneurysm is seen, complete cessation of follow-up (option E) is not supported; continued routine surveillance is the appropriate interpretation.\n\nFinally, tying the observations to the choices: this image shows apparent durable occlusion at the clip site without residual/recurrent filling or vessel compromise, which corresponds to a low risk of recurrence with routine surveillance.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT angiography (CTA)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "clinical imaging"
+  ],
+  "caption": "Digital subtraction angiography (DSA) of cerebral vessels performed at one-year follow-up after coiling, showing substantially enlarged residual aneurysm at A2 segment of the left anterior cerebral artery (ACA) measuring 2.95 mm in diameter of aneurysmal sac (red rings): the anteroposterior (A), lateral (B), and three-dimensional (C) DSA projections; computed tomographic angiography (CTA) performed at 6-month follow-up after clipping, showing stable aneurysmal occlusion (D) (red ring).",
+  "sub_caption": "computed tomographic angiography (CTA) performed at 6-month follow-up after clipping, showing stable aneurysmal occlusion (D) (red ring).",
+  "image_context": "A 57-year-old male was admitted to the hospital as an emergency due to ruptured aneurysm on the left pericallosal artery and consequent SAH two years prior to microsurgical treatment. His past medical history included arterial hypertension and no other chronic illnesses. He was HH I at admission having no neurological deficit. Immediate endovascular procedure was carried out and the aneurysm sac was occluded with 3 coils. His post-procedural recovery was uneventful and he had upper full recovery (GOSE 8) at 6-month follow-up when post-procedural digital subtraction angiography (DSA) of cerebral vessels was performed showing coil-occluded aneurysmal sac at A2 segment of the left anterior cerebral artery (ACA) with minor residual filling of the aneurysmal neck. However, the residual aneurysm substantially enlarged at one-year check-up, measuring 2.95 mm in diameter of aneurysmal sac (<xref rid=\"acc-60-695-f1\" ref-type=\"fig\">Fig. 1 A, B, C</xref>). Accordingly, microsurgical aneurysm revision was proposed and bifrontal, more left-side oriented craniotomy was performed. Aneurysm site on the left pericallosal artery was located through interhemispheric approach with control of the neuronavigation system. Coils protruding throughout the aneurysmal sac were visible but left intact. A titanium clip was selectively placed across the aneurysmal neck, while intraoperative fluorescein imaging confirmed no further aneurysmal filling with maintained patency of the parent vessel. Computerized tomography (CT) brain scan disclosed no abnormalities and no signs of brain ischemic lesion. No additional neurological deficit was observed. The patient was discharged fully recovered (GOSE 8). Follow-up computed tomographic angiography (CTA) performed at 6-month check-up after clipping showed stable distal ACA aneurysmal occlusion (). Accordingly, microsurgical aneurysm revision was proposed and bifrontal, more left-side oriented craniotomy was performed. Aneurysm site on the left pericallosal artery was located through interhemispheric approach with control of the neuronavigation system. Coils protruding throughout the aneurysmal sac were visible but left intact. A titanium clip was selectively placed across the aneurysmal neck, while intraoperative fluorescein imaging confirmed no further aneurysmal filling with maintained patency of the parent vessel. Computerized tomography (CT) brain scan disclosed no abnormalities and no signs of brain ischemic lesion. No additional neurological deficit was observed. The patient was discharged fully recovered (GOSE 8). Follow-up computed tomographic angiography (CTA) performed at 6-month check-up after clipping showed stable distal ACA aneurysmal occlusion (<xref rid=\"acc-60-695-f1\" ref-type=\"fig\">Fig. 1 D</xref>).).",
+  "relevant_image_context": "Follow-up computed tomographic angiography (CTA) performed at 6-month check-up after clipping showed stable distal ACA aneurysmal occlusion (Fig. 1 D)."
+}

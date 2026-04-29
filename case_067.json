@@ -1,0 +1,32 @@
+{
+  "case_id": 67,
+  "images": {
+    "subfig": "case_067_subfig.jpg",
+    "full": "case_067_full.jpg"
+  },
+  "question": "A patient underwent surgical resection of three polypoid tumors; the largest measured 4 × 3.5 × 1.2 cm. Pathology reported 20 harvested lymph nodes negative and tumor-free surgical margins; pathologic stage was T2 (muscularis propria invasion). Based on the image, which finding would most strongly predict increased risk of recurrence or worse overall prognosis?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "Presence of lymph node metastasis",
+    "B": "Invasion into the muscularis propria",
+    "C": "Multifocality of tumors",
+    "D": "High mitotic activity with extensive necrosis"
+  },
+  "ground_truth_answer": "D",
+  "ground_truth_reasoning": "First, I examine the image for histologic features relevant to tumor aggressiveness. In panel a there are densely packed tumor cells with scant cytoplasm and frequent dark, condensed nuclei; multiple mitotic figures are apparent on close inspection. In panel b/right-hand area there are pale eosinophilic regions consistent with confluent necrosis.\n\nNext, I relate these observations to the question, which asks which finding would most strongly predict higher recurrence risk or worse overall prognosis. The available answer choices are lymph node metastasis, muscularis propria invasion, multifocality, and high mitotic activity with extensive necrosis.\n\nThen, I consider how each option matches the image and the case data. Option A (lymph node metastasis) is not supported by the case statement (20 lymph nodes were negative) and the image does not show lymph node involvement. Option B (muscularis propria invasion) is listed as the pathologic T2 stage in the stem, but that specific anatomic layer invasion is not what the histology images primarily demonstrate here. Option C (multifocality) refers to the number of separate tumors (three polypoid lesions) and is not directly represented on these histologic sections. Option D (high mitotic activity with extensive necrosis) corresponds directly to the microscopic features I see—numerous mitoses and areas of necrosis—both of which are visible in the images and are classic histologic markers of aggressive tumor behavior.\n\nTherefore, based on the image-proven aggressive histologic features, option D is the finding that most strongly predicts increased risk of recurrence or worse prognosis in this context.",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "histology",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "(a) Large tumor cells with vesicular nuclei and prominent nucleoli. Note the abundant necrosis on the right side (H/E ×20), (b) Numerous mitotic figures in the tumor, which is characterized by organoid architecture (H/E ×20), (c) Tumor cells are strong positive for synaptophysin (IHC ×20), (d) The Ki67 proliferation index of around 70% (IHC ×20), (e) The tumor with “mutant type” p53 expression (IHC ×20).",
+  "sub_caption": "Large tumor cells with vesicular nuclei and prominent nucleoli. Note the abundant necrosis on the right side (H/E ×20),",
+  "image_context": "In the pathological examination of the surgical specimen, metastases were not detected in any of the 20 harvested lymph nodes, and the surgical margins were tumor-free. The gross evaluation revealed three polypoid tumors with the dimension of 4 × 3.5 × 1.2 cm, 1.3 × 1 × 0.8 cm, and 0.3 × 0.2 × 0.2 cm, respectively. The histopathological examination of the tumors showed organoid proliferation of large cells with abundant eosinophilic cytoplasm, finely granular chromatin, and prominent nucleoli. There were large areas of tumor necrosis and extremely frequent mitotic figures (<xref rid=\"jclintranslres-2022-8-4-272-g002\" ref-type=\"fig\">Figure 2a</xref>). High mitotic rate was detected as &gt;20/2 mm). High mitotic rate was detected as >20/2 mm2 (57/2 mm2 in the greatest one) (<xref rid=\"jclintranslres-2022-8-4-272-g002\" ref-type=\"fig\">Figure 2b</xref>). Immunohistochemical analysis demonstrated positivity for synaptophsin, chromogranin, and CDX2 (). Immunohistochemical analysis demonstrated positivity for synaptophsin, chromogranin, and CDX2 (<xref rid=\"jclintranslres-2022-8-4-272-g002\" ref-type=\"fig\">Figure 2c</xref>). The Ki67 proliferation index was around 60–70% in the most mitotically active part of the tumors (). The Ki67 proliferation index was around 60–70% in the most mitotically active part of the tumors (<xref rid=\"jclintranslres-2022-8-4-272-g002\" ref-type=\"fig\">Figure 2d</xref>). Diffuse and strong “mutant type” p53 expression was also observed for all tumors (). Diffuse and strong “mutant type” p53 expression was also observed for all tumors (<xref rid=\"jclintranslres-2022-8-4-272-g002\" ref-type=\"fig\">Figure 2e</xref>). Based on the histopathological characteristics and results of the immunohistochemical staining, the tumors were diagnosed as “multifocal large cell neuroendocrin carcinoma.” The pathological stage was classified as T2 (m)N0 with muscularis propria invasion according to AJCC eighth edition.). Based on the histopathological characteristics and results of the immunohistochemical staining, the tumors were diagnosed as “multifocal large cell neuroendocrin carcinoma.” The pathological stage was classified as T2 (m)N0 with muscularis propria invasion according to AJCC eighth edition.",
+  "relevant_image_context": "In the pathological examination of the surgical specimen, metastases were not detected in any of the 20 harvested lymph nodes, and the surgical margins were tumor-free. The gross evaluation revealed three polypoid tumors with the dimension of 4 × 3.5 × 1.2 cm, 1.3 × 1 × 0.8 cm, and 0.3 × 0.2 × 0.2 cm, respectively. The histopathological examination of the tumors showed organoid proliferation of large cells with abundant eosinophilic cytoplasm, finely granular chromatin, and prominent nucleoli. High mitotic rate was detected as >20/2 mm2 (57/2 mm2 in the greatest one). Based on the histopathological characteristics and results of the immunohistochemical staining, the tumors were diagnosed as “multifocal large cell neuroendocrine carcinoma.” The pathological stage was classified as T2 (m)N0 with muscularis propria invasion according to AJCC eighth edition."
+}

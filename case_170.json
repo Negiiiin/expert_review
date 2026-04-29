@@ -1,0 +1,31 @@
+{
+  "case_id": 170,
+  "images": {
+    "subfig": "case_170_subfig.jpg",
+    "full": "case_170_full.jpg"
+  },
+  "question": "On day 10 after initial onset the patient experienced a sudden severe worsening headache. Based on this image, which of the following is contraindicated?",
+  "question_scope": "subfigure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Intravenous thrombolysis (alteplase)",
+    "B": "Emergent neurosurgical/endovascular consultation",
+    "C": "Start oral nimodipine therapy",
+    "D": "Initiate IV antihypertensive therapy"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided axial noncontrast head CT. I see a focal hyperdense collection along the right premedullary / prepontine cistern region and layering hyperdensity in the basal cisterns consistent with acute subarachnoid blood.\n\nNext, I relate the imaging to the clinical vignette: the patient had a sudden severe worsening headache on day 10, and the CT appearance supports a new subarachnoid hemorrhage.\n\nThen I consider each option in light of that imaging:\n- Intravenous thrombolysis (alteplase): the image demonstrates intracranial hemorrhage (subarachnoid blood), so giving a systemic thrombolytic that promotes bleeding would be contraindicated in this setting.\n- Emergent neurosurgical/endovascular consultation: the presence of new subarachnoid blood on CT is an indication to obtain urgent specialist input for possible intervention or further management, so this is not contraindicated.\n- Start oral nimodipine therapy: nothing on the CT appearance of subarachnoid blood makes nimodipine contraindicated; it would not be ruled out by the imaging finding.\n- Initiate IV antihypertensive therapy: the image does not contraindicate blood-pressure management; this option is not excluded by the demonstrated hemorrhage.\n\nFinally, tying the observations to the question: because the CT shows active subarachnoid hemorrhage, systemic thrombolysis (alteplase) is contraindicated.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "clinical imaging"
+  ],
+  "caption": "CT (A) and right vertebral angiography (B–D) just after re-bleeding. (A) CT shows new subarachnoid hemorrhage in the right premedullary cistern. (B and C) Anteroposterior and lateral views show the absence of the right PICA. (D) Oblique view shows a saccular aneurysm (arrow) in the anterior pontine segment of the right AICA. AICA: anterior inferior cerebellar artery; PICA: posterior inferior cerebellar artery",
+  "sub_caption": "(A) CT shows new subarachnoid hemorrhage in the right premedullary cistern.",
+  "image_context": "Based on the above, the patient was diagnosed with Hunt and Kosnik grade I, World Federation of Neurosurgical Societies grade I subarachnoid hemorrhage of unknown source of bleeding, and resting and blood pressure control at a systolic blood pressure lower than 130 mmHg were performed. Re-examination by cerebral angiography was performed on day 6 after the onset, but the source of bleeding was unclear. On day 10 after the onset, headache sharply aggravated and a small volume of subarachnoid hemorrhage newly developed centering in the right premedullary cistern on head CT (<xref rid=\"jnet-15-339-g002\" ref-type=\"fig\"><bold>Fig. 2A</bold></xref>). DSA was repeated and an aneurysm was present in the non-vascular bifurcation region of the anterior pontine segment of the right AICA. The right posterior inferior cerebellar artery (PICA) was lost and the right AICA perfused the right PICA region (Fig. 2A). DSA was repeated and an aneurysm was present in the non-vascular bifurcation region of the anterior pontine segment of the right AICA. The right posterior inferior cerebellar artery (PICA) was lost and the right AICA perfused the right PICA region (<xref rid=\"jnet-15-339-g002\" ref-type=\"fig\"><bold>Fig. 2B</bold></xref>Fig. 2B–<xref rid=\"jnet-15-339-g002\" ref-type=\"fig\"><bold>2D</bold></xref>). The aneurysm diameter was 0.9 mm and the AICA diameter was 1.4 mm in the proximal region of the aneurysm.2D). The aneurysm diameter was 0.9 mm and the AICA diameter was 1.4 mm in the proximal region of the aneurysm.",
+  "relevant_image_context": "On day 10 after the onset, headache sharply aggravated and a small volume of subarachnoid hemorrhage newly developed centering in the right premedullary cistern on head CT (Fig. 2A)."
+}

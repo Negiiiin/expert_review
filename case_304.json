@@ -1,0 +1,32 @@
+{
+  "case_id": 304,
+  "images": {
+    "subfig": "case_304_subfig.jpg",
+    "full": "case_304_full.jpg"
+  },
+  "question": "A patient has intermittent positional left upper-extremity swelling and there is clinical concern for dynamic venous outflow obstruction. Because both iodinated and gadolinium contrast agents are contraindicated, which imaging study is most appropriate to evaluate for positional venous compression?",
+  "question_scope": "full_figure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Contrast-enhanced CT venography",
+    "B": "Duplex ultrasound with provocative maneuvers",
+    "C": "Time-of-flight non-contrast MR venography (positional)",
+    "D": "Conventional catheter venography with contrast",
+    "E": "Gadolinium-enhanced MR venography"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for findings relevant to venous outflow. The study shows high-signal vascular structures of the chest and neck with clear depiction of the central veins; an arrow marks a focal narrowing of the left subclavian/innominate venous region at the thoracic inlet. The appearance is consistent with a non-contrast vascular MR technique that visualizes central venous anatomy.\n\nNext, I relate those observations to the clinical question: the patient has intermittent positional left upper-extremity swelling with concern for dynamic venous outflow obstruction, and both iodinated and gadolinium contrast agents are contraindicated. The test must therefore be non-contrast and able to assess positional (dynamic) compression of the central veins.\n\nThen, I consider how each option aligns with those constraints. Options A, D, and E are contrast-based studies (CT venography, catheter venography, and gadolinium-enhanced MRV) and are therefore contraindicated per the question. Duplex ultrasound with provocative maneuvers (B) is non-contrast and can assess flow changes with position, but the imaging shown and the anatomic area of interest (central thoracic inlet veins) are well visualized with a non-contrast MR technique. Time-of-flight non-contrast MR venography performed with positional maneuvers (C) directly matches the need to visualize central venous anatomy without contrast while assessing for dynamic compression, as illustrated by the image.\n\nTherefore, the most appropriate study in this scenario is time-of-flight non-contrast MR venography with positional imaging.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "angiography"
+  ],
+  "caption": "MRI disclosing left subclavian vein stenosis (white arrow) after ipsilateral arm abduction.",
+  "sub_caption": "MRI disclosing left subclavian vein stenosis (white arrow) after ipsilateral arm abduction.",
+  "image_context": "For suspected vascular TOS, when the administration of contrast medium is not advised, it is possible to use a modified MRI protocol with time-of-flight non-contrast-enhanced imaging [29]. Khalilzadeh et coll. suggest the use of a 3-Tesla MRI scanner for studying TOS with phased-array body and neck coils [3]. The first part of the exam is focused on the affected side and the second one on the non-affected side. Their protocol consists of localizing sequence, followed by coronal, sagittal and axial T1-weighted high-resolution images, and sagittal/coronal T2-weighted images in order to correctly evaluate the anatomy, cervical radiculopathy, the brachial plexus muscular attachment and site of compression [29]. The use of post-contrast, gadolinium-enhanced imaging is limited to ruling out or confirming the clinical suspicion of neoplastic tissue or infections as a source of the TOS symptoms. During the first part of the examination, the patient is in the supine position and both arms are at their sides with both palms facing up. The second part of the exam can be performed with one arm in an abduction external rotation position, with the head turned toward the side being examined [3] (<xref rid=\"tomography-10-00103-g001\" ref-type=\"fig\">Figure 1</xref>). Indeed, it has been demonstrated that changing the arm positioning can change the diameter of the subclavian vein because the anatomical relationship of the subclavian vein with its adjacent anatomical structures will change accordingly [). Indeed, it has been demonstrated that changing the arm positioning can change the diameter of the subclavian vein because the anatomical relationship of the subclavian vein with its adjacent anatomical structures will change accordingly [31].",
+  "relevant_image_context": "For suspected vascular TOS, when the administration of contrast medium is not advised, it is possible to use a modified MRI protocol with time-of-flight non-contrast-enhanced imaging [29]. Khalilzadeh et coll. suggest the use of a 3-Tesla MRI scanner for studying TOS with phased-array body and neck coils [3]. The first part of the exam is focused on the affected side and the second one on the non-affected side. Their protocol consists of localizing sequence, followed by coronal, sagittal and axial T1-weighted high-resolution images, and sagittal/coronal T2-weighted images in order to correctly evaluate the anatomy, cervical radiculopathy, the brachial plexus muscular attachment and site of compression [29]. The use of post-contrast, gadolinium-enhanced imaging is limited to ruling out or confirming the clinical suspicion of neoplastic tissue or infections as a source of the TOS symptoms. During the first part of the examination, the patient is in the supine position and both arms are at their sides with both palms facing up. The second part of the exam can be performed with one arm in an abduction external rotation position, with the head turned toward the side being examined [3] (Figure 1). Indeed, it has been demonstrated that changing the arm positioning can change the diameter of the subclavian vein because the anatomical relationship of the subclavian vein with its adjacent anatomical structures will change accordingly [). Indeed, it has been demonstrated that changing the arm positioning can change the diameter of the subclavian vein because the anatomical relationship of the subclavian vein with its adjacent anatomical structures will change accordingly [31]."
+}

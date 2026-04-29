@@ -1,0 +1,32 @@
+{
+  "case_id": 81,
+  "images": {
+    "subfig": "case_081_subfig.jpg",
+    "full": "case_081_full.jpg"
+  },
+  "question": "One day after admission the patient developed multiple focal seizures with residual right-sided weakness. She is receiving anticonvulsant therapy. Imaging is shown — which of the following pharmacologic interventions is most appropriate now?",
+  "question_scope": "subfigure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "Continue therapeutic anticoagulation (therapeutic-dose LMWH)",
+    "B": "Start antiplatelet therapy (aspirin)",
+    "C": "Administer intravenous thrombolysis (alteplase)",
+    "D": "Begin high-dose intravenous corticosteroids",
+    "E": "Use prophylactic-dose anticoagulation only"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided image for vascular abnormalities. The MR venogram shows loss of the normal flow signal in the superior sagittal sinus region, consistent with a filling defect/occlusion of the superior sagittal sinus (appearance of venous sinus thrombosis).\n\nNext, I relate these imaging findings to the clinical question. The patient developed multiple focal seizures with residual right-sided weakness after admission; focal seizures and a focal motor deficit are compatible with a localized venous drainage abnormality affecting the cortical regions that would produce right-sided weakness, supporting the imaging impression of cerebral venous sinus thrombosis.\n\nThen, I consider how each pharmacologic option aligns with those observations. Option A (continue therapeutic-dose LMWH) directly addresses an established venous sinus thrombosis by providing full anticoagulant therapy to treat the thrombus. Option E (prophylactic-dose anticoagulation) is lower intensity and would not be expected to treat an established occlusive venous thrombosis. Option B (aspirin) is an antiplatelet agent used for arterial thrombotic disease and does not target venous sinus thrombus in this setting. Option C (intravenous alteplase) is a thrombolytic intervention that is not indicated as the routine next step on the basis of the image and clinical description alone. Option D (high-dose IV corticosteroids) would be directed at inflammatory or mass-effect processes not suggested by the imaging provided.\n\nFinally, tying these points together: the image demonstrates superior sagittal sinus thrombosis and the patient has focal neurologic findings and seizures attributable to that venous occlusion; among the listed pharmacologic choices, continuing therapeutic-dose anticoagulation is the most appropriate intervention now.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Magnetic Resonance Venography demonstrating thrombosis of the superior sagittal sinus",
+  "sub_caption": "Magnetic Resonance Venography demonstrating thrombosis of the superior sagittal sinus",
+  "image_context": "One day after admission she had about 10 episodes of sided convulsions, with residual right sided hemiparesis. The power of all the muscle groups in the right upper and lower limbs was grade 2/5. A Magnetic Resonance venography established superior sagittal and left transverse sinuses thrombosis (<xref ref-type=\"fig\" rid=\"PAMJ-16-4-g001\">Figure 1</xref>). Furthermore, there were venous infarction with haemorrhagic component and oedema in the left frontal, temporal, occipital and parietal lobes. In addition to continuation of anticoagulation, anticonvulsants were optimized to control convulsions. There was a reduction of seizure episodes over the subsequent five days and the patient's neurological deficit slowly normalized inthe next three weeks. She was then discharged home with mild hemiparesis and her subsequent outpatient visits showed no neurologic deterioration.). Furthermore, there were venous infarction with haemorrhagic component and oedema in the left frontal, temporal, occipital and parietal lobes. In addition to continuation of anticoagulation, anticonvulsants were optimized to control convulsions. There was a reduction of seizure episodes over the subsequent five days and the patient's neurological deficit slowly normalized inthe next three weeks. She was then discharged home with mild hemiparesis and her subsequent outpatient visits showed no neurologic deterioration.",
+  "relevant_image_context": "One day after admission she had about 10 episodes of sided convulsions, with residual right sided hemiparesis. The power of all the muscle groups in the right upper and lower limbs was grade 2/5. A Magnetic Resonance venography established superior sagittal and left transverse sinuses thrombosis (Figure 1). Furthermore, there were venous infarction with haemorrhagic component and oedema in the left frontal, temporal, occipital and parietal lobes. In addition to continuation of anticoagulation, anticonvulsants were optimized to control convulsions. There was a reduction of seizure episodes over the subsequent five days and the patient's neurological deficit slowly normalized inthe next three weeks. She was then discharged home with mild hemiparesis and her subsequent outpatient visits showed no neurologic deterioration.). Furthermore, there were venous infarction with haemorrhagic component and oedema in the left frontal, temporal, occipital and parietal lobes. In addition to continuation of anticoagulation, anticonvulsants were optimized to control convulsions. There was a reduction of seizure episodes over the subsequent five days and the patient's neurological deficit slowly normalized inthe next three weeks. She was then discharged home with mild hemiparesis and her subsequent outpatient visits showed no neurologic deterioration. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

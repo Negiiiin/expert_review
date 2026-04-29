@@ -1,0 +1,30 @@
+{
+  "case_id": 313,
+  "images": {
+    "subfig": "case_313_subfig.jpg",
+    "full": "case_313_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for staining pattern and tissue architecture. The field shows diffuse, dense brown staining that involves the vast majority of the cellular background; only a few round pale areas and some vascular-like white spaces are spared. There is loss of the normal heterogeneous appearance you would expect in organized tissue.\n\nNext, I relate what I see to the question, which asks whether the findings are normal or abnormal. Normal tissue commonly demonstrates preserved architecture and either absence of widespread uniform staining or staining limited to specific compartments. In contrast, this image demonstrates a nearly uniform population of heavily stained cells replacing the usual heterogeneous pattern.\n\nThen, I consider how each option lines up with those observations. The diffuse, confluent nature of the stain indicates an abnormal expansion or infiltration of a single cell population rather than normal, varied tissue structure. That pattern is not consistent with a normal appearance.\n\nTherefore, the observed findings are best described as abnormal.",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "immunohistochemistry",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "Photomicrograph showing a non-Hodgkin’s lymphoma H&E × 40, b diffuse CD45 positivity, c CD20 positivity, and d negative for CD3",
+  "sub_caption": "c CD20 positivity",
+  "image_context": "A colonoscopy was performed that revealed ulceroproliferative mass in caecum extending up to ascending colon and a biopsy was taken. Histopathological examination of the biopsy revealed mucosal ulceration and necrosis with lamina propria showing sheets of monomorphic round cells having vesicular nuclei with distinct nucleoli which are strongly suggestive of non-Hodgkin’s lymphoma (Fig. <xref rid=\"12957_2018_1548_Fig2_HTML\" ref-type=\"fig\">2</xref>). Immunohistochemistry showed CD20 and CD45 positivity while CD3 and cytokeratin were negative (Fig. ). Immunohistochemistry showed CD20 and CD45 positivity while CD3 and cytokeratin were negative (Fig. <xref rid=\"12957_2018_1548_Fig2_HTML\" ref-type=\"fig\">2</xref>). With the diagnosis of diffuse large B-cell lymphoma (DLBCL), the patient was started on R-CHOP (rituximab, cyclophosphamide, vincristine, and prednisolone). The patient is now doing well and is on regular follow-up.). With the diagnosis of diffuse large B-cell lymphoma (DLBCL), the patient was started on R-CHOP (rituximab, cyclophosphamide, vincristine, and prednisolone). The patient is now doing well and is on regular follow-up.Fig. 2Photomicrograph showing a non-Hodgkin’s lymphoma H&E × 40, b diffuse CD45 positivity, c CD20 positivity, and d negative for CD3",
+  "relevant_image_context": "Fig. 2 Photomicrograph showing a non-Hodgkin’s lymphoma H&E × 40, b diffuse CD45 positivity, c CD20 positivity, and d negative for CD3."
+}

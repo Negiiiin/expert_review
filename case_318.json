@@ -1,0 +1,29 @@
+{
+  "case_id": 318,
+  "images": {
+    "subfig": "case_318_subfig.jpg",
+    "full": "case_318_full.jpg"
+  },
+  "question": "Based on this image, does a branch of the middle cluneal nerve penetrate the long posterior sacroiliac ligament?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Yes",
+    "B": "No"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for anatomical relationships relevant to the question. I see the long posterior sacroiliac ligament (LPSL) clearly labeled in the central lower part of the image, S1 and S2 foramina indicated by the pink pins/labels to the left, and a small nerve branch tracked toward the LPSL. A white curved arrow drawn on the image marks a slender nerve branch that courses from the region of the S2 foramen directly into the substance of the LPSL.\n\nNext, I relate these observations to the question, which asks whether a branch of the middle cluneal nerve penetrates the LPSL. The visible nerve branch originates from the vicinity of the S2 foramen (consistent with a middle cluneal nerve branch in this field) and the arrow shows it entering the ligament rather than passing superficial to it.\n\nThen, I consider the two answer options in light of the image. The image provides direct visual evidence of a nerve branch penetrating the LPSL (supporting \"Yes\") and does not show the nerve bypassing or remaining superficial to the ligament (which would support \"No\").\n\nFinally, based on the labeled structures and the marked nerve trajectory entering the ligament, the image supports that a branch of the middle cluneal nerve does penetrate the LPSL.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "gross anatomy / cadaveric specimen photography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "clinical imaging"
+  ],
+  "caption": "Photograph showing MCN branches traversing over and under the LPSL on the left side in a cadaveric specimen obtained from an 88-year-old woman (specimen no. 21).Notes: The cephalad branch (b1) originates from S1 foramen and traverses over the LPSL. The caudal branch (b2) originates from S2 foramen and enters into the LPSL (curved arrow). S1 and S2 foramina are indicated by two pink needles.Abbreviations: MCN, middle cluneal nerve; PSIS, posterior superior iliac spine; LPSL, long posterior sacroiliac ligament.",
+  "sub_caption": "Photograph showing MCN branches traversing over and under the LPSL on the left side in a cadaveric specimen obtained from an 88-year-old woman (specimen no. 21). Notes: The cephalad branch (b1) originates from S1 foramen and traverses over the LPSL. The caudal branch (b2) originates from S2 foramen and enters into the LPSL (curved arrow). S1 and S2 foramina are indicated by two pink needles. Abbreviations: MCN, middle cluneal nerve; PSIS, posterior superior iliac spine; LPSL, long posterior sacroiliac ligament.",
+  "image_context": "Of 30 hemipelves, 8 (specimen nos. 1, 7, 9, 11, 21, 24, 26, and 28) had one (<xref ref-type=\"fig\" rid=\"jpr-10-1431Fig2\">Figure 2</xref>) and 1 (specimen no. 5) had two MCN branches traversing under the LPSL. The 10 penetrating MCN branches were lateral branches of the dorsal sacral rami, most commonly from S2 and more rarely from S1, S3, or S4 foramina. The average cephalocaudal distance from the PSIS of LPSL penetration was 23.2 mm (12.5–42.1 mm). The average distance from the midline was 34.5 mm (26.9–43.6 mm). The MCN branch was quite thin, with an average width of 1.6 mm (1.0–2.2 mm) measured at the point where it traversed the LPSL. Four of the 10 MCN branches passing under the LPSL had marked narrowing from constriction under the LPSL () and 1 (specimen no. 5) had two MCN branches traversing under the LPSL. The 10 penetrating MCN branches were lateral branches of the dorsal sacral rami, most commonly from S2 and more rarely from S1, S3, or S4 foramina. The average cephalocaudal distance from the PSIS of LPSL penetration was 23.2 mm (12.5–42.1 mm). The average distance from the midline was 34.5 mm (26.9–43.6 mm). The MCN branch was quite thin, with an average width of 1.6 mm (1.0–2.2 mm) measured at the point where it traversed the LPSL. Four of the 10 MCN branches passing under the LPSL had marked narrowing from constriction under the LPSL (<xref ref-type=\"fig\" rid=\"jpr-10-1431Fig3\">Figures 3</xref> and  and <xref ref-type=\"fig\" rid=\"jpr-10-1431Fig4\">4</xref>).).",
+  "relevant_image_context": "Of 30 hemipelves, 8 (specimen nos. 1, 7, 9, 11, 21, 24, 26, and 28) had one MCN branch traversing under the LPSL. The 10 penetrating MCN branches were lateral branches of the dorsal sacral rami, most commonly from S2 and more rarely from S1, S3, or S4 foramina. The average cephalocaudal distance from the PSIS of LPSL penetration was 23.2 mm (12.5–42.1 mm). The average distance from the midline was 34.5 mm (26.9–43.6 mm). The MCN branch was quite thin, with an average width of 1.6 mm (1.0–2.2 mm) measured at the point where it traversed the LPSL."
+}

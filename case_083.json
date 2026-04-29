@@ -1,0 +1,31 @@
+{
+  "case_id": 83,
+  "images": {
+    "subfig": "case_083_subfig.jpg",
+    "full": "case_083_full.jpg"
+  },
+  "question": "A 46-year-old woman presents with left-sided tinnitus and severe-to-profound hearing loss. MRI of the head is performed (image provided). Based on the imaging, which statement best describes the probability that a germline mutation predisposing to this lesion would be transmitted to her future children?",
+  "question_scope": "full_figure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "High (≈50% risk; autosomal dominant)",
+    "B": "Moderately increased (above population risk)",
+    "C": "Low — close to general population risk",
+    "D": "Essentially negligible (no increased heritable risk)"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the MRI image for lesion location and number. I see a single, well-circumscribed, enhancing rounded mass at the left cerebellopontine angle/internal auditory canal region that is causing local mass effect; this appearance is most consistent with a unilateral vestibular schwannoma given the clinical stem (left-sided tinnitus and hearing loss).\n\nNext, I relate these imaging findings to the question, which asks about the probability that a germline mutation predisposing to this lesion would be transmitted to her children. The answer choices frame a high (~50%) risk as an autosomal dominant inherited scenario and lower choices as progressively closer to population risk.\n\nThen, I consider imaging features that would suggest a heritable syndrome with high transmission risk. A hereditary predisposition that confers a high (≈50%) transmission probability would typically be associated with bilateral or multiple characteristic lesions. On this MRI slice there is only a unilateral lesion on the left and no obvious similar lesion on the right or additional intracranial masses visible here, so there are no imaging signs on this study to indicate a syndromic, autosomal-dominant condition.\n\nFinally, tying these observations to the options: because the image shows an isolated, unilateral tumor without features suggestive of a hereditary syndrome, the most appropriate conclusion based on the imaging provided is that the chance of a germline mutation being present and thus being transmitted to future children is low — close to the general population risk.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Patient 1: Preoperative magnetic resonance image. An axial T1-weighted image with contrast shows a classic expansile internal auditory canal and cerebellopontine angle mass consistent with left vestibular schwannoma. No vascular abnormalities are appreciated.",
+  "sub_caption": "An axial T1-weighted image with contrast shows a classic expansile internal auditory canal and cerebellopontine angle mass consistent with left vestibular schwannoma. No vascular abnormalities are appreciated.",
+  "image_context": "A 46-year-old woman presented with left-sided tinnitus and severe to profound hearing loss. Magnetic resonance imaging (MRI) showed an enhancing 23 × 23 × 21-mm left-sided CPA mass consistent with vestibular schwannoma (VS; <xref rid=\"sbsr01051-1\" ref-type=\"fig\">Fig. 1</xref>). Vascular anatomy appeared normal, and there was no history of coagulopathy.). Vascular anatomy appeared normal, and there was no history of coagulopathy.",
+  "relevant_image_context": "A 46-year-old woman presented with left-sided tinnitus and severe to profound hearing loss. Magnetic resonance imaging (MRI) showed an enhancing 23 × 23 × 21-mm left-sided CPA mass consistent with vestibular schwannoma (VS). Vascular anatomy appeared normal, and there was no history of coagulopathy."
+}

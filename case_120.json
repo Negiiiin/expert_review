@@ -1,0 +1,31 @@
+{
+  "case_id": 120,
+  "images": {
+    "subfig": "case_120_subfig.jpg",
+    "full": "case_120_full.jpg"
+  },
+  "question": "How many distinct abnormalities are visible on this image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "Zero",
+    "B": "One",
+    "C": "Two",
+    "D": "Three"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the coronal MRI image carefully for focal abnormalities. I see a single, well-circumscribed rounded lesion in the superior frontal cortex near the cortical surface; it has a defined rim and a central component and is surrounded by an area of altered signal in the adjacent white matter. The remainder of the cerebral hemispheres appears symmetric without other discrete rounded lesions or focal signal abnormalities; the ventricles and midline structures show no additional focal changes on this slice.\n\nNext, I relate these observations to the question, which asks how many distinct abnormalities are visible. The image shows one clearly distinct focal abnormality (the described rounded lesion with surrounding change). I do not identify a second separate lesion or any other distinct abnormality on this image.\n\nThen, I compare this to the available options and choose the one that matches the count of distinct findings seen here. Based on the single focal lesion visible and no other separate abnormalities, the correct choice corresponds to one distinct abnormality.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "MRI of the brain, T2-weighted coronal section, showing left frontal cyst with hypointense cystic wall and significant perilesional edema (thin arrow).",
+  "sub_caption": "MRI of the brain, T2-weighted coronal section, showing left frontal cyst with hypointense cystic wall and significant perilesional edema (thin arrow).",
+  "image_context": "The left frontal cysts are similar to those in Figure <xref rid=\"cureus-0016-00000066231-i02\" ref-type=\"fig\">2</xref>..",
+  "relevant_image_context": "The left frontal cysts are similar to those in Figure 2.. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

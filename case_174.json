@@ -1,0 +1,32 @@
+{
+  "case_id": 174,
+  "images": {
+    "subfig": "case_174_subfig.jpg",
+    "full": "case_174_full.jpg"
+  },
+  "question": "Based on this image, which of the following is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Tuberculous lymphadenitis",
+    "B": "Metastatic squamous cell carcinoma",
+    "C": "Hodgkin lymphoma",
+    "D": "Bacterial suppurative lymphadenitis",
+    "E": "Sarcoidosis"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for anatomic location and lesion appearance. This is an axial contrast-enhanced CT through the lower neck showing multiple enlarged, rounded cervical lymph nodes on both sides of the neck. Many of these nodes have a darker central area (low attenuation) with a brighter peripheral rim of enhancement — i.e., annular or ring-like enhancement. There is no large contiguous soft-tissue fluid collection or gross destruction of adjacent bone/cartilage visible on this slice.\n\nNext, I relate what I see to the question, which asks for the most likely diagnosis among the listed causes of lymphadenopathy. The key imaging feature to explain is multiple lymph nodes with central low attenuation and peripheral rim enhancement.\n\nThen, I consider how each option lines up with those observations. Tuberculous lymphadenitis commonly presents with lymph nodes that contain central necrosis and show rim/annular enhancement, which matches the multiple rim-enhancing necrotic nodes seen here. Metastatic squamous cell carcinoma can also produce necrotic nodes, but metastatic nodes often have more irregular margins and clinical context is needed; the pattern here of multiple smoothly rim-enhancing nodes is more typical of a necrotizing granulomatous process. Hodgkin lymphoma and sarcoidosis more often produce solid, homogeneous nodal enlargement without central necrosis, which does not match the central low attenuation on this image. Bacterial suppurative lymphadenitis can cause abscessed nodes, but that usually produces more pronounced surrounding inflammatory change or frank fluid collections contiguous with soft-tissue inflammation, which are not prominent here.\n\nTherefore, based on the visual presence of multiple cervical nodes with central low attenuation and peripheral ring enhancement, the findings are most consistent with tuberculous lymphadenitis.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Contrast-enhanced CT of the neck. A Liquefaction in the adhesion and fusion regions of cervical lymph nodes. B Right supraclavicular lymph nodes with necrosis in their center. C Necrosis in the adhesion and fusion regions of anterior mediastinal lymph nodes. D Uneven density in the adhesion and fusion region of posterior mediastinal lymph nodes",
+  "sub_caption": "A Liquefaction in the adhesion and fusion regions of cervical lymph nodes.",
+  "image_context": "Multiple enlarged lymph nodes (the largest sized 27.1 mm × 23.3 mm) were observed in the mediastinal space, thoracic entrance, and left axilla. Inhomogeneous annular enhancement was observed with a CT value of 36 HU. A lymph node of size 28.2 mm × 26.5 mm was detected in the right hilum with a CT value of 40 HU. Contrast-enhanced CT revealed inhomogeneous annular enhancement with a higher CT value of 65 HU (Fig. <xref rid=\"12879_2021_6859_Fig1_HTML\" ref-type=\"fig\">1</xref>A–D). Color ultrasound images showed multiple enlarged lymph nodes in the bilateral neck, left axilla, and bilateral groin. The number, distribution, diameter, and manifestation of enlarged lymph nodes are presented in Table A–D). Color ultrasound images showed multiple enlarged lymph nodes in the bilateral neck, left axilla, and bilateral groin. The number, distribution, diameter, and manifestation of enlarged lymph nodes are presented in Table 1.",
+  "relevant_image_context": "Multiple enlarged lymph nodes (the largest sized 27.1 mm × 23.3 mm) were observed in the mediastinal space, thoracic entrance, and left axilla. Inhomogeneous annular enhancement was observed with a CT value of 36 HU. A lymph node of size 28.2 mm × 26.5 mm was detected in the right hilum with a CT value of 40 HU. Contrast-enhanced CT revealed inhomogeneous annular enhancement with a higher CT value of 65 HU (Fig 1 A–D). Color ultrasound images showed multiple enlarged lymph nodes in the bilateral neck, left axilla, and bilateral groin. The number, distribution, diameter, and manifestation of enlarged lymph nodes are presented in Table 1. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

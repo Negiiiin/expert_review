@@ -1,0 +1,32 @@
+{
+  "case_id": 38,
+  "images": {
+    "subfig": "case_038_subfig.jpg",
+    "full": "case_038_full.jpg"
+  },
+  "question": "A 56-year-old man presents with jaundice and undergoes endoscopic ultrasound with planned fine-needle aspiration (image shown). Which additional diagnostic test on the obtained cytologic material is most helpful to determine the tumor’s primary origin?",
+  "question_scope": "full_figure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Routine cytology only",
+    "B": "Immunocytochemistry panel on FNA specimen",
+    "C": "Percutaneous core-needle biopsy",
+    "D": "Serum CA 19-9 level",
+    "E": "Whole-body PET-CT scan"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image and the question. The picture is an endoscopic ultrasound view showing a focal mass (caliper measurements labeled D1/D2) being sampled with fine-needle aspiration — the procedure and specimen source are explicitly stated in the question.\n\nNext, I relate what I see to the question, which asks which additional diagnostic test on the obtained cytologic material is most helpful to determine the tumor’s primary origin. The key constraint is that the test should be performed on the cytologic material obtained by FNA.\n\nThen, I consider how each option fits that constraint. Routine cytology alone (A) can demonstrate malignancy and cell morphology but often cannot definitively establish the tumor’s tissue of origin from limited cytologic material. An immunocytochemistry panel on the FNA specimen (B) is performed directly on cytologic preparations and uses multiple lineage- and site-specific markers to help identify the tumor’s primary origin. Percutaneous core-needle biopsy (C) is a different sampling procedure and is not an additional test applied to the already-obtained cytologic material. Serum CA 19-9 (D) is a blood test rather than an assay performed on the cytology sample and is not specific enough to establish primary origin. Whole-body PET-CT (E) is an imaging study, not a cytologic test.\n\nFinally, tying these observations together: since the question asks specifically about tests performed on the cytologic material and the goal is to determine the tumor’s primary origin, performing an immunocytochemistry panel on the FNA specimen is the most informative choice.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "endoscopic ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "EUS image showing a large metastatic lesion from renal cell cancer confirmed by FNA, cytology, and immunohistochemical analysis, in a 56-year-old male presenting with jaundice",
+  "sub_caption": "EUS image showing a large metastatic lesion from renal cell cancer confirmed by FNA, cytology, and immunohistochemical analysis, in a 56-year-old male presenting with jaundice",
+  "image_context": "EUS-guided FNA is safe and accurate for the diagnosis of pancreatic metastases from different primary carcinomas. However, effective sampling requires techniques that differ from those used for other solid pancreatic masses. Use of immunocytochemistry, when available, may help to confirm a suspected diagnosis (Figs. <xref rid=\"13244_2011_144_Fig7_HTML\" ref-type=\"fig\">7</xref>, , <xref rid=\"13244_2011_144_Fig8_HTML\" ref-type=\"fig\">8</xref>) [) [18].Fig. 7EUS image showing a large metastatic lesion from renal cell cancer confirmed by FNA, cytology, and immunohistochemical analysis, in a 56-year-old male presenting with jaundiceFig. 8EUS image revealing a hypoechoic metastatic lesion from non-small-cell lung cancer confirmed by FNA, cytology, and immunohistochemical analysis, in a 66-year-old male presenting with abdominal pain",
+  "relevant_image_context": "Fig. 7EUS image showing a large metastatic lesion from renal cell cancer confirmed by FNA, cytology, and immunohistochemical analysis, in a 56-year-old male presenting with jaundice"
+}

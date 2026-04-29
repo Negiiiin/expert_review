@@ -1,0 +1,31 @@
+{
+  "case_id": 227,
+  "images": {
+    "subfig": "case_227_subfig.jpg",
+    "full": "case_227_full.jpg"
+  },
+  "question": "A patient with a permanent transvenous pacemaker presents with enlargement and cloudiness of the device wound; a prosthetic mitral valve is known to be present. Blood cultures are pending. Which of the following is contraindicated as definitive management in this setting?",
+  "question_scope": "subfigure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Complete system removal (generator and leads)",
+    "B": "Antibiotics alone while retaining device",
+    "C": "Temporary external pacing if needed",
+    "D": "Contralateral device reimplantation after removal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for device and anatomic details. The chest radiograph shows a left subclavian pacemaker generator with transvenous leads coursing into the heart. A radiopaque structure consistent with a prosthetic mitral valve is visible within the cardiac silhouette. There is increased soft-tissue opacity over the pacemaker pocket region that corresponds to the described wound enlargement and cloudiness.\n\nNext, I relate these findings to the clinical question, which asks which definitive management is contraindicated when there is pocket enlargement/cloudiness and a known prosthetic mitral valve. The imaging and wound description indicate a likely pacemaker pocket infection with transvenous hardware in place; the presence of a prosthetic valve raises concern for possible hematogenous spread to prosthetic material.\n\nThen, I consider how each option aligns with that situation. Complete system removal (generator and leads) would directly address infected hardware that can serve as a persistent nidus. Temporary external pacing is a reasonable bridge if pacing is required after removal. Contralateral reimplantation after removal addresses future pacing needs once the infection is cleared. In contrast, treating with antibiotics alone while leaving the device and leads in place would leave the suspected infected hardware intact and therefore risks persistent or recurrent infection and potential spread to the prosthetic valve.\n\nTherefore, given the pocket findings, transvenous hardware, and the prosthetic mitral valve, antibiotics alone while retaining the device is the contraindicated definitive management in this setting.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Chest radiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "The chest radiograph showed cardiomegaly with sternal wire present. A prosthetic mitral valve was seen. The pacemaker generator and lead were in position. Enlargement and cloudiness of the pacemaker wound were noted.",
+  "sub_caption": "The chest radiograph showed cardiomegaly with sternal wire present. A prosthetic mitral valve was seen. The pacemaker generator and lead were in position. Enlargement and cloudiness of the pacemaker wound were noted.",
+  "image_context": "A chest radiograph showed soft tissue swelling at the pacemaker pocket site (<xref rid=\"gr2\" ref-type=\"fig\">Figure 2</xref>). Laboratory results indicated normal platelet counts without leukocytosis, but elevated serum creatinine levels of 2.09 mg/dL (reference range: 0.67–1.17 mg/dL) and an elevated international normalized ratio level of 3.43 were observed. Additional laboratory data are presented in ). Laboratory results indicated normal platelet counts without leukocytosis, but elevated serum creatinine levels of 2.09 mg/dL (reference range: 0.67–1.17 mg/dL) and an elevated international normalized ratio level of 3.43 were observed. Additional laboratory data are presented in Table 1. The patient underwent pacemaker pocket revision, which revealed bloody content with chalk-like material. Following wound exploration and evacuation, the patient’s symptoms resolved. Analysis of the content revealed clotted blood without evidence of bacterial infection. Polarized light microscopy demonstrated needle-shaped crystals with negative birefringence, consistent with uric acid crystals (<xref rid=\"gr3\" ref-type=\"fig\">Figure 3</xref>). After 2 months of intensive serum uric acid control, the wound healed without recurrent pocket swelling.). After 2 months of intensive serum uric acid control, the wound healed without recurrent pocket swelling.Figure 2The chest radiograph showed cardiomegaly with sternal wire present. A prosthetic mitral valve was seen. The pacemaker generator and lead were in position. Enlargement and cloudiness of the pacemaker wound were noted.Table 1Blood test resultsBlood testValueReferenceBUN (mg/dL)346–20Creatinine (mg/dL)2.090.67–1.17Uric acid (mg/dL)11.03.4–7.0Calcium (mg/dL)9.38.4–10.2Magnesium (mg/dL)2.41.6–2.6Phosphorus (mg/dL)2.72.3–4.7White blood cell (/μL)45004400–11,300Hemoglobin (g/dL)11.014.0–17.4Hematocrit (%)35.441.5–50.4MCV (fL)72.280.0–96.0Platelet (/μL)130,000150,000–450,000Neutrophil (%)42.745–75Lymphocyte (%)41.920–45BUN = blood urea nitrogen; MCV = mean corpuscular volume.Figure 3The polarized microscope of fluid obtained from the pacemaker pocket demonstrated a needle-shaped crystal with strong negative birefringence.",
+  "relevant_image_context": "A chest radiograph showed soft tissue swelling at the pacemaker pocket site (Figure 2). The chest radiograph showed cardiomegaly with sternal wire present. A prosthetic mitral valve was seen. The pacemaker generator and lead were in position. Enlargement and cloudiness of the pacemaker wound were noted."
+}

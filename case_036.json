@@ -1,0 +1,31 @@
+{
+  "case_id": 36,
+  "images": {
+    "subfig": "case_036_subfig.jpg",
+    "full": "case_036_full.jpg"
+  },
+  "question": "Based on this image, which of the following best describes the dominant imaging finding?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Bilateral maxillary sinus opacification with left pterygopalatine/masticator extension",
+    "B": "Unilateral left maxillary mucocele without extra‑sinus extension",
+    "C": "Isolated nasal septal deviation without sinus disease",
+    "D": "Bilateral ethmoid-predominant sinusitis without extra‑sinus spread"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial MRI through the nasal cavity and paranasal sinuses to assess which sinus cavities are aerated versus filled. I focus on the maxillary sinuses, the nasal cavity/septum, and any soft-tissue signal extending beyond the sinus walls.\n\nNext, I note that both maxillary sinuses are largely opacified (the normally air-filled maxillary cavities are filled with soft-tissue/fluid signal), with the left maxillary sinus appearing more extensively involved than the right. There is contiguous soft-tissue signal extending laterally/posteriorly from the left maxillary sinus into the region of the left pterygopalatine fossa and the left masticator space, indicating extra‑sinus extension on the left. The nasal septum shows a mild deviation, but the dominant abnormality is the sinus opacification and the left-sided soft-tissue extension.\n\nThen, I compare these imaging observations to the answer choices. The pattern of bilateral maxillary sinus opacification combined with clear left-sided extension into the pterygopalatine/masticator region directly fits option A. The other choices do not match: B describes a unilateral mucocele without extension (but the disease here is bilateral with extension), C describes isolated septal deviation without sinus disease (sinus disease is present), and D describes ethmoid‑predominant sinusitis without extra‑sinus spread (the abnormality is maxillary‑predominant with extra‑sinus spread).\n\nTherefore, the imaging is best described as bilateral maxillary sinus opacification with left pterygopalatine/masticator extension.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "T2-weighted magnetic resonance imaging of the maxillary sinuses of a patient with mucormycosis after coronavirus disease, Pune, India, shows hypointense mucosal thickening bilaterally, more on the left side than the right. Near-complete occlusion of the sinus cavities and obliteration of left osteomeatal unit are seen. There is a mild deviation of the nasal septum with convexity toward the right side. There is mild soft tissue edema with altered signal abnormality involving the left pterygopalatine fossa extending to the left masticator space. L, left; R, right.",
+  "sub_caption": "T2-weighted magnetic resonance imaging of the maxillary sinuses of a patient with mucormycosis after coronavirus disease, Pune, India, shows hypointense mucosal thickening bilaterally, more on the left side than the right. Near-complete occlusion of the sinus cavities and obliteration of left osteomeatal unit are seen. There is a mild deviation of the nasal septum with convexity toward the right side. There is mild soft tissue edema with altered signal abnormality involving the left pterygopalatine fossa extending to the left masticator space. L, left; R, right.",
+  "image_context": "At baseline examination, 19 (11%) patients had low hemoglobin at <8dgm/dL, leukocytosis was seen in 50 (28%) patients, and neutropenia (absolute neutrophil count <1,500) in 4 (2%) (Table 2). Swelling of nose and paranasal sinus soft tissue was seen among 172 (97%) patients in MRI (<xref rid=\"21-1636-F3\" ref-type=\"fig\">Figure 3</xref>). Involvement of the orbital area was seen in 86 (48%) patients and the intracranial area in 22 (12%) cases. Bony penetration was seen in 156 (87.6%) cases (). Involvement of the orbital area was seen in 86 (48%) patients and the intracranial area in 22 (12%) cases. Bony penetration was seen in 156 (87.6%) cases (<xref rid=\"21-1636-F3\" ref-type=\"fig\">Figure 3</xref>) and cavernous sinus thrombosis in 12 (7%) cases.) and cavernous sinus thrombosis in 12 (7%) cases.",
+  "relevant_image_context": "Swelling of nose and paranasal sinus soft tissue was seen among 172 (97%) patients in MRI (Figure 3). Involvement of the orbital area was seen in 86 (48%) patients and the intracranial area in 22 (12%) cases. Bony penetration was seen in 156 (87.6%) cases. Cavernous sinus thrombosis in 12 (7%) cases."
+}

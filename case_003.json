@@ -1,0 +1,32 @@
+{
+  "case_id": 3,
+  "images": {
+    "subfig": "case_003_subfig.jpg",
+    "full": "case_003_full.jpg"
+  },
+  "question": "Based on this image, which diagnosis is most likely?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Papillary thyroid carcinoma",
+    "B": "Seminoma",
+    "C": "Embryonal carcinoma",
+    "D": "Sertoli cell tumor"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for microscopic features. I see a glandular/follicular architecture made up of numerous small lumina and epithelial-lined spaces. The lining cells have enlarged, overlapping nuclei with conspicuous longitudinal nuclear grooves and occasional intranuclear pseudoinclusions; the chromatin appears relatively pale compared with the cytoplasm. The cells are arranged in a somewhat papillary/follicular pattern rather than sheets of clear cells or markedly pleomorphic cells.\n\nNext, I relate what I see to the diagnostic question, which asks which listed tumor is most likely given these histologic findings. The nuclear grooves and intranuclear inclusions are distinctive nuclear features that point toward a thyroid epithelial neoplasm with papillary-type nuclear changes. The follicular/papillary architecture seen here supports that interpretation.\n\nThen I consider how each option lines up with the observations. Seminoma typically shows large cells with abundant clear cytoplasm in sheets or lobules (not the small follicular/papillary structures seen here). Embryonal carcinoma generally demonstrates marked cellular pleomorphism and solid/glandular growth without the characteristic nuclear grooves/intranuclear inclusions observed in this slide. Sertoli cell tumor can form tubular patterns but does not usually show the specific nuclear features present in this image.\n\nFinally, putting the morphological features together — follicular/papillary architecture plus enlarged overlapping nuclei with grooves and intranuclear pseudoinclusions — the most consistent diagnosis from the options is papillary thyroid carcinoma.",
+  "modality": "Microscopy",
+  "primary_modality": "Microscopy",
+  "secondary_modality": "histology",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "Higher-power view of papillary thyroid cancer arising from struma testis. The cells are overlapping and enlarged, with prominent nuclear grooves and focal nuclear pseudoinclusions. The architecture here is predominantly follicular. H&E. ×60.",
+  "sub_caption": "Higher-power view of papillary thyroid cancer arising from struma testis. The cells are overlapping and enlarged, with prominent nuclear grooves and focal nuclear pseudoinclusions. The architecture here is predominantly follicular. H&E. ×60.",
+  "image_context": "The pathology report identified the testicular tissue as a monodermal teratoma composed of thyroid parenchyma and associated with the development of papillary thyroid carcinoma with a predominantly follicular growth pattern (fig. <xref ref-type=\"fig\" rid=\"cro-0007-0751-g01\">1</xref>). Immunoperoxidase stains demonstrated that the neoplastic cells were strongly positive for cytokeratin CAM 5.2 and thyroid transcription factor 1. α-Fetoprotein, vimentin, β-human chorionic gonadotropin, placental alkaline phosphatase, S100, CD30, inhibin, and calretinin stains were negative in the malignant cells.). Immunoperoxidase stains demonstrated that the neoplastic cells were strongly positive for cytokeratin CAM 5.2 and thyroid transcription factor 1. α-Fetoprotein, vimentin, β-human chorionic gonadotropin, placental alkaline phosphatase, S100, CD30, inhibin, and calretinin stains were negative in the malignant cells.",
+  "relevant_image_context": "The pathology report identified the testicular tissue as a monodermal teratoma composed of thyroid parenchyma and associated with the development of papillary thyroid carcinoma with a predominantly follicular growth pattern. Immunoperoxidase stains demonstrated that the neoplastic cells were strongly positive for cytokeratin CAM 5.2 and thyroid transcription factor 1. α-Fetoprotein, vimentin, β-human chorionic gonadotropin, placental alkaline phosphatase, S100, CD30, inhibin, and calretinin stains were negative in the malignant cells."
+}

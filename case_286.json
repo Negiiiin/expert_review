@@ -1,0 +1,31 @@
+{
+  "case_id": 286,
+  "images": {
+    "subfig": "case_286_subfig.jpg",
+    "full": "case_286_full.jpg"
+  },
+  "question": "She has persistent intermittent vaginal bleeding and pelvic pain despite prior medical and surgical therapy. Bimanual exam demonstrated a small tender nodularity at the vaginal cuff with mild oozing, and a pelvic MRI was obtained to evaluate the problem. Based on the imaging interpretation, which additional symptom or clinical sign is most likely?",
+  "question_scope": "full_figure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Dyspareunia (painful intercourse)",
+    "B": "Cyclic dysmenorrhea",
+    "C": "Gross hematuria",
+    "D": "Fecal incontinence"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial pelvic MRI. I see a discrete focal soft-tissue nodule at the expected location of the vaginal cuff (the white arrow points to a small, well-defined mass at the vaginal apex), without obvious extension into adjacent bladder or rectum on this slice.\n\nNext, I relate these imaging findings to the clinical stem: the patient has a tender nodularity at the vaginal cuff with ongoing bleeding and pelvic pain despite prior therapies. A focal lesion confined to the vaginal cuff would be expected to produce local symptoms related to the vaginal apex.\n\nThen I consider each answer in light of the image and exam:\n- Dyspareunia: A tender, palpable lesion at the vaginal cuff is anatomically well placed to cause pain with vaginal penetration or intercourse (direct mechanical and local pain stimulation). This finding aligns closely with the focal cuff nodule seen on MRI.\n- Cyclic dysmenorrhea: Menstrual cramping is a systemic, cyclical uterine symptom. Given the problem and the presence of a vaginal cuff nodule, the image demonstrates a local lesion rather than a uterine source; cyclic dysmenorrhea is less directly explained by an isolated cuff mass.\n- Gross hematuria: There is no clear imaging evidence of bladder wall involvement or a lesion within the urinary tract on this image, so visible blood in the urine is unlikely to be explained by this focal cuff lesion.\n- Fecal incontinence: The lesion appears confined to the vaginal apex without clear invasion of the rectum or pelvic floor musculature on this slice, so bowel sphincter dysfunction is not the most likely associated sign.\n\nTherefore, the imaging and exam most strongly support a local vaginal symptom—pain with intercourse—as the additional clinical sign most likely.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Refractory endometriosis on imaging. Axial T1 post-contrast MRI view showing a 3.0 × 2.3 × 2.9 cm biopsy-proven endometriosis mass at the vaginal apex",
+  "sub_caption": "Axial T1 post-contrast MRI view showing a 3.0 × 2.3 × 2.9 cm biopsy-proven endometriosis mass at the vaginal apex",
+  "image_context": "At current presentation, she noted continued intermittent bleeding (requiring 2 pads per day on days of bleeding) and pelvic pain from the endometriosis. Bimanual exam showed a small tender nodularity in the vaginal cuff with a small amount of oozing blood. A discussion was had with the patient to create a plan of action. Given that she had received multiple lines of medical and surgical resection with recurrence of her vaginal bleeding, radiation treatment was offered. The risks, benefits, side effects, and potential complications of radiation treatment, including increased risk of secondary malignancy, were discussed. An MRI of the pelvis was obtained to determine the extent of her endometriosis, and it showed a 3.0 × 2.3 × 2.9 cm soft tissue mass at the vaginal apex (shown in <xref ref-type=\"fig\" rid=\"rpor-26-3-457f1\">Fig. 1</xref>). The patient was consented for radiation treatment, and a CT simulation was conducted with both a full and empty bladder. An internal gross target volume (iGTV) was created from contouring and merging GTV volumes from both scans. A clinical target volume (CTV) was not created due to low concern for microscopic disease and this being a benign entity. A uniform 15 mm expansion in all directions was done to create a planning target volume (PTV). She was prescribed 30 Gy in 10 fractions, and 10 MV and 18 MV photons were used to ensure that 100% of the prescription dose covered 95% of the target volume (). The patient was consented for radiation treatment, and a CT simulation was conducted with both a full and empty bladder. An internal gross target volume (iGTV) was created from contouring and merging GTV volumes from both scans. A clinical target volume (CTV) was not created due to low concern for microscopic disease and this being a benign entity. A uniform 15 mm expansion in all directions was done to create a planning target volume (PTV). She was prescribed 30 Gy in 10 fractions, and 10 MV and 18 MV photons were used to ensure that 100% of the prescription dose covered 95% of the target volume (<xref ref-type=\"fig\" rid=\"rpor-26-3-457f2\">Fig. 2</xref>). Organs at risk (OAR) that were monitored included the bladder, bowel, femurs, and rectum. During weekly checkups, the patient noted improvement in her bleeding with only a small amount of blood with urination.). Organs at risk (OAR) that were monitored included the bladder, bowel, femurs, and rectum. During weekly checkups, the patient noted improvement in her bleeding with only a small amount of blood with urination.",
+  "relevant_image_context": "An MRI of the pelvis was obtained to determine the extent of her endometriosis, and it showed a 3.0 × 2.3 × 2.9 cm soft tissue mass at the vaginal apex (shown in Fig. 1)."
+}

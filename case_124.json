@@ -1,0 +1,32 @@
+{
+  "case_id": 124,
+  "images": {
+    "subfig": "case_124_subfig.jpg",
+    "full": "case_124_full.jpg"
+  },
+  "question": "A child presents with acute hip pain after a recent upper respiratory infection. Temperature is normal and basic blood tests (WCC, ESR) are within reference ranges. Ultrasound of the hip is obtained. Based on the imaging, which of the following best describes the most likely prognosis?",
+  "question_scope": "subfigure",
+  "question_category": "Prognosis / risk assessment",
+  "options": {
+    "A": "Self-limiting; full recovery expected",
+    "B": "Probable septic arthritis; urgent aspiration",
+    "C": "High risk of chronic joint damage",
+    "D": "Requires prolonged IV antibiotics",
+    "E": "Needs urgent surgical washout"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the ultrasound image. The scan is of the left hip and shows a clear, crescent-shaped anechoic/hypoechoic fluid collection in the anterior joint recess, indicating a joint effusion. There are only a couple of small color Doppler dots near the capsule; there is no diffuse or prominent hyperaemia within the synovium on this image.\n\nNext, I relate these imaging findings to the clinical question, which states the child has acute hip pain after a recent upper respiratory infection, with normal temperature and normal WCC and ESR. The presence of a simple anechoic effusion with minimal Doppler signal, together with normal inflammatory markers and afebrile status, does not suggest a florid infectious process on the available information.\n\nThen, I consider the likely clinical implications. The image demonstrates a modest uncomplicated effusion without marked synovial hyperaemia; in the clinical context provided, this pattern is most consistent with a transient/self-limiting synovitis rather than septic arthritis or a process that would predict chronic joint damage or require urgent surgical or prolonged antibiotic therapy.\n\nFinally, tying these observations to the answer choices: the combination of a simple hip effusion on ultrasound, minimal Doppler flow, and normal labs/temperature supports a benign, self-limiting course with expected full recovery. Therefore the best choice is A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Transient synovitis; hypoechoic effusion without hyperaemia.",
+  "sub_caption": "Transient synovitis; hypoechoic effusion without hyperaemia.",
+  "image_context": "Irritable hip or transient synovitis (TS) is the most common cause of hip pain in the paediatric patient\n6\n. TS (<xref rid=\"AJUM-13-23-g009\" ref-type=\"fig\">Fig. 7</xref>) and reactive arthritis () and reactive arthritis (<xref rid=\"AJUM-13-23-g010\" ref-type=\"fig\">Figs. 8a</xref>, , <xref rid=\"AJUM-13-23-g011\" ref-type=\"fig\">8b</xref>) are both benign, self limiting conditions. The temperature is usually normal or slightly raised, white cell count (WCC) and erythrocyte sedimentation rate (ESR) are normal or close to normal. Treatment is rest and analgesia. The addition of an anti‐inflammatory may speed recovery) are both benign, self limiting conditions. The temperature is usually normal or slightly raised, white cell count (WCC) and erythrocyte sedimentation rate (ESR) are normal or close to normal. Treatment is rest and analgesia. The addition of an anti‐inflammatory may speed recovery\n7\n. Usually these conditions follow a recent viral illness in particular an upper respiratory tract infection (URTI)\n6\n.",
+  "relevant_image_context": "Irritable hip or transient synovitis (TS) is the most common cause of hip pain in the paediatric patient. TS is a benign, self-limiting condition; the temperature is usually normal or slightly raised, white cell count (WCC) and erythrocyte sedimentation rate (ESR) are normal or close to normal. Usually these conditions follow a recent viral illness, in particular an upper respiratory tract infection (URTI)."
+}

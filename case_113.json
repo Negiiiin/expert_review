@@ -1,0 +1,31 @@
+{
+  "case_id": 113,
+  "images": {
+    "subfig": "case_113_subfig.jpg",
+    "full": "case_113_full.jpg"
+  },
+  "question": "A hospitalized man with new-onset heart failure developed an increase in serum creatinine from 1.0 to 2.68 mg/dL after initiation of diuretic therapy. A bedside bladder scanner could not measure volume and cross-sectional abdominal imaging was obtained (shown). Based on the imaging, which of the following is contraindicated at this time?",
+  "question_scope": "full_figure",
+  "question_category": "Safety / contraindications and adverse effects",
+  "options": {
+    "A": "Immediate urethral (Foley) catheterization",
+    "B": "Continue or increase loop diuretics",
+    "C": "Percutaneous nephrostomy without catheter attempt",
+    "D": "Administer intravenous iodinated contrast"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the provided sagittal CT image. The image shows an extremely large, fluid‑attenuation structure in the pelvis and lower abdomen consistent with the urinary bladder, with on-image measurements approximately 260 mm (craniocaudal) by 151 mm (anteroposterior). The bladder fills and distends the lower abdomen to a high level, consistent with marked urinary retention/obstructive distention. \n\nNext, I relate those findings to the clinical question: the patient has a rising serum creatinine after initiation of diuretics and bedside bladder scanning could not measure volume, prompting this cross‑sectional study. The imaging demonstrates a large retained bladder volume consistent with bladder outlet obstruction causing backpressure on the urinary tract and impaired renal drainage.\n\nThen I consider how each option aligns with these observations. Immediate urethral (Foley) catheterization (A) would directly decompress the massively distended bladder seen on imaging and is therefore appropriate rather than contraindicated. Percutaneous nephrostomy without first attempting urethral catheterization (C) is an invasive renal drainage procedure that is typically reserved for when bladder drainage cannot be achieved; because the image shows a distended bladder that is amenable to transurethral drainage, proceeding straight to nephrostomy without attempting catheterization is not indicated by the imaging. Administering intravenous iodinated contrast (D) is not directly contraindicated by the bladder appearance alone, though the patient’s elevated creatinine is a concern; the imaging findings themselves do not make contrast administration the primary contraindicated action at this moment. \n\nFinally, continuing or increasing loop diuretics (B) conflicts with the imaging: with a massively distended bladder and likely obstructed outflow, increasing diuretic-driven urine production would raise urinary output against the obstruction and could worsen renal dysfunction and backpressure. Because the imaging documents significant bladder retention/obstruction, escalating diuretics is contraindicated until the obstruction is relieved and drainage is established.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Sagittal view of the CT abdomen and pelvis with severe urinary bladder distention. The urinary bladder measures 259.89 mm by 150.71 mm.",
+  "sub_caption": "Sagittal view of the CT abdomen and pelvis with severe urinary bladder distention. The urinary bladder measures 259.89 mm by 150.71 mm.",
+  "image_context": "His admission labs were notable for creatinine of 2.68 mg/dL from a baseline of 1.0 mg/dL. The timeline for the decline in kidney function correlated with the new heart failure diagnosis and initiation of the diuretic. A bedside bladder scanner was unable to detect a bladder volume due to enlarged size and abdominal edema. A computed tomography scan of the abdomen and pelvis was remarkable for significant distention of the urinary bladder, measuring 26 x 15 x 17 cm, with secondary severe bilateral hydroureteronephrosis and prostate gland enlargement [Figures <xref rid=\"cureus-0014-00000029626-i01\" ref-type=\"fig\">1</xref>, , <xref rid=\"cureus-0014-00000029626-i02\" ref-type=\"fig\">2</xref>].].",
+  "relevant_image_context": "His admission labs were notable for creatinine of 2.68 mg/dL from a baseline of 1.0 mg/dL. The timeline for the decline in kidney function correlated with the new heart failure diagnosis and initiation of the diuretic. A bedside bladder scanner was unable to detect a bladder volume due to enlarged size and abdominal edema. A computed tomography scan of the abdomen and pelvis was remarkable for significant distention of the urinary bladder, measuring 26 x 15 x 17 cm, with secondary severe bilateral hydroureteronephrosis and prostate gland enlargement [Figures 1, 2]."
+}

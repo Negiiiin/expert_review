@@ -1,0 +1,29 @@
+{
+  "case_id": 283,
+  "images": {
+    "subfig": "case_283_subfig.jpg",
+    "full": "case_283_full.jpg"
+  },
+  "question": "Based on this image, does the imaging pattern suggest a destructive process?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Yes",
+    "B": "No"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image for the appearance of the maxillary sinuses and surrounding structures. The left maxillary sinus is filled with soft-tissue density material, whereas the contralateral sinus is relatively aerated.\n\nNext, I inspect the bony margins of the left maxillary sinus. There is a focal discontinuity and irregularity of the posterior/lateral maxillary sinus wall cortex on the left, consistent with loss of the normal bony contour. I also note obliteration of the retroantral fat plane and soft-tissue extension beyond the expected sinus boundary on the left side.\n\nThen I relate these observations to the question, which asks if the imaging pattern suggests a destructive process. Focal cortical bone loss combined with loss of the adjacent fat plane and soft-tissue extension are characteristic imaging signs of a destructive (invasive) process rather than a simple non-destructive mucosal disease.\n\nTherefore, based on the visible bone erosion and soft-tissue extension on the left, the imaging pattern does suggest a destructive process.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "In a 35-year-old patient post COVID-infection of moderate severity, presented with sinusitis. Axial CT images (a, b) showing left maxillary sinusitis with the erosion of the posterior wall of the left maxillary sinus (orange arrow) and obliterating the retroantral fat, consistent with invasive fungal sinusitis",
+  "sub_caption": "Axial CT images (a, b) showing left maxillary sinusitis with the erosion of the posterior wall of the left maxillary sinus (orange arrow) and obliterating the retroantral fat, consistent with invasive fungal sinusitis",
+  "image_context": "On imaging, in early infection, there may just be mild nodular mucosal thickening which may progress to opacification of the entire sinus. On CT, this may present as enhancing soft tissue thickening of the sinus which on MRI will be hypointense on T1 Weighted (W) and variably hyperintense on T2 W sequences. The hyphae of the fungi may show diffusion restriction. Enhancement patterns can be variable ranging from mild to heterogeneous to peripheral enhancement. Fungal infections characteristically cause erosion of the underlying bones in about 40% of the cases [9] (Fig. <xref rid=\"43055_2022_735_Fig2_HTML\" ref-type=\"fig\">2</xref>). However, this occurs late in the disease and is best detected on a CT scan. Early diagnosis can be made if enhancing soft tissue is seen anterior or posterior to the involved maxillary sinus, best detected on MRI [). However, this occurs late in the disease and is best detected on a CT scan. Early diagnosis can be made if enhancing soft tissue is seen anterior or posterior to the involved maxillary sinus, best detected on MRI [10]. There may also be a presence of high-density contents within the sinus which may show blooming on gradient images. These represent the fungal hyphae contents. At times, due to invasion of the smaller vessels, there may be infarction of tissue resulting in non-enhancement of the mucosa [7].Fig. 2In a 35-year-old patient post COVID-infection of moderate severity, presented with sinusitis. Axial CT images (a, b) showing left maxillary sinusitis with the erosion of the posterior wall of the left maxillary sinus (orange arrow) and obliterating the retroantral fat, consistent with invasive fungal sinusitis",
+  "relevant_image_context": "Fig. 2 In a 35-year-old patient post COVID-infection of moderate severity, presented with sinusitis. Axial CT images (a, b) showing left maxillary sinusitis with the erosion of the posterior wall of the left maxillary sinus (orange arrow) and obliterating the retroantral fat, consistent with invasive fungal sinusitis"
+}

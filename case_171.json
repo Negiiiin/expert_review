@@ -1,0 +1,33 @@
+{
+  "case_id": 171,
+  "images": {
+    "subfig": "case_171_subfig.jpg",
+    "full": "case_171_full.jpg"
+  },
+  "question": "A 17-year-old asymptomatic woman enrolled in a research study underwent brain MRI. The imaging demonstrated an unexpected focal abnormality. Which of the following is the most appropriate next-step diagnostic imaging?",
+  "question_scope": "full_figure",
+  "question_category": "Next-step diagnostic test or imaging",
+  "options": {
+    "A": "Repeat non-contrast brain MRI in 1 month",
+    "B": "Immediate gadolinium-enhanced brain MRI",
+    "C": "Non-contrast head CT",
+    "D": "Lumbar puncture for CSF analysis",
+    "E": "No further imaging; clinical follow-up only"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided image: an axial FLAIR brain MRI showing a single, small, well‑circumscribed hyperintense focus in the left frontal subcortical white matter (circled). There are no obvious surrounding mass effect, large confluent lesions, or additional multifocal abnormalities visible on this slice. The patient is described as a 17-year-old who is asymptomatic and this abnormality was an unexpected, incidental finding.\n\nNext, I relate these image findings to the question, which asks for the most appropriate next-step diagnostic imaging. The key considerations are that the finding is solitary, small, and nonspecific on a non-contrast FLAIR study in an asymptomatic young person, so the immediate priority is to determine whether it represents a transient/artifactual focus or a persistent/pathologic lesion.\n\nThen I consider the options in turn. Immediate gadolinium-enhanced MRI (B) would be aimed at characterizing enhancing lesions, but there are no imaging features on this non-contrast FLAIR slice to strongly suggest an enhancing mass that requires urgent contrast characterization. Non-contrast head CT (C) would be unlikely to better visualize or characterize a small white-matter FLAIR focus and would not add useful information. Lumbar puncture (D) is not an imaging study and would be invasive without clinical signs to suggest infection or inflammatory disease. Choosing no further imaging (E) would risk missing persistence or evolution of a lesion; since imaging follow-up can distinguish transient artifacts or nonspecific foci from true pathology, some short-interval reassessment is reasonable.\n\nFinally, given a small, solitary, nonspecific incidental FLAIR abnormality in an otherwise healthy, asymptomatic adolescent, a short-interval repeat non-contrast brain MRI (A) is the most appropriate next imaging step to document stability or resolution before pursuing more invasive or contrast-enhanced studies. This approach is image‑guided, minimizes unnecessary interventions, and directly addresses the diagnostic uncertainty raised by the incidental finding.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "T2 weighted FLAIR image showing a 5 mm hyper intensity lesion in the left frontal lobe.",
+  "sub_caption": "T2 weighted FLAIR image showing a 5 mm hyper intensity lesion in the left frontal lobe.",
+  "image_context": "The second participant who tested positive for NMDAR-Abs was a 17 year-old female in the HC group. She had no prior or present psychopathology. The results from the neurocognitive assessment were within normal range on all tests, and she had no neurological findings upon inclusion. She had no prior somatic diseases or hospital admissions. She presented with a single finding on a FLAIR MR pulse sequence consisting of a 5 mm white matter hyper intensity lesion located in the left frontal lobe (<xref ref-type=\"fig\" rid=\"fpsyt-11-00666-g002\">\n<bold>Figure 2</bold>\n</xref>). This finding prompted a follow-up MRI, which was conducted one month later without observed abnormalities, i.e. the prior FLAIR abnormality was resolved. The same neuro-radiologist reviewed both scans. Neither at time of inclusion, nor at MRI follow-up scan, did she present with any symptoms or neurological findings coinciding with ANRE. Her school and social functioning remained unremarkable. Further clinical follow-up was not indicated.Figure 2\n). This finding prompted a follow-up MRI, which was conducted one month later without observed abnormalities, i.e. the prior FLAIR abnormality was resolved. The same neuro-radiologist reviewed both scans. Neither at time of inclusion, nor at MRI follow-up scan, did she present with any symptoms or neurological findings coinciding with ANRE. Her school and social functioning remained unremarkable. Further clinical follow-up was not indicated.",
+  "relevant_image_context": "The second participant who tested positive for NMDAR-Abs was a 17 year-old female in the HC group. She had no prior or present psychopathology. The results from the neurocognitive assessment were within normal range on all tests, and she had no neurological findings upon inclusion. She had no prior somatic diseases or hospital admissions. She presented with a single finding on a FLAIR MR pulse sequence consisting of a 5 mm white matter hyper intensity lesion located in the left frontal lobe (<xref ref-type=\"fig\" rid=\"fpsyt-11-00666-g002\"><bold>Figure 2</bold></xref>). This finding prompted a follow-up MRI, which was conducted one month later without observed abnormalities, i.e. the prior FLAIR abnormality was resolved. The same neuro-radiologist reviewed both scans. Neither at time of inclusion, nor at MRI follow-up scan, did she present with any symptoms or neurological findings coinciding with ANRE. Her school and social functioning remained unremarkable. Further clinical follow-up was not indicated. Figure 2"
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": 117,
+  "images": {
+    "subfig": "case_117_subfig.jpg",
+    "full": "case_117_full.jpg"
+  },
+  "question": "Based on this image, which of the following is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Cerebral hydatid cyst (Echinococcus)",
+    "B": "Neurocysticercosis",
+    "C": "Metastatic cystic lesions",
+    "D": "Arachnoid cyst",
+    "E": "Pyogenic brain abscess"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for objective findings. The axial brain MRI slice shows multiple well-circumscribed, spherical cystic lesions that are homogeneously hyperintense relative to the surrounding brain. The largest lesion is a very round, thin-walled cyst in the left parietal region; two smaller round cystic lesions are present in the contralateral hemisphere and posteriorly. All lesions lie within the brain substance (intraparenchymal) and do not show obvious surrounding high-signal edema or irregular wall thickening on this sequence. I do not see internal nodules, calcified foci, or septations within the cysts on this image.\n\nNext, I relate these imaging features to the diagnostic options. The lesions’ intraparenchymal location and perfectly spherical, smooth thin walls argue against an extra-axial process. The absence of a prominent surrounding hyperintense rim on this sequence and the very regular, unilocular appearance of the large cyst make an active pyogenic abscess or an irregular necrotic metastatic deposit less likely. The pattern of a very large solitary-appearing spherical cyst accompanied by smaller similar cysts fits best with a primary intraparenchymal cystic process characterized by smooth-walled cysts.\n\nThen, I consider how each option aligns with those observations. Arachnoid cysts are typically extra-axial and would not be surrounded by brain parenchyma as seen here. Pyogenic abscesses and metastatic cystic lesions commonly produce surrounding edema and more irregular walls than are visible. Neurocysticercosis more often presents with numerous small cysts at varying stages; the prominent large smooth cyst with smaller companion cysts in this image is most consistent with the smooth, spherical intraparenchymal cystic appearance represented by option A.\n\nIn summary, based on the intraparenchymal location, the very smooth, spherical, thin-walled cysts (one very large with smaller companion cysts), and lack of marked surrounding edema or irregularity, the imaging most strongly supports option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Axial T2-weighted image showing multiple, spherical, homogenously cystic lesions having well-defined, smooth wall (arrows)",
+  "sub_caption": "Axial T2-weighted image showing multiple, spherical, homogenously cystic lesions having well-defined, smooth wall (arrows)",
+  "image_context": "A 45-year-old woman presented with intermittent, generalized, moderate intensity headache for last 6 months. She had no history of associated vomiting, diplopia, seizures, or fever. The central nervous system (CNS) examination was normal, except for the presence of papilledema on fundoscopic examination. Routine laboratory investigations were within normal limits. MRI of the brain showed multiple, spherical, homogenously cystic lesions having well-defined smooth wall. The cyst fluid was isointense with CSF on T1- and T2-weighted images [<xref ref-type=\"fig\" rid=\"AIAN-14-217-g001\">Figure 1</xref>]. Also noted were the daughter cysts within cystic lesion in the right frontoparietal region []. Also noted were the daughter cysts within cystic lesion in the right frontoparietal region [<xref ref-type=\"fig\" rid=\"AIAN-14-217-g002\">Figure 2</xref>]. Post gadolinium-contrast image revealed minimal rim enhancement []. Post gadolinium-contrast image revealed minimal rim enhancement [<xref ref-type=\"fig\" rid=\"AIAN-14-217-g003\">Figure 3</xref>]. No calcification or perilesional edema was seen. Based on neuroimaging findings, the patient was diagnosed as having cerebral hydatid cysts. USG of the abdomen and CT of chest did not reveal any cysts within the liver and lungs, respectively. The patient was operated and histopathology was consistent with ]. No calcification or perilesional edema was seen. Based on neuroimaging findings, the patient was diagnosed as having cerebral hydatid cysts. USG of the abdomen and CT of chest did not reveal any cysts within the liver and lungs, respectively. The patient was operated and histopathology was consistent with Echinococcus granulosus infestation.",
+  "relevant_image_context": "MRI of the brain showed multiple, spherical, homogenously cystic lesions having well-defined smooth wall. No calcification or perilesional edema was seen. Based on neuroimaging findings, the patient was diagnosed as having cerebral hydatid cysts. The patient was operated and histopathology was consistent with Echinococcus granulosus infestation."
+}

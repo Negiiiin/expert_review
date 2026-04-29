@@ -1,0 +1,31 @@
+{
+  "case_id": 281,
+  "images": {
+    "subfig": "case_281_subfig.jpg",
+    "full": "case_281_full.jpg"
+  },
+  "question": "What do the arrows point to on this CT image?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Hepatic metastases",
+    "B": "Simple hepatic cysts",
+    "C": "Hepatic hemangiomas",
+    "D": "Focal fatty sparing"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I closely examine the provided axial CT image of the upper abdomen. The liver is visualized with three arrows pointing to discrete, rounded lesions in the hepatic parenchyma (predominantly the right lobe). These lesions are well circumscribed, of variable size, and are lower in attenuation than the surrounding liver tissue.\n\nNext, I relate those imaging findings to the question, which asks me to identify what the arrows point to from the given options.\n\nThen I consider how the image features align with each option:\n- Simple hepatic cysts (B) would be expected to appear as purely fluid-attenuation, uniformly very low-density lesions; the indicated lesions show higher attenuation and mild internal heterogeneity rather than simple anechoic/fluid appearance, arguing against simple cysts.\n- Hepatic hemangiomas (C) classically show a peripheral nodular enhancement pattern with progressive fill-in; the arrows in this image mark discrete hypodense nodules without the characteristic peripheral nodular/centripetal pattern visible here.\n- Focal fatty sparing (D) typically appears as geographic areas of relatively higher attenuation within an otherwise diffusely fatty liver and often has a wedge-shaped or perivascular distribution; the findings here are multiple rounded nodules scattered in the liver, not geographic spared zones, and the background liver does not appear diffusely fatty.\n\nFinally, given the presence of multiple well-defined, round hypodense lesions of variable size scattered in the liver—features most consistent with multiple metastatic deposits—the best choice is hepatic metastases.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Representative single-phase enhanced CT images. Both images were acquired on separate occasions from a 62-year-old male who had liver metastases after colon cancer surgery. The tin-filtered 100 kV (TF100kV) protocol (a) shows lower CNR and higher FOM than the standard 120 kV (ST120kV) protocol (b). Liver metastases are detectable in both protocols (arrows).",
+  "sub_caption": "The tin-filtered 100 kV (TF100kV) protocol (a) shows lower CNR and higher FOM than the standard 120 kV (ST120kV) protocol (b). Liver metastases are detectable in both protocols (arrows).",
+  "image_context": "The data for the objective image quality assessment are shown in Table 4. The mean background noise was significantly higher for the TF100kV protocol than for the ST120kV protocol (8.36 (7.61–8.86) HU vs. 6.04 (5.45–6.93) HU, p < 0.0001). CNRs of the liver and abdominal aorta were significantly higher for the ST120kV protocol than for the TF100kV protocol (liver: 2.76 (1.38–4.03) vs. 2.13 (1.42–2.73), p < 0.0001; abdominal aorta: 5.81 (4.76–7.52) vs. 4.08 (3.39–5.02), p < 0.0001). However, FOM was found to be significantly higher for the TF100kV protocol than for the ST120kV protocol (liver: 2.24 (0.89–4.07) vs. 0.36 (0.09–0.93), p < 0.0001; abdominal aorta: 8.62 (5.98–14.1) and vs. 1.81 (1.19–3.16), p < 0.0001). <xref rid=\"tomography-08-00088-g003\" ref-type=\"fig\">Figure 3</xref> shows representative example images of both protocols. shows representative example images of both protocols.",
+  "relevant_image_context": "Data for the objective image quality assessment are shown in Table 4. The mean background noise was significantly higher for the TF100kV protocol than for the ST120kV protocol (8.36 (7.61–8.86) HU vs. 6.04 (5.45–6.93) HU, p < 0.0001). CNRs of the liver and abdominal aorta were significantly higher for the ST120kV protocol than for the TF100kV protocol (liver: 2.76 (1.38–4.03) vs. 2.13 (1.42–2.73), p < 0.0001; abdominal aorta: 5.81 (4.76–7.52) vs. 4.08 (3.39–5.02), p < 0.0001). However, FOM was found to be significantly higher for the TF100kV protocol than for the ST120kV protocol (liver: 2.24 (0.89–4.07) vs. 0.36 (0.09–0.93), p < 0.0001; abdominal aorta: 8.62 (5.98–14.1) and vs. 1.81 (1.19–3.16), p < 0.0001). Figure 3 shows representative example images of both protocols. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

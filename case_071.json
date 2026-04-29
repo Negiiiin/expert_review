@@ -1,0 +1,32 @@
+{
+  "case_id": 71,
+  "images": {
+    "subfig": "case_071_subfig.jpg",
+    "full": "case_071_full.jpg"
+  },
+  "question": "Based on this image, which of the following is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Renal cell carcinoma",
+    "B": "Simple renal cyst",
+    "C": "Renal angiomyolipoma",
+    "D": "Renal abscess",
+    "E": "Transitional cell carcinoma of the renal pelvis"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided coronal CT image of the abdomen. The right kidney contains a couple of well-circumscribed, rounded low-attenuation lesions consistent with simple fluid-filled cysts. The left kidney, by contrast, is largely replaced by a large, irregular, heterogeneous mass that occupies much of the renal parenchyma and bulges outward.\n\nNext, I relate these imaging findings to the question, which asks for the most likely diagnosis among the listed renal lesions. The key imaging observations to use are: (1) a large solid-appearing renal mass on the left with heterogeneous internal density (areas of higher and lower attenuation), (2) irregular/lobulated margins and exophytic growth from the kidney, and (3) absence on this image of a discrete fat-density component or a simple unilocular fluid collection confined to the renal cortex.\n\nThen, I consider how each option matches those observations. A simple renal cyst (option B) would appear as a smooth, uniform, low-attenuation round lesion — that describes the small lesions in the right kidney but does not match the large heterogeneous left-sided mass. Renal angiomyolipoma (option C) typically contains visible macroscopic fat (very low attenuation) within the lesion; I do not see areas of macroscopic fat within the left mass on this scan. A renal abscess (option D) would generally present as a fluid collection with a rim and central low attenuation rather than a predominantly solid, heterogeneously enhancing mass. Transitional cell carcinoma of the renal pelvis (option E) arises centrally in the collecting system and often causes a filling defect in the pelvis/ureter rather than a large exophytic parenchymal mass.\n\nPutting these points together, the left renal lesion most closely corresponds to a large, solid, heterogeneous renal parenchymal tumor. This imaging appearance is most consistent with renal cell carcinoma.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Renal cell carcinoma in the left kidney of an 83 year old woman. (a) Point‐of‐care ultrasound showing an abnormal hypoechoic region in the left renal cortex suspicious for malignancy. (b) Computed tomography scan of the abdomen and pelvis showing a normal‐appearing right kidney (1) with two renal cysts and a left renal mass (2) consistent with renal cell carcinoma.",
+  "sub_caption": "(b) Computed tomography scan of the abdomen and pelvis showing a normal-appearing right kidney (1) with two renal cysts and a left renal mass (2) consistent with renal cell carcinoma.",
+  "image_context": "An 83 year old woman with a history of type II diabetes mellitus, hypertension and anxiety presented to the emergency department with one day of painless haematuria and an episode of urinating blood clots, associated with urinary hesitancy. Renal POCUS was obtained, which showed a large round structure of mixed echogenicity within the left kidney appearing to obstruct the normal renal architecture (Figure <xref rid=\"AJUM-26-118-g002\" ref-type=\"fig\">2a</xref>). A structure of mixed echogenicity was noted in the lumen of the bladder as well. A CT of the abdomen and pelvis was obtained, which showed an 8.7 cm left renal mass suspicious for renal cell carcinoma with invasion into the left renal vein and a 3 cm bladder mass and multiple liver lesions (Figure ). A structure of mixed echogenicity was noted in the lumen of the bladder as well. A CT of the abdomen and pelvis was obtained, which showed an 8.7 cm left renal mass suspicious for renal cell carcinoma with invasion into the left renal vein and a 3 cm bladder mass and multiple liver lesions (Figure <xref rid=\"AJUM-26-118-g002\" ref-type=\"fig\">2b</xref>). The patient was admitted to the hospital, where she underwent a biopsy that confirmed the diagnosis of renal cell carcinoma. She then underwent left radical nephrectomy.). The patient was admitted to the hospital, where she underwent a biopsy that confirmed the diagnosis of renal cell carcinoma. She then underwent left radical nephrectomy.",
+  "relevant_image_context": "An 83-year-old woman with a history of type II diabetes mellitus, hypertension and anxiety presented to the emergency department with one day of painless haematuria and an episode of urinating blood clots, associated with urinary hesitancy. A CT of the abdomen and pelvis was obtained, which showed an 8.7 cm left renal mass suspicious for renal cell carcinoma with invasion into the left renal vein and a 3 cm bladder mass and multiple liver lesions. The patient was admitted to the hospital, where she underwent a biopsy that confirmed the diagnosis of renal cell carcinoma. She then underwent left radical nephrectomy."
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": 321,
+  "images": {
+    "subfig": "case_321_subfig.jpg",
+    "full": "case_321_full.jpg"
+  },
+  "question": "Based on this image, which of the following best describes the dominant imaging finding?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Intermuscular abscess",
+    "B": "Intraperitoneal free fluid",
+    "C": "Subcutaneous emphysema",
+    "D": "Normal abdominal wall"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image of the lower abdomen and pelvis, noting the bony pelvis, loops of bowel within the peritoneal cavity, the subcutaneous fat, and the paired abdominal wall musculature (rectus/oblique muscles) anteriorly. I look specifically for focal abnormalities in the abdominal wall and within the peritoneal cavity.\n\nNext, I identify a well-defined, rounded low-attenuation collection located within the abdominal wall musculature, confined between muscle layers rather than within the peritoneal cavity. The peritoneal space shows bowel loops without obvious dependent/fluid layering to suggest free intraperitoneal fluid. There are no streaky or bubbly low-density areas in the subcutaneous fat to indicate subcutaneous emphysema.\n\nThen, I relate these observations to the answer choices: a localized fluid collection within muscle layers corresponds to an intermuscular abscess (Option A). Intraperitoneal free fluid (B) would appear as dependent fluid within the peritoneal cavity, which is not seen. Subcutaneous emphysema (C) would show gas in the subcutaneous tissues, which is absent. A normal abdominal wall (D) is inconsistent with the focal fluid collection present.\n\nTherefore, the imaging most closely represents an intermuscular abscess confined to the abdominal wall musculature.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "After open drainage of the abscess, it spontaneously shrank in 2 months. The rectus abdominus muscle was unclear in computed tomography.",
+  "sub_caption": "\nThe rectus abdominus muscle was unclear in computed tomography.",
+  "image_context": "She was requested to wear a girth around her chest and abdomen for 4 months. Six months later, chest wall deformity had gradually improved. However, there was pus discharge, and computed tomography revealed abscess formation between the folded muscles. After open drainage of the abscess, it spontaneously shrank in 2 months. The rectus abdominus muscle was unclear in computed tomography (Fig. <xref ref-type=\"fig\" rid=\"gox-2-e195-g003\">3</xref>). Regarding her abdominal muscle strength, she could not do sit-ups. Throughout the follow-up period, her abdominal muscles were not strong enough to allow her to sit-up without using her arms (Fig. ). Regarding her abdominal muscle strength, she could not do sit-ups. Throughout the follow-up period, her abdominal muscles were not strong enough to allow her to sit-up without using her arms (Fig. <xref ref-type=\"fig\" rid=\"gox-2-e195-g004\">4</xref>).). Serous fluid pooled and an abscess between the muscles formed. The unevenness of the folded muscles in the abdomen resolved gradually after open drainage of the abscess. Although we intended to preserve the functional rectus abdominal muscle, the shape was unclear in computated tomography (Fig. <xref ref-type=\"fig\" rid=\"gox-2-e195-g003\">3</xref>) and the strength was not enough to allow her to sit up. The chest wall deformity improved conservatively within 6 months by use of a girth (Fig. ) and the strength was not enough to allow her to sit up. The chest wall deformity improved conservatively within 6 months by use of a girth (Fig. <xref ref-type=\"fig\" rid=\"gox-2-e195-g004\">4</xref>) as we expected from a a report by Kim et al.) as we expected from a a report by Kim et al.13",
+  "relevant_image_context": "The rectus abdominus muscle was unclear in computed tomography (Fig. 3). Although we intended to preserve the functional rectus abdominal muscle, the shape was unclear in computated tomography (Fig. 3) and the strength was not enough to allow her to sit up. Serous fluid pooled and an abscess between the muscles formed. The unevenness of the folded muscles in the abdomen resolved gradually after open drainage of the abscess. Regarding her abdominal muscle strength, she could not do sit-ups. Throughout the follow-up period, her abdominal muscles were not strong enough to allow her to sit-up without using her arms."
+}

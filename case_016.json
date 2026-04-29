@@ -1,0 +1,32 @@
+{
+  "case_id": 16,
+  "images": {
+    "subfig": "case_016_subfig.jpg",
+    "full": "case_016_full.jpg"
+  },
+  "question": "Based on this image, which pathophysiologic mechanism best explains the finding?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "Congenital lymphatic malformation of mesentery",
+    "B": "Ovarian follicular cyst from hormonal stimulation",
+    "C": "Enteric duplication from embryonic gut duplication",
+    "D": "Pancreatic enzyme leakage forming pseudocyst",
+    "E": "Mesothelial peritoneal inclusion cyst after inflammation"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image: a coronal abdominal CT labeled \"2 YRS ABDOMEN.\" There is a very large, well-defined, predominantly cystic mass occupying the central and lower abdomen. The lesion is multilocular with multiple rounded fluid-filled locules of varying size, thin septations, and it displaces adjacent bowel loops peripherally. I do not see solid enhancing components or calcifications within the mass on this image.\n\nNext, I relate these observations to the question, which asks which pathophysiologic mechanism best explains this appearance. The key imaging features to explain are a large, multiloculated, thin-walled cystic mass centered in the mesenteric region of a toddler.\n\nThen, I consider how each option aligns with those features. Option A (congenital lymphatic malformation of mesentery) corresponds to a developmental cystic process that would produce multiple lymph-filled locules in the mesentery, matching the multilocular, thin-walled cystic appearance centered in the mesentery on this scan. Option B (ovarian follicular cyst) would typically present as a unilocular adnexal cyst rather than a large, multiloculated central mesenteric mass and is less consistent with the image. Option C (enteric duplication) often shows a cystic structure with a wall that may demonstrate bowel-type wall layers or close continuity with the GI tract; here the bowel is displaced around the mass and no bowel wall layering or communication is evident. Option D (pancreatic pseudocyst) would be expected in a peripancreatic location and in an appropriate clinical setting; this mass is centered lower in the mesentery. Option E (mesothelial peritoneal inclusion cyst) tends to be related to peritoneal adhesions or ovarian region collections and often conforms around organs; the appearance here is a discrete multilocular mesenteric mass rather than peritoneal surface encasement.\n\nFinally, synthesizing the imaging appearance (large, multiloculated, thin-walled fluid collection centered in the mesentery of a 2-year-old) with the available options, the developmental mechanism described in option A best explains the finding.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT-Scan image showing mesenteric cyst.",
+  "sub_caption": "CT-Scan image showing mesenteric cyst.",
+  "image_context": "A 26-month-old child was referred to our teaching hospital's pediatric surgery department with the complaint of a semi-mobile, asymptomatic abdominal lump. She was born to a non-consanguineous couple, and her siblings were all healthy. According to the parents' information, their child was complaining of constipation two months ago and received medical treatment with laxatives from a local physician. The patient's symptoms were relieved, but over time, the parents noticed an abdominal mass with a central location projecting to the lower midline. In the next visit, the same physician advised ultrasonography (USG) and, for a better diagnosis, computerized tomography scanning (CT-Scan), which confirmed the abdominal lump misreported as ovarian cyst (<xref rid=\"gr1\" ref-type=\"fig\">Fig. 1</xref>). Thereafter, the patient was referred to our department for definite diagnosis and was admitted.). Thereafter, the patient was referred to our department for definite diagnosis and was admitted.Fig. 1CT-Scan image showing mesenteric cyst.Fig. 1",
+  "relevant_image_context": "Fig. 1 CT-Scan image showing mesenteric cyst. A 26-month-old child was referred to our teaching hospital's pediatric surgery department with the complaint of a semi-mobile, asymptomatic abdominal lump. She was born to a non-consanguineous couple, and her siblings were all healthy. According to the parents' information, their child was complaining of constipation two months ago and received medical treatment with laxatives from a local physician. The patient's symptoms were relieved, but over time, the parents noticed an abdominal mass with a central location projecting to the lower midline. In the next visit, the same physician advised ultrasonography (USG) and, for a better diagnosis, computerized tomography scanning (CT-Scan), which confirmed the abdominal lump misreported as ovarian cyst (Fig. 1). Thereafter, the patient was referred to our department for definite diagnosis and was admitted. Fig. 1 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

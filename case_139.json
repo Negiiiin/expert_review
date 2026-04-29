@@ -1,0 +1,31 @@
+{
+  "case_id": 139,
+  "images": {
+    "subfig": "case_139_subfig.jpg",
+    "full": "case_139_full.jpg"
+  },
+  "question": "How many distinct abnormal findings are visible on this image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for focal abnormalities. This is a sagittal CT through the upper abdomen and lower chest; I scan the liver, diaphragm, and upper abdominal soft tissues for any discrete lesions or abnormal densities.\n\nNext, I relate what I see to the question, which asks how many distinct abnormal findings are visible. In the image I can clearly identify two separate focal abnormal areas: one rounded abnormality in the superior/anterosuperior abdomen just below the diaphragm, and a second distinct abnormal focus located more inferiorly in the mid-epigastric/upper abdominal region. These two foci are separate from each other and have different locations on the scan.\n\nThen, I consider how the answer choices line up with those observations. Choice A (one) is inconsistent because I see more than a single abnormality. Choices C (three) and D (four) are inconsistent because I do not see additional distinct lesions beyond the two described. Therefore the count that matches the image is two.\n\nIn summary, the image shows two distinct abnormal findings, so the correct choice is B.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Pancreatic tumor at time of presentation to radiation oncology. Axial, coronal, and sagittal diagnostic (A–C) as well as simulation (D–F) CT images of the patient at time of presentation to radiation oncology. The primary tumor is indicated on the diagnostic images by the red arrow and a liver metastasis is indacted by the yellow arrow. The GTV (red contour) and PTV (cyan contour) are delineated on the CT simulation images",
+  "sub_caption": "The primary tumor is indicated on the diagnostic images by the red arrow and a liver metastasis is indicated by the yellow arrow.",
+  "image_context": "A 61-year-old woman presented following an episode of abdominal pain due to acute pancreatitis. During the patient’s work up, a CT chest/abdomen/pelvis demonstrated a mass in the pancreatic body. Biopsy of the mass confirmed pancreatic adenocarcinoma. The patient met with medical oncology and was recommended neo-adjuvant systemic therapy but declined and pursued alternative therapies. The patient returned to clinic several months later with abdominal pain and interval imaging demonstrating progression of local disease with encasement of the splenic and superior mesenteric veins (Fig. <xref rid=\"13014_2022_2125_Fig1_HTML\" ref-type=\"fig\">1</xref>) as well as the development of liver metastases. The primary mass measured 4.8 × 3.8 cm. The patient was referred to radiation oncology for consideration of palliative radiotherapy. On interview, the patient reported left upper quadrant and back pain as well as malaise and weight loss. Physical exam was otherwise unremarkable. The patient was recommended SBRT to her primary mass for durable palliation, 35 Gy in 5 fractions, 7 Gy per fraction. Given the high dose per fraction and adjacent critical organs at risk, the treating radiation oncologist elected to use daily online adaptation with cone beam CT-guidance.) as well as the development of liver metastases. The primary mass measured 4.8 × 3.8 cm. The patient was referred to radiation oncology for consideration of palliative radiotherapy. On interview, the patient reported left upper quadrant and back pain as well as malaise and weight loss. Physical exam was otherwise unremarkable. The patient was recommended SBRT to her primary mass for durable palliation, 35 Gy in 5 fractions, 7 Gy per fraction. Given the high dose per fraction and adjacent critical organs at risk, the treating radiation oncologist elected to use daily online adaptation with cone beam CT-guidance.Fig. 1Pancreatic tumor at time of presentation to radiation oncology. Axial, coronal, and sagittal diagnostic (A–C) as well as simulation (D–F) CT images of the patient at time of presentation to radiation oncology. The primary tumor is indicated on the diagnostic images by the red arrow and a liver metastasis is indacted by the yellow arrow. The GTV (red contour) and PTV (cyan contour) are delineated on the CT simulation images",
+  "relevant_image_context": "Fig. 1 Pancreatic tumor at time of presentation to radiation oncology. Axial, coronal, and sagittal diagnostic (A–C) as well as simulation (D–F) CT images of the patient at time of presentation to radiation oncology. The primary tumor is indicated on the diagnostic images by the red arrow and a liver metastasis is indacted by the yellow arrow."
+}

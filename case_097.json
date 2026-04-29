@@ -1,0 +1,32 @@
+{
+  "case_id": 97,
+  "images": {
+    "subfig": "case_097_subfig.jpg",
+    "full": "case_097_full.jpg"
+  },
+  "question": "Based on this image, which anatomical structure forms the central portion of the intervertebral disc?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Nucleus pulposus",
+    "B": "Annulus fibrosus",
+    "C": "Vertebral endplate",
+    "D": "Posterior longitudinal ligament"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for visible anatomy. This is a sagittal view through a spinal motion segment showing two vertebral bodies with an interposed intervertebral disc. In the disc, there is a clearly visible central, relatively homogeneous bright region surrounded by darker, lamellar-appearing tissue.\n\nNext, I relate these observations to the question, which asks which structure forms the central portion of the disc. The bright central material occupies the core of the disc, while the surrounding layered rings form the outer portion. Thin boundaries above and below the disc separate it from the adjacent vertebral bodies.\n\nThen, I consider how each answer aligns with what I see. The nucleus pulposus is the central, gelatinous core of the disc and corresponds to the bright central region in the image. The annulus fibrosus forms the outer concentric rings and therefore does not represent the central portion. The vertebral endplates are the thin interfaces at the top and bottom of the disc, and the posterior longitudinal ligament is a separate posterior structure, neither of which match the central core seen here.\n\nFinally, tying the observations to the choices: the structure that best matches the central portion of the intervertebral disc visible in the image is the nucleus pulposus.",
+  "modality": "Microscopy",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "A selected MRI slice from the postdecalcification scan of the C7–T1 IVD and the corresponding histology micrograph. In both images the circles indicate comparative landmarks, vertical arrows indicate height measurements, and the line across the annulus is for lamellae counting.",
+  "sub_caption": "A selected MRI slice from the postdecalcification scan of the C7–T1 IVD and the corresponding histology micrograph. In both images the circles indicate comparative landmarks, vertical arrows indicate height measurements, and the line across the annulus is for lamellae counting.",
+  "image_context": "From the postdecalcification MR image stack which consisted of sequential sagittal images between the right and left lateral margins of the specimen, the images representing the sagittal section of the sample at 0.2, 0.4, 0.6, and 0.8 proportional distances between the right and left lateral margins were selected. These were then compared with similarly selected histological micrographs using landmark features and quantitative measurements. (Figures <xref ref-type=\"fig\" rid=\"brs-40-e1315-g001\">1</xref>––<xref ref-type=\"fig\" rid=\"brs-40-e1315-g003\">3</xref>)) The MRI-histology comparison confirmed that the features seen on the MR images were realistically related to the actual structures (Figure <xref ref-type=\"fig\" rid=\"brs-40-e1315-g001\">1</xref>). It was evident from the histology micrographs that lamellae thicknesses vary considerably (Figure ). It was evident from the histology micrographs that lamellae thicknesses vary considerably (Figure <xref ref-type=\"fig\" rid=\"brs-40-e1315-g002\">2</xref>). MR and histology images matched well in terms of the lamellae number, shape, position and orientation. However, due to the relatively low number of voxels across each lamella, attempts were not made in this study to measure the thickness of the lamellae. As such, on the MRI images, peaks and troughs of the grayscale profile along a selected length were used only to interpret the lamellae alternation (Figure ). MR and histology images matched well in terms of the lamellae number, shape, position and orientation. However, due to the relatively low number of voxels across each lamella, attempts were not made in this study to measure the thickness of the lamellae. As such, on the MRI images, peaks and troughs of the grayscale profile along a selected length were used only to interpret the lamellae alternation (Figure <xref ref-type=\"fig\" rid=\"brs-40-e1315-g003\">3</xref>).).",
+  "relevant_image_context": "From the postdecalcification MR image stack which consisted of sequential sagittal images between the right and left lateral margins of the specimen, the images representing the sagittal section of the sample at 0.2, 0.4, 0.6, and 0.8 proportional distances between the right and left lateral margins were selected. These were then compared with similarly selected histological micrographs using landmark features and quantitative measurements. The MRI-histology comparison confirmed that the features seen on the MR images were realistically related to the actual structures. It was evident from the histology micrographs that lamellae thicknesses vary considerably. MR and histology images matched well in terms of the lamellae number, shape, position and orientation. However, due to the relatively low number of voxels across each lamella, attempts were not made in this study to measure the thickness of the lamellae. As such, on the MRI images, peaks and troughs of the grayscale profile along a selected length were used only to interpret the lamellae alternation."
+}

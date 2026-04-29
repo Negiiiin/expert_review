@@ -1,0 +1,31 @@
+{
+  "case_id": 149,
+  "images": {
+    "subfig": "case_149_subfig.jpg",
+    "full": "case_149_full.jpg"
+  },
+  "question": "Which mechanism best explains how a shear-tip harmonic scalpel achieves hemostasis of small vessel branches during clipless arterial harvesting?",
+  "question_scope": "subfigure",
+  "question_category": "Mechanism / pathophysiology explanation",
+  "options": {
+    "A": "High-frequency ultrasonic vibration causing protein denaturation and coagulative sealing with minimal lateral thermal spread",
+    "B": "Pulsed laser photocoagulation causing targeted vessel ablation",
+    "C": "Resistive heating from bipolar electrocautery causing thermal coagulation",
+    "D": "Mechanical occlusion by application of vascular clips"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for operative details: I see an exposed artery coursing along the operative field with small side branches, and a hand-held cutting/sealing instrument applied near a branch. There are no vascular clips visible on the branches, consistent with a clipless harvesting technique.\n\nNext, I relate what I see to the question, which asks how a shear-tip harmonic scalpel achieves hemostasis of small vessel branches during clipless arterial harvesting. The question itself names the device (\"shear-tip harmonic scalpel\"), so the correct mechanism must match how that device would produce simultaneous cutting and sealing without clips.\n\nThen, I consider each option in light of the image and the device named in the question. Option D (mechanical occlusion by clips) conflicts with the visible absence of clips and the stated clipless approach. Option B (pulsed laser photocoagulation) does not correspond to the pictured hand-held ultrasonic-style instrument and is inconsistent with the clipless cutting/sealing seen. Option C (resistive heating from bipolar electrocautery) describes a different electrical heating mechanism than the one implied by the named harmonic scalpel.\n\nFinally, option A describes high-frequency ultrasonic vibration causing protein denaturation and coagulative sealing with minimal lateral thermal spread, which matches a device that both cuts and seals small branches in situ without clips, as shown in the image. Therefore option A best explains the observed hemostasis.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "intraoperative photography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "surgical procedure"
+  ],
+  "caption": "Clipless internal mammary artery harvesting for minimally invasive coronary artery bypass grafting using a shear-tip harmonic scalpel.",
+  "sub_caption": "Clipless internal mammary artery harvesting for minimally invasive coronary artery bypass grafting using a shear-tip harmonic scalpel.",
+  "image_context": "The LIMA is located in the fatty tissue adjacent to the pleura, and we can simultaneously dissect the surrounding tissue and seal the branches using the shear-tip Harmonic scalpel. The vein is cut between the instruments, and the artery is progressively harvested in a skeletonized fashion using this scalpel rather than scissors and vascular clips. The conventional method requires a lot of effort and time as it involves placement of vascular clips in the distal and proximal segments of the mammary branches, followed by dissection with Metzenbaum scissors. Clip manipulation can lead to injury or misplacement, resulting in severe bleeding. This characteristic highlights a major difference in our procedure and the need to avoid vascular injuries. Additionally, the clear surgical view provided by this technique is advantageous. In cases of multivessel revascularization, the RIMA is harvested using the same method. The thymus and pericardium can also be opened using this type of scalpel (<xref rid=\"jtd-16-06-3711-vid1\" ref-type=\"fig\"><italic>Video 1</italic></xref>).Video 1).",
+  "relevant_image_context": "The LIMA is located in the fatty tissue adjacent to the pleura, and we can simultaneously dissect the surrounding tissue and seal the branches using the shear-tip Harmonic scalpel. The vein is cut between the instruments, and the artery is progressively harvested in a skeletonized fashion using this scalpel rather than scissors and vascular clips. The conventional method requires a lot of effort and time as it involves placement of vascular clips in the distal and proximal segments of the mammary branches, followed by dissection with Metzenbaum scissors. Clip manipulation can lead to injury or misplacement, resulting in severe bleeding. This characteristic highlights a major difference in our procedure and the need to avoid vascular injuries. Additionally, the clear surgical view provided by this technique is advantageous. In cases of multivessel revascularization, the RIMA is harvested using the same method. The thymus and pericardium can also be opened using this type of scalpel."
+}

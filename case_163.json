@@ -1,0 +1,31 @@
+{
+  "case_id": 163,
+  "images": {
+    "subfig": "case_163_subfig.jpg",
+    "full": "case_163_full.jpg"
+  },
+  "question": "A 65-year-old man with prior surgical debridement for a distal thigh infection presents with recurrent right thigh pain, swelling, fever, elevated CRP and WCC, and a fluctuant lateral thigh lump. MRI of the thigh has been obtained. What is the most appropriate next step in management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Surgical debridement with intramedullary drainage and IV antibiotics",
+    "B": "Start oral antibiotics and observe as outpatient",
+    "C": "Percutaneous image-guided aspiration and IV antibiotics",
+    "D": "Incision and drainage of superficial abscess only"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the MRI image: on the coronal sequence there is a well-defined, high-signal intramedullary fluid collection in the distal femoral shaft with adjacent high-signal soft-tissue abnormality in the lateral thigh. The imaging appearance is consistent with a deep intramedullary collection within the distal femur and an associated lateral soft-tissue fluid collection.\n\nNext, I relate these imaging findings to the clinical question: the patient has recurrent thigh pain, fever, raised CRP and WCC, and a palpable fluctuant lateral thigh lump. The combination of systemic inflammatory signs, a palpable superficial fluctuance, and an MRI-demonstrated intramedullary collection indicates ongoing deep-seated infection that is not confined to only the superficial tissues.\n\nThen, I consider how each management option aligns with those observations. Outpatient oral antibiotics alone (option B) would not directly drain or debride a deep bone collection in a systemically unwell patient. Incision and drainage of the superficial abscess only (option D) would treat the superficial component but would leave the intramedullary collection untreated. Percutaneous image-guided aspiration with IV antibiotics (option C) may sample the collection and provide temporary drainage, but it is unlikely to provide definitive clearance of an intramedullary bone infection shown on MRI.\n\nFinally, because the MRI demonstrates a persistent intramedullary collection in the distal femur with associated systemic inflammation and recurrent symptoms despite prior surgery, the management that directly addresses the deep intramedullary focus is required. Surgical debridement with intramedullary drainage combined with IV antibiotics most directly treats the deep bone collection seen on imaging and the systemic infection, so this is the most appropriate next step.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ambiguous"
+  ],
+  "caption": "a Plain radiographs showing periosteal thickening of the distal femur (arrow). MRI showing enhanced intramedullary signals in the distal femur (b, arrowhead).",
+  "sub_caption": "MRI showing enhanced intramedullary signals in the distal femur (b, arrowhead).",
+  "image_context": "A 65-year-old gentleman presented with recurrence of right lower limb infection eight months after having undergone two surgical debridement for a distal thigh abscess and distal femur osteomyelitis. The patient re-presented with a one-week history of right thigh pain and swelling. Prior to this presentation, the patient was symptom-free and was able to ambulate independently. The patient had a fever of 38.2 °C and on examination, a fluctuant tender lump was palpable over the right lateral thigh. There was tenderness on ranging the right knee. Blood investigations showed CRP and WCC of 78.5 mg/L and 11.0 × 109/L respectively. Plain radiographs revealed periosteal thickening of the distal femur, an indication of possible osteomyelitis (<xref rid=\"gr6\" ref-type=\"fig\">Fig. 6</xref>a). MRI confirmed an intramedullary collection within the distal femur, as well as showing an effusion in the knee (a). MRI confirmed an intramedullary collection within the distal femur, as well as showing an effusion in the knee (<xref rid=\"gr6\" ref-type=\"fig\">Fig. 6</xref>b).b).Fig. 6a Plain radiographs showing periosteal thickening of the distal femur (arrow). MRI showing enhanced intramedullary signals in the distal femur (b, arrowhead).Fig. 6",
+  "relevant_image_context": "A 65-year-old gentleman presented with recurrence of right lower limb infection eight months after having undergone two surgical debridement for a distal thigh abscess and distal femur osteomyelitis. The patient re-presented with a one-week history of right thigh pain and swelling. Prior to this presentation, the patient was symptom-free and was able to ambulate independently. The patient had a fever of 38.2 °C and on examination, a fluctuant tender lump was palpable over the right lateral thigh. There was tenderness on ranging the right knee. Blood investigations showed CRP and WCC of 78.5 mg/L and 11.0 × 10^9/L respectively. MRI confirmed an intramedullary collection within the distal femur, as well as showing an effusion in the knee (Fig. 6b). MRI showing enhanced intramedullary signals in the distal femur (b, arrowhead)."
+}

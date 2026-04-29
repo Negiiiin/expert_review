@@ -1,0 +1,31 @@
+{
+  "case_id": 272,
+  "images": {
+    "subfig": "case_272_subfig.jpg",
+    "full": "case_272_full.jpg"
+  },
+  "question": "How many distinct lesions are visible in this image?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "None",
+    "B": "One",
+    "C": "Two",
+    "D": "Three"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the endoscopic image for abnormal mucosal findings. I see a single, well-circumscribed, round, raised erythematous nodule occupying the central field of view; its margins are distinct from the surrounding mucosa. Next, I scan the remainder of the visible mucosa for any separate, discrete lesions—there are no other raised nodules, ulcers, or focal discolorations that would constitute additional distinct lesions. I note some specular light reflections on the lesion surface, but these are artifacts and do not represent separate lesions. The question asks how many distinct lesions are visible, so I compare what I see to each choice and find only one distinct abnormality. Therefore, based on the image alone, the correct count is a single lesion.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "endoscopy",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "endoscopy"
+  ],
+  "caption": "Esophagogastroduodenoscopy showing a 10 mm sessile tumor with a central depression in the duodenal bulb.",
+  "sub_caption": "Esophagogastroduodenoscopy showing a 10 mm sessile tumor with a central depression in the duodenal bulb.",
+  "image_context": "A 60-year-old man presented with melena and hematemesis in 1984. Esophagogastroduodenoscopy (EGD) detected a small protruding lesion in the duodenal bulb, which was diagnosed as Brunner's adenoma. Subsequent annual EGD and biopsies showed no significant changes for 10 years, after which the patient was lost to follow-up for 7 years. He again presented with melena in 2001. The lesion had changed shape to become a 10 mm sessile tumor with a central depression according to EGD (fig. <xref ref-type=\"fig\" rid=\"crg0001-0103-f01\">1</xref>) and hypotonic duodenography (fig. ) and hypotonic duodenography (fig. <xref ref-type=\"fig\" rid=\"crg0001-0103-f02\">2</xref>), and following a biopsy was diagnosed as adenocarcinoma. Laboratory test results, including those from tumor marker (CEA and CA19-9) assays, were within normal limits. The patient underwent partial resection of the duodenum.), and following a biopsy was diagnosed as adenocarcinoma. Laboratory test results, including those from tumor marker (CEA and CA19-9) assays, were within normal limits. The patient underwent partial resection of the duodenum.",
+  "relevant_image_context": "A 60-year-old man presented with melena and hematemesis in 1984. Esophagogastroduodenoscopy (EGD) detected a small protruding lesion in the duodenal bulb, which was diagnosed as Brunner's adenoma. The lesion had changed shape to become a 10 mm sessile tumor with a central depression according to EGD, and following a biopsy was diagnosed as adenocarcinoma. The patient underwent partial resection of the duodenum."
+}

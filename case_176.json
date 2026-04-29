@@ -1,0 +1,33 @@
+{
+  "case_id": 176,
+  "images": {
+    "subfig": "case_176_subfig.jpg",
+    "full": "case_176_full.jpg"
+  },
+  "question": "A patient underwent emergent non-contrast head CT (image shown) as a repeat scan approximately 2 hours after an earlier study. There is concern for an acute intracranial process. Based on the imaging, which pharmacologic intervention is most appropriate in the acute phase to reduce the risk of further clinical deterioration?",
+  "question_scope": "subfigure",
+  "question_category": "Drug therapy / pharmacologic treatment",
+  "options": {
+    "A": "IV antihypertensive therapy to lower SBP",
+    "B": "Intravenous thrombolysis with alteplase",
+    "C": "High-dose intravenous corticosteroids",
+    "D": "Empiric broad-spectrum antibiotics",
+    "E": "Therapeutic anticoagulation with heparin"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided non-contrast axial head CT. I see a well-circumscribed, hyperdense rounded focus in the posterior fossa involving the cerebellum (slightly left of midline), consistent in appearance with an acute intracranial hemorrhage. There is no large supratentorial hemorrhage or obvious global shift on this slice; surrounding low-density edema, if present, is not prominent on this image.\n\nNext, I relate those findings to the question, which asks which pharmacologic intervention in the acute phase would most reduce the risk of further clinical deterioration after this imaging appearance.\n\nThen I consider each option in turn against the image findings. For option A, intravenous antihypertensive therapy to lower systolic blood pressure targets a modifiable factor that can limit further bleeding and hematoma expansion after an acute intracerebral hemorrhage like the one seen on this scan. For option B, intravenous alteplase is a thrombolytic used for ischemic stroke and would increase bleeding risk when an acute hemorrhage is present on CT, so it is not appropriate here. For option C, high-dose corticosteroids are not indicated to treat an acute parenchymal hemorrhage seen on non-contrast CT and would not address the immediate risk of hematoma expansion. For option D, empiric broad-spectrum antibiotics are directed at infection; there are no CT features here to suggest an intracranial infection or abscess that would justify antibiotics. For option E, therapeutic anticoagulation would promote further bleeding in the setting of an acute intracerebral hemorrhage and therefore would worsen the patient's condition.\n\nFinally, tying these observations together: the CT shows an acute cerebellar hemorrhage, so the safest pharmacologic acute intervention among the choices to reduce the risk of further deterioration is to lower systolic blood pressure with IV antihypertensive therapy.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "magnetic resonance",
+    "brain"
+  ],
+  "caption": "Non-contrast brain CT scan of the same patient, which was done about 2 hours after the re-bleed. The second hemorrhage lies at the left deep dentate nuclei and is not surrounded by edema, implying a very recent development. The first hematoma at the right cerebellar hemisphere had resolved, leaving a small slit.",
+  "sub_caption": "Non-contrast brain CT scan of the same patient, which was done about 2 hours after the re-bleed. The second hemorrhage lies at the left deep dentate nuclei and is not surrounded by edema, implying a very recent development. The first hematoma at the right cerebellar hemisphere had resolved, leaving a small slit.",
+  "image_context": "Eight weeks later, the patient presented with drowsiness, slurring of speech, vomiting, and inability to sit and stand unaided for one hour to our A & E. Her blood pressure was 190/100 mmHg. Her routine blood tests were within their normal reference range. An emergency non-contrast brain CT scan showed left-sided acute deep cerebellar hematoma, a contralateral site to the first hematoma (Figure <xref ref-type=\"fig\" rid=\"1752-1947-5-360-2\">2</xref>). The patient was treated medically and improved gradually over a two week period. On discharge, her speech was scanning and her gait was wide-based and ataxic. She could stand and walk alone with minor assistance. Because of the lack of expertise in our radiology department, conventional cerebral angiography was not ordered; however, a brain magnetic resonance angiogram (MRA) was done two weeks later and the result was unremarkable. We assume that our patient's hemorrhages were hypertensive in etiology.). The patient was treated medically and improved gradually over a two week period. On discharge, her speech was scanning and her gait was wide-based and ataxic. She could stand and walk alone with minor assistance. Because of the lack of expertise in our radiology department, conventional cerebral angiography was not ordered; however, a brain magnetic resonance angiogram (MRA) was done two weeks later and the result was unremarkable. We assume that our patient's hemorrhages were hypertensive in etiology.",
+  "relevant_image_context": "An emergency non-contrast brain CT scan showed left-sided acute deep cerebellar hematoma, a contralateral site to the first hematoma (Figure 2)."
+}

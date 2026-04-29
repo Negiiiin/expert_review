@@ -1,0 +1,31 @@
+{
+  "case_id": 253,
+  "images": {
+    "subfig": "case_253_subfig.jpg",
+    "full": "case_253_full.jpg"
+  },
+  "question": "Based on this image, how many flap sutures are visible under the conjunctiva?",
+  "question_scope": "subfigure",
+  "question_category": "Counting",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for any sutures beneath the conjunctival tissue. The inferior bulbar conjunctiva is reflected upward, and just beneath its surface near the limbal area I can see two discrete, dark, linear/knotted points consistent with sutures.\n\nNext, I relate these observations to the question, which asks how many flap sutures are visible under the conjunctiva. I scan the visible conjunctival surface across the exposed area and identify exactly two separate suture-like structures; I do not see any additional such knots elsewhere in the field.\n\nThen I compare this finding to the available answer choices (0, 1, 2, 3). The clear presence of two distinct sutures corresponds directly with option C. Therefore, based on the visible evidence in the image, the correct count is two.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "slit-lamp photography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "laryngoscopy"
+  ],
+  "caption": "External slit lamp image of the bleb at postoperative month one (A) and postoperative month ten (B). (A) At postoperative month one, the patient had an elevated bleb, formed anterior chamber and Seidel negative conjunctival closure. Flap sutures (arrows) were visible under the conjunctiva. (B) At postoperative month ten, the bleb was diffusely elevated.",
+  "sub_caption": "(A) At postoperative month one, the patient had an elevated bleb, formed anterior chamber and Seidel negative conjunctival closure. Flap sutures (arrows) were visible under the conjunctiva.",
+  "image_context": "On postoperative day one, the patient's VA was 20/150, IOP was 3 mmHg with a Seidel negative, raised bleb. She had a formed anterior chamber and no choroidal effusions. She was started on prednisolone acetate four times per day and atropine two times per day. All her IOP-lowering medications were stopped. OCT of the macula did not show significant macular folds or choroidal undulations during the first postoperative week. Throughout the first postoperative month, the patient maintained a formed anterior chamber despite a slow bleb leak at the nasal limbus appearing at post-operative week one which resolved following the application of a bandage contact lens. At postoperative month one, VA was 20/70 and IOP was 4 mmHg with a formed anterior chamber (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>A). At postoperative month two, VA was 20/60, IOP was 10 mmHg with a deep anterior chamber. She was maintained on prednisolone acetate four times per day and remained off IOP-lowering medications. She was then lost to follow up for four months. At postoperative month six, VA was 20/70, and IOP was 14 mmHg. She was then lost again to follow up with unclear medication usage in the interim. At postoperative month ten, the patient's VA was 20/60 and IOP was 14 mmHg with an elevated bleb (A). At postoperative month two, VA was 20/60, IOP was 10 mmHg with a deep anterior chamber. She was maintained on prednisolone acetate four times per day and remained off IOP-lowering medications. She was then lost to follow up for four months. At postoperative month six, VA was 20/70, and IOP was 14 mmHg. She was then lost again to follow up with unclear medication usage in the interim. At postoperative month ten, the patient's VA was 20/60 and IOP was 14 mmHg with an elevated bleb (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>B).B).Fig. 2External slit lamp image of the bleb at postoperative month one (A) and postoperative month ten (B). (A) At postoperative month one, the patient had an elevated bleb, formed anterior chamber and Seidel negative conjunctival closure. Flap sutures (arrows) were visible under the conjunctiva. (B) At postoperative month ten, the bleb was diffusely elevated.Fig. 2",
+  "relevant_image_context": "Fig. 2 External slit lamp image of the bleb at postoperative month one (A) and postoperative month ten (B). (A) At postoperative month one, the patient had an elevated bleb, formed anterior chamber and Seidel negative conjunctival closure. Flap sutures (arrows) were visible under the conjunctiva."
+}

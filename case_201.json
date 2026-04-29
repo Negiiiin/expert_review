@@ -1,0 +1,32 @@
+{
+  "case_id": 201,
+  "images": {
+    "subfig": "case_201_subfig.jpg",
+    "full": "case_201_full.jpg"
+  },
+  "question": "A renal transplant recipient presents with new-onset gross hematuria and declining graft function. CT angiography of the graft vasculature was obtained. Based on this image, which of the following is the most appropriate next-step in management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Selective endovascular embolization of involved branches",
+    "B": "Immediate transplant nephrectomy",
+    "C": "Percutaneous thrombin injection into lesions",
+    "D": "Conservative observation and monitoring",
+    "E": "Open surgical arterial reconstruction"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for salient findings. The coronal CT angiographic image of the renal graft shows two rounded, contrast-filled saccular outpouchings within the renal parenchyma/hilum of the graft (measured on the image at approximately 2.53 cm and 1.99 cm). There is no large surrounding perinephric hematoma or clear active extravasation visible on this single frame, and the main renal artery origin does not appear grossly involved on the shown view.\n\nNext, I relate what I see to the question, which asks for the most appropriate next-step in management for a transplant recipient with new gross hematuria and declining graft function. The focal contrast-filled saccular lesions are most consistent with intraparenchymal vascular pseudoaneurysms/segmental arterial lesions that could account for the hematuria and the change in graft function.\n\nThen, I consider how each option lines up with those observations. Selective endovascular embolization (A) can target the feeding segmental branches supplying these localized saccular lesions and thereby control bleeding while preserving the remainder of the graft—this matches the image appearance of discrete, segmental lesions. Immediate transplant nephrectomy (B) and open surgical arterial reconstruction (E) are major interventions; given the lesions are focal and not showing obvious rupture on this image, these options would be more invasive than necessary as a first step. Percutaneous thrombin injection (C) could be used for some pseudoaneurysms but is less controlled for multiple intraparenchymal lesions supplied by segmental branches. Conservative observation (D) would risk ongoing bleeding and further loss of graft function given the current gross hematuria and imaging-confirmed vascular lesions.\n\nFinally, tying these observations together: because the CT angiogram demonstrates discrete, segmental vascular outpouchings amenable to targeted occlusion and the patient has active bleeding with declining graft function, the most appropriate next-step is selective endovascular embolization of the involved branches.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT angiography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Computed tomography angiogram, coronal reconstruction demonstrating aneurysmal dilatation of intraparenchymal renal artery branches. There is relative sparing of the superior renal pole arterial branches.",
+  "sub_caption": "Computed tomography angiogram, coronal reconstruction demonstrating aneurysmal dilatation of intraparenchymal renal artery branches. There is relative sparing of the superior renal pole arterial branches.",
+  "image_context": "CT angiography confirmed the presence of multiple, single-lobed, intraparenchymal, segmental renal artery pseudoaneurysms. The largest pseudoaneurysm diameter measured 2.53 cm (<xref ref-type=\"fig\" rid=\"amjcaserep-17-570-g001\">Figure 1</xref>). The pseudoaneurysms were exclusively located within the inferior pole and pelvis of the allograft, while the superior renal pole had normal intraparenchymal arteries. There were no features of renal infarct. The allograft renal artery anastomosis with the right external iliac was normal. There was no aneurysmal dilatation or stenosis at this level (). The pseudoaneurysms were exclusively located within the inferior pole and pelvis of the allograft, while the superior renal pole had normal intraparenchymal arteries. There were no features of renal infarct. The allograft renal artery anastomosis with the right external iliac was normal. There was no aneurysmal dilatation or stenosis at this level (<xref ref-type=\"fig\" rid=\"amjcaserep-17-570-g002\">Figure 2</xref>). The extrarenal renal artery and iliac arteries were unaffected. There was no active extravasation of contrast to suggest aneurysmal rupture or leak. There was no hydronephrosis or features of ureteric obstruction in the allograft collecting system.). The extrarenal renal artery and iliac arteries were unaffected. There was no active extravasation of contrast to suggest aneurysmal rupture or leak. There was no hydronephrosis or features of ureteric obstruction in the allograft collecting system.",
+  "relevant_image_context": "CT angiography confirmed the presence of multiple, single-lobed, intraparenchymal, segmental renal artery pseudoaneurysms. The largest pseudoaneurysm diameter measured 2.53 cm. The pseudoaneurysms were exclusively located within the inferior pole and pelvis of the allograft, while the superior renal pole had normal intraparenchymal arteries. There were no features of renal infarct. The allograft renal artery anastomosis with the right external iliac was normal. There was no aneurysmal dilatation or stenosis at this level. The extrarenal renal artery and iliac arteries were unaffected. There was no active extravasation of contrast to suggest aneurysmal rupture or leak. There was no hydronephrosis or features of ureteric obstruction in the allograft collecting system."
+}

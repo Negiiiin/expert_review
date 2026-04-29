@@ -1,0 +1,31 @@
+{
+  "case_id": 109,
+  "images": {
+    "subfig": "case_109_subfig.jpg",
+    "full": "case_109_full.jpg"
+  },
+  "question": "Based on this image, which of the following is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Intraperitoneal bladder rupture",
+    "B": "Extraperitoneal bladder rupture",
+    "C": "Ruptured bladder diverticulum",
+    "D": "Vesicoureteral reflux"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for what is filled with contrast and where the contrast has gone. This is a cystogram: the urinary bladder is opacified with contrast and a catheter tract is visible entering the bladder. The main contrast-filled bladder has a fairly well-defined central density, but there is additional contrast extending beyond the expected bladder outline upward and spreading over the central pelvis/abdomen.\n\nNext, I relate those findings to the question, which asks for the most likely diagnosis among bladder injury patterns and other urinary abnormalities. The key imaging finding is extravasation of contrast outside the bladder lumen with a supravesical, diffuse distribution rather than a small, localized pocket adjacent to the bladder.\n\nThen I consider how each option fits the image:\n- Intraperitoneal bladder rupture: typically allows contrast to escape superiorly into the peritoneal cavity and distribute more diffusely over the abdominal/pelvic peritoneal surfaces. The image shows contrast extending beyond the bladder into the abdominal cavity in a non-confined pattern, which is compatible with this.\n- Extraperitoneal bladder rupture: usually produces contrast confined to the extraperitoneal pelvic soft tissues around the bladder (a more localized, flame-shaped perivesical collection). That confined perivesical pattern is not seen here.\n- Ruptured bladder diverticulum: would produce a focal, localized outpouching of contrast adjacent to the bladder, rather than the larger, diffuse extravasation visible.\n- Vesicoureteral reflux: would be suggested by contrast refluxing up the ureters toward the kidneys; there is no clear opacification of the ureters or renal collecting systems on this image.\n\nFinally, tying these observations to a diagnosis: the diffuse supravesical distribution of contrast outside the bladder lumen is most consistent with intraperitoneal bladder rupture.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "cystography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Cystogram of bladder perforation collected during cystoscopy showing perforation with extravasation of contrast into the abdomen.",
+  "sub_caption": "Cystogram of bladder perforation collected during cystoscopy showing perforation with extravasation of contrast into the abdomen.",
+  "image_context": "The patient then proceeded to the first surgery, cystoscopy with cystogram (<xref rid=\"gr2\" ref-type=\"fig\">Fig. 2</xref>). The cystoscopy showed prostatic bleeding with many clots, which were evacuated, and a prostate that was bleeding requiring fulguration. The perforation was seen but was filled by a large clot. After these measures were taken, no active bleeding was found and a 3-way Foley was a-traumatically inserted. Urology wanted to treat the perforation conservatively at first, because his Plavix had only been held 2 days prior for the cardiac catheterization. The patient's CBI was discontinued once the perforation was noted on CT scan, but a 3-way catheter was kept in place for small bolus manual irrigation as needed.). The cystoscopy showed prostatic bleeding with many clots, which were evacuated, and a prostate that was bleeding requiring fulguration. The perforation was seen but was filled by a large clot. After these measures were taken, no active bleeding was found and a 3-way Foley was a-traumatically inserted. Urology wanted to treat the perforation conservatively at first, because his Plavix had only been held 2 days prior for the cardiac catheterization. The patient's CBI was discontinued once the perforation was noted on CT scan, but a 3-way catheter was kept in place for small bolus manual irrigation as needed.Fig. 2Cystogram of bladder perforation collected during cystoscopy showing perforation with extravasation of contrast into the abdomen.Fig. 2",
+  "relevant_image_context": "The patient then proceeded to the first surgery, cystoscopy with cystogram (Fig. 2). The cystoscopy showed prostatic bleeding with many clots, which were evacuated, and a prostate that was bleeding requiring fulguration. The perforation was seen but was filled by a large clot. After these measures were taken, no active bleeding was found and a 3-way Foley was a-traumatically inserted. Urology wanted to treat the perforation conservatively at first, because his Plavix had only been held 2 days prior for the cardiac catheterization. The patient's CBI was discontinued once the perforation was noted on CT scan, but a 3-way catheter was kept in place for small bolus manual irrigation as needed. Fig. 2Cystogram of bladder perforation collected during cystoscopy showing perforation with extravasation of contrast into the abdomen."
+}

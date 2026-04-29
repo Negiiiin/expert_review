@@ -1,0 +1,31 @@
+{
+  "case_id": 193,
+  "images": {
+    "subfig": "case_193_subfig.jpg",
+    "full": "case_193_full.jpg"
+  },
+  "question": "Based on this image, which of the following is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Differential diagnosis",
+  "options": {
+    "A": "Migrated PEC tube into rectosigmoid colon",
+    "B": "Intraluminal gastrostomy tube migration",
+    "C": "Enterovesical fistula",
+    "D": "Gossypiboma (retained surgical sponge)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for anatomic location and foreign objects. This axial CT slice through the pelvis shows the bony pelvis and a central bowel-containing structure in the expected region of the rectosigmoid colon. Within that bowel lumen there is a tubular device with conspicuously radiopaque components (linear/metallic density) lying centrally in the pelvis.\n\nNext, I relate what I see to the question, which asks for the most likely diagnosis among options describing migrated tubes, a fistula, or a retained sponge. The key imaging observation is a clearly identifiable tubular foreign device located inside a pelvic bowel loop (rectosigmoid region), rather than within the stomach, bladder, or appearing as a soft-tissue mass.\n\nThen, I consider how each option aligns with those observations. Option A (migrated PEC tube into rectosigmoid colon) directly fits: a tube-like device is present within the rectosigmoid lumen. Option B (intraluminal gastrostomy tube migration) is less likely because a gastrostomy tube would be expected in the upper abdomen/stomach, not within a pelvic bowel loop. Option C (enterovesical fistula) would show a tract or gas/contrast in the bladder or an abnormal connection to the bladder; there is no imaging evidence of a bladder communication here. Option D (gossypiboma) would appear as a retained sponge or mass with characteristic internal gas or gauze pattern and not as a distinct tubular device with radiopaque components.\n\nFinally, tying these observations together: the image most consistently demonstrates a tube that has migrated into the rectosigmoid colon, matching option A.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT showing migrated PEC tube (axial plane).",
+  "sub_caption": "CT showing migrated PEC tube (axial plane).",
+  "image_context": "An initial abdominal X-ray was inconclusive. A computed tomography (CT) abdomen-pelvis demonstrated that the PEC tube had migrated into the bowel lumen, lying at the level of the recto-sigmoid junction with no evidence of obstruction or perforation (see Figs <xref ref-type=\"fig\" rid=\"rjw227f01\">1</xref>––<xref ref-type=\"fig\" rid=\"rjw227f03\">3</xref>). At the surface PEC site there was residual, iatrogenic, colocutaneous fistula which functioned as a decompressive outlet.\n). At the surface PEC site there was residual, iatrogenic, colocutaneous fistula which functioned as a decompressive outlet.\nFigure 1:CT showing migrated PEC tube (axial plane).Figure 2:CT showing migrated PEC tube (coronal plane).Figure 3:CT showing migrated PEC tube (sagittal plane).",
+  "relevant_image_context": "Figure 1: CT showing migrated PEC tube (axial plane). A CT abdomen-pelvis demonstrated that the PEC tube had migrated into the bowel lumen, lying at the level of the rectosigmoid junction with no evidence of obstruction or perforation."
+}

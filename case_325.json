@@ -1,0 +1,31 @@
+{
+  "case_id": 325,
+  "images": {
+    "subfig": "case_325_subfig.jpg",
+    "full": "case_325_full.jpg"
+  },
+  "question": "Which anatomical structure is most likely depicted in this ultrasound image?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Brachial artery",
+    "B": "Basilic vein",
+    "C": "Cephalic vein",
+    "D": "Median nerve"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for key sonographic features. The scan is a longitudinal view showing a single tubular structure with color Doppler filling the lumen (uniform red color). The monitor readout shows a measured velocity of approximately 52.2 cm/s and an insonation angle marker (60°), indicating a substantial directional blood flow signal was recorded.\n\nNext, I relate these observations to the question, which asks which anatomical structure is depicted among arterial, venous, and neural options. The presence of intraluminal color flow and a clear numeric Doppler velocity confirms this is a blood vessel rather than a nerve, so the median nerve (option D) can be excluded.\n\nThen, I compare artery versus vein based on the image findings. The display of a relatively high Doppler velocity and prominent continuous color filling favors an arterial vessel. The two venous options (basilic and cephalic veins) are superficial veins and would be less likely to show this pattern and velocity on color Doppler compared with an artery. The overall appearance—a single, well-defined pulsatile vascular channel with arterial-range Doppler velocity—fits an arterial structure.\n\nFinally, of the arterial option provided, the brachial artery (option A) is the appropriate arterial choice among the listed structures. The image findings (intraluminal Doppler flow, measurable high velocity, longitudinal arterial appearance) therefore support selecting the brachial artery.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "Follow-up ultrasound showing good flow through the brachial artery at the level of the mid-humerus.",
+  "sub_caption": "Follow-up ultrasound showing good flow through the brachial artery at the level of the mid-humerus.",
+  "image_context": "The patient was transferred to the pediatric intensive care unit with a well-perfused hand and subsequently discharged home on postoperative day 4. He was not prescribed anticoagulation therapy or aspirin because no thrombosis or intimal injury had occurred. He presented for follow-up 3 months later with normal pulses and hand function. Ultrasound showed normal flow in the brachial artery (<xref rid=\"gr5\" ref-type=\"fig\">Fig 5</xref>).).Fig 5Follow-up ultrasound showing good flow through the brachial artery at the level of the mid-humerus.",
+  "relevant_image_context": "The patient was transferred to the pediatric intensive care unit with a well-perfused hand and subsequently discharged home on postoperative day 4. He was not prescribed anticoagulation therapy or aspirin because no thrombosis or intimal injury had occurred. He presented for follow-up 3 months later with normal pulses and hand function. Ultrasound showed normal flow in the brachial artery. Fig 5Follow-up ultrasound showing good flow through the brachial artery at the level of the mid-humerus."
+}

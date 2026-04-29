@@ -1,0 +1,31 @@
+{
+  "case_id": 45,
+  "images": {
+    "subfig": "case_045_subfig.jpg",
+    "full": "case_045_full.jpg"
+  },
+  "question": "A woman from a family with a known X-linked recessive retinal disorder is planning pregnancy. Genetic testing is unavailable and her partner is unaffected; based on this imaging, what is the most likely probability that her sons will be affected?",
+  "question_scope": "subfigure",
+  "question_category": "Future risk / hereditary probability",
+  "options": {
+    "A": "0% (none)",
+    "B": "25% (one-quarter)",
+    "C": "50% (one-half)",
+    "D": "100% (all sons)"
+  },
+  "ground_truth_answer": "C",
+  "ground_truth_reasoning": "First, I examine the image for relevant findings. The montage fundus photo shows patchy, asymmetric pigmentary changes and scattered small flecks in the posterior pole and extending into the peripheral retina — a mosaic, carrier-like pattern rather than a uniformly affected retina.\n\nNext, I relate those visible findings to the question, which states the woman is from a family with a known X‑linked recessive retinal disorder, her partner is unaffected, and genetic testing is unavailable. The image’s mosaic pigmentary pattern is consistent with a female carrier state of an X‑linked retinal condition, supporting the clinical scenario but not proving carrier status definitively.\n\nThen I apply inheritance logic that follows from an X‑linked recessive disorder and the given family context. If the mother is a carrier, each son has an independent 50% chance of inheriting her affected X chromosome (the father, being unaffected, does not contribute an affected X to sons). Because testing is not available, we use the most likely Mendelian probability given a carrier mother and an unaffected partner.\n\nFinally, tying the image-supported carrier appearance to the inheritance calculation, the best estimate for the probability that her sons will be affected is one-half (50%).",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Fundus photography",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "endoscopy"
+  ],
+  "caption": "Fundus photographs of female carriers. A: (F1-II-2) Fine pigment mottling in the midperiphary retina. B: (F2-II-2) Pigmentary clumping changes are found in the posterior pole and peripheral retina. C: (F3-II-2) A ring of retinal and choroidal atrophy is found around the optic disc.",
+  "sub_caption": "B: (F2-II-2) Pigmentary clumping changes are found in the posterior pole and peripheral retina.",
+  "image_context": "In our study, the female carriers in families 1 and 2 were asymptomatic but had pigmentary changes in the fundus. One older female carrier (age 69) in family 3 showed signs and symptoms similar to affected male patients (<xref ref-type=\"fig\" rid=\"mv-v18-309-f7\">Figure 7</xref>). This may be due to skewed ). This may be due to skewed X-chromosome inactivation. Even though female carriers are generally asymptomatic, careful fundus examination can reveal signs of chorioretinal degeneration after the second decade [16]. Results (to be published) from the Internet-based survey (Qi Zhou and Ian MacDonald) indicate that age is a significant factor in predicting symptoms and signs in female CHM carriers. In family 3, the 69-year-old carrier showed significant CHM signs and symptoms, while the younger carrier (age 17) did not show any signs and symptoms. The difference in phenotype between the two carriers is likely related to age and the progressive nature of signs in female carriers. Compared to Caucasian patients, Chinese patients have significantly more pigment in the RPE and choroid, making detecting fundus changes in asymptomatic Chinese patients more difficult; therefore, asymptomatic but mildly affected females are likely under-reported. Since signs and symptoms manifest with time, careful examination and close follow-up should be conducted in CHM carriers.",
+  "relevant_image_context": "Sub-caption: B: (F2-II-2) Pigmentary clumping changes are found in the posterior pole and peripheral retina. In our study, the female carriers in families 1 and 2 were asymptomatic but had pigmentary changes in the fundus. One older female carrier (age 69) in family 3 showed signs and symptoms similar to affected male patients (Figure 7). This may be due to skewed ). This may be due to skewed X-chromosome inactivation. Even though female carriers are generally asymptomatic, careful fundus examination can reveal signs of chorioretinal degeneration after the second decade [16]. Results (to be published) from the Internet-based survey (Qi Zhou and Ian MacDonald) indicate that age is a significant factor in predicting symptoms and signs in female CHM carriers. In family 3, the 69-year-old carrier showed significant CHM signs and symptoms, while the younger carrier (age 17) did not show any signs and symptoms. The difference in phenotype between the two carriers is likely related to age and the progressive nature of signs in female carriers. Compared to Caucasian patients, Chinese patients have significantly more pigment in the RPE and choroid, making detecting fundus changes in asymptomatic Chinese patients more difficult; therefore, asymptomatic but mildly affected females are likely under-reported. Since signs and symptoms manifest with time, careful examination and close follow-up should be conducted in CHM carriers. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

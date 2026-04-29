@@ -1,0 +1,34 @@
+{
+  "case_id": 255,
+  "images": {
+    "subfig": "case_255_subfig.jpg",
+    "full": "case_255_full.jpg"
+  },
+  "question": "A patient underwent a CT-guided biopsy of a spinal lesion. Days later she developed worsening lower-limb weakness and increasing back pain. Based on the imaging shown, which complication most likely explains her acute deterioration?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Epidural hematoma",
+    "B": "Pathologic vertebral compression fracture",
+    "C": "Post-biopsy spinal epidural abscess",
+    "D": "Needle-tract tumor seeding"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the provided sagittal MRI of the lumbar spine. One vertebral body at the level indicated by the arrow shows loss of height (partial collapse) with posterior cortical angulation/bulging into the spinal canal. There is an epidural soft-tissue component contiguous with that collapsed vertebral body, narrowing the thecal sac and impinging on the canal.\n\nNext, I relate these findings to the clinical question, which asks why the patient acutely worsened after a CT-guided biopsy of a spinal lesion. Acute deterioration with new or worsening lower‑limb weakness and back pain would be explained by a process that suddenly increases mechanical compression of neural elements.\n\nThen I consider how each option matches the image. An epidural hematoma would typically appear as a discrete epidural collection separated from the vertebral body; here the epidural material is contiguous with the collapsed vertebra and looks like bone/soft‑tissue collapse rather than a separate blood collection. A spinal epidural abscess usually appears as a rim‑enhancing fluid collection in the epidural space; the image shows vertebral collapse with associated epidural soft tissue rather than a fluid collection with a rim. Needle‑tract tumor seeding would produce focal lesions along the biopsy path and would not by itself produce acute vertebral collapse and sudden canal compromise.\n\nFinally, the imaging appearance of vertebral body collapse with posterior cortical displacement and associated epidural tissue causing canal narrowing directly explains acute mechanical compression of the neural elements and the rapid neurologic decline. This is most consistent with a pathologic vertebral compression fracture.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging",
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "clinical imaging",
+    "light microscopy",
+    "immunohistochemistry"
+  ],
+  "caption": "Magnetic resonance imaging of the spine showing vertebral metastases (yellow arrow) on parasagittal (A) and sagittal (B) views.",
+  "sub_caption": "Magnetic resonance imaging of the spine showing vertebral metastases (yellow arrow) on parasagittal (A) and sagittal (B) views.",
+  "image_context": "A 46-year-old female presented to our hospital in 2008 with gradual onset of paraparesis of both lower limbs. She had right hemi-thyroidectomy performed 12 years ago at another hospital. She did not monitor TSH, nor did she receive levothyroxine replacement at any time. Magnetic resonance imaging (MRI) of the spine showed multiple areas of abnormal marrow signals in the spine, involving the T4, T6, T7, T12, L2, L3 and S1 vertebrae. Collapse of the T4 vertebra was seen with posterior cortical margin convexity and associated pre- and para-spinal and anterior epidural soft tissue components, causing compression on the thecal sac with moderate to severe secondary central canal stenosis (<xref ref-type=\"fig\" rid=\"JAFES-32-1-057-g001\">Figures 1A and B</xref>). Computed tomography (CT)-guided biopsy of the third lumbar spinal lesion revealed tumor cells which were positive for thyroglobulin immunohistochemistry, suggestive of metastatic follicular thyroid carcinoma.). Computed tomography (CT)-guided biopsy of the third lumbar spinal lesion revealed tumor cells which were positive for thyroglobulin immunohistochemistry, suggestive of metastatic follicular thyroid carcinoma.",
+  "relevant_image_context": "A 46-year-old female presented to our hospital in 2008 with gradual onset of paraparesis of both lower limbs. Magnetic resonance imaging (MRI) of the spine showed multiple areas of abnormal marrow signals in the spine, involving the T4, T6, T7, T12, L2, L3 and S1 vertebrae. Collapse of the T4 vertebra was seen with posterior cortical margin convexity and associated pre- and para-spinal and anterior epidural soft tissue components, causing compression on the thecal sac with moderate to severe secondary central canal stenosis (Figures 1A and B). Computed tomography (CT)-guided biopsy of the third lumbar spinal lesion revealed tumor cells which were positive for thyroglobulin immunohistochemistry, suggestive of metastatic follicular thyroid carcinoma."
+}

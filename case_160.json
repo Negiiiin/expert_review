@@ -1,0 +1,32 @@
+{
+  "case_id": 160,
+  "images": {
+    "subfig": "case_160_subfig.jpg",
+    "full": "case_160_full.jpg"
+  },
+  "question": "During an endovascular procedure, a stent had been deployed and attempts were made to retrieve a separate intravascular device. The retrieval succeeded for the wire but the initially deployed stent became displaced and could not be fully removed; a second stent was subsequently placed and the procedure was terminated. Based on the imaging, which complication best explains this clinical course?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Stent migration/dislocation",
+    "B": "Vessel perforation with hemorrhage",
+    "C": "Periprocedural thromboembolism",
+    "D": "Coil prolapse into parent artery",
+    "E": "Guidewire fracture with retained fragment"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for radiopaque devices and their positions. I see a tubular radiopaque mesh along the vessel consistent with a stent (indicated by the white arrow) that appears malpositioned from the expected intraluminal contour. I also see a thin radiopaque filament consistent with a guidewire (black arrow); the question states the wire was successfully retrieved.\n\nNext, I relate these observations to the clinical scenario: a deployed stent became displaced and could not be fully removed, prompting placement of a second stent and termination of the procedure. The image shows the stent in an abnormal/displaced location rather than a retained coil or an extravasation pattern.\n\nThen, I consider how each option matches the image and the described course. Option A (stent migration/dislocation) directly explains a deployed stent found out of its intended position and the need to place a second stent. Option B (vessel perforation with hemorrhage) would be suggested by contrast extravasation or a surrounding collection—neither is seen. Option C (periprocedural thromboembolism) would present with intraluminal filling defect or acute vessel occlusion, not an intravascularly displaced stent. Option D (coil prolapse) refers to coils protruding into the parent artery, but the image shows a stent mesh rather than coils. Option E (guidewire fracture with retained fragment) is inconsistent with the scenario because the wire was recovered.\n\nTherefore, the imaging appearance and the clinical course are best explained by stent migration/dislocation.",
+  "modality": "Microscopy",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Fluoroscopy",
+  "image_primary_label": [
+    "Microscopy"
+  ],
+  "image_secondary_label": [
+    "light microscopy"
+  ],
+  "caption": "Intraoperative DSA image. (A) Image of a 2-mm gooseneck snare (white arrow) being guided along a tangled microguidewire (black arrow). (B) Image of a microguidewire (black arrow) being pulled by a gooseneck snare and a stent (white arrow) in the process of sliding down. (C) A stent (black arrows) that has slipped down and a newly placed stent (white arrows).",
+  "sub_caption": "(B) Image of a microguidewire (black arrow) being pulled by a gooseneck snare and a stent (white arrow) in the process of sliding down.",
+  "image_context": "We attempted to manipulate the tangled section using a balloon, but it was unsuccessful. Next, we attempted to pull the Synchro into the SL-10 and Tactics, but it was also unsuccessful. Finally, to carefully pull the Synchro, we grasped the area around the entangled Synchro using a 2-mm Goose Neck Snares (Medtronic, Minneapolis, MN, USA) (<xref rid=\"jnet-17-299-g004\" ref-type=\"fig\"><bold>Fig. 4A</bold></xref>). As a result, Atlas slipped off. During this process, the entanglement between the Synchro SELECT and Atlas stent was resolved, allowing the retrieval of Synchro (Fig. 4A). As a result, Atlas slipped off. During this process, the entanglement between the Synchro SELECT and Atlas stent was resolved, allowing the retrieval of Synchro (<xref rid=\"jnet-17-299-g004\" ref-type=\"fig\"><bold>Fig. 4B</bold></xref>). The Atlas stent remained in place near the proximal part of the ICA, and no further retrieval was done. A new Neuroform Atlas was placed on the neck of the aneurysm, and the procedure was terminated (Fig. 4B). The Atlas stent remained in place near the proximal part of the ICA, and no further retrieval was done. A new Neuroform Atlas was placed on the neck of the aneurysm, and the procedure was terminated (<xref rid=\"jnet-17-299-g004\" ref-type=\"fig\"><bold>Fig. 4C</bold></xref>). Fortunately, postoperative computed tomography showed no signs of bleeding, and the MRI performed the following showed only minor ischemic changes. The patient was asymptomatic and discharged home.Fig. 4C). Fortunately, postoperative computed tomography showed no signs of bleeding, and the MRI performed the following showed only minor ischemic changes. The patient was asymptomatic and discharged home.",
+  "relevant_image_context": "As a result, Atlas slipped off. During this process, the entanglement between the Synchro SELECT and Atlas stent was resolved, allowing the retrieval of Synchro (Fig. 4B). The Atlas stent remained in place near the proximal part of the ICA, and no further retrieval was done. A new Neuroform Atlas was placed on the neck of the aneurysm, and the procedure was terminated (Fig. 4B)."
+}

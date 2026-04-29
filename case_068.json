@@ -1,0 +1,32 @@
+{
+  "case_id": 68,
+  "images": {
+    "subfig": "case_068_subfig.jpg",
+    "full": "case_068_full.jpg"
+  },
+  "question": "A patient presents with progressive lower urinary symptoms attributed to a pelvic space-occupying lesion. Contrast-enhanced CT was obtained. Based on the imaging, which of the following is the most appropriate next-step management?",
+  "question_scope": "subfigure",
+  "question_category": "Next-step treatment / management",
+  "options": {
+    "A": "Surgical cyst excision plus albendazole",
+    "B": "Percutaneous aspiration with scolicide (PAIR)",
+    "C": "Observation with serial imaging",
+    "D": "Albendazole therapy alone",
+    "E": "Transurethral resection"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the CT image. I see a large, rounded pelvic mass located posterior to the bladder (retrovesical) that produces mass effect on the bladder. The lesion has a multilocular internal appearance with multiple small internal daughter cyst-like structures (arrows) and a partial rim of higher-attenuation mural calcification (arrowhead).\n\nNext, I relate these imaging findings to the clinical question, which states the patient has progressive lower urinary symptoms from a pelvic space-occupying lesion. The scan demonstrates a sizable, multiloculated cystic mass that is clearly causing mass effect and is therefore responsible for the symptoms.\n\nThen I consider how each management option aligns with those observations. Surgical cyst excision plus albendazole (A) would remove the large symptomatic retrovesical mass and provide adjunctive antiparasitic therapy to address residual disease risk. Percutaneous aspiration with scolicide (PAIR) (B) would be less definitive for a deep, multiloculated retrovesical lesion and risks incomplete evacuation or spillage given the complex internal architecture. Observation with serial imaging (C) is not appropriate for a progressively symptomatic, space-occupying lesion. Albendazole alone (D) would not promptly relieve the mass effect from a large cyst. Transurethral resection (E) is aimed at intravesical lesions and would not access an extravesical retrovesical cyst.\n\nFinally, tying the imaging and clinical facts together: a large, symptomatic multiloculated retrovesical cyst that is producing urinary symptoms is best managed with definitive surgical excision combined with albendazole.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Contrast-enhanced computed tomography of pelvis shows isolated retrovesical multivesicular hydatid cyst with daughter cysts (arrows) and rim like mural calcification (arrow head)",
+  "sub_caption": "Contrast-enhanced computed tomography of pelvis shows isolated retrovesical multivesicular hydatid cyst with daughter cysts (arrows) and rim like mural calcification (arrow head)",
+  "image_context": "An isolated hydatid cyst in the pelvic cavity in retrovesical location has also been reported causing urinary symptoms due to mass effects [<xref ref-type=\"fig\" rid=\"TP-6-103-g020\">Figure 20</xref>]. In such cases, the hydatid embryo gains access to pelvis by hematogenous or lymphatic route.[]. In such cases, the hydatid embryo gains access to pelvis by hematogenous or lymphatic route.[2627]",
+  "relevant_image_context": "An isolated hydatid cyst in the pelvic cavity in retrovesical location has also been reported causing urinary symptoms due to mass effects [Figure 20]. In such cases, the hydatid embryo gains access to pelvis by hematogenous or lymphatic route. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

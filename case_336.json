@@ -1,0 +1,31 @@
+{
+  "case_id": 336,
+  "images": {
+    "subfig": "case_336_subfig.jpg",
+    "full": "case_336_full.jpg"
+  },
+  "question": "A 68-year-old patient underwent MDCTA during evaluation for abdominal symptoms. The surgical team is considering operative management based on the imaging. Which of the following surgical interventions is most appropriate?",
+  "question_scope": "subfigure",
+  "question_category": "Surgery / operative management",
+  "options": {
+    "A": "Laparoscopic median arcuate ligament release",
+    "B": "Percutaneous endovascular stenting of the celiac trunk",
+    "C": "Aorto-celiac bypass grafting",
+    "D": "Embolization of pancreaticoduodenal collaterals"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the provided MDCTA images. On the axial and sagittal reformats the red arrows mark a focal, crescent-shaped indentation at the proximal celiac trunk origin with a discrete point of severe luminal narrowing and a more dilated segment just distal to it. The indentation appears to compress the artery from above, consistent with an extrinsic, ligamentous-type compression at the origin of the celiac trunk.\n\nNext, I relate those imaging findings to the clinical question, which asks which surgical intervention is most appropriate to address the problem that the surgical team sees on imaging. The key imaging fact is an external focal compression of the proximal celiac trunk rather than a primary intraluminal lesion.\n\nThen I consider how each option aligns with that observation. Laparoscopic median arcuate ligament release (option A) directly relieves an extrinsic ligamentous compression at the celiac origin and therefore addresses the apparent cause seen on the images. Percutaneous endovascular stenting (option B) would open the lumen but would not remove the external compressive structure and therefore would not address the root cause of the focal indentation. Aorto-celiac bypass grafting (option C) is a more invasive bypass solution that bypasses the stenosis but likewise does not remove the extrinsic compressive band and is disproportionate if the lesion is due to an external ligament. Embolization of pancreaticoduodenal collaterals (option D) treats collaterals rather than the primary compressive lesion and would not correct the proximal narrowing seen.\n\nFinally, tying these observations together: because the images show focal extrinsic compression of the proximal celiac trunk that is best treated by releasing the compressing structure, the most appropriate surgical choice is laparoscopic median arcuate ligament release.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MDCT angiography (MDCTA)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "angiography"
+  ],
+  "caption": "Axial view (a), sagital MPR (b) and corresponding VR views (c, d) illustrate a typical case of high degree compression of the CTK (red arrows) by the MAL of the diaphragm fortuitously diagnosed in a 68-year-old patient. The compression appears well compensated by retrograde arterial supply from the SMA through typical serpiginous hypertrophy of the PDAs (white arrows).",
+  "sub_caption": "Axial view (a), sagital MPR (b) and corresponding VR views (c, d) illustrate a typical case of high degree compression of the CTK (red arrows) by the MAL of the diaphragm fortuitously diagnosed in a 68-year-old patient. The compression appears well compensated by retrograde arterial supply from the SMA through typical serpiginous hypertrophy of the PDAs (white arrows).",
+  "image_context": "During MDCTA the MALS exhibits a characteristic hooked appearance of the focal narrowing of the CTK and the deformation increases during expiration (Figures <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g1\">1</xref> and  and <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g2\">2</xref>). This aspect is clearly distinctive from other causes of stenosis such atherosclerosis [). This aspect is clearly distinctive from other causes of stenosis such atherosclerosis [9]. Poststenotic dilatation of the compressed CTK is also common as well as the development of collaterals which essentially concern serpiginous hypertrophy of the Gastroduodenal Artery (GDA) and of the cephalic pancreatic arcades (CPAs) (Figures <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g1\">1</xref> and  and <xref ref-type=\"fig\" rid=\"jbsr-101-1-1203-g3\">3</xref>). These antero-inferior and postero-superior CPAs envelop the pancreas head in a circular network [). These antero-inferior and postero-superior CPAs envelop the pancreas head in a circular network [14]. They anastomose the GDA originating from the hepatic artery (HA) with the inferior pancreaticoduodenal artery originating from the SMA usually as its first branch.",
+  "relevant_image_context": "During MDCTA the MALS exhibits a characteristic hooked appearance of the focal narrowing of the CTK and the deformation increases during expiration. This aspect is clearly distinctive from other causes of stenosis such as atherosclerosis. Poststenotic dilatation of the compressed CTK is also common as well as the development of collaterals which essentially concern serpiginous hypertrophy of the Gastroduodenal Artery (GDA) and of the cephalic pancreatic arcades (CPAs). These antero-inferior and postero-superior CPAs envelop the pancreas head in a circular network. They anastomose the GDA originating from the hepatic artery with the inferior pancreaticoduodenal artery originating from the SMA usually as its first branch."
+}

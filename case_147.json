@@ -1,0 +1,31 @@
+{
+  "case_id": 147,
+  "images": {
+    "subfig": "case_147_subfig.jpg",
+    "full": "case_147_full.jpg"
+  },
+  "question": "Based on this radiograph, which is the most likely diagnosis?",
+  "question_scope": "subfigure",
+  "question_category": "Diagnosis",
+  "options": {
+    "A": "Dislocation of left bipolar hemiarthroplasty",
+    "B": "Periprosthetic femoral shaft fracture",
+    "C": "Aseptic loosening of femoral component",
+    "D": "Advanced left hip osteoarthritis"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for overall anatomy and the status of both hips. This is an AP pelvis radiograph showing a native right hip and a left femoral prosthesis (hemiarthroplasty) with a femoral stem and spherical prosthetic head.\n\nNext, I relate what I see to the question, which asks for the most likely diagnosis. On the left, the prosthetic femoral head is not seated within the acetabular fossa — it is displaced superolaterally, lying outside the acetabular margin rather than articulating concentrically with the socket. The femoral stem remains within the femoral canal and the prosthetic components appear intact.\n\nThen, I consider how each option lines up with those observations. A dislocation of the left bipolar hemiarthroplasty fits the clear malposition of the prosthetic head outside the acetabulum. A periprosthetic femoral shaft fracture would show cortical discontinuity or a clear fracture line of the femur, which is not seen. Aseptic loosening of the femoral component would typically show component subsidence or lucent lines around the stem; the stem here appears well seated without obvious migration. Advanced left hip osteoarthritis is not applicable because the joint is replaced and the radiograph demonstrates a displaced prosthetic head rather than degenerative joint space narrowing.\n\nTherefore, the imaging findings are most consistent with dislocation of the left hemiarthroplasty.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "X-ray (plain radiograph)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Postoperative anteroposterior pelvis radiograph demonstrating dislocation of bipolar hemiarthroplasty of the left hip",
+  "sub_caption": "Postoperative anteroposterior pelvis radiograph demonstrating dislocation of bipolar hemiarthroplasty of the left hip",
+  "image_context": "Forty days postoperatively, the patient was readmitted to our orthopaedic department complaining of acute left hip pain and inability to bear weight. No previous fall was reported. Radiographic evaluation revealed a dislocation of the left hip hemiarthroplasty (Figure <xref ref-type=\"fig\" rid=\"cureus-0012-00000009044-i03\">3</xref>).).",
+  "relevant_image_context": "Forty days postoperatively, the patient was readmitted to our orthopaedic department complaining of acute left hip pain and inability to bear weight. No previous fall was reported. Radiographic evaluation revealed a dislocation of the left hip hemiarthroplasty (Figure 3)."
+}

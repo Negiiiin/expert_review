@@ -1,0 +1,31 @@
+{
+  "case_id": 224,
+  "images": {
+    "subfig": "case_224_subfig.jpg",
+    "full": "case_224_full.jpg"
+  },
+  "question": "What does the white arrow point to?",
+  "question_scope": "subfigure",
+  "question_category": "Annotation / marker interpretation",
+  "options": {
+    "A": "Cystic area in the duodenal wall",
+    "B": "Pancreatic pseudocyst adjacent to duodenum",
+    "C": "EUS transducer cross-section",
+    "D": "Vascular lumen (portal vein branch)"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the ultrasound image: there is a round echogenic ring with a central anechoic circle consistent with the EUS transducer and the duodenal lumen. Lateral to that lumen, the white arrow points to a well-defined, anechoic (black) round area with a thin surrounding wall that abuts the duodenal lumen.\n\nNext, I relate these findings to the question, which asks what the white arrow indicates. The lesion pointed to is confined to the wall region adjacent to the lumen and appears cystic (anechoic, round, thin-walled). It is not the transducer cross-section (the transducer is the central round structure), and it does not have the appearance of a tubular vascular channel or a connected vessel lumen. The anechoic, intramural appearance argues against a separate extramural mass lying outside the duodenal wall.\n\nThen, I consider the answer choices: the image appearance most closely matches a cystic area within the duodenal wall (option A). Therefore, based on the location (in the wall next to the lumen) and the sonographic cystic characteristics, the white arrow points to a cystic area in the duodenal wall.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Ultrasound",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "ultrasound"
+  ],
+  "caption": "EUS: Thickening of duodenal folds of inflammatory aspect and cystic areas inside the duodenal wall. EUS = Endoscopic ultrasound",
+  "sub_caption": "EUS: Thickening of duodenal folds of inflammatory aspect and cystic areas inside the duodenal wall. EUS = Endoscopic ultrasound",
+  "image_context": "In view of the diagnostic doubts, a EUS was requested, evidencing atrophic pancreas with heterogeneous lobular parenchyma suggestive of chronic pancreatitis and edema thickening of the duodenal wall, with loss of layer stratification and the presence of multiple cystic areas inside, all of them less than 2cm, suggestive of CDDW [<xref ref-type=\"fig\" rid=\"EUS-6-61-g003\">Figure 3</xref>].].",
+  "relevant_image_context": "In view of the diagnostic doubts, a EUS was requested, evidencing atrophic pancreas with heterogeneous lobular parenchyma suggestive of chronic pancreatitis and edema thickening of the duodenal wall, with loss of layer stratification and the presence of multiple cystic areas inside, all of them less than 2cm, suggestive of CDDW [Figure 3]."
+}

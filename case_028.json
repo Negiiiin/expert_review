@@ -1,0 +1,29 @@
+{
+  "case_id": 28,
+  "images": {
+    "subfig": "case_028_subfig.jpg",
+    "full": "case_028_full.jpg"
+  },
+  "question": "Based on this image, are the findings normal or abnormal?",
+  "question_scope": "subfigure",
+  "question_category": "Normal vs abnormal",
+  "options": {
+    "A": "Normal",
+    "B": "Abnormal"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image for overall cardiac anatomy and any focal abnormalities. The slice shows both ventricles in cross-section with the interventricular septum and the free walls of each ventricle visible.\n\nNext, I note the key abnormal features: the right ventricular free wall along the image edge is visibly thickened compared with the adjacent left ventricular myocardium, and there is a localized region of higher signal intensity within that right ventricular free wall. These findings represent a focal structural and signal change in the right ventricular myocardium on this image.\n\nThen I relate these observations to the question, which asks whether the findings are normal or abnormal. A normal study would show thin, uniform right ventricular myocardium without focal areas of altered signal. The observed focal thickening and abnormal signal intensity therefore are not consistent with a normal appearance.\n\nFinally, comparing the two answer choices, the image findings support that the study is abnormal.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "MRI",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "The characteristics of cardiovascular magnetic resonance. The CMR of II: 3. a–c shows the delayed enhancement scanning PSIR images of T1W, T1W-FS and Gd-DTPA on the body axis. These images indicate the thickening of the free wall of the right ventricle with fat signal (a T1W, red arrow, and high signal; b lipid pressure of T1W, blue arrow, and low signal). Gd-DTPA delayed enhancement scanning shows mild local enhancement, suggesting the change of myocardial fibrosis. The CMR of II: 5. d–f shows the delayed enhancement scanning PSIR images of T1W, T1W-FS and Gd-DTPA on the body axis. These images indicate the thickening of the free wall of the right ventricle with fat signal (a T1W, red arrow, and high signal; b lipid pressure of T1W, blue arrow, and low signal). Figure g–i are the diastolic images of B-TFE film sequence for four-chamber heart, short-axis position and two-chamber heart of right ventricle, showing the obvious expansion of right atrium and right ventricular cavity",
+  "sub_caption": "The CMR of II: 3. a–c shows the delayed enhancement scanning PSIR images of T1W, T1W-FS and Gd-DTPA on the body axis. These images indicate the thickening of the free wall of the right ventricle with fat signal (a T1W, red arrow, and high signal; b lipid pressure of T1W, blue arrow, and low signal). Gd-DTPA delayed enhancement scanning shows mild local enhancement, suggesting the change of myocardial fibrosis.",
+  "image_context": "The CMR characteristics and echocardiogram (Fig. <xref rid=\"13023_2022_2348_Fig3_HTML\" ref-type=\"fig\">3</xref> and Table  and Table 1) of II: 5 showed obvious fat infiltration in the right ventricular free wall, decreased right ventricular wall motion, increased right ventricular volume and decreased overall systolic function, which met the main diagnostic criteria of ARVC/D. The free wall of the basal segment in the left ventricle had pericardial fat infiltration, while the left ventricular volume and the overall systolic movement were normal. There was also moderate tricuspid regurgitation.Fig. 3The characteristics of cardiovascular magnetic resonance. The CMR of II: 3. a–c shows the delayed enhancement scanning PSIR images of T1W, T1W-FS and Gd-DTPA on the body axis. These images indicate the thickening of the free wall of the right ventricle with fat signal (a T1W, red arrow, and high signal; b lipid pressure of T1W, blue arrow, and low signal). Gd-DTPA delayed enhancement scanning shows mild local enhancement, suggesting the change of myocardial fibrosis. The CMR of II: 5. d–f shows the delayed enhancement scanning PSIR images of T1W, T1W-FS and Gd-DTPA on the body axis. These images indicate the thickening of the free wall of the right ventricle with fat signal (a T1W, red arrow, and high signal; b lipid pressure of T1W, blue arrow, and low signal). Figure g–i are the diastolic images of B-TFE film sequence for four-chamber heart, short-axis position and two-chamber heart of right ventricle, showing the obvious expansion of right atrium and right ventricular cavity",
+  "relevant_image_context": "Fig. 3 The characteristics of cardiovascular magnetic resonance. The CMR of II: 3. a–c shows the delayed enhancement scanning PSIR images of T1W, T1W-FS and Gd-DTPA on the body axis. These images indicate the thickening of the free wall of the right ventricle with fat signal (a T1W, red arrow, and high signal; b lipid pressure of T1W, blue arrow, and low signal). Gd-DTPA delayed enhancement scanning shows mild local enhancement, suggesting the change of myocardial fibrosis."
+}

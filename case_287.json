@@ -1,0 +1,31 @@
+{
+  "case_id": 287,
+  "images": {
+    "subfig": "case_287_subfig.jpg",
+    "full": "case_287_full.jpg"
+  },
+  "question": "Based on this image, which anatomical structure is best demonstrated?",
+  "question_scope": "subfigure",
+  "question_category": "Anatomy / localization",
+  "options": {
+    "A": "Cervical esophagus",
+    "B": "Thoracic esophagus",
+    "C": "Gastric body/antrum",
+    "D": "Proximal duodenum"
+  },
+  "ground_truth_answer": "B",
+  "ground_truth_reasoning": "First, I examine the image: this is a lateral contrast radiograph of the chest/upper abdomen showing a vertical contrast column posterior to the heart and anterior to the vertebral bodies. The vertebral bodies and posterior ribs are visible, providing orientation that the contrast-filled tubular structure runs through the thorax rather than the neck or lower abdomen.\n\nNext, I relate these observations to the question which asks which anatomical structure is best demonstrated. The tubular contrast column lies within the thoracic portion of the body and follows the expected course of the esophagus as it descends behind the heart.\n\nThen I compare that appearance to the answer choices. The cervical esophagus would be higher in the neck and is not the region seen here. The gastric body/antrum and the proximal duodenum lie inferiorly in the abdomen and are not the primary structure delineated by the vertical contrast column in the thorax.\n\nFinally, the image most clearly demonstrates the esophageal segment within the thorax, so the thoracic esophagus is the best match to the visual findings.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Esophagography (barium swallow) with fluoroscopy",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "x-ray radiography"
+  ],
+  "caption": "Last esophagogram showing marked improvement at area of stricture with resolution of pre stenotic dilatation.",
+  "sub_caption": "Last esophagogram showing marked improvement at area of stricture with resolution of pre stenotic dilatation.",
+  "image_context": "In total, the patient had four dilatations in the 3rd, 4.5th, 6th, and 8th months post TEF repair. She has been followed-up in the clinic every 4–6weeks for about 20 months now. She continues to be asymptomatic and tolerating all types of food without any issues (<xref rid=\"gr3\" ref-type=\"fig\">Fig. 3</xref>).).Fig. 3Last esophagogram showing marked improvement at area of stricture with resolution of pre stenotic dilatation.Fig. 3",
+  "relevant_image_context": "In total, the patient had four dilatations in the 3rd, 4.5th, 6th, and 8th months post TEF repair. She has been followed-up in the clinic every 4–6weeks for about 20 months now. She continues to be asymptomatic and tolerating all types of food without any issues (Fig. 3).).Fig. 3Last esophagogram showing marked improvement at area of stricture with resolution of pre stenotic dilatation.Fig. 3 First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

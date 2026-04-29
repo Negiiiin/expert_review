@@ -1,0 +1,31 @@
+{
+  "case_id": 146,
+  "images": {
+    "subfig": "case_146_subfig.jpg",
+    "full": "case_146_full.jpg"
+  },
+  "question": "A patient with multiple focal hepatic tumors and preserved liver function (no cirrhosis or portal hypertension) is being considered for definitive surgical therapy. Based on this image, which operative strategy is most appropriate?",
+  "question_scope": "subfigure",
+  "question_category": "Surgery / operative management",
+  "options": {
+    "A": "Anatomic segmental resections plus intraoperative ablation",
+    "B": "Orthotopic liver transplantation",
+    "C": "Extended right hepatectomy",
+    "D": "Preoperative portal vein embolization then major hepatectomy"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the axial CT image for the number, size, and distribution of lesions and for background liver appearance. I see a large, heterogeneous mass occupying much of the right hepatic lobe and at least one smaller discrete lesion in the left hepatic lobe; the tumors are therefore multifocal and located in separate liver segments/lobes. The question statement also specifies preserved liver function with no cirrhosis or portal hypertension.\n\nNext, I relate these imaging findings to the surgical question: the goal is definitive therapy for multiple focal tumors in a patient with a noncirrhotic liver where parenchymal preservation is desirable.\n\nThen I consider how each option aligns with the image and clinical scenario. Option B (orthotopic liver transplantation) is discordant with the explicit absence of cirrhosis/portal hypertension and with the fact that the disease appears resectable in separate segments. Option C (extended right hepatectomy) would remove a large volume of liver to address the right-sided mass but would not treat the separate left-sided lesion without additional resection and would sacrifice more functional parenchyma than necessary. Option D (preoperative portal vein embolization then major hepatectomy) implies a planned large resection requiring hypertrophy of the remnant; given the preserved liver and lesions confined to discrete segments, staging with embolization and major hepatectomy appears excessive.\n\nFinally, Option A (anatomic segmental resections plus intraoperative ablation) directly fits the imaging: separate tumors in different segments can be managed by targeted anatomic segmental resections for resectable lesions combined with intraoperative ablation of smaller nodules, maximizing tumor clearance while preserving liver parenchyma. This approach is most consistent with the image and the stated preserved liver function.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Triphasic CT (Arterial Phase): Enhanced tumor (arrow) with hypodense center and fatty liver.",
+  "sub_caption": "Enhanced tumor (arrow) with hypodense center and fatty liver.",
+  "image_context": "A triple-phase CT scan showed a 9 x 9 cm mass in segments V/VI of the liver and two smaller lesions in segments III/IV with arterial enhancement, portal venous washout consistent with multifocal HCC, as well as hepatic steatosis (<xref ref-type=\"fig\" rid=\"gr-03-223-g001\">Fig.1</xref>). There were no signs of portal hypertension or cirrhosis. The liver biopsy confirmed the diagnosis of HCC, and the patient then underwent resection of liver segments III and V/VI and intraoperative radiofrequency of the remaining lesion.). There were no signs of portal hypertension or cirrhosis. The liver biopsy confirmed the diagnosis of HCC, and the patient then underwent resection of liver segments III and V/VI and intraoperative radiofrequency of the remaining lesion.",
+  "relevant_image_context": "A triple-phase CT scan showed a 9 x 9 cm mass in segments V/VI of the liver and two smaller lesions in segments III/IV with arterial enhancement, portal venous washout consistent with multifocal HCC, as well as hepatic steatosis. There were no signs of portal hypertension or cirrhosis. The liver biopsy confirmed the diagnosis of HCC, and the patient then underwent resection of liver segments III and V/VI and intraoperative radiofrequency of the remaining lesion."
+}

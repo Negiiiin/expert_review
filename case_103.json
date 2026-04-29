@@ -1,0 +1,32 @@
+{
+  "case_id": 103,
+  "images": {
+    "subfig": "case_103_subfig.jpg",
+    "full": "case_103_full.jpg"
+  },
+  "question": "A patient with epigastric pain underwent CT of the abdomen/pelvis and then upper endoscopy. Endoscopy led to initiation of intravenous antibiotics and a proton pump inhibitor. Based on the imaging and clinical course, which complication best explains the patient's presentation?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Perigastric abscess",
+    "B": "Diffuse peritonitis from free perforation",
+    "C": "Hepatic abscess",
+    "D": "Splenic laceration with hemorrhage",
+    "E": "Portal vein septic thrombosis"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the CT image: this is an axial contrast-enhanced abdominal CT at the level of the upper abdomen. The blue arrow points to a localized ovoid collection immediately posterior to the stomach/pyloric region (in the lesser sac), which shows fluid/soft-tissue density with a small internal gas locule and surrounding fat stranding.\n\nNext, I relate these imaging findings to the clinical details: the patient had epigastric pain, underwent upper endoscopy that found pus in the inferior pyloric region, and was started on IV antibiotics and a PPI — together these suggest a localized infected collection contiguous with the distal stomach/pylorus.\n\nThen I compare the image and clinical picture to the answer choices. A perigastric abscess fits well: a localized collection abutting the stomach with gas and surrounding inflammatory change explains the endoscopic finding of pus and the initiation of antibiotics. Diffuse peritonitis from free perforation (B) would be expected to show widespread free intraperitoneal air or diffuse fluid and more extensive peritoneal inflammation, which are not seen here. A hepatic abscess (C) would be within the liver; the liver in this image does not show a focal intrahepatic collection. Splenic laceration with hemorrhage (D) would show splenic parenchymal disruption or perisplenic fluid, not a perigastric collection. Portal vein septic thrombosis (E) would show an intraluminal filling defect in the portal vein; the finding here is a localized collection adjacent to the stomach rather than a vascular thrombus.\n\nTherefore, the imaging appearance and the endoscopic finding of pus are best explained by a perigastric abscess contiguous with the pyloric/distal gastric wall.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "Computed Tomography (CT)",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "CT of the abdomen and pelvis with portal venous contrast axial view on initial patient presentation. A foreign body is indicated by the arrow.",
+  "sub_caption": "CT of the abdomen and pelvis with portal venous contrast axial view on initial patient presentation. A foreign body is indicated by the arrow.",
+  "image_context": "A CTAP was performed and demonstrated a likely ulcer or partial FB perforation on the posterior wall of the gastric antrum, with regional lymphadenopathy (Figure <xref rid=\"cureus-0015-00000047186-i01\" ref-type=\"fig\">1</xref>). The patient proceeded to gastroscopy, which revealed pus in the inferior pyloric region without an obvious FB. The patient was started on intravenous antibiotics (piperacillin/tazobactam) and pantoprazole.). The patient proceeded to gastroscopy, which revealed pus in the inferior pyloric region without an obvious FB. The patient was started on intravenous antibiotics (piperacillin/tazobactam) and pantoprazole.",
+  "relevant_image_context": "A CTAP was performed and demonstrated a likely ulcer or partial FB perforation on the posterior wall of the gastric antrum, with regional lymphadenopathy (Figure 1). The patient proceeded to gastroscopy, which revealed pus in the inferior pyloric region without an obvious FB. The patient was started on intravenous antibiotics (piperacillin/tazobactam) and pantoprazole."
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": 17,
+  "images": {
+    "subfig": "case_017_subfig.jpg",
+    "full": "case_017_full.jpg"
+  },
+  "question": "Which structure is best identified in this image?",
+  "question_scope": "subfigure",
+  "question_category": "Findings / description only (no decision)",
+  "options": {
+    "A": "Denonvilliers' fascia",
+    "B": "Vas deferens",
+    "C": "Seminal vesicle",
+    "D": "Prostatic capsule"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for salient visual features. I see a thin, shiny membranous layer running across the midline that is highlighted by multiple blue arrows; it appears as a distinct fascial plane. On the right side there is a more tubular, cord-like structure near an instrument, and to the left/upper area there is a rounded lobulated mass, but neither of those are outlined as consistently as the midline membrane.\n\nNext, I relate these observations to the question, which asks which structure is best identified in this image among the four options.\n\nThen I consider how each option matches the visual findings. One option corresponds to a thin, midline fascial plane — that matches the prominently marked, translucent layer shown by the blue arrows. The tubular structure option matches the single cord-like structure on the right but it is less prominently demonstrated. The rounded lobulated structure option corresponds to the mass on the left but it is not as clearly delineated. The prostatic capsule is not visualized as a distinct structure in this view.\n\nFinally, weighing which structure is most clearly and consistently identified in the image, the midline fascial plane indicated by the blue arrows is the best match.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Endoscopy",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "surgical procedure"
+  ],
+  "caption": "Posterior prostatic dissection plane. Yellow arrow means vas deferens; blue arrows mean Denonvillier fascia; asterisk means seminal vesicles.",
+  "sub_caption": "Yellow arrow means vas deferens; blue arrows mean Denonvillier fascia; asterisk means seminal vesicles.",
+  "image_context": "In the antegrade approach of the intrafascial dissection starting from the 6 o'clock position, the surgeon may perform an easier plane because the Denonvilliers' fascia is thicker and is as a single layer at this level (<xref ref-type=\"fig\" rid=\"icu-57-S172-g004\">Fig. 4</xref>). During a ). During a high lateral approach, this plane can be more difficult to dissect due to the multilayered position of the fascias mainly at the posterolateral side of the prostate [17].",
+  "relevant_image_context": "In the antegrade approach of the intrafascial dissection starting from the 6 o'clock position, the surgeon may perform an easier plane because the Denonvilliers' fascia is thicker and is as a single layer at this level (Fig. 4). During a ). During a high lateral approach, this plane can be more difficult to dissect due to the multilayered position of the fascias mainly at the posterolateral side of the prostate [17]. First image below: full compound figure (all panels). Next image below: the subfigure for which to select relevant context."
+}

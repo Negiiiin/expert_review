@@ -1,0 +1,31 @@
+{
+  "case_id": 96,
+  "images": {
+    "subfig": "case_096_subfig.jpg",
+    "full": "case_096_full.jpg"
+  },
+  "question": "Which symptom is most likely for this patient based on the image?",
+  "question_scope": "full_figure",
+  "question_category": "Symptom",
+  "options": {
+    "A": "Food entrapment while chewing",
+    "B": "Painful swallowing (odynophagia)",
+    "C": "Nosebleeds (epistaxis)",
+    "D": "Hoarseness of voice"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image carefully. The photo shows an open mouth with a conspicuous patch of long, coarse hair projecting from the mucosal surface of the palate/oral roof and hanging down into the oral cavity. The hair is dense and clearly visible within the mouth, occupying the space where food would pass during chewing.\n\nNext, I relate these findings to the question, which asks which symptom is most likely given the image. The prominent intraoral hair would mechanically trap or entangle food during mastication, directly leading to difficulty with food clearing and entrapment while chewing.\n\nThen I consider how the other options align with the visual findings. Painful swallowing (odynophagia) would be suggested by mucosal ulceration, inflammation, or other mucosal injury, none of which are apparent in the image. Nosebleeds (epistaxis) involve the nasal cavity and are not supported by this oral finding. Hoarseness of voice implies laryngeal or vocal cord involvement, which cannot be inferred from this intraoral hair.\n\nFinally, tying the observations to the choices: the visible intraoral hair projecting into the chewing pathway most directly explains food entrapment while chewing, so option A is the best match.",
+  "modality": "Radiology",
+  "primary_modality": "Visible light photography",
+  "secondary_modality": "Dermatology",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "intraoral imaging"
+  ],
+  "caption": "Intraoral flap on palate with long, coarse, and dark hair",
+  "sub_caption": "Intraoral flap on palate with long, coarse, and dark hair",
+  "image_context": "An important though rare side effect of reconstruction surgery in oral cavity is persistent hair growth in the recipient site due to intact hair follicles.[1] Hair growth in the transplanted site may be due to the dominant nature of the underlying skin.[2] A 40-year-old male came to the dermatology outpatient department with a complaint of excessive hair growth in the oral cavity 2 months after oral reconstructive surgery. The patient was a diagnosed case of low flow vascular malformation palate. He had undergone palatal excision and reconstruction with left anterolateral thigh flap 2 months back. The graft took well only partially leaving a defect, and after 2 months of surgery, the patient returned to his surgeon to complain about the excessive hair growth on the flap and remnant palatal defect. He was referred to a dermatologist for opinion regarding hair removal at this unusual site. On examination of the oral cavity, we noted a large amount of hair on the flap which was used for repair of palatal defect. The hair was long, thick, and coarse [<xref ref-type=\"fig\" rid=\"IJT-9-43-g001\">Figure 1</xref>]. Posterior to the flap, an oval defect of 2 cm × 3 cm was appreciable []. Posterior to the flap, an oval defect of 2 cm × 3 cm was appreciable [<xref ref-type=\"fig\" rid=\"IJT-9-43-g002\">Figure 2</xref>]. The patient had difficulty in eating and chewing as the food got entangled in the tuft of hair. The patient had Fitzpatrick's skin Type 5 and had thick dark hair all over his body. He was advised to have laser intraoral hair removal, but he refused despite adequate explanations of the procedure.]. The patient had difficulty in eating and chewing as the food got entangled in the tuft of hair. The patient had Fitzpatrick's skin Type 5 and had thick dark hair all over his body. He was advised to have laser intraoral hair removal, but he refused despite adequate explanations of the procedure.",
+  "relevant_image_context": "An important though rare side effect of reconstruction surgery in oral cavity is persistent hair growth in the recipient site due to intact hair follicles. Hair growth in the transplanted site may be due to the dominant nature of the underlying skin. A 40-year-old male came to the dermatology outpatient department with a complaint of excessive hair growth in the oral cavity 2 months after oral reconstructive surgery. The patient was a diagnosed case of low flow vascular malformation palate. He had undergone palatal excision and reconstruction with left anterolateral thigh flap 2 months back. The graft took well only partially leaving a defect, and after 2 months of surgery, the patient returned to his surgeon to complain about the excessive hair growth on the flap and remnant palatal defect. He was referred to a dermatologist for opinion regarding hair removal at this unusual site. On examination of the oral cavity, we noted a large amount of hair on the flap which was used for repair of palatal defect. The hair was long, thick, and coarse [Figure 1]. The patient had difficulty in eating and chewing as the food got entangled in the tuft of hair. The patient had Fitzpatrick's skin Type 5 and had thick dark hair all over his body. He was advised to have laser intraoral hair removal, but he refused despite adequate explanations of the procedure."
+}

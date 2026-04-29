@@ -1,0 +1,31 @@
+{
+  "case_id": 27,
+  "images": {
+    "subfig": "case_027_subfig.jpg",
+    "full": "case_027_full.jpg"
+  },
+  "question": "Six months after abdominal surgery, a patient underwent contrast-enhanced CT for routine postoperative follow-up. Which postoperative complication is least likely given the imaging?",
+  "question_scope": "subfigure",
+  "question_category": "Complication or adverse event",
+  "options": {
+    "A": "Splenic infarction",
+    "B": "Splenic abscess",
+    "C": "Portal vein thrombosis",
+    "D": "Pancreatic fistula"
+  },
+  "ground_truth_answer": "A",
+  "ground_truth_reasoning": "First, I examine the image for findings in the spleen and splenic vessels. The provided axial contrast-enhanced CT shows a homogenously enhancing spleen without focal low-attenuation (no wedge-shaped or non-enhancing areas) and the splenic vein is opacified with contrast, indicating patency on this slice. I also look for perisplenic or intraparenchymal fluid/air collections and rim-enhancing lesions; none are evident on this image.\n\nNext, I relate these observations to the question, which asks which postoperative complication is least likely given the imaging. An infarction of the spleen would be expected to show regions of absent or reduced enhancement; that is not seen here. A splenic abscess would typically appear as a focal fluid collection or rim-enhancing lesion within or adjacent to the spleen; no such collection is visible on this scan. Portal vein thrombosis would require visualization of thrombus within the portal vein (not well assessed on this single slice), and a pancreatic fistula would commonly manifest with peripancreatic fluid collections—neither of which are clearly demonstrated on the image provided.\n\nThen, I consider how each option lines up with the image: the spleen is well perfused and the splenic vein is patent, making splenic infarction unlikely; there is no imaging evidence of an abscess or perisplenic collection on this slice; portal vein thrombosis and pancreatic fistula cannot be confirmed or excluded from this single axial image but are not directly contradicted. \n\nIn summary, because the spleen enhances uniformly and the splenic vein is patent on the CT image, splenic infarction is the least likely complication given these imaging findings.",
+  "modality": "Radiology",
+  "primary_modality": "Radiology",
+  "secondary_modality": "CT",
+  "image_primary_label": [
+    "Clinical Imaging"
+  ],
+  "image_secondary_label": [
+    "computerized tomography"
+  ],
+  "caption": "Computed tomography (CT) scan that was performed six months after surgery, revealed the patency of the splenic artery and vein.",
+  "sub_caption": "Computed tomography (CT) scan that was performed six months after surgery, revealed the patency of the splenic artery and vein.",
+  "image_context": "The patient had no postoperative complications, including no pancreatic fistula. A pathohistology of the resected stomach demonstrated no residual cancer and no dissected lymph node metastasis (Stage I). A pathohistology of the resected pancreas demonstrated that the tumor was a NET, G1. He needed to stay in the hospital for 26 days postoperatively to recover from the surgical stress and to regain control of his blood glucose levels. Six months after surgery, an enhanced CT scan revealed the patency of the splenic artery and vein and no infarction of the spleen (<xref rid=\"gr5\" ref-type=\"fig\">Fig. 5</xref>).).",
+  "relevant_image_context": "Six months after surgery, an enhanced CT scan revealed the patency of the splenic artery and vein and no infarction of the spleen (Fig. 5)."
+}
